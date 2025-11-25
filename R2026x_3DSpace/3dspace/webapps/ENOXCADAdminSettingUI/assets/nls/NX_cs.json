@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Uložit",
+  "NXOpenGroupLabel": "Otevřeno",
+  "NXToolkitLicenseGroupLabel": "Dostupnost překladače MultiCAD STEP",
+  "NXMissingLinksWarningLabel": "Uložit soubor s chybějícími referencemi",
+  "NXMissingLinksWarningInfo": "Když je tato možnost aktivována, zobrazí se varování, pokud budou v relaci NX během operace Uložit chybět některé podřízené návrhy. Pokud je tato možnost deaktivována, bude operace Uložit pokračovat bez varování.",
+  "NXSuppressPatternElementsLabel": "Potlačit prvky pole",
+  "NXSuppressPatternElementsInfo": "Když je tato možnost aktivována, potlačí toto nastavení prvky pole, takže se hlavní části pole nezobrazí v dialogovém okně Uložit. Pokud je tato možnost deaktivována, díl si zachovává vztah k hlavní části pole a vytvoří vztah MakeFrom.",
+  "NXSTEP242LicenseAvailableLabel": "Dostupnost překladače MultiCAD STEP",
+  "NXSTEP242LicenseAvailableInfo": "Nastavení určující, jestli se při otevírání návrhů multiCAD do relace NX používá překladač STEP AP214 nebo STEP AP242. Výchozí hodnota: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "CAD atribut mapovaný na EIN",
+  "NXCADAttributeMappedToEINInfo": "Pokud je zadána hodnota pro tento atribut, bude funkce povolena, CAD soubor označíme tímto atributem a jeho hodnota bude EIN fyzického výrobku.",
+  "EnterpriseItemNumberGroupLabel": "Číslo podnikové položky",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Odfiltrovat technické položky 3DEXPERIENCE bez geometrie a bez podřízených uzlů",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Odfiltrujte technické položky 3DEXPERIENCE bez geometrie a bez podřízených uzlů."
+}

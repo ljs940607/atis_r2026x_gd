@@ -1,0 +1,23 @@
+/** FUN131296 */
+div.shown:not(.fitted) .X3DSEAR_AP {
+  container: sidePanel / inline-size;
+}
+@container (width < 700px) {
+  div.onesearch_sortcontent>div>button.wux-controls-combobox-mainelement>span {
+    display: none;
+  }
+  div.onesearch_sortcontent>div>button.wux-controls-combobox-mainelement .wux-comboBox-icon-placeholder {
+    margin-right: 0px !important;
+  }
+  div.onesearch_sortcontent>.wux-controls-combobox[touch-mode] .wux-controls-combobox-expander {
+    width: 0px;
+  }
+}
+
+/** IR-1308717-3DEXPERIENCER2024x - define space allocated by Tab feature. */
+@container (width > 959px) { /* For 3DD */  
+  div.column.right.shown div.onesearch_tabbed_results.onesearch_tabbed_results-root div.wux-controls-abstract.wux-controls-tabBar.wux-ui-is-rendered.wux-controls-tabbar-strip {
+    margin-left: 120px;
+    margin-right: 90px; /* IR-1308717-3DEXPERIENCER2025x */    
+  }
+}

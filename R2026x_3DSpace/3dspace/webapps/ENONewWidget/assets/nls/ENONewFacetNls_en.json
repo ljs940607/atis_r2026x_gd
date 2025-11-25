@@ -1,0 +1,11 @@
+{
+	"defaultFacetCreate" : "Properties",
+	"classificationFacet" : "Classifications",
+	"revisionFacet" : "Revision",
+	"ENONewEINFacet": "Enterprise Item Number",
+	"releaseSnapshotFacet" : "Release Snapshot Template",
+    "MaterialFacet" : "Material",
+	"filesFacet": "Files",
+	"thumbnailFacet":"Thumbnail"
+
+}

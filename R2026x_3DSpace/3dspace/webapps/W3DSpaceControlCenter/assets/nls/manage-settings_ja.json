@@ -1,0 +1,19 @@
+{
+  "addUsersToCS": "すべての新規ユーザーに へのアクセス権を付与",
+  "associateLeaderOwner": "リーダーと所有者を関連付け",
+  "cancel": "キャンセル",
+  "deployementSection": "新規ユーザーのデプロイメント",
+  "errorFetch": "エラー。サーバーからデータを取得できません",
+  "errorSave": "後で再試行してください。変更内容は保存されていません。",
+  "givecreationright": "すべての新規ユーザーがコラボレーション スペースを作成することを許可",
+  "giveCreationtoXapps": "xApps にアクセスするユーザーのための個人用コラボレーション スペースを作成",
+  "invitation": "設定を管理",
+  "manageVisibility": "表示設定を管理",
+  "publicReader": "公開データ閲覧者",
+  "reader": "閲覧者",
+  "restrictedRoles": "制限付きレスポンシビリティ",
+  "rolesAvailability": "利用可能なレスポンシビリティ",
+  "save": "保存",
+  "successSave": "変更内容が正常に保存されました",
+  "visibility": "所有者アクセス レスポンシビリティでコラボレーション スペースの表示設定を管理することを許可"
+}

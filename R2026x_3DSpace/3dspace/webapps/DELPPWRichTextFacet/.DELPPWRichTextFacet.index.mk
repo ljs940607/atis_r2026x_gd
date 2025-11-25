@@ -1,0 +1,14 @@
+m|DELPPWFacets\DELPPWRichTextFacet.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25223|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWRichTextFacet\DELPPWRichTextFacet.js|1731552719|3100
+s|DELPPWFacets\DELPPWRichTextFacet.mweb\src\DELRichTextFacet.js|1731000896|1237
+t|win_b64\webapps\DELPPWRichTextFacet\assets\css\RichTextFacet.css|1754944881|1452
+s|DELPPWFacets\DELPPWRichTextFacet.mweb\src\assets\css\RichTextFacet.css|1754471940|1452
+u|DELPPWFacets\DELPPWRichTextFacet.mweb\src\RichTextFacetController.js|1730998084|1572
+u|DELPPWFacets\DELPPWRichTextFacet.mweb\src\RichTextFacetModel.js|1731000920|3693
+u|DELPPWFacets\DELPPWRichTextFacet.mweb\src\RichTextFacetUI.js|1731057546|4831
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

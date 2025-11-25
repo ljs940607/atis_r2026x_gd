@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Analyse le JSON donné pour générer un objet.",
+  "description": "Ce bloc étant dynamique, le type d'objet des données d'entrée peut être modifié à l'aide de la boîte de dialogue Configuration du bloc.",
+  "dataPorts": {
+    "JSON": "JSON à analyser.",
+    "Object": "l'objet généré."
+  },
+  "controlPorts": {
+    "In": "déclenche l'exécution du bloc.",
+    "Out": "est activé lorsque le processus est terminé."
+  },
+  "example": null
+}

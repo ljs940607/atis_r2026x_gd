@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Analiza el JSON proporcionado para generar un objeto.",
+  "description": "Este bloque es dinámico, por lo que el tipo de matriz de los datos de entrada se puede cambiar en el cuadro de diálogo de configuración.",
+  "dataPorts": {
+    "JSON": "el JSON que se va a analizar.",
+    "Object": "el objeto generado."
+  },
+  "controlPorts": {
+    "In": "activa la ejecución del bloque.",
+    "Out": "se activa cuando se completa el proceso."
+  },
+  "example": null
+}

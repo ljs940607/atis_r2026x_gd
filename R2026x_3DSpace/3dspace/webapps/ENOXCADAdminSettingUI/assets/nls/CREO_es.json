@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Guardar",
+  "CREOOpenGroupLabel": "Abrir",
+  "CREOMissingLinksWarningLabel": "Guardar archivos a los que faltan referencias",
+  "CREOMissingLinksWarningInfo": "Si esta opción está activada, aparecerá una advertencia si falta algún diseño secundario durante la operación Guardar en la sesión de Creo Parametric. Cuando está desactivada, la operación Guardar continuará sin la advertencia.",
+  "CREOPartFamilyInstanceHandlingLabel": "Gestión de instancias de familias de piezas de Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Determina el procesamiento de las instancias de la tabla de la familia de piezas de Creo durante el guardado: <br><strong>PartFamilyInstanceLight</strong> - Los archivos XPR se generan solo para las instancias activas. <br><strong> PartFamilyInstanceLoaded</strong> - Los archivos XPR se generan para todas las instancias.",
+  "CREOCADAttributeMappedToEINLabel": "Atributo CAD asignado a EIN",
+  "CREOCADAttributeMappedToEINInfo": "Cuando se especifique un valor para este atributo, la función se activará y el archivo CAD se marcará con este atributo y su valor será el EIN del producto físico.",
+  "EnterpriseItemNumberGroupLabel": "Número de elemento empresarial",
+  "PartFamilyInstanceLight": "InstanciaLigeraFamiliaPiezas",
+  "PartFamilyInstanceLoaded": "InstanciaFamiliaPiezasCargada",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Filtrar elementos de ingeniería de 3DEXPERIENCE sin geometría ni nodos secundarios",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Filtrar elementos de ingeniería de 3DEXPERIENCE sin geometría ni nodos secundarios."
+}

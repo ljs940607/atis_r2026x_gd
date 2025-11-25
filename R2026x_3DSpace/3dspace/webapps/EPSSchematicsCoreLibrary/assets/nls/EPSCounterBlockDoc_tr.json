@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "summary": "Her <doc-icp-name translate=no>Loop In</doc-icp-name> etkinleştirmesinde bir sayaç değerini artırır ve <doc-ocp-name translate=no>End</doc-ocp-name> bitiş sayım değerine ulaşana kadar döngüye devam eder.",
+  "description": "Veri bağlantı noktası değer tipi <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype> olabilir ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir",
+  "dataPorts": {
+    "Start": "sayacın başlangıç sayım değeri.",
+    "End": "sayaç tarafından ulaşılacak bitiş sayım değeri.",
+    "Step": "sayacın artış adımı değeri.",
+    "Current Count": "sayaçtaki geçerli adım."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Loop In": "sonraki döngüyü tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir (<doc-idp-name translate=no>End</doc-idp-name> bitiş sayım değerine ulaşıldığında).",
+    "Loop Out": "işlemin döngüye girmesi gerektiğinde etkinleştirilir (<doc-idp-name translate=no>End</doc-idp-name> bitiş sayım değerine henüz ulaşılmadığında)."
+  },
+  "example": null
+}

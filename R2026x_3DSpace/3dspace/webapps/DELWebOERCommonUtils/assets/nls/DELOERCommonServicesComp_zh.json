@@ -1,0 +1,6 @@
+{
+  "Warn.Timeout.Message": "Web 服务请求超时，您可以增加超时时间或稍后再试",
+  "Error.SecurityContextNotAvailable.Message": "用户凭据目前不可用。您可以联系管理员以验证凭据。",
+  "Warn.SecurityContextInvalid.Message": "您的当前凭据不可访问。将改用您的首选凭据。您可以在小组件首选项中验证凭据。",
+  "Error.ServiceNotFound.Message": "{service} 服务不可访问。如果问题仍然存在，您可以联系管理员。"
+}

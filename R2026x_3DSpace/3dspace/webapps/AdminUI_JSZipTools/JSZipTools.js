@@ -1,0 +1,1 @@
+define("DS/AdminUI_JSZipTools/JSZipTools",(function(){}));

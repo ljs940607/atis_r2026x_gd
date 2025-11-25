@@ -1,0 +1,1 @@
+define("DS/KnowledgeWebCoreComm/KnowledgeWebCoreComm_ko",{});define("DS/KnowledgeWebCoreComm/assets/nls/KnowledgeWebCoreComm",{ConnectionLost:"다시 연결하는 중..."});

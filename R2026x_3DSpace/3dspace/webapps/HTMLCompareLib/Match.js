@@ -1,0 +1,1 @@
+define(["require","exports"],(function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.NoMatch=void 0,t.NoMatch={size:0,startInNew:0,endInNew:0,endInOld:0,startInOld:0}}));

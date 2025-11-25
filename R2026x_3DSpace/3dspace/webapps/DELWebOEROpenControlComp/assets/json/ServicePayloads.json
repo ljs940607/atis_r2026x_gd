@@ -1,0 +1,186 @@
+{
+    "expandV2": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "ProgressiveExpand_For_Install_BoundingBox",
+                    "root": {
+                        "physical_id": ""
+                    },
+                    "filter": {
+                        "all": 1
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:label",
+                "ds6w:type"
+            ],
+            "hits": {
+                "predefined_computation": [
+                    "boundingbox"
+                ]
+            },
+            "format": "entity_relation_occurrence"
+        }
+    },
+    "publicVolumeFilterSpec": {
+        "rootID": "",
+        "rootAlias": "",
+        "specification": {
+            "title": "Filter.VolumeFilter.DisplayName",
+            "description": "",
+            "referencedObject": {
+                "identifier": ""
+            },
+            "filter": {
+                "combinationOfSpecification": "union",
+                "keepChildren": true,
+                "filterSpecifications": [
+                    {
+                        "filterCriteria": [
+                            {
+                                "criteriaType": "volume",
+                                "allVolumes": [
+                                    {
+                                        "combination": "any",
+                                        "allVolumes": [
+                                            {
+                                                "parameters": {
+                                                    "root_path_physicalid": [
+                                                        [
+                                                            ""
+                                                        ]
+                                                    ],
+                                                    "type": "box",
+                                                    "intersection_mode": "partly_in",
+                                                    "corner_min": [
+                                                        "0.0",
+                                                        "0.0",
+                                                        "0.0"
+                                                    ],
+                                                    "corner_max": [
+                                                        "0",
+                                                        "0",
+                                                        "0"
+                                                    ],
+                                                    "transformation_matrix": [
+                                                        1,
+                                                        0,
+                                                        0,
+                                                        0,
+                                                        1,
+                                                        0,
+                                                        0,
+                                                        0,
+                                                        1,
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ]
+                                                },
+                                                "displayName": "Volume With Offset"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "applyFilter": 1,
+        "displayFilter": 0
+    },
+    "volumeFilter": {
+        "parameters": {
+            "root_path_physicalid": [
+                [
+                    ""
+                ]
+            ],
+            "type": "box",
+            "intersection_mode": "partly_in",
+            "corner_min": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ],
+            "corner_max": [
+                "0",
+                "0",
+                "0"
+            ],
+            "transformation_matrix": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        "displayName": "Filter.VolumeFilter.DisplayName"
+    },
+    "publicUnitFilterSpec": {
+        "rootID": "RootId",
+        "specification": {
+            "title": "Filter.UnitFilter.DisplayName",
+            "referencedObject": {
+                "identifier": "RootId"
+            },
+            "filter": {
+                "combinationOfSpecification": "union",
+                "keepChildren": true,
+                "filterSpecifications": [
+                    {
+                        "filterCriteria": [
+                            {
+                                "criteriaType": "config",
+                                "configurationFilterDefinition": {
+                                    "version": "0.2",
+                                    "volatileFilter": {
+                                        "version": "0.3",
+                                        "filterType": "Configuration Volatile Filter",
+                                        "filteringView": "Current",
+                                        "filteringMode": "Strict",
+                                        "filterSelection": {
+                                            "model": {
+                                                "name": "ModelName",
+                                                "identifier": "ModelId"
+                                            },
+                                            "criteria": [
+                                                {
+                                                    "unit": {
+                                                        "name": "ModelName",
+                                                        "selections": [
+                                                            {
+                                                                "single": "buildNumber"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "applyFilter": 1,
+        "displayFilter": 0
+    }
+}

@@ -1,0 +1,1 @@
+define("DS/CfgDictionary/CfgDictionary_tr",{});define("DS/CfgDictionary/assets/nls/CfgDictionary",{option:"seçenek",rule:"kural",value:"değer",variability_group:"değişkenlik grubu",variant:"varyant"});

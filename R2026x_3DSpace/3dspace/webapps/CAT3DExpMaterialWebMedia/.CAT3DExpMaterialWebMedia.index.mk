@@ -1,0 +1,11 @@
+m|XCTWebExperienceModel\CAT3DExpMaterialWebMedia.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25164|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DExpMaterialWebMedia\CAT3DExpMaterialWebMedia.js|1749879870|10695
+s|XCTWebExperienceModel\CAT3DExpMaterialWebMedia.mweb\src\extensions\CATE3DXMaterialApplicationVisuMedia.js|1749655561|7859
+u|XCTWebExperienceModel\CAT3DExpMaterialWebMedia.mweb\src\extensions\CATE3DXMaterialAssetMedia.js|1703239202|2909
+u|XCTWebExperienceModel\CAT3DExpMaterialWebMedia.mweb\src\extensions\CATE3DXMaterialVisuMedia.js|1749655561|10908
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

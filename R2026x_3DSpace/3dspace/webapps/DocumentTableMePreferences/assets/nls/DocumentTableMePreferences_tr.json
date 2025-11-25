@@ -1,0 +1,97 @@
+{
+  "views": {
+    "viewLabel": "Görünüm"
+  },
+  "commandMenu": {
+    "default": "Varsayılan görünüm",
+    "root": "Tablo görünümleri",
+    "admin": "Yönetici görünümleri",
+    "user": "Görünümlerim",
+    "widget": "Yerel görünüm"
+  },
+  "columns": {
+    "column_name": "Sütun adı",
+    "attType": "Öznitelik tipi",
+    "colName": "Sütun adı",
+    "pin": "Sabitle",
+    "visibility": "Görünürlük",
+    "hide_show": "Gizle/Göster",
+    "findinctx": "Bul",
+    "thumbnail": "Önizleme",
+    "thumbnails": "Önizleme",
+    "matrixtxt": "Konum Matrisi",
+    "typeName": "Tip",
+    "extName": "Çeki"
+  },
+  "attributeCategoriesNodes": {
+    "COMMON_COLUMNS": "Ortak Sütunlar",
+    "TYPE_COLUMNS": "Tip Sütunları",
+    "EXTENSION_COLUMNS": "Uzantı Sütunları"
+  },
+  "ViewManager": {
+    "pinLeft": "Sola Sabitle",
+    "pinRight": "Sağa Sabitle",
+    "unpinned": "Sabitleme",
+    "title": "Seçili sütunlar: "
+  },
+  "AttributeManager": {
+    "title": "Kullanılabilir sütunlar: "
+  },
+  "CreateViewPane": {
+    "createview": "Görünüm oluştur",
+    "message1": "Kullanıcı veya yönetici görünümü yok.",
+    "message2": "Yeni yönetici görünümleri oluşturmak için:",
+    "message3": "1. Document Management Widget'ını açın.",
+    "message4": "2. Yönetici kimlik bilgileriyle Tablo Görünümünü Yapılandır işlemini başlatın."
+  },
+  "columnsNls": {
+    "TITLE": "Başlık",
+    "NAME": "Ad",
+    "TYPE": "Tip",
+    "COLLABORATIVE_POLICY": "İş Birliği İlkesi",
+    "COLLABORATIVE_SPACE": "İş Birliği Alanı",
+    "REVISION": "Revizyon",
+    "IS_LATEST_REVISION": "Son Revizyondur",
+    "FILES": "Dosyalar",
+    "LOCK_STATUS": "Kilit Durumu",
+    "DESCRIPTION": "Tanım",
+    "ORGANIZATION": "Kuruluş",
+    "OWNER": "Sahip",
+    "ORIGINATOR": "Oluşturucu",
+    "MATURITY": "Olgunluk",
+    "CREATION_DATE": "Oluşturma Tarihi",
+    "MODIFIED_DATE": "Değiştirilme Tarihi",
+    "COMMENTS": "Yorumlar",
+    "FILE_TYPE": "Dosya Tipi",
+    "APPROVAL_STATUS": "Onay Durumu"
+  },
+  "COPY_OF": "Kopya:",
+  "AdminViewSaveMessage1": "Yönetici görünümü olarak kaydetmek istiyor musunuz?",
+  "AdminViewSaveMessage2": "Aksi takdirde, Kullanıcı görünümü olarak saklanır",
+  "ViewAlreadyExistWarning": "\"{newViewLabel}\" görünümü zaten var.",
+  "MaxViewLimitReachedTitle": "Sınır Aşıldı",
+  "MaxViewLimitReachedMsg": "En fazla 4 {viewType} görünümü oluşturabilirsiniz.",
+  "commands": {
+    "addview": {
+      "title": "Görünüm oluştur",
+      "message1": "En fazla 4 kullanıcı görünümü oluşturabilirsiniz.",
+      "message2": "Her biri için en fazla 4 kullanıcı/yönetici görünümü oluşturabilirsiniz."
+    },
+    "removeview": {
+      "title": "Görünümü Kaldır",
+      "message": "Seçili görünümü kaldırır."
+    },
+    "addColumn": {
+      "title": "Sütun ekle",
+      "message": "Seçili sütunlara sütun ekler."
+    },
+    "removeColumn": {
+      "title": "Sütunu kaldır",
+      "message": "Seçili sütunlardan sütunu kaldırır."
+    },
+    "confirm": "Onayla",
+    "cancel": "İptal"
+  },
+  "createNewView": "Yeni Görünüm Oluştur",
+  "Default": "Varsayılan"
+}

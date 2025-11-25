@@ -1,0 +1,15 @@
+m|WebVisualization\Animation.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Animation\Animation.js|1723277514|8365
+s|WebVisualization\Animation.mweb\src\AbstractAnimation.js|1515422780|12151
+u|WebVisualization\Animation.mweb\src\ANIM.js|1426168213|2474
+u|WebVisualization\Animation.mweb\src\Animation.js|1425399678|1
+u|WebVisualization\Animation.mweb\src\AnimationEngine.js|1426168213|3246
+u|WebVisualization\Animation.mweb\src\AnimationGroup.js|1485263279|10201
+u|WebVisualization\Animation.mweb\src\AnimationPath.js|1426168213|5737
+u|WebVisualization\Animation.mweb\src\PropertyAnimation.js|1458644102|6070
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

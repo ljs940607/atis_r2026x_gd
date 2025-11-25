@@ -1,0 +1,1 @@
+define("DS/ENOChgOSLCConsumer/ENOChgOSLCConsumer_cs",{});define("DS/ENOChgOSLCConsumer/assets/nls/ECMOSLC",{ECM_OSLC_Select_Reported_Against:"Vyberte možnost Hlášeno proti",ECM_OSLC_Select_External_Change:"Vybrat externí změnu",ECM_OSLC_Create_External_Change:"Vytvořit externí změnu"});

@@ -1,0 +1,38 @@
+{
+  "afrService": false,
+  "afrAppId": "ENOR3D_AP",
+  "afrFamily": "PAD3DViewerWAFRFamily",
+  "afrSpecializations": [
+    "ENOR3D_AP",
+    "ENOR3D_AP_2D",
+    "ENOR3D_AP_2DFL",
+    "ENOR3D_AP_Document",
+    "ENOR3D_AP_Workplan",
+    "ENOR3D_AP_Req",
+    "ENOR3D_AP_MSR",
+    "ENOR3D_AP_PIM",
+    "ENOR3D_AP_R2V",
+    "ENOR3D_AP_R2V3D",
+    "R3DFormat_AP_3D",
+    "R3DFormat_AP_R2V",
+    "R3DFormat_AP_2D",
+    "R3DFormat_AP_MSR",
+    "R3DFormat_AP_Workplan",
+    "ENOR3D_AP_2DTable"
+  ],
+  "afrTransitionsFrom": {
+    "ENOR3D_AP": {
+      "type": "CreateNewContainer"
+    }
+  },
+  "afrTransitionsFromFamily": {
+    "PAD3DViewerWAFRFamily": {
+      "type": "ReuseContext"
+    }
+  },
+  "afrTransitionsTo": {
+    "_default_": {
+      "type": "CreateNewContainer"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "View.Title": "视图",
+  "Tools.Title": "工具",
+  "Real.Title": "现实世界数据",
+  "appDescription": "以轻松高效的方式浏览 3D 模型",
+  "rootFrozen": "转换后会话被冻结",
+  "transitionRefusedStaticMapping": "目标应用程序不支持实例化产品配置",
+  "transitionRefusedFlexibleAssemblies": "目标应用程序不支持柔性装配体",
+  "transitionRejectedInV2": "无法进行过渡。作为变通措施，您可以固定创建的新小组件，并使用小组件链接将其绑定到控制面板的任何其他小组件。有关小组件链接的更多详细信息，请参阅文档。",
+  "maskApplicationLoading": "应用程序正在加载",
+  "refreshInProgress": "应用程序正在刷新"
+}

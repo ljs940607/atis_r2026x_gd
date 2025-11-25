@@ -1,0 +1,10 @@
+{
+  "title": "Bericht zur Verwaltung der Harmonisierung",
+  "statusTag": "Status",
+  "startDateTag": "Beginn der Verarbeitung",
+  "estimatedDateTag": "Geschätztes Datum für die nächste Verarbeitung",
+  "processedObjectTag": "Verarbeitete Objekte",
+  "currentOpTag": "Verarbeitete Operationen",
+  "totalOpTag": "Gesamtanzahl der zu verarbeitenden Vorgänge",
+  "durationTag": "Dauer der letzten Verarbeitung"
+}

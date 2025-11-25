@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+
+        <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+        <script type="text/javascript" src="../c/UWA/js/UWA_W3C_Alone.js"></script>
+
+        <script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+        <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+        <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+        <script type="text/javascript" src="rte/jquery-latest.js"></script>
+		<script type="text/javascript" src="rte/emxUIRTE.js"></script>
+		<script type="text/javascript" src="rte/emxUIRTEToolbar.js"></script>
+		<script type="text/javascript" src="rte/emxUIConstants.js"></script>
+    </head>
+    <body>
+	    <script type="text/javascript">
+	    
+	    //find frame
+	    var frameList = ['AWLMasterCopyAuthoring','AWLMasterCopyApproval','AWLLocalCopyAuthoring','AWLLocalCopyApproval'];
+	    var frameName,
+	    	that=this;
+	    for(var i=0;i<frameList.length;i++) {
+	    	frameName = findFrame(that.parent.opener,frameList[i]);
+			if(frameName)
+				break;
+	    }
+		if(!frameName) {
+			frameName = findFrame(this.parent.opener,'content');
+		}
+	    
+	    require(
+	    	["DS/ENOStructureCopy/ENOStructureCopy"],
+	    	function(AWLNutritionFactsApp) {
+	    		var nutritionId = (location.search.split('nutritionId=')[1]||'').split('&')[0];
+	    		var type = (location.search.split('type=')[1]||'').split('&')[0];
+	    		var awlNutritionFactsApp = new AWLNutritionFactsApp({'nutritionId':nutritionId,'type':type,'frameName':[frameName]});
+	    		awlNutritionFactsApp.inject(document.body);
+	    	}
+	    );
+	    </script>
+    </body>
+</html>

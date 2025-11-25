@@ -1,0 +1,45 @@
+{
+  "supported_types": [
+    "VPMReference",
+    "DELFmiFunctionReference",
+    "DELLmiPPRSystemReference",
+    "DELLmiPPRHeaderProcessReferenceAbstract"
+  ],
+  "unsupported_types": [
+    "PPRContext"
+  ],
+  "unsupported_multiroot_process_types": [
+    "DELLmiPPRSystemReference",
+    "DELLmiPPRHeaderProcessReferenceAbstract"
+  ],
+  "sharedSettings": [
+    "pad_security_ctx",
+    "enopad3dviewer_CGRorTHB",
+    "enopad3dviewer_displayCandidateQueue",
+    "enopad3dviewer_displayCandidateQueue_color",
+    "pgpFromServer",
+    "synthesisModeOnInstance"
+  ],
+  "Attributes": {
+    "CorpusTypeToComponentMap": {
+      "process": [
+        "PROCESS"
+      ],
+      "mfgItem": [
+        "MBOM",
+        "PROCESS_MBOM"
+      ],
+      "resource": [
+        "RESOURCE",
+        "PROCESS_RESOURCE"
+      ],
+      "product": [
+        "PRODUCT"
+      ],
+      "serviceItem": [
+        "SBOM",
+        "PROCESS_SBOM"
+      ]
+    }
+  }
+}

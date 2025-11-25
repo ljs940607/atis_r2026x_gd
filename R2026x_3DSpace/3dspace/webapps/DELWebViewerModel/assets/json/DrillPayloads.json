@@ -1,0 +1,107 @@
+{
+    "resultingProduct": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "Resulting Product Drill Expand V2 Call",
+                    "root": {
+                        "physical_id": "<PhysicalId>"
+                    },
+                    "filter": {
+                        "all": 1
+                    },
+                    "graph": {
+                        "descending_condition_relation": {
+                            "uql": "((taxonomies:*DELFmiFunctionIdentifiedInstance*)) OR ((type:DELFmiProcessOutputPrereqMaterializationCnx))"
+                        }
+                    },
+                    "aggregation_processors": [
+                        {
+                            "truncate": {
+                                "match_only_refs": 0,
+                                "sequence_filter": {
+                                    "sequence": [
+                                        {
+                                            "uql": "((taxonomies:*Drill*) OR ((type:DELFmiProcessOutputPrereqMaterializationCnx)))"
+                                        },
+                                        {
+                                            "statement": "NEXT"
+                                        },
+                                        {
+                                            "uql": "((type:DELFmiProcessOutputPrereqMaterializationCnx))"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "outputs": {
+            "select_relation": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType"
+            ]
+        }
+    },
+    "drills": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "Drill Expand V2 Call",
+                    "root": {
+                        "physical_id": "<PhysicalId>"
+                    },
+                    "filter": {
+                        "all": 1
+                    },
+                    "graph": {
+                        "descending_condition_relation": {
+                            "uql": "((taxonomies:*DELFmiFunctionIdentifiedInstance*)) OR ((type:DELFmiProcessOutputPrereqMaterializationCnx))"
+                        }
+                    },
+                    "aggregation_processors": [
+                        {
+                            "truncate": {
+                                "match_only_refs": 0,
+                                "sequence_filter": {
+                                    "sequence": [
+                                        {
+                                            "uql": "((type:DetailedFasten)) OR ((taxonomies:*Drill*))"
+                                        },
+                                        {
+                                            "statement": "END"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:label",
+                "ds6w:type",
+                "taxonomies"
+            ],
+            "select_relation": [
+                "physicalid",
+                "ds6w:globalType",
+                "ds6w:type",
+                "matrixtxt",
+                "pathsr"
+            ],
+            "format": "entity_relation_occurrence",
+            "hits": {
+                "predefined_computation": [
+                    "boundingbox"
+                ]
+            }
+        }
+    }
+}

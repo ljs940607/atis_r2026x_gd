@@ -1,0 +1,1 @@
+define("DS/DMUCompareVisu/DMUCompareVisu_tr",{});define("DS/DMUCompareVisu/assets/nls/DMUCompareVisu",{compareNotify_onemodel:"Tek bir modelle karşılaştırma yapılamaz",compareNotify_nomodel:"Karşılaştırılacak ürün yok"});

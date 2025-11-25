@@ -1,0 +1,15 @@
+m|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWItemModelPlugins\DELPPWItemModelPlugins.js|1757132696|49554
+s|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\BI\BIMakeBuyPlugin.js|1754910971|6636
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\BI\BIMakeBuyUtils.js|1754910955|6544
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\BI\BIPlugin.js|1756629290|12273
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\BI\BIUtils.js|1756629295|15066
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\ImplementPlugin\ImplementBase.js|1755083710|55387
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\ImplementPlugin\ProductImplementPlugin.js|1755083686|70235
+u|DELPPWItemPlugins\DELPPWItemModelPlugins.mweb\src\MfgItem\MfgItemPlugin.js|1756387551|20036
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

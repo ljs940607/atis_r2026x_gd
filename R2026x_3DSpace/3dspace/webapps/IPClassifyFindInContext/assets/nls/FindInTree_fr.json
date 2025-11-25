@@ -1,0 +1,19 @@
+{
+  "placeholder_findInTree": "Rechercher dans",
+  "toolTip": "Rechercher dans l'arbre",
+  "loader": {
+    "retrievingPaths": "Récupération des chemins...",
+    "formulatingPaths": "Formulation des chemins..."
+  },
+  "msg_warning_TreeTagger_ClosingThefind": {
+    "Title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "Details": "Fermeture de l'opération Rechercher dans l'arbre, car le filtre 6Wtags est appliqué à l'arbre alors que l'opération était toujours en cours."
+  },
+  "msg_info_limit_FindInTree": {
+    "title": "Nombre maximal de résultats atteint.",
+    "subtitle": "Affinez les critères de recherche et réessayez.",
+    "message": "Le nombre de résultats est limité à 100."
+  },
+  "msg_info_searchCompleted": "La recherche est terminée.",
+  "msg_info_No_Occurrence": "Aucune occurrence du ou des objets n'a été trouvée."
+}

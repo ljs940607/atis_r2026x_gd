@@ -1,0 +1,1 @@
+define("DS/ENOStructureCopy/Class/Model",["UWA/Core","UWA/Class/Model","DS/ENOStructureCopy/utils/RequestUtils"],(function(e,t,n){"use strict";return t.extend({parse:function(e){if(e)return e.result?e.result:e},sync:function(t,s,r){return this.dispatchEvent("onSyncing",[this]),this._parent(t,s,e.merge({ajax:n.send3DSpaceRequestSimple.bind(n)},r))}})}));

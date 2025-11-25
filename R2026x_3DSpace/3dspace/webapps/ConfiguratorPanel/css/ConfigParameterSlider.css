@@ -1,0 +1,17 @@
+.config-editor-slider-container .wux-controls-slider:not(.wux-controls-slider-vertical) .wux-controls-slider-container {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+.config-editor-slider-container .wux-controls-slider-bgFilled {
+  border-color: #000000;
+  background: repeating-linear-gradient(45deg, transparent, transparent 1px, #ccc 1px, #484848 2px), linear-gradient(to bottom, #eee, #999); }
+  .config-editor-slider-container .wux-controls-slider-bgFilled.config-slider-bgUpperBound {
+    right: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px; }
+.config-editor-slider-container .config-min-max-container {
+  height: 18px;
+  width: 10px; }
+  .config-editor-slider-container .config-min-max-container .config-min-max-value {
+    position: absolute; }

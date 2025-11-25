@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_cs",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"{0} je neplatná hodnota",areInvalid:"{0} jsou neplatné",idNumber:"Identifikační číslo",ssnLast4:"Poslední 4 číslice SSN"});

@@ -1,0 +1,1 @@
+define("DS/ENOOSLCIssueConsumer/ENOOSLCIssueConsumer_tr",{});define("DS/ENOOSLCIssueConsumer/assets/nls/ENOOSLCIssueConsumer",{SelectExternalRequirementPopupTitle:"Harici Gereksinim Seç",SelectExternalChangeRequestPopupTitle:"Harici Değişiklik Talebi Seç"});

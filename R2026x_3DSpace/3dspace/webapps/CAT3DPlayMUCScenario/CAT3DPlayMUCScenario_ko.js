@@ -1,0 +1,1 @@
+define("DS/CAT3DPlayMUCScenario/CAT3DPlayMUCScenario_ko",{});define("DS/CAT3DPlayMUCScenario/assets/nls/CAT3DPlayMUCRegister",{MUC_Title:"구속조건에서 이동",MUC_Description:"구속조건에서 이동"});

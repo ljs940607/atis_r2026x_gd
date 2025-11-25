@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Новая деталь",
+"ENONewPartHdr.ShortHelp":"Создание новой детали.",
+"ENONewPartHdr.LongHelp":"В диалоговом окне введите заголовок, требуемые атрибуты, если они имеются, и, при необходимости, выберите шаблон, чтобы выбрать главный элемент CAD. Нажмите <uicontrol>Создать и закрыть</uicontrol>, чтобы создать только одну деталь, или <uicontrol>Создать</uicontrol>, чтобы создать еще одну.",
+"ENOInsertNewPartHdr.Title":"Вставить новую деталь",
+"ENOInsertNewPartHdr.ShortHelp":"Создание новой детали и ее добавление в качестве дочернего элемента в выбранные объекты.",
+"ENOInsertNewPartHdr.LongHelp":"<p>В диалоговом окне введите заголовок и, при необходимости, выберите шаблон, чтобы выбрать главный элемент CAD. Нажмите <uicontrol>Создать и закрыть</uicontrol>, чтобы создать только одну деталь, или <uicontrol>Создать</uicontrol>, чтобы создать еще одну.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

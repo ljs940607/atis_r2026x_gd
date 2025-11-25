@@ -1,0 +1,7 @@
+body.widget-error-fadeout-body {
+  background-color: #f9f9f9;
+}
+
+body.widget-error-fadeout-body > div:not(.alert.passport-error-unauthed-client) {
+  display: none;
+}

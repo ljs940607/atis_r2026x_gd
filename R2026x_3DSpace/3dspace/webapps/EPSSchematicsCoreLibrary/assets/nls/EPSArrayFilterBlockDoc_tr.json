@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizinin bir bölümünün kopyasını, yalnızca sağlanan grafik tarafından uygulanan testi geçen elemanlara kadar filtrelenmiş şekilde oluşturur.",
+  "description": "Her eleman için sağlanan grafiği çağırarak belirli bir diziyi filtreler ve yalnızca kontrol bağlantı noktasının karşılık gelen grafik tarafından <doc-ocp-name translate=no>True</doc-ocp-name> olarak etkinleştirildiği öğeleri korur.<br>Bu blok, herhangi bir <doc-idp-name translate=no>ArrayIn</doc-idp-name> dizi tipini herhangi bir çıktı dizisi tipi olarak filtreleyebilir. <br>Filtreleme işleminin sağlanması için dahili grafiğin düzenlenmesi gerekir.",
+  "dataPorts": {
+    "ArrayIn": "Filtrelenecek girdi dizisi. <br>Bu veri bağlantı noktası, tüm dizi tiplerini işler.",
+    "SharedData": "Her bir dahili grafik örneği arasında paylaşılacak veriler. <br>Bu veri bağlantı noktası, tüm tipleri işler. <br>Farklı tiplerde birden çok verinin paylaşılması gerekiyorsa bir kullanıcı tipinin oluşturulması önerilir.",
+    "ArrayOut": "Filtrelenmiş çıktı dizisi. <br>Bu veri bağlantı noktası, tüm dizi tiplerini işler. <br>Bu dizinin boyutu, <doc-idp-name translate=no>ArrayIn</doc-idp-name> dizi boyutunu aşmaz.",
+    "State": "<doc-valuetype translate=no>Success</doc-valuetype> çıktı dizisinin her bir indeksinde <doc-odp-name translate=no>EExecutionState</doc-odp-name> veren bir <doc-odp-name translate=no>ArrayFilterState</doc-odp-name> dizisi. <br>Bu dizinin boyutu, her zaman <doc-idp-name translate=no>ArrayIn</doc-idp-name> dizi boyutuna eşit olur.",
+    "Progress": "<doc-valuetype translate=no>ArrayIn</doc-valuetype> girdi dizisinin her bir indeksinde <doc-odp-name translate=no>EExecutionState</doc-odp-name> veren bir <doc-odp-name translate=no>ArrayFilterProgress</doc-odp-name> dizisi. <br>Bu dizi, bloğun arkasındaki dağıtım işlemine bağlı olarak bir ilerleme sırasında birden çok veriyle doldurulabilir. <br>Ancak bu dizinin boyutu, <doc-idp-name translate=no>Input</doc-idp-name> dizi boyutunu aşmaz.",
+    "Error": "<doc-valuetype translate=no>ArrayIn</doc-valuetype> girdi dizisinin indeksi için bir hata nesnesi veren bir <doc-odp-name translate=no>ArrayFilterError</doc-odp-name> dizisi. <br>Bu dizinin boyutu, <doc-idp-name translate=no>ArrayIn</doc-idp-name> dizisinin boyutunu aşmaz."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Success": "işlem başarıyla tamamlandığında etkinleştirilir.",
+    "Progress": "her ilerleme gerçekleştiğinde etkinleştirilir.",
+    "Error": "bir hata oluştuğunda etkinleştirilir."
+  },
+  "example": null
+}

@@ -1,0 +1,1 @@
+define("DS/MPFBusinessExperienceDevPlatform/MPFBusinessExperienceDevPlatform_ko",{});define("DS/MPFBusinessExperienceDevPlatform/assets/nls/MPFBusinessExperienceDevPlatform",{errorDoNotUseEmail:"trigramme를 사용하여 새 개발 플랫폼을 생성하십시오."});

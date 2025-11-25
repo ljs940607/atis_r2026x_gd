@@ -1,0 +1,1 @@
+define("DS/DMUReviewFacets/DMUReviewFacets_ja",{});define("DS/DMUReviewFacets/assets/nls/DMUReviewFacets",{noHighlight:"選択したレビューには高輝度表示が含まれていません",noCheck:"選択したレビューにはチェックが含まれていません",noMember:"選択したレビューにはメンバーが含まれていません",multiMembers:"複数オブジェクトの選択はサポートされていません",membersPanelHeaderTitle:"寄与",contributionValue:{NotStarted:"未開始",OnGoing:"進行中",Completed:"完了済み"}});

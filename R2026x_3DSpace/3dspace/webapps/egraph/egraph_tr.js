@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_tr",{});define("DS/egraph/assets/nls/translation",{pan:"Kaydır",zoomArea:"Alanı yakınlaştır",zoomOut:"Uzaklaştır",zoomIn:"Yakınlaştır",zoomReset:"Yakınlaştırmayı sıfırla",zoomFit:"Sığacak şekilde yakınlaştır"});

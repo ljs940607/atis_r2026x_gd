@@ -1,0 +1,33 @@
+{
+	"__comment__":"recommended no. of characters in translated word for SpeedControlResetLabel is 5-7.",
+	"SpeedControlResetLabel":"Reset",
+	"SpeedControlErrorTitle":"Invalid playback speed",
+	"SpeedControlErrorMsg":"Enter a number greater than 0.",
+	
+	"buttonLoop.tooltipInfos.title":"Loop Mode",
+	"buttonLoop.tooltipInfos.shortHelp":"Repeats the animation continuously.",
+	
+	"buttonStepBackward.tooltipInfos.title":"Step Backward",
+	"buttonStepBackward.tooltipInfos.shortHelp":"Steps the animation backward one frame.",
+	
+	"buttonPlay.tooltipInfos.title":"Play Forward",
+	"buttonPlay.tooltipInfos.shortHelp":"Plays the animation from the frame where it is currently stopped.",
+	
+	"buttonPause.tooltipInfos.title":"Pause",
+	"buttonPause.tooltipInfos.shortHelp":"Pauses the animation when playing.",
+	
+	"buttonStepForward.tooltipInfos.title":"Step Forward",
+	"buttonStepForward.tooltipInfos.shortHelp":"Steps the animation forward one frame.",
+	
+	"autoCompleteSpeedControl.tooltipInfos.title":"Speed Factor",
+	"autoCompleteSpeedControl.tooltipInfos.shortHelp":"Specifies the speed in which to play the animation.",
+	
+	"buttonChoose.tooltipInfos.title":"Choose Animation",
+	"buttonChoose.tooltipInfos.shortHelp":"Displays a list of available animations for the product, and lets you choose the animation to play.",
+	
+	"buttonClose.tooltipInfos.title":"Close",
+	"buttonClose.tooltipInfos.shortHelp":"Closes the animation player."
+}
+
+
+

@@ -1,0 +1,1 @@
+define("DS/XCT25DExperience/XCT25DExperience_zh-TW",{});define("DS/XCT25DExperience/assets/nls/XCT25DExperience",{noTransitionsAvailable:"目前檔案中沒有可用的轉場。",frameDoesNotExist:"含索引 [{frameIndex}] 的框架不存在。",variantDoesNotExist:"含索引 [{variantIndex}] 的變體不存在。",splashInstructions:"長按以預覽。拖曳以旋轉。",loadingMedia:"正在載入媒體",apiIsNotInitialized:"API 尚未初始化"});

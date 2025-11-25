@@ -1,0 +1,19 @@
+{
+  "_type_expression": "Digitare espressione",
+  "correspondingClosingOperatorNotFound": "operatore di chiusura corrispondente non trovato",
+  "correspondingOpeningOperatorNotFound": "operatore di apertura corrispondente non trovato",
+  "error": "errore",
+  "inContextOF": "nel contesto di",
+  "isUnknown": "è sconosciuto",
+  "isUnknownFromDictionary": "non è presente nel dizionario",
+  "notExpectingToBeFollowedBy": "Non si prevede che verrà seguito da",
+  "unknown": "sconosciuto",
+  "missingComparisonOperatorInEval": "Operatore di confronto mancante nella valutazione",
+  "missingParameterInEval": "Parametro mancante nella valutazione",
+  "notExpectingSeveralComparisonOperatorsInEval": "Non si prevedono più operatori di confronto nella valutazione",
+  "notExpectedInEval": "Non previsto nella valutazione",
+  "notExpectedOutOfEval": "Non previsto come risultato della valutazione",
+  "parametersShouldHaveTheSameUnit": "I parametri devono avere la stessa unità da confrontare",
+  "parameterCannotBeComparedToItself": "Il parametro non può essere confrontato con se stesso",
+  "cannotStartExpressionWith": "Impossibile iniziare l'espressione con"
+}

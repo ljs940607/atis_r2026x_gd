@@ -1,0 +1,19 @@
+.sch-tweakers-filebuffer {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: Arial;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  flex: 0 1 auto;
+  word-wrap: normal;
+  word-break: normal;
+  font-size: 12px;
+}
+.sch-tweakers-filebuffer.sch-tweakers-filebuffer-readonly {
+  padding-left: 7px;
+}
+
+.wux-layouts-datagridview-cell .sch-tweakers-filebuffer.wux-tweakers {
+  display: inline-block;
+}

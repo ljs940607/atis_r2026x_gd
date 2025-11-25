@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"Nowy produkt",
+"ENONewProductHdr.ShortHelp":"Tworzy nowy produkt.",
+"ENONewProductHdr.LongHelp":"W oknie dialogowym wprowadź tytuł, wymagane atrybuty (jeśli występują) i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jeden produkt lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejny.",
+"ENOInsertNewProductHdr.Title":"Wstaw nowy produkt",
+"ENOInsertNewProductHdr.ShortHelp":"Utworzenie nowego produktu i dodanie go jako potomka do wybranych obiektów.",
+"ENOInsertNewProductHdr.LongHelp":"<p>W oknie dialogowym wprowadź tytuł i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jeden produkt lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejny.</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

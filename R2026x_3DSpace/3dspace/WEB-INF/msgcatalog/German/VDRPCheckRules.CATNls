@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="Nur Achsensystemreferenz kann unter Achsensystemreferenz aggregiert werden.";
+ValidationCheck2.Title="Die Gehäuse-Achsensystemreferenz kann nicht unter der Gehäuse-Achsensystemreferenz aggregiert werden.";
+ValidationCheck3.Title="Nur eine Achsensystemreferenz kann unter der Gehäuse-Achsensystemreferenz aggregiert werden.";
+ValidationCheck4.Title="Nur die Achsensystemreferenz kann unter der Gehäuseachsensystemreferenz aggregiert werden.";
+ValidationCheck5.Title="Produkt mit Positionierungsarchitektur konnte keine 3D Shape instanziieren.";
+ValidationCheck6.Title="Produkt mit Positionierungsarchitektur konnte Markup nicht instanziieren.";

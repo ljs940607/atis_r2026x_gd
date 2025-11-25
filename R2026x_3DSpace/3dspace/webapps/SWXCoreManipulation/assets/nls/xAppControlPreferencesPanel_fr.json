@@ -1,0 +1,17 @@
+{
+  "MouseControlPreferences": {
+    "Title": "Sélection de préférence",
+    "Profiles": {
+      "Title": "Contrôle de la souris",
+      "Description_part_1": "Sélectionnez la façon dont vous manipulez les vues 3D avec votre souris dans les applications de visualisation et de modélisation 3D.",
+      "Description_part_2": "Pour obtenir de meilleurs résultats avec les applications de modélisation 3D de <b>CATIA</b> ou <b>SOLIDWORKS</b>, choisissez les préférences de contrôle de la souris qui correspondent aux applications que vous utilisez.",
+      "Description_part_3": "Vous pouvez modifier ce paramètre à tout moment en accédant à vos préférences dans la barre d'onglets de 3DDashboard.",
+      "SOLIDWORKS": "SOLIDWORKS",
+      "CATIA": "CATIA",
+      "3DEXPERIENCE": "3DEXPERIENCE"
+    },
+    "Information": {
+      "Description": "Toutes les applications de visualisation et de modélisation 3D basées sur navigateur utiliseront les préférences de contrôle de la souris que vous sélectionnez.\n\nLes options de contrôle de la souris sont disponibles pour les utilisateurs de CATIA et SOLIDWORKS, car les mouvements de souris de ces applications sont sensiblement différents pour travailler avec des modèles 3D.\n\nPour tous les autres utilisateurs, l'option 3DEXPERIENCE utilise des méthodes standard pour zoomer et faire pivoter les modèles."
+    }
+  }
+}

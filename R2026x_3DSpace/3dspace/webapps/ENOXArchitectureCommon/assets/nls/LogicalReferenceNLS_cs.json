@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nová logická reference"
+  },
+  "message": {
+    "confirm_detach_instance": "Opravdu chcete odpojit vybrané instance?",
+    "confirm_reparent": "Níže uvedené odkazy budou znovu opětovně zařazeny pod nadřazený objekt "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Opětovné zařazení referencí pod nadřazený objekt se nezdařilo",
+    "reparent_cyclic": "Tento nový nadřazený objekt je již uložen v seznamu opětovného zařazení referencí pod nadřazený objekt. Vymažte existující výběr, abyste se vyhnuli cyklické struktuře."
+  },
+  "success": {
+    "reparent": "Opětovné zařazení pod nadřazený objekt proběhlo úspěšně"
+  }
+}

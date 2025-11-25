@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "Marketplace {rolesText}",
+  "userSearch": "사용자 검색",
+  "userRoles": "사용자 역할",
+  "loginEmail": "역할을 부여하려는 사용자의 로그인 또는 이메일을 입력하십시오.",
+  "rolesGranted": "이 사용자에게 부여할 역할을 선택하십시오. 역할이 동적으로 부여됨:",
+  "noUserSelected": "선택된 사용자가 없습니다.",
+  "noUserFound": "사용자가 없습니다.",
+  "userSearchFailed": "사용자 검색 실패",
+  "unableToSaveRoleModification": "역할 수정 사항을 저장할 수 없습니다.",
+  "enterEmailOrLogin": "여기에 이메일 또는 로그인 입력 ...",
+  "makeSeller": "판매자 만들기",
+  "engineeringSeller": "엔지니어링 판매자",
+  "partSupplySeller": "PartSupply 판매자",
+  "innovateSeller": "판매자 혁신"
+}

@@ -1,0 +1,23 @@
+{
+  "Notification.UnsupportedVersion": "Tento soubor SMG pochází z verze aplikace Composer, která již není podporována (starší než verze V6R2015x)",
+  "Notification.OlderVersionWithBadImagePreview": "Tento soubor SMG pochází ze starší verze aplikace Composer. Doporučujeme soubory znovu vygenerovat pomocí nejnovější verze aplikace Composer, jinak se vám při sdílení bude vytvářet špatný náhled.",
+  "Notification.GeomLoadingFailed": "Při extrakci geometrií došlo k chybě, obsah souboru SMG může být neúplný.",
+  "Notification.SmgOpenFailed": "Soubor SMG nejde otevřít",
+  "Notification.SmgOpenFailedPassword": "Soubor SMG je chráněn heslem a nelze jej otevřít.",
+  "Notification.SmgGeomNotFound": "Soubor produkt.smgGeom se nepodařilo najít",
+  "Notification.SmgExpiration": "Soubor SMG nejde otevřít: datum již uplynulo",
+  "Notification.SmgInvalidSignature": "Soubor SMG nejde otevřít: neplatný podpis",
+  "Notification.error": "Chyba",
+  "Notification.warning": "Varování",
+  "Notification.Donotshowagain": "Již nezobrazovat",
+  "Notification.ArrowOldVersion.Title": "Konverze starých šipek",
+  "Notification.ArrowOldVersion.Msg": "Byla zjištěna jedna nebo několik nepodporovaných šipek (vytvořených před verzí 2012). Byly převedeny na podporované šipky, které se zobrazí v aktuální webové aplikaci. Z důvodu tohoto převodu upozorňujeme, že se jejich chování může lišit od verze pro stolní počítače. Tato zpráva se nezobrazí pro pozdější načítání modelů s nepodporovanými šipkami pro tuto relaci.",
+  "Property.EncryptedValue": "Šifrovaná hodnota",
+  "Notification.smgXmlResourcesNotFound": "Soubor se zdroji pro načtení souboru smgXml nebyl nalezen.",
+  "Notification.smgXmlSomeResourcesMissing": "Některé soubory uvedené v seznamu zdrojů nebyly nalezeny.",
+  "Sequence.Animation": "Animace",
+  "Sequence.Views": "Pohledy",
+  "Sequence.Layers": "Hladiny",
+  "Sequence.CADViews": "CAD pohledy",
+  "Sequence.CADCaptures": "CAD záznamy"
+}

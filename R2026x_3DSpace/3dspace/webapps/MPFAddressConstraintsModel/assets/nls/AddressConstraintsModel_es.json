@@ -1,0 +1,14 @@
+{
+  "addressLine1": "dirección",
+  "addressLine2": "dirección",
+  "addressLine3": "dirección",
+  "addressLine4": "dirección",
+  "city": "ciudad",
+  "county": "comarca",
+  "state": "estado",
+  "postalCode": "código postal",
+  "phoneNumber": "número de teléfono",
+  "country": "país",
+  "requiredError": "{0} es obligatorio",
+  "invalidError": "{0} no es válido"
+}

@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "正在查找术语..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "放置的对象不是浏览结构对象。",
+    "Advice": "请放置浏览结构或节点。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "无法在树中查找。",
+    "Advice": "将树扩展到该特定浏览节点",
+    "Details": "要查找的浏览节点在树中不可见。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "无法在树中查找。",
+    "Advice": "将浏览结构部分展开至第一级。",
+    "Details": "浏览结构部分下没有可见的浏览结构。"
+  },
+  "msg_info_limit_FindInTree": "已达到限制。查找限制设置为 100。",
+  "msg_info_limitToFindInRootNode": "在浏览结构中查找的限制设置为 200，将考虑前 200 个浏览结构。",
+  "msg_info_No_Occurrence": "未找到浏览结构的匹配项。"
+}

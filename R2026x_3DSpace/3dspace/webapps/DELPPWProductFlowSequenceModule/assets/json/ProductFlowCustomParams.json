@@ -1,0 +1,119 @@
+{
+    "attributes": {
+        "displayInfoOnFlow": "Disp_Info_Description",
+        "displayIcon": "Enabled",
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": true,
+                "maxWidth": "90"
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": null,
+                "maxWidth": "10"
+            },
+            {
+                "rowIndex": "5",
+                "mergeWithPreviousRow": null,
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "displayAttributeName": false,
+                "maxWidth": null
+            },
+            {
+                "rowIndex": "6",
+                "mergeWithPreviousRow": true,
+                "name": "DELLmiOperationReference.V_MeasuredTime",
+                "displayAttributeName": false,
+                "maxWidth": null
+            },
+            {
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "PLMInstance.PLM_ExternalID",
+                "displayAttributeName": true,
+                "maxWidth": null
+            },
+            {
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_description",
+                "displayAttributeName": null,
+                "maxWidth": "80"
+            },
+            {
+                "rowIndex": "7",
+                "mergeWithPreviousRow": null,
+                "name": "SequenceNumber",
+                "displayAttributeName": true,
+                "maxWidth": "80"
+            }
+        ]
+    },
+    "colors": {
+        "colorParamsList": [
+            {
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#bdf6fc",
+                "attributeValue": "---.000",
+                "ruleNumber": "1",
+                "name": "revision",
+                "attributeCondition": "Equal",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "headerBackgroundColor",
+                "color": "#d4ffb0",
+                "attributeValue": "Header 1",
+                "ruleNumber": "2",
+                "name": "PLMEntity.V_Name",
+                "attributeCondition": "NotEqual",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "tileBackgroundColor",
+                "color": "#fcbdbd",
+                "attributeValue": "10",
+                "ruleNumber": "3",
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "attributeCondition": "GreaterThanOrEqual",
+                "nodeType": "process"
+            },
+            {
+                "graphicalElement": "headerTextColor",
+                "color": "#ffc533",
+                "attributeValue": "5",
+                "ruleNumber": "4",
+                "name": "DELLmiOperationReference.V_MeasuredTime",
+                "attributeCondition": "LessThanOrEqual",
+                "nodeType": "process"
+            }
+        ]
+    },
+    "pageAspectRatio" : [
+        {
+            "label"     : "A3 Landscape",
+            "height"    : 297,
+            "width"     : 420
+        },
+        {
+            "label"     : "A3 Portrait",
+            "height"    : 420,
+            "width"     : 297
+        },
+        {
+            "label"     : "Tablet",
+            "height"    : 16,
+            "width"     : 9
+        },
+        {
+            "label"     : "Laptop 16\"",
+            "height"    : 9,
+            "width"     : 16
+        }
+    ]
+}

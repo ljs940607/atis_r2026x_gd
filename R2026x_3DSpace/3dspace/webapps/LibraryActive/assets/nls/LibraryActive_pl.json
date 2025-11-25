@@ -1,0 +1,25 @@
+{
+  "activeClassification_cmd": "Aktywna klasyfikacja",
+  "name_Section_FavoriteLibraries": "Ulubione",
+  "name_Section_AllLibraries": "Biblioteki",
+  "activeClassification_hover_access": "Dostęp",
+  "activeClassification_msg_empty": "Pusty",
+  "activeClassification_msg_noclassfoud": "Nie znaleziono klasyfikacji",
+  "activeClassification_btn_focus": "Skupienie na ustaleniu klasyfikacji",
+  "CMDExpandAll": "Rozwiń wszystko",
+  "CMDCollapseAll": "Zwiń wszystko",
+  "multiSelectionComponent": {
+    "button_OK": "Klasyfikuj",
+    "button_Cancel": "Anuluj",
+    "widget_name": "Klasyfikacja w bibliotekach",
+    "PLMNewLibraryWidgetName": "Wybierz klasy",
+    "PLMNewbutton_OK": "Wybierz",
+    "msg_ClassifyInProgress": "Klasyfikacja...",
+    "msg_ClassifySuccessful": "Pomyślnie sklasyfikowano.",
+    "msg_ClassifyFailed": "Wystąpił błąd podczas Klasyfikowania. Nie masz dostępu do opcji Klasyfikuj LUB istnieje już klasyfikacja w podanych Klasach.",
+    "msg_selectNodeToSeeInfo": "Wybierz Bibliotekę lub Klasę, aby zobaczyć szczegóły.",
+    "msg_selection_Incorrect": "Bieżący wybór nie jest prawidłowy, by móc uruchomić polecenie.",
+    "msg_info_favoriteadded": "Dodano „{name1}” do Ulubionych.",
+    "msg_info_favoriteremoved": "Usunięto „{name1}” z Ulubionych."
+  }
+}

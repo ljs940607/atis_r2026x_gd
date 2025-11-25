@@ -1,0 +1,15 @@
+m|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24342|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DExpVariantWebPlay\CAT3DExpVariantWebPlay.js|1733569350|6034
+s|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\extensions\StuEMaterialValuePrototypeBuild.js|1703239202|1287
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\StuProxy\StuCATI3DExpVariant.js|1681371130|611
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\StuProxy\StuCATI3DExpVariantValue.js|1681371130|637
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\StuVariantsManagerWeb.js|1733238251|8365
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\extensions\StuEVariantPrototypeBuild.js|1681371130|1466
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\extensions\StuEVariantValuePrototypeBuild.js|1681371130|1444
+u|XCTWebExperienceModelPlay\CAT3DExpVariantWebPlay.mweb\src\extensions\StuEVisibilityValuePrototypeBuild.js|1703239202|1299
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

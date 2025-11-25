@@ -1,0 +1,16 @@
+{
+  "title": "Titre",
+  "fileType": "Type de fichier",
+  "creationDate": "Date de création",
+  "revision": "Révision",
+  "owner": "Propriétaire",
+  "menu": "Menu",
+  "download": "Télécharger",
+  "downloadTitle": "Télécharger",
+  "downloadTooltip": "Télécharger le(s) fichier(s)/document(s) sélectionné(s)",
+  "openWith": "Ouvrir avec",
+  "openWithTitle": "Ouvrir avec",
+  "openWithTooltip": "Ouvrir le(s) fichier(s)/document(s) dans une application externe compatible",
+  "noDataGridDisplayed": "Il n'y a pas de documents exportés à afficher",
+  "errorWhenFetchingExportedDocuments": "Désolé, une erreur s'est produite lors de la récupération des documents exportés"
+}

@@ -1,0 +1,18 @@
+<vu-modal :title="$i18n('confirmation')" show  @close="closeModal" :noMobile="false">
+  <template #modal-body> 
+    <div class="end-call-confirm">
+      {{this.$store.getters.nls('refuseCall')}}
+    </div> 
+    </template>
+
+    <template #modal-footer>
+      <vu-btn
+        color="primary" @click="confirmHangup">
+        {{ $store.getters.nls('confirm') }}
+      </vu-btn>
+      <vu-btn
+        @click="closeModal">
+        {{ $store.getters.nls('cancel') }}
+      </vu-btn>
+  </template>
+</vu-modal>

@@ -1,0 +1,16 @@
+{
+	"CATI3DGeoVisu": "DS/CAT3DExpModel/interfaces/CATI3DGeoVisu",
+	"CATI3DXGraphicalProperties": "DS/CAT3DExpModel/interfaces/CATI3DXGraphicalProperties",
+	"CATIMovable": "DS/CAT3DExpModel/interfaces/CATIMovable",
+	"CATI3DExperienceObject": "DS/CAT3DExpModel/interfaces/CATI3DExperienceObject",
+	"CATI3DXVolatileEO": "DS/CAT3DExpModel/interfaces/CATI3DXVolatileEO",
+	"CATI3DXAssetHolder": "DS/CAT3DExpModel/interfaces/CATI3DXAssetHolder",
+	"CATICXPEnvironmentActivate": "DS/CATCXPModel/interfaces/CATICXPEnvironmentActivate",
+	"StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/interfaces/StuIPrototypeBuild",
+	"CATI3DXAmbienceAsset": "DS/CAT3DExpAmbienceModelWeb/interfaces/CATI3DXAmbienceAsset",
+	"CATI3DX3DActorAsset": "DS/CATCXPModel/interfaces/CATI3DX3DActorAsset",
+	"W3AIManager": "DS/WebApplicationBase/W3AIManager",
+	"XCTEWSIExperienceMgr": "DS/CAT3DExpModel/interfaces/XCTEWSIExperienceMgr",
+	"XCTEWSIPlayerOptionsMgr": "DS/CXP3DPlay/interfaces/XCTEWSIPlayerOptionsMgr",
+	"CATICXPActorsMgr": "DS/CATCXPModel/interfaces/CATICXPActorsMgr"
+}

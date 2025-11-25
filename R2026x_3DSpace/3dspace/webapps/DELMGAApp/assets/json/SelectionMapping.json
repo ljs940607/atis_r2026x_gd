@@ -1,0 +1,132 @@
+{
+  "selection": {
+    "ROUTINGS": [
+      "MANUFACTURING",
+      "RESOURCE"
+    ],
+    "MANUFACTURING": [
+      "ROUTINGS",
+      "RESOURCE"
+    ],
+    "RESOURCE": [
+      "ROUTINGS",
+      "MANUFACTURING"
+    ],
+    "AUXILIARY": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE"
+    ],    
+    "INSTCMDMOD": [
+      "ROUTINGS",
+      "AUXILIARY",
+      "MANUFACTURING",
+      "RESOURCE"
+    ],
+    "INSTCMDV2MOD": [
+      "ROUTINGS",
+      "AUXILIARY",
+      "MANUFACTURING",
+      "RESOURCE"
+    ],
+    "MFGPROCESSREPLACEMOD": [
+      "ROUTINGS",
+      "AUXILIARY",
+      "RESOURCE"
+    ],
+    "MOREATTRWZRD": [
+      "MBOM",
+      "AUXILIARY"
+    ],
+    "UDECMDMOD": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE"
+    ],
+    "DELCMDMOD": [
+      "ROUTINGS",
+      "AUXILIARY",
+      "MANUFACTURING",
+      "RESOURCE",
+      "RESPONSIBILITY"
+    ],
+    "CMDS": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "AUXILIARY",
+      "RESOURCE",
+      "RESPONSIBILITY"
+    ],
+    "LINKS": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE",
+      "AUXILIARY"
+    ],
+    "AUTHORLINKMOD": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE",
+      "AUXILIARY"
+    ],
+    "ExternalService" :[
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE",
+      "AUXILIARY"
+    ],
+    "FilterService" :[
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE"
+    ],
+    "EGRAPHMOD" : [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE",
+      "AUXILIARY"
+    ],
+    "PRODUCTFLOWMOD" : [
+      "ROUTINGS"
+    ],
+    "SWIMLANECHARTMOD" : [
+      "ROUTINGS"
+    ],
+    "PROPERTIES": [
+      "ROUTINGS",
+      "MANUFACTURING",
+      "RESOURCE",
+      "AUXILIARY",
+      "RESPONSIBILITY"
+    ],
+    "PROCESS_VALIDATION": [
+      "ROUTINGS"
+    ],
+    "MANAGECAPABLERESOURCESMOD": [
+      "ROUTINGS",
+      "MANAGECAPABLERESOURCESMOD"
+    ],
+	"OPS3DVIEWERMOD": [
+	  "ROUTINGS"
+	],
+  "VIEWER3DMOD": [
+	  "ROUTINGS",
+    "MANUFACTURING"
+	],
+  "REQUIREMENT_VIEW" : [
+    "REQUIREMENT_VIEW",
+    "ROUTINGS"
+  ],
+  "RESPONSIBILITY": [
+    "RESPONSIBILITY",
+    "MANUFACTURING",
+    "ROUTINGS"   
+  ],  
+  "RPPMOD": [
+    "ROUTINGS"
+  ],
+  "MFGITEMREPLACEMOD" : [
+    "MANUFACTURING"
+  ]
+  }
+}

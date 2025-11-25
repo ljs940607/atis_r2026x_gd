@@ -1,0 +1,10 @@
+{
+  "title": "Report gestione riconciliazione",
+  "statusTag": "Stato",
+  "startDateTag": "Avvio dell'elaborazione",
+  "estimatedDateTag": "Data stimata per elaborazione successiva",
+  "processedObjectTag": "Oggetti elaborati",
+  "currentOpTag": "Operazioni elaborate",
+  "totalOpTag": "Totale operazioni da elaborare",
+  "durationTag": "Durata dell'ultima elaborazione"
+}

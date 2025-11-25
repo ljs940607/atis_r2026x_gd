@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_ja",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"ビュー",NLS_ThumbnailView:"サムネイル ビュー",NLS_TileView:"タイル ビュー",NLS_DataGridView:"データグリッド ビュー",NLS_ListViewTitleColumnHeaderLabel:"タイトル"});

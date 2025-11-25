@@ -1,0 +1,10 @@
+{
+  "title": "調整管理レポート",
+  "statusTag": "ステータス",
+  "startDateTag": "処理の開始",
+  "estimatedDateTag": "次の処理の予定日",
+  "processedObjectTag": "処理済みオブジェクト",
+  "currentOpTag": "処理済みオペレーション",
+  "totalOpTag": "処理するオペレーションの合計",
+  "durationTag": "最後の処理の時間"
+}

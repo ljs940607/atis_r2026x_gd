@@ -1,0 +1,20 @@
+{
+  "phaseStartDateMustBeAfterPreviousPhaseEndDate": "Musí být pozdější než datum doručení předchozí fáze",
+  "phaseEndDateMustBeAfterStartDate": "Musí být pozdější než datum zahájení",
+  "selectedDateIsPast": "Vybrané datum je v minulosti",
+  "submitted": "Odesláno",
+  "quoted": "Zpracována cenová nabídka",
+  "confirmed": "Potvrzeno",
+  "processing": "Zpracování",
+  "ready": "Hotovo",
+  "delivered": "Dodáno",
+  "canceled": "Zrušeno",
+  "unknown": "Neznámé",
+  "errorDescriptionMissing": "Popis je povinný",
+  "errorStartDateMissing": "Datum zahájení je povinný údaj",
+  "errorEndDateMissing": "Datum ukončení je povinný údaj",
+  "errorPriceMissing": "Cena je povinný údaj",
+  "errorPriceFormat": "Formát ceny je nesprávný",
+  "errorPriceNotANumber": "Cena musí být číslo",
+  "errorPriceZeroOrNegative": "Cena musí být vyšší než 0"
+}

@@ -1,0 +1,1 @@
+define("DS/MPFMenuComponent/MPFMenuComponent_ko",{});define("DS/MPFMenuComponent/assets/nls/MenuComponent",{back:"뒤로",finish:"마침",loading:"로드 중",next:"다음"});

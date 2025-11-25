@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Neue logische Referenz"
+  },
+  "message": {
+    "confirm_detach_instance": "Möchten Sie die ausgewählten Instanzen wirklich trennen?",
+    "confirm_reparent": "Die unten stehenden Referenzen werden neu übergeordnet zu "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Referenzen konnten nicht neu übergeordnet werden",
+    "reparent_cyclic": "Dieses neue übergeordnete Element ist bereits in der Liste der Referenzen für die erneute Überordnung gespeichert. Löschen Sie die vorhandene Auswahl, um eine zyklische Struktur zu vermeiden."
+  },
+  "success": {
+    "reparent": "Erneute Überordnung erfolgreich"
+  }
+}

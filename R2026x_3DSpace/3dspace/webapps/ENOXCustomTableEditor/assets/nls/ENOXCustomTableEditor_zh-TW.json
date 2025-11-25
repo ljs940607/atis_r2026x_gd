@@ -1,0 +1,73 @@
+{
+  "columnChooser": {
+    "title": "可用屬性：",
+    "treeTitle": "屬性名稱",
+    "tooltips": {
+      "findDialog": "尋找屬性",
+      "moveFirst": "移至頂部",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "moveBottom": "移至底部",
+      "arrowRight": "在視圖中加入屬性",
+      "arrowLeft": "從視圖中移除屬性"
+    }
+  },
+  "component": {
+    "views": {
+      "ENO2D_DEFAULT": "預設視圖",
+      "ENO2D_CUSTO": "自訂視圖"
+    },
+    "tooltips": {
+      "addView": "加入新自訂視圖",
+      "editView": "編輯自訂視圖",
+      "removeView": "移除自訂視圖"
+    }
+  },
+  "columnGroups": {
+    "commonAttributes": "通用欄",
+    "typesAttributes": "類型欄",
+    "extsAttributes": "延伸欄",
+    "classifAttributes": "分類欄"
+  },
+  "columnsHardCoded": {
+    "thumbnail": "預覽",
+    "positionMatrix-Instance": "位置矩陣"
+  },
+  "selectedAtt": {
+    "title": "所選屬性： ",
+    "colName": "欄名稱",
+    "pin": "釘選",
+    "pinLeft": "釘選至左側",
+    "pinRight": "釘選至右側"
+  },
+  "dialog": {
+    "okBtn": "套用",
+    "cancelBtn": "取消"
+  },
+  "extensionChooser": {
+    "title": "類型和副檔名選擇器",
+    "selectionTypeTitle": "類型",
+    "selectionExtTitle": "副檔名",
+    "typeName": "類型",
+    "extName": "副檔名"
+  },
+  "localnls": {
+    "thumbnail": "預覽",
+    "thumbnails": "預覽",
+    "matrixtxt": "位置矩陣"
+  },
+  "warning": {
+    "tooManySelected": {
+      "title": "已達欄數上限",
+      "msg": "已授權的欄數上限為 {maxNumber} 欄"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "已存在視圖",
+      "msg": "已存在名稱為「{viewName}」的視圖"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "已存在視圖",
+      "msg": "已存在名稱為「{viewName}」的視圖"
+    }
+  }
+}

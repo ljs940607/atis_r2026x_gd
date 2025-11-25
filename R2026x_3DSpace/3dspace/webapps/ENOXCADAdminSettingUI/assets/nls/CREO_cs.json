@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Uložit",
+  "CREOOpenGroupLabel": "Otevřít",
+  "CREOMissingLinksWarningLabel": "Uložit soubor s chybějícími referencemi",
+  "CREOMissingLinksWarningInfo": "Když je tato možnost aktivována, zobrazí se varování, pokud budou v relaci Creo Parametric během operace Uložit chybět některé podřízené návrhy. Pokud je tato možnost deaktivována, bude operace Uložit pokračovat bez varování.",
+  "CREOPartFamilyInstanceHandlingLabel": "Zpracování instancí rodiny dílů Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Určuje zpracování instancí tabulky rodiny dílů Creo během ukládání: <br><strong>PartsFamilyInstanceLight</strong> – soubory XPR jsou generovány pouze pro aktivní instance.<br><strong> PartFamilyInstanceLoaded</strong> – soubory XPR jsou generovány pro všechny instance.",
+  "CREOCADAttributeMappedToEINLabel": "CAD atribut mapovaný na EIN",
+  "CREOCADAttributeMappedToEINInfo": "Pokud je zadána hodnota pro tento atribut, bude funkce povolena, CAD soubor označíme tímto atributem a jeho hodnota bude EIN fyzického výrobku.",
+  "EnterpriseItemNumberGroupLabel": "Číslo podnikové položky",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Odfiltrovat technické položky 3DEXPERIENCE bez geometrie a bez podřízených uzlů",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Odfiltrujte technické položky 3DEXPERIENCE bez geometrie a bez podřízených uzlů."
+}

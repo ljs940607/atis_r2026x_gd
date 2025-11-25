@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "Anzeige",
+    "MP_DEFAULT": "Standardansicht",
+    "MP_CUSTO": "Benutzerdefinierte Ansicht",
+    "copyOf": "Kopie von {MP_VIEW_NAME}"
+  },
+  "tooltip": {
+    "title": {
+      "check": "Bestätigen",
+      "cancel": "Abbrechen",
+      "reset": "Zurücksetzen",
+      "newView": "Neue Ansicht",
+      "editView": "Ansicht bearbeiten",
+      "removeView": "Ansicht löschen",
+      "addColumn": "Spalte hinzufügen",
+      "removeColumn": "Spalte entfernen",
+      "lockedColumn": "Spalte ist gesperrt",
+      "findInAtt": "Attribut suchen",
+      "addTypesAndExt": "Typen und Erweiterungen verwalten",
+      "moveUp": "Nach oben verschieben",
+      "moveDown": "Nach unten verschieben",
+      "moveTop": "Nach ganz oben verschieben",
+      "moveBottom": "Nach ganz unten verschieben"
+    },
+    "check": "Die aktuelle Aktion bestätigen.",
+    "reset": "Entfernen Sie alle Änderungen aus der Ansicht.",
+    "cancel": "Die aktuelle Aktion abbrechen.",
+    "findInAtt": "Suchen Sie ein Attribut nach allen verfügbaren Spalten.",
+    "addTypesAndExt": "Fügen Sie Typen oder Erweiterungen zu den verfügbaren Spalten hinzu oder entfernen Sie sie.",
+    "moveUp": "Verschieben Sie die ausgewählte Spalte nach oben.",
+    "moveDown": "Verschieben Sie die ausgewählte Spalte nach unten.",
+    "moveTop": "Verschieben Sie die ausgewählte Spalte an die erste Position.",
+    "moveBottom": "Verschieben Sie die ausgewählte Spalte an die letzte Position.",
+    "modificationNotStored": "Die Änderungen wurden nicht in den Benutzereinstellungen gespeichert.",
+    "maximumView": "Sie haben die maximale Anzahl von Ansichten (4) erreicht, die Sie erstellen können.",
+    "newView": "Erstellen Sie eine neue Ansicht. Sie können maximal 4 Ansichten erstellen.",
+    "editView": "Bearbeitet die aktuelle Ansicht.",
+    "removeView": "Löschen Sie die aktuelle Ansicht.",
+    "addColumn": "Spalte wird in die ausgewählten Spalten verschoben.",
+    "removeColumn": "Spalte wird in verfügbare Spalten verschoben.",
+    "maximumColumn": "Sie haben die maximale Anzahl von Spalten (30) erreicht, die Sie hinzufügen können.",
+    "lockedColumn": "Spalte kann nicht verschoben werden."
+  },
+  "commandMenu": {
+    "default": "Standardansicht",
+    "root": "Tabellenansichten",
+    "admin": "Adminansichten",
+    "user": "Meine Ansichten",
+    "widget": "Lokale Ansicht"
+  },
+  "column_FavoriteTitle": "Titel",
+  "column_BookmarkLocation": "Übergeordnetes Lesezeichen",
+  "column_Thumbnail": "Miniaturbild",
+  "column_ApprovalStatus": "Genehmigungsstatus",
+  "column_Menu": "Menü",
+  "admin": "Admin",
+  "toolbar": {
+    "spacing": "Dichte ",
+    "spacingComfortable": "Komfortabel",
+    "spacingCompact": "Kompakt",
+    "checkbox": "Kontrollkästchen Objektauswahl",
+    "findInAtt": "Attribut suchen",
+    "resetDefault": "Auf Standard zurücksetzen"
+  },
+  "columns": {
+    "attName": "Attributname",
+    "attType": "Attributtyp",
+    "colName": "Spaltenname",
+    "pin": "Anheften",
+    "hide_show": "Ausblenden/Anzeigen",
+    "findinctx": "Suchen",
+    "thumbnail": "Vorschau",
+    "thumbnails": "Vorschau",
+    "matrixtxt": "Positionsmatrix",
+    "typeName": "Typ",
+    "extName": "Erweiterung"
+  },
+  "attSelection": {
+    "title": "Verfügbare Spalten: ",
+    "extension": "{typeName}-Erweiterung",
+    "REFERENCE": "Referenz",
+    "INSTANCE": "Instanz",
+    "CLASSIFICATION": "Klasse",
+    "COMPUTED": "Berechnet",
+    "COMMAND": "Befehl",
+    "pinLeft": "Links fixieren",
+    "pinRight": "Rechts fixieren",
+    "unpinned": "Nicht fixieren",
+    "commonAttributes": "Allgemeine Attribute",
+    "typesAttributes": "Typattribute",
+    "extsAttributes": "Erweiterungsattribute",
+    "classifAttributes": "Klassifizierungsattribute",
+    "otherColumns": "Weitere"
+  },
+  "selectedAtt": {
+    "title": "Ausgewählte Spalten: "
+  },
+  "typeNext": {
+    "title": "Typen- und Erweiterungsauswahl",
+    "okBtn": "Übernehmen",
+    "cancelBtn": "Abbrechen",
+    "selectionTypeTitle": "Typen",
+    "selectionExtTitle": "Erweiterungen",
+    "extension": {
+      "placeholder": "Keine Typen ausgewählt. Wählen Sie mindestens einen Typ aus, um die zugehörigen Erweiterungen anzuzeigen."
+    }
+  },
+  "selectionTitle": "Wählen Sie Typ oder Erweiterung aus, um Attribute aufzulisten",
+  "dialog": {
+    "title": "Tabellenvorgaben",
+    "okBtn": "Speichern",
+    "cancelBtn": "Abbrechen"
+  },
+  "loading": {
+    "default": "Wird geladen...",
+    "gridCusto": "Tabellenvorgaben werden geladen",
+    "baseTypeAndExt": "Verfügbare Typen und Erweiterungen werden geladen",
+    "gridCustoReset": "Auf Standard zurücksetzen"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Exemplar für Produktdarstellung"
+  },
+  "notDisplayedAtt": "Wird in der Benutzeroberfläche nicht angezeigt",
+  "warning": {
+    "emptyName": {
+      "title": "Ansichtsname darf nicht leer sein",
+      "msg": "Ihr Ansichtsname ist leer."
+    },
+    "tooManySelected": {
+      "title": "Maximale Anzahl an Spalten wurde erreicht",
+      "msg": "Es ist nur ein Maximum von {maxNumber} Spalten zulässig"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Ansicht ist bereits vorhanden",
+      "msg": "Eine Ansicht mit dem Namen „{MP_VIEW_NAME}“ ist bereits vorhanden"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Ansicht ist bereits vorhanden",
+      "msg": "Eine Ansicht mit dem Namen „{MP_VIEW_NAME}“ ist bereits vorhanden"
+    }
+  }
+}

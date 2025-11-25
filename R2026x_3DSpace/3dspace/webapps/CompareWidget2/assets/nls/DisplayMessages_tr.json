@@ -1,0 +1,21 @@
+{
+  "INST_PROPS_OFF_NONE_AVAILABLE_MSG": "Örnek özellikleri karşılaştırması ilgili seçim için geçerli değil",
+  "INST_PROPS_OFF_TOO_MANY_SELECTED_MSG": "Örnek özellikleri yalnızca tek örnek seçimi için kullanılabilir",
+  "INST_PROPS_OFF_DURING_LIST_COMPARE_MSG": "Örnek özellikleri, listeleri karşılaştırırken kullanılamaz",
+  "REF_PROPS_OFF_NONE_AVAILABLE_MSG": "Özellik karşılaştırması ilgili seçim için geçerli değil",
+  "REF_PROPS_OFF_TOO_MANY_SELECTED_MSG": "Referans özellikleri yalnızca tek referans seçimi için kullanılabilir",
+  "EFFECTIVITY_OFF_NONE_AVAILABLE_MSG": "Geçerlilik karşılaştırması ilgili seçim için geçerli değil",
+  "EFFECTIVITY_OFF_TOO_MANY_SELECTED_MSG": "Geçerlilik yalnızca tek seçim için kullanılabilir",
+  "EFFECTIVITY_OFF_DURING_LIST_COMPARE_MSG": "Geçerlilik, listeleri karşılaştırırken kullanılamaz",
+  "PROPS_UNAVAILABLE_NO_SELECTION": "Özellikleri görüntülemek için bir seçim yapın",
+  "NO_DIFFERENCES_FOUND": "Fark Bulunamadı",
+  "DB_FETCH_FALLBACK": "İstenen en az bir nesne dizine alınmadığı için dizin hızlandırma geçici olarak devre dışı bırakılıyor",
+  "DROP_1_OBJ_REPLACE": "Değiştirme işlemi için yalnızca 1 nesne bırakılabilir.",
+  "HIDDEN_STATUSES_IDENTICAL": "Gizli evre renkleri gösterilmez.",
+  "GROUP_PLACEHOLDER_SELECTED_MSG": "Özellikleri Karşılaştırmak için bu Grupta bir Satır Seç",
+  "FETCH_FAIL_DEFAULT": "Nesneler yüklenemiyor. Bağlantınızı kontrol edin ve nesnelerin dizine alınmış ve erişilebilir olduğunu doğrulayın.",
+  "COMPARE_FAILED": "Karşılaştırılamadı",
+  "NEW_VIEWS_MESSAGE": "Yeni görünümler eklendi: {newViews}",
+  "CUSTOMIZATION_FAILED": "Profil özelleştirmeleri uygulanamadı; varsayılan konfigürasyon kullanılıyor",
+  "CUSTOM_ATTRIBUTE_DELETED": "{msgData} için öznitelik bilgileri eksik. Öznitelik silinmişse profile yapılan referansları kaldırmak için profilin güncellenmesi gerekir."
+}

@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "Marketplace {rolesText}",
+  "userSearch": "Buscar usuario",
+  "userRoles": "Funciones de usuario",
+  "loginEmail": "Introduzca el inicio de sesión o el correo electrónico del usuario al que desea conceder funciones:",
+  "rolesGranted": "Seleccione la función que desea conceder a este usuario. Las funciones se otorgan dinámicamente:",
+  "noUserSelected": "No se ha seleccionado un usuario",
+  "noUserFound": "No se ha encontrado ningún usuario",
+  "userSearchFailed": "Error en la búsqueda de usuario",
+  "unableToSaveRoleModification": "No se puede guardar la modificación de la función",
+  "enterEmailOrLogin": "Introduzca el correo electrónico o el inicio de sesión aquí ...",
+  "makeSeller": "Hacer vendedor",
+  "engineeringSeller": "Vendedor de ingeniería",
+  "partSupplySeller": "Vendedor de PartSupply",
+  "innovateSeller": "Vendedor de innovación"
+}

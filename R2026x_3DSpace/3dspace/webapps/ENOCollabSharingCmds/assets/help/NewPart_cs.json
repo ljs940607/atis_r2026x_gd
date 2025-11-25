@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Nový díl",
+"ENONewPartHdr.ShortHelp":"Vytvoří nový díl.",
+"ENONewPartHdr.LongHelp":"V dialogovém okně zadejte název a požadované atributy (pokud jsou třeba) a volitelně vyberte šablonu pro výběr CAD vzoru. Kliknutím na <uicontrol>Vytvořit a zavřít</uicontrol> vytvoříte pouze jeden díl, kliknutím na <uicontrol>Vytvořit</uicontrol> vytvoříte další díl.",
+"ENOInsertNewPartHdr.Title":"Vložit nový díl",
+"ENOInsertNewPartHdr.ShortHelp":"Vytvoří nový díl a přidá jej jako potomka k vybraným objektům.",
+"ENOInsertNewPartHdr.LongHelp":"<p>V dialogovém okně zadejte název a volitelně vyberte šablonu pro výběr CAD vzoru. Kliknutím na <uicontrol>Vytvořit a zavřít</uicontrol> vytvoříte pouze jeden díl, kliknutím na <uicontrol>Vytvořit</uicontrol> vytvoříte další díl.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

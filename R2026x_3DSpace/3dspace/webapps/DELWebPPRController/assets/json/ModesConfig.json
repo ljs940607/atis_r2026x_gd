@@ -1,0 +1,90 @@
+{
+  "BuildUp":{
+    "MBOM":{
+      "columns":{
+        "hideShow3D":{
+          "visibleFlag" : false,
+          "disabled" : true
+        }
+      },
+      "contextualMenu":[
+        {
+          "name" : "showAll",
+          "state" : "disabled"
+        },
+        {
+            "name" : "showOnly",
+            "state" : "disabled"
+        }
+      ],
+      "reset3DVisibility":true
+    },
+    "RESOURCE":{
+      "columns":{
+        "hideShow3D":{
+          "visibleFlag" : false,
+          "disabled" : true
+        }
+      },
+      "contextualMenu":[
+        {
+          "name" : "showAll",
+          "state" : "disabled"
+        },
+        {
+            "name" : "showOnly",
+            "state" : "disabled"
+        }
+      ],
+      "reset3DVisibility":true
+    }
+  },
+  "Graphics":{
+    "MBOM":{
+      "columns":{
+        "hideShow3D":{
+          "visibleFlag" : true,
+          "disabled" : false
+        }
+      },
+      "contextualMenu":[
+        {
+          "name" : "showAll",
+          "state" : "enabled"
+        },
+        {
+            "name" : "showOnly",
+            "state" : "enabled"
+        }
+      ],
+      "reset3DVisibility":false
+    },
+    "RESOURCE":{
+      "columns":{
+        "hideShow3D":{
+          "visibleFlag" : true,
+          "disabled" : false
+        }
+      },
+      "contextualMenu":[
+        {
+          "name" : "showAll",
+          "state" : "enabled"
+        },
+        {
+            "name" : "showOnly",
+            "state" : "enabled"
+        }
+      ],
+      "reset3DVisibility":false
+    }
+  },
+  "WorkInstructions":{
+    "MBOM":{
+      "reset3DVisibility":true
+    },
+    "RESOURCE":{
+      "reset3DVisibility":true
+    }
+  }
+}

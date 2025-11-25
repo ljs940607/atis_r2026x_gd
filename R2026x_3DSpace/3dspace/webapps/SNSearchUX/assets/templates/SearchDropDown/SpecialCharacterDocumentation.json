@@ -1,0 +1,31 @@
+{
+  "documentation": [
+    {
+      "title": "PQs.SpecialCharacters",
+      "content": "PQs.SpecialCharacters.Description",
+      "options": {
+        "isHeader": true
+      }
+    },
+    {
+      "title": "PQs.SpecialCharacters.exactword",
+      "content": "PQs.SpecialCharacters.exactword.content"
+    },
+    {
+      "title": "PQs.SpecialCharacters.wildcard",
+      "content": "PQs.SpecialCharacters.wildcard.content"
+    },
+    {
+      "title": "PQs.SpecialCharacters.question",
+      "content": "PQs.SpecialCharacters.question.content"
+    },
+    {
+      "title": "PQs.SpecialCharacters.double",
+      "content": "PQs.SpecialCharacters.double.content"
+    },
+    {
+      "title": "PQs.SpecialCharacters.uql",
+      "content": "PQs.SpecialCharacters.uql.content"
+    }
+  ]
+}

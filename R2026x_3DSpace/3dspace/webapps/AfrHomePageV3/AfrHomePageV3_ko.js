@@ -1,0 +1,1 @@
+define("DS/AfrHomePageV3/AfrHomePageV3_ko",{});define("DS/AfrHomePageV3/assets/nls/afr-home-page",{NLS_DropMessage:"또는 아무 곳에 콘텐츠 놓기",NLS_NoContent:"표시할 콘텐츠가 없습니다.",NLS_DnDPlaceholder:"시작하려면 콘텐츠를 아무 곳으로 끌어 놓으십시오.",NLS_Overview:"개요",NLS_GuidedTour:"가이드 투어",NLS_WhatsNew:"새로운 기능",NLS_UserAssistance:"문서",NLS_UserCommunity:"사용자 커뮤니티",NLS_Training:"연습",NLS_Tutorial:"자습서"});

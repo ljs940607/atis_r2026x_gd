@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "Odebere poslední hodnotu z daného pole.",
+  "description": "Tento blok poskytne upravené pole jako výstup.<br>Tento blok je dynamický, takže typ pole vstupních dat lze změnit pomocí dialogového okna konfigurace bloku.",
+  "dataPorts": {
+    "ArrayIn": "pole, které chcete upravit.",
+    "ArrayOut": "upravené pole.",
+    "Value": "odebraná hodnota."
+  },
+  "controlPorts": {
+    "In": "vyvolá spuštění bloku.",
+    "Out": "aktivuje se po dokončení procesu."
+  },
+  "example": null
+}

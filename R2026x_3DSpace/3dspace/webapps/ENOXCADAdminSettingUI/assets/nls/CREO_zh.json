@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "保存",
+  "CREOOpenGroupLabel": "打开",
+  "CREOMissingLinksWarningLabel": "保存缺少参考的文件",
+  "CREOMissingLinksWarningInfo": "启用此选项后，如果在 Creo Parametric 会话中执行保存操作期间缺少任何子设计，则会显示一条警告。禁用此选项后，将会继续执行保存操作，而不会显示警告。",
+  "CREOPartFamilyInstanceHandlingLabel": "Creo 零件系列实例处理",
+  "CREOPartFamilyInstanceHandlingInfo": "确定保存期间 Creo 零件系列表实例的处理模式：<br><strong>PartFamilyInstanceLight</strong> - 仅为活动实例生成 XPR 文件。<br><strong> PartFamilyInstanceLoaded</strong> - 为所有实例生成 XPR 文件。",
+  "CREOCADAttributeMappedToEINLabel": "CAD 属性映射到 EIN",
+  "CREOCADAttributeMappedToEINInfo": "为此属性指定值后，将启用该功能，并且我们将使用此属性标记 CAD 文件，属性的值将是物理产品的 EIN。",
+  "EnterpriseItemNumberGroupLabel": "企业项目编号",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "过滤掉没有任何几何图形和子节点的 3DEXPERIENCE 工程项目",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "过滤掉没有任何几何图形和子节点的 3DEXPERIENCE 工程项目。"
+}

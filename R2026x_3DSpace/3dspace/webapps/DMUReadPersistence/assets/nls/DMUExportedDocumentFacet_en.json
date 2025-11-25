@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "fileType": "File type",
+  "creationDate": "Creation date",
+  "revision": "Revision",
+  "owner": "Owner",
+  "menu": "Menu",
+  "download": "Download",
+  "downloadTitle": "Download",
+  "downloadTooltip": "Download selected file(s)/document(s)",
+  "openWith": "Open With",
+  "openWithTitle": "Open With",
+  "openWithTooltip": "Open the file(s)/document(s) into a compatible external applications",
+  "noDataGridDisplayed": "There is no exported documents to display",
+  "errorWhenFetchingExportedDocuments": "Sorry, an error occured while retrieving the exported documents"
+}

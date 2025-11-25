@@ -1,0 +1,9 @@
+{
+  "cmdList": [
+    {
+      "name": "Attach Session Data",
+      "line": 1,
+      "hdr_list": [ "CATSPYMSRAttachSessionDataCmdHdr" ]
+    }
+  ]
+}

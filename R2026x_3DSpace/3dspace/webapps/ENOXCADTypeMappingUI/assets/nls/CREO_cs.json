@@ -1,0 +1,13 @@
+{
+  "busTypeMapping": "Mapování typu sběrnice",
+  "assemblyLabel": "Sestava",
+  "assemblyInfo": "Změňte mapování typu pro typ CAD sestavy na typ 3DEXPERIENCE",
+  "assemblyInstanceLabel": "Instance sestavy",
+  "assemblyInstanceInfo": "Změňte mapování typu pro typ CAD instance sestavy na typ 3DEXPERIENCE",
+  "componentLabel": "Součást",
+  "componentInfo": "Změňte mapování typu pro typ CAD součást na typ 3DEXPERIENCE",
+  "componentInstanceLabel": "Instance komponenty",
+  "componentInstanceInfo": "Změňte mapování typu pro typ CAD instance komponenty na typ 3DEXPERIENCE",
+  "drawingLabel": "Výkres",
+  "drawingInfo": "Změňte mapování typu pro typ CAD výkres na typ 3DEXPERIENCE"
+}

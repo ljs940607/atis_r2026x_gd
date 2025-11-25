@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+<Domain id="DELOrderDataMgt" regSuite="OrderDataMgt">
+		<Family id="ObjectIdentifier" icon="iconParameterizationIdentification.gif">
+			<Parameter id="IdentifierAffix" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="AffixArg" type="string" input="textfield" default="TBD"/>
+				<Argument id="SeparatorArg" type="string" input="combobox" default="-">
+					<Value id="Dash"/>
+					<Value id="Under_Score"/>
+					<Value id="Dot"/>
+					<Value id="Plus"/>
+					<Value id="Slash"/>
+					<Value id="Empty"/>
+				</Argument>
+
+				<Constant id="Dash" value="-"/>
+				<Constant id="Under_Score" value="_"/>
+				<Constant id="Dot" value="."/>
+				<Constant id="Plus" value="+"/>
+				<Constant id="Slash" value="/"/>
+				<Constant id="Empty" value=""/>
+				
+				<Argument id="NbDigitsArg" type="string" default="6"/>
+			</Parameter>
+
+			<Parameter id="WorkOrder" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="PrefixArg" type="string" default="wo"/>
+				<Argument id="SuffixArg" type="string" default=""/>
+				<Constant id="type" value="DELLmiWorkOrderReference"/>
+				<Constant id="appType" value="VPM"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

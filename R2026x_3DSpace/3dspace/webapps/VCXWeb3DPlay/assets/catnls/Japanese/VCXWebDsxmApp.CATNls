@@ -1,0 +1,221 @@
+<meta charset="UTF-8"/>
+VCXWebAuthoringApp.VCXCreateSelectiveOverridesCmd.Title="参加するアクターを作成";
+VCXWebAuthoringApp.VCXCreateAllOverridesCmd.Title="すべてのアクターを作成";
+
+VCXWebAuthoringApp.Modifiable.Style.Title="スタイル";
+
+VCXWebAuthoringApp.VCXDressupChangeStyleCmd.Title="スタイルを変更";
+
+VCXWebAuthoringApp.styleID_NoStyle.Title="なし";
+VCXWebAuthoringApp.styleID_LabelClassicBlack.Title="ラベル クラシック黒";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlackCmd.Title="ラベルを作成";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack.Title="ラベル ラウンドボックス黒";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlackCmd.Title="ラウンドボックス";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack.Title="ラベル下線黒";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlackCmd.Title="下線";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack.Title="ラベル シンプル黒";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlackCmd.Title="シンプル";
+
+VCXWebAuthoringApp.styleID_LabelClassicGrey.Title="ラベル クラシック グレー";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicGreyCmd.Title="ラベルを作成";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey.Title="ラベル ラウンドボックス グレー";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxGreyCmd.Title="ラベルを作成";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey.Title="ラベル下線グレー";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineGreyCmd.Title="下線";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey.Title="ラベル シンプル グレー";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleGreyCmd.Title="シンプル";
+
+VCXWebAuthoringApp.styleID_LabelClassicWhite.Title="ラベル クラシック白";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicWhiteCmd.Title="クラシック";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite.Title="ラベル ラウンドボックス白";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedWhiteCmd.Title="ラウンドボックス";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite.Title="ラベル下線白";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineWhiteCmd.Title="下線";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite.Title="ラベル シンプル白";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleWhiteCmd.Title="シンプル";
+VCXWebAuthoringApp.styleID_LabelClassicRed.Title="ラベル クラシック赤";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicRedCmd.Title="クラシック";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed.Title="ラベル ラウンドボックス赤";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxRedCmd.Title="ラウンドボックス";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed.Title="ラベル下線赤";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineRedCmd.Title="下線";
+VCXWebAuthoringApp.styleID_LabelSimpleRed.Title="ラベル シンプル赤";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleRedCmd.Title="シンプル";
+VCXWebAuthoringApp.styleID_LabelClassicBlue.Title="ラベル クラシック青";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlueCmd.Title="クラシック";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue.Title="ラベル ラウンドボックス青";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlueCmd.Title="ラウンドボックス";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue.Title="ラベル下線青";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlueCmd.Title="下線";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue.Title="ラベル シンプル青";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlueCmd.Title="シンプル";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite.Title="矢印白";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultWhiteCmd.Title="白";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey.Title="矢印グレー";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultGreyCmd.Title="グレー";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed.Title="矢印赤";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultRedCmd.Title="赤";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue.Title="矢印青";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlueCmd.Title="青";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack.Title="矢印黒";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlackCmd.Title="直線矢印を作成";
+
+
+VCXWebAuthoringApp.styleID_CircleBlack.Title="円 黒";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlackCmd.Title="黒";
+VCXWebAuthoringApp.styleID_CircleWhite.Title="円 白";
+VCXWebAuthoringApp.VCXCreateDressupCircleWhiteCmd.Title="白";
+VCXWebAuthoringApp.styleID_CircleGrey.Title="円 グレー";
+VCXWebAuthoringApp.VCXCreateDressupCircleGreyCmd.Title="グレー";
+VCXWebAuthoringApp.styleID_CircleRed.Title="円 赤";
+VCXWebAuthoringApp.VCXCreateDressupCircleRedCmd.Title="赤";
+VCXWebAuthoringApp.styleID_CircleBlue.Title="円 青";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlueCmd.Title="青";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack.Title="テキストボックス デフォルト黒";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlackCmd.Title="用紙スペースに 2D テキストを作成";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack.Title="テキストボックス シンプル黒";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlackCmd.Title="シンプル";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey.Title="テキストボックス デフォルト グレー";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultGreyCmd.Title="グレー";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey.Title="テキストボックス シンプル グレー";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleGreyCmd.Title="グレー";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite.Title="テキストボックス デフォルト白";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultWhiteCmd.Title="テキストボックスを作成";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite.Title="テキストボックス シンプル白";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleWhiteCmd.Title="テキストボックスを作成";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed.Title="テキストボックス デフォルト赤";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultRedCmd.Title="赤";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed.Title="テキストボックス シンプル赤";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleRedCmd.Title="赤";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue.Title="テキストボックス デフォルト青";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlueCmd.Title="青";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue.Title="テキストボックス シンプル青";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlueCmd.Title="青";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="イメージのデフォルト";
+
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="イメージの黒の境界";
+
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="イメージの白の境界";
+
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="イメージの丸い境界";
+
+VCXWebAuthoringApp.styleID_CallOutBlack.Title="切断記号黒";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlackCmd.Title="コールアウトを作成";
+
+VCXWebAuthoringApp.styleID_CallOutWhite.Title="切断記号白";
+VCXWebAuthoringApp.VCXCreateDressupCallOutWhiteCmd.Title="切断記号を作成";
+
+VCXWebAuthoringApp.styleID_CallOutGrey.Title="切断記号グレー";
+VCXWebAuthoringApp.VCXCreateDressupCallOutGreyCmd.Title="グレー";
+
+VCXWebAuthoringApp.styleID_CallOutRed.Title="切断記号赤";
+VCXWebAuthoringApp.VCXCreateDressupCallOutRedCmd.Title="赤";
+
+VCXWebAuthoringApp.styleID_CallOutBlue.Title="切断記号青";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlueCmd.Title="青";
+
+VCXWebAuthoringApp.styleID_LabelClassicBlack_v2.Title="ラベル クラシック黒";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack_v2.Title="ラベル ラウンドボックス黒";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack_v2.Title="ラベル下線黒";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack_v2.Title="ラベル シンプル黒";
+VCXWebAuthoringApp.styleID_LabelClassicGrey_v2.Title="ラベル クラシック グレー";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey_v2.Title="ラベル ラウンドボックス グレー";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey_v2.Title="ラベル下線グレー";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey_v2.Title="ラベル シンプル グレー";
+VCXWebAuthoringApp.styleID_LabelClassicWhite_v2.Title="ラベル クラシック白";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite_v2.Title="ラベル ラウンドボックス白";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite_v2.Title="ラベル下線白";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite_v2.Title="ラベル シンプル白";
+VCXWebAuthoringApp.styleID_LabelClassicRed_v2.Title="ラベル クラシック赤";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v2.Title="ラベル ラウンドボックス赤";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v3.Title="ラベル ラウンドボックス赤";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed_v2.Title="ラベル下線赤";
+VCXWebAuthoringApp.styleID_LabelSimpleRed_v2.Title="ラベル シンプル赤";
+VCXWebAuthoringApp.styleID_LabelClassicBlue_v2.Title="ラベル クラシック青";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue_v2.Title="ラベル ラウンドボックス青";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue_v2.Title="ラベル下線青";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue_v2.Title="ラベル シンプル青";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v2.Title="矢印白";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v2.Title="矢印グレー";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v2.Title="矢印赤";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v2.Title="矢印青";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v2.Title="矢印黒";
+VCXWebAuthoringApp.styleID_CircleBlack_v2.Title="円 黒";
+VCXWebAuthoringApp.styleID_CircleWhite_v2.Title="円 白";
+VCXWebAuthoringApp.styleID_CircleGrey_v2.Title="円 グレー";
+VCXWebAuthoringApp.styleID_CircleRed_v2.Title="円 赤";
+VCXWebAuthoringApp.styleID_CircleBlue_v2.Title="円 青";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v2.Title="テキストボックス デフォルト黒";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v2.Title="テキストボックス シンプル黒";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v2.Title="テキストボックス デフォルト グレー";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v2.Title="テキストボックス シンプル グレー";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v2.Title="テキストボックス デフォルト白";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v2.Title="テキストボックス シンプル白";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v2.Title="テキストボックス デフォルト赤";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v2.Title="テキストボックス シンプル赤";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v2.Title="テキストボックス デフォルト青";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v2.Title="テキストボックス シンプル青";
+VCXWebAuthoringApp.styleID_CallOutBlack_v2.Title="切断記号黒";
+VCXWebAuthoringApp.styleID_CallOutWhite_v2.Title="切断記号白";
+VCXWebAuthoringApp.styleID_CallOutGrey_v2.Title="切断記号グレー";
+VCXWebAuthoringApp.styleID_CallOutGrey_v3.Title="切断記号グレー";
+VCXWebAuthoringApp.styleID_CallOutRed_v2.Title="切断記号赤";
+VCXWebAuthoringApp.styleID_CallOutBlue_v2.Title="切断記号青";
+VCXWebAuthoringApp.styleID_CallOutSimple_v2.Title="切断記号シンプル";
+
+VCXWebAuthoringApp.styleID_MesureClassicBlack_v3.Title="クラシック黒";
+VCXWebAuthoringApp.styleID_MesureClassicGrey_v3.Title="クラシック グレー";
+VCXWebAuthoringApp.styleID_MesureClassicWhite_v3.Title="クラシック白";
+VCXWebAuthoringApp.styleID_MesureClassicRed_v3.Title="クラシック赤";
+VCXWebAuthoringApp.styleID_MesureClassicBlue_v3.Title="クラシック青";
+
+VCXWebAuthoringApp.styleID_MesureRoundedBoxRed_v3.Title="ラウンドボックス赤";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlue_v3.Title="ラウンドボックス青";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxWhite_v3.Title="ラウンドボックス白";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxGrey_v3.Title="ラウンドボックス グレー";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlack_v3.Title="ラウンドボックス黒";
+
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v3.Title="テキストボックス デフォルト黒";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v3.Title="テキストボックス シンプル黒";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v3.Title="テキストボックス デフォルト グレー";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v3.Title="テキストボックス シンプル グレー";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v3.Title="テキストボックス デフォルト白";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v3.Title="テキストボックス シンプル白";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v3.Title="テキストボックス デフォルト赤";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v3.Title="テキストボックス シンプル赤";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v3.Title="テキストボックス デフォルト青";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v3.Title="テキストボックス シンプル青";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="イメージのデフォルト";
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="黒の境界";
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="白の境界";
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="ラウンド シェイプ";
+
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v3.Title="矢印白";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v3.Title="矢印グレー";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v3.Title="矢印赤";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v3.Title="矢印青";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v3.Title="矢印黒";
+
+VCXWebAuthoringApp.styleID_PolylineDefaultGrey_v3.Title="グレー";
+VCXWebAuthoringApp.styleID_PolylineDefaultDash.Title="破線";
+VCXWebAuthoringApp.styleID_PolylineDefaultPlain.Title="プレーン";
+
+VCXWebAuthoringApp.styleID_RedlineBlue_v3.Title="青";
+VCXWebAuthoringApp.styleID_RedlineRed.Title="赤";
+
+VCXWebAuthoringApp.styleID_SectionBlue.Title="ブルー";
+VCXWebAuthoringApp.styleID_SectionSimple.Title="シンプル";
+

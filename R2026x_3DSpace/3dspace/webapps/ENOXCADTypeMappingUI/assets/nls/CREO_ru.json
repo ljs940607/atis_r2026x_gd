@@ -1,0 +1,13 @@
+{
+  "busTypeMapping": "Сопоставление типа шины",
+  "assemblyLabel": "Сборка",
+  "assemblyInfo": "Изменить сопоставление типов для типа сборки CAD на тип 3DEXPERIENCE",
+  "assemblyInstanceLabel": "Экземпляр сборки",
+  "assemblyInstanceInfo": "Изменить сопоставление типов для типа экземпляра сборки CAD на тип 3DEXPERIENCE",
+  "componentLabel": "Компонент",
+  "componentInfo": "Изменить сопоставление типов для типа компонента CAD на тип 3DEXPERIENCE",
+  "componentInstanceLabel": "Экземпляр компонента",
+  "componentInstanceInfo": "Изменить сопоставление типов для типа экземпляра компонента CAD на тип 3DEXPERIENCE",
+  "drawingLabel": "Чертеж",
+  "drawingInfo": "Изменить сопоставление типов для типа чертежа CAD на тип 3DEXPERIENCE"
+}

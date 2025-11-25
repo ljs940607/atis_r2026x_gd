@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "導出輸出規則詳細資料",
+    "doattributes": "導出輸出規則屬性",
+    "name": "名稱",
+    "connector": "連接器",
+    "implicitRule": "隱含規則",
+    "external": "外部產生",
+    "parameters": "轉換參數",
+    "converter": "轉換器",
+    "origin": "原點",
+    "forceUpdate": "強制更新",
+    "uptodateDO": "最新",
+    "jobStatus": "工作狀態",
+    "format": "格式",
+    "alias": "統一格式",
+    "yes": "是",
+    "no": "否"
+  },
+  "buttons": {
+    "cancel": "取消"
+  },
+  "popup": {
+    "option": "選項",
+    "value": "數值",
+    "yesButton": "是",
+    "noButton": "否",
+    "cancelButton": "取消"
+  },
+  "error": {
+    "title": "錯誤",
+    "invalidFrame": "無法執行操作。重新整理小工具，然後再試一次。",
+    "invalidParameter": "參數未正確定義。"
+  }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="54.8" y1="44.867" x2="51.296" y2="38.798" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#386f8d"/>
+      <stop offset="1" stop-color="#8dd7f4"/>
+    </linearGradient>
+    <linearGradient id="c" x1="47.773" y1="49.169" x2="41.998" y2="39.167" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a5b79"/>
+      <stop offset="1" stop-color="#84bedc"/>
+    </linearGradient>
+    <linearGradient id="e" x1="50.47" y1="39.045" x2="47.873" y2="34.548" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74c4e2"/>
+      <stop offset="1" stop-color="#a4def6"/>
+    </linearGradient>
+    <linearGradient id="g" x1="27.884" y1=".773" x2="39.116" y2="20.227" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="j" x1="21.172" y1="4.648" x2="45.828" y2="47.352" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d4d5d3"/>
+    </linearGradient>
+    <linearGradient id="n" x1="17.475" y1="37.725" x2="19.525" y2="41.275" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3287af"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="o" x1="21.475" y1="37.725" x2="23.525" y2="41.275" xlink:href="#n"/>
+    <linearGradient id="p" x1="25.475" x2="27.525" xlink:href="#n"/>
+    <linearGradient id="q" y1="41.725" x2="19.525" y2="45.275" xlink:href="#n"/>
+    <linearGradient id="r" x1="21.475" y1="41.725" x2="23.525" y2="45.275" xlink:href="#n"/>
+    <linearGradient id="s" x1="25.475" y1="41.725" x2="27.525" y2="45.275" xlink:href="#n"/>
+    <linearGradient id="t" y1="45.725" y2="49.275" xlink:href="#n"/>
+    <linearGradient id="u" x1="21.475" y1="45.725" x2="23.525" y2="49.275" xlink:href="#n"/>
+    <linearGradient id="v" x1="25.475" y1="45.725" x2="27.525" y2="49.275" xlink:href="#n"/>
+    <linearGradient id="w" x1="9.475" y1="49.725" x2="11.525" y2="53.275" xlink:href="#n"/>
+    <linearGradient id="x" x1="13.475" y1="49.725" x2="15.525" y2="53.275" xlink:href="#n"/>
+    <linearGradient id="y" x1="17.475" y1="49.725" x2="19.525" y2="53.275" xlink:href="#n"/>
+    <linearGradient id="z" x1="21.475" y1="49.725" x2="23.525" y2="53.275" xlink:href="#n"/>
+    <linearGradient id="aa" x1="13.475" y1="45.725" x2="15.525" y2="49.275" xlink:href="#n"/>
+    <linearGradient id="ab" x1="9.475" y1="45.725" x2="11.525" y2="49.275" xlink:href="#n"/>
+    <linearGradient id="ac" x1="13.475" y1="41.725" x2="15.525" y2="45.275" xlink:href="#n"/>
+    <linearGradient id="ad" x1="9.475" y1="41.725" x2="11.525" y2="45.275" xlink:href="#n"/>
+    <linearGradient id="af" x1="41.014" y1="35.23" x2="51.697" y2="53.734" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f6f6"/>
+      <stop offset=".992" stop-color="#d2d3d3"/>
+    </linearGradient>
+  </defs>
+  <g id="l" data-name="Layer 8">
+    <g>
+      <rect x="14.5" y="8.5" width="38" height="35" fill="url(#j)" stroke="#323232" stroke-linejoin="round"/>
+      <rect x="14.5" y="8.5" width="38" height="4" fill="url(#g)" stroke="#003755" stroke-linejoin="round"/>
+      <rect x="17.5" y="18.5" width="30" height="7" fill="#fff" stroke="#003755" stroke-linejoin="round"/>
+      <rect x="17.5" y="30.5" width="30" height="7" fill="#fff" stroke="#003755" stroke-linejoin="round"/>
+      <polygon points="35.817 18.5 29.983 25.5 17.5 25.5 17.5 18.5 35.817 18.5" fill="url(#g)" stroke="#003755" stroke-linejoin="round"/>
+      <polygon points="44.1 30.5 38.5 37.5 17.5 37.5 17.5 30.5 44.1 30.5" fill="url(#g)" stroke="#003755" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="m" data-name="Layer 9">
+    <g>
+      <rect x="7.5" y="33.5" width="22" height="21" fill="url(#j)" stroke="#323232" stroke-linejoin="round"/>
+      <rect x="7.5" y="33.5" width="22" height="3" fill="url(#g)" stroke="#003755" stroke-linejoin="round"/>
+      <rect x="17" y="38" width="3" height="3" fill="url(#n)" stroke-width="0"/>
+      <rect x="21" y="38" width="3" height="3" fill="url(#o)" stroke-width="0"/>
+      <rect x="25" y="38" width="3" height="3" fill="url(#p)" stroke-width="0"/>
+      <rect x="17" y="42" width="3" height="3" fill="url(#q)" stroke-width="0"/>
+      <rect x="21" y="42" width="3" height="3" fill="url(#r)" stroke-width="0"/>
+      <rect x="25" y="42" width="3" height="3" fill="url(#s)" stroke-width="0"/>
+      <g>
+        <rect x="17" y="46" width="3" height="3" fill="url(#t)" stroke-width="0"/>
+        <rect x="21" y="46" width="3" height="3" fill="url(#u)" stroke-width="0"/>
+        <rect x="25" y="46" width="3" height="3" fill="url(#v)" stroke-width="0"/>
+        <rect x="9" y="50" width="3" height="3" fill="url(#w)" stroke-width="0"/>
+        <rect x="13" y="50" width="3" height="3" fill="url(#x)" stroke-width="0"/>
+        <rect x="17" y="50" width="3" height="3" fill="url(#y)" stroke-width="0"/>
+        <rect x="21" y="50" width="3" height="3" fill="url(#z)" stroke-width="0"/>
+        <rect x="13" y="46" width="3" height="3" fill="url(#aa)" stroke-width="0"/>
+        <rect x="9" y="46" width="3" height="3" fill="url(#ab)" stroke-width="0"/>
+        <rect x="13" y="42" width="3" height="3" fill="url(#ac)" stroke-width="0"/>
+        <rect x="9" y="42" width="3" height="3" fill="url(#ad)" stroke-width="0"/>
+      </g>
+      <rect x="12" y="38" width="1" height="3" fill="#646464" opacity=".5" stroke-width="0"/>
+    </g>
+  </g>
+  <g id="ae" data-name="Layer 14">
+    <g>
+      <polygon points="33.5 51.5 33.5 36.5 42.5 31.5 57.5 34.5 57.5 49.5 48.5 57.5 33.5 51.5" fill="url(#af)" stroke-width="0"/>
+      <polyline points="33.5 36.5 48.5 40.5 48.5 57.5" fill="none" stroke="#787878" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="57.5 42 48.5 49 48.5 40.5 57.5 34.5 57.5 42" fill="url(#a)" stroke="#053755" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="40.5 46.5 48.5 49 48.5 40.5 40.5 38.5 40.5 46.5" fill="url(#c)" stroke="#053755" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="40.5 38.5 48.5 40.5 57.5 34.5 49.348 32.87 40.5 38.5" fill="url(#e)" stroke="#053755" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="33.5 51.5 33.5 36.5 42.5 31.5 57.5 34.5 57.5 49.5 48.5 57.5 33.5 51.5" fill="none" stroke="#333332" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,221 @@
+<meta charset="UTF-8"/>
+VCXWebAuthoringApp.VCXCreateSelectiveOverridesCmd.Title="Erstellt beteiligte Akteure";
+VCXWebAuthoringApp.VCXCreateAllOverridesCmd.Title="Erstellt alle Akteure";
+
+VCXWebAuthoringApp.Modifiable.Style.Title="Stil";
+
+VCXWebAuthoringApp.VCXDressupChangeStyleCmd.Title="Darstellung ändern";
+
+VCXWebAuthoringApp.styleID_NoStyle.Title="Kein";
+VCXWebAuthoringApp.styleID_LabelClassicBlack.Title="Bezeichnung – Klassisch schwarz";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlackCmd.Title="Bezeichnung erzeugen";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack.Title="Bezeichnung – Gerundeter Kasten schwarz";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlackCmd.Title="Gerundeter Kasten";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack.Title="Bezeichnung – Schwarz unterstreichen";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlackCmd.Title="Unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack.Title="Bezeichnung – Einfach schwarz";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlackCmd.Title="Einfach";
+
+VCXWebAuthoringApp.styleID_LabelClassicGrey.Title="Bezeichnung – Klassisch grau";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicGreyCmd.Title="Bezeichnung erzeugen";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey.Title="Bezeichnung – Gerundeter Kasten grau";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxGreyCmd.Title="Bezeichnung erzeugen";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey.Title="Bezeichnung – grau unterstreichen";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineGreyCmd.Title="Unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey.Title="Bezeichnung – Einfaches Grau";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleGreyCmd.Title="Einfach";
+
+VCXWebAuthoringApp.styleID_LabelClassicWhite.Title="Bezeichnung – Klassisch weiß";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicWhiteCmd.Title="Klassisch";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite.Title="Bezeichnung – Gerundeter Kasten weiß";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedWhiteCmd.Title="Gerundeter Kasten";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite.Title="Bezeichnung – Weiß unterstreichen";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineWhiteCmd.Title="Unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite.Title="Bezeichnung – Einfach weiß";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleWhiteCmd.Title="Einfach";
+VCXWebAuthoringApp.styleID_LabelClassicRed.Title="Bezeichnung – Klassisch rot";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicRedCmd.Title="Klassisch";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed.Title="Bezeichnung – Gerundeter Kasten rot";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxRedCmd.Title="Gerundeter Kasten";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed.Title="Bezeichnung – Rot unterstreichen";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineRedCmd.Title="Unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleRed.Title="Bezeichnung – Einfach rot";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleRedCmd.Title="Einfach";
+VCXWebAuthoringApp.styleID_LabelClassicBlue.Title="Bezeichnung – Klassisch blau";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlueCmd.Title="Klassisch";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue.Title="Bezeichnung – Gerundeter Kasten blau";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlueCmd.Title="Gerundeter Kasten";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue.Title="Bezeichnung – Blau unterstreichen";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlueCmd.Title="Unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue.Title="Bezeichnung – Einfach blau";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlueCmd.Title="Einfach";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite.Title="Pfeil weiß";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultWhiteCmd.Title="Weiß";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey.Title="Pfeil grau";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultGreyCmd.Title="Grau";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed.Title="Pfeil rot";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultRedCmd.Title="Rot";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue.Title="Pfeil blau";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlueCmd.Title="Blau";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack.Title="Pfeil schwarz";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlackCmd.Title="Linearen Pfeil erzeugen";
+
+
+VCXWebAuthoringApp.styleID_CircleBlack.Title="Kreis schwarz";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlackCmd.Title="Schwarz";
+VCXWebAuthoringApp.styleID_CircleWhite.Title="Kreis weiß";
+VCXWebAuthoringApp.VCXCreateDressupCircleWhiteCmd.Title="Weiß";
+VCXWebAuthoringApp.styleID_CircleGrey.Title="Kreis grau";
+VCXWebAuthoringApp.VCXCreateDressupCircleGreyCmd.Title="Grau";
+VCXWebAuthoringApp.styleID_CircleRed.Title="Kreis rot";
+VCXWebAuthoringApp.VCXCreateDressupCircleRedCmd.Title="Rot";
+VCXWebAuthoringApp.styleID_CircleBlue.Title="Kreis blau";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlueCmd.Title="Blau";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack.Title="Textfeld – Standard schwarz";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlackCmd.Title="2D-Text im Papierbereich erzeugen";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack.Title="Textfeld – Einfach schwarz";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlackCmd.Title="Einfach";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey.Title="Textfeld – Standard grau";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultGreyCmd.Title="Grau";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey.Title="Textfeld – Einfach grau";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleGreyCmd.Title="Grau";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite.Title="Textfeld – Standard weiß";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultWhiteCmd.Title="Textfeld erzeugen";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite.Title="Textfeld – Einfach weiß";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleWhiteCmd.Title="Textfeld erzeugen";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed.Title="Textfeld – Standard rot";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultRedCmd.Title="Rot";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed.Title="Textfeld – Einfach rot";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleRedCmd.Title="Rot";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue.Title="Textfeld – Standard blau";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlueCmd.Title="Blau";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue.Title="Textfeld – Einfach blau";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlueCmd.Title="Blau";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="Bildstandard";
+
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="Bild schwarzer Rand";
+
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="Bild weißer Rand";
+
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="Bild runder Rand";
+
+VCXWebAuthoringApp.styleID_CallOutBlack.Title="Callout schwarz";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlackCmd.Title="Callout erzeugen";
+
+VCXWebAuthoringApp.styleID_CallOutWhite.Title="Callout weiß";
+VCXWebAuthoringApp.VCXCreateDressupCallOutWhiteCmd.Title="Call-Out erstellen";
+
+VCXWebAuthoringApp.styleID_CallOutGrey.Title="Callout grau";
+VCXWebAuthoringApp.VCXCreateDressupCallOutGreyCmd.Title="Grau";
+
+VCXWebAuthoringApp.styleID_CallOutRed.Title="Callout rot";
+VCXWebAuthoringApp.VCXCreateDressupCallOutRedCmd.Title="Rot";
+
+VCXWebAuthoringApp.styleID_CallOutBlue.Title="Callout blau";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlueCmd.Title="Blau";
+
+VCXWebAuthoringApp.styleID_LabelClassicBlack_v2.Title="Bezeichnung – Klassisch schwarz";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack_v2.Title="Bezeichnung – Gerundeter Kasten schwarz";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack_v2.Title="Bezeichnung – Schwarz unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack_v2.Title="Bezeichnung – Einfach schwarz";
+VCXWebAuthoringApp.styleID_LabelClassicGrey_v2.Title="Bezeichnung – Klassisch grau";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey_v2.Title="Bezeichnung – Gerundeter Kasten grau";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey_v2.Title="Bezeichnung – grau unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey_v2.Title="Bezeichnung – Einfaches Grau";
+VCXWebAuthoringApp.styleID_LabelClassicWhite_v2.Title="Bezeichnung – Klassisch weiß";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite_v2.Title="Bezeichnung – Gerundeter Kasten weiß";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite_v2.Title="Bezeichnung – Weiß unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite_v2.Title="Bezeichnung – Einfach weiß";
+VCXWebAuthoringApp.styleID_LabelClassicRed_v2.Title="Bezeichnung – Klassisch rot";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v2.Title="Bezeichnung – Gerundeter Kasten rot";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v3.Title="Bezeichnung – Gerundeter Kasten rot";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed_v2.Title="Bezeichnung – Rot unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleRed_v2.Title="Bezeichnung – Einfach rot";
+VCXWebAuthoringApp.styleID_LabelClassicBlue_v2.Title="Bezeichnung – Klassisch blau";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue_v2.Title="Bezeichnung – Gerundeter Kasten blau";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue_v2.Title="Bezeichnung – Blau unterstreichen";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue_v2.Title="Bezeichnung – Einfach blau";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v2.Title="Pfeil weiß";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v2.Title="Pfeil grau";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v2.Title="Pfeil rot";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v2.Title="Pfeil blau";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v2.Title="Pfeil schwarz";
+VCXWebAuthoringApp.styleID_CircleBlack_v2.Title="Kreis schwarz";
+VCXWebAuthoringApp.styleID_CircleWhite_v2.Title="Kreis weiß";
+VCXWebAuthoringApp.styleID_CircleGrey_v2.Title="Kreis grau";
+VCXWebAuthoringApp.styleID_CircleRed_v2.Title="Kreis rot";
+VCXWebAuthoringApp.styleID_CircleBlue_v2.Title="Kreis blau";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v2.Title="Textfeld – Standard schwarz";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v2.Title="Textfeld – Einfach schwarz";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v2.Title="Textfeld – Standard grau";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v2.Title="Textfeld – Einfach grau";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v2.Title="Textfeld – Standard weiß";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v2.Title="Textfeld – Einfach weiß";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v2.Title="Textfeld – Standard rot";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v2.Title="Textfeld – Einfach rot";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v2.Title="Textfeld – Standard blau";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v2.Title="Textfeld – Einfach blau";
+VCXWebAuthoringApp.styleID_CallOutBlack_v2.Title="Callout schwarz";
+VCXWebAuthoringApp.styleID_CallOutWhite_v2.Title="Callout weiß";
+VCXWebAuthoringApp.styleID_CallOutGrey_v2.Title="Callout grau";
+VCXWebAuthoringApp.styleID_CallOutGrey_v3.Title="Callout grau";
+VCXWebAuthoringApp.styleID_CallOutRed_v2.Title="Callout rot";
+VCXWebAuthoringApp.styleID_CallOutBlue_v2.Title="Callout blau";
+VCXWebAuthoringApp.styleID_CallOutSimple_v2.Title="Call-Out einfach";
+
+VCXWebAuthoringApp.styleID_MesureClassicBlack_v3.Title="Klassisches schwarz";
+VCXWebAuthoringApp.styleID_MesureClassicGrey_v3.Title="Klassisches grau";
+VCXWebAuthoringApp.styleID_MesureClassicWhite_v3.Title="Klassisches weiß";
+VCXWebAuthoringApp.styleID_MesureClassicRed_v3.Title="Klassisches rot";
+VCXWebAuthoringApp.styleID_MesureClassicBlue_v3.Title="Klassisches blau";
+
+VCXWebAuthoringApp.styleID_MesureRoundedBoxRed_v3.Title="Gerundeter Kasten rot";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlue_v3.Title="Gerundeter Kasten blau";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxWhite_v3.Title="Gerundeter Kasten weiß";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxGrey_v3.Title="Gerundeter Kasten grau";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlack_v3.Title="Gerundeter Kasten schwarz";
+
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v3.Title="Textfeld – Standard schwarz";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v3.Title="Textfeld – Einfach schwarz";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v3.Title="Textfeld – Standard grau";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v3.Title="Textfeld – Einfach grau";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v3.Title="Textfeld – Standard weiß";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v3.Title="Textfeld – Einfach weiß";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v3.Title="Textfeld – Standard rot";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v3.Title="Textfeld – Einfach rot";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v3.Title="Textfeld – Standard blau";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v3.Title="Textfeld – Einfach blau";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title="Bildstandard";
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title="Schwarzer Rand";
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title="Weißer Rand";
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title="Runde Form";
+
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v3.Title="Pfeil weiß";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v3.Title="Pfeil grau";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v3.Title="Pfeil rot";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v3.Title="Pfeil blau";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v3.Title="Pfeil schwarz";
+
+VCXWebAuthoringApp.styleID_PolylineDefaultGrey_v3.Title="Grau";
+VCXWebAuthoringApp.styleID_PolylineDefaultDash.Title="Gestrichelt";
+VCXWebAuthoringApp.styleID_PolylineDefaultPlain.Title="Einfach";
+
+VCXWebAuthoringApp.styleID_RedlineBlue_v3.Title="Blau";
+VCXWebAuthoringApp.styleID_RedlineRed.Title="Rot";
+
+VCXWebAuthoringApp.styleID_SectionBlue.Title="Blau";
+VCXWebAuthoringApp.styleID_SectionSimple.Title="Einfach";
+

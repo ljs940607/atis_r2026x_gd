@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Crée une copie d'une partie du tableau donné, filtrée jusqu'aux éléments seuls qui réussissent le test implémenté par le graphique fourni.",
+  "description": "Filtre un tableau donné en appelant un graphique fourni sur chaque élément, en conservant uniquement les éléments pour lesquels le graphique correspondant active le port de contrôle <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Ce bloc est capable de filtrer n'importe quel type de tableau <doc-idp-name translate=no>ArrayIn</doc-idp-name> sur n'importe quel type de tableau de sortie. <br>Le graphique interne doit être modifié pour fournir le processus de filtrage.",
+  "dataPorts": {
+    "ArrayIn": "Le tableau d'entrée à filtrer. <br>Ce port de données gère tous les types de tableau.",
+    "SharedData": "Les données à partager sur chaque instance de graphique interne. <br>Ce port de données prend en charge tous les types. <br>Si plusieurs données de types différents doivent être partagées, il est recommandé de créer un type d'utilisateur.",
+    "ArrayOut": "Le tableau de sortie filtré. <br>Ce port de données gère tous les types de tableaux. <br>La taille de ce tableau ne dépassera pas celle du tableau <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Un tableau de <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> donnant le <doc-valuetype translate=no>EExecutionState</doc-valuetype> à chaque index du tableau de sortie <doc-odp-name translate=no>Success</doc-odp-name>. <br>La taille de ce tableau sera toujours égale à celle du tableau <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Un tableau de <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> donnant le <doc-valuetype translate=no>EExecutionState</doc-valuetype> à chaque index du tableau d'entrée <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Ce tableau peut être rempli de plusieurs données au cours d'une même progression, car cela dépend du processus de distribution sous-jacent au bloc. <br>Mais la taille de ce tableau ne dépassera pas celle du tableau <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Un tableau de <doc-valuetype translate=no>ArrayFilterError</doc-valuetype> donnant un objet d'erreur pour l'index du tableau d'entrée <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>La taille de ce tableau ne dépassera pas celle du tableau <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "déclenche l'exécution du bloc.",
+    "Success": "est activé lorsque le processus est terminé.",
+    "Progress": "est activé chaque fois qu'une progression s'est produite.",
+    "Error": "est activé lorsqu'une erreur s'est produite."
+  },
+  "example": null
+}

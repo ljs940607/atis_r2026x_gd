@@ -1,0 +1,1 @@
+define("DS/DELWebOERProcessViewComp/DELWebOERProcessViewComp_fr",{});define("DS/DELWebOERProcessViewComp/assets/nls/ProcessViewComp",{"PERTView.title":"Vue PERT"});

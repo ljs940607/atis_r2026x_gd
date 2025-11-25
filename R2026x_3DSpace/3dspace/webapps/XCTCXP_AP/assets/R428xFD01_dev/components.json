@@ -1,0 +1,576 @@
+{
+  "Abstract3DExperienceObject_Spec": {
+    "extensions": {
+      "CATI3DExperienceObject": "DS/CAT3DExpModel/extensions/CATE3DExperienceObject",
+      "CATI3DXAssetHolder": "DS/CAT3DExpModel/extensions/CATE3DXAssetHolder",
+      "VCXIModifiable": "DS/CAT3DExpModel/extensions/CATEModifiable",
+      "CATIAlias": "DS/CAT3DExpModel/extensions/CATEAlias",
+      "CATI3DXVolatileEO": "DS/CAT3DExpModel/extensions/CATE3DXVolatileEO",
+      "CATI3DExperienceDelegate": "DS/CAT3DExpModel/extensions/CATE3DExperienceDelegate",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEExperienceBasePrototypeBuild"
+    }
+  },
+  "CXPExperience_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEExperience3DGeoVisu",
+      "CATICXPActorsMgr": "DS/CATCXPModel/extensions/CATECXPActorsMgr",
+      "CATICXPScenariosMgr": "DS/CATCXPModel/extensions/CATECXPExperienceScenariosMgr",
+      "CATICXPResourcesMgr": "DS/CATCXPModel/extensions/CATECXPExperienceResourcesMgr",
+      "CATICXPEnvironmentsMgr": "DS/CATCXPModel/extensions/CATECXPEnvironmentsMgr",
+      "CATICXPMaterialsMgr": "DS/CATCXPModel/extensions/CATECXPExperienceMaterialsMgr",
+      "CATICXPScenesMgr": "DS/XCTWebExperienceAppPlay/extensions/CATECXPExperienceScenesMgrPlay",
+      "CATI3DExpVariantsMgr": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVariantsMgr",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXPWizardedScenario_Spec": {
+    "extensions": {
+      "VIAIIxpWizardedScenarioDescriptor": "DS/VIAIdeaExperienceScenarioModelWeb/extensions/VIAEIxpWizardedScenarioDescriptor"
+    }
+  },
+  "CXPAct_Spec": {
+    "extensions": {
+      "CATICXPBehaviorsMgr": "DS/CATCXPModel/extensions/CATECXPBehaviorsMgr"
+    }
+  },
+  "CXP3DActor_Spec": {
+    "extensions": {
+      "VCXIModifiable": "DS/CATCXPModel/extensions/CATECXP3DActorModifiable",
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATE3DActor3DGeoVisu",
+      "CATIMovable": "DS/CATCXPModel/extensions/CATE3DActorMovable",
+      "CATICXPActorsMgr": "DS/CATCXPModel/extensions/CATECXPActorsMgr",
+      "CATICXPBehaviorsMgr": "DS/CATCXPModel/extensions/CATECXPBehaviorsMgr",
+      "CATICXPMaterialsMgr": "DS/CATCXPModel/extensions/CATECXP3DActorMaterialsMgr",
+      "CATI3DXGraphicalProperties": "DS/CATCXPModel/extensions/CATE3DX3DActorGraphicalProperties",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuE3DActorPrototypeBuild",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXP3DActorOverride_Spec": {
+    "extensions": {
+      "VCXIModifiable": "DS/CATCXPModel/extensions/CATECXP3DActorModifiable",
+      "CATICXPBehaviorsMgr": "DS/CATCXPModel/extensions/CATECXPBehaviorsMgr",
+      "CATICXPMaterialsMgr": "DS/CATCXPModel/extensions/CATECXP3DActorMaterialsMgr",
+      "CATI3DXGraphicalProperties": "DS/CATCXPModel/extensions/CATE3DX3DActorGraphicalProperties",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXP3DUIActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE3DUIActorPrototypeBuild",
+      "CATI3DXUIEvents": "DS/StudioUIActorModelWebPlay/extensions/CATE3DUIActor3DXUIEventsPlay"
+    }
+  },
+  "CXP3DImageButtonActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE3DImageButtonPrototypeBuild",
+      "CATI3DGeoVisu": "DS/StudioUIActorModelWeb/extensions/CATE3DImageButton3DGeoVisu"
+    }
+  },
+  "CXP3DButtonActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE3DButtonPrototypeBuild",
+      "CATI3DGeoVisu": "DS/StudioUIActorModelWeb/extensions/CATE3DButton3DGeoVisu"
+    }
+  },
+  "CXP3DTextActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE3DTextPrototypeBuild",
+      "CATI3DGeoVisu": "DS/StudioUIActorModelWeb/extensions/CATE3DText3DGeoVisu"
+    }
+  },
+  "CXP3DWebViewerActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE3DWebViewerPrototypeBuild",
+      "CATICXPWebViewer": "DS/StudioUIActorModelWeb/extensions/CATECXP3DWebViewer",
+      "CATI3DGeoVisu": "DS/StudioUIActorModelWeb/extensions/CATE3DWebViewer3DGeoVisu"
+    }
+  },
+  "CXPPrimitiveActor_Spec": {
+    "extensions": {
+      "CATI3DXGraphicalProperties": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATE3DXPrimitiveActorGraphicalProperties"
+    }
+  },
+  "CXPCubeActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATECubeActor3DGeoVisu"
+    }
+  },
+  "CXPCapsuleActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATECapsuleActor3DGeoVisu"
+    }
+  },
+  "CXPSphereActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATESphereActor3DGeoVisu"
+    }
+  },
+  "CXPCylinderActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATECylinderActor3DGeoVisu"
+    }
+  },
+  "CXPTorusActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATETorusActor3DGeoVisu"
+    }
+  },
+  "CXPConeActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATEConeActor3DGeoVisu"
+    }
+  },
+  "CXPPlaneActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATEPlaneActor3DGeoVisu"
+    }
+  },
+  "CXPArrowActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioGeometricPrimitivesModelWebMedia/extensions/CATEArrowActor3DGeoVisu"
+    }
+  },
+  "CXPCubeTriggerZoneActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioTriggerZonesModelWebMedia/extensions/CATECubeTZActor3DGeoVisu"
+    }
+  },
+  "CXPCapsuleTriggerZoneActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioTriggerZonesModelWebMedia/extensions/CATECapsuleTZActor3DGeoVisu"
+    }
+  },
+  "CXPSphereTriggerZoneActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioTriggerZonesModelWebMedia/extensions/CATESphereTZActor3DGeoVisu"
+    }
+  },
+  "CXPCylinderTriggerZoneActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioTriggerZonesModelWebMedia/extensions/CATECylinderTZActor3DGeoVisu"
+    }
+  },
+  "Model_VPMReference_Spec": {
+    "extensions": {
+      "CATI3DXAssetProperties": "DS/CATCXPModel/extensions/CATE3DXAssetProperties",
+      "CATI3DX3DActorAsset": "DS/CATCXPModel/extensions/CATE3DX3DActorAssetMedia",
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEVPMReference3DGeoVisu",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEProductActorPrototypeBuild"
+    }
+  },
+  "Model_VPMOccurrence_Spec": {
+    "extensions": {
+      "CATI3DXOverrideAssetProperties": "DS/CATCXPModel/extensions/CATE3DXOverrideAssetProperties",
+      "CATI3DX3DActorAsset": "DS/CATCXPModel/extensions/CATE3DX3DActorOverrideAssetMedia",
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEVPMOccurrence3DGeoVisu",
+      "CATIMovable": "DS/CATCXPModel/extensions/CATEVPMOccurrenceMovable",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuESubProductActorPrototypeBuild"
+    }
+  },
+  "CXPScriptBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEBeScriptPrototypeBuild"
+    }
+  },
+  "CXPPlaySettings": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEExperienceBasePrototypeBuild"
+    }
+  },
+  "CXPUIActor_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIActorUIRep",
+      "CATICXPUIActor": "DS/StudioUIActorModelWeb/extensions/CATECXPUIActor",
+      "CATICXPBehaviorsMgr": "DS/CATCXPModel/extensions/CATECXPBehaviorsMgr",
+      "CATI3DXGraphicalProperties": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIActorGraphicalProperties",
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuEUIActorPrototypeBuild",
+      "VCXIModifiable": "DS/StudioUIActorModelWeb/extensions/CATECXPUIActorModifiable"
+    }
+  },
+  "CXPPictureResource_Spec": {
+    "extensions": {
+      "CATI3DXPictureResourceAsset": "DS/StudioResourceModelWeb/extensions/CATE3DXPictureResourceAsset",
+      "StuIPrototypeBuild": "DS/StudioResourceModelWebPlay/extensions/StuPictureResourcePrototypeBuild",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXPSoundResource_Spec": {
+    "extensions": {
+      "CATI3DXSoundResourceAsset": "DS/StudioResourceModelWeb/extensions/CATE3DXSoundResourceAsset",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXPSoundPlayerBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebCreativeAppPlay/extensions/StuESoundPlayerPrototypeBuild"
+    }
+  },
+  "CXPSoundListenerBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebCreativeAppPlay/extensions/StuESoundListenerPrototypeBuild"
+    }
+  },
+  "CXPKeyframerResource_Spec": {
+    "extensions": {
+      "CATI3DXKeyframerResourceAsset": "DS/StudioResourceModelWeb/extensions/CATE3DXKeyframerResourceAsset"
+    }
+  },
+  "CXPURLResource_Spec": {
+    "extensions": {
+      "CATI3DXURLResourceAsset": "DS/StudioResourceModelWeb/extensions/CATE3DXURLResourceAsset"
+    }
+  },
+  "CXPVirtualPathActor_Spec": {
+    "extensions": {
+      "VIAIIxpVirtualPath": "DS/VIAIdeaExperienceVirtualObjModelWeb/extensions/VIAEIxpVirtualPath",
+      "StuIPrototypeBuild": "DS/VIAIdeaExperienceVirtualObjModelWebPlay/extensions/StuEVirtualPathActorPrototypeBuild"
+    }
+  },
+  "CXPAdvancedPathActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/VIAIdeaExperienceVirtualObjModelWebPlay/extensions/StuEAdvancedPathActorPrototypeBuild"
+    }
+  },
+  "AmbienceModel_Spec": {
+    "extensions": {
+      "CATI3DXAssetProperties": "DS/CATCXPModel/extensions/CATE3DXAssetProperties",
+      "CATI3DXAmbienceAsset": "DS/CAT3DExpAmbienceModelWebMedia/extensions/CATE3DXAmbienceAssetMedia",
+      "CATICXPEnvironmentActivate": "DS/CAT3DExpAmbienceModelWeb/extensions/CATECXPAmbienceEnvironmentActivate"
+    }
+  },
+  "CXPMaterialApplication_Spec": {
+    "extensions": {
+      "CATICXPMaterialApplication": "DS/CATCXPModel/extensions/CATECXPMaterialApplication",
+      "CATI3DXMaterialApplicationAsset": "DS/CAT3DExpMaterialWeb/extensions/CATE3DXMaterialApplicationAsset",
+      "CATI3DXMaterialApplicationVisu": "DS/CAT3DExpMaterialWebMedia/extensions/CATE3DXMaterialApplicationVisuMedia"
+    }
+  },
+  "CXPCoveringMaterial_Spec": {
+    "extensions": {
+      "CATI3DXAssetProperties": "DS/CATCXPModel/extensions/CATE3DXAssetProperties",
+      "CATI3DXMaterialAsset": "DS/CAT3DExpMaterialWebMedia/extensions/CATE3DXMaterialAssetMedia",
+      "CATI3DXMaterialVisu": "DS/CAT3DExpMaterialWebMedia/extensions/CATE3DXMaterialVisuMedia",
+      "StuIPrototypeBuild": "DS/CAT3DExpMaterialWebPlay/extensions/StuEMaterialPrototypeBuild"
+    }
+  },
+  "ExpTrackManager_Spec": {
+    "extensions": {
+      "CATI3DXJSONProcessor": "DS/VCXWebExperienceLoader/CATE3DXJSONProcessorExpTrackManager_Spec"
+    }
+  },
+  "Animation_Spec": {
+    "extensions": {
+      "CATI3DXVCXScenarioAsset": "DS/VIAIdeaExperienceScenarioModelWeb/extensions/CATE3DXVCXScenarioAsset",
+      "StuIPrototypeBuild": "DS/VIAIdeaExperienceScenarioModelWebPlay/extensions/StuEAnimationPrototypeBuild"
+    }
+  },
+  "CXPLightActor_Spec": {
+    "extensions": {
+      "CATICXPLight": "DS/StudioLightModelWeb/extensions/CATECXPLight"
+    }
+  },
+  "CXPDirectionalLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATEDirectionalLightActor3DGeoVisu"
+    }
+  },
+  "CXPPointLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATEPointLightActor3DGeoVisu"
+    }
+  },
+  "CXPSpotLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATESpotLightActor3DGeoVisu"
+    }
+  },
+  "CXPAreaLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATEAreaLightActor3DGeoVisu"
+    }
+  },
+  "CXPCylinderLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATECylinderLightActor3DGeoVisu"
+    }
+  },
+  "CXPDiskLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATEDiskLightActor3DGeoVisu"
+    }
+  },
+  "CXPRectangleLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATERectangleLightActor3DGeoVisu"
+    }
+  },
+  "CXPSphereLightActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/StudioLightModelWebMedia/extensions/CATESphereLightActor3DGeoVisu"
+    }
+  },
+  "CXPCameraManagerSequence_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuECameraManagerSequencePrototypeBuild"
+    }
+  },
+  "CXPCameraManagerTransition_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuECameraManagerTransitionPrototypeBuild"
+    }
+  },
+  "Vector3D_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEVector3DPrototypeBuild"
+    }
+  },
+  "Vector2D_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEVector2DPrototypeBuild"
+    }
+  },
+  "CollectionCall_Spec": {
+    "extensions": {
+      "CATICXPGroupCall": "DS/CATCXPModel/extensions/CATECXPCollectionGroupCall",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuECollectionCallPrototypeBuild"
+    }
+  },
+  "CXPScene_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEScene3DGeoVisu",
+      "CATICXPActorsMgr": "DS/CATCXPModel/extensions/CATECXPActorsMgr",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "PermanentState_Spec": {
+    "extensions": {
+      "CATI3DExpState": "DS/CAT3DExpModel/extensions/CATE3DExpState"
+    }
+  },
+  "CXPXRControllerActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebCreativeAppPlay/extensions/StuEXRControllerPrototypeBuild"
+    }
+  },
+  "CXPCameraActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuECameraPrototypeBuild"
+    }
+  },
+  "CXPNavigationBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuENavigationPrototypeBuild"
+    }
+  },
+  "CXPOrbitalNavigationBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuEOrbitalNavigationPrototypeBuild"
+    }
+  },
+  "CXP2DUIActor_Spec": {
+    "extensions": {
+      "CATICXPBehaviorsMgr": "DS/CATCXPModel/extensions/CATECXPBehaviorsMgr",
+      "CATICXPUIActor": "DS/StudioUIActorModelWeb/extensions/CATECXP2DUIActor",
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DUIActor",
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE2DUIActorPrototypeBuild"
+    }
+  },
+  "CXP2DText_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DText"
+    }
+  },
+  "CXP2DButton_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DButton"
+    }
+  },
+  "CXP2DSlider_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DSlider"
+    }
+  },
+  "CXP2DImage_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DImage"
+    }
+  },
+  "CXP2DImageButton_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DImageButton"
+    }
+  },
+  "CXP2DTextField_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DTextField"
+    }
+  },
+  "CXP2DColorPicker_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DColorPicker"
+    }
+  },
+  "CXP2DCameraViewer_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DCameraViewer"
+    }
+  },
+  "CXP2DWebViewer_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DWebViewer",
+      "CATICXPWebViewer": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DWebViewer",
+      "StuIPrototypeBuild": "DS/StudioUIActorModelWebPlay/extensions/StuE2DWebViewerPrototypeBuild"
+    }
+  },
+  "CXP2DGallery_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DGallery"
+    }
+  },
+  "CXP2DGalleryViewpoint_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DGalleryViewpoint"
+    }
+  },
+  "CXP2DGalleryProduct_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DGalleryProduct"
+    }
+  },
+  "CXP2DGalleryImage_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DGalleryImage"
+    }
+  },
+  "CXP2DGalleryMenu_Spec": {
+    "extensions": {
+      "CATI3DXUIRep": "DS/StudioUIActorModelWeb/extensions/CATE3DXUIRep2DGalleryMenu"
+    }
+  },
+  "Variant2_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVariant",
+      "StuIPrototypeBuild": "DS/CAT3DExpVariantWebPlay/extensions/StuEVariantPrototypeBuild"
+    }
+  },
+  "ConditionalVariant_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpConditionalVariant",
+      "CATI3DExpConditionalVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpConditionalVariant"
+    }
+  },
+  "EnoviaDictionaryVariant2_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpEnoviaDictionaryVariant",
+      "CATI3DExpEnoviaDictionaryVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpEnoviaDictionaryVariant"
+    }
+  },
+  "MaterialVariant2_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpMaterialVariant",
+      "CATI3DExpMaterialVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpMaterialVariant"
+    }
+  },
+  "PackageVariant2_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpPackageVariant",
+      "CATI3DExpPackageVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpPackageVariant"
+    }
+  },
+  "VisibilityVariant2_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVisibilityVariant",
+      "CATI3DExpVisibilityVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVisibilityVariant"
+    }
+  },
+  "OptionGroupVariant_Spec": {
+    "extensions": {
+      "CATI3DExpVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpOptionGroupVariant",
+      "CATI3DExpOptionGroupVariant": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpOptionGroupVariant"
+    }
+  },
+  "VariantValue_Spec": {
+    "extensions": {
+      "CATI3DExpVariantValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVariantValue",
+      "StuIPrototypeBuild": "DS/CAT3DExpVariantWebPlay/extensions/StuEVariantValuePrototypeBuild"
+    }
+  },
+  "EnoviaDictionaryValue_Spec": {
+    "extensions": {
+      "CATI3DExpVariantValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpEnoviaDictionaryValue",
+      "CATI3DExpEnoviaDictionaryValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpEnoviaDictionaryValue"
+    }
+  },
+  "MaterialValue_Spec": {
+    "extensions": {
+      "CATI3DExpVariantValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpMaterialValue",
+      "CATI3DExpMaterialValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpMaterialValue",
+      "StuIPrototypeBuild": "DS/CAT3DExpVariantWebPlay/extensions/StuEMaterialValuePrototypeBuild"
+    }
+  },
+  "PackageValue_Spec": {
+    "extensions": {
+      "CATI3DExpVariantValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpPackageValue",
+      "CATI3DExpPackageValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpPackageValue"
+    }
+  },
+  "VisibilityValue_Spec": {
+    "extensions": {
+      "CATI3DExpVariantValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVisibilityValue",
+      "CATI3DExpVisibilityValue": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVisibilityValue",
+      "StuIPrototypeBuild": "DS/CAT3DExpVariantWebPlay/extensions/StuEVisibilityValuePrototypeBuild"
+    }
+  },
+  "3DSceneObject_Spec": {
+    "extensions": {
+      "CATI3DExpVariantsMgr": "DS/CAT3DExpVariantWeb/extensions/CATE3DExpVariantsMgr"
+    }
+  },
+  "SMACXPSimulationActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/SMAXCTSimVisuWeb/extensions/SMAECXPSimulation3DGeoVisu"
+    }
+  },
+  "SMACXPSimulationSeqActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/SMAXCTSimVisuWeb/extensions/SMAECXPSimulationSeq3DGeoVisu"
+    }
+  },
+  "SMACXPDataDisplayActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/SMAXCTSimVisuWeb/extensions/SMAECXPDataDisplay3DGeoVisu"
+    }
+  },
+  "SMACXP3DElementActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/SMAXCTSimVisuWeb/extensions/SMAECXP3DElement3DGeoVisu"
+    }
+  },
+  "SMACXPSimulationAnimation_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/SMAXCTSimRTWeb/extensions/StuESimulationAnimationPrototypeBuild"
+    }
+  },
+  "SMACXPLegendActor_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/SMAXCTSimRTWeb/extensions/StuESimulationLegendPrototypeBuild",
+      "CATI3DGeoVisu": "DS/SMAXCTSimVisuWeb/extensions/SMAECXPLegend3DGeoVisu"
+    }
+  },  
+  "Color_Spec": {
+    "extensions" : {
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXPWebResource_Spec": {
+    "extensions" : {
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXPMoveUnderConstraintsBe_Spec": {
+    "extensions" : {
+      "StuIPrototypeBuild": "DS/CXPAssemblyStudioMuCEngine/extensions/StuEMoveUnderConstraintsPrototypeBuild"
+    }
+  }
+}

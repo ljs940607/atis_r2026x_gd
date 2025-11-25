@@ -1,0 +1,1 @@
+define("DS/WebAppsFoundations/WebAppsFoundations_zh-TW",{});define("DS/WebAppsFoundations/assets/nls/WebAppsFoundations",{wigdetRunabiltyException:"警告：本網站並非 3DEXPERIENCE Platform 平台的一部分，也不屬於任何 Dassault Systèmes 企業網站，請勿信任此網站。",onPassportErrorUnauthedClient:"請先在另一個標籤中登入此租用戶"});

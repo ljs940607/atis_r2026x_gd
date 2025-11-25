@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "Vista",
+    "MP_DEFAULT": "Vista predeterminada",
+    "MP_CUSTO": "Vista personalizada",
+    "copyOf": "Copia de {MP_VIEW_NAME}"
+  },
+  "tooltip": {
+    "title": {
+      "check": "Confirmar",
+      "cancel": "Cancelar",
+      "reset": "Restablecer",
+      "newView": "Nueva vista",
+      "editView": "Editar vista",
+      "removeView": "Eliminar vista",
+      "addColumn": "Agregar columna",
+      "removeColumn": "Eliminar columna",
+      "lockedColumn": "La columna está bloqueada",
+      "findInAtt": "Buscar atributo",
+      "addTypesAndExt": "Administrar tipos y extensiones",
+      "moveUp": "Mover hacia arriba",
+      "moveDown": "Mover hacia abajo",
+      "moveTop": "Mover la parte superior",
+      "moveBottom": "Mover la parte inferior"
+    },
+    "check": "Confirme la acción actual.",
+    "reset": "Quitar todos los cambios de la vista.",
+    "cancel": "Cancele la acción actual.",
+    "findInAtt": "Buscar un atributo en todas las columnas disponibles.",
+    "addTypesAndExt": "Agregar o quitar tipos o extensiones de las columnas disponibles.",
+    "moveUp": "Mover la columna seleccionada hacia arriba.",
+    "moveDown": "Mover la columna seleccionada hacia abajo.",
+    "moveTop": "Mover la columna seleccionada a la primera posición.",
+    "moveBottom": "Mover la columna seleccionada a la última posición.",
+    "modificationNotStored": "Los cambios no se han guardado en las preferencias del usuario.",
+    "maximumView": "Ha alcanzado el número máximo de vistas (4) que puede crear.",
+    "newView": "Cree una nueva vista. Puede crear un máximo de 4 vistas.",
+    "editView": "Edite la vista actual.",
+    "removeView": "Eliminar la vista actual.",
+    "addColumn": "La columna se moverá en las columnas seleccionadas.",
+    "removeColumn": "La columna se moverá en las columnas disponibles.",
+    "maximumColumn": "Ha alcanzado el número máximo de columnas (30) que puede agregar.",
+    "lockedColumn": "No se puede mover la columna."
+  },
+  "commandMenu": {
+    "default": "Vista predeterminada",
+    "root": "Vistas de tabla",
+    "admin": "Vistas de administrador",
+    "user": "Mis vistas",
+    "widget": "Vista local"
+  },
+  "column_FavoriteTitle": "Título",
+  "column_BookmarkLocation": "Marcador padre",
+  "column_Thumbnail": "Miniatura",
+  "column_ApprovalStatus": "Estado de aprobación",
+  "column_Menu": "Menú",
+  "admin": "Administrador",
+  "toolbar": {
+    "spacing": "Densidad ",
+    "spacingComfortable": "Cómodo",
+    "spacingCompact": "Compacto",
+    "checkbox": "Casilla de verificación Selección de objeto",
+    "findInAtt": "Buscar atributo",
+    "resetDefault": "Restablecer a valores predeterminados"
+  },
+  "columns": {
+    "attName": "Nombre de atributo",
+    "attType": "Tipo de atributo",
+    "colName": "Nombre de columna",
+    "pin": "Anclar",
+    "hide_show": "Ocultar/Mostrar",
+    "findinctx": "Buscar",
+    "thumbnail": "Vista preliminar",
+    "thumbnails": "Vista preliminar",
+    "matrixtxt": "Matriz de posición",
+    "typeName": "Tipo",
+    "extName": "Extensión"
+  },
+  "attSelection": {
+    "title": "Columnas disponibles: ",
+    "extension": "Extensión {typeName}",
+    "REFERENCE": "Referencia",
+    "INSTANCE": "Instancia",
+    "CLASSIFICATION": "Clase",
+    "COMPUTED": "Calculado",
+    "COMMAND": "Comando",
+    "pinLeft": "Anclar a la izquierda",
+    "pinRight": "Anclar a la derecha",
+    "unpinned": "Sin anclar",
+    "commonAttributes": "Atributos comunes",
+    "typesAttributes": "Atributos de tipo",
+    "extsAttributes": "Atributos de extensión",
+    "classifAttributes": "Atributos de clasificación",
+    "otherColumns": "Otros"
+  },
+  "selectedAtt": {
+    "title": "Columnas seleccionadas: "
+  },
+  "typeNext": {
+    "title": "Selector de tipos y extensiones",
+    "okBtn": "Aplicar",
+    "cancelBtn": "Cancelar",
+    "selectionTypeTitle": "Tipos",
+    "selectionExtTitle": "Extensiones",
+    "extension": {
+      "placeholder": "No ha seleccionado ningún tipo. Seleccione uno o más tipos para mostrar las extensiones asociadas."
+    }
+  },
+  "selectionTitle": "Seleccione Tipo o Extensión para enumerar los atributos",
+  "dialog": {
+    "title": "Preferencias de tabla",
+    "okBtn": "Guardar",
+    "cancelBtn": "Cancelar"
+  },
+  "loading": {
+    "default": "Cargando…",
+    "gridCusto": "Cargando preferencias de tabla",
+    "baseTypeAndExt": "Cargando tipos y extensiones disponibles",
+    "gridCustoReset": "Restablecer a los valores predeterminados"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Instancia de representación física"
+  },
+  "notDisplayedAtt": "No debe mostrarse en la interfaz de usuario",
+  "warning": {
+    "emptyName": {
+      "title": "El nombre de la vista no puede estar vacío",
+      "msg": "El nombre de la vista está vacío."
+    },
+    "tooManySelected": {
+      "title": "Se ha alcanzado el número máximo de columnas",
+      "msg": "Solo se autoriza un máximo de {maxNumber} columnas"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "La vista ya existe",
+      "msg": "Ya existe una vista con el nombre \"{MP_VIEW_NAME}\""
+    },
+    "viewAlreadyExistsMod": {
+      "title": "La vista ya existe",
+      "msg": "Ya existe una vista con el nombre \"{MP_VIEW_NAME}\""
+    }
+  }
+}

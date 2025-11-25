@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="AWL">
+    <Domain id="LifecycleTopology" >
+        <Family id="POA">
+            <Constant id="policyID" value="POA"/>
+            <Constant id="modifyTopology" value="false"/>
+            <Constant id="renameStates" value="true"/>
+            <Constant id="appType" value="CBP"/>
+            <Constant id="NLSStateFileName" value="emxFrameworkStringResource.properties"/>
+            <Constant id="complementaryPropFiles" value="PLMAttrValuePart.CATNls"/>
+            <Constant id="lang" value="en,fr,de,es,it,ja,zh"/>
+
+			<State id="Draft">
+                <Constant id="sysName" value="Draft"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Draft"/>
+                <Constant id="complementaryNLSKeys" value="current.Draft"/>
+            </State>
+            <State id="Preliminary">
+                <Constant id="sysName" value="Preliminary"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Preliminary"/>
+                <Constant id="complementaryNLSKeys" value="current.Preliminary"/>
+            </State>
+            <State id="Artwork_In_Process">
+                <Constant id="sysName" value="Artwork In Process"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Artwork_In_Process"/>
+                <Constant id="complementaryNLSKeys" value="current.Artwork_In_Process"/>
+            </State>
+            <State id="Review">
+                <Constant id="sysName" value="Review"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Review"/>
+                <Constant id="complementaryNLSKeys" value="current.Review"/>
+            </State>
+            <State id="Approved">
+                <Constant id="sysName" value="Approved"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Approved"/>
+                <Constant id="complementaryNLSKeys" value="current.Approved"/>
+            </State>
+            <State id="Release">
+                <Constant id="sysName" value="Release"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Release"/>
+                <Constant id="complementaryNLSKeys" value="current.Release"/>
+            </State>
+            <State id="Obsolete">
+                <Constant id="sysName" value="Obsolete"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.POA.Obsolete"/>
+                <Constant id="complementaryNLSKeys" value="current.Obsolete"/>
+            </State>
+
+			<Transition id="DrafttoPreliminary">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Draft"/>
+                <Constant id="targetState" value="Preliminary"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="DrafttoObsolete">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Draft"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="PreliminarytoArtworkInProcess">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Preliminary"/>
+                <Constant id="targetState" value="Artwork In Process"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ArtworkInProcesstoReview">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Artwork In Process"/>
+                <Constant id="targetState" value="Review"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ReviewtoApproved">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Review"/>
+                <Constant id="targetState" value="Approved"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ApprovedtoRelease">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Approved"/>
+                <Constant id="targetState" value="Release"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ReleasetoObsolete">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Release"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="PreliminarytoObsolete">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Preliminary"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ArtworkInProcesstoObsolete">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Artwork In Process"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="ReviewtoObsolete">
+                <Constant id="transName" value=""/>
+                <Constant id="sourceState" value="Review"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+        </Family>
+     </Domain>
+</OOTBParameterization>

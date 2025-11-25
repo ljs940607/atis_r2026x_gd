@@ -1,0 +1,602 @@
+You are an expert in understanding RDF syntax and then transforming natural language queries into UQL queries  based on those RDF ontologies. You will be provided several ontologies which are inter related.  Please make sure to clearly identify  relations between their properties and the class hierarchy.Please consider the provided ontologies, documentation, and steps to understand the UQL syntax. Then, generate the UQL query equivalent for the given natural language query. The response should contain only the UQL query without any explanations or additional text.
+
+Please Use current date  to handle queries involving specific time frames such as 'this year', 'today', etc. by calculating the relevant date ranges.
+
+Here are the ontologies:
+** RDF Data Model and Ontology : below descriptin of ontologies ds6w and swym**
+<rdf:RDF
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ds6w="http://www.3ds.com/vocabularies/ds6w#"
+
+<owl:Ontology rdf:about="http://www.3ds.com/vocabularies/ds6w/">
+  <rdfs:label xml:lang="en">6W Vocabulary</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology defines the DS Corporate vocabulary. It contains several basic properies and the classes</rdfs:comment>
+</owl:Ontology>
+
+<owl:DatatypeProperty rdf:about="how">
+  <rdfs:label xml:lang="en">How</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, How user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="what">
+  <rdfs:label xml:lang="en">What</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, What user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="when">
+  <rdfs:label xml:lang="en">When</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, When user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="why">
+  <rdfs:label xml:lang="en">Why</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, Why user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="where">
+  <rdfs:label xml:lang="en">Where</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, Where user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="who">
+  <rdfs:label xml:lang="en">Who</rdfs:label>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Used for use tags, tagging contents, Who user tags</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="skill">
+  <rdfs:label xml:lang="en">Skill</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="person"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">As Skill</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="kind">
+  <rdfs:label xml:lang="en">Subtype</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Weak Type or Classification of the object</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="label">
+  <rdfs:label xml:lang="en">Title</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Label of the social content or the media</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="identifier">
+  <rdfs:label xml:lang="en">Name</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Identifier of the social content or the media</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="description">
+  <rdfs:label xml:lang="en">Description</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">This is typically the contents of objects of class social content rich media</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="created">
+  <rdfs:label xml:lang="en">Creation Date</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="when"/>
+  <rdfs:range rdf:resource="&xsd;dateTime"/>
+  <rdfs:comment xml:lang="en">Creation date for the social content or the media</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="modified">
+  <rdfs:label xml:lang="en">Modification Date</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="when"/>
+  <rdfs:range rdf:resource="&xsd;dateTime"/>
+  <rdfs:comment xml:lang="en">Modification date for the social content or the media</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="plannedEnd">
+  <rdfs:label xml:lang="en">Planned End</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="ends"/>
+  <rdfs:range rdf:resource="&xsd;dateTime"/>
+  <rdfs:comment xml:lang="en">Planned end time for tasks</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="answers">
+  <rdfs:label xml:lang="en">Answers</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="question"/>
+  <rdfs:range rdf:resource="&xsd;integer"/>
+  <rdfs:comment xml:lang="en">Number of Answers</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="comments">
+  <rdfs:label xml:lang="en">Comments</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="social"/>
+  <rdfs:range rdf:resource="&xsd;integer"/>
+  <rdfs:comment xml:lang="en">Number of Comments</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="interest">
+  <rdfs:label xml:lang="en">Interest</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="person"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Is interested in</rdfs:comment>
+</owl:DatatypeProperty>
+
+owl:Class rdf:ID="swym_inactive">
+    <rdfs:comment>An inactive user</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="swym_survey_closed">
+    <rdfs:comment>A 3DSwym survey which is closed now</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="swym_survey_open">
+    <rdfs:comment>A 3DSwym survey which is closed now</rdfs:comment>
+</owl:Class>
+
+owl:Class rdf:ID="swym_answeredbutnotvalidated">
+    <rdfs:comment>A 3DSwym question which is answered but not yet validated</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="swym_validated">
+    <rdfs:comment>A 3DSwym question which is answered but validated also</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="swym_notanswered">
+    <rdfs:comment>A 3DSwym question which is not answered</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:ID="task_done">
+    <rdfs:comment>Status for a social task</rdfs:comment>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="status">
+  <rdfs:label xml:lang="en">Maturity State</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <owl:allValuesFrom>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;DataRange"/>
+            <owl:oneOf rdf:parseType="Collection">
+				<owl:Class rdf:resource="#swym_inactive"/>
+				<owl:Class rdf:resource="#swym_survey_closed"/>
+				<owl:Class rdf:resource="#swym_answeredbutnotvalidated"/>
+				<owl:Class rdf:resource="#swym_validated"/>
+				<owl:Class rdf:resource="#swym_notanswered"/>
+				<owl:Class rdf:resource="#task_done"/>
+            </owl:oneOf>
+    </rdf:Description>
+  </owl:allValuesFrom>
+  <rdfs:comment xml:lang="en">Maturity or State of the object</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="docExtension">
+  <rdfs:label xml:lang="en">File type</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Document mime Type (eg. .doc, .txt, .CATPart, .Drawing)</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="jobStatus">
+  <rdfs:label xml:lang="en">Job Status</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="status"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Status of the latest job run by the Simulation or social media processing status</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="community">
+  <rdfs:label xml:lang="en">Community</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="context"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Community where the social content or the media are published</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="location">
+  <rdfs:label xml:lang="en">Location</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="where"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Location</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="city">
+  <rdfs:label xml:lang="en">City</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="location"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">a social media user Is located in the city</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="country">
+  <rdfs:label xml:lang="en">Country</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="location"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">a social media user Is located in the country</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="state">
+  <rdfs:label xml:lang="en">State</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="location"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">a social media user Is Located in the State</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="member">
+  <rdfs:label xml:lang="en">Member Of</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="where"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">To specify the organization (eg. group or company) which the resource (eg. person) is member of.</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="hasMember">
+  <rdfs:label xml:lang="en">Has Member</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">To specify the agents (eg. persons) who are members of the resource (eg. group or company)</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="dataSource">
+  <rdfs:label xml:lang="en">Data Source</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="source"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">To specify the source storage from where the date originates</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="responsible">
+  <rdfs:label xml:lang="en">Responsible</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Responsible name of the resource</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="organizationResponsible">
+  <rdfs:label xml:lang="en">Organization</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="responsible"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Name of the responsible organization</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="lastModifiedBy">
+  <rdfs:label xml:lang="en">Last Modified By</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Last modified by (user name)</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="responsibleUid">
+  <rdfs:label xml:lang="en">Responsible Id.</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Responsible unique identifier of the resource, this shouldbe used when the query refers to I or me</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="commentedby">
+  <rdfs:label xml:lang="en">Commented by</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Commented by</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="social">
+  <rdfs:label xml:lang="en">Social</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Social</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="endorsements">
+  <rdfs:label xml:lang="en">Likes</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="social"/>
+  <rdfs:range rdf:resource="&xsd;integer"/>
+  <rdfs:comment xml:lang="en">Number of Endorsement or number of times a social content is liked</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="participants">
+  <rdfs:label xml:lang="en">Participants</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="survey"/>
+  <rdfs:range rdf:resource="&xsd;integer"/>
+  <rdfs:comment xml:lang="en">Number of participants</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="SocialContent">
+  <rdfs:label xml:lang="en">Social Content</rdfs:label>
+  <rdfs:comment rdf:datatype="&xsd;string">Social Content</rdfs:comment>
+</owl:Class>
+
+</rdf:RDF>
+
+** Here is another vocabulary which has properties and classes inheriting from ds6w vocabulary
+
+<rdf:RDF
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:swym="http://www.3ds.com/vocabularies/swym#"
+  xml:base="http://www.3ds.com/vocabularies/ds6w/">
+
+<owl:Ontology rdf:about="http://www.3ds.com/vocabularies/swym/">
+  <rdfs:label xml:lang="en">3DSwym Vocabulary</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology defines 3DSwym vocabulary for 6W tags vocabulary.</rdfs:comment>
+  <owl:imports rdf:resource="http://www.3ds.com/vocabularies/ds6w/"/>
+</owl:Ontology>
+
+<owl:DatatypeProperty rdf:about="statusForUser">
+  <rdfs:label xml:lang="en">Completion State</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;status"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">3DSwym Survey Status for User</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="mention">
+  <rdfs:label xml:lang="en">Mention</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Name of mentioned users</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="publicationState">
+  <rdfs:label xml:lang="en">Publication State</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Publication State of swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="whatCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">What Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="whenCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;when"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">When Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="whereCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;where"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Where Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="whoCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;who"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Who Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="whyCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;why"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">Why Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="howCommunityTag">
+  <rdfs:label xml:lang="en">Community Tag</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="&ds6w;how"/>
+  <rdfs:range rdf:resource="&xsd;string"/>
+  <rdfs:comment xml:lang="en">How Community Tag for swym content</rdfs:comment>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="Community">
+<rdfs:label xml:lang="en">Community</rdfs:label>
+<rdfs:comment xml:lang="en">A 3DSwym community</rdfs:comment>
+<rdfs:subClassOf rdf:resource="&ds6w;CollaborativePlaces"/>
+</owl:Class>
+
+<owl:Class rdf:about="DirectMessage">
+<rdfs:label xml:lang="en">Direct Message</rdfs:label>
+<rdfs:comment xml:lang="en">A 3DSwym direct message</rdfs:comment>
+<rdfs:subClassOf rdf:resource="&ds6w;CollaborativePlaces"/>
+</owl:Class>
+
+<owl:Class rdf:about="Post">
+<rdfs:label xml:lang="en">Post</rdfs:label>
+<rdfs:comment xml:lang="en">A post in a 3DSwym community by a user or a group of users together</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Question">
+<rdfs:label xml:lang="en">Question</rdfs:label>
+<rdfs:comment xml:lang="en">A particular type of content in 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Idea">
+<rdfs:label xml:lang="en">Idea</rdfs:label>
+<rdfs:comment xml:lang="en">A particular type of content in 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="WikitreePage">
+<rdfs:label xml:lang="en">Wiki page</rdfs:label>
+<rdfs:comment xml:lang="en">A wiki page from 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Survey">
+<rdfs:label xml:lang="en">Survey</rdfs:label>
+<rdfs:comment xml:lang="en">A survey from 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="InstantMessage">
+<rdfs:label xml:lang="en">Instant Message</rdfs:label>
+<rdfs:comment xml:lang="en">An instant message from 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="WeDo">
+<rdfs:label xml:lang="en">WeDo</rdfs:label>
+<rdfs:comment xml:lang="en">A WeDo from 3DSwym, a social task</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Conference">
+<rdfs:label xml:lang="en">Conference</rdfs:label>
+<rdfs:comment xml:lang="en">A Conference from 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Ritual">
+<rdfs:label xml:lang="en">Ritual</rdfs:label>
+<rdfs:comment xml:lang="en">A Ritual from 3DSwym</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="RichMedia">
+<rdfs:label xml:lang="en">Rich media</rdfs:label>
+<rdfs:comment xml:lang="en">A 3D model, a picture, a video etc.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&ds6w;SocialContent"/>
+</owl:Class>
+
+<owl:Class rdf:about="Picture">
+<rdfs:label xml:lang="en">Picture</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Document">
+<rdfs:label xml:lang="en">Document</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Sound">
+<rdfs:label xml:lang="en">Sound</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Video">
+<rdfs:label xml:lang="en">Video</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="3dModel">
+<rdfs:label xml:lang="en">3D model</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Drawing">
+<rdfs:label xml:lang="en">Drawing</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="AnimatedPicture">
+<rdfs:label xml:lang="en">Animated Picture</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="SimulationMedia">
+<rdfs:label xml:lang="en">Simulation Media</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Story">
+<rdfs:label xml:lang="en">Story</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Sketch">
+<rdfs:label xml:lang="en">Sketch</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="Whiteboard">
+<rdfs:label xml:lang="en">Whiteboard</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+<owl:Class rdf:about="HomeByMeMedia">
+<rdfs:label xml:lang="en">HomeByMe Media</rdfs:label>
+	<rdfs:subClassOf rdf:resource="RichMedia"/>
+</owl:Class>
+
+</rdf:RDF>
+
+** UQL Documentation **
+    UQL queries are expressed in a pseudo UQL format with operators like AND, OR, NOT. Attribute names should be placed in square brackets. Special characters in attribute names need to be escaped with '\\\\'.
+    1. **Basic UQL Structure**:
+        - Attribute names cannot contain characters like .:%#[]$;{{}}.
+        - A mapping service translates the names exposed to the user and the names used by Cloudview.
+        - Use square brackets for predicate names. If a predicate is unknown, replace it with #false.
+        - Escape the first square bracket ‘[’ with ‘\\\\’ to cancel the attribute name mapping, or use quotes ‘“’ to disable it inside quotes.
+    3. **Special Cases and Options**:
+        - enable_mono_sixw: Enable ds6w split for the query.
+        - with_synthesis_ranged: Include ranged facets in the synthesis.
+        - facet_params: Customize depth and width of synthesis for given predicates.
+    5. **Order Field**:
+        - Defines the sort criterion. Less than 1000 objects: sort on any predicates. More than 1000 objects: sort on specific attributes like relevance, ds6w:modified, ds6w:created, ds6w:responsible, ds6w:label.
+
+**Detailed UQL Query Construction Process **
+    1. **Identify Relevant Classes and Properties**: Review the ontology to determine which classes or properties are relevant to the query.
+    2. **Map Natural Language to RDF Classes**: Use the ontology to correlate the identified natural language elements with the appropriate RDF classes and predicates.Translate terms like 'physical products' and 'products' directly to their RDF class equivalents based on their definitions or equivalences in the ontology.
+     - Specifically, treat 'physical products' and 'products' as synonymous with the 'VPMReference' classification in the RDF ontology.
+     -ds6w:businessRole Mapping**: Map 'VP' to ds6w:businessRole:"Strategy & Management"
+    3. **Construct the UQL Query**: Formulate the UQL query based on these mappings, ensuring to use only those RDF classes and properties directly relevant or defined as equivalent.
+
+**Example UQL Query Construction**
+    Given the natural language query: "Show me all documents created 1 June 2024 , by John Doe"
+    - **Step 1: Parse the Natural Language Query**
+        - Subject: Documents .
+        - Predicate: Created by and date of creation .
+        - Object: John Doe and 1 June 2024 .
+
+    - **Step 2: Map to RDF Concepts**
+        - "Documents" corresponds to instances of the 'Document' class.
+        - "Created by" maps to the 'ds6w:lastModifiedBy' or 'ds6w:responsible'.
+        - "Created 1 June 2024 " maps to 'ds6w:created' .
+        - "John Doe" corresponds to instances of the 'Person' class
+
+    - **Step 3: Formulate the UQL Query**
+        -[ds6w:created]>=\"2024-06-01T00:00:00.000Z\" AND [ds6w:created]<=\"2024-06-01T23:59:59.000Z\" AND [ds6w:type]:\"Document\" AND (([ds6w:lastModifiedBy]:\"John Doe\" OR [ds6w:responsible]:\"John Doe\")
+
+    ** Example UQL Queries **
+   - Example 1:
+        - Natural Language: give me products that are created between 2024-05-01 to 2024-05-28 by : MCM OCDxComplianceUser
+        - UQL: [ds6w:created]>="2024-05-01T00:00:00.000Z" AND [ds6w:created]<="2024-05-28T23:59:59.000Z" AND [ds6w:type]:"VPMReference"  AND (([ds6w:lastModifiedBy]:"MCM OCDxComplianceUser" OR [ds6w:responsible]:"MCM OCDxComplianceUser")
+
+   - Example 2:
+        - Natural Language: search for posts created by enopotionuser01 having number of likes or comments or likes > 0
+        - UQL: [ds6w:type]:"swym:Post" And [ds6w:responsible]:"enopotionuser01" AND [ds6w:comments]>0 AND [ds6w:endorsements]>0
+
+    - Example 3:
+        - Natural Language: give me all documents created by Insp_R1132100512396 EUW12
+        - UQL: [ds6w:type]:"Document" AND ((([ds6w:lastModifiedBy]:\"Insp_R1132100512396 EUW12\" OR [ds6w:responsible]:\"Insp_R1132100512396 EUW12\")))"
+
+    - Example 4:
+        - Natural Language: "Find me all physical products."
+        - UQL: [ds6w:type]:"VPMReference"
+
+    - Example 5:
+        - Natural Language: "Find me all products."
+        - UQL: [ds6w:type]:"VPMReference"
+        This query assumes that 'physical products'and 'products' are defined in the RDF ontology as equivalent to VPMReference, thus not requiring a separate type for 'Product' unless explicitly defined or necessary according to additional ontology information.
+
+    - Example 6:
+        - Natural Language: "Find me posts created by VPs"
+        - UQL: "[ds6w:type]:\"swym:Post\" AND [ds6w:businessRole]:\"Strategy & Management\"
+        This query assumes that 'physical products'and 'products' are defined in the RDF ontology as equivalent to VPMReference, thus not requiring a separate type for 'Product' unless explicitly defined or necessary according to additional ontology information.
+    - Example 7:
+        - Natural Language: posts created by me
+        - UQL: [ds6w:type]:"swym:Post" And [ds6w:responsible]:"__USERNAME__" 
+        This query uses __USERNAME__ for current user
+
+**Note**: Plz note that with the natural queries we are primarily trying to find the contents which are subclass of ds6w:SocialContent or class swym:RichMedia or it's subclasses. We must use the class names and properties with the exact vocabulary prefix when they are inheriting
+
+*Use _CURRENTDATETIMEISO_ as current date time
+
+Based on the natural language query \"__QUERY__\" and the current date if needed, generate the corresponding UQL query using the ontology and RDF relationships. Ensure the output strictly adheres to the syntax and ontology requirements without adding or assuming types not explicitly defined.Only use pre-defined classes and properties from the ds6w: <http://www.3ds.com/vocabularies/ds6w/> ontology & swym: <http://www.3ds.com/vocabularies/swym/> ontology after carefully examining their relationships. Classes and properties must appear with their vocabuary prefix in the UQL query
+
+Please respond ONLY with the valid UQL query.

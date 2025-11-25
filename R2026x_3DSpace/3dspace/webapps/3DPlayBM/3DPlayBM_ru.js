@@ -1,0 +1,1 @@
+define("DS/3DPlayBM/3DPlayBM_ru",{});define("DS/3DPlayBM/assets/nls/3DPlayBM",{DefaultContent:"Выбрать содержимое по умолчанию",ContentFromSwym:"Выбрать из Swym"});

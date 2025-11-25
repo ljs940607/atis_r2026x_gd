@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Converte in stringa l'oggetto specificato in un file JSON.",
+  "description": "Questo blocco è dinamico, pertanto il tipo di oggetto dei dati di input può essere modificato utilizzando la finestra di dialogo di configurazione del blocco.",
+  "dataPorts": {
+    "Object": "l'oggetto da convertire in stringa.",
+    "JSON": "l'oggetto convertito in stringa."
+  },
+  "controlPorts": {
+    "In": "attiva l'esecuzione del blocco.",
+    "Out": "viene attivato al termine del processo."
+  },
+  "example": null
+}

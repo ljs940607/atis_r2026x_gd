@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "Vue",
+    "MP_DEFAULT": "Vue par défaut",
+    "MP_CUSTO": "Vue personnalisée",
+    "copyOf": "Copie de {MP_VIEW_NAME}"
+  },
+  "tooltip": {
+    "title": {
+      "check": "Confirmer",
+      "cancel": "Annuler",
+      "reset": "Réinitialiser",
+      "newView": "Nouvelle vue",
+      "editView": "Editer la vue",
+      "removeView": "Supprimer la vue",
+      "addColumn": "Ajouter une colonne",
+      "removeColumn": "Enlever la colonne",
+      "lockedColumn": "La colonne est verrouillée",
+      "findInAtt": "Rechercher l'attribut",
+      "addTypesAndExt": "Gérer les types et les extensions",
+      "moveUp": "Monter",
+      "moveDown": "Descendre",
+      "moveTop": "Déplacer en haut",
+      "moveBottom": "Déplacer en bas"
+    },
+    "check": "Confirmez l'action courante.",
+    "reset": "Enlevez toutes les modifications de la vue.",
+    "cancel": "Annulez l'action courante.",
+    "findInAtt": "Recherchez un attribut sur toutes les colonnes disponibles.",
+    "addTypesAndExt": "Ajoutez ou enlevez des types ou des extensions dans les colonnes disponibles.",
+    "moveUp": "Déplacez la colonne sélectionnée vers le haut.",
+    "moveDown": "Déplacez la colonne sélectionnée vers le bas.",
+    "moveTop": "Déplacez la colonne sélectionnée à la première position.",
+    "moveBottom": "Déplacez la colonne sélectionnée à la dernière position.",
+    "modificationNotStored": "Les modifications ont été enregistrées dans les préférences utilisateur.",
+    "maximumView": "Vous avez atteint le nombre maximal de vues (4) que vous pouvez créer.",
+    "newView": "Créez une nouvelle vue. Vous pouvez créer 4 vues maximum.",
+    "editView": "Modifiez la machine active.",
+    "removeView": "Supprimez la vue actuelle.",
+    "addColumn": "Les colonnes seront déplacées dans les colonnes sélectionnées.",
+    "removeColumn": "La colonne sera déplacée dans les colonnes disponibles.",
+    "maximumColumn": "Vous avez atteint le nombre maximum de colonnes (30) que vous pouvez ajouter.",
+    "lockedColumn": "Impossible de déplacer la colonne."
+  },
+  "commandMenu": {
+    "default": "Vue par défaut",
+    "root": "Vues Tableau",
+    "admin": "Vues Admin",
+    "user": "Mes vues",
+    "widget": "Vue locale"
+  },
+  "column_FavoriteTitle": "Titre",
+  "column_BookmarkLocation": "Signet parent",
+  "column_Thumbnail": "Miniature",
+  "column_ApprovalStatus": "Etat d'approbation",
+  "column_Menu": "Menu",
+  "admin": "Administrateur",
+  "toolbar": {
+    "spacing": "Densité ",
+    "spacingComfortable": "Confortable",
+    "spacingCompact": "Compact",
+    "checkbox": "Case à cocher Sélection d'objet",
+    "findInAtt": "Rechercher l'attribut",
+    "resetDefault": "Rétablir la valeur par défaut"
+  },
+  "columns": {
+    "attName": "Nom de l'attribut",
+    "attType": "Type d'attribut",
+    "colName": "Nom de la colonne",
+    "pin": "Epingler",
+    "hide_show": "Masquer/Afficher",
+    "findinctx": "Rechercher",
+    "thumbnail": "Aperçu",
+    "thumbnails": "Aperçu",
+    "matrixtxt": "Matrice de position",
+    "typeName": "Type",
+    "extName": "Extension"
+  },
+  "attSelection": {
+    "title": "Colonnes disponibles : ",
+    "extension": "Extension {typeName}",
+    "REFERENCE": "Référence",
+    "INSTANCE": "Instance",
+    "CLASSIFICATION": "Classe",
+    "COMPUTED": "Calculé",
+    "COMMAND": "Commande",
+    "pinLeft": "Ancrage à gauche",
+    "pinRight": "Ancrage à droite",
+    "unpinned": "Pas d'ancrage",
+    "commonAttributes": "Attributs communs",
+    "typesAttributes": "Type d'attributs",
+    "extsAttributes": "Attributs d'extension",
+    "classifAttributes": "Attributs de classification",
+    "otherColumns": "Autres"
+  },
+  "selectedAtt": {
+    "title": "Colonnes sélectionnées : "
+  },
+  "typeNext": {
+    "title": "Sélecteur de types et d'extensions",
+    "okBtn": "Appliquer",
+    "cancelBtn": "Annuler",
+    "selectionTypeTitle": "Types",
+    "selectionExtTitle": "Extensions",
+    "extension": {
+      "placeholder": "Aucun type sélectionné. Veuillez sélectionner un ou plusieurs types pour afficher les extensions associées."
+    }
+  },
+  "selectionTitle": "Sélectionnez Type ou Extension pour répertorier les attributs",
+  "dialog": {
+    "title": "Préférences de tableau",
+    "okBtn": "Enregistrer",
+    "cancelBtn": "Annuler"
+  },
+  "loading": {
+    "default": "Chargement...",
+    "gridCusto": "Chargement des préférences du tableau",
+    "baseTypeAndExt": "Chargement des types et extensions disponibles",
+    "gridCustoReset": "Rétablir la valeur par défaut"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Instance de représentation physique"
+  },
+  "notDisplayedAtt": "A ne pas afficher dans l'interface utilisateur",
+  "warning": {
+    "emptyName": {
+      "title": "Le nom de la vue ne peut pas être vide",
+      "msg": "Le nom de votre vue est vide."
+    },
+    "tooManySelected": {
+      "title": "Nombre maximal de colonnes atteint",
+      "msg": "Seul un maximum de {maxNumber} colonnes est autorisé"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "La vue existe déjà",
+      "msg": "Une vue portant le nom \"{MP_VIEW_NAME}\" existe déjà"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "La vue existe déjà",
+      "msg": "Une vue portant le nom \"{MP_VIEW_NAME}\" existe déjà"
+    }
+  }
+}

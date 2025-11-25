@@ -1,0 +1,180 @@
+{
+    "info": "For any new command, please put entry in TerminologyProbesCommandMapping.json too.",
+    "headers": {
+        "ActionBar_NewBrowsingStructureCmd": {
+            "ClassName": "DS/TerminologyEditor/commands/ActionBar_NewBrowsingStructureCmd",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "ActionBar_NewBrowsingNodeCmd": {
+            "ClassName": "DS/TerminologyEditor/commands/ActionBar_NewBrowsingNodeCmd",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "ExpandAll": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_ExpandAllCmd",
+            "HelpResourceFile": "FolderEditor/help"
+        },
+        "ExpandN": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_ExpandNCmd",
+            "HelpResourceFile": "FolderEditor/help"
+        },
+        "CollapseAll": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_CollapseAllCmd",
+            "HelpResourceFile": "FolderEditor/help"
+        },
+        "RenameCmd_BrowsingStructure": {
+            "ClassName": "DS/FolderEditor/commands/CtxCommands",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "RenameCmd_BrowsingNode": {
+            "ClassName": "DS/FolderEditor/commands/CtxCommands",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "RenameCmd": {
+            "ClassName": "DS/FolderEditor/commands/CtxCommands",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "Copy": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_CopyCmd",
+            "HelpResourceFile": "TerminologyEditor/help",
+            "accelerator": "Ctrl+C"
+        },
+        "Paste": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_PasteCmd",
+            "HelpResourceFile": "TerminologyEditor/help",
+            "accelerator": "Ctrl+V"
+        },
+        "MaturityHdr": {
+            "ClassName": "DS/LifecycleCmd/MaturityCmd",
+            "HelpResourceFile": "LifecycleWidget/LifecycleCmd"
+        },
+        "DeleteHdr": {
+            "ClassName": "DS/LifecycleCmd/DeleteCmd",
+            "HelpResourceFile": "LifecycleWidget/LifecycleCmd"
+        },
+        "ActionBar_ChangeOwner": {
+            "ClassName": "DS/ENOCollabSharingCmds/commands/TransferOwnershipCmd/ActionBar_ChangeOwnerCmd",
+            "HelpResourceFile": "ENOCollabSharingCmds/CollaborationCmd"
+        },
+        "ActionBar_ShareBookmarkLink": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_ShareBookmarkLink",
+            "HelpResourceFile": "TerminologyEditor/help"
+        },
+        "ActionBar_TransferOwnership": {
+            "ClassName": "DS/ENOCollabSharingCmds/commands/TransferOwnershipCmd/ActionBar_TransferOwnershipCmd",
+            "HelpResourceFile": "ENOCollabSharingCmds/CollaborationCmd"
+        },
+        "SelectChildren": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectChildrenCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "SelectAll": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectAllCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "SelectInversion": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectInversionCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "SelectParent": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectParentCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "SelectSiblings": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectSiblingCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "SelectLeaves": {
+            "ClassName": "DS/FolderEditor/commands/ActionBar_SelectLeavesCmd",
+            "HelpResourceFile": "FolderEditor/help",
+            "_readOnly": true
+        },
+        "ColumnVisibility": {
+            "ClassName": "DS/FolderEditor/commands/FolderActionBarCmds",
+            "HelpResourceFile": "TerminologyEditor/help",
+            "_readOnly": true
+        },
+        "Information": {
+            "HelpResourceFile": "TerminologyEditor/help",
+            "_readOnly": true
+        }
+    },
+    "toolbar": {
+        "unstable": [
+            "ActionBar_NewBrowsingStructureCmd",
+            "ActionBar_NewBrowsingNodeCmd",
+            "sep",
+            {
+                "Name": "expand",
+                "Commands": [
+                    "ExpandAll",
+                    "ExpandN",
+                    "CollapseAll"
+                ]
+            },
+            "sep",
+            "RenameCmd_BrowsingStructure",
+            "RenameCmd_BrowsingNode",
+            "Copy",
+            "Paste",
+            "sep",
+            "MaturityHdr",
+            "ActionBar_ShareBookmarkLink",
+            "ActionBar_ChangeOwner",
+            "ActionBar_TransferOwnership",
+            "sep",
+            "DeleteHdr"
+        ],
+        "stable": [
+            "IndexMode",
+            {
+                "Name": "select",
+                "Commands": [
+                    "SelectAll",
+                    "SelectChildren",
+                    "SelectInversion",
+                    "SelectParent",
+                    "SelectSiblings",
+                    "SelectLeaves"
+                ]
+            },
+            {
+                "type": "menu",
+                "Commands": [
+                    "ColumnVisibility"
+                ]
+            },
+            "Information"
+        ]
+    },
+    "ctxMenu": [
+        "ActionBar_NewBrowsingStructureCmd",
+        "ActionBar_NewBrowsingNodeCmd",
+        "sep",
+        "RenameCmd_BrowsingStructure",
+        "RenameCmd_BrowsingNode",
+        "sep",
+        "ExpandAll",
+        "CollapseAll",
+        "sep",
+        "Copy",
+        "Paste",
+        "sep",
+        "ActionBar_ShareBookmarkLink",
+        "sep",
+        "DeleteHdr"
+    ],
+    "placeholder": [
+        {
+            "emphasize": "primary",
+            "Commands": [
+                "ActionBar_NewBrowsingStructureCmd",
+                "ActionBar_NewBrowsingNodeCmd"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Wystąpił błąd podczas pobierania informacji o skuteczności.",
+  "ERROR_DATA_LOAD_MSG": "Sprawdź, czy masz dostęp do tego obiektu.",
+  "ERROR_DATA_FETCH_TITLE": "Wystąpił błąd podczas pobierania szczegółów obiektu.",
+  "ERROR_EXP_FETCH_TITLE": "Wystąpił błąd podczas pobierania szczegółów wyrażenia skuteczności.",
+  "title_label": "Tytuł",
+  "instance_title_label": "Tytuł",
+  "instance_title_tooltip": "Tytuł wystąpienia",
+  "evolution_label": "Obecna ewolucja",
+  "owner_label": "Właściciel",
+  "type_label": "Typ",
+  "openwith_label": "Otwórz za pomocą",
+  "filter_label": "Filtr",
+  "filter_mentioned": "Wspomniane: {0}",
+  "filter_included": "Uwzględnione: {0}",
+  "expression_label": "Wariant/Opcja"
+}

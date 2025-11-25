@@ -1,0 +1,21 @@
+{
+  "submitted": "Übermittelt",
+  "waiting_payment": "Angebot erstellt",
+  "paid": "Bestätigt",
+  "processing": "Wird bearbeitet",
+  "ready": "Fertig",
+  "shipped": "Versandt",
+  "delivered": "Geliefert",
+  "submittedInfo": "Der Dienstanbieter hat noch nicht auf Ihre Anfrage geantwortet und Ihnen noch kein Angebot gesendet. Sie können die Spezifikationen noch ändern oder Nachrichten senden.",
+  "waitingPaymentInfo": "Ihre Anfrage wurde vom Dienstanbieter geprüft und akzeptiert. Sie können diese bestätigen, indem Sie die Zahlung leisten, oder falls nötig die Spezifikationen ändern.",
+  "paidInfo": "Ihre Bestellung wurde bestätigt. Der Dienstanbieter wird diese bearbeiten. Von diesem Punkt an können die Spezifikationen nicht mehr geändert werden.",
+  "processingInfo": "Der Dienstanbieter hat mit der Bearbeitung Ihrer Bestellung begonnen.",
+  "shippedInfo": "Der Dienstanbieter hat Ihre Bestellung versandt. Bestätigen Sie den Erhalt, sobald dieser erfolgt ist.",
+  "readyInfo": "Ihre Bestellung kann jetzt abgeholt werden. Bitte bestätigen Sie den Erhalt, sobald dieser erfolgt ist.",
+  "deliveredInfo": "Die Transaktion ist nun abgeschlossen.",
+  "submittedInfo_seller": " Ihr Kunde wartet auf eine Antwort und ein Angebot auf diese Anfrage. Sie können außerdem die Spezifikationen (Materialien, Daten, Endbearbeitung, ...) ändern und eine Antwort senden.",
+  "waitingPaymentInfo_seller": "Sie haben ein Angebot für diese Anfrage gesendet. Es wird nun auf eine Bestätigung und die Zahlung durch den Kunden gewartet.",
+  "paidInfo_seller": "Die Bestellung wurde von Ihrem Kunden bestätigt. Sie können die Bestellung nun bearbeiten. Von diesem Punkt an können die Spezifikationen nicht mehr geändert werden.",
+  "processingInfo_seller": "Ihr Kunde wurde darüber informiert, dass die Bearbeitung seiner Bestellung begonnen hat.",
+  "shippedInfo_seller": "Die Bestellung Ihres Kunden wurde versandt. Dieser bestätigt den Erhalt, sobald er erfolgt ist."
+}

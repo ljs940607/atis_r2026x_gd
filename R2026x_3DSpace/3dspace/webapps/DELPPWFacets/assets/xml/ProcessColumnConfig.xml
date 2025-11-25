@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="Manufacturing" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name" dicoType="PLMEntity" entity="reference" displayType="NonEditable"/>
+    <Columns>
+        <Column dataIndex="type" entity="reference" displayType="CustomString"/>
+        <Column dataIndex="V_Outsourced" dicoType="CreateAssembly" entity="reference" displayType="NonEditable" />
+        <Column dataIndex="revision" entity="reference" displayType='URL' />
+        <Column dataIndex="owner" entity="reference"  displayType="FullOwnerURL" />
+        <Column dataIndex="organization" entity="reference" displayType='URL' />
+        <Column dataIndex="project" entity="reference"  displayType='URL' />
+        <Column dataIndex="current" entity="reference"  displayType='URL' />
+        <Column dataIndex="V_description" dicoType="PLMEntity" entity="reference" displayType="NonEditable"/>
+        <Column dataIndex="V_PartNumber" entity="reference"  dicoType="EnterpriseExtension"/>
+    </Columns>
+</Config>

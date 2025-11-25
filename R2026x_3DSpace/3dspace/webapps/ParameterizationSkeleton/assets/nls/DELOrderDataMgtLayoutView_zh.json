@@ -1,0 +1,12 @@
+{
+  "NbDigits": "位数",
+  "NbDigitsInfo": "输入至少 6 位数字，不超过 40 个字符",
+  "PrefixValueEmptyInfo": "此字段为必填字段。请勿使用空前缀值。",
+  "NbDigitsNaN": "位数是大于 6 的正整数",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

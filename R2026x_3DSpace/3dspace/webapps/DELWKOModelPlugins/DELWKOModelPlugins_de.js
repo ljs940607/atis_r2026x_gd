@@ -1,0 +1,1 @@
+define("DS/DELWKOModelPlugins/DELWKOModelPlugins_de",{});define("DS/DELWKOModelPlugins/assets/nls/DELWKOViewPreferencesUI",{HeaderName:"Kopfzeilenname",IsVisible:"Ist sichtbar",Width:"Breite",MinWidth:"Mindestbreite",IsPinned:"Ist angeheftet"});

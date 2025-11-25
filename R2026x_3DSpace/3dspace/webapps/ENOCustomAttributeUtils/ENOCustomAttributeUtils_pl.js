@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_pl",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Wygląda na to, że usługi Fed Services nie działają",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" Być może nie załadowano wszystkich predykatów.",CUSTOM_ATTR_APPLIED:"Zaktualizowano atrybuty niestandardowe"});

@@ -1,0 +1,20 @@
+{
+  "EFF_CLEAR": "清除表達式",
+  "MODEL_RM": "從編輯器中移除模型",
+  "MODEL_ADD": "選擇模型",
+  "NO_FEATURES": "找不到變體與選項",
+  "Evolution_Impact_Msg": "變更進化有效性導致某些變體/選項遺失",
+  "NO_MODELS_MSG": "您沒有任何定義的變體與選項表達式，您可以開始加入模型，並定義變體與選項表達式",
+  "No_Model_Error": "請將模型附加至父 {1}，然後再試一次。",
+  "No_Variant_Crit_Error": "啟用父項次物件上的變體和選項準則。",
+  "Legacy_Eff_Error": "您無法對具非分離有效性的物件編輯變體和選項。",
+  "CC_AC_HDR_Error": "{1} 的父項次正在變更控制之下。 ",
+  "CC_AC_HDR_Error_Subtitle": "指定要針對 {1} 在其下執行的變更動作",
+  "Edit_Var_OK": "確定",
+  "Edit_Var_Cancel": "取消",
+  "Syntax_Error": "「變體與選項」表達式的語法錯誤",
+  "Service_OK": "編輯「變體與選項」成功",
+  "Service_Fail": "編輯「變體與選項」失敗。",
+  "Dictionary_Error": "無法載入模型組態字典。",
+  "CFG_Application_Refresh_For_Instance_Evolved": "副本會隨變體分解操作進化。"
+}

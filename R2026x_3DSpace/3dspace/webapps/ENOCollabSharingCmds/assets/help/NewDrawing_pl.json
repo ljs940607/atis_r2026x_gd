@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"Nowy rysunek",
+"ENONewDrawingHdr.ShortHelp":"Tworzy nowy rysunek.",
+"ENONewDrawingHdr.LongHelp":"W oknie dialogowym wprowadź tytuł, atrybuty (jeśli występują) i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jeden rysunek, lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejny.",
+"ENOInsertNewDrawingHdr.Title":"Wstaw nowy rysunek",
+"ENOInsertNewDrawingHdr.ShortHelp":"Tworzy nowy rysunek i dodaje go jako potomka do wybranych obiektów.",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>W oknie dialogowym wprowadź tytuł i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jeden rysunek, lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejny.</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

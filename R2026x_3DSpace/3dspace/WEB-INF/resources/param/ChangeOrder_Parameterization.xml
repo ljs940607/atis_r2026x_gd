@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<OOTBParameterization>
+  <Domain id="ChangeParameterization" regSuite="EnterpriseChangeMgt">
+	<Family id="ImpactAnalysisDefaultAttributes" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ECMEnableDefaultChangeAnalysis" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="expression" value="ECMEnableDefaultChangeAnalysis" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>		
+	</Family>
+	<Family id="ImpactAnalysisActivityManagement_InWork" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ECMEnableChangeAnalysisActivity_InWork" implementation="com.dassault_systemes.enovia.changerequest.impl.changeanalysis.parameterization.ChangeAnalysisParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="ECMEnableChangeAnalysisActivity_InWork" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ECMMandateActivityCompletionChangeAnalysis_InWork" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="expression" value="ECMMandateActivityCompletionChangeAnalysis_InWork" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ECMPromoteChangeAnalysisActivityCompletion_InWork" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="expression" value="ECMPromoteChangeAnalysisActivityCompletion_InWork" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ECMChangeAnalysisActivityMembers_InWork" implementation="com.dassault_systemes.enovia.changerequest.impl.changeanalysis.parameterization.ChangeAnalysisParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="string" input="comboboxmultiselect" default="" maxLength="123">
+				<Value id="Owner"/>
+				<Value id="Assignees"/>
+			</Argument>
+			<Constant id="expression" value="ECMChangeAnalysisActivityMembers_InWork"/>
+			<Constant id="Owner" value="Owner"/>
+			<Constant id="Assignees" value="Assignees"/>
+		</Parameter>
+	</Family>
+	<Family id="DefaultChangeOrderAtChangeRequestApproval" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ECM_DefaultImplementingChangeOrderRequested" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="ECM_DefaultImplementingChangeOrderRequested" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>		
+	</Family>
+	<Family id="ChangeBaselineRoles" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ChangeOrderDemoteOnRejection" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="EnableChangeOrderDemoteOnRejection" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ChangeRequestDemoteOnRejection" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="EnableChangeRequestDemoteOnRejection" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ChangeOrderRouteOwnership" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="EnableChangeOrderRouteOwnerToCOOwner" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+		<Parameter id="ChangeRequestRouteOwnership" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="EnterpriseChangeMgt">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="expression" value="EnableChangeRequestRouteOwnerToCROwner" />
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+		</Parameter>
+	</Family>
+  </Domain>
+</OOTBParameterization>

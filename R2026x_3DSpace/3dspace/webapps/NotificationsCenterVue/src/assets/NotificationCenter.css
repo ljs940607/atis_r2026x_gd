@@ -1,0 +1,1607 @@
+body {
+  color: rgb(119, 121, 124);
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.INTFCenter-notification-message *,
+.INTFCenter-notification-message-container strong {
+  color: #368ec4 !important;
+}
+
+.TEA-global-options {
+  padding-top: 2rem;
+}
+
+.INTFCenter-pointer-events-none {
+  pointer-events: none !important;
+}
+.-top-3 {
+  top: -0.75rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+.INTFCenter-option-title {
+  color: #77797c;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.INTFCenter-filter-btn-reset,
+.INTFCenter-filter-btn-filter,
+.INTFCenter-filter-btn-close {
+  font-size: 12px !important;
+}
+
+.INTFCenter-appSetting-mask button {
+  min-width: 0;
+}
+.INTFCenter-appSetting-mask button:hover span {
+  color: #3d3d3d !important;
+}
+
+.fonticon-plus,
+.fonticon-close,
+.fonticon-minus,
+.INTFCenter-setting-chevron-down {
+  font-size: 14px;
+  color: #77797c;
+  margin: 0 !important;
+}
+
+.INTFCenter-appSetting-mask {
+  display: flex;
+  align-items: center;
+}
+
+.INTCenter-appSettingList {
+  overflow: hidden;
+}
+
+.INTFCenter-option-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+}
+
+.INTFCenter-option-list > * + * {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.INTFCenter-option-list > * + * {
+  margin-bottom: 1rem !important;
+}
+
+.INTFCenter-desktop-disabled {
+  cursor: not-allowed !important;
+}
+.INTFCenter-desktop {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.INTFCenter-appList-top-option {
+  margin-right: 0.25rem;
+}
+
+[class*='intfnotif-on'] {
+  color: rgb(54, 142, 196);
+}
+[class*='intfnotif-off'] {
+  color: rgb(180, 182, 186);
+}
+
+.icon-desktop-center {
+  /* pointer-events: none !important; */
+  font-size: 76px;
+  color: rgb(54, 142, 196);
+}
+.icon-desktop-popover,
+.icon-desktop-email,
+.icon-desktop-empty {
+  /* pointer-events: none !important; */
+  font-size: 76px;
+}
+
+.INTFCenter-preference-applist {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-option,
+.INTFCenter-global-option {
+  width: 100%;
+}
+
+.INTFCenter-global-option {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.INTFCenter-appList-top {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f1f1f1;
+  margin-left: 1rem;
+}
+
+.INTFCenter-appList-top-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.INTFCenter-appSetting-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.INTFCenter-option-list-disabled {
+  cursor: default !important;
+  pointer-events: none !important;
+}
+.INTFCenter-preference-appname-off {
+  opacity: 0.6;
+}
+
+/* .INTFCenter-option-question:hover:after {
+  content: attr(title);
+  z-index: 1000;
+  margin-left: 0.5rem;
+  position: absolute;
+  color: white;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 360px !important;
+  border: #dddddd 1px solid;
+  background-color: #4e4e4e;
+} */
+
+.INTFCenter-option-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.INTFCenter-option-top > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-unsub {
+  padding-bottom: 0.5rem;
+}
+.INTFCenter-appSetting-container {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.INTFCenter-appSetting-appTitle {
+  color: #77797c;
+  font-size: 14px;
+}
+.INTFCenter-option-container .control-label {
+  color: #77797c;
+  font-size: 14px;
+}
+
+.INTFCenter-appList-top > * + *,
+.INTFCenter-appSetting-top > * + * {
+  margin-left: 0.75rem;
+}
+
+.INTFCenter-appIcon-img {
+  height: 48px;
+  width: 48px;
+}
+
+.INTFCenter-appList-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.INTFCenter-appList-container > * + * {
+  margin-top: 0.75rem;
+}
+
+.INTFCenter-base-center {
+  max-width: 680px !important;
+  padding-right: 0.37rem;
+  width: 100%;
+}
+.INTFCenter-preferences-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  overflow: hidden !important;
+  height: 100%;
+  width: 100%;
+}
+.INTFCenter-preferences {
+  max-width: 680px !important;
+  padding-right: 0.37rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.block {
+  display: block;
+}
+
+.body-ui {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.btn .INTFCenter-caret-custom {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid;
+  margin-left: 14px;
+}
+
+.color-dark-gray {
+  color: #3d3d3d;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.dropdown-more {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown-more-body .dropdown-menu {
+  font-size: 12px !important;
+  margin-top: 3.25rem !important;
+  right: 0.25rem;
+}
+
+.dropdown-more-request .dropdown-menu {
+  font-size: 12px !important;
+  margin-top: 3.25rem !important;
+  right: 0;
+}
+
+.dropdown-more-setting .dropdown-menu {
+  font-size: 12px !important;
+  margin-top: 3.5rem !important;
+  right: 0;
+}
+
+.dropdown_btn .caret {
+  color: white !important;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.INTFCenter-action-request-btn {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.INTFCenter-actions-container {
+  margin-top: -0.5rem;
+}
+
+.INTFCenter-app-vue-notif {
+  position: relative;
+}
+
+.INTFCenter-badge-searches {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  width: 100%;
+}
+
+.INTFCenter-badge-searches > * + * {
+  margin-left: 0.25rem !important;
+}
+
+.INTFCenter-bodyIcon {
+  height: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  width: 48px;
+}
+
+.INTFCenter-bodyMergedImg {
+  color: #fff;
+  font-size: 11px;
+  height: 24px;
+  margin-top: 2px;
+  width: 24px;
+}
+
+.INTFCenter-bottom-filter {
+  display: flex;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+}
+
+.INTFCenter-bottom-filter > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-btn-active {
+  color: #368ec4 !important;
+}
+
+.INTFCenter-pref-appname-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.INTFCenter-pref-appname-right > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-preference-appStatus {
+  color: #77797c;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.INTFCenter-btn-hover {
+  color: rgb(119, 121, 124) !important;
+}
+
+.INTFCenter-btn-hover:hover {
+  color: #3d3d3d !important;
+}
+
+.INTFCenter-preferences-title:hover .INTFCenter-back-icon {
+  color: #3d3d3d !important;
+}
+
+.INTFCenter-preference-appname:hover .fonticon-chevron-right {
+  color: #3d3d3d !important;
+}
+
+.INTFCenter-btn-transparent {
+  background-color: transparent !important;
+  border: none !important;
+  max-height: 18px !important;
+  max-width: 18px !important;
+  min-height: 18px !important;
+  min-width: 18px !important;
+}
+
+.INTFCenter-btn-transparent-default {
+  background-color: transparent !important;
+  border: none !important;
+}
+.INTFCenter-option-top button {
+  padding-right: 1rem;
+}
+
+.INTFCenter-cancel-btn {
+  align-items: center;
+  display: flex;
+}
+
+.INTFCenter-option-question {
+  font-size: 12px;
+  color: #77797c;
+}
+
+.INTFCenter-caret-action-btn {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  max-width: 18px !important;
+  min-width: 18px !important;
+}
+
+.INTFCenter-caret-custom {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid;
+  display: block;
+  height: 0;
+  margin-left: 2px;
+  width: 0;
+}
+
+.INTFCenter-center-body {
+  height: 100%;
+  max-width: 680px !important;
+  overflow-x: scroll !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.INTFCenter-center-header-container {
+  background-color: white;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  z-index: 500;
+}
+
+.INTFCenter-center-section {
+  height: 100%;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.INTFCenter-color-3ds {
+  color: rgb(54, 142, 196);
+}
+
+.INTFCenter-color-brown {
+  color: rgb(119, 121, 124);
+}
+
+.INTFCenter-color-brown-active {
+  color: #636363;
+}
+
+.INTFCenter-color-brown-hover:hover {
+  color: #3d3d3d;
+}
+
+.INTFCenter-date-filter-section {
+  position: relative;
+  width: 100%;
+}
+
+.INTFCenter-deletion-msg {
+  margin-left: -0.5rem;
+}
+
+.INTFCenter-deny-btn {
+  align-self: flex-end;
+  width: fit-content;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 123px;
+}
+
+.INTFCenter-dropdown-menu-div {
+  height: fit-content;
+  position: relative;
+}
+
+.INTFCenter-empty-loading {
+  display: flex;
+  justify-content: center;
+}
+
+.INTFCenter-end-date {
+  right: 0 !important;
+}
+
+.INTFCenter-filter {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+  max-width: 680px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.INTFCenter-filter > * + * {
+  margin-top: 0.25rem !important;
+}
+
+.INTFCenter-filter-bottom-container {
+  margin-top: 0.5rem;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+.INTFCenter-filter-checkbox {
+  display: flex;
+  padding-top: 0.25rem;
+}
+
+.INTFCenter-filter-checkbox > * + * {
+  margin-left: 2rem;
+}
+
+.INTFCenter-filter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.INTFCenter-filter-date {
+  position: absolute !important;
+}
+
+.INTFCenter-filter-footer {
+  height: 100%;
+}
+
+.INTFCenter-filter-input {
+  border: 1px solid rgb(119, 121, 124);
+  height: 2.75rem !important;
+  position: relative;
+  top: 0.35rem;
+  width: 100%;
+}
+
+.INTFCenter-filter-platform-section {
+  width: 100% !important;
+}
+
+.INTFCenter-filter-platform-section > ul {
+  z-index: 500;
+}
+
+.INTFCenter-filter-search-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.INTFCenter-filter-search-section > * + * {
+  margin-left: 0 !important;
+}
+
+.INTFCenter-filter-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row !important;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.INTFCenter-filter-section > * + * {
+  margin-left: 0.375rem;
+}
+
+.INTFCenter-filter-tool,
+.INTFCenter-setting-div {
+  align-items: center;
+  display: flex;
+}
+
+.INTFCenter-group-body {
+  margin-top: 0.5rem;
+}
+
+.INTFCenter-group-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.INTFCenter-group-div > * + * {
+  margin-top: 0.5rem;
+}
+
+.INTFCenter-header-container {
+  z-index: 500;
+}
+
+.INTFCenter-IconRadius {
+  border-radius: 24px;
+}
+
+.INTFCenter-app-setting-btn {
+  margin-right: 0.75rem;
+}
+
+.INTFCenter-is-read {
+  opacity: 0.4;
+}
+
+.INTFCenter-loading-more {
+  padding-bottom: 1.5rem !important;
+}
+
+.INTFCenter-main-center-notification {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden !important;
+  width: 100%;
+}
+
+.INTFCenter-menu-icon {
+  margin-left: -9px !important;
+  margin-top: -10px !important;
+}
+
+.INTFCenter-merge-date-component {
+  font-size: 11px !important;
+}
+
+.INTFCenter-merge-time {
+  margin-right: 0.25rem;
+}
+
+.INTFCenter-Mergecount {
+  background: #78befa;
+  border-color: #fff;
+  border-radius: 12px;
+  border: 1px solid;
+  color: #fff;
+  display: inline-flex;
+  font-size: 11px;
+  height: 24px;
+  left: 25px;
+  padding-top: 1px;
+  position: absolute;
+  top: 28px;
+  width: 24px;
+}
+
+.INTFCenter-mergeIcon {
+  height: 28px !important;
+  min-height: 28px !important;
+  min-width: 28px !important;
+  width: 28px !important;
+}
+
+.INTFCenter-merges-closed {
+  transition: all 0.3s ease;
+}
+
+.INTFCenter-merges-opened {
+  rotate: 90deg;
+  transition: all 0.3s ease;
+}
+
+.INTFCenter-setting-closed {
+  transition: all 0.3s ease;
+}
+
+.INTFCenter-setting-opened {
+  rotate: -180deg;
+  transition: all 0.3s ease;
+}
+
+.INTFCenter-message-merge-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.INTFCenter-message-modal {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.INTFCenter-multi-select-icon {
+  margin-left: -9px !important;
+  margin-top: -12px !important;
+}
+
+.INTFCenter-nb-notif-selected {
+  margin-top: -0.5rem;
+  margin-left: -0.25rem;
+}
+
+.INTFCenter-no-notif-icon {
+  color: rgb(209, 212, 212);
+  font-size: 90px;
+  opacity: 0.6;
+}
+
+.INTFCenter-no-notif-text {
+  color: rgb(209, 212, 212);
+  font-size: 24px;
+  opacity: 0.6;
+  text-align: center;
+  width: 100%;
+}
+
+.INTFCenter-notif-body {
+  padding-bottom: 0.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.INTFCenter-notif-body-component {
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.INTFCenter-notif-body-ui {
+  display: flex;
+  width: 100%;
+}
+
+.INTFCenter-notif-body-ui > * + * {
+  margin-left: 0.75rem;
+}
+
+.INTFCenter-notif-body::before {
+  background-color: #f4f5f6;
+  border-width: 1px !important;
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 1px;
+}
+
+.INTFCenter-notif-center-base-center {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden !important;
+  width: 100%;
+}
+.INTFCenter-base-preferences {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.INTFCenter-notif-center-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.INTFCenter-notif-center-timeline-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.INTFCenter-notif-center-toolbar {
+  display: flex;
+}
+
+.INTFCenter-notif-center-toolbar > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-notif-center-unread-counter {
+  align-items: center;
+  cursor: default;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.INTFCenter-notif-is-selected {
+  background-color: rgb(54, 142, 196, 0.1) !important;
+}
+
+.INTFCenter-notif-status {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.15rem;
+}
+
+.INTFCenter-notif-times {
+  font-weight: 600;
+  padding-top: 1.25rem;
+  white-space: nowrap;
+}
+
+.INTFCenter-notifBody {
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+.INTFCenter-notifBody-container {
+  display: flex;
+  width: 100%;
+}
+
+.INTFCenter-notifBody-container > * + * {
+  margin-left: 0.25rem;
+}
+
+.INTFCenter-notifBody-section {
+  display: flex;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.INTFCenter-notifBody-section > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-notification-app {
+  height: 100vh !important;
+  width: 100%;
+}
+
+.INTFCenter-notification-group {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.INTFCenter-notification-important {
+  color: #368ec4 !important;
+  margin-left: 0.065rem;
+  position: absolute;
+}
+
+.INTFCenter-notification-is-deleted {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.INTFCenter-notification-is-deleted > * + * {
+  margin-left: 1rem;
+}
+
+.INTFCenter-notification-item {
+  cursor: default;
+  display: flex;
+  width: 100%;
+}
+
+.INTFCenter-notification-item > * + * {
+  margin-left: 0.75rem;
+}
+
+.INTFCenter-notification-item-container {
+  display: flex;
+  padding-left: 0.75rem;
+  width: 100%;
+}
+
+.INTFCenter-notification-item-container > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-notification-message {
+  margin-top: 0.25rem;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.INTFCenter-notification-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: .5rem;
+}
+
+.INTFCenter-notification-message-container > * + * {
+  margin-top: 1rem !important;
+}
+
+.INTFCenter-notification-notificon {
+  position: relative;
+}
+
+.INTFCenter-notification-read {
+  border-color: #368ec4 !important;
+  border: 2px solid;
+}
+
+.INTFCenter-notification-request-action {
+  display: flex;
+  position: relative;
+}
+
+.INTFCenter-notification-request-action > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-notification-unread {
+  background-color: #368ec4 !important;
+}
+
+.INTFCenter-open-spinner {
+  position: relative;
+  top: -0.1rem;
+  transform: scale(0.65);
+}
+
+.INTFCenter-preference-appTitle {
+  color: #77797c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.INTFCenter-preference-appname {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 0.5rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.INTFCenter-preference-appname > * + * {
+  margin-left: 0.5rem;
+}
+
+.INTFCenter-preferences-body {
+  /* padding-top: 0.5rem; */
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  /* padding-right: 1rem; */
+  height: 100%;
+  max-width: 680px !important;
+  overflow-x: scroll !important;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+.INTFCenter-back-icon {
+  color: rgb(180, 182, 186);
+}
+.INTFCenter-preferences-title {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  width: fit-content;
+}
+.INTFCenter-preferences-title-header {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.INTFCenter-preferences-title .fonticon-chevron-left {
+  font-size: 24px !important;
+  font-weight: 500;
+}
+
+.INTFCenter-preference-appname .fonticon-chevron-right {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.INTFCenter-read-unread {
+  border-radius: 50px !important;
+  border-width: 2px;
+  height: 10px !important;
+  margin-left: 0.065rem;
+  margin-top: 0.25rem;
+  position: absolute;
+  width: 10px !important;
+}
+
+.INTFCenter-request-action-btn-vuekit .btn {
+  font-size: 12px !important;
+  padding-bottom: 0.25rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  padding-top: 0.15rem !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 123px;
+}
+
+.INTFCenter-request-action-btn-vuekit .caret {
+  position: relative;
+  right: 0.3rem !important;
+}
+
+.INTFCenter-request-action-btn-vuekit .dropdown_btn {
+  max-width: 18px !important;
+  min-width: 18px !important;
+}
+
+.INTFCenter-request-action-btn-vuekit .vu-popover__activator {
+  max-width: 18px !important;
+  min-width: 18px !important;
+}
+
+.INTFCenter-request-action-btn-vuekit button {
+  height: 24px;
+}
+
+.INTFCenter-search-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.INTFCenter-section-notification-container {
+  position: relative;
+}
+
+/*.INTFCenter-select-menu-notification {
+  left: -2.25rem;
+  position: absolute;
+}*/
+
+.INTFCenter-select-notification {
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 0.1rem;
+}
+
+.INTFCenter-select-wrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+}
+
+.INTFCenter-select-wrapper > * + * {
+  margin-left: 0.25rem;
+}
+
+.INTFCenter-selected-icon {
+  cursor: pointer;
+  height: fit-content;
+  margin-top: 0.75rem;
+}
+
+.INTFCenter-selection-mode-on:hover {
+  background-color: rgb(54, 142, 196, 0.1);
+}
+
+.INTFCenter-setting-div {
+  margin-top: -0.25rem;
+  position: relative;
+}
+
+.INTFCenter-show-hide-merges {
+  align-items: center;
+  display: flex;
+  margin-top: -0.1rem;
+  width: fit-content;
+}
+
+.INTFCenter-spinner-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.INTFCenter-start-date {
+  left: 0;
+}
+
+.INTFCenter-timeline-section-title {
+  color: #b4b6ba !important;
+  font-weight: 600;
+  padding-bottom: 0.25rem;
+  padding-left: 2.25rem;
+}
+
+.INTFCenter-toolbar-icon {
+  margin-left: -9px !important;
+  margin-top: -10px !important;
+}
+
+.INTFCenter-view-btn {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.INTFCenter-view-group {
+  font-size: 13px;
+  margin-left: -0.75rem;
+}
+
+.INTFCenter-view-merge-div {
+  align-items: center !important;
+  display: flex;
+}
+
+.INTFCenter-zero-notification-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.INTFCenter-zero-notification-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-unread {
+  height: fit-content;
+}
+
+.menu-btn {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.message-app {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.multi-select-btn {
+  align-items: center;
+  display: flex;
+}
+
+.no-idea .dropdown-menu {
+  top: -8rem !important;
+}
+
+.no-notif {
+  padding-top: 0.6rem;
+}
+
+.notif-center-timeline {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.75rem;
+  width: 100%;
+}
+
+.notif-center-timeline > * + * {
+  margin-top: 1rem;
+}
+
+.onTop .dropdown-menu {
+  top: -16rem !important;
+}
+
+.request-drop {
+  height: 24px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.search-close-btn {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  max-height: 2.75rem !important;
+  max-width: 18px !important;
+  min-height: 2.75rem !important;
+  min-width: 18px !important;
+  width: 100%;
+}
+
+.search-text {
+  border-bottom-right-radius: 0px !important;
+  border-radius: 0.25rem;
+  border-top-right-radius: 0px !important;
+  border: 1px solid #f4f5f6;
+  height: 100%;
+  margin: 0;
+  overflow: hidden !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 10px;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.select-mode-on {
+  padding-left: 3rem;
+}
+
+.selection-btn {
+  color: rgb(119, 121, 124) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.selection-btn > .fonticon-chevron-left {
+  font-size: 20px;
+}
+
+.selection-div {
+  align-items: center;
+  display: flex;
+}
+
+.selection-div > * + * {
+  margin-left: 0.25rem;
+}
+
+.selection-message {
+  margin-top: 0rem;
+}
+
+.selection-wrapper {
+  cursor: pointer;
+  height: 100%;
+  padding-left: 1rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.selection-wrapper-selected {
+  background-color: rgb(0, 86, 133, 0.15);
+}
+
+.selection-wrapper:hover {
+  background-color: rgb(0, 86, 133, 0.15);
+}
+
+.self-end {
+  align-self: flex-end !important;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/**------------ Media Queries--------------- */
+
+@media (max-width: 260px) {
+  .INTFCenter-filter-checkbox {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .INTFCenter-filter-checkbox > * + * {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .INTFCenter-bottom-filter {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .INTFCenter-bottom-filter > * + * {
+    margin-left: 0rem !important;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .INTFCenter-filter-checkbox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .INTFCenter-notification-request-action {
+    flex-direction: column;
+  }
+
+  .INTFCenter-notification-request-action > * {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .INTFCenter-notification-request-action > * + * {
+    margin-left: 0rem;
+  }
+}
+
+/******---------------- Transitions---------------- *****/
+
+.center-enter-active,
+.list-enter-active,
+.list-move {
+  transition: all 0.5s ease;
+}
+
+.center-enter-from,
+.list-enter-from {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.list-leave-to,
+.center-leave-to {
+  opacity: 0;
+}
+
+.center-leave-active,
+.list-leave-active {
+  transition: all 0.3s ease;
+}
+
+/*--------------------*/
+.app-list-enter-active,
+.app-list-move {
+  transition: all 0.3s ease;
+}
+
+.app-list-enter-from,
+.app-list-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.app-list-leave-active {
+  transition: all 0.3s ease;
+}
+
+/*----------------------*/
+
+.filter-enter-active,
+.filter-move {
+  transition: all 0.3s ease;
+}
+
+.filter-enter-from,
+.filter-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.left-unread-enter-active,
+.left-unread-leave-active {
+  transition: all 0.2s ease;
+}
+
+.left-unread-enter-from,
+.left-unread-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.left-unread-leave-active {
+  position: absolute;
+}
+
+.merge-list-enter-active {
+  transition: all 0.5s ease;
+}
+.merge-list-leave-active {
+  transition: all 0.3s ease;
+}
+
+.merge-list-enter-from,
+.merge-list-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.notif-menu-enter-active {
+  transition: all 0.2s ease;
+}
+
+.notif-menu-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.notification-enter-active {
+  transition: opacity 0.3s ease;
+}
+
+.notification-enter-from {
+  opacity: 0;
+}
+
+.base-center-enter-active,
+.base-center-leave-active {
+  transition: all 0.3s ease;
+}
+
+.base-center-enter-from,
+.base-center-leave-to {
+  opacity: 0;
+  transform: translateX(180px);
+}
+
+.base-center-leave-active {
+  position: absolute;
+}
+
+.select-menu-enter-active {
+  transition: all 0.2s ease;
+}
+
+.select-menu-enter-from {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.wrapper-enter-active {
+  transition: all 0.2s ease;
+}
+
+.wrapper-enter-from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.wrapper-leave-active {
+  transition: all 0s ease;
+}
+
+/* we will explain what these classes do next! */
+.setting-enter-active,
+.setting-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.setting-enter-from,
+.setting-leave-to {
+  opacity: 0;
+}
+
+/**** ----------------- Notification Center  ----------------- ****/
+@font-face {
+  font-family: 'icomoon';
+  src: url('./fonts/icomoon.eot');
+  src:
+    url('./fonts/icomoon.eot') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf') format('truetype'),
+    url('./fonts/icomoon.woff') format('woff'),
+    url('./fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-desktop-center:before {
+  content: '\e900';
+}
+.icon-desktop-email:before {
+  content: '\e901';
+}
+.icon-desktop-empty:before {
+  content: '\e902';
+}
+.icon-desktop-popover:before {
+  content: '\e903';
+}
+.icon-mobile-center:before {
+  content: '\e904';
+}
+.icon-mobile-email:before {
+  content: '\e905';
+}
+.icon-mobile-empty:before {
+  content: '\e906';
+}
+.icon-mobile-popover:before {
+  content: '\e907';
+}
+.toggle-link:hover {
+  text-decoration: underline;
+}

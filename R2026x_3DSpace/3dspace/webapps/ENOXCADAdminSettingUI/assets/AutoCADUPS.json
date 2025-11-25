@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "settings": [
+    {
+      "id": "ACADAutoName",
+      "uitype": "switch",
+      "label": "ACADAutoNameLabel",
+      "info": "ACADAutoNameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-AutonameOnSave",
+      "groupName": "ACADSaveGroupLabel"
+    },
+    {
+      "id": "ACADReplaceTitleByNewNameOnAutoname",
+      "uitype": "switch",
+      "label": "ACADReplaceTitleByNewNameOnAutonameLabel",
+      "info": "ACADReplaceTitleByNewNameOnAutonameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-ReplaceTitleByNewNameOnAutoname",
+      "groupName": "ACADSaveGroupLabel"
+    },
+    {
+      "id": "ACADEnablePessimisticLocking",
+      "uitype": "switch",
+      "label": "ACADEnablePessimisticLockingLabel",
+      "info": "ACADEnablePessimisticLockingInfo",
+      "mode": "basic",
+      "attribute": "XCAD-EnablePessimisticLocking",
+      "groupName": "ACADSaveGroupLabel"
+    },
+    {
+      "id": "ACADFileReadOnly",
+      "uitype": "switch",
+      "label": "ACADFileReadOnlyLabel",
+      "info": "ACADFileReadOnlyInfo",
+      "mode": "basic",
+      "attribute": "XCAD-FileReadOnly",
+      "groupName": "ACADSaveGroupLabel"
+    },
+    {
+      "id": "ACADDelimiter",
+      "uitype": "textbox",
+      "label": "ACADDelimiterLabel",
+      "info": "ACADDelimiterInfo",
+      "mode": "advanced",
+      "className": "com.dassault_systemes.adminsetting.connector.acad.Delimiter",
+      "groupName": "ACADOtherGroupLabel"
+    }
+  ]
+}

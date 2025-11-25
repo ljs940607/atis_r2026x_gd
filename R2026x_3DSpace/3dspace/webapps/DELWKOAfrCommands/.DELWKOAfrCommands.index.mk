@@ -1,0 +1,14 @@
+m|DELWKOApp\DELWKOAfrCommands.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25150|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOAfrCommands\DELWKOAfrCommands.js|1748664838|4285
+s|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOCreateWorkOrderFromProcessCmd.js|1695897520|2212
+u|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOExplodeWorkOrderCmd.js|1747227918|2160
+u|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOExploreInWebAppCmd.js|1695897556|2564
+u|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOFAMCmd.js|1670290274|3134
+u|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOMaturityGraphCmd.js|1689636939|2609
+u|DELWKOApp\DELWKOAfrCommands.mweb\src\DELWKOWorkBookCmd.js|1738681353|6587
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

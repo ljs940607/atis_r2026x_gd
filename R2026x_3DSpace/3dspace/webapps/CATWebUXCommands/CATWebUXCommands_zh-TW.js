@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_zh-TW",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"螢幕擷取畫面已複製到剪貼簿"});

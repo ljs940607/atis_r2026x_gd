@@ -1,0 +1,16 @@
+{
+  "other": "Otros",
+  "companyName": "Nombre de la empresa",
+  "typeCompanyName": "Escriba el nombre de su empresa",
+  "country": "País",
+  "selectCountry": "Seleccione el país de su empresa",
+  "countryNotAvailable": "El país del cliente no está disponible para emitir presupuestos",
+  "phoneNumber": "Número de teléfono",
+  "enterPhoneNumber": "Introducir número de teléfono",
+  "phoneNumberInvalid": "Este número de teléfono no es válido",
+  "addNda": "Agregar acuerdo de confidencialidad",
+  "ndaInfo": "Puede cargar un acuerdo de confidencialidad (NDA) que los proveedores de servicios seleccionados tendrán que aceptar antes de ver su solicitud.\n(Tamaño máximo de archivo: 30 MB | Formatos de archivo compatibles: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "No se puede cargar un archivo de imagen como acuerdo de confidencialidad.",
+  "fileFormatNotSupported": "Formato de archivo no compatible",
+  "uploadError": "Se ha producido un error. Tenga en cuenta que solo se aceptan archivos PDF y de texto con un tamaño máximo de 50 Mb."
+}

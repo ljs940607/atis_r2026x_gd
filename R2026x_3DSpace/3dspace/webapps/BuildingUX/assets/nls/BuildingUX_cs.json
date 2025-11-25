@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "Stavební vlastnosti"
+  },
+  "construction": {
+    "loading": "Vlastnosti zatížení stavby",
+    "attFromObj": "Načíst dostupné atributy z objektu",
+    "objAttr": "Načíst hodnotu atributů objektu",
+    "attrGlobal": "Atributy"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "Nepodporovaná doména vybraného objektu.",
+    "unknownI3dx": "Objekt nelze ve zdroji dat najít."
+  },
+  "customAttributesDlg": {
+    "title": "Stavební vlastnosti"
+  },
+  "customAttributes": {
+    "loading": "Načítání vlastností dynamických vlastností",
+    "attFromObj": "Načíst dostupné externí atributy z objektu",
+    "objAttr": "Načíst hodnotu atributů objektu",
+    "attrGlobal": "Atributy",
+    "noAttributes": "Žádné atributy k zobrazení"
+  }
+}

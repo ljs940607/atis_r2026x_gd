@@ -1,0 +1,72 @@
+.wux-layouts-datagridview[cell-activation-feedback="cell"] .wux-layouts-datagridview-cell:not([row-header]):not([column-header])[is-active] {
+    border: 1px solid transparent;
+}
+
+
+.compare_tree_list_view {
+    /*position: relative; //Needs to be removed for IHMs TreeContainer to show content. I don't understand why...*/
+    flex: 1 0 0;
+}
+.compare-badge {
+	bottom: -2px;
+	right: -6px;
+}
+.compare_tree_list_view .wux-layouts-treeview-icons:empty ~ .wux-layouts-datagridview-tweaker-container {
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.compare_tree_list_view .wux-layouts-treeview-link {
+	visibility: hidden;
+}
+
+.compare_tree_list_view .wux-layouts-treeview-expander[data-wux-state=noChildren] {
+	visibility: hidden !important;
+}
+
+.wux-tweakers-color-square {
+    margin-right: 3px;
+}
+
+.wux-controls-button:hover{
+    border: 1px solid #3d3d3d !important;
+}
+
+/* Top overlay */
+
+.replace-existing-drag-overlay[visible] {
+    display:table;
+}
+.replace-existing-drag-overlay {
+    width: 50%;
+    height: calc(100% - 34px);
+    display: none;
+    z-index: 10000;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #368EC4;
+}
+
+.replace-existing-dropIconAndText {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background:transparent;
+}
+
+.replace-existing-icon {
+    width: 36px;
+    height: 36px;
+    border: 2px dotted #368EC4;
+    color: #368EC4;
+    font-size:1.5em !important;
+    padding:5px;
+}
+
+.replace-existing-txt {
+    margin-left:25%;
+    margin-right: 25%;
+}
+
+
+

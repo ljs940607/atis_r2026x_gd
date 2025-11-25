@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "解析给定 JSON 以生成对象。",
+  "description": "此块是动态的，因此可以使用块配置对话框更改输入数据的对象类型。",
+  "dataPorts": {
+    "JSON": "要解析的 JSON。",
+    "Object": "生成的对象。"
+  },
+  "controlPorts": {
+    "In": "触发块执行。",
+    "Out": "在完成流程时激活。"
+  },
+  "example": null
+}

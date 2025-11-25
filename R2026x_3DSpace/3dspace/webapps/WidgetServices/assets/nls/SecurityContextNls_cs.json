@@ -1,0 +1,5 @@
+{
+  "ErrorSecurityContextEmpty": "Nelze najít přihlašovací údaje uživatele. Zkuste se znovu přihlásit, jinak se obraťte na podporu.",
+  "ErrorSecurityContext": "Nelze najít přihlašovací údaje uživatele. Došlo  k neočekávané chybě. Zkuste se znovu přihlásit, jinak se obraťte na podporu.",
+  "ErrorTimeOut": "Nelze najít přihlašovací údaje uživatele. Vypršel časový limit připojení. Zkuste se znovu přihlásit, jinak se obraťte na podporu."
+}

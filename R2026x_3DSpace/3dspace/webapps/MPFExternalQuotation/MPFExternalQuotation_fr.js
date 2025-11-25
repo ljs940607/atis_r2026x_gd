@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_fr",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"URL de devis externe",activateExternalQuotation:"Activer le devis externe"});

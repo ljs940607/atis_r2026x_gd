@@ -1,0 +1,22 @@
+<div>
+  <span class="toggle-title">{{title}}</span>
+  {{~#if required~}}<span class="required-field-indicator">*</span>{{~/if~}}
+</div>
+</label>
+<div class="field-group">
+  <div class="input-group-wrapper">
+    <div class="input-group">
+      <div class="toggle-description">
+        {{#if description}}<p>{{description}}</p>{{/if}}{{#if readonlyvalue}}<p>{{readonlyvalue}}</p>{{/if}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="field-group">
+  <div class="input-group-wrapper">
+    <div class="input-group">
+      <span class="input-element eno-toggle-grid" style="--enoToggleCols: 3; --enoToggleRows: 1; --enoToggleFlow: row;">
+      </span>
+    </div>
+  </div>
+</div>

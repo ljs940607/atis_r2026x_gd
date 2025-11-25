@@ -1,0 +1,168 @@
+{
+  "MaturityGraph" : {
+    "commandHdr" : "MaturityHdr" ,
+    "AmdLoader" : "DS/LifecycleCmd/MaturityCmd"
+  },
+  "ActionBar_ChangeOwner" : {
+    "commandHdr" : "ActionBar_ChangeOwner" ,
+    "AmdLoader" : "DS/ENOCollabSharingCmds/commands/TransferOwnershipCmd/ActionBar_ChangeOwnerCmd"
+  },
+
+    "DownloadReport" : {
+    "commandHdr" : "ActionBar_DownloadReport" ,
+    "AmdLoader" : "DS/SpecViewer/commands/DownloadReport"
+  },
+    "DownloadDocument" : {
+     "commandHdr" : "ActionBar_DownloadDocument" ,
+    "AmdLoader" : "DS/SpecViewer/commands/DownloadDocument"
+  },
+    "RegenerateReport" : {
+    "commandHdr" : "ActionBar_RegeneratePDF" ,
+    "AmdLoader" : "DS/SpecViewer/commands/RegenerateReport"
+  },
+  "VersionExplorer": {
+  	"commandHdr" : "ActionBar_VersionExplorer",
+  	"AmdLoader": "DS/SpecViewer/commands/VersionExplorer"
+  },
+  "VersionExplorerPerfSpec": {
+  	"commandHdr" : "ActionBar_VersionExplorerPerfSpec",
+  	"AmdLoader": "DS/ENOCharacteristicsApp/commands/VersionExplorerPerfSpec"
+  },
+  "OpenSpecificationView" : {
+    "commandHdr" : "ActionBar_OpenSpecificationView",
+  	"AmdLoader": "DS/SpecViewer/commands/OpenSpecificationView"
+  },
+  "ManageCharcteristics" : {
+    "commandHdr" : "ActionBar_ManageCharcteristics",
+  	"AmdLoader": "DS/ENOCharacteristicsWebApp/commands/ManageCharcteristics"
+  },
+    "SetPartNumber" : {
+    "commandHdr" : "ActionBar_SetPartNumber",
+  	"AmdLoader": "DS/EngineeringItemCmd/SetPartNumberCmd/SetPartCmd"
+  },
+   "Information" : {
+    "commandHdr" : "ActionBar_Information",
+  	"AmdLoader": "DS/SpecViewer/Properties/view/ItemProperties"
+  },
+  "ViewContentInformation" : {
+    "commandHdr" : "ViewContentInformation",
+  	"AmdLoader": "DS/SpecViewer/Properties/view/ItemProperties"
+  },
+  "View3DSMaterialnformation" : {
+    "commandHdr" : "View3DSMaterialnformation",
+  	"AmdLoader": "DS/SpecViewer/Properties/view/ItemProperties"
+  },
+  "CompareWith" : {
+    "commandHdr" : "CompareHdr",
+  	"AmdLoader": "DS/SpecViewer/commands/compareWith"
+  },
+  "RemoveChild" : {
+    "commandHdr" : "ActionBar_RemoveChild",
+  	"AmdLoader": "DS/SpecViewer/commands/RemoveChildFromList"
+  },
+  "DeleteItem" : {
+    "commandHdr" : "ActionBar_DeleteChild",
+  	"AmdLoader": "DS/SpecViewer/commands/DeleteChildFormList"
+  },
+  "DuplicateItem" : {
+    "commandHdr" : "DuplicateHdr",
+  	"AmdLoader": "DS/LifecycleCmd/DuplicateCmd"
+  },
+  "RelatedObjects" : {
+    "commandHdr" : "ActionBar_RelatedObjects",
+  	"AmdLoader": "DS/SpecViewer/commands/RelatedObjects"
+  },
+  "Information_Widget" : {
+    "commandHdr" : "Information_Widget",
+  	"AmdLoader": "DS/SpecViewer/commands/Information_Widget"
+  },
+  "Open_Alternates" : {
+    "commandHdr" : "Alternates",
+  	"AmdLoader": "DS/SpecViewer/commands/Information_Widget"
+  },
+   "ItemRevise" : {
+    "commandHdr" : "RevisionHdr" ,
+    "AmdLoader" : "DS/LifecycleCmd/ReviseCmd"
+  },
+  "UPSAuthUnparent" : {
+   	"commandHdr" : "UPSAuthUnparent" ,
+   	"AmdLoader" : "DS/UPSCommands/commands/UPSAuthCmdUnparent"
+  },
+  "addExisting" : {
+   "commandHdr" : "addExisting" ,
+    "AmdLoader" : "DS/UPSCommands/commands/UPSAuthCmdInsertExistingProductOrPart"
+  },
+  "UPSAuthCmdInsertExisting" : {
+   "commandHdr" : "UPSAuthCmdInsertExisting" ,
+    "AmdLoader" : "DS/UPSCommands/commands/UPSAuthCmdInsertExistingProductOrPart"
+  },
+   "DefineFilter" : {
+    "commandHdr" : "DefineFilter",
+  	"AmdLoader": "DS/SpecViewer/commands/AdvancedFilter"
+  },
+  "MultiOwnership":{
+	"commandHdr" : "ActionBar_AccessRightCmd",
+	"AmdLoader" : "DS/ENOCollabSharingCmds/commands/AccessRightCmd/ActionBar_AccessRightCmd"
+  },
+  "Subscribe":{
+	"commandHdr" : "Subscribe",
+	"AmdLoader" : "DS/ENOSubscriptionMgmt/Commands/Subscribe"
+  },
+  "UnSubscribe":{
+	"commandHdr" : "UnSubscribe",
+	"AmdLoader" : "DS/ENOSubscriptionMgmt/Commands/UnSubscribe"
+  },
+  "EditSubscribe":{
+	"commandHdr" : "EditSubscribe",
+	"AmdLoader" : "DS/ENOSubscriptionMgmt/Commands/EditSubscribe"
+  },
+  "MySubscriptions":{
+	"commandHdr" : "MySubscriptions",
+	"AmdLoader" : "DS/ENOSubscriptionMgmt/Commands/MySubscriptions"
+  },
+  "HistoryHdr" : {
+    "commandHdr" : "HistoryHdr" ,
+    "AmdLoader" : "DS/LifecycleCmd/HistoryCmd"
+  },
+  "UPSAuthReorderProduct": {
+	"commandHdr": "UPSAuthReorderProduct",
+	"AmdLoader": "DS/UPSCommands/commands/UPSAuthCmdReorder"
+  },
+  "UPSReplaceByLatestRevision":{
+    "commandHdr" : "UPSReplaceByLatestRevision" ,
+	"AmdLoader" : "DS/UPSCommands/commands/UPSAuthCmdReplaceByLatestRevision"
+  },
+   "UPSAuthReplaceByRevision":{
+    "commandHdr" : "UPSAuthReplaceByRevision" ,
+	"AmdLoader" : "DS/UPSCommands/commands/UPSAuthCmdReplaceByRevision"
+  },
+  "UPSAuthCut":{
+  	"commandHdr" : "UPSAuthCut" ,
+  	"AmdLoader" : "DS/SpecViewer/commands/XSRCutCopyPaste"
+  },
+  "UPSAuthCopy":{
+  	"commandHdr" : "UPSAuthCopy" ,
+  	"AmdLoader" : "DS/SpecViewer/commands/XSRCutCopyPaste"
+  },
+  "UPSAuthPaste":{
+  	"commandHdr" : "UPSAuthPaste" ,
+  	"AmdLoader" : "DS/SpecViewer/commands/XSRCutCopyPaste"
+  },
+  "ReleaseBioMaterial":{
+    "commandHdr" : "ReleaseBioMaterial" ,
+  	"AmdLoader" : "DS/ENOXMaterial/commands/BioMaterialTransition"
+  },
+  "RemoveMasterCopy" : {
+    "commandHdr" : "ActionBar_RemoveMasterCopy",
+  	"AmdLoader": "DS/ENOXSCPYUX/command/DetachMasterCopy"
+  },
+  "DeleteMasterCopy" : {
+    "commandHdr" : "ActionBar_DeleteMasterCopy",
+  	"AmdLoader": "DS/ENOXSCPYUX/command/DeleteMasterCopy"
+  },
+  "MasterCopyMaturity" : {
+    "commandHdr" : "ActionBar_MasterCopyMaturity",
+  	"AmdLoader": "DS/ENOXSCPYUX/command/MasterCopyMaturity"
+  }
+
+}

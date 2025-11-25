@@ -1,0 +1,1 @@
+define("DS/CATAssemblyMUCCommand/CATAssemblyMUCCommand_ko",{});define("DS/CATAssemblyMUCCommand/assets/nls/CAT3DPlayMUCSplash",{MUC_SPLASH_LABEL:"요소를 이동하여 3D와 상호 작용"});

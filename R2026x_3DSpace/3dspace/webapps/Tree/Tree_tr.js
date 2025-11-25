@@ -1,0 +1,1 @@
+define("DS/Tree/Tree_tr",{});define("DS/Tree/assets/nls/carousel",{close:"Kapat",next:"Sonraki",previous:"Önceki"});

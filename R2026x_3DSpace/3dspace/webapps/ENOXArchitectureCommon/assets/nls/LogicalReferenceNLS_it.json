@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nuovo riferimento logico"
+  },
+  "message": {
+    "confirm_detach_instance": "Scollegare le istanze selezionate?",
+    "confirm_reparent": "I riferimenti riportati di seguito verranno associati con un nuovo elemento padre in "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Associazione dei riferimenti con un nuovo elemento padre non riuscita",
+    "reparent_cyclic": "Questo nuovo padre è già stato salvato nell'elenco Riferimenti associazione come nuovo elemento padre. Cancellare la selezione esistente per evitare la struttura ciclica."
+  },
+  "success": {
+    "reparent": "Associazione con un nuovo elemento padre riuscita"
+  }
+}

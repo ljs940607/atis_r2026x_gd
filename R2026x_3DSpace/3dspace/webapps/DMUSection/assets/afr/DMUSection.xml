@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="DMUSectionContextHdrAfrWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface WkbInterface="DMUSectionContextHdrAfrWorkshopConfiguration" />
+  </Template>
+
+  <Template syp:name="DMUSectionContextHdr" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <CATCommandHeader ID="DMUGraphicPropertiesPanelHdr" ClassName="DS/DMUBaseCtxCommands/DMUGraphicPropertiesPanelCmd" ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands"  HelpResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+
+      <CATCommandHeader ID="DMUSectionCutHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionNoCutHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionGridHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionFlipHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionNormalToXHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionNormalToYHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionNormalToZHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionPrecisePosHdr" ClassName="DS/DMUSection/DMUSectionPrecisePosCmd" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionMoveHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionSecondaryViewerHdr" ClassName="DS/DMUSection/DMUSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSelectiveSectionContextCmdHdr" ClassName="DS/DMUSection/DMUSelectiveSectionContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUSectionDeleteSectionHdr" ClassName="DS/DMUSection/DMUClippingContextCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      
+      <CATCommandHeader ID="DMUPropertiesHdr"   ClassName="DS/DMUBaseCtxCommands/DMUPropertiesCmd"  ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+      <CATCommandHeader ID="DMUCutHdr"          ClassName="DS/DMUBaseCommands/DMUCutCmd"  ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+      <CATCommandHeader ID="DMUCopyHdr"         ClassName="DS/DMUBaseCommands/DMUCopyCmd"  ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+      <CATCommandHeader ID="DMUHideShowHdr"     ClassName="DS/DMUBaseCtxCommands/DMUHideShowCmd"  ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+      <CATCommandHeader ID="DMUDeleteHdr"       ClassName="DS/DMUBaseCtxCommands/DMUDeleteCmd"    ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+      
+      <CATCommandHeader ID="DMUExitClippingEditionHdr"      ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingEditionHdr"          ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingDisplayModeStoreyHdr" ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingDisplayModePlaneHdr" ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippinPlaneWithObjectsHdr"  ClassName="DS/DMUSection/DMUClippingResizeCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUResetClippingPlaneHdr"       ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingDisplayModeSliceHdr" ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippinSliceWithObjectsHdr"  ClassName="DS/DMUSection/DMUClippingResizeCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUResetClippingSliceHdr"       ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingDisplayModeBoxHdr"   ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippinBoxWithObjectsHdr"    ClassName="DS/DMUSection/DMUClippingResizeCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUResetClippingBoxHdr"         ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingNormalToXHdr"        ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingNormalToYHdr"        ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingNormalToZHdr"        ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingNormalUserHdr"       ClassName="DS/DMUSection/DMUClippingPrecisePosCmd" SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUClippingReverseHdr"          ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUAlignViewHdr"                ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" />
+      <CATCommandHeader ID="DMUContourViewerHdr"            ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" Behavior="CATAfrHeaderCheck" />
+      <CATCommandHeader ID="DMUCutUncutHdr"                 ClassName="DS/DMUSection/DMUClippingCutUncutCmd"  ResourceFile="DMUSection/DMUSection" HelpResourceFile = "DMUSection/DMUSection"/>
+      <CATCommandHeader ID="DMUClippingPositionHdr"         ClassName="DS/DMUSection/DMUClippingContextCmd"   SharedLibraryName="ShareUI" ResourceFile="DMUSection/DMUSection" Available="1" Behavior="CATAfrHeaderCheck" />
+    </CATCmdHeadersList>
+  </Template>
+</Styles>

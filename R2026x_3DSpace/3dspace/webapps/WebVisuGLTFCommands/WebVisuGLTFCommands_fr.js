@@ -1,0 +1,1 @@
+define("DS/WebVisuGLTFCommands/WebVisuGLTFCommands_fr",{});define("DS/WebVisuGLTFCommands/assets/nls/translation",{"view.Title":"WebVisuGLTF"});

@@ -1,0 +1,10 @@
+{
+  "title": "조정 관리 보고서",
+  "statusTag": "상태",
+  "startDateTag": "처리 시작",
+  "estimatedDateTag": "다음 처리의 예상 날짜",
+  "processedObjectTag": "처리된 개체",
+  "currentOpTag": "처리된 작업",
+  "totalOpTag": "처리할 총 작업 수",
+  "durationTag": "마지막 처리의 지속 시간"
+}

@@ -1,0 +1,1 @@
+define("DS/OnePart3DSearch/OnePart3DSearch_tr",{});define("DS/OnePart3DSearch/assets/nls/onepart",{facet:{properties:{title:"Özellikler"}},action:{openInOnePart:{title:"OnePart'ta Aç..."}},error:{cannotRetrieveAppInfo:"Uygulama bilgileri alınırken hata oluştu"}});

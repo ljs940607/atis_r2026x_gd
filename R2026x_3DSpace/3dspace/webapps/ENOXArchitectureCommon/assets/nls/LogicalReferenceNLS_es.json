@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nueva referencia lógica"
+  },
+  "message": {
+    "confirm_detach_instance": "¿Seguro que desea separar las instancias seleccionadas?",
+    "confirm_reparent": "Las siguientes referencias se volverán a asociar con los siguientes padres "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Error al volver a asignar padre a las referencias",
+    "reparent_cyclic": "Este nuevo padre ya está guardado en la lista de referencias de volver a asociar con padre. Borre la selección existente para evitar la estructura cíclica."
+  },
+  "success": {
+    "reparent": "Se ha vuelto a asociar con padre correctamente"
+  }
+}

@@ -1,0 +1,1 @@
+define("DS/ENOXPageToolBar/ENOXPageToolBar_tr",{});define("DS/ENOXPageToolBar/assets/nls/PageToolBar",{collapse:"Daralt",expand:"Genişlet",information:"Bilgi",back:"Geri Git",forward:"İleri Git"});

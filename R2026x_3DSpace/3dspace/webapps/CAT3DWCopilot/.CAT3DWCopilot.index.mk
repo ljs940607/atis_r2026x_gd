@@ -1,0 +1,16 @@
+m|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DWCopilot\CAT3DWCopilot.js|1725720300|10759
+s|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWCopilot.js|1724871647|0
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWGeometryCopilot.js|1724871647|3334
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWMagnet.js|1724871647|2399
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWMagnetLine.js|1724871647|10255
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWMagnetPoint.js|1724871647|3892
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWMagnetsController.js|1724871647|4077
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWMagnetsView.js|1724871647|2974
+u|CAT3DWebAppInfraUI\CAT3DWCopilot.mweb\src\CAT3DWSpecializedCopilotAdapter.js|1724871647|2541
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

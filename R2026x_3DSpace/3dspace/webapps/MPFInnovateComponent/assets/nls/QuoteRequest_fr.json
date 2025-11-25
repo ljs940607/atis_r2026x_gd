@@ -1,0 +1,16 @@
+{
+  "other": "Autre",
+  "companyName": "Nom de la société",
+  "typeCompanyName": "Saisir le nom de votre société",
+  "country": "Pays",
+  "selectCountry": "Sélectionner le pays de votre société",
+  "countryNotAvailable": "Les devis ne peuvent pas être émis dans le pays du client",
+  "phoneNumber": "Numéro de téléphone",
+  "enterPhoneNumber": "Saisir un numéro de téléphone",
+  "phoneNumberInvalid": "Ce numéro de téléphone n'est pas valide",
+  "addNda": "Ajouter un accord de non-divulgation",
+  "ndaInfo": "Vous pouvez télécharger un accord de non-divulgation que les fournisseurs de services sélectionnés devront accepter avant de voir votre demande.\n(Taille de fichier maximale : 30 Mo | Formats de fichiers pris en charge : PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "Un fichier d'image ne peut pas être téléchargé en tant qu'accord de non-divulgation.",
+  "fileFormatNotSupported": "Format de fichier non pris en charge",
+  "uploadError": "Une erreur s'est produite. Attention : seuls les PDF et fichiers textes de 50 Mo maximum sont pris en charge."
+}

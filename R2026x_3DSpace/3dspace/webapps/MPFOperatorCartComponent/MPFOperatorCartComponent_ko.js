@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_ko",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"필터 기준:",orderId:"주문 ID",seller:"판매자",buyer:"구매자",enterOrderId:"주문 ID 입력",enterSeller:"판매자 입력",enterBuyer:"구매자 입력",search:"검색"});

@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_cs",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Odstranit",confirm:"Chcete odstranit vybrané objekty? Tato akce je trvalá a nelze ji vrátit zpět."});

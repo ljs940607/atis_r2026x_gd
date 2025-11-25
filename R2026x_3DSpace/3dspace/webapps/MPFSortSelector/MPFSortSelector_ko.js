@@ -1,0 +1,1 @@
+define("DS/MPFSortSelector/MPFSortSelector_ko",{});define("DS/MPFSortSelector/assets/nls/SortSelector",{sortedBy:"{name} 기준으로 정렬됨"});

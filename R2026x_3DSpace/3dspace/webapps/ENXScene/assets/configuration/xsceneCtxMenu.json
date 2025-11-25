@@ -1,0 +1,36 @@
+{
+    "version": "0.1",
+    "ctxMenu": [
+        "OpenWith",
+        "SeparatorItem",
+        "ExpandThumbsCmd",
+        "CollapseThumbsCmd",
+        "ShowIn3DCmd",
+        "HideIn3DCmd",
+        "FocusOnCmd",
+        "FindCmd",
+        "SeparatorItem",
+        {
+            "id": "expandMenu",
+            "withDefaultCmd": "ExpandAll",
+            "cmds": [ "ExpandAll", "ExpandAllWithRelations", "ExpandN", "CollapseAll" ]
+        },
+        "SeparatorItem",
+        {
+            "id": "BSDCtxMenu",
+            "icon": {
+                "iconName": "browsing-structure",
+                "fontIconFamily": 1
+            },
+            "cmds": [ "GroupByBSHdr", "UngroupBSHdr", "AssociateTermsCommand", "TerminologyManagementCommand" ]
+        },
+        "ChangeImpactsRef",
+        "SeparatorItem",
+        "ChangeImpactsInst",
+        "SeparatorItem",
+        "CopyLink",
+        "ActionBar_Attributes",
+        "SeparatorItem",
+        "CloseSelectedCmd"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "intro": "Configurer l'expérience de gestion des documents",
+  "DownloadRules": "Règles de téléchargement de documents",
+  "rule1": "Téléchargement de plusieurs documents ",
+  "option1": "Structure des dossiers. Dossier nommé après \"<Nom du document> <Révision du document>\", par ex. DOC-00000001 0",
+  "option2": "Liste plate de tous les fichiers sans structure de dossier. Les noms de fichiers conflictuels seront suivis des numéros de série",
+  "defaultOption": "UnFichierUnRépertoire",
+  "Flatlist": "Liste plate",
+  "ApplySuccess": "Modifications appliquées",
+  "ApplyError": "Echec de l'application des modifications",
+  "ResetSuccess": "Réinitialisation réussie",
+  "Enable_Work_Under_Setting": "Activer Travailler sous",
+  "Enable_Mandatory_Comment_Setting": "Rendre obligatoire chaque fois qu'un fichier est téléchargé, mis à jour ou modifié.",
+  "File_Comment_Label": "Commentaires du fichier",
+  "Work_Under_Accordion_Title": "Configuration de Travailler sous",
+  "Work_Under": "Travailler sous",
+  "Comment_As_Mandatory__Accordion_Title": "Mise à jour du document",
+  "Failed_Load": "Echec du chargement des configurations.",
+  "DownloadBehaviorTooltip": {
+    "title": "Sélectionnez le mode d'organisation des fichiers lors du téléchargement de plusieurs documents :",
+    "subtitle1Heading": "• Structure de dossier : ",
+    "subtitle2Heading": "• Liste plate : ",
+    "subtitle1": "Crée un dossier ZIP avec des sous-dossiers pour chaque document, en conservant l'organisation des fichiers d'origine.",
+    "subtitle2": "Télécharge tous les fichiers dans une seule liste sans sous-dossiers. Pour éviter les conflits, les fichiers portant le même nom seront suivis des numéros de série."
+  },
+  "WorkUnderRuleTooltip": "Sélectionnez cette option pour utiliser un objet de modification afin d'enregistrer toutes les modifications en tant que modifications réalisées.",
+  "CommentMandatoryTooltip": "Rend les commentaires obligatoires pour toute action Créer/Mettre à jour dans Document Management et pour l'enregistrement de documents dans 3DEXPERIENCE dans Collaboration for Microsoft. Les commentaires du fichier sont particulièrement utiles pour les documents contenant plusieurs fichiers, afin de fournir un contexte sur son objectif et son lien avec le document."
+}

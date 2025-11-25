@@ -1,0 +1,1 @@
+define("DS/W3DDriveComponent/W3DDriveComponent_tr",{});define("DS/W3DDriveComponent/assets/nls/W3DDriveComponent",{select_platform:"Platform seçin",myFiles:"Dosyalarım",sharedWithMe:"Benimle paylaşılan",createFolder:"Klasör oluştur",enterTitle:"Başlık girin",title:"Başlık",ok:"Tamam",cancel:"İptal",forbiddenChars:"Bu alan gereklidir ve şu karakterler kullanılamaz: {chars}"});

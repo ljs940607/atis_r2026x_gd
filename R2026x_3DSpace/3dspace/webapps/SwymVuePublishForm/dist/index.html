@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-visible">
+  <head>
+    <title>3DSwym Publish Form</title>
+    <meta charset="UTF-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Disable zoom : don't disable "pinch to zoom" on iOS, only double tab and zoom on input when focused -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- <link rel="icon" href="/webapps/UWPClientCode/assets/favicon.ico">
+    <link rel="shortcut icon" href="/webapps/UWPClientCode/assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/webapps/UWPClientCode/assets/favicon.ico"> -->
+    <meta name="description" content="A social and collaborative web application">
+
+    <!-- Mark the position to inject local js from native app -->
+    <meta name="wap-marker:code-injection" content="script-injection">
+    
+          <script>
+            (async function() {
+              
+        if(window.dsDefaultWebappsBaseUrl) {
+          window.SWYM_DIST_PATH = new URL(window.dsDefaultWebappsBaseUrl + 'SwymVuePublishForm/dist/').href;
+        }
+        else {
+          window.SWYM_DIST_PATH = new URL(window.location.origin + '/webapps/SwymVuePublishForm/dist/').pathname;
+        }
+        
+        try {
+          const response = await (await fetch((window.dsDefaultWebappsBaseUrl || './') + 'swym-config.properties?bust=' + (Date.now() / 1000).toFixed(0))).json();
+          window.SWYM_TENANT = response.tenant;
+          // Make it ends with a trailing "/"
+          window.SWYM_URL = response.url.replace(/\/$/, '')
+          window.SWYM_REGISTRY_URL = response.registry_service_url;
+          window.dsDefaultWebappsBaseUrl = window.dsDefaultWebappsBaseUrl ?? (window.SWYM_URL + '/webapps/');
+          window.SWYM_DIST_PATH = new URL(window.dsDefaultWebappsBaseUrl + 'SwymVuePublishForm/dist/').pathname;
+        } catch (error) {
+          console.info('fetch to swym-config.properties failed:', error);
+        }
+
+        ["assets/appStandalone-C5Q9Mp7v.js"].forEach(function(src) {
+          var script = document.createElement('script');
+          script.setAttribute('src', window.SWYM_DIST_PATH + src);
+          script.setAttribute('type', 'module');
+          document.head.appendChild(script);
+        });
+        [].forEach(function(src) {
+          var link = document.createElement('link');
+          link.setAttribute('href', window.SWYM_DIST_PATH + src);
+          link.setAttribute('rel', 'stylesheet');
+          document.head.appendChild(link);
+        });
+            })();
+          </script>
+    
+  </head>
+  <body class="no-topbar-desktop">
+    <div id="app" class="h-full opt-out-hidden">
+    </div>
+    
+  </body>
+</html>

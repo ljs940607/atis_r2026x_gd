@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_ru",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Меню",addTab:"Добавить вкладку",webAppsResizing:"Изменение размера веб-приложений сохраняется только для владельцев {type}",webAppsResizingProductCockpit:"Изменение размера веб-приложений не сохраняется на этой панели управления"});

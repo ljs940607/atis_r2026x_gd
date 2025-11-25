@@ -1,0 +1,34 @@
+{
+  "appDescription": "Navegue por sus modelos 3D de una forma sencilla y eficaz",
+  "rootFrozen": "La sesión se ha congelado después de una transición",
+  "transitionRefusedStaticMapping": "La configuración del producto con instancia no es compatible con la aplicación de destino",
+  "transitionRefusedFlexibleAssemblies": "Los ensamblajes flexibles no son compatibles con la aplicación de destino",
+  "pointCloudClassificationLayer": {
+    "title": "Coloración de la clasificación LAS",
+    "headerTooltip": "La clasificación LAS es el esquema de clasificación predefinido definido por la American Society for Photogrammetry and Remote Sensing (ASPRS) para la categoría de datos deseada.",
+    "class0": "0 - Nunca clasificado",
+    "class1": "1 - Sin clasificar",
+    "class2": "2 - Suelo",
+    "class3": "3 - Vegetación baja",
+    "class4": "4 - Vegetación media",
+    "class5": "5 - Vegetación alta",
+    "class6": "6 - Edificio",
+    "class7": "7 - Punto bajo (ruido)",
+    "class8": "8 - Clave de modelo/Reservado",
+    "class9": "9 - Agua",
+    "class10": "10 - Ferrocarril",
+    "class11": "11 - Superficie de la carretera",
+    "class12": "12 - Solapar/Reservado",
+    "class13": "13 - Protección de cables (blindaje)",
+    "class14": "14 - Conductor de cables (fase)",
+    "class15": "15 - Torre de transmisión",
+    "class16": "16 - Conector de la estructura de cables",
+    "class17": "17 - Cubierta de puente",
+    "class18": "18 - Ruido alto"
+  },
+  "pointCloudElevationLayer": {
+    "title": "Coordinar la coloración",
+    "comboLabel": "Eje: ",
+    "tooltip": "La coordenada \"x\" se mide a lo largo del eje este-oeste, la coordenada \"y\" se mide a lo largo del eje norte-sur y la coordenada \"z\" mide la altura o la elevación."
+  }
+}

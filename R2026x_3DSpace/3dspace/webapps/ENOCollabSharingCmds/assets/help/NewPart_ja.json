@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"新規パーツ",
+"ENONewPartHdr.ShortHelp":"新しいパーツを作成します。",
+"ENONewPartHdr.LongHelp":"ダイアログ ボックスで、タイトルと、必要な属性がある場合は入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つのパーツのみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別のパーツを作成します。",
+"ENOInsertNewPartHdr.Title":"新規パーツを挿入",
+"ENOInsertNewPartHdr.ShortHelp":"新しいパーツを作成し、選択したオブジェクトに子として追加します。",
+"ENOInsertNewPartHdr.LongHelp":"<p>ダイアログ ボックスで、タイトルを入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つのパーツのみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別のパーツを作成します。</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

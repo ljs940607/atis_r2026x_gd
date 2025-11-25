@@ -1,0 +1,142 @@
+.eno-symbol-picker {
+  width: 36px;
+  height: 36px; }
+
+.x-color-picker-item-inner.circle,
+.x-color-picker-item-inner.concavesquare,
+.x-color-picker-item-inner.diamond,
+.x-color-picker-item-inner.ellipse,
+.x-color-picker-item-inner.facetdiamond,
+.x-color-picker-item-inner.heart,
+.x-color-picker-item-inner.pentagon,
+.x-color-picker-item-inner.rhombus,
+.x-color-picker-item-inner.roundedRectangle,
+.x-color-picker-item-inner.shield,
+.x-color-picker-item-inner.square,
+.x-color-picker-item-inner.star,
+.x-color-picker-item-inner.triangle
+{
+  background-size: 21pt 21pt;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+.circle, .circle-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Ccircle id='circle' class='circle' cx='36' cy='36' r='31.5' fill='%2342a2da' /%3E%3C/svg%3E");
+	height: 145%;
+  background-repeat: no-repeat;
+  border: none;
+	margin-left: -3px;
+	margin-top: -3px;
+  }
+.concavesquare, .concavesquare-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpath class='concavesquare' d='M67.5,22.05v27.91c-8.82,1.78-15.76,8.72-17.55,17.54h-27.9c-1.79-8.82-8.73-15.76-17.55-17.54v-27.91c8.82-1.79,15.76-8.73,17.55-17.55h27.9c1.79,8.82,8.73,15.76,17.55,17.55Z' fill='%2342a2da' /%3E%3C/svg%3E" );
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+  	
+  }
+  	
+.ellipse, .ellipse-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cellipse class='ellipse' cx='36' cy='36' rx='36' ry='22.5' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;	
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+  }
+.facetdiamond, .facetdiamond-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpolygon class='facetdiamond' points='56.8264 9.2171 36 7.2459 15.1736 9.2171 1.2894 24.5583 36 64.7541 70.7106 24.5583 56.8264 9.2171' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }  
+.heart, .heart-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpath class='heart' d='M65.255,36.5264c-7.5489,9.8215-19.8787,21.7197-29.2541,28.062-9.3759-6.3422-21.7069-18.2405-29.2563-28.062C2.6923,31.2546.3846,19.2804,7.5444,12.1216c6.7162-6.7152,18.4666-5.5886,24.2555-.7962,1.3525,1.1197,2.757,2.3087,4.201,3.5645,1.4432-1.2557,2.8469-2.4448,4.1986-3.5645,6.4636-5.0163,17.1282-5.6857,24.2555.7961,7.2067,6.554,5.1941,18.6879.8,24.4048Z' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.pentagon, .pentagon-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpolygon class='pentagon' points='36 4.7685 3.1612 28.6272 15.7045 67.2315 56.2955 67.2315 68.8388 28.6272 36 4.7685' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.rhombus, .rhombus-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpolygon class='rhombus' points='49.5 58.5 0 58.5 22.5 13.5 72 13.5 49.5 58.5' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.roundedRectangle, .roundedRectangle-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpath class='rounded-rectangle' d='M26.9444,13.5h40.5556v22.4444c0,12.4487-10.1068,22.5556-22.5556,22.5556H4.5v-22.5556c0-12.3874,10.057-22.4444,22.4444-22.4444Z' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.shield, .shield-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpath class='shield' d='M65.8902,10.0216c-.0047,2.8799-.1898,5.7218-.5409,8.5068-2.5098,19.8746-13.555,37.0876-29.3493,47.8528-15.7944-10.7652-26.8395-27.9782-29.3493-47.8528-.3511-2.785-.5361-5.6269-.5409-8.5068,15.8902-5.5216,42.8902-5.5216,59.7804,0Z' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.square, .square-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Crect class='square' x='6.2461' y='6.2461' width='59.5079' height='59.5079' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.star, .star-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpolygon class='star' points='36 3.1776 46.6647 24.7865 70.5116 28.2517 53.2558 45.0719 57.3293 68.8224 36 57.609 14.6707 68.8224 18.7442 45.0719 1.4884 28.2517 25.3353 24.7865 36 3.1776' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+.triangle, .triangle-gate img {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='gantt-element-milestone' viewBox='0 0 72 72'%3E%3Cpolygon class='triangle' points='36 8.5745 4.3317 63.4255 67.6683 63.4255 36 8.5745' fill='%2342a2da'/%3E%3C/svg%3E");
+	height: 145%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-repeat: no-repeat;
+	border: none;
+	
+  }
+  
+.circle-Refinement, .concavesquare-Refinement, .ellipse-Refinement, .facetdiamond-Refinement, .heart-Refinement, .pentagon-Refinement, .rhombus-Refinement, .roundedRectangle-Refinement, .shield-Refinement, .star-Refinement, .triangle-Refinement {
+	background-repeat: no-repeat;
+	background-size: 14pt 14pt;
+	width: 20px;
+	height: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+

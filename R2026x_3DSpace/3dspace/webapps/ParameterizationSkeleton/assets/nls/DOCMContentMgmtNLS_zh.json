@@ -1,0 +1,28 @@
+{
+  "intro": "配置文档管理体验",
+  "DownloadRules": "文档下载规则",
+  "rule1": "多个文档下载 ",
+  "option1": "文件夹结构。以“<文档名称> <文档修订版>”命名的文件夹，例如 DOC-00000001 0",
+  "option2": "无文件夹结构的所有文件的平展列表。冲突的文件名将以序列号作为后缀",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "更改已成功应用",
+  "ApplyError": "无法应用更改",
+  "ResetSuccess": "重置成功",
+  "Enable_Work_Under_Setting": "启用工作范围",
+  "Enable_Mandatory_Comment_Setting": "在上传、更新或编辑文件时，设为必填。",
+  "File_Comment_Label": "文件备注",
+  "Work_Under_Accordion_Title": "工作范围配置",
+  "Work_Under": "工作条件",
+  "Comment_As_Mandatory__Accordion_Title": "文档更新",
+  "Failed_Load": "无法加载配置。",
+  "DownloadBehaviorTooltip": {
+    "title": "选择下载多个文档时如何组织文件：",
+    "subtitle1Heading": "•文件夹结构： ",
+    "subtitle2Heading": "•平展列表： ",
+    "subtitle1": "为每个文档创建一个包含子文件夹的 ZIP 文件夹，维护其原始文件组织。",
+    "subtitle2": "下载单个列表中的所有文件，不包含子文件夹。同名文件将以序列号作为后缀，以避免冲突。"
+  },
+  "WorkUnderRuleTooltip": "选择以使用更改对象将所有修改记录为已实现的更改。",
+  "CommentMandatoryTooltip": "对 Document Management 中的任何“创建/更新”操作以及在 Collaboration for Microsoft 中将文档保存到 3DEXPERIENCE 时，必须提供备注。文件备注对于包含多个文件的文档特别有用，可提供有关其用途及其与文档的关系的上下文。"
+}

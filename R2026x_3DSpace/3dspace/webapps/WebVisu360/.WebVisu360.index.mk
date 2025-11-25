@@ -1,0 +1,14 @@
+m|WebVisualization\WebVisu360.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25144|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebVisu360\WebVisu360.js|1748059510|62354
+s|WebVisualization\WebVisu360.mweb\src\DynamicNode.js|1725538472|11063
+t|win_b64\webapps\WebVisu360\assets\models\textures\Teleport_Marker_Arrow_360_Normal.png|1726311680|937
+s|WebVisualization\WebVisu360.mweb\src\assets\models\textures\Teleport_Marker_Arrow_360_Normal.png|1725444522|937
+u|WebVisualization\WebVisu360.mweb\src\Viewer360Manager.js|1745415856|136923
+u|WebVisualization\WebVisu360.mweb\src\Vis360MarkerHandle.js|1716465281|14633
+u|WebVisualization\WebVisu360.mweb\src\WebVisu360.js|1680777565|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

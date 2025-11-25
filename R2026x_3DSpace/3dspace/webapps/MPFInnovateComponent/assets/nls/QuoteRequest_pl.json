@@ -1,0 +1,16 @@
+{
+  "other": "Inne",
+  "companyName": "Nazwa firmy",
+  "typeCompanyName": "Wpisz nazwę swojej firmy",
+  "country": "Kraj",
+  "selectCountry": "Wybierz kraj swojej firmy",
+  "countryNotAvailable": "Kraj klienta nie jest dostępny na potrzeby wydawania wycen",
+  "phoneNumber": "Numer telefonu",
+  "enterPhoneNumber": "Wprowadź numer telefonu",
+  "phoneNumberInvalid": "Ten numer telefonu jest nieprawidłowy",
+  "addNda": "Dodaj umowę o zachowaniu poufności",
+  "ndaInfo": "Można przesłać umowę o zachowaniu poufności (NDA), którą wybrani usługodawcy będą musieli zaakceptować przed wyświetleniem Twojego żądania.\n (Maksymalny rozmiar pliku: 30 MB | Obsługiwane formaty plików: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "Nie można przesłać umowy o zachowaniu poufności jako pliku obrazu.",
+  "fileFormatNotSupported": "Nieobsługiwany format pliku",
+  "uploadError": "Wystąpił błąd. Należy pamiętać, że akceptowane są tylko pliki PDF i pliki tekstowe o maksymalnym rozmiarze 50 MB."
+}

@@ -1,0 +1,22 @@
+{
+  "NewPage": "Yeni Sayfa",
+  "Wiki_Welcome": "Bu topluluğun <i>Wiki</i>'sine hoş geldiniz.",
+  "Wiki_h1_Usage": "Kullanım",
+  "Wiki_h1_Structure": "Yapı",
+  "Wiki_h1_Edition": "Düzenleme",
+  "Wiki_h1_Started": "Başlarken",
+  "Wiki_Usage_contents_p1": "Her topluluk üyesi <i>Wiki</i>'ye katkıda bulunabilir",
+  "Wiki_Usage_contents_p2": "<b>Paylaşılabilir bilgi</b> alanıdır. Haber, güncelleme veya bakış açısı yayınlamak için <i>Blog</i>'u kullanın, paylaşılan bir içeriği güncel tutmak için <i>Wiki</i>'yi kullanın.",
+  "Wiki_Usage_contents_p3": "<b>Wiki</b>'nin ne için kullanılabileceğine dair bazı <i>örnekler</i> aşağıda verilmiştir:",
+  "Wiki_Usage_contents_p4": "<b>Kılavuz</b>: Bir ekipte yeni misiniz? Neyse ki <i>Wiki</i> başlamak için bilmeniz gereken her şeyi topluyor.",
+  "Wiki_Usage_contents_p5": "<b>İstihbarat</b>: Araştırma makalelerine giden bağlantıların listesi gibi bir bilgi tabanı sağlayın.",
+  "Wiki_Usage_contents_p6": "<b>Prosedür referansı</b>: Belirli bir eylemi gerçekleştirmek için gerekli adımları yazın.",
+  "Wiki_Usage_contents_p7": "<b>Ansiklopedi</b>: Kelimeleri ve kavramları tanımlayın, geçmişin kaydını tutun.",
+  "Wiki_Structure_contents_p1": "Wiki, <b>sayfalara</b> bölünmüştür. Bir sayfada başlık, zengin içerik (metin ve medya) ve bazı meta veriler (etiketler) bulunur.",
+  "Wiki_Structure_contents_p2": "Sayfalar bir <b>ağaçta</b> yapılandırılmıştır: Her sayfada bir üst sayfa vardır.",
+  "Wiki_Edition_contents_p1": "Herhangi bir kullanıcı sayfa <b>oluşturabilir</b>, <b>ekleyebilir</b> veya <b>taşıyabilir</b>. Katkı sağlayanların düzenleme hakları yoksa bir sayfayı düzenlemelerine izin verilmeyebilir. Yöneticiler bir sayfayı <b>kilitleyebilir</b>, bu işlem sayfanın düzenlenmesini engeller.",
+  "Wiki_Edition_contents_p2": "Bir sayfanın içeriği düzenlendiğinde ve \"Revizyon oluştur\" seçeneği işaretlendiğinde, sayfanın yeni bir <b>revizyonu</b> oluşturulur. Hiçbir şey kaybolmaz ve kullanıcılar <i>Revizyonlar</i> widget'ını kullanarak eski sürümleri görüntüleyebilir.",
+  "Wiki_GetStart_contents_p1": "Karşılama mesajı yazmak için sağ üst menüdeki <b>Düzenle</b> düğmesini kullanarak bu varsayılan sayfayı düzenleyin.",
+  "Wiki_GetStart_contents_p2": "Sol üst menüdeki (varsa) bir <b>Wiki Sayfası Ekle</b> düğmesini kullanarak yeni sayfalar ekleyin ve içeriğinizi oluşturmaya başlayın.",
+  "WikiMediaForwardWarning": "İletilen wiki'deki bazı ortamlar hedef topluluğun tüm üyeleri tarafından görülemez"
+}

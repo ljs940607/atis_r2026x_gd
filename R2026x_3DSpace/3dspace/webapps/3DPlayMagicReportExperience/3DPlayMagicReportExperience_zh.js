@@ -1,0 +1,1 @@
+define("DS/3DPlayMagicReportExperience/3DPlayMagicReportExperience_zh",{});define("DS/3DPlayMagicReportExperience/assets/nls/3DPlayMagicReportExperience",{Perspectives:"透视图",Views:"视图",Model:"模型",View:"视图",Document:"文档",Wiki:"维基百科",Back:"返回",Forward:"转发",error:{timeout:"体验初始化缓慢且已中止。请稍后重试。"}});

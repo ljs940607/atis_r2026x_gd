@@ -1,0 +1,34 @@
+{
+  "appDescription": "쉽고 효율적인 방법으로 3D 모델 탐색",
+  "rootFrozen": "전환 후 세션이 고정됩니다.",
+  "transitionRefusedStaticMapping": "인스턴스화된 제품 사양은 대상 앱에서 지원되지 않습니다.",
+  "transitionRefusedFlexibleAssemblies": "유연 어셈블리는 대상 앱에서 지원되지 않습니다.",
+  "pointCloudClassificationLayer": {
+    "title": "LAS 분류 색상 지정",
+    "headerTooltip": "LAS 분류는 ASPRS(American Society for Photogrammetry and Remote Sensing)에서 원하는 데이터 카테고리에 대해 정의한 미리 정의된 분류 체계입니다.",
+    "class0": "0 - 분류되지 않음",
+    "class1": "1 - 미분류",
+    "class2": "2 - 지면",
+    "class3": "3 - 저생 식물",
+    "class4": "4 - 중간 식물",
+    "class5": "5 - 고생 식물",
+    "class6": "6 - 건물",
+    "class7": "7 - 저점(소음)",
+    "class8": "8 - 모델 키/잠김",
+    "class9": "9 - 물",
+    "class10": "10 - 레일",
+    "class11": "11 - 노면",
+    "class12": "12 - 겹침/잠김",
+    "class13": "13 - 와이어 – 보호대(실드)",
+    "class14": "14 - 와이어 – 도체(위상)",
+    "class15": "15 - 변속기 타워",
+    "class16": "16 - 와이어 - 구조 커넥터",
+    "class17": "17 - 브리지 데크",
+    "class18": "18 - 높은 소음"
+  },
+  "pointCloudElevationLayer": {
+    "title": "좌표 색상 지정",
+    "comboLabel": "축: ",
+    "tooltip": "X 좌표는 동서 축을 따라 측정되고, Y 좌표는 남북 축을 따라 측정되며, Z 좌표는 높이 또는 고도를 측정합니다."
+  }
+}

@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_pl",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Krok","Step.Action":"Akcja","Step.DefaultMessage":"Domyślny komunikat dla kroku "});

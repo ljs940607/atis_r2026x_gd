@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_ja",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed サービスはダウンしているようです",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" すべての述部がロードされていない可能性があります",CUSTOM_ATTR_APPLIED:"カスタム属性更新"});

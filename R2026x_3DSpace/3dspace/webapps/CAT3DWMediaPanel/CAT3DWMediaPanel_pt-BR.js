@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_pt-BR",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"Não foram encontrados reconhecimentos, crie um novo reconhecimento e acesse-o aqui",addWBReco:"Iniciar reconhecimento do Quadro branco"});

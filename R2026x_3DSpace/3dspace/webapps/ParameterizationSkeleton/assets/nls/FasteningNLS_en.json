@@ -1,0 +1,14 @@
+{ 
+  "FasteningCollabSpaceAccordion": "Fastener Standard Configuration",
+  "FasteningProjTitle": "Fastener Standard Collaborative Space",
+  "FasteningProjTooltip": "Select one collaborative space to store the fastener references",
+  "FasteningOrgTitle": "Fastener Standard Organization",
+  "FasteningOrgTooltip": "Select one organization to store the fastener references",
+  "FasteningPersonTitle": "Fastener Standard Responsible",
+  "FasteningPersonTooltip": "Select one person who is the owner of Standard Fastener references",
+  "FasteningPersonPlaceholder": "Enter a name or login",
+  "FasteningRivetAccordion": "Rivet Component Configuration",
+  "FasteningRivetSingleComponentTitle": "Manage rivets as a single components",
+  "FasteningRivetSingleComponentTooltip": "Manage rivets as a single components",
+  "BasicParamError": "error"
+}

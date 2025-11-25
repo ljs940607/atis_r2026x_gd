@@ -1,0 +1,11 @@
+{
+  "createNewPart": "Yeni Parça",
+  "insertNewPart": "Yeni Parça Ekle",
+  "newObjectType": "Parça",
+  "multiParentInsertPartTitle": "Yeni Parça ekle",
+  "multiParentInsertPartMsg": "Birden çok üst öğe altına yeni bir Parça eklemek istediğinizden emin misiniz?",
+  "multiParentCannotInsert": "Hata :Seçili nesnelerin altına eklenemez",
+  "CannotInsert.Type": "Bu nesne tipini seçili nesnenin altına ekleyemezsiniz: {type}",
+  "okBtn": "Tamam",
+  "closeBtn": "Kapat"
+}

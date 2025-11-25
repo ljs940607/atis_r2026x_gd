@@ -1,0 +1,28 @@
+{
+  "intro": "Konfigurace prostředí aplikace Document Management",
+  "DownloadRules": "Pravidla pro stahování dokumentů",
+  "rule1": "Stáhnout více dokumentů ",
+  "option1": "Struktura složky. Složka pojmenovaná ve formátu „<Název dokumentu> <Revize dokumentu>“, např. DOC-00000001 0",
+  "option2": "Jednoduchý seznam všech souborů bez struktury složek. Konfliktní názvy souborů budou mít sériová čísla",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Seznam bez stromové struktury",
+  "ApplySuccess": "Změny byly úspěšně provedeny",
+  "ApplyError": "Změny se nepodařilo aplikovat",
+  "ResetSuccess": "Resetování proběhlo úspěšně",
+  "Enable_Work_Under_Setting": "Povolte práci v části",
+  "Enable_Mandatory_Comment_Setting": "Nastavit jako povinné při každém nahrání, aktualizaci nebo úpravě souboru.",
+  "File_Comment_Label": "Komentáře k souboru",
+  "Work_Under_Accordion_Title": "Pracovat v rámci konfigurace",
+  "Work_Under": "Pracovat v rámci",
+  "Comment_As_Mandatory__Accordion_Title": "Aktualizace dokumentu",
+  "Failed_Load": "Nepodařilo se načíst konfigurace.",
+  "DownloadBehaviorTooltip": {
+    "title": "Vyberte způsob uspořádání souborů při stahování více dokumentů:",
+    "subtitle1Heading": "• Struktura složky: ",
+    "subtitle2Heading": "• Jednoduchý seznam: ",
+    "subtitle1": "Vytvoří složku ZIP s podsložkami pro každý dokument a zachová tak původní uspořádání souborů.",
+    "subtitle2": "Stáhne všechny soubory v jednom seznamu bez podsložek. Soubory se stejným názvem budou mít sériová čísla, aby nedocházelo ke konfliktům."
+  },
+  "WorkUnderRuleTooltip": "Vyberte, chcete-li použít objekt změny k zaznamenání všech změn jako realizovaných změn.",
+  "CommentMandatoryTooltip": "Zavádí povinné komentáře pro všechny akce Vytvořit/aktualizovat ve Správě dokumentů a pro ukládání dokumentů do 3DEXPERIENCE v aplikaci Collaboration for Microsoft. Komentáře k souborům jsou užitečné zejména u dokumentů obsahujících více souborů, aby poskytly kontext o jejich účelu a vztahu k dokumentu."
+}

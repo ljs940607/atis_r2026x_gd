@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "Cartelle Segnalibri",
+  "activeBookmark_cmd": "Lavora nella cartella Segnalibri",
+  "name_Section_FavoriteFolders": "Preferiti",
+  "name_Section_AllFolders": "Cartelle Segnalibri",
+  "activeBookmark_msg_empty": "Vuoto",
+  "activeBookmark_btn_focus": "Cartella Segnalibri impostata come elemento attivo",
+  "activeBookmark_msg_noBookmark": "Nessuna cartella Segnalibri trovata",
+  "CMDExpandAll": "Espandi tutto",
+  "CMDCollapseAll": "Comprimi tutto",
+  "InputLabel": "Cartella Segnalibri",
+  "loader": {
+    "findingObjects": "Ricerca cartella Segnalibri"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "Seleziona",
+    "button_Cancel": "Annulla",
+    "widget_name": "Seleziona nelle cartelle Segnalibri",
+    "PLMNewBookmarkWidgetName": "Seleziona cartelle Segnalibri",
+    "msg_ClassifyInProgress": "Aggiunta in corso...",
+    "msg_ClassifySuccessful": "Aggiunta riuscita.",
+    "msg_ClassifyFailed": "Si è verificato un errore durante l'aggiunta. L'utente non dispone dell'accesso per l'aggiunta O l'aggiunta è già stata effettuata in determinate cartelle Segnalibri.",
+    "msg_selectNodeToSeeInfo": "Seleziona una cartella Segnalibri per visualizzarne i dettagli."
+  },
+  "multiSelectionNotSupported": "La selezione multipla non è supportata.",
+  "favoriteSectionNotSupported": "Questo comando non è supportato nella sezione Preferiti.",
+  "favoriteNotSupported": "Questo comando non è supportato nei Preferiti.",
+  "sectionNotSupported": "Questo comando non è supportato nelle sezioni.",
+  "noSelectionError": "Per questo comando è necessaria una selezione."
+}

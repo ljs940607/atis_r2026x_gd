@@ -1,0 +1,11 @@
+m|VENWebDraco\WebVisuDracoLib.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24286|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebVisuDracoLib\assets\draco_decoder.js|1728782664|720148
+s|VENWebDraco\WebVisuDracoLib.mweb\src\assets\draco_decoder.js|1726575528|720148
+t|win_b64\webapps\WebVisuDracoLib\assets\draco_decoder.wasm|1728782664|285948
+s|VENWebDraco\WebVisuDracoLib.mweb\src\assets\draco_decoder.wasm|1726575528|285948
+t|win_b64\webapps\WebVisuDracoLib\assets\draco_wasm_wrapper.js|1728782664|58763
+s|VENWebDraco\WebVisuDracoLib.mweb\src\assets\draco_wasm_wrapper.js|1726575528|58763

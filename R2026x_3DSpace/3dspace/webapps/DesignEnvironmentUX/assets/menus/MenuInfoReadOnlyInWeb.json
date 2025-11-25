@@ -1,0 +1,18 @@
+{
+  "templates":{
+    "designenv": [
+      {"ID":"AddInViewCmd", "type":"command"},
+      {"ID":"DesignExpRefreshHdr","type":"command"},
+      {"ID":"CloseDesignEnvHdr", "type":"command"}
+    ],
+    "ctx": [
+      {"ID":"AddInViewCmd", "type":"command"}
+    ],
+    "wip": [
+      {"ID":"AddInViewCmd", "type":"command"}
+    ],
+    "content": [
+      {"ID":"AddInViewCmd", "type":"command"}
+    ]
+  }
+}

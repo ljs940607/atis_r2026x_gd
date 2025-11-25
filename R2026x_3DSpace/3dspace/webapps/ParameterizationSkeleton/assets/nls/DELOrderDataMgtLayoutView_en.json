@@ -1,0 +1,12 @@
+{
+  "NbDigits" : "Number of digits",
+  "NbDigitsInfo" : "Enter at least 6 digits and no more than 40 characters",
+  "PrefixValueEmptyInfo" : "This field is required. Do not use empty prefix values.",
+  "NbDigitsNaN" : "The number of digits is a positive integer greater than 6",
+  "Dash" : "-",
+  "Under_Score" : "_",
+  "Dot" : ".",
+  "Plus" : "+",
+  "Slash" : "/",
+  "Empty" : ""
+}

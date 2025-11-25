@@ -1,0 +1,67 @@
+
+<div class="field-group primary">
+  {{#if label}}
+    <label>{{label}}
+    {{~#if required~}}
+      <span class="required-field-indicator">*</span>
+    {{~/if~}}
+    {{#if customButtons}}
+    <span class="actions">
+        {{~#each customButtons~}}
+        <button class="btn custom-button" data-custom-button-index="{{@index}}" title= "{{toolTip}}">
+          <span class="fonticon {{iconClass}}"></span>
+        </button>
+        {{~/each~}}
+    </span>
+    {{/if}}
+    </label>
+  {{/if}}
+  <div class="input-group-wrapper">
+      <div class="input-group">
+        {{#if startDateLabel }}
+        <label class="input-group-label">
+         <span class="field-label">
+            <span class="label-text">{{startDateLabel}}</span>
+            {{~#if required~}}
+              <span class="required-field-indicator">*</span>
+            {{~/if~}}
+            {{~#if customTooltips~}}<span id="labelIcons" class="label-icons"></span>{{~/if~}}
+          </span>
+        </label>
+        {{/if}}
+          <span class="input-element" id="select-constraint-start">
+          </span>
+          <span class="input-element" id="datepicker-constraint-start">
+          {{#if readWrite}}
+            \{{~#if canEditStartDate~}}
+                <input type="date" class="form-control data-entry editable start" value="\{{makeHTML5Date {{startDateConstraint}}.actualValue }}"/>
+            \{{~/if~}}
+          {{/if}}
+          </span>
+      </div>
+      {{#if isEndDateEnabled}}
+      <div class="input-group">
+        {{#if endDateLabel}}
+          <label class="input-group-label">
+         <span class="field-label">
+            <span class="label-text">{{endDateLabel }}</span>
+              {{~#if required~}}
+                <span class="required-field-indicator">*</span>
+              {{~/if~}}
+              {{~#if customTooltips~}}<span id="labelIcons" class="label-icons"></span>{{~/if~}}
+            </span>
+          </label>
+        {{/if}}
+        <span class="input-element" id="select-constraint-end">
+        </span>
+        <span class="input-element" id="datepicker-constraint-end">
+        {{#if readWrite}}
+          \{{~#if canEditEndDate~}}
+                <input type="date" class="form-control data-entry editable end" value="\{{makeHTML5Date {{endDateConstraint}}.actualValue }}"/>
+          \{{~/if~}}
+        {{/if}}
+        </span>
+      </div>
+    {{/if}}
+  </div>
+</div>

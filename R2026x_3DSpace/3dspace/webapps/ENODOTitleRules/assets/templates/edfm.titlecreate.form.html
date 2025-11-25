@@ -1,0 +1,157 @@
+<form class="form-group-basic-param-parent-tab2">
+	<div class="form-group-basic-tab2">
+		<table class="table" id="dfm-derivedformatform-table-tab2">
+			<tbody>
+				
+				<tr> 					<!-- Formula -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+						<div class="form-group">
+							<label for="formula">{{ this.labels.formula }}</label>
+						</div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60%">
+					    <div class="form-group">
+					        <span id="derivedformatfield-formula" style="font-weight: bold;">
+					            {{this.formula}}
+					        </span>
+					    </div>
+					</td>
+				</tr>
+				
+				<tr>					<!-- Content Type -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+						<div class="form-group">
+							<label for="Content Type">{{ this.labels.contentType }}</label>
+						</div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60">
+						<div class="form-group" id="namerulefield-type-container">
+							<select id="namerulefield-type" class="form-control"
+									{{#if disableFields}} disabled=true{{/if}}>
+	                                {{#each this.type}}
+	                                    <option value="{{this.value}}" {{#if this.selected}} selected {{/if}} class="form-control">{{this.label}}</option>
+	                                {{/each}}
+	                            </select>
+						</div>
+					</td>
+				</tr>
+				
+				<tr>					<!-- Attribute 1 -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+					    <div class="form-group">
+					        <div class="dfm-attr1-label">
+					            <label for="attribute1">{{ this.labels.attr1 }}</label>
+					            <div class="dfm-attr1-mand">
+					                <label class="mandatory-label" for="mandatory">*</label>
+					            </div>
+					        </div>
+					    </div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60">
+						<div class="form-group" id="namerulefield-attr1-container">
+							<select id="namerulefield-attr1" class="form-control"
+									{{#if disableFields}} disabled=true{{/if}}>
+	                                {{#each this.attribute1}}
+	                                    <option value="{{this.value}}" dbName="{{this.dbName}}" {{#if this.selected}} selected {{/if}} class="form-control">{{this.label}}</option>
+	                                {{/each}}
+	                            </select>
+						</div>
+					</td>
+				</tr>
+				
+				<tr>					<!-- Attribute 2 -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+						<div class="form-group">
+							<label for="attribute 2">{{ this.labels.attr2 }}</label>
+						</div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group-tab2"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60">
+						<div class="form-group" id="namerulefield-attr2-container">
+							<select id="namerulefield-attr2" class="form-control"
+									{{#if disableFields}} disabled=true{{/if}}>
+	                                {{#each this.attribute2}}
+	                                    <option value="{{this.value}}" dbName="{{this.dbName}}" {{#if this.selected}} selected {{/if}} class="form-control">{{this.label}}</option>
+	                                {{/each}}
+	                            </select>
+						</div>
+					</td>
+				</tr>
+				
+				<tr>					<!-- Attribute 3 -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+						<div class="form-group">
+							<label for="attribute 3">{{ this.labels.attr3 }}</label>
+						</div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60">
+						<div class="form-group" id="namerulefield-attr3-container">
+							<select id="namerulefield-attr3" class="form-control"
+									{{#if disableFields}} disabled=true{{/if}}>
+	                                {{#each this.attribute3}}
+	                                    <option value="{{this.value}}" dbName="{{this.dbName}}" {{#if this.selected}} selected {{/if}} class="form-control">{{this.label}}</option>
+	                                {{/each}}
+	                            </select>
+						</div>
+					</td>
+				</tr>
+				
+				<tr>					<!-- Separator -->
+					<td class="dfm-nameruleform-column" id="label-container" width="35%">
+						<div class="form-group">
+							<label for="separator">{{ this.labels.separator }}</label>
+						</div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="4%">
+						<div class="form-group"></div>
+					</td>
+
+					<td class="dfm-nameruleform-column" width="60">
+						<div class="form-group" id="namerulefield-label-container">
+							<select id="namerulefield-separator" class="form-control"
+									{{#if disableFields}} disabled=true{{/if}}>
+	                                {{#each this.separator}}
+	                                    <option value="{{this.value}}" {{#if this.selected}} selected {{/if}} class="form-control">{{this.label}}</option>
+	                                {{/each}}
+	                            </select>
+						</div>
+					</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</div>
+</form>
+<div class="modal-footer"
+	style="margin-left: -15px; margin-right: -15px; margin-bottom: -15px;">
+	<button id="btnActionSubmit" class="btn btn-primary floatRight">{{
+		this.buttons.ok }}</button>
+	<button id="btnActionCancel"
+		class="btn btn-default floatRight mrgnLeft10">{{
+		this.buttons.cancel }}</button>
+</div>

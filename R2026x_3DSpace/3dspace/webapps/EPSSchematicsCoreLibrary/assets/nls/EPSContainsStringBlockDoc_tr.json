@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir dizenin kendi içinde başka bir dize içerip içermediğini belirler.",
+  "description": "Dizedeki karakterler soldan sağa indekslenir.<br>İlk karakterin indeksi <doc-value translate=no>0</doc-value> ve <doc-value translate=no>stringName</doc-value> adındaki bir dizenin son karakterinin indeksi <doc-value translate=no>stringName.length - 1</doc-value> şeklinde olur.<br>Dize araması büyük/küçük harfe duyarlıdır.",
+  "dataPorts": {
+    "Input String": "dize değeri referansı.",
+    "Searched String": "aranacak dize değeri.",
+    "From Index": "aramanın başlatılacağı indeksi temsil eden tamsayı. Varsayılan değer <doc-value translate=no>0</doc-value> şeklindedir.<br><doc-value translate=no>0</doc-value> değerinden küçük veya <doc-idp-name translate=no>Input String</doc-idp-name> uzunluğundan büyük olan <doc-idp-name translate=no>From Index</doc-idp-name> değerlerinde arama, sırasıyla <doc-value translate=no>0</doc-value> indeksinde ve <doc-idp-name translate=no>Input String</doc-idp-name> uzunluğunda başlar.",
+    "Found Index": "<doc-idp-name translate=no>Searched String</doc-idp-name> dizesinin ilk ortaya çıkışının indeksi veya bulunamazsa <doc-value translate=no>-1</doc-value>.<br>Boş bir <doc-idp-name translate=no>Searched String</doc-idp-name> dizesi, <doc-value translate=no>0</doc-value> ile <doc-idp-name translate=no>Input String</doc-idp-name> uzunluğu arasındaki herhangi bir indeksle eşleşir."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "True": "<doc-idp-name translate=no>Input String</doc-idp-name> dize değerinin <doc-idp-name translate=no>Searched String</doc-idp-name> aranan dize değerini içermesi halinde etkinleştirilir.",
+    "False": "<doc-idp-name translate=no>Input String</doc-idp-name> dize değerinin <doc-idp-name translate=no>Searched String</doc-idp-name> aranan dize değerini içermemesi halinde etkinleştirilir."
+  },
+  "example": null
+}

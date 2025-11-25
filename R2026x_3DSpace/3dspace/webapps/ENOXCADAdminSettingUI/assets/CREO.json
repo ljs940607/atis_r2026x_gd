@@ -1,0 +1,49 @@
+{
+    "version": "1.0",
+    "settings": [
+        {
+            "id": "CREOMissingLinksWarning",
+            "uitype": "switch",
+            "label": "CREOMissingLinksWarningLabel",
+            "info": "CREOMissingLinksWarningInfo",
+            "mode": "basic",
+            "attribute": "ProEMissingLinksWarning",
+            "groupName": "CREOSaveGroupLabel"
+        },
+        {
+            "id": "CREOPartFamilyInstanceHandling",
+            "uitype": "combobox",
+            "label": "CREOPartFamilyInstanceHandlingLabel",
+            "info": "CREOPartFamilyInstanceHandlingInfo",
+            "range": [
+                "PartFamilyInstanceLight",
+                "PartFamilyInstanceLoaded"
+            ],
+            "rangelabel": [
+                "PartFamilyInstanceLight",
+                "PartFamilyInstanceLoaded"
+            ],
+            "mode": "basic",
+            "attribute": "ProEPartFamilyInstanceHandling",
+            "groupName": "CREOSaveGroupLabel"
+        },
+        {
+            "id": "CREOCADAttributeMappedToEIN",
+            "uitype": "textbox",
+            "label": "CREOCADAttributeMappedToEINLabel",
+            "info": "CREOCADAttributeMappedToEINInfo",
+            "mode": "basic",
+            "attribute": "XCAD-CADAttributeMappedToEIN",
+            "groupName": "EnterpriseItemNumberGroupLabel"
+        },
+        {
+            "id": "CREOFilterOutEngItemsDataNotInCAD",
+            "uitype": "switch",
+            "label": "CreoFilterOutEngItemsDataNotInCADLabel",
+            "info": "CreoFilterOutEngItemsDataNotInCADInfo",
+            "mode": "basic",
+            "attribute": "XCAD-FilterOutEngItemsDataNotInCAD",
+            "groupName": "CREOOpenGroupLabel"
+        }
+    ]
+}

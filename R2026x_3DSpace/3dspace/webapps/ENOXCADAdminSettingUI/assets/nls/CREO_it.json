@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Salva",
+  "CREOOpenGroupLabel": "Apri",
+  "CREOMissingLinksWarningLabel": "Salva il file con riferimenti mancanti",
+  "CREOMissingLinksWarningInfo": "Quando questa opzione è attivata, viene visualizzato un avviso se mancano progetti figlio durante l'operazione di salvataggio nella sessione Creo Parametric. Quando questa opzione è disattivata, l'operazione di salvataggio procede senza l'avviso.",
+  "CREOPartFamilyInstanceHandlingLabel": "Gestione delle istanze della famiglia di parti di Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Determina l'elaborazione delle istanze della tabella della famiglia di parti Creo durante il salvataggio: <br>I file <strong>PartFamilyInstanceLight</strong> - XPR vengono generati solo per le istanze attive.<br>I file <strong> PartFamilyInstanceLoaded</strong> - XPR vengono generati per tutte le istanze.",
+  "CREOCADAttributeMappedToEINLabel": "Attributo CAD mappato in EIN",
+  "CREOCADAttributeMappedToEINInfo": "Quando viene specificato il valore per questo attributo, la funzione sarà abilitata e il file CAD verrà timbrato con questo attributo e il suo valore sarà l'EIN del prodotto fisico.",
+  "EnterpriseItemNumberGroupLabel": "Numero elemento impresa",
+  "PartFamilyInstanceLight": "IstanzaFamigliaPartiLeggera",
+  "PartFamilyInstanceLoaded": "IstanzaFamigliaPartiCaricata",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Filtra gli elementi tecnici 3DEXPERIENCE senza geometria e senza nodi figlio",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Filtra gli elementi tecnici 3DEXPERIENCE senza geometria e senza nodi figlio."
+}

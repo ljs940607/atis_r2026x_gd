@@ -1,0 +1,1 @@
+define("DS/VCXWebPlatformGUI/VCXWebPlatformGUI_cs",{});define("DS/VCXWebPlatformGUI/assets/nls/VCX3DDriveSelectorPanel",{"VCXPublish.3DDrive.Selector.Title":"Volič 3DDrive"});

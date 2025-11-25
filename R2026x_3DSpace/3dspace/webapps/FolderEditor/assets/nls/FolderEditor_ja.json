@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "マイ ブックマーク フォルダ",
+  "name_Section_FolderSection_favorite": "お気に入り",
+  "name_Section_FolderSection_AllFolders": "ブックマーク フォルダ",
+  "name_Section_TerminologySection_AllTerminologies": "参照構造",
+  "name_Section_ParentFolders": "{number} 親ブックマーク フォルダ",
+  "www_multisel_forbidden": "選択したオブジェクトでは、複数選択はサポートされていません",
+  "wwwLinkType": "URL リンク",
+  "folder_pref_dnd": "ドラッグ アンド ドロップの動作",
+  "default_pref_label": "プリファレンス ラベル",
+  "cannot_insert_branch": "オブジェクト情報の取得に失敗しました。数分後に再試行してください。問題が解決しない場合は、管理者にお問い合わせください",
+  "export_level": "レベル",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "ブックマークされた子プロダクトを非表示にします",
+  "folder_pref_allow_products_expand": "プロダクトの拡張を可能にします",
+  "folder_pref_subfolder": "コンテンツ ビューに子ブックマーク フォルダを表示",
+  "folder_pref_populateTags": "ブックマーク フォルダをフィルタ処理するために 6W タグを有効にする",
+  "useIndexAcceleration_label": "インデックス データを表示",
+  "folder_pref_autoSwitch_Label": "データベース モードからインデックス モードに自動切り替え",
+  "button_remove": "除去",
+  "button_close": "閉じる",
+  "button_treeOrder": "ツリーの順序をカスタマイズ",
+  "Move_label": "移動",
+  "Copy_label": "コピー",
+  "oneMin_Label": "1 分",
+  "threeMin_Label": "3 分",
+  "fiveMin_Label": "5 分",
+  "tenMin_Label": "10 分",
+  "Never_Label": "しない",
+  "Upload_content_loading": "コンテンツをアップロード",
+  "AddExisting_content_loading": "既存のコンテンツを追加",
+  "AddContentError": "オブジェクトはすでに接続されています。",
+  "Paste_content_loading": "コンテンツを貼り付け",
+  "Remove_content_loading": "コンテンツを除去",
+  "Remove_shortcut_loading": "ショートカットを除去",
+  "Replace_revision_loading": "コンテンツを最新リビジョンで置き換えています",
+  "LoadAttributes_Loading": "クロス サービス属性をロードしています...",
+  "Content_Loading": "コンテンツをロードしています...",
+  "LoadingView_Loading": "ビューをロードしています...",
+  "CheckingAccess_Loading": "ブックマーク フォルダのアクセスをチェックしています...",
+  "Widget_Loading": "ウィジェットをロード中...",
+  "BookmarksTree_Loading": "ツリーをロード中です...",
+  "FavoriteBkTree_Loading": "お気に入りツリーをロードしています...",
+  "PersonalTree_Loading": "個人用ツリーをロード中です...",
+  "ExpandAndSelect_Loading": "{typeStruct}にナビゲーションしています...",
+  "Bookmark_Loading": "ブックマーク フォルダを選択中です...",
+  "SetActiveBookmark_Loading": "新しいグローバル デフォルト ブックマーク フォルダを設定しています...",
+  "UnsetActiveBookmark_Loading": "グローバル デフォルト ブックマーク フォルダを設定解除しています...",
+  "EnableActiveBookmark_Loading": "グローバル デフォルト ブックマーク フォルダを有効にしています...",
+  "DisableActiveBookmark_Loading": "グローバル デフォルト ブックマーク フォルダを無効にしています...",
+  "New_Loading": "作成パネルをロードしています...",
+  "Shared_label": "共有",
+  "Personal_label": "個人用",
+  "label_ActionBar_AddToFavorites": "お気に入りを追加/除去",
+  "label_ActionBar_RemoveFromFavorites": "お気に入りから除去",
+  "label_title_NewBookmark": "新規ブックマーク フォルダ",
+  "newBookmark_typeNls": "ブックマーク フォルダ",
+  "msg_success_copyLink_content": "{typeStruct}「{foldername}」内のドキュメント「{filename}」へのリンクがコピーされました。",
+  "msg_success_copyLink_folder": "{typeStruct}「{foldername}」へのリンクがコピーされました。",
+  "msg_success_favoriteReordered": "正常にリオーダされました。",
+  "msg_info_contentcopied": "コンテンツがコピーされました。",
+  "msg_info_contentcut": "コンテンツが切り取られました。",
+  "msg_info_objetremoved": "{number} 個のオブジェクトが{typeStruct}「{foldername}」から除去されました。",
+  "msg_info_LinkRemoved": "{number} 個のリンクが{typeStruct}「{foldername}」から除去されました。",
+  "msg_info_objectremovedfromfolders": "オブジェクト「{objectname}」が {number}{typeStruct} オブジェクトから正常に除去されました。",
+  "msg_info_notConnectToBk": "{number} {typeStruct} オブジェクトに添付されませんでした",
+  "msg_info_objetnotremoved": "除去する {number} 個のオブジェクトが、{typeStruct}「{foldername}」に添付されていませんでした。",
+  "msg_info_Addinfolder": "{objectsAdded} オブジェクトが{typeStruct} {targetfolder} に追加され、追加対象の {objectsAlreadyPresent} オブジェクトがすでに存在していました。",
+  "msg_info_Addinfolder_1": "{objectsAdded} オブジェクトが {typeStruct} {targetfolder} に追加されました。",
+  "msg_info_Addinfolder_2": "追加しようとした {objectsAlreadyPresent} 個のオブジェクトはすでに存在していました。",
+  "msg_info_objetadded": "\"{filename}\" が \"{foldername}\" に追加されました。",
+  "msg_info_objetmoved": "{objectsMoved} オブジェクトが {typeStruct} {targetfolder} に移動され、移動対象の {objectsAlreadyPresent} オブジェクトがすでに存在していました。",
+  "msg_info_objetmoved_1": "{objectsMoved} オブジェクトが {typeStruct} {targetfolder} に移動されました。",
+  "msg_info_foldercopied": "{number} {typeNode} オブジェクトが、{typeStruct}「{foldername}」に正常に追加されました。",
+  "msg_info_rootCreated": "{number} {typeNode} オブジェクトが作成されました。",
+  "msg_info_foldercopied_2": "{number} {typeNode} オブジェクトが、「{foldername}」に追加されました。",
+  "msg_info_objetmoved_2": "移動しようとした {objectsAlreadyPresent} 個のオブジェクトはすでに存在していました。",
+  "msg_info_foldermoved": "{number} {typeNode} オブジェクトが {typeStruct}「{foldername}」に移動しました。",
+  "msg_info_filecheckedout": "ファイルが正しくチェックアウトされました",
+  "msg_info_filecheckedin": "ファイルが正しくチェックインされました",
+  "msg_info_filecancelcheckout": "ファイル編集操作が正常にキャンセルされました。",
+  "msg_info_favoriteadded": "ブックマーク フォルダ \"{name1}\" がお気に入りに追加されました。",
+  "msg_info_favoriteremoved": "ブックマーク フォルダ \"{name1}\" がお気に入りから除去されました。",
+  "msg_info_favoritesremoved": "{number} 個のブックマーク フォルダがお気に入りから除去されました。",
+  "msg_info_favoriterenamed": "お気に入り \"{name1}\" の名前を \"{name2}\" に変更しました。",
+  "msg_info_rename": "{typeStruct} 「{name1}」を「{name2}」に変更しました。",
+  "msg_info_refresh": "リフレッシュが完了しました。",
+  "msg_info_reorder_NonRootbks": "ブックマーク フォルダ セクションからブックマーク フォルダを選択します。",
+  "msg_info_reorder_emptyBks": "2 つ以上の子を持つブックマーク フォルダを選択します。",
+  "tree_ordering_panel_title": "ツリーの順序をカスタマイズ - ",
+  "tree_ordering_Reorder_btn": "リオーダ",
+  "find_in_left_tree_btn": "検索",
+  "tree_ordering_reset_btn": "ツリーの順序をリセット",
+  "tree_ordering_cancel_btn": "キャンセル",
+  "tree_ordering_moveup_btn": "上に移動",
+  "tree_ordering_movedown_btn": "下に移動",
+  "tree_ordering_movetop_btn": "先頭に移動",
+  "tree_ordering_movebottom_btn": "末尾に移動",
+  "tree_ordering_drop_here": "ここにドロップ",
+  "reorderSuccess": "正常にリオーダされました。",
+  "msg_info_noResultSearch": "結果が見つかりません。",
+  "msg_info_SortNonAvailable": "この列は、検索時にソートには使用できません。",
+  "msg_info_replaceByRevision": "オブジェクトは正常に置換されました。",
+  "msg_info_replaceByLatestRevision": "最新リビジョンによる置換が正常に実行されました",
+  "msg_info_replaceByLatestRevision_removed": "{number} 個のオブジェクトは、最新リビジョンがすでにブックマークに存在するか、複数選択されたオブジェクトに共通のリビジョンがあるため、明示的に除去されました。",
+  "msg_info_treeFilterRemove": "ツリー フィルタがルート オブジェクト追加の後で除去されます",
+  "msg_info_active_successfully": "{folderLabel} は、グローバル デフォルト ブックマーク フォルダとして正常に設定されました。",
+  "msg_info_inactive_successfully": "グローバル デフォルト ブックマーク フォルダ {folderLabel} は正常に設定解除されました。",
+  "msg_info_enable_successfully": "グローバル デフォルト ブックマーク フォルダ {folderLabel} が有効になりました。",
+  "msg_info_disable_successfully": "グローバル デフォルト ブックマーク フォルダ {folderLabel} が無効になりました。",
+  "msg_info_defaultLocation": "グローバル デフォルト ブックマーク フォルダは {folderLabel} です。",
+  "msg_warning_MultipleSelection": "複数選択はサポートされません。",
+  "msg_warning_nocontent": "コンテンツが選択されていません: コンテンツを選択してください。",
+  "msg_warning_nofoldernocontent": "何も選択されていません: コンテンツまたはブックマーク フォルダを選択してください。",
+  "msg_warning_nocurrentfolder": "現行の選択なし: ツリーでエレメントを選択してください。",
+  "msg_warning_noselection": "少なくともオブジェクトを 1 つ選択してください。",
+  "msg_warning_dndnotsupported": "このドロップ操作はサポートされていません。",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "お気に入りセクションに外部オブジェクトをドロップすることはできません。",
+  "msg_warning_dndnotsupported_from_different_tenant": "異なる 3DEXPERIENCE platform からオブジェクトをドロップすることはできません。",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "{objectType} オブジェクトを追加できません。",
+    "subtitle": "サポートされているタイプのオブジェクトを選択してください。"
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "異なる 3DEXPERIENCE platform からオブジェクトを追加することはできません。",
+  "msg_warning_webInWinDnD": "オブジェクトをドロップできるのは 3DDashboard 上のみです。",
+  "msg_warning_Linked_Or_Shortcut": "ブックマーク フォルダのショートカットはドラッグできません。ブックマーク フォルダのショートカットの選択を解除し、他のオブジェクトをドラッグしてください。",
+  "msg_warning_FolderAlreadyAmongFavorites": "{typeStruct}「{foldername}」はすでにお気に入りにあります。",
+  "msg_warning_expandSaveLimitation": {
+    "title": "最後の展開ステータスは保存されません。",
+    "subtitle": "一部のツリー エレメントを折りたたむと、展開ステータスを保存できます。",
+    "message": "展開されたツリー エレメントが多すぎます。"
+  },
+  "msg_warning_copyLink": "選択したオブジェクトがブックマーク フォルダではありません。",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "ルート数が 200 を超える場合、コンテキスト検索はサポートされません。",
+  "msg_warning_searchOpen": {
+    "title": "ブックマーク フォルダを作成できません。",
+    "subtitle": "検索がアクティブな間は、新しいブックマーク フォルダを作成できません。",
+    "message": "新しいブックマーク フォルダを作成するには、検索コマンドを閉じてください。"
+  },
+  "msg_error_OnRefreshCmdfailure": "予期しないエラーが発生しました。",
+  "msg_error_preferencessnotsaved": "プリファレンスを保存できません。",
+  "msg_error_nopreferences": "プリファレンスを取得できません",
+  "msg_error_Addinfolder": "選択したコンテンツは追加できません。",
+  "msg_error_Addinfolder_obj": "{object} を追加できません",
+  "msg_error_CopyFolder": "{typeStruct} をコピーすることはできません。",
+  "msg_error_MoveFolder": "{typeStruct} を移動することはできません。",
+  "msg_error_MoveFolder_parent": "ターゲット {typeStruct} は、移動する {typeNode} の親の 1 つです。",
+  "msg_error_CutPasteToRoot": "{typeStruct} はルート セクションに移動できません。",
+  "msg_error_Removefromfolder": "{typeStruct} からオブジェクトを除去することはできません。",
+  "msg_error_RemoveLinkfromBookmark": "ブックマーク フォルダからリンクを除去できません。",
+  "msg_error_MoveInfolder": "オブジェクトは移動できません",
+  "msg_error_MoveInSamefolder": {
+    "title": "別の {typeStruct} を選択してください。",
+    "subtitle": "ソース {typeStruct} とターゲット {typeStruct} が同じです。"
+  },
+  "msg_error_rename": {
+    "title": "{typeStruct}: {name} は変更できません。",
+    "subtitle": "正しい資格情報を使用していることを確認してください。",
+    "subtitle_oneName": "まだ使用されていない名前であるか、または正しい資格情報を使用していることを確認してください。",
+    "message": "このオブジェクトの名前を変更するために必要なレスポンシビリティがターゲット コラボレーション スペースにない可能性があります。"
+  },
+  "msg_error_name_maxlength": "新しい名前を 1 から {maxLength} 文字で入力します。",
+  "msg_error_name_empty": "タイトルを空白にすることはできません。",
+  "msg_error_bookmarkNotFound": {
+    "title": "{name1} にアクセスできません。",
+    "title2": "{typeStruct} にアクセスできません。",
+    "subtitle": "{typeStruct} はアクセス不可になったか、削除された可能性があります。",
+    "message": "ターゲット コラボレーション スペースに必要なレスポンシビリティがない可能性があります。"
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "ツリーを展開できません。",
+    "subtitle": "アプリケーションをリフレッシュして再度試すか、管理者にサポートを依頼してください。"
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} に次の無効な文字が含まれています: {badChars}",
+    "subtitle": "次の文字は使用できません:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "属性のロード中にエラーが発生しました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "他のサービスの属性を取得できません。"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "この {typeStruct} にはアクセスできなくなりました。 ",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "ブックマーク フォルダが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "この外部リンクにはアクセスできなくなりました。"
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "{typeStruct} にはアクセスできなくなりました",
+    "subtitle": "お気に入りから {typeStruct} を除去します。",
+    "message": "ブックマーク フォルダが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_InfoAction_Timeout": "操作に予期した以上の時間がかかっています。バックグラウンドで続行されます。リフレッシュしてデータを更新します。",
+  "msg_error_authorTimeout": {
+    "title": "操作に想定以上の時間がかかります。",
+    "message": "この操作は、バックグラウンドで続行されます。"
+  },
+  "msg_error_timeout": {
+    "title": "コンテンツを取得できません",
+    "subtitle": "サーバーへの接続がタイムアウトしました。",
+    "message": "接続を確認するか、サポートについて管理者にお問い合わせください。"
+  },
+  "msg_error_folderPath_roles": {
+    "title": "このオブジェクトにはアクセスできなくなりました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "オブジェクトが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Relations アプリケーションを開くことはできません。",
+    "subtitle": " ライセンス ロールを確認します。"
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "オブジェクトを最新リビジョンで置換できません。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "{personal_shared} ブックマーク フォルダは {shared_personal} ブックマーク フォルダの中に {move_copy} できません",
+  "msg_error_copylink": {
+    "title": "リンクをクリップボードにコピーする権限がなければなりません。",
+    "subtitle": "資格情報を確認するか、管理者に連絡してサポートを依頼してください。"
+  },
+  "msg_error_createNew": {
+    "title": "このオブジェクトは作成できません。",
+    "subtitle": "正しい資格情報を使用していることを確認してください。",
+    "message": "このタイプのオブジェクトを作成するために必要なレスポンシビリティがターゲット コラボレーション スペースにない可能性があります。"
+  },
+  "msg_error_rest": {
+    "title": "予期しないエラーが発生しました。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "msg_error_js": {
+    "title": "操作中にエラーが発生しました。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "デフォルト ブックマーク フォルダを取得できません。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。",
+    "message": "デフォルト ブックマーク フォルダがもう定義されていません。"
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "別のリビジョンを選択してください。",
+    "subtitle": "オブジェクトのリビジョンは同じリビジョンで置換できません。"
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "{typeStruct} に、選択したオブジェクトの最新リビジョンがすでに含まれています。",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "このパスは表示できません。",
+    "subtitle": "ブックマーク フォルダに親オブジェクトが表示されていません。",
+    "message": "[ブックマークされた子プロダクトを非表示にします] のプリファレンスをクリアします。"
+  },
+  "msg_warning_notProductRoot": "オブジェクトはアクセス不可になったか、削除された可能性があります。",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "100 個以下のオブジェクトを選択してください。",
+  "msg_warning_contentnotavailable": {
+    "title": "このコンテンツにはアクセスできなくなりました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "コンテンツが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "コンテンツを除去できません。",
+    "subtitle": "サブ{typeStruct} を選択して、検索結果を絞り込みます。",
+    "message": "20 を超える {typeStruct} からコンテンツを除去することはできません。"
+  },
+  "msg_error_settings": {
+    "title": "プリファレンスを取得できません",
+    "subtitle": "予期しないエラーが発生しました。サポートについて管理者にお問い合わせください。"
+  },
+  "msg_error_search_login": "サーバーエラー。連携検索は使用できません。",
+  "CMDInsertNewFolder": "新規ブックマーク フォルダ",
+  "CMDRemoveContent": "コンテンツを除去",
+  "CMDAddFile": "ドキュメントをアップロード",
+  "CMDDownloadFile": "ダウンロード",
+  "CMDPreviewFile": "プレビュー",
+  "CMDCheckOutFile": "チェックアウト",
+  "CMDCheckInFile": "チェックイン",
+  "CMDEditFile": "編集",
+  "CMDUndoEditFile": "編集を元に戻す",
+  "CMDFolderUpload": "フォルダのアップロード",
+  "CMDUpdateFile": "更新",
+  "CMDRename": "名前変更",
+  "CMDCut": "切り取り",
+  "CMDCopy": "コピー",
+  "CMDPaste": "貼り付け",
+  "CMDDelete": "削除",
+  "CMDClearSort": "ソートをクリア",
+  "CMDHideColumn": "列を非表示",
+  "CMDOpenColumnCusto": "ツリー リスト ビューのオプション",
+  "CMDAddExistingContent": "既存のコンテンツを追加",
+  "CMDAddExternalLink": "外部リンクを追加",
+  "CMDExpandAll": "すべてを展開",
+  "CMDCollapseAll": "すべてを折りたたむ",
+  "CMDAccessRightCmd": "共有",
+  "CMDAddToFavorites": "お気に入りに追加",
+  "CMDProperties": "プロパティ",
+  "CMDSynchronize": "ローカル ディスクに同期",
+  "CMDActiveFolder": "グローバル デフォルト ブックマーク フォルダ",
+  "CMDOpen": "開く",
+  "CMDOpenWithCV5": "CATIA V5 を接続",
+  "CMDFindInCtx": "コンテキスト内で検索",
+  "csv_base_file_name": "bookmark_editor_",
+  "alpha_sorting": "タイトル",
+  "date_sorting": "作成日",
+  "tree_sorting": "ソートをクリア",
+  "fonticon_filter": "フィルタ",
+  "fonticon_sort": "並べ替えの基準",
+  "download": "ダウンロード",
+  "upload": "アップロード",
+  "CMDDeleteDefinitively": "削除",
+  "CMDShareBookmarkLink": "リンクをコピー",
+  "CMDRestore": "復元",
+  "CMDSizeColumnToFit": "列のサイズを合わせる",
+  "HeaderThumbnail": "サムネイル",
+  "HeaderDeletionDate": "削除日",
+  "HeaderDeleteBy": "削除ユーザー",
+  "SearchEnterMoreThan": "検索には最低 {minNumber} 文字が必要です。",
+  "SearchEmptyQuotes": "空の引用符は、検索クエリでは許可されません。",
+  "searchDefaultError": {
+    "title": "検索クエリ中にエラーが発生しました。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "ShowNavPane": "ナビゲーション ペインを表示",
+  "HideNavPane": "ナビゲーション ペインを非表示",
+  "relations_tab": "関係",
+  "confirmation_ok": "OK",
+  "confirmation_cancel": "キャンセル",
+  "confirmation_ok_Paste": "貼り付け",
+  "confirmation_move_title": "コンテンツを移動",
+  "confirmation_add_title": "コンテンツを追加",
+  "confirmation_add_move_title": "コンテンツを移動して追加",
+  "confirmation_move_message": "{source} のコンテンツを {target} に移動しますか?",
+  "confirmation_move_message_monosel": "{source} から {target} に {selection} を移動しますか?",
+  "confirmation_move_message_mono_from_tree": "{source} を {target} に移動しますか:",
+  "confirmation_move_message_multisel": "{source} から {target} に {nth} 個の項目を移動しますか?",
+  "details_for_alone_objects": "{source} に配置されていない項目も {target} に追加されます。",
+  "confirmation_add_message_multisel": "{nth} 項目を {target} に移動しますか?",
+  "confirmation_move_add_message_multisel": "{move_nth} 項目を {source} から {target} に移動し、{add_nth} 項目を {target} に追加しますか?",
+  "removeChildrenInMove": "選択したサブ項目が添付されている場合は、{source} から除去します。",
+  "confirmation_move_button": "移動",
+  "confirmation_add_button": "追加",
+  "confirmation_add_move_button": "OK",
+  "confirmation_remove_title": "除去 - {label}",
+  "confirmation_remove_titleX": "除去 - {nb} 個のオブジェクト",
+  "confirmation_remove_message": "{label} からコンテンツを除去してもよろしいですか?",
+  "confirmation_removeshortcut_title": "ブックマーク フォルダのショートカットを除去",
+  "confirmation_removeshortcut_message": "ブックマーク フォルダからショートカットを除去してもよろしいですか?",
+  "confirmation_copyMassive_title": "{target} で {source} のコピーを作成します",
+  "confirmation_copyMassive_message": "多数の項目をコピーしようとしています。",
+  "confirmation_copyMassive_checkBox": "ブックマークした項目をコピーしたブックマーク フォルダに保持します",
+  "PasteCmdTitle": "{source} を貼り付け",
+  "PasteCmdMultiTitle": "{typeStruct} オブジェクトを貼り付け",
+  "confirmation_copy": "コピー",
+  "confirmation_info": "タイトルおよび説明以外の属性は、\n {From} を {To} に変換する際に失われます。子オブジェクトのすべての属性がコピーされます。",
+  "authentication_error": "このアプリは使用できません。正しい資格情報を使用していることを確認してください。",
+  "noPlatform_error": "このアプリケーションは、お使いのプラットフォームでは使用できません。",
+  "placeholder_msg_folder": "この {typeStruct} は現在空です。",
+  "placeholder_CMD_AddExisting": "既存を追加",
+  "placeholder_CMD_UploadFile": "ファイルをアップロード",
+  "placeholder_CreateFolder": "{typeStruct} を作成",
+  "tooltip_reserved": "ロック済み",
+  "tooltip_unreserved": "ロック解除済み",
+  "tooltip_shortcut": "ショートカット",
+  "tooltip_noDefaultLocation": "現在のグローバル デフォルト ブックマーク フォルダがありません。",
+  "tooltip_defaultLocation": "グローバル デフォルト ブックマーク フォルダは {folderLabel} です。探索する場合はクリックしてください。",
+  "tooltip_enableDefaultLocation": "グローバル デフォルト ブックマーク フォルダ {folderLabel} は無効になっています。クリックすると有効になります。",
+  "tooltip_disableDefaultLocation": "クリックすると、グローバル デフォルト ブックマーク フォルダ {folderLabel} が無効になります。",
+  "BookmarkLocation": "親ブックマーク フォルダで表示",
+  "column_FavoriteTitle": "タイトル",
+  "column_BookmarkLocation": "親ブックマーク フォルダ",
+  "column_Thumbnail": "サムネイル",
+  "column_ApprovalStatus": "承認ステータス",
+  "placeholder_msg_favorite": "お気に入りのブックマーク フォルダがありません。",
+  "placeholder_msg_section": "{typeStruct} が見つかりません。",
+  "placeholder_msg_search": "結果が見つかりません。",
+  "refresh_ongoing": "リフレッシュしています...",
+  "refresh_ok": "リフレッシュが完了しました",
+  "refreshError": {
+    "title": "ウィジェットをリフレッシュできません。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "placeholder_findInCtx": "オブジェクトを検索または選択",
+  "findInCtxsearchview": {
+    "ftssearch": "検索",
+    "searchBtn": "検索",
+    "check": "選択を確認",
+    "cannotRetrieveLabel": "選択したオブジェクトのラベルを取得できません",
+    "loadingLabel": "読み込み中..."
+  },
+  "badCredentialChanged": "事前選択された資格情報にアクセスできないため、\"{credential}\" が設定されました。",
+  "credentialChanged": "\"{credential}\" が設定されました。",
+  "success": "成功",
+  "warning": "警告",
+  "information": "情報",
+  "revisionReport": {
+    "reportTitle": "レポート - 最新リビジョンで置換",
+    "successfullyReplaced": "{prd1} は {prd2} に置換されました。",
+    "explicitlyRemoved": "{prd1} は明示的に除去されました。",
+    "isLatestRevison": "置換する {prd1} はすでに最新リビジョンです。",
+    "msgObjectSelected": "{object} 個のオブジェクトが、最新リビジョンで置換するために選択されました",
+    "msgObjectAlreadyLatestRevision": "{object} 個のオブジェクトが、すでに最新リビジョンになっています。",
+    "msgSuccessfullyReplaced": "{object} 個のオブジェクトが、最新リビジョンで正常に置換されました。",
+    "msgObjectExplicitlyRemoved": "{object} 個のオブジェクトは、最新リビジョンがすでにブックマークに存在するか、複数選択されたオブジェクトに共通のリビジョンがあるため、明示的に除去されました。"
+  },
+  "msg_advice_refreshWidget": "ウィジェットまたはブラウザを更新し、正しい資格情報を使用していることを確認します。",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "このオブジェクトにはアクセスできなくなりました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "オブジェクトが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_NoModifyAccess": "関係への変更アクセス権がありません。現行の操作を実行できませんでした。",
+  "Attachments": "添付ファイル",
+  "Specification": "仕様ドキュメント",
+  "OpenLocationRemoveTitle": "コンテンツを除去: {label}",
+  "OpenLocationRemoveMessage": "このオブジェクトを以下の所在地から除去しますか?",
+  "CMDUnsetGlobalActiveFolder": "グローバル デフォルト ブックマーク フォルダを設定解除",
+  "CMDShowInBookmarks": "ブックマーク　フォルダに表示",
+  "CMDEnableGlobalActiveBookmark": "有効化",
+  "CMDDisableGlobalActiveBookmark": "無効化",
+  "indexMode": {
+    "Authoring": "オーサリング。",
+    "Index": "インデックス。",
+    "Label": "インデックス",
+    "seconds": "秒",
+    "minutes": "分",
+    "hours": "時間",
+    "msg_Authoring": "オーサリングモードが有効です。パフォーマンスに影響が及ぶ可能性があります。",
+    "activeMode": "アクティブ モード : {mode}",
+    "lastRefresh": "前回の更新 : {timeElapsed} 前。",
+    "reactIndexMode": "インデックス モードは、オーサリング操作またはリフレッシュの時点から {autoSwitch} 分で再活動化されます。",
+    "errorMessageBookmarkRoot": {
+      "title": "{typeStruct} オブジェクトを移動できません。",
+      "subtitle": "サポートについては、管理者にお問い合わせください。"
+    },
+    "info_msg_DataNotUptoDate": "コンテンツに {timeElapsed} 分間変更を加えていないため、アプリケーションはインデックス モードに切り替わりました。",
+    "title": "インデックスまたはデータベース モード",
+    "IndexModeTooltip": "インデックス モードがアクティブ",
+    "AuthoringModeTooltip": "データベース モードがアクティブ",
+    "IndexModelongHelp": "インデックス モードではパフォーマンスが向上しますが、インデックスが作成されるまで最新の変更は使用できません。",
+    "AuthoringModelongHelp": "データベース モードでは最新の変更がすぐに表示されますが、パフォーマンスに影響があります。",
+    "info_msg_DatabaseModeTitle": "データベース モードが活動化されます",
+    "info_msg_IndexModeTitle": "インデックス モードが活動化されます。",
+    "info_msg_DatabaseModeMessage": "最新の修正が表示されます。",
+    "info_msg_IndexModeMessage": "インデックスが更新されるまで、修正および新規コンテンツをすぐに使用できない場合があります。"
+  },
+  "CMD_Yes": "はい",
+  "CMD_No": "いいえ",
+  "dialog_replaceByLatestRevision": "リビジョンで置換",
+  "msg_warning_DndNotSupported": "ドロップは読み取り専用モードではサポートされていません。",
+  "ViewTooltip": {
+    "favoriteTitle": "お気に入りのタイトル"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "ドロップにフォルダが含まれており、サポートされていません",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "ブックマーク フォルダ構造に 1000 を超えるドキュメントが含まれています。ドキュメント数が少ないブックマーク フォルダ構造を選択してください。",
+    "BookmarkNo_Documents": "ブックマーク フォルダ構造にドキュメントが含まれていません。何もダウンロードされません。",
+    "BookmarkDupalicateDOC": "ブックマーク構造のダウンロードに失敗しました。同じ階層がすでにドキュメントに存在します。",
+    "DownloadStructureFailure": "ブックマーク フォルダ構造のダウンロードに失敗しました。",
+    "BookmarkDownloadStarted": "ブックマーク フォルダ構造のダウンロードを開始しました。",
+    "BookmarkDownloadMultiFileError": "1 つのファイルを持つドキュメントを選択します。\n",
+    "BookmarkDownloadNoFileError": "\n 1 つのファイルを持つドキュメントを選択します。\n"
+  },
+  "editLinkTitle": "リンクを編集",
+  "msg_NewBookmarkSuccess": {
+    "message": "正常に作成されました。"
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "新しいショートカットが追加されます。",
+    "message": "ブックマーク フォルダへの新しいショートカットが正常に追加されました。"
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "新しいショートカットが追加されます。",
+    "message": "新しいショートカットがブックマーク フォルダに正常に追加されました。"
+  },
+  "msg_AddShortcutFail": {
+    "title": "ショートカットの作成に失敗しました。",
+    "message": "ブックマーク フォルダのショートカットを作成できませんでした。"
+  },
+  "msg_AddLinkSuccess": {
+    "title": "新しいリンクを追加します。",
+    "message": "新しい外部リンクがブックマーク フォルダに正常に追加されました。"
+  },
+  "msg_AddLinkPresent": "{nbLinks} 外部リンクはすでに存在しています。",
+  "msg_AddLinkFail": {
+    "title": "外部リンクの追加に失敗しました。",
+    "message": "外部リンクをブックマーク フォルダに追加できませんでした。"
+  },
+  "msg_EditLinkSuccess": {
+    "title": "リンクが正常に編集されました。",
+    "message": "外部リンクが正常に編集されました。"
+  },
+  "msg_EditLinkFail": {
+    "title": "リンクの編集に失敗しました。",
+    "message": "外部リンクの編集に失敗しました。"
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "編集操作が実行されていません。必要な変更を実行してください。"
+  },
+  "msg_error_AddShortcut": "ブックマーク フォルダ ショートカットを追加できません。",
+  "msg_info_addShortcut_alreadyPresent": "作成しようとした {shortcutAlreadyPresent} ショートカットはすでに存在します。",
+  "msg_error_RemoveShortcut": "ブックマーク フォルダ ショートカットを除去できません。",
+  "msg_creating_AddShortcut": "ブックマーク フォルダ ショートカットを追加しています",
+  "msg_error_Rename_Shortcut": "ショートカットの名前変更は許可されていません。",
+  "NoPathFound": "有効な解が見つかりません。",
+  "progressPanel_dragDrop": "{objectsAdded} 項目を {targetfolder} にアップロードしています",
+  "progressPanel_add": "{objectsAdded} 項目を {targetfolder} に追加しています",
+  "progressPanel_move": "{objectsAdded} 項目を {targetfolder} に移動しています",
+  "progressPanel_copy": "{objectsAdded} 項目を {targetfolder} にコピーしています",
+  "progressPanel_copyFolder": "{objectsAdded} {typeStruct} を {targetfolder} にコピーしています",
+  "progressPanel_moveFolder": "{objectsAdded} {typeStruct} を {targetfolder} に移動しています",
+  "progressPanel_remove": "{targetfolder} から {objectsAdded} 項目を除去しています",
+  "progressPanel_expand": "{targetfolder} で {objectsexpanded} 項目を展開しています",
+  "progressPanel_download": "{bookmarkname} からブックマーク フォルダ構造をダウンロードしています",
+  "removeStructuralObject": "構成オブジェクトを含める",
+  "msg_info_objetexpanded": "オブジェクトが正常に展開されました",
+  "msg_info_objetexpandedError": {
+    "title": "オブジェクトを展開できません。",
+    "subtitle": "アプリケーションをリフレッシュして再度試すか、管理者にサポートを依頼してください。"
+  },
+  "Paste_as_Duplicate": "複製として貼り付け",
+  "Paste_as_Shortcut": "ショートカットとして貼り付け",
+  "Paste_to_move": "貼り付けて移動",
+  "Paste_to_Bookmark": "貼り付けてブックマーク",
+  "CopySettings": "複写オプションとして貼り付け",
+  "AddPrefix": "接頭部を追加",
+  "AddSuffix": "接尾部を追加",
+  "prefixPlaceholder": "タイトルの接頭部を入力。",
+  "suffixPlaceholder": "タイトルの接尾部を入力。",
+  "helpPrefix": {
+    "shortHelp": "複写したオブジェクト タイトルの始めに追加される文字。",
+    "longHelp": "例えば、ブレーキ オブジェクトの接頭辞として「Design_」を追加すると、複写したオブジェクトのタイトルは「Design_Brake」になります。"
+  },
+  "helpSuffix": {
+    "shortHelp": "複写したオブジェクトタイトルの末尾に追加される文字。",
+    "longHelp": "例えば、ブレーキ オブジェクトの接尾辞として「_Design」を追加すると、複写したオブジェクトのタイトルは「Brake_Design」になります。"
+  },
+  "PrefixLine": "接頭部",
+  "SuffixLine": "接尾部",
+  "msg_info_notEnabledExpand": {
+    "title": "構造オブジェクトが含まれていません",
+    "subtitle": "プリファレンス [プロダクトの拡張を可能にします] を変更します"
+  },
+  "documentCommands": {
+    "notAvailable": "このコマンドは選択できません。",
+    "notReady": {
+      "title": "このコマンドは使用する準備ができていません。",
+      "message": "数秒後にやり直してください。"
+    }
+  },
+  "operationNotSupported": {
+    "title": "この操作はサポートされません",
+    "message": "この種類のオブジェクトは、このコマンドでは追加できません。"
+  },
+  "exportMask": "CSV エクスポート。",
+  "attrComputation": "属性値を取得しています。",
+  "tooManyResultFound": "検索は {maxResult} の結果に制限されます。照会を絞り込んでください。",
+  "initialization_error": "予期しないエラーが発生しました。管理者に問い合わせてください。",
+  "expandTooLarge": "取得したオブジェクトが多すぎます。<br> フィルタリングするか展開レベルを小さくしてナビゲーションを絞り込んでください。",
+  "loadingText": "ロード中です...",
+  "treeExpandTooLarge": {
+    "title": "{typeStruct} を展開できません",
+    "message": "取得した {subType} が多すぎます",
+    "subtitle": "すべてを折りたたみ、1 レベルのみ展開します。"
+  },
+  "lockStatusTooltip_locked": {
+    "message": "ロックしたユーザー",
+    "subtitle": "クリックしてロック解除します"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "ロック解除済み",
+    "subtitle": "クリックしてロックします"
+  },
+  "Broken link": "分断したリンク",
+  "find_in_context_timeout": "コンテキスト内検索のタイムアウト",
+  "classificationFacetName": "分類",
+  "classificationFacetText": "分類",
+  "searchLoading": "{typeStruct} で検索しています",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "新しいお気に入りを宣言できません。",
+    "subtitle": "新しいお気に入りを宣言するには、既存のお気に入りを除去してください。",
+    "message": "お気に入りの数は、{maxLimit} に制限されています。"
+  },
+  "msg_warning_ctxExceed": {
+    "title": "コンテキスト メニューを開けません。",
+    "subtitle": "選択するオブジェクトを減らす必要があります。",
+    "message": "CATIA コンテキスト メニューでは、選択するオブジェクトの数は 10 に制限されています。"
+  },
+  "error_nonIndexedI3dx": {
+    "title": "選択したオブジェクトは追加できません。",
+    "subtitle": "オブジェクトを検索できる場合は、数分後に再試行してください。",
+    "message": "一部のオブジェクトはインデックスが未作成か、検索不能です: {objects}"
+  },
+  "generic_service_failure": "オブジェクト情報の取得に失敗しました。数分後に再試行してください。問題が解決しない場合は、管理者にお問い合わせください",
+  "cannotChangeOwner": "{objectname} は {userId} に転送できません。",
+  "multipleClassificationValue": "複数",
+  "searchReasultWarningMsg": "オブジェクトの数が想定を超える可能性があります",
+  "warn_tb_unavailableRoot": "親 {typeStruct} へのアクセス権限がありません。",
+  "err_UnsupportedFavoriteType": "このお気に入りセクションは、選択したタイプをサポートしていません。",
+  "operation_add": "コンテンツを追加",
+  "toAdd": "追加",
+  "folderLoader_loading": "読込み中",
+  "folderLoader_cancel": "キャンセル",
+  "folderLoader_expanding": "展開中...",
+  "folderLoader_expanding_products": "プロダクトを展開中",
+  "ActionBar_SelectAllCmd": "すべて選択",
+  "ActionBar_SelectChildrenCmd": "子を選択",
+  "ActionBar_SelectInversionCmd": "選択を反転",
+  "ActionBar_SelectLeavesCmd": "リーフを選択",
+  "ActionBar_SelectParentCmd": "親を選択",
+  "ActionBar_SelectSiblingCmd": "兄弟を選択",
+  "Filter_owner": "自分が所有",
+  "Filter_tagger": "タグによるフィルタ",
+  "switchViewImpossible": {
+    "title": "ビューは使用できません",
+    "message": "ブラウザをリフレッシュして、ビューを更新します。"
+  },
+  "requestSaveView": {
+    "title": "現在のビューは保持されません。",
+    "message": "現在のビューを保存しますか？",
+    "link": "ビューを保存"
+  },
+  "loadingAllRoots": "残りのルート エレメントをロードしています。",
+  "loadingRoots": "ルート エレメントをロードしています。",
+  "RefreshingNodes": "オブジェクトの属性をリフレッシュしています",
+  "docCmd_unavailable": {
+    "title": "コマンドを使用できません。",
+    "subtitle": "数秒後に再試行してください。"
+  },
+  "unsupported_command_error": {
+    "title": "コマンドはサポートされていません",
+    "message": "この操作をサポートしないタイプが、現行の選択に含まれています。"
+  },
+  "lookingForObject": "オブジェクトの探索",
+  "openWithTitle": "オプションを指定して開く",
+  "openWithMessage": "オブジェクトは複数の場所に存在します。開こうとしているパスを選択してください:",
+  "openWithNotSupported": "{label} はサポートされていません",
+  "warningNotAssociated": "{label} は次と関連付けられていません",
+  "unsupportedAction": "この操作は現行コンテキストでサポートされていません"
+}

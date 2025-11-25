@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_ru",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Снимок экрана скопирован в буфер обмена"});

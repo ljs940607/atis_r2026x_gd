@@ -1,0 +1,14 @@
+{   
+    "facets":{
+        "ipexportControl" :{
+			"require" : "DS/PLMNewIPProtectionActive/PLMNewIPProtectionController"
+		},
+        "library" :{
+            "require" : "DS/PLMNewLibraryActive/PLMNewLibraryActiveController"
+        },
+        "bookmarks" :{
+            "require" : "DS/PLMNewFolderActive/PLMNewFolderActiveController"
+        } 
+    }
+    
+}

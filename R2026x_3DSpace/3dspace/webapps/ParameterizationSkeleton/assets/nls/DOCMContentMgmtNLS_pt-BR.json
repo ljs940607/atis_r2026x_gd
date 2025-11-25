@@ -1,0 +1,28 @@
+{
+  "intro": "Configurar experiência do Document Management",
+  "DownloadRules": "Regras de download de documentos",
+  "rule1": "Download de vários documentos ",
+  "option1": "Estrutura de pastas. Pasta nomeada com base em \"<Document name> <Document revision>\", por exemplo, DOC-00000001 0",
+  "option2": "Lista simples de todos os arquivos sem estrutura de pastas. Nomes de arquivos conflitantes terão o sufixo de números de série",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "Alterações aplicadas com êxito",
+  "ApplyError": "Falha ao aplicar alterações",
+  "ResetSuccess": "Redefinição bem-sucedida",
+  "Enable_Work_Under_Setting": "Ativar trabalho em",
+  "Enable_Mandatory_Comment_Setting": "Torne obrigatório sempre que um arquivo for carregado, atualizado ou editado.",
+  "File_Comment_Label": "Comentários do arquivo",
+  "Work_Under_Accordion_Title": "Trabalhar em configuração",
+  "Work_Under": "Trabalhar em",
+  "Comment_As_Mandatory__Accordion_Title": "Atualização de documento",
+  "Failed_Load": "Falha ao carregar as configurações.",
+  "DownloadBehaviorTooltip": {
+    "title": "Selecione como organizar arquivos ao fazer download de vários documentos:",
+    "subtitle1Heading": "• Estrutura de pastas: ",
+    "subtitle2Heading": "• Lista simples: ",
+    "subtitle1": "Cria uma pasta compactada com subpastas para cada documento, mantendo sua organização de arquivos original.",
+    "subtitle2": "Faz o download de todos os arquivos em uma única lista sem subpastas. Os arquivos com o mesmo nome terão números de série como sufixos para evitar conflitos."
+  },
+  "WorkUnderRuleTooltip": "Selecione para usar um objeto de alteração e registrar todas as modificações como alterações realizadas.",
+  "CommentMandatoryTooltip": "Torna os comentários obrigatórios para qualquer ação Criar/Atualizar no Document Management e para salvar documentos no 3DEXPERIENCE em Collaboration for Microsoft. Os comentários de arquivos são especialmente úteis para documentos que contêm vários arquivos, para fornecer contexto sobre sua finalidade e relação com o documento."
+}

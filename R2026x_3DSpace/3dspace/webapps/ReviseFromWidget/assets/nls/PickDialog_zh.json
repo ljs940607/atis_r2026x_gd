@@ -1,0 +1,20 @@
+{
+  "alternateDesigns": "副本",
+  "chooseObject": "选择要比较的对象",
+  "displayAlternateDepthAll": "所有副本",
+  "displayAlternateDepthDirect": "仅直接副本",
+  "displayAlternateDepthOrigin": "仅子级副本",
+  "displayAlternateRevisionAll": "每个副本的所有修订版",
+  "displayAlternateRevisionLatest": "每个副本的最新修订版",
+  "displayAlternateRevisionLatestPublished": "每个副本的最新发布修订版",
+  "displayAlternateRevisionTop": "每个副本的第一修订版",
+  "displayAlternateRevisionType": "要显示的副本的修订版",
+  "filters": "过滤器",
+  "filterType": "高级过滤器",
+  "noAlternateDesign": "没有可用副本。请将对象放置到下方进行比较。",
+  "noFilters": "没有可用过滤器。请将对象放置到下方进行比较。",
+  "noHistoryGraphSelection": "未做出选择。请做出选择或者将对象放置到下方进行比较。",
+  "noRevision": "没有可用修订版。请将对象放置到下方进行比较。",
+  "revisions": "修订版",
+  "rootHistoryGraphSelection": "必须选择要与比较对象进行比较的不同对象。请做出选择或者将对象放置到下方进行比较。"
+}

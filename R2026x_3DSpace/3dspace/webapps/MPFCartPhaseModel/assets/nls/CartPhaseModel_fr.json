@@ -1,0 +1,20 @@
+{
+  "phaseStartDateMustBeAfterPreviousPhaseEndDate": "Doit être postérieur à la date de livraison de la phase précédente.",
+  "phaseEndDateMustBeAfterStartDate": "Doit être postérieur à la date de début.",
+  "selectedDateIsPast": "La date sélectionnée est passée.",
+  "submitted": "Envoyée",
+  "quoted": "Estimée",
+  "confirmed": "Confirmée",
+  "processing": "Traitement",
+  "ready": "Prête",
+  "delivered": "Livrée",
+  "canceled": "Annulée",
+  "unknown": "Inconnu",
+  "errorDescriptionMissing": "La description est obligatoire.",
+  "errorStartDateMissing": "La date de début est obligatoire.",
+  "errorEndDateMissing": "La date de fin est obligatoire.",
+  "errorPriceMissing": "Le prix est obligatoire.",
+  "errorPriceFormat": "Le format du prix est incorrect.",
+  "errorPriceNotANumber": "Le prix doit être un nombre.",
+  "errorPriceZeroOrNegative": "Le prix doit être supérieur à 0."
+}

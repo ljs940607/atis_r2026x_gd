@@ -1,0 +1,43 @@
+{
+   "Modifiable.StyleID": "Style ID",
+   "Modifiable.Style": "Style",
+   "Modifiable.Style.Exclusion": "Style Exclusion",
+
+   "Style.NoStyle": "No Style",
+
+   "Style.Edited.Name": "Edited - {originalName}",
+   "Style.SetAsFavorite.Tooltip": "Set as favorite",
+   "Style.RemoveFromFavorite.Tooltip": "Remove favorite",
+
+   "Style.CreateNewStyle.Button.Tooltip": "Create a new style based on current properties",
+   "Style.CreateNewStyle.html": "You are about to create a new style.",
+   "Style.CreateNewStyle.Title": "Name",
+   "Style.CreateNewStyle.PlaceHolder": "Name",
+   "Style.CreateNewStyle.Dialog.Title": "New Style Creation",
+   "Style.CreateNewStyle.Dialog.OK": "Create",
+   "Style.CreateNewStyle.Dialog.Cancel": "Cancel",
+
+   "Style.UpdateStyle.Button.Tooltip": "Update style based on current properties",
+   "Style.UpdateStyle.html": "<div>You are about to update this style.</div><div>This will impact all objects linked to this style in the presentation</div>",
+   "Style.UpdateStyle.Dialog.Title": "Udpate Style",
+   "Style.UpdateStyle.Dialog.OK": "Update",
+   "Style.UpdateStyle.Dialog.Cancel": "Cancel",
+   "Style.UpdateStyle.Dialog.DoNotShowAgain": "Do not show again",
+
+   "Style.RenameStyle.Button.Label": "Rename",
+   "Style.RenameStyle.Button.Tooltip": "Rename style",
+   "Style.RenameStyle.html": "You are about to rename the style",
+   "Style.RenameStyle.Title": "Name",
+   "Style.RenameStyle.PlaceHolder": "New Name",
+   "Style.RenameStyle.Dialog.Title": "Style rename",
+   "Style.RenameStyle.Dialog.OK": "Rename",
+   "Style.RenameStyle.Dialog.Cancel": "Cancel",
+
+   "Style.DeleteStyle.Button.Label": "Delete",
+   "Style.DeleteStyle.Button.Tooltip": "Delete Style",
+   "Style.DeleteStyle.html": "<div>You are about to delete this style.</div><div>This will impact all objects linked to this style in the presentation</div>",
+   "Style.DeleteStyle.Dialog.Title": "Delete Style",
+   "Style.DeleteStyle.Dialog.OK": "Delete",
+   "Style.DeleteStyle.Dialog.Cancel": "Cancel"
+
+}

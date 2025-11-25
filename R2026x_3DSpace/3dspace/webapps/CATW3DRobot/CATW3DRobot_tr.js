@@ -1,0 +1,1 @@
+define("DS/CATW3DRobot/CATW3DRobot_tr",{});define("DS/CATW3DRobot/assets/nls/CATC3DRobotSnapPanel",{translation:"Öteleme",translationX:"U|X:",translationY:"V|Y:",translationZ:"W|Z:",rotation:"Döndürme",rotationW:"W:",rotationU:"U:",rotationV:"V:",save:"Kaydet",cancel:"İptal"});

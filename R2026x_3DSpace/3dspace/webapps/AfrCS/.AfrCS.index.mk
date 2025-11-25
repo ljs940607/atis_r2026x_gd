@@ -1,0 +1,16 @@
+m|WAfrCS\AfrCS.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.0.24286|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\AfrCS\AfrCS.js|1728782519|35891
+s|WAfrCS\AfrCS.mweb\src\AfrCore.js|1640093292|11366
+u|WAfrCS\AfrCS.mweb\src\FlushUndoRedoStacksCmd.js|1524495877|704
+u|WAfrCS\AfrCS.mweb\src\Private_AfrCS.js|1580999096|21462
+u|WAfrCS\AfrCS.mweb\src\Private_AfrCSController.js|1664545169|22409
+u|WAfrCS\AfrCS.mweb\src\Private_AfrCSInternalServices.js|1685690572|31462
+u|WAfrCS\AfrCS.mweb\src\Private_AfrCore.js|1531396566|1499
+u|WAfrCS\AfrCS.mweb\src\Private_UndoRedoCSServices.js|1727268185|13495
+u|WAfrCS\AfrCS.mweb\src\WAfrCSComponent.js|1727271663|6909
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

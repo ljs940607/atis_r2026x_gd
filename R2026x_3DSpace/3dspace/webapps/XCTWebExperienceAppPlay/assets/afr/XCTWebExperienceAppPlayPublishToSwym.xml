@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="XCTWebExperienceAppPlayInterface" Target="CATCmdInterface">
+	  <CATCmdInterface WkbInterface="XCTWebExperienceAppPlayConfiguration" />
+  </Template>
+
+  <Template syp:name="XCTWebExperienceAppPlayWorkshopHeaders" Target="CATCmdHeadersList">
+	  <CATCmdHeadersList>      
+      <!-- Play -->
+      <CATCommandHeader ID="PlayOrbitalNavigationHdr"  ClassName="DS/XCTWebExperienceAppPlay/commands/XCTWebPlayPublishToSwymCmd"   ResourceFile="XCTWebExperienceAppPlay/XCTWebExperienceAppPlay" />
+      <CATCommandHeader ID="PauseDefaultNavigationHdr" ClassName="DS/XCTWebExperienceAppPlay/commands/XCTWebPausePublishToSwymCmd"  ResourceFile="XCTWebExperienceAppPlay/XCTWebExperienceAppPlay" />
+		  
+	  <!-- Visu -->
+      <CATCommandHeader ID = "VisuQMCommand" ClassName="DS/ViewerCommands/VisuQMCommand" SharedLibraryName = "ShareUI" HelpResourceFile = "ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands"/>
+      <CATCommandHeader ID = "VisuZoomView" ClassName = "DS/ViewerCommands/VisuZoomViewCmd" SharedLibraryName = "ShareUI" HelpResourceFile = "ViewerCommands/ViewerCommandsIDs" ResourceFile = "ViewerCommands/ViewerCommands" Behavior="CATAfrHeaderCheck" />
+      <CATCommandHeader ID = "VisuPanView" ClassName = "DS/ViewerCommands/VisuPanViewCmd"  SharedLibraryName = "ShareUI" HelpResourceFile = "ViewerCommands/ViewerCommandsIDs" ResourceFile = "ViewerCommands/ViewerCommands" Behavior="CATAfrHeaderCheck" />
+      <CATCommandHeader ID = "VisuRotateView" ClassName = "DS/ViewerCommands/VisuRotateViewCmd" SharedLibraryName = "ShareUI" HelpResourceFile = "ViewerCommands/ViewerCommandsIDs" ResourceFile = "ViewerCommands/ViewerCommands" Behavior="CATAfrHeaderCheck" />
+      <CATCommandHeader ID = "VisuReframeView" ClassName = "DS/ViewerCommands/VisuReframeViewCmd" SharedLibraryName = "ShareUI" HelpResourceFile = "ViewerCommands/ViewerCommandsIDs" ResourceFile = "ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID = "ViewSelector" ClassName = "DS/3DPlayCommands/CmdViewSelector" ResourceFile = "3DPlay/3DPlayExperience3D" HelpResourceFile = "3DPlayCommands/3DPlayHelpForCommands3D" />
+    </CATCmdHeadersList>
+  </Template>
+  
+  <Template syp:name="XCTWebExperienceAppPlayWorkshopAccess" Target="CATCmdWorkbench">
+	  <CATCmdWorkbench Name="XCTWebExperienceAppPlayWorkbench">    
+      <!-- Play -->
+      <CATCmdContainer Name = "NavigationViews" Visibility = "1" RepresentationType="AfrActionBarDropDown">
+        <CATCmdStarter Name = "Play"  Command = "PlayOrbitalNavigationHdr" />
+        <CATCmdStarter Name = "Pause"  Command = "PauseDefaultNavigationHdr" />
+      </CATCmdContainer>	  
+      <CATCmdSeparator Name = "PlayVisuSeparator" />
+		  
+      <!-- Visu -->     
+      <CATCmdStarter Name = "Reframe"       Command = "VisuReframeView" Weight="1"/>
+      <CATCmdStarter Name = "Pan"           Command = "VisuPanView" />
+      <CATCmdStarter Name = "Rotate"        Command = "VisuRotateView" />
+      <CATCmdStarter Name = "Zoom"          Command = "VisuZoomView" />
+      <CATCmdStarter Name = "ViewSelector"  Command = "ViewSelector" />
+      <CATCmdSeparator Name = "VisuQMSeparator"/>
+
+      <CATCmdStarter Name = "QM" Command = "VisuQMCommand"/>
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

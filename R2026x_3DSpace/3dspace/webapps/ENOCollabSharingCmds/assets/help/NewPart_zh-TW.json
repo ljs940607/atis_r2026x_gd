@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"新零件",
+"ENONewPartHdr.ShortHelp":"產生新零件。",
+"ENONewPartHdr.LongHelp":"在對話方塊中，輸入標題、必要屬性 (若有)， 並可選擇是否要選擇範本以選擇 CAD 原版。按一下 <uicontrol>產生並關閉</uicontrol>以產生僅一個零件，或按一下 <uicontrol>產生</uicontrol>，以產生另一個零件。",
+"ENOInsertNewPartHdr.Title":"插入新零件",
+"ENOInsertNewPartHdr.ShortHelp":"產生新零件，並加入為所選物件的 子件。",
+"ENOInsertNewPartHdr.LongHelp":"<p>在對話方塊中，輸入標題，並可選擇是否要選擇範本以選擇 CAD 原版。按一下<uicontrol>產生並關閉</uicontrol>以產生僅一個零件， 或按一下<uicontrol>產生</uicontrol>，以產生另一個零件。</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

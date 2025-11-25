@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "Stripe FR 迁移",
+  "startStripeFrConversion": "启动 Stripe FR 转换",
+  "migrationExplanation": "单击按钮以启动商店迁移到 Stripe FR。",
+  "documentsExplanation": "请逐个下载 KYC 文件，并通过本部分中相应的上传按钮将其上传至新的 Stripe FR 平台。",
+  "downloadFile": "下载文件",
+  "uploadFile": "上传文件",
+  "failedToDownloadFile": "下载文件失败",
+  "failedToUploadFile": "上传文件失败",
+  "invalidFileTypeMessage": "文件类型无效。请使用 JPEG 或 PNG 文件。",
+  "fileTooBig": "文件超出最大文件大小。",
+  "migrationFailedMsg": "无法完成迁移。",
+  "migrationCompleted": "已完成迁移",
+  "kycSatusIs": "文档的状态为“{status}”",
+  "startingMigration": "正在启动迁移...",
+  "updating": "正在更新数据...",
+  "unableToUpdateData": "无法更新数据",
+  "waitingForMigrationConfirmation": "正在进行文件验证。请稍后检查迁移状态。",
+  "migrationFailed": "迁移失败"
+}

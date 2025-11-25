@@ -1,0 +1,10 @@
+{
+  "IntroductionText": "Paramètres communs pour tous les connecteurs CAO",
+  "ApplyText": "Appliquer",
+  "ApplyTooltipText": "Appliquer les valeurs mises à jour des paramètres communs",
+  "ResetTooltipText": "Réinitialiser toutes les valeurs des paramètres communs",
+  "ResetText": "Réinitialiser",
+  "applyErrorMessage": "Une erreur s'est produite lors de l'application des paramètres communs. Veuillez contacter votre administrateur.",
+  "applySuccessMessage": "Valeurs des paramètres communs déployées avec succès !",
+  "customTableErrorMessage": "Les tables personnalisées doivent comprendre au moins une colonne."
+}

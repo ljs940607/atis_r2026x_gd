@@ -1,0 +1,208 @@
+{
+	"DELLmiWorkOrderReference": {
+		"title": "PLM_ExternalID",
+		"name": "V_Name",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"description": "V_description",
+		"type": "type",
+		"state": "current",
+		"dueDate": "V_DueDate",
+		"earliestStartDate": "V_EarliestStartDate",
+		"targetStartDate": "DELLmiUPRSystemReference.V_TargetStartDate",
+		"targetEndDate": "DELLmiUPRSystemReference.V_TargetEndDate",
+		"plannedStartDate": "DELLmiUPRSystemReference.V_PlannedStartDate",
+		"plannedEndDate": "DELLmiUPRSystemReference.V_PlannedEndDate",
+		"actualStartDate": "DELLmiUPRSystemReference.V_ActualStartDate",
+		"actualEndDate": "DELLmiUPRSystemReference.V_ActualEndDate",
+		"scheduledStartDate": "DELLmiUPRSystemReference.V_ScheduledStartDate",
+		"scheduledEndDate": "DELLmiUPRSystemReference.V_ScheduledEndDate",
+		"calculatedDueDate": "V_CalculatedDueDate",
+		"priority": "DELLmiUPRSystemReference.V_Priority",
+		"ganttColor": "V_GanttColor",
+		"orderQuantity": [
+			"DELLmiWOQuantity_Each.V_OrderQuantity",
+			"DELLmiWOQuantity_Area.V_OrderQuantity",
+			"DELLmiWOQuantity_Length.V_OrderQuantity",
+			"DELLmiWOQuantity_Volume.V_OrderQuantity",
+			"DELLmiWOQuantity_Weight.V_OrderQuantity"
+		],
+		"rejectReason": "rejectReason",
+		"orderNo" : "orderNo",
+		"onHoldComment": "V_OnHoldComment"
+	},
+	"DELLmiProductionPlanReference": {
+		"title": "V_Name",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"description": "V_description",
+		"type": "type",
+		"state": "current"
+	},
+	"DELLmiExecHeaderOperationInstance": {
+		"operationNo": "PLM_ExternalID",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"description": "V_description",
+		"type": "type",
+    "state": "current"
+	},
+	"DELLmiExecHeaderOperationReference": {
+		"name": "PLM_ExternalID",
+		"title": "V_Name",
+		"description": "V_description",
+		"operationNo": "description",
+		"type": "type",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"state": "current",
+		"scheduled": "V_Scheduled",
+		"interruptible": "V_Interruptible",
+		"preparationTime": "V_PreparationTime",
+		"isTimeProportionalToQty": "V_IsTimeProportionalToQty",
+		"remainingTime": "V_RemainingTime",
+		"actualTime": "V_ActualTime",
+		"estimatedTime": "V_EstimatedTime",
+		"targetStartDate": "DELLmiOperationUPRReference.V_TargetStartDate",
+		"targetEndDate": "DELLmiOperationUPRReference.V_TargetEndDate",
+		"plannedStartDate": "DELLmiOperationUPRReference.V_PlannedStartDate",
+		"plannedEndDate": "DELLmiOperationUPRReference.V_PlannedEndDate",
+		"scheduledStartDate": "DELLmiOperationUPRReference.V_ScheduledStartDate",
+		"scheduledEndDate": "DELLmiOperationUPRReference.V_ScheduledEndDate",
+		"actualStartDate": "DELLmiOperationUPRReference.V_ActualStartDate",
+		"actualEndDate": "DELLmiOperationUPRReference.V_ActualEndDate",
+		"onHoldComment": "V_OnHoldComment",
+		"minStartDateUser": {
+			"minStartDate": "V_MinStartDateUser",
+			"description": "V_DescriptionUser"
+		},
+		"minStartDateAuto": {
+			"minStartDate": "V_MinStartDateAuto",
+			"description": "V_DescriptionAuto"
+		},
+		"minStartDateRawMaterial": {
+			"minStartDate": "V_MinStartDateRawMaterial",
+			"description": "V_DescriptionRawMaterial"
+		},
+		"minStartDateSemiFinished": {
+			"minStartDate": "V_MinStartDateSemiFinished",
+			"description": "V_DescriptionSemiFinished"
+		},
+		"priority": "DELLmiOperationUPRReference.V_Priority",
+		"preProcessingTime": "V_TimeOutMachineBefore",
+		"postProcessingTime": "V_TimeOutMachineAfter",
+		"quantityToBeProducedPerTime": [
+			"DELLmiQtyToBeProducedPerTime_Each.V_QuantityToBeProducedPerTime",
+			"DELLmiQtyToBeProducedPerTime_Area.V_QuantityToBeProducedPerTime",
+			"DELLmiQtyToBeProducedPerTime_Length.V_QuantityToBeProducedPerTime",
+			"DELLmiQtyToBeProducedPerTime_Weight.V_QuantityToBeProducedPerTime",
+			"DELLmiQtyToBeProducedPerTime_Volume.V_QuantityToBeProducedPerTime"
+		],
+		"capacitySchedulingSpace": "V_CapacitySchedulingSpace",
+		"initialQuantity": [
+			"DELLmiEOQuantity_Each.V_InitialQuantity",
+			"DELLmiEOQuantity_Area.V_InitialQuantity",
+			"DELLmiEOQuantity_Length.V_InitialQuantity",
+			"DELLmiEOQuantity_Weight.V_InitialQuantity",
+			"DELLmiEOQuantity_Volume.V_InitialQuantity"
+		],
+		"remainingQuantity": [
+			"DELLmiEOQuantity_Each.V_RemainingQuantity",
+			"DELLmiEOQuantity_Area.V_RemainingQuantity",
+			"DELLmiEOQuantity_Length.V_RemainingQuantity",
+			"DELLmiEOQuantity_Weight.V_RemainingQuantity",
+			"DELLmiEOQuantity_Volume.V_RemainingQuantity"
+		],
+		"completedQuantity": [
+			"DELLmiEOQuantity_Each.V_CompletedQuantity",
+			"DELLmiEOQuantity_Area.V_CompletedQuantity",
+			"DELLmiEOQuantity_Length.V_CompletedQuantity",
+			"DELLmiEOQuantity_Weight.V_CompletedQuantity",
+			"DELLmiEOQuantity_Volume.V_CompletedQuantity"
+		]
+	},
+	"DELLmiOperationPPRInstance": {
+		"stepNo": "PLM_ExternalID",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"description": "V_description",
+		"icontype": "type",
+    "state": "current"
+	},
+	"DELLmiOperationReference": {
+		"name": "PLM_ExternalID",
+		"title": "V_Name",
+		"description": "V_description",
+		"icontype": "type",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified",
+		"state": "current",
+		"stepNo": "description",
+		"remainingTime": "V_RemainingTime",
+		"actualTime": "V_ActualTime",
+		"estimatedTime": "V_EstimatedTime",
+		"actualStartDate": "DELLmiOperationUPRReference.V_ActualStartDate",
+		"actualEndDate": "DELLmiOperationUPRReference.V_ActualEndDate",
+		"onHoldComment": "V_OnHoldComment",
+		"createdBy": "owner",
+		"createdDate": "originated",
+		"lastModifiedDate": "modified"
+	},
+	"DELLmiExecTimeConstraintRelation": {
+		"delay": "V_Delay",
+		"delayMode": "V_DelayMode",
+		"dependencyType": "V_DependencyType",
+		"isOptional": "V_OptionalTimeConstraint",
+		"resourceConstraint": "V_ResourceConstraint",
+		"isProductFlow" : "V_MaterialNeed",
+		"from" : "from",
+		"to" : "to",
+		"type" : "type",
+		"flowType" : "flowType"
+	},
+	"DELLmiExecTimeConstraintRelationOnStep": {
+		"delay": "V_Delay",
+		"delayMode": "V_DelayMode",
+		"dependencyType": "V_DependencyType",
+		"isOptional": "V_OptionalTimeConstraint",
+		"resourceConstraint": "V_ResourceConstraint",
+		"isProductFlow" : "V_MaterialNeed",
+		"from" : "from",
+		"to" : "to",
+		"type" : "type",
+		"flowType" : "flowType"
+	},
+	"DELLmiExecAsmProcessCanUseCnx": {
+		"preferred": "V_IsPreferred",
+		"capableRscGroupIndex": "V_CapableRscGroupIndex",
+		"reservedFromFirstStep": "V_IsReservedFromFirstStep",
+		"manuallyScheduled": "V_ManuallyScheduled",
+		"priority": "V_Priority",
+		"resourcesQuantity": "V_ResourcesQuantity",
+		"toolChangeoverTime": "V_ToolChangeoverTime",
+		"estimatedTime": "V_EstimatedTime",
+		"type": "type"
+	},
+	"DELLmiExecAsmProcessCanUseCnxDetails": {
+		"primaryCapableResourceId": "primaryCapableResourceId",
+	  "workOrderOperationStepId": "workOrderOperationStepId",
+		"type": "type"
+	},
+	"DELLmiExecSecondaryCandidateResourceLink": {
+		"rscTimeConst": "V_RscTimeConst",
+		"rscTimePerQtyToProducedPerTime": "V_RscTimePerQtyToProducedPerTime",
+		"type": "type"
+	},
+	"DELLmiExecSecondaryCandidateResourceLinkDetails": {
+		"availabilityMode": "availabilityMode",
+		"secondaryCapableResourceId": "secondaryCapableResourceId",
+		"workOrderOperationStepId": "workOrderOperationStepId",
+		"type": "type"
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "providers": {
+        "ApplicationAttributesProvider": {
+            "model": "DS/ENOXEngineer/componentsHelpers/TablePreferences/js/providers/AppAttributesProvider",
+            "menuIndex": 2
+        },
+        "ClassificationAttributesProvider": {
+            "model": "DS/ENOXEngineer/componentsHelpers/TablePreferences/js/providers/ClassifAttributesProvider",
+            "menuIndex": 1
+        },
+        "DictionaryAttributesProvider": {
+            "model": "DS/ENOXEngineer/componentsHelpers/TablePreferences/js/providers/DicoAttributesProvider",
+            "menuIndex": 0
+        }
+    },
+    "baseTypes": [
+        "VPMReference",
+        "VPMRepReference",
+        "VPMInstance",
+        "Document",
+        "CONTROLLED DOCUMENTS"
+    ],
+    "commonAttributesDisplayedAtTheEnd": false,
+    "optionalDefaultAsAvailable": {
+        "types": [],
+        "extensions": ["XCADGenericInstExtension"]
+    }
+}

@@ -1,0 +1,14 @@
+m|WAfrUndoRedo\WAfrUndoRedo.mweb
+b|j|n,m
+b|c|n,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrUndoRedo\WAfrUndoRedo.js|1723278155|0
+s|WAfrUndoRedo\WAfrUndoRedo.mweb\src\WAfrUndoRedo.js|1513773057|1
+t|win_b64\webapps\WAfrUndoRedo\WAfrUndoRedoComponent.js|1723278156|2166
+s|WAfrUndoRedo\WAfrUndoRedo.mweb\src\WAfrUndoRedoComponent.js|1597153180|7846
+t|win_b64\webapps\WAfrUndoRedo\WAfrUndoRedoFlushAction.js|1723278156|331
+s|WAfrUndoRedo\WAfrUndoRedo.mweb\src\WAfrUndoRedoFlushAction.js|1547626702|1053
+t|win_b64\webapps\WAfrUndoRedo\WAfrUndoRedoOverviewAction.js|1723278157|97
+s|WAfrUndoRedo\WAfrUndoRedo.mweb\src\WAfrUndoRedoOverviewAction.js|1690968751|3053
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

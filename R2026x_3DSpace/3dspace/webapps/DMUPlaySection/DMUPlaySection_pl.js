@@ -1,0 +1,1 @@
+define("DS/DMUPlaySection/DMUPlaySection_pl",{});define("DS/DMUPlaySection/assets/nls/DMUPlaySection",{clippingContextualMenuTitle:"Przycinanie"});

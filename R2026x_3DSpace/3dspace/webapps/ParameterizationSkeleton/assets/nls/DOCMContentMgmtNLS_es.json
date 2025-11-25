@@ -1,0 +1,28 @@
+{
+  "intro": "Configurar la experiencia de gestión de documentos",
+  "DownloadRules": "Reglas de descarga de documento",
+  "rule1": "Descarga de varios documentos ",
+  "option1": "Estructura de carpetas. Carpeta denominada \"<Nombre de documento> <Revisión de documento>\", por ejemplo, DOC-00000001 0",
+  "option2": "Lista plana de todos los archivos sin estructura de carpetas. Los nombres de archivo en conflicto incluirán sufijos con números de serie",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "Los cambios se han aplicado correctamente",
+  "ApplyError": "Error al aplicar los cambios",
+  "ResetSuccess": "Restablecimiento realizado correctamente",
+  "Enable_Work_Under_Setting": "Activar Trabajar bajo",
+  "Enable_Mandatory_Comment_Setting": "Hacer obligatorio cada vez que se cargue, actualice o edite un archivo.",
+  "File_Comment_Label": "Comentarios de archivo",
+  "Work_Under_Accordion_Title": "Configuración de Trabajar bajo",
+  "Work_Under": "Trabajar en",
+  "Comment_As_Mandatory__Accordion_Title": "Actualización de documento",
+  "Failed_Load": "Error al cargar las configuraciones.",
+  "DownloadBehaviorTooltip": {
+    "title": "Seleccione cómo organizar los archivos al descargar varios documentos:",
+    "subtitle1Heading": "• Estructura de carpetas: ",
+    "subtitle2Heading": "• Lista planta: ",
+    "subtitle1": "Crea una carpeta ZIP con subcarpetas para cada documento, manteniendo su organización de archivos original.",
+    "subtitle2": "Descarga todos los archivos de una sola lista sin subcarpetas. A los archivos con el mismo nombre se les añadirán números en serie para evitar conflictos."
+  },
+  "WorkUnderRuleTooltip": "Seleccione esta opción para utilizar un objeto de cambio para registrar todas las modificaciones como cambios realizados.",
+  "CommentMandatoryTooltip": "Hace que los comentarios sean obligatorios para cualquier acción Crear/Actualizar en Document Management y para guardar documentos en 3DEXPERIENCE en Collaboration for Microsoft. Los comentarios de archivo son especialmente útiles para documentos que contienen varios archivos, para proporcionar contexto sobre su finalidad y cómo se relaciona con el documento."
+}

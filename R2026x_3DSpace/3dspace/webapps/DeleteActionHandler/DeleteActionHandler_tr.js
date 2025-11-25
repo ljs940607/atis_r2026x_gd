@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_tr",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Sil",confirm:"Seçili nesneleri silmek istiyor musunuz? Bu işlem kalıcıdır ve geri alınamaz."});

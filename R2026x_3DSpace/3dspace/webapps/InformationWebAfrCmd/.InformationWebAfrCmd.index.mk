@@ -1,0 +1,11 @@
+m|ENOCollabCommandsWebUI\InformationWebAfrCmd.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.0.24339|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\InformationWebAfrCmd\InformationWebAfrCmd.js|1733278588|509
+s|ENOCollabCommandsWebUI\InformationWebAfrCmd.mweb\src\cmd\InformationCmd.js|1733130465|2576
+t|win_b64\webapps\InformationWebAfrCmd\assets\icons\32\InformationCmdIcon.png|1730554413|2073
+s|ENOCollabCommandsWebUI\InformationWebAfrCmd.mweb\src\assets\icons\32\InformationCmdIcon.png|1729752670|2073
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

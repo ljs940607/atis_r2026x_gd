@@ -1,0 +1,1 @@
+define("DS/MIBQueryWidget/MIBQueryWidget_tr",{});define("DS/MIBQueryWidget/assets/nls/MIBQueryWidgetNls",{CommandDialogTitle:"MIB içeriğini ara",BtnOK:"Ara",BtnCancel:"İptal",BtnOk2:"Aç",Query:"Ara"});

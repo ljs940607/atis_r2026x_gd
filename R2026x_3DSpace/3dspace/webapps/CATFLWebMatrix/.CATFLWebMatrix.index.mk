@@ -1,0 +1,15 @@
+m|CATFLEditorWEBMatrix\CATFLWebMatrix.mweb
+b|j|n,m
+b|c|n,m
+v|6.428.0.25177|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CATFLWebMatrix\ExcelExporter.js|1723277554|2470
+s|CATFLEditorWEBMatrix\CATFLWebMatrix.mweb\src\ExcelExporter.js|1558012364|4817
+t|win_b64\webapps\CATFLWebMatrix\TraceabilityMatrix.js|1750971049|32102
+s|CATFLEditorWEBMatrix\CATFLWebMatrix.mweb\src\TraceabilityMatrix.js|1750826903|64663
+t|win_b64\webapps\CATFLWebMatrix\css\TraceabilityMatrix.css|1744917681|4698
+s|CATFLEditorWEBMatrix\CATFLWebMatrix.mweb\src\css\TraceabilityMatrix.css|1710775128|6211
+t|win_b64\webapps\CATFLWebMatrix\jQueryPlugin.js|1748664825|613
+s|CATFLEditorWEBMatrix\CATFLWebMatrix.mweb\src\jQueryPlugin.js|1744051306|1431
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

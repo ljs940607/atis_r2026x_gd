@@ -1,0 +1,14 @@
+{
+  "merchant": "Commerciante",
+  "order": "Ordine",
+  "amount": "Importo",
+  "cardHolder": "Titolare della carta",
+  "cardNumber": "Numero carta",
+  "expiryDate": "Data scadenza",
+  "cardHolderEmpty": "Il nome del titolare della carta non è valido.",
+  "pay": "Paga",
+  "phase": "Fase",
+  "paymentInProgress": "Pagamento in corso... L'operazione potrebbe richiedere qualche minuto",
+  "failedToLoadPaymentPage": "Impossibile caricare la pagina del pagamento. Riprova più tardi e contatta il supporto se il problema persiste.",
+  "failedToLoadPaymentSection": "Impossibile caricare la sezione del pagamento. Riprova più tardi e contatta il supporto se il problema persiste."
+}

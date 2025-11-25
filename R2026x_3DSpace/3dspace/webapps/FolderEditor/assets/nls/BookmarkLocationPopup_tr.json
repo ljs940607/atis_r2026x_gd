@@ -1,0 +1,16 @@
+{
+  "OK": "Tamam",
+  "Cancel": "İptal",
+  "OpenLocation": "Üst {typeStruct}",
+  "Bookmark_Locations": "{typeStruct} Konumları",
+  "Open": "Aç",
+  "OpenLocationPopupLable": "Açmak istediğiniz {typeStruct} öğesini seçin:",
+  "msg_error_BookmarkLocation": "{typeStruct} \"{name1}\" için Konum açılamıyor (silinmiş olabilir veya erişilebilir değil).",
+  "msg_error_BM_LOC_InValid_Object": "Nesne seçilemiyor. Silinmiş veya erişilebilir değil.",
+  "removeFromSearchNotif": {
+    "success": "Nesne kaldırıldı.",
+    "failNotAllowed": "{typeStruct} öğesinin içeriğin değiştirilmesine izin veren bir durumda olduğunu doğrulayın.",
+    "serverError": "Pencere öğesi veya tarayıcınızı yenileyin ve doğru kimlik bilgilerini kullandığınızdan emin olun.",
+    "failNoRelationFound": "Yeterli izne sahip olduğunuzu doğrulayın."
+  }
+}

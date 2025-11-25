@@ -1,0 +1,20 @@
+{
+  "loadError": "无法加载复核",
+  "noMarkup": "无法找到复核",
+  "unauthorizedType": "应用程序无法读取工程图复核",
+  "preferences": {
+    "markupSectionTitle": "标记",
+    "SlideTitleDisplayLbl": "显示幻灯片标题",
+    "compareSectionTitle": "比较",
+    "firstProductColor": "第一个项目的颜色",
+    "secondProductColor": "第二个项目的颜色",
+    "compare3DCommonColor": "用于 3D 比较的常用项目的颜色",
+    "compare2DCommonColor": "用于 2D 比较的常用项目的颜色"
+  },
+  "publishToSwym": "发布到 3DSwym",
+  "information": "信息",
+  "more": "更多",
+  "copyScreenshot": "复制屏幕截图",
+  "saveScreenshot": "保存屏幕截图",
+  "printScreenshot": "打印屏幕截图"
+}

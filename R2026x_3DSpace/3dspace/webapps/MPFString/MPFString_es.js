@@ -1,0 +1,1 @@
+define("DS/MPFString/MPFString_es",{});define("DS/MPFString/assets/nls/MPFString",{hiddenInformation:"INFORMACIÓN OCULTA"});

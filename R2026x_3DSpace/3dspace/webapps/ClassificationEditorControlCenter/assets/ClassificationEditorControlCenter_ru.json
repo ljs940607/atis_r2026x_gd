@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Ограниченный режим для пользователей с ролью Classification Manager",
+  "CCM_Manager": "Classification Manager",
+  "CCM_specialist_title": "Specialist",
+  "CCM_expert_title": "Эксперт",
+  "CCM_architect_title": "Architect",
+  "permission_update_successful": "Разрешение {updatedPermission} предоставлено {name}.",
+  "permission_update_failure": "Не удается обновить разрешение для имени пользователя.",
+  "restriction_mode_switched": "Ограниченный режим включен ({restrictionToggle}).",
+  "restriction_mode_switch_failure": "Не удалось переключить ограниченный режим.",
+  "widget_load_failure": "Доступ к этому приложению имеют только администраторы с ролью CSV.",
+  "on": "вкл.",
+  "off": "выкл.",
+  "search_name": "Поиск по имени"
+}

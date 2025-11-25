@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "용어 찾는 중..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "놓인 개체는 검색 구조 개체가 아닙니다.",
+    "Advice": "검색 구조 또는 노드를 놓으십시오."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "트리에서 찾기를 수행할 수 없습니다.",
+    "Advice": "해당 검색 노드로 트리를 확장합니다.",
+    "Details": "찾을 검색 노드가 트리에서 보이지 않습니다."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "트리에서 찾기를 수행할 수 없습니다.",
+    "Advice": "검색 구조 섹션을 수준 1로 확장합니다.",
+    "Details": "검색 구조 섹션 아래에 표시되는 검색 구조가 없습니다."
+  },
+  "msg_info_limit_FindInTree": "한도에 도달했습니다. 찾기 한도가 100으로 설정되었습니다.",
+  "msg_info_limitToFindInRootNode": "검색 구조에서 찾기 한도가 200으로 설정되었습니다. 처음 200개의 검색 구조가 고려됩니다.",
+  "msg_info_No_Occurrence": "검색 구조의 발생 항목이 없습니다."
+}

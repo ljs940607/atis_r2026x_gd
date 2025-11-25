@@ -1,0 +1,63 @@
+{
+	"PLMInstance.PLM_ExternalID": {
+		"Name": "PLM_ExternalID",
+		"NLS": "PLMInstance.PLM_ExternalID",
+		"Type": "String",
+		"Protection": 2,
+		"MultiValuated": "No",
+		"HasRangeDefined": "No",
+		"DefaultValue": "",
+		"MaxLength": 100,
+		"Magnitude": "",
+		"ManipulationUnit": "",
+		"MultiLine": "No",
+		"UIAccess": "",
+		"HasDefault": "Yes"
+	},
+	"PLMReference.V_isLastVersion": {
+		"Name": "V_isLastVersion",
+		"NLS": "PLMReference.V_isLastVersion",
+		"Type": "Boolean",
+		"Protection": 3,
+		"MultiValuated": "No",
+		"HasRangeDefined": "No",
+		"DefaultValue": "true",
+		"MaxLength": 0,
+		"Magnitude": "",
+		"ManipulationUnit": "",
+		"MultiLine": "No",
+		"UIAccess": "",
+		"HasDefault": "Yes"
+	},
+	"PLMReference.V_ApplicabilityDate": {
+		"Name": "V_ApplicabilityDate",
+		"NLS": "PLMReference.V_ApplicabilityDate",
+		"Type": "Date",
+		"Protection": 2,
+		"MultiValuated": "No",
+		"HasRangeDefined": "No",
+		"DefaultValue": "",
+		"MaxLength": 0,
+		"Magnitude": "",
+		"ManipulationUnit": "",
+		"MultiLine": "No",
+		"UIAccess": "",
+		"HasDefault": "Yes"
+	},
+	"type": {
+		"DefaultValue":"",
+		"HasDefault": "Yes",
+		"HasRangeDefined": "No",
+		"Magnitude": "",
+		"ManipulationUnit": "",
+		"MaxLength": 128,
+		"MultiLine": "No",
+		"MultiValuated": "No",
+		"NLS": "type",
+		"Name": "type",
+		"Protection": 3,
+		"Type": "String",
+		"UIAccess": ""
+	}
+}
+

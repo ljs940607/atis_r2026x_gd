@@ -1,0 +1,16 @@
+{
+  "OK": "확인",
+  "Cancel": "취소",
+  "OpenLocation": "상위 {typeStruct}",
+  "Bookmark_Locations": "{typeStruct} 위치",
+  "Open": "열기",
+  "OpenLocationPopupLable": "열 {typeStruct} 선택:",
+  "msg_error_BookmarkLocation": "{typeStruct} \"{name1}\"의 위치를 열 수 없습니다(삭제되었거나 액세스할 수 없음).",
+  "msg_error_BM_LOC_InValid_Object": "개체를 선택할 수 없습니다. 삭제되었거나 액세스할 수 없습니다.",
+  "removeFromSearchNotif": {
+    "success": "개체가 제거되었습니다.",
+    "failNotAllowed": "{typeStruct}이(가) 콘텐츠 변경을 허용하는 상태에 있는지 확인합니다.",
+    "serverError": "위젯 또는 브라우저를 새로 고치고, 올바른 자격증명을 사용하고 있는지 확인하십시오.",
+    "failNoRelationFound": "충분한 허가가 있는지 확인하십시오."
+  }
+}

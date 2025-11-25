@@ -1,0 +1,5 @@
+{
+  "ErrorSecurityContextEmpty": "No se pueden encontrar las credenciales del usuario. Intente iniciar sesión de nuevo; de lo contrario, póngase en contacto con el servicio de asistencia.",
+  "ErrorSecurityContext": "No se pueden encontrar las credenciales del usuario. Se ha producido un error inesperado. Intente iniciar sesión de nuevo; de lo contrario, póngase en contacto con el servicio de asistencia.",
+  "ErrorTimeOut": "No se pueden encontrar las credenciales del usuario. Tiempo de espera de conexión agotado. Intente iniciar sesión de nuevo; de lo contrario, póngase en contacto con el servicio de asistencia."
+}

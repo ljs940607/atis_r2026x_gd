@@ -1,0 +1,18 @@
+{
+  "Secret": "Gizli",
+  "Private": "Özel",
+  "Public": "Herkese Açık",
+  "SuperAdmin": "Geçici moderatör",
+  "Owner": "Sahip",
+  "Author": "Yazar",
+  "Mainowner": "Ana sahip",
+  "Contributor": "Katkı Sağlayan",
+  "None": "Hiçbiri",
+  "Media": "Ortam",
+  "SubscribeSuccess": "Artık yeni içeriğe abonesiniz.",
+  "SubscribeError": "Bir hata oluştu. Yeni içeriğe abone değilsiniz.",
+  "UnsubscribeSuccess": "Artık yeni içeriğe abone değilsiniz.",
+  "UnsubscribeError": "Bir hata oluştu. Hâlâ yeni içeriğe abonesiniz.",
+  "BatchError": "Bir hata oluştu. İşleminiz oluşturulamadı.",
+  "PendingUser": "Bekleyen kullanıcı"
+}

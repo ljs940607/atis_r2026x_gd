@@ -1,0 +1,199 @@
+{
+  "LAYOUT": {
+    "PROCESS": [
+      {
+        "name": "PROCESS",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_PPRGeneralSystem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea"
+      },
+      {
+        "name": "PROCESS_MBOM",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_InsertCreateAssemblyProcess.png"
+        },
+        "type": "PANEL",
+        "dockArea": "RightDockArea"
+      },
+      {
+        "name": "PROCESS_RESOURCE",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_DELRMOrganizationalSystem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "RightDockArea",
+        "snap": true
+      }
+    ],
+    "SERVICEPROCESS": [
+      {
+        "name": "PROCESS",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_PPRGeneralSystem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea"
+      },
+      {
+        "name": "PROCESS_SBOM",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_InsertServiceAssemblyItem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "RightDockArea"
+      },
+      {
+        "name": "PROCESS_RESOURCE",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_DELRMOrganizationalSystem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "RightDockArea",
+        "snap": true
+      }
+    ],
+    "MBOM": [
+      {
+        "name": "MBOM",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_InsertCreateAssemblyProcess.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea",
+        "snap": true
+      }
+    ],
+    "SBOM": [
+      {
+        "name": "SBOM",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_InsertServiceAssemblyItem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea",
+        "snap": true
+      }
+    ],
+    "PRODUCT": [
+      {
+        "name": "PRODUCT",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_PhysicalProduct.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea",
+        "snap": true
+      }
+    ],
+    "RESOURCE": [
+      {
+        "name": "RESOURCE",
+        "icon": {
+          "moduleName": "DELWeb3DOpersReviewAppV2",
+          "path": "icons/22/I_DELRMOrganizationalSystem.png"
+        },
+        "type": "PANEL",
+        "dockArea": "LeftDockArea",
+        "snap": true
+      }
+    ]
+  },
+  "VIEWOPTIONS": {
+    "PANEL": {
+      "visibleFlag": true,
+      "resizableFlag": true,
+      "horizontallyStretchableFlag": true,
+      "verticallyStretchableFlag": true,
+      "closeButtonFlag": false,
+      "width": 400,
+      "height": 400,
+      "minWidth": 250,
+      "ensureHeightDefinitionOnHierarchy": true,
+      "progressBarOptions": {
+        "enable": true,
+        "infiniteFlag": true,
+        "displayStyle": "lite",
+        "emphasize": "info"
+      }
+    }
+  },
+  "modes": {
+    "Graphics": {
+      "SBOM": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "MBOM": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PRODUCT": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "RESOURCE": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PROCESS_MBOM": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PROCESS_SBOM": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PROCESS_RESOURCE": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      }
+    },
+    "BuildUp": {
+      "PROCESS": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PROCESS_MBOM": {
+        "collapseDockingZoneFlag": true,
+        "visible": true
+      },
+      "PROCESS_SBOM": {
+        "collapseDockingZoneFlag": true,
+        "visible": true
+      },
+      "PROCESS_RESOURCE": {
+        "collapseDockingZoneFlag": true,
+        "visible": true
+      }
+    },
+    "WorkInstructions": {
+      "PROCESS": {
+        "visible": true,
+        "collapseDockingZoneFlag": false
+      },
+      "PROCESS_MBOM": {
+        "visible": false,
+        "collapseDockingZoneFlag": true
+      },
+      "PROCESS_SBOM": {
+        "visible": false,
+        "collapseDockingZoneFlag": true
+      },
+      "PROCESS_RESOURCE": {
+        "visible": false,
+        "collapseDockingZoneFlag": true
+      }
+    }
+  }
+}

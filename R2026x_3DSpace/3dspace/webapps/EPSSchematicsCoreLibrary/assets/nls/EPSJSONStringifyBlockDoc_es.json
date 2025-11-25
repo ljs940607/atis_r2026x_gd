@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Categoriza el objeto dado en un JSON.",
+  "description": "Este bloque es dinámico, por lo que el tipo de matriz de los datos de entrada se puede cambiar en el cuadro de diálogo de configuración.",
+  "dataPorts": {
+    "Object": "el objeto que se va a categorizar.",
+    "JSON": "el objeto categorizado."
+  },
+  "controlPorts": {
+    "In": "activa la ejecución del bloque.",
+    "Out": "se activa cuando se completa el proceso."
+  },
+  "example": null
+}

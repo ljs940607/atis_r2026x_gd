@@ -1,0 +1,22 @@
+{
+  "__comment__": "рекомендуемое число символов в переведенном слове для SpeedControlResetLabel - 5-7.",
+  "SpeedControlResetLabel": "Сброс",
+  "SpeedControlErrorTitle": "Недопустимая скорость воспроизведения",
+  "SpeedControlErrorMsg": "Введите число больше 0.",
+  "buttonLoop.tooltipInfos.title": "Цикличный режим",
+  "buttonLoop.tooltipInfos.shortHelp": "Непрерывное повторение анимации.",
+  "buttonStepBackward.tooltipInfos.title": "На шаг назад",
+  "buttonStepBackward.tooltipInfos.shortHelp": "Пошаговая анимация на один кадр назад.",
+  "buttonPlay.tooltipInfos.title": "Воспроизведение",
+  "buttonPlay.tooltipInfos.shortHelp": "Воспроизведение анимации с кадра, на котором она остановлена.",
+  "buttonPause.tooltipInfos.title": "Пауза",
+  "buttonPause.tooltipInfos.shortHelp": "Приостановка анимации во время воспроизведения.",
+  "buttonStepForward.tooltipInfos.title": "На шаг вперед",
+  "buttonStepForward.tooltipInfos.shortHelp": "Пошаговая анимация на один кадр вперед.",
+  "autoCompleteSpeedControl.tooltipInfos.title": "Коэффициент скорости",
+  "autoCompleteSpeedControl.tooltipInfos.shortHelp": "Указывает скорость воспроизведения анимации.",
+  "buttonChoose.tooltipInfos.title": "Выберите анимацию",
+  "buttonChoose.tooltipInfos.shortHelp": "Отображает список доступных анимаций для продукта и позволяет выбрать анимацию для воспроизведения.",
+  "buttonClose.tooltipInfos.title": "Закрыть",
+  "buttonClose.tooltipInfos.shortHelp": "Закрытие проигрывателя анимации."
+}

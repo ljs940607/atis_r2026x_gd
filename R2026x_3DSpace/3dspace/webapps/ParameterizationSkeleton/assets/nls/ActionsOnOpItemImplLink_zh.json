@@ -1,0 +1,9 @@
+{
+  "action": "操作",
+  "actionTooltip": "操作的名称",
+  "modalTitle": "操作",
+  "Add": "添加操作",
+  "Select": "选择或搜索",
+  "Info": "写入操作名称，然后单击“确定”。这会将操作保存到数据库中。",
+  "ErrorActionAlreadyDefined": "为 %1 输入的值已存在。请为 %2 选择其他名称"
+}

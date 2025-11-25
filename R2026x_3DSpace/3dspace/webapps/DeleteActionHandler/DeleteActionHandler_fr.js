@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_fr",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Supprimer",confirm:"Voulez-vous supprimer le ou les objets sélectionnés ? Cette opération est définitive et ne peut pas être annulée."});

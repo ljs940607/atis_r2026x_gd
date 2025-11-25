@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_ko",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"외부 견적 URL",activateExternalQuotation:"외부 견적 활성화"});

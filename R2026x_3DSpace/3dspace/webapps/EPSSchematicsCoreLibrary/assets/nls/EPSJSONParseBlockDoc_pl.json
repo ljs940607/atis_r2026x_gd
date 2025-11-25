@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Analizuje dany plik JSON, aby wygenerować obiekt.",
+  "description": "Ten blok jest dynamiczny, dlatego typ obiektu danych wejściowych można zmienić w oknie dialogowym konfiguracji bloku.",
+  "dataPorts": {
+    "JSON": "Plik JSON do analizy.",
+    "Object": "wygenerowany obiekt."
+  },
+  "controlPorts": {
+    "In": "wyzwala wykonanie bloku.",
+    "Out": "jest aktywowane po zakończeniu procesu."
+  },
+  "example": null
+}

@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "無法啟動指令",
+  "LoadingPanel": "正在載入...",
+  "cmdFailure": "無法啟動指令",
+  "cmdFailureNls": "NLS 錯誤，無法啟動指令",
+  "SavingStep": "正在儲存...",
+  "createReview": {
+    "quickEdition": "不要再顯示此對話",
+    "errorMessage": "產生審查失敗",
+    "errorShape": "無法在 3D Shape 上產生審查",
+    "multipleRootsLabel": "選擇關聯",
+    "nameLabel": "標題",
+    "defaultReviewName": "審查",
+    "namePlaceholder": "加入標題",
+    "descriptionLabel": "說明",
+    "descriptionPlaceholder": "加入說明",
+    "restrictedEditionLabel": "限制版本",
+    "restrictedEditionActivated": "已啟用",
+    "restrictedEditionDeactivated": "已停用",
+    "panelTitle": "新審查",
+    "panelValidationTitle": "新驗證",
+    "createreviewButton": "建立",
+    "cancelButton": "取消",
+    "importModel": "輸入 JSON 模型",
+    "slideTitle": "投影片",
+    "loadingMessage": "正在建立新審查...",
+    "warningMessage": "目前的審查將會在工作階段中由新的審查取代",
+    "labelReview": "審查",
+    "labelMarkup": "標示",
+    "labelCheck": "檢查",
+    "labelMember": "成員",
+    "labelObjects": "物件",
+    "saveAsDraftButton": "儲存為草稿",
+    "reviewContext": "關聯",
+    "multiReviewsNaming": "自動",
+    "validatedObjects": "已驗證物件",
+    "changeAction": "Change Action",
+    "chkListTitle": "檢查清單",
+    "autoCompletePlaceHolder": "置放於此或輸入以搜尋",
+    "setValObjectAsValidatedNotif": "無法將此物件設定為已驗證物件",
+    "setSomeValObjectAsValidatedNotif": "無法將某些物件設定為已驗證物件",
+    "setDefaultNotif": "不支援部分置放的物件",
+    "setDefaultChgActNotif": "無法將此物件設定為變更動作",
+    "setCtxRootNotif": "關聯不支援多個所選範圍置放",
+    "setChgActNotif": "Change Action 不支援多個所選範圍置放",
+    "setChgActCtxNotif": "無法使用此關聯類型設定變更動作",
+    "noCASearchFound": "找不到搜尋結果或已加入變更"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "不要再顯示此對話",
+    "errorMessage": "產生標示失敗",
+    "multipleRootsLabel": "選擇關聯",
+    "nameLabel": "標題",
+    "defaultMarkupName": " 標示",
+    "namePlaceholder": "加入標題",
+    "descriptionLabel": "說明",
+    "descriptionPlaceholder": "加入說明",
+    "panelTitle": "新標示",
+    "createMarkupButton": "建立",
+    "cancelButton": "取消",
+    "importModel": "輸入 JSON 模型",
+    "slideTitle": "投影片",
+    "loadingMessage": "正在建立新標示...",
+    "warningMessage": "目前的標記會在工作階段中被新的標記取代"
+  },
+  "createCheck": {
+    "errorMessage": "產生檢查的要求失敗",
+    "typeToSearch": "置放於此或輸入以搜尋",
+    "noSearchFound": "找不到搜尋結果或已新增需求",
+    "requirement": "需求"
+  },
+  "createHighlight": {
+    "errorMessage": "產生強調顯示失敗",
+    "selectHighlight": "選取標示中的已取消標示註解"
+  },
+  "valStateChange": {
+    "error": "無法變更審查驗證狀態。"
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "已驗證物件已存在",
+    "SelectMsg": "選取要新增的已驗證物件",
+    "OkBtn": "確定",
+    "CancelBtn": "取消"
+  },
+  "loadValidationContextError": "不支援審查此類型的資料。",
+  "loadValidationMarkupError": "無法載入審查。",
+  "page": "頁面",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "清除狀態",
+      "message": "您是否確定要清除所選註解的狀態？",
+      "okLabel": "清除"
+    },
+    "unableToMark": "無法變更部分備註的狀態。"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Inputs": "Girdiler",
+  "Outputs": "Çıktılar",
+  "Approx. Method Type": "Yaklaşık Yöntem Tipi",
+  "Training Measures": "Eğitim Ölçümleri",
+  "Validation Measures": "Doğrulama Ölçümleri",
+  "R-Squared": "R-Kare",
+  "R-Squared Adjusted": "R-Kare Düzeltilmiş",
+  "RMSE": "Karekök Ortalama Hatası",
+  "Residual / Predicted": "Artık / Öngörülen",
+  "% Error Absolute Mean": "% Hata Mutlak Ortalama",
+  "% Error Absolute Maximum": "% Hata Mutlak Maksimum",
+  "% Error Standard Deviation": "%Hata Standart Sapma",
+  "Lower Bound": "Alt Sınır",
+  "Upper Bound": "Üst Sınır"
+}

@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_cs",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Skoková funkce","Step.Action":"Akce","Step.DefaultMessage":"Výchozí zpráva pro krok "});

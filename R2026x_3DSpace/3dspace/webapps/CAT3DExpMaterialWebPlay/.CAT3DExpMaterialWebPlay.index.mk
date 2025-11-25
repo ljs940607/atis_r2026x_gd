@@ -1,0 +1,9 @@
+m|XCTWebExperienceModelPlay\CAT3DExpMaterialWebPlay.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24319|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DExpMaterialWebPlay\CAT3DExpMaterialWebPlay.js|1731552706|1816
+s|XCTWebExperienceModelPlay\CAT3DExpMaterialWebPlay.mweb\src\extensions\StuEMaterialPrototypeBuild.js|1731067386|4061
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

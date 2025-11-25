@@ -1,0 +1,24 @@
+{
+    "cmdColumns": [ {
+            "dataIndex": "hide_show",
+            "groupableFlag": false,
+            "icon": "eye",
+            "pinned": "right",
+            "width": 40,
+            "minWidth": 40,
+            "maxWidth": 40,
+            "alignment": "center",
+            "visibleFlag": true
+        }, {
+            "dataIndex": "findinctx",
+            "groupableFlag": false,
+            "icon": "find",
+            "pinned": "right",
+            "width": 40,
+            "minWidth": 40,
+            "maxWidth": 40,
+            "alignment": "center",
+            "visibleFlag": false
+        }
+    ]
+}

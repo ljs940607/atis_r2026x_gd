@@ -1,0 +1,34 @@
+{
+	"timeoutIndex": "timeoutIndex",
+
+    "depthFlattenedView": "depthFlattenedView",
+    "depthFlattenedViewArchitectureItemOnly": "depthFlattenedViewArchitectureItemOnly",
+
+	"recentlyAuthored": "xarch-common-recently-authored-",
+    "recentlyAuthoredStructure": "xarch-common-recently-authored-structure-",
+
+	"componentView": "component-view",
+    "structuredView": "structured-view",
+    "flattenedView": "flattened-view",
+    "flattenedViewOnlyArchitectureItem": "flattend-view-only-architecture-item",
+
+	"customViews": "xarch-common-customViews",
+	"customHeaderView": "xarch-common-customHeaderView",
+    "attributesManagementSelectedExtensions": "xarch-common-attributes-management-selected-extensions",
+    "attributesManagementSelectedExtensionsForPhysicalProduct": "xarch-common-attributes-management-selected-extensions-physical-product",
+    "attributesManagementSelectedAttributes": "xarch-common-attributes-management-selected-attributes",
+    "attributesManagementSelectedAttributesForPhysicalProduct": "xarch-common-attributes-management-selected-attributes-physical-product",
+    "userAdditionalAttributes": "xarch-common-user-additional-attributes",
+    "userAdditionalAttributesForPhysicalProduct": "xarch-common-user-additional-attributes-physical-product",
+    "nlsBasicAttributesBO": "xarch-common-nls-basic-attributes-bo",
+    "nlsBasicAttributesRel": "xarch-common-nls-basic-attributes-rel",
+
+    "exportCSVOptions": "xarch-common-export-csv-options",
+	"exportCSVSelectedColumns": "xarch-common-export-csv-selected-columns",
+    "selectedPCcheckAN" : "xarch-common-check-an-selected-pc",
+
+	"workunderpos": "work-under-position",
+	"credentials": "xPref_CREDENTIAL",
+
+	"refineSelectionOptions":  "flweb-refine-selection-options"
+}

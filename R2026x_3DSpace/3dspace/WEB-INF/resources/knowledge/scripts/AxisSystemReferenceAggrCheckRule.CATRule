@@ -1,0 +1,15 @@
+/* AxisSystemReference can instantiate only AxisSystemReference or ShellAxisSystemReference */
+/* ThisObject => parent reference = instance.to */
+/* Parameters->GetAttributeObject("ReferenceToInstantiate") => child reference = instance.from */
+let ReferenceToInstantiate(PLMEntity)
+set ReferenceToInstantiate = Parameters->GetAttributeObject("ReferenceToInstantiate")
+
+Validation = true
+if (ThisObject.IsSupporting("AxisSystemReference") == true) {
+    if (ReferenceToInstantiate.IsSupporting("AxisSystemReference") == false) {
+        /* only AxisSystemReference or ShellAxisSystemReference under AxisSystemReference is allowed */
+        Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck1.Title")
+        Parameters.Message = BuildMessageNLS("VDRPCheckRules","ValidationCheck1.Title")
+        Validation  = false
+    }
+}

@@ -1,0 +1,106 @@
+/* ID CARD STYLESHEET LIBRARY APP */
+
+#Dialog-DeleteButton {
+	height: 38px;
+	font-size: 14px;
+    color: #fff;
+    border-color: #ca2e00;
+    background-color: #e03400;
+}
+
+#Dialog-DeleteButton-Blue {
+	height: 38px;
+	font-size: 14px;
+    color: #fff;
+    background-color: #42a2da;
+    border-color: #368ec4;
+}
+
+
+#Dialog-CancelButton {
+	font-size: 14px;
+}
+
+#confirmationToggle {
+    align-self: center;
+} 
+
+#Delete-Dialog{
+	transform: translate(0, 0);
+	transition: transform .3s ease-out;
+	background-color: #77797c;
+    width: auto;
+    height: auto;
+}
+
+#Delete-Dialog > .wux-windows-window-header-button{
+	width: 30px;
+    font-size: 18px;
+}
+
+.DeleteDialog-gridview .wux-ui-3ds-check{
+    align-self: center;
+    font-size: 16px;
+    color: #57B847 !important;
+}
+
+.DeleteDialog-gridview .wux-ui-3ds-close{
+    font-size: 16px;
+    align-self: center;
+    color: #ea4f37 !important;
+}
+
+.wux-windows-window-content{
+	background-color: white;
+}
+
+.confirmationText{
+    cursor: pointer;
+    margin: 4px;
+    font-size: 12px;
+    align-self: center;
+    white-space: normal;
+}
+
+.booleanFalse{
+    font-size: 16px;
+    color: #57B847 !important;
+}
+
+.booleanTrue{
+    font-size: 16px;
+    color: #EA4F37 !important;
+}
+
+.confirmationBox{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+#Delete-Dialog > .wux-windows-window-titlebar{
+    height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial;
+	padding: 9.5px 14px;
+    cursor: move;
+    overflow: hidden
+}
+
+.wux-windows-window-header-buttons-div{
+	padding: 9.5px 14px;
+}
+
+.wux-windows-dialog .wux-windows-window-header-button{
+	font-size: 18px;
+}
+
+.warningTextContainer {
+	width: 400px;
+    color: #3d3d3d;
+    padding-left: 5px;
+	font-family: sans-serif;
+}
+
+
+

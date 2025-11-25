@@ -1,0 +1,23 @@
+{
+  "unabletoSaveAgreement": "Impossible d'enregistrer le contrat. Veuillez contacter le support si cette erreur persiste.",
+  "iAcknowledgeThat": "Je reconnais que :",
+  "allBillingInformationIsCorrect": "Toutes les informations de facturation fournies ci-dessus sont correctes",
+  "iAmAMakerOrHobbyist": "Je suis un fabricant ou un amateur et je n'utiliserai pas cette offre à des fins commerciales",
+  "authorizedToRepresentCompany": "Je suis autorisé à représenter la société",
+  "iAmOver18YearsOld": "J'ai plus de 18 ans",
+  "agreeSalesConditions": "J'ai lu et j'accepte les {salesConditions} et le devis",
+  "agreeSalesConditionsProvidedBy": "J'ai lu et j'accepte les {salesConditions} fournies par {labName} et le devis",
+  "agreeQuotation": "J'ai lu et j'accepte le devis",
+  "salesConditionsLabel": "Conditions de vente",
+  "agreeTermsAndConditions": "J'ai lu et j'accepte les {termsAndConditions} de la {privacyPolicy}",
+  "termsAndConditionsLabel": "Conditions générales",
+  "privacyPolicy": "Politique de confidentialité 3DS",
+  "agreeClosa": "J'ai lu et j'accepte que l'accès et l'utilisation des offres DS soient gérés par le {closa} et le devis",
+  "businessExperiencePartnerAgreement": "Contrat de partenaire Business Experience",
+  "closaLabel": "CLOSA",
+  "consentAccess": "Par la présente, je consens à l'accès en ligne immédiat aux offres DS et, par conséquent, je n'aurai pas le droit d'annuler la première période d'abonnement",
+  "next": "Suivant",
+  "edit": "Modifier",
+  "termsAndConditions": "Conditions générales",
+  "ifweloopAgreements": "Je déclare avoir lu et accepté que l'accès et l'utilisation des offres DS soient gérés par le {closa}."
+}

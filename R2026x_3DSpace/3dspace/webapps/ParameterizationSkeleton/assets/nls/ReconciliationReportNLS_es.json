@@ -1,0 +1,10 @@
+{
+  "title": "Informe de gestión de conciliación",
+  "statusTag": "Estado",
+  "startDateTag": "Inicio de procesamiento",
+  "estimatedDateTag": "Fecha estimada para el siguiente procesamiento",
+  "processedObjectTag": "Objetos procesados",
+  "currentOpTag": "Operaciones procesadas",
+  "totalOpTag": "Total de operaciones que procesar",
+  "durationTag": "Duración del último procesamiento"
+}

@@ -1,0 +1,1 @@
+define("DS/MPFShopCardComponent/MPFShopCardComponent_ko",{});define("DS/MPFShopCardComponent/assets/nls/ShopCardComponent",{requestAPart:"파트 요청",moreInformation:"추가 정보",getAQuote:"견적 받기",reviews:"검토",directPurchase:"직접 구매",viewMore:"자세히 보기",buyNow:"지금 구매",selectForQuote:"견적 선택",deselect:"선택 취소"});

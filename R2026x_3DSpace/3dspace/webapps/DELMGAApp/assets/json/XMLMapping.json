@@ -1,0 +1,143 @@
+{
+	"ROUTINGS.columnConfigPath": {
+		"path": "DELMGAApp/RoutingsViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MANUFACTURING.columnConfigPath": {
+		"path": "DELMGAApp/ManufacturingViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESOURCE.columnConfigPath": {
+		"path": "DELMGAApp/ResourceViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"AUXILIARY.columnConfigPath": {
+		"path": "DELMGAApp/AuxiliaryColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MIL.columnConfigPath": {
+		"path": "DELMGAApp/MILColumnConfig"
+	},
+	"PROCESSREPLACEWHEREUSED.columnConfigPath": {
+		"path": "DELMGAApp/ProcessReplaceWhereUsedColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"REPLACEWHEREUSED.columnConfigPath": {
+		"path": "DELMGAApp/ReplaceWhereUsedColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"MOREATTRWZRD.columnConfigPath": {
+		"path": "DELMGAApp/MoreAttributesWizardColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"exportCSVPreferencesXML": {
+		"path": "DELMGAApp/ExportCSVPreferences",
+		"type": "exportCSVPreference",
+		"rootNode": "Config"
+	},
+	"indexMappingXML": {
+		"path": "DELMGAApp/IndexMapping"
+	},
+	"insertFormAttributeXML": {
+		"path": "DELMGAApp/InsertCmdFormAttribute",
+		"type": "insertFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"modelRelationsXML": {
+		"path": "DELMGAApp/ModelRelations"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELMGAApp/ModelCustomRelations"
+	},
+	"relationsColumnMappingXML": {
+		"path": "DELMGAApp/RelationsColumnMapping",
+		"type": "relationsColumns",
+		"rootNode": "RelationsColumnMapping"
+	},
+	"relationsDialogDisplayAttributeConfigXML": {
+		"path": "DELMGAApp/RelationsDialogDisplayAttributeConfig",
+		"type": "relationsColumns",
+		"rootNode": "DisplayAttributeDescriptionList"
+	},
+	"DisplayNameConfigXML": {
+		"path": "DELMGAApp/DisplayNameConfig",
+		"type": "displayNameConfiguration",
+		"rootNode": "DisplayNameAttributeList"
+	},
+	"editFormAttributesXML": {
+		"path": "DELMGAApp/EditFormAttributes",
+		"type": "editFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"editDataCollectRowAttributesXML": {
+		"path": "DELPPWWorkInstructionsModule/EditFormAttributes",
+		"type": "editFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"documemntColumnConfigXML": {
+		"path": "DELMGAApp/DocumentColumnDisplayAttributeConfig"
+	},
+	"toolTipConfigXML": {
+		"path": "DELMGAApp/TooltipConfig",
+		"type": "toolTipFormConfiguration",
+		"rootNode": "Tooltips"
+	},
+	"egraphViewNodePreferenceXML": {
+		"path": "DELMGAApp/EGraphViewReferenceAttribute",
+		"type": "graphViewConfiguration",
+		"rootNode": "Config"
+	},
+	"productFlowViewNodePreferenceXML": {
+		"path": "DELMGAApp/ProductFlowViewReferenceAttribute",
+		"type": "graphViewConfiguration",
+		"rootNode": "Config"
+	},
+	"egraphViewLinkPreferenceXML": {
+		"path": "DELMGAApp/EGraphViewLinkAttribute",
+		"type": "graphViewConfiguration",
+		"rootNode": "Config"
+	},
+	"GeneralPreferences": {
+		"path": "DELMGAApp/GeneralPreferences",
+		"type": "generalPreferenceConfiguration",
+		"rootNode": "Config"
+	},
+	"LandingPage": {
+		"path": "DELMGAApp/HomePage"
+	},
+	"ItemOOTBFiltering": {
+		"path": "DELPPWApplications/ItemOOTBFiltering"
+	},
+	"REQUIREMENT_VIEW.columnConfigPath": {
+		"path": "DELMGAApp/RequirementColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RESPONSIBILITY.columnConfigPath": {
+		"path": "DELMGAApp/ResponsibilityColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"RPP.columnConfigPath": {
+		"path": "DELMGAApp/RPPViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"DCP.columnConfigPath": {
+		"path": "DELMGAApp/DCPViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"DCC.columnConfigPath": {
+		"path": "DELMGAApp/DCCViewColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	}
+}

@@ -1,0 +1,1 @@
+define("DS/RTwebrtcAPI/RTwebrtcAPI_tr",{});define("DS/RTwebrtcAPI/assets/nls/feed",{Call:"Arama",notCompatible:"Bu özellik, geçerli tarayıcınız veya cihazınız tarafından desteklenmiyor"});

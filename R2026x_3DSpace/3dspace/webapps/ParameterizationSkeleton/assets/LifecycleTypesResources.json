@@ -1,0 +1,25 @@
+
+
+[{
+        "ENOLifecycle_ERS_Activated": "true"
+    }, {
+        "ENOLifecycle_debug_Activated": "false"
+    }, {
+        "fileName": "VPMReference"
+    }, {
+        "fileName": "Document"
+    }, {
+        "fileName": "DELFmiFunctionReference"
+    }, {
+        "fileName": "DELLmiAbstractProductionEntity"
+    }, {
+        "propagations": [{
+                "from": "VPMReference",
+                "to": "XCADModelRepReference"
+            }
+        ]
+    }
+]
+
+
+

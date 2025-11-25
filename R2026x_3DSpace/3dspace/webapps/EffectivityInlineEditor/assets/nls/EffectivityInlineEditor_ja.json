@@ -1,0 +1,20 @@
+{
+  "EFF_CLEAR": "式をクリア",
+  "MODEL_RM": "モデルをエディターから除去",
+  "MODEL_ADD": "モデルを選択",
+  "NO_FEATURES": "バリアントおよびオプションは見つかりませんでした",
+  "Evolution_Impact_Msg": "一部のバリアント/オプションは展開使用条件に変更がありません",
+  "NO_MODELS_MSG": "バリアントおよびオプション式が定義されていません。モデルを追加すると、バリアントおよびオプション式を定義できるようになります",
+  "No_Model_Error": "モデルを親 {1} に添付して、再試行してください。",
+  "No_Variant_Crit_Error": "親オブジェクトでバリアントおよびオプション条件を有効にします。",
+  "Legacy_Eff_Error": "切り離されていない使用条件を持つオブジェクトのバリアントおよびオプションは編集できません。",
+  "CC_AC_HDR_Error": "{1} の親は変更管理の下にあります。 ",
+  "CC_AC_HDR_Error_Subtitle": "{1} に対して作業する変更アクションを指定します",
+  "Edit_Var_OK": "OK",
+  "Edit_Var_Cancel": "キャンセル",
+  "Syntax_Error": "バリアントおよびオプション式の構文エラー",
+  "Service_OK": "バリアントおよびオプションの編集に成功しました",
+  "Service_Fail": "バリアントおよびオプションの編集に失敗しました。",
+  "Dictionary_Error": "構成辞書をロードできません。",
+  "CFG_Application_Refresh_For_Instance_Evolved": "インスタンスは、バリアント分割操作で展開されます。"
+}

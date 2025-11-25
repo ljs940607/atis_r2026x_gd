@@ -1,0 +1,16 @@
+m|DELWKOApp\DELPPWDicoServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWDicoServices_FD02\DELPPWDicoServices_FD02.js|1723277652|22234
+s|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\AttributeConfigExt.js|1679511845|23950
+t|win_b64\webapps\DELPPWDicoServices_FD02\assets\json\ModelTypes.json|1723277648|4919
+s|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\assets\json\ModelTypes.json|1677242272|4919
+t|win_b64\webapps\DELPPWDicoServices_FD02\assets\json\ReadOnlyTypes.json|1723277648|79
+s|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\assets\json\ReadOnlyTypes.json|1657542398|79
+u|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\CustoXmlUtils.js|1679506604|11030
+u|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\DicoUtils.js|1698400003|27184
+u|DELWKOApp\DELPPWDicoServices_FD02.mweb\src\ModelConfigExt.js|1679511876|11879
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

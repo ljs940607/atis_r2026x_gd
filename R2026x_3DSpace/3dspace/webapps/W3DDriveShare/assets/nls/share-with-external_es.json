@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "Activar enlace de uso compartido externo",
+  "activateShareByLinkDescription": "Cualquier persona con el siguiente enlace puede obtener una vista previa y descargar este contenido.",
+  "expirationDate": "Fecha de vencimiento: {date}",
+  "restrictAccessToSpecificUsers": "Restringir el acceso a usuarios específicos",
+  "addRestrictions": "Agregar restricciones",
+  "noRestrictedEmails": "Nadie puede acceder al contenido",
+  "addMessage": "Agregar un mensaje",
+  "enterMessageDescription": "Introduzca un mensaje personalizado que se agregará al correo electrónico enviado",
+  "addRestrictedUsersDescription": "Los correos electrónicos restringidos permiten dar acceso al contenido solo a las cuentas vinculadas a esos correos electrónicos",
+  "authorizedList": "Lista autorizada ({count}/{max})",
+  "restrictionsCount": "{count}/{max} restricciones",
+  "close": "Cerrar",
+  "share": "Compartir",
+  "copyExternalLink": "Copiar enlace externo",
+  "enableGuestComments": "Activar comentarios de invitados",
+  "enableGuestCommentsDescription": "Cualquier persona que utilice este enlace podrá comentar sobre el contenido y leer todos los comentarios, incluidos los comentarios anteriores realizados por los miembros de la plataforma",
+  "externalSharingFeatureDisabled": "La operación de uso compartido externo no está activada en esta plataforma. Póngase en contacto con su administrador.",
+  "cannotAccessContent": "No se puede acceder al contenido.",
+  "platformNotAccessible": "No se puede acceder a la plataforma."
+}

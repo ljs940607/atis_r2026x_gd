@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_zh",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"菜单",addTab:"添加选项卡",webAppsResizing:"Web 应用程序调整大小仅对 {type} 所有者持久",webAppsResizingProductCockpit:"Web 应用程序调整大小不会保留在此考核中心"});

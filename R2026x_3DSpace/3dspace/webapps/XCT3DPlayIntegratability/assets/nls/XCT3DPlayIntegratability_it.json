@@ -1,0 +1,16 @@
+{
+  "warning_objectTypeNotSupported_title": "Tipo di oggetto non supportato",
+  "error_loadingMultipleFiles_title": "Non è possibile caricare più esperienze. Viene caricata solo la prima.",
+  "error_integrityCheck_title": "Il supporto è danneggiato.",
+  "error_media_notfound_title": "Supporto non trovato o non accessibile.",
+  "error_distributionCheck_title": "Errore controllo distribuzione.",
+  "error_progress_calculation": "Impossibile calcolare le dimensioni del download.",
+  "error_format_not_supported": "Formato file non supportato.",
+  "error_geometry_format_not_supported": "Formato geometrico non supportato.",
+  "warning_geometry_format": "Questa esperienza non è ottimizzata per questo dispositivo.",
+  "warning_media_greater_than_player": "I file multimediali sono stati pubblicati con una versione superiore a quella del lettore. Il carico di prova può non riuscire o finire con incoerenze.",
+  "media_title_default": "Esperienza multimediale",
+  "media_title_defaultStandalone": "Esperienza multimediale",
+  "media_title_sequence": "Sequenza",
+  "media_title_25D_asset": "Supporto 2.5D"
+}

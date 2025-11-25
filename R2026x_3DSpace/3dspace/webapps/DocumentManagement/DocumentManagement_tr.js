@@ -1,0 +1,1 @@
+define("DS/DocumentManagement/DocumentManagement_tr",{});define("DS/DocumentManagement/assets/nls/DocumentManagementNLS",{"FileManagement.UploadFail.nameNotUnique":"Aynı ada sahip bir içerik zaten mevcut"});

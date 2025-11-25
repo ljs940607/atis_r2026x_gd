@@ -1,0 +1,203 @@
+<meta charset="UTF-8"/>
+VisualQuality.Text="Görsel Kalite";
+
+GlobalPresetControl.Tooltip="Tüm parametreleri seçilen ön ayara göre değiştirin.";
+LinkControl.Tooltip="Bağlama / Bağlantı Kaldırma statik ve dinamik ön ayarı.";
+AdvancedSettings.Tooltip="Özel ön ayarı düzenlemek için tıklayın (statik ve dinamik mod)";
+StaticMode.Tooltip="Tüm parametreleri seçilen ön ayara göre değiştirin.";
+DynamicMode.Tooltip="Tüm parametreleri seçilen ön ayara göre değiştirin.";
+
+StaticModeLabel.Text="Statik mod";
+DynamicModeLabel.Text="Dinamik mod";
+
+Link.Text="Bağla";
+Unlink.Text="Bağlantıyı kaldır";
+
+Static.Text="Statik";
+Dynamic.Text="Dinamik";
+
+PostProcessAALabel.Text="Kenar yumuşatma";
+PostProcessAAControl.Tooltip="Bakış noktasının boşta olması ve sahnede hiçbir şeyin değişmemesi halinde kenar yumuşatma iyileştirilir.";
+
+TranspModeLabel.Text="Şeffaflık";
+TranspModeControl.Tooltip="Varsayılan (Sıralamasız Alfa Karıştırma),
+Hızlı (Alfa Karıştırma),
+Dengeli (Alfa Karıştırma),
+Kalite (Sıralamadan Bağımsız Şeffaflık)";
+
+CullMinPixelSizeLabel.Text="Piksel ayıklama";
+CullMinPixelSizeControl.Tooltip="Nesneler için görüntü kalitesi ekler veya kaldırır. 
+Geometriyi kaldırmak istemeseniz bile görülmesi gerekmeyen 
+detayların kaldırılması genellikle yararlıdır. 
+Tüm detayları görmek için düşük bir değer, 
+detayları kaldırmak içinse yüksek bir değer belirleyin.";
+
+LODLabel.Text="Detay seviyesi";
+LODControl.Tooltip="Nesneler için görüntü kalitesi ekler veya kaldırır. 
+Geometriyi kaldırmak istemeseniz bile görülmesi gerekmeyen 
+detayların kaldırılması genellikle yararlıdır. 
+Tüm detayları görmek için düşük bir değer, 
+detayları kaldırmak içinse yüksek bir değer belirleyin. Bu seçenek 
+yalnızca LOD'yi destekleyen gösterimlerle ilgilidir. Aksi takdirde 
+etkisi olmaz.";
+
+OcclusionLabel.Text="Çevresel perdelemeye izin ver";
+SSAOSettingControl.Tooltip="Görüntüleyicide Çevresel Perdelemenin etkinleştirilmesine izin verilir. Ancak ambiyans bu efekti etkinleştirmezse kalite yöneticisi bunu zorlamaz. 
+Örnekleme sayısı, Çevresele Perdeleme kalitesini tanımlar. Daha fazla örnekleme, kaliteyi artırır.";
+
+ShadowsLabel.Text="Gölgeler";
+ShadowsControl.Tooltip="Gölge özelliklerini seçili ön ayara göre değiştirir (Hızlı/Dengeli/Kalite/Ultra)";
+
+AllowGroundShadowLabel.Text="Zemin gölgelerine izin ver";
+AllowGroundShadowControl.Tooltip="Yüksek hesaplama işlem gücü istemeyen durumlarda, zemin gölgesi hesaplamasına izin verilir.";
+
+AllowInterObjShadowLabel.Text="Nesneler arası gölgelere izin ver";
+AllowInterObjShadowControl.Tooltip="Nesneler arası gölgeyi etkinleştirin/devre dışı bırakın.";
+
+AllowTransObjShadowLabel.Text="Şeffaf nesne gölgelerine izin ver";
+AllowTransObjShadowControl.Tooltip="Şeffaf nesne gölgesini etkinleştirin/devre dışı bırakın.";
+
+ShadowFilteringLabel.Text="Kullanılacak filtreleme";
+ShadowFilteringControl.Tooltip="PCF Optimizasyonlu (Yakın Yüzde Filtrelemesi)
+Poisson ()";
+
+ShadowFilteringQualityLabel.Text="Filtreleme kalitesi";
+ShadowFilteringQualityControl.Tooltip="Filtreleme kalitesi";
+
+AllowDepthBufferLabel.Text="Derinlik titremesini azaltma";
+AllowDepthBufferControl.Tooltip="Birbiriyle çakışan yüzeylerde Titreme etkisini azaltır";
+
+GroundReflModeLabel.Text="Zeminde yansımalara izin ver";
+GroundReflModeControl.Tooltip="Zeminde Yansıma efektine izin verilir. Ancak ambiyans bu efekti etkinleştirmezse kalite yöneticisi bunu zorlamaz.
+Model, zemine yansıtılır.";
+
+ReflectionsLabel.Text="Yansımalar";
+ReflectionsControl.Tooltip="Yansıma özelliklerini seçili ön ayara göre değiştirir (Hızlı/Dengeli/Kalite/Ultra)";
+
+InterObjReflectionsLabel.Text="Nesneler arasında yansımalara izin ver";
+InterObjReflectionsControl.Tooltip="Parlak malzemeler sahnedeki diğer nesneleri yansıtabilir.";
+
+RefractionsLabel.Text="Kırılımlar";
+RefractionsControl.Tooltip="Kırılım özelliklerini seçili ön ayara göre değiştirir (Hızlı/Dengeli/Kalite/Ultra)";
+
+InterObjRefractionsLabel.Text="Nesneler arasında kırılımlara izin ver";
+InterObjRefractionssControl.Tooltip="Şeffaf malzemeler sahnedeki diğer nesnelerden gelen ışığı kırabilir.";
+
+MaterialLabel.Text="Malzeme";
+MaterialControl.Tooltip="Malzeme özelliklerini seçili ön ayara göre değiştirir (Hızlı/Dengeli/Kalite/Ultra)";
+
+FlakesQualityLabel.Text="Metalik boya kalitesi";
+FlakesQualityControl.Tooltip="Metalik otomobil boyası malzemesinin aslına uygunluğunu kontrol eder.";
+
+DefaultMaterialQualityLabel.Text="Varsayılan malzeme kalitesi";
+DefaultMaterialQualityControl.Tooltip="Varsayılan malzemenin aslına uygunluğunu kontrol eder.";
+
+DownsamplingLabel.Text="Örnekleme sıklığını azaltma faktörü";
+DownsamplingControl.Tooltip="Ekranın örnekleme hızını kontrol eder.";
+
+Default="Varsayılan";
+High="Kalite";
+Low="Hızlı";
+Medium="Dengeli";
+Ultra="Ultra";
+
+MaxSamplePerPixelLabel.Text="Piksel başına maks. örnek";
+MaxSamplePerPixelControl.Tooltip="Yakınsama işlemi durmadan önce piksel başına düşen maksimum örnek sayısı";
+MinSamplePerPixelLabel.Text="Kare başına min. örnek";
+MinSamplePerPixelControl.Tooltip="Kare güncellemeleri arasında piksel başına düşen minimum örnek sayısı. Küme görüntü işlemesi için 1'den büyük değerler önerilir.";
+ClammpingMaxLumLabel.Text="Bağlama/Maks. Parıltı";
+ClammpingMaxLumControl.Tooltip="Bir örneğin bir piksel için sağlayabileceği maksimum parıltı katkısı. Düşük değerler daha hızlı yakınsama sağlar ancak vurgulamalar veya emisivitesi yüksek nesneler gibi parlak efektleri koyulaştırır.";
+GaussFilterLabel.Text="   Gauss Filtresi";
+GaussFilterControl.Tooltip="Gauss kenar yumuşatma filtresini etkinleştirin";
+SizeLabel.Text="     Boyut";
+SizeControl.Tooltip="Gauss filtresinin piksel cinsinden boyutu. Büyük değerler düzgünleştirmeyi artırır.";
+CenterWeightLabel.Text="   Merkez Ağırlık";
+CenterWeightControl.Tooltip="Gauss filtresi eğrisini tanımlar. Yüksek değerler düzgünleştirmeyi azaltır.";
+
+MaxTraceDepthLabel.Text="Maks. yol derinliği";
+MaxTraceDepthControl.Tooltip="Bir ışık ışınının/yolunun, dağınık yansımalı/yansıtıcı veya şeffaf yüzeyler arasında sekecek şekilde ne sıklıkta yansıyabileceğini belirler. 1 değerine ayarlandığında, yalnızca doğrudan aydınlatmayı hesaplar ve kırılım yapmaz. Daha yüksek değerler, küçük bir performans kaybına yol açabilmekle birlikte daha gerçekçi sonuçlar sağlayabilir.";
+GlossyThresholdLabel.Text="Parlaklık eşiği";
+GlossyThresholdControl.Tooltip="Bir ışının bir malzemeyle etkileşiminin hangi parlaklık değerinden itibaren kostik yol olarak yorumlanacağını belirler. CAUSTICS (KOSTİKLER) aracılığıyla kostik yolların işlenmesi doğrudan tanımlanacak şekilde seçilebilir. Kostik olmayan yollar, yakınsama süresini iyileştiren son toplanmayla işlenebilir.";
+RenderRefractiveShadowsLabel.Text="Kırıcı gölgeleri işle";
+RenderRefractiveShadowsControl.Tooltip="Kırıcı yüzeyler (ör. balon joje) için fiziksel açıdan makul gölgeler sağlar. Devre dışı bırakılırsa gölgeler için kırılım göz ardı edilir ve daha hızlı yakınsama sağlanır ancak sonuçlar fiziksel açıdan makul olmayan hale gelir. Doğru kostik değerlendirmesi için gereklidir.";
+LocationBasedImportanceSamplingLabel.Text="Konum bazında önem örneklemesi";
+LocationBasedImportanceSamplingControl.Tooltip="Sahnedeki ışık yayan yüzeylerin örneklemesi optimize edilir. Çok sayıda yerel eleman ağı ışığı olan sahneler (ör. otomobilin içinde parlayan göstergeler) için önerilir.";
+EmissiveObjectsImportanceSamplingLabel.Text="Emisivitesi yüksek nesnelerin önem örneklemesi";
+EmissiveObjectsImportanceSamplingControl.Tooltip="Eleman ağı ışıklarının diğer ışık kaynaklarına göre nasıl örneklendiğini belirler. 1,0'ın altındaki değerler, her bir görüntü işleme adımında örneklemelerin çoğunu ambiyanslar ve sanal ışıklar üzerinden oluşturur.";
+ImportanceDistributionMethodLabel.Text="       Dağılım";
+ImportanceDistributionMethodControl.Tooltip="Işık kaynakları için örnekleme şemasını seçin. EQUAL (EŞİT): Örnekler ışık kaynakları arasında eşit olarak bölünür. PROPORTIONAL TO POWER (GÜÇLE ORANTILI): Daha fazla enerji yayan ışık kaynakları için daha fazla örnekleme sağlar.";
+ImportanceSamplingFactorLabel.Text="       Faktör";
+ImportanceSamplingFactorControl.Tooltip="Işık yayan yüzeylerin diğer ışık kaynaklarından daha yüksek sıklıkta mı (değer > 1) yoksa daha düşük sıklıkta mı (değer < 1) örnekleneceğini belirleyin. İhmal edilebilir enerjisi olan eleman ağı ışıkları barındıran sahneler için küçük bir değer kullanın.";
+PathTerminationStartDepthLabel.Text="Yol sonlandırma başlangıç derinliği";
+PathTerminationStartDepthControl.Tooltip="Işın izleme derinliği ışınlarının/yollarının hangi değerden sonra stokastik olarak sonlandırılabileceğini belirler. Yüksek değerler, piksel başına az sayıda örneklemeli görüntülerdeki paraziti azaltır ancak kare süresini ve genellikle genel yakınsama süresini önemli ölçüde uzatır.";
+
+EnableFinalGatheringLabel.Text="Son toplanmayı etkinleştir";
+EnableFinalGatheringControl.Tooltip="Dolaylı aydınlatma yakınsamasını hızlandırmak için son toplanmayı etkinleştirin. Özellikle dağınık yansımalı malzemelerin bulunduğu sahnelerde faydalıdır.";
+PhotonNumberLabel.Text="       Foton sayısı";
+PhotonNumberControl.Tooltip="Son Toplanma için izlenen fotonların global miktarını belirleyin. Daha yüksek değerler, daha yüksek hesaplama süresi ve daha yüksek bellek tüketimi karşılığında daha doğru sonuçlar sağlayabilir.";
+PathDepthLabel.Text="       Yol derinliği";
+PathDepthControl.Tooltip="Foton izleme için hesaba katılan sekme miktarını belirleyin. Yüksek değerler, performans üzerinde hafif bir etkiyle daha gerçekçi sonuçlar verir.";
+PhotonRadiusLabel.Text="       Foton yarıçapı (mm)";
+PhotonRadiusControl.Tooltip="Bir fotondan etkilenen alanın mm cinsinden yarıçapını belirler. Küçük yarıçap doğruluğu artırırken, büyük yarıçap daha hızlı görüntü yakınsaması sağlar. Son toplanma fotonlarını incelemek için PHOTON MAP VISUALIZATION MODE (FOTON EŞLEME GÖRSELLEŞTİRME MODU) seçeneğini FINAL GATHERING (SON TOPLANMA) olarak ayarlayın.";
+RefineFinalGatheringMapLabel.Text="       Son toplanma eşlemesini iyileştir";
+RefineFinalGatheringMapControl.Tooltip="Etkinleştirilmesi halinde, her bir görüntü işleme adımı, belirlenen miktarda fotonu tekrar oluşturur ve biriktirir. Daha az sayıda fotonla hızlı görüntü işleme sağlar ancak daha fazla görüntü işleme yinelemesi gerektirir. Bu, daha uzun hesaplama süreleri karşılığında dolaylı aydınlatmanın kalitesini/düzgünlüğünü artırabilir.";
+PrecalculateIrradianceLabel.Text="       Işınım ön hesabı yap";
+PrecalculateIrradianceControl.Tooltip="Daha düşük dolaylı aydınlatma doğruluğu karşılığında kare sürelerini optimize etmek için son toplanma işlemlerini önceden hesaplayın. REFINE FINAL GATHER MAP (SON TOPLANMA EŞLEMESİNİ İYİLEŞTİR) ayarı seçildiğinde performansı düşürebilir.";
+
+Batching.Text="Büyük montaj indirme desteği";
+Batching.Tooltip="Büyük montaj indirme desteği (sayfa yenileme gerekir)";
+
+CausticsLabel.Text="Kostikler";
+CausticsControl.Tooltip="Kostikler için hesaplama modunu seçin. NONE (HİÇBİRİ) ayarı, daha hızlı yakınsama için kostikleri pasifleştirir. Daha büyük ışık kaynakları ve yansız sonuçlar için PATHTRACER (YOL İZLEYİCİ) önerilir. CAUSTIC PHOTONS (KOSTİK FOTONLAR), küçük ışık kaynakları için daha iyi sonuçlar sağlar.";
+CausticPhotonNumberLabel.Text="       Foton Sayısı";
+CausticPhotonNumberControl.Tooltip="Kostikler için global foton miktarını belirleyin. Daha yüksek değerler, daha yüksek hesaplama süresi ve daha yüksek bellek tüketimi karşılığında daha doğru sonuçlar sağlayabilir. REFINE CAUSTICS PHOTON MAP (KOSTİK FOTON EŞLEMEYİ İYİLEŞTİR) seçeneğiyle birlikte daha düşük miktarların kullanılması önerilir.";
+CausticPathDepthLabel.Text="       Yol derinliği";
+CausticPathDepthControl.Tooltip="Kostik foton izleme için hesaba katılan sekme miktarını belirleyin. Yüksek değerler, performans üzerinde hafif bir etkiyle daha gerçekçi sonuçlar verir.";
+CausticRadiusLabel.Text="       Kostik yarıçapı (mm)";
+CausticRadiusControl.Tooltip="Bir fotondan etkilenen kostik alanın yarıçapını belirler. Büyük yarıçap, yakınsama hızını artırabilir ancak daha bulanık sonuçlara yol açar.";
+RefineCausticMapLabel.Text="       Kostik foton eşlemesini iyileştir";
+RefineCausticMapControl.Tooltip="Etkinleştirilmesi halinde, her bir görüntü işleme adımı, belirlenen miktarda fotonu tekrar oluşturur ve biriktirir. Etkinleştirilmesi halinde, CAUSTICS PHOTON NUMBER (KOSTİK FOTON SAYISI) düşük bir değere ayarlanırken zaman içinde daha kaliteli sonuç elde edilebilir.";
+
+RayOffsetLabel.Text="Işın öteleme (mm)";
+RayOffsetControl.Tooltip="Yeni ışınların başlatıldığı bir ışın vurma noktasından ötelemeyi belirler. Yaklaşık olarak sahnedeki yüzeyler arasındaki minimum uzaklığa ayarlanmalıdır. Çok küçük değerler siyah renkli görüntü bozulmalarına neden olabilir. Çok büyük değerler, görüntü işleme hassasiyetini azaltır.";
+
+GIAllowGroundReflLabel.Text="Zeminde yansımalara izin ver";
+GIAllowGroundReflControl.Tooltip="Zeminde yansımalara izin ver";
+
+GIAllowGroundShadowLabel.Text="Zemin gölgelerine izin ver";
+GIAllowGroundShadowControl.Tooltip="Yüksek hesaplama işlem gücü istemeyen durumlarda, zemin gölgesi hesaplamasına izin verilir.";
+
+GIAllowOutlineLabel.Text="Ana hat görüntüleme moduna izin ver";
+GIAllowOutlineControl.Tooltip="Ana hat kenarının işlenmesini etkinleştir/devre dışı bırak";
+
+GIAllowBloomLabel.Text="Parlamaya İzin Ver";
+GIAllowBloomControl.Tooltip="Parlamaya İzin Ver";
+
+GIAllowDoFLabel.Text="Alan derinliğine izin ver";
+GIAllowDoFControl.Tooltip="Alan derinliğine izin ver";
+
+GIDownsamplingFactorLabel.Text="Örnekleme sıklığını azaltma faktörü";
+GIDownsamplingFactorControl.Tooltip="Kare hızlarını artırmak için görüntünün daha düşük çözünürlükte işlenmesini sağlar. 1 değeri seçildiğinde görüntü, orijinal çözünürlükte hesaplanır. 0,5 değerindeyse görüntü, genişlik ve yükseklik bakımından yarı çözünürlükte hesaplanır.";
+
+PhotonMapVisualizationModeLabel.Text="Foton Eşleme görselleştirme modu";
+PhotonMapVisualizationModeControl.Tooltip="Foton parametrelerini ayarlamak için fotonların yön görselleştirmesini etkinleştirin. NONE (HİÇBİRİ) seçeneği doğrudan foton görselleştirmeyi devre dışı bırakır ve işlenen orijinal görüntüyü gösterir. FINAL GATHERING (SON TOPLANMA), son toplanma fotonlarını gösterir. Optimum sonuçlar için son toplanma birbiriyle çakışmalı ve tüm ilgi alanını kapsamalıdır. CAUSTICS (KOSTİKLER) seçeneği, kostik fotonları gösterir. Optimum sonuçlar için kostik fotonlar ince taneli kostik davranışı temsil edecek kadar küçük ancak kostik alanı kaplayacak kadar yoğun olmalıdır.";
+
+LocalCache.Text="Gezinti önbelleğini etkinleştir";
+LocalCache.Tooltip="Gezinti önbelleğini etkinleştirir. Sayfanın yenilenmesi gerekir.";
+
+LocalCacheSize.Text="Gezinti önbelleği maks. boyutu (MB)";
+LocalCacheSize.Tooltip="Gezinti önbelleği maks. boyutu (MB). Sayfanın yenilenmesi gerekir";
+
+LargeAssemblyLabel.Text="Büyük montaj";
+
+LDHOpt1ExtendMemory.Text="Yüksek bellek cihazı";
+LDHOpt1ExtendMemory.Tooltip="Yüksek bellek kapasiteli cihazlarda daha fazla bellek yükler. (Tarayıcının yenilenmesi gerekir)";
+
+LDHOpt2SSB.Text="Uyarlamalı ayıklama";
+LDHOpt2SSB.Tooltip="Detay seviyesini kullanarak daha fazla temsil yükler. (Tarayıcının yenilenmesi gerekir)";
+
+LDHOpt3Compression.Text="Eleman ağı basısı";
+LDHOpt3Compression.Tooltip="Yüksek donanımlı bilgisayarlarda daha fazla geometri yükler. (Tarayıcının yenilenmesi gerekir) ";
+
+SectionCappingLabel.Text="Bölüm kapaklama";
+SectionCappingSettingControl.Tooltip="Bölüm kapaklama özelliğini etkinleştirin veya devre dışı bırakın. Bölüm kapaklama, büyük montajlar üzerindeki performanslar üzerinde büyük bir etkiye sahip olabilir.";

@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="剪切";
+DMUSection.DMUSectionNoCutHdr.Title="不切割";
+DMUSection.DMUSectionGridHdr.Title="网格";
+DMUSection.DMUSectionFlipHdr.Title="翻转";
+DMUSection.DMUSectionNormalToXHdr.Title="定位到 X";
+DMUSection.DMUSectionNormalToYHdr.Title="定位到 Y";
+DMUSection.DMUSectionNormalToZHdr.Title="定位到 Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="几何图形中的位置";
+DMUSection.DMUSectionMoveHdr.Title="移动视点";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="截面次要查看器";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="选择性截面";
+DMUSection.DMUSectionDeleteSectionHdr.Title="移除";
+
+DMUSection.DMUExitClippingEditionHdr.Title="退出裁剪编辑";
+DMUSection.DMUClippingEditionHdr.Title="编辑裁剪";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="按构造项目裁剪";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="按界面裁剪";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="从选定对象调整大小";
+DMUSection.DMUResetClippingPlaneHdr.Title="重置裁剪";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="按切片裁剪";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="从选定对象调整大小";
+DMUSection.DMUResetClippingSliceHdr.Title="重置裁剪";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="按箱体裁剪";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="从选定对象调整大小";
+DMUSection.DMUResetClippingBoxHdr.Title="重置裁剪";
+
+DMUSection.DMUClippingNormalToXHdr.Title="沿 X 轴定位";
+DMUSection.DMUClippingNormalToYHdr.Title="沿 Y 轴定位";
+DMUSection.DMUClippingNormalToZHdr.Title="沿 Z 轴定位";
+DMUSection.DMUClippingNormalUserHdr.Title="从选定几何图形定位";
+DMUSection.DMUClippingReverseHdr.Title="反转裁剪";
+DMUSection.DMUContourViewerHdr.Title="截面次要查看器";
+DMUSection.DMUClippingPositionHdr.Title="裁剪位置...";
+DMUSection.DMUAlignViewHdr.Title="对齐视点";
+DMUSection.DMUHideShowHdr.Title="隐藏/显示";
+DMUSection.DMUCutUncutHdr.Title="剪切/取消剪切...";
+DMUSection.DMUClippingEditStr.Title="裁剪";
+DMUSection.DMUClippingPropertiesHdr.Title="属性";

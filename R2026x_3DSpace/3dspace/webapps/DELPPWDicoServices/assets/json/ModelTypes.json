@@ -1,0 +1,417 @@
+{
+	"reference": {
+		"types": {
+			"VPMReference": [
+				"PRODUCT"
+			],
+			"VPMRepReference": [
+				"PRODUCT"
+			],
+			"Part": [
+				"PART"
+			],
+			"CreateAssembly": [
+				"PROCESS"
+			],
+			"CreateMaterial": [
+				"PROCESS"
+			],
+			"Provide": [
+				"PROCESS"
+			],
+			"CreateKit": [
+				"PROCESS"
+			],
+			"Transform": [
+				"PROCESS"
+			],
+			"Fasten": [
+				"PROCESS"
+			],
+			"SplitProcess": [
+				"PROCESS"
+			],
+			"Installation": [
+				"PROCESS"
+			],
+			"ElementaryEndItem": [
+				"PROCESS"
+			],
+			"ProcessContinuousProvide": [
+				"PROCESS"
+			],
+			"ProcessContinuousCreateMaterial": [
+				"PROCESS"
+			],
+			"DiscreteByProduct": [
+				"PROCESS"
+			],
+			"ContinuousByProduct": [
+				"PROCESS"
+			],
+			"MBOMContinuousPhaseReference": [
+				"PROCESS"
+			],
+			"MBOMContinuousInProcessItem": [
+				"PROCESS"
+			],
+			"DELServiceAssemblyReference": [
+				"SERVICE"
+			],
+			"DELServiceKitReference": [
+				"SERVICE"
+			],
+			"DELServicePartReference": [
+				"SERVICE"
+			],
+			"DELServiceAttachingItemReference": [
+				"SERVICE"
+			],
+			"DELServiceSpareItemReference": [
+				"SERVICE"
+			],
+			"DELContinuousServicePartReference": [
+				"SERVICE"
+			],
+			"DELConstructionStructure": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkPackageEach": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkPackageLength": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkPackageGroup": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkPackageArea": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkElementLength": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkElementEach": [
+				"CONSTRUCTION"
+			],
+			"DELConstructionWorkElementArea": [
+				"CONSTRUCTION"
+			],
+			"DELLmiServiceWorkPlanSystemReference": [
+				"SYSTEM"
+			],
+			"DELLmiServiceHeaderWorkPlanReference": [
+				"SYSTEM"
+			],
+			"DELLmiGeneralSystemReference": [
+				"SYSTEM"
+			],
+			"DELLmiHeaderWorkPlanReference": [
+				"SYSTEM"
+			],
+			"DELLmiWorkPlanSystemReference": [
+				"SYSTEM"
+			],
+			"DELLmiQtyControlProcessReference": [
+				"SYSTEM"
+			],
+			"DELLmiTransformationSystemReference": [
+				"SYSTEM"
+			],
+			"DELLmiTransferSystemReference": [
+				"SYSTEM"
+			],
+			"SourceSystem": [
+				"SYSTEM"
+			],
+			"SinkSystem": [
+				"SYSTEM"
+			],
+			"BufferSystem": [
+				"SYSTEM"
+			],
+			"DELLmiStorageSystemReference": [
+				"SYSTEM"
+			],
+			"DELLmiGeneralOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiPunctualOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiCurveOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiInterruptOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiLoadingOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiUnloadingOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiRemoveMaterialOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiTransferOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiSourceOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiSinkOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiBufferOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiHeaderOperationReference": [
+				"OPERATION"
+			],
+			"DELLmiPickingOperationReference": [
+				"OPERATION"
+			],
+			"DELWkiAlertReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiSignOffReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiInstructionReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiDataCollectPlanReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiDataCollectChecklistReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELResourceParameterPlanReference": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiDataCollectReference": [
+				"WORKINSTRUCTION"
+			],
+			"ResourceArea": [
+				"RESOURCE"
+			],
+			"Organizational": [
+				"RESOURCE"
+			],
+			"Robot": [
+				"RESOURCE"
+			],
+			"Worker": [
+				"RESOURCE"
+			],
+			"Transport": [
+				"RESOURCE"
+			],
+			"Conveyor": [
+				"RESOURCE"
+			],
+			"NCMachine": [
+				"RESOURCE"
+			],
+			"IndustrialMachine": [
+				"RESOURCE"
+			],
+			"Inspect": [
+				"RESOURCE"
+			],
+			"ControlDevice": [
+				"RESOURCE"
+			],
+			"LogicController": [
+				"RESOURCE"
+			],
+			"ToolDevice": [
+				"RESOURCE"
+			],
+			"Storage": [
+				"RESOURCE"
+			],
+			"Sensor": [
+				"RESOURCE"
+			],
+			"UserDefined": [
+				"RESOURCE"
+			],
+			"ResourceManufacturingSetup": [
+				"RESOURCE"
+			],
+			"Organization": [
+				"ORGANIZATION"
+			],
+			"Requirement": [
+				"REQUIREMENT"
+			],
+			"Requirement Specification": [
+				"REQUIREMENT"
+			],
+			"Requirement Group": [
+				"REQUIREMENT"
+			],
+			"DELLmiServiceWorkPlanOperationalReference" : [
+				"SYSTEM"
+			],
+            "DELLmiServiceWorkPlanRectifyingReference" : [
+				"SYSTEM"
+			],
+            "DELLmiServiceWorkPlanSupportingTaskReference" : [
+				"SYSTEM"
+			]
+		}
+	},
+	"instance": {
+		"types": {
+			"VPMInstance": [
+				"PRODUCT",
+				"RESOURCE"
+			],
+			"VPMRepInstance": [
+				"PRODUCT"
+			],
+			"Formula_Ingredient": [
+				"PRODUCT"
+			],
+			"DELFmiFunctionIdentifiedInstance": [
+				"PROCESS",
+				"SERVICE",
+				"CONSTRUCTION"
+			],
+			"ProcessInstanceContinuous": [
+				"PROCESS",
+				"SERVICE",
+				"CONSTRUCTION"
+			],
+			"MBOMContinuousPhaseInstance": [
+				"PROCESS",
+				"SERVICE",
+				"CONSTRUCTION"
+			],
+			"DELLmiGeneralSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiWorkPlanSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiQtyControlProcessInstance": [
+				"SYSTEM"
+			],
+			"DELLmiTransformationSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiTransferSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiStorageSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiServiceWorkPlanSystemInstance": [
+				"SYSTEM"
+			],
+			"DELLmiGeneralOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiPunctualOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiCurveOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiLoadingOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiUnloadingOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiTransferOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiRemoveMaterialOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiHeaderOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiSourceOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiSinkOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiBufferOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiInterruptOperationInstance": [
+				"OPERATION"
+			],
+			"DELLmiPickingOperationInstance": [
+				"OPERATION"
+			],
+			"DELWkiInstructionInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiDataCollectPlanInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiSignOffInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiAlertInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELResourceParameterPlanInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELWkiDataCollectInstance": [
+				"WORKINSTRUCTION"
+			],
+			"DELLmiHeaderWorkPlanInstance" : [
+				"SYSTEM"
+			]
+		}
+	},
+	"connection": {
+		"types": [
+			"ProductImplementLink",
+			"PartialProductImplementLink",
+			"ProcessImplementLink",
+			"PartialProcessImplementLink",
+			"SystemImplementLink",
+			"ProductImplementLinkOcc",
+			"ProcessImplementLinkOcc",
+			"DELFmiProcessImplementCnx",
+			"MfgProductionPlanning",
+			"DELSysSpecificationLinksDiscipline",
+			"DELAsmProcessCanUseCnx",
+			"SecondaryCandidateResourceLink",
+			"CapableResourcesStructureLink",
+			"DELAssetsStructureLink",
+			"DELLmiProductionSystemOutputCnxToMBOM",
+			"HistorizationLinkRefRef",
+			"MfgProcessAlternate",
+			"DELLmiMaterialPathCnxCust",
+			"PLMDocConnection",
+			"DELLmiTimeConstraintCnx",
+			"DELFmiProcessPrereqMaterializationCnx",
+			"DELFmiProcessOutputPrereqMaterializationCnx",
+			"DELMfgResponsibilityCnx",
+			"DELFmiMfgSubstituteCnx",
+			"PLMReqSpecifyHowToCnx",
+			"PPRContextSystemCnxDisc",
+			"PPRContextProcessCnxDisc",
+			"DELMBOMContextualImplementCnx",
+			"AllocatedResourceLink",
+			"PrimaryResourceLinkDetail",
+			"SecondaryResourceLinkDetail"
+		]
+	},
+	"document": {
+		"types": [
+			"Document"
+		]
+	}
+}

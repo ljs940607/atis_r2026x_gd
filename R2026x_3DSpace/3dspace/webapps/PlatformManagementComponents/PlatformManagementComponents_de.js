@@ -1,0 +1,1 @@
+define("DS/PlatformManagementComponents/PlatformManagementComponents_de",{});define("DS/PlatformManagementComponents/assets/nls/pmc",{selectplatform:"Umgebung auswählen",useoption:"Verwenden Sie diese Option, um Prozesse zu bewilligen, ohne Zugriff auf eine Umgebung zu gewähren"});

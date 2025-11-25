@@ -1,0 +1,14 @@
+m|DELWebUserDefinedOpenUI\AdminUI_JSZipTools.mweb
+b|j|n,m
+b|c|n,m
+v|6.428.0.24307|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\AdminUI_JSZipTools\JSZip.js|1730554344|505
+s|DELWebUserDefinedOpenUI\AdminUI_JSZipTools.mweb\src\JSZip.js|1729779111|857
+t|win_b64\webapps\AdminUI_JSZipTools\JSZipTools.js|1730554344|58
+s|DELWebUserDefinedOpenUI\AdminUI_JSZipTools.mweb\src\JSZipTools.js|1729779283|95
+t|win_b64\webapps\AdminUI_JSZipTools\libraries\JSZipUtils\jszip-utils.min.js|1730554346|1769
+s|DELWebUserDefinedOpenUI\AdminUI_JSZipTools.mweb\src\libraries\JSZipUtils\jszip-utils.min.js|1728458650|1780
+t|win_b64\webapps\AdminUI_JSZipTools\libraries\JSZip\jszip.min.js|1730554346|96694
+s|DELWebUserDefinedOpenUI\AdminUI_JSZipTools.mweb\src\libraries\JSZip\jszip.min.js|1729779283|178411
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

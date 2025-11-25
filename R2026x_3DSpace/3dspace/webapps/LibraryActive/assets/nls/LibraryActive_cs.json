@@ -1,0 +1,25 @@
+{
+  "activeClassification_cmd": "Aktivní klasifikace",
+  "name_Section_FavoriteLibraries": "Oblíbené",
+  "name_Section_AllLibraries": "Knihovny",
+  "activeClassification_hover_access": "Přístup",
+  "activeClassification_msg_empty": "Prázdná",
+  "activeClassification_msg_noclassfoud": "Nebyla nalezena žádná klasifikace",
+  "activeClassification_btn_focus": "Zaměřit na nastavení klasifikace",
+  "CMDExpandAll": "Rozbalit vše",
+  "CMDCollapseAll": "Sbalit vše",
+  "multiSelectionComponent": {
+    "button_OK": "Klasifikovat",
+    "button_Cancel": "Zrušit",
+    "widget_name": "Klasifikovat v knihovnách",
+    "PLMNewLibraryWidgetName": "Vybrat třídy",
+    "PLMNewbutton_OK": "Vybrat",
+    "msg_ClassifyInProgress": "Klasifikace...",
+    "msg_ClassifySuccessful": "Klasifikováno úspěšně.",
+    "msg_ClassifyFailed": "Při klasifikaci došlo k chybě. Buď nemáte přístup ke klasifikaci, NEBO již v dané třídě (třídách) klasifikace proběhla.",
+    "msg_selectNodeToSeeInfo": "Vyberte knihovnu nebo třídu a prohlédněte si tak její podrobnosti.",
+    "msg_selection_Incorrect": "Aktuální výběr není správný pro spuštění příkazu",
+    "msg_info_favoriteadded": "Položka „{name1}“ byla přidána do oblíbených.",
+    "msg_info_favoriteremoved": "Položka „{name1}“ byla odebrána z oblíbených."
+  }
+}

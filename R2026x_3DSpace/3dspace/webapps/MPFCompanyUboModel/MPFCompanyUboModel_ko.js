@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_ko",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"{0}이(가) 유효하지 않습니다.",areInvalid:"{0}이(가) 유효하지 않습니다.",idNumber:"ID 번호",ssnLast4:"SSN 마지막 4자리 숫자"});

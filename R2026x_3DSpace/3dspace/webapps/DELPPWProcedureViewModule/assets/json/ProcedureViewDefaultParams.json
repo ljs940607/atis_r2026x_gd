@@ -1,0 +1,339 @@
+{
+    "SERVICE_ROLES": {
+        "Set-Up": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#e0e0e0"
+            },
+            "body": {
+                "backgroundColour": "#f2f2f2"
+            }
+        }, 
+        "Procedure": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#e0e0e0"
+            },
+            "body": {
+                "backgroundColour": "#f2f2f2"
+            }
+        },
+        "Close-Up": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#e0e0e0"
+            },
+            "body": {
+                "backgroundColour": "#f2f2f2"
+            }
+        }
+    },
+    "ROUTINGS": {
+        "weight": 3,
+        "SWP_TYPE": {
+            "isCollapsible": true,
+            "header": {
+                "rootBackgroundColour": "#e0e0e0",
+                "backgroundColour": "#71C8FE",
+                "strokeColor": "#017ECB",
+                "rootStrokeColor": "#707070",
+                "displayIcon": true
+            },
+            "body": {
+                "backgroundColour": "#C2E7FF",
+                "rootBackgroundColour": "#f2f2f2",
+                "strokeColor": "#017ECB",
+                "rootStrokeColor": "#707070",
+                "displayIcon": false,
+                "attributeList": [],
+                "attributeNodeList": [
+                    {
+                        "order": 1,
+                        "name": "DELLmiRichText.V_RichText",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": true,
+                        "backgroundColour": "#ffffff"
+                    },
+                    {
+                        "order": 2,
+                        "isCollapsible": false,
+                        "isReferenceAttribute": false,
+                        "name": "DELLmiRichText.V_RichText",
+                        "backgroundColour": "#ffffff"
+                    }
+                ]
+            }
+        },
+
+        "HOP_TYPE": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#b3a0bb",
+                "strokeColor": "#6D5577",
+                "displayIcon": true
+            },
+            "body": {
+                "backgroundColour": "#E2DBE6",
+                "strokeColor": "#6D5577",
+                "displayIcon": false,
+                "attributeList": [],
+                "attributeNodeList": [
+                    {
+                        "order": 1,
+                        "name": "DELLmiRichText.V_RichText",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": true,
+                        "backgroundColour": "#ffffff"
+                    },
+                    {
+                        "order": 2,
+                        "isCollapsible": false,
+                        "isReferenceAttribute": false,
+                        "name": "DELLmiRichText.V_RichText",
+                        "backgroundColour": "#ffffff"
+                    }
+                ]
+            }
+        },
+
+        "STEP_OPERATIONS": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#ffffff",
+                "displayIcon": true
+            },
+            "body": {
+                "backgroundColour": "#f2f2f2",
+                "displayIcon": false,
+                "attributeList": [],
+                "attributeNodeList": [
+                    {
+                        "order": 1,
+                        "name": "DELLmiRichText.V_RichText",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": true,
+                        "backgroundColour": "#ffffff"
+                    },
+                    {
+                        "order": 2,
+                        "isCollapsible": false,
+                        "isReferenceAttribute": false,
+                        "name": "DELLmiRichText.V_RichText",
+                        "backgroundColour": "#ffffff"
+                    }
+                ]
+            }
+        },
+
+        "TEXT_TYPE": {
+            "isCollapsible": false,
+            "body": {
+                "backgroundColour": "#ffffff",
+                "strokeColor" : "#707070",
+                "displayIcon": true,
+                "attributeList": [ 
+                    {
+                        "name": "DELWkiInstructionReference.V_WIInstruction_Text",
+                        "rowIndex": "1",
+                        "isReferenceAttribute": true,
+                        "mergeWithPreviousRow": null,
+                        "displayAttributeName": null
+                    }
+                ]
+            }
+        },
+
+        "SIGNOFF_TYPE": {
+            "isCollapsible": false,
+            "body": {
+                "backgroundColour": "#ffffff",
+                "strokeColor" : "#707070",
+                "displayIcon": true,
+                "attributeList": [ 
+                    {
+                        "name": "DELWkiSignOffReference.V_WISignOff_Text",
+                        "rowIndex": "1",
+                        "isReferenceAttribute": true,
+                        "mergeWithPreviousRow": null,
+                        "displayAttributeName": null
+                    }
+                ]
+            }
+        },
+
+        "ALERT_TYPE": {
+            "isCollapsible": false,
+            "body": {
+                "backgroundColour": "#ecacac",
+                "strokeColor" : "#BD2024",
+                "displayIcon": true,
+                "attributeList": [ 
+                    {
+                        "name": "DELWkiAlertReference.V_WIAlert_Message",
+                        "rowIndex": "1",
+                        "mergeWithPreviousRow": null,
+                        "isReferenceAttribute": true,
+                        "displayAttributeName": null
+                    }
+                ]
+            }
+        },
+
+        "WARNING_TYPE": {
+            "isCollapsible": false,
+            "body": {
+                "backgroundColour": "#e7a688",
+                "strokeColor" : "#CB5D2A",
+                "displayIcon": true,
+                "attributeList": [ 
+                    {
+                        "name": "DELWkiAlertReference.V_WIAlert_Message",
+                        "rowIndex": "1",
+                        "isReferenceAttribute": true,
+                        "mergeWithPreviousRow": null,
+                        "displayAttributeName": null
+                    }
+                ]
+            }
+        },
+
+        "CAUTION_TYPE": {
+            "isCollapsible": false,
+            "body": {
+                "backgroundColour": "#FFD270",
+                "strokeColor": "#E09900",
+                "displayIcon": true,
+                "attributeList": [ 
+                    {
+                        "name": "DELWkiAlertReference.V_WIAlert_Message",
+                        "rowIndex": "1",
+                        "mergeWithPreviousRow": null,
+                        "isReferenceAttribute": true,
+                        "displayAttributeName": null
+                    }
+                ]
+            }
+        },
+
+        "OPERATION": {
+            "isCollapsible": true,
+            "header": {
+                "backgroundColour": "#e0e0e0",
+                "strokeColor": "#707070",
+                "displayIcon": true
+            },
+            "body": {
+                "backgroundColour": "#f2f2f2",
+                "strokeColor": "#707070",
+                "displayIcon": false,
+                "attributeList": [],
+                "attributeNodeList": [
+                    {
+                        "name": "DELLmiRichText.V_RichText",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": true,
+                        "backgroundColour": "#ffffff"
+                    },
+                    {
+                        "isCollapsible": false,
+                        "isReferenceAttribute": false,
+                        "name": "DELLmiRichText.V_RichText",
+                        "backgroundColour": "#ffffff"
+                    }
+                ]
+            }
+        }
+    },
+    "MANUFACTURING": {
+        "weight": 1,
+        "SCOPE_TYPE": {
+            "isCollapsible": false,
+            "header": {
+                "backgroundColour": "transparent",
+                "displayIcon": true,
+                "attributeList": []
+            },
+            "body": {
+                "backgroundColour": "transparent",
+                "displayIcon": false,
+                "attributeList": [
+                    {
+                        "name": "type",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true
+                    }
+                ],
+                "attributeNodeList": [
+                    {
+                        "order": 1,
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true,
+                        "name": "usagePoint",
+                        "backgroundColour": "transparent"
+                    }
+                ]
+            }
+        },
+        "IMPL_TYPE": {
+            "isCollapsible": false,
+            "header": {
+                "backgroundColour": "transparent",
+                "displayIcon": true
+            },
+            "body": {
+                "backgroundColour": "transparent",
+                "displayIcon": false,
+                "attributeList": [
+                    {
+                        "name": "type",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true,
+                        "backgroundColour": "transparent"
+                    },
+                    {
+                        "name": "PLMEntity.V_usage",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true,
+                        "backgroundColour": "transparent"
+                    },
+                    {
+                        "name": "ImplementLinkUsageFamily.V_Action",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true,
+                        "backgroundColour": "transparent"
+                    }
+                ],
+                "attributeNodeList": []
+            }
+        }
+    },
+    "RESOURCES": {
+        "weight": 1,
+        "RESS_TYPE": {
+            "isCollapsible": false,
+            "header": {
+                "backgroundColour": "transparent",
+                "displayIcon": true,
+                "attributeList": []
+            },
+            "body": {
+                "backgroundColour": "transparent",
+                "displayIcon": false,
+                "attributeList": [
+                    {
+                        "name": "type",
+                        "isCollapsible": false,
+                        "isReferenceAttribute": null,
+                        "isConnectionAttribute": true
+                    }
+                ],
+                "attributeNodeList": []
+            }
+        }
+    }
+}

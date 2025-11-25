@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Impossibile lanciare il comando",
+  "LoadingPanel": "Caricamento in corso...",
+  "cmdFailure": "Impossibile lanciare il comando",
+  "cmdFailureNls": "Errore NLS, impossibile lanciare il comando",
+  "SavingStep": "Salvataggio in corso...",
+  "createReview": {
+    "quickEdition": "Non mostrare più questa finestra di dialogo",
+    "errorMessage": "Creazione della revisione non riuscita",
+    "errorShape": "Impossibile creare una revisione su una forma 3D",
+    "multipleRootsLabel": "Selezionare un contesto",
+    "nameLabel": "Titolo",
+    "defaultReviewName": "Revisione",
+    "namePlaceholder": "Aggiungi un titolo",
+    "descriptionLabel": "Descrizione",
+    "descriptionPlaceholder": "Aggiungere una descrizione",
+    "restrictedEditionLabel": "Edizione limitata",
+    "restrictedEditionActivated": "Attivata",
+    "restrictedEditionDeactivated": "Disattivata",
+    "panelTitle": "Nuova revisione",
+    "panelValidationTitle": "Nuova convalida",
+    "createreviewButton": "Crea",
+    "cancelButton": "Annulla",
+    "importModel": "Importa modello JSON",
+    "slideTitle": "Diapositiva",
+    "loadingMessage": "Creazione di una nuova revisione in corso...",
+    "warningMessage": "La revisione corrente verrà sostituita nella sessione con quella nuova",
+    "labelReview": "Revisione",
+    "labelMarkup": "Annotazione",
+    "labelCheck": "Controlli",
+    "labelMember": "Membri",
+    "labelObjects": "Oggetti",
+    "saveAsDraftButton": "Salva come bozza",
+    "reviewContext": "Contesto",
+    "multiReviewsNaming": "Automatico",
+    "validatedObjects": "Oggetti convalidati",
+    "changeAction": "Azione di modifica",
+    "chkListTitle": "Lista di controllo",
+    "autoCompletePlaceHolder": "rilasciare qui o digitare per cercare",
+    "setValObjectAsValidatedNotif": "Questo oggetto non può essere impostato come oggetto convalidato",
+    "setSomeValObjectAsValidatedNotif": "Alcuni oggetti non possono essere impostati come oggetto convalidato",
+    "setDefaultNotif": "Alcuni oggetti rilasciati non sono supportati",
+    "setDefaultChgActNotif": "Questo oggetto non può essere impostato come azione di modifica",
+    "setCtxRootNotif": "La selezione multipla non è supportata per i contesti",
+    "setChgActNotif": "La selezione multipla a cascata non è supportata per le azioni di modifica",
+    "setChgActCtxNotif": "L'azione di modifica non può essere impostata con questo tipo di contesto",
+    "noCASearchFound": "Nessuna ricerca trovata OPPURE la modifica è già stata aggiunta"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Non mostrare più questa finestra di dialogo",
+    "errorMessage": "Creazione dell'annotazione non riuscita",
+    "multipleRootsLabel": "Selezionare un contesto",
+    "nameLabel": "Titolo",
+    "defaultMarkupName": " Annotazione",
+    "namePlaceholder": "Aggiungi un titolo",
+    "descriptionLabel": "Descrizione",
+    "descriptionPlaceholder": "Aggiungere una descrizione",
+    "panelTitle": "Nuova annotazione",
+    "createMarkupButton": "Crea",
+    "cancelButton": "Annulla",
+    "importModel": "Importa modello JSON",
+    "slideTitle": "Diapositiva",
+    "loadingMessage": "Creazione di una nuova annotazione in corso...",
+    "warningMessage": "L'annotazione corrente verrà sostituita nella sessione con quella nuova"
+  },
+  "createCheck": {
+    "errorMessage": "Creazione dei requisiti controllati non riuscita",
+    "typeToSearch": "rilasciare qui o digitare per cercare",
+    "noSearchFound": "Nessuna ricerca trovata OPPURE il requisito è già stato aggiunto",
+    "requirement": "Requisiti"
+  },
+  "createHighlight": {
+    "errorMessage": "Creazione dell'evidenziazione non riuscita",
+    "selectHighlight": "Seleziona un commento non marcato in un'annotazione"
+  },
+  "valStateChange": {
+    "error": "Impossibile modificare lo stato di convalida della revisione."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "L'oggetto convalidato esiste già",
+    "SelectMsg": "Selezionare gli oggetti convalidati da aggiungere",
+    "OkBtn": "OK",
+    "CancelBtn": "Annulla"
+  },
+  "loadValidationContextError": "Le revisioni con questo tipo di dati non sono supportate.",
+  "loadValidationMarkupError": "Impossibile caricare la revisione.",
+  "page": "Pagina",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Cancella stato",
+      "message": "Cancellare lo stato dei commenti selezionati?",
+      "okLabel": "Cancella"
+    },
+    "unableToMark": "Impossibile modificare lo stato di alcuni commenti."
+  }
+}

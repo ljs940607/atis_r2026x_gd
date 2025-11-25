@@ -1,0 +1,23 @@
+{
+  "setParameters" : "Parameter saved",
+  "setParametersTitle" : "Save",
+  "setParametersError" : "Error when saving Parameters",
+  "deleteParameter" : "Parameter deleted",
+  "deleteParameterTitle" : "Delete",
+  "deleteParameterError" : "Error when deleting Parameters",
+  "modifyParameter" : "Parameter modified",
+  "modifyParameterTitle" : "Modify",
+  "modifyParameterError" : "Error when modifying Parameters",
+  "columnMandatory" : "The column %1 is mandatory",
+  "containUnsupportedChars" : "%1 contains one or more following unsupported characters \n %2",
+  "confirmDeleteTitle" : "Confirm Deletion",
+  "confirmDeleteContent" : "Are you sure you want to delete this row? This action cannot be undone.",
+  "Add" : "Add New Row",
+
+  "orderParameters" :"Order Updated",
+  "orderParametersTitle" :"Reorder",
+  "orderParametersError" :"Error when reordering",
+  "orderParametersMaskMessage" : "Updating the Order",
+  "orderParametersDeleteError" : "Error when deleting Previous Order",
+  "orderParametersSetError" : "Error when Saving New Order"
+}

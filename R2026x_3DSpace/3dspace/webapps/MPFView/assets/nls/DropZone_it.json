@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Rilascia il contenuto qui",
+  "orMessage": "o",
+  "upContent": "Carica contenuto",
+  "wrongFileType": "Tipo di file errato",
+  "fileTooBig": "Le dimensioni del file superano il limite di {0}",
+  "bytes": "byte",
+  "kiloByte": "KB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "filesExceedSizeOf": "{0} / {1} file superano le dimensioni massime di {2}",
+  "filesHaveWrongFormat": "{0} / {1} file hanno un formato errato"
+}

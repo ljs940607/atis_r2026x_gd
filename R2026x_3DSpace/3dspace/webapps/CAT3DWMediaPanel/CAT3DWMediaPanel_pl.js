@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_pl",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"Nie znaleziono żadnych rozpoznań, utwórz nowe rozpoznanie i uzyskaj do niego dostęp tutaj",addWBReco:"Rozpocznij rozpoznawanie białej tablicy"});

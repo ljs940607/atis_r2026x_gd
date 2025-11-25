@@ -1,0 +1,12 @@
+{
+
+  "match_on" : "ds6w:label",
+  "add_wildcard":true,
+  "nresults": 3,
+  "order_by": "desc",
+  "order_field": "relevance",
+  "select_file": [ "icon", "thumbnail_2d" ],
+  "select_predicate":["ds6w:label", "ds6w:type"],
+  "select_snippets":[],
+  "with_synthesis":false
+}

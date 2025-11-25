@@ -1,0 +1,162 @@
+{
+    "ContextMenu": {
+        "onGeometry": [
+            {
+                "type": "WAfrDefaultHandlerItem",
+                "handlerId": "ENO3DFocusOnCmd"
+            },
+            {
+                "type": "WAfrDefaultHandlerItem",
+                "handlerId": "ENO3DReframeOnCmd"
+            },
+            {
+                "type": "WAfrDefaultHandlerItem",
+                "handlerId": "DELWeb3DViewerHideShowCmd"
+            },
+            {
+                "type": "WAfrDefaultHandlerItem",
+                "handlerId": "ENO3DTransparencyCmd"
+            },
+            {
+                "type": "WAfrDefaultHandlerItem",
+                "handlerId": "DELWebOERPropertiesPanelCmd"
+            },
+            {
+                "type": "PushItem",
+                "identifier": "quality",
+                "submenu": [
+                    {
+                        "type": "WAfrDefaultHandlerItem",
+                        "handlerId": "OptimizedQualityCmd"
+                    },
+                    {
+                        "type": "WAfrDefaultHandlerItem",
+                        "handlerId": "HighQualityCmd"
+                    }
+                ]
+            }
+        ],
+        "onEmptiness": [
+            {
+                "type": "PushItem",
+                "identifier": "display",
+                "submenu": [
+                    {
+                        "type": "WAfrDefaultHandlerItem",
+                        "handlerId": "VisuQMCommand"
+                    },
+                    {
+                        "type": "WAfrCheckHandlerItem",
+                        "handlerId": "DELWebOERToggleStatusBarCmd"
+                    }
+                ]
+            },
+            {
+                "type": "PushItem",
+                "identifier": "ambience",
+                "submenu": [
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuPureWhiteOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_PureWhiteVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuWhiteMirrorOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_WhiteMirrorVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuWhiteReviewOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_WhiteReviewVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuWhiteExperienceOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_NeoPureWhiteVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuStudioOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_StudioVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuDarkMirrorOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_DarkMirrorVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuDarkReviewOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_DarkReviewVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuWhiteDesignOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_WhiteDesignVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuBlueDesignOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_BlueDesignVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuDarkDesignOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_DarkDesignVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuIndoorOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_IndoorVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuCityOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_CityVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuRoadOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_RoadVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuOutdoorOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_OutdoorVisuEnv.png"
+                    },
+                    {
+                        "type": "RadioItem",
+                        "handlerId": "VisuBasicOCACmd",
+                        "module": "ViewerCommands",
+                        "iconPath": "icons/32/I_BasicVisuEnv.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "ContextBar": {
+        "WAfrCtxBarRow1": {
+            "model": [
+                {
+                    "type": "handler",
+                    "identifier": "DELWeb3DViewerLevelSelector"
+                }
+            ]
+        }
+    }
+}

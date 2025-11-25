@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="Only Axis System Reference can be aggregated under Axis System Reference.";
+ValidationCheck2.Title="Shell Axis System Reference cannot be aggregated under Shell Axis System Reference.";
+ValidationCheck3.Title="Only one Axis System Reference can be aggregated under Shell Axis System Reference.";
+ValidationCheck4.Title="Only Axis System Reference can be aggregated under Shell Axis System Reference.";
+ValidationCheck5.Title="Product with Positioning Architecture could not instantiate 3D Shape.";
+ValidationCheck6.Title="Product with Positioning Architecture could not instantiate Markup.";

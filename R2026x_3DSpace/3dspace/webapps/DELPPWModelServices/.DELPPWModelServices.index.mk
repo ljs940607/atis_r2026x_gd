@@ -1,0 +1,13 @@
+m|DELPPWModels\DELPPWModelServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelServices\DELPPWModelServices.js|1757132694|46000
+s|DELPPWModels\DELPPWModelServices.mweb\src\BehaviorUtil.js|1756721993|16988
+u|DELPPWModels\DELPPWModelServices.mweb\src\CollectionUtils.js|1754042650|115008
+u|DELPPWModels\DELPPWModelServices.mweb\src\ModelUtils.js|1732631172|9558
+u|DELPPWModels\DELPPWModelServices.mweb\src\Navigation\IndexedDBUtils.js|1624871077|9899
+u|DELPPWModels\DELPPWModelServices.mweb\src\Navigation\NavigateOnLocalStore.js|1672764330|10753
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "summary": "Olayı, bir olay tarafından tetiklenen olay bağlantı noktası üzerinden okur.",
+  "description": "Olay bağlantı noktası olay tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "DataEventOut": "okunacak olaydır."
+  },
+  "controlPorts": {
+    "EventIn": "belirlenen olay tipiyle blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

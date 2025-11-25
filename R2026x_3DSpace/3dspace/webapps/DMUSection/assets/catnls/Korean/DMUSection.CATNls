@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="잘라내기";
+DMUSection.DMUSectionNoCutHdr.Title="잘라내기 없음";
+DMUSection.DMUSectionGridHdr.Title="그리드";
+DMUSection.DMUSectionFlipHdr.Title="뒤집기";
+DMUSection.DMUSectionNormalToXHdr.Title="X 위치";
+DMUSection.DMUSectionNormalToYHdr.Title="Y 위치";
+DMUSection.DMUSectionNormalToZHdr.Title="Z 위치";
+DMUSection.DMUSectionPrecisePosHdr.Title="지오메트리에서 위치";
+DMUSection.DMUSectionMoveHdr.Title="시점 이동";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="단면 보조 뷰어";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="선택적 단면";
+DMUSection.DMUSectionDeleteSectionHdr.Title="제거";
+
+DMUSection.DMUExitClippingEditionHdr.Title="클리핑 편집 종료";
+DMUSection.DMUClippingEditionHdr.Title="클리핑 편집";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="건설 아이템으로 클리핑";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="단면으로 클리핑";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="선택된 개체의 크기 조정";
+DMUSection.DMUResetClippingPlaneHdr.Title="클리핑 재설정";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="슬라이스로 클리핑";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="선택된 개체의 크기 조정";
+DMUSection.DMUResetClippingSliceHdr.Title="클리핑 재설정";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="상자로 클리핑";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="선택된 개체의 크기 조정";
+DMUSection.DMUResetClippingBoxHdr.Title="클리핑 재설정";
+
+DMUSection.DMUClippingNormalToXHdr.Title="X축을 따라 배치";
+DMUSection.DMUClippingNormalToYHdr.Title="Y축을 따라 배치";
+DMUSection.DMUClippingNormalToZHdr.Title="Z축을 따라 배치";
+DMUSection.DMUClippingNormalUserHdr.Title="선택된 지오메트리로부터 배치";
+DMUSection.DMUClippingReverseHdr.Title="클리핑 반전";
+DMUSection.DMUContourViewerHdr.Title="단면 보조 뷰어";
+DMUSection.DMUClippingPositionHdr.Title="클리핑 위치...";
+DMUSection.DMUAlignViewHdr.Title="시점 정렬";
+DMUSection.DMUHideShowHdr.Title="숨기기/표시";
+DMUSection.DMUCutUncutHdr.Title="잘라내기/잘라내기 취소...";
+DMUSection.DMUClippingEditStr.Title="클리핑";
+DMUSection.DMUClippingPropertiesHdr.Title="속성";

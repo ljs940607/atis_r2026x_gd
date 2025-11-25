@@ -1,0 +1,67 @@
+#compare-customization-root {
+    display: flex;
+    flex-direction: column;
+	height: 100%
+}
+
+#compare-customization-body {
+    overflow-y: auto;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    flex: 1 1;
+    position: relative
+}
+
+#compare-customization-footer {
+    padding-right: 2px;
+    margin-bottom: 1px;
+    height: auto
+}
+
+.compare-customization-footerbutton {
+    font-size: 14px;
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-right: 14px;
+    padding-bottom: 8px;
+}
+
+.compare-customization-command {
+    padding: 4px
+}
+
+.compare-customization-help {
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-right: 20px;
+    color: #77797C;
+}
+
+.compare-customization-exp-cont {
+    width: 100%;
+    padding-left: 14px;
+}
+
+.compare-customization-row {
+    display: flex;
+    margin-top: 10px;
+}
+
+.compare-customization-row-chips-cont {
+    max-height: 100px;
+    overflow: auto;
+}
+
+.compare-customization-table {
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+div.compare-customization-label {
+    font-weight: bold;
+    background-color: white
+}
+
+.compare-customization-needvalue {
+    border-color: red !important;
+}

@@ -1,0 +1,75 @@
+<meta charset="UTF-8"/>
+3DPlayExperience3D.SectionViews.Title="Görünüm";
+3DPlayExperience3D.Tools.Title="Araçlar";
+
+3DPlayExperience3D.Zoom.Title="Yakınlaştır veya Uzaklaştır";
+3DPlayExperience3D.Pan.Title="Kaydır";
+3DPlayExperience3D.Rotate.Title="Döndür";
+3DPlayExperience3D.Reframe.Title="Tümünü Sığdır";
+3DPlayExperience3D.MouseControl.Title="Fareyle Gezinme";
+3DPlayExperience3D.TrackPadControl.Title="Dokunmatik Yüzeyle Gezinme";
+3DPlayExperience3D.Iso.Title="İzometrik Görünüm";
+3DPlayExperience3D.Front.Title="Ön Görünüm";
+3DPlayExperience3D.Back.Title="Arka Görünüm";
+3DPlayExperience3D.Left.Title="Sol Görünüm";
+3DPlayExperience3D.Right.Title="Sağ Görünüm";
+3DPlayExperience3D.Top.Title="Üst Görünüm";
+3DPlayExperience3D.Bottom.Title="Alt Görünüm";
+3DPlayExperience3D.ViewSelector.Title="Standart Görünümler";
+3DPlayExperience3D.Annotate.Title="3B Açıklama";
+3DPlayExperience3D.GraphicOptimizer.Title="Efekt Tercihleri";
+
+3DPlayExperience3D.Explode.Title="Patlat";
+3DPlayExperience3D.EnhancedExplode.Title="Patlat";
+3DPlayExperience3D.LevelExplode.Title="Seviye seviye patlat";
+
+3DPlayExperience3D.3DDrawing.Title="Açıklama";
+3DPlayExperience3D.3DText.Title="Metin";
+3DPlayExperience3D.RemoveDrawing.Title="Sil";
+3DPlayExperience3D.ExitAnnotationCommand.Title="Doğrula";
+
+3DPlayExperience3D.GraphicOptimizer.AdvancedMode.Title="Gelişmiş mod";
+3DPlayExperience3D.GraphicOptimizer.Statistics="İstatistikleri göster";
+3DPlayExperience3D.GraphicOptimizer.AutoUpdate="Efektleri otomatik ayarla";
+3DPlayExperience3D.GraphicOptimizer.RestoreDefaults="Varsayılanları Geri Yükle";
+3DPlayExperience3D.GraphicOptimizer.Benchmark="Kıyaslama";
+3DPlayExperience3D.GraphicOptimizer.FrameRate="Kare Hızı";
+3DPlayExperience3D.GraphicOptimizer.Threshold="Kare Hızı Eşikleri kontrolü";
+
+3DPlayExperience3D.GraphicOptimizer.TestTime="Test Süresi (saniye)";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.Title="Ambiyans efektleri";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.InfinitePlane="Sonsuz Düzlem";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.Grid="Izgara";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.Edges="Kenarlar";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.SSAO="Çevresel perdeleme";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.AntiAliasing="Kenar Yumuşatma";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.Shadows="Gölgeler";
+3DPlayExperience3D.GraphicOptimizer.RenderOptions.Mirror="Aynala";
+
+3DPlayExperience3D.HideShow.Title="Seçimi Gizle";
+3DPlayExperience3D.PickPoints.Title="Noktaları Seç";
+3DPlayExperience3D.ShowAll.Title="Tümünü Göster";
+3DPlayExperience3D.HideTransparency.Title="Şeffaflık ayarlarıyla gizlenmiş parçaları göster";
+3DPlayExperience3D.HideShowReversal.Title="Görünürlüğü değiştir";
+3DPlayExperience3D.HideShowIsolate.Title="İzole et";
+3DPlayExperience3D.VisibilityCommands.Title="Gizle/Göster";
+3DPlayExperience3D.QualityManager.Title="Kalite Yöneticisi";
+3DPlayExperience3D.AnnotationCommands.Title="Detaylandırma Komutları";
+3DPlayExperience3D.AnnotationCommand3DText.Title="Metin Detaylandırma Komutu";
+3DPlayExperience3D.AnnotationTour.Title="Detaylandırma Turu";
+3DPlayExperience3D.PencilTools.Title="Detaylandırma Araçları";
+3DPlayExperience3D.AnnotToolsColor.Title="Detaylandırma Rengi";
+3DPlayExperience3D.AnnotToolsThick.Title="Detaylandırma Kalınlığı";
+3DPlayExperience3D.AnnotToolsBack.Title="Detaylandırma Komutlarına Geri Dön";
+
+3DPlayExperience3D.LineicFilter.Title="Lineer Elemanları Filtrele";
+3DPlayExperience3D.FilterPoints.Title="Noktaları Aç/Kapat";
+3DPlayExperience3D.FilterAxis.Title="Referans Ekseni Aç/Kapat";
+3DPlayExperience3D.FilterLines.Title="Çizgileri Aç/Kapat";
+
+3DPlayExperience3D.Render.Title="İşle";
+3DPlayExperience3D.Ambiance.Title="Ambiyanslar";
+3DPlayExperience3D.CameraViews.Title="Perspektif";
+
+3DPlayExperience3D.ExpChooser.Title="Deneyim Seçici";
+3DPlayExperience3D.Background.Title="Arka Plan Rengi";

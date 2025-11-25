@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="DCC" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfigDCP.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Columns>
+		<Column dataIndex="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_Value" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_ConformanceValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCRequirementLink" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="PLM_ExternalID" dicoType="PLMEntity" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_description" dicoType="PLMEntity" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCMode" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		
+		<Column dataIndex="owner" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="organization" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="project" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="reservedby" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="originated" display="true" minWidth="100"/>
+		<Column dataIndex="modified" display="true" minWidth="100"/>
+    </Columns>
+</Config>

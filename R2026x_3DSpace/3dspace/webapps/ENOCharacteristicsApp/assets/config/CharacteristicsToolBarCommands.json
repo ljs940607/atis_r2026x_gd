@@ -1,0 +1,117 @@
+{
+	"actions": [
+		{
+			"key": "PerfSpec_Information_Panel",
+			"nlsLabel": "label_PerfSpecInformation",
+			"fonticon": "info"
+		},
+		{
+			"key": "SyncPerformanceSpecs",
+			"nlsLabel": "label_SyncPerformanceSpecs",
+			"fonticon": "sync"
+		},
+		{
+			"key": "AddExtensions",
+			"nlsLabel": "label_AddExtension",
+			"fonticon": "package-extension"
+		},
+		{
+			"key": "view",
+			"nlsLabel": "label_View",
+			"text": "label_View",
+			"fonticon": "flow-cascade-ok-2",
+			"persistencyKey": "performanceSpecView",
+			"isSelectable": true,
+			"subMenu": [
+				{
+					"nlsLabel": "label_viewLatestReleased",
+					"text": "Latest Released",
+					"fonticon": "flow-cascade-ok-1",
+					"key": "viewLatestReleased",
+					"type": "CheckItem",
+					"isVisible": true,
+					"isDefault": false,
+					"tooltip": {
+						"shortHelp": "text_PerfSpec_shortHelpLatestReleased"
+					}
+				},
+				{
+					"nlsLabel": "label_viewLatestRevised",
+					"text": "Latest Revision",
+					"fonticon": "flow-cascade-ok-2",
+					"key": "viewLatestRevised",
+					"type": "CheckItem",
+					"isVisible": true,
+					"isDefault": true,
+					"tooltip": {
+						"shortHelp": "text_PerfSpec_shortHelpLatestRevised"
+					}
+				},
+				{
+					"nlsLabel": "label_viewAll",
+					"text": "All",
+					"fonticon": "flow-cascade",
+					"type": "CheckItem",
+					"key": "viewAll",
+					"isVisible": true,
+					"isDefault": false,
+					"tooltip": {
+						"shortHelp": "text_PerfSpec_shortHelpAll"
+					}
+				}
+			]
+		},
+		{
+			"key": "VersionExplorer",
+			"nlsLabel": "label_VersionExplorer",
+			"fonticon": "flow-branch-list"
+		},
+		{
+			"key": "MaturityGraph",
+			"nlsLabel": "label_Maturity",
+			"fonticon": "collaborative-lifecycle-management"
+		},
+		{
+			"key": "add",
+			"text": "add",
+			"nlsLabel": "label_Add",
+			"fonticon": "plus",
+			"subMenu": [
+				{
+					"text": "New Performance Specification",
+					"fonticon": "molecule-candidate",
+					"key": "CreateSpecification",
+					"nlsLabel": "label_Performance_Specifications",
+					"isVisible": true
+				},
+				{
+					"text": "New Performance Characterstic",
+					"fonticon": "molecule-candidate",
+					"key": "CreateCharacteristics",
+					"nlsLabel": "label_NewCharacteristics",
+					"isVisible": true
+				}
+			]
+		},
+		{
+			"key": "AssignTestMethod",
+			"nlsLabel": "label_AssignTestMethod",
+			"fonticon": "list-test-add"
+		},
+		{
+			"key": "LinkRequirement",
+			"nlsLabel": "label_LinkRequirement",
+			"fonticon": "requirement-insert"
+		},
+		{
+			"key": "DuplicateCharacteristics",
+			"nlsLabel": "label_DuplicateCharacteristics",
+			"fonticon": "duplicate"
+		},
+		{
+			"key": "DeleteCharacteristics",
+			"nlsLabel": "label_DeleteCharacteristics",
+			"fonticon": "trash"
+		}
+	]
+}

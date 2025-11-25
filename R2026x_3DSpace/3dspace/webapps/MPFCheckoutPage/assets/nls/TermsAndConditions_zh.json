@@ -1,0 +1,23 @@
+{
+  "unabletoSaveAgreement": "无法保存协议。如果此错误仍然存在，请联系支持人员。",
+  "iAcknowledgeThat": "本人确认：",
+  "allBillingInformationIsCorrect": "以上提供的所有账单信息均正确无误",
+  "iAmAMakerOrHobbyist": "我是一名创客或业余爱好者，不会将此产品/服务用于商业用途",
+  "authorizedToRepresentCompany": "我已获得代表公司的授权",
+  "iAmOver18YearsOld": "我已满 18 周岁",
+  "agreeSalesConditions": "我已阅读并同意 {salesConditions} 和报价单",
+  "agreeSalesConditionsProvidedBy": "我已阅读并同意 {labName} 提供的 {salesConditions} 和报价单",
+  "agreeQuotation": "我已阅读并同意报价单",
+  "salesConditionsLabel": "销售条件",
+  "agreeTermsAndConditions": "我已阅读并同意 {privacyPolicy} 的 {termsAndConditions}",
+  "termsAndConditionsLabel": "条款和条件",
+  "privacyPolicy": "3DS 隐私政策",
+  "agreeClosa": "我已阅读并同意对 DS 产品的访问和使用受制于 {closa} 及报价单",
+  "businessExperiencePartnerAgreement": "Business Experience 合作伙伴协议",
+  "closaLabel": "CLOSA",
+  "consentAccess": "本人特此同意立即在线访问 DS 产品/服务，因此本人无权取消第一个订阅周期",
+  "next": "下一步",
+  "edit": "编辑",
+  "termsAndConditions": "条款和条件",
+  "ifweloopAgreements": "本人承认已经阅读并同意对 DS 产品的访问和使用受制于 {closa}。"
+}

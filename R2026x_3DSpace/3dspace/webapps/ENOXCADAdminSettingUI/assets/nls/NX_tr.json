@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Kaydet",
+  "NXOpenGroupLabel": "Aç",
+  "NXToolkitLicenseGroupLabel": "MultiCAD STEP Tercüman Kullanılabilirliği",
+  "NXMissingLinksWarningLabel": "Dosyayı eksik referanslarla kaydet",
+  "NXMissingLinksWarningInfo": "Etkinken NX oturumunda Kaydet işlemi sırasında herhangi bir alt tasarım eksikse bir uyarı görüntülenir. Devre dışıyken Kaydet işlemi uyarı olmadan devam eder.",
+  "NXSuppressPatternElementsLabel": "Çoğaltma Elemanlarını Pasifleştir",
+  "NXSuppressPatternElementsInfo": "Bu ayar, etkinken çoğaltma elemanlarını pasifleştirir, böylece çoğaltma ana parçaları Kaydet iletişim kutusunda görünmez. Devre dışıyken parça çoğaltma ana parçayla ilişkisini koruyarak bir MakeFrom ilişkisi oluşturur.",
+  "NXSTEP242LicenseAvailableLabel": "MultiCAD STEP Tercüman Kullanılabilirliği",
+  "NXSTEP242LicenseAvailableInfo": "MultiCAD tasarımlarını NX oturumunda açarken STEP AP214 veya STEP AP242 Tercüman'ın kullanılıp kullanılmayacağını belirleyen ayar. Varsayılan değer: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "EIN'e eşlenen CAD Özniteliği",
+  "NXCADAttributeMappedToEINInfo": "Bu öznitelik için değer belirtildiğinde fonksiyon etkinleştirilir ve CAD dosyası bu öznitelikle damgalanır. Özniteliğin değeri Fiziksel Ürünün EIN'i olacaktır.",
+  "EnterpriseItemNumberGroupLabel": "Kuruluş Öğe Numarası",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Geometri ve alt düğüm içermeyen 3DEXPERIENCE mühendislik öğelerini filtreleyin",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Geometri ve alt düğüm içermeyen 3DEXPERIENCE mühendislik öğelerini filtreleyin."
+}

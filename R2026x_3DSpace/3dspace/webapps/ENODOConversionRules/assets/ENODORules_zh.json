@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "派生输出规则详细信息",
+    "doattributes": "衍生输出规则属性",
+    "name": "名称",
+    "connector": "连接器",
+    "implicitRule": "显式规则",
+    "external": "外部生成",
+    "parameters": "转换参数",
+    "converter": "转换器",
+    "origin": "原点",
+    "forceUpdate": "强制更新",
+    "uptodateDO": "最新",
+    "jobStatus": "作业的状态",
+    "format": "格式",
+    "alias": "统一格式",
+    "yes": "是",
+    "no": "否"
+  },
+  "buttons": {
+    "cancel": "取消"
+  },
+  "popup": {
+    "option": "选项",
+    "value": "值",
+    "yesButton": "是",
+    "noButton": "否",
+    "cancelButton": "取消"
+  },
+  "error": {
+    "title": "错误",
+    "invalidFrame": "无法执行操作。刷新小组件并重试。",
+    "invalidParameter": "参数未正确定义。"
+  }
+}

@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_it",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"{0} non è valido",areInvalid:"{0} non sono validi",idNumber:"codice ID",ssnLast4:"Ultime 4 cifre del numero di previdenza sociale"});

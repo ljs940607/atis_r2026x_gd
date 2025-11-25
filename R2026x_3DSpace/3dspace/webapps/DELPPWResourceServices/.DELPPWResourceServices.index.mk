@@ -1,0 +1,11 @@
+m|DELPPWModels\DELPPWResourceServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25220|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWResourceServices\DELPPWResourceServices.js|1754716098|5631
+s|DELPPWModels\DELPPWResourceServices.mweb\src\ResourceUtils.js|1753873063|24796
+t|win_b64\webapps\DELPPWResourceServices\assets\json\LanguagesConfig.json|1754716097|1393
+s|DELPPWModels\DELPPWResourceServices.mweb\src\assets\json\LanguagesConfig.json|1753870255|1393
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

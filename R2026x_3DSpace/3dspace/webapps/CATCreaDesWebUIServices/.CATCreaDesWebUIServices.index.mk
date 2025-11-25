@@ -1,0 +1,15 @@
+m|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CATCreaDesWebUIServices\CATCreaDesWebUIServices.js|1723277551|36864
+s|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDCircle.js|1450176413|17000
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDGrid.js|1560322451|13909
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDSettings.js|1697444751|5981
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDShaders.js|1560322101|25310
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDStrokeInterpreter.js|1450176464|12749
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDWebMathServices.js|1455705100|6423
+u|CATCreaDesWebUIServices\CATCreaDesWebUIServices.mweb\src\CATCrDWebUIServices.js|1594633598|40324
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

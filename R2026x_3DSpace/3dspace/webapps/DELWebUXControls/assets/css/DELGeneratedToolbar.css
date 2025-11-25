@@ -1,0 +1,31 @@
+.del-controls-toolbar-maincontainer{
+	position: absolute;
+	padding: 5px;
+	background: rgba(255, 255, 255, 0.3);;
+	left: 45%;
+	display: flex;
+	width: fit-content !important;
+	height: fit-content !important;
+}
+
+.del-controls-toolbar-maincontainer .del-controls-toolbar-dragContainer{
+	margin: 2px;
+	width: 20px;
+}
+
+.del-controls-toolbar-maincontainer .wux-controls-toolbar-containers .wux-generated-toolbar-items {
+	width: 30px;
+	height: 30px;
+  border: 1px solid transparent
+}
+
+.del-controls-toolbar-maincontainer .wux-controls-toolbar-containers .wux-generated-toolbar-items:hover{
+	border-color: #368ec4;
+	border: 1px solid #368ec4;
+	border-radius: 5px;
+	background-color: #d5e8f2;
+}
+
+.del-toolbar-vertical {
+	flex-direction: column
+}

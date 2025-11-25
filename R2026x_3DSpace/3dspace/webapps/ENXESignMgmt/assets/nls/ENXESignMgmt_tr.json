@@ -1,0 +1,19 @@
+{
+  "EsignAuthCode": "Kod",
+  "EsignVerify": "Doğrula",
+  "EsignValidate": "Doğrula",
+  "EsignAuthLoginUserName": "3DEXPERIENCE ID",
+  "EsignAuthLoginPassword": "Parola",
+  "EsignAuthCodeLabel": "İki faktörlü doğrulama",
+  "EsignAuthLoginReadAndUnderstand": "Kullanıcı adımı ve parolamı girdiğimde, el yazısıyla atılmış imzama eşdeğer olan elektronik imzamı atmış sayıldığımı anlıyorum.",
+  "EsignAuthInvalidCode": "Girdiğiniz kod yanlış",
+  "EsignAuthMandField": "E-posta/Kullanıcı Adı ve Parola alanları zorunlu",
+  "EsignAuthInvalidCredintials": "Yanlış e-posta/kullanıcı adı veya parola",
+  "EsignUserVerification": "Bu onay için elektronik imza gerekli",
+  "EsignUnexpectederror ": "Beklenmeyen Hata. Lütfen tekrar deneyin.",
+  "EsignAuthSelectCheckBox": "Devam etmek için lütfen onay kutusunu seçin.",
+  "EsignTaskAssigneeCheck": "Görev/imza, size atanmadığından Onayla/Reddet işlemi yapılamaz.",
+  "EsignUsernamePlaceholder": "E-posta veya kullanıcı adı",
+  "EsignCodePlaceholder": "Kodu Gir",
+  "EsignCodeMessage": "Lütfen cihazınızda görülen kodu girin"
+}

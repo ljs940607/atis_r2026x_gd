@@ -1,0 +1,23 @@
+{
+  "Notification.UnsupportedVersion": "Ten plik SMG pochodzi z wersji programu Composer, która nie jest już obsługiwana (starszej niż V6R2015x)",
+  "Notification.OlderVersionWithBadImagePreview": "Ten plik SMG pochodzi ze starszej wersji programu Composer. Zalecamy ponowne wygenerowanie plików przy użyciu najnowszej wersji programu Composer. W przeciwnym razie podczas udostępniania pojawi się zły podgląd.",
+  "Notification.GeomLoadingFailed": "Wystąpił błąd podczas wyodrębniania geometrii, zawartość pliku SMG może być niekompletna.",
+  "Notification.SmgOpenFailed": "Nie można otworzyć pliku SMG",
+  "Notification.SmgOpenFailedPassword": "Plik SMG jest chroniony hasłem i nie można go otworzyć.",
+  "Notification.SmgGeomNotFound": "Nie można znaleźć pliku product.smgGeom",
+  "Notification.SmgExpiration": "Nie można otworzyć pliku SMG: data wygasła",
+  "Notification.SmgInvalidSignature": "Nie można otworzyć pliku SMG: nieprawidłowy podpis",
+  "Notification.error": "Błąd",
+  "Notification.warning": "Ostrzeżenie",
+  "Notification.Donotshowagain": "Nie pokazuj ponownie",
+  "Notification.ArrowOldVersion.Title": "Konwersja starych strzałek",
+  "Notification.ArrowOldVersion.Msg": "Wykryto jedną lub kilka nieobsługiwanych strzałek (utworzonych przed wydaniem wersji 2012). Zostały one przekonwertowane na obsługiwane strzałki, które będą wyświetlane w bieżącej aplikacji internetowej. Z powodu tej konwersji pamiętaj, że ich zachowanie może różnić się od zachowania wersji dla komputerów stacjonarnych. Ten komunikat nie będzie wyświetlany w przypadku późniejszych obciążeń modeli z nieobsługiwanymi strzałkami dla tej sesji.",
+  "Property.EncryptedValue": "Zaszyfrowana wartość",
+  "Notification.smgXmlResourcesNotFound": "Nie można znaleźć pliku zasobów do załadowania pliku smgXml.",
+  "Notification.smgXmlSomeResourcesMissing": "Nie znaleziono niektórych plików wymienionych na liście zasobów.",
+  "Sequence.Animation": "Animacja",
+  "Sequence.Views": "Widoki",
+  "Sequence.Layers": "Warstwy",
+  "Sequence.CADViews": "Widoki CAD",
+  "Sequence.CADCaptures": "Przechwycenia CAD"
+}

@@ -1,0 +1,28 @@
+{
+  "intro": "Document Management Experience konfigurieren",
+  "DownloadRules": "Dokument-Download-Regeln",
+  "rule1": "Mehrere Dokumente herunterladen ",
+  "option1": "Ordnerstruktur. Nach “<Dokumentname> <Dokumentrevision>” benannter Ordner, z. B. DOC-00000001 0",
+  "option2": "Flache Liste aller Dateien ohne Ordnerstruktur. In Konflikt stehende Dateinamen erhalten Seriennummern als Suffix",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "Änderungen erfolgreich angewendet",
+  "ApplyError": "Änderungen konnten nicht angewendet werden",
+  "ResetSuccess": "Zurücksetzen erfolgreich",
+  "Enable_Work_Under_Setting": "Arbeiten unter aktivieren",
+  "Enable_Mandatory_Comment_Setting": "Bei jedem Hochladen, Aktualisieren oder Bearbeiten einer Datei als erforderlich festlegen.",
+  "File_Comment_Label": "Dateikommentare",
+  "Work_Under_Accordion_Title": "Konfiguration von Arbeiten unter",
+  "Work_Under": "Arbeiten unter",
+  "Comment_As_Mandatory__Accordion_Title": "Dokumentaktualisierung",
+  "Failed_Load": "Konfigurationen konnten nicht geladen werden.",
+  "DownloadBehaviorTooltip": {
+    "title": "Wählen Sie aus, wie Dateien beim Herunterladen mehrerer Dokumente organisiert werden sollen:",
+    "subtitle1Heading": "• Ordnerstruktur: ",
+    "subtitle2Heading": "• Flache Liste: ",
+    "subtitle1": "Erstellt einen ZIP-Ordner mit Unterordnern für jedes Dokument, wobei die ursprüngliche Dateiorganisation beibehalten wird.",
+    "subtitle2": "Lädt alle Dateien in einer einzelnen Liste ohne Unterordner herunter. Dateien mit demselben Namen werden mit Seriennummern versehen, um Konflikte zu vermeiden."
+  },
+  "WorkUnderRuleTooltip": "Wählen Sie diese Option, um mit einem Änderungsobjekt alle Änderungen als realisierte Änderungen zu erfassen.",
+  "CommentMandatoryTooltip": "Schreibt die Eingabe von Kommentaren für alle Erstellen/Aktualisieren-Aktionen in der Dokumentenverwaltung und beim Speichern von Dokumenten in 3DEXPERIENCE in Collaboration for Microsoft vor. Dateikommentare sind besonders nützlich für Dokumente, die mehrere Dateien enthalten, um Kontext über den Zweck und die Beziehung zum Dokument anzugeben."
+}

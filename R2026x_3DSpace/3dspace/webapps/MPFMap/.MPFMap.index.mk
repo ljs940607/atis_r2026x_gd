@@ -1,0 +1,11 @@
+m|MPFCore\MPFMap.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFMap\MPFMap.js|1725720410|1084
+s|MPFCore\MPFMap.mweb\src\BiMap.js|1724871223|682
+u|MPFCore\MPFMap.mweb\src\Map.js|1724871223|1226
+u|MPFCore\MPFMap.mweb\src\UnmodifiableMap.js|1724871223|307
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

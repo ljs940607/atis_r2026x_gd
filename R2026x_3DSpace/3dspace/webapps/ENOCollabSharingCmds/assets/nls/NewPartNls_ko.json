@@ -1,0 +1,11 @@
+{
+  "createNewPart": "새 파트",
+  "insertNewPart": "새 파트 삽입",
+  "newObjectType": "파트",
+  "multiParentInsertPartTitle": "새 파트 삽입",
+  "multiParentInsertPartMsg": "여러 상위 아래에 새 파트를 삽입하시겠습니까?",
+  "multiParentCannotInsert": "오류: 선택한 개체 아래에 삽입할 수 없습니다.",
+  "CannotInsert.Type": "선택된 개체 아래에 이 개체 유형을 삽입할 수 없습니다({type}).",
+  "okBtn": "확인",
+  "closeBtn": "닫기"
+}

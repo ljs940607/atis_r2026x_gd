@@ -1,0 +1,13 @@
+  {
+    "repositories": [
+        {
+            "name": "AdvFilterUXRepository",
+            "preferences": [{
+                "name": "FilterSelectionMode",
+                "datatype": "enum",
+                "values":["LastRefOfPath","LastInstAndRefOfPath"],
+                "default":1
+            }]
+        }
+    ]
+}

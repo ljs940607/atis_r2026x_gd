@@ -1,0 +1,202 @@
+{
+  "styles": [
+    {
+      "type": "VCXAssociativePath_Spec",
+      "list": [
+        "AssociativePathDefaultBlack",
+        "AssociativePathDefaultBlue",
+        "AssociativePathDefaultRed",
+        "AssociativePathDefaultWhite",
+        "AssociativePathDefaultBlackLinear"
+      ]
+    },
+    {
+      "type": "VCXPolyline_Spec",
+      "list": [
+        "PolylineDefaultGrey_v3",
+        "PolylineDefaultPlain",
+        "PolylineDefaultDash"
+      ]
+    },
+    {
+      "type": "VCXRedLine_Spec",
+      "list": [
+        "RedlineBlue_v3",
+        "RedlineRed"
+      ]
+    },
+    {
+      "type": "VCXSection_Spec",
+      "list": [
+        "SectionBlue",
+        "SectionSimple"
+      ]
+    },
+    {
+      "type": "VCXArrow_Spec",
+      "list": [
+        "ArrowDefaultWhite",
+        "ArrowDefaultGrey",
+        "ArrowDefaultRed",
+        "ArrowDefaultBlue",
+        "ArrowDefaultBlack",
+        "ArrowDefaultWhite_v2",
+        "ArrowDefaultGrey_v2",
+        "ArrowDefaultRed_v2",
+        "ArrowDefaultBlue_v2",
+        "ArrowDefaultBlack_v2",
+        "ArrowDefaultWhite_v3",
+        "ArrowDefaultGrey_v3",
+        "ArrowDefaultRed_v3",
+        "ArrowDefaultBlue_v3",
+        "ArrowDefaultBlack_v3"
+      ]
+    },
+    {
+      "type": "VCXMeasurement_Spec",
+      "list": [
+        "MesureClassicBlack_v3",
+        "MesureClassicBlue_v3",
+        "MesureClassicGrey_v3",
+        "MesureClassicRed_v3",
+        "MesureClassicWhite_v3",
+        "MesureRoundedBoxBlack_v3",
+        "MesureRoundedBoxBlue_v3",
+        "MesureRoundedBoxGrey_v3",
+        "MesureRoundedBoxRed_v3",
+        "MesureRoundedBoxWhite_v3"
+      ]
+    },
+    {
+      "type": "VCXLabel_Spec",
+      "list": [
+        "LabelClassicBlack",
+        "LabelRoundedBoxBlack",
+        "LabelUnderlineBlack",
+        "LabelSimpleBlack",
+        "LabelClassicWhite",
+        "LabelRoundedWhite",
+        "LabelUnderlineWhite",
+        "LabelSimpleWhite",
+        "LabelClassicRed",
+        "LabelRoundedBoxRed",
+        "LabelUnderlineRed",
+        "LabelSimpleRed",
+        "LabelClassicBlue",
+        "LabelRoundedBoxBlue",
+        "LabelUnderlineBlue",
+        "LabelSimpleBlue",
+        "LabelClassicBlack_v2",
+        "LabelRoundedBoxBlack_v2",
+        "LabelUnderlineBlack_v2",
+        "LabelSimpleBlack_v2",
+        "LabelClassicGrey_v2",
+        "LabelRoundedBoxGrey_v2",
+        "LabelUnderlineGrey_v2",
+        "LabelSimpleGrey_v2",
+        "LabelClassicWhite_v2",
+        "LabelRoundedWhite_v2",
+        "LabelUnderlineWhite_v2",
+        "LabelSimpleWhite_v2",
+        "LabelClassicRed_v2",
+        "LabelRoundedBoxRed_v2",
+        "LabelRoundedBoxRed_v3",
+        "LabelUnderlineRed_v2",
+        "LabelSimpleRed_v2",
+        "LabelClassicBlue_v2",
+        "LabelRoundedBoxBlue_v2",
+        "LabelUnderlineBlue_v2",
+        "LabelSimpleBlue_v2"
+      ]
+    },
+    {
+      "type": "VCXCircle_Spec",
+      "list": [
+        "CircleBlack",
+        "CircleWhite",
+        "CircleGrey",
+        "CircleRed",
+        "CircleBlue",
+        "CircleBlack_v2",
+        "CircleWhite_v2",
+        "CircleGrey_v2",
+        "CircleRed_v2",
+        "CircleBlue_v2",
+        "CircleGreen_v2"
+      ]
+    },
+    {
+      "type": "VCXHotspot_Spec",
+      "list": [
+        "HotspotWhiteCircle",
+        "HotspotBlackCircle",
+        "HotspotGreySquare",
+        "HotspotWhiteRounded",
+        "HotspotGreenRhombus",
+        "HotspotRedSquare"
+      ]
+    },
+    {
+      "type": "VCXPanel_Spec",
+      "list": [
+        "TextBoxDefaultBlack",
+        "TextBoxDefaultGrey",
+        "TextBoxDefaultWhite",
+        "TextBoxDefaultRed",
+        "TextBoxDefaultBlue",
+        "TextBoxSimpleBlack",
+        "TextBoxSimpleGrey",
+        "TextBoxSimpleWhite",
+        "TextBoxSimpleRed",
+        "TextBoxSimpleBlue",
+        "TextBoxDefaultBlack_v2",
+        "TextBoxDefaultGrey_v2",
+        "TextBoxDefaultWhite_v2",
+        "TextBoxDefaultRed_v2",
+        "TextBoxDefaultBlue_v2",
+        "TextBoxSimpleBlack_v2",
+        "TextBoxSimpleGrey_v2",
+        "TextBoxSimpleWhite_v2",
+        "TextBoxSimpleRed_v2",
+        "TextBoxSimpleBlue_v2",
+        "TextBoxDefaultBlack_v3",
+        "TextBoxDefaultGrey_v3",
+        "TextBoxDefaultWhite_v3",
+        "TextBoxDefaultRed_v3",
+        "TextBoxDefaultBlue_v3",
+        "TextBoxSimpleBlack_v3",
+        "TextBoxSimpleGrey_v3",
+        "TextBoxSimpleWhite_v3",
+        "TextBoxSimpleRed_v3",
+        "TextBoxSimpleBlue_v3"
+      ]
+    },
+    {
+      "type": "VCXPanel_Spec.1",
+      "list": [
+        "ImageDefaultShadow",
+        "ImageBlackBorder",
+        "ImageWhiteBorder",
+        "ImageRoundShape"
+      ]
+    },
+    {
+      "type": "VCXCallout_Spec",
+      "list": [
+        "CallOutBlack",
+        "CallOutWhite",
+        "CallOutGrey",
+        "CallOutRed",
+        "CallOutBlue",
+        "CallOutBlack_v2",
+        "CallOutWhite_v2",
+        "CallOutGrey_v2",
+        "CallOutGrey_v3",
+        "CallOutRed_v2",
+        "CallOutBlue_v2",
+        "CallOutSimple_v2"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+m|DELPPWModules\DELPPWPXPBIModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25223|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWPXPBIModule\DELPPWPXPBIModule.js|1754944880|12835
+s|DELPPWModules\DELPPWPXPBIModule.mweb\src\DELPXPBISessionManager.js|1749801123|3433
+u|DELPPWModules\DELPPWPXPBIModule.mweb\src\PXPBIAccountabilityUI.js|1754635536|6380
+u|DELPPWModules\DELPPWPXPBIModule.mweb\src\PXPBIAccoutabilityReport.js|1754041314|21068
+u|DELPPWModules\DELPPWPXPBIModule.mweb\src\PXPBIConnector.js|1749805876|1574
+u|DELPPWModules\DELPPWPXPBIModule.mweb\src\PXPBIModule.js|1754636453|7819
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

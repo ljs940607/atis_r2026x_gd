@@ -1,0 +1,1 @@
+define("DS/MPFShopSubmitComponent/MPFShopSubmitComponent_zh",{});define("DS/MPFShopSubmitComponent/assets/nls/ShopSubmitComponent",{submitShop:"提交商店",confirmShopSubmit:"确认商店提交",confirmShopSubmitMessage:"警告！商店信息可能不完整。请确保实验室已准备好待提交，因为某些信息之后可能无法编辑。"});

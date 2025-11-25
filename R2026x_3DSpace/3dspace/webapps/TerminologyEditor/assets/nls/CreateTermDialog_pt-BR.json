@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "Criar nó de navegação",
+    "terminologyCreation": "Criar estrutura de navegação"
+  },
+  "options": {
+    "title": "Título",
+    "titleMessage": "Insira um título",
+    "description": "Descrição",
+    "descMessage": "Insira uma descrição"
+  },
+  "buttons": {
+    "create": "Criar",
+    "cancel": "Cancelar"
+  },
+  "error": {
+    "invalidFrame": "o quadro selecionado é inválido, não é possível criar a caixa de diálogo",
+    "missingcallback": "Retornos de chamada estão faltando",
+    "invalidType": "Você deve chamar esse comando para criar uma estrutura de navegação ou um nó de navegação"
+  }
+}

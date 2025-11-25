@@ -1,0 +1,12 @@
+m|DELPPWModels\DELPPWWebServices.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25161|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWWebServices\DELPPWWebServices.js|1749587030|19253
+s|DELPPWModels\DELPPWWebServices.mweb\src\CommonService.js|1746526545|15736
+u|DELPPWModels\DELPPWWebServices.mweb\src\WebService.js|1746526575|18218
+u|DELPPWModels\DELPPWWebServices.mweb\src\WebserviceUtils.js|1739451887|15999
+u|DELPPWModels\DELPPWWebServices.mweb\src\XMLTranslater.js|1739452019|16706
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

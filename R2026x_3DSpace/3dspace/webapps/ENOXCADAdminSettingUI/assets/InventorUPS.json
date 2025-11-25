@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "settings": [
+    {
+      "id": "INVAutoName",
+      "uitype": "switch",
+      "label": "INVAutoNameLabel",
+      "info": "INVAutoNameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-AutonameOnSave",
+      "groupName": "INVSaveGroupLabel"
+    },
+    {
+      "id": "INVReplaceTitleByNewNameOnAutoname",
+      "uitype": "switch",
+      "label": "INVReplaceTitleByNewNameOnAutonameLabel",
+      "info": "INVReplaceTitleByNewNameOnAutonameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-ReplaceTitleByNewNameOnAutoname",
+      "groupName": "INVSaveGroupLabel"
+    },
+    {
+      "id": "INVCADAttributeMappedToEIN",
+      "uitype": "textbox",
+      "label": "INVCADAttributeMappedToEINLabel",
+      "info": "INVCADAttributeMappedToEINInfo",
+      "mode": "basic",
+      "attribute": "XCAD-CADAttributeMappedToEIN",
+      "groupName": "INVOtherGroupLabel"
+    },
+    {
+      "id": "INVCADEnablePessimisticLocking",
+      "uitype": "switch",
+      "label": "INVCADEnablePessimisticLockingLabel",
+      "info": "INVCADEnablePessimisticLockingInfo",
+      "mode": "basic",
+      "attribute": "XCAD-EnablePessimisticLocking",
+      "groupName": "INVSaveGroupLabel"
+    },
+    {
+      "id": "INVCADFileReadOnly",
+      "uitype": "switch",
+      "label": "INVCADFileReadOnlyLabel",
+      "info": "INVCADFileReadOnlyInfo",
+      "mode": "basic",
+      "attribute": "XCAD-FileReadOnly",
+      "groupName": "INVSaveGroupLabel"
+    },
+    {
+      "id": "INVCADFilterOutNotInCADData",
+      "uitype": "switch",
+      "label": "INVCADFilterOutNotInCADDataLabel",
+      "info": "INVCADFilterOutNotInCADDataInfo",
+      "mode": "basic",
+      "attribute": "XCAD-FilterOutNotInCADData",
+      "groupName": "INVOpenGroupLabel"
+    },
+    {
+      "id": "INVDelimiter",
+      "uitype": "textbox",
+      "label": "INVDelimiterLabel",
+      "info": "INVDelimiterInfo",
+      "mode": "advanced",
+      "className": "com.dassault_systemes.adminsetting.connector.inv.Delimiter",
+      "groupName": "INVOtherGroupLabel"
+    }
+  ]
+}

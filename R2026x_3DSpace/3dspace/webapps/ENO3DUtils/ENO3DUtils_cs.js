@@ -1,0 +1,1 @@
+define("DS/ENO3DUtils/ENO3DUtils_cs",{});define("DS/ENO3DUtils/assets/nls/ENO3DUtils",{mePreferenceLoadingFailureTitle:"Předvolby aplikace nelze načíst",mePreferenceLoadingFailureSubtitle:"Budou použity výchozí předvolby.",mePreferenceLoadingFailureDescritption:"Zkuste to znovu později. Pokud problém přetrvává, obraťte se na správce a požádejte o podporu."});

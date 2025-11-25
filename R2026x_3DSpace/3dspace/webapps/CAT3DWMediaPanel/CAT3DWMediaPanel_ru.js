@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_ru",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"Не найдено распознаваний, создайте новое распознавание и получите доступ к нему здесь",addWBReco:"Запустить распознавание доски"});

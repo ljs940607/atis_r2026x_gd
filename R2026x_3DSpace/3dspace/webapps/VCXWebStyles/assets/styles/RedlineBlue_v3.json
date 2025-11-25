@@ -1,0 +1,27 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.7215686274509804,
+        0.8705882352941177,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Actor.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Actor.Color.Defined",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    }    
+  ],
+  "name": "RedlineBlue_v3",
+  "objectID": "styleID_RedlineBlue_v3",
+  "visible": true
+}

@@ -1,0 +1,39 @@
+<meta charset="UTF-8"/>
+IPClassifyNav.treelistview.Title="Ağaç Listesi Görünümü";
+IPClassifyNav.treeview.Title="Tablo";
+IPClassifyNav.graphview.Title="Grafik Görünümü";
+IPClassifyNav.tileview.Title="Kutucuk";
+IPClassifyNav.thumbnailview.Title="Küçük Resim";
+
+IPClassifyNav.XSCExpand.Title="Genişlet";
+IPClassifyNav.ExpandAll.Title="Tümünü Genişlet";
+IPClassifyNav.ExpandN.Title="n seviye genişlet";
+IPClassifyNav.CollapseAll.Title="Tümünü Daralt";
+IPClassifyNav.XSCSelect.Title="Seç";
+IPClassifyNav.SelectChildren.Title="Alt Öğe Seç";
+IPClassifyNav.SelectAll.Title="Görünenlerin Tümünü Seç";
+IPClassifyNav.SelectInversion.Title="Tersine Çevirmeyi Seç";
+IPClassifyNav.SelectParent.Title="Üst Öğeyi Seç";
+IPClassifyNav.SelectSiblings.Title="Kardeşleri Seç";
+IPClassifyNav.SelectLeaves.Title="Yaprakları Seç";
+
+IPClassifyNav.ReframeAll.Title="Tümünü Sığdır";
+IPClassifyNav.ReframeOn.Title="Şuna Göre Yeniden Çerçevele:";
+IPClassifyNav.ToggleOverview.Title="Genel Bakışı Aç/Kapat";
+IPClassifyNav.GraphLayoutMode.Title="Kompakt/Kompakt Olmayan";
+IPClassifyNav.LayoutDown.Title="Aşağı";
+IPClassifyNav.LayoutRight.Title="Sağ";
+IPClassifyNav.LayoutUp.Title="Yukarı";
+IPClassifyNav.LayoutLeft.Title="Sol";
+IPClassifyNav.SwapThumbState.Title="Küçük Resmi Gizle/Göster";
+
+IPClassifyNav.RootPanel.Title="Kökleri Görüntüle";
+IPClassifyNav.ToggleRightPanel.Title="Yan Paneli Görüntüle";
+IPClassifyNav.RelationIPExplorer.Title="İlişkiler";
+IPClassifyNav.Print.Title="Yazdır";
+IPClassifyNav.PrintOptions.Title="Yazdırma Seçenekleri";
+IPClassifyNav.CleanAll.Title="Tüm nesneleri kaldır";
+IPClassifyNav.Find.Title="Bul";
+IPClassifyNav.ExportCSV.Title="Dışa Aktar";
+IPClassifyNav.ExportCSVOptions.Title="Seçenekleri Dışa Aktar";
+IPClassifyNav.ColumnVisibility.Title="Ağaç Listesi Görünümü Seçenekleri";

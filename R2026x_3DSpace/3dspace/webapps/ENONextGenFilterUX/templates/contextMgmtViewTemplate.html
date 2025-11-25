@@ -1,0 +1,41 @@
+<div class="f-context-container {{stateClass}}">
+
+  <div class="contextCriterion-edit">
+
+    <div class="criterionHeader">
+      <span class="criteriaIcon"><img src={{iconHeader}}></span>
+      <span>{{titleClass}}</span>
+      <span class="ctx-group-menu fonticon fonticon-chevron-down criterionDropDown"></span>
+    </div>
+
+    <div class="selected-nodes">
+      <div id="nodesAddedList" class="selectablesDivCSS">
+      </div>
+
+      <div id="nodesExcludedList" class="selectablesDivCSS">
+      </div>
+
+      <div class="contextCriterion-edit-action">
+        <!-- <div class="buttonToCancel buttonDivCSS"></div> -->
+        <div class="buttonToValidate buttonDivCSS"></div>
+      </div>
+
+      <div class="contextCriterion-edit-maxPath" id="MaxPathContainer">
+        <span class="contextCriterion-edit-maxPath-msg">{{maxPath}}</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contextCriterion-read">
+    <img class="contextReadIcon" src={{iconHeader}}>
+    <div id="readHeader">
+      <span id="prefix" class="contextRead header-bold">{{titleContextReadUX}}</span>
+      <span class="ctx-group-menu fonticon fonticon-chevron-down criterionDropDown"></span>
+      <div>
+        <span id="value" class="contextRead"></span>
+      </div>
+    <div>
+  </div>
+
+</div>

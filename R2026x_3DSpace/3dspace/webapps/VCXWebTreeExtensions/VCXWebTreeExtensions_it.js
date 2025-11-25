@@ -1,0 +1,1 @@
+define("DS/VCXWebTreeExtensions/VCXWebTreeExtensions_it",{});define("DS/VCXWebTreeExtensions/assets/nls/VCXWebTreeExtensions",{"VCXTreeNodeSelectionSetAuthoring.ContextualMenu.AddSelectionSet":"Aggiungi selezione al set di selezione","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Delete":"Elimina","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Rename":"Rinomina"});

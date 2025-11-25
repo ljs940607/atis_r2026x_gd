@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "북마크 폴더",
+  "activeBookmark_cmd": "북마크 폴더 아래의 작업",
+  "name_Section_FavoriteFolders": "즐겨찾기",
+  "name_Section_AllFolders": "북마크 폴더",
+  "activeBookmark_msg_empty": "비어 있음",
+  "activeBookmark_btn_focus": "초점을 북마크 폴더로 설정함",
+  "activeBookmark_msg_noBookmark": "북마크 폴더가 없음",
+  "CMDExpandAll": "모두 확장",
+  "CMDCollapseAll": "모두 축소",
+  "InputLabel": "북마크 폴더",
+  "loader": {
+    "findingObjects": "북마크 폴더 찾기"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "선택",
+    "button_Cancel": "취소",
+    "widget_name": "북마크 폴더에서 선택",
+    "PLMNewBookmarkWidgetName": "북마크 폴더 선택",
+    "msg_ClassifyInProgress": "추가 중...",
+    "msg_ClassifySuccessful": "성공적으로 추가되었습니다.",
+    "msg_ClassifyFailed": "추가 시 오류가 발생했습니다. 추가 액세스 권한이 없거나 해당 북마크 폴더에 이미 추가되어 있습니다.",
+    "msg_selectNodeToSeeInfo": "세부 정보를 보려는 북마크 폴더를 선택합니다."
+  },
+  "multiSelectionNotSupported": "다중 선택은 지원되지 않습니다.",
+  "favoriteSectionNotSupported": "즐겨찾기 섹션에서는 이 명령이 지원되지 않습니다.",
+  "favoriteNotSupported": "이 명령은 즐겨찾기에서 지원되지 않습니다.",
+  "sectionNotSupported": "이 명령은 섹션에서 지원되지 않습니다.",
+  "noSelectionError": "이 명령에는 선택이 필요합니다."
+}

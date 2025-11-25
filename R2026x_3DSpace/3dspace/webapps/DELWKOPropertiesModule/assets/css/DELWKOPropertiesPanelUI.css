@@ -1,0 +1,30 @@
+.key {
+  width: 50%;
+  overflow: hidden;
+  color: #3d3d3d;
+  font-family: Arial;
+  font-size: 12px;
+  /* width: 100%; */
+  font-weight: bold;
+  white-space: nowrap;
+  background: transparent;
+  height: 30px;
+  margin-left: 5%;
+}
+
+.value {
+  /*height: 30px;*/
+  /*width: 50%;
+  overflow-y: overlay;*/
+  width: 45%;
+  text-wrap: balance;
+  word-wrap: break-word;
+}
+
+.editValue {
+width: 100%;
+}
+
+.editBtn {
+margin-left : 92%;
+}

@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_zh",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"确定",lblApply:"应用",lblClose:"关闭",lblPitch:"间距",DirectionLabel:"方向标签",lblDirection1:"第一个",lblDirection2:"第二个",lblDirection3:"第三个",lblScale:"单位比例"});

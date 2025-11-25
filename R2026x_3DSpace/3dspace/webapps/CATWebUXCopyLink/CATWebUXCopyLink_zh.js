@@ -1,0 +1,1 @@
+define("DS/CATWebUXCopyLink/CATWebUXCopyLink_zh",{});define("DS/CATWebUXCopyLink/assets/nls/CATWebUXCopyLinkCmdAdapt",{copyLinkSuccess:"已成功复制对象“{label}”的链接",copyLinkError:"将链接复制到剪贴板时出错"});

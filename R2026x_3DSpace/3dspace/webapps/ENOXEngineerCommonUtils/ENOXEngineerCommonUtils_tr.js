@@ -1,0 +1,1 @@
+define("DS/ENOXEngineerCommonUtils/ENOXEngineerCommonUtils_tr",{});define("DS/ENOXEngineerCommonUtils/assets/nls/XENCommonNls",{loading:"Yükleniyor...","eng.ui.button.ok":"Tamam","eng.ui.button.cancel":"İptal","app.failure":"Uygulama beklenmeyen bir hatayla karşılaştı. Destek için yöneticinizle iletişime geçin."});

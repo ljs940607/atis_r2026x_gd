@@ -1,0 +1,71 @@
+/* Style Variables
+   =============== */
+.wux-controls-card {
+
+  --border-size: 1px;
+  --border-radius: 3px;
+
+  --padding: 4px;
+  --gap: 4px;
+
+  --min-width: 120px; 
+  --max-width: 420px;
+
+  --picture-aspect-ratio: 4/3; /* equivalent to calc(var(--picture-max-width) / var(--picture-max-height)); because calc is not unitless*/
+  
+  --title-height: 18px;
+  --title-gap: 2px;
+  --title-font-icon-size: 14px;
+  --title-img-icon-size: 16px;
+  --title-font-size: 12px; 
+
+  --subtitle-height: 12px;
+  --subtitle-font-size: 11px; 
+
+  --description-font-size: 11px;
+  --description-line-height: 12px;
+  --description-lines: 1;
+
+  --footer-height: 24px; 
+
+  --min-badges-width: 15px;
+
+  --has-picture: 0;
+  --has-content: 0;
+  --has-title: 0;
+  --has-subtitle: 0;
+  --has-description: 0;
+  --has-footer: 0;
+} 
+.wux-controls-card[touch-mode]  {
+  --min-width: 170px;
+
+  --title-height: 18px;
+  --title-font-size: 14px;
+
+  --subtitle-height: 16px;
+  --subtitle-font-size: 12px;
+
+  --footer-height: 42px;
+
+  --min-badges-width: 19px;
+}
+
+/* Misc Variable TODO Replace by :has once supported in PDIR */ 
+/* ========================================================= */
+.wux-controls-card[haspicture]     { --has-picture    : 1; }
+.wux-controls-card[hascontent]     { --has-content    : 1; }
+.wux-controls-card[hastitle]       { --has-title      : 1; }
+.wux-controls-card[hassubtitle]    { --has-subtitle   : 1; }
+.wux-controls-card[hasdescription] { --has-description: 1; }
+.wux-controls-card[hasfooter]      { --has-footer     : 1; }
+
+
+/* Active State
+  ============= */
+.wux-controls-card[active]::before {
+  --active-corner-size: 18px;
+}
+.wux-controls-card[touch-mode][active]::before {
+  --active-corner-size: 24px;
+}

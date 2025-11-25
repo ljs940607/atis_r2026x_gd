@@ -1,0 +1,11 @@
+{
+  "createNewPart": "新規パーツ",
+  "insertNewPart": "新規パーツを挿入",
+  "newObjectType": "パーツ",
+  "multiParentInsertPartTitle": "新規パーツを挿入",
+  "multiParentInsertPartMsg": "新しいパーツを複数の親の下に挿入してよろしいですか?",
+  "multiParentCannotInsert": "エラー: 選択したオブジェクトの下に挿入できません",
+  "CannotInsert.Type": "このオブジェクト タイプは選択したオブジェクトの下に挿入できません: {type}",
+  "okBtn": "OK",
+  "closeBtn": "閉じる"
+}

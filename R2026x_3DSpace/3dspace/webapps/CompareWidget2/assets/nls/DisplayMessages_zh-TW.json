@@ -1,0 +1,21 @@
+{
+  "INST_PROPS_OFF_NONE_AVAILABLE_MSG": "副本屬性比較不適用於此選擇",
+  "INST_PROPS_OFF_TOO_MANY_SELECTED_MSG": "副本屬性僅適用於單一副本選擇",
+  "INST_PROPS_OFF_DURING_LIST_COMPARE_MSG": "比較清單時，無法使用副本屬性",
+  "REF_PROPS_OFF_NONE_AVAILABLE_MSG": "屬性比較比較不適用於此選擇",
+  "REF_PROPS_OFF_TOO_MANY_SELECTED_MSG": "參考屬性僅適用於單一參考選擇",
+  "EFFECTIVITY_OFF_NONE_AVAILABLE_MSG": "有效性比較比較不適用於此選擇",
+  "EFFECTIVITY_OFF_TOO_MANY_SELECTED_MSG": "有效性僅適用於單一選擇",
+  "EFFECTIVITY_OFF_DURING_LIST_COMPARE_MSG": "比較清單時，無法使用有效性",
+  "PROPS_UNAVAILABLE_NO_SELECTION": "選擇以檢視屬性",
+  "NO_DIFFERENCES_FOUND": "找不到差異",
+  "DB_FETCH_FALLBACK": "暫時停用索引加速，因為至少有一個要求的物件尚未經過索引",
+  "DROP_1_OBJ_REPLACE": "只有 1 個物件可供放置以進行取代。",
+  "HIDDEN_STATUSES_IDENTICAL": "隱藏狀態色彩不會顯示。",
+  "GROUP_PLACEHOLDER_SELECTED_MSG": "在此群組中選取列以比較屬性",
+  "FETCH_FAIL_DEFAULT": "無法載入物件。驗證您的連線，並已建立物件索引且可供存取。",
+  "COMPARE_FAILED": "比較失敗",
+  "NEW_VIEWS_MESSAGE": "已新增新檢視：{newViews}",
+  "CUSTOMIZATION_FAILED": "無法套用輪廓自訂項目；使用預設模型組態",
+  "CUSTOM_ATTRIBUTE_DELETED": "缺少 {msgData} 的屬性資訊。若已刪除屬性，應更新設定檔以移除其參考。"
+}

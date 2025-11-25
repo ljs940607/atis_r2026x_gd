@@ -1,0 +1,12 @@
+m|CATWebMove3DUX\CATW3DGeometry.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CATW3DGeometry\CATW3DGeometry.js|1723278315|7425
+s|CATWebMove3DUX\CATW3DGeometry.mweb\src\_copyright.js|1478093832|63
+u|CATWebMove3DUX\CATW3DGeometry.mweb\src\CATW3DEquivalentGeometry.js|1611139423|17438
+u|CATWebMove3DUX\CATW3DGeometry.mweb\src\CATW3DGeometry.js|1475049202|0
+u|CATWebMove3DUX\CATW3DGeometry.mweb\src\CATW3DGeometryEnums.js|1572688627|632
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

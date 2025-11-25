@@ -1,0 +1,70 @@
+{
+  "sectionCutLimitation": "Impossibile visualizzare il taglio di sezione per proseguire il sezionamento",
+  "sectionPrefix": "Sezione",
+  "properties": {
+    "computeContour": "Calcola contorno"
+  },
+  "preferences": {
+    "sectionSectionTitle": "Sezione",
+    "ComputeContourLbl": "Calcola contorno"
+  },
+  "notifyobjectselection": "Selezionare un oggetto per la sezione selettiva",
+  "ok": "OK",
+  "cancel": "Annulla",
+  "ValidateSel": "Seleziona la geometria per definire la posizione del piano di sezione",
+  "firstSelection": "Seleziona la geometria per definire la posizione del piano di sezione",
+  "secondSelection": "Convalidare le selezioni o selezionare la seconda geometria per definire la posizione del piano di sezione",
+  "thirdSelection": "Seleziona la terza geometria per definire la posizione del piano di sezione",
+  "ValidateSelObj": "Convalida oggetti selezionati ",
+  "DMUExitClippingEditionHdr": "Esci dalla modifica del ritaglio",
+  "DMUHideShowHdr": "Mostra/Nascondi",
+  "DMUPropertiesHdr": "Proprietà",
+  "DMUContourViewerHdr": "Visualizzatore secondario sezione",
+  "DMUClippingPositionHdr": "Posizione di ritaglio...",
+  "DMUAlignViewHdr": "Allinea punto di vista",
+  "DMUCutHdr": "Taglia",
+  "DMUCopyHdr": "Copia",
+  "DMUDeleteHdr": "Elimina",
+  "DMUCutUncutHdr": "Taglia/Non tagliare...",
+  "clippingCutUncutPanel": {
+    "title": "Taglia/Non tagliare",
+    "okLabel": "OK",
+    "applyLabel": "Applica",
+    "closeLabel": "Annulla",
+    "cutSelectedElemBnt": "Taglia",
+    "uncutSelectedElemBnt": "Non tagliare",
+    "clearAllBnt": "Deseleziona tutto",
+    "selectedElementslbl": "Elementi selezionati:",
+    "noSelection": "Nessuna selezione"
+  },
+  "clippingPositionPanel": {
+    "title": "Posizione di ritaglio",
+    "position": "Posizione",
+    "positionX": "X:",
+    "positionY": "Y:",
+    "positionZ": "Z:",
+    "translation": "Traslazione",
+    "planeDirW": "W",
+    "planeDirU": "U",
+    "planeDirV": "V",
+    "orientation": "Orientamento",
+    "orientationX": "X:",
+    "orientationY": "Y:",
+    "orientationZ": "Z:",
+    "rotation": "Rotazione",
+    "rotationW": "W:",
+    "rotationU": "U:",
+    "rotationV": "V:",
+    "planePosition": "Posizione del piano",
+    "offset": "Offset",
+    "okBtn": "OK",
+    "cancelBtn": "Annulla"
+  },
+  "stepValueContextualMenu": {
+    "title": "Modifica fase",
+    "stepValue": "Valore di fase",
+    "ApplyAllBnt": "Applica a tutti i campi",
+    "okBtn": "OK",
+    "cancelBtn": "Annulla"
+  }
+}

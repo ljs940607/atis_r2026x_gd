@@ -1,0 +1,84 @@
+{
+	"columns": [
+		{
+			"dataIndex": "tree",
+			"text": "label_Title",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 90,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "menu",
+			"text": "label_ColumnActions",
+			"width": 60,
+			"pinned": "left",
+			"alwaysVisibleFlag": true,
+			"sortableFlag": false,
+			"groupableFlag": false,
+			"typeRepresentation": "contextMenu",
+			"editableFlag": false,
+			"editionPolicy": "EditionOnClick",
+			"allowUnsafeHTMLContent": false,
+			"exportFlag": false,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "ds6w:type",
+			"text": "label_Type",
+			"width": 120,
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"exportFlag": true,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "name",
+			"text": "label_Name",
+			"typeRepresentation": "string",
+			"width": 80,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "ds6w:status",
+			"text": "label_Maturity",
+			"typeRepresentation": "string",
+			"hyperlinkTarget": "_self",
+			"allowUnsafeHTMLContent": false,
+			"exportFlag": true,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "revisionForTMS",
+			"text": "label_Revision",
+			"typeRepresentation": "string",
+			"width": 60,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "ds6w:created",
+			"text": "label_CreationDate",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"exportFlag": true,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "ds6w:modified",
+			"text": "label_LastModified",
+			"typeRepresentation": "string",
+			"editableFlag": false,
+			"allowUnsafeHTMLContent": false,
+			"exportFlag": true,
+			"visibleFlag": true
+		}
+	]
+}

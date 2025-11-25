@@ -1,0 +1,20 @@
+{
+  "dialog_header": "Los atributos de clasificación son objetos de administración globales que deben ser únicos en un tenant y deben reutilizarse en varias clases siempre que sea posible para limitar sus números. Una vez creados todos los atributos de clasificación, solicite al administrador de la plataforma que actualice el modelo de índice, recargue la caché y espere a recibir sus comentarios antes de utilizarlos.",
+  "type": "Tipo",
+  "internalName": "Nombre interno",
+  "predicate": "Predicado 6W",
+  "enable6wPredicate": "Mostrar en etiqueta 6W",
+  "title": "Título",
+  "behavior": "Comportamientos",
+  "multivalued": "Multivalor",
+  "multiline": "Multilínea",
+  "authorizedValues": "Valores autorizados",
+  "hasADefaultValue": "Tiene un valor predeterminado",
+  "defaultValue": "Valor predeterminado",
+  "string": "Cadena",
+  "integer": "Entero",
+  "real": "Real",
+  "boolean": "Booleano",
+  "date": "Fecha",
+  "double": "Atributo con dimensión"
+}

@@ -1,0 +1,9 @@
+{
+  "action": "Action",
+  "actionTooltip": "Nom de l'action",
+  "modalTitle": "Actions",
+  "Add": "Ajouter une action",
+  "Select": "Sélectionner ou rechercher",
+  "Info": "Inscrivez un nom d'action et cliquez sur OK. Cela enregistrera l'action dans la base de données.",
+  "ErrorActionAlreadyDefined": "Valeur spécifiée pour %1 déjà présente. Veuillez choisir un autre nom pour %2"
+}

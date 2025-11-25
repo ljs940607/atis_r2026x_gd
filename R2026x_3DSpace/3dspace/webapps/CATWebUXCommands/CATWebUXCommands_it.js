@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_it",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Schermata copiata negli appunti"});

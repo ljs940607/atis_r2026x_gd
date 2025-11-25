@@ -1,0 +1,1 @@
+define("DS/CATWebUXCopyLink/CATWebUXCopyLink_fr",{});define("DS/CATWebUXCopyLink/assets/nls/CATWebUXCopyLinkCmdAdapt",{copyLinkSuccess:'Le lien vers l\'objet "{label}" a été copié avec succès',copyLinkError:"Erreur lors de la copie du lien vers le presse-papiers"});

@@ -1,0 +1,13 @@
+{
+  "iban": "IBAN",
+  "swift": "SWIFT",
+  "bsbNumber": "BSB 编号",
+  "abaNumber": "ABA 编号",
+  "bankNumber": "银行编号",
+  "transitNumber": "分行编号",
+  "accountNumber": "帐号",
+  "validationFailure": "无法保存帐户信息。请验证信息是否正确。",
+  "saveFailure": "很抱歉，出现错误或您输入的信息不正确。",
+  "modificationPolicy": "请注意，完成验证流程后才可编辑此消息。",
+  "bankAccountSaved": "已成功保存银行帐户信息。"
+}

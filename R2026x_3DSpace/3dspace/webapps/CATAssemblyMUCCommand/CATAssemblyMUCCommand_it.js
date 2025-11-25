@@ -1,0 +1,1 @@
+define("DS/CATAssemblyMUCCommand/CATAssemblyMUCCommand_it",{});define("DS/CATAssemblyMUCCommand/assets/nls/CAT3DPlayMUCSplash",{MUC_SPLASH_LABEL:"Sposta elementi per interagire con 3D"});

@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_it",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0} è obbligatorio",isInvalid:"{0} non è valido",title:"Titolo",description:"Descrizione",image:"Immagine"});

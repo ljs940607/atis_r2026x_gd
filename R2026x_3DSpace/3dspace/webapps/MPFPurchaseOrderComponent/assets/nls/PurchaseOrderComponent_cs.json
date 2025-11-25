@@ -1,0 +1,18 @@
+{
+  "purchaseOrderNumber": "Reference objednávky, která bude uvedena na faktuře",
+  "purchaseOrderLabel": "Štítek, který bude uveden na faktuře",
+  "purchaseOrderFile": "Soubor",
+  "purchaseOrderNoticeMessage": "Potvrdili jste nabídku a zvolili jste odloženou platbu. Nahrajte svoji nákupní objednávku, aby bylo možné zahájit výrobu vaší objednávky.",
+  "learnMoreAboutDifferedPayment": "Přečtěte si více o procesu odložené platby",
+  "uploadPurchaseOrder": "Nahrát nákupní objednávku",
+  "cancleOrder": "Zrušit potvrzení objednávky",
+  "purchaseOrderUploadedMessage": "Nákupní objednávka je nyní nahrána. Výroba může začít.",
+  "learnMoreAboutPurchaseOrder": "Přečtěte si více o procesu odložené platby",
+  "downloadPurchaseOrder": "Stáhnout nákupní objednávku",
+  "save": "Uložit",
+  "purchaseOrder": "Nákupní objednávka",
+  "purchaseOrderDocument": "Dokument nákupní objednávky",
+  "anErrorOccured": "Došlo k chybě. Zkuste to znovu později.",
+  "uploadWarning": "Pozor, dokument nelze po nahrání změnit",
+  "financialExpenseLine": "Finanční řádek výdajů"
+}

@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_ru",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Этап","Step.Action":"Действие","Step.DefaultMessage":"Сообщение по умолчанию для этапа "});

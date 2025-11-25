@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="c" data-name="Calque 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="21" y1="29.5" x2="42" y2="29.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#464646"/>
+      <stop offset="1" stop-color="#141414"/>
+    </linearGradient>
+    <linearGradient id="d" x1="31.5" y1="36.85" x2="31.5" y2="57.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b5e1f8"/>
+      <stop offset="1" stop-color="#22475f"/>
+    </linearGradient>
+    <linearGradient id="f" x1="10.72" y1="16.76" x2="24.28" y2="40.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="h" x1="26.17" y1="7.85" x2="47.46" y2="44.72" xlink:href="#f"/>
+    <radialGradient id="j" data-name="Dégradé sans nom 31" cx="21.5" cy="27.5" fx="21.5" fy="27.5" r="2.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".78" stop-color="#f7f7f8" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f4f5f6" stop-opacity=".5"/>
+    </radialGradient>
+    <linearGradient id="k" x1="14.08" y1="14.83" x2="38.41" y2="56.97" xlink:href="#f"/>
+    <linearGradient id="m" data-name="Dégradé sans nom 117" x1="5.48" y1="47.71" x2="42.84" y2="26.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".17" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".26" stop-color="#fefefe" stop-opacity=".48"/>
+      <stop offset=".26" stop-color="#fefefe" stop-opacity=".5"/>
+      <stop offset=".31" stop-color="#fefefe" stop-opacity=".9"/>
+      <stop offset=".39" stop-color="#fdfdfd" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#fbfbfc" stop-opacity="0"/>
+      <stop offset=".52" stop-color="#fafafb" stop-opacity="0"/>
+      <stop offset=".69" stop-color="#f9f9fa"/>
+      <stop offset=".81" stop-color="#f7f7f8" stop-opacity=".6"/>
+      <stop offset=".83" stop-color="#f6f6f7" stop-opacity=".5"/>
+      <stop offset=".87" stop-color="#f6f6f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="n" data-name="Dégradé sans nom 116" x1="28.08" y1="49.36" x2="45.38" y2="17.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".6"/>
+      <stop offset=".14" stop-color="#fefefe" stop-opacity=".5"/>
+      <stop offset=".26" stop-color="#fefefe" stop-opacity="0"/>
+      <stop offset=".27" stop-color="#fefefe" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#fdfdfd" stop-opacity=".5"/>
+      <stop offset=".84" stop-color="#f5f6f7" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#f4f5f6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="o" data-name="Dégradé sans nom 30" cx="41.5" cy="31.5" fx="41.5" fy="31.5" r="3.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".78" stop-color="#f7f7f8" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f4f5f6" stop-opacity=".5"/>
+    </radialGradient>
+    <linearGradient id="p" x1="49.33" y1="26.21" x2="51.93" y2="30.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <linearGradient id="q" x1="48.15" y1="27.66" x2="52.58" y2="35.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+  </defs>
+  <polygon id="e" data-name="under" points="6.5 50.5 29.5 34.5 56.5 39.5 37.5 57.5 6.5 50.5" fill="url(#d)" opacity=".5" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon id="g" data-name="behind left" points="6.5 50.5 29.5 34.5 28.5 6.5 6.5 50.5" fill="url(#f)" opacity=".5" stroke="#003755" stroke-linejoin="round"/>
+  <polygon id="i" data-name="behind right" points="56.5 39.5 29.5 34.5 28.5 6.5 56.5 39.5" fill="url(#h)" opacity=".5" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="42 31 42 32 21 28 21 27 42 31" fill="url(#a)" stroke-width="0"/>
+  <polygon points="21 27 6.5 15.5 6.5 16.5 21 28 21 27" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round"/>
+  <polygon points="21 27 6.5 15.5 6.5 16.5 21 28 21 27" fill="url(#a)" stroke-width="0"/>
+  <ellipse cx="21.5" cy="27.5" rx="1" ry="2" fill="none" stroke="url(#j)" stroke-linejoin="round" stroke-width="2"/>
+  <polygon id="l" data-name="front" points="28.5 6.5 6.5 50.5 37.5 57.5 56.5 39.5 28.5 6.5" fill="url(#k)" opacity=".8" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="37.5 57.5 39.5 55.5 28.5 6.5 37.5 57.5" fill="#fff" opacity=".75" stroke-width="0"/>
+  <polygon points="28.5 6.5 6.5 50.5 37.5 57.5 28.5 6.5" fill="url(#m)" opacity=".5" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="28.5 6.5 56.5 39.5 37.5 57.5 28.5 6.5" fill="url(#n)" opacity=".5" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="41.5" cy="31.5" rx="1" ry="2" transform="translate(-10.19 24.97) rotate(-30)" fill="none" stroke="url(#o)" stroke-linejoin="round" stroke-width="3"/>
+  <line x1="37.5" y1="57.5" x2="28.5" y2="6.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="56.5 39.5 37.5 57.5 6.5 50.5 28.5 6.5 56.5 39.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="57.5 15.5 41.5 31.5 57.5 32.5 57.5 15.5" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round"/>
+  <polygon points="57.5 15.5 41.5 31.5 57.5 20.5 57.5 15.5" fill="url(#a)" stroke-width="0"/>
+  <polygon points="41.5 31.5 57.5 21.5 57.5 27.5 41.5 31.5" fill="url(#p)" stroke-width="0"/>
+  <polygon points="41.5 31.5 57.5 28.5 57.5 32.5 41.5 31.5" fill="url(#q)" stroke-width="0"/>
+</svg>

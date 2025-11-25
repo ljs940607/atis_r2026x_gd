@@ -1,0 +1,32 @@
+﻿{
+	"afrVersion" :"0.1",
+	"appId" :"X3DPLAW_AP",
+	"afrCode" :"DS/3DPlayApp/3DPlayApp",
+	"afrFamily" :"PAD3DViewerFamily",
+	"brand":"",
+	"afrTransitionsFrom" :{
+		"X3DPLAW_AP": {
+		  "type": "CreateNewContainer"
+	    },
+		"PAD3DViewerFamily" : {
+			"type":"ReuseContext"
+		},
+		"_default_" : {
+			"type":"CreateNewContext"
+		}
+	},
+	"afrTransitionsFromFamily" :{
+		"PAD3DViewerFamily" : {
+			"type":"ReuseContext"
+		},
+		"_default_" : {
+			"type":"CreateNewContext"
+		}
+	},
+	"afrSpecializations": [
+		"X3DPLAW_AP",
+        "X3DPLAW_AP_DefaultExperience",
+        "X3DPLAW_AP_UDLExperience",
+        "X3DPLAW_AP_2DExperience"
+    ]
+}

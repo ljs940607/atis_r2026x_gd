@@ -1,0 +1,16 @@
+m|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb
+b|j|n,u
+b|c|n,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\LocalGenerated\win_b64\css\ENOXDataDragAndDrop.css|1723277190|161
+s|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\src\css\ENOXDataDragAndDrop.scss|1557921940|240
+t|win_b64\webapps\ENOXDataDragAndDrop\assets\ENOXDataDragAndDrop.json|1723277806|0
+s|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\src\assets\ENOXDataDragAndDrop.json|1554703521|0
+t|win_b64\webapps\ENOXDataDragAndDrop\css\ENOXDataDragAndDrop.css|1744917695|128
+g|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\LocalGenerated\win_b64\css\ENOXDataDragAndDrop.css|1723277190|161
+t|win_b64\webapps\ENOXDataDragAndDrop\html\ENOXDataDragAndDrop.html|1723277806|550
+s|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\src\html\ENOXDataDragAndDrop.html|1556252814|550
+t|win_b64\webapps\ENOXDataDragAndDrop\js\ENOXDataDragAndDrop.js|1692183441|4097
+s|ENOXAppsFoundationsUX\ENOXDataDragAndDrop.mweb\src\js\ENOXDataDragAndDrop.js|1692183441|4097
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38

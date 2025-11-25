@@ -1,0 +1,11 @@
+{
+	"modelEvents":[],
+	"actionStartEvents":[
+	],
+	"actionCompletionEvents":[
+		"objectCreation",
+		"objectCreationUIClosed"
+	],
+	"uiEvents":[],
+	"odtEvents":[]	
+}

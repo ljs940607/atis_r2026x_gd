@@ -1,0 +1,1 @@
+define("DS/WebVisuXRToolkitCommands/WebVisuXRToolkitCommands_pt-BR",{});define("DS/WebVisuXRToolkitCommands/assets/nls/translation",{"view.Title":"KitDeFerramentasWebVisuXR"});

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili değerin dizide bulunabileceği ilk indeksi arar. Karşılık gelen çıktı kontrol bağlantı noktası, uygun şekilde etkinleştirilir.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Array": "okunacak dizi.",
+    "Value": "bulunacak değer",
+    "Index": "değerin bulunabileceği ilk indeks. (bulunamazsa tanımsız)"
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Found": "değer bulunursa etkinleştirilir.",
+    "Not Found": "değer bulunamazsa etkinleştirilir."
+  },
+  "example": null
+}

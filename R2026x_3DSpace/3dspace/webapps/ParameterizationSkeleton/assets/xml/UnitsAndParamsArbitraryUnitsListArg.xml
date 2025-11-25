@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="UnitsAndParameters" treelistnls="UnitsAndParameters" modalnls="UnitsAndParameters">
+	<!--<object type="textarea" id="URI" value="" disabled="true" mandatory="true" sortable="false"></object>-->
+  	<object type="textarea" id="arbitraryUnitName" value="" disabled="false"  mandatory="true" sortable="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol" value="" disabled="false"  mandatory="true" sortable="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_en" value="" hidden="false"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_fr" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_de" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_es" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_cs" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_it" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_ja" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_ko" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_pl" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_pt-BR" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_ru" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_zh" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_zh-TW" value="" hidden="true"></object>
+	<object type="textarea" id="arbitraryUnitSymbol_tr" value="" hidden="true"></object>
+</ui>

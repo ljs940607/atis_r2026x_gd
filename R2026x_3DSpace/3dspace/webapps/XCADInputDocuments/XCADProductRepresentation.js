@@ -1,0 +1,1 @@
+define("DS/XCADInputDocuments/XCADProductRepresentation",["DS/XCADInputDocuments/XCADRepresentation"],(function(t){"use strict";return t.extend((function(){throw"Error: cannot instantiate abstract class"}),{getRootProducts:function(){return this._rootProducts}})}));

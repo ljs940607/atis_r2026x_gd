@@ -1,0 +1,1 @@
+define("DS/KnowledgeWebCoreComm/KnowledgeWebCoreComm_pl",{});define("DS/KnowledgeWebCoreComm/assets/nls/KnowledgeWebCoreComm",{ConnectionLost:"Ponowne łączenie..."});

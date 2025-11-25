@@ -1,0 +1,30 @@
+{
+  "DISPLAY_EFFECTIVITY_HEADER": "Display Effectivity",
+  "UX_MULTICONTEXT":"Consolidated View",
+  "UX_MULTICONTEXT_TP":"Toggle Consolidated Expression View",
+  "MODEL_LABEL":"Configuration Context",
+  "NO_EFF_MSG": "No Effectivity is set on the Instance",
+  "NO_EVOLUTION_EFF_MSG":"No Evolution Effectivity is set on the Instance" ,
+  "NO_VARIANT_EFF_MSG": "No Variant Effectivity is set on the Instance",
+  "NO_OCCURRENCE_EFF_MSG": "No Occurrence Effectivity is available on selected instance.",
+  "CFG_TYPE_NOT_SUPPORTED_ERROR": "Display Effectivity is not supported for selected object.",
+  "CFG_MULTIPLE_INSTANCE_NOT_SUPPORTED_ERROR": "Multiple Selections are not supported. Please select single valid instance.",
+  "CFG_NO_OBJECT_SELECTED_ERROR": "No Selection. Please select a valid instance.",
+  "EMPTY_OCCURRENCE_EFF_MSG": " ",
+  "CFG_REFRESH_EFFECTIVITY": "Refresh effectivity",
+  "EVOLUTION_LABEL": "Evolution",  
+  "VARIANT_LABEL": "Variants and Options",  
+  "OCCURRENCE_LABEL": "Occurrence Effectivity",
+  "OFFICIAL_LABEL":"Current View",
+  "PROJECTED_LABEL": "Projected View",
+  "CHANGE_LABEL":"Change View",
+  "GRAPH_LABEL":"Graph View", 
+  "TEXT_LABEL":"Text View",   
+  "EFF_VIEW_FAIL":"Effectivity View Fail",
+  "SEARCH_FAIL":"Search service Failed",
+  "GRAPH_NOT_SUPPORTED":"Graph View Not Supported",
+  "FALSE":"false",
+  "TRUE":"true"
+}
+
+

@@ -1,0 +1,37 @@
+{
+  "SLEAutoNameLabel": "Auto Naming",
+  "SLEAutoNameInfo": "Enables auto-naming while saving parts, assemblies and drawings files in 3DEXPERIENCE for the first time. It applies to all applications authoring Solid Edge data.",
+  "SLESaveGroupLabel": "Save",
+
+  "SLEReplaceTitleByNewNameOnAutonameLabel": "Replace Title By New Name On Autoname",
+  "SLEReplaceTitleByNewNameOnAutonameInfo": "On selection of autoname on save dialog, the existing filename will be replaced by the autoname.",
+
+  "SLECADAttributeMappedToEINLabel": "CAD Attribute Mapped To EIN",
+  "SLECADAttributeMappedToEINInfo": "When value for this attribute is specified,then the function will be enabled and we will stamp CAD file with this attribute and its value would be the EIN of the Physical Product.",
+
+  "SLEEnablePessimisticLockingLabel": "Pessimistic Locking",
+  "SLEEnablePessimisticLockingInfo": "Enabling this feature ensures that data cannot be saved to the platform from the connector unless it is reserved by the current user.",
+
+  "SLECheckinCFGfilesLabel": "Save CFG file",
+  "SLECheckinCFGfilesInfo": "Enabling this feature ensures that CFG file will also be checkedin along with Assembly to the 3DEXPERIENCE",
+
+  "SLEFileReadOnlyLabel": "Make file read-only",
+  "SLEFileReadOnlyInfo": "File will be marked as read-only if it is not reserved by current user. This behavior will be enabled only if pessimistic locking is enabled.",
+
+  "SLECADFilterOutNotInCADDataLabel": "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes",
+  "SLECADFilterOutNotInCADDataInfo": "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes.",
+  "SLEOpenGroupLabel": "Open",
+
+  "SLEDelimiterLabel": "Set Delimiter",
+  "SLEDelimiterInfo": "This delimiter will be used as follows:\n1. To merge values of multi-valued attributes in 3DEXPERIENCE when synchronizing on CAD file.\n2. To split CAD attribute value if it is mapped to multi-valued attribute in 3DEXPERIENCE.",
+  "SLEOtherGroupLabel": "General",
+
+  "InvalidDelimiter": "More than one character is not allowed as a delimiter",
+
+  "SLEConnectNativeDrawingAsLabel": "Connection between Physical Products and Drawings ",
+  "SLEConnectNativeDrawingAsInfo": "This will be used to make Connection between Physical Products and Drawings as one of the three types. \nThis will be one time setting. \nDo not change once done.",
+  "SLEDependencyLinkOnlyLabel": "Connect as dependency link - Drawing is not a child of the Physical Product",
+  "SLEInstantiatedDrawingLabel": "Connect Drawing as child of the Physical Product",
+  "SLEAggregatedDrawingLabel": "Drawing is aggregated below the Physical Product"
+
+}

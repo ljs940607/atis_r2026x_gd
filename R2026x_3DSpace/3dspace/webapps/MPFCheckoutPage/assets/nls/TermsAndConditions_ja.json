@@ -1,0 +1,23 @@
+{
+  "unabletoSaveAgreement": "契約書を保存できません。このエラーが解消されない場合は、サポートにお問い合わせください。",
+  "iAcknowledgeThat": "以下を承認します。",
+  "allBillingInformationIsCorrect": "指定の請求情報はすべて正しいものです",
+  "iAmAMakerOrHobbyist": "私はメーカーまたは趣味の目的で、商業目的にはこのオファーを使用しません",
+  "authorizedToRepresentCompany": "私は会社を代表する権限があります",
+  "iAmOver18YearsOld": "私は 18 歳以上です",
+  "agreeSalesConditions": "{salesConditions} と見積を確認し、同意しました",
+  "agreeSalesConditionsProvidedBy": "{labName} から提供された {salesConditions} と見積を確認し、同意しました",
+  "agreeQuotation": "見積を確認し、同意しました",
+  "salesConditionsLabel": "販売条件",
+  "agreeTermsAndConditions": "{privacyPolicy}の{termsAndConditions}を確認し、同意しました",
+  "termsAndConditionsLabel": "利用条件",
+  "privacyPolicy": "3DS プライバシー ポリシー",
+  "agreeClosa": "DS 製品のアクセスと使用が {closa} および見積によって管理されることを確認し同意しました",
+  "businessExperiencePartnerAgreement": "Business Experience パートナー契約",
+  "closaLabel": "CLOSA",
+  "consentAccess": "私は、これにより DS 製品の即時オンライン アクセスに同意するため、最初のサブスクリプション期間をキャンセルする権利はありません",
+  "next": "次へ",
+  "edit": "編集",
+  "termsAndConditions": "利用条件",
+  "ifweloopAgreements": "DS 製品のアクセスと使用が {closa} によって管理されることを確認し、同意することを承認します。"
+}

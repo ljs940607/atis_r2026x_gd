@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="UnitsAndParameters" regSuite="UnitsAndParametersParams">
+		<Family id="ArbitraryUnits">
+			<Parameter id="ArbitraryUnitsParam">
+				<Argument id="UnitsAndParamsArbitraryUnitsListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="Parameters">
+			<Parameter id="ParametersParam">
+				<Argument id="UnitsAndParamsParametersListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="ParamsCustomAttributes">
+			<Parameter id="ParamsCustomAttributesParam">
+				<Argument id="UnitsAndParamsParametersCustomAttrListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

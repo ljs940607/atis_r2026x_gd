@@ -1,0 +1,24 @@
+{
+  "entries": [
+      {
+          "id": "DisplayOptionsReset",
+          "dataElements": {
+              "typeRepresentation": "functionIcon",
+              "tooltip":"NLS.DisplayOptions.Toolbar.Reset",
+              "icon":{
+                  "iconName": "reset wux-ui-3ds",
+                  "fontIconFamily": 1
+              },
+              "action": {
+                  "module":"DS/DELWebViewerToolbar/commands/BuildupDisplayOptionsCmd",
+                  "func": "reset",
+                  "argument": {
+                      "arg1": false,
+                      "arg2": "all"
+                  }
+              },
+              "position": "far",
+              "category": "1"
+          }
+      }]
+}

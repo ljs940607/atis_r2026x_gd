@@ -1,0 +1,1 @@
+define("DS/MVAInput/MVAInput_tr",{});define("DS/MVAInput/assets/nls/MVAInput",{MVA_input_Placeholder:"bir değer ekle","The item already exists":"Öğe zaten mevcut"});

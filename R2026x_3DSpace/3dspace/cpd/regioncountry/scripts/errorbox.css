@@ -1,0 +1,33 @@
+#alertbox.warning
+{
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url(../images/warning.png);
+    background-repeat:no-repeat;
+}
+
+#alertbox .alertmessage {
+    width: 100%;
+}
+
+#alertbox a
+{
+    cursor: pointer;
+}
+
+#alertbox .spacer
+{
+    padding-left: 48px;
+}
+
+#alertbox td {
+    vertical-align: middle;
+} 
+
+.closebutton {
+	background-image: url(../images/close.png);
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	cursor: pointer;
+}

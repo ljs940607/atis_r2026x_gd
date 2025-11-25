@@ -1,0 +1,1 @@
+define("DS/CAT3DPlayMUCScenario/CAT3DPlayMUCScenario_en",{});define("DS/CAT3DPlayMUCScenario/assets/nls/CAT3DPlayMUCRegister",{MUC_Title:"Move Under Constraints",MUC_Description:"Move Under Constraints"});

@@ -1,0 +1,1 @@
+define("DS/PCsBulkViewPresenter/PCsBulkViewPresenter_zh",{});define("DS/PCsBulkViewPresenter/assets/nls/PCsBulkViewPresenter",{ProductConfiguration:"产品配置",BaseConfiguration:"基本配置",TotalVariability:"总体可变性",TotalProductConfigurations:"产品配置总数"});

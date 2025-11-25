@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "Attiva collegamento di condivisione esterno",
+  "activateShareByLinkDescription": "Chiunque disponga del seguente collegamento può visualizzare in anteprima e scaricare questo contenuto.",
+  "expirationDate": "Data di scadenza: {date}",
+  "restrictAccessToSpecificUsers": "Limita accesso a utenti specifici",
+  "addRestrictions": "Aggiungi restrizioni",
+  "noRestrictedEmails": "Nessuno può accedere al contenuto",
+  "addMessage": "Aggiungi un messaggio",
+  "enterMessageDescription": "Consente di inserire un messaggio personalizzato che verrà aggiunto nell'e-mail inviata",
+  "addRestrictedUsersDescription": "Gli utenti con restrizioni consentono solo all'account collegato a tali e-mail di accedere al contenuto",
+  "authorizedList": "Elenco autorizzazioni ({count}/{max})",
+  "restrictionsCount": "Restrizioni {count}/{max}",
+  "close": "Chiudi",
+  "share": "Condividi",
+  "copyExternalLink": "Copia collegamento esterno",
+  "enableGuestComments": "Abilita commenti guest",
+  "enableGuestCommentsDescription": "Chiunque utilizzi questo link potrà commentare i contenuti e leggere tutti i commenti, inclusi eventuali commenti precedentemente pubblicati dai membri della piattaforma",
+  "externalSharingFeatureDisabled": "La funzione di condivisione esterna non è abilitata su questa piattaforma. Contattare l'amministratore.",
+  "cannotAccessContent": "Contenuto non accessibile.",
+  "platformNotAccessible": "La piattaforma non è accessibile."
+}

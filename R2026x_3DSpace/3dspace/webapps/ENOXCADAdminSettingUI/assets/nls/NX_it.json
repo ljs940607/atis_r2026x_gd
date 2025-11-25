@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Salva",
+  "NXOpenGroupLabel": "Apri",
+  "NXToolkitLicenseGroupLabel": "Disponibilità del convertitore MultiCAD STEP",
+  "NXMissingLinksWarningLabel": "Salva il file con riferimenti mancanti",
+  "NXMissingLinksWarningInfo": "Quando questa opzione è attivata, viene visualizzato un avviso se mancano progetti figlio durante l'operazione di salvataggio nella sessione NX. Quando questa opzione è disattivata, l'operazione di salvataggio procede senza l'avviso.",
+  "NXSuppressPatternElementsLabel": "Sospendi elementi di ripetizione",
+  "NXSuppressPatternElementsInfo": "Quando questa opzione è attivata, questa impostazione sospende gli elementi di ripetizione, in modo che le parti master di ripetizione non vengano visualizzate nella finestra di dialogo Salva. Quando questa opzione è disattivata, la parte mantiene la sua relazione con la parte master di ripetizione, creando una relazione CreaDa.",
+  "NXSTEP242LicenseAvailableLabel": "Disponibilità del convertitore MultiCAD STEP",
+  "NXSTEP242LicenseAvailableInfo": "Impostazione per specificare se il convertitore STEP AP214 o STEP AP242 viene usato quando si aprono progetti multiCAD nella sessione NX. Valore predefinito: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "Attributo CAD mappato in EIN",
+  "NXCADAttributeMappedToEINInfo": "Quando viene specificato il valore per questo attributo, la funzione sarà abilitata e il file CAD verrà timbrato con questo attributo e il suo valore sarà l'EIN del prodotto fisico.",
+  "EnterpriseItemNumberGroupLabel": "Numero elemento impresa",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Filtra gli elementi tecnici 3DEXPERIENCE senza geometria e senza nodi figlio",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Filtra gli elementi tecnici 3DEXPERIENCE senza geometria e senza nodi figlio."
+}

@@ -1,0 +1,9 @@
+<meta charset="UTF-8"/>
+Loading.Failed="Simülasyon Deneyimi yüklenemedi";
+Loading.TimeOut="Deneyim İçeriği yalnızca kısmen alındı. İçerik Seç komutunda daha fazla bilgi bulabilirsiniz";
+Loading.NoDataAccess="Veri bulunamadı. Silinmiş veya erişimi kısıtlanmış olabilir";
+Loading.NoValidStream="Geçerli Deneyim İçeriği bulunamadı";
+Loading.NoLightWeightStream="Bu öğe için Simülasyon Deneyim İçeriği bulunamadı";
+Loading.FilteredContent="Bu Deneyim İçeriği dahilindeki hiçbir içerik bu Uygulamada görüntülenemez. İçerik Seç komutunda daha fazla bilgi bulabilirsiniz";
+Loading.EdgeLevel="Microsoft Edge'in bu sürümü desteklenmiyor. Lütfen Windows 10 güncelleme 1803 veya üzerine yükseltin.";
+Loading.EdgeLevelWin10app="Windows 10'un bu sürümü desteklenmiyor. Lütfen Windows 10 güncelleme 1803 veya üzerine yükseltin.";

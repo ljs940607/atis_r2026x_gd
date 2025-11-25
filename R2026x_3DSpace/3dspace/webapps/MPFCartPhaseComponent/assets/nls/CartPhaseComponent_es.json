@@ -1,0 +1,20 @@
+{
+  "scheduleAndPrices": "Planificación y precios",
+  "addPhase": "Agregar fase",
+  "phaseNumber": "Fase {number}",
+  "description": "Descripción",
+  "price": "Precio",
+  "timeline": "Línea de tiempo",
+  "total": "Total",
+  "paymentAreDueAtBeginningOfPhase": "Nota: Los pagos deben realizarse al principio de cada fase",
+  "startDate": "Iniciar: {date}",
+  "deliveryDate": "Entrega: {date}",
+  "edit": "Editar",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "mustContainOnePhase": "La planificación debe contener al menos una fase",
+  "noPhaseDefined": "No se ha definido ninguna fase",
+  "failedToSaveModifications": "Error al guardar las modificaciones",
+  "failedToLoadPhases": "Error al cargar las fases",
+  "errorOnlyOnePhaseSupported": "Solo se puede añadir una fase en este momento."
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2016 -->
+<Tooltips version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/TooltipConfig.xsd">
+	<Tooltip name="NameRevisionOwner.tooltip">
+		<Attribute name="V_Name" dicoType="PLMEntity" entity="reference"/>
+		<Attribute name="revision" entity="reference"/>
+		<Attribute name="owner" entity="reference"/>
+		<Attribute name="PLM_ExternalID" dicoType="PLMInstance" entity="instance"/>
+	</Tooltip>
+	<Tooltip name="Revision.tooltip">
+		<Attribute name="revision" entity="reference"/>
+	</Tooltip>
+</Tooltips>

@@ -1,0 +1,13 @@
+m|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWItemModelBehaviors\DELPPWItemModelBehaviors.js|1757132700|53756
+s|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb\src\AssignProductBehavior.js|1754221705|51320
+u|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb\src\ImplementBehaviorBase.js|1754221426|29728
+u|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb\src\MfgItemBehavior.js|1756729261|24153
+u|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb\src\ProductImplementBehavior.js|1756729475|98572
+u|DELPPWItemBehaviors\DELPPWItemModelBehaviors.mweb\src\SpecifyScopeIntentDialog.js|1754221697|7550
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Nowa część",
+"ENONewPartHdr.ShortHelp":"Tworzy nową część.",
+"ENONewPartHdr.LongHelp":"W oknie dialogowym wprowadź tytuł, wymagane atrybuty (jeśli występują) i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jedną część, lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejną.",
+"ENOInsertNewPartHdr.Title":"Wstaw nową część",
+"ENOInsertNewPartHdr.ShortHelp":"Utworzenie nowej części i dodanie jej jako potomka do wybranych obiektów.",
+"ENOInsertNewPartHdr.LongHelp":"<p>W oknie dialogowym wprowadź tytuł i opcjonalnie wybierz szablon, aby wybrać wzorzec CAD. Kliknij opcję <uicontrol>Utwórz i zamknij</uicontrol>, aby utworzyć tylko jedną część lub <uicontrol>Utwórz</uicontrol>, aby utworzyć kolejną.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

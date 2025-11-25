@@ -1,0 +1,16 @@
+{
+  "title": "제목",
+  "fileType": "파일 유형",
+  "creationDate": "생성일",
+  "revision": "리비전",
+  "owner": "소유자",
+  "menu": "메뉴",
+  "download": "다운로드",
+  "downloadTitle": "다운로드",
+  "downloadTooltip": "선택된 파일/문서를 다운로드합니다.",
+  "openWith": "연결 프로그램",
+  "openWithTitle": "연결 프로그램",
+  "openWithTooltip": "파일/문서를 호환되는 외부 애플리케이션으로 엽니다.",
+  "noDataGridDisplayed": "표시할 내보낸 문서가 없습니다.",
+  "errorWhenFetchingExportedDocuments": "죄송합니다. 내보낸 문서를 검색하는 동안 오류가 발생했습니다."
+}

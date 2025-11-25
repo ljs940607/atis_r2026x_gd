@@ -1,0 +1,58 @@
+{
+    "maturity_color": [{
+        "stateSysName": "Private",
+        "inactiveColor": "#CD95CB",
+        "activeColor": "#9B2C98",
+        "stateUserName": "Draft"
+    }, {
+        "stateSysName": "In Work",
+        "inactiveColor": "#7FBED1",
+        "activeColor": "#007DA3",
+        "stateUserName": "In Work"
+    }, {
+        "stateSysName": "Frozen",
+        "inactiveColor": "#80C183",
+        "activeColor": "#018308",
+        "stateUserName": "Frozen"
+    }, {
+        "stateSysName": "Released",
+        "inactiveColor": "#BABABA",
+        "activeColor": "#757575",
+        "stateUserName": "Released"
+    }, {
+        "stateSysName": "Obsolete",
+        "inactiveColor": "#FFFFFF",
+        "activeColor": "#FFFFFF",
+        "stateUserName": "Obsolete"
+    }
+],
+
+   "usage": {
+        "synchro": "synchro",
+        "outdated": "outdated",
+        "deleted": "deleted",
+        "latest" :"latest"
+    },
+
+    "url": {
+        "searchModel": "/resources/v1/modeler/dsmbse/dsmbse:Model/search?$serializerVersion=4.3.0",
+        "getStatesAttributes": "/resources/lifecycle/maturity/getStatesAttributes",
+        "getBranchInfo": "/resources/v1/dslc/branchinfo",
+        "pno": {
+            "person": "/resources/modeler/pno/person/"
+        }
+    },
+
+    "defaultPolicies": ["SystemModelVersion","SystemReportVersion", "SystemResourceVersion"],
+
+    "mode": {
+        "usedmodel": "catmbse-usedmodel",
+        "usingmodel": "catmbse-usingmodel"
+    },
+
+    "suffixCid": {
+        "separator": "#",
+        "deactivated": "DEACTIVATED",
+        "denied": "DENIED"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Speichern",
+  "NXOpenGroupLabel": "Öffnen",
+  "NXToolkitLicenseGroupLabel": "MultiCAD STEP-Translator – Verfügbarkeit",
+  "NXMissingLinksWarningLabel": "Datei mit fehlenden Referenzen speichern",
+  "NXMissingLinksWarningInfo": "Wenn diese Option aktiviert ist, wird eine Warnung angezeigt, wenn während des Speichervorgangs in der NX-Sitzung untergeordnete Konstruktionen fehlen. Wenn diese Option deaktiviert ist, wird der Speichervorgang ohne die Warnung fortgesetzt.",
+  "NXSuppressPatternElementsLabel": "Musterelemente unterdrücken",
+  "NXSuppressPatternElementsInfo": "Wenn diese Einstellung aktiviert ist, werden Musterelemente unterdrückt, sodass Musterteile nicht im Dialogfeld Speichern angezeigt werden. Wenn diese Option deaktiviert ist, behält das Teil seine Beziehung zum Musterhauptteil bei, wodurch eine MakeFrom-Beziehung erstellt wird.",
+  "NXSTEP242LicenseAvailableLabel": "MultiCAD STEP-Translator – Verfügbarkeit",
+  "NXSTEP242LicenseAvailableInfo": "Einstellung, mit der festgelegt wird, ob der STEP AP214- oder STEP AP242-Translator beim Öffnen von Multi-CAD-Konstruktionen in einer NX-Sitzung verwendet wird. Standardwert: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "CAD-Attribut ist EIN zugeordnet",
+  "NXCADAttributeMappedToEINInfo": "Die Funktion wird aktiviert, wenn für dieses Attribut ein Wert angegeben wird. Die CAD-Datei erhält dieses Attribut und der Wert entspricht der Unternehmenselementnummer (EIN) des physischen Produkts.",
+  "EnterpriseItemNumberGroupLabel": "Unternehmenselementnummer",
+  "NXFilterOutEngItemsDataNotInCADLabel": "3DEXPERIENCE Konstruktionselemente ohne Geometrie und ohne untergeordnete Knoten ausfiltern",
+  "NXFilterOutEngItemsDataNotInCADInfo": "3DEXPERIENCE Konstruktionselemente ohne Geometrie und ohne untergeordnete Knoten ausfiltern."
+}

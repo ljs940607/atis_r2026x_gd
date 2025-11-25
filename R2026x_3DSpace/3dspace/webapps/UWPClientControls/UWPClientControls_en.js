@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_en",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menu",addTab:"Add Tab",webAppsResizing:"Web Apps resizing is only persistent for {type} Owners",webAppsResizingProductCockpit:"Web Apps resizing is not persisted in this Cockpit"});

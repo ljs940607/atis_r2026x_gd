@@ -1,0 +1,16 @@
+{
+  "OK": "OK",
+  "Cancel": "Annulla",
+  "OpenLocation": "Funzione padre {typeStruct}",
+  "Bookmark_Locations": "{typeStruct} posizioni",
+  "Open": "Apri",
+  "OpenLocationPopupLable": "Selezionare {typeStruct} da aprire:",
+  "msg_error_BookmarkLocation": "Impossibile aprire la posizione per {typeStruct} '{name1}' (potrebbe essere stato eliminato o non è accessibile).",
+  "msg_error_BM_LOC_InValid_Object": "Impossibile selezionare l'oggetto. Potrebbe essere stato eliminato o non è accessibile.",
+  "removeFromSearchNotif": {
+    "success": "L'oggetto è stato rimosso.",
+    "failNotAllowed": "Verificare che {typeStruct} si trovi in uno stato che consenta di modificarne il contenuto.",
+    "serverError": "Aggiornare il widget o il browser e accertarsi di utilizzare le credenziali corrette.",
+    "failNoRelationFound": "Verificare di disporre delle autorizzazioni sufficienti."
+  }
+}

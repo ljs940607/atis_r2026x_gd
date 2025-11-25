@@ -1,0 +1,16 @@
+{
+	"FORMULA":{
+		"IsCompensation": {
+			"Name": "IsCompensation",
+			"NLSKey": "CustoAttr.IsCompensation",
+			"Type": "Boolean",
+			"Protection": 2,
+			"MultiValuated": "No",
+			"HasRangeDefined": "No",
+			"DefaultValue": false,
+			"HasDefault": "Yes"
+		}
+	},
+	"RESOURCE":{},
+	"RECIPE":{}
+}

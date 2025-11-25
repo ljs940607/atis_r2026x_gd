@@ -1,0 +1,1 @@
+define("DS/ENOFrameworkSearch/ENOFrameworkSearch_tr",{});define("DS/ENOFrameworkSearch/assets/nls/ENOFrameworkSearch",{close_button_tooltip:"Kapat",launch_tree_page:"Ayrıntıyı göster",search_header:"Arama Sonuçları"});

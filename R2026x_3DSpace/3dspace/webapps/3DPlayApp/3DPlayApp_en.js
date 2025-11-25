@@ -1,0 +1,1 @@
+define("DS/3DPlayApp/3DPlayApp_en",{});define("DS/3DPlayApp/assets/nls/3DPlayApp",{SpecificData_NoTransition:"This content cannot be opened in another web app.",AutoringAppData_NoTransition:"3DPlay cannot switch from an authoring app.",RTVIssue_NoTransition:"To switch back and forth between 3DPlay and 3DMaster apps, you must always start from a 3DMaster app."});

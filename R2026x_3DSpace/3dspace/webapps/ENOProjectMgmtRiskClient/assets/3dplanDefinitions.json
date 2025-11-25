@@ -1,0 +1,30 @@
+{
+    "3dplan": [
+        {
+            "name": "context",
+            "typesForSearch": "dsplan:xProject,dsplan:ProjectPlanningTemplate"
+        },
+        {
+            "name": "resolvedBy",
+            "typesForSearch": "dsplan:Project,dsplan:xProject,dsplan:Task"
+        },
+        {
+            "name": "affectedItems",
+            "typesForSearch": "dsplan:Project,dsplan:xProject,dsplan:Task,dsplan:Milestone"
+        },
+        {
+            "name": "configuredItems",
+            "typesForSearch": "dsplan:xProject"
+        },
+        {
+            "name": "mitigationTemplates",
+            "typesForSearch": "dsplan:ProjectPlanningTemplate"
+        }
+    ],
+    "3dportfolio": [
+        {
+            "name": "context",
+            "typesForSearch": "dsxpfl:PortfolioVersion"
+        }
+    ]
+}

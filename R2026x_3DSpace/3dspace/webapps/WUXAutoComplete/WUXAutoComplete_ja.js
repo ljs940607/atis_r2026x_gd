@@ -1,0 +1,1 @@
+define("DS/WUXAutoComplete/WUXAutoComplete_ja",{});define("DS/WUXAutoComplete/assets/nls/translation",{AutoComplete:{Placeholder:"検索",CustomFilterMessage:"オブジェクトが見つかりません",Loading:"ロード中です...",Loading_Alt:"読込み中"}});

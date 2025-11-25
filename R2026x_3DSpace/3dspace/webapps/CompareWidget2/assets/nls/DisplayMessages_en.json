@@ -1,0 +1,34 @@
+{
+    "INST_PROPS_OFF_NONE_AVAILABLE_MSG": "Instance properties comparison not applicable for the selection",
+    "INST_PROPS_OFF_TOO_MANY_SELECTED_MSG": "Instance properties only available for single instance selection",
+    "INST_PROPS_OFF_DURING_LIST_COMPARE_MSG": "Instance properties are not available when comparing lists",
+
+    "REF_PROPS_OFF_NONE_AVAILABLE_MSG": "Properties comparison not applicable for the selection",
+    "REF_PROPS_OFF_TOO_MANY_SELECTED_MSG": "Reference properties only available for single reference selection",
+
+    "EFFECTIVITY_OFF_NONE_AVAILABLE_MSG": "Effectivity comparison not applicable for the selection",
+    "EFFECTIVITY_OFF_TOO_MANY_SELECTED_MSG": "Effectivity only available for single selection",
+    "EFFECTIVITY_OFF_DURING_LIST_COMPARE_MSG": "Effectivity not available when comparing lists",
+
+    "PROPS_UNAVAILABLE_NO_SELECTION": "Make a selection to view properties",
+
+    "NO_DIFFERENCES_FOUND": "No Differences Found",
+
+    "DB_FETCH_FALLBACK": "Disabling index acceleration temporarily as at least one requested object hasn't been indexed",
+
+    "DROP_1_OBJ_REPLACE": "Only 1 object may be dropped for replacing.",
+
+    "HIDDEN_STATUSES_IDENTICAL": "Hidden status colors are not shown.",
+
+    "GROUP_PLACEHOLDER_SELECTED_MSG": "Select a Row in this Group to Compare Properties",
+
+    "FETCH_FAIL_DEFAULT": "Unable to load the objects. Verify your connection, and that the objects are indexed and accessible.",
+
+    "COMPARE_FAILED": "Comparison Failed",
+
+    "NEW_VIEWS_MESSAGE": "New views have been added: {newViews}",
+
+    "CUSTOMIZATION_FAILED": "Failed to apply profile customizations; using default configuration",
+
+    "CUSTOM_ATTRIBUTE_DELETED": "Missing attribute information for {msgData}.  If the attribute has been deleted, the profile should be updated to remove references to it."
+}

@@ -1,0 +1,14 @@
+m|WebFoundation\Units.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25112|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\Units\typings\types.d.ts|1737650702|33
+s|WebFoundation\Units.mweb\src\typings\types.d.ts|1737650702|33
+t|win_b64\webapps\Units\Units.js|1739612021|2068
+s|WebFoundation\Units.mweb\src\typings\types.js|1737990714|143
+t|win_b64\webapps\Units\assets\knowledge.json|1723278115|803
+s|WebFoundation\Units.mweb\src\assets\knowledge.json|1433403719|803
+u|WebFoundation\Units.mweb\src\Units.js|1706211856|8627
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

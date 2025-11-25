@@ -1,0 +1,9 @@
+m|ENO6WDocumentManagementClient\3DSpaceDocumentConnector.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25199|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DSpaceDocumentConnector\3DSpaceDocumentConnector.js|1752890718|1052
+s|ENO6WDocumentManagementClient\3DSpaceDocumentConnector.mweb\src\3DSpaceDocumentConnector.js|1752870655|4790
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

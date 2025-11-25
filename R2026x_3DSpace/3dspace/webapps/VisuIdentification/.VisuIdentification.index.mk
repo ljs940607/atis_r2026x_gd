@@ -1,0 +1,12 @@
+m|WebVisualization\VisuIdentification.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VisuIdentification\VisuIdentification.js|1723278139|3006
+s|WebVisualization\VisuIdentification.mweb\src\Converter.js|1515664711|5839
+u|WebVisualization\VisuIdentification.mweb\src\Node.js|1449484062|2284
+u|WebVisualization\VisuIdentification.mweb\src\Pattern.js|1449484089|1833
+u|WebVisualization\VisuIdentification.mweb\src\VisuIdentification.js|1432812998|1
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

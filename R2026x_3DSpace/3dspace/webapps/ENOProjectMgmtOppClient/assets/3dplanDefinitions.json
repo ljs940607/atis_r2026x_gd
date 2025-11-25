@@ -1,0 +1,26 @@
+{
+    "3dplan": [
+        {
+            "name": "context",
+            "typesForSearch": "dsplan:xProject"
+        },
+        {
+            "name": "resolvedBy",
+            "typesForSearch": "dsplan:Project,dsplan:xProject,dsplan:Task"
+        },
+        {
+            "name": "affectedItems",
+            "typesForSearch": "dsplan:Project,dsplan:xProject,dsplan:Task,dsplan:Milestone"
+        },
+        {
+            "name": "configuredItems",
+            "typesForSearch": "dsplan:xProject"
+        }
+    ],
+    "3dportfolio": [
+        {
+            "name": "context",
+            "typesForSearch": "dsxpfl:PortfolioVersion"
+        }
+    ]
+}

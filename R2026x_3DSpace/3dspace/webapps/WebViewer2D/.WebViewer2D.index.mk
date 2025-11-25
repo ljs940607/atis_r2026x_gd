@@ -1,0 +1,13 @@
+m|WebViewers\WebViewer2D.mweb
+b|j|c,m
+b|c|n,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebViewer2D\WebViewer2D.js|1723278179|18145
+s|WebViewers\WebViewer2D.mweb\src\CanvasShapes.js|1598603008|14611
+u|WebViewers\WebViewer2D.mweb\src\ViewerCanvas.js|1649430758|15535
+u|WebViewers\WebViewer2D.mweb\src\ViewerDoc.js|1649430816|14245
+u|WebViewers\WebViewer2D.mweb\src\ViewerError.js|1593094499|1414
+u|WebViewers\WebViewer2D.mweb\src\ViewerSvg.js|1538731800|6106
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

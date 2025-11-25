@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_ja",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0} は必須です",isInvalid:"{0} は無効です",title:"タイトル",description:"説明",image:"イメージ"});

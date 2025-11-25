@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Geçerlilik bilgileri alınırken hata oluştu.",
+  "ERROR_DATA_LOAD_MSG": "Bu nesneye erişiminiz olduğunu doğrulayın.",
+  "ERROR_DATA_FETCH_TITLE": "Nesne detayları alınırken hata oluştu.",
+  "ERROR_EXP_FETCH_TITLE": "Geçerlilik ifadesi detayları alınırken hata oluştu.",
+  "title_label": "Başlık",
+  "instance_title_label": "Başlık",
+  "instance_title_tooltip": "Örnek Başlığı",
+  "evolution_label": "Geçerli Evrim",
+  "owner_label": "Sahip",
+  "type_label": "Tip",
+  "openwith_label": "Birlikte Aç",
+  "filter_label": "Filtre",
+  "filter_mentioned": "{0} atıf yapıldı",
+  "filter_included": "{0} eklendi",
+  "expression_label": "Varyant/Seçenek"
+}

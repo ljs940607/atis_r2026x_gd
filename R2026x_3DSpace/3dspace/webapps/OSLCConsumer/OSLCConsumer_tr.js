@@ -1,0 +1,1 @@
+define("DS/OSLCConsumer/OSLCConsumer_tr",{});define("DS/OSLCConsumer/assets/nls/OSLCConsumerNls",{selectRepository:"Havuz:",selectProvider:"Sağlayıcı:",selectSingleObject:"İletişim kutusunu göndermeden önce lütfen yalnızca tek bir destekleyici belge seçin.",processing:"İşleniyor..."});

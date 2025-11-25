@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "Widok",
+    "MP_DEFAULT": "Widok domyślny",
+    "MP_CUSTO": "Widok niestandardowy",
+    "copyOf": "Kopia {MP_VIEW_NAME}"
+  },
+  "tooltip": {
+    "title": {
+      "check": "Potwierdź",
+      "cancel": "Anuluj",
+      "reset": "Resetuj",
+      "newView": "Nowy widok",
+      "editView": "Edytuj widok",
+      "removeView": "Usuń widok",
+      "addColumn": "Dodaj kolumnę",
+      "removeColumn": "Usuń kolumnę",
+      "lockedColumn": "Kolumna jest zablokowana",
+      "findInAtt": "Znajdź atrybut",
+      "addTypesAndExt": "Zarządzaj typami i rozszerzeniami",
+      "moveUp": "Przenieś w górę",
+      "moveDown": "Przenieś w dół",
+      "moveTop": "Przenieś na wierzch",
+      "moveBottom": "Przenieś na spód"
+    },
+    "check": "Potwierdź bieżącą czynność.",
+    "reset": "Usuwanie wszystkich zmian z widoku.",
+    "cancel": "Anuluj bieżącą czynność.",
+    "findInAtt": "Wyszukaj atrybut we wszystkich dostępnych kolumnach.",
+    "addTypesAndExt": "Dodaj lub usuń typy lub rozszerzenia z dostępnych kolumn.",
+    "moveUp": "Przenieś wybraną kolumnę w górę.",
+    "moveDown": "Przenieś wybraną kolumnę w dół.",
+    "moveTop": "Przenieś wybraną kolumnę na pierwszą pozycję.",
+    "moveBottom": "Przenieś wybraną kolumnę na ostatnią pozycję.",
+    "modificationNotStored": "Zmiany nie zostały zapisane w preferencjach użytkownika.",
+    "maximumView": "Osiągnięto maksymalną liczbę widoków (4), które można utworzyć.",
+    "newView": "Utwórz nowy widok. Można utworzyć maksymalnie 4 widoki.",
+    "editView": "Edytuj bieżący widok.",
+    "removeView": "Usuń bieżący widok.",
+    "addColumn": "Kolumna zostanie przeniesiona w wybranych kolumnach.",
+    "removeColumn": "Kolumna zostanie przeniesiona w dostępnych kolumnach.",
+    "maximumColumn": "Osiągnięto maksymalną liczbę kolumn (30), które można dodać.",
+    "lockedColumn": "Nie można przenieść kolumny."
+  },
+  "commandMenu": {
+    "default": "Widok domyślny",
+    "root": "Widoki tabeli",
+    "admin": "Widoki administratora",
+    "user": "Moje widoki",
+    "widget": "Widok lokalny"
+  },
+  "column_FavoriteTitle": "Tytuł",
+  "column_BookmarkLocation": "Zakładka nadrzędna",
+  "column_Thumbnail": "Miniatura",
+  "column_ApprovalStatus": "Status zatwierdzenia",
+  "column_Menu": "Menu",
+  "admin": "Admin",
+  "toolbar": {
+    "spacing": "Gęstość ",
+    "spacingComfortable": "Komfortowa",
+    "spacingCompact": "Kompaktowa",
+    "checkbox": "Pole wyboru zaznaczenia obiektu",
+    "findInAtt": "Znajdź atrybut ",
+    "resetDefault": "Przywróć domyślne"
+  },
+  "columns": {
+    "attName": "Nazwa atrybutu",
+    "attType": "Typ atrybutu",
+    "colName": "Nazwa kolumny",
+    "pin": "Przypnij",
+    "hide_show": "Ukryj/Pokaż",
+    "findinctx": "Znajdź",
+    "thumbnail": "Podgląd",
+    "thumbnails": "Podgląd",
+    "matrixtxt": "Macierz pozycji",
+    "typeName": "Typ",
+    "extName": "Rozszerzenie"
+  },
+  "attSelection": {
+    "title": "Dostępne kolumny: ",
+    "extension": "Rozszerzenie {typeName}",
+    "REFERENCE": "Odniesienie",
+    "INSTANCE": "Wystąpienie",
+    "CLASSIFICATION": "Klasa",
+    "COMPUTED": "Obliczone",
+    "COMMAND": "Polecenie",
+    "pinLeft": "Przypnij po lewej",
+    "pinRight": "Przypnij po prawej",
+    "unpinned": "Nie przypinaj",
+    "commonAttributes": "Wspólne atrybuty",
+    "typesAttributes": "Atrybuty typu",
+    "extsAttributes": "Atrybuty rozszerzenia",
+    "classifAttributes": "Atrybuty klasyfikacji",
+    "otherColumns": "Inne"
+  },
+  "selectedAtt": {
+    "title": "Wybrane kolumny: "
+  },
+  "typeNext": {
+    "title": "Wybór typów i rozszerzeń",
+    "okBtn": "Zastosuj",
+    "cancelBtn": "Anuluj",
+    "selectionTypeTitle": "Typy",
+    "selectionExtTitle": "Rozszerzenia",
+    "extension": {
+      "placeholder": "Nie wybrano żadnego typu. Wybierz jeden lub więcej typów, aby wyświetlić powiązane rozszerzenia."
+    }
+  },
+  "selectionTitle": "Wybierz typ lub rozszerzenie, aby wyświetlić atrybuty",
+  "dialog": {
+    "title": "Preferencje tabeli",
+    "okBtn": "Zapisz",
+    "cancelBtn": "Anuluj"
+  },
+  "loading": {
+    "default": "Wczytywanie…",
+    "gridCusto": "Wczytywanie preferencji tabeli",
+    "baseTypeAndExt": "Wczytywanie dostępnych typów i rozszerzeń",
+    "gridCustoReset": "Przywróć ustawienia domyślne"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Wystąpienie reprezentacji fizycznej"
+  },
+  "notDisplayedAtt": "Bez wyświetlania w interfejsie użytkownika",
+  "warning": {
+    "emptyName": {
+      "title": "Nazwa widoku nie może być pusta",
+      "msg": "Twoja nazwa widoku jest pusta."
+    },
+    "tooManySelected": {
+      "title": "Maksymalna liczba dostępnych kolumn",
+      "msg": "Dozwolona jest maksymalna liczba kolumn {maxNumber}"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Widok już istnieje",
+      "msg": "Widok o nazwie „{MP_VIEW_NAME}” już istnieje"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Widok już istnieje",
+      "msg": "Widok o nazwie „{MP_VIEW_NAME}” już istnieje"
+    }
+  }
+}

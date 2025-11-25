@@ -1,0 +1,2 @@
+IFCInputDoc_errors.E_UNSUPPORT = "Only IFC4 file are supported";
+IFCInputDoc_errors.NO_TESSELLATION = "Only IFC file with tessellated data are supported";

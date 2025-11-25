@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Yalnızca STEP AP242 dosyası desteklenir",
+    "IFC_UNSUPPORT": "Yalnızca IFC2X3, IFC4 ve IFC4X3_ADD2 dosya formatları desteklenir",
+    "NO_TESSELLATION": "Yalnızca teselasyonlu veri içeren STEP dosyası desteklenir",
+    "NO_ZIP": "Sıkıştırılmış format desteklenmiyor",
+    "EMPTY_ROOT": "Geometrisiz Belge Kökü",
+    "NO_REP": "Desteklenen Gösterim içermeyen belge (Ürün veya parça)",
+    "EXT_REF": "Dış referanslı belge desteklenmez. Yalnızca Yekpare dosya desteklenir",
+    "EMPTY_PROD": "Teselasyonlu Geometrisiz Belge Ürünü",
+    "NO_STPXZ": "arşivdeki stpxz henüz desteklenmiyor"
+  },
+  "warning": {
+    "MISSING_PART": "bazı bağlantılı dosyalar eksik"
+  }
+}

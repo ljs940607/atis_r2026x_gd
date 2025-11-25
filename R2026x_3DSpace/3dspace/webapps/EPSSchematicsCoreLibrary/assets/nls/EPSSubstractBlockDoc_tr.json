@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "Birden çok girdi verisi üzerinde çıkarma işlemi gerçekleştirir.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Veri bağlantı noktası değer tipi <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype> olabilir ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Value1": "işlemin ilk işlem nesnesi.",
+    "Value2": "işlemin ikinci işlem nesnesi.",
+    "Result": "girdi verilerinde gerçekleştirilen işlemin sonucu (seçilen veri bağlantı noktası değer tipine bağlı olarak <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype>)."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

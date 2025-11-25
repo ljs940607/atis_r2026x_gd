@@ -1,0 +1,32 @@
+{
+	"columnConfigPathXML": {
+		"path": "DELPPWFacets/ProcessColumnConfig",
+		"type": "columnConfiguration",
+		"rootNode": "Config"
+	},
+	"indexMappingXML": {
+		"path": "DELPPWFacets/IndexMapping"
+	},
+	"insertFormAttributeXML": {
+		"path": "DELPPWFacets/InsertCmdFormAttribute",
+		"type": "insertFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"relationsColumnMappingXML": {
+		"path": "DELPPWFacets/RelationsColumnMapping",
+		"type": "relationsColumns",
+		"rootNode": "RelationsColumnMapping"
+	},
+	"documemntColumnConfigXML": {
+		"path": "DELPPWFacets/DocumentColumnDisplayAttributeConfig"
+	},
+	"modelRelationsXML": {
+		"path": "DELPPWFacets/ModelRelations"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELPPWFacets/ModelCustomRelations"
+	},
+	"ItemOOTBFiltering": {
+		"path": "DELPPWApplications/ItemOOTBFiltering"
+	}
+}

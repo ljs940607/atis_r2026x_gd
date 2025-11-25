@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+
+    <title>XArchitecture Common</title>
+
+    <!-- Application Metas -->
+    <meta name="autoRefresh" content="false" />
+    <meta name="debugMode" content="true" />
+    <meta name="noSearchInWidgetUI" content="true" />
+    <meta name="author" content="FLE Team" />
+    <meta name="description" content="XArchitecture Common widget to display Logical structure in grid view" />
+    <meta name="brand" content="ENOVIA" />
+
+    <!-- AMDLoader -->
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+    <!-- UWA -->
+    <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+    <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+    <!--  CSS -->
+    <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/iframe.css" />
+    <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+
+    <!-- Web Fundamentals -->
+    <script type="text/javascript" src="../WebUX/WebUX.js"></script>
+
+    <!-- Sample code -->
+    <script>
+        /* global widget, require, define */
+        require(['DS/ENOXArchitectureCommon/ENOXArchitectureCommon',
+        'DS/ENOXArchitectureCommon/services/common.service',
+        'DS/ENOXArchitectureCommon/components/ContentListView/ContextualMenu/contextualmenu.factory',
+        'DS/ENOXArchitectureCommon/components/LogicalReference/Creation/logRef.actions.creation',
+        'DS/ENOXArchitectureCommon/components/LogicalReference/logicalReference.controller'
+        ],
+        function(ENOXArchitectureCommon, CommonService, ContextualMenuFactory, LogRefActionsCreation, LogRefController) {
+
+            'use strict';
+
+            widget.addEvents({
+                //The onLoad() function is the first one,
+                //it will be triggered by widget "onLoad" event.
+                onLoad : function(event) {
+                    let that = this;
+                    ENOXArchitectureCommon.initialize().then(()=> {
+                        widget.setValue('widgetSecCtxPref', 'VPLMProjectLeader.MyCompany.3DS Collab Space');
+                        widget.addPreference({
+                            name: 'timeoutIndex',
+                            type: 'list',
+                            label: 'timeoutIndex',
+                            defaultValue: '180',
+                            options: [ {
+                                label: 'NLS.label_three_minute',
+                                value: '180'
+                            }]
+                        });
+                        widget.addPreference({
+                            name: 'disableIndexAcceleration',
+                            type: 'boolean',
+                            label: 'disableIndexAcceleration',
+                            defaultValue: false
+                        });
+
+                        that.contentListView = ENOXArchitectureCommon.initializeContentListView({
+                            container:widget.body,
+                            configurations: {
+                                column: {
+                                    default: false, // if true will display all base columns
+                                    base: ['name'/*,'maturity'*/], // will remove the columns mentioned in base
+                                    addAdditionalColumns: function (columns, invalidateLayout) {
+                                        return columns.push({
+                                            text: 'Architecture Number',
+                                            dataIndex: 'architectureNumber',
+                                            typeRepresentation: 'url',
+                                            hyperlinkTarget: '_self',
+                                            getCellValue: function(cellModel) {
+                                                var itemId = cellModel.nodeModel.options.physicalid;
+                                                var defaultVal = 'None';
+                                                var returnedLabel = defaultVal;
+                                                if (cellModel.nodeModel.options.grid['ds6wg:architectureextension.v_architecturenumber']) {
+                                                    returnedLabel = cellModel.nodeModel.options.grid['ds6wg:architectureextension.v_architecturenumber'];
+                                                } else if (cellModel.nodeModel.options.grid['ArchitectureExtension.V_ArchitectureNumber']) {
+                                                    returnedLabel = cellModel.nodeModel.options.grid['ArchitectureExtension.V_ArchitectureNumber'];
+                                                }
+                                                return {
+                                                    label: returnedLabel
+                                                };
+                                            },
+                                            //getCellGroupingKey: that._getCellGroupingKey.bind(that, 'architectureNumber')
+                                        });
+                                    }
+                                },
+                                contextualMenu: {
+                                    removeCommands: ['reserve','unreserve'],
+                                    addAdditionalCommands: createAdditionalCommands.bind(that)
+                                },
+                                cell: {
+                                    getCustomCellTooltip: function (contentView, cellInfos) {
+                                        if (cellInfos.nodeModel && cellInfos.columnID === 0 && cellInfos.nodeModel._options.grid.titleTooltip) {
+                                            return {shortHelp: cellInfos.nodeModel._options.grid.titleTooltip, updateModel: false};
+                                        } else if (cellInfos.nodeModel && cellInfos.columnID === 1 && cellInfos.nodeModel._options.grid.cueTooltip) {
+                                            var nodeTooltip = cellInfos.nodeModel._options.grid.cueTooltip;
+                                            return {shortHelp: nodeTooltip, updateModel: false};
+                                        } else {
+                                            return contentView.getCellDefaultTooltip(cellInfos);
+                                        }
+                                    }
+                                },
+                                services: {
+                                    getAdditionalAttributes: function () {
+                                        return [{
+                                            curi: "ds6wg:architectureextension.v_architecturenumber",
+                                            bo: true,
+                                            selectable: "ArchitectureExtension.V_ArchitectureNumber",
+                                            nls: 'Architecture Number'
+                                        }]
+                                    }
+                                },
+                                dnd: {
+                                getDnDCustomization: getDnDCustomization.bind(that)
+                            }
+                        }
+                    });
+
+                    that.contentListView.modelEvents.subscribe({event: 'xarch-dgv-column-click'}, function (data) {
+                        console.log('Inside event xarch-dgv-column-click - ' + data.dataIndex + ' column clicked');
+                    });
+					// big structure
+					that.contentListView.modelEvents.publish({event: 'xarch-dgv-refresh',data: {itemId: 'A4BB8256126D2F006841304000000003'}});
+
+					// small structure
+					//that.contentListView.modelEvents.publish({event: 'xarch-dgv-refresh',data: {itemId: 'D7B7AC56DAF2180065CA2AD4000BC095'}});
+
+                    // setTimeout(()=>{
+                    //     contentListView.modelEvents.publish({event: 'xarch-dgv-refresh'});
+                    // },200)
+
+                    // advance filter parameters to be saved in widget with key 'NGFilter'
+                });
+
+            },
+            onRefresh: function(event) {
+
+            },
+            onResize: function(event) {
+
+            },
+            onUpdateBody: function(event) {
+
+            },
+            onContextChange: function(event) {
+
+            },
+            endEdit: function(event) {
+
+            }
+        });
+
+        let dataCopied;
+        function createAdditionalCommands (menu,params) {
+            let that = this;
+
+            // Get selected nodes and check what is in the selection
+            var selectedNodes = params.collectionView.treeDocument.getSelectedNodes();
+
+            // This part of code can be useful to detect what is in the selection
+            var heterogeneousSelection = false,isAllLogicalSelection = false, onlyImpLinksSelected = false, hasimplLinkSelected =false,isRootSelected=false;
+
+            if (selectedNodes[0].isRoot()) {
+                isRootSelected = true;
+            }
+
+            // mono selection
+            if (selectedNodes.length === 1){
+                if (selectedNodes[0].options.linkInfo) {
+                    onlyImpLinksSelected = true; // only implement links are selected
+                    hasimplLinkSelected = true; // has at least one implement link in the selection
+                }
+            }
+
+            // multi selection
+            if (selectedNodes.length > 1) {
+               var bOtherNodesThatLinksExist = false;
+               var bOtherNodesThatRefImplLinksExist = false;
+               for (var i = 0; i < selectedNodes.length; i++) {
+                   if (selectedNodes[i].options.grid.kindOfRFLP !== selectedNodes[0].options.grid.kindOfRFLP) {    // Check if heterogeneous selection
+                       heterogeneousSelection = true;
+                   }
+                   if (selectedNodes[i].options.linkInfo ) {
+                       hasimplLinkSelected = true; // has at least one implement link in the selection
+                   }
+                   if (!bOtherNodesThatLinksExist) {
+                       if ( selectedNodes[i].options.linkInfo ) {
+                           onlyImpLinksSelected = true;  // only implement links are selected
+                       } else {
+                           bOtherNodesThatLinksExist = true;
+                           onlyImpLinksSelected = false;
+                       }
+                   }
+               }
+           }
+
+           // create items that can be added in the menu
+
+            var createCopyMenu = ContextualMenuFactory.createMenuItem({
+                title: 'Copy Attributes',
+                fonticon: 'copy',
+                callback: function () {
+                    console.log('Copy Attributes - callback event called');
+                    LogRefController.openCmdCopyAttributes({
+                        contentView: that.contentListView.contentView
+                    });
+                    dataCopied = 'attributes-copied';
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null
+            });
+
+
+            if (dataCopied === 'attributes-copied') {
+                var createCopyMenu = ContextualMenuFactory.createMenuItem({
+                    title: 'Paste Attributes',
+                    fonticon: 'paste',
+                    callback: function () {
+                        console.log('Paste Attributes - callback event called');
+                        dataCopied = null;
+                        LogRefController.openCmdPasteAttributes({
+                            contentView: that.contentListView.contentView
+                        });
+                    },
+                    disabled: null,
+                    tooltip: null,
+                    icon: null
+                });
+            }
+
+            var insertNewSubMenu = ContextualMenuFactory.createMenuItem({title: 'Insert New',
+            fonticon: 'plus'});
+            insertNewSubMenu.submenu = [
+            ContextualMenuFactory.createMenuItem({
+                title: 'Insert New Logical Reference',
+                fonticon: false,
+                callback: function () {
+                    console.log('Insert New Logical Reference - callback event called');
+                    LogRefController.openCmdCreateLogicalReference({
+                        container: widget.body,
+                        contentView: that.contentListView.contentView,
+                        showSubtype: false
+                    });
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null,
+                subMenuId: 'logicalReference'
+            }),
+            ContextualMenuFactory.createMenuItem({
+                title: 'Insert Existing Logical Reference',
+                fonticon: false,
+                callback: function () {
+                    console.log('Insert Existing Logical Reference - callback event called');
+                    LogRefController.openCmdExistingLogicalReference({
+                        allowedTypes: 'RFLVPMLogicalReference',
+                        search_title: 'Select Logical Reference',
+                        container: that.contentListView.contentView.getContent(),
+                        contentView: that.contentListView.contentView
+                    });
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null,
+                subMenuId: 'logicalReference'
+            })
+
+            ];
+
+            // Implement Links
+            var createImplementRelationCmd = ContextualMenuFactory.createMenuItem({
+                title: 'Create Implement Relation',
+                fonticon: 'convergence-state',
+                callback: function () {
+                    console.log('Create Implement Link - callback event called');
+                    LogRefController.openCmdCreateImplementRelation({
+                        contentView: that.contentListView.contentView,
+                        types: 'RFLVPMLogicalReference, VPMReference',
+                        multisel: true
+                    });
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null
+            });
+
+            //delete Implement links 
+            var deleteImplementRelationCmd = ContextualMenuFactory.createMenuItem({
+                title: 'Delete Implement Relation',
+                //fonticon: 'convergence-state',
+                callback: function () {
+                    console.log('Create Implement Link - callback event called');
+                    LogRefController.openCmdDeleteImplementRelation({
+                        contentView: that.contentListView.contentView,
+                    });
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null
+            });
+
+            // Detach Instance
+            var detachInstanceCmd = ContextualMenuFactory.createMenuItem({
+                title: 'Detach',
+                fonticon: 'tree-delete',
+                callback: function () {
+                    LogRefController.openCmdDetachLogicalReference({
+                        contentView: that.contentListView.contentView
+                    });
+                },
+                disabled: null,
+                tooltip: null,
+                icon: null
+            });
+
+            // add items in the menu accordingly to the content of the selection
+            if(onlyImpLinksSelected){
+                // can add command delete ref ref implement link
+                menu.splice(menu.length-1,0,deleteImplementRelationCmd);
+            }else{
+                if (selectedNodes.length == 1){
+                    menu.splice(5,0,createCopyMenu);
+                    if (dataCopied === 'attributes-copied') {
+                        menu.splice(6,0,createCopyMenu);
+                    }
+                    let pos = (dataCopied === 'attributes-copied')? 7 : 6;
+                    menu.splice(pos,0,insertNewSubMenu);
+                    menu.splice(pos+1,0,createImplementRelationCmd);      
+                }
+                if(!isRootSelected && !hasimplLinkSelected){
+                    menu.splice(menu.length-1,0,detachInstanceCmd);
+                }
+            }
+
+            return Promise.resolve(menu);
+        };
+
+        function getDnDCustomization () {
+            let that = this;
+            return {
+                acceptDrop : function(e, dndInfos){
+                    var parentTarget = null;
+                    if(dndInfos.dropPosition === 'middle') {
+                        parentTarget = dndInfos.nodeModel;
+                    }
+                    else if(dndInfos.dropPosition === 'top' || dndInfos.dropPosition === 'bottom'){
+                        // do not accept drop at root level
+                        if(dndInfos.nodeModel.isRoot()) {
+                            return false;
+                        }
+                        parentTarget = dndInfos.nodeModel.getParent();
+                    }
+
+                    if(!parentTarget || (parentTarget && parentTarget.options.virtual)){
+                        // don't accept drop on category nodes, virtal nodes and links
+                        return false;
+                    } else if(dndInfos.draggedNodes) {
+                        for (var i = 0; i < dndInfos.draggedNodes.length; i++) {
+                            if(dndInfos.draggedNodes[i].isAscendantOf(parentTarget)){
+                                // can't accept drop on descendants it will form a cyclic link
+                                return false;
+                            }
+                        }
+                        return true;
+                    } else {
+                        return true;
+                    }
+                },
+                onDropCallback : function(e, dndInfos) {
+                    var parentTarget = null;
+                    if (dndInfos.dropPosition === 'middle') {
+                        parentTarget = dndInfos.nodeModel;
+                    }
+                    else if (dndInfos.dropPosition==='top' || dndInfos.dropPosition === 'bottom') {
+                        parentTarget = dndInfos.nodeModel.getParent();
+                    }
+                    var dataTransfered = e.dataTransfer ? JSON.parse(e.dataTransfer.getData('Text')) : null;
+                    var droppedNodes= dndInfos.droppedNodes;
+                    if (parentTarget && droppedNodes && droppedNodes.length > 0) {
+                        // nodes dragged from the current grid view => reparent action
+                        var instancesToReparent = null;
+                        var labelString = '';
+
+                        // test if parent target is already the parent of dropped nodes. In this case no need to reparent
+                        var idParents = droppedNodes.map(node => !node.isRoot() ? node.getParent().getID() : undefined);
+                        var isAlreadyTargetParent = idParents.every( id => id === parentTarget.getID());
+
+                        if(isAlreadyTargetParent){
+                            //CommonUtil.alertMessage('warning',  'error_reparent', '', "The instances selected to reparent are already under the current selected parent");
+                            return;
+                        }
+
+                        for (var i = 0; i < droppedNodes.length; i++) {
+                            if (droppedNodes[i].isRoot()) {
+                                // reparent the root node is not possible
+                                CommonUtil.alertMessage('error', 'error_reparent', '', NLS.msg_remove_root);
+                                return;
+                            } else if (droppedNodes[i].options.instance && droppedNodes[i].options.instance.physicalid) {
+                                labelString = labelString + droppedNodes[i].options.label + '<br>';
+                            } else {
+                                // we can reparent only Logical instance
+                                if (droppedNodes[i].options.linkInfo) {
+                                    //CommonUtil.alertMessage('error', 'error_reparent');
+                                } else {
+                                    //CommonUtil.alertMessage('error', 'error_reparent');
+                                }
+                                return;
+                            }
+                        }
+                        instancesToReparent = {
+                            instances: droppedNodes,
+                            nameList: labelString
+                        };
+                        if(instancesToReparent) {
+                            LogRefController.openCmdReparent({
+                                parentNode: parentTarget,
+                                params: {collectionView: that.contentListView.contentView},
+                                infoInstToReparent: instancesToReparent
+                            });
+                        }
+                    } else if (parentTarget && dataTransfered) {
+                        // nodes dragged from an external grid view => Insert as Instance action OR create ref ref link when press the alt key
+                        var transferedItems=dataTransfered.data.items;
+                        if(transferedItems && transferedItems.length){
+                            // check if insertion of Logical type
+                            CommonService.getKindOfRFLP(transferedItems.map(item=> item.objectId)).then(function (kindOf) {
+                                if (e.altKey) {
+                                    // create ref ref link when press alt key
+                                    // if (transferedItems.length === kindOf.length && kindOf.every(x=>x==="R" || x==="F" || x==="L" || x==="P" )){
+                                    //     var data=[];
+                                    //     transferedItems.forEach((item, i) => {
+                                    //         var kindOfObject= kindOf[i];
+                                    //         var obj = {};
+                                    //         if (kindOfObject === 'P') {
+                                    //         obj.implementing =item.objectId;
+                                    //         obj.implemented = parentTarget.options.physicalid;
+                                    //         } else {
+                                    //         obj.implementing = parentTarget.options.physicalid;
+                                    //         obj.implemented = item.objectId;
+                                    //         }
+                                    //         data.push(obj);
+                                    //     });
+                                    //     ImplementLinkService.createScopeLinks(data).then(function () {
+                                    //         ModelEventsUtil.getFLWebModelEventsObj('xarch-dgv-events').publish({event: 'refresh-refLinks-by-id', data: [parentTarget]});
+                                    //         CommonUtil.alertMessage('success', '', NLS.msg_ref2ref_create_success);
+                                    //     })['catch'](function (errors) {
+                                    //         CommonUtil.displayError(errors, null, null, NLS.error_create_refref_link);
+                                    //     });
+                                    // } else {
+                                    //     CommonUtil.alertMessage('error', NLS.msg_invalid_type, NLS.msg_drop_invalid_type_RFLP);
+                                    // }
+                                } else {
+                                    if (transferedItems.length === kindOf.length && kindOf.every(x=>x==='L')){
+                                        // insert as instance
+                                        var itemsToAdd=transferedItems.map(function(item){
+                                            return {
+                                                id : item.objectId,
+                                                'ds6w:label' : item.displayName,
+                                                'ds6wg:revision' : ''
+                                            };
+                                        });
+                                        LogRefActionsCreation.addExistingItemAsInstance(parentTarget, that.contentListView.contentViewContainer, that.contentListView.contentView.treeDocument, itemsToAdd);
+                                    } else {
+                                        //CommonUtil.alertMessage('error', NLS.msg_invalid_type, NLS.msg_drop_invalid_type_Logical);
+                                    }
+                                }
+                            }).catch(function(){
+                                if(e.altKey) {
+                                    //CommonUtil.alertMessage('error', null, NLS.msg_error_drop_add_alt);
+                                } else {
+                                    // CommonUtil.alertMessage('error', null, NLS.msg_error_drop_add);
+                                }
+                            });
+                        }
+                    }
+                },
+                getTextInvite : function(e, dndInfos, acceptDrop){
+                    if(acceptDrop){
+                        if(dndInfos.draggedNodes){
+                            // if draggedNodes => drag from the gridview itsefl
+                            return {
+                                text : "Drop here to reparent",
+                                icon : 'plus'
+                            };
+                        } else {
+                            if(e.altKey) {
+                                return {
+                                    text : "Drop here to create Implementation Relation", // ?? usecase
+                                    icon : 'plus'
+                                };
+                            } else {
+                                return {
+                                    text : 'Drop here to insert as instance',
+                                    icon : 'plus'
+                                };
+                            }
+                        }
+                    }
+                }
+            };
+        };
+    });
+</script>
+<!-- Application JS End -->
+</head>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="34.37" y1="41.64" x2="39.79" y2="51.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="e" x1="17.28" y1="10.05" x2="25.49" y2="24.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <linearGradient id="g" x1="29.78" y1="44.56" x2="36.78" y2="56.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="i" x1="36.04" y1="6.19" x2="48.82" y2="28.31" xlink:href="#g"/>
+    <linearGradient id="m" x1="39.04" y1="32.3" x2="51.96" y2="54.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="o" x1="20.24" y1="25.92" x2="33.4" y2="48.71" gradientTransform="translate(0 66) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="r" x1="36.04" y1="6.19" x2="48.82" y2="28.31" xlink:href="#g"/>
+    <linearGradient id="s" x1="37.06" y1="24.95" x2="39.77" y2="29.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset=".94" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="t" x1="36.24" y1="22.76" x2="38.76" y2="27.14" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="u" x1="31.22" y1="25.66" x2="33.89" y2="30.28" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="v" x1="21.46" y1="29.21" x2="24.43" y2="34.35" xlink:href="#a"/>
+    <linearGradient id="w" x1="20.59" y1="26.56" x2="23.41" y2="31.44" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="x" x1="15.06" y1="29.75" x2="18.05" y2="34.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="y" x1="30.77" y1="19.36" x2="33.23" y2="23.64" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="z" x1="15.62" y1="23.12" x2="18.37" y2="27.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset=".96" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="aa" x1="17.1" y1="40.91" x2="14.6" y2="45.67" gradientTransform="translate(0 66) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="ab" x1="9.22" y1="23.66" x2="11.89" y2="28.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset=".86" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="25.33" y1="19.85" x2="27.78" y2="24.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset=".96" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="ad" x1="41.76" y1="56.76" x2="32.93" y2="47.93" gradientTransform="translate(0 66) scale(1 -1)" xlink:href="#m"/>
+    <linearGradient id="ae" x1="31.8" y1="54.3" x2="22.18" y2="44.68" gradientTransform="translate(0 66) scale(1 -1)" xlink:href="#m"/>
+    <linearGradient id="af" x1="21.53" y1="52.03" x2="10.91" y2="41.41" gradientTransform="translate(0 66) scale(1 -1)" xlink:href="#m"/>
+    <linearGradient id="ah" x1="41.63" y1="26.8" x2="49.37" y2="40.2" xlink:href="#a"/>
+    <linearGradient id="aj" x1="42.75" y1="51.15" x2="46.19" y2="57.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d4d5d3"/>
+    </linearGradient>
+    <linearGradient id="ak" x1="46.1" y1="48.52" x2="50.84" y2="56.73" xlink:href="#g"/>
+    <linearGradient id="al" x1="54.31" y1="49.4" x2="58.62" y2="56.85" xlink:href="#e"/>
+    <linearGradient id="am" x1="49.66" y1="46.77" x2="55.27" y2="56.48" xlink:href="#a"/>
+  </defs>
+  <g id="q" data-name="Factory">
+    <polygon points="35.5 6.5 35.5 18.5 48.5 28.5 48.5 14.5 35.5 6.5" fill="url(#r)" stroke="#323232" stroke-linejoin="round"/>
+    <path d="M17.5,38.5l-11-12,29-8,13,10-31,10Z" fill="url(#o)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="28.93 10.88 25.5 8.5 19.32 12.62 16.5 10.5 6.5 16.5 6.5 26.5 35.5 18.5 35.5 6.5 28.93 10.88" fill="url(#e)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="43.5 24.4 43.5 27.5 33.5 30.5 33.5 27 43.5 24.4" fill="url(#s)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="31.5 25.5 33.5 27 43.5 24.4 41.5 22.9 31.5 25.5" fill="url(#t)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="31.5 25.5 31.5 28.75 33.5 30.5 33.5 27 31.5 25.5" fill="url(#u)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="28.5 28.5 17.5 31.5 17.5 35.25 28.5 32 28.5 28.5" fill="url(#v)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="26 26.75 15.5 29.5 17.5 31.5 28.5 28.5 26 26.75" fill="url(#w)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="17.5 35.25 17.5 31.5 15.5 29.5 15.5 33 17.5 35.25" fill="url(#x)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="27.5 24.25 36.5 21.75 36.5 18.75 27.5 21.25 27.5 24.25" fill="url(#y)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="22.5 22.5 22.5 25.5 11.5 28.5 11.5 25.5 22.5 22.5" fill="url(#z)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="9.5 23.5 11.5 25.5 22.5 22.5 20 21 9.5 23.5" fill="url(#aa)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="11.5 28.5 9.5 26.25 9.5 23.5 11.5 25.5 11.5 28.5" fill="url(#ab)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="27.5 24.25 25.5 22.5 25.5 19.75 27.5 21.25 27.5 24.25" fill="url(#ac)" stroke="#003755" stroke-linejoin="round"/>
+    <path d="M38.5,21.5l-12-9,9-6,13,8-10,7Z" fill="url(#ad)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="38.5 17.5 38.5 21.5 35.7 19.4 38.5 17.5" fill="url(#e)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M28.5,24.3l-12-9.8,9-6,13,9-10,6.8Z" fill="url(#ae)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="28.5 19.5 28.5 24.3 25.2 21.6 28.5 19.5" fill="url(#e)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M17.5,26.5l-11-10,10-6,12,9-11,7Z" fill="url(#af)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="35.5 6.5 28.93 10.88 25.5 8.5 19.32 12.62 16.5 10.5 6.5 16.5 6.5 26.5 17.5 38.5 48.5 28.5 48.5 14.5 35.5 6.5" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  </g>
+  <g id="ag" data-name="Calendar">
+    <polygon points="54.5 31.5 54.5 29.5 52.5 29.5 52.5 31.5 46.5 31.5 46.5 29.5 44.5 29.5 44.5 31.5 38.5 31.5 38.5 29.5 36.5 29.5 36.5 31.5 33.5 31.5 33.5 35.5 33.5 36 33.5 51.5 57.5 51.5 57.5 36 57.5 35.5 57.5 31.5 54.5 31.5" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <rect x="33.5" y="35.5" width="24" height="16" fill="url(#m)" stroke="#787878" stroke-linejoin="round"/>
+    <rect x="33.5" y="31.5" width="24" height="4" fill="url(#ah)" stroke="#003755" stroke-linejoin="round"/>
+    <path d="M35,37v13h21v-13h-21ZM39,49h-3v-3h3v3ZM39,45h-3v-3h3v3ZM39,41h-3v-3h3v3ZM43,49h-3v-3h3v3ZM43,45h-3v-3h3v3ZM43,41h-3v-3h3v3ZM47,49h-3v-3h3v3ZM47,45h-3v-3h3v3ZM47,41h-3v-3h3v3ZM51,49h-3v-3h3v3ZM51,45h-3v-3h3v3ZM51,41h-3v-3h3v3ZM55,49h-3v-3h3v3ZM55,45h-3v-3h3v3ZM55,41h-3v-3h3v3Z" fill="#646464" opacity=".5" stroke-width="0"/>
+    <rect x="36.5" y="29.5" width="2" height="4" fill="url(#m)" stroke="#787878" stroke-linejoin="round"/>
+    <rect x="44.5" y="29.5" width="2" height="4" fill="url(#m)" stroke="#787878" stroke-linejoin="round"/>
+    <rect x="52.5" y="29.5" width="2" height="4" fill="url(#m)" stroke="#787878" stroke-linejoin="round"/>
+    <polyline points="38.5 32 38.5 29.5 36.5 29.5 36.5 32" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <polyline points="46.5 32 46.5 29.5 44.5 29.5 44.5 32" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <polyline points="54.5 32 54.5 29.5 52.5 29.5 52.5 32" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <polyline points="33.5 36 33.5 51.5 57.5 51.5 57.5 36" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  </g>
+  <g id="ai" data-name="Charts">
+    <path d="M42.44,49.5c-.46-4.17-3.77-7.48-7.94-7.94v2.02c-.33-.05-.66-.08-1-.08-3.87,0-7,3.13-7,7s3.13,7,7,7,7-3.13,7-7c0-.34-.03-.67-.08-1h2.02Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M34.5,43.58c-.33-.05-.66-.08-1-.08-3.87,0-7,3.13-7,7s3.13,7,7,7,7-3.13,7-7c0-.34-.03-.67-.08-1h-5.92v-5.92Z" fill="url(#g)" stroke="#323232" stroke-linejoin="round"/>
+    <path d="M34.5,49.5h7.94c-.46-4.17-3.77-7.48-7.94-7.94v7.94Z" fill="url(#a)" stroke="#003755" stroke-linejoin="round"/>
+    <g>
+      <path d="M44,50.5h1c.28,0,.5.22.5.5v6.5h-2v-6.5c0-.28.22-.5.5-.5Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M48,47.5h1c.28,0,.5.22.5.5v9.5h-2v-9.5c0-.28.22-.5.5-.5Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M56,48.5h1c.28,0,.5.22.5.5v8.5h-2v-8.5c0-.28.22-.5.5-.5Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M52,45.5h1c.28,0,.5.22.5.5v11.5h-2v-11.5c0-.28.22-.5.5-.5Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M44,50.5h1c.28,0,.5.22.5.5v6.5h-2v-6.5c0-.28.22-.5.5-.5Z" fill="url(#aj)" stroke="#323232" stroke-linejoin="round"/>
+      <path d="M48,47.5h1c.28,0,.5.22.5.5v9.5h-2v-9.5c0-.28.22-.5.5-.5Z" fill="url(#ak)" stroke="#323232" stroke-linejoin="round"/>
+      <path d="M56,48.5h1c.28,0,.5.22.5.5v8.5h-2v-8.5c0-.28.22-.5.5-.5Z" fill="url(#al)" stroke="#323232" stroke-linejoin="round"/>
+      <path d="M52,45.5h1c.28,0,.5.22.5.5v11.5h-2v-11.5c0-.28.22-.5.5-.5Z" fill="url(#am)" stroke="#003755" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "createNewProduct": "Nouveau produit",
+  "insertNewProduct": "Insérer un nouveau produit",
+  "newObjectType": "Produit",
+  "multiParentInsertProductTitle": "Insérer un nouveau produit",
+  "multiParentInsertProductMsg": "Voulez-vous vraiment insérer un nouveau produit sous plusieurs parents ?",
+  "multiParentCannotInsert": "Erreur : insertion impossible sous le ou les objets sélectionnés",
+  "CannotInsert.Type": "Vous ne pouvez pas insérer ce type d'objet sous l'objet sélectionné : {type}",
+  "okBtn": "OK",
+  "closeBtn": "Fermer"
+}

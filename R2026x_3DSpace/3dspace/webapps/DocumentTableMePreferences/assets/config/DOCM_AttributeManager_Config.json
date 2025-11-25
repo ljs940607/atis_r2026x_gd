@@ -1,0 +1,36 @@
+{
+    "defaultDGVOpts": {
+        "defaultColumnDef": {
+            "width": "auto",
+            "typeRepresentation": "string"
+        },
+        "showContextualMenuColumnFlag": false,
+        "showRowBorderFlag": true,
+        "showColumnBorderFlag": true,
+        "alternateBackgroundFlag": false,
+        "showRowIndexFlag": false,
+        "showSelectionCheckBoxesFlag": false,
+        "showOutlineFlag": true,
+        "cellDragEnabledFlag": true,
+        "rowSelection": "single",
+        "cellSelection": "none",
+        "cellActivationFeedback": "none",
+        "selectionBehavior": {
+            "canInteractiveMultiselectWithCheckboxClick": false,
+            "canMultiSelect": false,
+            "enableFeedbackForActiveCell": false,
+            "enableShiftSelection": false,
+            "toggle": true,
+            "unselectAllOnEmptyArea": true
+        },
+        "placeholder": "",
+        "rowReorderEnabledFlag": false,
+        "rowDragEnabledFlag": true,
+        "columns": [ ],
+        "layoutOptions": {
+            "rowsHeader": false,
+            "layoutDensity": "compact",
+            "useLastColumnWidthAutoFlag" : true
+        }
+    }
+}

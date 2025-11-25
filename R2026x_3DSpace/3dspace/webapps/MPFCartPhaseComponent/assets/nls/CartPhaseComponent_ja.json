@@ -1,0 +1,20 @@
+{
+  "scheduleAndPrices": "スケジュールと価格",
+  "addPhase": "フェーズを追加",
+  "phaseNumber": "フェーズ {number}",
+  "description": "説明",
+  "price": "価格",
+  "timeline": "タイムライン",
+  "total": "合計",
+  "paymentAreDueAtBeginningOfPhase": "NB: 各フェーズの開始時に支払う必要があります",
+  "startDate": "開始: {date}",
+  "deliveryDate": "配送: {date}",
+  "edit": "編集",
+  "cancel": "キャンセル",
+  "save": "保存",
+  "mustContainOnePhase": "スケジュールには少なくとも 1 つのフェーズを含む必要があります",
+  "noPhaseDefined": "フェーズが定義されていません",
+  "failedToSaveModifications": "変更を保存できませんでした",
+  "failedToLoadPhases": "フェーズの読み込みに失敗しました",
+  "errorOnlyOnePhaseSupported": "現在、追加できるフェーズは 1 つだけです。"
+}

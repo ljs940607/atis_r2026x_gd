@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="VPLMAdministration">
+  <Domain id="AttributeDef">
+    <Family id="CATInstructionTemplate" regSuite="Framework" collabApps="GlobalEngineeringAndManufacturing" nlsKey="emxFramework.Type.CATInstructionTemplate">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="EngineeringInstructions"/>
+      <Constant id="type" value="CATInstructionTemplate"/>
+    </Family> 
+    <Family id="CATCustomInstructionTemplate" regSuite="Framework" collabApps="GlobalEngineeringAndManufacturing" nlsKey="emxFramework.Type.CATCustomInstructionTemplate">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="EngineeringInstructions"/>
+      <Constant id="type" value="CATCustomInstructionTemplate"/>
+    </Family> 
+  </Domain>
+</OOTBParameterization>

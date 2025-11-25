@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Speichern",
+  "CREOOpenGroupLabel": "Öffnen",
+  "CREOMissingLinksWarningLabel": "Datei mit fehlenden Referenzen speichern",
+  "CREOMissingLinksWarningInfo": "Wenn diese Option aktiviert ist, wird eine Warnung angezeigt, wenn während des Speichervorgangs in der Creo Parametric-Sitzung untergeordnete Konstruktionen fehlen. Wenn diese Option deaktiviert ist, wird der Speichervorgang ohne die Warnung fortgesetzt.",
+  "CREOPartFamilyInstanceHandlingLabel": "Creo Part Family Instance Handling",
+  "CREOPartFamilyInstanceHandlingInfo": "Bestimmt die Verarbeitung von Creo Part Family Table-Instanzen beim Speichern: <br><strong>PartFamilyInstanceLight</strong> - XPR-Dateien werden nur für aktive Instanzen generiert. <br><strong> PartFamilyInstanceLoaded</strong> - XPR-Dateien werden für alle Instanzen generiert.",
+  "CREOCADAttributeMappedToEINLabel": "CAD-Attribut ist EIN zugeordnet",
+  "CREOCADAttributeMappedToEINInfo": "Die Funktion wird aktiviert, wenn für dieses Attribut ein Wert angegeben wird. Die CAD-Datei erhält dieses Attribut und der Wert entspricht der Unternehmenselementnummer (EIN) des physischen Produkts.",
+  "EnterpriseItemNumberGroupLabel": "Unternehmenselementnummer",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "3DEXPERIENCE Konstruktionselemente ohne Geometrie und ohne untergeordnete Knoten ausfiltern",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "3DEXPERIENCE Konstruktionselemente ohne Geometrie und ohne untergeordnete Knoten ausfiltern."
+}

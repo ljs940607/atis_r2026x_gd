@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "제공된 그래프에 의해 구현된 테스트를 통과하는 요소만 필터링하여 지정된 배열의 부분에 대한 사본을 생성합니다.",
+  "description": "각 요소에 대해 제공된 그래프를 호출하여 지정된 배열을 필터링하고 해당 그래프가 제어 포트 <doc-ocp-name translate=no>True</doc-ocp-name>을(를) 활성화하는 요소만 유지합니다.<br>이 블록은 모든 <doc-idp-name translate=no>ArrayIn</doc-idp-name> 배열 유형을 아무 출력 배열 유형으로 필터링할 수 있습니다.<br>필터링 프로세스를 제공하려면 내부 그래프를 편집해야 합니다.",
+  "dataPorts": {
+    "ArrayIn": "필터링할 입력 배열입니다. <br>이 데이터 포트는 모든 배열 유형을 처리합니다.",
+    "SharedData": "각 내부 그래프 인스턴스 간에 공유할 데이터입니다. <br>이 데이터 포트는 모든 유형을 처리합니다. <br>유형이 다른 여러 데이터를 공유해야 하는 경우 사용자 유형을 생성하는 것이 좋습니다.",
+    "ArrayOut": "필터링된 출력 배열입니다. <br>이 데이터 포트는 모든 배열 유형을 처리합니다. <br>이 배열의 크기는 <doc-idp-name translate=no>ArrayIn</doc-idp-name> 배열 크기를 초과하면 안 됩니다.",
+    "State": "<doc-odp-name translate=no>Success</doc-odp-name> 출력 배열의 각 인덱스에 <doc-valuetype translate=no>EExecutionState</doc-valuetype>을(를) 지정하는 <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> 배열입니다. <br>이 배열의 크기는 항상 <doc-idp-name translate=no>ArrayIn</doc-idp-name> 배열 크기와 같습니다.",
+    "Progress": "<doc-odp-name translate=no>ArrayIn</doc-odp-name> 입력 배열의 각 인덱스에 <doc-valuetype translate=no>EExecutionState</doc-valuetype>을(를) 지정하는 <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> 배열입니다.<br>이 배열은 블록 뒤의 배포 프로세스에 따라 달라지므로 한 번의 진행에서 여러 데이터로 채워질 수 있습니다. <br>그러나 이 배열의 크기는 <doc-idp-name translate=no>Input</doc-idp-name> 배열 크기를 초과하면 안 됩니다.",
+    "Error": "<doc-odp-name translate=no>ArrayIn</doc-odp-name> 입력 배열의 인덱스에 대해 오류 개체를 제공하는 <doc-valuetype translate=no>ArrayFilterError</doc-valuetype> 배열입니다. <br>이 배열의 크기는 <doc-idp-name translate=no>ArrayIn</doc-idp-name> 배열 크기를 초과하면 안 됩니다."
+  },
+  "controlPorts": {
+    "In": "블록 실행을 트리거합니다.",
+    "Success": "은(는) 프로세스가 완료되면 활성화됩니다.",
+    "Progress": "은(는) 진행 상황이 발생할 때마다 활성화됩니다.",
+    "Error": "은(는) 오류가 발생하면 활성화됩니다."
+  },
+  "example": null
+}

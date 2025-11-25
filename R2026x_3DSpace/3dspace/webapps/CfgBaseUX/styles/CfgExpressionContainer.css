@@ -1,0 +1,60 @@
+#cfgResponsiveContainerView {
+  height: 100%;
+  overflow-y: auto; }
+
+#cfgEffectivityViewContainer {
+  position: relative; }
+
+#cfgExpressionContainer #cfgExpressionContainer-Header {
+  display: flex;
+  padding: 5px; }
+  #cfgExpressionContainer #cfgExpressionContainer-Header #cfgExpressionContainer-HeaderTitle {
+    float: left;
+    font-size: 12px;
+    color: #3d3d3d;
+    font-weight: bold;
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  #cfgExpressionContainer #cfgExpressionContainer-Header #cfgExpressionContainer-HeaderTitle[touch-mode] {
+    float: left;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: bold;
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+#cfgExpressionContainer #cfgExpressionContainer-HeaderIconBar {
+  margin-left: auto;
+  min-width: 76px; }
+  #cfgExpressionContainer #cfgExpressionContainer-HeaderIconBar .cfgExpressionContainer-minimized, #cfgExpressionContainer #cfgExpressionContainer-HeaderIconBar .cfg-active.fonticon.fonticon-resize-small {
+    color: #42a2da !important; }
+#cfgExpressionContainer #cfgExpressionContainer-body {
+  border-radius: 5px;
+  font-size: 12px;
+  color: #3d3d3d;
+  overflow: auto;
+  border: 1px solid #d4d4d4;
+  padding: 5px;
+  height: calc(100% - 40px); }
+#cfgExpressionContainer #cfgExpressionContainer-body[touch-mode] {
+  border-radius: 5px;
+  font-size: 14px;
+  color: #3d3d3d;
+  overflow: auto;
+  border: 1px solid #d4d4d4;
+  padding: 5px;
+  height: calc(100% - 40px); }
+#cfgExpressionContainer #cfgExpressionContainer-body.minimized {
+  border: 0px solid #d4d4d4;
+  padding: 0px;
+  height: 0px; }
+#cfgExpressionContainer #cfgExpressionContainer-HeaderIconBar .iconbar .iconbar-items-icons .item .fonticon {
+  font-size: 16px !important; }
+#cfgExpressionContainer #cfgExpressionContainer-HeaderIconBar .iconbar .iconbar-items-icons .item .fonticon[touch-mode] {
+  font-size: 22px !important; }
+
+.cfgExpressionContainer-maximized {
+  height: 100% !important; }

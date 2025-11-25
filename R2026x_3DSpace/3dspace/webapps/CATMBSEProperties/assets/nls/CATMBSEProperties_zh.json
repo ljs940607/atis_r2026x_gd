@@ -1,0 +1,32 @@
+{
+  "column": {
+    "isLastIteration": "上次迭代",
+    "usage": "已用迭代",
+    "maturity": "成熟度",
+    "tree": "系统模型",
+    "contentType": "子类型",
+    "name": "名称",
+    "contentVersion": "CAD 版本",
+    "owner": "所有者",
+    "modifier": "最后修改者"
+  },
+  "options": {
+    "withProfiles": "显示标准轮廓",
+    "withHistory": "显示历史用法"
+  },
+  "msg": {
+    "relationship.support.warning": "此客户端版本未创建关系，但可能存在依赖关系"
+  },
+  "menu": {
+    "open_with": "打开方式"
+  },
+  "usage": {
+    "synchro": "最新",
+    "outdated": "已过期",
+    "deleted": "已移除",
+    "latest": "最新"
+  },
+  "msg_not_supported_selection": "不支持",
+  "deactivated": "已删除",
+  "denied": "访问被拒绝"
+}

@@ -1,0 +1,17 @@
+m|Web3DUX\Web3DUXFilterBar.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25197|3.2
+r|G:\R428\BSF\.
+t|Web3DUX\Web3DUXFilterBar.mweb\LocalGenerated\win_b64\Web3DUXFilterBar.css|1752300254|5887
+s|Web3DUX\Web3DUXFilterBar.mweb\src\Web3DUXFilterBar.scss|1750943493|7078
+t|win_b64\webapps\Web3DUXFilterBar\Web3DUXFilterBar.css|1752301270|4932
+s|Web3DUX\Web3DUXFilterBar.mweb\src\_copyright.css|1507119045|63
+t|win_b64\webapps\Web3DUXFilterBar\Web3DUXFilterBar.js|1752698836|19889
+s|Web3DUX\Web3DUXFilterBar.mweb\src\_copyright.js|1507119037|63
+u|Web3DUX\Web3DUXFilterBar.mweb\LocalGenerated\win_b64\Web3DUXFilterBar.css|1752300254|5887
+u|Web3DUX\Web3DUXFilterBar.mweb\src\Web3DUXFilterBar.js|1740558177|24262
+u|Web3DUX\Web3DUXFilterBar.mweb\src\Web3DUXVerticalBar.js|1751608093|39965
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

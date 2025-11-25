@@ -1,0 +1,1 @@
+define("DS/RunYourApp/RunYourApp_en",{});define("DS/RunYourApp/assets/nls/RunYourApp",{urlLabel:"Web App Url",insertUrl:"Please insert an URL.",submitURLBtn:"Run"});

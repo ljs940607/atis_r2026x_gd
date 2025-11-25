@@ -1,0 +1,71 @@
+{
+  "loadingApp": "Wczytywanie aplikacji",
+  "loadingRefresh": "Odśwież aplikację",
+  "noToken": "Tokeny są niedostępne",
+  "noTokenTooltip": "Tokeny są obecnie niedostępne. Dodaj więcej tokenów, aby kontynuować optymalizację.",
+  "buyToken": "Kup tokeny VIO",
+  "summaryTitle": "Podsumowanie dotyczące tokena",
+  "summaryLabel": "Tokeny ({usage}% używane)",
+  "usageLabel": "{used}/{total}",
+  "getMoreTokens": "Zdobądź więcej tokenów",
+  "tokensHistory": "Historia tokenów",
+  "registeredrepLabel": "Obiekty zarejestrowane do optymalizacji",
+  "registeredrepLabelNoToken": "Obiekty gotowe do optymalizacji",
+  "noRegisteredrep": "Nie można pobrać zarejestrowanych obiektów",
+  "failedRegisterObject": "Pobieranie zarejestrowanych obiektów nie powiodło się",
+  "tokenUsage": "Wykorzystanie tokenów",
+  "tokenStatus": "Stan tokena",
+  "used": "Zużyte tokeny",
+  "total": "Łącznie",
+  "fromLabel": "Wykorzystanie od ",
+  "toLabel": " do ",
+  "tokens": "Tokeny",
+  "noDataConsumed": "W tym okresie nie zużyto tokena",
+  "percentUsed": "{percentUsed}% tokenów wykorzystanych",
+  "percentRemaining": "{remaining} ({percentRem}%) tokenów pozostało",
+  "expDate": "Data ważności tokena: {expDate}",
+  "errors": {
+    "requesttimeout": {
+      "title": "Limit czasu żądania",
+      "message": "Przekroczono limit czasu połączenia z serwerem."
+    }
+  },
+  "tokenUsageInfos": "Różnica kilku godzin w synchronizacji między wykorzystaniem tokena a zarejestrowanymi obiektami do optymalizacji.",
+  "months": [
+    "Styczeń",
+    "Luty",
+    "Marzec",
+    "Kwiecień",
+    "Maj",
+    "Czerwiec",
+    "Lipiec",
+    "Sierpień",
+    "Wrzesień",
+    "Październik",
+    "Listopad",
+    "Grudzień"
+  ],
+  "shortMonths": [
+    "Sty",
+    "Lut",
+    "Mar",
+    "Kwi",
+    "Maj",
+    "Cze",
+    "Lip",
+    "Sie",
+    "Wrze",
+    "Paź",
+    "Lis",
+    "Gru"
+  ],
+  "weekdays": [
+    "Niedziela",
+    "Poniedziałek",
+    "Wtorek",
+    "Środa",
+    "Czwartek",
+    "Piątek",
+    "Sobota"
+  ]
+}

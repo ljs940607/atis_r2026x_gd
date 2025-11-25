@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Não foi possível iniciar o comando",
+  "LoadingPanel": "Carregando...",
+  "cmdFailure": "Não foi possível iniciar o comando",
+  "cmdFailureNls": "Erro NLS, não foi possível iniciar o comando",
+  "SavingStep": "Salvando...",
+  "createReview": {
+    "quickEdition": "Não mostrar esta caixa de diálogo novamente",
+    "errorMessage": "Falha ao criar revisão",
+    "errorShape": "Não é possível criar uma Revisão em uma forma 3D",
+    "multipleRootsLabel": "Selecione um contexto",
+    "nameLabel": "Título",
+    "defaultReviewName": "Revisar",
+    "namePlaceholder": "Adicionar um título",
+    "descriptionLabel": "Descrição",
+    "descriptionPlaceholder": "Adicionar uma descrição",
+    "restrictedEditionLabel": "Edição restrita",
+    "restrictedEditionActivated": "Ativado",
+    "restrictedEditionDeactivated": "Desativado",
+    "panelTitle": "Nova revisão",
+    "panelValidationTitle": "Nova validação",
+    "createreviewButton": "Criar",
+    "cancelButton": "Cancelar",
+    "importModel": "Importar modelo JSON",
+    "slideTitle": "Slide",
+    "loadingMessage": "Criando nova revisão...",
+    "warningMessage": "A revisão atual será substituída pela nova na sessão",
+    "labelReview": "Revisar",
+    "labelMarkup": "Anotação",
+    "labelCheck": "Verificações",
+    "labelMember": "Membros",
+    "labelObjects": "Objetos",
+    "saveAsDraftButton": "Salvar como rascunho",
+    "reviewContext": "Contexto",
+    "multiReviewsNaming": "Automático",
+    "validatedObjects": "Objetos validados",
+    "changeAction": "Ação de alteração",
+    "chkListTitle": "Lista de verificação",
+    "autoCompletePlaceHolder": "solte aqui ou digite para pesquisar",
+    "setValObjectAsValidatedNotif": "Este objeto não pode ser definido como objeto validado",
+    "setSomeValObjectAsValidatedNotif": "Alguns objetos não podem ser definidos como objetos validados",
+    "setDefaultNotif": "Alguns objetos soltos não têm suporte",
+    "setDefaultChgActNotif": "Este objeto não pode ser definido como ação de alteração",
+    "setCtxRootNotif": "O menu suspenso de seleção múltipla é suportado para contextos",
+    "setChgActNotif": "O menu suspenso de seleção múltipla não é suportado para ações de alteração",
+    "setChgActCtxNotif": "A ação de alteração não pode ser definida com este tipo de contexto",
+    "noCASearchFound": "Nenhuma pesquisa encontrada OU alteração já adicionada"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Não mostrar esta caixa de diálogo novamente",
+    "errorMessage": "Falha ao criar anotação",
+    "multipleRootsLabel": "Selecione um contexto",
+    "nameLabel": "Título",
+    "defaultMarkupName": " Anotação",
+    "namePlaceholder": "Adicionar um título",
+    "descriptionLabel": "Descrição",
+    "descriptionPlaceholder": "Adicionar uma descrição",
+    "panelTitle": "Nova anotação",
+    "createMarkupButton": "Criar",
+    "cancelButton": "Cancelar",
+    "importModel": "Importar modelo JSON",
+    "slideTitle": "Slide",
+    "loadingMessage": "Criando anotação...",
+    "warningMessage": "A anotação atual será substituída pela nova na sessão"
+  },
+  "createCheck": {
+    "errorMessage": "Falha ao criar requisito verificado",
+    "typeToSearch": "solte aqui ou digite para pesquisar",
+    "noSearchFound": "Nenhuma pesquisa encontrada OU requisito já adicionado",
+    "requirement": "Requisitos"
+  },
+  "createHighlight": {
+    "errorMessage": "Falha ao realçar criação",
+    "selectHighlight": "Selecione um comentário desmarcado em uma Anotação"
+  },
+  "valStateChange": {
+    "error": "Não foi possível alterar o estado de validação da revisão."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "O objeto validado já existe",
+    "SelectMsg": "Selecionar os objetos validados a serem adicionados",
+    "OkBtn": "OK",
+    "CancelBtn": "Cancelar"
+  },
+  "loadValidationContextError": "Revisões com esse tipo de dados não são compatíveis.",
+  "loadValidationMarkupError": "Não é possível carregar a revisão.",
+  "page": "Página",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Limpar Status",
+      "message": "Tem certeza de que deseja limpar o status dos comentários selecionados?",
+      "okLabel": "Limpar"
+    },
+    "unableToMark": "Não é possível alterar o status em alguns comentários."
+  }
+}

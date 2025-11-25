@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_it",{});define("DS/egraph/assets/nls/translation",{pan:"Panoramica",zoomArea:"Area zoom",zoomOut:"Riduci",zoomIn:"Ingrandisci",zoomReset:"Ripristino zoom",zoomFit:"Adattamento zoom"});

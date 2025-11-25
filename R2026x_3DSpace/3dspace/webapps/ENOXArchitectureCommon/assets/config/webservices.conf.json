@@ -1,0 +1,64 @@
+{
+    "getSecurityContext": "/resources/pno/person/getsecuritycontext",
+    "pnoCredential":"/resources/modeler/pno/person?current=true&select=preferredcredentials&select=collabspaces",
+    "predicateValue": "/resources/6WVocab/access/PredicateValue",
+    "keyFieldForService": "?$fields=",
+
+    "getTypeSchemaDetails": "/resources/v1/modeler/dslog/invoke/dslog:getSchemaDetails",
+    "createLogItem" : "/resources/v1/modeler/dslog/dslog:LogItemPRIVATE/",
+    "createLogItemInstanceNew" : "/resources/v1/modeler/dslog/dslog:LogItemPRIVATE/",
+    "setArchitectureNumberOnPSpool":"/resources/v1/modeler/dseng/invoke/dseng:setArchitectureNumberOnSpool",
+    "dsfl_getLogItem": "/resources/v1/modeler/dsfl/dslog/dslog:LogItem/",
+    "dsfl_getObjectAttributes": "/resources/v1/modeler/dsfl/objectAttributes?addNLSValues=true",
+
+    "deleteLogItemInstance": "/resources/v1/modeler/dslog/invoke/dslog:detachLogInstances",
+    "replaceWithExistingRef": "/resources/v1/modeler/dslog/invoke/dslog:replaceLogicalInstances",
+    "reparentInstances": "/resources/v1/modeler/dslog/invoke/dslog:reparentLogicalInstances",
+
+    "getCSRFToken":"/resources/v1/application/E6WFoundation/CSRF",
+    "navigateService": "/cvservlet/navigate",
+    "getClassPredicates": "/resources/6WVocab/access/Predicates",
+    "progressiveExpand": "/cvservlet/progressiveexpand/v2",
+    "pno": "/resources/modeler/pno/person/",
+
+    "createScopeLinks": "/resources/v1/modeler/dslog/invoke/dslog:createScopeLinks",
+    "deleteImplementLinks": "/resources/v1/modeler/dslog/invoke/dslog:deleteImplementLinks",
+    "createOccurrenceLinks": "/resources/v1/modeler/dslog/invoke/dslog:createOccurrenceLinks",
+    "deleteOccurrenceLinks": "/resources/v1/modeler/dslog/invoke/dslog:deleteOccurrenceLinks",
+    "getLogItemImplementLink": "/resources/v1/modeler/dslog/invoke/dslog:getScopeLinks",
+    "getLogItemOccImplementLink": "/resources/v1/modeler/dslog/invoke/dslog:getOccOcc",
+    "getItems": "/resources/v1/modeler/dslog/dslog:LogItemPRIVATE/getItems",
+    "getItemInfo": "/resources/v1/modeler/dseno/invoke/dseno:getInfo",
+    "getLogInstMask": "?$mask=dsmvlog:LogItemMask.Instance.Basic",
+    "isKindOfFetchField": "?$fields=dsmvlog:kindOfRFLP",
+    "getlogItemExpandDetailsMask" : "$mask=dsmvlog:LogItemMask.Instance.ExpandRef.Index",
+    "getConfigInfoMask": "?$mask=dsmvlog:ConfigMask.Details",
+    "dsfl_getSubTypesMetaData": "/resources/v1/modeler/dsfl/metaTypes",
+    "dslog_getSubTypes" : "/resources/v1/modeler/dslog/invoke/dslog:getSubTypes",
+    "dsfl_getCustomFields": "/resources/v1/modeler/dslog/invoke/dslog:createPreProcessing",
+    "getLogItemDetailsURL" : "?$mask=dsmvlog:LogItemMask.Expand.Instances.AllLevel.Index",
+    "setArchitectureNumber": "/resources/v1/modeler/dslog/invoke/dslog:setArchitectureReferences",
+    "getParameterization": "/resources/v1/modeler/dslog/invoke/dslog:getParameterizationSetting",
+
+    "getSpaceHierarchy": "/resources/v1/modeler/spw/spaceHierarchy/",
+    "createSPPConnection": "/resources/v1/modeler/spw/sppConnection",
+    "navigateSPPConnection": "/resources/v1/modeler/spw/sppConnection/navigate",
+    "deleteSPPConnection": "/resources/v1/modeler/spw/sppConnection/delete",
+    "checkToUpdateSpace":"/resources/v1/modeler/dslog/invoke/dslog:checksToUpdateSpace",
+
+    "addSolutions": "/resources/v1/modeler/dslog/invoke/dslog:addSolutions",
+    "removeSolutions": "/resources/v1/modeler/dslog/invoke/dslog:removeSolutions",
+
+    "getTypeInfo": "/resources/dictionary/getTypeInfo?parentInfo=true&$select=IconName",
+    "getExtensionsForClass": "/resources/dictionary/class/interfaces",
+    "getTypeHierarchy": "/resources/enong/dico/gettypeshierarchy",
+
+    "getParameterizationSetting":"/resources/v1/modeler/dslog/invoke/dslog:getParameterizationSetting",
+
+    "getDimensionsFromDictionary": "/resources/dictionary/dimensions",
+    "convertValues": "/resources/v1/modeler/dslog/invoke/dslog:convertDimensionValues",
+
+    "updateAttributes": "/resources/v1/collabServices/attributes/op/update",
+
+    "getInfoProperties" : "/resources/dictionary/properties"
+}

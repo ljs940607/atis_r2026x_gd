@@ -1,0 +1,1 @@
+define("DS/Form/Form_zh",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"该字段为必填字段"});

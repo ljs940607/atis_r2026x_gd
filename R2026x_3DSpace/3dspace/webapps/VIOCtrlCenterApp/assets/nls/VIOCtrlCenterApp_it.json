@@ -1,0 +1,71 @@
+{
+  "loadingApp": "Caricamento applicazione",
+  "loadingRefresh": "Aggiorna applicazione",
+  "noToken": "Token non disponibili",
+  "noTokenTooltip": "I token non sono al momento disponibili. Aggiungere altri token per continuare l'ottimizzazione.",
+  "buyToken": "Acquista token VIO",
+  "summaryTitle": "Riepilogo token",
+  "summaryLabel": "Token ({usage}% di utilizzo)",
+  "usageLabel": "{used}/{total}",
+  "getMoreTokens": "Ottieni più token",
+  "tokensHistory": "Cronologia token",
+  "registeredrepLabel": "Oggetti registrati per l'ottimizzazione",
+  "registeredrepLabelNoToken": "Oggetti pronti per l'ottimizzazione",
+  "noRegisteredrep": "Impossibile ottenere oggetti registrati",
+  "failedRegisterObject": "Recupero oggetti registrati non riuscito",
+  "tokenUsage": "Utilizzo token",
+  "tokenStatus": "Stato token",
+  "used": "Token consumati",
+  "total": "Totale",
+  "fromLabel": "Utilizzo da ",
+  "toLabel": " a ",
+  "tokens": "Token",
+  "noDataConsumed": "Nessun token utilizzato durante questo periodo",
+  "percentUsed": "{percentUsed}% di token utilizzati",
+  "percentRemaining": "{remaining} ({percentRem}%) token rimanenti",
+  "expDate": "Data di scadenza token: {expDate}",
+  "errors": {
+    "requesttimeout": {
+      "title": "Timeout richiesta",
+      "message": "Timeout della connessione al server."
+    }
+  },
+  "tokenUsageInfos": "Differenza di sincronizzazione di poche ore tra Utilizzo token e gli oggetti registrati per l'ottimizzazione.",
+  "months": [
+    "Gennaio",
+    "Febbraio",
+    "Marzo",
+    "Aprile",
+    "Maggio",
+    "Giugno",
+    "Luglio",
+    "Agosto",
+    "Settembre",
+    "Ottobre",
+    "Novembre",
+    "Dicembre"
+  ],
+  "shortMonths": [
+    "Gen",
+    "Feb",
+    "Mar",
+    "Apr",
+    "Mag",
+    "Giu",
+    "Lug",
+    "Ago",
+    "Set",
+    "Ott",
+    "Nov",
+    "Dic"
+  ],
+  "weekdays": [
+    "Domenica",
+    "Lunedì",
+    "Martedì",
+    "Mercoledì",
+    "Giovedì",
+    "Venerdì",
+    "Sabato"
+  ]
+}

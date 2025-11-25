@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_en",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Step","Step.Action":"Action","Step.DefaultMessage":"Default Message for Step "});

@@ -1,0 +1,1 @@
+define("DS/NotificationAPI/NotificationAPI_tr",{});define("DS/NotificationAPI/assets/nls/feed",{permissionBannerTitle:"Yeni mesajlar hakkında bildirim alın",permissionBannerText:"Masaüstü bildirimlerini aç"});

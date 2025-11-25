@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"Neue Zeichnung",
+"ENONewDrawingHdr.ShortHelp":"Erstellt eine neue Zeichnung.",
+"ENONewDrawingHdr.LongHelp":"Geben Sie im Dialogfeld einen Titel und ggf. die Attribute ein. Anschließend können Sie eine Vorlage auswählen, um den CAD-Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und Schließen</uicontrol> , um nur eine Zeichnung zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um eine weitere Zeichnung zu erstellen.",
+"ENOInsertNewDrawingHdr.Title":"Neue Zeichnung einfügen",
+"ENOInsertNewDrawingHdr.ShortHelp":"Erstellt eine neue Zeichnung und fügt sie als untergeordnetes Element zu den ausgewählten Objekten hinzu.",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>Geben Sie im Dialogfeld einen Titel ein und wählen Sie ggf. eine Vorlage aus, um den CAD- Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und schließen</uicontrol> , um nur eine Zeichnung zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um eine weitere Zeichnung zu erstellen.</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

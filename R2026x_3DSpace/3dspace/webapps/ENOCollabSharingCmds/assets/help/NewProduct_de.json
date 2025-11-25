@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"Neues Produkt",
+"ENONewProductHdr.ShortHelp":"Erstellt ein neues Produkt.",
+"ENONewProductHdr.LongHelp":"Geben Sie im Dialogfeld einen Titel und ggf. die erforderlichen Attribute ein. Anschließend können Sie eine Vorlage auswählen, um den CAD-Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und Schließen</uicontrol> , um nur ein Produkt zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um ein weiteres Produkt zu erstellen.",
+"ENOInsertNewProductHdr.Title":"Neues Produkt einfügen",
+"ENOInsertNewProductHdr.ShortHelp":"Erstellt ein neues Produkt und fügt es als untergeordnetes Element zu den ausgewählten Objekten hinzu.",
+"ENOInsertNewProductHdr.LongHelp":"<p>Geben Sie im Dialogfeld einen Titel ein und wählen Sie ggf. eine Vorlage aus, um den CAD- Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und schließen</uicontrol> , um nur ein Produkt zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um ein weiteres Produkt zu erstellen.</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

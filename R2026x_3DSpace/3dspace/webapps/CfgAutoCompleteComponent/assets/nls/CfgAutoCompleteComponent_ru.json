@@ -1,0 +1,19 @@
+{
+  "_type_expression": "Выражение типа",
+  "correspondingClosingOperatorNotFound": "соответствующий оператор замыкания не найден",
+  "correspondingOpeningOperatorNotFound": "соответствующий оператор размыкания не найден",
+  "error": "ошибка",
+  "inContextOF": "в контексте",
+  "isUnknown": "неизвестно",
+  "isUnknownFromDictionary": "неизвестно из словаря",
+  "notExpectingToBeFollowedBy": "Не ожидается, что будет сопровождаться",
+  "unknown": "неизвестно",
+  "missingComparisonOperatorInEval": "Отсутствует оператор сравнения в EVAL",
+  "missingParameterInEval": "Отсутствует параметр в EVAL",
+  "notExpectingSeveralComparisonOperatorsInEval": "Не ожидаются несколько операторов сравнения в EVAL",
+  "notExpectedInEval": "Не ожидается в EVAL",
+  "notExpectedOutOfEval": "Не ожидается вне EVAL",
+  "parametersShouldHaveTheSameUnit": "Параметры должны иметь одинаковые единицы для сравнения",
+  "parameterCannotBeComparedToItself": "Параметр нельзя сравнить с самим собой",
+  "cannotStartExpressionWith": "Невозможно начать выражение с"
+}

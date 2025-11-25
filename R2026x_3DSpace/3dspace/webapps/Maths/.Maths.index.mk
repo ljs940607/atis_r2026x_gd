@@ -1,0 +1,14 @@
+m|WebFoundation\Maths.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25112|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\Maths\typings\types.d.ts|1737992707|35
+s|WebFoundation\Maths.mweb\src\typings\types.d.ts|1737992707|35
+t|win_b64\webapps\Maths\Maths.js|1739611863|1010
+s|WebFoundation\Maths.mweb\src\Maths.js|1427881377|0
+u|WebFoundation\Maths.mweb\src\Vector.js|1737993044|456
+u|WebFoundation\Maths.mweb\src\Vector3.js|1737993037|1488
+u|WebFoundation\Maths.mweb\src\typings\types.js|1737992922|143
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

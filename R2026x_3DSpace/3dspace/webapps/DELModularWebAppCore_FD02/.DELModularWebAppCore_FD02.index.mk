@@ -1,0 +1,12 @@
+m|DELWKOApp\DELModularWebAppCore_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25042|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELModularWebAppCore_FD02\DELModularWebAppCore_FD02.js|1739322699|12934
+s|DELWKOApp\DELModularWebAppCore_FD02.mweb\src\Core.js|1679505264|39285
+u|DELWKOApp\DELModularWebAppCore_FD02.mweb\src\FacadeBase.js|1679505278|5536
+u|DELWKOApp\DELModularWebAppCore_FD02.mweb\src\Logger.js|1679505297|2864
+u|DELWKOApp\DELModularWebAppCore_FD02.mweb\src\Mediator.js|1736261065|9972
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

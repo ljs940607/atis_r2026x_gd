@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Encontrando terminologias..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "O objeto solto não é um objeto de estrutura de navegação.",
+    "Advice": "Solte uma estrutura ou nó de navegação."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Não é possível Localizar na árvore.",
+    "Advice": "Expandir a árvore para esse nó de navegação específico",
+    "Details": "O nó de navegação para localizar não está visível na árvore."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Não é possível Localizar na árvore.",
+    "Advice": "Expanda a seção de estrutura de navegação para o nível um.",
+    "Details": "Não há estrutura de navegação visível na seção de estrutura de navegação."
+  },
+  "msg_info_limit_FindInTree": "Limite atingido. O limite para localizar está definido como 100.",
+  "msg_info_limitToFindInRootNode": "O limite para localizar na estrutura de navegação está definido como 200. As primeiras 200 estruturas de navegação serão consideradas.",
+  "msg_info_No_Occurrence": "Nenhuma ocorrência da estrutura de navegação foi encontrada."
+}

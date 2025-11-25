@@ -1,0 +1,1 @@
+define("DS/CAT3DAnnotationBaseUI/CAT3DAnnotationBaseUI_tr",{});define("DS/CAT3DAnnotationBaseUI/assets/nls/CAT3DAnnotationBaseUI",{ValueLbl:"Tolerans",SelectAllLbl:"Tümünü Seç",ApplyLbl:"Uygula",MinLbl:"Min.",MaxLbl:"Maks.",FailureModes:{"0":"En Az Önemli","1":"Düşük","2":"Orta","3":"Yüksek","4":"Çok Yüksek"}});

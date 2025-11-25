@@ -1,0 +1,23 @@
+{
+"DMUReviewHdr.Title":"Review",
+"DMUReviewHdr.ShortHelp":"Creates a review linked to the loaded context. If several contexts are loaded in the session, select one in the Review dialog box.",
+"DMUReviewHdr.LongHelp":"In the Review dialog box, select a context (if required) and enter a name and description for the review.",
+"DMUReviewMarkupHdr.Title":"마크업",
+"DMUReviewMarkupHdr.ShortHelp":"검토에 링크된 마크업을 생성합니다.",
+"DMUReviewMarkupHdr.LongHelp":"검토 대화 상자에서, 마크업 이름과 설명을 입력합니다.",
+"DMUAddCheckHdr.Title":"Check",
+"DMUAddCheckHdr.ShortHelp":"Creates a Check.",
+"DMUAddCheckHdr.LongHelp":"Creates a Check with a default name and state.",
+"DMUAddHighlightHdr.Title":"Highlight",
+"DMUAddHighlightHdr.ShortHelp":"Creates a Highlight.",
+"DMUAddHighlightHdr.LongHelp":"Create a Highlight from the current Slide with a default name and rating.",
+"DMURemoveAllHdr.Title":"Close",
+"DMURemoveAllHdr.ShortHelp":"Close all the objects from the view.",
+"DMUMarkCommentProcessedHdr.Title":"Mark as Processed",
+"DMUMarkCommentWithdrawnHdr.Title":"Mark as Withdrawn",
+"DMUUnMarkCommentHdr.Title":"Clear Status",
+"DMUReviewHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-CreateaReview",
+"DMUReviewMarkupHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-CreateaReviewMarkup",
+"DMUAddCheckHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-CreateaCheck",
+"DMUAddHighlightHdr.WebHelp":"D3reUserMap/d3re-t-ReviewsManage.htm#t-AddHighlight"
+}

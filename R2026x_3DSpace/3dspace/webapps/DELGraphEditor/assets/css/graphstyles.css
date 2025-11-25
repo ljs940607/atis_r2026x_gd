@@ -1,0 +1,355 @@
+/* -- Bootstrap -- */
+:root {
+    --highlighted-flow-head: "";
+    --plus-icon-id: "";
+    --shadow-id: "";
+    --ds-blue: #0d6efd;
+    --ds-body-color: #212529;
+    --ds-secondary-color: rgba(33, 37, 41, 0.75);
+    --ds-font-arial: Arial;
+    --ds-body-font-family: var(--ds-font-arial);
+    --ds-body-font-size: 14px;
+    --ds-body-font-weight: 400;
+    --ds-body-line-height: 1.5;
+    --ds-body-bg: #fff;
+    --ds-outline: var(--COLOR_OUTLINE_DARK_GRAY);
+    --white: #fff;
+    --red: #ff8a8a;
+    --green: #a2e88e;
+    --blue: #00b8de;
+    --yellow: #fff792;
+    --darkgrey: #77797c;
+    --darkred: #ea4f37;
+    --darkgreen: #57b847;
+    --darkblue: #00b8de;
+    --darkyellow: #ffce00;
+    --lightgrey: rgba(0, 0, 0, .25);
+}
+
+
+
+/* ---- svg editor styles ----- */
+.editor {
+    height: 100%;
+    width: 100%;
+    touch-action: none;
+    position: relative;
+    overflow: hidden;
+    color: var(--COLOR_COPY_GRAY) o !important;
+    font-family: Arial !important;
+    user-select: text !important;
+    -webkit-user-select:none!important;
+    -moz-user-select: none;
+}
+
+
+
+.drop-zone {
+    position: absolute;
+    left: 5px;
+    border: 2px dashed var(--ds-blue);
+    height: 95%;
+    width: 99%;
+    margin: auto;
+    opacity: 0.5;
+    pointer-events: all;
+}
+
+.svgLayer {
+    height: 100%;
+    width: 100%;
+    /* min-height: 500px; */
+}
+
+
+.svgLayer:focus {
+    outline: 1px solid white;
+
+}
+
+.outline {
+    pointer-events: none;
+}
+
+
+
+/* .node-group rect:first-child,
+.marker-group circle:first-child,
+.header {
+   will-change: filter,transform;
+   transition: filter 0.5s ease, transform 0.5s ease;
+   
+   filter:drop-shadow(0 0 0.75rem crimson);
+   --webkit-filter:drop-shadow(0 0 0.75rem crimson);
+} */
+
+
+.controlPoints {
+    cursor: pointer;
+}
+
+
+.highlighted,
+.node-hovered {
+    stroke: var(--ds-blue);
+    stroke-width: 1.5;
+}
+
+.node-highlighted{
+    stroke: var(--darkred);
+    stroke-width: 1.5;
+}
+.node-prev-highlighted{
+    stroke: var(--darkgreen);
+    stroke-width: 1.5;
+}
+
+.highlighted>circle,
+.node-hovered>circle {
+    fill: var(--ds-blue);
+}
+
+.node-hovered>circle {
+    stroke: var(--darkred);
+    stroke-width: 1.5;
+}
+
+.node-prev-highlighted>circle {
+    stroke: var(--darkgreen);
+    stroke-width: 1.5;
+}
+/* .node-group:hover .notAllowed,
+.transition-group:hover .notAllowed,
+.group-node-class:hover .notAllowed {
+    fill: var(--COLOR_MEDIUM_LIGHT_ORANGE);
+    fill-opacity: 0.5;
+
+} */
+
+/* .linkHighlighted,
+.segmentOutline:hover~.pathWidthArrow {
+    stroke: var(--ds-blue);
+    marker-end: var(--highlighted-flow-head);
+} */
+
+.anchorsPoints .controlPoints:hover {
+    fill: var(--plus-icon-id);
+}
+
+
+.glassLayer {
+    width: calc(100%);
+    height: calc(100%);
+    background-color: rgba(216, 213, 213, 0.3);
+    pointer-events: none;
+    backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(3px); */
+
+
+}
+
+.lightglassLayer {
+    width: calc(100%);
+    height: calc(100%);
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    pointer-events: none;
+
+}
+
+
+.node-group text {
+    pointer-events: none;
+}
+
+.ghosts-layer,
+.preview-layer,
+.ondrag {
+    pointer-events: none;
+}
+
+.ondrag {
+    opacity: 0.7;
+}
+
+.path,
+.pathWidthArrow {
+    pointer-events: none;
+}
+
+/* multi-line input */
+
+.readOnlyInput {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: move;
+    padding: 0 8px;
+    word-break: break-word;
+    white-space: wrap;
+    line-height: 24px;
+}
+
+
+/* editable div */
+.editableInput {
+    /* font-size: 14px; */
+    cursor: text;
+    width: calc(100%);
+    height: calc(100%);
+    /* for firefox we need to precise the width and height and not use %*/
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 8px;
+    line-height: 24px;
+    word-break: break-word;
+    pointer-events: all;
+}
+
+
+
+.editableInput:empty {
+    display: inline-block;
+    height: 24px;
+    line-height: 21px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.backgroundDragabbleLabel:hover {
+    stroke: var(--COLOR_COPY_GRAY);
+}
+
+
+/* ------ sidebar ----- */
+.toolbarWrapper {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(180, 182, 186, 1);
+    border: solid 1px var(--ds-outline);
+}
+
+wux-authoring-side-tool-bar .toolbarWrapper, wux-simulation-side-tool-bar .toolbarWrapper{
+    width: 48px;
+    padding: 4px 0;
+    border-radius: 99px;
+    left: 8px;
+    top: 25%;
+    transform: translate(0, -25%);
+}
+
+
+/* wux-authoring-side-tool-bar .wux-button-icon-placeholder{
+    cursor: default !important;
+} */
+wux-authoring-side-tool-bar .wux-button-icon-placeholder:hover, wux-simulation-side-tool-bar .wux-button-icon-placeholder:hover, wux-context-tool-bar .wux-button-icon-placeholder:hover{
+    color: var(--COLOR_LIGHT_BLUE);
+}
+wux-authoring-side-tool-bar .wux-controls-toolbar, wux-simulation-side-tool-bar .wux-controls-toolbar{
+    padding: 8px;
+}
+
+wux-context-tool-bar .draggableArea{
+    width:100%;
+    height: 2px;
+    /* background: url("../icons/three-dots.svg") no-repeat scroll center center transparent; */
+    background-size: contain;
+   
+}
+
+wux-context-tool-bar .wux-controls-toolbar {
+    padding: 6px;
+}
+
+wux-context-tool-bar .toolbarWrapper {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 0;
+    border-radius: 8px;
+    cursor: move;
+}
+
+.activeIcon{
+    color: var(--COLOR_LIGHT_BLUE);
+}
+/* table styles*/
+
+/* table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+} */
+
+
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:hover {background-color: #ddd;}
+
+
+@media (pointer:none),
+(pointer:coarse) {
+
+
+    .svgLayer {
+        /* min-height: 400px; */
+    }
+
+    
+    .grid-layer,
+    .content-layer {
+        transition: transform 0.1s ease, opacity 0.1s ease;
+        will-change: transform;
+        transform-origin: left top;
+    }
+
+    .readOnlyInput:empty {
+        left: 5px;
+        content: attr(data-pl);
+        color: black;
+        opacity: 0.5;
+    }
+    .editableInput:empty {
+        position: static;
+        width: calc(100%);
+        height: calc(100%);
+        /* for firefox we need to precise the width and height and not use %*/
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    wux-context-tool-bar .draggableArea{
+        height: 4px;
+    }
+    
+    .glassLayer {
+        width: calc(100%);
+        height: calc(100%);
+        background-color: rgba(216, 213, 213, 0.3);
+        backdrop-filter: none;
+        pointer-events: none;
+    }
+
+    
+}
+
+

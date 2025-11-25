@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Tworzy kopię części danej tablicy, filtrowaną w dół tylko do elementów, które pomyślnie przeszły test zaimplementowany przez podany wykres.",
+  "description": "Filtruje daną tablicę, wywołując na każdym elemencie podany wykres i zachowując tylko te elementy, dla których odpowiedni wykres aktywuje port kontrolny <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Ten blok jest w stanie filtrować dowolny typ tablicy <doc-idp-name translate=no>ArrayIn</doc-idp-name> do dowolnego typu tablicy wyjściowej. <br>Aby umożliwić proces filtrowania, należy edytować wewnętrzny wykres.",
+  "dataPorts": {
+    "ArrayIn": "Tablica wejściowa przeznaczona do filtrowania. <br>Ten port danych obsługuje wszystkie typy tablic.",
+    "SharedData": "Dane do udostępnienia w każdym wewnętrznym wystąpieniu wykresu. <br>Ten port danych obsługuje wszystkie typy. <br>Jeśli konieczne jest udostępnienie kilku danych różnych typów, zaleca się utworzenie niestandardowego typu użytkownika.",
+    "ArrayOut": "Filtrowana tablica wyjściowa. <br>Ten port danych obsługuje wszystkie typy tablic. <br>Rozmiar tej tablicy nie przekroczy rozmiaru tablicy <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Tablica <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> dająca <doc-valuetype translate=no>EExecutionState</doc-valuetype> przy każdym indeksie tablicy wyjściowej <doc-odp-name translate=no>Success</doc-odp-name>. <br>Rozmiar tej tablicy będzie zawsze równy rozmiarowi tablicy <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Tablica <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> dająca <doc-valuetype translate=no>EExecutionState</doc-valuetype> przy każdym indeksie tablicy wejściowej <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Ta tablica może być wypełniona kilkoma danymi w ramach jednego postępu, ponieważ zależy to od procesu dystrybucji za blokiem. <br>Jednak rozmiar tej tablicy nie przekroczy rozmiaru tablicy <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Tablica <doc-valuetype translate=no>ArrayFilterError</doc-valuetype> dająca obiekt błędu dla indeksu tablicy wejściowej <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Rozmiar tej tablicy nie przekracza rozmiaru tablicy <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "wyzwala wykonanie bloku.",
+    "Success": "jest aktywowane po pomyślnym zakończeniu procesu.",
+    "Progress": "jest aktywowane za każdym razem, gdy nastąpi postęp.",
+    "Error": "jest aktywowane w przypadku wystąpienia błędu."
+  },
+  "example": null
+}

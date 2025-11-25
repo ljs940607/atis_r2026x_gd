@@ -1,0 +1,1 @@
+define("DS/Form/Form_ja",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"このフィールドは必須です"});

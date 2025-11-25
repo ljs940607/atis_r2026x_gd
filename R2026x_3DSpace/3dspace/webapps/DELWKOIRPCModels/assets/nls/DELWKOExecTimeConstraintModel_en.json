@@ -1,0 +1,14 @@
+{
+  "MaxDelay" : "MaxDelay",
+  "MinDelay" : "MinDelay",
+  "Synchro" : "Synchro",
+  "FinishToStart" : "Finish to Start",
+  "StartToStart": "Start to Start",
+  "FinishToFinish" : "Finish to Finish",
+  "StartToFinish" : "Start to Finish",
+  "PreviousCycle" : "Previous Cycle",
+  "DifferentResources" : "Different resources",
+  "None" : "None",
+  "SameResources" : "Same resources",
+  "SameResourcesWithReservation" : "Same resources with reservation"
+}

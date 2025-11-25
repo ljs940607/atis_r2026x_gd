@@ -1,0 +1,29 @@
+{
+    "version": "1.1",
+    "eno3dviewerinfra": {
+      "run_options": {
+        "widgetLink_options": {
+          "value" : {
+              "appIds": [],
+              "open": false,
+              "uses": ["ENXContent", "ENXContentSync2D", "ENXContentSync3D", "ENXEnrich", "ENXLandingPageSync"],
+              "implements": ["ENXContent", "ENXContentSync3D", "ENXEnrich", "ENXLandingPageSync"]
+          }
+        }, 
+        "activateWidgetLink": {
+        "value": true
+      }
+      },
+      "debug_options": {
+       
+      },
+      "webapi_options": {
+       
+      },
+      "layout_options": {
+        "frmWindow_opts":{
+          "robotVisibility": false
+        }
+      }
+    }
+  }

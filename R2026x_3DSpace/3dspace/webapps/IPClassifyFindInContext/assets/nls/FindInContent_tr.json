@@ -1,0 +1,24 @@
+{
+  "placeholder_findInCtx": "Nesne Ara veya Bırak",
+  "findInCtxSearchView": {
+    "ftssearch": "Bul",
+    "check": "Seçimi Onayla",
+    "cannotRetrieveLabel": "Seçili nesnenin etiketi alınamıyor",
+    "loadingLabel": "Yükleniyor...",
+    "chevronUpBtn": "Önceki",
+    "chevronDwnBtn": "Sonraki",
+    "selectAll": "Tümünü Seç",
+    "title": "Şurada bul: ",
+    "objects": "nesneler",
+    "checkButtonGroupLabel": "Yer işaretine bağlı nesneler için bul işlemini gerçekleştir"
+  },
+  "msg_success_FindInCtx_NoObjectFound": "Herhangi bir nesne oluşumu bulunamadı.",
+  "msg_error_FindInCtx_name_badchars": "Bul sorgusunda geçersiz karakterler var. Geçersiz karakterler: {badChars}.",
+  "msg_error_FindInCtx_SearchEnterMoreThan": "Bul işlemi için minimum {minNumber} karakter gerekli.",
+  "findInCtxAutoSelect": "Geçerli eşleşen sonuçları otomatik olarak seç",
+  "Allcolumns": "Tüm sütunlar",
+  "FindIn": "Şurada bul:",
+  "Options": "Seçenekler",
+  "error_tooltip_NoColumnSelected": "Bul seçeneğinde en az bir sütun seçilmelidir.",
+  "placeholder_noSelection": "Hiçbiri"
+}

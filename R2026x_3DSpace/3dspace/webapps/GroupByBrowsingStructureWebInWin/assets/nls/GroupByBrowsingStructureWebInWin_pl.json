@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "Grupuj według struktury przeglądania",
+    "chooserLabel": "Wybierz strukturę przeglądania",
+    "organizeButton": "Grupuj",
+    "ungroupButton": "Rozgrupuj",
+    "cancelButton": "Anuluj"
+  },
+  "noBSWarning": {
+    "message": "Brak dostępnych struktur przeglądania.",
+    "advice": "Skontaktuj się z menedżerem struktury przeglądania, aby utworzyć struktury przeglądania i ustawić ich dojrzałość na „Aktywowane”, aby udostępnić je w tym poleceniu."
+  },
+  "webServiceError": "Nie można pobrać listy struktur przeglądania. Spróbuj ponownie lub skontaktuj się z administratorem"
+}

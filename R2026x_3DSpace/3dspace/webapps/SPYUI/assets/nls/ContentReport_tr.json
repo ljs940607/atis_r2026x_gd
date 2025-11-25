@@ -1,0 +1,14 @@
+{
+  "noStream": "Simülasyon Deneyimi yüklenemedi",
+  "timeOut": "Bir veya daha fazla vaka analizi için Deneyim İçeriği alınamadı.",
+  "timeOutMore": "Olası nedenler",
+  "timeOutCause1": "Internet Explorer, alınan veri miktarını işleyemiyor.",
+  "timeOutCause2": "Deneyim İçeriği geçerli tarayıcı için çok büyük.",
+  "timeOutCause3": "Ağın bant genişliği çok düşük.",
+  "invalid": "vaka analizlerinin boş veya geçersiz Deneyim İçeriği var.",
+  "invalid1": "vaka analizinin boş veya geçersiz Deneyim İçeriği var.",
+  "filteredContent": "Simülasyon Deneyim İçeriği, bu uygulamadaki 3B animasyon ile sınırlıdır. Grafikler gibi diğer elemanlar, Fizik Simülasyonu İncelemesi (V+R) içinde görüntülenebilir.",
+  "partialFiltered": "yalnızca Fizik Simülasyonu İncelemesi (V+R) içinde görüntülenebildiği için içerik filtrelendi.",
+  "partialFiltered1": "yalnızca Fizik Simülasyonu İncelemesi (V+R) içinde görüntülenebildiği için içerik filtrelendi.",
+  "loadedStreamSizeLabel": "Boyut:"
+}

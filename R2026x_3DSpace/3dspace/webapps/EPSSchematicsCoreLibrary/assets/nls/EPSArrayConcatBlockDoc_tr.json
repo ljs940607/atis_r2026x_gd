@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizileri yeni bir dizide birleştirir.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi ve bağlantı noktası sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Array1": "bitiştirilecek ilk dizi.",
+    "Array2": "bitiştirilecek ikinci dizi.",
+    "NewArray": "yeni bitiştirilmiş dizi."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

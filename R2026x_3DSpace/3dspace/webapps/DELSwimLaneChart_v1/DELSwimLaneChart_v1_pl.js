@@ -1,0 +1,1 @@
+define("DS/DELSwimLaneChart/DELSwimLaneChart_v1_pl",{});define("DS/DELSwimLaneChart_v1/assets/nls/view",{search:"Szukaj..."});

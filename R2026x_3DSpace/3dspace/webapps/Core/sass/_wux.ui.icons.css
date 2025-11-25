@@ -1,0 +1,13 @@
+.wux-ui-genereatedicon-image-avatar,
+.wux-ui-genereatedicon-image-avatar-holder,
+.wux-ui-genereatedicon-image-avatar ~ .wux-ui-genereatedicon-badge-bottom-right {
+  --border-width: 2px;
+
+  --avatar-size: 1;
+
+  --image-avatar-defaultSize: 84px;
+  --image-avatar-badge-defaultSize: 18px;
+  --image-avatar-badge-defaultFontIconSize: 10px;
+
+  --image-avatar-badge-offset: 4px;
+}

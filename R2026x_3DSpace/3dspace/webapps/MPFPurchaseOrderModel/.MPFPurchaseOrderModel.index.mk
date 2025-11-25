@@ -1,0 +1,17 @@
+m|MPFModels\MPFPurchaseOrderModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPurchaseOrderModel\MPFPurchaseOrderModel.js|1725720398|5338
+s|MPFModels\MPFPurchaseOrderModel.mweb\src\CartPaymentPurchaseOrderDataProxy.js|1724871226|967
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\CartPaymentPurchaseOrderDocumentDataProxy.js|1724871226|1692
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\CartPurchaseOrderDataProxy.js|1724871226|1692
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\CartPurchaseOrderDocumentDataProxy.js|1724871226|1972
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\MPFPurchaseOrderModel.js|1724871226|0
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\PurchaseOrderDocumentFactory.js|1724871226|2176
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\PurchaseOrderDocumentModel.js|1724871226|1954
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\PurchaseOrderFactory.js|1724871226|1992
+u|MPFModels\MPFPurchaseOrderModel.mweb\src\PurchaseOrderModel.js|1724871226|3639
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

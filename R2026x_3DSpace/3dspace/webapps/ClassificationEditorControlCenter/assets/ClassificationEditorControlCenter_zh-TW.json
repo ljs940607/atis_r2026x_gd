@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "分類管理員的受限模式",
+  "CCM_Manager": "分類管理員",
+  "CCM_specialist_title": "專員",
+  "CCM_expert_title": "專家",
+  "CCM_architect_title": "架構設計師",
+  "permission_update_successful": "已將 {updatedPermission} 權限授與給 {name}。",
+  "permission_update_failure": "無法更新使用者名稱的權限。",
+  "restriction_mode_switched": "限制模式已轉到 {restrictionToggle}。",
+  "restriction_mode_switch_failure": "無法切換限制模式。",
+  "widget_load_failure": "只有具備 CSV 角色的管理員才能存取此應用程式。",
+  "on": "開啟",
+  "off": "關閉",
+  "search_name": "搜尋名稱"
+}

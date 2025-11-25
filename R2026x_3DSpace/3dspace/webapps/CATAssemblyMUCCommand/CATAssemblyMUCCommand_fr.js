@@ -1,0 +1,1 @@
+define("DS/CATAssemblyMUCCommand/CATAssemblyMUCCommand_fr",{});define("DS/CATAssemblyMUCCommand/assets/nls/CAT3DPlayMUCSplash",{MUC_SPLASH_LABEL:"Déplacer des éléments pour interagir avec la 3D"});

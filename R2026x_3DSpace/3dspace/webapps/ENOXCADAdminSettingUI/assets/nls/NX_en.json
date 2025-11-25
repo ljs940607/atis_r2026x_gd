@@ -1,0 +1,23 @@
+{
+  "NXSaveGroupLabel": "Save",  
+  "NXOpenGroupLabel": "Open",
+
+  "NXToolkitLicenseGroupLabel" : "MultiCAD STEP Translator Availability",
+  
+  "NXMissingLinksWarningLabel" : "Save file with missing references",
+  "NXMissingLinksWarningInfo"  : "When enabled, a warning will appear if any child designs are missing during the Save operation in the NX session. When disabled, the Save operation will proceed without the warning.",
+ 
+  "NXSuppressPatternElementsLabel" : "Suppress Pattern Elements",
+  "NXSuppressPatternElementsInfo"  : "When enabled, this setting suppresses pattern elements, so pattern master parts do not appear in the Save dialog. When disabled, the part retains its relationship to the pattern master part, creating a MakeFrom relationship.",
+   
+  "NXSTEP242LicenseAvailableLabel" : "MultiCAD STEP Translator Availability",
+  "NXSTEP242LicenseAvailableInfo"  : "Setting to specify whether the STEP AP214 or STEP AP242 Translator is used when opening multiCAD designs into NX session. Default Value: STEP AP242.",
+ 
+  "NXCADAttributeMappedToEINLabel": "CAD Attribute Mapped To EIN",
+  "NXCADAttributeMappedToEINInfo" : "When value for this attribute is specified ,then the function will be enabled and we will stamp CAD file with this attribute and its value would be the EIN of the Physical Product.",
+
+  "EnterpriseItemNumberGroupLabel" : "Enterprise Item Number",
+  
+  "NXFilterOutEngItemsDataNotInCADLabel" : "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes",
+  "NXFilterOutEngItemsDataNotInCADInfo" : "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes."
+}

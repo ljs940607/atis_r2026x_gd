@@ -1,0 +1,41 @@
+<div class="field-group accumulated-story-points">
+  {{#if label}}
+    {{> labelWithTooltip}}
+  {{/if}}
+  <div class="input-group-wrapper">
+    <div class="input-group accumulated-story-points">
+      <span class="input-element">
+        <span class="wux-ui-3ds wux-ui-3ds-attention"></span>
+        <span class="read-only">\{{~ {{accPointsName}} ~}}</span>
+      </span>
+    </div>
+  </div>
+  <span class="form-control-helper-text">{{accPointsHelperText}}</span>
+</div>
+<div class="field-group iteration-capacity">
+  <label>{{capacityLabel}}
+    <span class="field-label">
+      <span class="field-label-text">{{capacityLabel}}</span>
+    </span>
+    {{~#if capacityRequired~}}
+    <span class="required-field-indicator">*</span>
+    {{~/if~}}
+  </label>
+  <div class="input-group-wrapper">
+    <div class="input-group iteration-capacity">
+      <span class="input-element">
+        {{~#if readWrite~}}
+        \{{~#if canEdit~}}
+        <input class="form-control data-entry" type="number-as-text" inputmode="numeric" pattern="[0-9]*"
+          value="\{{~ {{name}} ~}}" min="{{minimumValue}}" {{#if integerOnly}}step="1" {{else}}step="any" {{/if}} />
+        \{{~else~}}
+        <span class="read-only">\{{~ {{name}} ~}}</span>
+        \{{~/if~}}
+        {{~else~}}
+        <span class="read-only">\{{~ {{name}} ~}}</span>
+        {{/if~}}
+        <span>
+    </div>
+  </div>
+  <span class="form-control-helper-text">{{capacityHelperText}}</span>
+</div>

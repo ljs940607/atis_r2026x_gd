@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Gera stringify do objeto fornecido em JSON.",
+  "description": "Esse bloco é dinâmico, portanto, o tipo de matriz dos dados de entrada pode ser alterado usando a caixa de diálogo de configuração de bloco.",
+  "dataPorts": {
+    "Object": "o objeto para gerar stringify.",
+    "JSON": "o objeto que passou por stringify."
+  },
+  "controlPorts": {
+    "In": "dispara a execução do bloco.",
+    "Out": "é ativado quando o processo é concluído."
+  },
+  "example": null
+}

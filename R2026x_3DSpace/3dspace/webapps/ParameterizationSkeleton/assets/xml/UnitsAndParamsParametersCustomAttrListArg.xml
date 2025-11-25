@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="UnitsAndParameters" treelistnls="UnitsAndParameters" modalnls="UnitsAndParameters">
+	<object type="combobox" id="parameter" value="" onChange="onChangeParametersCombo" disabled="false" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="extension" value="" onChange="onChangeExternsionsCombo" disabled="false" mandatory="true" sortable="false"></object>
+  	<object type="combobox" id="attributeName" value="" onChange="onChangeAttributesCombo" disabled="true" mandatory="false" sortable="false"></object>
+	<object type="combobox" id="attributeValue" value="" disabled="true" mandatory="false" sortable="false"></object>
+</ui>

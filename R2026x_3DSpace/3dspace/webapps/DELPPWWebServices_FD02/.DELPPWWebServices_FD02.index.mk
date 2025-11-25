@@ -1,0 +1,11 @@
+m|DELWKOApp\DELPPWWebServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25098|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWWebServices_FD02\DELPPWWebServices_FD02.js|1744143630|12995
+s|DELWKOApp\DELPPWWebServices_FD02.mweb\src\CommonService.js|1704402891|16871
+u|DELWKOApp\DELPPWWebServices_FD02.mweb\src\WebService.js|1704400798|17089
+u|DELWKOApp\DELPPWWebServices_FD02.mweb\src\WebserviceUtils.js|1743715649|11182
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

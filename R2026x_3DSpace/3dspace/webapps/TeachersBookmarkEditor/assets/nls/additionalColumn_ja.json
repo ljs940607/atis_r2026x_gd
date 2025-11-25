@@ -1,0 +1,12 @@
+{
+  "column_Visibility": "可視性",
+  "isVisible": "受講者に公開",
+  "isHidden": "受講者に非公開",
+  "progressMultiple": "{targetfolder} 項目を含む {objectsAdded} の表示/非表示の変更。",
+  "progressSingle": "{targetfolder} の表示/非表示の変更 ",
+  "msgSuccess": "{itemCount} 項目の表示/非表示が正常に変更されました。",
+  "msgError": "{itemCount} 項目の表示/非表示の変更に失敗しました。",
+  "msgMultipleSuccess": "{itemCount} 項目の表示/非表示が正常に変更されました。",
+  "msgMultipleError": "{itemCount} 項目の表示/非表示の変更に失敗しました。",
+  "msgMaturityError": "項目の完成度の変更に失敗したため、表示/非表示の変更に失敗しました。"
+}

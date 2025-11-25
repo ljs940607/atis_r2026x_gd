@@ -1,0 +1,22 @@
+{
+  "afrService": false,
+  "afrAppId": "CATC3D_AP",
+  "afrFamily": "PAD3DViewerWAFRFamily",
+  "debug": true,
+  "afrSpecializations": ["CATC3D_AP", "C3DSelection_AP"],
+  "afrTransitionsFrom": {
+    "CATC3D_AP": {
+      "type": "CreateNewContainer"
+    }
+  },
+  "afrTransitionsFromFamily": {
+    "PAD3DViewerWAFRFamily": {
+      "type": "ReuseContext"
+    }
+  },
+  "afrTransitionsTo": {
+    "_default_": {
+      "type": "CreateNewContainer"
+    }
+  }
+}

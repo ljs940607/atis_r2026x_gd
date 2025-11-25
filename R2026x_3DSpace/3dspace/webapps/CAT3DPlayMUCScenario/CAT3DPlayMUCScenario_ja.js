@@ -1,0 +1,1 @@
+define("DS/CAT3DPlayMUCScenario/CAT3DPlayMUCScenario_ja",{});define("DS/CAT3DPlayMUCScenario/assets/nls/CAT3DPlayMUCRegister",{MUC_Title:"拘束下で移動",MUC_Description:"拘束下で移動"});

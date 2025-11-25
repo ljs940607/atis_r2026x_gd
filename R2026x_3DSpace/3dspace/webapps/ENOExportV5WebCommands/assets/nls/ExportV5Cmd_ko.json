@@ -1,0 +1,107 @@
+{
+  "title": "V5 내보내기",
+  "init": "초기화되었습니다! ",
+  "loading": "내보낼 개체 로드 중",
+  "option_path": {
+    "label": "디렉터리로 내보내기",
+    "option_text": "여기에 경로 입력",
+    "option_combo": "위치 선택...",
+    "button_add": "추가",
+    "predefined_paths": "미리 정의된 경로",
+    "added_path": "로컬 정의"
+  },
+  "option_conflict": {
+    "option_overwrite": "덮어쓰기",
+    "option_copy": "디스크에 충돌이 발생할 경우 기존 파일의 사본 유지"
+  },
+  "generatingfilename": "파일 이름 생성 중...",
+  "buttonLaunch": "시작",
+  "buttonExport": "내보내기",
+  "buttonCancel": "취소",
+  "error": {
+    "title": "오류",
+    "noSelection": "내보낼 개체를 선택한 다음 V5 내보내기 명령을 클릭합니다.",
+    "empty": {
+      "title": "선택한 개체를 내보낼 수 없습니다.",
+      "subtitle": "정의된 비즈니스 규칙이 빈 파일 이름을 생성했습니다. 관리자에게 도움을 요청하십시오."
+    },
+    "unicity": {
+      "BL": {
+        "title": "선택한 개체를 내보낼 수 없습니다.",
+        "subtitle": "정의된 비즈니스 규칙이 고유한 파일 이름을 생성하지 않았습니다. 관리자에게 도움을 요청하십시오."
+      },
+      "noBL": {
+        "title": "선택한 개체를 내보낼 수 없습니다.",
+        "subtitle": "제목에 따라 생성된 파일 이름이 고유한 파일 이름을 생성하지 않았습니다. 명명 규칙을 정의하려면 관리자에게 문의하십시오."
+      }
+    },
+    "expand_empty": "내보낼 콘텐츠가 없습니다.",
+    "expand_failed": {
+      "title": "선택한 개체를 내보낼 수 없습니다.",
+      "subtitle": "위젯을 새로 고치고 다시 시도하십시오."
+    },
+    "type": "이 유형의 개체는 내보낼 수 없습니다({objType}).",
+    "CADMaster": "{cadmaster} CAD 포맷으로 개체를 내보낼 수 없습니다.",
+    "launchApp": "배치 파일을 실행할 수 없습니다.",
+    "errorType": {
+      "subtitle": "애플리케이션 로드 중 오류가 발생했습니다.",
+      "message": "애플리케이션을 다시 로드하거나 관리자에게 지원을 요청하십시오."
+    },
+    "fetchFailed": {
+      "title": "정보를 검색할 수 없습니다.",
+      "subtitle": "올바른 자격증명을 사용하고 있는지 확인하거나 관리자에게 도움을 요청하십시오."
+    },
+    "emptyDefinedPath": {
+      "title": "승인된 경로 목록이 비어 있습니다.",
+      "subtitle": "관리자에게 도움을 요청하십시오. "
+    },
+    "pathInvalid": {
+      "title": "{namesList}에서 정의한 경로가 잘못되었습니다.",
+      "subtitle": "관리자에게 도움을 요청하십시오."
+    },
+    "emptyPathIdentifier": {
+      "title": " 정의된 경로에 이름이 없습니다.",
+      "subtitle": "관리자에게 도움을 요청하십시오."
+    },
+    "identifierUnicity": {
+      "title": "이름 {namesList}은(는) 고유하지 않습니다.",
+      "subtitle": "관리자에게 도움을 요청하십시오."
+    },
+    "emptyobject": "경로 선언 구문이 잘못되었습니다. 관리자에게 문의하십시오.",
+    "timeout": "{seconds}ms 후 요청 시간이 초과되었습니다.",
+    "security_context_fail": "서버 요청을 보낼 수 없습니다. 보안 컨텍스트를 가져오지 못했습니다.",
+    "expandIssue": "일부 데이터는 아직 인덱싱되지 않았을 수 있습니다. 몇 분 정도 기다렸다가 다시 시도하십시오.",
+    "code401": "오류 401: 인증 이슈",
+    "code400": "오류 400: 잘못된 요청",
+    "genericError": "요청 처리 오류",
+    "groupnotexpanded": "축소되거나 부분적으로 로드된 그룹은 불완전한 결과를 제공할 수 있습니다. 더 나은 내보내기를 수행하려면 그룹을 완전히 확장하십시오."
+  },
+  "warning": {
+    "title": "경고",
+    "title_path": "잘못된 경로입니다.",
+    "empty_path": "빈 위치로 내보낼 수 없습니다.",
+    "invalid_select": "선택된 일부 파일은 지원되지 않습니다.",
+    "invalid_path": "선택한 경로가 잘못되었습니다. 수정하거나 새 항목을 입력하십시오.",
+    "invalid_fetchanswer": "새로 생성된 개체 중 일부가 아직 인덱싱되지 않았으므로 내보내지 못할 수 있습니다."
+  },
+  "info": {
+    "title": "정보",
+    "custom": {
+      "subtitle": "대화형 세션을 시작하는 중 문제가 발생했습니다.",
+      "message": "관리자에게 도움을 요청하십시오."
+    },
+    "message": "메시지를 성공적으로 보냈습니다."
+  },
+  "success": {
+    "title": "성공",
+    "message": "데이터를 내보낼 수 있도록 CATIA V5로 전송했습니다."
+  },
+  "processing": "파일 이름 생성 중",
+  "launch_batch": "배치 시작 중...",
+  "ExportV5.Msg.InvalidInput": "하나 이상의 선택한 데이터를 CATIA V5로 내보내기는 지원되지 않습니다.",
+  "ExportV5.Msg.ExecutionFailed": "예기치 않은 오류가 발생했습니다.",
+  "ExportV5.Msg.ExecutionFailed.Subtitle": "관리자에게 도움을 요청하십시오.",
+  "ExportV5.Msg.InvalidRole": "CATIA V5로 내보내기를 사용할 수 있는 Role이 없습니다.",
+  "ExportV5.Msg.InvalidInputCADMaster": "선택한 데이터 중 하나 이상에 지원되지 않는 CAD 포맷이 있습니다. CATIA V5로 내보내기가 지원되지 않습니다.",
+  "ExportV5.Msg.ExpandResultEmpty": "선택한 데이터의 확장 결과가 비어 있습니다. CATIA V5로 내보낼 수 없습니다."
+}

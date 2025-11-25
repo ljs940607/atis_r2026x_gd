@@ -1,0 +1,20 @@
+{
+  "dialog_header": "Gli attributi di classificazione sono oggetti amministrativi globali che devono essere univoci in un tenant e devono essere riutilizzati in più classi ogni volta che è possibile limitarne i numeri. Una volta creati tutti gli attributi di classificazione, richiedere all'amministratore della piattaforma di aggiornare il modello dell'indice e ricaricare la cache e attendere il suo feedback prima di usarli.",
+  "type": "Tipo",
+  "internalName": "Nome interno",
+  "predicate": "Predicato 6W",
+  "enable6wPredicate": "Visualizzazione in 6W Tag",
+  "title": "Titolo",
+  "behavior": "Comportamenti",
+  "multivalued": "Multivalore",
+  "multiline": "Multiriga",
+  "authorizedValues": "Valori autorizzati",
+  "hasADefaultValue": "Ha un valore predefinito",
+  "defaultValue": "Valore predefinito",
+  "string": "Stringa",
+  "integer": "Intero",
+  "real": "Reale",
+  "boolean": "Booleano",
+  "date": "Data",
+  "double": "Attributo con quota"
+}

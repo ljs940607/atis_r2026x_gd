@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Salvar",
+  "CREOOpenGroupLabel": "Abrir",
+  "CREOMissingLinksWarningLabel": "Salvar o arquivo com referências ausentes",
+  "CREOMissingLinksWarningInfo": "Quando habilitado, um aviso será exibido caso haja algum projeto filho ausente durante a operação de Salvar na sessão Paramétrica do Creo. Quando desabilitado, a operação de Salvar prosseguirá sem o aviso.",
+  "CREOPartFamilyInstanceHandlingLabel": "Manuseio de instâncias de família de peças do Creo Parametric",
+  "CREOPartFamilyInstanceHandlingInfo": "Determina o processamento de instâncias de tabela de família de peças do Creo durante a gravação: <br><strong>PartFamilyInstanceLight</strong>: os arquivos XPR são gerados apenas para instâncias ativas.<br><strong> PartFamilyInstanceLoaded</strong>: os arquivos XPR são gerados para todas as instâncias.",
+  "CREOCADAttributeMappedToEINLabel": "Atributo CAD mapeado para EIN",
+  "CREOCADAttributeMappedToEINInfo": "Quando o valor desse atributo for especificado, a função será ativada e carimbaremos o arquivo CAD com esse atributo e seu valor será o EIN do Produto físico.",
+  "EnterpriseItemNumberGroupLabel": "Número do item do Enterprise",
+  "PartFamilyInstanceLight": "Instância leve de família de peças",
+  "PartFamilyInstanceLoaded": "Instância carregada de Família de peças",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Filtrar itens de engenharia do 3DEXPERIENCE sem geometria e sem nós filhos",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Filtre os itens de engenharia do 3DEXPERIENCE sem geometria e sem nós filhos."
+}

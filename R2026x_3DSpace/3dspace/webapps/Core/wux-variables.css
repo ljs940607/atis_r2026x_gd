@@ -1,0 +1,162 @@
+:root {
+
+  --COLOR_BACKGROUND_GRAY: #f9f9f9;
+  --COLOR_SECTION_GRAY: #f4f5f6;
+  --COLOR_FOOTER_GRAY: #f1f1f1;
+
+  --COLOR_OUTLINE_GRAY: #e2e4e3;
+  --COLOR_OUTLINE_DARK_GRAY: #d1d4d4;
+  --COLOR_ICON_GRAY: #b4b6ba;
+
+  --COLOR_COPY_GRAY: #77797c;
+  --COLOR_DARK_GRAY: #3d3d3d;
+  --COLOR_COPY_BLACK: #191919;
+
+  --COLOR_LIGHT_BLUE: #78befa;
+  --COLOR_MEDIUM_BLUE: #42a2da;
+  --COLOR_DARK_BLUE: #368ec4;
+
+  --COLOR_LIGHT_STEEL: #d5e8f2;
+  --COLOR_CORPORATE_STEEL_BLUE: #005686;
+  --COLOR_DARK_STEEL: #003c5a;
+
+  --COLOR_LIGHT_GREEN: #edf6eb;
+  --COLOR_MEDIUM_LIGHT_GREEN: #d3f4cb;
+  --COLOR_DARK_LIGHT_GREEN: #a2e88e;
+  --COLOR_MEDIUM_GREEN: #57b847;
+  --COLOR_DARK_GREEN: #477738;   
+
+  --COLOR_LIGHT_YELLOW: #fcf2c8;
+  --COLOR_MEDIUM_LIGHT_YELLOW: #fff792;
+  --COLOR_DARK_LIGHT_YELLOW: #ffe164;
+  --COLOR_MEDIUM_YELLOW: #ffce00;
+  --COLOR_DARK_YELLOW: #ce9509;
+
+  --COLOR_LIGHT_CYAN: #f2f5f7;
+  --COLOR_MEDIUM_LIGHT_CYAN: #d1e7f2;
+  --COLOR_DARK_LIGHT_CYAN: #77d7ed;
+  --COLOR_MEDIUM_CYAN: #00b8de;
+  --COLOR_DARK_CYAN: #007DA3;
+
+  --COLOR_LIGHT_RED: #fff0ee;
+  --COLOR_MEDIUM_LIGHT_RED: #ffd2cf;
+  --COLOR_DARK_LIGHT_RED: #ff8a8a;
+  --COLOR_MEDIUM_RED: #ea4f37;
+  --COLOR_DARK_RED: #844138;
+
+  --COLOR_LIGHT_ORANGE: #fff3e9;
+  --COLOR_MEDIUM_LIGHT_ORANGE: #fcd5b9;
+  --COLOR_DARK_LIGHT_ORANGE: #ffaa71;
+  --COLOR_MEDIUM_ORANGE: #e87b00;
+  --COLOR_DARK_ORANGE: #8f4c00;
+
+  --COLOR_LIGHT_BURGUNDY: #ba7d7d;
+  --COLOR_MEDIUM_LIGHT_BURGUNDY: #b55050;
+  --COLOR_DARK_LIGHT_BURGUNDY: #d80e0e;
+  --COLOR_MEDIUM_BURGUNDY: #990707;
+  --COLOR_DARK_BURGUNDY: #3f0202;
+
+  /* -- Dark colors for white labels [ER102411] : 
+     https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:195/wiki:QG2io-3gTLugDM8tu28UCA/media:0hfxK-4JTyaEkneonhMsiQ */
+
+  --COLOR_RED_FOR_WHITE_LABEL: #cc092f;
+  --COLOR_ORANGE_FOR_WHITE_LABEL: #e03400;
+  --COLOR_GREEN_FOR_WHITE_LABEL: #018308;
+  --COLOR_LIGHT_BLUE_FOR_WHITE_LABEL: #007da3;
+  --COLOR_GRAY_FOR_WHITE_LABEL: #757575;
+  --COLOR_DARK_BROWN_FOR_WHITE_LABEL: #6d2815;
+  --COLOR_LIGHT_BROW_FOR_WHITE_LABEL: #946300;
+  --COLOR_DARK_BLUE_FOR_WHITE_LABEL: #002596;
+  --COLOR_PURPLE_FOR_WHITE_LABEL: #9b2c98;
+  --COLOR_PINK_FOR_WHITE_LABEL: #e6007e;
+  --COLOR_BLACK_FOR_WHITE_LABEL: #000000;
+
+  /* -- Ordered list of colors for Data visualization in sequence.
+     This sequence of colors can be used to display data only (Graphs, charts etc.).
+     The order of the sequence is important, this selection is not a swatch palette. Please note however that the sequence can start at any color and will perform the same. */
+  --COLOR_DATA_VISUALIZATION_1: #009DDB;
+  --COLOR_DATA_VISUALIZATION_2: #FF8A2E;
+  --COLOR_DATA_VISUALIZATION_3: #9B2C98;
+  --COLOR_DATA_VISUALIZATION_4: #00AA86;
+  --COLOR_DATA_VISUALIZATION_5: #F564A3;
+  --COLOR_DATA_VISUALIZATION_6: #8DDEE4;
+  --COLOR_DATA_VISUALIZATION_7: #CC092F;
+  --COLOR_DATA_VISUALIZATION_8: #E2D5CC;
+  --COLOR_DATA_VISUALIZATION_9: #6FBC4B;
+  --COLOR_DATA_VISUALIZATION_10: #70036B;
+  --COLOR_DATA_VISUALIZATION_11: #002596;
+  --COLOR_DATA_VISUALIZATION_12: #C6C68B;
+  --COLOR_DATA_VISUALIZATION_13: #7F7F7F;
+  --COLOR_DATA_VISUALIZATION_14: #4EA8B7;
+  --COLOR_DATA_VISUALIZATION_15: #007A4C;
+  --COLOR_DATA_VISUALIZATION_16: #ADADAD;
+  --COLOR_DATA_VISUALIZATION_17: #127277;
+  --COLOR_DATA_VISUALIZATION_18: #6D2815;
+  --COLOR_DATA_VISUALIZATION_19: #000000;
+  --COLOR_DATA_VISUALIZATION_20: #4D62BA;
+  --COLOR_DATA_VISUALIZATION_21: #FEE000;
+}
+
+/* --------------------- Scrollbar ----------------------------------------*/
+
+   @property --not-hover-container-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: transparent;
+    }
+    
+    @property --hover-container-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: #bbbcbdbf;
+    }
+    
+    @property --hover-element-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: #77797cbf;
+    }
+    
+    @property --background-in-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: transparent;
+    }
+    
+    @property --background-out-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: transparent;
+    }
+    
+    @property --background-adjustment-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: #ffffff7f;
+    }
+    
+    :root {  
+      --scrollbar-size: 14px;
+  
+      --thumb-size         : 6px;
+      --thumb-border-size  : calc((var(--scrollbar-size) - var(--thumb-size))/2);
+      --thumb-border-radius: 10px;
+  
+      --button-short-size: var(--scrollbar-size);
+      --button-long-size : 24px;
+  
+      --vertical-button-height : calc(var(--button-long-size) - var(--thumb-border-size));
+      --horizontal-button-width: var(--vertical-button-height);
+  
+      --arrow-size        : 10px;
+      --arrow-size-active : 8px;
+      --vertical-arrow-y  : calc((var(--vertical-button-height) - var(--arrow-size))/2);
+      --horizontal-arrow-x: var(--vertical-arrow-y);
+
+      --scrollbar-size-radius: calc((var(--scrollbar-size))/2 - 1px);
+      --thumb-size-radius: calc(var(--thumb-border-radius)/2 - 1px);
+
+      --background-out-image: linear-gradient(var(--hover-container-color), var(--hover-container-color)), var(--background-adjustment-image);
+      --background-adjustment-image: linear-gradient(var(--background-adjustment-color), var(--background-adjustment-color));
+      --hover-element-image: linear-gradient(var(--hover-element-color), var(--hover-element-color)), var(--background-adjustment-image);
+  }

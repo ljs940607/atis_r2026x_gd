@@ -1,0 +1,44 @@
+.parameter-cell-container {
+  font-size: 16px;
+  font-family: arial;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.datagridview-parameter-cell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.editableCell {
+  cursor: pointer;
+  color: #368ec4;
+  text-decoration: none;
+}
+.editableCell .wux-ui-3ds:hover {
+  text-decoration: underline !important;
+}
+
+.editableCell:hover {
+  text-decoration: underline !important;
+}
+
+.nonEditableCell {
+  cursor: default;
+  color: #77797c;
+}
+
+.highlight-background {
+  background-color: rgb(255, 182, 182);
+}
+
+.comment-icon {
+  background: linear-gradient(-135deg, #d5d000 10px, transparent 0px) !important;
+}
+
+.conflict {
+  color: #ea4f37;
+}

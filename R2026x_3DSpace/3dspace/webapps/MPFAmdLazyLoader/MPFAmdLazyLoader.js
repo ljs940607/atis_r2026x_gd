@@ -1,0 +1,1 @@
+"use strict";define("DS/MPFAmdLazyLoader/AmdLazyLoader",["UWA/Class","UWA/Promise"],(function(n,e){var t=void 0,r=n.extend({get:function(n){return new e((function(e,t){try{require(n,(function(){e(arguments)}))}catch(n){t(n)}}))}});return r.getInstance=function(){return t||(t=new r),t},r}));

@@ -1,0 +1,11 @@
+{
+  "isRequired": "{0} es obligatorio",
+  "isInvalid": "{0} no es válido",
+  "iban": "IBAN",
+  "swift": "SWIFT",
+  "bsbNumber": "código BSB",
+  "abaNumber": "código ABA",
+  "transitNumber": "número de tránsito",
+  "accountNumber": "número de cuenta",
+  "bankNumber": "código bancario"
+}

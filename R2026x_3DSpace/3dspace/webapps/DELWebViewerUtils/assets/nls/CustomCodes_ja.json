@@ -1,0 +1,14 @@
+{
+  "Error.InvalidInput.Message": "入力が無効です。",
+  "Error.InvalidInput.Title": "無効な入力です",
+  "Error.BuildupFailed.Title": "動的ビルドアップ",
+  "Error.BuildupFailed.Message": "ビルドアップ計算は現在このデータを処理できません。それによりビルドアップの可用性に影響する可能性があります。プロセス データに必要なリンクが含まれ、構造が準拠していることを確認してください。セッションを再読み込みしてみてください。問題が解決しない場合、管理者にお問い合わせください。",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Title": "動的ビルドアップ",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Message": "ビルドアップは、マニュファクチャリング計算サービスとの接続エラーのため、現在使用できません。セッションをリロードしてください。問題が解決しない場合は、管理者に連絡してください。",
+  "Warn.ManufacturingComputeUnavailable.Title": "動的ビルドアップ",
+  "Warn.ManufacturingComputeUnavailable.Message": "ビルドアップは、マニュファクチャリング計算サービスにアクセスできないため、現在使用できません。サービスが正しくインストールされていることを確認します 問題が解決しない場合は、管理者に連絡してください。",
+  "Warn.PublishedContentNotFound.Title": "ビルドアップをパブリッシュ",
+  "Warn.PublishedContentNotFound.Message": "パブリッシュされたコンテンツを使用できません。作業計画パブリケーション アプリケーション (PND) を使用して、プロセスがパブリッシュされていることを確認してください。",
+  "Error.BuildupFromExternalContentNotValid.Message": "ビューアー オプション セットではビルドアップ コンテンツを使用できません。オプションをチェックしてください",
+  "Error.BuildupFromExternalContentNotValid.Title": "ビルドアップが無効です"
+}

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:widget="http://www.netvibes.com/ns/"
+>
+  <!-- Copyright 2016 , Dassault Systemes. All rights reserved. -->
+  <head>
+    <title>3DNotification Center</title>
+
+    <!-- Application Metas Start -->
+    <meta name="author" content="3DNotification" />
+    <meta name="description" content="3DNotification Center Vue" />
+    <meta name="keywords" content="3DNotification Center Vue" />
+    <meta name="debugMode" content="false" />
+    <meta name="strictMode" content="true" />
+    <meta name="autoRefresh" content="0" />
+
+    <!-- Application Preferences Start -->
+
+    <!-- Application Metas End -->
+    <link rel="stylesheet" href="../UIKIT/UIKIT.css" />
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script
+      type="text/javascript"
+      src="../WebappsUtils/WebappsUtils.js"
+    ></script>
+
+    <!-- Application JS Start -->
+    <script>
+      //
+      function loadCenterV1() {
+        widget.addEvent("onLoad", function () {
+          console.log("Onload Widget NotifCenter P8D");
+          require([
+            "DS/NotificationsCenter/js/controller/NotificationCenterController",
+            "DS/PlatformAPI/PlatformAPI",
+          ], function (NotificationCenterController, PlatformAPI) {
+            "use strict";
+
+            widget.body.innerHTML = "";
+            widget.initFlag = false;
+            widget.counterRequest = 0;
+            widget.maxRequest = 5;
+            PlatformAPI.publish("3dNotifCenterInit", true);
+            PlatformAPI.subscribe("3dNotifManagerInit", function (data) {
+              console.log(
+                "Inside Widget NotifCenter 3dNotifManagerInit " + data
+              );
+              if (data) {
+                //console.log('Inside Widget NotifCenter DATAOK ');
+                NotificationCenterController.getInstance(widget);
+              } else {
+                widget.counterRequest++;
+                //console.log('Inside Widget NotifCenter DATANO ');
+
+                widget.timerId = window.setTimeout(function () {
+                  widget.initFlag = true;
+                  //console.log('Inside Widget NotifCenter TIMER '+widget.maxRequest+'/'+widget.counterRequest);
+                  if (widget.counterRequest < widget.maxRequest) {
+                    PlatformAPI.publish("3dNotifCenterInit", true);
+                  } else {
+                    window.clearTimeout(widget.timerId);
+                  }
+                }, 2000);
+              }
+            });
+          });
+        });
+      }
+      //
+      function loadCenterV2() {
+        //
+        widget.addEvent("onLoad", function () {
+          var baseUrl = window.dsDefaultWebappsBaseUrl.replace("../", "");
+          //
+          var script = document.createElement("script");
+          script.setAttribute(
+            "src",
+            baseUrl +
+              "NotificationsCenterVue/dist/assets/NotificationCenterWidget.js"
+          );
+          script.setAttribute("type", "module");
+          document.head.appendChild(script);
+          //
+
+          //-----------------------------------
+          // Preload
+
+          // Add the new modulepreload links
+          const modulepreloadLinks = [
+            "/assets/modules-globalVars.js.js",
+            "/assets/modules-require.js.js",
+            "/assets/models-notification.js.js",
+            "/assets/stores-analytics.js.js",
+            "/assets/modules-imports.js.js",
+            "/assets/components-BaseCenter-CenterBody-NoNotification.vue.js",
+            "/assets/composables-useUWA.js.js",
+            "/assets/functions-device.js.js",
+            "/assets/models-setting.js.js",
+            "/assets/stores-settings.js.js",
+            "/assets/assets-nls-feed_en.json.js",
+            "/assets/composables-preferences-usePreferencesManagement.js.js",
+            "/assets/composables-notification-useNotificationActions.js.js",
+            "/assets/api-tracker.js.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationIcon.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationMenu.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-MergeDate.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationActions.vue.js",
+            "/assets/functions-utils.js.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationMessage.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationBody.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationDeleted.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationMergesList.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationStatus.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationBody-NotificationDate.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-Toolbar-SelectWrapper.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Notification-NotificationItem.vue.js",
+            "/assets/models-section.js.js",
+            "/assets/components-BaseCenter-CenterBody-SectionItem.vue.js",
+            "/assets/components-BaseCenter-CenterBody-SectionList.vue.js",
+            "/assets/stores-filter.js.js",
+            "/assets/components-BaseCenter-CenterHeader-Toolbar-Filter.vue.js",
+            "/assets/services-menu.js.js",
+            "/assets/components-BaseCenter-CenterHeader-Toolbar-Setting.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-Toolbar-SelectTool.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-Toolbar-Toolbar.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-UnreadCounter.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-FilterBody-FilterButtons.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-FilterBody-FilterOptions.vue.js",
+            "/assets/composables-filter-useFilterManagement.js.js",
+            "/assets/components-BaseCenter-CenterHeader-FilterBody-FilterBody.vue.js",
+            "/assets/components-BaseCenter-CenterHeader-CenterHeader.vue.js",
+            "/assets/components-BaseCenter-BaseCenter.vue.js",
+            "/assets/stores-connection.js.js",
+            "/assets/composables-connection-useConnection.js.js",
+            "/assets/api-drivers-PAPIDriver.js.js",
+            "/assets/api-drivers-commonDriver.js.js",
+            "/assets/api-senders.js.js",
+            "/assets/composables-notification-useNotificationMenu.js.js",
+            "/assets/composables-notification-useNotificationCleaning.js.js",
+            "/assets/composables-notification-useNotificationResolution.js.js",
+            "/assets/models-notificationWrapper.js.js",
+            "/assets/composables-notification-useNotificationManagement.js.js",
+            "/assets/stores-notifications.js.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-AppTitle.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-AppStatus.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-AppIcon.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-GlobalApp.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-PreferencesHome.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-Options-AppOptions.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-AppSetting.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-AppList.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-App-GlobalAppSettingsList.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-SettingHomeList.vue.js",
+            "/assets/components-BaseCenter-CenterBody-Preferences-PreferencesSectionItem.vue.js",
+            "/assets/components-BaseCenter-BasePreferences.vue.js",
+            "/assets/api-responseHandlers.js.js",
+            "/assets/apps-entrypointWidget.js.js",
+          ];
+
+          modulepreloadLinks.forEach((link) => {
+            const linkElement = document.createElement("link");
+            linkElement.rel = "modulepreload";
+            linkElement.crossOrigin = "anonymous";
+            linkElement.href = baseUrl + "NotificationsCenterVue/dist" + link;
+            document.head.appendChild(linkElement);
+          });
+
+          //-----------------------------------
+          var link = document.createElement("link");
+          link.setAttribute(
+            "href",
+            baseUrl +
+              "NotificationsCenterVue/dist/assets/apps-entrypointWidget.css"
+          );
+          link.setAttribute("rel", "stylesheet");
+          document.head.appendChild(link);
+          //
+          var link = document.createElement("link");
+          link.setAttribute(
+            "href",
+            baseUrl +
+              "NotificationsCenterVue/dist/assets/assets-NotificationCenter.css"
+          );
+          link.setAttribute("rel", "stylesheet");
+          document.head.appendChild(link);
+          //
+          var link = document.createElement("link");
+          link.setAttribute("href", "../../..");
+          link.setAttribute("rel", "webappsBaseUrl");
+          document.head.appendChild(link);
+        });
+      }
+      //
+      function loadCenter() {
+        //
+        const dsDefaultWebappsBaseUrl = JSON.parse(
+          JSON.stringify(window.dsDefaultWebappsBaseUrl)
+        );
+        const versionUrl =
+          dsDefaultWebappsBaseUrl.replace("resources/", "") + "centerVersion";
+        fetch(versionUrl)
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (res) {
+            if (!!res.version) {
+              //
+              console.log("Center Version versionUrl: " + res.version);
+              //
+              if (res.version === "2.0") {
+                loadCenterV2();
+              } else {
+                loadCenterV1();
+              }
+            } else {
+              // default center app
+              loadCenterV1();
+            }
+          });
+      }
+      //
+      loadCenter();
+    </script>
+    <!-- Application JS End -->
+  </head>
+  <body></body>
+</html>

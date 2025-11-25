@@ -1,0 +1,29 @@
+.sch-controls-dgvactionbar {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.sch-controls-dgvactionbar .sch-controls-dgvactionbar-button {
+  box-sizing: border-box;
+  width: 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sch-controls-dgvactionbar .sch-controls-dgvactionbar-button .wux-controls-button {
+  padding: 0px;
+  min-width: 24px;
+  color: #77797c;
+}
+.sch-controls-dgvactionbar .sch-controls-dgvactionbar-button .wux-controls-button.sch-controls-button-emptyarray, .sch-controls-dgvactionbar .sch-controls-dgvactionbar-button .wux-controls-button.sch-controls-button-emptyobject {
+  border: 0px;
+  padding: 0px !important;
+}
+.sch-controls-dgvactionbar .sch-controls-dgvactionbar-button .wux-controls-button.sch-controls-button-emptyarray .wux-button-label, .sch-controls-dgvactionbar .sch-controls-dgvactionbar-button .wux-controls-button.sch-controls-button-emptyobject .wux-button-label {
+  font-weight: 900;
+}

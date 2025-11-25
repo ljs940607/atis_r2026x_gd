@@ -1,0 +1,1 @@
+define("DS/ENOProcessStepsReferential/ENOProcessStepsReferential_cs",{});define("DS/ENOProcessStepsReferential/assets/nls/ProcessStepsReferential",{MyReferential:"Naposledy otevřené dokumenty"});

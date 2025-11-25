@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "コンテンツをここにドロップ",
+  "orMessage": "または",
+  "upContent": "コンテンツをアップロード",
+  "wrongFileType": "不正なファイル タイプ",
+  "fileTooBig": "ファイル サイズが制限の {0} を超えています",
+  "bytes": "バイト",
+  "kiloByte": "KB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "filesExceedSizeOf": "{0}/{1} ファイルが {2} のサイズ制限を超えています",
+  "filesHaveWrongFormat": "{0}/{1} ファイルのファイル形式が正しくありません"
+}

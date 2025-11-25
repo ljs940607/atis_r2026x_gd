@@ -1,0 +1,16 @@
+{
+  "WebEditorSave": "Zapisz",
+  "WebEditorCloseWithoutSave": "Nie zapisuj",
+  "WebEditorConfirmMessageOnClose": "Czy chcesz zapisać zmiany? Jeśli będziesz kontynuować bez zapisywania, utracisz swoją pracę.",
+  "WebEditorConfirmMessageWithNoLock": "Dokument jest obecnie edytowany przez innych użytkowników. Zablokowanie uniemożliwi wprowadzanie dalszych zmian. Możesz edytować online bez wpływu na innych użytkowników.",
+  "WebEditorConfirmMessageWithLock": "zablokował dokument i nie można go edytować.\nMożesz wysłać żądanie odblokowania dokumentu.",
+  "DocumentUpdatedOtherthanWebEditorSession": "Ktoś ostatnio zmodyfikował zawartość pliku z zewnątrz. Możesz ręcznie skopiować i wkleić, aby zapisać wszystkie zmiany.",
+  "OfficeWebEditorSuccessfulSave": "Dokument został pomyślnie zapisany.",
+  "FileContentIsNotChanged": "Nie wprowadzono żadnych zmian, ponieważ dokument jest otwarty.",
+  "SaveDocument": "Zapisz dokument",
+  "Close": "Zamknij",
+  "Cancel": "Anuluj",
+  "SaveInProgress": "Zapisywanie...",
+  "WebEditionSaveFailed": "Nie można zapisać zmian.",
+  "Save": "Zapisz"
+}

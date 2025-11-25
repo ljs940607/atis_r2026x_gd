@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_ko",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"단계","Step.Action":"작업","Step.DefaultMessage":"단계의 기본 메시지 "});

@@ -1,0 +1,1 @@
+define("DS/XCADSTEPDocument/STEPProductRepresentation",["DS/XCADInputDocuments/XCADProductRepresentation"],(function(t){"use strict";return t.extend((function(t,e,o){this._name=o,this._associatedDocument=t,this._representationType=e,this._rootProducts=[]}),{addRootProduct:function(t){this._rootProducts.push(t)}})}));

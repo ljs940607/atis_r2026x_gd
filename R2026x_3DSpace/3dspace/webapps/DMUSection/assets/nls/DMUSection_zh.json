@@ -1,0 +1,70 @@
+{
+  "sectionCutLimitation": "无法进一步看到剖面的剖面切割",
+  "sectionPrefix": "截面",
+  "properties": {
+    "computeContour": "计算轮廓"
+  },
+  "preferences": {
+    "sectionSectionTitle": "截面",
+    "ComputeContourLbl": "计算轮廓"
+  },
+  "notifyobjectselection": "选择所选截面的对象",
+  "ok": "确定",
+  "cancel": "取消",
+  "ValidateSel": "选择几何图形以定义截面平面位置",
+  "firstSelection": "选择几何图形以定义截面平面位置",
+  "secondSelection": "验证选择或选择第二个几何图形以定义截面平面位置",
+  "thirdSelection": "选择第三个几何图形以定义平面截面位置",
+  "ValidateSelObj": "验证选定对象 ",
+  "DMUExitClippingEditionHdr": "退出裁剪编辑",
+  "DMUHideShowHdr": "隐藏/显示",
+  "DMUPropertiesHdr": "属性",
+  "DMUContourViewerHdr": "截面辅助查看器",
+  "DMUClippingPositionHdr": "裁剪位置...",
+  "DMUAlignViewHdr": "对齐视点",
+  "DMUCutHdr": "剪切",
+  "DMUCopyHdr": "复制",
+  "DMUDeleteHdr": "删除",
+  "DMUCutUncutHdr": "剪切/取消剪切...",
+  "clippingCutUncutPanel": {
+    "title": "剪切/取消剪切",
+    "okLabel": "确定",
+    "applyLabel": "应用",
+    "closeLabel": "取消",
+    "cutSelectedElemBnt": "剪切",
+    "uncutSelectedElemBnt": "取消剪切",
+    "clearAllBnt": "全部清除",
+    "selectedElementslbl": "选定元素：",
+    "noSelection": "无选择"
+  },
+  "clippingPositionPanel": {
+    "title": "裁剪位置",
+    "position": "位置",
+    "positionX": "X：",
+    "positionY": "Y：",
+    "positionZ": "Z：",
+    "translation": "平移",
+    "planeDirW": "W",
+    "planeDirU": "U",
+    "planeDirV": "V",
+    "orientation": "方向",
+    "orientationX": "X：",
+    "orientationY": "Y：",
+    "orientationZ": "Z：",
+    "rotation": "旋转",
+    "rotationW": "W：",
+    "rotationU": "U：",
+    "rotationV": "V：",
+    "planePosition": "平面位置",
+    "offset": "偏移",
+    "okBtn": "确定",
+    "cancelBtn": "取消"
+  },
+  "stepValueContextualMenu": {
+    "title": "更改步长",
+    "stepValue": "步长值",
+    "ApplyAllBnt": "应用到所有字段",
+    "okBtn": "确定",
+    "cancelBtn": "取消"
+  }
+}

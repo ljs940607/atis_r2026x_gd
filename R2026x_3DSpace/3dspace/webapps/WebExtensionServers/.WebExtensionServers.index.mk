@@ -1,0 +1,11 @@
+m|WebComponentModeler\WebExtensionServers.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25112|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\WebExtensionServers\WebExtensionServer.d.ts|1736950687|2317
+s|WebComponentModeler\WebExtensionServers.mweb\src\WebExtensionServer.d.ts|1736950687|2317
+t|win_b64\webapps\WebExtensionServers\WebExtensionServers.js|1740825959|2302
+s|WebComponentModeler\WebExtensionServers.mweb\src\WebExtensionServer.js|1740489337|9879
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

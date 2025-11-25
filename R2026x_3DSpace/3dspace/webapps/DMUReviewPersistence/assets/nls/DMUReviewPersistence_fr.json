@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Impossible de lancer la commande",
+  "LoadingPanel": "Chargement...",
+  "cmdFailure": "Impossible de lancer la commande",
+  "cmdFailureNls": "Erreur NLS, échec du lancement de la commande.",
+  "SavingStep": "Enregistrement...",
+  "createReview": {
+    "quickEdition": "Ne plus afficher cette boîte de dialogue",
+    "errorMessage": "Echec de la création de la revue",
+    "errorShape": "Impossible de créer une revue sur une forme 3D",
+    "multipleRootsLabel": "Sélectionner un contexte",
+    "nameLabel": "Titre",
+    "defaultReviewName": "Réviser",
+    "namePlaceholder": "Ajouter un titre",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Ajouter une description",
+    "restrictedEditionLabel": "Edition restreinte",
+    "restrictedEditionActivated": "Activé",
+    "restrictedEditionDeactivated": "Désactivé",
+    "panelTitle": "Nouvelle revue",
+    "panelValidationTitle": "Nouvelle validation",
+    "createreviewButton": "Créer",
+    "cancelButton": "Annuler",
+    "importModel": "Importer un modèle JSON",
+    "slideTitle": "Diapositive",
+    "loadingMessage": "Création d'une nouvelle revue...",
+    "warningMessage": "La revue actuelle sera remplacée dans la session par la nouvelle",
+    "labelReview": "Revue",
+    "labelMarkup": "Marquage",
+    "labelCheck": "Vérifications",
+    "labelMember": "Membres",
+    "labelObjects": "Objets",
+    "saveAsDraftButton": "Enregistrer comme brouillon",
+    "reviewContext": "Contexte",
+    "multiReviewsNaming": "Automatique",
+    "validatedObjects": "Objets validés",
+    "changeAction": "Action de modification",
+    "chkListTitle": "Liste de contrôle",
+    "autoCompletePlaceHolder": "déposer ici ou effectuer une saisie pour rechercher",
+    "setValObjectAsValidatedNotif": "Cet objet ne peut pas être défini comme objet validé",
+    "setSomeValObjectAsValidatedNotif": "Certains objets ne peuvent pas être définis comme objet validé",
+    "setDefaultNotif": "Certains objets déposés ne sont pas pris en charge",
+    "setDefaultChgActNotif": "Cet objet ne peut pas être défini comme action de modification",
+    "setCtxRootNotif": "Le dépôt de sélection multiple n'est pas pris en charge pour les contextes",
+    "setChgActNotif": "Le dépôt de sélection multiple n'est pas pris en charge pour les actions de modification",
+    "setChgActCtxNotif": "L'action de modification ne peut pas être définie avec ce type de contexte",
+    "noCASearchFound": "Aucune recherche trouvée OU modification déjà ajoutée"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Ne plus afficher cette boîte de dialogue",
+    "errorMessage": "Echec de la création du marquage",
+    "multipleRootsLabel": "Sélectionner un contexte",
+    "nameLabel": "Titre",
+    "defaultMarkupName": " Marquage",
+    "namePlaceholder": "Ajouter un titre",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Ajouter une description",
+    "panelTitle": "Nouveau marquage",
+    "createMarkupButton": "Créer",
+    "cancelButton": "Annuler",
+    "importModel": "Importer un modèle JSON",
+    "slideTitle": "Diapositive",
+    "loadingMessage": "Création d'un nouveau marquage...",
+    "warningMessage": "Le marquage actuel sera remplacé dans la session par le nouveau"
+  },
+  "createCheck": {
+    "errorMessage": "Echec de la création d'une exigence vérifiée",
+    "typeToSearch": "déposer ici ou effectuer une saisie pour rechercher",
+    "noSearchFound": "Aucune recherche trouvée OU l'exigence a déjà été ajoutée",
+    "requirement": "Exigences"
+  },
+  "createHighlight": {
+    "errorMessage": "Echec de la création de la mise en évidence",
+    "selectHighlight": "Sélectionner un commentaire non marqué dans un marquage"
+  },
+  "valStateChange": {
+    "error": "L'état de validation de la révision n'a pas pu être modifié."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "L'objet validé existe déjà",
+    "SelectMsg": "Sélectionner le ou les objets validés à ajouter",
+    "OkBtn": "OK",
+    "CancelBtn": "Annuler"
+  },
+  "loadValidationContextError": "Les revues avec ce type de données ne sont pas prises en charge.",
+  "loadValidationMarkupError": "Impossible de charger la revue.",
+  "page": "Page",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Effacer l'état",
+      "message": "Voulez-vous vraiment effacer l'état des commentaires sélectionnés ?",
+      "okLabel": "Effacer"
+    },
+    "unableToMark": "Impossible de changer le statut de certains commentaires."
+  }
+}

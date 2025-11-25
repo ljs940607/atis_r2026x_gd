@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" />
+<html>
+
+<head>
+
+      <!-- Application Metas -->
+      <title>Product Structure Editor Table View Customization</title>
+      <meta name="author" content="Dassault Systèmes" />
+      <meta name="brand" content="ENOVIA" />
+      <meta name="autoRefresh" content="0" />
+      <meta name="description" content="ENOVIA Product Structure Editor Table View Customization" />
+      <link rel="stylesheet" type="text/css" href="../Core/wux.css" />
+      <link rel="stylesheet" type="text/css" href="./ENOXCustomTableEditor.css" />
+      <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+      <script type="text/javascript">
+            // if we can subscribe to message event once and dispatch it?
+            // seems it occurs too soon and we can abstract elswehere.
+
+            function smartParse(jsonData) {
+                  let isValid = false;
+                  let parsed = null;
+                  try {
+                        parsed = JSON.parse(jsonData);
+                        isValid = true;
+                  } catch (e) {
+                        isValid = false;
+                        console.error('json fail parse');
+                        console.log(jsonData);
+                  }
+
+                  return { isValid, parsed };
+            }
+
+            function extractInfo(e) {
+                  let data = e.data;
+                  let { isValid, parsed } = smartParse(data.jsonData);
+                  return {
+                        localWindow: window,
+                        iframeContentWindow: e.source,
+                        mepOrigin: e.origin,
+                        jsonData: parsed,
+                        isJsonDataValid: isValid,
+                        tenantID: data.tenantID,
+                        isCloud: data.tenantID !== 'OnPremise',
+                        lockState: data.lockState === 'true', // massage lockState into flag.
+                        compassConfig: data.compassConfig
+                  }
+            }
+
+            // wanted to abstract but timing was off...this event comes extremely fast.
+            window.addEventListener('message', function(e) {
+                  var data = e.data;
+                  if (data && data.message && data.message === 'com.ds.mep:CustomDialogReady_msg')  { 
+                        let options = extractInfo(e);
+                        options.appId = 'ENOPSTE_AP';
+                        options.x3dAppId = 'ENOPSTE_AP';
+                        options.targetId = 'product-editor-table-editor';
+                        // from their docs.
+                        require.config({
+    	                        locale: options.compassConfig.lang
+        	            });
+                        require([
+                              'DS/ENOXCustomTableEditor/Main'
+                        ], function(Main) {
+                              // we tried to NOT use global widget.
+                              // however some API call deep requests lang or something.
+                              // PropCache initializes the widget pointer.
+                              window.main = new Main(options);
+                        });
+                  }
+            });
+      </script>
+</head>
+
+<body>
+      <div id="product-editor-table-editor">
+            <div class="table-editor-loader-container" >
+                  <span class="table-editor-loader"></span>
+            </div>
+      </div>
+</body>
+</html>

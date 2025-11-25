@@ -1,0 +1,1 @@
+define("DS/WAfrContainerAsWidget/WAfrContainerAsWidget_ja",{});define("DS/WAfrContainerAsWidget/assets/nls/Transition",{"WAfrTransitionLaunched.title":"開始しています "});

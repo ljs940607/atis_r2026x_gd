@@ -1,0 +1,16 @@
+<div class="edfm-title-tbar">
+	<span class="tbar-title-actions-right">
+		{{#each actions}}
+			{{#if hasAccess }}
+				{{#if html }}
+					<span>{{{ html }}}</span>
+				{{else}}
+		  			<span class="wux-ui-3ds wux-ui-3ds-1x wux-ui-3ds-{{ icon }}" id="title-tbar-icon-{{ icon }}" title="{{ label }}"></span>
+				{{/if}}
+			{{/if}}
+		{{/each}}
+	</span> 
+</div>
+</div>
+<br/><br/>
+

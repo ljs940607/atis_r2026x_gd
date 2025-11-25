@@ -1,0 +1,1 @@
+define("DS/WAfrContainerAsWidget/WAfrContainerAsWidget_ru",{});define("DS/WAfrContainerAsWidget/assets/nls/Transition",{"WAfrTransitionLaunched.title":"Запуск "});

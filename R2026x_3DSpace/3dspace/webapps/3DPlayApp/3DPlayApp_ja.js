@@ -1,0 +1,1 @@
+define("DS/3DPlayApp/3DPlayApp_ja",{});define("DS/3DPlayApp/assets/nls/3DPlayApp",{SpecificData_NoTransition:"このコンテンツは別の Web アプリケーションでは開けません。",AutoringAppData_NoTransition:"3DPlay はオーサリング アプリケーションから切り替えることができません。",RTVIssue_NoTransition:"3DPlay および 3DMaster アプリケーションを交互に切り替えるには、必ず 3DMaster アプリケーションから始める必要があります。"});

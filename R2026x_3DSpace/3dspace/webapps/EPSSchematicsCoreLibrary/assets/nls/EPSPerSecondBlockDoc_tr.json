@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir önceki yürütme adımından bu yana geçen süreyi dikkate alarak her bir yürütme adımındaki girdi verisi değerine bir saniye bazında interpolasyon uygular.",
+  "description": "Bu blok, <b>kare bazlı animasyonların</b> elde edilmesi bakımından gerçekten yararlı olabilir. Kullanılan bilgi işlem gücü ne olursa olsun sabit bir animasyon hızını garanti eder.<br><br><b>Zaman bazında</b> animasyon verilen bir nesne, <b>A noktası</b>'ndan <b>B noktası</b>'na filmin kare hızından bağımsız olarak <b>aynı süre içinde</b> ulaşır. Kare hızı ne kadar yavaş olursa aynı hızı korumak için <b>nesne her karede o kadar fazla ilerler</b>.<br><br>Öte yandan animasyon <b>kare hızı bazında</b> oluşturuluyorsa nesnenin <b>A noktası</b>'ndan <b>B noktası</b>'na ulaşması her zaman <b>aynı kare sayısı içinde</b> gerçekleşir. Her karede katedilen uzaklık değişmediği için kare hızı ne kadar yavaş olursa hareket o kadar uzun sürecektir.<br><br>Pratikte kare hızı yavaşladıkça kare bazlı animasyon da <b>yavaşlar</b> ve kare bazlı animasyon <b>kesintili</b> hale gelir.<br>Zaman bazlı animasyon, 'kare hızından bağımsız' animasyon olarak da bilinir.",
+  "dataPorts": {
+    "Input": "bir saniye bazında interpolasyonun uygulandığı girdi değerine karşılık gelir.",
+    "Output": "<doc-odp-name translate=no>Output</doc-odp-name> = <doc-idp-name translate=no>Input</doc-idp-name> * Geçen Zaman (saniye) olan çıktı değerine karşılık gelir.<br>Geçen zaman, bir yürütme adımının süresini temsil eder."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

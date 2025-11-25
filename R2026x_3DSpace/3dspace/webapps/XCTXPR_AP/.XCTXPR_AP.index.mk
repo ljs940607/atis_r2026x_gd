@@ -1,0 +1,13 @@
+m|VCXWebExperiencePlayer\XCTXPR_AP.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25227|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCTXPR_AP\assets\latest\components.json|1723278229|4
+s|VCXWebExperiencePlayer\XCTXPR_AP.mweb\src\assets\latest\components.json|1707220543|4
+t|win_b64\webapps\XCTXPR_AP\assets\latest\interfaces.json|1723278229|159
+s|VCXWebExperiencePlayer\XCTXPR_AP.mweb\src\assets\latest\interfaces.json|1707220543|159
+t|win_b64\webapps\XCTXPR_AP\assets\latest\managers.json|1729340938|653
+s|VCXWebExperiencePlayer\XCTXPR_AP.mweb\src\assets\latest\managers.json|1727524248|653
+t|win_b64\webapps\XCTXPR_AP\assets\latest\prototypes.json|1755316729|218785
+s|VCXWebExperiencePlayer\XCTXPR_AP.mweb\src\assets\latest\prototypes.json|1754956860|218785

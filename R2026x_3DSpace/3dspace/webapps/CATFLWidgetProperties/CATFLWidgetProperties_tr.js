@@ -1,0 +1,1 @@
+define("DS/CATFLWidgetProperties/CATFLWidgetProperties_tr",{});define("DS/CATFLWidgetProperties/assets/nls/CATFLProperties",{msg_not_supported_selection:"Desteklenmeyen seçim",msg_facet_no_available:"Bu kategorik özellik kullanılamıyor"});

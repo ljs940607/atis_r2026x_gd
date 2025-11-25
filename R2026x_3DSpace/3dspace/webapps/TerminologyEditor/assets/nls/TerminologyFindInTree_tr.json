@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Terminolojiler bulunuyor..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Bırakılan nesne, göz atma yapısı nesnesi değil.",
+    "Advice": "Lütfen bir göz atma yapısı veya düğümü bırakın."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "Advice": "Ağacı ilgili göz atma düğümüne genişletin",
+    "Details": "Bulunacak göz atma düğümü ağaçta görünmez."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "Advice": "Göz atma yapısı bölümünü birinci seviyeye genişletin.",
+    "Details": "Göz atma yapısı bölümünün altında görünür bir göz atma yapısı yok."
+  },
+  "msg_info_limit_FindInTree": "Sınıra ulaşıldı. Bulma sınırı 100 olarak ayarlandı.",
+  "msg_info_limitToFindInRootNode": "Göz atma yapısında bulma sınırı 200 olarak ayarlandı, ilk 200 göz atma yapısı dikkate alınacak.",
+  "msg_info_No_Occurrence": "Göz atma yapısı oluşumu bulunamadı."
+}

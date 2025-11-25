@@ -1,0 +1,10 @@
+{
+  "title": "Reconciliation Management Report",
+  "statusTag": "Status",
+  "startDateTag": "Start of processing",
+  "estimatedDateTag": "Estimated date for next processing",
+  "processedObjectTag": "Processed objects",
+  "currentOpTag": "Processed operations",
+  "totalOpTag": "Total operations to process",
+  "durationTag": "Duration of last processing"
+}

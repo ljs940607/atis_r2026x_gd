@@ -1,0 +1,22 @@
+{
+  "setParameters": "パラメーターを保存しました",
+  "setParametersTitle": "保存",
+  "setParametersError": "パラメーター保存時のエラー",
+  "deleteParameter": "パラメーターを削除しました",
+  "deleteParameterTitle": "削除",
+  "deleteParameterError": "パラメーター削除中のエラー",
+  "modifyParameter": "パラメーターが変更されました",
+  "modifyParameterTitle": "変更",
+  "modifyParameterError": "パラメーターの修正時のエラー",
+  "columnMandatory": "列 %1 は必須です",
+  "containUnsupportedChars": "%1 には、次のサポートされていない文字が 1 つ以上含まれています \n%2",
+  "confirmDeleteTitle": "削除を確認",
+  "confirmDeleteContent": "この行を削除してもよろしいですか? この操作は元に戻せません。",
+  "Add": "新しい行を追加",
+  "orderParameters": "順序が更新されました",
+  "orderParametersTitle": "リオーダ",
+  "orderParametersError": "リオーダ時のエラー",
+  "orderParametersMaskMessage": "順序を更新しています",
+  "orderParametersDeleteError": "前の順序を削除するときにエラーが発生しました",
+  "orderParametersSetError": "新規順序を保存するときにエラーが発生しました"
+}

@@ -1,0 +1,22 @@
+{
+  "__comment__": "SpeedControlResetLabel에 대해 번역된 단어의 권장 문자 수는 5-7입니다.",
+  "SpeedControlResetLabel": "재설정",
+  "SpeedControlErrorTitle": "잘못된 재생 속도",
+  "SpeedControlErrorMsg": "0보다 큰 숫자를 입력하십시오.",
+  "buttonLoop.tooltipInfos.title": "루프 모드",
+  "buttonLoop.tooltipInfos.shortHelp": "애니메이션을 계속 반복합니다.",
+  "buttonStepBackward.tooltipInfos.title": "뒤로 가기",
+  "buttonStepBackward.tooltipInfos.shortHelp": "애니메이션을 한 프레임 뒤로 이동합니다.",
+  "buttonPlay.tooltipInfos.title": "앞으로 재생",
+  "buttonPlay.tooltipInfos.shortHelp": "현재 중지된 프레임에서 애니메이션을 재생합니다.",
+  "buttonPause.tooltipInfos.title": "일시 중지",
+  "buttonPause.tooltipInfos.shortHelp": "재생 시 애니메이션을 일시 중지합니다.",
+  "buttonStepForward.tooltipInfos.title": "앞으로 가기",
+  "buttonStepForward.tooltipInfos.shortHelp": "애니메이션을 한 프레임 앞으로 이동합니다.",
+  "autoCompleteSpeedControl.tooltipInfos.title": "속도 계수",
+  "autoCompleteSpeedControl.tooltipInfos.shortHelp": "애니메이션을 재생할 속도를 지정합니다.",
+  "buttonChoose.tooltipInfos.title": "애니메이션 선택",
+  "buttonChoose.tooltipInfos.shortHelp": "제품에 사용할 수 있는 애니메이션 목록을 표시하며, 이를 통해 재생할 애니메이션을 선택할 수 있습니다.",
+  "buttonClose.tooltipInfos.title": "닫기",
+  "buttonClose.tooltipInfos.shortHelp": "애니메이션 플레이어를 닫습니다."
+}

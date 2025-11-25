@@ -1,0 +1,16 @@
+{
+  "other": "その他",
+  "companyName": "会社名",
+  "typeCompanyName": "自社名を入力",
+  "country": "国",
+  "selectCountry": "自社の国を選択",
+  "countryNotAvailable": "顧客の国には見積を発行できません",
+  "phoneNumber": "電話番号",
+  "enterPhoneNumber": "電話番号を入力",
+  "phoneNumberInvalid": "この電話番号は無効です",
+  "addNda": "NDA を追加",
+  "ndaInfo": "秘密保持契約 (NDA) をアップロードできます。選択したサービス プロバイダーは、あなたのリクエストを見る前に、これに同意する必要があります。\n(最大ファイル サイズ: 30MB | サポートされているファイル形式: PDF、DOCX、DOC)",
+  "imageCantBeUploadedNDA": "イメージ ファイルを NDA としてアップロードすることはできません。",
+  "fileFormatNotSupported": "サポートされていないファイル形式",
+  "uploadError": "エラーが発生しました。最大サイズ 50MB の PDF ファイルとテキスト ファイルのみが受け付けられることに注意してください。"
+}

@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Calcul des coûts",
+  "CostingDomainTooltip": "Choisissez le processus d'évolution pour les mesures de coût",
+  "CostingDefaultEvolution": "Séquentiel",
+  "CostingEvolutionConcurrent": "Simultané",
+  "deployFailureMsg": "La définition du processus d'évolution sur Simultané n'est pas autorisée, car il existe des Mesures de coûts au-delà de l'Etat en traitement",
+  "MetricEvolutionAccordionTitle": "Processus d'évolution des mesures"
+}

@@ -1,0 +1,44 @@
+{
+  "valueTypeComboTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIValueTypeComboTweaker",
+    "options": {
+      "displayStyle": "myStyle"
+    }
+  },
+  "objectEditorTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIObjectEditorTweaker",
+    "options": {
+      "displayStyle": "edition"
+    }
+  },
+  "dgvActionBarTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIDGVActionBarTweaker",
+    "options": {
+      "displayStyle": "myStyle"
+    }
+  },
+  "bigintTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIBigIntTweaker",
+    "options": {
+      "displayStyle": "edition"
+    }
+  },
+  "jsonTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIJSONTweaker",
+    "options": {
+      "displayStyle": "edition"
+    }
+  },
+  "fileBufferTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIFileBufferTweaker",
+    "options": {
+      "displayStyle": "edition"
+    }
+  },
+  "stringTemplate": {
+    "path": "DS/EPSSchematicsUI/tweakers/EPSSchematicsUIStringTweaker",
+    "options": {
+      "displayStyle": "edition"
+    }
+  }
+}

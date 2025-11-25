@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Automatická tvorba názvů",
+  "ACADAutoNameInfo": "Umožňuje automatické pojmenování při prvním ukládání souborů v aplikaci 3DEXPERIENCE. Vztahuje se na všechny aplikace vytvářející data AutoCAD.",
+  "ACADSaveGroupLabel": "Uložit",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Nahradit název novým názvem ve funkci automatického pojmenování",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Při výběru dialogového okna Automaticky pojmenovat při uložení bude stávající název souboru nahrazen názvem přiděleným funkcí automatického pojmenování.",
+  "ACADEnablePessimisticLockingLabel": "Pesimistické uzamčení",
+  "ACADEnablePessimisticLockingInfo": "Povolením této funkce zajistíte, že data nebude možné uložit do platformy z konektoru, pokud ji aktuální uživatel nezarezervuje.",
+  "ACADFileReadOnlyLabel": "Vytvořit soubor pouze pro čtení",
+  "ACADFileReadOnlyInfo": "Soubor bude označen jako pouze ke čtení, pokud jej aktuální uživatel nerezervuje. Toto chování se aktivuje pouze v případě, že je aktivní pesimistické uzamčení.",
+  "ACADDelimiterLabel": "Nastavit oddělovač",
+  "ACADDelimiterInfo": "Tento oddělovač bude použit takto:\n1. Sloučení hodnot vícehodnotových atributů ve 3DEXPERIENCE při synchronizaci souboru CAD.\n2. Rozdělení hodnoty atributu CAD, pokud je mapována na vícehodnotový atribut ve 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "Obecné",
+  "InvalidDelimiter": "Jako oddělovač není povolen více než jeden znak"
+}

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-1, .cls-2, .cls-3, .Green_OK, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .Grey_MEDIUM, .cls-10 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-8, .Grey_MEDIUM {
+        stroke: #323232;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-17);
+        opacity: .5;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-13 {
+        fill: #797979;
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-16, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .Green_OK {
+        fill: url(#linear-gradient);
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-17 {
+        fill: url(#radial-gradient);
+        opacity: .4;
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-16);
+        opacity: .6;
+      }
+
+      .cls-4 {
+        stroke: #787878;
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-10 {
+        stroke: #053755;
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-18);
+        opacity: .3;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-14);
+        stroke: url(#linear-gradient-15);
+      }
+
+      .Grey_MEDIUM {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-9);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="14.9" y1="24.6" x2="24.6" y2="7.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#379614"/>
+      <stop offset="1" stop-color="#55b432"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="14.7" y1="25.1" x2="24.9" y2="7.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#28780a"/>
+      <stop offset="1" stop-color="#3c9b19"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="29.6" y1="51.9" x2="34.1" y2="59.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="36.8" y1="36.2" x2="47.1" y2="36.2" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#8dd7f4"/>
+      <stop offset=".7" stop-color="#386f8d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="28.5" y1="46.2" x2="38.7" y2="46.2" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-6" x1="34.8" y1="36.2" x2="40.6" y2="46.1" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#bebebe"/>
+      <stop offset=".3" stop-color="#f5f5f5"/>
+      <stop offset=".6" stop-color="#c6c6c5"/>
+      <stop offset=".8" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#a39f9f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="41" y1="42.9" x2="43.1" y2="46.5" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-8" x1="46.2" y1="47.9" x2="58.8" y2="58.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8dd7f4"/>
+      <stop offset=".5" stop-color="#386f8d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="42.3" y1="49.1" x2="52.1" y2="49.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a3def6"/>
+      <stop offset="1" stop-color="#74c3e1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="29.2" y1="54" x2="34.6" y2="63.4" xlink:href="#linear-gradient-3"/>
+    <clipPath id="clippath">
+      <path class="cls-16" d="M22.6,55.1c.4-1.9,1.8-3.4,3.8-3.7,0,0,0,0,0,0,.1,0,.4,0,.5,0h6.2l-5.4-4.7c-.9-.8-1.5-2-1.5-3.2,0-2.3,1.4-4,3.6-4.3.3,0,.6,0,.9,0l3.9-4.7c0-.3-.1-.6-.2-1,0-2.3,1.4-4,3.6-4.3,1.2-.2,2.4.2,3.4,1l5.4,4.5V5H5.5v51.5h15.5c.4-.6,1-1.1,1.7-1.4Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-11" x1="11.5" y1="10.5" x2="37.6" y2="55.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="34.5" y1="7.6" x2="41.1" y2="19" xlink:href="#linear-gradient-11"/>
+    <linearGradient id="linear-gradient-13" x1="12" y1="18" x2="29.4" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a49f9f"/>
+      <stop offset=".2" stop-color="#ddd"/>
+      <stop offset=".4" stop-color="#c6c6c6"/>
+      <stop offset=".7" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#bebebe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-14" x1="15.9" y1="23.4" x2="23.8" y2="9.8" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" x1="15.7" y1="23.9" x2="24.1" y2="9.3" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-16" x1="20.7" y1="23" x2="20.7" y2="10.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".1" stop-color="#f9fafb" stop-opacity="1"/>
+      <stop offset=".2" stop-color="#e9eff2" stop-opacity="1"/>
+      <stop offset=".4" stop-color="#cfdce3" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#abc1ce" stop-opacity=".9"/>
+      <stop offset=".8" stop-color="#7ca0b3" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#447793" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#386e8c" stop-opacity=".7"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="23" cy="37.1" fx="23" fy="37.1" r="12.8" gradientTransform="translate(41.5 -7) rotate(89.6) scale(.9 .5) skewX(0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-17" x1="20.7" y1="9.7" x2="20.7" y2="26.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".1" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".3" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset=".3" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset=".3" stop-color="#fff" stop-opacity=".4"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".6"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="20.8" y1="10.5" x2="20.8" y2="20.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity=".1"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g>
+        <g>
+          <path class="cls-7" d="M37.5,34.7l6.5,5.6c.4.4.9.5,1.5.5s1.4-.4,1.6-1.3-.1-1.4-.6-1.9l-6.7-5.6c-.4-.3-.9-.5-1.4-.4s-1.5.5-1.5,1.7.3,1,.7,1.3Z"/>
+          <path class="cls-5" d="M29.1,44.7l6.5,5.6c.4.4.9.5,1.5.5s1.4-.4,1.6-1.3-.1-1.4-.6-1.9l-6.7-5.6c-.4-.3-.9-.5-1.4-.4s-1.5.5-1.5,1.7.3,1,.7,1.3Z"/>
+          <polygon class="cls-1" points="31.4 42 37.5 34.7 44 40.3 38.1 47.6 31.4 42"/>
+          <path class="cls-8" d="M40.8,46.9s.8.8,1.6-.1l2-2.2s.6-.7-.2-1.5l-1.4-1.2-3.2,3.9,1.2,1.1Z"/>
+          <path class="cls-6" d="M42.2,47l11.6,11.4c1.1,1.1,2.9,1.3,4.1.4s0,0,0,0c.4-.3.8-.8,1-1.3s.2-.6.2-1c.1-1.1-.4-2.2-1.4-2.8l-13.3-9-2.2,2.4Z"/>
+          <polygon class="cls-10" points="48.9 53.5 52.1 49.8 44.4 44.6 42.3 47 48.9 53.5"/>
+        </g>
+        <path class="Grey_MEDIUM" d="M24.8,56.8h14.3v-1.1c0-1-.7-1.8-1.6-1.9s0,0,0,0h-10.7s0,0,0,0,0,0,0,0c-1.1.2-1.8,1.1-1.8,2.2v.9Z"/>
+        <path class="cls-2" d="M22.5,59.4h19v-1c0-.8-.9-1.5-2.2-1.6s0,0,0,0h-14.2s0,0-.1,0,0,0,0,0c-1.4.1-2.4.9-2.4,1.9v.8Z"/>
+      </g>
+      <g class="cls-21">
+        <g>
+          <path class="cls-19" d="M34.4,5.7H7.2c-.5,0-.8.4-.8.8l.3,48.3c0,.5.4.8.8.8h37.8c.5,0,.8-.4.8-.8V17.5s0,0,0,0l-11.7-11.7s0,0,0,0Z"/>
+          <polygon class="cls-14" points="46.1 17.5 34.2 17.3 34.2 5.7 46.1 17.5"/>
+          <polyline class="cls-4" points="45.7 17.3 34.2 17.3 34.2 5.8"/>
+          <path class="cls-3" d="M34.4,5.7H8c-.9,0-1.6.7-1.6,1.6l.3,47.5c0,.5.4.8.8.8h37c.9,0,1.6-.7,1.6-1.6V17.5l-11.7-11.8Z"/>
+        </g>
+        <g>
+          <rect class="cls-13" x="10.3" y="30.7" width="21.9" height="2.9"/>
+          <rect class="cls-13" x="10.3" y="37.1" width="21.9" height="2.9"/>
+          <rect class="cls-13" x="10.3" y="43.6" width="21.9" height="2.9"/>
+        </g>
+        <g>
+          <path class="cls-11" d="M20.7,8.5s-2,2-8.7,2v2.8c0,12.9,8.7,14.2,8.7,14.2,0,0,8.7-1.4,8.7-14.2v-2.8c-6.7,0-8.7-2-8.7-2Z"/>
+          <path class="Green_OK" d="M20.7,8.5s-2,2-8.7,2v2.8c0,12.9,8.7,14.2,8.7,14.2,0,0,8.7-1.4,8.7-14.2v-2.8c-6.7,0-8.7-2-8.7-2Z"/>
+          <path class="cls-9" d="M20.7,25.9c-1.3-.3-7.1-2.5-7.1-12.6v-1.2c3.7-.2,5.9-1.1,7.1-1.8,1.2.6,3.4,1.6,7.1,1.8v1.2c0,10.2-5.8,12.3-7.1,12.6Z"/>
+          <path class="cls-18" d="M20.7,9.9c-1.1.6-3.4,1.6-7.5,1.8v1.6c0,10.7,6.3,12.8,7.5,13,1.2-.3,7.5-2.3,7.5-13v-1.6c-4.1-.1-6.4-1.1-7.5-1.8ZM27.8,13.3c0,10.1-5.7,12.3-7.1,12.6-1.4-.4-7.1-2.5-7.1-12.6v-1.2c3.6-.2,5.8-1.1,7.1-1.8,1.3.7,3.5,1.6,7.1,1.8v1.2Z"/>
+          <path class="cls-17" d="M20.7,9.9v17.2c.3,0,2.2-.4,4.1-2.1,1.9-1.6,4.1-4.8,4.1-10.9v-2.4c-5.5,0-7.7-1.4-8.2-1.8Z"/>
+          <path class="cls-12" d="M20.7,9.7c-2.7,1.6-6.2,1.7-7.3,1.8s-.4.2-.4.4v1.4c0,6,2,11.5,7.7,13.2,5.7-1.8,7.7-7.2,7.7-13.2v-1.4c0-.2-.2-.4-.4-.4-1.1,0-4.6-.2-7.3-1.8ZM28.2,13.3c0,10.7-6.3,12.8-7.5,13-1.2-.3-7.5-2.3-7.5-13v-1.6c4.1-.1,6.4-1.1,7.5-1.8,1.1.6,3.4,1.6,7.5,1.8v1.6Z"/>
+          <rect class="cls-20" x="20.7" y="10.5" width=".2" height="9.9"/>
+        </g>
+        <path class="cls-15" d="M24.4,13.3c.2,0,.4,0,.6.2,0,0,.1.2.2.3s0,.2,0,.3c0,.2,0,.4-.2.6l-5.7,5.7-2.9-2.9c-.2-.2-.2-.3-.2-.6s0-.2,0-.3c0,0,0-.2.2-.3.2-.2.3-.2.6-.2s.4,0,.6.2l1.8,1.8,4.6-4.6c0,0,.2-.1.3-.2s.2,0,.3,0Z"/>
+        <rect class="cls-16" x="4.9" y="4.6" width="42.5" height="53"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+m|MPFModels\MPFPspModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPspModel\MPFPspModel.js|1725720414|4910
+s|MPFModels\MPFPspModel.mweb\src\CartPspDataProxy.js|1724871226|1698
+u|MPFModels\MPFPspModel.mweb\src\MPFPspModel.js|1724871226|0
+u|MPFModels\MPFPspModel.mweb\src\MeOnlineInstanceDataProxy.js|1724871226|1760
+u|MPFModels\MPFPspModel.mweb\src\ParamPspDataProxy.js|1724871226|1149
+u|MPFModels\MPFPspModel.mweb\src\PspFactory.js|1724871226|3546
+u|MPFModels\MPFPspModel.mweb\src\PspModel.js|1724871226|4406
+u|MPFModels\MPFPspModel.mweb\src\ShopPspDataProxy.js|1724871226|2481
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,1 @@
+define("DS/MPFAddressConstraintsModel/MPFAddressConstraintsModel_ko",{});define("DS/MPFAddressConstraintsModel/assets/nls/AddressConstraintsModel",{addressLine1:"주소",addressLine2:"주소",addressLine3:"주소",addressLine4:"주소",city:"시/도",county:"읍/면/동",state:"구/군/시",postalCode:"우편번호",phoneNumber:"전화번호",country:"국가",requiredError:"{0}이(가) 필요합니다.",invalidError:"{0}이(가) 올바르지 않습니다."});

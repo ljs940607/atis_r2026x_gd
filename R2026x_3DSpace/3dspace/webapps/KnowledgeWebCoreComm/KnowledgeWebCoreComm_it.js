@@ -1,0 +1,1 @@
+define("DS/KnowledgeWebCoreComm/KnowledgeWebCoreComm_it",{});define("DS/KnowledgeWebCoreComm/assets/nls/KnowledgeWebCoreComm",{ConnectionLost:"Riconnessione in corso..."});

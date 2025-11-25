@@ -1,0 +1,78 @@
+{
+	"COSummary": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+		"modificationDate": "ds6w:modified",
+		"creationDate": "ds6w:created"
+	},
+	"CRSummary": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+		"modificationDate": "ds6w:modified",
+		"creationDate": "ds6w:created"
+	},
+	"COOrchestration": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible"
+	},
+	"CROrchestration": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible"
+	},
+	"CRAffectedItems": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "maturity": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"CAProposedChange": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "maturity": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"ReportedAgainst": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "maturity": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"CRImpactAnalysisMaturity":{
+		"maturity": "ds6w:status"
+	},
+	"createIssue":{
+	   "maturity":"ds6w:status",
+	   "type":"ds6w:type",
+	   "policy":"ds6w:policy"
+	},
+	"IAImpacts": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "current": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"IAImpactBasis": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "current": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"CAContextItems": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "current": "ds6w:status",
+		"type":"ds6w:type"
+    },
+	"CASummary":{
+		"maturity":"ds6w:status",
+		"modificationDate": "ds6w:modified",
+		"creationDate": "ds6w:created"
+	},
+	"ChangeImpacts": {
+		"collabspace": "ds6w:project",
+		"organization": "ds6w:organizationResponsible",
+        "current": "ds6w:status",
+		"type":"ds6w:type",
+		"severity":"ds6w:severity"
+    }
+}

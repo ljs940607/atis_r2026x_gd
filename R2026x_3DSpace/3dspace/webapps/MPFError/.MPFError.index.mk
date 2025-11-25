@@ -1,0 +1,14 @@
+m|MPFCore\MPFError.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFError\MPFError.js|1725720366|1864
+s|MPFCore\MPFError.mweb\src\BadArgumentError.js|1724871223|785
+u|MPFCore\MPFError.mweb\src\MPFError.js|1724871223|0
+u|MPFCore\MPFError.mweb\src\NotImplementedError.js|1724871223|944
+u|MPFCore\MPFError.mweb\src\NotSupportedError.js|1724871223|596
+u|MPFCore\MPFError.mweb\src\SyncError.js|1724871223|448
+u|MPFCore\MPFError.mweb\src\ValidationError.js|1724871223|521
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

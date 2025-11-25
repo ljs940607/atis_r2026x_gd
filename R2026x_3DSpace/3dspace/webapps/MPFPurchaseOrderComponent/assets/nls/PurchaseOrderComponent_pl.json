@@ -1,0 +1,18 @@
+{
+  "purchaseOrderNumber": "Odniesienie do zamówienia, które ma być umieszczone na fakturze",
+  "purchaseOrderLabel": "Etykieta do wyświetlenia na fakturze",
+  "purchaseOrderFile": "Plik",
+  "purchaseOrderNoticeMessage": "Potwierdzono wycenę i wybrano metodę płatności odroczonej. Prześlij zamówienie zakupu, aby rozpocząć realizację zamówienia.",
+  "learnMoreAboutDifferedPayment": "Dowiedz się więcej o procedurze płatności odroczonej",
+  "uploadPurchaseOrder": "Prześlij zamówienie zakupu",
+  "cancleOrder": "Potwierdzenie anulowania zamówienia",
+  "purchaseOrderUploadedMessage": "Zamówienie zakupu zostało przesłane. Produkcja może się rozpocząć.",
+  "learnMoreAboutPurchaseOrder": "Dowiedz się więcej o procesie płatności odroczonej",
+  "downloadPurchaseOrder": "Pobierz zamówienie zakupu",
+  "save": "Zapisz",
+  "purchaseOrder": "Zamówienie zakupu",
+  "purchaseOrderDocument": "Dokument zamówienia zakupu",
+  "anErrorOccured": "Wystąpił błąd. Spróbuj ponownie.",
+  "uploadWarning": "Ostrzeżenie: dokumentu nie można zmodyfikować po przesłaniu",
+  "financialExpenseLine": "Wiersz dotyczący kosztów finansowych"
+}

@@ -1,0 +1,92 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.23921568627450981,
+        0.23921568627450981,
+        0.23921568627450981,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Border.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Border.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 2
+    },
+    {
+      "name": "Collab.Border.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Arrow.Body.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.23921568627450981,
+        0.23921568627450981,
+        0.23921568627450981,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Arrow.Body.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Border.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0,
+        0,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Border.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Arrow.Body.2.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.23921568627450981,
+        0.23921568627450981,
+        0.23921568627450981,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Arrow.Body.2.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Border.Line.2.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0,
+        0,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Border.Line.2.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    }
+  ],
+  "name": "ArrowDefaultGrey_v2",
+  "objectID": "styleID_ArrowDefaultGrey_v2",
+  "visible": false
+}

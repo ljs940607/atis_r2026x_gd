@@ -1,0 +1,20 @@
+{{#if label}}
+    {{> labelWithTooltip}}
+{{/if}}
+<div class="input-group-wrapper">
+    {{~#if readWrite~}}
+    \{{~#if canEdit~}}
+    <div class="input-group">
+        <span class="input-element">
+            <input class="form-control data-entry" type="number-as-text" inputmode="numeric" pattern="[0-9]*"
+                value="\{{~ {{name}} ~}}" min="{{minimumValue}}" max="{{maximumValue}}" {{#if integerOnly}}step="1" {{else}}step="any"
+                {{/if}} />
+            <span>
+    </div>
+    \{{~else~}}
+    <span>\{{~ {{name}} ~}}</span>
+    \{{~/if~}}
+    {{~else~}}
+    <span>\{{~ {{name}} ~}}</span>
+    {{/if~}}
+</div>

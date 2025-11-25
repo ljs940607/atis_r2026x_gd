@@ -1,0 +1,19 @@
+{
+  "addRoles": "Добавить роли",
+  "addRole": "Добавить роль",
+  "selectRole": "Выбрать роль",
+  "onlineInstanceId": "Идентификатор онлайн-экземпляра",
+  "quantity": "Количество",
+  "confirm": "Подтвердить",
+  "roles": "Роли",
+  "createPlatform": "Создать платформу",
+  "devPlatformAdmin": "Администратор платформы разработки",
+  "sendingRequest": "Отправка запроса...",
+  "unableToAddRolesToPlatform": "Не удается добавить выбранные роли на выбранную платформу",
+  "unableToFetchAvailableRoles": "Не удается извлечь доступные роли для этого арендатора",
+  "unableToRequestPlatformCreation": "Не удается запросить создание платформы, повторите попытку позже.",
+  "platformAdmin": "Администратор платформы",
+  "platformId": "Платформа",
+  "totalPriceExclTax": "Общая цена без учета налогов:",
+  "totalPrice": "Общая цена"
+}

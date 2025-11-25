@@ -1,0 +1,16 @@
+{
+  "No_Option_Selected": "Seçim Yapılmadı.",
+  "CFG_Close": "Kapat",
+  "CFG_Apply": "Uygula",
+  "Model_Label": "Model",
+  "CFG_AndCondition": "VE Koşulu",
+  "OWU_Webservice_fail": "Kullanıldığı Yer seçeneği web hizmeti başarısız oldu.",
+  "Common_Webservice_fail": "commonOccurrencesFromCriterias (kriterlerden hareketle genel örnekler) web hizmeti başarısız oldu.",
+  "Specific_Webservice_fail": "specificOccurrencesFromCriterias (kriterlerden hareketle özel örnekler) web hizmeti başarısız oldu.",
+  "Information": "'Kullanıldığı Yer' modunda seçili ayarlar arasında VE mantıksal operatörünün kullanıldığı kabul edilir. \nVarsayılan değer VEYA'dır.",
+  "CFG_Label_Common": "Ortak",
+  "CFG_Label_Specific": "Özel",
+  "CFG_Label_WhereUsed": "Kullanıldığı Yer",
+  "Max_Selection_Limit_Error": "Maksimum varyant değerleri seçimi: ",
+  "Max_Selection_Limit": 5
+}

@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "新建逻辑参考"
+  },
+  "message": {
+    "confirm_detach_instance": "是否确定要拆离选定实例？",
+    "confirm_reparent": "以下参考将被重新设置父级为 "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "重新设置父级参考失败",
+    "reparent_cyclic": "此新父级已保存在重新设置父级参考列表下。请清除现有选择以避免循环结构。"
+  },
+  "success": {
+    "reparent": "已成功重新设置父级"
+  }
+}

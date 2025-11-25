@@ -1,0 +1,1 @@
+define("DS/PPWDataGridView/PPWDataGridView_ja",{});define("DS/PPWDataGridView/assets/nls/ContextualMenu",{"ContextualMenu.DisplayColumns.Title":"列を表示","ContextualMenu.GroupBy.Title":"次によるグループ化","ContextualMenu.ClearGroupBy.Title":"グループをクリア"});define("DS/PPWDataGridView/assets/nls/TweakerControl",{"NumbeWithUnitControl.UnitNotFound.Placeholder":"一致する単位がありません"});

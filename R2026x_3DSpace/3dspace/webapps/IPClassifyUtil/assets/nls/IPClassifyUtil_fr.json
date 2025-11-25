@@ -1,0 +1,4 @@
+{
+  "msg_InfoAction_Timeout": "Aucune réponse reçue de l'action lancée dans la limite du délai d'attente. L'exécution peut prendre plus longtemps. Le résultat peut être visible dans un moment après une actualisation manuelle.",
+  "notAccessibleTenant": "Le tenant {tenant} n'est pas accessible. Basculer vers le tenant {switchedTenant}"
+}

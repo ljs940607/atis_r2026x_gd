@@ -1,0 +1,72 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Actor.IsAlwaysOnTop",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Body.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Line.Back.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Back.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Line.Back.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 2
+    },
+    {
+      "name": "Collab.Body.Line.Back.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    }
+  ],
+  "name": "PolylineDefaultPlain",
+  "objectID": "styleID_PolylineDefaultPlain",
+  "visible": true
+}

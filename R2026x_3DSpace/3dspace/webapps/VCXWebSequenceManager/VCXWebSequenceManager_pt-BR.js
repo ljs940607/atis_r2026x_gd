@@ -1,0 +1,1 @@
+define("DS/VCXWebSequenceManager/VCXWebSequenceManager_pt-BR",{});define("DS/VCXWebSequenceManager/assets/nls/VCXWebSequenceManager",{"Actor.Name":"Nome","Actor.Description":"Descrição"});

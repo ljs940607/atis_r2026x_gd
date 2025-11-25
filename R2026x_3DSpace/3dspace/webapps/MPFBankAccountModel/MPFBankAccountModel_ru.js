@@ -1,0 +1,1 @@
+define("DS/MPFBankAccountModel/MPFBankAccountModel_ru",{});define("DS/MPFBankAccountModel/assets/nls/BankAccountModel",{isNotValid:"недопустимо",isRequired:"является обязательным",ibanSwiftNotConsistent:"IBAN и SWIFT не находятся в одной стране"});

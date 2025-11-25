@@ -1,0 +1,14 @@
+{
+  "Error.InvalidInput.Message": "Ungültige Eingabe.",
+  "Error.InvalidInput.Title": "Ungültige Eingabe",
+  "Error.BuildupFailed.Title": "Dynamischer Aufbau",
+  "Error.BuildupFailed.Message": "Die Berechnung des Aufbaus kann diese Daten derzeit nicht verarbeiten, was sich auf die Verfügbarkeit des Aufbaus auswirken kann. Stellen Sie sicher, dass die Prozessdaten die erforderlichen Verknüpfungen enthalten und dass die Struktur konform ist. Versuchen Sie, die Sitzung erneut zu laden. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Title": "Dynamischer Aufbau",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Message": "Aufbau ist derzeit aufgrund eines Verbindungsfehlers mit dem Manufacturing Compute Service nicht verfügbar. Versuchen Sie, die Sitzung erneut zu laden. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.",
+  "Warn.ManufacturingComputeUnavailable.Title": "Dynamischer Aufbau",
+  "Warn.ManufacturingComputeUnavailable.Message": "Aufbau ist derzeit nicht verfügbar, da auf den Manufacturing Compute Service nicht zugegriffen werden kann. Stellen Sie sicher, dass der Service korrekt installiert ist. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.",
+  "Warn.PublishedContentNotFound.Title": "Aufbau veröffentlichen",
+  "Warn.PublishedContentNotFound.Message": "Veröffentlichter Inhalt ist nicht verfügbar. Stellen Sie sicher, dass der Prozess mithilfe von Work Plan Publication Application (PND) veröffentlicht wird.",
+  "Error.BuildupFromExternalContentNotValid.Message": "BuildUp-Inhalt ist für die eingestellten Viewer-Optionen nicht verfügbar. Prüfen Sie die Optionen",
+  "Error.BuildupFromExternalContentNotValid.Title": "BuildUp ungültig"
+}

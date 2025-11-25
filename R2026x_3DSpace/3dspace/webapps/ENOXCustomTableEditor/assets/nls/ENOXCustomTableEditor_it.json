@@ -1,0 +1,73 @@
+{
+  "columnChooser": {
+    "title": "Attributi disponibili:",
+    "treeTitle": "Nome attributo",
+    "tooltips": {
+      "findDialog": "Trova attributi",
+      "moveFirst": "Sposta in alto",
+      "moveUp": "Sposta in su",
+      "moveDown": "Sposta in giù",
+      "moveBottom": "Sposta in basso",
+      "arrowRight": "Aggiungi attributo nella vista",
+      "arrowLeft": "Rimuovi attributo dalla vista"
+    }
+  },
+  "component": {
+    "views": {
+      "ENO2D_DEFAULT": "Vista predefinita",
+      "ENO2D_CUSTO": "Vista personalizzata"
+    },
+    "tooltips": {
+      "addView": "Aggiungi nuova vista personalizzata",
+      "editView": "Modifica vista personalizzata",
+      "removeView": "Rimuovi vista personalizzata"
+    }
+  },
+  "columnGroups": {
+    "commonAttributes": "Colonne comuni",
+    "typesAttributes": "Colonne di digitazione",
+    "extsAttributes": "Colonne di estensione",
+    "classifAttributes": "Colonne di classificazione"
+  },
+  "columnsHardCoded": {
+    "thumbnail": "Anteprima",
+    "positionMatrix-Instance": "Matrice posizione"
+  },
+  "selectedAtt": {
+    "title": "Attributi selezionati: ",
+    "colName": "Nome colonna",
+    "pin": "Fissa",
+    "pinLeft": "Fissa a sinistra",
+    "pinRight": "Fissa a destra"
+  },
+  "dialog": {
+    "okBtn": "Applica",
+    "cancelBtn": "Annulla"
+  },
+  "extensionChooser": {
+    "title": "Scelta dei tipi e delle estensioni",
+    "selectionTypeTitle": "Tipi",
+    "selectionExtTitle": "Estensioni",
+    "typeName": "Tipo",
+    "extName": "Estensione"
+  },
+  "localnls": {
+    "thumbnail": "Anteprima",
+    "thumbnails": "Anteprima",
+    "matrixtxt": "Matrice posizione"
+  },
+  "warning": {
+    "tooManySelected": {
+      "title": "Numero massimo di colonne raggiunto",
+      "msg": "È autorizzato solo un massimo di {maxNumber} colonne"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "La vista esiste già",
+      "msg": "È presente una vista con il nome '{viewName}'"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "La vista esiste già",
+      "msg": "È presente una vista con il nome '{viewName}'"
+    }
+  }
+}

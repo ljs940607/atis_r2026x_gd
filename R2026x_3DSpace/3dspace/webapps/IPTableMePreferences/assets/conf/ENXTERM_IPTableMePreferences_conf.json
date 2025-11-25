@@ -1,0 +1,126 @@
+{
+    "attributesParams": {
+        "tree": {
+            "hasNLS": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": false,
+                    "removable": false
+                }
+            }
+        },
+        "ds6w:responsible": {
+            "filterId": "set"
+        },
+        "ds6w:type": {
+            "filterId": "set"
+        },
+        "ds6w:status": {
+            "filterId": "set"
+        },
+        "ds6wg:revision": {
+            "hasNLS": false,
+            "typeRepresentation": "url"
+        },
+        "ds6w:description": {
+            "hasNLS": false
+        },
+        "ds6w:policy": {
+            "sortableFlag": false,
+            "filterId": "set"
+        },
+        "ds6w:project": {
+            "filterId": "set"
+        },
+        "ds6w:reserved": {
+            "filterId": "set"
+        },
+        "ds6w:reservedBy": {
+            "filterId": "set"
+        },
+        "ds6w:created": {
+            "hasNLS": false,
+            "kind": "dateTime"
+        },
+        "ds6w:modified": {
+            "hasNLS": false,
+            "kind": "dateTime"
+        },
+        "ds6w:organizationResponsible": {
+            "sortableFlag": false,
+            "filterId": "set"
+        },
+        "ApprovalStatus": {
+            "nls": "column_ApprovalStatus",
+            "hasNLS": false
+        },
+        "thumbnail": {
+            "noFilter": true,
+            "nls": "column_Thumbnail",
+            "hasNLS": false
+        },
+        "ContextualMenuColumn": {
+            "nls": "column_Menu",
+            "hasNLS": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": false
+                }
+            }
+        }
+    },
+    "withClassif": false,
+    "restrictedTypes": [
+        "Term",
+        "Terminology"
+    ],
+    "additionalColumns": [
+        "thumbnail",
+        "ContextualMenuColumn"
+    ],
+    "MP_SELECTED_TYPES": [
+        "Term",
+        "Terminology"
+    ],
+    "MP_SELECTED_EXTS": [],
+    "MP_SELECTED_COLS": [
+        {
+            "dataIndex": "tree",
+            "ds6w": "ds6w:label",
+            "pinned": "left"
+        },
+        {
+            "ds6w": "ds6w:description"
+        },
+        {
+            "ds6w": "ds6w:modified"
+        },
+        {
+            "ds6w": "ds6w:created"
+        },
+        {
+            "ds6w": "ds6w:responsible"
+        },
+        {
+            "ds6w": "ds6w:type"
+        },
+        {
+            "ds6w": "ds6w:status"
+        },
+        {
+            "ds6w": "ds6w:policy"
+        },
+        {
+            "ds6w": "ds6w:organizationResponsible"
+        },
+        {
+            "ds6w": "ds6w:project"
+        },
+        {
+            "dataIndex": "ContextualMenuColumn",
+            "pinned": "right"
+        }
+    ]
+}
+

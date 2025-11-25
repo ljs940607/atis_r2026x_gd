@@ -1,0 +1,23 @@
+{
+  "offline": "Déconnecté",
+  "away": "Absent",
+  "busy": "Occupé",
+  "online": "En ligne",
+  "dnd": "Ne pas déranger",
+  "ooo": "Absent du bureau",
+  "appearOffline": "Apparaître hors ligne",
+  "appearAway": "Apparaître absent",
+  "appearOOO": "Apparaître absent du bureau",
+  "presenting": " - Présentation",
+  "inACall": " - En appel",
+  "inAMeeting": " - En réunion",
+  "sinceSeveralSeconds": " depuis quelques secondes",
+  "sinceSeveralMinutes": " depuis {timelaps} min",
+  "sinceOneHour": " depuis 1 heure",
+  "sinceSeveralHours": " depuis {timelaps} heures",
+  "sinceOneDay": " depuis 1 jour",
+  "sinceSeveralDays": " depuis {timelaps} jours",
+  "sinceMoreThan99Days": " depuis plus de 99 jours",
+  "untilDate": " jusqu'au {endDate}",
+  "myStatus": "Mon état"
+}

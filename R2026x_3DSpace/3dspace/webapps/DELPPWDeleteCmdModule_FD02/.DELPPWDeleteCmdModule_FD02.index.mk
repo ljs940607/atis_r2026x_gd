@@ -1,0 +1,9 @@
+m|DELWKOApp\DELPPWDeleteCmdModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWDeleteCmdModule_FD02\DELPPWDeleteCmdModule_FD02.js|1723277648|813
+s|DELWKOApp\DELPPWDeleteCmdModule_FD02.mweb\src\DeleteCmdModule.js|1679506543|3472
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

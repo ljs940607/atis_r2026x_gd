@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_ru",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Удалить",confirm:"Удалить выбранные объекты? Это действие будет нельзя отменить."});

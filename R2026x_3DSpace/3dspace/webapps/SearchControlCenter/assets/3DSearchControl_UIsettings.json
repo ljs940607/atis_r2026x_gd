@@ -1,0 +1,41 @@
+{
+  "facets": [
+    {
+      "facetID": "SearchControl_General",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolGeneralTab",
+      "iconName": "fonticon fonticon-cog"
+    },
+
+    {
+      "facetID": "SearchControl_ResultsAttributesDisplay",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolResultsAttributesDisplay",
+      "iconName": "search_attributesCustomization_fontIcon.png"
+    },
+
+    {
+      "facetID": "SearchControl_SearchTypes",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolSearchTypes",
+      "iconName": "fonticon fonticon-3ds-what"
+    },
+
+    {
+      "facetID": "SearchControl_SearchAttributes",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolSearchAttributes",
+      "iconName": "fonticon fonticon-attributes"
+    },	
+    
+    {
+      "facetID": "SearchControl_ColumnCusto",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolColumnCusto",
+      "iconName": "fonticon fonticon-tableCusto"
+    },
+
+	{
+      "facetID": "SearchControl_PQ",
+      "srcJS": "DS/SearchControlCenter/scripts/SearchcontrolPQ",
+      "iconName": "search_fontIcon_Search_cog.png"
+    },
+
+  ]
+}
+

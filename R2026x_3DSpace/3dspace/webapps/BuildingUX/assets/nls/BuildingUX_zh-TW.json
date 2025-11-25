@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "結構屬性"
+  },
+  "construction": {
+    "loading": "載入結構屬性",
+    "attFromObj": "從物件擷取可用屬性",
+    "objAttr": "擷取物件屬性值",
+    "attrGlobal": "屬性"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "所選物件不支援的網域。",
+    "unknownI3dx": "在資料來源中找不到物件。"
+  },
+  "customAttributesDlg": {
+    "title": "結構屬性"
+  },
+  "customAttributes": {
+    "loading": "正在載入動態屬性",
+    "attFromObj": "從物件擷取可用外部屬性",
+    "objAttr": "擷取物件屬性值",
+    "attrGlobal": "屬性",
+    "noAttributes": "沒有要顯示的屬性"
+  }
+}

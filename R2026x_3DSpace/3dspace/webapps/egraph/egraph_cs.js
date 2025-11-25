@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_cs",{});define("DS/egraph/assets/nls/translation",{pan:"Posunout",zoomArea:"Přiblížit oblast",zoomOut:"Oddálit",zoomIn:"Přiblížit",zoomReset:"Resetovat přiblížení",zoomFit:"Přizpůsobit přiblížení"});

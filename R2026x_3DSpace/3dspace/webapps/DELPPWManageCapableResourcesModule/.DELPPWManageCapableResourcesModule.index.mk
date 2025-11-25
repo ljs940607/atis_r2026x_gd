@@ -1,0 +1,16 @@
+m|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWManageCapableResourcesModule\DELPPWManageCapableResourcesModule.js|1757132699|23881
+s|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesBaseUI.js|1744348993|29719
+t|win_b64\webapps\DELPPWManageCapableResourcesModule\assets\json\ManageCapableRscTLVOption.json|1757132695|4029
+s|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\assets\json\ManageCapableRscTLVOption.json|1742381164|4029
+u|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesModule.js|1755850655|21589
+u|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ManageCapableResourcesUI.js|1745496683|12233
+u|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ManageStepOperationsUsageBaseUI.js|1723800283|5374
+u|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ManageStepOperationsUsageUI.js|1715165580|10136
+u|DELPPWProcessModules\DELPPWManageCapableResourcesModule.mweb\src\ReplaceResourceWarningReport.js|1749195158|5185
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

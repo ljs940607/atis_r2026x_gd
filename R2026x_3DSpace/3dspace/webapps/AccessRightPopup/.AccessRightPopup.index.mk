@@ -1,0 +1,16 @@
+m|ENOCollaborativeServicesWebUI\AccessRightPopup.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\AccessRightPopup\AccessRightPopup.css|1744917679|303
+s|ENOCollaborativeServicesWebUI\AccessRightPopup.mweb\src\AccessRightPopup.css|1597937266|546
+t|win_b64\webapps\AccessRightPopup\AccessRightPopup.html|1723277485|11486
+s|ENOCollaborativeServicesWebUI\AccessRightPopup.mweb\src\AccessRightPopup.html|1545402839|11486
+t|win_b64\webapps\AccessRightPopup\AccessRightPopup.js|1742014906|2319
+s|ENOCollaborativeServicesWebUI\AccessRightPopup.mweb\src\AccessRightPopup.js|1740594449|8272
+t|win_b64\webapps\AccessRightPopup\AccessRightPopupMultiSel.html|1723277486|7198
+s|ENOCollaborativeServicesWebUI\AccessRightPopup.mweb\src\AccessRightPopupMultiSel.html|1545402865|7198
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

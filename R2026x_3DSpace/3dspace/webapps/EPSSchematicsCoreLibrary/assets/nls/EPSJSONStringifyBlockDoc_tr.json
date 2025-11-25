@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili nesneyi JSON'da dize haline getirir.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin nesne tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Object": "dize haline getirilecek nesne.",
+    "JSON": "dize haline getirilmiş nesne."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

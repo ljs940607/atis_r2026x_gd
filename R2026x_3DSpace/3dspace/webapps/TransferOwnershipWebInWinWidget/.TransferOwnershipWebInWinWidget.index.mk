@@ -1,0 +1,14 @@
+m|ENOCollabCommandsWebUI\TransferOwnershipWebInWinWidget.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25122|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\TransferOwnershipWebInWinWidget\TransferOwnershipWebInWinWidget.css|1744917719|807
+s|ENOCollabCommandsWebUI\TransferOwnershipWebInWinWidget.mweb\src\TransferOwnershipWebInWinWidget.css|1738270565|974
+t|win_b64\webapps\TransferOwnershipWebInWinWidget\TransferOwnershipWebInWinWidget.html|1723278106|2863
+s|ENOCollabCommandsWebUI\TransferOwnershipWebInWinWidget.mweb\src\TransferOwnershipWebInWinWidget.html|1430990834|2863
+t|win_b64\webapps\TransferOwnershipWebInWinWidget\TransferOwnershipWebInWinWidget.js|1746247596|9743
+s|ENOCollabCommandsWebUI\TransferOwnershipWebInWinWidget.mweb\src\TransferOwnershipWebInWinWidget.js|1742987710|33085
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

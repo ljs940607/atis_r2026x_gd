@@ -1,0 +1,21 @@
+{
+    "dialog_header": "Classification attributes are global admin objects that must be unique in a tenant and should be reused in several classes whenever it is possible to limit their numbers. Once all classification attributes are created, request the platform adminstrator to refesh the index model and reload the cache and wait for his feedback before using them.",
+    "type": "Type",
+    "internalName": "Internal Name",
+    "predicate": "6W Predicate",
+    "enable6wPredicate": "Display in 6W Tag",
+    "title": "Title",
+    "behavior": "Behaviors",
+    "multivalued": "Multivalued",
+    "multiline": "Multiline",
+    "authorizedValues": "Authorized Values",
+    "hasADefaultValue": "Has a default value",
+    "defaultValue": "Default Value",
+    "string": "String",
+    "integer": "Integer",
+    "real": "Real",
+    "boolean": "Boolean",
+    "date": "Date",
+    "double": "Attribute with Dimension"
+}
+

@@ -1,0 +1,203 @@
+html {
+	background-color: #494949;
+	color: #999999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+body {
+	
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background: #333;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	padding: 6px;
+	border: 1px solid black;
+	text-align: left;
+}
+
+.poa-thumbnail{
+	width : 64px;
+	height : 64px;
+}
+.poatablerow .actions-cell{
+	min-width : 47px;
+}
+.templatecontainer {
+	display: none;
+	margin-top: 10px;
+}
+.poatablerow .name-cell{
+	
+}
+.poatablerow .thumbnail-cell{}
+
+.poatablerow .state-cell{
+	
+}
+.poatablerow .description-cell{
+	
+}
+.poatablerow .place-of-origin-cell{
+	
+}
+.poatablerow .countries-cell{
+	
+}
+.poatablerow .language-cell{
+	
+}
+.poatablerow .artwork-usage-cell{
+	
+}
+.poatablerow .poa-associated-cell{
+	
+}
+
+.poatablerow  > td {
+	color: white;
+}
+
+.spanbtn {
+	background-color: #080808;
+	padding: 3px 3px 3px 3px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.thumbnailcontainer {
+	margin: 5px;
+	border: thick solid #C0C0C0;
+	padding: 2px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	position:relative;
+	border-radius: 6px;
+}
+
+.thumbnailcontainer > .content {
+	position: absolute;
+	left:2px;
+	right:2px;
+	bottom:5px;
+	top: 160px;
+	z-index: 5;
+	background: rgba(84, 84, 84, 0.6);
+	color: white;
+}
+
+.thumbnailcontainer > .content:hover {
+	position: absolute;
+	left:0px;
+	right:0px;
+	bottom:5px;
+	top: 100px;
+	z-index: 9;
+	background: rgba(84, 84, 84, 0.9);
+	transition: all 0.4s ease-in-out;	
+}
+
+.tilecontainer {
+	margin: 5px;
+	border: thick solid #C0C0C0;
+	padding: 2px;
+	float: left;
+	width: 250px;
+	height: 70px;
+}
+
+.thumbnailcontainer > img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	z-index: 5;
+	border-radius: 6px;
+}
+
+.tilecontainer > img {
+	top: 2px;
+	left: 2px;
+	width: 66px;
+	height: 66px;
+	float: left;
+}
+
+.content {
+	padding: 2px 4px 2px 4px;
+	overflow:hidden;
+}
+
+.tilecontainer > .content {
+	height: 66px;
+	float: none;
+	display: block;
+	margin-left: 70px;
+}
+.switchviewbutton {
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+
+.switchviewbutton > img {
+	width: 100%;
+	height: 100%;	
+	opacity: 0.5;
+}
+
+.switchviewbutton:hover > img {
+	opacity: 0.8;
+}
+
+.contentcontainer.selected {
+	border:thick blue solid;
+}
+
+table.poatable tr:hover td {
+	background-color: black;
+}
+
+.associate-icon, .download-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 11px;
+}
+.template-download{
+	float : right;
+	position: relative;
+    top: -40px;
+    z-index: 10;
+}
+#messageDiv{
+	font-family: Arial, Helvetica, sans-serif;
+    padding-top: 14px;    
+    text-align: center;
+    color: white;
+    font-size: large;
+}

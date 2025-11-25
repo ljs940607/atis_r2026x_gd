@@ -1,0 +1,15 @@
+m|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWWorkInstructionsModule_FD02\DELPPWWorkInstructionsModule_FD02.js|1723277670|14943
+s|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb\src\DataCollect\DataCollectDialogUI.js|1679515945|34538
+t|win_b64\webapps\DELPPWWorkInstructionsModule_FD02\assets\json\DataCollectTLVOptions.json|1723277666|9060
+s|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb\src\assets\json\DataCollectTLVOptions.json|1649146037|9060
+t|win_b64\webapps\DELPPWWorkInstructionsModule_FD02\assets\xml\EditFormAttributes.xml|1723277666|5648
+s|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb\src\assets\xml\EditFormAttributes.xml|1653310320|5648
+u|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb\src\DataCollect\DataCollectMgmtUI.js|1679515949|14710
+u|DELWKOApp\DELPPWWorkInstructionsModule_FD02.mweb\src\WorkInstructionsModule.js|1679515954|7000
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

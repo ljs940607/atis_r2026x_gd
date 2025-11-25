@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Analyzuje daný JSON a generuje objekt.",
+  "description": "Tento blok je dynamický, takže typ objektu vstupních dat lze změnit v okně konfigurace bloku.",
+  "dataPorts": {
+    "JSON": "JSON k analýze.",
+    "Object": "vygenerovaný objekt."
+  },
+  "controlPorts": {
+    "In": "vyvolá spuštění bloku.",
+    "Out": "aktivuje se po dokončení procesu."
+  },
+  "example": null
+}

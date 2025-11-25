@@ -1,0 +1,20 @@
+{
+  "scheduleAndPrices": "Plán a ceny",
+  "addPhase": "Přidat fázi",
+  "phaseNumber": "Fáze {number}",
+  "description": "Popis",
+  "price": "Cena",
+  "timeline": "Časová osa",
+  "total": "Celkem",
+  "paymentAreDueAtBeginningOfPhase": "Pozn.: platby jsou splatné vždy na začátku dané fáze",
+  "startDate": "Zahájení: {date}",
+  "deliveryDate": "Doručení: {date}",
+  "edit": "Upravit",
+  "cancel": "Zrušit",
+  "save": "Uložit",
+  "mustContainOnePhase": "Plán musí obsahovat alespoň jednu fázi",
+  "noPhaseDefined": "Není definována žádná fáze",
+  "failedToSaveModifications": "Uložení změn se nezdařilo",
+  "failedToLoadPhases": "Načtení fází se nezdařilo",
+  "errorOnlyOnePhaseSupported": "V tuto chvíli lze přidat pouze jednu fázi."
+}

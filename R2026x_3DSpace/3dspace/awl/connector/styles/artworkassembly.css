@@ -1,0 +1,455 @@
+﻿header {
+	top: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	background-color: #494949;
+	width: 100%;
+	position: fixed;
+	height: 140px;
+}
+
+footer {
+	display: block;
+	background-color: #494949;
+	width: 100%;
+	height: 20vh;
+	min-height: 10vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+section {
+	height: calc(100vh - 120px - 140px);
+	display: block;
+	overflow-x: auto;
+	position: relative;
+	top: 140px;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	background: #ededed;
+	height: 105px;
+	width: 100%;
+	left: 0;
+}
+
+#refreshArtworkAssemblySpan {
+	vertical-align: -7px;
+}
+
+.footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	min-height: 10vh;
+	position: fixed;
+	z-index: 999;
+	background-color: #494949;
+}
+
+#content {
+	margin-top: 105px;
+	margin-bottom: 170px;
+	overflow: auto;
+}
+
+#artworkAssemblyTableDiv{
+	display: block;
+	overflow: hidden;
+	min-height: 300px;
+	height: calc(100vh - 260px - 25px);
+	width: 100%;
+	position: absolute;
+	top: 25px;
+}
+
+#artworkAssemblyTable{
+	position: absolute;
+	border-collapse: separate;
+	border-spacing: 2px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+tr.artworkAssembly{
+	width: 100%;
+}
+
+#artworkAssemblyTable > tbody {
+    height: calc(80vh - 220px);
+    width: 100%;
+    display: block;
+    /*display: table;*/
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#artworkAssemblyTable>thead{
+	display: table;
+	width: 100%;
+}
+
+#artworkAssemblyTableBody::-webkit-scrollbar {
+    width: 0.5em;
+}
+#artworkAssemblyTableBody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#artworkAssemblyTableBody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+#artworkAssemblyTable::-webkit-scrollbar {
+    height: 0.5em;
+}
+#artworkAssemblyTable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#artworkAssemblyTable::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+th {
+	background: #333;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+
+table {
+	width: 100%;
+}
+
+td,tr {
+	border-spacing: 1em;
+	color: white;
+	cursor: pointer;
+	font-size: 11px;
+	/*font-weight: bold;*/
+}
+
+.checkbox{width:25px;/*min-width:20px;max-width:40px;*/}
+.copyElementType{width:110px;/*min-width:10px;max-width: 480px;*/overflow:hidden}
+.tableHeaderImagesCell{width:15px;/*min-width:10px;max-width: 480px;*/}
+.language{width:30px;/*min-width:10px;max-width: 480px;*/word-break:break-all}
+.content{width:150px;/*min-width:10px;max-width: 480px;*/word-break: break-all;}
+.notes{width:70px;/*min-width:10px;max-width: 480px;*/word-break: break-all;}
+.order{width:40px;/*min-width:10px;max-width: 480px;*/word-break:break-all}
+.statusColumn{width:20px;/*min-width:15px;max-width:35px;*/word-break: break-all;}
+
+
+div#actions {
+    height: 25px;
+    overflow: hidden;
+    display: table;
+}
+
+.filter {
+	background-color:#adadad;
+	border: 1px solid #dadada;
+	border-radius: 2.5px;
+	position: relative;
+	box-shadow: 0 0 10px;
+    float : left;
+	font-family: Arial;
+	font-size: 12px;
+	height: 15px;
+	width: 80%;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser*/
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px;
+	vertical-align: middle;
+}
+
+.FiltersDiv{
+	display: block;
+	position: absolute;
+	top: 0px;
+	min-height: 25px;
+	width: 100%;
+}
+
+#AssemblyFilter{
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	right: 3px;
+}
+
+#contentWrapSpan {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    right: 10px;
+}
+
+#crossHighlightSpan {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    right: 5px;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+
+#crossHighlightSpantext {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	right: 5px;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+
+.hideMappedElementsContainer {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    right: 10px;
+	cursor: pointer;
+}
+
+span.tableHeaderTitle {
+	min-height: 17px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.syncdiv {
+	float: left;
+	padding-left: 110px;
+	margin-top: 2px;
+}
+
+.textBoxSpan {
+	padding: 4px 0px 0px 58%;
+}
+
+.artworkTypeText {
+	padding-left: 5px;
+	word-break: break-word;
+}
+
+.artworkTypeImage {
+	height: 12px;
+	width: 12px;
+}
+
+.clicktoHideImage {
+	width: 20px;
+	float: right;
+}
+
+/*.instanceSequence,.order {
+	width: 30px;
+}
+
+.notes,.content{
+	width : 70px;
+}*/
+
+.tableHeaderImages {
+	height: 20px;
+	width: 20px;
+}
+
+.wrapContentImage {
+    height: 20px;
+    width: 20px;
+}
+
+.crossHighlightImage {
+    background-image: URL("../images/Uncheck.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 17px 17px;
+    height:19px;
+    width:25px;
+    display: inline-block;
+}
+
+.crossHighlightImage.selected{
+    background-image: URL("../images/check-pressed.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 17px 17px;
+    height:19px;
+    width:25px;
+    display: inline-block;
+}
+span.showHideFilterSpan{
+	width: 15px;
+	display: inline-block;
+}
+
+.showHideFilterImage{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.clearAllFiltersButton{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#revertToOriginalSortingButton{
+	height: 10px;
+	height: 10px;
+	float: left;
+	clear: left;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.sortingImage{
+	height: 10px;
+	width: 10px;
+	position: relative;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#instSeqImage{
+	height: 15px;
+	width: 15px;
+}
+
+#instSeqSearch{
+	position: relative;
+	top: 0px;
+}
+
+.highlight {
+	background-color: dimgrey;
+	border: 1px solid #dadada;
+}
+
+.pushed {
+	border-style: inset;
+	width: 15px;
+	height: 15px
+}
+.preserveSpaces { 
+	white-space: pre-wrap;
+}
+/* RRR1 Changes*/
+input[type=checkbox]{
+    display: none;
+}
+.checkboxIcon{
+    background-image: URL("../images/uncheck-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+    height:15px;
+    width:15px;
+    display: inline-block;
+
+}
+
+.checkboxIcon.selected{
+    background-image: URL("../images/check-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+    height:15px;
+    width:15px;
+    display: inline-block;
+}
+.filterCheckbox{
+    background-image: URL("../images/Uncheck.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+    height:22px;
+    width:22px;
+    display: inline-block;
+
+}
+
+.filterCheckbox.selected{
+    background-image: URL("../images/check-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+    height:22px;
+    width:22px;
+    display: inline-block;
+}
+
+.hide-container {
+	display: none;
+}
+
+.show-container {
+	display: block;
+}
+
+.highlightPOA{
+	border: 1px solid #C0C0C0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.artworkAssemblySearchDiv{
+	padding-top : 22px;
+}
+
+.outOfSyncTooltip{
+	padding: 5px;
+	background-color:white; 
+	border: #c0c0c0 1px dotted;
+	border: 1px solid #DEB887; 
+	/*width:180px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #6b6b6b; 
+	display:none; 
+	position:absolute;
+	left:0px;
+	top:0px; 
+}
+
+.selectionSequenceSpan{
+	padding-left: 3px;
+	color: #fcffbf;
+}
+
+#preview{
+	word-wrap: break-word;
+	resize: vertical;
+	height: 46px;
+}
+
+#note{
+	height: 30px;
+	min-height: 5px;
+	bottom: 0;
+}

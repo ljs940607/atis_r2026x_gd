@@ -1,0 +1,16 @@
+{
+  "WebEditorSave": "儲存",
+  "WebEditorCloseWithoutSave": "不要儲存",
+  "WebEditorConfirmMessageOnClose": "是否要儲存您的變更？如果繼續而不儲存，工作會遺失。",
+  "WebEditorConfirmMessageWithNoLock": "文件目前正由其他使用者編輯。鎖定文件會阻止他們進行進一步的變更。您可以在線上編輯而不影響其他使用者。",
+  "WebEditorConfirmMessageWithLock": "已鎖定文件，您無法編輯。\n您可以傳送解除鎖定文件的要求。",
+  "DocumentUpdatedOtherthanWebEditorSession": "有人最近從外部修改了檔案內容。您可以手動執行複製貼上，以儲存所有變更。",
+  "OfficeWebEditorSuccessfulSave": "已成功儲存文件",
+  "FileContentIsNotChanged": "文件開啟後並未進行任何變更。",
+  "SaveDocument": "儲存文件",
+  "Close": "關閉",
+  "Cancel": "取消",
+  "SaveInProgress": "正在儲存...",
+  "WebEditionSaveFailed": "無法儲存變更。",
+  "Save": "儲存"
+}

@@ -1,0 +1,51 @@
+{
+    "delviewer": {
+        "version": "1.0",
+        "viewerType": 2,
+        "defaultViewerMode": "WorkInstructions",
+        "enableNextGenWorkInstructions": true,
+        "dynamicBuildUp": true,
+        "NodeInfraBuildUp": true,
+        "forceLoad": true,
+        "quickToolBar": true,
+        "removeMaterial": true,
+        "partFabrication": true,
+        "defaultPickability": "SHAPE",
+        "requirementFTA": true,
+        "startUpView": {
+            "setViewpoint": true,
+            "enable": true
+        },
+        "statusBar": {
+            "commands": [
+                "LastIndexingTime",
+                "StartUpView"
+            ]
+        },
+        "persistBuildUpSettings": true,
+        "performanceLogging": false,
+        "displayLastIndexedTimeStamp": {
+            "format": "%I:%M:%S %p",
+            "service": "EXPAND_3D",
+            "value": true
+        },
+        "itemProductConnectionTypes": [
+            "DELFmiProcessImplementCnx",
+            "DELFmiProcessOutputPrereqMaterializationCnx",
+            "PLMReqSpecifyHowToCnx"
+        ],
+        "orientationViewer": {
+            "enable": false
+        },
+        "wkiview_opts": {
+            "panelOptions": {
+                "currentDockArea": 8
+            }
+        },
+        "filterBIProxy": {
+            "volumeFilterAvailable": true,
+            "selectionFilterAvailable": true,
+            "attributeFilterAvailable": true
+        }
+    }
+}

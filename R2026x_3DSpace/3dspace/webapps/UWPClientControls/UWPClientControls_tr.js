@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_tr",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menü",addTab:"Ekle Sekmesi",webAppsResizing:"Web Uygulamaları yeniden boyutlandırması yalnızca {type} Sahipler için kalıcı olur",webAppsResizingProductCockpit:"Web Uygulamaları yeniden boyutlandırması bu Kokpitte kalıcı hale getirilmedi"});

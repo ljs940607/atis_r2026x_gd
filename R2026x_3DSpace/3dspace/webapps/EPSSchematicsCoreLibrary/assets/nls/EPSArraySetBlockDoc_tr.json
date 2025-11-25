@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizinin ilgili indeksindeki ilgili değeri ayarlar.",
+  "description": "Blok, değiştirilmiş diziyi çıktı olarak verir.<br>Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "ArrayIn": "değiştirilecek dizi.",
+    "Index": "değerin ayarlanacağı dizi indeksi.",
+    "Value": "ayarlanacak değer.",
+    "ArrayOut": "değiştirilen dizi."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

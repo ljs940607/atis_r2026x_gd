@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "STEP AP242 파일만 지원됨",
+    "IFC_UNSUPPORT": "IFC2X3, IFC4, IFC4X3_ADD2 파일 포맷만 지원됨",
+    "NO_TESSELLATION": "테슬레이션 데이터가 있는 STEP 파일만 지원됨",
+    "NO_ZIP": "Zip 형식은 지원되지 않음",
+    "EMPTY_ROOT": "지오메트리가 없는 문서 루트",
+    "NO_REP": "지원되는 표현이 없는 문서(제품 또는 파트)",
+    "EXT_REF": "외부 참조가 있는 문서는 지원되지 않습니다. 모놀리식 파일만 지원됩니다.",
+    "EMPTY_PROD": "모자이크식 지오메트리가 없는 문서 제품",
+    "NO_STPXZ": "아카이브의 stpxz는 아직 지원되지 않습니다."
+  },
+  "warning": {
+    "MISSING_PART": "일부 링크된 파일이 누락되었습니다."
+  }
+}

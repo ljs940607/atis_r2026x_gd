@@ -1,0 +1,25 @@
+.wux-tweakers-aggregate-view-popup-uistringtweaker .wux-controls-editor {
+  width: 100%;
+  height: 100%;
+}
+.wux-tweakers-aggregate-view-popup-uistringtweaker .wux-controls-editor > textarea {
+  display: block;
+}
+
+.wux-layouts-datagridview:not([touch-mode]) .wux-layouts-datagridview-cell[is-editable][is-preselected] .wux-tweakers-string-label.sch-tweakers-string-undefined::before {
+  content: "undefined";
+  color: #f1f1f1;
+  font-style: italic;
+  display: contents;
+}
+
+.sch-tweakers-string-undefined::before {
+  content: "undefined";
+  color: #d1d4d4;
+  font-style: italic;
+  display: contents;
+}
+
+.wux-tweakers.wux-tweakers-string-label.sch-tweakers-string-readonly {
+  display: inline-block;
+}

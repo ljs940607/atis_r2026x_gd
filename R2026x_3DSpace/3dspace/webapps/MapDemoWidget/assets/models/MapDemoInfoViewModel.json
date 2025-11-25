@@ -1,0 +1,58 @@
+{
+    "formModel": {
+        "globalInformation": {
+            "text":"Click on the map to update the current coordinates",
+            "emphasize": "info",
+            "icon": "info"
+        },
+        "model": [
+        {
+            "id":"lat",
+            "label":"Latitude",
+            "typeRepresentation":"number"
+        },
+        {
+            "id":"lon",
+            "label":"Longitude",
+            "typeRepresentation":"number"
+        }
+        ],
+        "readOnly":false,
+        "buttons": []
+    },
+    "toolbarModel": {
+        "entries": 
+        [
+            {
+                "id": "moveTo",
+                "dataElements": {
+                    "typeRepresentation": "functionIcon",
+                    "icon": {
+                        "iconName": "nav-move-to",
+                        "fontIconFamily": 1
+                    },
+                    "action": {
+                        "module": "DS/MapDemoWidget/commands/MapDemoToolbarFunctions",
+                        "func": "moveTo"
+                    }
+                },
+                "position":"far"
+            },
+            {
+                "id": "home",
+                "dataElements": {
+                    "typeRepresentation": "functionIcon",
+                    "icon": {
+                        "iconName": "home",
+                        "fontIconFamily": 1
+                    },
+                    "action": {
+                        "module": "DS/MapDemoWidget/commands/MapDemoToolbarFunctions",
+                        "func": "moveTo"
+                    }
+                },
+                "position":"far"
+            }
+        ]
+    }
+}

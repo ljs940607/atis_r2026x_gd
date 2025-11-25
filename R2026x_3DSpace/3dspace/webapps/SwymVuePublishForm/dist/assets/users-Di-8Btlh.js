@@ -1,0 +1,2 @@
+import{a9 as s,aa as t}from"./appStandalone-C5Q9Mp7v.js";function u(){return s("current-user",()=>t.get("/api/user/getcurrent").json(),6e4)}function p({query:r,communityUri:e,limit:a=5,page:n=0,locale:c="en"}){return s(`search-user-${e?`${e}-`:""}${r}`,()=>t.post("/api/user/search",{json:{params:{query:r,community_id:e,limit:a,start:n,locale:c}}}).json(),6e4)}export{u as getCurrentUser,p as searchUser};
+//# sourceMappingURL=users-Di-8Btlh.js.map

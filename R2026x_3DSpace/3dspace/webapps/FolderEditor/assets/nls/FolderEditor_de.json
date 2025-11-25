@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "Mein persönlicher Lesezeichenordner",
+  "name_Section_FolderSection_favorite": "Favoriten",
+  "name_Section_FolderSection_AllFolders": "Lesezeichenordner",
+  "name_Section_TerminologySection_AllTerminologies": "Browsing-Strukturen",
+  "name_Section_ParentFolders": "{number} übergeordnete Lesezeichenordner",
+  "www_multisel_forbidden": "Mehrfachauswahl wird für die ausgewählten Objekte nicht unterstützt",
+  "wwwLinkType": "URL-Verknüpfung",
+  "folder_pref_dnd": "Ziehen-und-Ablegen-Verhalten",
+  "default_pref_label": "Bevorzugte Bezeichnung",
+  "cannot_insert_branch": "Objektinformationen konnten nicht abgerufen werden. Versuchen Sie es in einigen Minuten erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator",
+  "export_level": "Ebene",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "Mit Lesezeichen versehene untergeordnete Produkte ausblenden",
+  "folder_pref_allow_products_expand": "Erweiterung von Produkten aktivieren",
+  "folder_pref_subfolder": "Untergeordnete Lesezeichenordner in Inhaltsansicht anzeigen",
+  "folder_pref_populateTags": "6W-Tags zum Filtern von Lesezeichenordnern aktivieren",
+  "useIndexAcceleration_label": "Indizierte Daten anzeigen",
+  "folder_pref_autoSwitch_Label": "Automatischer Wechsel vom Datenbankmodus in den Indexmodus",
+  "button_remove": "Entfernen",
+  "button_close": "Schließen",
+  "button_treeOrder": "Strukturreihenfolge anpassen",
+  "Move_label": "Verschieben",
+  "Copy_label": "Kopie",
+  "oneMin_Label": "1 Minute",
+  "threeMin_Label": "3 Minuten",
+  "fiveMin_Label": "5 Minuten",
+  "tenMin_Label": "10 Minuten",
+  "Never_Label": "Nie",
+  "Upload_content_loading": "Inhalt hochladen",
+  "AddExisting_content_loading": "Bestehenden Inhalt hinzufügen",
+  "AddContentError": "Objekt(e) bereits verbunden.",
+  "Paste_content_loading": "Inhalt einfügen",
+  "Remove_content_loading": "Inhalt entfernen",
+  "Remove_shortcut_loading": "Verknüpfung entfernen",
+  "Replace_revision_loading": "Inhalt wird durch neueste Revision ersetzt",
+  "LoadAttributes_Loading": "Cross-Service-Attribute werden geladen...",
+  "Content_Loading": "Inhalt wird geladen...",
+  "LoadingView_Loading": "Ansicht wird geladen...",
+  "CheckingAccess_Loading": "Lesezeichenordnerzugriffe werden geprüft...",
+  "Widget_Loading": "Widget wird geladen...",
+  "BookmarksTree_Loading": "Baumstruktur wird geladen...",
+  "FavoriteBkTree_Loading": "Favoriten-Baumstruktur wird geladen...",
+  "PersonalTree_Loading": "Persönliche Baumstruktur wird geladen...",
+  "ExpandAndSelect_Loading": "Navigation zu {typeStruct}...",
+  "Bookmark_Loading": "Lesezeichenordner wird ausgewählt...",
+  "SetActiveBookmark_Loading": "Neuer globaler Standardlesezeichenordner wird festgelegt...",
+  "UnsetActiveBookmark_Loading": "Festlegung des globalen Standardlesezeichenordners wird aufgehoben...",
+  "EnableActiveBookmark_Loading": "Globaler Standardlesezeichenordner wird aktiviert...",
+  "DisableActiveBookmark_Loading": "Globaler Standardlesezeichenordner wird deaktiviert...",
+  "New_Loading": "Erstellungsfenster wird geladen...",
+  "Shared_label": "Freigegeben",
+  "Personal_label": "Privat",
+  "label_ActionBar_AddToFavorites": "Favoriten hinzufügen/entfernen",
+  "label_ActionBar_RemoveFromFavorites": "Aus Favoriten entfernen",
+  "label_title_NewBookmark": "Neuer Lesezeichenordner",
+  "newBookmark_typeNls": "Lesezeichenordner",
+  "msg_success_copyLink_content": "Verknüpfung zum Dokument \"{filename}\" innerhalb von {typeStruct} \"{foldername}\" wurde kopiert.",
+  "msg_success_copyLink_folder": "Verknüpfung zu {typeStruct} \"{foldername}\" wurde kopiert.",
+  "msg_success_favoriteReordered": "Erfolgreich neu angeordnet.",
+  "msg_info_contentcopied": "Inhalt wurde kopiert.",
+  "msg_info_contentcut": "Inhalt wurde ausgeschnitten.",
+  "msg_info_objetremoved": "{number} Objekt(e) aus {typeStruct} \"{foldername}\"entfernt.",
+  "msg_info_LinkRemoved": "{number} Verknüpfung(en) aus {typeStruct} \"{foldername}\"entfernt.",
+  "msg_info_objectremovedfromfolders": "Objekt \"{objectname}“ wurde erfolgreich aus {number} {typeStruct}-Objekten entfernt.",
+  "msg_info_notConnectToBk": "Es wurde nicht mit {number} {typeStruct}-Objekten verknüpft",
+  "msg_info_objetnotremoved": "{number} zu entfernende Objekte wurden nicht mit {typeStruct} \"{foldername}“ verknüpft.",
+  "msg_info_Addinfolder": "{objectsAdded} Objekt(e) wurde(n) zu {typeStruct} {targetfolder} hinzugefügt. Hinzuzufügende(s) {objectsAlreadyPresent} Objekt(e) war(en) bereits vorhanden.",
+  "msg_info_Addinfolder_1": "{objectsAdded} Objekt(e) zu {typeStruct} {targetfolder} hinzugefügt.",
+  "msg_info_Addinfolder_2": "{objectsAlreadyPresent} hinzuzufügende(s) Objekt(e) war(en) bereits vorhanden.",
+  "msg_info_objetadded": "'{filename}' hinzugefügt zu '{foldername}'.",
+  "msg_info_objetmoved": "{objectsMoved} Objekt(e) wurde(n) nach {typeStruct} {targetfolder} verschoben. Zu verschiebende(s) {objectsAlreadyPresent} Objekt(e) war(en) bereits vorhanden.",
+  "msg_info_objetmoved_1": "{objectsMoved} Objekt(e) nach {typeStruct} {targetfolder} verschoben.",
+  "msg_info_foldercopied": "{number} {typeNode}-Objekte wurden {typeStruct} \"{foldername}\" hinzugefügt.",
+  "msg_info_rootCreated": "{number} {typeNode}-Objekte wurden erstellt.",
+  "msg_info_foldercopied_2": "{number} {typeNode}-Objekte wurden \"{foldername}\" hinzugefügt.",
+  "msg_info_objetmoved_2": "{objectsAlreadyPresent} hinzuzufügende(s) Objekt(e) war(en) bereits vorhanden.",
+  "msg_info_foldermoved": "{number} {typeNode}-Objekte wurden nach {typeStruct} \"{foldername}\" verschoben.",
+  "msg_info_filecheckedout": "Datei wurde erfolgreich ausgecheckt.",
+  "msg_info_filecheckedin": "Datei wurde erfolgreich eingecheckt.",
+  "msg_info_filecancelcheckout": "Dateibearbeitungsvorgang wurde erfolgreich abgebrochen.",
+  "msg_info_favoriteadded": "Lesezeichenordner \"{name1}\" wurde den Favoriten hinzugefügt.",
+  "msg_info_favoriteremoved": "Lesezeichenordner \"{name1}\" wurde aus den Favoriten entfernt.",
+  "msg_info_favoritesremoved": "{number} Lesezeichenordner wurden aus den Favoriten entfernt.",
+  "msg_info_favoriterenamed": "Favorit '{name1}' wurde umbenannt zu '{name2}'.",
+  "msg_info_rename": "{typeStruct} \"{name1}\" wurde in \"{name2}\" umbenannt.",
+  "msg_info_refresh": "Aktualisierung durchgeführt.",
+  "msg_info_reorder_NonRootbks": "Wählen Sie einen Lesezeichenordner im Bereich Lesezeichenordner aus.",
+  "msg_info_reorder_emptyBks": "Wählen Sie einen Lesezeichenordner mit mindestens 2 untergeordneten Elementen aus.",
+  "tree_ordering_panel_title": "Strukturreihenfolge anpassen – ",
+  "tree_ordering_Reorder_btn": "Neu anordnen",
+  "find_in_left_tree_btn": "Suchen",
+  "tree_ordering_reset_btn": "Strukturreihenfolge zurücksetzen",
+  "tree_ordering_cancel_btn": "Abbrechen",
+  "tree_ordering_moveup_btn": "Nach oben verschieben",
+  "tree_ordering_movedown_btn": "Nach unten verschieben",
+  "tree_ordering_movetop_btn": "An oberste Stelle verschieben",
+  "tree_ordering_movebottom_btn": "An unterste Stelle verschieben",
+  "tree_ordering_drop_here": "Hier ablegen",
+  "reorderSuccess": "Erfolgreich neu angeordnet",
+  "msg_info_noResultSearch": "Kein Ergebnis gefunden.",
+  "msg_info_SortNonAvailable": "Diese Spalte kann während einer Suche nicht sortiert werden.",
+  "msg_info_replaceByRevision": "Objekt wurde erfolgreich ersetzt.",
+  "msg_info_replaceByLatestRevision": "Ersetzen durch letzte Revision erfolgreich ausgeführt",
+  "msg_info_replaceByLatestRevision_removed": "{number} Objekt(e) wurde(n) explizit entfernt, da die neueste Revision bereits im Lesezeichen vorhanden war oder mehrere ausgewählte Objekte eine gemein same Revision hatten.",
+  "msg_info_treeFilterRemove": "Strukturbaumfilter werden nach dem Hinzufügen des Stammobjekts entfernt",
+  "msg_info_active_successfully": "{folderLabel} wurde erfolgreich als globaler Standardlesezeichenordner festgelegt.",
+  "msg_info_inactive_successfully": "Festlegung des globalen Standardlesezeichenordners {folderLabel} wurde erfolgreich aufgehoben.",
+  "msg_info_enable_successfully": "Der globale Standardlesezeichenordner {folderLabel} ist jetzt aktiviert.",
+  "msg_info_disable_successfully": "Der globale Standardlesezeichenordner {folderLabel} ist jetzt deaktiviert.",
+  "msg_info_defaultLocation": "Der globale Standardlesezeichenordner ist {folderLabel}.",
+  "msg_warning_MultipleSelection": "Multiselektion wird nicht unterstützt.",
+  "msg_warning_nocontent": "Kein Inhalt ausgewählt: wählen Sie einen Inhalt aus.",
+  "msg_warning_nofoldernocontent": "Nichts ausgewählt: Wählen Sie einen Inhalt oder Standardlesezeichenordner aus.",
+  "msg_warning_nocurrentfolder": "Keine aktuelle Auswahl: Wählen Sie ein Element im Strukturbaum aus.",
+  "msg_warning_noselection": "Mindestens ein Objekt muss ausgewählt werden.",
+  "msg_warning_dndnotsupported": "Diese Ablegeoperation wird nicht unterstützt.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Das Ablegen externer Objekte im Favoritenabschnitt ist nicht zulässig.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Das Ablegen von Objekten von einer anderen 3DEXPERIENCE Platform wird nicht akzeptiert.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "{objectType} Objekte können nicht hinzugefügt werden.",
+    "subtitle": "Wählen Sie einen unterstützten Objekttyp aus."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "Das Hinzufügen von Objekten von einer anderen 3DEXPERIENCE Platform wird nicht akzeptiert.",
+  "msg_warning_webInWinDnD": "Das Ablegen von Objekten ist nur auf 3DDashboard möglich.",
+  "msg_warning_Linked_Or_Shortcut": "Lesezeichenordnerverknüpfungen können nicht gezogen werden. Heben Sie die Auswahl der Lesezeichenordnerverknüpfungen auf, um andere Objekte zu ziehen.",
+  "msg_warning_FolderAlreadyAmongFavorites": "{typeStruct} \"{foldername}\" gehört bereits zu den Favoriten.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "Der letzte Erweiterungsstatus wird nicht gespeichert.",
+    "subtitle": "Minimieren Sie einige Strukturbaumelemente, um das Speichern des Erweiterungsstatus zu ermöglichen.",
+    "message": "Es wurden zu viele Strukturbaumelemente erweitert."
+  },
+  "msg_warning_copyLink": "Ausgewähltes Objekt ist kein Lesezeichenordner.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "Kontextsuche wird nicht unterstützt, wenn die Anzahl der Stämme größer als 200 ist.",
+  "msg_warning_searchOpen": {
+    "title": "Lesezeichenordner kann nicht erstellt werden.",
+    "subtitle": "Ein neuer Lesezeichenordner kann nicht erstellt werden, während die Suche aktiv ist.",
+    "message": "Schließen Sie den Suchbefehl, um einen neuen Lesezeichenordner zu erstellen."
+  },
+  "msg_error_OnRefreshCmdfailure": "Ein unerwarteter Fehler ist aufgetreten.",
+  "msg_error_preferencessnotsaved": "Ihre Benutzervorgaben können nicht gesichert werden.",
+  "msg_error_nopreferences": "Ihre Benutzervorgaben können nicht abgerufen werden.",
+  "msg_error_Addinfolder": "Der ausgewählte Inhalt kann nicht hinzugefügt werden.",
+  "msg_error_Addinfolder_obj": "{object} kann nicht hinzugefügt werden.",
+  "msg_error_CopyFolder": "Sie können {typeStruct} nicht kopieren.",
+  "msg_error_MoveFolder": "Sie können {typeStruct} nicht verschieben.",
+  "msg_error_MoveFolder_parent": "Die Ziel-{typeStruct} ist eines der übergeordneten Elemente des zu verschiebenden {typeNode}.",
+  "msg_error_CutPasteToRoot": "Sie können die {typeStruct}-Elemente nicht in den Stammbereich verschieben.",
+  "msg_error_Removefromfolder": "Sie können die Objekte nicht aus {typeStruct} entfernen.",
+  "msg_error_RemoveLinkfromBookmark": "Sie können die Verknüpfungen nicht aus dem Lesezeichenordner entfernen.",
+  "msg_error_MoveInfolder": "Sie können die Objekte nicht verschieben.",
+  "msg_error_MoveInSamefolder": {
+    "title": "Wählen Sie eine andere {typeStruct}.",
+    "subtitle": "Die Quell-{typeStruct} und die Ziel-{typeStruct} sind identisch."
+  },
+  "msg_error_rename": {
+    "title": "Sie können {typeStruct} {name} nicht umbenennen.",
+    "subtitle": "Stellen Sie sicher, dass Sie die richtigen Anmeldeinformationen verwenden.",
+    "subtitle_oneName": "Stellen Sie sicher, dass der Name nicht bereits verwendet wird oder dass Sie die richtigen Anmeldeinformationen verwenden.",
+    "message": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich, um dieses Objekt umzubenennen."
+  },
+  "msg_error_name_maxlength": "Geben Sie einen neuen Namen mit zwischen 1 und {maxLength} Zeichen ein.",
+  "msg_error_name_empty": "Titel darf nicht leer sein.",
+  "msg_error_bookmarkNotFound": {
+    "title": "Zugriff auf {name1} nicht möglich.",
+    "title2": "Zugriff auf {typeStruct} nicht möglich.",
+    "subtitle": "Auf {typeStruct} kann nicht mehr zugegriffen werden oder es wurde möglicherweise gelöscht.",
+    "message": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Struktur kann nicht erweitert werden.",
+    "subtitle": "Aktualisieren Sie die App und versuchen Sie es erneut oder wenden Sie sich an den Administrator."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} enthält ungültige Zeichen: {badChars}.",
+    "subtitle": "Sie dürfen keines der folgenden Zeichen verwenden:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Beim Laden der Attribute ist ein Fehler aufgetreten.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Die Attribute der anderen Services können nicht abgerufen werden."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Diese {typeStruct} ist nicht mehr verfügbar. ",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Der Lesezeichenordner wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "Diese externe Verknüpfung ist nicht mehr verfügbar."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "{typeStruct} ist nicht mehr verfügbar.",
+    "subtitle": "Entfernen Sie {typeStruct} aus Ihren Favoriten.",
+    "message": "Der Lesezeichenordner wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_InfoAction_Timeout": "Der Vorgang dauert länger als erwartet und wird im Hintergrund fortgesetzt. Führen Sie eine Aktualisierung durch, um die Daten zu aktualisieren.",
+  "msg_error_authorTimeout": {
+    "title": "Die Operation dauert länger als erwartet.",
+    "message": "Sie wird im Hintergrund fortgesetzt."
+  },
+  "msg_error_timeout": {
+    "title": "Der Inhalt kann nicht abgerufen werden.",
+    "subtitle": "Die Verbindung zum Server wurde durch Zeitüberschreitung unterbrochen.",
+    "message": "Überprüfen Sie die Verbindung oder wenden Sie sich an den Administrator."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Dieses Objekt ist nicht mehr verfügbar.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Das Objekt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Sie können die App Relations nicht öffnen.",
+    "subtitle": " Überprüfen Sie Ihre Lizenzrolle."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Die Objekte können nicht durch ihre letzte Revision ersetzt werden.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Sie können den Lesezeichenordner {personal_shared} nicht in den Lesezeichenordner {shared_personal} {move_copy}.",
+  "msg_error_copylink": {
+    "title": "Sie müssen über die entsprechende Berechtigung verfügen, um die Verknüpfung in die Zwischenablage zu kopieren.",
+    "subtitle": "Überprüfen Sie Ihre Anmeldeinformationen oder wenden Sie sich an den Administrator."
+  },
+  "msg_error_createNew": {
+    "title": "Sie können dieses Objekt nicht erstellen.",
+    "subtitle": "Stellen Sie sicher, dass Sie die richtigen Anmeldeinformationen verwenden.",
+    "message": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich, um diesen Objekttyp zu erstellen."
+  },
+  "msg_error_rest": {
+    "title": "Ein unerwarteter Fehler ist aufgetreten.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "msg_error_js": {
+    "title": "Während des Vorgangs ist ein Fehler aufgetreten.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Der Standardlesezeichenordner kann nicht abgerufen werden.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator.",
+    "message": "Der Standardlesezeichenordner ist nicht mehr definiert."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Wählen Sie eine andere Revision aus.",
+    "subtitle": "Sie können die Revision eines Objekts nicht durch dieselbe Revision ersetzen."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "{typeStruct} enthält bereits die neueste Revision der ausgewählten Objekte.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Sie können diesen Pfad nicht anzeigen.",
+    "subtitle": "Im Lesezeichenordner ist kein übergeordnetes Objekt sichtbar.",
+    "message": "Deaktivieren Sie die Einstellung „Mit Lesezeichen versehene untergeordnete Produkte ausblenden“."
+  },
+  "msg_warning_notProductRoot": "Auf dieses Objekt kann nicht mehr zugegriffen werden oder es wurde möglicherweise gelöscht.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "Wählen Sie nicht mehr als 100 Objekte aus.",
+  "msg_warning_contentnotavailable": {
+    "title": "Dieser Inhalt ist nicht mehr verfügbar.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Der Inhalt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "Inhalt kann nicht entfernt werden.",
+    "subtitle": "Wählen Sie eine untergeordnete {typeStruct} aus, um die Suchergebnisse einzugrenzen.",
+    "message": "Inhalt kann nicht aus mehr als 20 {typeStruct}-Elementen entfernt werden."
+  },
+  "msg_error_settings": {
+    "title": "Ihre Benutzervorgaben können nicht abgerufen werden.",
+    "subtitle": "Ein unerwarteter Fehler ist aufgetreten. Wenden Sie sich an Ihren Administrator."
+  },
+  "msg_error_search_login": "Serverfehler. Die föderierte Suche ist nicht verfügbar.",
+  "CMDInsertNewFolder": "Neuer Lesezeichenordner",
+  "CMDRemoveContent": "Inhalt entfernen",
+  "CMDAddFile": "Dokument hochladen",
+  "CMDDownloadFile": "Herunterladen",
+  "CMDPreviewFile": "Vorschau",
+  "CMDCheckOutFile": "Auschecken",
+  "CMDCheckInFile": "Einchecken",
+  "CMDEditFile": "Bearbeiten",
+  "CMDUndoEditFile": "Rückgängig",
+  "CMDFolderUpload": "Ordner-Upload",
+  "CMDUpdateFile": "Aktualisieren",
+  "CMDRename": "Umbenennen",
+  "CMDCut": "Ausschneiden",
+  "CMDCopy": "Kopie",
+  "CMDPaste": "Einfügen",
+  "CMDDelete": "Löschen",
+  "CMDClearSort": "Sortierung löschen",
+  "CMDHideColumn": "Spalte ausblenden",
+  "CMDOpenColumnCusto": "Optionen für Strukturbaumansicht",
+  "CMDAddExistingContent": "Bestehenden Inhalt hinzufügen",
+  "CMDAddExternalLink": "Externe Verknüpfung hinzufügen",
+  "CMDExpandAll": "Alle erweitern",
+  "CMDCollapseAll": "Alle ausblenden",
+  "CMDAccessRightCmd": "Teilen",
+  "CMDAddToFavorites": "Zu Favoriten hinzufügen",
+  "CMDProperties": "Eigenschaften",
+  "CMDSynchronize": "Auf lokalen Datenträger synchronisieren",
+  "CMDActiveFolder": "Globaler Standardlesezeichenordner",
+  "CMDOpen": "Öffnen",
+  "CMDOpenWithCV5": "CATIA V5 verbinden",
+  "CMDFindInCtx": "Im Kontext suchen",
+  "csv_base_file_name": "Lesezeichen_Editor_",
+  "alpha_sorting": "Titel",
+  "date_sorting": "Erstellungsdatum",
+  "tree_sorting": "Sortierung löschen",
+  "fonticon_filter": "Filter",
+  "fonticon_sort": "Sortieren nach",
+  "download": "Herunterladen",
+  "upload": "Hochladen",
+  "CMDDeleteDefinitively": "Löschen",
+  "CMDShareBookmarkLink": "Link kopieren",
+  "CMDRestore": "Wiederherstellen",
+  "CMDSizeColumnToFit": "Größe der Spalte anpassen",
+  "HeaderThumbnail": "Miniaturbild",
+  "HeaderDeletionDate": "Löschdatum",
+  "HeaderDeleteBy": "Gelöscht durch",
+  "SearchEnterMoreThan": "Für eine Suche werden mindestens {minNumber} Zeichen benötigt.",
+  "SearchEmptyQuotes": "Leere Anführungszeichen sind in einer Suchabfrage nicht zulässig.",
+  "searchDefaultError": {
+    "title": "Bei der Suchabfrage ist ein Fehler aufgetreten.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "ShowNavPane": "Navigationsfenster anzeigen",
+  "HideNavPane": "Navigationsfenster ausblenden",
+  "relations_tab": "Beziehungen",
+  "confirmation_ok": "OK",
+  "confirmation_cancel": "Abbrechen",
+  "confirmation_ok_Paste": "Einfügen",
+  "confirmation_move_title": "Inhalt verschieben",
+  "confirmation_add_title": "Inhalt hinzufügen",
+  "confirmation_add_move_title": "Inhalt verschieben und Hinzufügen",
+  "confirmation_move_message": "Möchten Sie den Kontext von {source} in {target} verschieben?",
+  "confirmation_move_message_monosel": "Möchten Sie {selection} von {source} zu {target} verschieben?",
+  "confirmation_move_message_mono_from_tree": "Möchten Sie {source} zu {target} verschieben?",
+  "confirmation_move_message_multisel": "Möchten Sie {nth} Elemente von {source} zu {target} verschieben?",
+  "details_for_alone_objects": "Die Elemente, die nicht mit {source} verbunden sind, werden zu {target} hinzugefügt.",
+  "confirmation_add_message_multisel": "Möchten Sie {nth} Elemente zu {target} hinzufügen?",
+  "confirmation_move_add_message_multisel": "Möchten Sie {move_nth} Elemente von {source} zu {target} verschieben und {add_nth} Elemente zu {target} hinzufügen?",
+  "removeChildrenInMove": "Die ausgewählten Unterelemente aus {source} entfernen, falls vorhanden.",
+  "confirmation_move_button": "Verschieben",
+  "confirmation_add_button": "Hinzufügen",
+  "confirmation_add_move_button": "OK",
+  "confirmation_remove_title": "Entfernen – {label}",
+  "confirmation_remove_titleX": "Entfernen - {nb} Objekte",
+  "confirmation_remove_message": "Möchten Sie die Inhalte wirklich aus {label} entfernen?",
+  "confirmation_removeshortcut_title": "Lesezeichenordnerverknüpfung entfernen",
+  "confirmation_removeshortcut_message": "Möchten Sie die Verknüpfungen wirklich aus dem Lesezeichenordner entfernen?",
+  "confirmation_copyMassive_title": "Kopie von {source} in {target} erstellen",
+  "confirmation_copyMassive_message": "Sie sind im Begriff, eine große Anzahl von Elementen zu kopieren.",
+  "confirmation_copyMassive_checkBox": "Mit Lesezeichen versehene Elemente in kopiertem Lesezeichenordner behalten",
+  "PasteCmdTitle": "{source} einfügen",
+  "PasteCmdMultiTitle": "{typeStruct} Objekte einfügen",
+  "confirmation_copy": "Kopie",
+  "confirmation_info": "Andere Attribute außer Titel und Beschreibung gehen beim Konvertieren von \n {From} in {To} verloren. Alle Attribute werden für untergeordnete Objekte kopiert.",
+  "authentication_error": "Sie können diese App nicht verwenden. Stellen Sie sicher, dass Sie die richtigen Anmeldeinformationen verwenden.",
+  "noPlatform_error": "Diese App ist in Ihrer Entwicklungsumgebung nicht verfügbar.",
+  "placeholder_msg_folder": "Diese {typeStruct} ist derzeit leer.",
+  "placeholder_CMD_AddExisting": "Bestehende Elemente hinzufügen",
+  "placeholder_CMD_UploadFile": "Datei hochladen",
+  "placeholder_CreateFolder": "{typeStruct} erstellen",
+  "tooltip_reserved": "Gesperrt",
+  "tooltip_unreserved": "Entsperrt",
+  "tooltip_shortcut": "Verknüpfung",
+  "tooltip_noDefaultLocation": "Kein aktueller globaler Standardlesezeichenordner verfügbar.",
+  "tooltip_defaultLocation": "Der globale Standardlesezeichenordner ist {folderLabel}. Zum Untersuchen klicken.",
+  "tooltip_enableDefaultLocation": "Der globale Standardlesezeichenordner {folderLabel} ist deaktiviert. Zum Aktivieren klicken.",
+  "tooltip_disableDefaultLocation": "Klicken, um den globale Standardlesezeichenordner {folderLabel} zu deaktivieren.",
+  "BookmarkLocation": "In übergeordnetem Lesezeichenordner anzeigen",
+  "column_FavoriteTitle": "Titel",
+  "column_BookmarkLocation": "Übergeordneter Lesezeichenordner",
+  "column_Thumbnail": "Miniaturbild",
+  "column_ApprovalStatus": "Genehmigungsstatus",
+  "placeholder_msg_favorite": "Kein Favoritenlesezeichenordner.",
+  "placeholder_msg_section": "Keine {typeStruct} gefunden.",
+  "placeholder_msg_search": "Keine Ergebnisse gefunden.",
+  "refresh_ongoing": "Wird aktualisiert...",
+  "refresh_ok": "Aktualisierung durchgeführt",
+  "refreshError": {
+    "title": "Widget kann nicht aktualisiert werden.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "placeholder_findInCtx": "Objekt suchen oder auswählen",
+  "findInCtxsearchview": {
+    "ftssearch": "Suchen",
+    "searchBtn": "Suchen",
+    "check": "Auswahl bestätigen",
+    "cannotRetrieveLabel": "Die Bezeichnung des ausgewählten Objekts konnte nicht abgerufen werden",
+    "loadingLabel": "Wird geladen..."
+  },
+  "badCredentialChanged": "{credential} wurde festgelegt, da Sie keinen Zugriff auf die vorausgewählten Zugangsdaten haben.",
+  "credentialChanged": "'{credential}‘ wurde festgelegt.",
+  "success": "Erfolgreich",
+  "warning": "Warnung",
+  "information": "Informationen",
+  "revisionReport": {
+    "reportTitle": "Bericht – Durch neueste Revision ersetzen",
+    "successfullyReplaced": "{prd1} wurde ersetzt durch {prd2}.",
+    "explicitlyRemoved": "{prd1} wurde explizit entfernt.",
+    "isLatestRevison": "Zu ersetzendes {prd1} weist bereits eine aktuelle Revision auf.",
+    "msgObjectSelected": "{object} Objekt(e) wurde(n) ausgewählt, um durch die neueste Revision ersetzt zu werden.",
+    "msgObjectAlreadyLatestRevision": "{object} Objekt(e) weist/weisen bereits die neueste Revision auf.",
+    "msgSuccessfullyReplaced": "{object} Objekt(e) wurde(n) erfolgreich durch die neueste Revision ersetzt.",
+    "msgObjectExplicitlyRemoved": "{object} Objekt(e) wurde(n) explizit entfernt, da die neueste Revision bereits im Lesezeichen vorhanden war oder mehrere ausgewählte Objekte eine gemeinsame Revision hatten."
+  },
+  "msg_advice_refreshWidget": "Das Widget oder Ihren Browser aktualisieren und überprüfen, ob Sie die richtigen Anmeldeinformationen verwenden.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Dieses Objekt ist nicht mehr verfügbar.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Das Objekt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_NoModifyAccess": "Keine Berechtigung zum Ändern der Beziehung. Der aktuelle Vorgang konnte nicht ausgeführt werden.",
+  "Attachments": "Anhänge",
+  "Specification": "Spezifikationsdokumente",
+  "OpenLocationRemoveTitle": "Inhalt entfernen: {label}",
+  "OpenLocationRemoveMessage": "Möchten Sie dieses Objekt aus den folgenden Speicherorten entfernen?",
+  "CMDUnsetGlobalActiveFolder": "Festlegung des globalen Standardlesezeichenordners aufheben",
+  "CMDShowInBookmarks": "In Lesezeichenordnern anzeigen",
+  "CMDEnableGlobalActiveBookmark": "Aktivieren",
+  "CMDDisableGlobalActiveBookmark": "Deaktivieren",
+  "indexMode": {
+    "Authoring": "Erstellung.",
+    "Index": "Index.",
+    "Label": "Index",
+    "seconds": "Sekunde(n)",
+    "minutes": "Minute(n)",
+    "hours": "Stunde(n)",
+    "msg_Authoring": "Der Authoring-Modus ist aktiv. Die Leistung kann beeinträchtigt werden",
+    "activeMode": "Aktiver Modus: {mode}",
+    "lastRefresh": "Letzte Aktualisierung: vor {timeElapsed}.",
+    "reactIndexMode": "Der Indexmodus wird in {autoSwitch} Minuten nach dem Zeitpunkt des Authoring-Vorgangs oder der Aktualisierung erneut aktiviert.",
+    "errorMessageBookmarkRoot": {
+      "title": "Die {typeStruct} Objekte können nicht abgerufen werden.",
+      "subtitle": "Wenden Sie sich an Ihren Administrator."
+    },
+    "info_msg_DataNotUptoDate": "Die App ist in den Indexmodus gewechselt, weil Sie {timeElapsed} Minuten lang keine Änderungen am Inhalt vorgenommen haben.",
+    "title": "Index- oder Datenbankmodus",
+    "IndexModeTooltip": "Indexmodus aktiv",
+    "AuthoringModeTooltip": "Datenbankmodus aktiv",
+    "IndexModelongHelp": "Der Indexmodus verbessert die Leistung, die letzten Änderungen sind jedoch erst verfügbar, wenn sie indexiert wurden.",
+    "AuthoringModelongHelp": "Im Datenbankmodus werden die letzten Änderungen sofort angezeigt, die Leistung ist jedoch beeinträchtigt.",
+    "info_msg_DatabaseModeTitle": "Datenbankmodus ist aktiviert",
+    "info_msg_IndexModeTitle": "Indexmodus ist aktiviert.",
+    "info_msg_DatabaseModeMessage": "Die letzten Änderungen werden angezeigt.",
+    "info_msg_IndexModeMessage": "Änderungen und neue Inhalte sind möglicherweise erst verfügbar, wenn der Index aktualisiert wurde."
+  },
+  "CMD_Yes": "Ja",
+  "CMD_No": "Nein",
+  "dialog_replaceByLatestRevision": "Durch Revision ersetzen",
+  "msg_warning_DndNotSupported": "Ablegen wird im schreibgeschützten Modus nicht unterstützt.",
+  "ViewTooltip": {
+    "favoriteTitle": "Titel des Favoriten"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "Ablage enthält Ordner und wird nicht unterstützt",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "Die Lesezeichenordnerstruktur enthält über 1000 Dokumente. Wählen Sie eine Lesezeichenordnerstruktur aus, die weniger Dokumente enthält.",
+    "BookmarkNo_Documents": "Die Lesezeichenordnerstruktur enthält kein Dokument. Es wird nichts heruntergeladen.",
+    "BookmarkDupalicateDOC": "Das Herunterladen der Lesezeichenstruktur ist fehlgeschlagen, da dieselbe Hierarchie bereits für das Dokument vorhanden ist.",
+    "DownloadStructureFailure": "Lesezeichenordnerstruktur konnte nicht heruntergeladen werden.",
+    "BookmarkDownloadStarted": "Herunterladen der Lesezeichenordnerstruktur wurde gestartet.",
+    "BookmarkDownloadMultiFileError": "Wählen Sie ein Dokument mit einer einzelnen Datei aus. \n",
+    "BookmarkDownloadNoFileError": "\n Wählen Sie ein Dokument mit mindestens einer Datei aus. \n"
+  },
+  "editLinkTitle": "Verknüpfung bearbeiten",
+  "msg_NewBookmarkSuccess": {
+    "message": "Erstellung erfolgreich."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Neue Verknüpfung wird hinzugefügt.",
+    "message": "Neue Verknüpfung erfolgreich zu Lesezeichenordner hinzugefügt."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Neue Verknüpfungen werden hinzugefügt.",
+    "message": "Neue Verknüpfungen wurden erfolgreich zu Lesezeichenordner hinzugefügt."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Erstellung der Verknüpfung fehlgeschlagen.",
+    "message": "Erstellung der Lesezeichenordnerverknüpfung fehlgeschlagen."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Fügen Sie einen neuen Link hinzu.",
+    "message": "Neuer externer Link wurde dem Lesezeichenordner erfolgreich hinzugefügt."
+  },
+  "msg_AddLinkPresent": "{nbLinks} externe Links waren bereits vorhanden.",
+  "msg_AddLinkFail": {
+    "title": "Externe Verknüpfung konnte nicht hinzugefügt werden.",
+    "message": "Hinzufügen der externen Verknüpfung zum Lesezeichenordner fehlgeschlagen."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Verknüpfung wurde erfolgreich bearbeitet.",
+    "message": "Externer Link wurde erfolgreich bearbeitet."
+  },
+  "msg_EditLinkFail": {
+    "title": "Bearbeiten der Verknüpfung ist fehlgeschlagen.",
+    "message": "Externer Link konnte nicht bearbeitet werden."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Der Bearbeitungsvorgang wurde nicht ausgeführt. Nehmen Sie die erforderliche Änderung vor."
+  },
+  "msg_error_AddShortcut": "Lesezeichenordnerverknüpfungen können nicht hinzugefügt werden.",
+  "msg_info_addShortcut_alreadyPresent": "{shortcutAlreadyPresent} zu erstellende Verknüpfungen waren bereits vorhanden.",
+  "msg_error_RemoveShortcut": "Lesezeichenordnerverknüpfungen können nicht entfernt werden.",
+  "msg_creating_AddShortcut": "Lesezeichenordnerverknüpfungen werden hinzugefügt",
+  "msg_error_Rename_Shortcut": "Das Umbenennen der Verknüpfung ist nicht zulässig.",
+  "NoPathFound": "Keine gültigen Pfade gefunden.",
+  "progressPanel_dragDrop": "{objectsAdded} Elemente werden in {targetfolder} hochgeladen",
+  "progressPanel_add": "{objectsAdded} Elemente werden zu {targetfolder} hinzugefügt",
+  "progressPanel_move": "{objectsAdded} Elemente werden nach {targetfolder} verschoben",
+  "progressPanel_copy": "{objectsAdded} Elemente werden in {targetfolder} kopiert",
+  "progressPanel_copyFolder": "{objectsAdded} {typeStruct} wird in {targetfolder} kopiert",
+  "progressPanel_moveFolder": "{objectsAdded} {typeStruct} wird nach {targetfolder} verschoben",
+  "progressPanel_remove": "{objectsAdded} Elemente werden aus {targetfolder} entfernt",
+  "progressPanel_expand": "{objectsexpanded} Elemente werden in {targetfolder} erweitert",
+  "progressPanel_download": "Lesezeichenordnerstruktur wird von {bookmarkname} heruntergeladen",
+  "removeStructuralObject": "Strukturelle Objekte einschließen",
+  "msg_info_objetexpanded": "Objekt erfolgreich erweitert",
+  "msg_info_objetexpandedError": {
+    "title": "Objekte können nicht erweitert werden.",
+    "subtitle": "Aktualisieren Sie die App und versuchen Sie es erneut oder wenden Sie sich an den Administrator."
+  },
+  "Paste_as_Duplicate": "Als Duplikat einfügen",
+  "Paste_as_Shortcut": "Als Verknüpfung einfügen",
+  "Paste_to_move": "Zum Verschieben einfügen",
+  "Paste_to_Bookmark": "Einfügen, um Lesezeichen zu erstellen",
+  "CopySettings": "Als Duplikatoptionen einfügen",
+  "AddPrefix": "Präfix hinzufügen",
+  "AddSuffix": "Suffix hinzufügen",
+  "prefixPlaceholder": "Geben Sie ein Präfix für den Titel ein.",
+  "suffixPlaceholder": "Geben Sie ein Suffix für den Titel ein.",
+  "helpPrefix": {
+    "shortHelp": "Zeichen, die am Anfang des Titels der duplizierten Objekte hinzugefügt werden.",
+    "longHelp": "Wenn Sie dem Objekt Brake beispielsweise Design_ als Präfix hinzufügen, lautet der Titel des duplizierten Objekts Design_Brake."
+  },
+  "helpSuffix": {
+    "shortHelp": "Zeichen, die am Ende des Titels der duplizierten Objekte hinzugefügt werden.",
+    "longHelp": "Wenn Sie dem Objekt Brake beispielsweise _Design als Suffix hinzufügen, lautet der Titel des duplizierten Objekts Brake_Design."
+  },
+  "PrefixLine": "Präfix",
+  "SuffixLine": "Suffix",
+  "msg_info_notEnabledExpand": {
+    "title": "Strukturelle Objekte nicht eingeschlossen",
+    "subtitle": "Ändert die Einstellung 'Erweiterung von Produkten aktivieren'"
+  },
+  "documentCommands": {
+    "notAvailable": "Dieser Befehl ist für die Auswahl nicht verfügbar.",
+    "notReady": {
+      "title": "Dieser Befehl kann noch nicht verwendet werden.",
+      "message": "Wiederholen Sie den Vorgang in einigen Sekunden."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Diese Operation wird nicht unterstützt.",
+    "message": "Diese Art von Objekt kann mit diesem Befehl nicht hinzugefügt werden."
+  },
+  "exportMask": "CSV-Export.",
+  "attrComputation": "Attributwerte werden abgerufen.",
+  "tooManyResultFound": "Die Suche ist auf {maxResult} Ergebnisse beschränkt. Verfeinern Sie die Abfrage.",
+  "initialization_error": "In der App ist ein unerwarteter Fehler aufgetreten. Wenden Sie sich an Ihren Administrator.",
+  "expandTooLarge": "Zu viele Objekte abgerufen.<br> Grenzen Sie die Navigation mit Filtern ein oder reduzieren Sie die Erweiterungsebene.",
+  "loadingText": "Wird geladen...",
+  "treeExpandTooLarge": {
+    "title": "{typeStruct} kann nicht erweitert werden",
+    "message": "Es wurden zu viele {subType} Objekte abgerufen",
+    "subtitle": "Reduzieren Sie alle und erweitern Sie nur eine Ebene."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Gesperrt von",
+    "subtitle": "Zum Entsperren klicken"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Entsperrt",
+    "subtitle": "Zum Sperren klicken"
+  },
+  "Broken link": "Unterbrochene Verknüpfung",
+  "find_in_context_timeout": "‚Im Kontext finden‘ – Zeitüberschreitung",
+  "classificationFacetName": "Klassifizierungen",
+  "classificationFacetText": "Klassifizierungen",
+  "searchLoading": "Suche in {typeStruct} läuft",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Neuer Favorit kann nicht deklariert werden.",
+    "subtitle": "Entfernen Sie vorhandene Favoriten, um neue zu deklarieren.",
+    "message": "Die Anzahl der Favoriten ist auf {maxLimit} begrenzt."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Das Kontextmenü kann nicht geöffnet werden.",
+    "subtitle": "Es müssen weniger Objekte ausgewählt werden.",
+    "message": "Die Anzahl der ausgewählten Objekte ist für das CATIA Kontextmenü auf 10 begrenzt."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Die ausgewählten Objekte können nicht hinzugefügt werden.",
+    "subtitle": "Versuchen Sie es in wenigen Minuten erneut, falls die Objekte durchsucht werden können.",
+    "message": "Einige Objekte sind noch nicht indiziert oder können nicht durchsucht werden: {objects}."
+  },
+  "generic_service_failure": "Objektinformationen konnten nicht abgerufen werden. Versuchen Sie es in einigen Minuten erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator",
+  "cannotChangeOwner": "{objectname} kann nicht auf {userId} übertragen werden.",
+  "multipleClassificationValue": "Mehrere",
+  "searchReasultWarningMsg": "Die Anzahl der Objekte könnte höher als erwartet sein",
+  "warn_tb_unavailableRoot": "Sie haben keinen Zugriff auf die übergeordnete {typeStruct}.",
+  "err_UnsupportedFavoriteType": "Dieser Favoritenabschnitt unterstützt den ausgewählten Typ nicht.",
+  "operation_add": "Inhalt hinzufügen",
+  "toAdd": "Hinzufügen",
+  "folderLoader_loading": "Wird geladen",
+  "folderLoader_cancel": "Abbrechen",
+  "folderLoader_expanding": "Wird erweitert",
+  "folderLoader_expanding_products": "Produkte werden erweitert",
+  "ActionBar_SelectAllCmd": "Alle auswählen",
+  "ActionBar_SelectChildrenCmd": "Untergeordnete Elemente auswählen",
+  "ActionBar_SelectInversionCmd": "Umkehrung auswählen",
+  "ActionBar_SelectLeavesCmd": "Blätter auswählen",
+  "ActionBar_SelectParentCmd": "Übergeordnetes Element auswählen",
+  "ActionBar_SelectSiblingCmd": "Gleichgeordnete Elemente auswählen",
+  "Filter_owner": "Gehört mir",
+  "Filter_tagger": "Nach Tags filtern",
+  "switchViewImpossible": {
+    "title": "Die Ansicht ist nicht verfügbar.",
+    "message": "Aktualisieren Sie den Browser, um die Ansichten zu aktualisieren."
+  },
+  "requestSaveView": {
+    "title": "Die aktuelle Ansicht ist nicht dauerhaft gespeichert.",
+    "message": "Möchten Sie die aktuelle Ansicht speichern?",
+    "link": "Ansicht speichern"
+  },
+  "loadingAllRoots": "Verbleibende Root-Elemente werden geladen.",
+  "loadingRoots": "Root-Elemente werden geladen.",
+  "RefreshingNodes": "Objektattribute werden aktualisiert",
+  "docCmd_unavailable": {
+    "title": "Befehl nicht verfügbar.",
+    "subtitle": "Versuchen Sie es in wenigen Sekunden erneut."
+  },
+  "unsupported_command_error": {
+    "title": "Befehl wird nicht unterstützt.",
+    "message": "Die aktuelle Auswahl enthält Typen, die diese Operation nicht unterstützen."
+  },
+  "lookingForObject": "Suche nach Objekt",
+  "openWithTitle": "Öffnen mit",
+  "openWithMessage": "Objekt ist an mehreren Speicherorten vorhanden. Wählen Sie den Pfad aus, den Sie öffnen möchten:",
+  "openWithNotSupported": "{label} wird nicht unterstützt.",
+  "warningNotAssociated": "{label} ist nicht verknüpft mit",
+  "unsupportedAction": "Diese Operation wird im aktuellen Kontext nicht unterstützt."
+}

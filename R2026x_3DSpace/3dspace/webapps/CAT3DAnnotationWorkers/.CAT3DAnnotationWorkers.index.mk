@@ -1,0 +1,12 @@
+m|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.0.24319|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DAnnotationWorkers\CAT3DAnnotationLoadWorker.js|1731552818|18376
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\CAT3DAnnotationLoadWorker.js|1730369005|63923
+t|win_b64\webapps\CAT3DAnnotationWorkers\CAT3DAnnotationWorkers.js|1723278253|77
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\CAT3DAnnotationWorkers.js|1620402208|95
+t|win_b64\webapps\CAT3DAnnotationWorkers\_copyright.js|1723278252|63
+s|CAT3DAnnotationWebUXServices\CAT3DAnnotationWorkers.mweb\src\_copyright.js|1480428882|63
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

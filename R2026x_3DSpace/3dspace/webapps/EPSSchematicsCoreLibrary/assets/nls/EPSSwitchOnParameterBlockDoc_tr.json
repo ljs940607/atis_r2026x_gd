@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "<doc-idp-name translate=no>TestValue</doc-idp-name> ile diğer girdi verileri arasındaki karşılaştırmanın sonucuna bağlı olarak sıralı akış, ilgili çıktı kontrol bağlantı noktasına geçirilir.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin bağlantı noktası sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Girdi kontrol bağlantı noktası sayısı, girdi veri bağlantı noktası sayısıyla senkronize edilir.<br>Veri bağlantı noktaları tüm tipleri işler.<br><doc-idp-name translate=no>TestValue</doc-idp-name> = <doc-idp-name translate=no>ValueK</doc-idp-name> olursa bu blok, sıralı akışı <doc-idp-name translate=no>ParameterK</doc-idp-name> çıktı kontrolüne geçirir.",
+  "dataPorts": {
+    "TestValue": "test edilecek parametre.",
+    "Value1": "ilk referans parametre."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "None": "<doc-idp-name translate=no>TestValue</doc-idp-name> başka bir girdi parametresiyle aynı değilse etkinleştirilir.",
+    "Parameter1": "<doc-idp-name translate=no>TestValue</doc-idp-name> değeri <doc-idp-name translate=no>Value1</doc-idp-name> değeriyle aynı olursa etkinleştirilir."
+  },
+  "example": null
+}

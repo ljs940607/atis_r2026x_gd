@@ -1,0 +1,13 @@
+.sch-vlist-valuetype {
+  box-sizing: border-box;
+  width: unset;
+}
+.sch-vlist-valuetype .sch-vlist {
+  box-sizing: border-box;
+}
+.sch-vlist-valuetype .sch-vlist .sch-vlist-item {
+  box-sizing: border-box;
+}
+.sch-vlist-valuetype .sch-vlist .sch-vlist-item > div {
+  box-sizing: border-box;
+}

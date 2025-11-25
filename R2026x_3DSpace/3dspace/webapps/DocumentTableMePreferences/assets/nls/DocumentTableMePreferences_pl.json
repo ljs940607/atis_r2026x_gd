@@ -1,0 +1,97 @@
+{
+  "views": {
+    "viewLabel": "Widok"
+  },
+  "commandMenu": {
+    "default": "Widok domyślny",
+    "root": "Widoki tabeli",
+    "admin": "Widoki administratora",
+    "user": "Moje widoki",
+    "widget": "Widok lokalny"
+  },
+  "columns": {
+    "column_name": "Nazwa kolumny",
+    "attType": "Typ atrybutu",
+    "colName": "Nazwa kolumny",
+    "pin": "Przypnij",
+    "visibility": "Widoczność",
+    "hide_show": "Ukryj/Pokaż",
+    "findinctx": "Znajdź",
+    "thumbnail": "Podgląd",
+    "thumbnails": "Podgląd",
+    "matrixtxt": "Macierz pozycji",
+    "typeName": "Typ",
+    "extName": "Rozszerzenie"
+  },
+  "attributeCategoriesNodes": {
+    "COMMON_COLUMNS": "Kolumny wspólne",
+    "TYPE_COLUMNS": "Kolumny typu",
+    "EXTENSION_COLUMNS": "Kolumny rozszerzeń"
+  },
+  "ViewManager": {
+    "pinLeft": "Przypnij po lewej",
+    "pinRight": "Przypnij po prawej",
+    "unpinned": "Nie przypinaj",
+    "title": "Wybrane kolumny: "
+  },
+  "AttributeManager": {
+    "title": "Dostępne kolumny: "
+  },
+  "CreateViewPane": {
+    "createview": "Utwórz widok",
+    "message1": "Brak dostępnych widoków użytkownika lub administratora.",
+    "message2": "Aby utworzyć nowe widoki administratora :",
+    "message3": "1. Otwórz widżet Document Management.",
+    "message4": "2. Uruchomi Konfiguruj widok tabeli z poświadczeniami administratora."
+  },
+  "columnsNls": {
+    "TITLE": "Tytuł",
+    "NAME": "Nazwa",
+    "TYPE": "Typ",
+    "COLLABORATIVE_POLICY": "Zasady współpracy",
+    "COLLABORATIVE_SPACE": "Obszar współpracy",
+    "REVISION": "Poprawka",
+    "IS_LATEST_REVISION": "Jest najnowszą poprawką",
+    "FILES": "Pliki",
+    "LOCK_STATUS": "Status zablokowany",
+    "DESCRIPTION": "Opis",
+    "ORGANIZATION": "Organizacja",
+    "OWNER": "Właściciel",
+    "ORIGINATOR": "Twórca",
+    "MATURITY": "Dojrzałość",
+    "CREATION_DATE": "Data utworzenia",
+    "MODIFIED_DATE": "Data modyfikacji",
+    "COMMENTS": "Komentarze",
+    "FILE_TYPE": "Typ plików",
+    "APPROVAL_STATUS": "Status zatwierdzenia"
+  },
+  "COPY_OF": "Kopia",
+  "AdminViewSaveMessage1": "Czy chcesz zapisać go jako widok administratora?",
+  "AdminViewSaveMessage2": "W przeciwnym razie zostanie on zapisany jako widok użytkownika",
+  "ViewAlreadyExistWarning": "Widok „{newViewLabel}” już istnieje.",
+  "MaxViewLimitReachedTitle": "Przekroczono limit",
+  "MaxViewLimitReachedMsg": "Można utworzyć do 4 widoków {viewType}.",
+  "commands": {
+    "addview": {
+      "title": "Utwórz widok",
+      "message1": "Można utworzyć maksymalnie 4 widoki użytkownika.",
+      "message2": "Można utworzyć maksymalnie po 4 widoki użytkownika/administratora."
+    },
+    "removeview": {
+      "title": "Usuń widok",
+      "message": "Usuwa wybrany widok."
+    },
+    "addColumn": {
+      "title": "Dodaj kolumnę",
+      "message": "Dodaje kolumnę do wybranych kolumn."
+    },
+    "removeColumn": {
+      "title": "Usuń kolumnę",
+      "message": "Usuń kolumnę z wybranych kolumn."
+    },
+    "confirm": "Potwierdź",
+    "cancel": "Anuluj"
+  },
+  "createNewView": "Utwórz nowy widok",
+  "Default": "Domyślne"
+}

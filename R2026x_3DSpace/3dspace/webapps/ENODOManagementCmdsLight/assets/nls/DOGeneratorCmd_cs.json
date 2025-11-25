@@ -1,0 +1,66 @@
+{
+  "title": "Generovat odvozený výstup",
+  "buttons": {
+    "generate": "Generovat",
+    "reset": "Obnovit výchozí",
+    "cancel": "Zrušit"
+  },
+  "loading": "Načítání objektů",
+  "optionsLabel": "Možnosti",
+  "optionFormat": "Formát",
+  "optionUniqueFormat": "Formát odvozeného výstupu bude: {oFormat}.",
+  "warning": {
+    "title": "Varování",
+    "noFormat": "K vygenerování odvozeného výstupu není k dispozici žádný formát. Obraťte se na správce."
+  },
+  "error": {
+    "title": "Chyba",
+    "noSelection": "Před kliknutím na příkaz k vygenerování odvozeného výstupu vyberte objekt, který chcete exportovat.",
+    "jobFailed": "Odvozený výstup nelze vygenerovat.{oMsg}",
+    "security_context_fail": "Nelze načíst kontext zabezpečení pro přidruženého uživatele.",
+    "expandIssue": {
+      "Title": "Objekt nelze rozšířit, protože některá data nejsou indexována.",
+      "Subtitle": "Počkejte několik minut a zkuste to znovu."
+    },
+    "wrongSelection": "Před kliknutím na příkaz vyberte data, která jsou uložená na platformě 3DEXPERIENCE Platform.",
+    "code401": {
+      "Title": " Nelze ověřit vaše přihlašovací údaje.",
+      "Subtitle": "Kód chyby: 401."
+    },
+    "code400": {
+      "Title": "Došlo k neočekávané chybě.",
+      "Subtitle": "Ohledně pomoci se obraťte na správce.",
+      "Message": " Kód chyby: 400"
+    },
+    "invalidPhID": "Před kliknutím na příkaz vyberte data, která jsou uložená na platformě 3DEXPERIENCE Platform.",
+    "doCreationTimeout": "Provedení požadavku trvá déle, než se předpokládalo. Čekejte prosím."
+  },
+  "info": {
+    "title": "Informace",
+    "upToDate": "Odvozený výstup pro vybrané objekty je aktuální. Nelze nic vygenerovat.",
+    "generationLaunched": "Odvozený výstup bude vygenerován. Tento proces může chvíli trvat.",
+    "generationOnRep": "Odvozené výstupy budou vygenerovány pouze pro reprezentace.",
+    "jobsCreated": "Byl vytvořen následující počet úloh odvozeného výstupu: {oJobs}.",
+    "jobCreated": "Byla vytvořena jedna úloha odvozeného výstupu.",
+    "noJobCreated": "Nebyla vygenerována žádná úloha. Vybraný formát nemusí být použitelný nebo již mohla být odeslána duplicitní odvozená výstupní úloha nebo je vygenerován odvozený výstupní formát a je v synchronizovaném stavu."
+  },
+  "column": {
+    "format": "Cílový formát",
+    "connector": "Počátek",
+    "type": "Typ",
+    "parameters": "Parametry",
+    "converter": "Konvertor",
+    "usage": "Jednotný formát",
+    "forceUpdate": "Vynutit aktualizaci"
+  },
+  "type": {
+    "catpart": "Díl",
+    "sldprt": "Díl",
+    "prt": "Díl",
+    "ipt": "Díl",
+    "catdrawing": "Výkres",
+    "slddrw": "Výkres",
+    "dxf": "Výkres",
+    "dwg": "Výkres"
+  }
+}

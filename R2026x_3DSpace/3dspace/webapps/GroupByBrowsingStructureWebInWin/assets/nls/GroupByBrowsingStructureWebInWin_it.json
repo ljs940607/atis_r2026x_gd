@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "Raggruppa per struttura di esplorazione",
+    "chooserLabel": "Seleziona una struttura di esplorazione",
+    "organizeButton": "Gruppo",
+    "ungroupButton": "Annulla raggruppamento",
+    "cancelButton": "Annulla"
+  },
+  "noBSWarning": {
+    "message": "Non sono disponibili strutture di navigazione.",
+    "advice": "Contattare il responsabile della struttura di navigazione per creare le strutture di navigazione e impostare la relativa maturità su 'Rilasciato' per renderle disponibili in questo comando."
+  },
+  "webServiceError": "Impossibile recuperare l'elenco di strutture di esplorazione. Riprovare o contattare l'amministratore"
+}

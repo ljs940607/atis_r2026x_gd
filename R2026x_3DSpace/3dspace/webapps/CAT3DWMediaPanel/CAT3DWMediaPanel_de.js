@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_de",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"Keine Erkennungen gefunden. Erstellen Sie eine neue Erkennung und greifen Sie hier darauf zu",addWBReco:"Whiteboard-Erkennung starten"});

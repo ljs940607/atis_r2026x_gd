@@ -1,0 +1,22 @@
+{
+  "setParameters": "Parâmetro salvo",
+  "setParametersTitle": "Salvar",
+  "setParametersError": "Erro ao salvar parâmetros",
+  "deleteParameter": "Parâmetro excluído",
+  "deleteParameterTitle": "Excluir",
+  "deleteParameterError": "Erro ao excluir parâmetros",
+  "modifyParameter": "Parâmetro modificado",
+  "modifyParameterTitle": "Modificar",
+  "modifyParameterError": "Erro ao modificar parâmetros",
+  "columnMandatory": "A coluna %1 é obrigatória",
+  "containUnsupportedChars": "%1 contém um ou mais caracteres não suportados a seguir \n %2",
+  "confirmDeleteTitle": "Confirmar exclusão",
+  "confirmDeleteContent": "Tem certeza de que deseja excluir esta linha? A ação não pode ser desfeita.",
+  "Add": "Adicionar nova linha",
+  "orderParameters": "Ordem atualizada",
+  "orderParametersTitle": "Reordenar",
+  "orderParametersError": "Erro ao reordenar",
+  "orderParametersMaskMessage": "Atualizando a ordem",
+  "orderParametersDeleteError": "Erro ao excluir ordem anterior",
+  "orderParametersSetError": "Erro ao salvar nova ordem"
+}

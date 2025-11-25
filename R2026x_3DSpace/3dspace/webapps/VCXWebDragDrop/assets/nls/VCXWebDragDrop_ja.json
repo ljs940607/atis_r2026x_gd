@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "サポートされていないアクションです",
+  "Notification.DragAndDrop.Loading.Title": "ロード中",
+  "Notification.DragAndDrop.Loading.Title.Error": "ロード エラー",
+  "Notification.DragAndDrop.Loading.Message.Error": "コンテンツをロードできませんでした",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "サポートされていない拡張子です",
+  "Notification.DragAndDrop.Impossible.Title": "ドラッグ アンド ドロップ",
+  "Notification.DragAndDrop.Impossible.SubTitle": "同じウィジェットでドラッグ アンド ドロップは使用できません",
+  "Notification.DragAndDrop.NotYet.Title": "ドラッグ アンド ドロップ",
+  "Notification.DragAndDrop.NotYet.SubTitle": "ドラッグ アンド ドロップはまだ使用できません。最初にエクスペリエンスを開きます。",
+  "Notification.DragAndDrop.Insert.Failed": "挿入できませんでした",
+  "Notification.DragAndDrop.Insert.Before.Experience": "タイプは、プレゼンテーションの作成前は挿入できません",
+  "Notification.DragAndDrop.Not.Supported": "サポートされていないタイプです",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "マテリアルの挿入に失敗しました",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "複数項目の挿入に失敗しました",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "複数挿入はタイプがカバー マテリアルの場合にのみサポートされます。"
+}

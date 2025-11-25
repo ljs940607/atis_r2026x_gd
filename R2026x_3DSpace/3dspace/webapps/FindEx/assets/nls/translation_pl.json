@@ -1,0 +1,18 @@
+{
+  "FindDialogTitle": "Znajdź",
+  "NavigationPreviousMatchTooltipTitle": "Przejdź do poprzedniego dopasowania",
+  "NavigationPreviousMatchTooltipShortHelp": "Wymagane jest co najmniej 1 dopasowanie.",
+  "NavigationNextMatchTooltipTitle": "Przejdź do następnego dopasowania",
+  "NavigationNextMatchTooltipShortHelp": "Wymagane jest co najmniej 1 dopasowanie.",
+  "NavigationValidationTooltipTitle": "Znajdź",
+  "NavigationValidationTooltipShortHelp": "Wymagane jest co najmniej {inputValidationThreshold} znaków.",
+  "NavigationSelectionTooltipTitle": "Wybierz dopasowania",
+  "NavigationSelectionTooltipShortHelp": "Wymagane jest co najmniej 1 dopasowanie.",
+  "MatchCaseTooltipShortHelp": "Uwzględnij wielkość liter",
+  "NavigationModeTooltipShortHelp": "Nawiguj pomiędzy wierszami zamiast pomiędzy słowami kluczowymi",
+  "AutoSelectTooltipShortHelp": "Wybierz automatycznie bieżący wynik dopasowywania",
+  "FindIn": "Znajdź w:",
+  "FindInComboAllSelected": "Wszystkie kolumny",
+  "FindInComboPlaceholder": "Brak kolumny",
+  "NavigationValidationColumnsNotValidTooltipTitle": "W opcji „Znajdź w” należy wybrać co najmniej jedną kolumnę"
+}

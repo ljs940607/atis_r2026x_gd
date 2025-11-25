@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="Seule la référence de système d'axes peut être agrégée sous Référence de système d'axes.";
+ValidationCheck2.Title="La référence de système d'axes de coque ne peut pas être agrégée sous Référence de système d'axes de coque.";
+ValidationCheck3.Title="Une seule référence de système d'axes peut être agrégée sous Référence de système d'axes de coque.";
+ValidationCheck4.Title="Seule la référence de système d'axes peut être agrégée sous Référence de système d'axes de coque.";
+ValidationCheck5.Title="Le produit avec architecture de positionnement n'a pas pu instancier 3DShape.";
+ValidationCheck6.Title="Le produit avec architecture de positionnement n'a pas pu instancier le marquage.";

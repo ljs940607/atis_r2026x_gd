@@ -1,0 +1,8 @@
+{
+  "preferences":[{
+    "name": "webTimeout",
+    "type": "text",
+    "label": "Preferences.WebTimeout.Label",
+    "defaultValue": "70000"
+}]
+}

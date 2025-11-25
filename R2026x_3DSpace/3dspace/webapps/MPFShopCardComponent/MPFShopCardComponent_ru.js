@@ -1,0 +1,1 @@
+define("DS/MPFShopCardComponent/MPFShopCardComponent_ru",{});define("DS/MPFShopCardComponent/assets/nls/ShopCardComponent",{requestAPart:"Запрос детали",moreInformation:"Подробнее",getAQuote:"Получить котировку",reviews:"проверки",directPurchase:"прямая покупка",viewMore:"Просмотреть еще",buyNow:"Купить сейчас",selectForQuote:"Выбрать предложение",deselect:"Отменить выбор"});

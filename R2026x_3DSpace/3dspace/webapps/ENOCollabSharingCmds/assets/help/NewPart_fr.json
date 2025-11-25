@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Nouvelle pièce",
+"ENONewPartHdr.ShortHelp":"Crée une nouvelle pièce.",
+"ENONewPartHdr.LongHelp":"Dans la boîte de dialogue, entrez un titre et les attributs requis, s'il y en a. Vous pouvez aussi sélectionner un modèle pour choisir le gabarit CAO. Cliquez sur <uicontrol>Créer et fermer</uicontrol> pour créer une seule pièce ou sur <uicontrol>Créer</uicontrol> pour en créer une autre.",
+"ENOInsertNewPartHdr.Title":"Insérer une nouvelle pièce",
+"ENOInsertNewPartHdr.ShortHelp":"Crée une nouvelle pièce et l'ajoute en tant qu'enfant aux objets sélectionnés.",
+"ENOInsertNewPartHdr.LongHelp":"<p>Dans la boîte de dialogue, entrez un titre. Vous pouvez aussi sélectionner un modèle pour choisir le gabarit CAO. Cliquez sur <uicontrol>Créer et fermer</uicontrol> pour créer un seul dessin ou sur <uicontrol>Créer</uicontrol> pour en créer un autre.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

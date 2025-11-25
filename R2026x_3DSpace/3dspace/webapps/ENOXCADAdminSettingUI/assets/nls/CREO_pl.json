@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Zapisz",
+  "CREOOpenGroupLabel": "Otwórz",
+  "CREOMissingLinksWarningLabel": "Zapisz pliki z brakującymi odniesieniami",
+  "CREOMissingLinksWarningInfo": "Po włączeniu tej opcji w trakcie operacji Zapisz w sesji parametrycznej Creo pojawi się ostrzeżenie, jeśli brakuje jakichkolwiek projektów podrzędnych. Jeśli ta opcja jest wyłączona, operacja Zapisz będzie kontynuowana bez ostrzeżenia.",
+  "CREOPartFamilyInstanceHandlingLabel": "Obsługa wystąpienia rodziny części Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Określa przetwarzanie tabeli rodzin części Creo podczas zapisu: <br><strong>PartFamilyInstanceLight</strong> — pliki XPR są generowane tylko dla aktywnych instancji.<br><strong> PartFamilyInstanceLoaded</strong> — pliki XPR są generowane dla wszystkich instancji.",
+  "CREOCADAttributeMappedToEINLabel": "Atrybut CAD mapowany do EIN",
+  "CREOCADAttributeMappedToEINInfo": "Gdy wartość tego atrybutu zostanie określona, funkcja zostanie włączona, a plik CAD zostanie opatrzony znacznikiem tego atrybutu, którego wartością będzie EIN produktu fizycznego.",
+  "EnterpriseItemNumberGroupLabel": "Numer elementu przedsiębiorstwa",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Odfiltruj elementy inżynieryjne 3DEXPERIENCE bez geometrii i bez węzłów potomnych",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Odfiltruj elementy inżynieryjne 3DEXPERIENCE bez geometrii i bez węzłów potomnych"
+}

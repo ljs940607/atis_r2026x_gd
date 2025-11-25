@@ -1,0 +1,10 @@
+m|UWPClient\FrameLayout.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\FrameLayout\FrameLayout.css|1744917702|410
+s|UWPClient\FrameLayout.mweb\src\frame-layout.css|1724871882|572
+t|win_b64\webapps\FrameLayout\frame-layout.html|1725720347|20848
+s|UWPClient\FrameLayout.mweb\src\frame-layout.html|1724871882|20848
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38

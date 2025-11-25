@@ -1,0 +1,10 @@
+{
+  "title": "协调管理报告",
+  "statusTag": "状态",
+  "startDateTag": "开始处理",
+  "estimatedDateTag": "下一次处理的估计日期",
+  "processedObjectTag": "已处理的对象",
+  "currentOpTag": "已处理的操作",
+  "totalOpTag": "要处理的操作总数",
+  "durationTag": "最后一次处理的持续时间"
+}

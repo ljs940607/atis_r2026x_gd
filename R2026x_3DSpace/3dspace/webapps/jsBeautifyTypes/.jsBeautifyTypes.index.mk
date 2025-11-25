@@ -1,0 +1,11 @@
+m|VENJsBeautify\jsBeautifyTypes.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25112|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\jsBeautifyTypes\typings\types.d.ts|1737652556|49
+s|VENJsBeautify\jsBeautifyTypes.mweb\src\typings\types.d.ts|1737652556|49
+t|win_b64\webapps\jsBeautifyTypes\jsBeautifyTypes.js|1739611861|53
+s|VENJsBeautify\jsBeautifyTypes.mweb\src\typings\types.js|1738068174|151
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,38 @@
+{
+  "NGFilter_Cmd": {
+    "widget_id": "1",
+    "AppParams_duration": "2",
+    "SelectorManager_duration": "3",
+    "RootsSelection_duration": "4",
+    "Selection_duration": "5"
+  },
+  "NGFilter_UX": {
+    "widget_id": "1",
+    "Loading_duration": "2",
+    "Render_duration": "3",
+    "Expand_synthesis_duration": "4",
+    "Retrieve_Filters_duration": "6",
+    "Retrieved_Filters": "7",
+    "Expand_synthesis_count": "8",
+    "Expand_synthesis_rootTitle": "9",
+    "Expand_synthesis_rootId": "10"
+  },
+  "NGFilter_Proxy": {
+    "widget_id": "1",
+    "Fetch_synthesis_duration": "2",
+    "Drop_Filter_duration": "3",
+    "Drop_FilterOnFilter_duration": "4",
+    "Proxy_Expand_synthesis_duration": "5",
+    "Proxy_Expand_synthesis_nbRoots": "6",
+    "Proxy_Expand_synthesis_rootTitles": "7",
+    "Proxy_Expand_synthesis_rootIds": "8",
+    "Proxy_Expand_synthesis_mode": "9",
+    "Proxy_Expand_synthesis_nbInstRef": "10",
+    "Proxy_Expand_synthesis_nbOcc": "11"
+  },
+  "NGF_RepairFilter": {
+    "widget_id": "1",
+    "Fetch_duration": "2",
+    "CheckBroken_duration": "3"
+  }
+}

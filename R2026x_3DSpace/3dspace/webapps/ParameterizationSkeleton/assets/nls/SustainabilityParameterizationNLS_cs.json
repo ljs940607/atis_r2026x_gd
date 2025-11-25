@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Kalkulace nákladů",
+  "CostingDomainTooltip": "Zvolte proces vývoje pro metriky nákladů",
+  "CostingDefaultEvolution": "Sekvenční",
+  "CostingEvolutionConcurrent": "Souběžný",
+  "deployFailureMsg": "Nastavení procesu vývoje jako souběžného není povoleno, protože některé metriky nákladů jsou ve stavu Rozpracováno mimo dosah",
+  "MetricEvolutionAccordionTitle": "Proces vývoje metrik"
+}

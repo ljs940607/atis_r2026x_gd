@@ -1,0 +1,13 @@
+m|VENHandlebars\Handlebars.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Handlebars\Handlebars.html|1723277869|3123
+s|VENHandlebars\Handlebars.mweb\src\Handlebars.html|1405950872|3123
+t|win_b64\webapps\Handlebars\Handlebars.js|1723277869|725
+s|VENHandlebars\Handlebars.mweb\src\Handlebars.js|1696587399|2076
+t|win_b64\webapps\Handlebars\assets\templates\entry2.html|1723277869|92
+s|VENHandlebars\Handlebars.mweb\src\assets\templates\entry2.html|1403884304|92
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

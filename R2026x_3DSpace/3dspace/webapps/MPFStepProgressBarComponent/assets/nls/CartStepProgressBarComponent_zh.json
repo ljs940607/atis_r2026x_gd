@@ -1,0 +1,21 @@
+{
+  "submitted": "已提交",
+  "waiting_payment": "已报价",
+  "paid": "已确认",
+  "processing": "正在处理",
+  "ready": "就绪",
+  "shipped": "已发货",
+  "delivered": "已交货",
+  "submittedInfo": "您的请求有来自服务提供商的未决回复和报价单。您仍然可以修改规格或发送消息。",
+  "waitingPaymentInfo": "您的请求已被服务提供商审核并接受。如果需要，您可以通过付款或发送消息并调整规格进行确认。",
+  "paidInfo": "您的订单已确认。服务提供商将开始处理。此时开始无法再更改规格。",
+  "processingInfo": "服务提供商开始处理您的订单。",
+  "shippedInfo": "服务代商已为您的订单发货。当您收到订单后，请确认交付。",
+  "readyInfo": "您的订单已被提货。当您收货时，请确认接收。",
+  "deliveredInfo": "该交易目前已关闭。",
+  "submittedInfo_seller": " 您的客户正在等待此请求的回复和报价单。您仍可以调整规格（材料、日期、精加工...）并回复消息。",
+  "waitingPaymentInfo_seller": "您已提出该请求的报价单。现在正在等待您的客户确认和支付。",
+  "paidInfo_seller": "您的订单已由客户确认。现在您可以开始处理。此时开始无法再更改规格。",
+  "processingInfo_seller": "您的客户已经收到通知：您已开始处理他们的订单。",
+  "shippedInfo_seller": "您已为客户的订单发货。在他们收货时会确认交付。"
+}

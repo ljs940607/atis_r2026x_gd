@@ -1,0 +1,11 @@
+@import "_globals";
+@import "variables.uikit"; // \\dsone\rnd\R424rel\BSF\WebUiAssets\ProtectedInterfaces\_variables.uikit.scss
+
+body.isInSearchODTMode {
+
+  // ER129377 - update tooltip z-index to prioritize contextual menu z-index visibility.
+  div.wux-controls-popup.wux-controls-tooltip {
+    z-index: 189;
+  }
+
+}

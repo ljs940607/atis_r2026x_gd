@@ -1,0 +1,107 @@
+.pimWebTreeListView .wux-tweakers-urlobject a {
+  color: inherit;
+}
+
+.pimWebTreeListView .wux-tweakers-urlobject a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pimWebTreeListView .r3mstatus {
+  width: 100%;
+  padding-left: 0;
+}
+
+.pimWebTreeListView .itftweaker {
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: normal;
+}
+
+.pimWebTreeListView .itfCellsPadding{
+  border-radius: 5px;
+  padding: 0.2em 10px 0.2em 10px;
+}
+
+
+.pimWebTreeListView .itfIssueStateCreate {
+  background-color: #9B2C98;
+}
+.pimWebTreeListView .itfIssueStateAssign {
+  background-color: #E03400;
+}
+.pimWebTreeListView .itfIssueStateActive {
+  background-color: #007DA3;
+}
+.pimWebTreeListView .itfIssueStateReview {
+  background-color: #018308;
+}
+.pimWebTreeListView .itfIssueStateClosed {
+  background-color: #757575;
+}
+
+.pimWebTreeListView .itfTaskStateCreate {
+    background-color: #9B2C98;
+}
+
+.pimWebTreeListView .itfTaskStateAssign {
+    background-color: #E03400;
+}
+
+.pimWebTreeListView .itfTaskStateActive {
+    background-color: #007DA3;
+}
+
+.pimWebTreeListView .itfTaskStateReview {
+    background-color: #018308;
+}
+
+.pimWebTreeListView .itfTaskStateCompleted {
+    background-color: #757575;
+}
+
+.pimWebTreeListView .itfIssuePriorityLow {
+  color: #477738;
+}
+.pimWebTreeListView .itfIssuePriorityMedium {
+  color: #E87B00;
+}
+.pimWebTreeListView .itfIssuePriorityHigh {
+  color: #EA4F37;
+}
+.pimWebTreeListView .itfIssuePriorityUrgent {
+  color: #990707;
+}
+
+
+.pimWebListWarningParent .alert-message {
+  margin: 1px auto;
+  padding: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  /* Help IE in computing container width */
+  flex: 1 0 auto;
+  word-break: break-word;
+  /* Hack for opacity bug see: http://stackoverflow.com/questions/15152470/chrome-rendering-issue-fixed-position-anchor-with-ul-in-body/15203880#15203880 */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+
+.pimWebListWarningParent .alert-warning {
+  border-left: 3px solid #E87B00;
+  background-color: #FFF3E9;
+}
+
+.pimWebListWarningParent .alert-warning .alert-has-icon .icon:before {
+  color: #E87B00;
+  content: '\e117';
+}
+
+.pimWebListWarningParent .alert-has-icon {
+  padding-left: 38px;
+}

@@ -1,0 +1,1 @@
+define("DS/MPFBusinessExperienceDevPlatform/MPFBusinessExperienceDevPlatform_en",{});define("DS/MPFBusinessExperienceDevPlatform/assets/nls/MPFBusinessExperienceDevPlatform",{errorDoNotUseEmail:"Please use you trigramme to create a new developement Platform"});

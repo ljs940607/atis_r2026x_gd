@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_pt-BR",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menu",addTab:"Adicionar guia",webAppsResizing:"O redimensionamento de aplicativos da Web só é persistente para os proprietários {type}",webAppsResizingProductCockpit:"O redimensionamento de aplicativos da Web não é persistente nesta cabine"});

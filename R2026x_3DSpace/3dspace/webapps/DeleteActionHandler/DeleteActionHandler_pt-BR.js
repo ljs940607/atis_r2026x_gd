@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_pt-BR",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Excluir",confirm:"Deseja excluir o(s) objeto(s) selecionado(s)? Isso é permanente e não pode ser desfeito."});

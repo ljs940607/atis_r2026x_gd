@@ -1,0 +1,1 @@
+define("DS/MPFExportOrdersComponent/MPFExportOrdersComponent_ru",{});define("DS/MPFExportOrdersComponent/assets/nls/ExportOrdersComponent",{exportOrders:"Экспорт заказов"});

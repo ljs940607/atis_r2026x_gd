@@ -1,0 +1,1167 @@
+.changable_LC, .ellipsis_LC, .ellipsis_MC, .ellipsis_POA_lang,
+	.ellipsis_POA_Country, .ellipsis_ArtworkUsage, .poaName, .comprisedPOALC{
+	cursor: pointer;
+}
+html{
+	overflow-x:hidden;
+}
+body{
+	height:100%;
+	color:white;
+}
+#selectAll{
+	float: right;
+    /* left: 90px; */
+    /* left:7px;
+    position: relative;
+    top: -15px; */
+    /* width: 120px; */
+    width: 25px;
+    margin-top:-16px;
+    margin-right:-10px;
+    cursor: pointer;
+}
+#selectElement{
+	float:left;
+	position:relative;
+	width:25px;
+	height: 45px;
+	cursor: pointer;
+}
+#selectAllLabel{
+	 float: right;
+    height: 12px;
+    /* position: relative;
+    top: -25px; */
+    margin-top:-15px;
+    margin-right:-5px;
+    clear:both;
+}
+#selectAllElementsLabel{
+	float: right;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+label{
+	disabled;
+}
+#selectAllWrapper{
+/* 	position:relative;
+	float : right;
+	width : 65px;
+	margin-top:-25px;
+	margin-right:8px; */
+	position: absolute;
+    	right: 8px;
+    	top: 16px;
+}
+#actionToolbarDiv {
+	width: 100%;
+
+	
+	
+}
+.separator{
+	height: 30px;
+    border-left: 1px solid #c3c3c3;
+	background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#workingPane {
+	height: 95%;  
+}
+
+#editTableDiv {
+	clear:both;
+	display:block;
+	height:94%;
+
+}
+
+#pageContent {
+	width: 100%;
+	position: relative;
+	height:100%; 
+	min-width: 985px;
+
+}
+
+#slideInDiv {
+	height: 87.7vh;
+	float: right;
+	overflow-x: auto;
+	overflow-y: auto;
+	position: fixed;
+    top: 83px;
+    right:0px;
+    background-color: #333;
+}
+
+#slideInFooter {
+	width: 100%;
+	bottom: 0;
+	padding: 5px;
+	background-color: #494949;
+	border: 1px solid slategrey;
+}
+
+#slideInContentTable {
+	width: 100%;
+	border-collapse: separate;
+	border: 1px solid slategrey;
+	height: 80vh;
+	table-layout: fixed;
+	background-color: #333;
+}
+
+.slideInTableHeader {
+	height: 5vh;
+	background-color: #333;
+	font-size: large;
+	color: white;
+}
+
+.slideInTableSubHeader {
+	height: 5vh;
+	font-size: large;
+}
+
+#slideInContentTableCommonAssemblyHeader {
+	background-color: #494949;
+}
+
+#slideInContentTableNonCommonAssemblyHeader {
+	background-color: #494949;
+}
+
+.remove-poa-slidein-content-row{
+	background-color:#494949;
+}
+
+.droppable {
+	height: 37vh;
+	overflow-y: scroll;
+	padding: 10px;
+	word-wrap: break-word;
+	line-height: 30px;
+}
+
+#slideInContentTableCommonAssemblyRow #slideInContentTableNonCommonAssemblyRow
+	{
+	width: 100%;
+	height: 37vh;
+}
+
+.draggable span {
+	border: 1px solid green;
+	padding: 2px 2px;
+	width: 300px;
+	border-radius: 3px;
+}
+
+.POAHeaderRow {
+	background: #368ec4;
+}
+
+.button-add {
+	background-image: url(../awl/images/add.png); /* 16px x 16px */
+	background-color: transparent; /* make the button transparent */
+	background-repeat: no-repeat;
+	/* make the background image appear only once */
+	background-position: 0px 0px; /* equivalent to 'top left' */
+	border: none; /* assuming we don't want any borders */
+	cursor: pointer;
+	/* make the cursor like hovering over an <a> element */
+	height: 16px; /* make this the size of your image */
+	padding-left: 16px; /* make text start to the right of the image */
+	vertical-align: middle; /* align the text vertically centered */
+}
+
+.artwork-master-type-cell {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	max-width: 200px;
+}
+
+.artwork-master-type-header {
+	/* width: 12%; RRR1*/ 
+}
+
+.edit-table-header {
+	background: #333;
+	background-clip:padding-box;
+	border: 1px solid #494949;
+    padding-left: 6px;
+}
+.non-editable-poa{
+	/* background:chocolate; */
+}
+.non-Editable-Icon-Container{
+	background-image: URL("../../common/images/iconActionDisableEdit.png");
+    height: 33px;
+    width: 31px;
+    position: absolute;
+    right: 3px;
+    bottom: 1px;
+}
+#editTable>tbody>tr>td{
+	border: 1px solid #494949;
+    padding-left: 6px;
+}
+
+
+.removeArtworkMasterIcon {
+	cursor: pointer;
+}
+
+.edit-table-header-remove-AM {
+	width: 20px;
+	vertical-align: bottom;
+	align: center;
+}
+
+.processing {
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 10000;
+}
+
+.POAHeaderCell, .selectable {
+	background-image: URL("../images/uncheck-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+	
+}
+
+.POAHeaderCell {
+	 background-position: 2px 1px;
+	 position:relative;
+}
+tr.selectable {
+	height: 36px;
+	margin-left: 36px;
+}
+
+.selectable>td { padding-left: 34px; }
+p.selectable { padding-left: 34px;  height: 36px;}
+
+.POAHeaderCell.POASelected, .selectable.selected {
+	background-image: URL("../images/check-pressed.png");
+}
+.artworkElementSelected{
+	background-image: URL("../images/check-pressed.png");
+}
+#selectAllElements{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.POAHeaderCell>.poaName {
+	position:absolute;
+	top: 0px;
+    	height: 40px;
+    	margin-left: 20px;
+  	overflow : hidden;
+  	white-space:nowrap;
+  	text-overflow:ellipsis;
+  	padding-right: 12px;
+}
+
+.POAHeaderCell span {
+	display: block;
+}
+
+ul.dynatree-container span.td {
+	position: fixed;
+	pointer-events: none;
+	text-align: justify;
+	font-kerning: normal;
+	text-rendering: optimizeLegibility;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dynatree-container span.structuredMaster {
+	pointer-events: none;
+	text-align: justify;
+	font-kerning: normal;
+	text-rendering: optimizeLegibility;
+	color: blueviolet;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 5px;
+}
+
+ul.dynatree-container span.td:nth-child(1) {
+	position: static;
+	pointer-events: none;
+}
+
+#addArtworkMasters {
+	height: 75vh;
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: auto;
+	padding: 5px;
+	background: #494949;
+	background-color: #494949;
+}
+.slideinCommands{
+	background-color:#494949;
+}
+
+ul.dynatree-container span.product {
+	font-size: 15px;
+	display: inline-block;
+	/* vertical-align: top; */
+	padding-left: 3px;
+	padding-right: 3px;
+	font-kerning: normal;
+	text-rendering: optimizeLegibility;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	color: #288FD1;
+	text-decoration: none;
+}
+
+#modifyAssemblyContentDiv {
+	height: 76vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 5px;
+	background-color:#494949;
+}
+
+.languageCheckBox {
+	width: 20px;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.languageCheckBoxLabel {
+	width: 200px;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* adjustment to accomodate ctx menu*/
+.elementtype  > p {
+	padding-left: 25px;
+	white-space: nowrap;
+}
+
+.instSeqData {
+	background-image: url("../images/InstanceSequence.png");
+	background-size : 18px;
+}
+
+.langSpan {
+	/*background-image: url("../../common/images/iconSmallLanguage.gif");*/
+	word-break: break-all;
+}
+
+.countryInfoSpan {
+	/*background-image: url("../../common/images/iconSmallCountry.gif");*/
+}
+
+.poaLabel {
+	/*background-image: url("../../common/images/I_AecRoof.png");*/
+
+	height:16px; 
+	padding-right:2px;
+	font-size:small;
+	font-weight:normal;
+	margin-top:50px;
+}
+
+.instSeqData {
+	background-image: url("../images/InstanceSequence.png");
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	padding-right:5px;
+	background-size : 18px;
+	display: inline-block;
+    margin-top: 3px;
+    color: white; 
+	/* float:left; */
+}
+
+.InlineTypeClass {
+	background-image: url("../images/AWLiconStatusInlineTranslation.png");
+}
+
+.NoTranslateClass {
+	background-image: url("../images/AWLiconStatusNoTranslation.png");
+}
+
+.BuildFromListClass {
+	background-image: url("../../common/images/BuildFromList.png");
+}
+
+
+
+/************** MCL Context Menu ***********************/
+.ctxmenu {
+	float: left;
+	display: inline;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url("../../common/images/iconActionActions.png");
+	background-repeat: no-repeat;
+	min-height: 32px;
+}
+
+.copyListRemove {
+	float: left;
+	display: inline;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url("../../common/images/iconActionRemove.png");
+	background-repeat: no-repeat;
+	min-height: 32px;
+	cursor:pointer;
+
+}
+.ctxmenu .menu {
+	padding: 0;
+	position: absolute;
+	list-style: none;
+	margin: 32px 0;
+	font-size: 14px;
+	background-color: #494949;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+	background-clip: padding-box;
+	
+	padding: 4px 0 4px 0;;
+}
+
+.ctxmenu .menuitem {
+	border-bottom-color: #F0F0F0;
+	line-height: 35px;
+	padding: 3px 40px;
+	border-bottom: 1px solid #F0F0F0;
+	border-top: 1px solid transparent;
+	cursor: pointer;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+}
+
+.ctxmenu .menuitem:hover {
+	background-color: #F5F5F5;
+}
+
+.ctxmenu .menu {
+	display: none;
+}
+.editNote{
+	background: url("../../common/images/iconSmallCostNoteCategory.png") no-repeat 6px ;
+	background-color: transparent;
+}
+.editInstanceSequence{
+	background: url("../../common/images/InstanceSequence.png") no-repeat 6px ;
+}
+.removeArtworkMaster{
+	background: url("../../common/images/iconActionRemove.png") no-repeat 6px ;
+}
+.createMasterCopyElement{
+	background: url("../../common/images/AddNewMaserCopyElement.png") no-repeat 6px !important;
+}
+.defineMandatoryElements{
+	background: url("../images/iconActionDefineMandatory.png") no-repeat 6px !important;
+}
+.connectComprisedPOA{
+	background: url("../../awl/images/iconActionConnectPOA.png") no-repeat 6px !important;
+}
+.disconnectComprisedPOA{
+	background: url("../../awl/images/iconActionDisconnectPOA.png") no-repeat 6px !important;
+}
+.addElementFromComprisedPOA{
+	background: url("../../awl/images/iconAddArtworkElementsFromPOA.png") no-repeat 6px !important;
+}
+.createGraphicElement{
+	background: url("../../common/images/AddNewGraphicElement.png") no-repeat 6px !important;
+}
+.create-poa-form-command{
+	background: url("../../common/images/iconActionCopy.png") no-repeat 6px !important;
+}
+.removeCopyList{
+	background: url("../../awl/images/RemoveCopyListfromView.png") no-repeat 6px !important;
+}
+.removePOA{
+	background: url("../../awl/images/RemoveCopyListfromView.png") no-repeat 6px !important;
+}
+.addPOA{
+	background: url("../../awl/images/AddCopyListToView.png") no-repeat 6px !important;
+}
+.addCopyList{
+	background: url("../../awl/images/AddCopyListToView.png") no-repeat 6px !important;
+}
+.export{
+	background: url("../../awl/images/AddCopyListToView.png") no-repeat 6px !important;
+}
+.poa-edit-toolbar{
+	height : 36px;
+	width : 45px;
+	min-width: 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	background-color: transparent;
+	/*padding : 10px 40px;*/
+}
+.add-masters-toolbar{
+	height : 36px;
+	width : 40px;
+	min-width: 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.modifyAssemlyElement{
+	background:url("../../common/images/AddRemoveLocalCopy.png") no-repeat 6px !important;
+}
+.createNew{
+	background:url("../../common/images/iconActionCreate.png") no-repeat 6px !important;
+}
+.addArtworkMaster {
+	background: url("../../common/images/AddArtworkElement.png") no-repeat 6px !important;
+}
+.progress{
+	background: url("../../common/images/utilProgressBlue.gif") no-repeat 6px !important;
+}
+.manageCountryLanguages{
+	background: url("../../common/images/ModifyCountryLanguage.png") no-repeat 6px !important;
+}
+.removeRow{
+	background: url("../../common/images/iconActionRemove.png") no-repeat 6px !important;
+}
+.searchtag{
+	background: url("../../common/images/iconActionFilter.png") no-repeat 6px !important;
+}
+.clear{
+	/*background: url("../../common/images/iconActionReset.png") no-repeat 6px !important;*/
+	background: url("../../common/images/iconActionIMDSResetClearForUpdate.png") no-repeat 6px !important;
+}
+.refreshAssembly{
+	background: url("../../common/images/iconActionRefresh.png") no-repeat 6px !important;
+}
+.copy{
+	background: url("../../common/images/iconActionCopy.png") no-repeat 6px !important;
+}
+#btnCollapseAll{
+	background: url("../../common/images/CollapseAllElements.png") no-repeat 1px !important;
+	
+}
+.nopadding{
+	padding: 0;
+}
+#btnexpandAll{
+	background: url("../../common/images/ExpandAllElements.png") no-repeat 1px !important;
+}
+
+#closeSlideIn{
+	background: url("../../common/images/iconActionCancel.png") no-repeat 3px !important;
+}
+
+.success{
+	background-color: grey !important;
+}
+
+.tree-action-bar{
+	float:right;
+	padding:10px;
+	border-color: #b4b6ba;
+	cursor:pointer;
+	min-height:5vh;
+}
+#poaLangTable #poaCountryTable{
+    min-width: 100%;
+}
+#menudiv{
+	float : left;
+}
+.notes-icon{
+    background-image: url("../../common/images/iconSmallCostNoteCategory.png") !important;
+}
+
+.removeConnectedPOA{
+	cursor: pointer;
+	height : 35px;
+	width : 35px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*padding : 10px 40px;*/
+}
+.removeConnectedPOARow{
+	height: 2vh;	
+}
+
+#poaSlideinTable{
+	border: 1px solid black;
+    border-collapse: separate;
+    height: 100vh;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.slidein-sub-header > td {
+	background-color: #494949;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    color: white;
+    font-size: 16px;
+    height: 20px;
+    padding-left: 5px;
+}
+.removeConnectedPOA{
+	padding:2px;
+}
+.slidein-poa-row  > td{
+	border-bottom:1px solid black;
+}
+
+.remove-slidein-poa-span{
+	border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+	
+}
+.remove-slidein-poa-description{
+	float: left;
+    height: 100%;
+    width: 60%;
+}
+.remove-slidein-poa-name{
+	float:left;
+	width:40%;
+}
+.remove-poa-slidein-content-cell{
+	vertical-align:top;
+}
+.comprisedArtworks-icon {
+    background-image: url("../images/iconActionConnectPOA.png") !important;  
+}
+.copylist-icon {
+     background-image: url("../../common/images/typecopyList.png") !important;
+}
+.comprisedArtworks-icon, .copylist-icon, .notes-icon, .notes-icon-edit {
+    background-attachment: scroll !important;
+    background-clip: border-box !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-origin: padding-box !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+    background-size: 18px auto;
+    float: left;
+    height: 16px;
+    width: 16px;
+    padding-right: 5px;
+    padding-left: 18px;
+}
+
+.LanguageDialogue-overflow {
+	overflow: hidden;	
+ }
+ 
+ 
+ #editTable{
+ overflow:hidden;
+ padding:25px;
+ table-layout:fixed;
+  width:100%;
+ height:100%; 
+ }
+ 
+ #editTable tbody{
+ position:fixed;
+ display:block;
+ overflow:auto;
+ width:100%;
+ height:82%;
+ background-color: #494949;
+ /* 
+ min-height:516px;
+ max-height: 84%; */
+
+ }
+ #editTable thead{
+ display:block;
+ position:relative;
+ overflow:visible;
+ width:100%;
+/*  height: 9.2%; */
+ padding-right: 16px;
+ min-height: 103px; 
+ }
+.edit-table-header.content-cell-header{
+	position:relative;
+ }
+ .element-type-cell{
+ background:#494949;  
+height:71px;
+z-index:99;
+padding:5px;
+vertical-align:middle;
+word-break:break-all;
+overflow: hidden;
+color:white;
+}
+ /* #editTable>tbody>tr:nth-child(even),#editTable>tbody>tr>td.element-type-cell:nth-child(even){
+ background:floralwhite;
+ } */
+.POAHeaderCell,.cell-selectable{
+	width:250px;
+	min-width:250px;
+	position:relative;
+}
+
+.element-type-header,.element-type-cell{
+	width:370px;
+	min-width:200px;
+	max-width:370px;
+	
+}
+.element-type-header{
+	height:103px;
+	z-index:99;
+    text-align: center;
+    padding-top: 30px;
+}
+.up{
+	background-image: URL("../images/bullet_triangle_up.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+}
+.down{
+	background-image: URL("../images/bullet_triangle_down.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+}
+.diamond{
+	background-image: URL("../../common/images/iconBigDiamondYellow.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+}
+.sortByIcon{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 14px;
+    margin-bottom: -8px;
+    background-size: 15px 15px;
+    cursor: pointer;
+}
+.artwork-master-type-header>span{
+	cursor:pointer;
+}
+#sortingOrderIcon{
+	height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: -8px;
+    cursor: pointer;
+}
+.sortBySequenceOrder{
+	height: 33px;
+    width: 21px;
+    cursor: pointer;
+   	float:right;
+   	background-position: center center;
+/*     position : absolute;
+    bottom : 0px;
+    right : 24px; */
+}
+.non-Editable-Icon{
+	background-image: URL("../../common/images/iconActionDisableEdit.png");
+	background-position: -7px -2px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    height: 33px;
+    width: 24px;
+    float:right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.poa-header-icons-container{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	margin-right: 2px;
+}
+#sortOptionsContainer{
+	right: 0px;
+	bottom:3px;
+    position: absolute;
+}
+#selectAllElementsWrapper{
+	position: absolute;
+    left: 5px;
+    bottom: 0px;
+    display: inline-block;
+}
+
+
+.display-name-header,.display-name-cell{
+	width:150px;
+	min-width:150px;
+	max-width:150px;
+	color:white;
+	background:#333;
+/* 	overflow:hidden; */
+}
+.display-name-cell{
+	vertical-align:top;
+	background:#494949;
+}
+.cell-selectable{
+	vertical-align:top;
+	background:#494949;
+}
+.content-cell{
+	vertical-align:top;
+	word-break: break-all; /* fix for Content overflow */
+	color:white;
+	background:#494949;
+}
+.flag-cell-header,.flag-cell{
+	width:50px;
+	min-width:50px;
+	max-width:50px;
+}
+
+.content-cell-header,.content-cell{
+	width:250px;
+	min-width:250px;
+	max-width:250px;
+} 
+
+#editTable thead th:nth-child(1){
+	display:block;
+	position:relative;	
+	
+} 
+#editTable tbody tr td:nth-child(1) {  /*the first cell in each tr*/
+  position: relative;
+  display: block; /*seperates the first column from the tbody*/
+}
+#commandsDiv{
+    height: 52px;
+    padding: 7px;
+    background-color: #494949;
+    border-bottom: 3px solid slategrey;
+}
+ 
+ /* #editTable{
+	position:relative;
+	overflow: hidden;
+	width:900px;
+}
+#editTable thead{
+	  position: relative;
+  	  display: block; 
+      overflow: visible;
+      width:900px;
+}
+#editTable tbody{
+		position: relative;
+  	  display: block; 
+      overflow: scroll;
+      width:900px;
+}
+#editTable thead th:nth-child(1){
+	  position: relative;
+  	  display: block; 
+}
+#editTable tbody tr td:nth-child(1){
+	  position: relative;
+  	  display: block; 
+}  */
+#filterContainer{
+	position:relative;
+	float:right;
+	height:35px;
+	width: 260px;
+}
+#filterLabel{
+	position: absolute;
+    top: -2px;
+    right: 39px;
+    color: white;
+    font-size: smaller;
+  
+}
+.filterBox{
+	position:absolute;
+	bottom:0px;
+	/* color: white; */
+    width: 150px;
+    margin: 4px;
+    font-weight: normal;
+    background: white;
+   /*  background-color:#606e87; */
+}
+	
+#filterSelection{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+    width: 88px;
+    font-size: 8px;
+    font-weight: normal;
+    font-size: smaller;
+    color: grey;
+    /* color:white; */
+}
+#headerBlock{
+	position:relative;
+	top:0;
+	left:0;
+	 height:35px; 
+	/* height:4%; */
+	width: 100%;
+	background-color: #494949;
+	color:white;
+	font-size: x-large;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+#headerLabel{
+	padding:7px;
+	margin:0px;
+}
+#footerBlock{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #6e6e6e;
+    background: #f0f0f0;
+    border-top: 1px solid #e6e7e8;
+    padding: 1px;
+    height: 44px;
+}
+.footerButton{
+	float:right;
+	margin:4px;
+	height:32px;
+	padding:1px;
+	width: 80px;
+	background-color: #E6E8EA;
+    color: #5B5D5E;
+    border: 1px solid #b4b6ba;
+}
+/* #editTable>tbody tr:nth-child(even),#editTable>tbody tr:nth-child(even)>td.elementtype{
+	background-color:#ecf2f9;
+	
+}
+ */
+#addArtworkMasterFilter {
+    position: absolute;
+    height: 27px;
+    width: 150px;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-weight: normal;
+    background: white;
+    right: 208px;
+    color: grey;
+}
+.empty-artworkelement-cell{
+	background-color:#c7d7e2;
+	background-clip: padding-box;
+}
+
+::-ms-clear { display: none; }
+/************** POA Sequencing Starts ***********************/
+.seqNumberContainer{
+ 	
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.notes-icon {
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.seqNumberInputBox{
+	 width: 29px; 
+	 height : 19px;
+	 border-color : lightgray ;
+	 color: grey;
+}
+
+#resequenceElements{
+	background: url("../../awl/images/I_MfgAutoSequence_1.png") no-repeat 6px !important;
+}
+#saveSequenceNumber{
+	background: url("../../common/images/iconActionSave.png") no-repeat 6px !important;
+}
+
+.invalid-sequence-number{
+	border-color : red;
+}
+
+.instance-lang-container{
+    bottom: 62px;
+    position: absolute;
+}
+/************** POA Sequencing Ends ***********************/
+
+#switchAddMasterView {
+     position: absolute;
+    right: 64px;
+}
+
+.switchViewDiv{
+	float: right;
+}
+
+.progressClass{
+	background: url("../../common/images/iconParamProgress.gif") no-repeat 6px !important;
+}
+
+.addSelectedElements{
+	background: url("../../awl/images/plusicon.png") no-repeat 0px !important;
+}
+.notes-icon-edit{
+    background-image: url("../../common/images/iconActionEdit.png") !important;
+	float: right;
+}
+
+.sequence-number-modified {
+	background-color:yellow;
+}
+
+.ellipsis_LC{
+	display:block;
+	margin-top:3px;
+	color: white;
+}
+
+.ui-tooltip .ui-tooltip-content::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.empty-dynatree-container {
+	font-weight: bold;
+}
+.awl-alertcontiner {
+	width: 40%;
+	top: -100px;
+	float: right;
+}
+
+.editStructuredElement {
+	content: url("../../common/images/AWLStructureCopy.png");
+	cursor: pointer;
+}
+/************** MCL Context Menu ends ***********************/
+
+ul.dynatree-container {
+	background-color: #494949;
+    font-family: tahoma, arial, helvetica;
+    font-size: 10pt;
+    white-space: nowrap;
+    padding: 3px;
+    margin: 0;
+/*     border: 1px dotted gray; */
+    overflow: auto;
+    height: 100%;
+}
+ul.dynatree-container li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-repeat: repeat-y;
+    background-image: url(../images/vline.gif);
+    background-position: 0 0;
+    margin: 0;
+    padding: 1px 0 0 0;
+    color: white;
+}
+
+ul.dynatree-container a {
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+    margin: 0px;
+    margin-left: 3px;
+    margin-right: 15px;
+}
+a.dynatree-title.ellipsis_MC:HOVER{
+	background-color: #333;
+}
+
+#addExistingElem{
+	background: url(../../common/images/AddMaserCopyElement.png) no-repeat 6px !important;
+}
+
+
+#editTable tbody tr:nth-last-child(1){
+	height: 115px !important;	
+} 
+
+#footerButtons{
+    background: #333;;
+    border-color: darkgray;
+}
+#editTable tfoot{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+    padding: 5px 35px 5px;
+    background: #333;
+    z-index: 1;
+    text-align: -webkit-right;
+}
+#footerToolbar{
+    position: fixed;
+    bottom: 2px;
+    right: 11px;
+}

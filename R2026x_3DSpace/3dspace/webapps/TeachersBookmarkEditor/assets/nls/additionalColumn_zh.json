@@ -1,0 +1,12 @@
+{
+  "column_Visibility": "可见性",
+  "isVisible": "学生可见",
+  "isHidden": "学生不可见",
+  "progressMultiple": "正在修改具有 {objectsAdded} 个项目的 {targetfolder} 的可见性。",
+  "progressSingle": "正在修改 {targetfolder} 的可见性 ",
+  "msgSuccess": "已成功修改 {itemCount} 个项目的可见性。",
+  "msgError": "修改 {itemCount} 个项目的可见性失败。",
+  "msgMultipleSuccess": "已成功修改 {itemCount} 个项目的可见性。",
+  "msgMultipleError": "修改 {itemCount} 个项目的可见性失败。",
+  "msgMaturityError": "由于修改项目成熟度失败，可见性修改失败。"
+}

@@ -1,0 +1,161 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20240312.5"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        4.371139E-08
+      ],
+      "name": "vr_tracker_vive_3_0"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "vr_tracker_vive_3_0"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 10659,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2581,
+      "max": [
+        0.0432620049,
+        0.0456670038,
+        0.009049
+      ],
+      "min": [
+        -0.0432630032,
+        -0.032633,
+        -0.0394440033
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30972,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2581,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21320,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21320,
+      "byteLength": 61944,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 83264,
+      "byteLength": 20648,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tracker_HTCViveTracker3.0.bin",
+      "byteLength": 103912
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "ViveTracker3_"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "tracker_HTCViveTracker3.0_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "tracker_HTCViveTracker3.0_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "tracker_HTCViveTracker3.0_Roughness0.png"
+    }
+  ],
+  "images": [
+    {
+      "uri": "tracker_HTCViveTracker3.0_Normal.png"
+    },
+    {
+      "uri": "tracker_HTCViveTracker3.0_BaseColor.png"
+    },
+    {
+      "uri": "tracker_HTCViveTracker3.0_Roughness0.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}

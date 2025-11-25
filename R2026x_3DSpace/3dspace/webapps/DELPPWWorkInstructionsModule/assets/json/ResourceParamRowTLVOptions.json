@@ -1,0 +1,128 @@
+{
+    "DELResourceParameterRow": {
+        "columnConfig": {
+            "Columns": {
+                "Column": [
+                    {
+                        "dataIndex": "V_RPPTitle",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPLName",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMagnitude",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "typeRepresentation": "url",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPDescription",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "NonEditable",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_PossibleValues",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_MinValue_disp",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_MaxValue_disp",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "minWidth": "100"
+                    }
+                ]
+            }
+        },
+        "dragDropManager": "WUXResourceParameterRowDragDrop",
+        "dataGridViewOptions": {
+            "showRowIndexFlag": true,
+            "showSelectionCheckBoxesFlag": "OnOver",
+            "enableDragAndDrop": true,
+            "showTagger": false,
+            "isEditable": false
+        },
+        "toolbarOptions" :{
+        "entries" :[
+            {
+            "id": "set",
+            "dataElements": {
+                "category": "mode",
+                "typeRepresentation": "radio",
+                "value": true,
+                "readOnly": false,
+                "tooltip":{
+                    "title":"SET"
+                 },
+                "position": "near"
+            }
+            },
+            {
+                "id": "get",
+                "dataElements": {
+                    "category": "mode",
+                    "typeRepresentation": "radio",
+                    "value": false,
+                    "readOnly": false,
+                    "tooltip":{
+                        "title":"GET"
+                     },
+                    "position": "near"
+                }
+            },
+            {
+                "id": "resource",
+                "dataElements": {
+                    "category": "resource",
+                    "displayLabel": true,
+                    "typeRepresentation": "enumResourceList",
+                    "readOnly": false,
+                    "position": "near"
+                }
+            },
+            {
+                "id": "RPPPreference",
+                "disabled": true,
+                "dataElements": {
+                "value" : false,
+                "category": "Preference",
+                "displayLabel": true,
+                "typeRepresentation": "boolean",
+                "position": "far"
+                }
+            }
+            ],
+            "typeRepresentations" : {
+                "enumMode" : {
+                    "semantics" :{
+                        "possibleValues" : ["SET" , "GET"]
+                    },
+                    "stdTemplate": "radio"
+                },
+                "enumResourceList": {
+                    "semantics": {
+                        "possibleValues": [],
+                        "valueType": "enumValueToProperty"
+                    },
+                    "stdTemplate": "enumCombo"
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_zh",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"未找到识别，请新建识别并在此处访问它",addWBReco:"启动白板识别"});

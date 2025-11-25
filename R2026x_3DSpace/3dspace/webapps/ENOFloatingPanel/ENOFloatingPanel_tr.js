@@ -1,0 +1,1 @@
+define("DS/ENOFloatingPanel/ENOFloatingPanel_tr",{});define("DS/ENOFloatingPanel/assets/nls/ENOFloatingPanel",{EFP_ClosePanel:"Kapat",EFP_MaximizePanel:"Büyüt",EFP_RestorePanel:"Geri Yükle",EFP_PinWidget:"Pencere öğesini sabitle",EFP_Settings:"Ayarlar"});

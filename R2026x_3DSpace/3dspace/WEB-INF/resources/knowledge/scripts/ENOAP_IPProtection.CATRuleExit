@@ -1,0 +1,11 @@
+<Scripts>
+  <!--Providing default policy and usable policy setup for the consistent set of types of modeler package IPProtection-->
+  <!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="Export Control Library" ScriptName="ENOAP_PolicyChooser_Export_Control_Library" />
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="IP Protection Library" ScriptName="ENOAP_PolicyChooser_Export_Control_Library" />
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="Export Control Class" ScriptName="ENOAP_PolicyChooser_Export_Control_Classification" />
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="IP Control Class" ScriptName="ENOAP_PolicyChooser_Export_Control_Classification" />
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="Security Control Class" ScriptName="ENOAP_PolicyChooser_Export_Control_Classification" />
+  <Script OpeningID="INFRAAuthorizedPolicies" Type="Security Rule" ScriptName="ENOAP_PolicyChooser_Security_Rule" />
+</Scripts>
+

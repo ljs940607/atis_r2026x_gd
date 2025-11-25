@@ -1,0 +1,10 @@
+m|DELPPWModules\DELPPWInsertCmdPLMNewModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25196|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWInsertCmdPLMNewModule\DELPPWInsertCmdPLMNewModule.js|1752611924|11577
+s|DELPPWModules\DELPPWInsertCmdPLMNewModule.mweb\src\InsertCmdPLMNewModule.js|1751964253|32290
+u|DELPPWModules\DELPPWInsertCmdPLMNewModule.mweb\src\InsertPLMNewCommand.js|1750436497|6772
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

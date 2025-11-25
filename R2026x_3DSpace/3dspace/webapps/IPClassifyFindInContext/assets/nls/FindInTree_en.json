@@ -1,0 +1,24 @@
+{
+    "placeholder_findInTree": "Find in",
+    
+    "toolTip":"Find in tree",
+    
+    "loader": {
+        "retrievingPaths": "Retrieving Paths...",
+        "formulatingPaths": "Formulating Paths..."
+    },
+
+    "msg_warning_TreeTagger_ClosingThefind": {
+        "Title": "Find in tree cannot be done.",
+        "Details": "Closing find in tree, as 6W tag filter is applied on tree while find in tree was still in progress."
+    },
+
+    "msg_info_limit_FindInTree": {
+        "title": "Maximum number of results reached.",
+        "subtitle": "Refine the search criteria and try again.",
+        "message": "The number of results is limited to 100."
+    },
+    "msg_info_searchCompleted": "Search is completed.",
+    "msg_info_No_Occurrence": "No occurrences of the objects(s) have been found."
+}
+

@@ -1,0 +1,233 @@
+{
+    "padsettings": {
+        "enopad": {
+            "run_options": {
+                "filtered-content": {
+                    "value": false,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "folder_pref_filter"
+                    },
+                    "dispatch": true
+                },
+                "allow-products-expand": {
+                    "value": false,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "folder_pref_allow_products_expand"
+                    },
+                    "dispatch": true
+                },
+                "show-sub-folders": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "folder_pref_subfolder"
+                    },
+                    "dispatch": true
+                },
+                "activateBIFilter": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "folder_pref_populateTags"
+                    },
+                    "dispatch": true
+                },
+                "useIndexAccleration": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "useIndexAcceleration_label"
+                    },
+                    "dispatch": true
+                },
+                "autoSwitch": {
+                    "value": "3",
+                    "preference": {
+                        "type": "list",
+                        "label": "folder_pref_autoSwitch_Label",
+                        "options": [{
+                            "value": "Never",
+                            "label": "Never_Label"
+                        },{
+                            "value": "1",
+                            "label": "oneMin_Label"
+                        }, {
+                            "value": "3",
+                            "label": "threeMin_Label"
+                        },
+                        {
+                            "value": "5",
+                            "label": "fiveMin_Label"
+                        },
+                        {
+                            "value": "10",
+                            "label": "tenMin_Label"
+                        }]
+                    },
+                    "dispatch": true
+                },
+                "activateTXO": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate customization for column"
+                    }
+                },
+                "activateDGV": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate DataGridView"
+
+                    }
+                },
+                "maxPathsForSearch": {
+                    "value": "300"
+                },
+                "ups_authorized_root_types": {
+                    "value": [
+                    "VPMReference",
+                    "VPMRepReference",
+                    "Change Action",
+                    "ENOStrRefinementSpecification"
+                ]
+                },
+                "dec_authorized_root_types": {
+                    "value": ["MCAD Assembly", "MCAD Component", "CATDrawing"]
+                },
+                "authorized_root_types": {
+                    "value": [
+                    "MCAD Assembly",
+                    "MCAD Component",
+                    "CATDrawing",
+                    "VPMReference",
+                    "VPMRepReference",
+                    "Change Action",
+                    "ENOStrRefinementSpecification"
+                ]
+                },
+                "type_kind": {
+                    "value": {
+                        "Product": ["VPMReference", "VPMRepReference"],
+                        "Filter": ["ENOStrRefinementSpecification"],
+                        "Change": ["Change Action"]
+                    }
+                },
+                "unsupported_root_types": {
+                    "value": ["CATAnalysisResults", "CATAnalysisComputations"]
+                },
+                "supported_root_types": {
+                    "value": [
+                    "MCAD Assembly",
+                    "MCAD Component",
+                    "CATDrawing",
+                    "VPMReference",
+                    "VPMRepReference",
+                    "Change Action",
+                    "ENOStrRefinementSpecification"
+                ]
+                },
+                "authorized_types": {
+                    "value": [
+                    "CATProduct",
+                    "CATPart",
+                    "CATDrawing",
+                    "CATAnalysis",
+                    "CATProcess",
+                    "CATIA Embedded Component",
+                    "CATIA CGR",
+                    "CATShape",
+                    "CATIA V4 Model",
+                    "CATIA Design Table",
+                    "Physical Product",
+                    "VPMReference",
+                    "VPMRepReference",
+                    "3DShape",
+                    "SW Assembly Instance",
+                    "SW Component Instance"
+                ]
+                },
+                "dynamic_authorized_types": {
+                    "value": true
+                }
+            },
+            "debug_options": {
+                "enableExportInPanel": true,
+                "expandSaveLimitation": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Limite expand size saved"
+                    }
+                },
+                "add_objects_when_select": {
+                    "value": false
+                },
+                "activate_padprobes": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate PADProbes"
+                    }
+                },
+                "activateDerivedOutputs": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate properties side panel container"
+                    }
+                },
+                "activateOpenWith18xFD01": {
+                    "value": false,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Open with CATIA V5 - 3DEXPERIENCER2018xFD01"
+                    }
+                },
+                "globalTypeFiltering": {
+                    "value": true
+                },
+                "resetCustomization": {
+                    "value": false,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Reset customization from server"
+                    }
+                },
+                "compactModeForLeftSidebar": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "active compact mode for left sidebar"
+                    }
+                },
+                "readsettingsv2": {
+                    "value": true
+                },
+                "activateFUN085903": {
+                    "value": true,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "Activate Hide the Terminal representation (FUN085903)"
+                    }
+                },
+                "ExpandSynthesisON": {
+                    "value": false,
+                    "preference": {
+                        "type": "boolean",
+                        "label": "FUN086708 - Activate Expand Synthesis"
+                    }
+                },
+                "Activate_relationsColumns": {
+                    "value": false
+                }
+            }            
+        }
+    },
+    "view_settings": {
+        "sortPersistence": true
+    }
+}
+

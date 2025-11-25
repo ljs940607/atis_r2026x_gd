@@ -1,0 +1,1 @@
+define("DS/CAT3DPlayMUCScenario/CAT3DPlayMUCScenario_de",{});define("DS/CAT3DPlayMUCScenario/assets/nls/CAT3DPlayMUCRegister",{MUC_Title:"Unter Bedingungen verschieben",MUC_Description:"Unter Bedingungen verschieben"});

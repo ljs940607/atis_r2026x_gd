@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xsd:element name="NutritionFactsConfiguration" type="NutritionFactsConfigurationType"/>
+	<xsd:complexType name="NutritionFactsConfigurationType">
+		<xsd:sequence>
+			<xsd:element name="NutritionFactsElement" type="NutritionFactsElementType" minOccurs="2" maxOccurs="2"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="NutritionFactsElementType">
+		<xsd:sequence>
+			<xsd:element name="Element" type="ElementType" maxOccurs="4999"/>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="NutritionFactsElementAttributeType" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="LabelType">
+		<xsd:attribute name="locale" type="LocaleType" use="required"/>
+		<xsd:attribute name="value" type="StringType" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="ElementType">
+		<xsd:sequence>
+			<xsd:element name="Label" type="LabelType" maxOccurs="7"/>
+		</xsd:sequence>
+		<xsd:attribute name="attr_range" type="StringType" use="required"/>
+		<xsd:attribute name="GS1Key" type="StringType" use="required"/>
+	</xsd:complexType>
+	<xsd:simpleType name="NutritionFactsElementAttributeType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="type_VitaminCodesMasterCopy"/>
+			<xsd:enumeration value="type_NutrientCodesMasterCopy"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="LocaleType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="en"/>
+			<xsd:enumeration value="fr"/>
+			<xsd:enumeration value="de"/>
+			<xsd:enumeration value="es"/>
+			<xsd:enumeration value="it"/>
+			<xsd:enumeration value="ja"/>
+			<xsd:enumeration value="zh"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="StringType">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="80"/>
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

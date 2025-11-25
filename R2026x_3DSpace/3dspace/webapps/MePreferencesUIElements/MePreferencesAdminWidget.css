@@ -1,0 +1,66 @@
+.preferences-tab-div {
+    display: block;
+    width: 100%;
+    height: calc(100% - 120px);
+    position: absolute;
+    top: 120px;
+}
+
+.collection-view-div {
+    width: 100%;
+    position: absolute;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-flow: "row";
+   /* padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;*/
+    justify-content: flex-end;
+    height: 25px;
+    gap:  8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tab-content-div {
+    height: calc(100% - 146px);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.category-content-div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.widget-content-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.resetDialogContentDiv {
+    display: flex;
+}
+
+.resetMessageSpan {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.me-preference-main-view-admin {
+    height: calc(100% - 45px);
+    width: 100%;
+}
+
+.saveButtonDiv {
+    display: block;
+}
+

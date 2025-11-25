@@ -1,0 +1,17 @@
+m|WebInfra\3DPlayWAFRMigration.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.0.25223|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DPlayWAFRMigration\3DPlayWAFRMigration.js|1754944895|12800
+s|WebInfra\3DPlayWAFRMigration.mweb\src\3DPlayCommandsTools.js|1741704453|325
+u|WebInfra\3DPlayWAFRMigration.mweb\src\Command.js|1753212966|1369
+u|WebInfra\3DPlayWAFRMigration.mweb\src\CommandBase.js|1753270178|1867
+u|WebInfra\3DPlayWAFRMigration.mweb\src\CommandCheckHeader.js|1753180048|995
+u|WebInfra\3DPlayWAFRMigration.mweb\src\CommandEvent.js|1741244787|246
+u|WebInfra\3DPlayWAFRMigration.mweb\src\CommandsManager.js|1753270562|8953
+u|WebInfra\3DPlayWAFRMigration.mweb\src\Framewindow.js|1752900446|1763
+u|WebInfra\3DPlayWAFRMigration.mweb\src\WAFR2Utils.js|1753183548|2270
+u|WebInfra\3DPlayWAFRMigration.mweb\src\commandEnabler.js|1750773879|2804
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

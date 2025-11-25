@@ -1,0 +1,1 @@
+define("DS/CATAssemblyMUCCommand/CATAssemblyMUCCommand_ja",{});define("DS/CATAssemblyMUCCommand/assets/nls/CAT3DPlayMUCSplash",{MUC_SPLASH_LABEL:"エレメントを移動して 3D と相互作用します"});

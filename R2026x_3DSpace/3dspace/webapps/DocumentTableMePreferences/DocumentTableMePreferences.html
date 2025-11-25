@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+      <!-- Application Metas -->
+      <title>Document Management Grid Customization</title>
+      <meta name="author" content="Dassault Systèmes" />
+      <meta name="brand" content="ENOVIA" />
+      <meta name="autoRefresh" content="0" />
+      <meta name="description" content="ENOVIA Document management Grid Customization" />
+      <link rel="stylesheet" type="text/css" href="../Core/wux.css" />
+      <!-- <link rel="stylesheet" type="text/css" href="../DocmTableMePreferences.css" /> -->
+      <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+      <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+      <script type="text/javascript">
+            var iframeContentWindow = null;
+            var mepOrigin = null;
+            var defaultJSON = null;
+            var docmMePrefView = null;
+            window.addEventListener('message', function(e) {
+                  var data = e.data;
+                  var eventName = "";
+                  if (data && data.message) eventName = data.message;
+                  // var data = {}
+                  // data.compassConfig = {
+                  //       "lang": "en",
+                  //       "myAppsBaseUrl": "https://vdevpril0282plp.dsone.3ds.com/3DSpace",
+                  //       "userId": "VPLMAdminUser"
+                  // }
+                  // data.tenantID = "OnPremise"
+                  if (eventName == "com.ds.mep:CustomDialogReady_msg" ) {
+                        iframeContentWindow = e.source;
+                        mepOrigin = e.origin;
+                        defaultJSON = data.jsonData;
+                        let tenantID = data.tenantID;
+                        let lockState = data.lockState;
+                        let compassConfig = data.compassConfig;
+                        let urlParams = new URLSearchParams(location.search);
+                        require.config({
+                              locale: compassConfig.lang
+                        });
+
+                        require(['DS/DocumentTableMePreferences/DocumentTableMePreferences'], function(DocumentTableMePreference) {
+                              'use strict';
+                              docmMePrefView = new DocumentTableMePreference({
+                                    appId: 'ENXWDOC',
+                                    localWindow: window,
+                                    frameCntWindow: iframeContentWindow,
+                                    mepOrigin: mepOrigin,
+                                    defaultJSON: JSON.parse(defaultJSON),
+                                    targetId: 'enox-docm-tableMePreferences',
+                                    tenantID: tenantID,
+                                    lockState: lockState,
+                                    compassConfig: compassConfig,
+                                    prefName:urlParams.get("prefName")
+                              });
+                              docmMePrefView.initialize();
+                        });
+                  }
+            });
+      //       require(['DS/DocumentTableMePreferences/DocumentTableMePreferences'], function (DocumentTableMePreference) {
+      //             'use strict';
+
+      //             function _onLoad() {
+      //                   var data = {}
+      //                   data.compassConfig = {
+      //                         "lang": "en",
+      //                         "myAppsBaseUrl": "https://vdevpril0282plp.dsone.3ds.com/3DSpace",
+      //                         "userId": "VPLMAdminUser"
+      //                   }
+      //                   data.tenantID = "OnPremise";
+      //                   var iframeContentWindow = null;
+      //                   var mepOrigin = null;
+      //                   var defaultJSON = "{}";
+      //                   var docmMePrefView = null;
+      //                   docmMePrefView = new DocumentTableMePreference({
+      //                         appId: 'ENXWDOC_AP',
+      //                         localWindow: window,
+      //                         frameCntWindow: iframeContentWindow,
+      //                         mepOrigin: mepOrigin,
+      //                         defaultJSON: JSON.parse(defaultJSON),
+      //                         targetId: 'enox-docm-tableMePreferences',
+      //                         tenantID: data.tenantID,
+      //                         lockState: data.lockState,
+      //                         compassConfig: data.compassConfig
+      //                   });
+      //                   docmMePrefView.initialize();
+      //             }
+      //             function _onResize() {
+
+      //             }
+      //             widget.addEvents({
+      //                   onLoad: _onLoad,
+      //                   onResize: _onResize,
+      //                   onRefresh: _onLoad
+      //             });
+
+      //       });
+      // </script>
+</head>
+
+<body>
+      <div id="enox-docm-tableMePreferences">
+            <div class="enox-docm-tableMePreferences-loader-container">
+                  <span class="enox-docm-tableMePreferences-loader" />
+            </div>
+      </div>
+</body>
+
+</html>

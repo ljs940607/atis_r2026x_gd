@@ -1,0 +1,11 @@
+{
+  "errorName": "Name des Unternehmens ist erforderlich",
+  "errorTaxRegId": "Format der Steuerregisternummer ist ungültig",
+  "noSpecialCharacterMessage": "Nur alphanumerische Zeichen (ohne Akzent) sind zulässig.",
+  "errorPersonalIdNUmberFormat": "Das Format der steuerlichen Identifikationsnummer ist ungültig",
+  "errorRegistrationIdFormat": "Format der Steuerregisternummer ist ungültig",
+  "errorCountry": "Land ist erforderlich",
+  "errorCeoFirstName": "Vorname des Unternehmensinhabers ist ungültig",
+  "errorCeoLastName": "Nachname des Unternehmensinhabers ist ungültig",
+  "invalidURL": "Website-URL ist ungültig"
+}

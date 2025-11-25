@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Entfernt einen Wert aus dem Array am Index.",
+  "description": "Dieser Block gibt das geänderte Array als Ausgabe aus.<br>Dieser Block ist dynamisch. Daher kann der Arraytyp der Eingabedaten über den Blockkonfigurationsdialog geändert werden.",
+  "dataPorts": {
+    "ArrayIn": "das zu ändernde Array.",
+    "Index": "der Array-Index, aus dem der Wert entfernt werden soll.",
+    "ArrayOut": "das geänderte Array.",
+    "Value": "der entfernte Wert."
+  },
+  "controlPorts": {
+    "In": "löst die Blockausführung aus.",
+    "Out": "wird aktiviert, wenn der Prozess abgeschlossen ist."
+  },
+  "example": null
+}

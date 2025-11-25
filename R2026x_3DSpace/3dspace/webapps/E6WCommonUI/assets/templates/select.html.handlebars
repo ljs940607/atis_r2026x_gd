@@ -1,0 +1,51 @@
+
+    {{#if label}}
+        	<label class="input-group-label">
+            <span class="field-label">
+              <span class="wux-ui-3ds-error wux-ui-3ds"></span>
+              <span class="label-text">{{label}}</span>
+              {{~#if required~}}
+                	<span class="required-field-indicator">*</span>
+              {{~/if~}}
+              {{~#if customTooltips~}}<span id="labelIcons" class="label-icons"></span>{{~/if~}}
+            </span>
+
+            {{~#if customButtons~}}
+            <span class="field-actions actions">
+               {{~#each customButtons~}}
+                  <button class="btn custom-button" data-custom-button-index="{{@index}}" title= "{{toolTip}}">
+                      <span class="fonticon {{iconClass}}"></span>
+                  </button>
+               {{~/each~}}
+            </span>
+            {{~/if~}}
+         </label>
+        {{/if}}
+  <div class="field-group">
+       <div class="input-group-wrapper">
+         <div class="input-group">
+         <div class="input-element">
+          {{~#if readWrite~}}
+              \{{~#if canEdit~}}
+              <select class="form-control data-entry" value="\{{ {{name}}.actualValue }}">
+                      {{#each values}}
+                      <option value="{{actualValue}}">{{displayValue}}</option>
+                    {{/each}}
+              </select>
+          \{{~else~}}
+          <div class="object-type">
+              <span class="read-only">\{{~ readOnlyValue {{name}}.displayValue ~}}</span>
+            </div>
+          \{{~/if~}}
+          {{~else~}}
+          <div class="object-type">
+              <span class="read-only">\{{~ readOnlyValue {{name}}.displayValue ~}}</span>
+            </div>
+          {{~/if~}}
+          </div>
+     {{#if helperText}}
+        <span class="form-control-helper-text">{{helperText}}</span>
+			{{/if}}
+      </div>
+    </div>
+  </div>

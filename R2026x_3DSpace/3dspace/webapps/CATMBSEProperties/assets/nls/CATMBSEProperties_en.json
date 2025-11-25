@@ -1,0 +1,32 @@
+{
+    "column": {
+        "isLastIteration" : "Last Iteration",
+        "usage" : "Used Iteration",
+        "maturity": "Maturity",
+        "tree": "System Model",
+        "contentType": "Sub type",
+        "name": "Name",
+        "contentVersion": "CAD Version",
+        "owner": "Owner",
+        "modifier": "Last modified by"
+    },
+    "options": {
+        "withProfiles": "show standard profiles",
+        "withHistory": "show historical usages"
+    },
+    "msg": {
+        "relationship.support.warning": "This client version did not create relationships but dependencies might exist"
+    },
+    "menu": {
+        "open_with": "Open with"
+    },
+    "usage": {
+        "synchro": "up-to-date",
+        "outdated" : "outdated",
+        "deleted" : "removed",
+        "latest": "latest"
+    },
+   "msg_not_supported_selection": "not supported",
+   "deactivated": "Deleted",
+   "denied": "Access denied"
+}

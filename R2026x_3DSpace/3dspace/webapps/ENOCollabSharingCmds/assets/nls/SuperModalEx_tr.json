@@ -1,0 +1,21 @@
+{
+  "CreateButton": "Oluştur",
+  "Unsupported_char": "Dosya Adı Geçersiz karakter içeriyor : {char}",
+  "SaveSettingsOK": "3DPart şablonu seçimi şu tip için doğru şekilde kaydedildi: ",
+  "SaveSettingsKO": "Şu tip için boş 3DPart şablonuna izin verilmiyor: ",
+  "TooltipSaveSettings": "Tip için 3DPart Şablon seçimini kaydet ",
+  "Template": "Şablon",
+  "Title": "Başlık",
+  "Filename": "Dosya Adı",
+  "Type": "Tip",
+  "TitlePlaceHolder": "Başlık girin...",
+  "FilenamePlaceHolder": "Bir dosya adı girin...",
+  "partTemplate": "3DPart Şablonu",
+  "partTemplatePlaceHolder": "3DPart Şablonu Ara veya Seç...",
+  "CreateCloseButton": "Oluştur ve Kapat",
+  "CloseButton": "Kapat",
+  "SaveSettingsButton": "Kaydet",
+  "CreatingButton": "Oluşturuluyor",
+  "saveSettingsTitle": " 3DPart Şablon seçimini kaydet",
+  "confirmsaveSettingsMsg": "Seçili şablonu 3D EXPERIENCE 3DPart için varsayılan şablon yap "
+}

@@ -1,0 +1,1 @@
+define("DS/3DPlayAnnotationUtils/3DPlayAnnotationUtils_tr",{});define("DS/3DPlayAnnotationUtils/assets/nls/3DPlayAnnotation",{PlaceHolder:"Yeni metin",ClickToLaunchText:"Yeni bir metin kutusu oluşturmak için görünüme tıklayın",cancelText:"İptal",validateText:"Doğrula",nextText:"İleri"});

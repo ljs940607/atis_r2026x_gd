@@ -1,0 +1,19 @@
+{
+  "VCXSelectElementMessage": "オブジェクトを選択",
+  "VCXCaptureInNeutralsCmd": "デフォルトとして保存",
+  "VCXRestoreNeutralsCmd": "デフォルト値に戻す",
+  "VCXFormatPainterCmd": "外観をコピー",
+  "VCXArrowOrientationCmd": "矢印の方向",
+  "VCXChangeInteractionCmd": "相互作用",
+  "VCXArrowOrientationCircularCmd": "矢印の方向",
+  "VCXSingleFormatPainterCmd": "外観を 1 回コピー",
+  "VCXMultipleFormatPainterCmd": "外観を複数回コピー",
+  "VCXAddCameraKeyCmd": "カメラ位置を更新",
+  "VCXDeleteSceneSelectionCmd": "選択したシーンを削除",
+  "VCXReplaceScenarioCmd": "シーンを置換",
+  "VCXCreateScenarioCmd": "新しいシーンにキャプチャ",
+  "VCXCreateEmptyScenarioCmd": "空のシーンを作成",
+  "VCXShowUpdateViewCmd": "アセットの更新",
+  "VCXApplyToSelectedCmd": "選択したシーンにプロパティと表示設定を適用",
+  "VCXApplyToAllCmd": "すべてのシーンにプロパティと表示設定を適用"
+}

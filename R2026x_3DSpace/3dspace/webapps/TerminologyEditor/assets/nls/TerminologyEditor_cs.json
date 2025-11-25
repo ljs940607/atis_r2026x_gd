@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Struktury procházení",
+  "name_Widget_Title": "Definice struktury procházení",
+  "name_Widget_Help": "Nápověda k definici struktury procházení",
+  "name_Term": "Termín",
+  "name_Terminology_type": "Terminologie",
+  "terminology_pref_populateTags": "Povolit značky 6W Tags pro filtrování struktury procházení",
+  "terminology_pref_activateRelationsColumns": "Zobrazit související",
+  "useIndexAcceleration_label": "Zobrazit indexovaná data",
+  "terminology_pref_autoSwitch_Label": "Automatické přepnutí z režimu databáze do režimu indexování",
+  "button_remove": "Odebrat",
+  "button_close": "Zavřít",
+  "Move_label": "Přesunout",
+  "Copy_label": "Kopírovat",
+  "oneMin_Label": "1 minuta",
+  "threeMin_Label": "3 minuty",
+  "fiveMin_Label": "5 minut",
+  "tenMin_Label": "10 minut",
+  "Never_Label": "Nikdy",
+  "Paste_content_loading": "Vložit obsah",
+  "Remove_content_loading": "Odebrat obsah",
+  "Content_Loading": "Načítání obsahu...",
+  "Widget_Loading": "Načítání pomůcky...",
+  "Tree_Loading": "Načítání stromu...",
+  "New_Loading": "Načítání panelu vytváření...",
+  "Terminology_Loading": "Probíhá výběr struktury procházení...",
+  "commands": {
+    "newBrowsingNode": "Nový uzel procházení",
+    "newBrowsingStructure": "Nová struktura procházení"
+  },
+  "msg_success_copyLink_terminology": "Odkaz na strukturu procházení „{terminologyname}“ byl zkopírován.",
+  "msg_success_copyLink_term": "Odkaz na uzel procházení „{termname}“ byl zkopírován.",
+  "msg_success_createTerminology": "Vytvoření struktury procházení „{terminologyName}“ bylo úspěšné",
+  "msg_success_createTerm": "Vytvoření uzlu procházení „{termName}“ bylo úspěšné",
+  "msg_success_createBS": "Struktura procházení byla úspěšně vytvořena",
+  "msg_success_createBN": "Uzel procházení byl úspěšně vytvořen",
+  "msg_info_terminologycopied": "Do struktury procházení „{terminologyname}“ bylo přidáno {number} struktur procházení.",
+  "msg_info_rename_bs": "Struktura procházení „{name1}“ byla přejmenována na „{name2}“.",
+  "msg_info_rename_bn": "Uzel procházení „{name1}“ byl přejmenován na „{name2}“.",
+  "msg_info_refresh": "Aktualizace provedena.",
+  "msg_info_SortNonAvailable": "Tento sloupec není k dispozici pro třídění během vyhledávání.",
+  "msg_info_treeFilterRemove": "Filtry použité ve stromu se po přidání struktury procházení odeberou.",
+  "msg_warning_nocurrentterminology": "Žádná aktuální struktura procházení: Vyberte strukturu procházení.",
+  "msg_warning_noselection": "Musí být vybrán alespoň jeden objekt.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "Stav posledního rozbalení nebude uložen.",
+    "Advice": "Sbalte některou strukturu procházení, aby bylo možné uložit stav rozbalení.",
+    "Details": "Bylo rozbaleno příliš mnoho struktur procházení."
+  },
+  "msg_warning_copyLink": "Vybraný objekt není struktura procházení.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "Hledání v kontextu není podporováno, pokud je počet kořenových struktur procházení větší než 200.",
+  "msg_error_Addinterminology": "Do této struktury procházení nelze přidat obsah.",
+  "msg_error_CopyTerminology": "Chyba při kopírování struktur procházení.",
+  "msg_error_MoveInterminology": "Chyba při přesouvání objektů.",
+  "msg_error_MoveInSameterminology": {
+    "title": "Vyberte jinou strukturu procházení. ",
+    "subtitle": "Cílová struktura procházení a zdrojová struktura procházení jsou stejné."
+  },
+  "msg_error_rename": {
+    "Title": "Nelze přejmenovat položku procházení: {name}.",
+    "Advice": "Ověřte, zda se název není již nepoužívá nebo zda používáte správné přihlašovací údaje.",
+    "Details": "K přejmenování tohoto typu objektu možná nemáte potřebnou odpovědnost v cílovém prostoru pro spolupráci."
+  },
+  "msg_error_invalidselection": "Příkaz nelze spustit bez výběru",
+  "msg_error_name_maxlength": "Zadejte „{name}“ o délce maximálně {maxLength} znaků.",
+  "msg_error_name_empty": "Zadejte hodnotu pro název.",
+  "msg_error_TerminologyActivate": {
+    "title": "Nelze aktivovat {name1}.",
+    "subtitle": "Objekt mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Přiřaďte strukturu procházení k tomuto uzlu procházení.",
+    "subtitle": "Struktura procházení možná není viditelná. Například možná není aktivní. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Strom nelze rozbalit.",
+    "subtitle": "Obnovte aplikaci a zkuste to znovu nebo se obraťte na správce se žádostí o podporu."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "Štítek {label} obsahuje neplatné znaky: {badChars}.",
+    "Advice": "Nelze použít žádný z následujících znaků: Zpráva:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Obsah struktury procházení již není přístupný.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Obsah mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_InfoAction_Timeout": "Ze spuštěné akce nebyla během časového limitu přijata žádná odpověď, její provedení může trvat déle. Výsledek může být viditelný za okamžik po ruční aktualizaci.",
+  "msg_error_timeout": {
+    "title": "Vypršel časový limit připojení k serveru.",
+    "subtitle": "Ověřte připojení nebo snižte množství dat odesílaných během této operace."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Tato struktura procházení již není přístupná.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Struktura procházení byla možná odstraněna nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Tato struktura procházení již není přístupná.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Nemáte požadovaná oprávnění."
+  },
+  "msg_error_copylink": {
+    "title": "Nelze zkopírovat odkaz do schránky. ",
+    "subtitle": " Opakujte operaci nebo se obraťte na správce a požádejte o podporu. "
+  },
+  "msg_error_createNewFromFramework": "Příkaz Vytvořit nový selhal:",
+  "msg_error_createNew": {
+    "Title": "Tento objekt nelze vytvořit: {type}.",
+    "Advice": "Zkontrolujte, zda používáte správné přihlašovací údaje.",
+    "Details": "Možná nemáte potřebnou odpovědnost k vytvoření tohoto typu objektu v cílovém prostoru pro spolupráci."
+  },
+  "msg_error_rest": {
+    "title": "Server se neočekávaně odpojil.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "msg_warning_notProductRoot": "Objekt nebyl nalezen.",
+  "msg_warning_contentnotavailable": "Nelze načíst obsah. Může být odstraněn nebo nastaven do stavu Soukromý.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "Obsah nelze odebrat.",
+    "advice": "Vyberte dílčí terminologii pro upřesnění výsledků vyhledávání.",
+    "details": "Nelze odebrat obsah z více než 20 struktur procházení."
+  },
+  "CMDClearSort": "Zrušit řazení",
+  "CMDShareTerminologyLink": "Kopírovat odkaz",
+  "CMDShowInTerminologies": "Zobrazit ve strukturách procházení",
+  "alpha_sorting": "Abecední pořadí",
+  "alpha_sort_label": "Název",
+  "date_sorting": "Pořadí kal. data",
+  "date_sort_label": "Datum změny",
+  "fonticon_filter": "Obsah panelu je aktuálně filtrován",
+  "loadingText": "Načítání…",
+  "SearchEnterMoreThan": "Hledání vyžaduje tento minimální počet znaků: {minNumber}.",
+  "confirmation_move_title": "Přesunout obsah",
+  "confirmation_move_message": "Chcete přesunout obsah {source} do {target}?",
+  "confirmation_move_message_monosel": "Chcete přesunout {selection} z {source} do {target} ?",
+  "confirmation_move_message_mono_from_tree": "Chcete přesunout {source} do {target} ?",
+  "confirmation_move_message_multisel": "Chcete přesunout položky {nth} z {source} do {target} ?",
+  "confirmation_move_button": "Přesunout",
+  "confirmation_info": "Atributy jiné než název a popis jsou ztraceny při převodu \n {From} na {To}. Všechny atributy podřízených objektů jsou zkopírovány.",
+  "authentication_error": {
+    "title": "Nelze spustit stanovený widget.",
+    "subtitle": "Ověřte své přihlašovací údaje a zkuste to znovu."
+  },
+  "noPlatform_error": "Tato aplikace není na žádné vaší platformě dostupná.",
+  "placeholder_msg_terminology": "Tato struktura procházení je momentálně prázdná.",
+  "placeholder_CreateTerminology": "Nová struktura procházení",
+  "placeholder_CreateTerm": "Nový uzel procházení",
+  "column_Thumbnail": "Miniatura",
+  "placeholder_msg_section": "Není vytvořena žádná struktura procházení.",
+  "placeholder_msg_terms": "Není vytvořen žádný uzel procházení",
+  "placeholder_msg_search": "Nebyly nalezeny žádné výsledky.",
+  "refresh_ongoing": "Probíhá aktualizace...",
+  "refresh_ok": "Aktualizace provedena",
+  "refreshError": {
+    "title": "Pomůcku nelze aktualizovat.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "success": "Úspěšně provedeno",
+  "warning": "Varování",
+  "information": "Informace",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Tento obsah již není přístupný.",
+    "Advice": "Možná nemáte potřebnou zodpovědnost, abyste mohli tento typ objektu v cílovém prostoru pro spolupráci vytvořit.",
+    "Details": "Objekt mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Nelze vložit.",
+    "InvalidParameters": "Vybrané objekty nelze do tohoto cíle vložit. ",
+    "BNDestination": "Uzly procházení nelze vložit do části Struktury procházení.",
+    "BSDestination": "Strukturu procházení lze vložit pouze do části Struktury procházení."
+  },
+  "msg_paste_error": "Nelze vložit.",
+  "indexMode": {
+    "Authoring": "Databáze",
+    "Index": "Index.",
+    "Label": "Index",
+    "seconds": "sekund",
+    "minutes": "minut",
+    "hours": "hodin",
+    "msg_Authoring": "Režim databáze je aktivní. Může dojít k ovlivnění výkonu.",
+    "activeMode": "Aktivní režim: {mode}",
+    "lastRefresh": "Poslední aktualizace : před {timeElapsed}.",
+    "reactIndexMode": "Režim indexu se znovu aktivuje za {autoSwitch} minut od okamžiku vytvoření nebo obnovení.",
+    "info_msg_DataNotUptoDate": "Režim indexování je aktivní. Data nemusí být aktuální."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "Vybraná struktura procházení {name} není ve stromu vidět, přejděte na zobrazení a vyberte ji.",
+  "ViewTooltip": {
+    "ds6w:label": "Název",
+    "ds6w:modified": "Datum změny",
+    "ds6w:responsible": "Vlastník",
+    "ds6w:type": "Typ",
+    "ds6w:status": "Stav dokončení",
+    "ds6w:project": "Prostor pro spolupráci",
+    "ds6w:identifier": "Jméno"
+  },
+  "notifications": {
+    "expandTooLarge": "Bylo načteno příliš mnoho objektů.<br> Zpřesněte výsledky filtrováním nebo snížením úrovně rozbalení.",
+    "initialization_error": {
+      "title": " V aplikaci došlo k neočekávané chybě.",
+      "subtitle": "Ohledně pomoci se obraťte na správce."
+    },
+    "tooManyResultFound": "Vyhledávání bylo omezeno na {maxResult} výsledků. Upřesněte dotaz."
+  },
+  "generic_service_failure": "Načtení informací o objektu selhalo. Zkuste to znovu za několik minut. Pokud problém přetrvává, obraťte se na správce",
+  "cannot_insert_branch": "Přidání objektu se nezdařilo",
+  "cannot_access_after_changeowner": "Po změně vlastnictví nelze k objektu přistupovat"
+}

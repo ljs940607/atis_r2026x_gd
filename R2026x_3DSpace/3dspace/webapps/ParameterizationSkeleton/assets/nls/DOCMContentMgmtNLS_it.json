@@ -1,0 +1,28 @@
+{
+  "intro": "Configura l'esperienza di gestione dei documenti",
+  "DownloadRules": "Regole per il download dei documenti",
+  "rule1": "Download di più documenti ",
+  "option1": "Struttura della cartella. Cartella denominata '<Nome documento> <Revisione documento>', ad es. DOC-00000001 0",
+  "option2": "Elenco di tutti i file senza struttura di directory. I nomi dei file in conflitto saranno contrassegnati con l'aggiunta finale di numeri in serie",
+  "defaultOption": "UnFileUnaDirectory",
+  "Flatlist": "ElencoSemplice",
+  "ApplySuccess": "Modifiche applicate correttamente",
+  "ApplyError": "Impossibile applicare le modifiche",
+  "ResetSuccess": "Reimpostazione riuscita",
+  "Enable_Work_Under_Setting": "Attiva Lavora in",
+  "Enable_Mandatory_Comment_Setting": "Obbligatorio ogni volta che un file viene caricato, aggiornato o modificato.",
+  "File_Comment_Label": "Commenti file",
+  "Work_Under_Accordion_Title": "Configurazione Lavora in",
+  "Work_Under": "Lavora in",
+  "Comment_As_Mandatory__Accordion_Title": "Aggiornamento documento",
+  "Failed_Load": "Impossibile caricare le configurazioni.",
+  "DownloadBehaviorTooltip": {
+    "title": "Consente di selezionare come organizzare i file quando si scaricano più documenti:",
+    "subtitle1Heading": "• Struttura delle cartelle: ",
+    "subtitle2Heading": "• Elenco semplice: ",
+    "subtitle1": "Crea una cartella ZIP con sottocartelle per ciascun documento, mantenendo l'organizzazione originale dei file.",
+    "subtitle2": "Scarica tutti i file in un unico elenco senza sottocartelle. Per evitare conflitti, i file con lo stesso nome saranno dotati di numeri seriali."
+  },
+  "WorkUnderRuleTooltip": "Selezionare per utilizzare un oggetto di modifica per registrare tutte le modifiche come modifiche realizzate.",
+  "CommentMandatoryTooltip": "Rende obbligatori i commenti per qualsiasi azione di creazione/aggiornamento in Document Management e per il salvataggio dei documenti in 3DEXPERIENCE in Collaboration for Microsoft. I commenti sui file sono particolarmente utili per i documenti che contengono più file, per fornire un contesto sullo scopo e su come si riferiscono al documento."
+}

@@ -1,0 +1,14 @@
+m|i3DXCompassUI\i3DXCompassStandalone.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\i3DXCompassStandalone\i3DXCompassStandalone.css|1744917703|1472
+s|i3DXCompassUI\i3DXCompassStandalone.mweb\src\i3DXCompassStandalone.css|1599283795|2218
+t|win_b64\webapps\i3DXCompassStandalone\i3DXCompassStandalone.html|1742014946|1958
+s|i3DXCompassUI\i3DXCompassStandalone.mweb\src\i3DXCompassStandalone.html|1741697801|1958
+t|win_b64\webapps\i3DXCompassStandalone\i3DXCompassStandalone.js|1742014946|3665
+s|i3DXCompassUI\i3DXCompassStandalone.mweb\src\i3DXCompassStandalone.js|1741688158|9763
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

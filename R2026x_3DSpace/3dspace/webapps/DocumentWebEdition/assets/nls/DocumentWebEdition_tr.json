@@ -1,0 +1,16 @@
+{
+  "WebEditorSave": "Kaydet",
+  "WebEditorCloseWithoutSave": "Kaydetme",
+  "WebEditorConfirmMessageOnClose": "Değişikliklerinizi kaydetmek istiyor musunuz? Kaydetmeden devam ederseniz çalışmanızı kaybedersiniz.",
+  "WebEditorConfirmMessageWithNoLock": "Belge şu anda diğer kullanıcılar tarafından düzenleniyor. Belgeyi kilitlemeniz, kullanıcıların değişiklik yapmasını engeller. Diğer kullanıcıları etkilemeden çevrimiçi düzenleme yapabilirsiniz.",
+  "WebEditorConfirmMessageWithLock": "belgeyi kilitlediği için belgeyi düzenleyemezsiniz.\nBelgenin kilidini açmak için bir istek gönderebilirsiniz.",
+  "DocumentUpdatedOtherthanWebEditorSession": "Bir kişi dosyanın içeriğini yakın zamanda dışarıdan değiştirdi. Tüm değişikliklerinizi kaydetmek için manuel olarak kopyala yapıştır yapabilirsiniz.",
+  "OfficeWebEditorSuccessfulSave": "Belge başarıyla kaydedildi.",
+  "FileContentIsNotChanged": "Belge açıldığından değişiklik yapılmamış.",
+  "SaveDocument": "Belgeyi Kaydet",
+  "Close": "Kapat",
+  "Cancel": "İptal",
+  "SaveInProgress": "Kaydediliyor...",
+  "WebEditionSaveFailed": "Değişiklikler kaydedilemiyor.",
+  "Save": "Kaydet"
+}

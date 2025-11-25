@@ -1,0 +1,16 @@
+{
+  "Inputs": "Eingaben",
+  "Outputs": "Ausgaben",
+  "Approx. Method Type": "Annäherungsmethodentyp",
+  "Training Measures": "Schulungsmaßnahmen",
+  "Validation Measures": "Validierungsmaßnahmen",
+  "R-Squared": "Bestimmtheitsmaß",
+  "R-Squared Adjusted": "Bestimmtheitsmaß angepasst",
+  "RMSE": "Quadratwurzel des mittleren quadratischen Fehlers",
+  "Residual / Predicted": "Residuum/Prognostiziert",
+  "% Error Absolute Mean": "% Fehler – Absoluter Mittelwert",
+  "% Error Absolute Maximum": "% Fehler – Absoluter Maximalwert",
+  "% Error Standard Deviation": "% Fehler – Standardabweichung",
+  "Lower Bound": "Untere Grenze",
+  "Upper Bound": "Obere Grenze"
+}

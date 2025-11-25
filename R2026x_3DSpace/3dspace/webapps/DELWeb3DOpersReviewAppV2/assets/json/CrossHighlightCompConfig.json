@@ -1,0 +1,387 @@
+{
+  "MBOM": {
+    "select": [
+      {
+        "componentId": "SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PRODUCT",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection",
+        "highlightFunc": "highlight"
+      }
+    ],
+    "preHighlight": [
+      {
+        "componentId": "DELWebViewer",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      }
+    ]
+  },
+  "SBOM": {
+    "select": [
+      {
+        "componentId": "MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PRODUCT",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection",
+        "highlightFunc": "highlight"
+      }
+    ],
+    "preHighlight": [
+      {
+        "componentId": "DELWebViewer",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      }
+    ]
+  },
+  "DELWebViewer": {
+    "select": [
+      {
+        "componentId": "MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PRODUCT",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "MBOM",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "SBOM",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "PRODUCT",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "RESOURCE",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "highlightFunc": "highlight"
+      },
+      {
+        "componentId": "PROCESS",
+        "highlightFunc": "highlightLinkedOperations"
+      }
+    ],
+    "preHighlight": [
+      {
+        "componentId": "MBOM",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      },
+      {
+        "componentId": "SBOM",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      },
+      {
+        "componentId": "PRODUCT",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      },
+      {
+        "componentId": "RESOURCE",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      }
+    ],
+    "onClickOnEmptyArea": [
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PRODUCT",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "clearSelectionFunc": "clearSelection"
+      }
+    ]
+  },
+  "PRODUCT": {
+    "select": [
+      {
+        "componentId": "MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection",
+        "highlightFunc": "highlight"
+      }
+    ],
+    "preHighlight": [
+      {
+        "componentId": "DELWebViewer",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      }
+    ]
+  },
+  "RESOURCE": {
+    "select": [
+      {
+        "componentId": "PRODUCT",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection",
+        "highlightFunc": "highlight"
+      }
+    ],
+    "preHighlight": [
+      {
+        "componentId": "DELWebViewer",
+        "preHighlightFunc": "preHighlight",
+        "unPreHighlightFunc": "unPreHighlight"
+      }
+    ]
+  },
+  "PROCESS_MBOM": {
+    "select": [
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection"
+      },
+      {
+        "componentId": "PROCESS",
+        "highlightFunc": "highlightLinkedOperations"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "processItemsToHighlight"
+        }
+      }
+    ]
+  },
+  "PROCESS_SBOM": {
+    "select": [
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection"
+      },
+      {
+        "componentId": "PROCESS",
+        "highlightFunc": "highlightLinkedOperations"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "processItemsToHighlight"
+        }
+      }
+    ]
+  },
+  "PROCESS_RESOURCE": {
+    "select": [
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection",
+        "highlightFunc": "highlight"
+      }
+    ]
+  },
+  "PROCESS": {
+    "select": [
+      {
+        "componentId": "PROCESS",
+        "clearSelectionFunc": "clearHighlight"
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "clearSelectionFunc": "clearSelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "clearSelectionFunc": "clearOnlySelection"
+      },
+      {
+        "componentId": "DELWebViewer",
+        "highlightFunc": "highlightLinkedViews",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getTextualInstructionInstances"
+        }
+      },
+      {
+        "componentId": "PROCESS_MBOM",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getMfgItems"
+        }
+      },
+      {
+        "componentId": "PROCESS_SBOM",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getMfgItems"
+        }
+      },
+      {
+        "componentId": "PROCESS_RESOURCE",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getCapableResources"
+        }
+      },
+      {
+        "componentId": "DELWebViewer",
+        "highlightFunc": "highlight",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getRelations"
+        }
+      },
+      {
+        "componentId": "DELWebViewer",
+        "highlightFunc": "highlightLinkedViews",
+        "transformInput": {
+          "componentId": "PROCESS",
+          "function": "getTextualInstructionInstances"
+        }
+      }
+    ]
+  }
+}

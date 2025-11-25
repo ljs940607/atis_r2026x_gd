@@ -1,0 +1,147 @@
+{
+    "DisplayIconCheckbox": "Enabled",
+    "DisplayIconforItemCheckbox": "Enabled",
+    "DisplayIconforResourceCheckbox": "Enabled",
+    "ROUTINGS": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "PLMInstance.PLM_ExternalID",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "SequenceNumber",
+                "displayAttributeName": true
+            },
+            {
+                "rowIndex": "5",
+                "mergeWithPreviousRow": null,
+                "name": "DELLmiOperationReference.V_EstimatedTime",
+                "displayAttributeName": true
+            }
+        ]
+    },
+    "MANUFACTURING": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "V_ContQuantity",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "V_RefQuantity",
+                "displayAttributeName": null
+            }
+        ]
+    },
+    "RESOURCES": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "PLMEntity.V_Name",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "revision",
+                "displayAttributeName": null
+            }
+        ]
+    },
+    "WKITYPES": {
+        "attributeList": [
+            {
+                "rowIndex": "1",
+                "mergeWithPreviousRow": null,
+                "name": "mode",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "2",
+                "mergeWithPreviousRow": true,
+                "name": "title",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "3",
+                "mergeWithPreviousRow": null,
+                "name": "criticality",
+                "displayAttributeName": true
+            },
+            {
+                "rowIndex": "4",
+                "mergeWithPreviousRow": null,
+                "name": "value",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "5",
+                "mergeWithPreviousRow": null,
+                "name": "minControlValue",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "6",
+                "mergeWithPreviousRow": null,
+                "name": "maxControlValue",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "7",
+                "mergeWithPreviousRow": null,
+                "name": "minValue",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "8",
+                "mergeWithPreviousRow": null,
+                "name": "maxValue",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "9",
+                "mergeWithPreviousRow": null,
+                "name": "minEoFValue",
+                "displayAttributeName": null
+            },
+            {
+                "rowIndex": "10",
+                "mergeWithPreviousRow": null,
+                "name": "maxEoFValue",
+                "displayAttributeName": null
+            }
+        ]
+    }
+}

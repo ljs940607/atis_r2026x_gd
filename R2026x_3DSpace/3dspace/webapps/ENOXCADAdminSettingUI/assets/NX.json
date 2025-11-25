@@ -1,0 +1,50 @@
+{
+    "version": "1.0",
+    "settings": [
+        {
+            "id": "NXMissingLinksWarning",
+            "uitype": "switch",
+            "label": "NXMissingLinksWarningLabel",
+            "info": "NXMissingLinksWarningInfo",
+            "mode": "basic",
+            "attribute": "UGMissingLinksWarning",
+            "groupName": "NXSaveGroupLabel"
+        },
+        {
+            "id": "NXSuppressPatternElements",
+            "uitype": "switch",
+            "label": "NXSuppressPatternElementsLabel",
+            "info": "NXSuppressPatternElementsInfo",
+            "mode": "basic",
+            "attribute": "UGSuppressPatternElements",
+            "groupName": "NXSaveGroupLabel"
+        },
+        {
+            "id": "NXSTEP242LicenseAvailable",
+            "uitype": "switch",
+            "label": "NXSTEP242LicenseAvailableLabel",
+            "info": "NXSTEP242LicenseAvailableInfo",
+            "mode": "basic",
+            "attribute": "MCADInteg-STEP242LicenseAvailable",
+            "groupName": "NXToolkitLicenseGroupLabel"
+        },
+        {
+            "id": "NXCADAttributeMappedToEIN",
+            "uitype": "textbox",
+            "label": "NXCADAttributeMappedToEINLabel",
+            "info": "NXCADAttributeMappedToEINInfo",
+            "mode": "basic",
+            "attribute": "XCAD-CADAttributeMappedToEIN",
+            "groupName": "EnterpriseItemNumberGroupLabel"
+        },
+        {
+            "id": "NXFilterOutEngItemsDataNotInCAD",
+            "uitype": "switch",
+            "label": "NXFilterOutEngItemsDataNotInCADLabel",
+            "info": "NXFilterOutEngItemsDataNotInCADInfo",
+            "mode": "basic",
+            "attribute": "XCAD-FilterOutEngItemsDataNotInCAD",
+            "groupName": "NXOpenGroupLabel"
+        }
+    ]
+}

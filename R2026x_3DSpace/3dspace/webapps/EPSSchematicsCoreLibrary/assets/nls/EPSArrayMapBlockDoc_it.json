@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Crea un nuovo array con i risultati della chiamata di un grafico specifico su ogni elemento dell'array specificato.",
+  "description": "Questo blocco è in grado di mappare qualsiasi tipo di array di <doc-idp-name translate=no>Input</doc-idp-name> a qualsiasi tipo di array di output.<br>Il grafico interno deve essere modificato per fornire il processo di mappatura.",
+  "dataPorts": {
+    "Input": "L'array di input da mappare. <br>Questa porta dati gestisce tutti i tipi di array.",
+    "SharedData": "I dati da condividere in tutte le istanze del grafico interno. <br>Questa porta dati gestisce tutti i tipi. <br>Se è necessario condividere numerosi dati di tipo diverso, si consiglia di creare un tipo di utente.",
+    "Success": "L'array di output riuscito.<br>Questa porta dati gestisce tutti i tipi di array.<br>La dimensione di questo array sarà sempre uguale alla dimensione dell'array di <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "State": "Un array di <doc-valuetype translate=no>ArrayMapState</doc-valuetype> fornisce il valore <doc-valuetype translate=no>EExecutionState</doc-valuetype> per ciascun indice dell'array di output <doc-odp-name translate=no>Success</doc-odp-name>.<br>La dimensione di questo array sarà sempre uguale alla dimensione dell'array di <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Progress": "Un array di <doc-valuetype translate=no>ArrayMapProgress</doc-valuetype> che fornisce il valore <doc-valuetype translate=no>EExecutionState</doc-valuetype> per ciascun indice dell'array di input <doc-odp-name translate=no>Input</doc-odp-name>.<br>Questo array può essere compilato con diversi dati durante un singolo avanzamento, in quanto dipende dal processo di distribuzione dietro il blocco.<br>Tuttavia, le dimensioni di questo array non supereranno le dimensioni dell'array di <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Un array di <doc-valuetype translate=no>ArrayMapError</doc-valuetype> che fornisce l'oggetto errore per l'indice dell'array di input <doc-odp-name translate=no>Input</doc-odp-name>.<br>La dimensione di questo array non supererà la dimensione dell'array di <doc-idp-name translate=no>Input</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "attiva l'esecuzione del blocco.",
+    "Success": "viene attivato al termine del processo.",
+    "Progress": "viene attivato a ogni avanzamento.",
+    "Error": "viene attivato quando si verifica un errore."
+  },
+  "example": null
+}

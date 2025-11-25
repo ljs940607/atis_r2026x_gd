@@ -1,0 +1,20 @@
+{
+  "query": "[ds6w:type]:(\"pno:Person\" OR \"foaf:Group\")",
+  "select_predicate": [
+    "ds6w:label",
+    "resourceid",
+    "type_icon_url",
+    "preview_url"    
+  ],  
+  "label": "3DSearch-ktr4-1679054939016",
+  "locale": "en",
+  "tenant": "Baleze",
+  "start": 0,
+  "nresults": 8,
+  "order_by": "desc",
+  "order_field": "relevance",  
+  "source": [
+    "swym",
+    "usersgroup"
+  ]
+}

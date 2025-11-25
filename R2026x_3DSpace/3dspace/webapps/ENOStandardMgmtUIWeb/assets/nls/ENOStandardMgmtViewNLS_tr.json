@@ -1,0 +1,20 @@
+{
+  "IntroductionText": "Standart Kütüphane ayarlarının konfigürasyonu",
+  "ApplyText": "Uygula",
+  "ApplyTooltipText": "Güncellenen parametre değerlerini uygula",
+  "ResetTooltipText": "Tüm parametre değerlerini sıfırla",
+  "ResetText": "Sıfırla",
+  "applyErrorMessage": "Standart ayarlar uygulanırken hata oluştu!",
+  "applySuccessMessage": "Standart ayar değerleri başarıyla dağıtıldı!",
+  "resetErrorMessage": "Standart ayarlarda sıfırlama uygulanırken hata oluştu!",
+  "resetSuccessMessage": "Standart ayar değerleri başarıyla sıfırlandı!",
+  "resetIgnoreMessage": "Standart ayar değerleri zaten varsayılan modda, sıfırlama yok sayılır!",
+  "PartSupplyText": "Parça Tedarik ayarları",
+  "ToolBoxText": "ToolBox ayarları",
+  "ContentCenterText": "İçerik Merkezi ayarları",
+  "StandardProfileText": "CATIA Magic Standart Profiller ve Kütüphaneler ayarları",
+  "CollabSpaceText": "İş Birliği Alanı",
+  "StateText": "Durum",
+  "CollabSpaceDescription": "Bu bağlam için İş Birliği Alanı ayarlanmasına izin verir",
+  "StateDescription": "Bu bağlam için olgunluk durumunun ayarlanmasına izin verir"
+}

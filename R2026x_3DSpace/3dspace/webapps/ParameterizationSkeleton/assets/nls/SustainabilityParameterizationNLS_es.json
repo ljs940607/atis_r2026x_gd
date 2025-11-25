@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Costing",
+  "CostingDomainTooltip": "Elija el proceso de evolución para las métricas de costes",
+  "CostingDefaultEvolution": "Secuencial",
+  "CostingEvolutionConcurrent": "En simultáneo",
+  "deployFailureMsg": "No se permite establecer el proceso de evolución como En simultáneo, ya que hay algunas métricas de coste más allá del estado En curso",
+  "MetricEvolutionAccordionTitle": "Proceso de evolución métrica"
+}

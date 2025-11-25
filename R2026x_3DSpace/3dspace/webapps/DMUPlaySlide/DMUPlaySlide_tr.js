@@ -1,0 +1,1 @@
+define("DS/DMUPlaySlide/DMUPlaySlide_tr",{});define("DS/DMUPlaySlide/assets/nls/DMUPlaySlide",{page:"Sayfa",of:"/"});

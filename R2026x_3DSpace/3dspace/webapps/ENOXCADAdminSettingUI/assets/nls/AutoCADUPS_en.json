@@ -1,0 +1,21 @@
+{
+  "ACADAutoNameLabel": "Auto Naming",
+  "ACADAutoNameInfo": "Enables auto-naming while saving drawing files in 3DEXPERIENCE for the first time. It applies to all applications authoring AutoCAD data.",
+  "ACADSaveGroupLabel": "Save",
+
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Replace Title By New Name On Autoname",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "On selection of autoname on save dialog, the existing filename will be replaced by the autoname.",
+
+  "ACADEnablePessimisticLockingLabel": "Pessimistic Locking",
+  "ACADEnablePessimisticLockingInfo": "Enabling this feature ensures that data cannot be saved to the platform from the connector unless it is reserved by the current user.",
+
+  "ACADFileReadOnlyLabel": "Make file read-only",
+  "ACADFileReadOnlyInfo": "File will be marked as read-only if it is not reserved by current user. This behavior will be enabled only if pessimistic locking is enabled.",
+
+  "ACADDelimiterLabel": "Set Delimiter",
+  "ACADDelimiterInfo": "This delimiter will be used as follows:\n1. To merge values of multi-valued attributes in 3DEXPERIENCE when synchronizing on CAD file.\n2. To split CAD attribute value if it is mapped to multi-valued attribute in 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "General",
+
+  "InvalidDelimiter": "More than one character is not allowed as a delimiter"
+
+}

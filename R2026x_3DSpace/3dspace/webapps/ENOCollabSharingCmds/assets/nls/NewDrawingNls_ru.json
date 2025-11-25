@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "Новый чертеж",
+  "insertNewDrawing": "Вставить новый чертеж",
+  "newObjectType": "Чертеж",
+  "multiParentInsertDrawingTitle": "Вставить новый чертеж",
+  "multiParentInsertDrawingMsg": "Действительно вставить новый чертеж под несколькими родительскими элементами?",
+  "multiParentCannotInsert": "Ошибка. Невозможно вставить в выбранные объекты",
+  "CannotInsert.Type": "Невозможно вставить этот тип объекта под выбранным объектом: {type}",
+  "okBtn": "OK",
+  "closeBtn": "Закрыть"
+}

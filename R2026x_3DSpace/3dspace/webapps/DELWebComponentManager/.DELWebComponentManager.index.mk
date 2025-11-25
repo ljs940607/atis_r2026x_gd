@@ -1,0 +1,16 @@
+m|DELWebUIComponents\DELWebComponentManager.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWebComponentManager\DELWebComponentManager.js|1723277692|10816
+s|DELWebUIComponents\DELWebComponentManager.mweb\src\DELWebComponent.js|1685424908|1650
+t|win_b64\webapps\DELWebComponentManager\assets\json\StandardComponents.json|1723277688|313
+s|DELWebUIComponents\DELWebComponentManager.mweb\src\assets\json\StandardComponents.json|1711125760|313
+u|DELWebUIComponents\DELWebComponentManager.mweb\src\DELWebComponentManager.js|1709625670|11339
+u|DELWebUIComponents\DELWebComponentManager.mweb\src\DELWebLinkManager.js|1708665126|11325
+u|DELWebUIComponents\DELWebComponentManager.mweb\src\DELWebModel.js|1685424898|3150
+u|DELWebUIComponents\DELWebComponentManager.mweb\src\DELWebTypesUtil.js|1684751575|2874
+u|DELWebUIComponents\DELWebComponentManager.mweb\src\XSOManager.js|1701167564|4080
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,1 @@
+define("DS/XCTInfNotifications/XCTInfNotifications_cs",{});define("DS/XCTInfNotifications/assets/nls/XCTInfNotifications",{Notifications:{Error:"Chyba",Information:"Informace",Succes:"Úspěšně provedeno",Warning:"Varování"}});

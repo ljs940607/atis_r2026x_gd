@@ -1,0 +1,17 @@
+m|ENOCfgBaseUX\CfgTracker.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CfgTracker\CfgTracker.js|1723277604|26844
+s|ENOCfgBaseUX\CfgTracker.mweb\src\CfgDimension.js|1714056898|6402
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgDimensionMapping.js|1714056901|13891
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgDimensionsBuilder.js|1632147448|2672
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgEventBuilder.js|1718986009|3572
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgPageBuilder.js|1718986078|3200
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgTracker.js|1718986016|8877
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgValue.js|1714056907|4921
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgValueMapping.js|1714056910|5158
+u|ENOCfgBaseUX\CfgTracker.mweb\src\CfgValuesBuilder.js|1632147373|1856
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

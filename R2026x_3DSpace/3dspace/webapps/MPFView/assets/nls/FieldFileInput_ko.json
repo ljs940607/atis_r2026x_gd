@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "선택된 파일 없음",
+  "noValidFileSelected": "선택된 유효한 파일 없음",
+  "isRequired": "{0}이(가) 필요합니다.",
+  "isInvalid": "{0}이(가) 올바르지 않습니다.",
+  "wrongFileType": "잘못된 파일 유형",
+  "fileTooBig": "파일 크기 초과. 제한: {0}",
+  "bytes": "바이트",
+  "kiloByte": "Kb",
+  "megaByte": "Mb",
+  "gigaByte": "Gb",
+  "teraByte": "Tb",
+  "fileUploadFailed": "파일을 업로드하지 못했습니다. 다시 시도하십시오.",
+  "replaceImage": "이미지 바꾸기",
+  "loading": "로드 중...",
+  "fileCouldNotBeLoaded": "파일을 로드할 수 없음"
+}

@@ -1,0 +1,1 @@
+define("DS/CATWebUXTIC/CATWebUXTIC_zh-TW",{});define("DS/CATWebUXTIC/assets/nls/CATWebUXTICCmdAdapt",{caOK:"成功產生變更動作",caKO:"產生變更動作失敗",taskOK:"產生任務成功",taskKO:"任務產生失敗",issueOK:"產生問題成功",issueKO:"產生問題失敗",caAttached:"變更動作已附加至父問題",caNotAttached:"變更動作尚未附加至父問題",taskAttached:"任務已附加至父問題",taskNotAttached:"任務尚未附加至父問題",ticSection:"產生問題",ticTemplateIssue:"請務必使用範本來產生問題"});

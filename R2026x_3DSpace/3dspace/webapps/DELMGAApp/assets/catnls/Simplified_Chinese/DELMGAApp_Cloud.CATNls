@@ -1,0 +1,146 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELMGAApp.LandingPage.Title="主页";
+DELMGAApp.Refresh.Title="刷新选定对象";
+DELMFNApp.Edit.Title="编辑";
+DELMGAApp.RefreshAll.Title="全部刷新";
+DELMGAApp.ToggleAuxiliaryView.Title="辅助视图";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELMGAApp_Cloud.Authoring.Title="创作";
+
+//-------------------------------------------------
+//				MGA Create Command Titles for System,Operation, Mfg and Resource
+//-------------------------------------------------
+DELMGAApp.InsertHeaderWorkplanSystem.Title="标题工作计划系统";
+DELMGAApp.InsertQualityControlProcess.Title="质量控制流程";
+DELMGAApp.InsertGeneralSystem.Title="常规系统";
+DELMGAApp.InsertTransformationSystem.Title="变换系统";
+DELMGAApp.InsertWorkplanSystem.Title="工作计划系统";
+DELMGAApp.InsertTransferSystem.Title="运输系统";
+DELMGAApp.InsertSourceSystem.Title="源系统";
+DELMGAApp.InsertSinkSystem.Title="下落系统";
+DELMGAApp.InsertBufferSystem.Title="缓冲系统";
+DELMGAApp.InsertGeneralOperation.Title="常规操作";
+DELMGAApp.InsertPointFasteningOperation.Title="点紧固操作";
+DELMGAApp.InsertCurveFasteningOperation.Title="曲线紧固操作";
+DELMGAApp.InsertLoadingOperation.Title="加载操作";
+DELMGAApp.InsertUnloadingOperation.Title="卸载操作";
+DELMGAApp.InsertTransferOperation.Title="运输操作";
+DELMGAApp.InsertRemoveMaterialOperation.Title="移除材料操作";
+DELMGAApp.InsertHeaderOperation.Title="标题操作";
+DELMGAApp.InsertCreateAssembly.Title="制造装配体";
+DELMGAApp.InsertCreateMaterial.Title="制造的材料";
+DELMGAApp.InsertCreateMaterialProcessContinuous.Title="连续制造的材料";
+DELMGAApp.InsertCreateKit.Title="制造套件";
+DELMGAApp.InsertProvide.Title="提供的零件";
+DELMGAApp.InsertArea.Title="区域";
+DELMGAApp.InsertOrganizational.Title="制造单元";
+DELMGAApp.InsertRobot.Title="机器人";
+DELMGAApp.InsertWorker.Title="人员";
+DELMGAApp.InsertTransport.Title="传输";
+DELMGAApp.InsertConveyor.Title="传送带";
+DELMGAApp.InsertNCMachine.Title="NC 机器";
+DELMGAApp.InsertIndustrialMachine.Title="工业机械";
+DELMGAApp.InsertInspect.Title="检查";
+DELMGAApp.InsertControlDevice.Title="控制设备";
+DELMGAApp.InsertLogicController.Title="逻辑控制器";
+DELMGAApp.InsertToolDevice.Title="刀具设备";
+DELMGAApp.InsertStorage.Title="存储器";
+DELMGAApp.InsertSensor.Title="传感器";
+DELMGAApp.InsertUserDefined.Title="用户定义的资源";
+DELMGAApp.InsertManufacturingSetup.Title="制造设置";
+
+DELMGAApp.InsertAlert.Title="警报指令";
+DELMGAApp.InsertDataCollectPlan.Title="数据收集计划指令";
+DELMGAApp.InsertDataCollectChecklist.Title="数据收集清单指令";
+DELMGAApp.InsertSignOff.Title="签发指令";
+DELMGAApp.InsertInstruction.Title="文本指令";
+DELMGAApp.InsertResourceParameterPlan.Title="资源参数计划";
+DELMGAApp.InsertWarning.Title="警告指令";
+DELMGAApp.InsertCaution.Title="注意指令";
+DELMGAApp.InsertNote.Title="备注指令";
+
+//MGA
+DELMGAApp.CreateInstance.Title="创建实例";
+DELMGAApp.SearchAndAddInstanceCommand.Title="插入";
+DELMFNApp.InsertAsCopy.Title="作为副本插入";
+DELMGAApp.DetachInstance.Title="拆离";
+DELMGAApp.CreateCapableResourceStructureLink.Title="创建有用资源结构";
+DELMGAApp.ManageCapableResources.Title="管理有用资源";
+DELMGAApp.CreateLink.Title="创建链接";
+DELMGAApp.Relations.Title="关系";
+DELMGAApp.OrderBySequence.Title="按序列排序";
+DELMGAApp.DisplayProperties.Title="信息";
+DELMGAApp.ShowCharacteristicsCmd.Title="特性管理";
+DELMGAApp.ShowConsolidatedCharactscsCmd.Title="特性管理：综合视图";
+DELMGAApp.ManageInconsistentLinks.Title="更改影响管理";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELMGAApp_Cloud.Lifecycle.Title="生命周期";
+DELMGAApp.changeMaturity.Title="更改成熟度...";
+DELMGAApp.revise.Title="新修订版...";
+DELMGAApp.Delete.Title="删除";
+DELMGAApp.duplicate.Title="复制";
+DELMGAApp.DuplicateAdv.Title="高级复制";
+
+
+//=============================================================================
+// 								View
+//=============================================================================
+//MGA
+DELMGAApp_Cloud.View.Title="视图";
+
+DELMGAApp.ProcessView.Title="显示流程和操作视图";
+DELMGAApp.ItemsView.Title="显示制造项目视图";
+DELMGAApp.ResourcesView.Title="显示资源视图";
+DELMGAApp.BottomAndLeftBlock.Title="显示左侧和底部块";
+DELMGAApp.BottomAndRightBlock.Title="显示右侧和底部块";
+
+DELMGAApp.ShowGraphView.Title="显示图形视图";
+DELMGAApp.ShowLinksFilterMenu.Title="显示链接过滤器菜单";
+DELMGAApp.ProductFlowCmd.Title="流程流图表";
+DELMGAApp.SwimLaneChartCmd.Title="泳道图";
+DELMGAApp.ExpandLevel.Title="展开";
+DELMGAApp.ExpandAll.Title="全部展开";
+DELMGAApp.ExpandNLevel.Title="展开 N 层";
+DELMGAApp.CollapseAll.Title="全部折叠";
+DELMGAApp.UserDefinedExplore.Title="用户定义的浏览";
+DELMGAApp.ShowLogPanel.Title="显示日志";
+DELMGAApp.Show3DViewerCmd.Title="打开 3DOperations Viewer";
+DELMGAApp.BuildUpReviewModeCmd.Title="构建审核模式";
+DELMGAApp.Requirement.Title="管理要求";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELMGAApp_Cloud.Tools.Title="刀具";
+
+DELMGAApp.EditViewPreferences.Title="编辑视图首选项";
+DELMGAApp.LayoutPreferences.Title="布局首选项";
+DELMGAApp.ExportCSV.Title="导出 CSV";
+DELMGAApp.RelationalExplorerCmd.Title="相关对象";
+DELMGAApp.BIEssentialsCmd.Title="B.I. Essentials";
+DELMGAApp.ProcessValidationCmd.Title="流程验证";
+DELMGAApp.LoadRelations.Title="加载关系";
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELMGAApp.ReplaceByExisting.Title="替换为现有项";
+DELMGAApp.ReplaceByNewRevision.Title="替换为新修订版";
+DELMGAApp.ReplaceByPredefined.Title="替换为预定义项";
+DELMGAApp.ReplaceByLatestRevision.Title="替换为最新修订版";
+DELMGAApp.ReplaceByNewReference.Title="替换为新项";
+DELMFNApp.ReplaceWhereUsed.Title="替换使用位置";
+//-------------------------------------------------
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELMGAApp_Cloud.Configuration.Title="配置";

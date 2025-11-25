@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+    <html style="height: 100%;">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="assets/CreateTask.css" />
+    </head>
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+    <script type="text/javascript" src="../c/UWA/js/UWA_Frame_Alone.js"></script>
+    <script type="text/javascript">
+        /* global define,  widget */
+        // This variable needs to be global for native apps integration using cef javascript handlers (js events). CEF: Chromium Embedded Framework.
+        let popupModel;
+        (function () {
+            'use strict';
+            require([ 
+            'UWA/Element',
+            'DS/CollabComponents/CreateTask',
+            'DS/Utilities/TouchUtils',
+            'DS/RDFFoundation/SecurityContextUtils',
+            'DS/RDFFoundation/RDFUtils',
+            'DS/E6WCommonUI/PlatformManager',
+            'DS/Controls/Button',
+            'DS/Foundation/WidgetUwaUtils',
+            'i18n!DS/E6WCommonUI/assets/nls/E6WCommonUINLS',
+            'i18n!DS/E6WCommonApps/assets/nls/CollaborativeTasksNLS',
+            'css!DS/E6WCommonApps/E6WCommonApps'], function (
+                Element,
+                CreateTask,
+                TouchUtils,
+                SecurityContextUtils,
+                RDFUtils,
+                PlatformManager,
+                WUXButton,
+                WidgetUwaUtils,
+                E6WCommonUINLS,
+                CollaborativeTasksNLS) {
+                var i18n = function(key) {
+                    var lRet = CollaborativeTasksNLS.get(key);
+                    lRet === key && (lRet = E6WCommonUINLS.get(key));
+                    return lRet;
+                };
+                TouchUtils.setTouchMode(true);
+                const createTaskParams = new URLSearchParams(window.location.search);
+                let tenantId = createTaskParams && createTaskParams.get('tenant') || 'fakeTenant';
+                let isOnPremise = tenantId === 'OnPremise';
+                var e6wUrl = window.location.href.replace('3DPLAN','enovia');
+                e6wUrl = e6wUrl.substring(0, e6wUrl.indexOf('/webapps'));
+                window.enoviaServer || WidgetUwaUtils.setupEnoviaServer({
+                    getUrl: () => {
+                        let url = '';
+                        if (!isOnPremise) {
+                            let paramUrl = createTaskParams.get('taskType') === 'standaloneTask' ? createTaskParams.get('url_3DPlan') : createTaskParams.get('url_3DSpace');
+                            url = paramUrl || e6wUrl.replace('3dplan','space');
+                        } else {
+                            if (createTaskParams.get('url_3DSpace')) {
+                                url = createTaskParams.get('url_3DSpace');
+                            } else {
+                                let index = enoviaServer && enoviaServer.storageUrl.search('com');
+                                let baseUrl = enoviaServer && enoviaServer.storageUrl.substring(0, index + 3);
+                                url = baseUrl + '/3DSpace';
+                            }
+                        }
+                        return url;
+                    }
+                });
+                window.isIFWE = true;
+                SecurityContextUtils.initSecurityContexts();
+                !window.widget && (window.widget = {
+                    getValue: (value) => {
+                        return widget[value];
+                    },
+                    setValue: (key, value) => {
+                        widget[key] = value;
+                    },
+                    getPreference: () => {},
+                    setPreference: () => {},
+                    x3dPlatformId: tenantId,
+                    lang: 'en' // TODO don't do this
+                })
+                PlatformManager.setTenant(tenantId);
+                if (!isOnPremise) {
+                    PlatformManager.storePlatformServiceData([{
+                        platformId: tenantId,
+                        '3dplan': createTaskParams.get('url_3DPlan') || window.location.href.substring(0, window.location.href.indexOf('/webapps'))
+                    }]);
+                    RDFUtils.typeDictionary.typeHierarchy = {};
+                }
+                let options = {};
+                options.tenant = tenantId;
+                options.taskType = createTaskParams.get('enableAllTaskTypes') ? null : 'simpleTask';
+                if (createTaskParams.get('taskType') && !isOnPremise) {
+                    options.taskType = createTaskParams.get('taskType');
+                };
+                if (createTaskParams.get('title')) {
+                    options.title = createTaskParams.get('title');
+                };
+                if (createTaskParams.get('description')) {
+                    options.description = createTaskParams.get('description');
+                };
+                if (createTaskParams.get('attachments')) {
+                    options.attachments = JSON.parse(createTaskParams.get('attachments'));
+                };
+                if (createTaskParams.get('deliverables')) {
+                    options.deliverables = JSON.parse(createTaskParams.get('deliverables'));
+                };
+                if (createTaskParams.get('scopes')) {
+                    options.scopes = createTaskParams.get('scopes');
+                };
+                if (createTaskParams.get('assignees')) {
+                    options.assignees = createTaskParams.get('assignees');
+                };
+                options.onCompleteCallback =  function (model,response,additionalOptions) {
+                    if (window.dscef) {
+                        let id = response['id'] ? response ['id'] : response['@id'];
+                        dscef.sendString('onCreate', JSON.stringify(id));
+                    }
+                };
+                options.onFailureCallback =  function (error) {
+                    if (window.dscef) {
+                        dscef.sendString('onFailure', JSON.stringify(error));
+                    }
+                };
+                options.onCancelCallback =  function (model,response,additionalOptions) {
+                    if (window.dscef) {
+                        dscef.sendString('onCancel');
+                    }
+                };
+                var taskObject = new CreateTask(options);
+                taskObject.render().inject(document.body);
+                function saveTask(){
+                    taskObject.processCreateTaskInput();
+                }
+                let saveBtn = new WUXButton({
+                    label: i18n('emxCollaborativeTasks.PopUp.Create'), // Should be NLS value
+                    emphasize: "primary",
+                    class: 'btn-create',
+                    onClick: taskObject.createTaskAction.bind(taskObject),
+                    role: WUXCustomButtonRoleEnum.Validate
+                });
+                let cancelBtn = new WUXButton({
+                    label: i18n('emxCollaborativeTasks.Command.Cancel'), // Should be NLS value
+                    class: 'btn-cancel',
+                    onClick: options.onCancelCallback,
+                    role: WUXCustomButtonRoleEnum.Validate
+                });
+                let footerDiv = new Element('div', {
+                    id: 'footer',
+                    name: 'footer'
+                });
+                saveBtn.inject(footerDiv);
+                cancelBtn.inject(footerDiv);
+                footerDiv.inject(document.body);
+        });
+    }());
+    </script>
+    <body id="externalCreateTask" style="height: 100%;">
+    </body>
+</html>

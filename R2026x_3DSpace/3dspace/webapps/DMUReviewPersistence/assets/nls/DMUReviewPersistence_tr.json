@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Komut başlatılamadı",
+  "LoadingPanel": "Yükleniyor...",
+  "cmdFailure": "Komut başlatılamadı",
+  "cmdFailureNls": "NLS Hatası: Komut başlatılamadı",
+  "SavingStep": "Kaydediliyor...",
+  "createReview": {
+    "quickEdition": "Bu iletişim kutusunu tekrar gösterme",
+    "errorMessage": "İnceleme oluşturma başarısız",
+    "errorShape": "3D Shape üzerinde İnceleme oluşturulamaz",
+    "multipleRootsLabel": "Bir bağlam seçin",
+    "nameLabel": "Başlık",
+    "defaultReviewName": "İnceleme",
+    "namePlaceholder": "Başlık ekle",
+    "descriptionLabel": "Tanım",
+    "descriptionPlaceholder": "Tanım ekle",
+    "restrictedEditionLabel": "Kısıtlı Düzenleme",
+    "restrictedEditionActivated": "Etkinleştirildi",
+    "restrictedEditionDeactivated": "Devre dışı bırakıldı",
+    "panelTitle": "Yeni İnceleme",
+    "panelValidationTitle": "Yeni Doğrulama",
+    "createreviewButton": "Oluştur",
+    "cancelButton": "İptal",
+    "importModel": "JSON Modelini içe aktar",
+    "slideTitle": "Slayt",
+    "loadingMessage": "Yeni bir inceleme oluşturuluyor...",
+    "warningMessage": "Mevcut inceleme, oturumda yenisi ile değiştirilecektir",
+    "labelReview": "İnceleme",
+    "labelMarkup": "İşaretleme",
+    "labelCheck": "Kontroller",
+    "labelMember": "Üyeler",
+    "labelObjects": "Nesneler",
+    "saveAsDraftButton": "Taslak olarak kaydet",
+    "reviewContext": "Bağlam",
+    "multiReviewsNaming": "Otomatik",
+    "validatedObjects": "Doğrulanmış Nesneler",
+    "changeAction": "Değişiklik Eylemi",
+    "chkListTitle": "Kontrol Listesi",
+    "autoCompletePlaceHolder": "buraya bırakın veya aramak için yazın",
+    "setValObjectAsValidatedNotif": "Bu nesne, onaylanmış nesne olarak ayarlanamaz",
+    "setSomeValObjectAsValidatedNotif": "Bazı nesneler, doğrulanmış nesne olarak ayarlanamaz",
+    "setDefaultNotif": "Bırakılan bazı nesneler desteklenmez",
+    "setDefaultChgActNotif": "Bu nesne, değişiklik eylemi olarak ayarlanamaz",
+    "setCtxRootNotif": "Çoklu seçim bırakma, bağlamlar için desteklenmez",
+    "setChgActNotif": "Çoklu seçim bırakma, değişiklik eylemleri için desteklenmez",
+    "setChgActCtxNotif": "Değişiklik eylemi bu Bağlam tipiyle ayarlanamaz",
+    "noCASearchFound": "Arama bulunamadı VEYA değişiklik zaten eklenmiş"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Bu iletişim kutusunu tekrar gösterme",
+    "errorMessage": "İşaretleme oluşturma başarısız",
+    "multipleRootsLabel": "Bir bağlam seçin",
+    "nameLabel": "Başlık",
+    "defaultMarkupName": " İşaretleme",
+    "namePlaceholder": "Başlık ekle",
+    "descriptionLabel": "Tanım",
+    "descriptionPlaceholder": "Tanım ekle",
+    "panelTitle": "Yeni İşaretleme",
+    "createMarkupButton": "Oluştur",
+    "cancelButton": "İptal",
+    "importModel": "JSON Modelini içe aktar",
+    "slideTitle": "Slayt",
+    "loadingMessage": "Yeni bir işaretleme oluşturuluyor...",
+    "warningMessage": "Mevcut işaretleme, oturumda yenisi ile değiştirilecektir"
+  },
+  "createCheck": {
+    "errorMessage": "Kontrol edilen gereksinim oluşturma başarısız",
+    "typeToSearch": "buraya bırakın veya aramak için yazın",
+    "noSearchFound": "Arama bulunamadı VEYA gereksinim zaten eklenmiş",
+    "requirement": "Gereksinimler"
+  },
+  "createHighlight": {
+    "errorMessage": "Vurgulama oluşturma başarısız",
+    "selectHighlight": "İşaretleme'de işaretlenmemiş bir yorum seçin"
+  },
+  "valStateChange": {
+    "error": "İnceleme doğrulama durumu değiştirilemedi."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "Doğrulanmış Nesne önceden mevcut",
+    "SelectMsg": "Eklenecek Doğrulanmış Nesneleri seçin",
+    "OkBtn": "Tamam",
+    "CancelBtn": "İptal"
+  },
+  "loadValidationContextError": "Bu tip veriler içeren incelemeler desteklenmez.",
+  "loadValidationMarkupError": "İnceleme yüklenemiyor.",
+  "page": "Sayfa",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Evreyi Temizle",
+      "message": "Seçilen yorumların evresini temizlemek istediğinizden emin misiniz?",
+      "okLabel": "Temizle"
+    },
+    "unableToMark": "Bazı yorumlarda durum değiştirilemiyor."
+  }
+}

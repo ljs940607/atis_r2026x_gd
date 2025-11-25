@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Řez";
+DMUSection.DMUSectionNoCutHdr.Title="Bez řezu";
+DMUSection.DMUSectionGridHdr.Title="Mřížka";
+DMUSection.DMUSectionFlipHdr.Title="Převrátit";
+DMUSection.DMUSectionNormalToXHdr.Title="Poloha k ose X";
+DMUSection.DMUSectionNormalToYHdr.Title="Poloha k ose Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Poloha k ose Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Poloha z geometrie";
+DMUSection.DMUSectionMoveHdr.Title="Posunout bod pohledu";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Část Sekundární prohlížeč";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Selektivní řez";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Odebrat";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Ukončit úpravy oříznutí";
+DMUSection.DMUClippingEditionHdr.Title="Upravit oříznutí";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Oříznout podle konstrukční položky";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Oříznout podle části";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Změnit velikost z vybraných objektů";
+DMUSection.DMUResetClippingPlaneHdr.Title="Resetovat oříznutí";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Oříznout podle průřezu";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Změnit velikost z vybraných objektů";
+DMUSection.DMUResetClippingSliceHdr.Title="Resetovat oříznutí";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Oříznout podle rámečku";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Změnit velikost z vybraných objektů";
+DMUSection.DMUResetClippingBoxHdr.Title="Resetovat oříznutí";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Poloha na ose X";
+DMUSection.DMUClippingNormalToYHdr.Title="Poloha na ose Y";
+DMUSection.DMUClippingNormalToZHdr.Title="Poloha na ose Z";
+DMUSection.DMUClippingNormalUserHdr.Title="Poloha z vybrané geometrie";
+DMUSection.DMUClippingReverseHdr.Title="Obrátit oříznutí";
+DMUSection.DMUContourViewerHdr.Title="Část Sekundární prohlížeč";
+DMUSection.DMUClippingPositionHdr.Title="Poloha oříznutí...";
+DMUSection.DMUAlignViewHdr.Title="Zarovnat zorný bod";
+DMUSection.DMUHideShowHdr.Title="Skrýt/zobrazit";
+DMUSection.DMUCutUncutHdr.Title="Řez/Zrušit řez";
+DMUSection.DMUClippingEditStr.Title="Výstřižky";
+DMUSection.DMUClippingPropertiesHdr.Title="Vlastnosti";

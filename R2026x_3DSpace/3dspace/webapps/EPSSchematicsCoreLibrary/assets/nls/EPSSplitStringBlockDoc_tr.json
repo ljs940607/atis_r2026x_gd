@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Belirlenen ayırıcıyı kullanarak karakter dizesini bir dizeler dizisine böler.",
+  "description": "Tespit edilen <doc-idp-name translate=no>Separator</doc-idp-name> dizeden çıkarılır ve alt dizeler bir dizi haline getirilir.<br><doc-idp-name translate=no>Separator</doc-idp-name> tespit edilmezse veya atlanırsa dizi, dizenin tamamından oluşan tek eleman içerir.<br><doc-idp-name translate=no>Separator</doc-idp-name> boş bir dizeyse <code>Girdi Dizesi</code> bir karakter dizisine dönüştürülür.<br><doc-idp-name translate=no>Separator</doc-idp-name> dizenin başında veya sonunda ya da her ikisinde bulunuyorsa dizi, sırasıyla boş bir dizeyle başlar, biter veya hem başlar hem de biter.<br>Bu durumda dize tek bir <doc-idp-name translate=no>Separator</doc-idp-name> örneği içeriyorsa dizide iki boş dize bulunacaktır.",
+  "dataPorts": {
+    "Input String": "bölünecek karakter dizesi.",
+    "Seperator": "her bir ayrımın nerede yapılacağını belirlemek için kullanılacak dize ayırıcı.",
+    "Max Count": "bulunacak maksimum ayırma sayısı.",
+    "Splits": "ilgili dizede ayırıcının bulunduğu her noktada bir dize dizisi ayrımı gerçekleşir."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

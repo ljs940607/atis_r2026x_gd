@@ -1,0 +1,15 @@
+{
+"ToggleDataGridView.Title":"显示 2D 结构视图",
+"ToggleDataGridView.ShortHelp":"显示或隐藏 2D 结构视图",
+"ToggleDataGridView.LongHelp":"激活命令以在 2D 结构中导航、交叉突出显示、隐藏/显示和重新构造 3D 图形。",
+"DELWeb3DGenerateIssueCmd.Title":"生成问题",
+"DELWeb3DGenerateIssueCmd.ShortHelp":"允许您生成问题。",
+"DELWeb3DGenerateIssueCmd.LongHelp":"选择单个或多个对象以创建问题。",
+"DELOERRelationalNavigatorCmd.Title":"关系",
+"DELOERRelationalNavigatorCmd.ShortHelp":"打开“关系”小组件并显示相关对象的生态系统。",
+"DELWeb3DFilterCmd.Title":"过滤器",
+"DELWeb3DFilterCmd.ShortHelp":"按属性、选择、配置或按包络体过滤结构。",
+"DELWeb3DFilterCmd.LongHelp":"打开过滤器面板，您可以在其中定义条件来按属性、选择或配置或按包络体过滤结构。",
+"CleanAll.Title":"关闭",
+"CleanAll.ShortHelp":"从视图中关闭所有对象。"
+}

@@ -1,0 +1,1 @@
+define("DS/WUXAutoComplete/WUXAutoComplete_tr",{});define("DS/WUXAutoComplete/assets/nls/translation",{AutoComplete:{Placeholder:"Ara",CustomFilterMessage:"Hiçbir Nesne Bulunamadı",Loading:"Yükleniyor...",Loading_Alt:"Yükleniyor"}});

@@ -1,0 +1,1 @@
+define("DS/CATW3DConstraints/CATW3DConstraints_tr",{});define("DS/CATW3DConstraints/assets/nls/CATW3DConstraintsView",{cstCoincidence:"Çakışma",cstContact:"Temas",plane:"Düzlem",sidePanel:"Yakalama alternatifleri"});

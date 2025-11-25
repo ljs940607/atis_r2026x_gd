@@ -1,0 +1,322 @@
+{
+  "ROUTINGS":{
+    "moduleIcon":"WORKORDER",
+    "moduleTitle":"",
+    "isAuthoringAllowed":true,
+    "registerRoots":true,
+    "isLoadObjectsinViews":true,
+    "pprTypes":[
+      "WORKORDER",
+      "EXECHEADER",
+      "STEP",
+      "WORKINSTRUCTION"
+    ],
+    "addToAuxIfNotAcceptedType":true,
+    "implementing":true,
+    "implemented":false,
+    "enableCrossHighlight":true,
+    "linkTypes":[
+      "DELLmiProductionSystemOutputCnxToMBOM",
+      "DELAsmProcessCanUseCnx",
+      "SecondaryCandidateResourceLink",
+      "CapableResourcesStructureLink",
+      "ProcessImplementLink",
+      "ProcessImplementLinkOcc",
+      "DELLmiTimeConstraintCnx",
+      "ProductImplementLink",
+      "PLMDocConnection"
+    ],
+    "crossHighLightLinkTypes":{
+      "SYSTEM" 		: ["HistorizationLinkRefRef"],
+      "OPERATION" 	: ["HistorizationLinkRefRef"],
+      "PROCESS"		: ["ProcessImplementLink", "PartialProcessImplementLink", "ProcessImplementLinkOcc", "DELLmiProductionSystemOutputCnxToMBOM", "PartialProductImplementLink"],
+      "RESOURCE"		: ["CapableResourcesStructureLink", "DELAsmProcessCanUseCnx", "DELLmiExecAsmProcessCanUseCnx", "SecondaryCandidateResourceLink", "AssignedWorkCenterLink" , "DELLmiExecSecondaryCandidateResourceLink"]
+    },
+    "loadConectedObjLinkTypes":[
+      "ProcessImplementLink",
+      "DELLmiProductionSystemOutputCnxToMBOM",
+      "DELAsmProcessCanUseCnx",
+      "SecondaryCandidateResourceLink",
+      "CapableResourcesStructureLink"
+    ],
+    "displayBadge":{
+      "linkType":"ProcessImplementLink",
+      "badgeIcon":"Scope"
+    },
+    "views":{
+      "treeListView":{
+        "enableDragAndDrop":true,
+        "showTagger":true,
+        "headerContextualCommands":[
+          "SizeColumnToFit",
+          "SizeAllColumnsToFit",
+          "SortAToZ",
+          "SortZToA",
+          "HideColumn",
+          "PinColumn",
+          "UnpinColumn",
+          "FilterColumn",
+          "ResetFilterColumn"
+        ],
+        "contextualCommands":[
+          "EditAttribute",
+          "DisplayProperties",
+          "ExpandAll",
+          "CollapseAll",
+          "ExploreInWebApp",
+          "ApplyConfiguration"
+        ],
+        "toolTipConfigXML":"toolTipConfigXML"
+      }
+    },
+    "columnConfigName":"ROUTINGS.columnConfigPath",
+    "exportCSVPreferencesXML":"exportCSVPreferencesXML",
+    "exportCSVFileName":"WKO",
+    "registerViewPreference":true,
+    "registerLayoutPreference":true,
+    "editFormAttributesXML":"editFormAttributesXML",
+    "biStatusType" : "SystemUpdateStatus",
+    "pprTypesWithSupportedViews" : [
+      "PROCESS",
+      "RESOURCE"
+    ],
+    "pprTypesWithSupportedRoot" : [
+      "WORKORDER"
+    ],
+    "filterModel" : true
+  },
+  "MANUFACTURING":{
+    "moduleIcon":"PROCESS",
+    "moduleTitle":"",
+    "isAuthoringAllowed":true,
+    "registerRoots":true,
+    "pprTypes":[
+      "PROCESS"
+    ],
+    "implementing":false,
+    "implemented":true,
+    "enableCrossHighlight":true,
+    "linkTypes":[
+      "ProcessImplementLink",
+      "ProcessImplementLinkOcc",
+      "DELLmiProductionSystemOutputCnxToMBOM",
+      "PLMDocConnection",
+      "MfgProductionPlanning"
+    ],
+    "crossHighLightLinkTypes":{
+      "SYSTEM" 		: ["ProcessImplementLink", "DELLmiProductionSystemOutputCnxToMBOM"],
+      "OPERATION" 	: ["PartialProcessImplementLink", "ProcessImplementLinkOcc", "DELLmiProductionSystemOutputCnxToMBOM", "MfgProductionPlanning", "DELIsSerializedFrom"],
+      "PROCESS"		: ["HistorizationLinkRefRef", "MfgProcessAlternate"],
+      "RESOURCE"		: ["DELAsmProcessCanUseCnx"],
+      "WORKORDER" : ["PartialProductImplementLink","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx"],
+      "EXECHEADER" : ["DELIsSerializedFromOp", "DELIsSerializedFrom","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx", "ItemSpecOcc"],
+      "STEP" : ["DELIsSerializedFromOp", "DELIsSerializedFrom","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx", "ProcessImplementLinkOcc", "ItemSpecOcc"]
+    },
+    "views":{
+      "treeListView":{
+        "enableDragAndDrop":true,
+        "showTagger":true,
+        "headerContextualCommands":[
+          "SizeColumnToFit",
+          "SizeAllColumnsToFit",
+          "SortAToZ",
+          "SortZToA",
+          "HideColumn"
+        ],
+        "contextualCommands":[
+          "Relations",
+          "EditAttribute",
+          "DisplayProperties",
+          "ExpandAll",
+          "CollapseAll",
+          "Refresh",
+          "ExploreInWebApp",
+          "RemoveConfiguration"
+        ],
+        "toolTipConfigXML":"toolTipConfigXML"
+      }
+    },
+    "columnConfigName":"MANUFACTURING.columnConfigPath",
+    "registerViewPreference":true,
+    "registerLayoutPreference":true,
+    "biStatusType" : "ItemAssignmentStatus",
+    "hasReadOnlyTypes": true
+  },
+  "RESOURCE":{
+    "moduleIcon":"RESOURCE",
+    "moduleTitle":"",
+    "isAuthoringAllowed":true,
+    "registerRoots":true,
+    "pprTypes":[
+      "RESOURCE"
+    ],
+    "implementing":false,
+    "implemented":true,
+    "enableCrossHighlight":true,
+    "linkTypes":[
+      "DELAsmProcessCanUseCnx",
+      "PLMDocConnection"
+    ],
+    "crossHighLightLinkTypes":{
+      "SYSTEM" 		: ["CapableResourcesStructureLink", "DELAsmProcessCanUseCnx"],
+      "OPERATION" 	: ["DELAsmProcessCanUseCnx", "SecondaryCandidateResourceLink"],
+      "PROCESS"		: ["DELAsmProcessCanUseCnx"],
+      "RESOURCE"		: ["HistorizationLinkRefRef", "DELAsmProcessCanUseCnx", "SecondaryCandidateResourceLink"],
+      "WORKORDER" 		: ["AssetContextLink", "DELIsSerializedFromOp", "DELIsSerializedFrom","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx"],
+      "EXECHEADER" : ["DELIsSerializedFromOp", "DELIsSerializedFrom","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx", "DELLmiExecAsmProcessCanUseCnx", "AssignedWorkCenterLink", "DELLmiExecSecondaryCandidateResourceLink"],
+      "STEP" : ["DELIsSerializedFromOp", "DELIsSerializedFrom","CapableResourcesStructureLink", "DELAsmProcessCanUseCnx", "DELLmiExecAsmProcessCanUseCnxDetails", "ProcessImplementLinkOcc" , "DELLmiExecSecondaryCandidateResourceLinkDetails"]
+    },
+    "views":{
+      "treeListView":{
+        "enableDragAndDrop":true,
+        "showTagger":true,
+        "headerContextualCommands":[
+          "SizeColumnToFit",
+          "SizeAllColumnsToFit",
+          "SortAToZ",
+          "SortZToA"
+        ],
+        "contextualCommands":[
+          "Relations",
+          "EditAttribute",
+          "DisplayProperties",
+          "ExpandAll",
+          "CollapseAll",
+          "Refresh",
+          "ExploreInWebApp"
+        ],
+        "toolTipConfigXML":"toolTipConfigXML"
+      }
+    },
+    "columnConfigName":"RESOURCE.columnConfigPath",
+    "registerViewPreference":true,
+    "registerLayoutPreference":true
+  },
+  "EGRAPHMOD":{
+    "displayNodeConfigXML":"egraphViewNodePreferenceXML",
+    "displayLinkConfigXML":"egraphViewLinkPreferenceXML",
+    "editFormAttributesXML":"editFormAttributesXML",
+    "titleGraph":"GraphView.PanelTitle",
+    "showReloadAction":true,
+    "showGraphViewFilter":true,
+    "graphType":0,
+    "toggleCmdId":"ShowGraphView"
+  },
+  "PRODUCTFLOWMOD":{
+    "displayNodeConfigXML":"productFlowViewNodePreferenceXML",
+    "editFormAttributesXML":"editFormAttributesXML",
+    "titleGraph":"ProductFlowCmd.Title",
+    "showReloadAction":true,
+    "showGraphViewFilter":false,
+    "graphType":1,
+    "toggleCmdId":"ProductFlowCmd",
+    "showPanel": true
+  },
+  "MATURITYMOD":{
+    "toggleCmdId":"MaturityCmdCloud"
+  },
+  "LINKS":{
+    "frameWindow":"",
+    "relatedCmdId":"Relations",
+    "relationsDialogDisplayAttributeConfigXML":"relationsDialogDisplayAttributeConfigXML",
+    "editFormAttributesXML":"editFormAttributesXML",
+    "pprTypes":{
+      "SYSTEM":{
+        "icon":"SYSTEM",
+        "view":"PPRTYPE.SYSTEM"
+      },
+      "OPERATION":{
+        "icon":"SYSTEM",
+        "view":"PPRTYPE.SYSTEM"
+      },
+      "PROCESS":{
+        "icon":"PROCESS",
+        "view":"PPRTYPE.PROCESS"
+      },
+      "RESOURCE":{
+        "icon":"RESOURCE",
+        "view":"PPRTYPE.RESOURCE"
+      },
+      "PPLAN":{
+        "icon":"PPLAN",
+        "view":"PPRTYPE.PPLAN"
+      },
+      "BUILDS":{
+        "icon":"BUILDS",
+        "view":"PPRTYPE.BUILDS"
+      }
+    }
+  },
+  "INSTCMDMOD":{
+    "insertFormAttributeXML":"insertFormAttributeXML"
+  },
+  "CREATEWKOCMDMOD":{
+    "createWorkOrderFromProcessFormAttributeXML":"createWorkOrderFromProcessFormAttributeXML",
+    "explodeWorkOrderFromProcessFormAttributeXML":"explodeWorkOrderFromProcessFormAttributeXML"
+  },
+  "AUXILIARY":{
+    "withLinksResolved":false,
+    "registerRoots":true,
+    "pprTypes":[
+      "WORKORDER"
+    ],
+    "linkTypes":[
+    ],
+    "displayBadge":{
+    },
+    "views":{
+      "treeListView":{
+        "enableDragAndDrop":true,
+        "showTagger":true,
+        "showSelection":true,
+        "headerContextualCommands":[
+          "SizeColumnToFit",
+          "SizeAllColumnsToFit",
+          "SortAToZ",
+          "SortZToA"
+        ],
+        "contextualCommands":[
+          "Relations",
+          "DisplayProperties",
+          "Refresh"
+        ],
+        "toolTipConfigXML":"toolTipConfigXML"
+      }
+    },
+    "columnConfigName":"AUXILIARY.columnConfigPath",
+    "hasReadOnlyTypes": true,
+    "expandState" : "noChildren"
+  },
+  "DOCUMENTSMOD":{
+    "pprTypes":[
+      "PROCESS",
+      "SYSTEM",
+      "OPERATION",
+      "RESOURCE"
+    ]
+  },
+  "MIL": {
+    "pprTypes": [ "PROCESS" ],
+    "linkTypes": [],
+    "views": {
+      "treeListView": {
+        "headerContextualCommands":["SortAToZ", "SortZToA"],
+        "contextualCommands": []
+      }
+    },
+    "columnConfigName": "MIL.columnConfigPath",
+    "manageInconsistentLinksCmdId": "ManageInconsistentLinks"
+  },
+  "WKIMOD":{
+    "editFormAttributesXML": "editDataCollectRowAttributesXML"
+  },
+  "MANAGECAPABLERESOURCESMOD": {
+    "pprTypes":[
+      "RESOURCE"
+    ],
+    "manageCapableResourcesCmdId": "ManageCapableResources"
+  },
+  "DELETECMDMOD":{
+    "toggleCmdId":"DeleteCmdCloud"
+  }
+}

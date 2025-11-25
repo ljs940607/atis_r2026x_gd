@@ -1,0 +1,1 @@
+define("DS/ENOChgOSLCConsumer/ENOChgOSLCConsumer_tr",{});define("DS/ENOChgOSLCConsumer/assets/nls/ECMOSLC",{ECM_OSLC_Select_Reported_Against:"Aleyhinde Rapor Edildi'yi Seç",ECM_OSLC_Select_External_Change:"Harici Değişikliği Seç",ECM_OSLC_Create_External_Change:"Harici Değişiklik Oluştur"});

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="21" y1="20.03" x2="29" y2="20.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#464646"/>
+      <stop offset="1" stop-color="#141414"/>
+    </linearGradient>
+    <linearGradient id="f" x1="16.93" y1="13.26" x2="38.71" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="j" x1="20.63" y1="12.31" x2="43.37" y2="51.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3287af"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="k" x1="35.36" y1="9.5" x2="42.91" y2="22.57" xlink:href="#f"/>
+    <linearGradient id="l" x1="22.47" y1="28.3" x2="24.51" y2="31.84" xlink:href="#j"/>
+    <linearGradient id="m" x1="25.96" y1="32.57" x2="28.98" y2="37.8" xlink:href="#j"/>
+    <linearGradient id="n" x1="31.28" y1="37.77" x2="33.68" y2="41.93" xlink:href="#j"/>
+    <linearGradient id="o" x1="39.01" y1="41.84" x2="40.96" y2="45.23" xlink:href="#j"/>
+    <linearGradient id="p" x1="34.44" y1="19.5" x2="36.44" y2="22.97" xlink:href="#j"/>
+    <linearGradient id="r" x1="38.16" y1="29.96" x2="53.62" y2="56.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+  </defs>
+  <g id="h" data-name="DocText">
+    <g id="i" data-name="BKG">
+      <path d="M32,10.02c-.68,0-1.36.17-1.97.51l-15.95,9.01c-1.29.73-2.08,2.09-2.08,3.55v17.79c0,1.46.8,2.82,2.08,3.55l15.95,9.01c1.21.69,2.72.69,3.94,0l15.95-9.01c1.29-.73,2.08-2.09,2.08-3.55v-17.79c0-1.46-.8-2.82-2.08-3.55l-15.95-9.01c-.61-.34-1.29-.51-1.97-.51Z" fill="#fff" opacity=".3"/>
+      <path d="M50.9,46.19l-15.95,9.01c-1.83,1.04-4.07,1.04-5.91,0l-15.95-9.01c-1.92-1.08-3.1-3.1-3.1-5.29v-17.79c0-2.19,1.18-4.21,3.1-5.29l15.95-9.01c1.83-1.04,4.07-1.04,5.91,0l15.95,9.01c1.92,1.08,3.1,3.1,3.1,5.29v17.79c0,2.19-1.18,4.21-3.1,5.29Z" fill="none" stroke="url(#j)" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g>
+      <polygon points="46.5 46.5 16.5 56.5 16.5 13.51 34.5 10 46.5 20.5 46.5 46.5" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      <g>
+        <polygon points="46.5 46.5 16.5 56.5 16.5 13.51 34.5 10 46.5 20.5 46.5 46.5" fill="url(#f)" stroke="#787878" stroke-linejoin="round"/>
+        <path d="M46.83,20.12l-12-10.5c-.15-.13-.36-.16-.54-.08-.18.08-.29.26-.29.46v13c0,.15.07.29.18.39.09.07.2.11.32.11.03,0,.07,0,.1-.01l12-2.5c.19-.04.33-.18.38-.36.05-.18-.01-.38-.15-.5Z" opacity=".15"/>
+        <polygon points="34.5 10 37.5 21.5 46.5 20.5 34.5 10" fill="url(#k)" stroke="#787878" stroke-linejoin="round"/>
+      </g>
+      <polygon points="46.5 46.5 16.5 56.5 16.5 13.51 34.5 10 46.5 20.5 46.5 46.5" fill="none" stroke="#323232" stroke-linejoin="round"/>
+      <polygon points="26 27.89 26 30.98 21 32.29 21 29.15 26 27.89" fill="url(#l)"/>
+      <polygon points="43 23.59 43 26.51 29 30.19 29 27.13 43 23.59" fill="#646464" opacity=".5"/>
+      <polygon points="43 29.44 43 32.36 37 34.05 37 31.07 43 29.44" fill="#646464" opacity=".5"/>
+      <polygon points="34 31.89 34 34.9 21 38.57 21 35.43 34 31.89" fill="url(#m)"/>
+      <polygon points="37 37.03 37 40.02 28 42.74 28 39.66 37 37.03" fill="url(#n)"/>
+      <polygon points="25 40.54 25 43.65 21 44.86 21 41.71 25 40.54" fill="#646464" opacity=".5"/>
+      <polygon points="43 35.28 43 38.21 40 39.12 40 36.16 43 35.28" fill="#646464" opacity=".5"/>
+      <polygon points="34 43.94 34 46.95 21 51.14 21 48 34 43.94" fill="#646464" opacity=".5"/>
+      <polygon points="43 41.13 43 44.05 37 45.98 37 43 43 41.13" fill="url(#o)"/>
+      <path d="M38.25,21.92l-4.25,1.01v-3.18l2.38-.57.64,2.45c.05.22.25.37.48.37h.06l.69-.08Z" fill="url(#p)"/>
+      <polygon points="35.68 16.51 31 17.53 31 14.48 34.94 13.65 35.68 16.51" fill="#646464" opacity=".5"/>
+      <path d="M28.77,15l-7.54,1.56-.23,2.04.92-.19.16-.67c.02-.08.07-.15.15-.21.09-.06.19-.11.3-.13l1.47-.29v6.25c0,.11-.03.21-.08.31-.05.09-.11.16-.18.19l-.74.32v.88l4-.81v-.88l-.76-.03c-.08,0-.14-.04-.18-.11-.05-.08-.06-.17-.06-.28v-6.25l1.47-.31c.11-.02.21-.02.3,0,.09.02.14.07.16.14l.16.61.92-.19-.23-1.94Z" fill="url(#a)"/>
+    </g>
+  </g>
+  <g id="q" data-name="Tree">
+    <path d="M57.5,43.5v-7l-12,3v2l-4,1v-5.5l6-1.5v-7l-12,3v7l3-.75v19.75l7-2v2l12-3v-7l-12,3v2l-4,1v-8l4-1v2l12-3ZM37.5,35.5v-2l8-2v2l-8,2Z" fill="#fff" opacity=".75" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M57.5,43.5v-7l-12,3v2l-4,1v-5.5l6-1.5v-7l-12,3v7l3-.75v19.75l7-2v2l12-3v-7l-12,3v2l-4,1v-8l4-1v2l12-3ZM37.5,35.5v-2l8-2v2l-8,2Z" fill="url(#r)" stroke="#003755" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+{
+	"createNewProduct": "New Product",
+	"insertNewProduct" : "Insert New Product",
+	"newObjectType" : "Product",
+	
+	"multiParentInsertProductTitle" : "Insert new Product",
+	"multiParentInsertProductMsg" : "Are you sure you want to insert a new Product under multiple parents?",
+	"multiParentCannotInsert": "Error :Cannot insert under selected object(s)",
+	
+	"CannotInsert.Type":"You cannot insert this object type under the selected object: {type}",
+	
+	"okBtn" : "OK",
+	"closeBtn" : "Close"
+}

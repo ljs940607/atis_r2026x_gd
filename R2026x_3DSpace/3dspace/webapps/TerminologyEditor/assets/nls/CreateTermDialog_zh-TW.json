@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "建立瀏覽節點",
+    "terminologyCreation": "建立瀏覽結構"
+  },
+  "options": {
+    "title": "標題",
+    "titleMessage": "您必須輸入一個標題",
+    "description": "說明",
+    "descMessage": "請輸入說明"
+  },
+  "buttons": {
+    "create": "產生",
+    "cancel": "取消"
+  },
+  "error": {
+    "invalidFrame": "所選框架無效，無法建立對話方塊",
+    "missingcallback": "遺漏回呼",
+    "invalidType": "您應該呼叫此指令以建立瀏覽結構或瀏覽節點"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Create": "Oluştur",
+  "Cancel": "İptal",
+  "Title": "Başlık",
+  "CreateACommunity": "Bir topluluk oluşturun",
+  "TransformADMIntoACommunity": "Bir sohbetten topluluk oluşturun",
+  "CommunityType": "Topluluk Tipi",
+  "Loading": "Yükleniyor...",
+  "Description": "Tanım",
+  "anErrorOccuredPleaseTryLater": "Başka bir topluluk zaten aynı başlığı kullanıyor. Lütfen topluluğun başlığını değiştirin.",
+  "communityhasbeencreated": "Topluluk oluşturuldu",
+  "AnerroroccurredwhilecreatingthecommunityPleasetryagainorcontactyouradministrator": "Topluluk oluşturulurken hata oluştu. Lütfen tekrar deneyin veya yöneticinizle iletişime geçin",
+  "CommunityOwner": "Topluluk Sahibi",
+  "selectACommunityType": "Topluluk tipi seçin",
+  "PleaseFillInAllTheFields": "Lütfen tüm alanları doldurun",
+  "similarCommunityNameAlreadyExists": "Benzer topluluk adı zaten var.",
+  "pleaseChooseCommunityOwner": "Lütfen bir topluluk sahibi belirleyin",
+  "Apendingusercannotbechosenasacommunitymainowner": "Beklemedeki bir kullanıcı, topluluk ana sahibi olarak seçilemez",
+  "Pleaseaddacommunitytitle": "Lütfen bir topluluk başlığı ekleyin",
+  "Pleaseaddacommunitydescription": "Lütfen bir topluluk tanımı ekleyin",
+  "CurrentUserNotFound": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+}

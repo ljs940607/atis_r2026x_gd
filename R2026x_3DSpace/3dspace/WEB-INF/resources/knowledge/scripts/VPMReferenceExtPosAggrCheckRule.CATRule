@@ -1,0 +1,21 @@
+/* VPMReferenceExtPos can not instantiate 3DShape or Review */
+/* ThisObject => parent reference = instance.to */
+/* Parameters->GetAttributeObject("ReferenceToInstantiate") => child reference = instance.from */
+let ReferenceToInstantiate(PLMEntity)
+set ReferenceToInstantiate = Parameters->GetAttributeObject("ReferenceToInstantiate")
+
+Validation = true
+if (ThisObject.IsSupporting("VPMReferenceExtPos") == true) {
+    if (ReferenceToInstantiate.IsSupporting("3DShape") == true) {
+        // VPMReferenceExtPos could not instantiate 3DShape.
+        Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck5.Title")
+        Parameters.Message=BuildMessageNLS("VDRPCheckRules","ValidationCheck5.Title")
+        Validation = false
+    }
+    else if (ReferenceToInstantiate.IsSupporting("Review") == true) {
+        // VPMReferenceExtPos could not instantiate Markup.
+        Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck6.Title")
+        Parameters.Message=BuildMessageNLS("VDRPCheckRules","ValidationCheck6.Title")
+        Validation = false
+    }
+}

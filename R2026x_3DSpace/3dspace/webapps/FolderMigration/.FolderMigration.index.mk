@@ -1,0 +1,9 @@
+m|FolderNGUX\FolderMigration.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25081|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\FolderMigration\FolderMigration.js|1742620250|4018
+s|FolderNGUX\FolderMigration.mweb\src\FolderMigration.js|1741259171|14990
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

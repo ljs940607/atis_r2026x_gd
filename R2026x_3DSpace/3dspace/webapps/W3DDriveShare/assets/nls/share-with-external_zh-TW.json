@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "啟用外部共用連結",
+  "activateShareByLinkDescription": "擁有下列連結的任何人都可以預覽和下載此內容。",
+  "expirationDate": "到期日期：{date}",
+  "restrictAccessToSpecificUsers": "限制特定使用者的存取權",
+  "addRestrictions": "加入限制",
+  "noRestrictedEmails": "沒有人可以存取該內容",
+  "addMessage": "加入訊息",
+  "enterMessageDescription": "輸入自訂訊息，其將新增至已傳送的電子郵件",
+  "addRestrictedUsersDescription": "受限制的使用者允許僅將內容存取權限授予連結這些電子郵件的帳戶",
+  "authorizedList": "授權清單 ({count}/{max})",
+  "restrictionsCount": "{count}/{max} 項限制",
+  "close": "關閉",
+  "share": "分享",
+  "copyExternalLink": "複製外部連結",
+  "enableGuestComments": "啟用訪客註解",
+  "enableGuestCommentsDescription": "任何使用此連結的人都能對內容發表註解並閱讀所有註解，包括平台成員先前發表的任何註解",
+  "externalSharingFeatureDisabled": "此平台未啟用外部共用功能。請聯絡您的管理員。",
+  "cannotAccessContent": "無法存取內容。",
+  "platformNotAccessible": "無法存取平台。"
+}

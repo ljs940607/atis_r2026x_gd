@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "儲存",
+  "CREOOpenGroupLabel": "開啟",
+  "CREOMissingLinksWarningLabel": "儲存有遺失參考的檔案",
+  "CREOMissingLinksWarningInfo": "啟用時，如果在 Creo 參數工作階段的儲存操作期間，有任何子項設計遺失，將會出現警告。停用時，則不顯示警告且繼續執行儲存操作。",
+  "CREOPartFamilyInstanceHandlingLabel": "Creo 零件系列副本處理",
+  "CREOPartFamilyInstanceHandlingInfo": "決定在儲存期間如何處理「Creo 零件系列表格」副本：<br><strong>PartFamilyInstanceLight</strong> - 僅針對使用中的副本產生 XPR 檔案。<br><strong>PartFamilyInstanceLoaded</strong> - 為所有副本產生 XPR 檔案。",
+  "CREOCADAttributeMappedToEINLabel": "對應至 EIN 的 CAD 屬性",
+  "CREOCADAttributeMappedToEINInfo": "指定此屬性的數值時，功能即會啟用，我們會使用此屬性標記 CAD 檔案，其數值則會是實體產品的 EIN。",
+  "EnterpriseItemNumberGroupLabel": "企業項目編號",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "過濾掉沒有幾何和子節點的 3DEXPERIENCE 工程項目",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "過濾掉沒有幾何和子節點的 3DEXPERIENCE 工程項目。"
+}

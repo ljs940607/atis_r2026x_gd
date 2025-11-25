@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "Proprietà di costruzione"
+  },
+  "construction": {
+    "loading": "Carica proprietà di costruzione",
+    "attFromObj": "Recupera attributi disponibili dall'oggetto",
+    "objAttr": "Recupera valore degli attributi dell'oggetto",
+    "attrGlobal": "Attributi"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "Dominio non supportato dell'oggetto selezionato.",
+    "unknownI3dx": "Impossibile trovare l'oggetto nell'origine dati."
+  },
+  "customAttributesDlg": {
+    "title": "Proprietà di costruzione"
+  },
+  "customAttributes": {
+    "loading": "Caricamento proprietà dinamiche in corso",
+    "attFromObj": "Recupera attributi esterni disponibili dall'oggetto",
+    "objAttr": "Recupera valore degli attributi dell'oggetto",
+    "attrGlobal": "Attributi",
+    "noAttributes": "Nessun attributo da visualizzare"
+  }
+}

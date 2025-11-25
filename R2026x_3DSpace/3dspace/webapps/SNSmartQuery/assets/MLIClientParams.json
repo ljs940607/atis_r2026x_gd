@@ -1,0 +1,10 @@
+{
+    "apiUrl":"v1/chat/completions",
+    "model":"netvibes/nlq-msphi3.5-r2025xfd02",
+    "opModel":"meta-llama/Llama-3.1-8B-Instruct",
+    "with_prompt":false,
+    "max_tokens":"500",
+    "top_p":"1",
+    "temperature":"0.7",
+    "timeout":"15"
+}

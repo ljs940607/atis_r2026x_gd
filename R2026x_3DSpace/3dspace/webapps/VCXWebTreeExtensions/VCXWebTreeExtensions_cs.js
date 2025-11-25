@@ -1,0 +1,1 @@
+define("DS/VCXWebTreeExtensions/VCXWebTreeExtensions_cs",{});define("DS/VCXWebTreeExtensions/assets/nls/VCXWebTreeExtensions",{"VCXTreeNodeSelectionSetAuthoring.ContextualMenu.AddSelectionSet":"Přidat výběr do sady výběru","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Delete":"Odstranit","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Rename":"Přejmenovat"});

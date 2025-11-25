@@ -1,0 +1,21 @@
+{
+  "afrService": false,
+  "afrAppId": "ENOI3S_AP",
+  "afrFamily": "PAD3DViewerWAFRFamily",
+  "afrSpecializations": ["ENOI3S_AP_Cloud"],
+  "afrTransitionsFrom": {
+    "ENOI3S_AP": {
+      "type": "CreateNewContainer"
+    }
+  },
+  "afrTransitionsFromFamily": {
+    "PAD3DViewerWAFRFamily": {
+      "type": "ReuseContext"
+    }
+  },
+  "afrTransitionsTo": {
+    "_default_": {
+      "type": "CreateNewContainer"
+    }
+  }
+}

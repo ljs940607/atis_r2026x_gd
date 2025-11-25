@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "여기에 콘텐츠 놓기",
+  "orMessage": "또는",
+  "upContent": "콘텐츠 업로드",
+  "wrongFileType": "잘못된 파일 유형",
+  "fileTooBig": "파일 크기 초과. 제한: {0}",
+  "bytes": "바이트",
+  "kiloByte": "Kb",
+  "megaByte": "Mb",
+  "gigaByte": "Gb",
+  "teraByte": "Tb",
+  "filesExceedSizeOf": "{0}/{1}개 파일이 크기 한도 {2}을(를) 초과합니다.",
+  "filesHaveWrongFormat": "{0}/{1}개 파일의 형식이 잘못되었습니다."
+}

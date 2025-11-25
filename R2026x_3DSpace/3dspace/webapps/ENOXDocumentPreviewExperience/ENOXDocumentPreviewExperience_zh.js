@@ -1,0 +1,1 @@
+define("DS/ENOXDocumentPreviewExperience/ENOXDocumentPreviewExperience_zh",{});define("DS/ENOXDocumentPreviewExperience/assets/nls/ENOXDocumentPreviewExperience",{INFORMATION:"信息",COMMENTS:"备注",COPY_LINK:"复制链接",SHARE:"共享",DOWNLOAD:"下载",DOWNLOAD_FILE:"下载文件",DOWNLOAD_DOCUMENT:"下载文档",MORE:"更多",PRINT_SCREENSHOT:"打印屏幕截图",SAVE_SCREENSHOT:"保存屏幕截图"});

@@ -1,0 +1,51 @@
+.selectable {
+    background-image: url("../images/selectable.png");
+    background-color: lightBlue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.selectedmclhead {
+    background-image: url("../images/selected.png");
+    background-repeat: no-repeat;
+}
+.selectedaehead {
+    background-image: url("../images/selected.png");
+    background-repeat: no-repeat;
+}
+.selected {
+    background-color: lightBlue;
+    background-image: url("../images/selected.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.deselected {
+    background-color: lightBlue;
+    background-image: url("../images/forbidden.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+th {
+    background-color: #A9B1B8;
+    color: #FFFFFF;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 60px;
+}
+.mclhead{
+	height :20px;
+	width:150px;	
+	}
+.odd{
+	background-color: #E4E6E8;
+	}
+.even{
+background-color:  #FFFFFF;
+}
+.mainHeader{
+    color:#F0F069;
+    font-size: 13px;
+}

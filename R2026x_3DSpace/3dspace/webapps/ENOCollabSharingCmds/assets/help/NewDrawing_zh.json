@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"新工程图",
+"ENONewDrawingHdr.ShortHelp":"创建新工程图。",
+"ENONewDrawingHdr.LongHelp":"在对话框中输入标题和属性（如有），然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个工程图，或者单击<uicontrol>创建</uicontrol>以创建另一个工程图。",
+"ENOInsertNewDrawingHdr.Title":"插入新工程图",
+"ENOInsertNewDrawingHdr.ShortHelp":"创建新工程图，并将其作为子项添加到选定的对象。",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>在对话框中输入标题，然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个工程图，或者单击<uicontrol>创建</uicontrol>以创建另一个工程图。</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

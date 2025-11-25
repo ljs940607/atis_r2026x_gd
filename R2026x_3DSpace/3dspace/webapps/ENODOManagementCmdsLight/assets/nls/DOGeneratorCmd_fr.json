@@ -1,0 +1,66 @@
+{
+  "title": "Générer une sortie dérivée",
+  "buttons": {
+    "generate": "Générer",
+    "reset": "Restaurer les valeurs par défaut",
+    "cancel": "Annuler"
+  },
+  "loading": "Chargement des objets",
+  "optionsLabel": "Options",
+  "optionFormat": "Format",
+  "optionUniqueFormat": "Le format de sortie dérivé sera : {oFormat}.",
+  "warning": {
+    "title": "Avertissement",
+    "noFormat": "Aucun format disponible pour la génération de sortie dérivée. Veuillez contacter l'administrateur."
+  },
+  "error": {
+    "title": "Erreur",
+    "noSelection": "Sélectionnez l'objet à exporter avant de cliquer sur la commande de génération de sortie dérivée.",
+    "jobFailed": "Impossible de générer la sortie dérivée.{oMsg}",
+    "security_context_fail": "Impossible de récupérer le contexte de sécurité pour l'utilisateur associé.",
+    "expandIssue": {
+      "Title": "Impossible de développer l'objet car toutes les données n'ont pas été indexées.",
+      "Subtitle": "Patientez quelques minutes et réessayez."
+    },
+    "wrongSelection": "Sélectionnez les données qui ont été enregistrées dans 3DExperience avant de cliquer sur la commande.",
+    "code401": {
+      "Title": " Impossible d'authentifier vos informations d'identification.",
+      "Subtitle": "Code d'erreur 401."
+    },
+    "code400": {
+      "Title": "Une erreur inattendue s'est produite.",
+      "Subtitle": "Contactez votre administrateur pour obtenir de l'aide.",
+      "Message": " Code d'erreur 400"
+    },
+    "invalidPhID": "Sélectionnez les données qui ont été enregistrées dans 3DExperience avant de cliquer sur la commande.",
+    "doCreationTimeout": "La demande prend plus de temps que prévu. Veuillez patienter."
+  },
+  "info": {
+    "title": "Infos",
+    "upToDate": "La sortie dérivée des objets sélectionnés est à jour. Aucune sortie à générer.",
+    "generationLaunched": "La sortie dérivée sera générée. Ce processus peut prendre un certain temps.",
+    "generationOnRep": "Les sorties dérivées seront uniquement générées pour les représentations.",
+    "jobsCreated": "{oJobs} tâches de sortie dérivée ont été créées.",
+    "jobCreated": "Une tâche de sortie dérivée a été créée.",
+    "noJobCreated": "Aucune tâche n'a été générée. Le format sélectionné n'est peut-être pas applicable, une tâche de sortie dérivée en double a déjà été soumise ou le format de sortie dérivée est généré et est à l'état synchronisé."
+  },
+  "column": {
+    "format": "Format cible",
+    "connector": "Origine",
+    "type": "Type",
+    "parameters": "Paramètres",
+    "converter": "Convertisseur",
+    "usage": "Format unifié",
+    "forceUpdate": "Forcer la mise à jour"
+  },
+  "type": {
+    "catpart": "Pièce",
+    "sldprt": "Pièce",
+    "prt": "Pièce",
+    "ipt": "Pièce",
+    "catdrawing": "Dessin",
+    "slddrw": "Dessin",
+    "dxf": "Dessin",
+    "dwg": "Dessin"
+  }
+}

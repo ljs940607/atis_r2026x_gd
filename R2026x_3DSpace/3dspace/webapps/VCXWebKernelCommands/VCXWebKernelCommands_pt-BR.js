@@ -1,0 +1,1 @@
+define("DS/VCXWebKernelCommands/VCXWebKernelCommands_pt-BR",{});define("DS/VCXWebKernelCommands/assets/nls/VCXWebKernelCommands",{"VCXApplyToCmd.Applying":"Aplicando"});

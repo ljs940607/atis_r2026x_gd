@@ -1,0 +1,14 @@
+{
+  "caOK": "Change Action generated with success",
+  "caKO": "Change Action generation failed",
+  "taskOK": "Task generated with success",
+  "taskKO": "Task generation failed",
+  "issueOK": "Issue generated with success",
+  "issueKO": "Issue generation failed",
+  "caAttached": "Change Action has been attached to the parent Issue",
+  "caNotAttached": "Change Action has not been attached to the parent Issue",
+  "taskAttached": "Task has been attached to the parent Issue",
+  "taskNotAttached": "Task has not been attached to the parent Issue",
+  "ticSection": "Generate Issue",
+  "ticTemplateIssue": "Always use a template to generate an issue"
+}

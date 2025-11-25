@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="LibraryCentral">
+
+		<Domain id="IPClassification" regSuite="LibraryCentral">
+		<Family id="AuthorDeleteAccess" icon="iconParameterizationIdentification.gif">
+			 <Parameter id="IPC_AuthorDeleteAccess" implementation="com.matrixone.apps.library.IPOtbParameterImpl" >
+				<Argument id="Argument" type="string" input="combobox" default="False">
+					<Value id="True"/>
+					<Value id="False"/>
+				</Argument>
+				<Constant id="expression" value="IPC_AuthorDeleteAccess" />
+			 </Parameter>
+			 <Parameter id="IPC_CategorizationAttrModAccess" implementation="com.matrixone.apps.library.IPOtbParameterImpl" >
+				<Argument id="Argument" type="string" input="combobox" default="VPLMViewer">
+					<Value id="VPLMViewer"/>           <!--Reader -->
+					<Value id="VPLMExperimenter"/>     <!--Contributor -->
+					<Value id="VPLMCreator"/>          <!--Author -->
+				</Argument>
+				<Constant id="expression" value="IPC_CategorizationAttrModAccess" />
+			 </Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

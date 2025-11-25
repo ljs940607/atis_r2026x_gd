@@ -1,0 +1,19 @@
+{
+  "addRoles": "Rollen hinzufügen",
+  "addRole": "Rolle hinzufügen",
+  "selectRole": "Rolle auswählen",
+  "onlineInstanceId": "Online-Instanz-ID",
+  "quantity": "Menge",
+  "confirm": "Bestätigen",
+  "roles": "Rollen",
+  "createPlatform": "Umgebung erstellen",
+  "devPlatformAdmin": "Entwicklungsumgebungsadmin",
+  "sendingRequest": "Anfrage wird gesendet...",
+  "unableToAddRolesToPlatform": "Die ausgewählten Rollen können der ausgewählten Umgebung nicht hinzugefügt werden",
+  "unableToFetchAvailableRoles": "Die verfügbaren Rollen für diesen Mandanten können nicht abgerufen werden",
+  "unableToRequestPlatformCreation": "Erstellen der Umgebung kann nicht angefordert werden. Versuchen Sie es später erneut.",
+  "platformAdmin": "Umgebungsadmin",
+  "platformId": "Umgebung",
+  "totalPriceExclTax": "Gesamtpreis (ohne MwSt.)",
+  "totalPrice": "Gesamtpreis"
+}

@@ -1,0 +1,17 @@
+m|KnowledgeWebCore\KnowledgeWebCore.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25158|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\KnowledgeWebCore\KnowledgeWebCore.js|1749264301|4959
+s|KnowledgeWebCore\KnowledgeWebCore.mweb\src\context.js|1748954035|3522
+t|win_b64\webapps\KnowledgeWebCore\KnowledgeWebCore.xhtml|1723277903|1040
+s|KnowledgeWebCore\KnowledgeWebCore.mweb\src\KnowledgeWebCore.xhtml|1612972583|1040
+t|win_b64\webapps\KnowledgeWebCore\assets\catrsc\KnowledgeMagnitudes.json|1723277899|505690
+s|KnowledgeWebCore\KnowledgeWebCore.mweb\src\assets\catrsc\KnowledgeMagnitudes.json|1705943277|505690
+t|win_b64\webapps\KnowledgeWebCore\assets\catrsc\MagnitudeRelations.json|1723277899|671
+s|KnowledgeWebCore\KnowledgeWebCore.mweb\src\assets\catrsc\MagnitudeRelations.json|1615395854|671
+u|KnowledgeWebCore\KnowledgeWebCore.mweb\src\KnowledgeMagnitudeServices.js|1673367005|14732
+u|KnowledgeWebCore\KnowledgeWebCore.mweb\src\KnowledgeWebCore.js|1630314581|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

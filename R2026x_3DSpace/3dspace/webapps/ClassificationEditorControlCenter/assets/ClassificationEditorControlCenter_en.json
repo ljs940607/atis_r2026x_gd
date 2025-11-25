@@ -1,0 +1,19 @@
+{
+    "toolbar_header": "Restricted mode for Classification Managers",
+    "CCM_Manager": "Classification Manager",
+    "CCM_specialist_title": "Specialist",
+    "CCM_expert_title": "Expert",
+    "CCM_architect_title": "Architect",
+    "permission_update_successful": "{updatedPermission} permission has been granted to {name}.",
+    "permission_update_failure": "Unable to update permission for user name.",
+    "restriction_mode_switched": "Restricted mode is turned {restrictionToggle}.",
+    "restriction_mode_switch_failure": "Failed to switch the restricted mode.",
+    "widget_load_failure": "Only Administrators with the CSV role can access this app.",
+    "on": "on",
+    "off": "off",
+    "search_name": "Search Name",
+    "search": "Search",
+    "search_short_help": "Lets you search for classification managers using their names.",
+    "loading": "Loading..."
+}
+

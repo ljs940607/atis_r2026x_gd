@@ -1,0 +1,1 @@
+define("DS/CATAssemblySolverWeb/CATAsmWebJsonUnstreamer",["UWA/Core"],(function(e){"use strict";return e.Class.extend({init:function(){},unstream:function(e){window.cdsJSON=e}})}));

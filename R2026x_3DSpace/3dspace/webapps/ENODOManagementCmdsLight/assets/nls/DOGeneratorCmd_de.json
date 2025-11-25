@@ -1,0 +1,66 @@
+{
+  "title": "Abgeleitete Ausgabe generieren",
+  "buttons": {
+    "generate": "Generieren",
+    "reset": "Standard wiederherstellen",
+    "cancel": "Abbrechen"
+  },
+  "loading": "Objekte werden geladen",
+  "optionsLabel": "Optionen",
+  "optionFormat": "Format",
+  "optionUniqueFormat": "Das Format der abgeleiteten Ausgabe ist: {oFormat}.",
+  "warning": {
+    "title": "Warnung",
+    "noFormat": "Für die Generierung der abgeleiteten Ausgabe ist kein Format verfügbar. Wenden Sie sich an den Administrator."
+  },
+  "error": {
+    "title": "Fehler",
+    "noSelection": "Wählen Sie das zu exportierende Objekt aus, bevor Sie den Befehl zum Generieren der abgeleiteten Ausgabe anklicken.",
+    "jobFailed": "Die abgeleitete Ausgabe kann nicht generiert werden.{oMsg}",
+    "security_context_fail": "Sicherheitskontext für den zugeordneten Benutzer kann nicht abgerufen werden.",
+    "expandIssue": {
+      "Title": "Das Objekt kann nicht erweitert werden, da nicht alle Daten indexiert wurden.",
+      "Subtitle": "Warten Sie einige Minuten und versuchen Sie es erneut."
+    },
+    "wrongSelection": "Wählen Sie Daten aus, die in 3DEXPERIENCE gespeichert wurden, bevor Sie auf den Befehl klicken.",
+    "code401": {
+      "Title": " Ihre Anmeldeinformationen können nicht authentifiziert werden.",
+      "Subtitle": "Fehlercode: 401."
+    },
+    "code400": {
+      "Title": "Ein unerwarteter Fehler ist aufgetreten.",
+      "Subtitle": "Wenden Sie sich an Ihren Administrator.",
+      "Message": " Fehlercode: 400"
+    },
+    "invalidPhID": "Wählen Sie Daten aus, die in 3DEXPERIENCE gespeichert wurden, bevor Sie auf den Befehl klicken.",
+    "doCreationTimeout": "Der Abschluss des Anforderungsvorgangs dauert länger als erwartet. Warten Sie einen Moment."
+  },
+  "info": {
+    "title": "Info",
+    "upToDate": "Die abgeleitete Ausgabe für das ausgewählte Objekt ist aktuell. Es wird nichts generiert.",
+    "generationLaunched": "Die abgeleitete Ausgabe wird erzeugt. Dieser Vorgang kann einige Zeit in Anspruch nehmen.",
+    "generationOnRep": "Die abgeleiteten Ausgaben werden nur für die Repräsentationen generiert.",
+    "jobsCreated": "{oJobs} abgeleitete Ausgabejobs wurden erstellt.",
+    "jobCreated": "Ein abgeleiteter Ausgabejob wurden erstellt.",
+    "noJobCreated": "Es wurde kein Job generiert. Das ausgewählte Format ist möglicherweise nicht anwendbar oder ein doppelter abgeleiteter Ausgabejob wurde bereits übermittelt oder das Format der abgeleiteten Ausgabe wurde generiert und befindet sich im synchronisierten Status."
+  },
+  "column": {
+    "format": "Zielformat",
+    "connector": "Ursprung",
+    "type": "Typ",
+    "parameters": "Parameter",
+    "converter": "Konverter",
+    "usage": "Einheitliches Format",
+    "forceUpdate": "Aktualisierung erzwingen"
+  },
+  "type": {
+    "catpart": "Teil",
+    "sldprt": "Teil",
+    "prt": "Teil",
+    "ipt": "Teil",
+    "catdrawing": "Zeichnung",
+    "slddrw": "Zeichnung",
+    "dxf": "Zeichnung",
+    "dwg": "Zeichnung"
+  }
+}

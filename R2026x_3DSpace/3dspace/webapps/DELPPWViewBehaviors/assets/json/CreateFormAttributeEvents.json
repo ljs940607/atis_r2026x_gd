@@ -1,0 +1,624 @@
+{
+  "ProcessContinuousCreateMaterial": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ProcessContinuousProvide": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ContinuousByProduct": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "DELContinuousServicePartReference": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "MBOMContinuousInProcessItem": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiContQuantity_Mass.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Area.V_ContQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiContQuantity_Length.V_ContQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiContQuantity_Volume.V_ContQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "MBOMContinuousPhaseReference": {
+    "V_DimensionType": [
+      {
+        "event": "change",
+        "conditions": [
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === MASS",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === AREA",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === VOLUME",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": false
+              }
+            ]
+          },
+          {
+            "condition": "DELFmiMagnitudeExt.V_DimensionType === LENGTH",
+            "affectedAttributes": [
+              {
+                "fullName": "DELFmiRefQuantity_Mass.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Area.V_RefQuantity",
+                "hide": true
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Length.V_RefQuantity",
+                "hide": false
+              },
+              {
+                "fullName": "DELFmiRefQuantity_Volume.V_RefQuantity",
+                "hide": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

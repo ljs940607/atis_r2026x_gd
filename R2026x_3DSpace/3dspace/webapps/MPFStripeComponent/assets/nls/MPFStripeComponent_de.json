@@ -1,0 +1,14 @@
+{
+  "merchant": "Händler",
+  "order": "Bestellung",
+  "amount": "Betrag",
+  "cardHolder": "Karteninhaber",
+  "cardNumber": "Kartennummer",
+  "expiryDate": "Ablaufdatum",
+  "cardHolderEmpty": "Der Name des Karteninhabers ist ungültig.",
+  "pay": "Bezahlen",
+  "phase": "Phase",
+  "paymentInProgress": "Zahlung läuft... dies kann einen Moment dauern",
+  "failedToLoadPaymentPage": "Die Zahlungsseite konnte nicht geladen werden. Versuchen Sie es später erneut und wenden Sie sich an den Support, wenn das Problem weiterhin besteht.",
+  "failedToLoadPaymentSection": "Der Zahlungsabschnitt konnte nicht geladen werden. Versuchen Sie es später erneut und wenden Sie sich an den Support, wenn das Problem weiterhin besteht."
+}

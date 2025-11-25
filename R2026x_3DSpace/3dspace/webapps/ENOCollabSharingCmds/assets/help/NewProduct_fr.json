@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"Nouveau produit",
+"ENONewProductHdr.ShortHelp":"Crée un nouveau produit.",
+"ENONewProductHdr.LongHelp":"Dans la boîte de dialogue, entrez un titre et les attributs requis, s'il y en a. Vous pouvez aussi sélectionner un modèle pour choisir le gabarit CAO. Cliquez sur <uicontrol>Créer et fermer</uicontrol> pour créer un seul produit ou sur <uicontrol>Créer</uicontrol> pour en créer un autre.",
+"ENOInsertNewProductHdr.Title":"Insérer un nouveau produit",
+"ENOInsertNewProductHdr.ShortHelp":"Crée un nouveau produit et l'ajoute en tant qu'enfant aux objets sélectionnés.",
+"ENOInsertNewProductHdr.LongHelp":"<p>Dans la boîte de dialogue, entrez un titre. Vous pouvez aussi sélectionner un modèle pour choisir le gabarit CAO. Cliquez sur <uicontrol>Créer et fermer</uicontrol> pour créer un seul produit ou sur <uicontrol>Créer</uicontrol> pour en créer un autre.</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

@@ -1,0 +1,63 @@
+{{!++subtemplate++}}
+{{!++id:text++}}
+{{!--
+    template for text fields
+
+   for a config like
+   {
+            name: 'description',
+            label: i18n('emxCollaborativeTasks.Label.Description', 'Description'),
+            type: 'text',
+            W: 'why',
+            cssClass: ''
+    }
+   this template accept values of the form
+   {
+    description:'my very nice and interesting description to display'
+   }
+ --}}
+
+    <style>
+      #{{name}}TextArea {
+          height:20px;
+      }
+    </style>
+    {{#if label}}
+      <label class="input-group-label">
+         <span class="field-label">
+         	<span class="wux-ui-3ds-error wux-ui-3ds"></span>
+            <span class="label-text">{{label}}</span>
+      {{~#if required~}}
+            <span class="required-field-indicator">*</span>
+        {{~/if~}}
+         {{~#if customTooltips~}}<span id="labelIcons" class="label-icons"></span>{{~/if~}}
+        {{~#if customButtons~}}
+        <span class="actions">
+           {{~#each customButtons~}}
+              <button class="btn custom-button" data-custom-button-index="{{@index}}" title= "{{toolTip}}">
+                  <span class="fonticon {{iconClass}}"></span>
+              </button>
+           {{~/each~}}
+        </span>
+        {{~/if~}}
+        </span>
+     </label>
+    {{/if}}
+   <div class="field-group">
+      <div class="input-group-wrapper">
+         <div class="input-group">
+         <div class="input-element">
+            {{~#if readWrite~}}
+            \{{~#if canEdit~}}
+               <textarea class="form-control short content" {{#if fieldHTMLId}}id="{{fieldHTMLId}}TextArea{{viewId}}"{{else}}id="{{name}}TextArea{{viewId}}"{{/if}} {{#if maxLength}}maxlength="{{maxLength}}"{{/if}}>\{{ {{name}} }}</textarea>
+               <textarea class="form-control short  height-calculator" >\{{ {{name}} }}</textarea>
+            \{{~else~}}
+            <span class="read-only">\{{~ readOnlyValue {{name}} ~}}</span>
+            \{{~/if~}}
+            {{~else~}}
+            <span class="read-only">\{{~ readOnlyValue {{name}} ~}}</span>
+            {{~/if~}}
+         </div>
+      </div>
+   </div>
+ </div>

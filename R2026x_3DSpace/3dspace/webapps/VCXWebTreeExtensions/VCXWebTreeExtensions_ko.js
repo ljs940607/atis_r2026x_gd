@@ -1,0 +1,1 @@
+define("DS/VCXWebTreeExtensions/VCXWebTreeExtensions_ko",{});define("DS/VCXWebTreeExtensions/assets/nls/VCXWebTreeExtensions",{"VCXTreeNodeSelectionSetAuthoring.ContextualMenu.AddSelectionSet":"선택 세트에 선택 항목 추가","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Delete":"삭제","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Rename":"이름 바꾸기"});

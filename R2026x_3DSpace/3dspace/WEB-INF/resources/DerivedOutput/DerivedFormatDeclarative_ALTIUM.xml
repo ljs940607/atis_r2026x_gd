@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="ALTIUM" synchronous="true"  nlsFile="emxDerivedFormatManagementALTIUMStringResource" comment="conversion managed synchronously at save by ALTIUM PowerBy connector">
+      <datasources>
+		<datasource name="ALTIUM" >    
+			<source name="pcbdoc,pcbdoc3D,zip" type="Part" subtype="CBDBoard" partExtension="CBDBoard"> 
+				<target name="IPC2581" inputStreamId="authoring"   outputStreamId="IPC2581"  downloadable="true"  >
+					<parameter name="version" values="A|B"  type="enum" default="B" mandatory="true" description="IPC2581 version"/>
+					<parameter name="measurementSystem" values="Metric|Imperial"  type="enum" default="Metric" mandatory="true" description="Measurement System"/>
+					<parameter name="precision" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15"  type="enum" default="6" mandatory="true"  description="Floating Point precision"/>
+					<parameter name="oemDesignNumberRef" values="DesignItemId|Designator|Comment|FootprintName|Description|OEM"  type="enum" default="DesignItemId" mandatory="true"  description="Parameter used as Design Number ID"/>
+					<parameter name="mergeNetTie" values="true|false"  type="enum" default="false" mandatory="true"  description="Merge Net-Tie Nets"/>
+					<parameter name="distinguishFootprints" values="true|false"  type="enum" default="false" mandatory="true"  description="Distinguish different footprints with the same name"/>
+				</target>
+			</source> 			
+			<events>       
+				<event name="onXCADSave" type="interactiveUpdate" />
+			</events>
+		</datasource>
+	  </datasources>
+	</converter>
+
+</derivedformatmanagement>

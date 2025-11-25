@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "ストライプ FR の移行",
+  "startStripeFrConversion": "ストライプ FR 変換を開始",
+  "migrationExplanation": "ボタンをクリックして、ストライプ FR へのショップの移行を開始します。",
+  "documentsExplanation": "KYC ファイルを 1 つずつダウンロードして、このセクションの各アップロード ボタンを使用して、それらのファイルを新しいストライプ FR プラットフォームにアップロードしてください。",
+  "downloadFile": "ファイルをダウンロード",
+  "uploadFile": "ファイルをアップロード",
+  "failedToDownloadFile": "ファイルのダウンロードに失敗しました",
+  "failedToUploadFile": "ファイルのアップロードに失敗しました",
+  "invalidFileTypeMessage": "ファイル タイプが無効です。JPEG または PNG ファイルを使用してください。",
+  "fileTooBig": "ファイルが最大ファイル サイズを超えています。",
+  "migrationFailedMsg": "移行を完了できません。",
+  "migrationCompleted": "移行が完了しました",
+  "kycSatusIs": "ドキュメントのステータスは '{status}' です",
+  "startingMigration": "移行を開始しています...",
+  "updating": "データを更新しています...",
+  "unableToUpdateData": "データを更新できません",
+  "waitingForMigrationConfirmation": "ドキュメント検証が進行中です。後で移行ステータスを確認してください。",
+  "migrationFailed": "移行が失敗しました"
+}

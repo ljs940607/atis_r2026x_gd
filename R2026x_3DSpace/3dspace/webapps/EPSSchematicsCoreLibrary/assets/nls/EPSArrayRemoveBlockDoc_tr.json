@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizideki ilgili indeksten bir değeri kaldırır.",
+  "description": "Blok, değiştirilmiş diziyi çıktı olarak verir.<br>Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "ArrayIn": "değiştirilecek dizi.",
+    "Index": "değerin kaldırılacağı dizi indeksi.",
+    "ArrayOut": "değiştirilen dizi.",
+    "Value": "kaldırılan değer."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

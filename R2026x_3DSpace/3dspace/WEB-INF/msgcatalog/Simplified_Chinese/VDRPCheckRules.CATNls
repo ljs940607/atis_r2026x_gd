@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="只有轴系参考才能在轴系参考下聚集。";
+ValidationCheck2.Title="壳体轴系参考无法在壳体轴系参考下聚集。";
+ValidationCheck3.Title="在壳体轴系参考下只能聚集一个轴系参考。";
+ValidationCheck4.Title="只有轴系参考才能在壳体轴系参考下聚集。";
+ValidationCheck5.Title="具有定位架构的产品无法实例化 3D 形状。";
+ValidationCheck6.Title="具有定位架构的产品无法实例化标记。";

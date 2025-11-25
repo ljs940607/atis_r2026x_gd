@@ -1,0 +1,1 @@
+define("DS/WebUAUtils/WebUAUtils_tr",{});define("DS/WebUAUtils/assets/nls/translation",{UAPanel_Title:"Kullanıcı Yardımı"});

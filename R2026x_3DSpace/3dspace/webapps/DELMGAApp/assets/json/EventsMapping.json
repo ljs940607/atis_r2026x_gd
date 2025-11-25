@@ -1,0 +1,172 @@
+{
+	"select" : {
+		"ROUTINGS"		: ["ROUTINGS", "MANUFACTURING","RESOURCE","CMDS","LINKS", "AUTHORLINKMOD", "EGRAPHMOD", "PRODUCTFLOWMOD", "SWIMLANECHARTMOD", "PROPERTIES", "MANAGECAPABLERESOURCESMOD", "OPS3DVIEWERMOD", "REQUIREMENT_VIEW", "RESPONSIBILITY"],
+		"MANUFACTURING"	: ["ROUTINGS", "MANUFACTURING", "RESOURCE", "CMDS","LINKS", "AUTHORLINKMOD", "EGRAPHMOD", "PRODUCTFLOWMOD", "SWIMLANECHARTMOD", "PROPERTIES", "RESPONSIBILITY", "OPS3DVIEWERMOD"],
+		"RESOURCE"		: ["ROUTINGS", "MANUFACTURING", "RESOURCE", "CMDS","LINKS", "AUTHORLINKMOD", "EGRAPHMOD", "PRODUCTFLOWMOD", "SWIMLANECHARTMOD", "PROPERTIES", "OPS3DVIEWERMOD"],
+		"AUXILIARY"		: ["CMDS", "LINKS", "AUTHORLINKMOD", "PROPERTIES"],
+		"MIL"			: [ "MIL" ],
+		"MANAGECAPABLERESOURCESMOD" : ["MANAGECAPABLERESOURCESMOD"],
+		"RESPONSIBILITY": ["CMDS", "PROPERTIES"],
+		"RPPMOD" : ["SWIMLANECHARTMOD"],
+		"DCPMOD" : ["SWIMLANECHARTMOD"]
+	},
+	"EGraphNodeSelect" : {
+		"EGRAPHMOD" : ["ROUTINGS",	"MANUFACTURING","RESOURCE"],
+		"PRODUCTFLOWMOD" : ["ROUTINGS", "MANUFACTURING", "RESOURCE"],
+		"SWIMLANECHARTMOD" : ["ROUTINGS", "MANUFACTURING", "RESOURCE"]
+	},
+	"chartNodeSelect" : {
+		"SWIMLANECHARTMOD" : ["DCPMOD", "RPPMOD"]
+	},
+	"SearchAndAddCommand" : {
+		"ROUTINGS": ["ROUTINGS"],
+		"RESPONSIBILITY": ["RESPONSIBILITY"]
+	},
+	"ActionRemove" : {
+		"ALTERNATE": ["ALTERNATE"],
+		"CAPRESOURCE": ["CAPRESOURCE"],
+		"ORIGIN": ["ORIGIN"],
+		"RESPONSIBILITY": ["RESPONSIBILITY"],
+		"REQUIREMENT_VIEW" : ["REQUIREMENT_VIEW"]
+	},
+	"AlternateBL" : {
+		"ALTERNATE": ["ALTERNATE"]
+	},
+	"CapableResourceBL" : {
+		"CAPRESOURCE": ["CAPRESOURCE"]
+	},
+	"ExportCSVCmd" : {
+		"CommandsService" : ["ROUTINGS"]
+	},
+	"LoadRelations" : {
+		"CommandsService" : ["ROUTINGS"]
+	},
+	"reComputeCrossHighlight": {
+		"ROUTINGS"		: ["ROUTINGS","MANUFACTURING","RESOURCE"],
+		"MANUFACTURING"	: ["ROUTINGS","MANUFACTURING","RESOURCE"],
+		"RESOURCE"		: ["ROUTINGS","MANUFACTURING","RESOURCE"]
+	},	
+	"selectNodes": {
+		"ROUTINGS": ["MANUFACTURING", "RESOURCE"],
+		"MANUFACTURING": ["ROUTINGS"],
+		"RESOURCE": ["ROUTINGS"],
+		"UDECMDMOD":["MANUFACTURING", "RESOURCE", "ROUTINGS"],
+		"OPS3DVIEWERMOD" : ["MANUFACTURING", "RESOURCE"]
+	},
+	"unSelectNodes": {
+		"OPS3DVIEWERMOD" : ["MANUFACTURING", "RESOURCE"]
+	},
+	"addRootNode" : {
+		"ROUTINGS": ["ROUTINGS", "EGRAPHMOD", "PRODUCTFLOWMOD", "OPS3DVIEWERMOD"],
+		"MANUFACTURING" : ["EGRAPHMOD"]
+	},
+	"EditAttribute" : {
+		"ROUTINGS": ["ROUTINGS"],
+		"MANUFACTURING": ["MANUFACTURING"],
+		"RESOURCE": ["RESOURCE"]
+	},
+	"editRichText" : {
+		"ROUTINGS": ["ROUTINGS"]
+	},
+	"onNodeCollapsed" : {
+		"ROUTINGS": ["ROUTINGS"],
+		"MANUFACTURING": ["MANUFACTURING"],
+		"RESOURCE": ["RESOURCE"]
+	},
+	"onNodeExpanded" : {
+		"ROUTINGS": ["ROUTINGS"],
+		"MANUFACTURING": ["MANUFACTURING"],
+		"RESOURCE": ["RESOURCE"]
+	},
+	"DuplicateAdvCmd" : {
+		"CommandsService": ["ROUTINGS", "AUXILIARY", "MANUFACTURING"]
+	},
+	"InsertAsCopy" : {
+		"CommandsService": ["ROUTINGS", "AUXILIARY"]
+	},
+	"visibleNodesChanged": {
+		"ROUTINGS": ["ROUTINGS"],
+		"MANUFACTURING": ["MANUFACTURING"],
+		"RESOURCE": ["RESOURCE"],
+		"RESPONSIBILITY": ["RESPONSIBILITY"]
+	},
+	"resetBIModel": {
+		"BIPlugin": [ "ROUTINGS", "MANUFACTURING", "MIL" ]
+	},
+	"LoadDropContent" : {
+		"LandingPageService": ["ROUTINGS"]
+	},
+	"LoadItemsIn3DViewer" : {
+		"ROUTINGS": ["OPS3DVIEWERMOD"]
+	},
+	"ReframeItemsIn3DViewer": {
+		"ROUTINGS": ["OPS3DVIEWERMOD"],
+		"MANUFACTURING": ["OPS3DVIEWERMOD"]
+	},
+	"toggle3DHighlight": {
+		"ROUTINGS": ["OPS3DVIEWERMOD"],
+		"MANUFACTURING": ["OPS3DVIEWERMOD"],
+		"RESOURCE": ["OPS3DVIEWERMOD"]
+	},
+	"toggle3DVisibility": {
+		"MANUFACTURING": ["OPS3DVIEWERMOD"]
+	},
+	"update3DVisibilityState": {
+		"OPS3DVIEWERMOD": ["MANUFACTURING"]
+	},
+	"set3DVisibilityState": {
+		"OPS3DVIEWERMOD": ["MANUFACTURING"]
+	},
+	"compute3DHighlight": {
+		"ROUTINGS": ["MANUFACTURING"],
+		"MANUFACTURING": ["MANUFACTURING"],
+		"RESOURCE": ["RESOURCE"]
+	},
+	"compute3DVisibility": {
+		"ROUTINGS":["MANUFACTURING"],
+		"MANUFACTURING":["MANUFACTURING"]
+	},
+	"computeShowItems3DVisibility" :{
+		"ROUTINGS": ["MANUFACTURING"]
+	},
+	"computeShowOnly3DVisibility": {
+		"ROUTINGS": ["MANUFACTURING"],
+		"MANUFACTURING": ["MANUFACTURING"]
+	},
+	"computeShowAll3DVisibility": {
+		"MANUFACTURING": ["MANUFACTURING"]
+	},
+	"update3DBuildUpState": {
+		"OPS3DVIEWERMOD": ["ROUTINGS"]
+	},
+	"toggle3DBuildUpColumnButton": {
+		"ROUTINGS": ["OPS3DVIEWERMOD"]
+	},
+	"widgetLinked": {
+		"OPS3DVIEWERMOD": ["ROUTINGS","MANUFACTURING","CommandsService"]
+	},
+	"widgetUnlinked": {
+		"OPS3DVIEWERMOD": ["ROUTINGS","MANUFACTURING","CommandsService"]
+	},
+	"onRecentContentLoaded" : {
+		"ROUTINGS": ["OPS3DVIEWERMOD"]
+	},
+	"BuildUpReviewModeCmd": {
+		"CommandsService": ["OPS3DVIEWERMOD","ROUTINGS"]
+	},
+	"updateNodes": {
+		"ROUTINGS": ["ROUTINGS"]
+	},
+	"unsetNodeAttr": {
+		"ROUTINGS": ["ROUTINGS"]
+	},
+	"updateEINAttribute": {
+        "LifecycleService": ["MANUFACTURING", "RESOURCE"]
+    },
+	"AddToAuxilliaryView" : {
+        "REQUIREMENT_VIEW" : ["REQUIREMENT_VIEW"]
+    },
+	"expandFilterUpdated" : {
+		"MANUFACTURING": ["OPS3DVIEWERMOD"]
+	}
+}

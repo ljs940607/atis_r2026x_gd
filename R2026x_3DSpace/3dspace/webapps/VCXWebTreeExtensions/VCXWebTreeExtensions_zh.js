@@ -1,0 +1,1 @@
+define("DS/VCXWebTreeExtensions/VCXWebTreeExtensions_zh",{});define("DS/VCXWebTreeExtensions/assets/nls/VCXWebTreeExtensions",{"VCXTreeNodeSelectionSetAuthoring.ContextualMenu.AddSelectionSet":"将选择添加到选择集","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Delete":"删除","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Rename":"重命名"});

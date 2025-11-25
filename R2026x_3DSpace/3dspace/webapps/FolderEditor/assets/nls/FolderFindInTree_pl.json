@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Wyszukiwanie folderów zakładek..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Wyszukiwanie w drzewie nie jest możliwe w sekcji ulubionych i w ulubionych folderach zakładek.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "Upuszczony obiekt nie jest folderem zakładek.",
+    "subtitle": "Upuść folder główny zakładek lub folder zakładek."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Nie można wyszukać w drzewie.",
+    "subtitle": "Rozwiń drzewo do określonego węzła folderu zakładek",
+    "message": "Poszukiwany folder zakładek nie jest widoczny w drzewie."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Nie można wyszukać w drzewie.",
+    "subtitle": "Rozwiń sekcję folderu zakładek do pierwszego poziomu.",
+    "message": "W sekcji folderu zakładek nie ma widocznych folderów zakładek."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Nie można wyszukać w drzewie.",
+    "subtitle": "Wybierz folder zakładek i spróbuj ponownie.",
+    "message": "Nie wybrano folderu zakładek do wykonania polecenia Znajdź w."
+  },
+  "msg_info_limitToFindInRootNode": "Nie można wyświetlić wszystkich wyników wyszukiwania. Spróbuj użyć innych słów kluczowych lub wyszukaj w podrzędnych folderach zakładek.",
+  "msg_info_searchCompleted": "Wyszukiwanie zostało zakończone.",
+  "msg_info_No_Occurrence": "Nie znaleziono wyników."
+}

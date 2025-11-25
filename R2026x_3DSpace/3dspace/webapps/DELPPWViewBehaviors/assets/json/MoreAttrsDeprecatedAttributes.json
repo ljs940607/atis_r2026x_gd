@@ -1,0 +1,14 @@
+{
+    "deprecatedAttributes" : 
+    [ 
+        {
+            "name"      : "description",
+            "entity"    : "reference"
+        },
+        {
+            "name"      : "V_EstimatedLeadTimeDescription",
+            "dicoType"  : "CreateAssembly",
+            "entity"    : "reference"
+        }
+    ]
+}

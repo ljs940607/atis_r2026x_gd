@@ -1,0 +1,1 @@
+define("DS/CATW3DMoveManager/CATW3DMoveManager_tr",{});define("DS/CATW3DMoveManager/assets/nls/CATW3DMoveReferent",{title:"Taşı",allowDirectManipulation:"Doğrudan manipülasyona izin ver",moveSection:"3B geometriyi sürüklerken şunları taşı:",first:"İlk montaj seviyesi",leaf:"Yaprak parça"});

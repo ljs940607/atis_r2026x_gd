@@ -1,0 +1,51 @@
+{
+  "partFabrication": {
+    "batch": {
+      "expands": [
+        {
+          "label": "DELMIA Viewer Part Fabrication Expand",
+          "root": {
+            "physical_id": "<Physical_id>"
+          },
+          "graph": {
+            "descending_condition_relation": {
+              "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND ([ro.DELFmiFunctionInstance.V_IsFlexiblePart]:TRUE) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:EngineeringMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingAssembly)) OR ((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessImplementCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:reltypes/VPMInstance) OR (flattenedtaxonomies:reltypes/VPMRepInstance))"
+            }
+          },
+          "aggregation_processors": [
+            {
+              "truncate": {
+                "max_distance_from_prefix": 1,
+                "match_only_refs": 1,
+                "sequence_filter": {
+                  "sequence": [
+                    {
+                      "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND ([ro.DELFmiFunctionInstance.V_IsFlexiblePart]:TRUE) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:EngineeringMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingAssembly))"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "filter": {
+            "all": 1
+          }
+        }
+      ]
+    },
+    "outputs": {
+      "select_object": [
+        "physicalid",
+        "ds6w:label",
+        "ds6w:type"
+      ],
+      "select_relation": [
+        "physicalid",
+        "ds6w:globalType",
+        "ro.DELFmiFunctionInstance.V_IsFlexiblePart",
+        "ro.DELFmiUseCaseExt.V_UseCase"
+      ],
+      "format": "entity_relation_occurrence"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "loadingApp": "Loading application",
+    "loadingRefresh": "Refresh application",
+    "noToken": "Tokens Not Available",
+    "noTokenTooltip": "The tokens are currently unavailable. Add more tokens in order to continue Optimization.",
+    "buyToken": "Buy VIO Tokens",
+    "summaryTitle": "Token Summary",
+    "summaryLabel": "Tokens ({usage}% used)",
+    "usageLabel": "{used}/{total}",
+    "getMoreTokens": "Get more Tokens",
+    "tokensHistory": "Token History",
+    "registeredrepLabel": "Objects registered for optimization",
+    "registeredrepLabelNoToken": "Objects ready for optimization",
+    "noRegisteredrep": "Unable to get registered objects",
+    "failedRegisterObject": "Retrieve registered objects failed",
+    "tokenUsage": "Token usage",
+    "tokenStatus": "Token Status",
+    "used": "Consumed Tokens",
+    "total": "Total",
+    "fromLabel": "Usage from ",
+    "toLabel": " to ",
+    "tokens": "Tokens",
+    "noDataConsumed": "No token consumed during that period",
+    "percentUsed": "{percentUsed}% token used",
+    "percentRemaining": "{remaining} ({percentRem}%) tokens remaining",
+    "expDate": "Token Expiry date: {expDate}",
+    "errors": {
+        "requesttimeout": {
+            "title": "Request timeout",
+            "message": "The connection to the server timed out."
+        }
+    },
+    "tokenUsageInfos": "Few hours synchronization  difference between Token Usage and registered objects for optimization.",
+    "months": [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ],
+    "shortMonths": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+    "weekdays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ]
+}

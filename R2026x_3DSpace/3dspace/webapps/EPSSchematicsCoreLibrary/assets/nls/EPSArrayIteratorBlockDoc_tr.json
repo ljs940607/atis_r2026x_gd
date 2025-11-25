@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir dizinin tüm değerlerinde iterasyon uygulanır.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Veri bağlantı noktası değer tipi, tüm dizinin değer tipiyle kısıtlanır.",
+  "dataPorts": {
+    "Array": "iterasyon uygulanacak dizi.",
+    "Start Index": "iterasyonun başladığı indeks (dizinin başlangıcı için varsayılan olarak <doc-value translate=no>0</doc-value>).",
+    "End Index": "iterasyonun bittiği indeks (dizinin bitişi için varsayılan olarak <doc-value translate=no>undefined</doc-value>).",
+    "Index": "geçerli iterasyon adımının indeksi.",
+    "Value": "geçerli indeksteki dizi değeri."
+  },
+  "controlPorts": {
+    "In": "ilk iterasyonu tetikler.",
+    "Loop In": "sonraki iterasyonu tetikler.",
+    "Out": "son iterasyon gerçekleştiğinde etkinleştirilir.",
+    "Loop Out": "en az bir eleman kaldığında etkinleştirilir."
+  },
+  "example": {
+    "webapp": "EPSSchematicsPlay/index.html",
+    "content": "DS/EPSSchematicsCoreLibrary/assets/examples/EPSArrayIteratorExample.json"
+  }
+}

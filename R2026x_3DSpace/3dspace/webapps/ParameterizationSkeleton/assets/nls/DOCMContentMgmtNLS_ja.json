@@ -1,0 +1,28 @@
+{
+  "intro": "Document Management エクスペリエンスを構成",
+  "DownloadRules": "ドキュメントのダウンロード ルール",
+  "rule1": "複数ドキュメントのダウンロード ",
+  "option1": "フォルダー構造。「<ドキュメント名> <ドキュメント リビジョン>」にちなんで名付けられたフォルダー (例：DOC-00000001 0)",
+  "option2": "フォルダ構造のないすべてのファイルのフラット リスト。競合するファイル名には、末尾にシリアル番号が付けられます。",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "変更が正常に適用されました",
+  "ApplyError": "変更の適用に失敗しました",
+  "ResetSuccess": "正常にリセットされました",
+  "Enable_Work_Under_Setting": "[コンテキストの下で作業] を有効化",
+  "Enable_Mandatory_Comment_Setting": "ファイルをアップロード、更新、または編集する時は必ず必須にします。",
+  "File_Comment_Label": "ファイルのコメント",
+  "Work_Under_Accordion_Title": "[コンテキストの下で作業] の構成",
+  "Work_Under": "コンテキストの下で作業",
+  "Comment_As_Mandatory__Accordion_Title": "ドキュメントの更新",
+  "Failed_Load": "構成のロードに失敗しました。",
+  "DownloadBehaviorTooltip": {
+    "title": "複数ドキュメントをダウンロードする際のファイルの整理方法を選択します:",
+    "subtitle1Heading": "• フォルダー構造 ",
+    "subtitle2Heading": "• フラットリスト: ",
+    "subtitle1": "各ドキュメントのサブフォルダを含む ZIP フォルダを作成し、元のファイル構成を維持します。",
+    "subtitle2": "サブフォルダを持たない単一リスト内の全ファイルをダウンロードします。同じ名前のファイルには、競合を避けるために末尾にシリアル番号が付けられます。"
+  },
+  "WorkUnderRuleTooltip": "すべての変更を実行済みの変更として記録するには、変更オブジェクトの仕様を選択します。",
+  "CommentMandatoryTooltip": "Document Management での作成/更新アクション、および Collaboration for Microsoft での 3DEXPERIENCE へのドキュメント保存には、コメントを必須にします。複数のファイルを含むドキュメントで、その目的とドキュメントと関連づける方法に関するコンテキストを提供する場合には、ファイル コメントが特に便利です。"
+}

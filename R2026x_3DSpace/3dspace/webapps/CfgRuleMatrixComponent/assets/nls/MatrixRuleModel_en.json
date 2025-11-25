@@ -1,0 +1,9 @@
+{
+  "TYPE_VARIANT" : "Variant",
+  "TYPE_VARIANT_VALUE" : "Variant Value",
+  "TYPE_VALUE" : "Value",
+  "TYPE_OPTION_GROUP" :"Option Group",
+  "TYPE_OPTION":"Option",
+  "_mr_max_valid_combination_msg_title" : "There are more than 1,000 valid combinations.",
+  "_mr_max_valid_combination_msg_message" : "The Matrix Rule editor supports a maximum of 1,000 columns, so some columns have been hidden."
+}

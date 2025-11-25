@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_es",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"No se han encontrado reconocimientos; cree un nuevo reconocimiento y acceda a él aquí",addWBReco:"Iniciar el reconocimiento de pizarra"});

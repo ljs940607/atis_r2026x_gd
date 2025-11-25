@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"新产品",
+"ENONewProductHdr.ShortHelp":"创建新产品。",
+"ENONewProductHdr.LongHelp":"在对话框中输入标题和必要的属性（如有），然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个产品，或者单击<uicontrol>创建</uicontrol>以创建另一个产品。",
+"ENOInsertNewProductHdr.Title":"插入新产品",
+"ENOInsertNewProductHdr.ShortHelp":"创建新产品，并将其作为子项添加到选定的对象。",
+"ENOInsertNewProductHdr.LongHelp":"<p>在对话框中输入标题，然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个产品，或者单击<uicontrol>创建</uicontrol>以创建另一个产品。</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

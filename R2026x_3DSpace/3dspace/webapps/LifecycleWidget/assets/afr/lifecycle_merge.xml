@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+      <Template syp:name="LifecycleHeaders" Target="CATCmdHeadersList">
+            <CATCmdHeadersList>
+                  <!-- Fixed area -->
+                  
+                  <!-- EDIT SECTION -->
+                  <CATCommandHeader ID="MergeHdr" HelpResourceFile="LifecycleWidget/LifecycleCmd" ClassName="DS/LifecycleCmd/MergeCmd" ResourceFile="LifecycleCmd/MergeCmd" Available="1" />
+                  
+                  
+            	  
+            </CATCmdHeadersList>
+      </Template>
+
+      <Template syp:name="LifecycleWkbAccess" Target="CATCmdWorkbench">
+            <CATCmdWorkbench Name="LifecycleWkb">
+                   <!-- Fixed area -->
+                  <CATCmdContainer Name="Lifecycle" RepresentationType="AfrActionBarSection">
+                  <CATCmdSeparator Name="PadViews_Separator"/>
+                        <CATCmdStarter Name="Merge" Command="MergeHdr" />
+                  </CATCmdContainer>
+                  
+                   
+            </CATCmdWorkbench>
+      </Template>
+</Styles>

@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "Stripe FR 마이그레이션",
+  "startStripeFrConversion": "Stripe FR 변환 시작",
+  "migrationExplanation": "버튼을 클릭하여 Stripe FR로 매장 마이그레이션을 시작합니다.",
+  "documentsExplanation": "KYC 파일을 하나씩 다운로드하고 이 섹션의 각 업로드 버튼을 통해 새 Stripe FR 플랫폼에 업로드하십시오.",
+  "downloadFile": "파일 다운로드",
+  "uploadFile": "파일 업로드",
+  "failedToDownloadFile": "파일을 다운로드하지 못했습니다.",
+  "failedToUploadFile": "파일을 업로드하지 못했습니다.",
+  "invalidFileTypeMessage": "파일 유형이 잘못되었습니다. JPEG 또는 PNG 파일을 사용하십시오.",
+  "fileTooBig": "파일이 최대 파일 크기를 초과합니다.",
+  "migrationFailedMsg": "마이그레이션을 완료할 수 없습니다.",
+  "migrationCompleted": "마이그레이션 완료됨",
+  "kycSatusIs": "문서의 상태는 '{status}'입니다.",
+  "startingMigration": "마이그레이션 시작 중...",
+  "updating": "데이터 업데이트 중...",
+  "unableToUpdateData": "데이터를 업데이트할 수 없습니다.",
+  "waitingForMigrationConfirmation": "문서 검증 진행 중. 나중에 마이그레이션 상태를 확인하십시오.",
+  "migrationFailed": "마이그레이션 실패"
+}

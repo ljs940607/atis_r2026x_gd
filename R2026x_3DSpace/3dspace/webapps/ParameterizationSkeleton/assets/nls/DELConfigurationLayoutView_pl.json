@@ -1,0 +1,22 @@
+{
+  "setParameters": "Parametr zapisany",
+  "setParametersTitle": "Zapisz",
+  "setParametersError": "Błąd podczas zapisywania parametrów",
+  "deleteParameter": "Parametr usunięty",
+  "deleteParameterTitle": "Usuń",
+  "deleteParameterError": "Błąd podczas usuwania parametrów",
+  "modifyParameter": "Parametr zmodyfikowany",
+  "modifyParameterTitle": "Modyfikuj",
+  "modifyParameterError": "Błąd podczas modyfikowania parametrów",
+  "columnMandatory": "Kolumna %1 jest obowiązkowa",
+  "containUnsupportedChars": "%1 zawiera co najmniej jeden następujący nieobsługiwany znak \n %2",
+  "confirmDeleteTitle": "Potwierdź usunięcie",
+  "confirmDeleteContent": "Czy na pewno chcesz trwale usunąć ten wiersz? Tego działania nie można cofnąć.",
+  "Add": "Dodaj nowy wiersz",
+  "orderParameters": "Kolejność zaktualizowana",
+  "orderParametersTitle": "Zmień kolejność",
+  "orderParametersError": "Błąd podczas zmiany kolejności",
+  "orderParametersMaskMessage": "Aktualizacja kolejności",
+  "orderParametersDeleteError": "Błąd podczas usuwania poprzedniej kolejności",
+  "orderParametersSetError": "Błąd podczas zapisywania nowej kolejności"
+}

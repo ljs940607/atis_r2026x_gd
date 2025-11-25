@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizideki değer sayısını sayar.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Array": "okunacak dizi.",
+    "Length": "dizideki değer sayısı."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

@@ -1,0 +1,1 @@
+define("DS/ENOXInterWdgCom/ENOXInterWdgCom_ko",{});define("DS/ENOXInterWdgCom/assets/nls/ENOXInterWdgCom",{widgetLinkOptionsPanel:{title:"웹 앱 링크 옵션",subTitle:"웹 앱 간에 연결할 피처 선택:",all:"전체",content:"콘텐츠",viewMode:"보기 모드",viewPoint:"시점",contentHelp:"이 콘텐츠는 3D 위젯에 로드된 모든 콘텐츠(Products, PointClouds...)를 설명합니다.",viewPointHelp:"ViewPoint는 3D에서 확대/축소, 평행이동 또는 회전을 통해 얻은 시점입니다."}});

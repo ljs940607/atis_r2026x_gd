@@ -1,0 +1,1 @@
+define("DS/3DPlayWidgetModel/3DPlayWidgetModel_tr",{});define("DS/3DPlayWidgetModel/assets/nls/prefs",{Label:"3DSpace geometrisi için tercih edilen kalite",auto:"Otomatik",base:"Yüksek kalite",index:"Düşük kalite",displayCandidateQueue:"Yükleme kutularını görüntüle"});

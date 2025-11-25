@@ -1,0 +1,32 @@
+{
+    "loader": {
+        "findingBookmarks": "Finding Bookmark Folders..."
+    },
+    "msg_warning_FindInTree_NoLaunchOnFavourite": "Find in tree cannot be performed on favorite section and favorite Bookmark Folders.",
+    "msg_warning_FindInTree_InvalidDrop": {
+        "title": "Dropped object is not a Bookmark Folder.",
+        "subtitle": "Please drop a Bookmark Root Folder or Bookmark Folder."
+    },
+    "msg_warning_expandTotheFindInNode": {
+        "title": "Find in tree cannot be done.",
+        "subtitle": "Expand the tree to that specific Bookmark Folder node",
+        "message": "The Bookmark Folder to find-in is not visible in the tree."
+    },
+
+    "msg_warning_NoObjectsUnderSection": {
+        "title": "Find in tree cannot be done.",
+        "subtitle": "Expand the Bookmark Folder section to level one.",
+        "message": "There are no visible Bookmark Folders under the Bookmark Folder section."
+    },
+
+    "msg_warning_NoObjectSelected": {
+        "title": "Find in tree cannot be done.",
+        "subtitle": "Please select a Bookmark Folder and try again.",
+        "message": "There is no Bookmark Folder selected to perform Find-In."
+    },
+
+    "msg_info_limitToFindInRootNode": "Could not display all search results. Please try different keywords or search from sub Bookmark Folders.",
+    "msg_info_searchCompleted": "Search is completed.",
+    "msg_info_No_Occurrence": "No result found."
+}
+

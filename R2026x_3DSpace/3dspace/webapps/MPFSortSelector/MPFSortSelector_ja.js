@@ -1,0 +1,1 @@
+define("DS/MPFSortSelector/MPFSortSelector_ja",{});define("DS/MPFSortSelector/assets/nls/SortSelector",{sortedBy:"{name} で並べ替え済み"});

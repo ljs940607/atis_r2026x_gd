@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "검색 구조별 그룹화",
+    "chooserLabel": "검색 구조 선택",
+    "organizeButton": "그룹",
+    "ungroupButton": "그룹 해제",
+    "cancelButton": "취소"
+  },
+  "noBSWarning": {
+    "message": "사용 가능한 검색 구조가 없습니다.",
+    "advice": "검색 구조 관리자에게 문의하여 검색 구조를 생성하고 해당 성숙도를 \"릴리즈됨\"으로 설정하여 이 명령에서 사용할 수 있도록 하십시오."
+  },
+  "webServiceError": "검색 구조 목록을 검색할 수 없습니다. 다시 시도하거나 관리자에게 문의하십시오."
+}

@@ -1,0 +1,1 @@
+define("DS/MPFNoticeComponent/MPFNoticeComponent_ru",{});define("DS/MPFNoticeComponent/assets/nls/NoticeComponent",{importantNotice:"Важное примечание"});

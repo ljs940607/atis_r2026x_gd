@@ -1,0 +1,277 @@
+{
+  "addRootSuccessNotif": "Nesne başarıyla yüklendi",
+  "searchOnContextSuccessNotif": "Nesne bulunamadı",
+  "addRootInContextSuccessNotif": "Nesne bağlam içinde başarıyla yüklendi",
+  "addonDetachedRootSuccessNotif": "Nesne ayrılmış kökte başarıyla yüklendi",
+  "addRootFailureNotif": "Yükleme sırasında hata",
+  "rootAlreadyLoadedNotif": "Bazı nesneler zaten yüklenmiş",
+  "reparentSuccessful": "Nesne üst öğesi başarıyla yeniden tanımlandı",
+  "reparentFailure": "Yeniden üst öğe tanımlama başarısız oldu",
+  "deleteSuccessful": "Nesne başarıyla silindi",
+  "deleteFailure": "Silme işlemi başarısız oldu",
+  "insertSuccessful": "Nesne başarıyla eklendi",
+  "insertFailure": "Ekleme başarısız",
+  "contentNameSuffix": "Ürünler",
+  "cannotLoadSuchObject": "Nesne yüklenemiyor",
+  "timeout": "Zaman aşımı yükseltildi",
+  "loadingCanceled": "Yükleme iptal edildi",
+  "loadingPreventedHas360only": "Çoklu kök, geçerli 360° fotoğrafta desteklenmiyor. Lütfen başka bir veri açmadan önce kapatın",
+  "loading360onlyPreventedHasR2V": "360° fotoğraf verisi çok köklü bir bağlamda açılamaz. Lütfen 360° fotoğraf verilerini açmadan önce mevcut verileri kapatın",
+  "cannotParseQueryResult": "Sorgu sonucu çözümleme hatası",
+  "switchVisuNodeSuccess": "Yükleme başarılı",
+  "switchVisuNodeToCGRSuccess": " basitleştirilmiş geometri yüklendi",
+  "switchVisuNodeToCGRsSuccess": " basitleştirilmiş geometriler yüklendi",
+  "switchVisuNodeToThumbnailSuccess": " dizinlenmiş basitleştirilmiş geometri yüklendi",
+  "switchVisuNodeToThumbnailsSuccess": " dizinlenmiş basitleştirilmiş geometriler yüklendi",
+  "switchVisuNodeUrlnotFound": "Dizinlenmiş basitleştirilmiş geometri yok",
+  "toggleVisuNodeToCGRSuccess": " yüksek kaliteli geometri yüklendi",
+  "toggleVisuNodeToCGRsSuccess": " yüksek kaliteli geometriler yüklendi",
+  "toggleVisuNodeToThumbnailSuccess": " optimize edilmiş geometri yüklendi",
+  "toggleVisuNodeToThumbnailsSuccess": " optimize edilmiş geometriler yüklendi",
+  "toggleVisuNothingChanged": "Seçili geometriler zaten {visuMode} işleme aşamasında",
+  "toggleVisuNoUrlFound": "{visuMode} işleme kullanılamıyor",
+  "toggleVisuNodeFailure": "{visuMode} kalitesi yüklenemedi",
+  "toggleVisuOptimized": "optimize edildi",
+  "toggleVisuOptimizedMaj": "Optimize Edildi",
+  "toggleVisuHighQuality": "yüksek kalite",
+  "toggleVisuHighQualityMaj": "Yüksek kalite",
+  "switchVisuNodeNoThumbnailOnAuthoring": "Oluşturma modu: yalnızca basitleştirilmiş geometri",
+  "switchVisuNodeFailure": "Yükleme sırasında hata",
+  "switchVisuNodeUseless": "Kullanılabilir anahtar yok",
+  "storePositions": "Konumlar saklanıyor...",
+  "queryRunning": "3B alınıyor",
+  "parsingResponse": "3B analiz ediliyor",
+  "displaying3D": "3B görüntüleniyor",
+  "parts": "parçalar",
+  "inserting": "Ekleniyor...",
+  "reparenting": "Yeniden üst öğe tanımlanıyor...",
+  "statusInfoObjectsInViewerSuffix": " temsiller",
+  "refreshCompleted": "Yenileme tamamlandı",
+  "completionCompleted": " temsiller başarıyla yüklendi",
+  "expandCompleted": "Nesne başarıyla genişletildi",
+  "activate_LDH": "Seçmeli Yüklemeyi Kullan (Sayfanın yeniden yüklenmesi gerekir)",
+  "emptyResultOfTaggerSelect": "Seçim kriterleriyle eşleşen parça yok",
+  "emptyResultOfSearchInContext": "Kriterlerle eşleşen referans bulunamadı",
+  "singleResultOfSearchInContext": " kriterlerle eşleşen referans bulundu",
+  "multipleResultOfSearchInContext": " kriterlerle eşleşen referanslar bulundu",
+  "searchInContextFailed": "Bağlamda arama yapılamıyor. Widget'ı yenileyin ve tekrar deneyin",
+  "swapToSeeSelection": "Sonucu görmek için görünür alanı değiştir",
+  "swapToSeeSelectionNotAvailable": "Görünür alanı değiştirmek ve sonucu görmek için Devralmayı Gizle/Göster tercihini devre dışı bırakın",
+  "selectionInOtherSpace": "Bazı sonuçlar diğer görünür alanlarda bulunur",
+  "progressiveExpandFullMemory": "Görünüm penceresi tamamlama işlemi durduruldu, bellek sınırına ulaşıldı",
+  "debugVisuTitle": "Hata Ayıklama Görselleştirmesi",
+  "debugVisuRefAmount": "Referanslar: ",
+  "debugVisuInstAmount": "Örnekler: ",
+  "debugVisuRepRefAmount": "Temsil Referansları: ",
+  "debugVisuRepInstAmount": "Temsil Örnekleri: ",
+  "debugVisuTotalGeometryAmount": "Geometriler: ",
+  "debugVisunbSharedBufferAmount": "Paylaşılan arabellek: ",
+  "debugVisunbTexturesAmount": "Dokular: ",
+  "debugVisunbProgramsAmount": "Programlar: ",
+  "debugVisunbCallsAmount": "Aramalar: ",
+  "debugVisunbFacesAmount": "Yüzler: ",
+  "debugVisunbLinesAmount": "Çizgiler: ",
+  "debugVisunbMeshesAmount": "Eleman Ağları: ",
+  "debugVisunbCulledMeshesAmount": "Ayıklanmış Eleman Ağları: ",
+  "debugVisunbCulledGeometriesAmount": "Ayıklanmış Geometriler: ",
+  "debugVisunbCulledTrianglesAmount": "Ayıklanmış Üçgenler: ",
+  "debugVisunbCulledLinesAmount": "Ayıklanmış Çizgiler: ",
+  "PADStatus_loadingComplete": "Yükleme tamamlandı",
+  "PADStatus_loadingData": "Veriler yükleniyor",
+  "PADStatus_loadingStopped": "Yükleme durduruldu",
+  "close": "Kapat",
+  "hide": "Gizle",
+  "show": "Göster",
+  "remove": "Kaldır",
+  "viewLegend": "Açıklama",
+  "emptyLegend": "Açıklama tanımlanmadı",
+  "legendStyle": "Stil",
+  "changePOIGroupColor": "POI grup rengini değiştir",
+  "changeSearchResultColor": "Arama sonucunun rengini değiştir",
+  "reload": "3B'yi Yeniden Yükle",
+  "ignore": "Yok Say",
+  "rootList": "Kök Listesi",
+  "removeFilterPanelTitle": "Filtre kaldırıldı",
+  "removeFilterPanelDescription": "Geometrileri yeniden yüklemek istiyor musunuz?",
+  "removeFilterPanelAutoApply": "Bu seçeneği otomatik olarak uygula",
+  "removeFilterAutoReload": "Geometriler otomatik olarak yeniden yüklendi",
+  "removeFilterAutoIgnore": "Hiçbir geometri yeniden yüklenmiyor",
+  "tooManyResultFound": "Çok fazla sonuç bulundu. Lütfen sorguyu daraltın.",
+  "tooManyResultFoundV2": "Arama {maxResult} sonuç ile sınırlıdır. Lütfen sorguyu daraltın.",
+  "queryFailed_VQDisabled": {
+    "title": "Bu platformda bir hacim kriteri kullanamazsınız.",
+    "subtitle": "Hacim operatörünü filtreden kaldırın."
+  },
+  "searchResults_memoryFull": "kriterlerle eşleşen {nbResult} referans bulundu ancak bellek sınırına ulaşıldığı için yüklenmedi",
+  "statsRetrieved_emptyStructure": "Görüntülenecek geometri yok",
+  "PAD3DLayerPanel_title": "Katmanlar",
+  "staticMappingFailure": "Bu model için Örneklendirilmiş Ürün Konfigürasyonu alınamadı.",
+  "flexibleAssemblieyFailure": "Bu model için esnek montajlar alınamadı.",
+  "flexibleAssemblySupport": "Esnek Montajları Ekle",
+  "RevealDocumentsMsgs": {
+    "nodocs": "Belge bulunamadı",
+    "timeout": "Zaman aşımı nedeniyle belgeler kısmen yüklendi",
+    "success": "Belgeler başarıyla yüklendi",
+    "queryDocuments": "Belgeler yükleniyor"
+  },
+  "RevealDocumentsModal": {
+    "header": "Belge Seçeneklerini Göster",
+    "doNotShow": "Tekrar gösterme",
+    "kindOfDocuments": "Gösterilecek belgeler:",
+    "ok": "Tamam",
+    "cancel": "İptal"
+  },
+  "defaultLayer": {
+    "title": "Varsayılan"
+  },
+  "searchLayer": {
+    "title": "Geçerli Sekmede Ara"
+  },
+  "graphicPropertiesLayer": {
+    "title": "Grafik özellikleri"
+  },
+  "zoiLayer": {
+    "title": "İlgilenilen Bölge"
+  },
+  "colorizeLayer": {
+    "title": "Renklendir",
+    "referenceMode": "Referans",
+    "instanceMode": "Örnek",
+    "treeLayer": "Ağaç genişletme",
+    "leafLayer": "Yapraklar",
+    "fromBottomLayer": "Aşağıdan Yukarıya",
+    "fromTopLayer": "Yukarıdan Aşağıya",
+    "fallbackLeaf": "Ağaç genişletme katmanı seçildi ancak komut verilebilecek bir 2B widget yok. Yapraklar katmanına geri dönülüyor"
+  },
+  "groupingLayer": {
+    "title": "Gruplandırma"
+  },
+  "POILayer": {
+    "title": "POI",
+    "loading": "Yükleniyor"
+  },
+  "clustering": {
+    "activate": "Kümelemeyi Etkinleştir",
+    "disable": "Kümelemeyi Devre Dışı Bırak",
+    "toggle": "Kümelemeyi Aç/Kapat"
+  },
+  "POI3DToggle": {
+    "toggle3dpoi": "3D POI'ye geç",
+    "toggle2dpoi": "2D POI'ye geç"
+  },
+  "poiTooltip": {
+    "atLessThan": "Şundan az POI'ler:",
+    "mergingThreshold": "Eşik Birleştiriliyor"
+  },
+  "revealLayer": {
+    "title": "Göster",
+    "okParams": "Uygula",
+    "cancelParams": "Kapat",
+    "warningNoSelection": "En az bir tür belge seçilmelidir"
+  },
+  "defaultGroupView": {
+    "title": "{layerLabel} için İlgi Noktası",
+    "titleWithoutLayerName": "İlgi Noktası"
+  },
+  "revealGroupView": {
+    "title": "{layerLabel} için grubu göster",
+    "titleWithoutLayerName": "Grubu göster",
+    "Ctx3DPlay": "Önizleme",
+    "Ctx3DPlayDL": "İndir",
+    "downloadFail": "İndirme işlemi başarısız oldu",
+    "CtxInfo": "Bilgi"
+  },
+  "capturePOI": {
+    "added": "POI'ler eklendi:",
+    "allAdded": "Tüm POI'ler eklendi",
+    "commandUnavailable": "CapturePOI komutu kullanılamıyor",
+    "newInfo": "Yeni bir nokta yakalanabilir"
+  },
+  "display3DVolume": {
+    "commandUnavailable": "3B Hacmi Göster komutu kullanılamıyor"
+  },
+  "sessionFrozenFollowingAuthoringOperation": "Bir oluşturma işleminin ardından oturum donduruldu",
+  "authoringOperation_partiallyProcessed_unknownObject": "Oluşturma işlemi kısmen tamamlandı, bazı nesneler oturumda bulunamadı",
+  "authoringOperation_aborted_unknownObject": "Oluşturma işlemi yok sayıldı, oturumda nesne bulunamadı",
+  "parsingInterruptedMemoryFull": {
+    "title": "Tüm veriler yüklenemiyor.",
+    "subtitle": "Seçilen yapı çok büyük.",
+    "message": "Veri kümesi kısmen açıldı."
+  },
+  "cycleDetected": {
+    "title": "Düzeltilemeyen hata",
+    "subtitle": "Veri kümesi ürün yapısında döngü içeriyor, inceleme yapılamıyor.",
+    "message": "Döngüyü ürün yapısından kaldırıp tekrar deneyin."
+  },
+  "offlineScreenshot": "Tarayıcı çevrimdışı olduğundan görüntü dosyası doğru şekilde adlandırılamıyor",
+  "RIP_UnsupportedSelection": "Yanlış seçim, lütfen bir ürün seçin",
+  "colorizeInAuthoring": "Bir oluşturma işlemi gerçekleştirildi, renklendirme güncel olmayabilir",
+  "noLocState": "Gerçek Dünyadaki Konum {soiName} altında konum durumu yok",
+  "measureLaunchedWithStaticMapping": "Oturumda Örneklendirilmiş Ürün Konfigürasyonu bulundu, sonuçlar doğru olmayabilir",
+  "commandLaunchedWithFlexibleAssemblies": "Oturumda Esnek Montajlar bulundu, sonuçlar doğru olmayabilir",
+  "multipleRootForSetStartupView": {
+    "title": "İşlem desteklenmiyor",
+    "subtitle": "Başlangıç Görünümünü widget'ta birden fazla kök ile ayarlayamazsınız.",
+    "message": "Widget'ta yalnızca bir kök tutarak tekrar deneyin."
+  },
+  "noRootForSetStartupView": {
+    "title": "İşlem desteklenmiyor",
+    "subtitle": "Başlangıç Görünümünü widget'ta hiçbir kök olmadan ayarlayamazsınız.",
+    "message": "Widget'a bir kök ekledikten sonra tekrar deneyin."
+  },
+  "successForStartupView": {
+    "title": "Başlangıç Görünümü ayarlandı",
+    "subtitle": "{rootname} ve geçerli görünüm penceresi Başlangıç Görünümü olarak ayarlandı.",
+    "message": "Bu widget, her yüklediğinizde otomatik olarak bu verileri yükleyecek ve geçerli görünüm penceresini ayarlayacaktır."
+  },
+  "successForStartupViewRemoval": {
+    "title": "Başlangıç Görünümü kaldırıldı",
+    "subtitle": "Bu widget artık verileri otomatik olarak yüklemeyecek ve yeniden yüklemeden sonra geçerli görünüm penceresini ayarlamayacaktır.",
+    "message": "Durum çubuğunda aynı simgeye tıklayarak yeni bir Başlangıç Görünümü ayarlayabilirsiniz."
+  },
+  "setStartupViewFailedReadOnly": {
+    "title": "Panoyu değiştiremezsiniz",
+    "subtitle": "Bu panoda bir okuyucu olduğunuzdan başlangıç görünümünü ayarlayamazsınız.",
+    "message": "Panonun bir kopyasını oluşturup değiştirebilir veya destek için yöneticinizle iletişime geçebilirsiniz."
+  },
+  "startupViewWithAutoreload": {
+    "title": "Başlangıç Görünümü yüklenemedi",
+    "subtitle": "Başlangıç Görünümü ve \"{autoreloadpreference}\" ayarlandı.",
+    "message": "Başlangıç Görünümünün çalışması için lütfen tercihlerde \"{autoreloadpreference}\" öğesini devre dışı bırakın.",
+    "loaderLabel": "Başlangıç Görünümü yükleniyor..."
+  },
+  "startupViewAutoreloadFeatureStateFailure": {
+    "title": "Başlangıç Görünümü yüklenemedi",
+    "message": "Bir sorun oluştu, lütfen birkaç dakika içinde tekrar deneyin. Sorun devam ederse başlangıç görünümünü sıfırlamayı deneyin."
+  },
+  "transparencyPanel": {
+    "title": "Şeffaflık",
+    "none": "Hiçbiri",
+    "opaque": "Opak (%0)",
+    "low": "Düşük (%30)",
+    "high": "Yüksek (%80)"
+  },
+  "transparencyLayer": {
+    "layerLabel": "Şeffaflık Aşırı Yüklemeleri",
+    "title": "Şeffaflık"
+  },
+  "mode360DisabledDueToNo360Content": {
+    "title": "\"360° Fotoğraf\" modu devre dışı",
+    "subtitle": "Veri kümesi \"360° Fotoğraf\" içermiyor.",
+    "message": "Bu mod, \"360° Fotoğraf\" içeren veri kümesi açıldığında etkinleştirilecektir."
+  },
+  "mode360DisabledDueToMultipleRoot": {
+    "title": "\"360° Fotoğraf\" modu devre dışı",
+    "subtitle": "Görünümde birden fazla Ürün var",
+    "message": "\"360° Fotoğraf\" yalnızca tek bir Ürün için kullanılabilir."
+  },
+  "classificationDisabledNoAttribute": {
+    "title": "\"LAS sınıflandırmasına göre renklendir\" komutu devre dışı bırakıldı",
+    "message": "\"Sınıflandırma\" özniteliği içeren veriler gerekir"
+  },
+  "noRealDataForR2VCommand": {
+    "title": "Gerçek veriler gerekli",
+    "subtitle": "Görünüme gerçek veri yüklenmedi",
+    "message": "Bu komutu başlatmak için gerçek veriler gereklidir, lütfen gerçek veriler yükleyin veya yüklenmesini bekleyin, ardından tekrar deneyin."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "与えられた配列の一部のコピーを作成し、指定されたグラフによって実装されたテストに合格する要素だけにフィルタリングします。",
+  "description": "各要素に対して指定されたグラフを呼び出し、対応するグラフが制御ポートを <doc-ocp-name translate=no>True</doc-ocp-name> にする要素のみを保持することで、指定された配列をフィルタリングします。<br>このブロックは、任意の <doc-idp-name translate=no>ArrayIn</doc-idp-name> 配列タイプから任意の出力配列タイプへのフィルタリングが可能です。<br>フィルタリング処理を行うには、内側のグラフを編集する必要があります。",
+  "dataPorts": {
+    "ArrayIn": "フィルタリングする入力配列。<br>このデータ ポートは、すべての配列タイプを処理します。",
+    "SharedData": "各内部グラフ インスタンス間で共有するデータ。<br>このデータ ポートは、すべてのタイプを処理します。<br>各種タイプの複数のデータを共有する必要がある場合は、ユーザー タイプを作成することをお勧めします。",
+    "ArrayOut": "フィルタリングされた出力配列。<br>このデータポートはすべての配列タイプを扱います。<br>この配列のサイズが <doc-idp-name translate=no>ArrayIn</doc-idp-name> 配列のサイズを超えることはありません。",
+    "State": "<doc-odp-name translate=no>Success</doc-odp-name> 出力配列の各インデックスの <doc-valuetype translate=no>EExecutionState</doc-valuetype> を指定する <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> の配列。<br>この配列のサイズは、常に <doc-idp-name translate=no>ArrayIn</doc-idp-name> 配列のサイズと等しくなります。",
+    "Progress": "<doc-odp-name translate=no>ArrayIn</doc-odp-name> 入力配列の各インデックスにおける <doc-valuetype translate=no>EExecutionState</doc-valuetype> を指定する <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> 配列。<br>この配列は、ブロックの背後にある分散処理に依存するため、1 つの進行中に複数のデータで満たされる可能性があります。<br>しかし、この配列のサイズが <doc-idp-name translate=no>Input</doc-idp-name> 配列のサイズを超えることはありません。",
+    "Error": "<doc-valuetype translate=no>ArrayFilterError</doc-valuetype> の配列で、入力配列 <doc-odp-name translate=no>ArrayIn</doc-odp-name> のインデックスに対応するエラー オブジェクトを返します。<br>この配列のサイズが <doc-idp-name translate=no>ArrayIn</doc-idp-name> 配列のサイズを超えることはありません。"
+  },
+  "controlPorts": {
+    "In": "ブロック実行をトリガーします。",
+    "Success": "プロセスが正常に完了すると活動化されます。",
+    "Progress": "処理が発生するたびに活動化されます。",
+    "Error": "エラーが発生したときに活動化されます。"
+  },
+  "example": null
+}

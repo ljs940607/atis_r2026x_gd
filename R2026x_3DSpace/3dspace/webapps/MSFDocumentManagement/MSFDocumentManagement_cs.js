@@ -1,0 +1,1 @@
+define("DS/MSFDocumentManagement/MSFDocumentManagement_cs",{});define("DS/MSFDocumentManagement/assets/nls/MSFDocumentManagement",{BlockActionAsWebEditionIsOn:"Dokument momentálně upravují jiní uživatelé. Tato vaše akce jim zabrání v dalších změnách. Pokračovat budete moci, jakmile bude uzavřena relace webového editoru."});

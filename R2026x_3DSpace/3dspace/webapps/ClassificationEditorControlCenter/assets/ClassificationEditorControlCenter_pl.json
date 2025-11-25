@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Tryb ograniczony dla menedżerów klasyfikacji",
+  "CCM_Manager": "Menedżer klasyfikacji",
+  "CCM_specialist_title": "Specjalista",
+  "CCM_expert_title": "Ekspert",
+  "CCM_architect_title": "Architekt",
+  "permission_update_successful": "Udzielono zezwolenia {updatedPermission} użytkownikowi {name}.",
+  "permission_update_failure": "Nie można zaktualizować zezwolenia dla nazwy użytkownika.",
+  "restriction_mode_switched": "Tryb ograniczony jest ustawiony na {restrictionToggle}.",
+  "restriction_mode_switch_failure": "Nie można przełączyć trybu ograniczonego.",
+  "widget_load_failure": "Tylko administratorzy z rolą CSV mogą uzyskać dostęp do tej aplikacji.",
+  "on": "włączony",
+  "off": "wyłączony",
+  "search_name": "Przeszukaj nazwę"
+}

@@ -1,0 +1,28 @@
+{
+  "intro": "Konfiguruj środowisko Document Management.",
+  "DownloadRules": "Zasady pobierania dokumentu",
+  "rule1": "Pobieranie wielu dokumentów ",
+  "option1": "Struktura folderów. Folder o nazwie „<Nazwa dokumentu> <Wersja dokumentu>”, np. DOC-00000001 0",
+  "option2": "Płaska lista wszystkich plików bez struktury folderów. Nazwy plików powodujące konflikt zostaną uzupełnione o przyrastające numery",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "FlatList",
+  "ApplySuccess": "Zmiany zostały zastosowane pomyślnie",
+  "ApplyError": "Nie udało się zastosować zmian",
+  "ResetSuccess": "Resetowanie powiodło się",
+  "Enable_Work_Under_Setting": "Włącz pracę w obszarze",
+  "Enable_Mandatory_Comment_Setting": "Ustaw jako obowiązkowe za każdym razem, gdy plik jest przesyłany, aktualizowany lub edytowany.",
+  "File_Comment_Label": "Komentarze do pliku",
+  "Work_Under_Accordion_Title": "Pracuj w ramach konfiguracji",
+  "Work_Under": "Praca w ramach",
+  "Comment_As_Mandatory__Accordion_Title": "Aktualizacja dokumentu",
+  "Failed_Load": "Nie można załadować konfiguracji.",
+  "DownloadBehaviorTooltip": {
+    "title": "Wybierz sposób organizowania plików podczas pobierania wielu dokumentów:",
+    "subtitle1Heading": "• Struktura folderu: ",
+    "subtitle2Heading": "• Lista płaska: ",
+    "subtitle1": "Tworzy folder ZIP z podfolderami dla każdego dokumentu, zachowując ich oryginalną organizację.",
+    "subtitle2": "Pobiera wszystkie pliki na jednej liście bez podfolderów. Pliki o identycznej nazwie otrzymają przyrostki w formie kolejnej numeracji, aby uniknąć konfliktów."
+  },
+  "WorkUnderRuleTooltip": "Zaznacz, aby użyć obiektu zmiany do zapisania wszystkich modyfikacji jako zrealizowanych zmian.",
+  "CommentMandatoryTooltip": "Sprawia, że komentarze są obowiązkowe dla każdej czynności tworzenia/aktualizacji w zarządzaniu dokumentami i zapisywania dokumentów do 3DEXPERIENCE w aplikacji Collaboration for Microsoft. Komentarze do plików są szczególnie przydatne w przypadku dokumentów zawierających wiele plików, w celu zapewnienia kontekstu na temat ich przeznaczenia i sposobu, w jaki odnoszą się one do dokumentu."
+}

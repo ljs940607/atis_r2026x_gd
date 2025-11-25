@@ -1,0 +1,1 @@
+define("DS/CATAssemblyMUCCommand/CATAssemblyMUCCommand_zh-TW",{});define("DS/CATAssemblyMUCCommand/assets/nls/CAT3DPlayMUCSplash",{MUC_SPLASH_LABEL:"移動元素以與 3D 互動"});

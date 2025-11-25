@@ -1,0 +1,130 @@
+{
+    "custoPanel.general.title": "Results display customization",
+    "custoPanel.general.newCustomization": "New Customization",
+    "custoPanel.general.activeCustomization": "Active customization",
+    "custoPanel.general.expander.endUserCusto": "Results view with default customization",
+    "custoPanel.general.expander.userCustomization": "Results view with",
+
+    "custoPanel.general.expander.main": "Results customizations",
+    "custoPanel.general.expander.admin": "Admin customizations",
+    "custoPanel.general.expander.local": "My local customizations",
+
+    "custoPanel.general.default.custo.description": "Default customization defined by the OOTB DS",
+    "custoPanel.general.user.custo.description": "Customization created by user",
+    "custoPanel.general.admin.custo.description": "Customization created by admin",
+
+    "custoPanel.general.overlay.loading.view": "Customization Management Tool loading...",
+
+    "custoPanel.general.created": "Created",
+    "custoPanel.general.customization.initial": "Initial customization",
+
+    "custoPanel.toolbar.edit.tooltip": "Edit this customization",
+    "custoPanel.toolbar.delete.tooltip": "Delete this customization",
+    "custoPanel.toolbar.delete.confirmation": "Are you sure to delete the attributes customization",
+    "custoPanel.toolbar.delete.confirmation.info": "Users will not be able to access it anymore.",
+    "custoPanel.toolbar.copy.tooltip": "Create a copy",
+    "custoPanel.toolbar.copy.confirmation": "Are you sure you want to copy this customization ?",
+    "custoPanel.toolbar.copy.confirmation.title": "Title for your copy of customization",
+    "custoPanel.toolbar.export.tooltip": "Export the customization to JSON",
+
+    "custoPanel.button.yes": "Yes",
+    "custoPanel.button.no": "No",
+    "custoPanel.button.ok": "Ok",
+    "custoPanel.button.create": "Create",
+    "custoPanel.button.edit": "Save",
+    "custoPanel.button.cancel": "Cancel",
+    "custoPanel.button.next": "Next",
+    "custoPanel.button.skip": "Skip",
+    "custoPanel.button.back": "Back",
+    "custoPanel.button.delete": "Delete",
+
+    "custoPanel.delete.title": "Delete customization",
+    "custoPanel.delete.content": "Are you sure to delete the customization",
+    "custoPanel.validate.delete.content": "Yes, delete this customization",
+
+    "custoPanel.copy.title":"Copy customization",
+
+    "custoPanel.infopanel.title": "How to use the customization tool ?",
+
+    "custoPanel.customization": "customization",
+    "custoPanel.add.attributes": "Add attributes",
+    "custoPanel.attributes.for.type": "Attributes for type",
+    "custoPanel.attributes.for.query": "Attributes for query",
+    "custoPanel.toggle.all.views": "Apply to all views",
+    "custoPanel.title.editor.tooltip": "Please, do not re use names of existing customizations.",
+    "custoPanel.missingName.content": "Please give a new name to the customization to create it",
+
+    "custoPanel.nls.allviews": "All Views",
+    "custoPanel.nls.thumbnail": "Thumbnail",
+    "custoPanel.nls.tile": "Tile",
+    "custoPanel.nls.largeTile": "Large Tile",
+    "custoPanel.nls.datagrid": "Datagrid",
+
+    "custoPanel.view.thumbnail": "Thumbnail view",
+    "custoPanel.view.tile": "Tile view",
+    "custoPanel.view.largeTile": "Large Tile view",
+    "custoPanel.view.datagrid": "Table view", 
+
+
+    "custoPanel.view.thumbnail.customization": "Thumbnail view customization",
+    "custoPanel.view.tile.customization": "Tile view customization",
+    "custoPanel.view.largeTile.customization": "Large Tile view customization",
+    "custoPanel.view.datagrid.customization": "Datagrid view customization",
+
+
+    "custoPanel.general.customization": "General customization",
+    "custoPanel.type.customization": "Type customization",
+    "custoPanel.predefinedQuery.customization": "Predefined Query customization",
+
+    "custoPanel.general.tooltip": "Add an attribute to the view",
+    "custoPanel.type.tooltip": "Add an attribute to the view, specifically for a given type",
+    "custoPanel.predefinedQuery.tooltip": "Add an attribute to the view, specifically for a given predefined query",
+
+    "custoPanel.general.placeholder": "Add new attributes to start customization",
+    "custoPanel.type.placeholder": "Add new attributes to customize a specific type",
+    "custoPanel.predefinedQuery.placeholder": "Add new attributes to customize a specific predefined query",
+
+    "custoPanel.attributes.name": "Attributes name",
+    "custoPanel.attributes.visibility": "Display",
+    "custoPanel.attributes.selection": "Selected",
+    "custoPanel.attributes.width": "Width",
+    "custoPanel.attributes.wrap": "Is wrap",
+    "custoPanel.attributes.pin": "Pin columns",
+
+    "custoPanel.attributes.type": "Type",
+    "custoPanel.attributes.description": "Description",
+    "custoPanel.attributes.uniqueName": "Name",
+    "custoPanel.attributes.revision": "Revision",
+    "custoPanel.attributes.maturity": "Maturity state",
+    "custoPanel.attributes.owner": "Owner",
+    "custoPanel.attributes.creationDate": "Creation date",
+    "custoPanel.attributes.modificationDate": "Modification date",
+    "custoPanel.attributes.collaborativeSpace": "Collaborative space",
+    "custoPanel.attributes.source": "Source",
+
+    "custoPanel.preview.title": "Customize results for",
+    "custoPanel.preview.title.span": "Create the new customization for results",
+    "custoPanel.preview.expander.general.customization": "General results customization",
+    "custoPanel.preview.expander.type.customization": "Results customization for type",
+    "custoPanel.preview.expander.predefinedQuery.customization": "Results customization for query",
+    "custoPanel.preview.item.title": "Sample item for preview",
+    "custoPanel.preview.item.contextualMenu": "contextual menu for this item",
+    "custoPanel.preview.item.datagrid.title": "Result item's",
+    "custoPanel.preview.item.datagrid.text": "Item result",
+    "custoPanel.preview.validation.customization.title": "Customization title",
+
+    "custoPanel.attributes.selection.datasources": "Select Data sources",
+    "custoPanel.attributes.selection.datasources_loading": "Loading data sources...",
+    "custoPanel.attributes.selection.type": "Select Type",
+    "custoPanel.attributes.selection.types": "Select Types",
+    "custoPanel.attributes.selection.types_loading": "Loading types...",
+    "custoPanel.attributes.selection.extensions": "Select Extensions",
+    "custoPanel.attributes.selection.extension.optionnal": "Select Extension (optionnal)",
+    "custoPanel.attributes.selection.extensions_loading": "Loading extensions...",
+    "custoPanel.attributes.selection.predefinedQuery": "Select Predefined query",
+    "custoPanel.attributes.selection.predefinedQuery_loading": "Loading predefined queries...",
+    "custoPanel.attributes.selection.attributes": "Select Attributes",
+    "custoPanel.attributes.selection.attributes_loading": "Loading attributes ...",
+
+    "custoPanel.types.selectSource": "Select your data source"
+}

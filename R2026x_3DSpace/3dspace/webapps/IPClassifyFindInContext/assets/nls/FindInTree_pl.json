@@ -1,0 +1,19 @@
+{
+  "placeholder_findInTree": "Znajdź w",
+  "toolTip": "Znajdź w drzewie",
+  "loader": {
+    "retrievingPaths": "Pobieranie ścieżek...",
+    "formulatingPaths": "Tworzenie ścieżek..."
+  },
+  "msg_warning_TreeTagger_ClosingThefind": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Details": "Zamykanie wyszukiwania w drzewie, ponieważ filtr znacznika 6W zastosowano w drzewie przy aktywnej funkcji wyszukiwania w drzewie."
+  },
+  "msg_info_limit_FindInTree": {
+    "title": "Osiągnięto maksymalną liczbę wyników.",
+    "subtitle": "Zawęź kryteria wyszukiwania i spróbuj ponownie.",
+    "message": "Liczba wyników jest ograniczona do 100."
+  },
+  "msg_info_searchCompleted": "Wyszukiwanie zostało zakończone.",
+  "msg_info_No_Occurrence": "Nie znaleziono żadnych wystąpień obiektu/obiektów."
+}

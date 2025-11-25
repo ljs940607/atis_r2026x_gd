@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1330 800" preserveAspectRatio="xMinYMin meet">
+	<rect id="svgEditorBackground" x="0" y="0" width="1330" height="800" style="fill: none; stroke: none;"/>
+	<defs id="svgEditorDefs">
+		<marker id="arrow15-12-left" markerHeight="12" markerUnits="strokeWidth" markerWidth="15" orient="auto" refX="3" refY="0" viewBox="0 -5 20 20">
+			<path d="M 15 -5 L 0 0 L 15 5 z" fill="black"/>
+		</marker>
+		<marker id="arrow10-8-left" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="3" refY="0" viewBox="0 -5 20 20">
+			<path d="M 15 -5 L 0 0 L 15 5 z" fill="black"/>
+		</marker>
+		<marker id="arrow15-12-right" markerHeight="12" markerUnits="strokeWidth" markerWidth="15" orient="auto" refX="-3" refY="0" viewBox="-15 -5 20 20">
+			<path d="M -15 -5 L 0 0 L -15 5 z" fill="black"/>
+		</marker>
+		<marker id="arrow20-16-right" markerHeight="16" markerUnits="strokeWidth" markerWidth="20" orient="auto" refX="-3" refY="0" viewBox="-15 -5 20 20">
+			<path d="M -15 -5 L 0 0 L -15 5 z" fill="black"/>
+		</marker>
+		<style type="text/css">.svg_a{fill:blue;cursor:pointer;}.svg_a:hover{text-decoration:underline;}
+		</style>
+	</defs>
+	<rect x="142.21" y="272.4096385542" style="fill:rosybrown;stroke:black;stroke-width:1px" id="rect_state1" width="199.30" height="81.12"/>
+	<rect x="477.714000" y="273.411000" style="fill:rosybrown;stroke:black;stroke-width:1px" id="e2_state1" width="199.300000" height="81.120000"/>
+	<rect x="826.238000" y="271.408000" style="fill:rosybrown;stroke:black;stroke-width:1px" id="e3_state1" width="199.300000" height="81.120000"/>
+	<polyline style="stroke:black;fill:none;marker-end:url(#arrow20-16-right)" stroke-width="0.9987515605" id="e9_polyline" points="242.697 353.558 241.698 416.479 591.261 418.477 591.261 354.557"/>
+	<polyline style="stroke:black;fill:none;marker-end:url(#arrow20-16-right)" stroke-width="0.9987515605" id="e10_polyline" points="239.7 272.659 238.702 200.749 930.836 199.75 930.836 268.664"/>
+	<a id="e21_hyperlink" xlink:title="state3" xlink:href="state3" target="_blank" class="svg_a">
+		<text style="fill: dodgerblue; font-family: Arial; font-size: 24px; font-weight: normal; text-anchor: start; font-style: normal;" x="559.301" y="175.78" id="e12_texte">state3</text>
+	</a>
+	<text style="fill:black;font-family:Arial;font-size:24px;font-weight:normal;text-anchor:start;font-style:normal;text-decoration:underline" x="369.538" y="438.452" id="e13_texte"/>
+	<text style="fill:black;font-family:Arial;font-size:24px;font-weight:normal;text-anchor:start;font-style:normal;text-decoration:underline" x="390.512" y="449.438" id="e14_texte"/>
+	<a id="e20_hyperlink" xlink:title="state2" xlink:href="state2" target="_blank" class="svg_a">
+		<text style="fill: dodgerblue; font-family: Arial; font-size: 24px; font-weight: normal; text-anchor: start; font-style: normal;" x="385.518" y="458.427" id="e15_texte">state2</text>
+	</a>
+	<text style="fill:black;font-family:Arial;font-size:20px" x="212.734" y="317.603" id="e16_texte">state1</text>
+	<text style="fill:black;font-family:Arial;font-size:20px" x="237.703" y="308.614" id="e17_texte"/>
+	<text style="fill:black;font-family:Arial;font-size:20px" x="551.311" y="317.602" id="e18_texte">state2</text>
+	<text style="fill:black;font-family:Arial;font-size:20px" x="901.873" y="316.604" id="e19_texte">state3</text>
+</svg>

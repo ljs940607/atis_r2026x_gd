@@ -1,0 +1,1 @@
+define("DS/CATWebUXCVS/CATWebUXCVS_tr",{});define("DS/CATWebUXCVS/assets/nls/CATWebUXCVS",{valStateChange:{dlgTitle:"Doğrulama",closeBtn:"Kapat",inProgress:"Sürüyor",passed:"Başarılı",failed:"Başarısız"}});

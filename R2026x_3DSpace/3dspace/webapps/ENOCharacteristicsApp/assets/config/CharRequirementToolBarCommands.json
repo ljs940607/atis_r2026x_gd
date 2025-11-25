@@ -1,0 +1,16 @@
+{
+	"actions": [
+		{
+			"key": "AddRequirement",
+			"nlsLabel": "AddRequirement",
+			"text": "AddRequirement",
+			"fonticon": "plus"
+		},
+		{
+			"key": "RemoveRequirement",
+			"text": "RemoveRequirement",
+			"nlsLabel": "RemoveRequirement",
+			"fonticon": "tree-delete"
+		}
+	]
+}

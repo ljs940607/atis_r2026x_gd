@@ -1,0 +1,22 @@
+{
+  "setParameters": "Parametre kaydedildi",
+  "setParametersTitle": "Kaydet",
+  "setParametersError": "Parametreler kaydedilirken hata oluştu",
+  "deleteParameter": "Parametre silindi",
+  "deleteParameterTitle": "Sil",
+  "deleteParameterError": "Parametreler silinirken hata oluştu",
+  "modifyParameter": "Parametre değiştirildi",
+  "modifyParameterTitle": "Değiştir",
+  "modifyParameterError": "Parametreler değiştirilirken hata oluştu",
+  "columnMandatory": "%1 sütunu zorunludur",
+  "containUnsupportedChars": "%1, desteklenmeyen bir veya daha fazla karakter içeriyor \n %2",
+  "confirmDeleteTitle": "Silmeyi Onayla",
+  "confirmDeleteContent": "Bu satırı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "Add": "Yeni Satır Ekle",
+  "orderParameters": "Sıralama Güncellendi",
+  "orderParametersTitle": "Yeniden Sırala",
+  "orderParametersError": "Yeniden sıralama hatası",
+  "orderParametersMaskMessage": "Sıralama Güncelleniyor",
+  "orderParametersDeleteError": "Önceki Sıralama Silinirken Hata Oluştu",
+  "orderParametersSetError": "Yeni Sıralama Kaydedilirken Hata Oluştu"
+}

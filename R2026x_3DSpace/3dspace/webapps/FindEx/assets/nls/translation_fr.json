@@ -1,0 +1,18 @@
+{
+  "FindDialogTitle": "Rechercher",
+  "NavigationPreviousMatchTooltipTitle": "Afficher la correspondance précédente",
+  "NavigationPreviousMatchTooltipShortHelp": "Au moins 1 correspondance est nécessaire.",
+  "NavigationNextMatchTooltipTitle": "Afficher la correspondance suivante",
+  "NavigationNextMatchTooltipShortHelp": "Au moins 1 correspondance est nécessaire.",
+  "NavigationValidationTooltipTitle": "Rechercher",
+  "NavigationValidationTooltipShortHelp": "Au moins {inputValidationThreshold} caractères sont nécessaires.",
+  "NavigationSelectionTooltipTitle": "Sélectionner les correspondances",
+  "NavigationSelectionTooltipShortHelp": "Au moins 1 correspondance est nécessaire.",
+  "MatchCaseTooltipShortHelp": "Respecter la casse",
+  "NavigationModeTooltipShortHelp": "Naviguer entre les lignes au lieu des mots-clés",
+  "AutoSelectTooltipShortHelp": "Sélectionner automatiquement le résultat correspondant en cours",
+  "FindIn": "Rechercher dans :",
+  "FindInComboAllSelected": "Toutes les colonnes",
+  "FindInComboPlaceholder": "Aucune colonne",
+  "NavigationValidationColumnsNotValidTooltipTitle": "Au moins une colonne doit être sélectionnée dans l'option Rechercher dans"
+}

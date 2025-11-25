@@ -1,0 +1,123 @@
+{
+  "label": {
+    "all": "Alle",
+    "true": "Wahr",
+    "false": "Falsch",
+    "none": "Kein",
+    "name": "Name",
+    "title": "Titel",
+    "type": "Typ",
+    "objects": "Objekte",
+    "declared_in": "Deklariert in",
+    "instance_title": "Instanztitel",
+    "copy_attributes": "Attribute kopieren",
+    "select": "Auswählen",
+    "copy_successful": "Ist Einfügen erfolgreich",
+    "information": "Information",
+    "attribute_name": "Attributname",
+    "instance": "(Exemplar)",
+    "implementingref": "Implementierung",
+    "implementedref": "Implementiert von"
+  },
+  "title": {
+    "IPProtection": "IP-geschützt",
+    "summary_paste_attributes": "Zusammenfassung der eingefügten Attribute",
+    "search": "Element auswählen",
+    "error_details": "Im Folgenden finden Sie die Fehlerdetails:"
+  },
+  "ph": {
+    "title": "Titel eingeben"
+  },
+  "action": {
+    "create": "Erstellen",
+    "copy": "Kopieren",
+    "close": "Schließen",
+    "compare": "Vergleichen",
+    "revisions": "Revisionen",
+    "relations": "Beziehungen",
+    "maturity": "Bearbeitungsstatus",
+    "duplicate": "Duplizieren",
+    "open_with": "Öffnen mit",
+    "move_to": "Verschieben nach",
+    "share": "Freigeben",
+    "lock": "Sperren",
+    "unlock": "Entsperren",
+    "export": "Exportieren",
+    "reparent": "Neuzuordnen",
+    "expand": "Erweitern",
+    "expand_one_level": "Eine Ebene einblenden",
+    "expand_two_level": "Zwei Ebenen einblenden",
+    "expand_all": "Alle erweitern",
+    "collapse_all": "Alle ausblenden",
+    "information": "Information",
+    "create_and_open": "Erzeugen und öffnen",
+    "create_and_close": "Erzeugen und schließen",
+    "create_and_replace": "Erstellen und ersetzen",
+    "detach": "Zuordnung aufheben"
+  },
+  "message": {
+    "creating": "Wird erstellt...",
+    "loading": "Wird geladen...",
+    "processing": "Verarbeitung wird ausgeführt...",
+    "bulkOperation_limitReached": "Sie haben Knoten gewählt, die über den für diesen Vorgang festgelegten Grenzwert von {limit} hinausgehen. Daher kann die Verarbeitung einige Zeit in Anspruch nehmen. Bitte warten Sie."
+  },
+  "groupingNode": {
+    "other": "Weitere"
+  },
+  "info": {
+    "no_match_in_filter": "Kein Objekt entspricht den Kriterien"
+  },
+  "warning": {
+    "indexed_data_filtered": "Filter wird auf indexierte Daten angewendet",
+    "clear_filter": "Auf das Element angewendeter vorhandener Filter wird gelöscht, da er nicht gespeichert wurde.",
+    "filter_only_indexed_mode": "Die Filterfunktion ist nur bei einer Indexbeschleunigung verfügbar",
+    "bulkOperation_limit_reached": "Sie haben Knoten gewählt, die über den für diesen Vorgang festgelegten Grenzwert von {limit} hinausgehen. Daher kann die Verarbeitung einige Zeit in Anspruch nehmen. Bitte warten Sie.",
+    "expand_multiLvl_multiSelect": "Sie haben mehr als eine Referenz für die Erweiterung auf mehreren Ebenen ausgewählt. Das Abrufen vollständiger Daten kann etwas länger dauern. Bitte warten Sie.",
+    "expand_largeData_warning": "Diese Erweiterungsaktion enthält mehr als 1000 abzurufende untergeordnete Daten. Die Verarbeitung kann eine Weile dauern. Bitte warten Sie. "
+  },
+  "error": {
+    "header": "Fehler",
+    "create_item": "Erstellen des Elements fehlgeschlagen",
+    "get_customFields": "Abruf der benutzerdefinierten Felder fehlgeschlagen für Element {title}",
+    "req_field_subtitle": "{field} ist erforderlich",
+    "req_field": "Pflichtfeld fehlt",
+    "mandatory_field_title": "Das Titelfeld ist obligatorisch. Geben Sie einen Wert ein",
+    "no_modification_possible": "Es ist keine Änderung möglich",
+    "modification_not_allowed": "Stellen Sie sicher, dass der Bearbeitungsstatus des Objekts oder Ihre Anmeldeinformationen und Berechtigungen eine Änderung zulassen.",
+    "too_long_field_title": "Sie können diesen Bearbeitungsvorgang nicht ausführen.\n\nDas Feld {fieldName} darf nicht länger als {maxLength} Zeichen sein.",
+    "action_unavailable_in_release": "Aktion im Kontext eines freigegebenen / veralteten Elements nicht verfügbar",
+    "get_structure": "Die logische Referenzstruktur konnte nicht abgerufen werden, da entsprechende Dienste nicht verfügbar sind",
+    "get_structure_media": "Die logische Referenzstruktur konnte nicht abgerufen werden, da keine Dienste verfügbar sind. Fragen Sie Ihren Administrator, ob die erforderlichen Medien installiert sind",
+    "get_logitem": "Die logischen Referenzdetails konnten nicht abgerufen werden, da die entsprechenden Dienste nicht verfügbar sind.",
+    "get_logitem_media": "Die logischen Referenzdetails konnten nicht abgerufen werden, da diese Dienste nicht verfügbar sind. Fragen Sie Ihren Administrator, ob die erforderlichen Medien installiert sind",
+    "invalid_filter": "Ungültiger Filter für das Kontextelement",
+    "filter_colorize_predicate": "Das ausgewählte Prädikat ist ein benutzerdefiniertes Prädikat, sodass die Kolorierung nicht verfügbar ist ODER das ausgewählte Prädikat nicht in der Inhaltsansicht enthalten ist. Fügen Sie in diesem Fall das Attribut über die Attributverwaltung hinzu, um die Kolorierung zu aktivieren.",
+    "request_timed_out": "Die Anforderung hat das zulässige Zeitlimit überschritten!",
+    "generic_get_failed": "Erforderliche Daten konnten nicht abgerufen werden",
+    "creation": "Fehler beim Erstellen",
+    "add_item": "Hinzufügen des Elements fehlgeschlagen",
+    "copy_all_attributes_failed": "Das Einfügen dieses Attributs ist aufgrund anderer Fehler während des Einfügevorgangs fehlgeschlagen",
+    "copy_attributes_failed": "Kopieren der Attribute fehlgeschlagen",
+    "copy_attribute_on_extension_failed": "Das Einfügen dieses Attributs ist fehlgeschlagen. Grund kann sein, dass entsprechende Erweiterungen nicht hinzugefügt wurden.",
+    "copy_attribute_on_type_failed": "Das Einfügen dieses Attributs ist fehlgeschlagen, da es nicht zum ausgewählten Typ gehört.",
+    "copy_attribute_classif_failed": "Das Einfügen dieses Attributs ist fehlgeschlagen, überprüfen Sie, ob der logischen Referenz, die das Ziel ist, das klassifizierte Attribut zugewiesen ist.",
+    "copy_attribute_equal_values_failed": "Das Einfügen dieses Attributs ist fehlgeschlagen, überprüfen Sie, ob der Attributwert und die logische Referenz, die das Ziel ist, unterschiedlich sind.",
+    "copy_attribute_failed_not_allowed": "Das Einfügen dieses Attributs ist fehlgeschlagen. Stellen Sie sicher, dass der Bearbeitungsstatus des Objekts oder Ihre Anmeldeinformationen und Berechtigungen das Kopieren zulassen.",
+    "create_refref_link": "Referenz-zu-Referenz-Verknüpfungen konnten nicht erstellt werden",
+    "inst_detach": "Für die folgenden übergeordneten Elemente können Sie die Operation 'Logische Referenz trennen' nicht ausführen: ",
+    "error_delete_link": "Implementierungsbeziehungen konnten nicht gelöscht werden"
+  },
+  "success": {
+    "add": "Hinzufügen erfolgreich",
+    "replace": "Ersetzung erfolgreich",
+    "create": "Erstellung erfolgreich",
+    "msg_create": " Erfolgreich erstellt",
+    "msg_add": "Folgendes wurde erfolgreich hinzugefügt: ",
+    "create_log_ref": "Logische Referenz wurde erfolgreich erstellt",
+    "copy_attributes": "Attribute kopiert",
+    "msg_create_ref2ref": "Ref-zu-Ref-Implementierungsbeziehung erfolgreich erstellt",
+    "msg_delete_link_success": "Implementierungsbeziehung(en) erfolgreich gelöscht",
+    "summary_paste_attributes_export": "Zusammenfassung der eingefügten Attribute erfolgreich exportiert",
+    "inst_detach": "Instanzen der folgenden übergeordneten Elemente wurden erfolgreich getrennt: "
+  }
+}

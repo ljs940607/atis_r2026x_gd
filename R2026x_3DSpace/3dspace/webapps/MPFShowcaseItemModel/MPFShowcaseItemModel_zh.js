@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_zh",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0} 必填",isInvalid:"{0} 无效",title:"标题",description:"描述",image:"图像"});

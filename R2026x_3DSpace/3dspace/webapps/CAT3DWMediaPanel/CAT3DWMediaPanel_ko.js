@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_ko",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"발견된 인식 없음. 새 인식 생성 및 여기서 액세스",addWBReco:"화이트보드 인식 시작"});

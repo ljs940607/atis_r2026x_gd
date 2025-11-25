@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"New Part",
+"ENONewPartHdr.ShortHelp":"Creates a new part.",
+"ENONewPartHdr.LongHelp":"In the dialog box, enter a title, the required attributes if any, and optionally select a template to choose the CAD master. Click <uicontrol>Create and Close</uicontrol> to create only one part, or <uicontrol>Create</uicontrol> to create another one.",
+"ENOInsertNewPartHdr.Title":"Insert New Part",
+"ENOInsertNewPartHdr.ShortHelp":"Creates a new part and adds it as a child to the selected objects.",
+"ENOInsertNewPartHdr.LongHelp":"<p>In the dialog box, enter a title, and optionally select a template to choose the CAD master. Click <uicontrol>Create and Close</uicontrol> to create only one part, or <uicontrol>Create</uicontrol> to create another one.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

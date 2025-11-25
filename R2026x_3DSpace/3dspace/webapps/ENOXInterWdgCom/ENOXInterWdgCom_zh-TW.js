@@ -1,0 +1,1 @@
+define("DS/ENOXInterWdgCom/ENOXInterWdgCom_zh-TW",{});define("DS/ENOXInterWdgCom/assets/nls/ENOXInterWdgCom",{widgetLinkOptionsPanel:{title:"連結 Web 應用程式選項",subTitle:"選擇您要在 Web 應用程式間連結的功能：",all:"全部",content:"內容",viewMode:"檢視模式",viewPoint:"視埠",contentHelp:"內容說明載入 3D 小工具的任何內容 (產品、PointCloud...)",viewPointHelp:"視埠是透過 3D 縮放、平移或旋轉取得的視角"}});

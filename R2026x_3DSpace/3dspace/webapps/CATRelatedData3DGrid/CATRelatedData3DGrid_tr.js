@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_tr",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"Tamam",lblApply:"Uygula",lblClose:"Kapat",lblPitch:"Adım",DirectionLabel:"Yön Etiketi",lblDirection1:"Birinci",lblDirection2:"İkinci",lblDirection3:"Üçüncü",lblScale:"Birim ölçeği"});

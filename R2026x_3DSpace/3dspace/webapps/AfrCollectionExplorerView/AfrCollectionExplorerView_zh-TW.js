@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_zh-TW",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"視圖",NLS_ThumbnailView:"縮圖視圖",NLS_TileView:"並排視圖",NLS_DataGridView:"資料網格視圖",NLS_ListViewTitleColumnHeaderLabel:"標題"});

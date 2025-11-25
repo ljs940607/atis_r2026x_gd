@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Crea una copia de una parte de la matriz dada, filtrada hasta solo los elementos que pasan la prueba implementada por el gráfico proporcionado.",
+  "description": "Filtra una matriz dada llamando a un gráfico proporcionado en cada elemento, manteniendo solo los elementos para los cuales el gráfico correspondiente activa el puerto de control <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Este bloque puede filtrar cualquier tipo de matriz <doc-idp-name translate=no>ArrayIn</doc-idp-name> a cualquier tipo de matriz de salida.<br>El gráfico interno debe editarse para proporcionar el proceso de filtrado.",
+  "dataPorts": {
+    "ArrayIn": "La matriz de entrada que se va a filtrar. <br>Este puerto de datos gestiona todos los tipos de matrices.",
+    "SharedData": "Los datos que se van a compartir en cada instancia de gráfico interno. <br>Este puerto de datos gestiona todos los tipos. <br>Si es necesario compartir varios datos con diferentes tipos, se recomienda crear un tipo de usuario.",
+    "ArrayOut": "Matriz de salida filtrada.<br>Este puerto de datos gestiona todos los tipos de matrices.<br>El tamaño de esta matriz no superará el tamaño de la matriz <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Una matriz que <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> proporciona el <doc-valuetype translate=no>EExecutionState</doc-valuetype> en cada índice de la matriz de salida <doc-odp-name translate=no>Success</doc-odp-name>. <br>El tamaño de esta matriz siempre será igual al tamaño de la matriz <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Una matriz de <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> proporciona el <doc-valuetype translate=no>EExecutionState</doc-valuetype> en cada índice de la matriz de entrada <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Esta matriz se puede rellenar con varios datos durante un progreso, ya que depende del proceso de distribución detrás del bloque. <br>No obstante, el tamaño de esta matriz no superará el tamaño de la matriz <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Una matriz de <doc-valuetype translate=no>ArrayFilterError</doc-valuetype> proporciona un objeto de error para el índice de la matriz de entrada <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>El tamaño de esta matriz no superará el tamaño de la matriz <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "activa la ejecución del bloque.",
+    "Success": "se activa cuando se completa el proceso correctamente.",
+    "Progress": "se activa cada vez que se produce un progreso.",
+    "Error": "se activa cuando se produce un error."
+  },
+  "example": null
+}

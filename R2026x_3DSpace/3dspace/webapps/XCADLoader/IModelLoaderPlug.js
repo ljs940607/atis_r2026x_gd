@@ -1,0 +1,1 @@
+define("DS/XCADLoader/IModelLoaderPlug",[],(function(){"use strict";return{isManagedType:function(e){},loadModel:function(e,n,o,d,i,t,u,a,r,c){}}}));

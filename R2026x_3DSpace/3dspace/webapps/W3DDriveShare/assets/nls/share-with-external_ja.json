@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "外部共有リンクを有効化",
+  "activateShareByLinkDescription": "次のリンクを持つユーザーは誰でもこのコンテンツをプレビューおよびダウンロードできます。",
+  "expirationDate": "有効期限: {date}",
+  "restrictAccessToSpecificUsers": "特定ユーザーへのアクセスを制限",
+  "addRestrictions": "制限を追加",
+  "noRestrictedEmails": "誰もこのコンテンツにアクセスできません",
+  "addMessage": "メッセージを追加",
+  "enterMessageDescription": "送信された電子メールに追加するカスタム メッセージを入力します",
+  "addRestrictedUsersDescription": "制限付きユーザーは、コンテンツに対するアクセス権を、これらの電子メールにリンクされたアカウントだけに与えることができます",
+  "authorizedList": "許可リスト（{count}/{max}）",
+  "restrictionsCount": "{count}/{max} 制限",
+  "close": "閉じる",
+  "share": "共有",
+  "copyExternalLink": "外部リンクをコピー",
+  "enableGuestComments": "ゲスト コメントを有効化",
+  "enableGuestCommentsDescription": "このリンクを使用するすべてのユーザーは、当コンテンツにコメントできるとともに、すべてのコメント (プラットフォーム メンバーによる過去のコメントを含む) を読むことができます",
+  "externalSharingFeatureDisabled": "このプラットフォームでは、外部共有機能が有効になっていません。管理者に連絡してください。",
+  "cannotAccessContent": "コンテンツにアクセスできません。",
+  "platformNotAccessible": "プラットフォームにアクセスできません。"
+}

@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "保存",
+  "NXOpenGroupLabel": "打开",
+  "NXToolkitLicenseGroupLabel": "MultiCAD STEP 转换器可用性",
+  "NXMissingLinksWarningLabel": "保存缺少参考的文件",
+  "NXMissingLinksWarningInfo": "启用此选项后，如果在 NX 会话中执行保存操作期间缺少任何子设计，则会显示一条警告。禁用此选项后，将会继续执行保存操作，而不会显示警告。",
+  "NXSuppressPatternElementsLabel": "抑制阵列元素",
+  "NXSuppressPatternElementsInfo": "启用此选项后，此设置会抑制阵列元素，因此阵列主零件不会出现在“保存”对话框中。禁用此选项后，零件将保留其与阵列主零件的关系，此时会创建一个“制作自”关系。",
+  "NXSTEP242LicenseAvailableLabel": "MultiCAD STEP 转换器可用性",
+  "NXSTEP242LicenseAvailableInfo": "用于指定在 NX 会话中打开 multiCAD 设计时使用 STEP AP214 还是 STEP AP242 转换器的设置。默认值：STEP AP242。",
+  "NXCADAttributeMappedToEINLabel": "CAD 属性映射到 EIN",
+  "NXCADAttributeMappedToEINInfo": "为此属性指定值后，将启用该功能，并且我们将使用此属性标记 CAD 文件，属性的值将是物理产品的 EIN。",
+  "EnterpriseItemNumberGroupLabel": "企业项目编号",
+  "NXFilterOutEngItemsDataNotInCADLabel": "过滤掉没有任何几何图形和子节点的 3DEXPERIENCE 工程项目",
+  "NXFilterOutEngItemsDataNotInCADInfo": "过滤掉没有任何几何图形和子节点的 3DEXPERIENCE 工程项目。"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="ChangeOverOperationAttributes" treelistnls="ChangeOverOperationAttributes" modalnls="ChangeOverOperationAttributes">
+	<object type="multiselcombobox" id="attributeName" value="" disabled="false" mandatory="true" sortable="false"></object>
+</ui>

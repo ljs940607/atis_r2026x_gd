@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Etkinleştirilen girdi kontrol bağlantı noktasına göre karşılık gelen girdi verisi değerini döndürür.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin bağlantı noktası sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Girdi kontrol bağlantı noktası sayısı, girdi veri bağlantı noktası sayısıyla senkronize edilir.<br>Veri bağlantı noktası, tüm değer tiplerini işler.<br><br><doc-icp-name translate=no>In1</doc-icp-name> etkinleştirilirse <doc-odp-name translate=no>SelectedValue</doc-odp-name> çıktı verilerinin değeri, <doc-idp-name translate=no>Value1</doc-idp-name> bazında belirlenir.<br><doc-icp-name translate=no>In2</doc-icp-name> etkinleştirilirse <doc-odp-name translate=no>SelectedValue</doc-odp-name> çıktı verilerinin değeri, <doc-idp-name translate=no>Value2</doc-idp-name> bazında belirlenir.<br>...vb.<br>Genel ifadeyle <doc-icp-name translate=no>InK</doc-icp-name> etkinleştirilirse <doc-odp-name translate=no>SelectedValue</doc-odp-name> çıktı verilerinin değeri, <doc-idp-name translate=no>ValueK</doc-idp-name> bazında belirlenir.",
+  "dataPorts": {
+    "Value1": "ilk girdi verisi değeri.",
+    "Value2": "ikinci girdi verisi değeri.",
+    "SelectedValue": "seçilen veri değeri."
+  },
+  "controlPorts": {
+    "In1": "blok yürütmeyi tetikler.",
+    "In2": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

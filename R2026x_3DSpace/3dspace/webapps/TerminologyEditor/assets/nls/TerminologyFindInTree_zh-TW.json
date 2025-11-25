@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "正在尋找術語..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "置放的物件不是瀏覽結構物件。",
+    "Advice": "請置放瀏覽結構或節點。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "無法完成在樹狀結構中尋找。",
+    "Advice": "將樹狀結構展開至該特定瀏覽節點",
+    "Details": "要尋找的瀏覽節點未顯示在樹狀結構上。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "無法完成在樹狀結構中尋找。",
+    "Advice": "將瀏覽結構區段展開至第一層。",
+    "Details": "瀏覽結構區段下沒有可見的瀏覽結構。"
+  },
+  "msg_info_limit_FindInTree": "已達到限制。尋找限制設定為 100。",
+  "msg_info_limitToFindInRootNode": "在瀏覽結構中尋找的上限設定為 200，會考量前 200 個瀏覽結構。",
+  "msg_info_No_Occurrence": "找不到瀏覽結構的發生事件。"
+}

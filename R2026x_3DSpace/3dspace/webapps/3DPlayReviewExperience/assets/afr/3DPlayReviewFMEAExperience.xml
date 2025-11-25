@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="3DPlayDMUExperienceHeaders" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <!--3DPlay command headers-->
+      <CATCommandHeader ID="ShareTo3DSwYm" Available="0" ClassName="DS/3DPlayCommands/CmdShareTo3DSwYm" HelpResourceFile="3DPlayCommands/3DPlayHelpForCommands" ResourceFile="3DPlay/3DPlay" />
+      <CATCommandHeader ID="SharePrint" Available="0" ClassName="DS/3DPlayCommands/CmdSharePrint" HelpResourceFile="3DPlayCommands/3DPlayHelpForCommands" ResourceFile="3DPlay/3DPlay" />
+      <CATCommandHeader ID="ShareDownload" Available="0" ClassName="DS/3DPlayCommands/CmdShareDownload" HelpResourceFile="3DPlayCommands/3DPlayHelpForCommands" ResourceFile="3DPlay/3DPlay" />
+      <CATCommandHeader ID="CATWebUXSlideShowHdr" ClassName="DS/CATWebUXSlideShow/CATWebUXSlideShowCmd" ResourceFile="CATWebUXSlideShow/CATWebUXSlideShow" HelpResourceFile="CATWebUXSlideShow/CATWebUXSlideShow" Behavior="CATAfrHeaderCheck">
+        <CATAfrCommandHeaderArgs>
+          <CATCommandHeaderArg ID="ControllerID" Value="DMU3DMarkupSlideShow" Mode="In" />
+        </CATAfrCommandHeaderArgs>
+      </CATCommandHeader>
+      <CATCommandHeader ID="DMUPreviousCommentCmdHdr" ClassName="DS/DMUPlayComment/DMUSelectPreviousCommentCmd" ResourceFile="DMUPlayComment/DMUPlayComment" HelpResourceFile="DMUPlayComment/DMUPlayComment" />
+      <CATCommandHeader ID="DMUNextCommentCmdHdr" ClassName="DS/DMUPlayComment/DMUSelectNextCommentCmd" ResourceFile="DMUPlayComment/DMUPlayComment" HelpResourceFile="DMUPlayComment/DMUPlayComment" />
+      <CATCommandHeader ID="PAD3DViewerPrintHdr"                ClassName="DS/3DPlayCommands/CmdSharePrint"                ResourceFile="ENOPAD3DViewer/ENOPAD3DViewer"  HelpResourceFile="ENOPAD3DViewer/ENOPAD3DViewerHelpForCommands"/>
+			<CATCommandHeader ID="ViewerScreenshot"                    ClassName="DS/ENOPAD3DViewer/commands/PAD3DViewerScreenshotCmd"          HelpResourceFile = "ENOPAD3DViewer/ENOPAD3DViewerHelpForCommands" ResourceFile="ENOPAD3DViewer/ENOPAD3DViewer">
+        <CATAfrCommandHeaderArgs>
+          <CATCommandHeaderArg ID="appPrefix" Value="3DPlay" Mode="In" />
+        </CATAfrCommandHeaderArgs>
+      </CATCommandHeader>
+      <CATCommandHeader ClassName="DS/DMUBaseCommands/DMURightSidePanelCmd" ID="RightSidePanel" HelpResourceFile="PADUtils/PADUtilsHelpForCommands" ResourceFile="PADUtils/PADUtils" Available="1" Behavior="CATAfrHeaderCheck">
+        <CATAfrCommandHeaderArgs>
+          <CATCommandHeaderArg ID="PropertiesReadOnly" Value="true" Mode="In" />
+        </CATAfrCommandHeaderArgs>
+      </CATCommandHeader>
+    </CATCmdHeadersList>
+  </Template>
+
+  <Template syp:name="3DPlayDMUExperienceAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="3DPlayDMUExperienceWorkbench">
+
+      <CATCmdContainer Name="Fixed Area" RepresentationType="AfrActionBarFixedSection">
+        <CATCmdStarter Name="CATWebUXSlideShowHdrStr" Command="CATWebUXSlideShowHdr" />
+        <CATCmdSeparator Name="VisuMode_Separator" />
+        <!-- <CATCmdContainer Name="Share" Visibility="1" RepresentationType="AfrActionBarDropDown"> -->
+        <CATCmdStarter Name="RightSidePanel" Command="RightSidePanel" />
+          <!-- <CATCmdStarter Name="ShareDownload" Command="ShareDownload" />
+          <CATCmdStarter Name="SharePrint" Command="SharePrint" /> -->
+        <!-- </CATCmdContainer> -->
+      </CATCmdContainer>
+
+      <CATCmdContainer Name="SectionViews" Visibility="1" RepresentationType="AfrActionBarSection">
+        <CATCmdStarter Name="PreviousComment" Command="DMUPreviousCommentCmdHdr" />
+        <CATCmdStarter Name="NextComment" Command="DMUNextCommentCmdHdr" />
+        <CATCmdSeparator Name="Separator1"/>
+        <CATCmdContainer Name = "Print" Visibility = "1" RepresentationType="AfrActionBarDropDown" >
+          <CATCmdStarter Name="ShareTo3DSwYm"          Command="ShareTo3DSwYm" />
+          <CATCmdStarter Name = "ViewerScreenshot"     Command = "ViewerScreenshot" />
+          <CATCmdStarter Name = "PAD3DViewerPrintCmd"  Command = "PAD3DViewerPrintHdr" />
+        </CATCmdContainer> 
+      </CATCmdContainer>
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

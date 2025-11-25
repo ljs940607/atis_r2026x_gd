@@ -1,0 +1,14 @@
+{
+  "caOK": "Änderungsaktion erfolgreich generiert",
+  "caKO": "Generierung der Änderungsaktion fehlgeschlagen",
+  "taskOK": "Aufgabe erfolgreich generiert",
+  "taskKO": "Aufgabenerzeugung fehlgeschlagen",
+  "issueOK": "Problem erfolgreich generiert.",
+  "issueKO": "Generierung des Problems fehlgeschlagen",
+  "caAttached": "Änderungsaktion wurde dem übergeordneten Problem zugeordnet",
+  "caNotAttached": "Änderungsaktion wurde nicht dem übergeordneten Problem zugeordnet",
+  "taskAttached": "Aufgabe wurde dem übergeordneten Problem zugeordnet",
+  "taskNotAttached": "Aufgabe wurde nicht dem übergeordneten Problem zugeordnet",
+  "ticSection": "Problem generieren",
+  "ticTemplateIssue": "Verwenden Sie immer eine Vorlage, um ein Problem zu generieren"
+}

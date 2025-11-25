@@ -1,0 +1,1 @@
+define("DS/W3DXNavigationMenu/W3DXNavigationMenu_tr",{});define("DS/W3DXNavigationMenu/assets/nls/NavigationMenuDefault",{AddItem:"Öğe ekle",NoObjectFound:"Öğe bulunamadı",Search:"Ara",tooltipMenu:"Menü",Loading:"Yükleniyor..."});

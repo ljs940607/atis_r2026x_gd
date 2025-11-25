@@ -1,0 +1,85 @@
+{
+    "version": "0.1",
+    "ctxMenu": [
+        "OpenWith",   
+        "ExpandThumbsCmd",
+        "CollapseThumbsCmd",
+        "ShowIn3DCmd",
+        "HideIn3DCmd",
+        "FocusOnCmd",
+        "FindInCtxCmd",
+        "FindCmd",
+        "SeparatorItem",
+        {
+            "id": "BrowsingStructure",
+            "icon": {
+                "iconName": "browsing-structure-root-group",
+                "fontIconFamily": 1
+            },
+            "HelpResourceFile": "ENOPS_app/help",
+            "cmds": ["GroupByBSHdr","UngroupBSHdr","AssociateTermsCommand", "TerminologyManagementCommand"]
+        },
+        "SeparatorItem",
+        {
+            "id": "expandMenu",
+            "withDefaultCmd": "ExpandAll",
+            "cmds": ["ExpandAll", "ExpandN", "CollapseAll"]
+        },
+        "RemoveAndResetExpand",
+        "SeparatorItem",
+        "Cut",
+        "Copy",
+        "Paste",
+        "SeparatorItem",
+        "EditInTableCmd",
+        {
+            "id": "insertNewMenu",
+            "withDefaultCmd": "ENONewProductHdr",
+            "cmds": ["ENONewProductHdr", "ENONewPartHdr", "ENONewDrawingHdr"]
+        },
+        {
+            "id": "insertExistingMenu",
+            "HelpResourceFile": "ENOPS_app/help",
+            "withDefaultCmd": "UPSAuthInsertExistingProductOrPart",
+            "cmds": ["UPSAuthInsertExistingProductOrPart", "UPSAuthInsertProductConfiguration"] 
+        },
+        {
+            "id": "replaceMenu",
+            "HelpResourceFile": "ENOPS_app/help",
+            "withDefaultCmd": "UPSAuthReplaceByExisting",
+            "cmds": ["UPSAuthReplaceByExisting", "UPSAuthReplaceProductConfiguration", "UPSReplaceByLatestRevision", "UPSAuthReplaceByRevision",  "UPSAuthRevisionUpdate"]
+        },
+        "SetThePartNumber",
+        "UPSAuthUnparent",
+        "SeparatorItem",
+        "EditConfigurationContext",
+        {
+            "id": "VariantOptionMenu",
+            "icon": {
+                "iconName": "variants-and-options",
+                "fontIconFamily": 1
+            },
+            "HelpResourceFile": "ENOPS_app/help",
+            "cmds": ["CopyVariantEffectivity", "PasteVariantEffectivity", "EditVariant"]
+        },
+        {
+            "id": "EvolutionMenu",
+            "icon": {
+                "iconName": "evolution-effectivity",
+                "fontIconFamily": 1
+            },
+            "HelpResourceFile": "ENOPS_app/help",
+            "cmds": ["CopyEvolutionEffectivity", "PasteEvolutionEffectivity", "EditEvolution"]
+        },
+        "SeparatorItem",
+        "ChangeImpactsRef",
+        "ChangeImpactsInst",
+        "SeparatorItem",
+        "RequestSyncCmd",
+		"RequestMultiDisciplineApplicativeSemanticExpositionCmd",
+        "CopyLink",
+        "ActionBar_Attributes",
+        "SeparatorItem",
+        "CloseSelectedCmd"
+    ]
+}

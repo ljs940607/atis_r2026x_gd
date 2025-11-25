@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY ds6w "http://www.3ds.com/vocabularies/ds6w#" >
+]>
+
+<rdf:RDF
+		xmlns:dspfl="http://www.3ds.com/vocabularies/dspfl/"
+		xml:base="http://www.3ds.com/vocabularies/dspfl/"
+		xmlns:xml="http://www.w3.org/XML/1998/namespace"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+		xmlns:owl="http://www.w3.org/2002/07/owl#"
+		xmlns:ds6w="http://www.3ds.com/vocabularies/ds6w#">
+		
+	<owl:Ontology rdf:about="http://www.3ds.com/vocabularies/dspfl/">
+		<rdfs:label xml:lang="en">Model Definition Vocabulary File</rdfs:label>
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Model Definition Vocabulary File</rdfs:comment>
+		<owl:versionInfo>R2025x</owl:versionInfo>
+	</owl:Ontology>
+	
+	<owl:DatatypeProperty rdf:about="variabilityUsage">
+		<rdfs:label xml:lang="en">Variability Usage</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+		<rdfs:range rdf:resource="&xsd;string"/>
+		<rdfs:comment xml:lang="en">Variability Usage</rdfs:comment>
+	</owl:DatatypeProperty>
+
+	<owl:DatatypeProperty rdf:about="selection">
+		<rdfs:label xml:lang="en">Selection</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+		<rdfs:range rdf:resource="&xsd;string"/>
+		<rdfs:comment xml:lang="en">Selection</rdfs:comment>
+	</owl:DatatypeProperty>
+	
+	<owl:DatatypeProperty rdf:about="isCommercial">
+		<rdfs:label xml:lang="en">Commercial</rdfs:label>
+		<rdfs:subPropertyOf rdf:resource="&ds6w;what"/>
+		<rdfs:range rdf:resource="&xsd;boolean"/>
+		<rdfs:comment xml:lang="en">Commercial</rdfs:comment>
+	</owl:DatatypeProperty>
+</rdf:RDF>

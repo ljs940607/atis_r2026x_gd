@@ -1,0 +1,18 @@
+<section class="refine-section">
+    <section class="refine-header">
+      <label for="{{id}}">{{Header}}</label>
+      <hr class="refine-selection-separator-header" size="3" width="100%" color="black">
+    </section>
+    {{#each CategoryObject}}
+        <section class="refine-line">
+            <input class="checkbox-refine-by-category" type="checkbox" id="{{id}}" {{#if checkedByDefault}}checked{{/if}}>
+          <label title="{{nlsName}}" for="{{id}}">{{nlsName}}</label>
+        </section>
+        {{#each subcategory}}
+            <section class="refine-subline">
+                <input class="checkbox-refine-by-subcategory" type="checkbox" id="{{id}}" parentid="{{../id}}"">
+                <label title="{{nlsName}}" for="{{id}}" parentid="{{../id}}">{{nlsName}}</label>
+            </section>
+        {{/each}}
+    {{/each}}
+</section>

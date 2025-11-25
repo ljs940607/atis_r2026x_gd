@@ -1,0 +1,16 @@
+{
+  "OK": "OK",
+  "Cancel": "Anuluj",
+  "OpenLocation": "Rodzic {typeStruct}",
+  "Bookmark_Locations": "Lokalizacje {typeStruct}",
+  "Open": "Otwórz",
+  "OpenLocationPopupLable": "Wybierz {typeStruct}, który ma zostać otwarty:",
+  "msg_error_BookmarkLocation": "Nie można otworzyć lokalizacji {typeStruct} „{name1}” (być może element został usunięty lub jest niedostępny).",
+  "msg_error_BM_LOC_InValid_Object": "Nie można wybrać obiektu. Mógł zostać usunięty lub nie jest dostępny.",
+  "removeFromSearchNotif": {
+    "success": "Obiekt został usunięty.",
+    "failNotAllowed": "Sprawdź, czy {typeStruct} jest w stanie umożliwiającym zmianę zawartości.",
+    "serverError": "Odśwież widżet lub przeglądarkę i sprawdź, czy używasz prawidłowych danych logowania.",
+    "failNoRelationFound": "Sprawdź, czy masz wystarczające uprawnienia."
+  }
+}

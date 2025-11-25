@@ -1,0 +1,22 @@
+{
+  "computing": "Obliczanie...",
+  "CommandDialogTitle": "Nowa gałąź",
+  "IntentSelection": "Zamiar rozgałęzienia",
+  "DuplicationString": "Ciąg powielania",
+  "Prefix": "Dodaj przedrostek",
+  "BranchTitle": "Tytuł gałęzi",
+  "BtnOK": "Gałąź",
+  "BtnCancel": "Anuluj",
+  "noCredentials": "<Brak dostępnych poświadczeń>",
+  "errCredFilterSvc": "Wywołanie usługi filtrowania poświadczeń nie powiodło się",
+  "loadingText": "Ładowanie...",
+  "credentials": "Dane logowania",
+  "notificationTimeoutInfo": "Żądana operacja Nowa gałąź jest w toku.<br>Otrzymasz powiadomienie w centrum 3DNotification Center, gdy zostanie ukończona.",
+  "notSupportedRemoved": "Niektóre wybrane obiekty nie nadają się do rozgałęziania i zostały usunięte",
+  "NewBranchFailed": "Operacja Nowa gałąź nie powiodła się",
+  "NewBranchAdvanced": "Zaawansowana nowa gałąź >",
+  "NewBranchBasic": "Podstawowa nowa gałąź >",
+  "searchForFilter": "Wyszukaj filtr",
+  "doNotSearchForFilter": "Nie wyszukuj filtra",
+  "branchTooLongTitle": "Tytuł może mieć maksymalnie 100 znaków."
+}

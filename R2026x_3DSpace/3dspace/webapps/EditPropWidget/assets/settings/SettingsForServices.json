@@ -1,0 +1,42 @@
+{
+    "3DSPACE": 	{
+        "keyOnFedSearch" : "3dspace",
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : true,
+        "classificationAttributesSupported":false
+    },
+    "3DLIFECYCLE": 	{
+        "keyOnFedSearch" : "3dlifecycle",
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : false,
+        "classificationAttributesSupported":false
+    },
+    "3DDRIVE": 	{
+        "keyOnFedSearch" : "3ddrive",
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : false,
+        "classificationAttributesSupported":false
+    },
+    "3DSWYM": 	{
+        "keyOnFedSearch" : "swym",
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : false,
+        "classificationAttributesSupported":false
+    },
+    "FEDSEARCH": 	{
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : false,
+        "classificationAttributesSupported":false
+    },
+    "WWW": 	{
+        "dimensionAttributesSupported": false,
+        "interfaceSupported" : false,
+        "plmParameterSupported" : false,
+        "classificationAttributesSupported":false
+    }
+}

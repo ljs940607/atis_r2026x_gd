@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Создает копию части данного массива, где фильтром отобраны только те элементы, которые прошли тест, реализованный на представленном графике.",
+  "description": "Фильтрует данный массив, вызывая предоставленный график для каждого элемента и сохраняя только элементы, для которых соответствующий график активирует порт управления <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Этот блок позволяет фильтровать как любые массивы <doc-idp-name translate=no>ArrayIn</doc-idp-name>, так и выходные массивы любого типа.<br>Для фильтрации необходимо отредактировать внутренний график.",
+  "dataPorts": {
+    "ArrayIn": "Входной массив для фильтрации. <br>Этот порт данных поддерживает все типы массивов.",
+    "SharedData": "Данные для совместного использования в каждом экземпляре внутреннего графика. <br>Этот порт данных поддерживает все типы. <br>Рекомендуется создать пользовательский тип, если необходимо предоставить общий доступ к нескольким данным разных типов.",
+    "ArrayOut": "Отфильтрованный выходной массив. <br>Этот порт данных поддерживает все типы массивов. <br>Размер этого массива не превышает размер массива <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Массив <doc-valuetype translate=no>ArrayFilterState</doc-valuetype>, предоставляющий <doc-valuetype translate=no>EExecutionState</doc-valuetype> для каждого индекса выходного массива <doc-odp-name translate=no>Success</doc-odp-name>. <br>Размер этого массива всегда будет равен размеру массива <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Массив <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype>, предоставляющий <doc-valuetype translate=no>EExecutionState</doc-valuetype> для каждого индекса входного массива <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Этот массив может быть заполнен несколькими данными в ходе одного процесса, поскольку это зависит от процесса распределения за пределами блока.<br>Но размер этого массива не превышает размер массива <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Массив <doc-valuetype translate=no>ArrayFilterError</doc-valuetype>, предоставляющий объект ошибки для индекса входного массива <doc-odp-name translate=no>ArrayIn</doc-odp-name>. <br>Размер этого массива не превышает размер массива <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "запускает выполнение блока.",
+    "Success": "активируется после успешного завершения процесса.",
+    "Progress": "активируется каждый раз при выполнении.",
+    "Error": "активируется при возникновении ошибки."
+  },
+  "example": null
+}

@@ -1,0 +1,1 @@
+define("DS/3DPlayBM/3DPlayBM_es",{});define("DS/3DPlayBM/assets/nls/3DPlayBM",{DefaultContent:"Seleccionar el contenido predeterminado",ContentFromSwym:"Seleccionar desde Swym"});

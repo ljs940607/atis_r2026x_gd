@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "成本计算",
+  "CostingDomainTooltip": "为成本指标选择衍生流程",
+  "CostingDefaultEvolution": "连续",
+  "CostingEvolutionConcurrent": "并发",
+  "deployFailureMsg": "不允许将研发流程设置为并发，因为有些成本指标超出“工作中”状态",
+  "MetricEvolutionAccordionTitle": "指标衍生流程"
+}

@@ -1,0 +1,208 @@
+{
+    "name_Section_AllTerminologies": "Browsing Structures",
+    "name_Widget_Title": "Browsing Structure Definition",
+    "name_Widget_Help": "Browsing Structure Definition Help",
+    "name_Term": "Term",
+    "name_Terminology_type": "Terminology",
+    "terminology_pref_populateTags": "Enable 6W tags for filtering Browsing Structures",
+    "terminology_pref_activateRelationsColumns": "Show Related",
+    "useIndexAcceleration_label": "Show indexed data",
+    "terminology_pref_autoSwitch_Label": "Auto switch from Database mode to Index mode",
+    "button_remove": "Remove",
+    "button_close": "Close",
+    "Move_label": "Move",
+    "Copy_label": "Copy",
+    "oneMin_Label": "1 Minute",
+    "threeMin_Label": "3 Minutes",
+    "fiveMin_Label": "5 Minutes",
+    "tenMin_Label": "10 Minutes",
+    "Never_Label": "Never",
+    "Paste_content_loading": "Paste content",
+    "Remove_content_loading": "Remove content",
+    "Content_Loading": "Loading content...",
+    "Widget_Loading": "Loading widget...",
+    "Tree_Loading": "Loading tree...",
+    "New_Loading": "Loading creation panel...",
+    "Terminology_Loading": "Selecting Browsing Structure...",
+    "commands": {
+        "newBrowsingNode": "New Browsing Node",
+        "newBrowsingStructure": "New Browsing Structure"
+    },
+    "msg_success_copyLink_terminology": "Link to the Browsing Structure \"{terminologyname}\" has been copied.",
+    "msg_success_copyLink_term": "Link to the Browsing Node \"{termname}\" has been copied.",
+    "msg_success_createTerminology": "Creation of the Browsing Structure \"{terminologyName}\" successful",
+    "msg_success_createTerm": "Creation of the Browsing Node \"{termName}\" successful",
+    "msg_success_createBS": "The Browsing Structure has been successfully created",
+    "msg_success_createBN": "The Browsing Node has been successfully created",
+    "msg_info_terminologycopied": "{number} Browsing Structure(s) added to the Browsing Structure \"{terminologyname}\".",
+    "msg_info_rename_bs": "Browsing Structure \"{name1}\" is renamed to \"{name2}\".",
+    "msg_info_rename_bn": "Browsing Node \"{name1}\" is renamed to \"{name2}\".",
+    "msg_info_refresh": "Refresh done.",
+    "msg_info_SortNonAvailable": "This column is not available for sorting during a search.",
+    "msg_info_treeFilterRemove": "The filters applied to the tree are removed after you add a browsing structure.",
+    "msg_warning_nocurrentterminology": "No current Browsing Structure: please select a Browsing Structure.",
+    "msg_warning_noselection": "At least one object must be selected.",
+    "msg_warning_expandSaveLimitation": {
+        "Title": "The last expand status will not be saved.",
+        "Advice": "Collapse some Browsing Structure to enable saving of expand status.",
+        "Details": "There are too many Browsing Structures expanded."
+    },
+    "msg_warning_copyLink": "Selected Object is not a Browsing Structure.",
+    "msg_warning_LimitInCtxSearchOnAllTerminologies": "In Context Search not supported while Root Browsing Structure count is more than 200.",
+    "msg_error_Addinterminology": "You cannot add content to this browsing structure.",
+    "msg_error_CopyTerminology": "Error when copying Browsing Structure(s).",
+    "msg_error_MoveInterminology": "Error when moving object(s).",
+    "msg_error_MoveInSameterminology": {
+        "title": "Select a different browsing structure. ",
+        "subtitle": "The target browsing structure and the source browsing structures are the same."
+    },
+    "msg_error_rename": {
+        "Title": "You cannot rename the Browsing item : {name}.",
+        "Advice": "Verify that the name is not already used or you are using the correct credentials.",
+        "Details": "You may not have the required responsibility in the target collaborative space to rename this object."
+    },
+    "msg_error_invalidselection": "The command cannot be launched without a selection",
+    "msg_error_name_maxlength": "Enter a \"{name}\" no longer than {maxLength} characters.",
+    "msg_error_name_empty": "Enter a value for the name.",
+    "msg_error_TerminologyActivate": {
+        "title": "You cannot activate {name1}.",
+        "subtitle": "The object may have been deleted or you do not have the required permissions."
+    },
+    "msg_error_NoVisibleRootTerminology": {
+        "title": "Associate a browsing structure with this browsing node.",
+        "subtitle": "The browsing structure might not be visible. For example, it might not be active. "
+    },
+    "msg_error_TreeExpandCancelledNotReady": {
+        "title": "Unable to expand the tree.",
+        "subtitle": "Refresh the app and try agan, or contact your administrator for support."
+    },
+    "msg_error_forbiddenChar": {
+        "Title": "{label} contains invalid characters: {badChars}.",
+        "Advice": "You cannot use any of the following characters: Message:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+    },
+    "msg_error_contentnotavailable": {
+        "title": "The content of the browsing structure is no longer accessible.",
+        "subtitle": "Refresh the widget.",
+        "message": "The content might have been deleted, or you do not have the required permissions."
+    },
+    "msg_InfoAction_Timeout": "No response received from the launched action within the timeout period, it can take longer to execute. The result may be visible in a moment after a manual refresh.",
+    "msg_error_timeout": {
+        "title": "The connection to the server timed out.",
+        "subtitle": "Verify your connection or reduce the amount of data being submitted during this operation."
+    },
+    "msg_error_terminologyPath": {
+        "title": " This browsing structure is no longer accessible.",
+        "subtitle": "Refresh the widget.",
+        "message": "The browsing structure might have been deleted, or you do not have the required permissions."
+    },
+    "msg_error_terminologyPath_roles": {
+        "title": " This browsing structure is no longer accessible.",
+        "subtitle": "Refresh the widget.",
+        "message": "You do not have the required permissions."
+    },
+    "msg_error_copylink": {
+        "title": "Unable to copy the link to the clipboard. ",
+        "subtitle": " Retry the operation, or contact your administrator for support. "
+    },
+    "msg_error_createNewFromFramework": "Create New failed :",
+    "msg_error_createNew": {
+        "Title": "Unable to create this object: {type}.",
+        "Advice": "Verify that you are using the correct credentials.",
+        "Details": "You may not have the required responsibility in the target collaborative space to create this type of object."
+    },
+    "msg_error_rest": {
+        "title": "The server disconnected unexpectedly.",
+        "subtitle": "Contact your administrator for support."
+    },
+    "msg_warning_notProductRoot": "Object is not found.",
+    "msg_warning_contentnotavailable": "Could not retrieve content. It may has been deleted or set to private state.",
+    "msg_warning_removeContentFromSearch": {
+        "title": "Cannot remove content.",
+        "advice": "Please select a sub-terminology to refine the search results.",
+        "details": "Cannot remove content from more than 20 Browsing Structures."
+    },
+    "CMDClearSort": "Clear Sort",
+    "CMDShareTerminologyLink": "Copy Link",
+    "CMDShowInTerminologies": "Show in Browsing Structures",
+    "alpha_sorting": "Alphabetical order",
+    "alpha_sort_label": "Title",
+    "date_sorting": "Date order",
+    "date_sort_label": "Modified date",
+    "fonticon_filter": "The panel content is currently filtered",
+    "loadingText": "Loading...",
+    "SearchEnterMoreThan": "{minNumber} characters minimum are needed for a search.",
+    "confirmation_move_title": "Move content",
+    "confirmation_move_message": "Do you want to move the content of {source} to {target} ?",
+    "confirmation_move_message_monosel": "Do you want to move {selection} from {source} to {target} ?",
+    "confirmation_move_message_mono_from_tree": "Do you want to move {source} to {target} ?",
+    "confirmation_move_message_multisel": "Do you want to move {nth} items from {source} to {target} ?",
+    "confirmation_move_button": "Move",
+    "confirmation_info": "Attributes other than title and description are lost while converting \n {From} to {To}. All attributes are copied for child objects.",
+    "authentication_error": {
+        "title": "Unable to launch specified widget.",
+        "subtitle": "Verify your credentials and try again."
+    },
+    "noPlatform_error": "This app is not available on any of your platforms.",
+    "placeholder_msg_terminology": "This Browsing Structure is currently empty.",
+    "placeholder_CreateTerminology": "New Browsing Structure",
+    "placeholder_CreateTerm": "New Browsing Node",
+    "column_Thumbnail": "Thumbnail",
+    "placeholder_msg_section": "No Browsing Structure created.",
+    "placeholder_msg_terms": "No Browsing Node created",
+    "placeholder_msg_search": "No results found.",
+    "refresh_ongoing": "Refreshing...",
+    "refresh_ok": "Refresh done",
+    "refreshError": {
+        "title": "Unable to refresh the widget.",
+        "subtitle": "Contact your administrator for support."
+    },
+    "success": "Success",
+    "warning": "Warning",
+    "information": "Information",
+    "msg_error_objectNoLongerAccessible": {
+        "Title": "This content is no longer accessible.",
+        "Advice": "You might not have the required responsibility in the target collaborative space to create this type of object.",
+        "Details": "The object might have been deleted, or you do not have the required permissions."
+    },
+    "msg_error_pasteDestination": {
+        "Title": "Unable to paste.",
+        "InvalidParameters": "The selected objects cannot be pasted to this destination. ",
+        "BNDestination": "Browsing nodes cannot be pasted under the Browsing structures section.",
+        "BSDestination": "Browsing structure can be pasted only under the Browsing structures section."
+    },
+    "msg_paste_error": "Unable to paste.",
+    "indexMode": {
+        "Authoring": "Database.",
+        "Index": "Index.",
+        "Label": "Index",
+        "seconds": "second(s)",
+        "minutes": "minute(s)",
+        "hours": "hour(s)",
+        "msg_Authoring": "Database mode is enabled. Performance may be impacted.",
+        "activeMode": "Active mode : {mode}",
+        "lastRefresh": "Last Refresh : {timeElapsed} ago.",
+        "reactIndexMode": "Index mode will be reactivated in {autoSwitch} minutes from the time of authoring operation or refresh.",
+        "info_msg_DataNotUptoDate": "Index mode is active. Data may not be up to date."
+    },
+    "msg_warning_TerminologyNotVisibleinTree": "Selected Browsing Structure {name} is not visible in tree, scroll to view and select it.",
+    "ViewTooltip": {
+        "ds6w:label": "Title",
+        "ds6w:modified": "Modification Date",
+        "ds6w:responsible": "Owner",
+        "ds6w:type": "Type",
+        "ds6w:status": "Maturity State",
+        "ds6w:project": "Collaborative Space",
+        "ds6w:identifier": "Name"
+    },
+    "notifications": {
+        "expandTooLarge": "Too many objects retrieved.<br> Please narrow the navigation with filtering or reducing the expand level.",
+        "initialization_error": {
+            "title": " The app encountered an unexpected error.",
+            "subtitle": "Contact your administrator for support."
+        },
+        "tooManyResultFound": "Search is limited to {maxResult} results. Please refine the query."
+    },
+    "generic_service_failure": "Failed to retrieve object information. Retry in a few minutes. If the problem persists, contact your administrator",
+    "cannot_insert_branch": "Failed in adding object",
+    "cannot_access_after_changeowner": "Cannot access the object after an ownership change"
+}

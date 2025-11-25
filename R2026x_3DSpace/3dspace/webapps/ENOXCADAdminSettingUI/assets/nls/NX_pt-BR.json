@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Salvar",
+  "NXOpenGroupLabel": "Abrir",
+  "NXToolkitLicenseGroupLabel": "Disponibilidade do conversor MultiCAD STEP",
+  "NXMissingLinksWarningLabel": "Salvar o arquivo com referências ausentes",
+  "NXMissingLinksWarningInfo": "Quando ativado, um aviso será exibido se algum projeto filho estiver ausente durante a operação Salvar na sessão NX. Quando desativado, a operação Salvar continuará sem o aviso.",
+  "NXSuppressPatternElementsLabel": "Elementos de padrão de supressão",
+  "NXSuppressPatternElementsInfo": "Quando ativado, essa configuração suprime elementos de padrão, de modo que as peças-mestre de padrão não aparecem na caixa de diálogo Salvar. Quando desativado, a peça mantém sua relação com a peça principal padrão, criando uma relação MakeFrom.",
+  "NXSTEP242LicenseAvailableLabel": "Disponibilidade do conversor MultiCAD STEP",
+  "NXSTEP242LicenseAvailableInfo": "Configuração para especificar se o conversor STEP AP214 ou STEP AP242 é usado ao abrir projetos multiCAD na sessão NX. Valor padrão: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "Atributo CAD mapeado para EIN",
+  "NXCADAttributeMappedToEINInfo": "Quando o valor desse atributo for especificado, a função será ativada e carimbaremos o arquivo CAD com esse atributo e seu valor será o EIN do Produto físico.",
+  "EnterpriseItemNumberGroupLabel": "Número do item do Enterprise",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Filtrar itens de engenharia do 3DEXPERIENCE sem geometria e sem nós filhos",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Filtre os itens de engenharia do 3DEXPERIENCE sem geometria e sem nós filhos."
+}

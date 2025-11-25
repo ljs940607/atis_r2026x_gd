@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "검색 노드 생성",
+    "terminologyCreation": "검색 구조 생성"
+  },
+  "options": {
+    "title": "제목",
+    "titleMessage": "제목을 입력해야 합니다.",
+    "description": "설명",
+    "descMessage": "설명을 입력하십시오."
+  },
+  "buttons": {
+    "create": "생성",
+    "cancel": "취소"
+  },
+  "error": {
+    "invalidFrame": "선택한 프레임이 잘못되었습니다. 대화 상자를 생성할 수 없습니다.",
+    "missingcallback": "콜백이 누락되었습니다.",
+    "invalidType": "이 명령을 호출하여 검색 구조 또는 검색 노드를 생성해야 합니다."
+  }
+}

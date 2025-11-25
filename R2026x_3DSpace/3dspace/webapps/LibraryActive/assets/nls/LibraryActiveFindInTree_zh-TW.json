@@ -1,0 +1,30 @@
+{
+  "loader": {
+    "findingObjects": "正在尋找類別...",
+    "formulatingPaths": "正在建立路徑公式..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "無法對目前的所選範圍執行在樹狀結構中尋找。請選擇一個類別 (非最愛)，然後再試一次。",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "放置的物件不是類別。",
+    "Advice": "請放置類別。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "無法完成在樹狀結構中尋找。",
+    "Advice": "將樹狀結構展開至該特定類別節點",
+    "Details": "要尋找的類別未顯示在樹狀結構中。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "無法完成在樹狀結構中尋找。",
+    "Advice": "將資料庫區段展開至第一層。",
+    "Details": "資料庫區段下未顯示任何資料庫。"
+  },
+  "msg_warning_NoObjectSelected": {
+    "Title": "無法完成在樹狀結構中尋找。",
+    "Advice": "請選擇類別，然後再試一次。",
+    "Details": "沒有選擇要執行尋找的類別。"
+  },
+  "msg_info_limit_FindInTree": "已達到限制。類別尋找限制設定為 100。",
+  "msg_info_limitToFindInRootNode": "在資料庫中尋找的上限設定為 200，會考量前 200 個類別。",
+  "msg_info_No_Occurrence": "找不到類別的發生事件。",
+  "msg_error_while_formulating_paths": "建立路徑公式時發生錯誤：可能沒有存取權或物件不存在，請稍後再試，或聯絡您的管理員"
+}

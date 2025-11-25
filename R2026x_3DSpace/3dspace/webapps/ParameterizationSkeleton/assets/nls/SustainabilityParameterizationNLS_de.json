@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Costing",
+  "CostingDomainTooltip": "Entwicklungsprozess für Kostenkennzahlen auswählen",
+  "CostingDefaultEvolution": "Sequenziell",
+  "CostingEvolutionConcurrent": "Gleichzeitig",
+  "deployFailureMsg": "Das Festlegen des Entwicklungsprozesses auf Gleichzeitig ist nicht zulässig, da einige Kostenkennzahlen über den Status In Arbeit hinausgehen",
+  "MetricEvolutionAccordionTitle": "Entwicklungsprozess für Kennzahlen"
+}

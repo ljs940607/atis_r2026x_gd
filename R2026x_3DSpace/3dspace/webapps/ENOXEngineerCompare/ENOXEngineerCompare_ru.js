@@ -1,0 +1,1 @@
+define("DS/ENOXEngineerCompare/ENOXEngineerCompare_ru",{});define("DS/ENOXEngineerCompare/assets/nls/ENOXEngineerCompare",{makeFromAsRequired:"Является обязательным",structureView:"Структурный вид",structureReferenceView:"Справочный структурный вид",listView:"Вид списка","unit.m3":"м³","unit.m2":"м²","unit.m":"m","unit.kg":"kg"});

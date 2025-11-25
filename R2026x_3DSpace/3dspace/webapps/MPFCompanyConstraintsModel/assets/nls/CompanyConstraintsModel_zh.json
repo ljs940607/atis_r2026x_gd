@@ -1,0 +1,16 @@
+{
+  "errorName": "公司名称为必填项",
+  "errorTaxRegId": "税务登记 ID 格式无效",
+  "noSpecialCharacterMessage": "仅限字母数字字符（无重音符号）",
+  "errorPersonalIdNUmberFormat": "个人身份证号格式无效",
+  "errorRegistrationIdFormat": "登记 ID 格式无效",
+  "errorCountry": "国家/地区为必填项",
+  "name": "名称",
+  "registrationId": "登记 ID",
+  "taxRegistrationId": "税务登记 ID",
+  "personalIdNumber": "个人身份证号",
+  "url": "URL",
+  "country": "国家/地区",
+  "isRequired": "{0} 必填",
+  "formatIsInvalid": "{0} 格式无效"
+}

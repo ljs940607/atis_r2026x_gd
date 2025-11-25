@@ -1,0 +1,1 @@
+define("DS/WebAppsFoundations/WebAppsFoundations_ko",{});define("DS/WebAppsFoundations/assets/nls/WebAppsFoundations",{wigdetRunabiltyException:"경고: 이 웹사이트는 3DEXPERIENCE Platform 또는 Dassault Systèmes 기업 웹사이트의 일부가 아니며, 신뢰할 수 없습니다.",onPassportErrorUnauthedClient:"먼저 다른 탭에서 이 테넌트에 로그인하십시오."});

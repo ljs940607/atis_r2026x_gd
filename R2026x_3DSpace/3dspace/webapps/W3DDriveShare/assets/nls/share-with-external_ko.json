@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "외부 공유 링크 활성화",
+  "activateShareByLinkDescription": "다음 링크를 통해 모든 사용자가 이 콘텐츠를 미리 보고 다운로드할 수 있습니다.",
+  "expirationDate": "완료 예정일: {date}",
+  "restrictAccessToSpecificUsers": "특정 사용자로 액세스 제한",
+  "addRestrictions": "제한 추가",
+  "noRestrictedEmails": "아무도 콘텐츠에 액세스할 수 없습니다.",
+  "addMessage": "메시지 추가",
+  "enterMessageDescription": "보낸 이메일에 추가할 사용자 정의 메시지를 입력합니다.",
+  "addRestrictedUsersDescription": "제한된 사용자를 통해 해당 이메일과 연결된 계정에만 콘텐츠에 대한 액세스 권한을 부여할 수 있습니다.",
+  "authorizedList": "권한 있는 목록({count}/{max})",
+  "restrictionsCount": "{count}/{max}개 제한 사항",
+  "close": "닫기",
+  "share": "공유",
+  "copyExternalLink": "외부 링크 복사",
+  "enableGuestComments": "게스트 코멘트 활성화",
+  "enableGuestCommentsDescription": "이 링크를 사용하는 모든 사용자는 플랫폼 멤버가 작성한 이전 코멘트를 포함하여 콘텐츠에 대한 코멘트를 남기거나 모든 코멘트를 읽을 수 있습니다.",
+  "externalSharingFeatureDisabled": "외부 공유 기능은 이 플랫폼에서 활성화되지 않았습니다. 관리자에게 문의하십시오.",
+  "cannotAccessContent": "콘텐츠에 액세스할 수 없습니다.",
+  "platformNotAccessible": "플랫폼에 액세스할 수 없습니다."
+}

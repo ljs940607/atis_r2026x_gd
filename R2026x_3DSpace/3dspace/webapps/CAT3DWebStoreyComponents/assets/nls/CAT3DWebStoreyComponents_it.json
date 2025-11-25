@@ -1,0 +1,51 @@
+{
+  "Slider": {
+    "Button": {
+      "Upstair": "Livello superiore",
+      "UpstairShort": "fare clic per salire di un livello",
+      "Downstair": "Livello inferiore",
+      "DownstairShort": "fare clic per scendere di un livello",
+      "Inverse": "Inverti",
+      "InverseShort": "fare clic per invertire la vista del ritaglio"
+    },
+    "Icon": {
+      "Offset": "Offset",
+      "OffsetShort": "Offset dal livello corrente",
+      "Elevation": "Elevazione",
+      "ElevationShort": "Elevazione del livello attuale"
+    }
+  },
+  "Dialog": {
+    "Button": {
+      "Ok": "OK",
+      "Cancel": "Annulla",
+      "OkShort": "Convalida creazione livello",
+      "CancelShort": "Annulla"
+    },
+    "Spinbox": {
+      "Elevation": "Elevazione di ciascun livello",
+      "ElevationShort": "Elevazione che definirà ogni livello",
+      "Numbers": "Numero di livelli da creare",
+      "NumbersShort": "Consente di immettere il numero di livelli da creare",
+      "Offset": "Elevazione base per il primo livello",
+      "OffsetShort": "Elevazione base per il primo livello, gli altri verranno calcolati in base a questo primo livello"
+    },
+    "Storey": {
+      "DefaultName": "Livello"
+    },
+    "Title": "Creazione livello predefinito"
+  },
+  "Notification": {
+    "RequestSuccessNotif": {
+      "DriverLoadingOK": "Caricamento dei livelli dal driver riuscito.",
+      "StoreysLoadingOK": "Caricamento dei livelli riuscito."
+    },
+    "RequestWarningNotif": {
+      "DriverLoadingFail": "Il driver è stato trovato ma non è riuscito a leggere le informazioni sui livelli. Caricamento dei livelli dalla struttura del prodotto in corso: attendere...",
+      "DriverMissing": "Driver non trovato. Caricamento dei livelli dalla struttura del prodotto in corso: attendere..."
+    },
+    "RequestErrorNotif": {
+      "LoadingFail": "Impossibile recuperare i livelli."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "summary": "Bu bloğa artık ulaşılamıyorsa çıktı kontrol bağlantı noktasını etkinleştirir.",
+  "description": "Bu blok yürütüldüğünde, bu bloğa ulaşabilecek başka yürütme akışları yoksa çıktı kontrol bağlantı noktası etkinleştirilir.<br>Aksi takdirde bloğun yürütülmesi, herhangi bir çıktı kontrol bağlantı noktası etkinleştirilmeden sona erer.",
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "yalnızca bloğa artık ulaşılamadığında etkinleştirilir."
+  },
+  "example": null
+}

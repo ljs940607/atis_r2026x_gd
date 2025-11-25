@@ -1,0 +1,12 @@
+m|CAT3DPlayWebWidget\3DPlayAppV2.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25232|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DPlayAppV2\3DPlayAppV2.js|1755718820|9352
+s|CAT3DPlayWebWidget\3DPlayAppV2.mweb\src\3DPlayAppAFR.js|1755583375|19217
+t|win_b64\webapps\3DPlayAppV2\assets\json\X3DPLAW_AP_DefaultExperience.json|1748059421|32243
+s|CAT3DPlayWebWidget\3DPlayAppV2.mweb\src\assets\json\X3DPLAW_AP_DefaultExperience.json|1738084270|32243
+u|CAT3DPlayWebWidget\3DPlayAppV2.mweb\src\Widget.js|1752727480|5577
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

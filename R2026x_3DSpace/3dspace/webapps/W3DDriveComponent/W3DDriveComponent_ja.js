@@ -1,0 +1,1 @@
+define("DS/W3DDriveComponent/W3DDriveComponent_ja",{});define("DS/W3DDriveComponent/assets/nls/W3DDriveComponent",{select_platform:"プラットフォームを選択",myFiles:"マイ ファイル",sharedWithMe:"自分と共有",createFolder:"フォルダーを作成",enterTitle:"タイトルを入力",title:"タイトル",ok:"OK",cancel:"キャンセル",forbiddenChars:"このフィールドは必須で、次の文字は禁止されています: {chars}"});

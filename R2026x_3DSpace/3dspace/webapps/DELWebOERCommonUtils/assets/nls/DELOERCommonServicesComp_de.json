@@ -1,0 +1,6 @@
+{
+  "Warn.Timeout.Message": "Zeitüberschreitung bei Webserviceanforderung. Erhöhen Sie das Zeitlimit oder versuchen Sie es später erneut",
+  "Error.SecurityContextNotAvailable.Message": "Benutzer-Anmeldeinformationen sind derzeit nicht verfügbar. Sie können sich an den Administrator wenden, um die Anmeldeinformationen zu überprüfen.",
+  "Warn.SecurityContextInvalid.Message": "Auf Ihre aktuellen Anmeldeinformationen kann nicht zugegriffen werden. Stattdessen werden Ihre bevorzugten Anmeldeinformationen verwendet. Sie können die Anmeldeinformationen in den Widget-Voreinstellungen überprüfen.",
+  "Error.ServiceNotFound.Message": "Auf den Service {service} kann nicht zugegriffen werden. Wenn das Problem weiterhin besteht, können Sie sich an den Administrator wenden."
+}

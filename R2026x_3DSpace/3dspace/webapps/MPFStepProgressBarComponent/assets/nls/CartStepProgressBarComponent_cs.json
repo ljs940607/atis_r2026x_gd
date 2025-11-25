@@ -1,0 +1,21 @@
+{
+  "submitted": "Odesláno",
+  "waiting_payment": "Zpracována cenová nabídka",
+  "paid": "Potvrzeno",
+  "processing": "Zpracování",
+  "ready": "Hotovo",
+  "shipped": "Odesláno",
+  "delivered": "Dodáno",
+  "submittedInfo": "Váš požadavek čeká na odpověď a cenovou nabídku od poskytovatele služeb. Můžete stále upravovat specifikace či odesílat zprávy.",
+  "waitingPaymentInfo": "Váš požadavek byl zkontrolován a přijat poskytovatelem služeb. Můžete jej potvrdit odesláním platby nebo v případě potřeby posílat zprávy a upravovat specifikace.",
+  "paidInfo": "Vaše objednávka je nyní potvrzena. Poskytovatel služeb ji začne zpracovávat. Od tohoto okamžiku již nelze měnit specifikace.",
+  "processingInfo": "Poskytovatel služeb zahájil zpracování vaší objednávky.",
+  "shippedInfo": "Poskytovatel služeb odeslal vaši objednávku. Potvrďte doručení, až objednávku obdržíte.",
+  "readyInfo": "Vaše objednávka je připravena k vyzvednutí. Po obdržení zásilky potvrďte příjem.",
+  "deliveredInfo": "Transakce je nyní uzavřena.",
+  "submittedInfo_seller": " Zákazník čeká na odpověď a cenovou nabídku k tomuto požadavku. Můžete také upravit specifikace (materiály, data, dokončení, ...) a odpovědět pomocí zprávy.",
+  "waitingPaymentInfo_seller": "Vytvořili jste cenovou nabídku k tomuto požadavku. Nyní čeká na potvrzení a platbu od zákazníka.",
+  "paidInfo_seller": "Zákazník objednávku potvrdil. Nyní ji můžete zpracovat. Od tohoto okamžiku již nelze měnit specifikace.",
+  "processingInfo_seller": "Zákazník byl upozorněn, že jste začali zpracovávat jeho objednávku.",
+  "shippedInfo_seller": "Odeslali jste objednávku zákazníka. Až zásilku obdrží, potvrdí její doručení."
+}

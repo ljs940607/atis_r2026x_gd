@@ -1,0 +1,16 @@
+{
+  "title": "Titel",
+  "fileType": "Dateityp",
+  "creationDate": "Erstellungsdatum",
+  "revision": "Revision",
+  "owner": "Eigentümer",
+  "menu": "Menü",
+  "download": "Herunterladen",
+  "downloadTitle": "Herunterladen",
+  "downloadTooltip": "Lädt die ausgewählten Dateien/Dokumente herunter",
+  "openWith": "Öffnen mit",
+  "openWithTitle": "Öffnen mit",
+  "openWithTooltip": "Öffnet die Dateien/Dokumente in einer kompatiblen externen App",
+  "noDataGridDisplayed": "Es gibt keine anzuzeigenden exportierten Dokumente",
+  "errorWhenFetchingExportedDocuments": "Beim Abrufen der exportierten Dokumente ist leider ein Fehler aufgetreten"
+}

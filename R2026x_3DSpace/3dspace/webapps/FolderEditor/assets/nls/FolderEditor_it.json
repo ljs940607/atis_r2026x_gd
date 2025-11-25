@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "La mia cartella Segnalibri personali",
+  "name_Section_FolderSection_favorite": "Preferiti",
+  "name_Section_FolderSection_AllFolders": "Cartelle Segnalibri",
+  "name_Section_TerminologySection_AllTerminologies": "Strutture di navigazione",
+  "name_Section_ParentFolders": "{number} cartelle Segnalibri padre",
+  "www_multisel_forbidden": "La selezione multipla non è supportata per gli oggetti selezionati",
+  "wwwLinkType": "Collegamento all'URL",
+  "folder_pref_dnd": "Comportamento del trascinamento della selezione",
+  "default_pref_label": "Etichetta di preferenza",
+  "cannot_insert_branch": "Impossibile recuperare le informazioni sull'oggetto. Riprovare tra qualche minuto. Se il problema persiste, contattare il proprio amministratore",
+  "export_level": "Livello",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "Nascondi i prodotti figlio con segnalibri",
+  "folder_pref_allow_products_expand": "Consenti l'espansione dei prodotti",
+  "folder_pref_subfolder": "Mostra cartelle Segnalibri figlio nella vista contenuto",
+  "folder_pref_populateTags": "Abilita 6W Tags per filtrare le cartelle Segnalibri",
+  "useIndexAcceleration_label": "Mostra dati indicizzati",
+  "folder_pref_autoSwitch_Label": "Passaggio automatico dalla modalità Database alla modalità Indice",
+  "button_remove": "Rimuovi",
+  "button_close": "Chiudi",
+  "button_treeOrder": "Personalizza ordine albero",
+  "Move_label": "Sposta",
+  "Copy_label": "Copia",
+  "oneMin_Label": "1 minuto",
+  "threeMin_Label": "3 minuti",
+  "fiveMin_Label": "5 minuti",
+  "tenMin_Label": "10 minuti",
+  "Never_Label": "Mai",
+  "Upload_content_loading": "Carica contenuto",
+  "AddExisting_content_loading": "Aggiunti contenuto esistente",
+  "AddContentError": "Oggetti già connessi.",
+  "Paste_content_loading": "Incolla contenuto",
+  "Remove_content_loading": "Rimuovi contenuto",
+  "Remove_shortcut_loading": "Rimuovi scelta rapida",
+  "Replace_revision_loading": "Sostituzione del contenuto con la revisione più recente",
+  "LoadAttributes_Loading": "Caricamento attributi servizi incrociati in corso...",
+  "Content_Loading": "Caricamento contenuto in corso...",
+  "LoadingView_Loading": "Caricamento della vista in corso...",
+  "CheckingAccess_Loading": "Verifica accesso alla cartella Segnalibri in corso...",
+  "Widget_Loading": "Caricamento widget in corso...",
+  "BookmarksTree_Loading": "Caricamento struttura in corso...",
+  "FavoriteBkTree_Loading": "Caricamento della struttura dei preferiti in corso...",
+  "PersonalTree_Loading": "Caricamento struttura personale in corso...",
+  "ExpandAndSelect_Loading": "Navigazione a {typeStruct}...",
+  "Bookmark_Loading": "Selezione della cartella Segnalibri in corso...",
+  "SetActiveBookmark_Loading": "Impostazione nuova cartella Segnalibri predefinita globale in corso...",
+  "UnsetActiveBookmark_Loading": "Annullamento impostazione cartella Segnalibri predefinita globale in corso...",
+  "EnableActiveBookmark_Loading": "Attivazione cartella Segnalibri predefinita globale in corso...",
+  "DisableActiveBookmark_Loading": "Disattivazione cartella Segnalibri predefinita globale in corso...",
+  "New_Loading": "Caricamento pannello di creazione in corso...",
+  "Shared_label": "Condiviso",
+  "Personal_label": "Personale",
+  "label_ActionBar_AddToFavorites": "Aggiungi/Rimuovi preferiti",
+  "label_ActionBar_RemoveFromFavorites": "Rimuovi da preferiti",
+  "label_title_NewBookmark": "Nuova cartella Segnalibri",
+  "newBookmark_typeNls": "Cartella Segnalibri",
+  "msg_success_copyLink_content": "Il collegamento al documento '{filename}' all'interno di {typeStruct} '{foldername}' è stato copiato.",
+  "msg_success_copyLink_folder": "Il collegamento a {typeStruct} '{foldername}' è stato copiato.",
+  "msg_success_favoriteReordered": "Riordinazione eseguita correttamente.",
+  "msg_info_contentcopied": "Il contenuto è stato copiato.",
+  "msg_info_contentcut": "Il contenuto è stato tagliato.",
+  "msg_info_objetremoved": "{number} oggetto/i rimosso/i da {typeStruct} '{foldername}'.",
+  "msg_info_LinkRemoved": "{number} collegamento/i rimosso/i da {typeStruct} '{foldername}'.",
+  "msg_info_objectremovedfromfolders": "Oggetto '{objectname}' rimosso correttamente da {number} {typeStruct} oggetti.",
+  "msg_info_notConnectToBk": "Non è stato collegato a {number} {typeStruct} oggetti",
+  "msg_info_objetnotremoved": "{number} oggetto/i da rimuovere non era/erano collegato/i a {typeStruct} '{foldername}'.",
+  "msg_info_Addinfolder": "{objectsAdded} oggetto/i aggiunto/i a {typeStruct} {targetfolder}, {objectsAlreadyPresent} oggetto/i da aggiungere era/erano già presente/i.",
+  "msg_info_Addinfolder_1": "{objectsAdded} oggetto/i aggiunto/i a {typeStruct} {targetfolder}.",
+  "msg_info_Addinfolder_2": "{objectsAlreadyPresent} oggetto/i da aggiungere già presente/i.",
+  "msg_info_objetadded": "'{filename}' aggiunto a '{foldername}'.",
+  "msg_info_objetmoved": "{objectsMoved} oggetto/i spostato/i in {typeStruct} {targetfolder}, {objectsAlreadyPresent} oggetto/i da spostare era/erano già presente/i.",
+  "msg_info_objetmoved_1": "{objectsMoved} oggetto/i spostato/i in {typeStruct} {targetfolder}.",
+  "msg_info_foldercopied": "{number} {typeNode} oggetti aggiunti a {typeStruct} '{foldername}'.",
+  "msg_info_rootCreated": "Sono stati creati {number} oggetti {typeNode}.",
+  "msg_info_foldercopied_2": "{number} oggetti {typeNode} aggiunti a '{foldername}'.",
+  "msg_info_objetmoved_2": "{objectsAlreadyPresent} oggetti da spostare erano già presenti.",
+  "msg_info_foldermoved": "{number} {typeNode} oggetti spostati in {typeStruct} '{foldername}'.",
+  "msg_info_filecheckedout": "Il check-out del file è stato eseguito correttamente.",
+  "msg_info_filecheckedin": "Il check-in del file è stato eseguito correttamente.",
+  "msg_info_filecancelcheckout": "L'operazione di modifica del file è stata annullata.",
+  "msg_info_favoriteadded": "La cartella Segnalibri '{name1}' è stata aggiunta ai Preferiti.",
+  "msg_info_favoriteremoved": "La cartella Segnalibri '{name1}' è stata rimossa dai Preferiti.",
+  "msg_info_favoritesremoved": "{number} cartelle Segnalibri sono state rimosse dai Preferiti.",
+  "msg_info_favoriterenamed": "Il preferito '{name1}' è stato rinominato in '{name2}'.",
+  "msg_info_rename": "{typeStruct} '{name1}' rinominato in '{name2}'.",
+  "msg_info_refresh": "Aggiornamento eseguito.",
+  "msg_info_reorder_NonRootbks": "Selezionare una cartella Segnalibri nella sezione Cartelle segnalibri.",
+  "msg_info_reorder_emptyBks": "Selezionare una cartella Segnalibri con 2 o più figli.",
+  "tree_ordering_panel_title": "Personalizza ordine albero - ",
+  "tree_ordering_Reorder_btn": "Riordina",
+  "find_in_left_tree_btn": "Trova",
+  "tree_ordering_reset_btn": "Reimposta ordine albero",
+  "tree_ordering_cancel_btn": "Annulla",
+  "tree_ordering_moveup_btn": "Sposta in su",
+  "tree_ordering_movedown_btn": "Sposta in giù",
+  "tree_ordering_movetop_btn": "Sposta in alto",
+  "tree_ordering_movebottom_btn": "Sposta in basso",
+  "tree_ordering_drop_here": "Rilascia qui",
+  "reorderSuccess": "Riordinazione eseguita correttamente",
+  "msg_info_noResultSearch": "Nessun risultato trovato.",
+  "msg_info_SortNonAvailable": "Questa colonna non è disponibile per l'ordinamento durante una ricerca.",
+  "msg_info_replaceByRevision": "L'oggetto è stato sostituito.",
+  "msg_info_replaceByLatestRevision": "La sostituzione con l'ultima revisione è stata eseguita correttamente",
+  "msg_info_replaceByLatestRevision_removed": "{number} oggetti sono stati rimossi esplicitamente poiché la loro revisione più recente era già presente nel segnalibro o più oggetti selezionati avevano una revisione in comune.",
+  "msg_info_treeFilterRemove": "I filtri della struttura vengono rimossi dopo l'aggiunta dell'oggetto radice",
+  "msg_info_active_successfully": "{folderLabel} è stato impostato correttamente come cartella Segnalibri predefinita globale.",
+  "msg_info_inactive_successfully": "L'impostazione della cartella Segnalibri predefinita globale {folderLabel} è stata annullata correttamente.",
+  "msg_info_enable_successfully": "La cartella Segnalibri predefinita globale {folderLabel} è ora attivata.",
+  "msg_info_disable_successfully": "La cartella Segnalibri predefinita globale {folderLabel} è ora disattivata.",
+  "msg_info_defaultLocation": "La cartella Segnalibri predefiniti globali è {folderLabel}.",
+  "msg_warning_MultipleSelection": "Selezione multipla non supportata.",
+  "msg_warning_nocontent": "Nessun contenuto selezionato: selezionare contenuto.",
+  "msg_warning_nofoldernocontent": "Nessuna selezione effettuata: selezionare contenuto o cartella Segnalibri.",
+  "msg_warning_nocurrentfolder": "Nessuna selezione corrente: selezionare un elemento nella struttura.",
+  "msg_warning_noselection": "Selezionare almeno un oggetto.",
+  "msg_warning_dndnotsupported": "L'operazione di trascinamento non è supportata.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Il trascinamento di oggetti esterni sulla sezione Preferiti non è accettato.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Il rilascio di oggetto/i da un'altra 3DEXPERIENCE platform non è accettato.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "Impossibile aggiungere gli oggetti {objectType}.",
+    "subtitle": "Selezionare un tipo di oggetto supportato."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "L'aggiunta di oggetti da un'altra 3DEXPERIENCE platform non è accettata.",
+  "msg_warning_webInWinDnD": "Il rilascio di oggetto/i è accettato solo su 3DDashboard.",
+  "msg_warning_Linked_Or_Shortcut": "Impossibile trascinare le scelte rapide delle cartelle Segnalibri. Deselezionare le scelte rapide delle cartelle Segnalibri per trascinare altri oggetti.",
+  "msg_warning_FolderAlreadyAmongFavorites": "{typeStruct} '{foldername}' è già tra i Preferiti.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "L'ultimo stato di espansione non verrà salvato.",
+    "subtitle": "Comprimere alcuni elementi della struttura per consentire il salvataggio dello stato di espansione.",
+    "message": "Troppi elementi della struttura espansi."
+  },
+  "msg_warning_copyLink": "L'oggetto selezionato non è una cartella Segnalibri.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "La Ricerca contestuale non è supportata se il numero di radici è superiore a 200.",
+  "msg_warning_searchOpen": {
+    "title": "Impossibile creare una cartella Segnalibri.",
+    "subtitle": "Impossibile creare una nuova cartella Segnalibri mentre la ricerca è attiva.",
+    "message": "Chiudere il comando di ricerca per creare una nuova cartella Segnalibri."
+  },
+  "msg_error_OnRefreshCmdfailure": "Si è verificato un errore imprevisto.",
+  "msg_error_preferencessnotsaved": "Impossibile salvare le preferenze.",
+  "msg_error_nopreferences": "Impossibile recuperare le preferenze utente.",
+  "msg_error_Addinfolder": "Non è possibile aggiungere il contenuto selezionato.",
+  "msg_error_Addinfolder_obj": "Impossibile aggiungere {object}.",
+  "msg_error_CopyFolder": "Non è possibile copiare {typeStruct}.",
+  "msg_error_MoveFolder": "Non è possibile spostare {typeStruct}.",
+  "msg_error_MoveFolder_parent": "{typeStruct} di destinazione è uno dei padri di {typeNode} da spostare.",
+  "msg_error_CutPasteToRoot": "Impossibile spostare {typeStruct} elementi nella sezione radice.",
+  "msg_error_Removefromfolder": "Non è possibile rimuovere gli oggetti da {typeStruct}.",
+  "msg_error_RemoveLinkfromBookmark": "Impossibile rimuovere i collegamenti dalla cartella Segnalibri.",
+  "msg_error_MoveInfolder": "Impossibile spostare gli oggetti.",
+  "msg_error_MoveInSamefolder": {
+    "title": "Selezionare {typeStruct} differente.",
+    "subtitle": "{typeStruct} di origine e {typeStruct} di destinazione sono gli stessi."
+  },
+  "msg_error_rename": {
+    "title": "Impossibile rinominare {typeStruct}: {name}.",
+    "subtitle": "Verificare di utilizzare le credenziali corrette.",
+    "subtitle_oneName": "Verificare che il nome non sia già utilizzato o che si stiano utilizzando le credenziali corrette.",
+    "message": "È possibile che non si disponga della responsabilità richiesta nell'area di collaborazione di destinazione per rinominare questo oggetto."
+  },
+  "msg_error_name_maxlength": "Immettere un nuovo nome compreso tra 1 e {maxLength} caratteri.",
+  "msg_error_name_empty": "Il campo del titolo non può essere vuoto.",
+  "msg_error_bookmarkNotFound": {
+    "title": "Impossibile accedere a {name1}.",
+    "title2": "Impossibile accedere a {typeStruct}.",
+    "subtitle": "{typeStruct} non è più accessibile o potrebbe essere stato eliminato.",
+    "message": "È possibile che non si disponga della responsabilità richiesta nell'area di collaborazione di destinazione."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Impossibile espandere la struttura ad albero.",
+    "subtitle": "Aggiornare l'app e riprovare o contattare l'amministratore per assistenza."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} contiene caratteri non validi: {badChars}.",
+    "subtitle": "Non è possibile utilizzare i seguenti caratteri:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Si verifica un errore durante il caricamento degli attributi.",
+    "subtitle": "Aggiornare il widget.",
+    "message": "Gli attributi degli altri servizi non possono essere recuperati."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "{typeStruct} non è più accessibile. ",
+    "subtitle": "Aggiornare il widget.",
+    "message": "La cartella Segnalibri potrebbe essere stata eliminata o non si dispone delle autorizzazioni necessarie."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "Questo collegamento esterno non è più accessibile."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "{typeStruct} non è più accessibile.",
+    "subtitle": "Rimuovere {typeStruct} dai preferiti.",
+    "message": "La cartella Segnalibri potrebbe essere stata eliminata o non si dispone delle autorizzazioni necessarie."
+  },
+  "msg_InfoAction_Timeout": "L'operazione richiede più tempo del previsto. Continuerà in background. Aggiornare per aggiornare i dati.",
+  "msg_error_authorTimeout": {
+    "title": "L'operazione richiede più tempo del previsto.",
+    "message": "Continuerà in background."
+  },
+  "msg_error_timeout": {
+    "title": "Impossibile recuperare il contenuto.",
+    "subtitle": "Timeout della connessione al server.",
+    "message": "Verificare la connessione o contattare l'amministratore per assistenza."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Questo oggetto non è più accessibile.",
+    "subtitle": "Aggiornare il widget.",
+    "message": "L'oggetto potrebbe essere stato eliminato o non si dispone delle autorizzazioni necessarie."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Non è possibile aprire l'app Relations.",
+    "subtitle": " Verificare il proprio ruolo di licenza."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Impossibile sostituire gli oggetti con la loro revisione più recente.",
+    "subtitle": "Contattare l'amministratore per assistenza."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Impossibile {move_copy} una cartella Segnalibri {personal_shared} in un'altra cartella Segnalibri {shared_personal}.",
+  "msg_error_copylink": {
+    "title": "Non si dispone dell'autorizzazione per copiare il collegamento negli Appunti.",
+    "subtitle": "Verificare le credenziali o contattare l'amministratore per assistenza."
+  },
+  "msg_error_createNew": {
+    "title": "Non è possibile creare questo oggetto.",
+    "subtitle": "Verificare di utilizzare le credenziali corrette.",
+    "message": "È possibile che non si disponga della responsabilità richiesta nell'area di collaborazione di destinazione per creare questo tipo di oggetto."
+  },
+  "msg_error_rest": {
+    "title": "Si è verificato un errore imprevisto.",
+    "subtitle": "Contattare l'amministratore per assistenza."
+  },
+  "msg_error_js": {
+    "title": "Si è verificato un errore durante l'operazione.",
+    "subtitle": "Contattare l'amministratore per assistenza."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Impossibile recuperare la cartella Segnalibri predefinita.",
+    "subtitle": "Contattare l'amministratore per assistenza.",
+    "message": "La cartella Segnalibri predefinita non è più definita."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Selezionare un'altra revisione.",
+    "subtitle": "Impossibile sostituire la revisione di un oggetto con la stessa revisione."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "{typeStruct} contiene già l'ultima revisione degli oggetti selezionati.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Impossibile visualizzare questo percorso.",
+    "subtitle": "Nessun oggetto padre visibile nella cartella Segnalibri.",
+    "message": "Deselezionare la preferenza \"Nascondi prodotti figlio con segnalibri\"."
+  },
+  "msg_warning_notProductRoot": "L'oggetto non è più accessibile o potrebbe essere stato eliminato.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "Selezionare non più di 100 oggetti.",
+  "msg_warning_contentnotavailable": {
+    "title": "Questo contenuto non è più accessibile.",
+    "subtitle": "Aggiornare il widget.",
+    "message": "Il contenuto potrebbe essere stato eliminato o non si dispone delle autorizzazioni necessarie."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "Impossibile rimuovere il contenuto.",
+    "subtitle": "Selezionare {typeStruct} secondario per perfezionare i risultati della ricerca.",
+    "message": "Impossibile rimuovere il contenuto da più di 20 elementi {typeStruct}."
+  },
+  "msg_error_settings": {
+    "title": "Impossibile recuperare le preferenze utente.",
+    "subtitle": "Si è verificato un errore imprevisto. Contattare l'amministratore per assistenza."
+  },
+  "msg_error_search_login": "Errore del server. La ricerca federata non è disponibile.",
+  "CMDInsertNewFolder": "Nuova cartella Segnalibri",
+  "CMDRemoveContent": "Rimuovi contenuto",
+  "CMDAddFile": "Carica documento",
+  "CMDDownloadFile": "Scarica",
+  "CMDPreviewFile": "Anteprima",
+  "CMDCheckOutFile": "Check-out",
+  "CMDCheckInFile": "Check-in",
+  "CMDEditFile": "Modifica",
+  "CMDUndoEditFile": "Annulla modifica",
+  "CMDFolderUpload": "Caricamento cartella",
+  "CMDUpdateFile": "Aggiorna",
+  "CMDRename": "Rinomina",
+  "CMDCut": "Taglia",
+  "CMDCopy": "Copia",
+  "CMDPaste": "Incolla",
+  "CMDDelete": "Elimina",
+  "CMDClearSort": "Cancella ordinamento",
+  "CMDHideColumn": "Nascondi colonna",
+  "CMDOpenColumnCusto": "Opzioni visualizzazione struttura",
+  "CMDAddExistingContent": "Aggiungi contenuto esistente",
+  "CMDAddExternalLink": "Aggiungi collegamento esterno",
+  "CMDExpandAll": "Espandi tutto",
+  "CMDCollapseAll": "Comprimi tutto",
+  "CMDAccessRightCmd": "Condividi",
+  "CMDAddToFavorites": "Aggiungi a preferiti",
+  "CMDProperties": "Proprietà",
+  "CMDSynchronize": "Sincronizza con disco locale",
+  "CMDActiveFolder": "Cartella Segnalibri predefiniti globale",
+  "CMDOpen": "Apri",
+  "CMDOpenWithCV5": "Connetti CATIA V5",
+  "CMDFindInCtx": "Trova nel contesto",
+  "csv_base_file_name": "bookmark_editor_",
+  "alpha_sorting": "Titolo",
+  "date_sorting": "Data di creazione",
+  "tree_sorting": "Cancella ordinamento",
+  "fonticon_filter": "Filtra",
+  "fonticon_sort": "Ordina per",
+  "download": "Scarica",
+  "upload": "Carica",
+  "CMDDeleteDefinitively": "Elimina",
+  "CMDShareBookmarkLink": "Copia collegamento",
+  "CMDRestore": "Ripristina",
+  "CMDSizeColumnToFit": "Adatta colonna",
+  "HeaderThumbnail": "Miniatura",
+  "HeaderDeletionDate": "Data di eliminazione",
+  "HeaderDeleteBy": "Eliminato da",
+  "SearchEnterMoreThan": "Per una ricerca sono necessari almeno {minNumber} caratteri.",
+  "SearchEmptyQuotes": "Le virgolette vuote non sono autorizzate in una query di ricerca.",
+  "searchDefaultError": {
+    "title": "Si è verificato un errore durante la query di ricerca.",
+    "subtitle": "Contattare l'amministratore per assistenza."
+  },
+  "ShowNavPane": "Mostra il riquadro di navigazione",
+  "HideNavPane": "Nascondi il riquadro di navigazione",
+  "relations_tab": "Relations",
+  "confirmation_ok": "OK",
+  "confirmation_cancel": "Annulla",
+  "confirmation_ok_Paste": "Incolla",
+  "confirmation_move_title": "Sposta contenuto",
+  "confirmation_add_title": "Aggiungi contenuto",
+  "confirmation_add_move_title": "Sposta e aggiungi contenuti",
+  "confirmation_move_message": "Spostare il contenuto di {source} in {target}?",
+  "confirmation_move_message_monosel": "Spostare {selection} da {source} a {target}?",
+  "confirmation_move_message_mono_from_tree": "Spostare {source} a {target}?",
+  "confirmation_move_message_multisel": "Spostare {nth} elementi da {source} a {target}?",
+  "details_for_alone_objects": "Gli elementi non collegati a {source} verranno aggiunti a {target}.",
+  "confirmation_add_message_multisel": "Aggiungere {nth} elementi a {target}?",
+  "confirmation_move_add_message_multisel": "Spostare {move_nth} elementi da {source} a {target} e aggiungere {add_nth} elementi a {target}?",
+  "removeChildrenInMove": "Rimuovere gli elementi secondari selezionati da {source}, se allegati.",
+  "confirmation_move_button": "Sposta",
+  "confirmation_add_button": "Aggiungi",
+  "confirmation_add_move_button": "OK",
+  "confirmation_remove_title": "Rimuovi - {label}",
+  "confirmation_remove_titleX": "Rimuovi - {nb} oggetti",
+  "confirmation_remove_message": "Rimuovere il contenuto da {label}?",
+  "confirmation_removeshortcut_title": "Rimuovi scelta rapida della cartella Segnalibri",
+  "confirmation_removeshortcut_message": "Rimuovere Scelta rapida dalla cartella Segnalibri?",
+  "confirmation_copyMassive_title": "Crea copia di {source} in {target}",
+  "confirmation_copyMassive_message": "Verrà copiato un gran numero di elementi.",
+  "confirmation_copyMassive_checkBox": "Conserva gli elementi contrassegnati nella cartella Segnalibri copiata",
+  "PasteCmdTitle": "Incolla {source}",
+  "PasteCmdMultiTitle": "Incolla {typeStruct} oggetti",
+  "confirmation_copy": "Copia",
+  "confirmation_info": "Gli attributi diversi da titolo e descrizione vengono persi durante la conversione \n {From} in {To}. Tutti gli attributi vengono copiati per gli oggetti figlio.",
+  "authentication_error": "Impossibile utilizzare questa app. Verificare di utilizzare le credenziali corrette.",
+  "noPlatform_error": "Questa app non è disponibile sulla piattaforma.",
+  "placeholder_msg_folder": "Questo {typeStruct} è attualmente vuoto.",
+  "placeholder_CMD_AddExisting": "Aggiungi esistente",
+  "placeholder_CMD_UploadFile": "Carica file",
+  "placeholder_CreateFolder": "Crea {typeStruct}",
+  "tooltip_reserved": "Bloccato",
+  "tooltip_unreserved": "Sbloccato",
+  "tooltip_shortcut": "Scelta rapida",
+  "tooltip_noDefaultLocation": "Nessuna cartella Segnalibri predefiniti globali corrente.",
+  "tooltip_defaultLocation": "La cartella Segnalibri predefiniti globali è {folderLabel}. Fare clic per esplorarla.",
+  "tooltip_enableDefaultLocation": "La cartella Segnalibri predefiniti globali {folderLabel} è disattivata. Fare clic per attivarla.",
+  "tooltip_disableDefaultLocation": "Fare clic per disattivare la cartella Segnalibri predefiniti globali {folderLabel}.",
+  "BookmarkLocation": "Mostra nella cartella Segnalibri padre",
+  "column_FavoriteTitle": "Titolo",
+  "column_BookmarkLocation": "Cartella Segnalibri padre",
+  "column_Thumbnail": "Miniatura",
+  "column_ApprovalStatus": "Stato approvazione",
+  "placeholder_msg_favorite": "Nessuna cartella Segnalibri preferiti.",
+  "placeholder_msg_section": "Nessun {typeStruct} trovato.",
+  "placeholder_msg_search": "Nessun risultato trovato.",
+  "refresh_ongoing": "Aggiornamento in corso...",
+  "refresh_ok": "Aggiornamento eseguito",
+  "refreshError": {
+    "title": "Impossibile aggiornare il widget.",
+    "subtitle": "Contattare l'amministratore per assistenza."
+  },
+  "placeholder_findInCtx": "Cerca o Seleziona oggetto",
+  "findInCtxsearchview": {
+    "ftssearch": "Ricerca",
+    "searchBtn": "Ricerca",
+    "check": "Conferma selezione",
+    "cannotRetrieveLabel": "Impossibile recuperare l'etichetta dell'oggetto selezionato",
+    "loadingLabel": "Caricamento in corso..."
+  },
+  "badCredentialChanged": "È stato impostato '{credential}', in quanto non si dispone dell'accesso alle credenziali preselezionate.",
+  "credentialChanged": "'{credential}' è stato impostato.",
+  "success": "Operazione riuscita",
+  "warning": "Avviso",
+  "information": "Informazioni",
+  "revisionReport": {
+    "reportTitle": "Rapporto - Sostituisci con ultima revisione",
+    "successfullyReplaced": "{prd1} è stato sostituito da {prd2}.",
+    "explicitlyRemoved": "{prd1} è stato rimosso esplicitamente.",
+    "isLatestRevison": "{prd1} da sostituire è già una revisione più recente.",
+    "msgObjectSelected": "{object} oggetti sono stati selezionati per la sostituzione con la revisione più recente.",
+    "msgObjectAlreadyLatestRevision": "Gli oggetti {object} sono già la revisione più recente.",
+    "msgSuccessfullyReplaced": "Gli oggetti {object} sono stati sostituiti con la revisione più recente.",
+    "msgObjectExplicitlyRemoved": "Gli oggetti {object} sono stati rimossi esplicitamente poiché la loro revisione più recente era già presente nel segnalibro o più oggetti selezionati avevano una revisione in comune."
+  },
+  "msg_advice_refreshWidget": "Aggiornare il widget o il browser e accertarsi di utilizzare le credenziali corrette.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Questo oggetto non è più accessibile.",
+    "subtitle": "Aggiornare il widget.",
+    "message": "L'oggetto potrebbe essere stato eliminato o non si dispone delle autorizzazioni necessarie."
+  },
+  "msg_error_NoModifyAccess": "Nessun accesso di modifica alla relazione; impossibile eseguire l'operazione corrente.",
+  "Attachments": "Allegati",
+  "Specification": "Documenti specifiche",
+  "OpenLocationRemoveTitle": "Rimuovi contenuto: {label}",
+  "OpenLocationRemoveMessage": "Rimuovere questo oggetto dalle seguenti posizioni?",
+  "CMDUnsetGlobalActiveFolder": "Annulla impostazione cartella Segnalibri predefiniti globali",
+  "CMDShowInBookmarks": "Mostra nelle cartelle Segnalibri",
+  "CMDEnableGlobalActiveBookmark": "Attiva",
+  "CMDDisableGlobalActiveBookmark": "Disattiva",
+  "indexMode": {
+    "Authoring": "Creazione.",
+    "Index": "Indice.",
+    "Label": "Indice",
+    "seconds": "secondi",
+    "minutes": "minuti",
+    "hours": "ore",
+    "msg_Authoring": "La modalità di creazione è attivata. Le prestazioni possono essere influenzate.",
+    "activeMode": "Attiva modalità: {mode}",
+    "lastRefresh": "Ultimo aggiornamento: {timeElapsed} fa.",
+    "reactIndexMode": "La modalità indice verrà riattivata entro {autoSwitch} minuti dal momento dell'operazione di creazione o dell'aggiornamento.",
+    "errorMessageBookmarkRoot": {
+      "title": "Impossibile recuperare oggetti {typeStruct}.",
+      "subtitle": "Contattare l'amministratore per assistenza."
+    },
+    "info_msg_DataNotUptoDate": "L'app è passata alla modalità indice perché non sono state apportate modifiche al contenuto per {timeElapsed} minuti.",
+    "title": "Modalità indice o database",
+    "IndexModeTooltip": "Modalità indice attiva",
+    "AuthoringModeTooltip": "Modalità database attiva",
+    "IndexModelongHelp": "La modalità indice migliora le prestazioni, ma le modifiche più recenti non sono disponibili fino a quando non vengono indicizzate.",
+    "AuthoringModelongHelp": "La modalità database visualizza immediatamente le ultime modifiche, ma le prestazioni ne sono influenzate.",
+    "info_msg_DatabaseModeTitle": "La modalità database è attivata",
+    "info_msg_IndexModeTitle": "La modalità indice è attivata.",
+    "info_msg_DatabaseModeMessage": "Sono visibili le ultime modifiche.",
+    "info_msg_IndexModeMessage": "Le modifiche e i nuovi contenuti potrebbero non essere immediatamente disponibili fino all'aggiornamento dell'indice."
+  },
+  "CMD_Yes": "Sì",
+  "CMD_No": "No",
+  "dialog_replaceByLatestRevision": "Sostituisci con revisione",
+  "msg_warning_DndNotSupported": "La funzione di rilascio non è supportata in modalità di sola lettura.",
+  "ViewTooltip": {
+    "favoriteTitle": "Titolo preferito"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "L'elenco a discesa contiene una cartella e non è supportato",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "La struttura della cartella Segnalibri contiene più di 1.000 documenti; selezionare una struttura della cartella Segnalibri che contenga meno documenti.",
+    "BookmarkNo_Documents": "La struttura della cartella Segnalibri non contiene alcun documento; non verrà scaricato alcun elemento.",
+    "BookmarkDupalicateDOC": "Download della struttura del segnalibro non riuscito perché la stessa gerarchia esiste già per il documento.",
+    "DownloadStructureFailure": "Impossibile scaricare la struttura della cartella Segnalibri.",
+    "BookmarkDownloadStarted": "Download struttura cartella Segnalibri avviato.",
+    "BookmarkDownloadMultiFileError": "Selezionare un documento con un singolo file. \n",
+    "BookmarkDownloadNoFileError": "\n Selezionare un documento con almeno un file. \n"
+  },
+  "editLinkTitle": "Modifica collegamento",
+  "msg_NewBookmarkSuccess": {
+    "message": "Creazione riuscita."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Nuova scelta rapida aggiunta.",
+    "message": "Nuova scelta rapida aggiunta correttamente alla cartella Segnalibri."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Nuove scelte rapide aggiunte.",
+    "message": "Nuove scelte rapide aggiunte correttamente alla cartella Segnalibri."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Creazione scelta rapida non riuscita.",
+    "message": "Impossibile creare la scelta rapida della cartella Segnalibri."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Aggiungi nuovo collegamento.",
+    "message": "Nuovo collegamento esterno aggiunto correttamente alla cartella Segnalibri."
+  },
+  "msg_AddLinkPresent": "{nbLinks} link esterno/i già presente/i.",
+  "msg_AddLinkFail": {
+    "title": "Aggiunta collegamento esterno non riuscita.",
+    "message": "Impossibile aggiungere un collegamento esterno alla cartella Segnalibri."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Modifica collegamento riuscita.",
+    "message": "Modifica del collegamento esterno riuscita."
+  },
+  "msg_EditLinkFail": {
+    "title": "Modifica collegamento non riuscita.",
+    "message": "Impossibile modificare il collegamento esterno."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Operazione di modifica non eseguita, eseguire la modifica richiesta."
+  },
+  "msg_error_AddShortcut": "Impossibile aggiungere collegamenti alla cartella Segnalibri.",
+  "msg_info_addShortcut_alreadyPresent": "{shortcutAlreadyPresent} collegamento/i da creare già presente/i.",
+  "msg_error_RemoveShortcut": "Impossibile rimuovere collegamenti dalla cartella Segnalibri.",
+  "msg_creating_AddShortcut": "Aggiunta di collegamenti della cartella Segnalibri",
+  "msg_error_Rename_Shortcut": "Non è possibile rinominare il collegamento.",
+  "NoPathFound": "Nessun percorso valido trovato.",
+  "progressPanel_dragDrop": "Caricamento di elementi {objectsAdded} in {targetfolder}",
+  "progressPanel_add": "Aggiunta di elementi {objectsAdded} in {targetfolder}",
+  "progressPanel_move": "Spostamento degli elementi {objectsAdded} in {targetfolder}",
+  "progressPanel_copy": "Copia degli elementi {objectsAdded} in {targetfolder}",
+  "progressPanel_copyFolder": "Copia di {objectsAdded} {typeStruct} in {targetfolder}",
+  "progressPanel_moveFolder": "Spostamento di {objectsAdded} {typeStruct} in {targetfolder}",
+  "progressPanel_remove": "Rimozione degli elementi {objectsAdded} da {targetfolder}",
+  "progressPanel_expand": "Espansione degli elementi {objectsexpanded} in {targetfolder}",
+  "progressPanel_download": "Download della struttura della cartella Segnalibri da {bookmarkname}",
+  "removeStructuralObject": "Includi oggetti strutturali",
+  "msg_info_objetexpanded": "Oggetto espanso correttamente",
+  "msg_info_objetexpandedError": {
+    "title": "Impossibile espandere gli oggetti.",
+    "subtitle": "Aggiornare l'app e riprovare o contattare l'amministratore per assistenza."
+  },
+  "Paste_as_Duplicate": "Incolla come duplicato",
+  "Paste_as_Shortcut": "Incolla come scelta rapida",
+  "Paste_to_move": "Incolla in spostamento",
+  "Paste_to_Bookmark": "Incolla nel segnalibro",
+  "CopySettings": "Incolla come Opzioni duplicate",
+  "AddPrefix": "Aggiungi prefisso",
+  "AddSuffix": "Aggiungi suffisso",
+  "prefixPlaceholder": "Consente di immettere un prefisso per il titolo.",
+  "suffixPlaceholder": "Consente di immettere un suffisso per il titolo.",
+  "helpPrefix": {
+    "shortHelp": "Caratteri che vengono aggiunti all'inizio del titolo dell'oggetto duplicato.",
+    "longHelp": "Ad esempio, se si aggiunge Design_ come prefisso all'oggetto Freno, il titolo dell'oggetto duplicato sarà Design_Freno."
+  },
+  "helpSuffix": {
+    "shortHelp": "Caratteri che vengono aggiunti alla fine del titolo dell'oggetto duplicato.",
+    "longHelp": "Ad esempio, se si aggiunge _Design come suffisso all'oggetto Freno, il titolo dell'oggetto duplicato sarà Freno_Design."
+  },
+  "PrefixLine": "Prefisso",
+  "SuffixLine": "Suffisso",
+  "msg_info_notEnabledExpand": {
+    "title": "Oggetti strutturali non inclusi",
+    "subtitle": "Modifica la preferenza 'Consenti l'espansione dei prodotti'"
+  },
+  "documentCommands": {
+    "notAvailable": "Questo comando non è disponibile per la selezione.",
+    "notReady": {
+      "title": "Questo comando non è pronto all'uso.",
+      "message": "Riprovare tra qualche secondo."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Questa operazione non è supportata.",
+    "message": "Questo tipo di oggetto non può essere aggiunto con questo comando."
+  },
+  "exportMask": "Esportazione in CSV.",
+  "attrComputation": "Recupero dei valori degli attributi in corso.",
+  "tooManyResultFound": "La ricerca è limitata a {maxResult} risultati. Modificare la query.",
+  "initialization_error": "Si è verificato un errore imprevisto nell'app. Contattare l'amministratore per assistenza.",
+  "expandTooLarge": "Troppi oggetti recuperati.<br> Restringere la navigazione con un filtro o riducendo il livello di espansione.",
+  "loadingText": "Caricamento in corso...",
+  "treeExpandTooLarge": {
+    "title": "Impossibile espandere {typeStruct}",
+    "message": "Troppi oggetti {subType} recuperati",
+    "subtitle": "Comprimere tutto ed espandere solo un livello."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Bloccato da",
+    "subtitle": "Fai clic per sbloccare"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Sbloccato",
+    "subtitle": "Fai clic per bloccare"
+  },
+  "Broken link": "Collegamento interrotto",
+  "find_in_context_timeout": "Timeout Trova nel contesto",
+  "classificationFacetName": "Classificazioni",
+  "classificationFacetText": "Classificazioni",
+  "searchLoading": "Ricerca in {typeStruct}",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Impossibile dichiarare un nuovo preferito.",
+    "subtitle": "Rimuovi preferiti esistenti per dichiararne di nuovi.",
+    "message": "Il numero di preferiti è limitato a {maxLimit}."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Il menu contestuale non può essere aperto.",
+    "subtitle": "È necessario selezionare meno oggetti.",
+    "message": "Il numero di oggetti selezionati è limitato a 10 per il menu contestuale CATIA."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Gli oggetti selezionati non possono essere aggiunti.",
+    "subtitle": "Riprovare tra qualche minuto se gli oggetti possono essere cercati.",
+    "message": "Alcuni oggetti non sono ancora indicizzati o non sono ricercabili: {objects}."
+  },
+  "generic_service_failure": "Impossibile recuperare le informazioni sull'oggetto. Riprovare tra qualche minuto. Se il problema persiste, contattare il proprio amministratore",
+  "cannotChangeOwner": "{objectname} non può essere trasferito a {userId}.",
+  "multipleClassificationValue": "Multiplo",
+  "searchReasultWarningMsg": "Il numero di oggetti potrebbe essere superiore al previsto",
+  "warn_tb_unavailableRoot": "Non si dispone dell'accesso al {typeStruct} padre.",
+  "err_UnsupportedFavoriteType": "Questa sezione preferita non supporta il tipo selezionato.",
+  "operation_add": "Aggiungi contenuto",
+  "toAdd": "Aggiungi",
+  "folderLoader_loading": "Caricamento",
+  "folderLoader_cancel": "Annulla",
+  "folderLoader_expanding": "Espansione",
+  "folderLoader_expanding_products": "Espansione dei prodotti",
+  "ActionBar_SelectAllCmd": "Seleziona tutto",
+  "ActionBar_SelectChildrenCmd": "Seleziona elementi figli",
+  "ActionBar_SelectInversionCmd": "Inverti selezione",
+  "ActionBar_SelectLeavesCmd": "Seleziona le foglie",
+  "ActionBar_SelectParentCmd": "Seleziona elemento padre",
+  "ActionBar_SelectSiblingCmd": "Seleziona pari livello",
+  "Filter_owner": "Di mia proprietà",
+  "Filter_tagger": "Filtra per tag",
+  "switchViewImpossible": {
+    "title": "La vista non è disponibile.",
+    "message": "Aggiornare il browser per aggiornare le viste."
+  },
+  "requestSaveView": {
+    "title": "La vista corrente non viene mantenuta.",
+    "message": "Salvare la vista corrente?",
+    "link": "Salva vista"
+  },
+  "loadingAllRoots": "Caricamento degli elementi radice rimanenti in corso.",
+  "loadingRoots": "Caricamento degli elementi radice in corso.",
+  "RefreshingNodes": "Aggiornamento degli attributi degli oggetti in corso",
+  "docCmd_unavailable": {
+    "title": "Comando non disponibile.",
+    "subtitle": "Riprovare tra qualche secondo."
+  },
+  "unsupported_command_error": {
+    "title": "Comando non supportato.",
+    "message": "La selezione attuale contiene tipi che non supportano questa operazione."
+  },
+  "lookingForObject": "Alla ricerca di un oggetto",
+  "openWithTitle": "Apri con",
+  "openWithMessage": "L'oggetto esiste in più punti, selezionare il percorso che si desidera aprire:",
+  "openWithNotSupported": "{label} non supportato.",
+  "warningNotAssociated": "{label} non è associato a",
+  "unsupportedAction": "Questa operazione non è supportata nel contesto corrente."
+}

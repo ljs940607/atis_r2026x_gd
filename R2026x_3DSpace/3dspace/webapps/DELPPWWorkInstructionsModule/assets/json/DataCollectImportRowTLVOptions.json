@@ -1,0 +1,51 @@
+{
+    "columnConfig": {
+        "Columns": {
+            "Column": [
+                {
+                    "dataIndex": "DCImport_Title",
+                    "displayType": "NonEditable",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                },
+                {
+                    "dataIndex": "DCImport_Type",
+                    "displayType": "NonEditable",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                },
+                {
+                    "dataIndex": "V_description",
+                    "displayType": "NonEditable",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                },
+                {
+                    "dataIndex": "current",
+                    "displayType": "DataCollectRow",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                },
+                {
+                    "dataIndex": "revision",
+                    "displayType": "NonEditable",
+                    "isGroupable" : false,
+                    "isFilterable" : false,
+                    "minWidth": "100"
+                }
+            ]
+        }
+    },
+    "dragDropManager": "WUXDataCollectRowDragDrop",
+    "dataGridViewOptions": {
+        "showRowIndexFlag": true,
+        "showSelectionCheckBoxesFlag": "OnOver",
+        "enableDragAndDrop": false,
+        "showTagger": false,
+        "isEditable": false
+    }
+}

@@ -1,0 +1,14 @@
+{
+"slideCmdHdr.Title":"Folie",
+"slideCmdHdr.ShortHelp":"Erfasst einen bestimmten Status von Änderungsanzeigen, Schnitten, Messungen, Anmerkungen usw.",
+"slideCmdHdr.LongHelp":"Wenn Sie eine neue Folie erzeugen, wird der aktuelle Blickpunkt in die neue Folie kopiert.",
+"DMUFormatCmdHdr.Title":"Format",
+"DMUFormatCmdHdr.ShortHelp":"Erfasst einen bestimmten Status des Markups und zeigt Schnitte, Messungen, Anmerkungen usw. an.",
+"DMUFormatCmdHdr.LongHelp":"<ol> <li>Fügen Sie die erforderlichen Markup-Komponenten hinzu.</li> <li>Beenden Sie den Bearbeitungsmodus für Formate.</li> </ol>",
+"DMUGenerateFormatHdr.Title":"Format erstellen",
+"DMUGenerateFormatHdr.ShortHelp":"Erstellt das Format anhand der Foliendefinition",
+"DMUEditAssociatedFormatHdr.Title":"Format bearbeiten",
+"DMUEditAssociatedFormatHdr.ShortHelp":"Format bearbeiten, das der Folie zugeordnet ist",
+"slideCmdHdr.WebHelp":"D3reUserMap/d3re-t-Slides.htm",
+"DMUFormatCmdHdr.WebHelp":"D3reUserMap/d3re-t-Formats.htm"
+}

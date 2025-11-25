@@ -1,0 +1,12 @@
+{
+  "findInCtxSearchView": {
+    "objects": "objekty"
+  },
+  "msg_warning_FindInCtx_objectsLimit": "Počet fyzických výrobků, ve kterých se bude hledat, je omezen. Nejprve budou při hledání objektu zvažovány {limit} fyzické výrobky v aktuální složce záložek.",
+  "title_warning_FindInCtx_objectsLimit": "Kontextové hledání bude provedeno na omezeném počtu fyzických produktů.",
+  "msg_warning_FindInCtx_novalidobject": "V této složce záložek není žádný platný objekt k provádění kontextového hledání. Panel Hledat v kontextu se nespustí.",
+  "title_warning_FindInCtx_novalidobject": "Nelze provést kontextové hledání.",
+  "msg_warning_FindInCtx_allowProductExpand": "Nelze provést kontextové hledání, protože nastavení předvoleb „Povolit rozšíření produktů“ bylo nastaveno na hodnotu nepravda.",
+  "subtitle_warning_FindInCtx_allowProductExpand": "Změňte nastavení předvoleb „Povolit rozšíření produktů“ na hodnotu pravda.",
+  "msg_error_FindInCtx_noValidPhysicalObject": " V současné složce záložek není žádný platný fyzický výrobek k provádění kontextového hledání"
+}

@@ -1,0 +1,50 @@
+.eventBoundList {
+	list-style: none outside;
+	margin-bottom: 0;
+	margin-top: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	position: static;
+}
+
+.closed>ul {
+	display: none
+}
+
+.eventBoundList li {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+}
+
+.eventBoundList li span {
+	margin-left: -12px;
+	padding-left: 19px;
+	background: url(../images/deselected.png) no-repeat;
+	cursor: pointer;
+	padding-right: 4px;
+	height: 15px;
+	display: inline-block;
+}
+
+.eventBoundList li.selected span {
+	/*background-color: #A8DAFF; */
+	color: #DD1144;
+	background-image: url(../images/selected.png);
+}
+
+.eventBoundList li.partial span {
+	color: #5b5d5e;
+	background-image: url(../images/partial.png);
+}
+
+a.selectall {
+	background: url(../images/selectall.png) no-repeat 0 50%;
+	margin-left: 8px;
+	padding: 4px;
+	cursor: pointer;
+}

@@ -1,0 +1,19 @@
+{
+  "addRoles": "添加角色",
+  "addRole": "添加角色",
+  "selectRole": "选择角色",
+  "onlineInstanceId": "在线实例 ID",
+  "quantity": "数量",
+  "confirm": "确认",
+  "roles": "角色",
+  "createPlatform": "创建平台",
+  "devPlatformAdmin": "开发平台管理员",
+  "sendingRequest": "正在发送请求...",
+  "unableToAddRolesToPlatform": "无法将选定角色添加到选定平台",
+  "unableToFetchAvailableRoles": "无法获取此租户的可用角色",
+  "unableToRequestPlatformCreation": "无法请求平台创建，请稍后重试。",
+  "platformAdmin": "平台管理员",
+  "platformId": "平台",
+  "totalPriceExclTax": "总价（不含税）：",
+  "totalPrice": "总价"
+}

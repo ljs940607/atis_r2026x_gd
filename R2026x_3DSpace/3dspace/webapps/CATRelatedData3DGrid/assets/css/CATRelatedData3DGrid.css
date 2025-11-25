@@ -1,0 +1,21 @@
+.CATRelatedData3DGridPanelLabel {
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+}
+
+.CATRelatedData3DGridPanelFlex {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+}
+
+.CATRelatedData3DGridPanelFlex .wux-controls-lineeditor {
+    margin-right: 10px;
+}

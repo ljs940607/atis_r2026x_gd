@@ -1,0 +1,16 @@
+{
+  "warning_objectTypeNotSupported_title": "Тип объекта не поддерживается",
+  "error_loadingMultipleFiles_title": "Загрузка нескольких файлов невозможна. Будет загружен только первый.",
+  "error_integrityCheck_title": "Материал поврежден.",
+  "error_media_notfound_title": "Материал не найден или недоступен.",
+  "error_distributionCheck_title": "Ошибка проверки распределения.",
+  "error_progress_calculation": "Невозможно рассчитать размер скачивания.",
+  "error_format_not_supported": "Этот формат файла не поддерживается.",
+  "error_geometry_format_not_supported": "Этот формат геометрии не поддерживается.",
+  "warning_geometry_format": "Эта функция не оптимизирована для данного устройства.",
+  "warning_media_greater_than_player": "Материал был опубликован с использованием более поздней версии, чем версия проигрывателя. Загрузка работы может завершиться сбоем или несоответствиями.",
+  "media_title_default": "Взаимодействие с материалом",
+  "media_title_defaultStandalone": "Взаимодействие с материалом",
+  "media_title_sequence": "Последовательность",
+  "media_title_25D_asset": "Материал в формате 2.5D"
+}

@@ -1,0 +1,13 @@
+m|CAT3DSketchWebExperience\ModelLoader_3dwb.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25262|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ModelLoader_3dwb\ModelLoader_3dwb.js|1758323953|66829
+s|CAT3DSketchWebExperience\ModelLoader_3dwb.mweb\src\loader.js|1758312718|159594
+t|win_b64\webapps\ModelLoader_3dwb\assets\NotLoadedImage.jpg|1725720361|6586
+s|CAT3DSketchWebExperience\ModelLoader_3dwb.mweb\src\assets\NotLoadedImage.jpg|1724871643|6586
+t|win_b64\webapps\ModelLoader_3dwb\assets\fonts\GochiHand-Regular.ttf|1725720361|35908
+s|CAT3DSketchWebExperience\ModelLoader_3dwb.mweb\src\assets\fonts\GochiHand-Regular.ttf|1724871643|35908
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,51 @@
+{
+  "Slider": {
+    "Button": {
+      "Upstair": "Escaleras arriba",
+      "UpstairShort": "haga clic para subir una planta",
+      "Downstair": "Escaleras abajo",
+      "DownstairShort": "haga clic para bajar una planta",
+      "Inverse": "Invertir",
+      "InverseShort": "haga clic para invertir la vista del recorte"
+    },
+    "Icon": {
+      "Offset": "Equidistancia",
+      "OffsetShort": "Equidistancia desde la planta actual",
+      "Elevation": "Elevación",
+      "ElevationShort": "Elevación de la planta actual"
+    }
+  },
+  "Dialog": {
+    "Button": {
+      "Ok": "Aceptar",
+      "Cancel": "Cancelar",
+      "OkShort": "Validar creación de planta",
+      "CancelShort": "Cancelar"
+    },
+    "Spinbox": {
+      "Elevation": "Elevación de cada planta",
+      "ElevationShort": "Elevación que va a definir cada planta",
+      "Numbers": "Número de plantas que se van a crear",
+      "NumbersShort": "Introduce el número de plantas que hay que crear",
+      "Offset": "Elevación base de la primera planta",
+      "OffsetShort": "Elevación base de la primera planta, las demás se calcularán en función de esta primera planta"
+    },
+    "Storey": {
+      "DefaultName": "Planta"
+    },
+    "Title": "Creación de planta predeterminada"
+  },
+  "Notification": {
+    "RequestSuccessNotif": {
+      "DriverLoadingOK": "Cargando historias desde la acción correcta del controlador.",
+      "StoreysLoadingOK": "Cargando historias correctamente."
+    },
+    "RequestWarningNotif": {
+      "DriverLoadingFail": "Se ha encontrado el controlador, pero no se ha podido leer la información de niveles. Cargando historias desde la estructura del producto, espere...",
+      "DriverMissing": "No se ha encontrado el controlador. Cargando historias desde la estructura del producto, espere..."
+    },
+    "RequestErrorNotif": {
+      "LoadingFail": "Error al recuperar las historias."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+m|DELWebViewerController\DELWebViewerProxyManagerV2.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25196|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWebViewerProxyManagerV2\DELWebViewerProxyManagerV2.js|1752611926|19614
+s|DELWebViewerController\DELWebViewerProxyManagerV2.mweb\src\ProxyManager.js|1752068741|153795
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

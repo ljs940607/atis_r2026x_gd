@@ -1,0 +1,1 @@
+define("DS/DMUBaseUI/DMUBaseUI_ja",{});define("DS/DMUBaseUI/assets/nls/DMUBaseUI",{defaultValidatedStampLabel:"検証済み",defaultRejectedStampLabel:"却下済み",deleteMarkupFailed:"マークアップの削除に失敗しました",deleteReplyFailed:"返信の削除に失敗しました",ProductDefinition:"3D の定義",RSDefinition:"スナップショットをリリース",openButtonLabel:"開く",cancelButtonLabel:"キャンセル",panelLoading:"プロダクトのロード中"});

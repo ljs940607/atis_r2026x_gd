@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_ru",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"Недопустимый элемент {0}",areInvalid:"Недопустимые элементы {0}",idNumber:"Идентификационный номер",ssnLast4:"Последние 4 цифры SSN"});

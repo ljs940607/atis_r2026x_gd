@@ -1,0 +1,123 @@
+{
+  "label": {
+    "all": "Všechny",
+    "true": "Pravda",
+    "false": "Nepravda",
+    "none": "Nic",
+    "name": "Název",
+    "title": "Název",
+    "type": "Typ",
+    "objects": "Objekty",
+    "declared_in": "Deklarováno v",
+    "instance_title": "Název instance",
+    "copy_attributes": "Kopírovat atributy",
+    "select": "Vybrat",
+    "copy_successful": "Je vložení úspěšné",
+    "information": "Informace",
+    "attribute_name": "Název atributu",
+    "instance": "(Instance)",
+    "implementingref": "Probíhá implementace",
+    "implementedref": "Implementováno uživatelem"
+  },
+  "title": {
+    "IPProtection": "IP chráněna",
+    "summary_paste_attributes": "Vložit souhrn atributů",
+    "search": "Vyberte položku",
+    "error_details": "Níže jsou uvedeny podrobnosti o chybě:"
+  },
+  "ph": {
+    "title": "Zadejte název"
+  },
+  "action": {
+    "create": "Vytvořit",
+    "copy": "Kopírovat",
+    "close": "Zavřít",
+    "compare": "Porovnat",
+    "revisions": "Revize",
+    "relations": "Vztahy",
+    "maturity": "Stav dokončení",
+    "duplicate": "Duplikovat",
+    "open_with": "Otevřít v programu",
+    "move_to": "Přesunout do",
+    "share": "Sdílet",
+    "lock": "Zamknout",
+    "unlock": "Odemknout",
+    "export": "Exportovat",
+    "reparent": "Znovu zařadit pod nadřazený objekt",
+    "expand": "Rozbalit",
+    "expand_one_level": "Rozbalit jednu úroveň",
+    "expand_two_level": "Rozbalit dvě úrovně",
+    "expand_all": "Rozbalit vše",
+    "collapse_all": "Sbalit vše",
+    "information": "Informace",
+    "create_and_open": "Vytvořit a otevřít",
+    "create_and_close": "Vytvořit a zavřít",
+    "create_and_replace": "Vytvořit a nahradit",
+    "detach": "Odpojit"
+  },
+  "message": {
+    "creating": "Vytváření...",
+    "loading": "Probíhá načítání...",
+    "processing": "Probíhá zpracování...",
+    "bulkOperation_limitReached": "Vybrali jste uzly nad předepsaným limitem {limit} pro tuto operaci a zpracování tedy může chvíli trvat. Čekejte prosím."
+  },
+  "groupingNode": {
+    "other": "Ostatní společnosti"
+  },
+  "info": {
+    "no_match_in_filter": "Kritériím nevyhovuje žádný objekt"
+  },
+  "warning": {
+    "indexed_data_filtered": "Na indexovaná data se použije filtr",
+    "clear_filter": "Stávající filtr použitý na položku je vymazán, protože nebyl uložen!",
+    "filter_only_indexed_mode": "Funkce filtru je k dispozici pouze v případě, že jste v režimu akcelerace indexování",
+    "bulkOperation_limit_reached": "Vybrali jste uzly nad předepsaným limitem {limit} pro tuto operaci a zpracování tedy může chvíli trvat. Čekejte prosím.",
+    "expand_multiLvl_multiSelect": "Vybrali jste více než jeden odkaz pro rozšíření na více úrovních. Načítání kompletních dat může chvíli trvat. Čekejte prosím.",
+    "expand_largeData_warning": "Tato akce rozšíření obsahuje data více než 1000 podřízených položek, které se mají načíst. Zpracování může chvíli trvat. Čekejte prosím. "
+  },
+  "error": {
+    "header": "Chyba",
+    "create_item": "Nepodařilo se vytvořit položku",
+    "get_customFields": "Nepodařilo se získat vlastní pole pro položku {title}",
+    "req_field_subtitle": "{field} je povinný údaj",
+    "req_field": "Chybí požadované pole",
+    "mandatory_field_title": "Pole Název je povinné, zadejte hodnotu",
+    "no_modification_possible": "Není možné provádět žádné úpravy",
+    "modification_not_allowed": "Ověřte, zda stav dokončení objektu nebo vaše přihlašovací údaje a oprávnění umožňují jeho úpravu.",
+    "too_long_field_title": "Tuto operaci úprav nelze provést.\n\n{fieldName} Nesmí být delší než {maxLength} znaky.",
+    "action_unavailable_in_release": "Akce není k dispozici v souvislosti s vydanou/zastaralou položkou",
+    "get_structure": "Načtení struktury logické reference se nezdařilo, protože související služby nejsou k dispozici",
+    "get_structure_media": "Načtení struktury logické reference se nezdařilo, protože služby nejsou k dispozici. Pokud je nainstalováno požadované médium, obraťte se na správce",
+    "get_logitem": "Načtení podrobností logické reference se nezdařilo, protože související služby nejsou k dispozici.",
+    "get_logitem_media": "Načtení podrobností logické reference se nezdařilo, protože služby nejsou k dispozici. Pokud je nainstalováno požadované médium, obraťte se na správce",
+    "invalid_filter": "Neplatný filtr pro položku kontextu",
+    "filter_colorize_predicate": "Zvolený predikát je přizpůsobený predikát, takže kolorování není k dispozici NEBO zvolený predikát není v zobrazení obsahu. V takovém případě přidejte atribut pomocí správy atributů, abyste umožnili kolorování.",
+    "request_timed_out": "Vypršel časový limit požadavku!",
+    "generic_get_failed": "Nelze načíst požadovaná data",
+    "creation": "Chyba při vytváření",
+    "add_item": "Přidání položky se nezdařilo",
+    "copy_all_attributes_failed": "Vložení tohoto atributu se nezdařilo kvůli jiným chybám během vkládání",
+    "copy_attributes_failed": "Kopírování atributů se nezdařilo",
+    "copy_attribute_on_extension_failed": "Vložení tohoto atributu se nezdařilo. Důvod může být ten, že nejsou přidána odpovídající rozšíření.",
+    "copy_attribute_on_type_failed": "Vložení tohoto atributu se nezdařilo, protože nepatří k vybranému typu.",
+    "copy_attribute_classif_failed": "Vložení tohoto atributu se nezdařilo, ověřte, zda je cílová logická reference přiřazena ke klasifikovanému atributu.",
+    "copy_attribute_equal_values_failed": "Vložení tohoto atributu se nezdařilo, ověřte, zda je hodnota atributu zdrojové a cílové logické reference odlišná.",
+    "copy_attribute_failed_not_allowed": "Vložení tohoto atributu se nezdařilo. Ověřte, zda vám stav dokončení objektu nebo vaše přihlašovací údaje a oprávnění umožňují jej kopírovat.",
+    "create_refref_link": "Nepodařilo se vytvořit referenci pro referenční odkazy",
+    "inst_detach": "Operaci „Odpojit logickou referenci“ nelze provést u následujících nadřazených objektů: ",
+    "error_delete_link": "Nepodařilo se odstranit vztahy implementace"
+  },
+  "success": {
+    "add": "Přidání bylo úspěšné",
+    "replace": "Úspěšně nahrazeno",
+    "create": "Vytvoření proběhlo úspěšně",
+    "msg_create": " úspěšně vytvořeno",
+    "msg_add": "Následující položky byly úspěšně přidány: ",
+    "create_log_ref": "Logická reference úspěšně vytvořena",
+    "copy_attributes": "Atributy zkopírovány",
+    "msg_create_ref2ref": "Reference na relaci implementace reference byla úspěšně vytvořena",
+    "msg_delete_link_success": "Vztahy implementace byly úspěšně odstraněny",
+    "summary_paste_attributes_export": "Souhrn atributů vložení byl úspěšně exportován",
+    "inst_detach": "Odpojení instancí následujících nadřazených objektů je úspěšné: "
+  }
+}

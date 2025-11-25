@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_ru",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"Фильтровать по:",orderId:"Идентификатор заказа",seller:"Продавец",buyer:"Покупатель",enterOrderId:"Укажите идентификатор заказа",enterSeller:"Укажите продавца",enterBuyer:"Укажите покупателя",search:"Поиск"});

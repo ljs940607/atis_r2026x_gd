@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Fügen Sie Ihren Inhalt hier ein",
+  "orMessage": "oder",
+  "upContent": "Inhalt hochladen",
+  "wrongFileType": "Falscher Dateityp",
+  "fileTooBig": "Datei ist größer als die maximal zulässige Dateigröße von {0}",
+  "bytes": "Byte",
+  "kiloByte": "KB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "filesExceedSizeOf": "{0}/{1} Dateien sind größer als die maximal zulässige Dateigröße von {2}",
+  "filesHaveWrongFormat": "{0}/{1} Dateien haben ein falsches Dateiformat"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "标题",
+  "fileType": "文件类型",
+  "creationDate": "创建日期",
+  "revision": "修订版",
+  "owner": "所有者",
+  "menu": "菜单",
+  "download": "下载",
+  "downloadTitle": "下载",
+  "downloadTooltip": "下载选定文件/文档",
+  "openWith": "打开方式",
+  "openWithTitle": "打开方式",
+  "openWithTooltip": "将文件/文档打开到兼容的外部应用程序中",
+  "noDataGridDisplayed": "没有要显示的已导出文档",
+  "errorWhenFetchingExportedDocuments": "抱歉，检索已导出文档时出错"
+}

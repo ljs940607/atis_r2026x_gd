@@ -1,0 +1,20 @@
+{
+  "phaseStartDateMustBeAfterPreviousPhaseEndDate": "Muss nach dem Lieferdatum der vorherigen Phase liegen",
+  "phaseEndDateMustBeAfterStartDate": "Muss nach dem Startdatum liegen",
+  "selectedDateIsPast": "Das ausgewählte Datum liegt in der Vergangenheit",
+  "submitted": "Übermittelt",
+  "quoted": "Angebot",
+  "confirmed": "Fortgeschritten",
+  "processing": "Wird bearbeitet",
+  "ready": "Bereit",
+  "delivered": "Geliefert",
+  "canceled": "Storniert",
+  "unknown": "Unbekannt",
+  "errorDescriptionMissing": "Beschreibung ist Pflichtfeld",
+  "errorStartDateMissing": "Startdatum ist Pflichtfeld",
+  "errorEndDateMissing": "Enddatum ist Pflichtfeld",
+  "errorPriceMissing": "Preis ist Pflichtfeld",
+  "errorPriceFormat": "Preisformat ist nicht korrekt",
+  "errorPriceNotANumber": "Preis muss eine Zahl sein",
+  "errorPriceZeroOrNegative": "Preis muss größer als 0 sein"
+}

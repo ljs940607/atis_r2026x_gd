@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_zh",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"对外报价 URL",activateExternalQuotation:"启用对外报价"});

@@ -1,0 +1,17 @@
+m|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb
+b|j|n,m
+b|c|n,m
+v|6.428.0.25150|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.css|1744917693|5241
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.css|1709810131|7262
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.html|1748664839|1511
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.html|1744219739|1511
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagement.js|1723277719|504
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagement.js|1711711742|758
+t|win_b64\webapps\ENODerivedFormatManagement\ENODerivedFormatManagementInfra.js|1723277719|1192
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\ENODerivedFormatManagementInfra.js|1713543127|4614
+t|win_b64\webapps\ENODerivedFormatManagement\assets\templates\edfm.common.facet.html|1723277718|495
+s|ENODerivedFormatMgtClient\ENODerivedFormatManagement.mweb\src\assets\templates\edfm.common.facet.html|1711217907|495
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

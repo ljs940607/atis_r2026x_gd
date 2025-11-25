@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_it",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"URL del preventivo esterno",activateExternalQuotation:"Abilita preventivo esterno"});

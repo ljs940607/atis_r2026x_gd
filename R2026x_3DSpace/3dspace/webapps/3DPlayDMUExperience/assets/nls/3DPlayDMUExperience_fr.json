@@ -1,0 +1,19 @@
+{
+  "loadError": "Impossible de charger le marquage",
+  "noMarkup": "Impossible de trouver un marquage",
+  "preferences": {
+    "markupSectionTitle": "Marquage",
+    "SlideTitleDisplayLbl": "Afficher le titre de la diapositive",
+    "compareSectionTitle": "Comparer",
+    "firstProductColor": "Couleur du premier élément",
+    "secondProductColor": "Couleur du deuxième élément",
+    "compare3DCommonColor": "Couleur des éléments communs pour la comparaison 3D",
+    "compare2DCommonColor": "Couleur des éléments communs pour la comparaison 2D"
+  },
+  "publishToSwym": "Publier vers 3DSwym",
+  "information": "Informations",
+  "more": "Plus",
+  "copyScreenshot": "Copier la capture d'écran",
+  "saveScreenshot": "Enregistrer la capture d'écran",
+  "printScreenshot": "Imprimer la capture d'écran"
+}

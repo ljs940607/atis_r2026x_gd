@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_ko",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"보기",NLS_ThumbnailView:"섬네일 보기",NLS_TileView:"타일 보기",NLS_DataGridView:"데이터 그리드 보기",NLS_ListViewTitleColumnHeaderLabel:"제목"});

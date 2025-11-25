@@ -1,0 +1,16 @@
+{
+  "other": "Jiné",
+  "companyName": "Název společnosti",
+  "typeCompanyName": "Zadejte název vaší společnosti",
+  "country": "Země",
+  "selectCountry": "Vyberte zemi vaší společnosti",
+  "countryNotAvailable": "Země zákazníka není k dispozici pro vytváření cenových nabídek",
+  "phoneNumber": "Telefonní číslo",
+  "enterPhoneNumber": "Zadejte telefonní číslo",
+  "phoneNumberInvalid": "Toto telefonní číslo je neplatné",
+  "addNda": "Přidat smlouvu o zachování důvěrnosti",
+  "ndaInfo": "Můžete nahrát smlouvu o zachování důvěrnosti (NDA), kterou budou muset vybraní poskytovatelé služeb před zobrazením vašeho požadavku přijmout.\n(Maximální velikost souboru: 30 MB | Podporované formáty souboru: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "Grafický soubor nelze nahrát jako smlouvu o zachování důvěrnosti.",
+  "fileFormatNotSupported": "Tento formát souboru není podporován",
+  "uploadError": "Došlo k chybě, upozorňujeme, že lze nahrávat pouze soubory PDF a textové soubory o maximální velikosti 50 MB."
+}

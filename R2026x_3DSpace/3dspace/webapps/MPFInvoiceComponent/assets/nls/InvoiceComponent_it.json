@@ -1,0 +1,19 @@
+{
+  "learnMoreAboutDifferedPayment": "Ulteriori informazioni sul processo di pagamento dilazionato",
+  "invoicePaymentNoticeMessage": "Per ricevere il pagamento devi fornire una fattura indirizzata al cliente.",
+  "invoiceInfoNoticeMessage": "La fattura deve includere le seguenti informazioni: riferimento ed etichetta dell'ordine di acquisto.",
+  "uploadInvoice": "Carica fattura",
+  "invoiceInfo": "Informazioni fattura",
+  "downloadInvoice": "Scarica fattura",
+  "proceedPaymentMessage": "Procedi al pagamento.",
+  "invoiceNumber": "Numero fattura",
+  "invoiceFile": "Carica",
+  "invoiceUpload": "Caricamento fattura",
+  "placeholderInvoiceUploadFile": "Carica la fattura qui...",
+  "cancel": "Annulla",
+  "mandatoryFields": "Completa il campo obbligatorio.",
+  "uploadWarning": "Attenzione: dopo il caricamento, il documento non può più essere modificato",
+  "invoiceOrderDocument": "Documento fattura",
+ "uploadWarning": "Avviso per informare che la fattura non può essere modificata dopo il caricamento",
+  "proceedToPayment": "Procedi al pagamento"
+}

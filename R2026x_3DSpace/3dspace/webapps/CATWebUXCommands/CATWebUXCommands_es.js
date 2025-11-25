@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_es",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"La captura de pantalla se ha copiado al portapapeles"});

@@ -1,0 +1,12 @@
+{
+  "Error_Models": "Nepodařilo se načíst připojené modely",
+  "Error_Deleted_Model": "Tento obsah již není přístupný nebo byl možná odstraněn.",
+  "Error_MixedType": "Pro kontext úpravy konfigurace není podporováno více CAD typů.",
+  "Error_Models_Incorrect_Type": "Tento vybraný objekt nelze konfigurovat",
+  "Error_Incorrect_Type_Partial_Fail": "Některé z vybraných objektů nelze konfigurovat.",
+  "Error_Incorrect_Type_Complete_Fail": "Žádný z vybraných objektů nelze konfigurovat.",
+  "Error_Multiple_Reference_xRevision": "Kontext úprav konfigurace není podporován v případě výběru více referencí s různou efektivitou zvolenou v revizi modelu.",
+  "Error_Multiple_Reference_xRevision_And_Model": "Operace úpravy kontextu konfigurace není podporována u více odkazů s xRevision spolu s modelem.",
+  "Error_Multiple_Reference_Model_Version": "Operace úpravy kontextu konfigurace není podporována u více referencí s verzí modelu coby kontextu konfigurace.",
+  "Error_NoObjectSelection": "Vyberte objekty pro připojení kontextů konfigurace"
+}

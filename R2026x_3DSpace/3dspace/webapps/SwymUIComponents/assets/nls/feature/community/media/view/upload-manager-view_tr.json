@@ -1,0 +1,9 @@
+{
+  "Uploadfailed": "Karşıya yüklenemedi",
+  "FileSizeError": "{FileName}: {FileType} için maksimum boyut {maxSizeInKBytes} MB'tır.",
+  "FileTypeError": "{FileName}: Dosya tipi desteklenmiyor",
+  "FileResolutionError": "{FileName}: Bir resim için maksimum çözünürlük {maxResolution} MPiksel'dir",
+  "Yourfileiseitheremtpyorexceedsthemaximumallowedsize": "Dosyanız boş veya izin verilen maksimum boyutu aşıyor",
+  "Anerroroccuredduringupload": "Yükleme sırasında bir hata oluştu ({errorcode}).",
+  "MEDIA_UPLOAD_TIMEOUT": "Ortamınız ({FileName}) yüklenirken bir hata oluştu. Lütfen \"Katkılarım\" sekmesinde olup olmadığını kontrol edin. Bunlar listelenmişse yayınlayabilirsiniz. Aksi takdirde lütfen bunları tekrar yükleyin."
+}

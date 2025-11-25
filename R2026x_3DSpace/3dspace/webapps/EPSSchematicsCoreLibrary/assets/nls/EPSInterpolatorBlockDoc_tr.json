@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir <doc-idp-name translate=no>Alpha</doc-idp-name> değerine dayalı olarak iki girdi verisi arasında doğrusal interpolasyon gerçekleştirir.",
+  "description": "Veri bağlantı noktası değer tipi <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype> olabilir ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Bilinen iki öğe, girdi verisi olarak sağlanır (sırasıyla <doc-value translate=no>0</doc-value> ve <doc-value translate=no>1</doc-value> ile ilişkili).<br>Doğrusal interpolasyon için bu öğeler arasındaki 'düz çizgi' referans alınır.<br>Belirli bir <doc-idp-name translate=no>Alpha</doc-idp-name> değeri için bu düz çizgi boyunca döndürülen değer, şu denklemden türetilir:<br><br><center><doc-odp-name translate=no>Result</doc-odp-name> = <doc-idp-name translate=no>Alpha</doc-idp-name>*(<doc-idp-name translate=no>Value2</doc-idp-name> - <doc-idp-name translate=no>Value1</doc-idp-name>)</center>",
+  "dataPorts": {
+    "Value1": "ilk işlem nesnesi.",
+    "Value2": "ikinci işlem nesnesi.",
+    "Alpha": "ağırlık parametresi.",
+    "Result": "interpolasyonlu değer."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

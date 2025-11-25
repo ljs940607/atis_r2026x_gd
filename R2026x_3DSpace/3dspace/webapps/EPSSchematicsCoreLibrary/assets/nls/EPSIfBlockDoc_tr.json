@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "summary": "<doc-ocp-name translate=no>Condition</doc-ocp-name> girdi veri bağlantı noktası değerine göre <doc-idp-name translate=no>True</doc-idp-name> veya <doc-idp-name translate=no>False</doc-idp-name> çıktı kontrol bağlantı noktasını etkinleştirir.",
+  "description": "",
+  "dataPorts": {
+    "Condition": "test edilecek Boole değeri."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "True": "<doc-idp-name translate=no>Condition</doc-idp-name> değeri doğru (true) olursa etkinleştirilir.",
+    "False": "<doc-idp-name translate=no>Condition</doc-idp-name> değeri yanlış (false) olursa etkinleştirilir."
+  },
+  "example": {
+    "webapp": "EPSSchematicsPlay/index.html",
+    "content": "DS/EPSSchematicsCoreLibrary/assets/examples/EPSIfBlockExample.json"
+  }
+}

@@ -1,0 +1,1 @@
+define("DS/RTPresenceAPI/RTPresenceAPI_tr",{});define("DS/RTPresenceAPI/assets/nls/feed",{Contact:"Temas"});

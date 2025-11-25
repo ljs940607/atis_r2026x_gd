@@ -1,0 +1,13 @@
+m|DELWKOApp\DELWKOComponentsFactory.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25199|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOComponentsFactory\DELWKOComponentsFactory.js|1752890729|14588
+s|DELWKOApp\DELWKOComponentsFactory.mweb\src\DELWKOCreateWorkOrderFromProcessCmdModule.js|1748225537|12857
+t|win_b64\webapps\DELWKOComponentsFactory\assets\xml\CreateWorkOrderFromProcessCmdFormAttribute.xml|1723277707|1637
+s|DELWKOApp\DELWKOComponentsFactory.mweb\src\assets\xml\CreateWorkOrderFromProcessCmdFormAttribute.xml|1664467059|1637
+u|DELWKOApp\DELWKOComponentsFactory.mweb\src\DELWKOCreateWorkOrderFromProcessDataCollectionUI.js|1739378518|26388
+u|DELWKOApp\DELWKOComponentsFactory.mweb\src\DELWKOCreateWorkOrderFromProcessUI.js|1752247267|18456
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

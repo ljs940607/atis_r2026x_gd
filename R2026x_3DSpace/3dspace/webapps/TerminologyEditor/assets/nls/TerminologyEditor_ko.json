@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "검색 구조",
+  "name_Widget_Title": "검색 구조 정의",
+  "name_Widget_Help": "검색 구조 정의 도움말",
+  "name_Term": "용어",
+  "name_Terminology_type": "용어",
+  "terminology_pref_populateTags": "검색 구조 필터링을 위해 6W Tags 활성화",
+  "terminology_pref_activateRelationsColumns": "관련 항목 표시",
+  "useIndexAcceleration_label": "인덱싱된 데이터 표시",
+  "terminology_pref_autoSwitch_Label": "데이터베이스 모드에서 인덱스 모드로 자동 전환",
+  "button_remove": "제거",
+  "button_close": "닫기",
+  "Move_label": "이동",
+  "Copy_label": "복사",
+  "oneMin_Label": "1분",
+  "threeMin_Label": "3분",
+  "fiveMin_Label": "5분",
+  "tenMin_Label": "10분",
+  "Never_Label": "사용 안 함",
+  "Paste_content_loading": "콘텐츠 붙여넣기",
+  "Remove_content_loading": "콘텐츠 제거",
+  "Content_Loading": "콘텐츠 로드 중...",
+  "Widget_Loading": "위젯 로드 중...",
+  "Tree_Loading": "트리 로드 중...",
+  "New_Loading": "생성 패널 로드 중...",
+  "Terminology_Loading": "검색 구조 선택 중...",
+  "commands": {
+    "newBrowsingNode": "새 검색 노드",
+    "newBrowsingStructure": "새 검색 구조"
+  },
+  "msg_success_copyLink_terminology": "검색 구조 \"{terminologyname}\"에 대한 링크가 복사되었습니다.",
+  "msg_success_copyLink_term": "검색 노드 \"{termname}\"에 대한 링크가 복사되었습니다.",
+  "msg_success_createTerminology": "검색 구조 \"{terminologyName}\" 생성 성공",
+  "msg_success_createTerm": "검색 노드 \"{termName}\" 생성 성공",
+  "msg_success_createBS": "검색 구조가 생성되었습니다.",
+  "msg_success_createBN": "검색 노드가 생성되었습니다.",
+  "msg_info_terminologycopied": "{number}개 검색 구조가 검색 구조 \"{terminologyname}\"에 추가되었습니다.",
+  "msg_info_rename_bs": "검색 구조 이름 \"{name1}\"이(가) \"{name2}\"(으)로 변경되었습니다.",
+  "msg_info_rename_bn": "검색 노드 이름 \"{name1}\"이(가) \"{name2}\"(으)로 변경되었습니다.",
+  "msg_info_refresh": "새로 고침이 완료되었습니다.",
+  "msg_info_SortNonAvailable": "이 열은 검색 중 정렬에 사용할 수 없습니다.",
+  "msg_info_treeFilterRemove": "검색 구조를 추가하면 트리에 적용된 필터가 제거됩니다.",
+  "msg_warning_nocurrentterminology": "현재 검색 구조 없음: 검색 구조를 선택하십시오.",
+  "msg_warning_noselection": "하나 이상의 개체를 선택해야 합니다.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "마지막 확장 상태는 저장되지 않습니다.",
+    "Advice": "일부 검색 구조를 축소하여 확장 상태 저장을 활성화합니다.",
+    "Details": "확장된 검색 구조가 너무 많습니다."
+  },
+  "msg_warning_copyLink": "선택한 개체가 검색 구조가 아닙니다.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "루트 검색 구조 수가 200을 초과하는 경우 컨텍스트 내 검색이 지원되지 않습니다.",
+  "msg_error_Addinterminology": "이 검색 구조에는 콘텐츠를 추가할 수 없습니다.",
+  "msg_error_CopyTerminology": "검색 구조를 복사하는 중 오류가 발생했습니다.",
+  "msg_error_MoveInterminology": "개체를 이동하는 중 오류가 발생했습니다.",
+  "msg_error_MoveInSameterminology": {
+    "title": "다른 검색 구조를 선택하십시오. ",
+    "subtitle": "대상 검색 구조와 소스 검색 구조가 동일합니다."
+  },
+  "msg_error_rename": {
+    "Title": "검색 아이템의 이름을 바꿀 수 없습니다({name}).",
+    "Advice": "이름이 아직 사용되지 않았거나 올바른 자격증명을 사용하고 있는지 확인합니다.",
+    "Details": "이 개체의 이름을 바꾸기 위해 대상 협업 공간에 필요한 직무가 없을 수 있습니다."
+  },
+  "msg_error_invalidselection": "선택하지 않으면 이 명령을 실행할 수 없습니다.",
+  "msg_error_name_maxlength": "{maxLength}자 이내로 \"{name}\"을(를) 입력하십시오.",
+  "msg_error_name_empty": "이름에 대한 값을 입력하십시오.",
+  "msg_error_TerminologyActivate": {
+    "title": "{name1}을(를) 활성화할 수 없습니다.",
+    "subtitle": "개체가 삭제되었을 수 있거나 필요한 허가를 가지고 있지 않습니다."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "검색 구조를 이 검색 노드와 연결하십시오.",
+    "subtitle": "검색 구조가 표시되지 않을 수 있습니다. 예를 들어, 활성 상태가 아닐 수 있습니다. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "트리를 확장할 수 없습니다.",
+    "subtitle": "앱을 새로 고치고 시도하거나 관리자에게 지원을 요청하십시오."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label}에 유효하지 않은 문자({badChars})가 있습니다.",
+    "Advice": "메시지:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < > 등의 문자는 사용할 수 없습니다."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "검색 구조의 콘텐츠에 더 이상 액세스할 수 없습니다.",
+    "subtitle": "위젯을 새로 고치십시오.",
+    "message": "콘텐츠가 삭제되었을 수 있거나 필요한 허가를 가지고 있지 않습니다."
+  },
+  "msg_InfoAction_Timeout": "제한 시간 안에 실행된 작업에서 응답이 수신되지 않습니다. 실행하는 데 더 오래 걸릴 수 있습니다. 결과는 수동으로 새로 고친 후 바로 표시될 수 있습니다.",
+  "msg_error_timeout": {
+    "title": "서버 연결 시간이 초과되었습니다.",
+    "subtitle": "연결을 확인하거나 이 작업 중에 제출되는 데이터의 양을 줄이십시오."
+  },
+  "msg_error_terminologyPath": {
+    "title": " 이 검색 구조에는 더 이상 액세스할 수 없습니다.",
+    "subtitle": "위젯을 새로 고치십시오.",
+    "message": "검색 구조가 삭제되었을 수 있거나 필요한 허가를 가지고 있지 않습니다."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " 이 검색 구조에는 더 이상 액세스할 수 없습니다.",
+    "subtitle": "위젯을 새로 고치십시오.",
+    "message": "필요한 허가가 없습니다."
+  },
+  "msg_error_copylink": {
+    "title": "링크를 클립보드에 복사할 수 없습니다. ",
+    "subtitle": " 작업을 다시 시도하거나 관리자에게 지원을 요청하십시오. "
+  },
+  "msg_error_createNewFromFramework": "새로 생성 실패:",
+  "msg_error_createNew": {
+    "Title": "이 개체를 생성할 수 없습니다({type}).",
+    "Advice": "올바른 자격증명을 사용하고 있는지 확인하십시오.",
+    "Details": "이 유형의 개체를 생성하기 위해 대상 협업 공간에 필요한 직무가 없을 수 있습니다."
+  },
+  "msg_error_rest": {
+    "title": "서버 연결이 돌발적으로 끊어졌습니다.",
+    "subtitle": "관리자에게 도움을 요청하십시오."
+  },
+  "msg_warning_notProductRoot": "개체를 찾을 수 없습니다.",
+  "msg_warning_contentnotavailable": "콘텐츠를 검색할 수 없습니다. 삭제되었거나 비공개 상태로 설정되었을 수 있습니다.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "콘텐츠를 제거할 수 없습니다.",
+    "advice": "하위 용어를 선택하여 검색 결과를 세분화하십시오.",
+    "details": "20개가 넘는 검색 구조에서 콘텐츠를 제거할 수 없습니다."
+  },
+  "CMDClearSort": "정렬 지우기",
+  "CMDShareTerminologyLink": "링크 복사",
+  "CMDShowInTerminologies": "검색 구조에 표시",
+  "alpha_sorting": "사전순",
+  "alpha_sort_label": "제목",
+  "date_sorting": "날짜순",
+  "date_sort_label": "수정일",
+  "fonticon_filter": "패널 콘텐츠가 현재 필터링되었습니다.",
+  "loadingText": "로드 중...",
+  "SearchEnterMoreThan": "검색하려면 최소 {minNumber}자가 필요합니다.",
+  "confirmation_move_title": "콘텐츠 이동",
+  "confirmation_move_message": "{source}의 콘텐츠를 {target}(으)로 이동하시겠습니까?",
+  "confirmation_move_message_monosel": "{source}에서 {target}(으)로 {selection}을(를) 이동하시겠습니까?",
+  "confirmation_move_message_mono_from_tree": "{source}에서 {target}(으)로 이동하시겠습니까?",
+  "confirmation_move_message_multisel": "{source}에서 {target}(으)로 {nth} 아이템을 이동하시겠습니까?",
+  "confirmation_move_button": "이동",
+  "confirmation_info": "\n {From}에서 {To}(으)로 변환하는 동안 제목과 설명 이외의 속성이 손실됩니다. 하위 개체에 대한 모든 속성은 복사됩니다.",
+  "authentication_error": {
+    "title": "지정된 위젯을 실행할 수 없습니다.",
+    "subtitle": "자격증명을 확인하고 다시 시도하십시오."
+  },
+  "noPlatform_error": "이 앱은 사용자의 플랫폼에서 사용할 수 없습니다.",
+  "placeholder_msg_terminology": "이 검색 구조는 현재 비어 있습니다.",
+  "placeholder_CreateTerminology": "새 검색 구조",
+  "placeholder_CreateTerm": "새 검색 노드",
+  "column_Thumbnail": "섬네일",
+  "placeholder_msg_section": "검색 구조가 생성되지 않았습니다.",
+  "placeholder_msg_terms": "검색 노드가 생성되지 않았습니다.",
+  "placeholder_msg_search": "결과가 없습니다.",
+  "refresh_ongoing": "새로 고치는 중...",
+  "refresh_ok": "새로 고침 완료",
+  "refreshError": {
+    "title": "위젯을 새로 고칠 수 없습니다.",
+    "subtitle": "관리자에게 도움을 요청하십시오."
+  },
+  "success": "성공",
+  "warning": "경고",
+  "information": "정보",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "이 콘텐츠에 더 이상 액세스할 수 없습니다.",
+    "Advice": "이 유형의 개체를 생성하기 위해 대상 협업 공간에 필요한 직무가 없을 수 있습니다.",
+    "Details": "개체가 삭제되었을 수 있거나 필요한 허가를 가지고 있지 않습니다."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "붙여넣을 수 없습니다.",
+    "InvalidParameters": "선택한 개체를 이 대상에 붙여넣을 수 없습니다. ",
+    "BNDestination": "검색 노드를 검색 구조 섹션 아래 붙여넣을 수 없습니다.",
+    "BSDestination": "검색 구조는 검색 구조 섹션 아래에만 붙여넣을 수 있습니다."
+  },
+  "msg_paste_error": "붙여넣을 수 없습니다.",
+  "indexMode": {
+    "Authoring": "데이터베이스.",
+    "Index": "인덱스.",
+    "Label": "인덱스",
+    "seconds": "초",
+    "minutes": "분",
+    "hours": "시간",
+    "msg_Authoring": "데이터베이스 모드가 활성화되었습니다. 성능에 영향이 미칠 수 있습니다.",
+    "activeMode": "활성 모드: {mode}",
+    "lastRefresh": "마지막 새로 고침: {timeElapsed} 전.",
+    "reactIndexMode": "인덱스 모드는 작성 작업 또는 새로 고친 시간부터 {autoSwitch}분 후에 다시 활성화됩니다.",
+    "info_msg_DataNotUptoDate": "인덱스 모드가 활성입니다. 데이터가 최신 상태가 아닐 수 있습니다."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "선택한 검색 구조 {name}이(가) 트리에 표시되지 않습니다. 스크롤하여 보고 선택하십시오.",
+  "ViewTooltip": {
+    "ds6w:label": "제목",
+    "ds6w:modified": "수정일",
+    "ds6w:responsible": "소유자",
+    "ds6w:type": "유형",
+    "ds6w:status": "성숙도 상태",
+    "ds6w:project": "협업 공간",
+    "ds6w:identifier": "이름"
+  },
+  "notifications": {
+    "expandTooLarge": "검색된 개체가 너무 많습니다.<br> 필터링으로 탐색 범위를 좁히거나 확장 수준을 줄이십시오.",
+    "initialization_error": {
+      "title": " 앱에서 예상치 않은 오류가 발생했습니다.",
+      "subtitle": "관리자에게 도움을 요청하십시오."
+    },
+    "tooManyResultFound": "검색이 {maxResult}개 결과로 제한되어 있습니다. 쿼리를 세분하십시오."
+  },
+  "generic_service_failure": "개체 정보를 가져오지 못했습니다. 몇 분 후에 다시 시도하십시오. 문제가 지속되면 관리자에게 문의하십시오.",
+  "cannot_insert_branch": "개체를 추가하지 못함",
+  "cannot_access_after_changeowner": "소유권 변경 후에는 개체에 액세스할 수 없음"
+}

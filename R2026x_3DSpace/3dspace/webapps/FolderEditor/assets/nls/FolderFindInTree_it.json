@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Ricerca cartelle Segnalibri..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Impossibile eseguire l'opzione Cerca nella struttura nella sezione dei preferiti e nelle cartelle Segnalibri preferiti.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "L'oggetto rilasciato non è una cartella Segnalibri.",
+    "subtitle": "Rilasciare una cartella Segnalibri radice o una cartella Segnalibri."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Impossibile eseguire l'opzione Cerca nella struttura.",
+    "subtitle": "Espandere la struttura sul nodo della cartella Segnalibri specifico",
+    "message": "La cartella Segnalibri per la ricerca non è visibile nella struttura."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Impossibile eseguire l'opzione Cerca nella struttura.",
+    "subtitle": "Espandere la sezione della cartella Segnalibri al livello uno.",
+    "message": "Nella sezione della cartella Segnalibri non sono presenti cartelle Segnalibri visibili."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Impossibile eseguire l'opzione Cerca nella struttura.",
+    "subtitle": "Selezionare una cartella Segnalibri e riprovare.",
+    "message": "Nessuna cartella Segnalibri selezionata per eseguire la ricerca."
+  },
+  "msg_info_limitToFindInRootNode": "Non è stato possibile visualizzare tutti i risultati della ricerca. Provare con parole chiave diverse o eseguire la ricerca dalle cartelle Segnalibri secondarie.",
+  "msg_info_searchCompleted": "La ricerca è completata.",
+  "msg_info_No_Occurrence": "Nessun risultato trovato."
+}

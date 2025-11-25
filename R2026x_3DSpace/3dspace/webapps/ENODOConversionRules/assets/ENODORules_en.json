@@ -1,0 +1,35 @@
+{
+  "labels":{
+    "doDetails" : "Derived Output Rule Details",
+    "doattributes" : "Derived Output Rule Attributes",
+    "name" : "Name",
+    "connector" : "Connector",
+    "implicitRule" : "Implicit Rule",
+    "external" : "External Generation",
+    "parameters" : "Conversion Parameters",
+    "converter" : "Converter",
+    "origin" : "Origin",
+    "forceUpdate" : "Force Update",
+    "uptodateDO" : "Up to Date",
+    "jobStatus" : "Status of the Job",
+    "format" : "Format",
+    "alias" : "Unified Format",
+    "yes" : "Yes",
+    "no" : "No"
+  },
+  "buttons":{
+    "cancel" : "Cancel"
+  },
+  "popup":{
+    "option" : "Option",
+    "value" : "Value",
+    "yesButton":"Yes",
+    "noButton":"No",
+    "cancelButton":"Cancel"
+  },
+  "error":{
+    "title":"Error",
+    "invalidFrame":"Unable to perform the operation. Refresh the widget and try again.",
+    "invalidParameter":"The parameters are not properly defined."
+  }
+}

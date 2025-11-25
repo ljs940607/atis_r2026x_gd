@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; chrome=1" charset="UTF-8">
+  <title>Search DropDown</title>
+  <!-- Definition of require : -->
+  <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+  <!-- Load UWA environment -->
+  <!-- This is required to configure RequireJS with the appropriate pathes : -->
+  <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+  <!-- Hide proxy focus btn in web in win context as if it's pressed we can't restore it, waiting new behavior from TagNavigator planned for V6R2016x Beta 2-->
+  <style type="text/css">
+    html, body {
+      height: 100%;
+    }
+  </style>
+
+  <script type="text/javascript">
+    var query = location.search.substr(1);
+    var result = {};
+    query.split('&').forEach(function (part) {
+      if (!part) return;
+      part = part.split('+').join(' '); // replace every + with space, regexp-free version
+      var eq = part.indexOf('=');
+      var key = eq > -1 ? part.substr(0, eq) : part;
+      var val = eq > -1 ? decodeURIComponent(part.substr(eq + 1)) : '';
+      var from = key.indexOf('[');
+      if (from == -1) result[decodeURIComponent(key)] = val;
+      else {
+        var to = key.indexOf(']');
+        var index = decodeURIComponent(key.substring(from + 1, to));
+        key = decodeURIComponent(key.substring(0, from));
+        if (!result[key]) result[key] = [];
+        if (!index) result[key].push(val);
+        else result[key][index] = val;
+      }
+    });
+
+    console.log("building COMPASS_CONFIG");
+
+    COMPASS_CONFIG = {};
+
+    if (result) {
+      if (result.userid) {
+        COMPASS_CONFIG['userId'] = result.userid;
+        console.log("COMPASS_CONFIG.userId=" + COMPASS_CONFIG.userId);
+      }
+      if (result.myAppsURL) {
+        COMPASS_CONFIG['myAppsBaseUrl'] = result.myAppsURL;
+        console.log("COMPASS_CONFIG.myAppsBaseUrl=" + COMPASS_CONFIG.myAppsBaseUrl);
+      }
+      if (result.lang) {
+        COMPASS_CONFIG['lang'] = result.lang;
+        console.log("COMPASS_CONFIG.lang=" + COMPASS_CONFIG.lang);
+      }
+    }
+  </script>
+
+  <script>
+    function sendNotificationWebInWin(name, message) {
+      if (typeof dscef !== 'undefined') {
+        dscef.sendString(name + '=' + message);
+      }
+      else if (typeof CATCefSendString !== 'undefined') {
+        CATCefSendString(name + '=' + message);
+      }
+    }
+  </script>
+
+  <!-- Include CSS for styling of the elements we are testing in that page : -->
+  <link rel="stylesheet" type="text/css" href="../UWA2/assets/css/inline.css" />
+  <link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" />
+
+  <script type="text/javascript" src="SearchDropDownPanelMgr.js"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    #SearchDropDown-view .uwa-autocomplete {
+      position: inherit;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    #SearchDropDown-view .nv-autocomplete,
+    #SearchDropDown-view .nv-autocomplete-container {
+      height: 95.5vh !important;
+    }
+    #SearchDropDown-view .nv-autocomplete-container.helps-settings {
+      height: 100.5vh !important;
+    }
+
+    .SearchDropDown-content {
+      height: 100%;
+    }
+
+    .nv-autocomplete-searchbox {
+      display: none;
+    }
+
+    #SearchDropDown-view .nlqModeSearchButton {
+          bottom: 3.2em;
+      }
+    #SearchDropDown-view .search-global-content-container,
+    #SearchDropDown-view .search-global-footer-container {
+      max-width: 100% !important;
+      transform: translate(0%, 0%);
+    }
+
+    #SearchDropDown-view .search-global-content-container,
+    #SearchDropDown-view .search-global-tab-container {
+      left: unset !important;
+      transform: unset !important;
+      width: 100% !important;
+      box-shadow: unset !important;
+      border-left: unset !important;
+      border-right: unset !important;
+      border-top: unset !important;
+      line-height: 44px;
+    }
+
+    #SearchDropDown-view .history-container-content {
+      /* height: 78vh; */
+    }
+
+    #SearchDropDown-view .search-global-tab-container {
+      box-shadow: unset !important;
+      border-left: unset !important;
+      border-right: unset !important;
+      border-top: unset !important;
+      border-bottom: unset !important;
+      line-height: 45px;
+    }
+
+    #SearchDropDown-view .apply-button {
+      /* bottom: 8%; deactivated for IR-1271204-3DEXPERIENCER2024x (not responsive)*/ 
+    }
+
+    #SearchDropDown-view .BETA-Customization .apply-button {
+      bottom: 0%;
+    }
+
+    #SearchDropDown-view .predefined-queries-tab-container {
+      margin-top: 0px;
+      height: 100%;
+      max-height: unset;
+    }
+
+    #SearchDropDown-view .search-dropdown-tab-predefined-queries,
+    #SearchDropDown-view .search-dropdown-tab-mycontent,
+    #SearchDropDown-view .search-dropdown-tab-settings {
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+
+    #SearchDropDown-view .mycontent-container {
+      height: calc(100% - 100px);
+    }
+
+    #SearchDropDown-view .search-tab-buttons-container-other {
+      margin-top: 10px;
+      float: left;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    #SearchDropDown-view .search-global-footer-container {
+      border-left: unset;
+      border-right: unset;
+      width: 100% !important;
+    }
+
+    #SearchDropDown-view .search-global-footer-container .search-dropdown-footer-icon{
+      min-height: 38px;
+      line-height: 36px;
+      color: #77797c;
+    }
+
+    #SearchDropDown-view .search-tab-buttons-container-other .wux-controls-button {
+      height: 38px;
+      border-radius: 4px;
+      width: calc(100% - 5px);
+    }
+
+    #SearchDropDown-view .search-tab-buttons-container-other .wux-controls-button:first-of-type {
+      margin-right: 5px;
+      margin-left: 2%;
+    }
+    #SearchDropDown-view .search-tab-buttons-container-other .wux-controls-button:last-of-type {
+      margin-left: 5px;
+    }
+
+    #SearchDropDown-view .settings-container .setting-container.dbl-clk {
+      margin-left: 15px;
+    }
+
+    #SearchDropDown-view .deactivate-beta-button {
+      color: #368ec4 !important;
+    }
+
+    #SearchDropDown-view .search-popup-content .predefined-queries-table {
+      max-width: 100%;
+    }
+
+    #SearchDropDown-view .search-global-content-container-in-context .search-tab-container .search-tab-content .right-content-container .search-tab-buttons-container .guidedmode-section[id="DDM_SomeCommands_RelNavWbWn_Header"] {
+      display: none;
+    }
+
+    .fonticon-community:before {
+      content: '\E240';
+    }
+
+  </style>
+
+  <script>
+    function InitView(parameters) {
+      require(["DS/SearchDropDownWebInWin/SearchDropDownPanelMgr"], function (SearchDropDownPanelMgr) {
+        SearchDropDownPanelMgr.initView(parameters)
+      });
+    };
+
+    function onFocus(parameter) {
+      require(["DS/SearchDropDownWebInWin/SearchDropDownPanelMgr"], function (SearchDropDownPanelMgr) {
+        SearchDropDownPanelMgr.onFocus(parameter)
+      });
+    };
+
+    function onClearSearch() {
+      require(["DS/SearchDropDownWebInWin/SearchDropDownPanelMgr"], function (SearchDropDownPanelMgr) {
+        SearchDropDownPanelMgr.onClearSearch()
+      });
+    };
+
+    function onKeyUp(options) {
+      require(["DS/SearchDropDownWebInWin/SearchDropDownPanelMgr"], function (SearchDropDownPanelMgr) {
+        SearchDropDownPanelMgr.onKeyUp(options)
+      });
+    };
+
+    function onBlur(options) {
+      require(["DS/SearchDropDownWebInWin/SearchDropDownPanelMgr"], function (SearchDropDownPanelMgr) {
+        SearchDropDownPanelMgr.onBlur(options)
+      });
+    };
+
+  </script>
+</head>
+
+<body>
+    <div id="temp-search-msg" style="text-align: center; color: #e2e2e2; position: absolute; top: 2px; left: 0; right: 0; height: 100%; flex-direction: column; font-size: 2.0em">
+        <span id="temp-search-msg-span">...</span>
+    </div>
+    <div id="SearchDropDown-Compass" style="display: none !important;"></div>
+    <div id="SearchDropDown-content" class="SearchDropDown-content"></div>
+</body>
+
+</html>

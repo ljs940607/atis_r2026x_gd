@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "自動命名",
+  "ACADAutoNameInfo": "首次將工程圖檔案儲存於 3DEXPERIENCE 時啟用自動命名。它適用於所有編寫 AutoCAD 資料的應用程式。",
+  "ACADSaveGroupLabel": "儲存",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "在自動命名時，以新名稱取代標題",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "在儲存對話方塊選擇自動命名時，現有檔案名稱會被自動命名取代。",
+  "ACADEnablePessimisticLockingLabel": "悲觀鎖定",
+  "ACADEnablePessimisticLockingInfo": "啟用此功能可確保資料無法從連接器儲存至平台，除非是由目前使用者保留。",
+  "ACADFileReadOnlyLabel": "將檔案設為唯讀",
+  "ACADFileReadOnlyInfo": "如果檔案未由目前的使用者保留，則會標記為唯讀。只有在啟用悲觀鎖定時，才會啟用此行為。",
+  "ACADDelimiterLabel": "設定分隔符號",
+  "ACADDelimiterInfo": "此分隔符號的使用方式如下：\n1. 同步處理 CAD 檔案時，合併 3DEXPERIENCE 中多重賦值屬性的值。\n2. 如果將 CAD 屬性值對應到 3DEXPERIENCE 中的多重賦值屬性，則將其分割。",
+  "ACADOtherGroupLabel": "一般",
+  "InvalidDelimiter": "不允許將一個以上的字元作為分隔符號"
+}

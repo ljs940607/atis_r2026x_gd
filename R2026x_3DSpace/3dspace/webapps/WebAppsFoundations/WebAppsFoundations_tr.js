@@ -1,0 +1,1 @@
+define("DS/WebAppsFoundations/WebAppsFoundations_tr",{});define("DS/WebAppsFoundations/assets/nls/WebAppsFoundations",{wigdetRunabiltyException:"UYARI: Bu web sitesi 3DEXPERIENCE Platform'un veya Dassault Systèmes kurumsal web sitesinin bir parçası değil; buna güvenmeyin.",onPassportErrorUnauthedClient:"Lütfen önce başka bir sekme üzerinden bu kiracıda oturum açın"});

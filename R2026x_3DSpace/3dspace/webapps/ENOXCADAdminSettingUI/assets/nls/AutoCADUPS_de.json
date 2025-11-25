@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Automatische Benennung",
+  "ACADAutoNameInfo": "Ermöglicht die automatische Benennung beim erstmaligen Speichern von Zeichnungsdateien in 3DEXPERIENCE. Gilt für alle Anwendungen, die AutoCAD Daten erstellen.",
+  "ACADSaveGroupLabel": "Speichern",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Titel bei automatischer Benennung durch neuen Namen ersetzen",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Bei Auswahl der automatischen Benennung beim Speichern wird der vorhandene Dateiname durch die automatische Benennung ersetzt.",
+  "ACADEnablePessimisticLockingLabel": "Pessimistisches Sperren",
+  "ACADEnablePessimisticLockingInfo": "Durch Aktivieren dieser Funktion wird sichergestellt, dass Daten nicht vom Connector auf der Plattform gespeichert werden können, es sei denn, sie wurden vom aktuellen Benutzer reserviert.",
+  "ACADFileReadOnlyLabel": "Datei schreibgeschützt machen",
+  "ACADFileReadOnlyInfo": "Die Datei wird als schreibgeschützt markiert, wenn sie nicht vom aktuellen Benutzer reserviert wurde. Dieses Verhalten wird nur aktiviert, wenn das pessimistische Sperren aktiviert ist.",
+  "ACADDelimiterLabel": "Trennzeichen festlegen",
+  "ACADDelimiterInfo": "Dieses Trennzeichen wird wie folgt verwendet:\n1. Zum Zusammenführen von Werten mehrwertiger Attribute in 3DEXPERIENCE bei der Synchronisierung einer CAD-Datei.\n2. Zum Teilen des CAD-Attributwerts, wenn er einem mehrwertigen Attribut in 3DEXPERIENCE zugeordnet ist.",
+  "ACADOtherGroupLabel": "Allgemein",
+  "InvalidDelimiter": "Trennzeichen aus mehr als einem Zeichen ist unzulässig"
+}

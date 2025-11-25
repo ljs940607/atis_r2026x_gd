@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "{rolesText} marketplace",
+  "userSearch": "Ricerca utenti",
+  "userRoles": "Ruoli utenti",
+  "loginEmail": "Immettere i dati di accesso o l'e-mail dell'utente a cui assegnare i ruoli:",
+  "rolesGranted": "Selezionare il ruolo che si desidera assegnare a questo utente. I ruoli vengono assegnati dinamicamente:",
+  "noUserSelected": "Nessun utente selezionato",
+  "noUserFound": "Nessun utente trovato",
+  "userSearchFailed": "Ricerca utente non riuscita",
+  "unableToSaveRoleModification": "Impossibile salvare la modifica del ruolo",
+  "enterEmailOrLogin": "Inserire l'e-mail o i dati di accesso qui...",
+  "makeSeller": "Venditore Make",
+  "engineeringSeller": "Venditore Engineering",
+  "partSupplySeller": "Venditore PartSupply",
+  "innovateSeller": "Venditore Innovate"
+}

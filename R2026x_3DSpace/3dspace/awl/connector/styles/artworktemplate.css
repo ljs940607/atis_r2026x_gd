@@ -1,0 +1,43 @@
+.descriptionBox {
+	border: 1px solid #c0c0c0;
+	height: 72px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 2px;
+}
+
+#templateName {
+	font-weight: bold;
+}
+
+.header {
+	font-weight: bold;
+	padding-bottom: 3px;
+	background-color:  #333;
+	font-size: 11px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.column {
+	font-weight: bold;
+	font-size: 11px;
+	width: 100px
+}
+
+#details {
+	table-layout: fixed;
+}
+
+#actions {
+	padding-bottom: 3px;
+	vertical-align: top;
+}
+
+.hide-container {
+	display: none;
+}
+
+.show-container {
+	display: block;
+}

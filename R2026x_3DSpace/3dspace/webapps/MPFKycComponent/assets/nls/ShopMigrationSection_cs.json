@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "Migrace do Stripe FR",
+  "startStripeFrConversion": "Spustit převod do Stripe FR",
+  "migrationExplanation": "Kliknutím na tlačítko spustíte migraci obchodu do Stripe FR.",
+  "documentsExplanation": "Stáhněte si soubory KYC jeden po druhém a nahrajte je na novou platformu Stripe FR pomocí příslušných tlačítek pro nahrání v této části.",
+  "downloadFile": "Stáhnout soubor",
+  "uploadFile": "Nahrát soubor",
+  "failedToDownloadFile": "Soubor se nepodařilo stáhnout",
+  "failedToUploadFile": "Soubor se nepodařilo nahrát",
+  "invalidFileTypeMessage": "Typ souboru není platný. Použijte soubor JPEG nebo PNG.",
+  "fileTooBig": "Soubor překračuje maximální velikost souboru.",
+  "migrationFailedMsg": "Migraci nelze dokončit.",
+  "migrationCompleted": "Migrace byla dokončena",
+  "kycSatusIs": "Stav dokumentu je „{status}“",
+  "startingMigration": "Zahájení migrace...",
+  "updating": "Aktualizace dat...",
+  "unableToUpdateData": "Data nelze aktualizovat",
+  "waitingForMigrationConfirmation": "Probíhá ověřování dokumentů. Zkontrolujte stav migrace později.",
+  "migrationFailed": "Migrace se nezdařila"
+}

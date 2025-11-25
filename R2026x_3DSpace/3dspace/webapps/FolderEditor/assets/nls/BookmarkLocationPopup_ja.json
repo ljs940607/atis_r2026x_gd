@@ -1,0 +1,16 @@
+{
+  "OK": "OK",
+  "Cancel": "キャンセル",
+  "OpenLocation": "親{typeStruct}",
+  "Bookmark_Locations": "{typeStruct}場所",
+  "Open": "開く",
+  "OpenLocationPopupLable": "開く{typeStruct}を選択します:",
+  "msg_error_BookmarkLocation": "{typeStruct}「{name1}」の場所を開けません (削除されているか、アクセスできない可能性があります)。",
+  "msg_error_BM_LOC_InValid_Object": "オブジェクトを選択できません。削除されているか、アクセスできない可能性があります。",
+  "removeFromSearchNotif": {
+    "success": "オブジェクトが除去されました。",
+    "failNotAllowed": "{typeStruct}がコンテンツの変更のできないステートであることを確認します。",
+    "serverError": "ウィジェットまたはブラウザを更新し、正しい資格情報を使用していることを確認します。",
+    "failNoRelationFound": "十分な権限があることを確認します。"
+  }
+}

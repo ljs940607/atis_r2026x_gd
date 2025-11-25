@@ -1,0 +1,54 @@
+.richTextUIContainer {
+    display: grid;
+    place-content: flex-start;
+    grid-template-columns: repeat(auto-fit, 100%);
+}
+.richTextUIContainer .rich-text-container {
+    background-color: #f9f9f9;
+    min-width: 300px;
+    min-height: 70px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #e2e4e3;
+    padding: 15px;
+    word-break: break-all;
+}
+.richTextUIContainer .wux-controls-expander {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.richTextUIContainer .wux-controls-expander .wux-controls-expander-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.richTextUIContainer .wux-controls-expander .wux-controls-expander-container .wux-controls-expander-header {
+    height: auto;
+    padding: 5px 0;
+}
+.richTextUIContainer .wux-controls-expander .wux-controls-expander-container .wux-controls-expander-body.wux-controls-expander-body-toggle {
+    overflow: auto;
+}
+
+/* set so rich text lists have numbers, bcos iframe.css sets it to none */
+.rich-text-container ol {
+    list-style-type: decimal;
+}
+
+/* set so rich text lists have bullets, bcos iframe.css sets it to none */
+.rich-text-container ul {
+    list-style-type: disc;
+}
+
+/* set so rich text tables have gridlines */
+.rich-text-container table, th, td {
+    border: 1px solid black;
+}
+
+/* rich text editor expects this default */
+.rich-text-container table thead tr th {
+    text-align: center;
+}
+

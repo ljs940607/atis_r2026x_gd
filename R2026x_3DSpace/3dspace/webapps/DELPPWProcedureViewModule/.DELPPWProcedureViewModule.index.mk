@@ -1,0 +1,13 @@
+m|DELPPWProcessModules\DELPPWProcedureViewModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25253|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWProcedureViewModule\DELPPWProcedureViewModule.js|1757540506|37599
+s|DELPPWProcessModules\DELPPWProcedureViewModule.mweb\src\ProcedureViewComponent.js|1755594946|16828
+t|win_b64\webapps\DELPPWProcedureViewModule\assets\json\ProcedureViewDefaultParams.json|1757132695|11425
+s|DELPPWProcessModules\DELPPWProcedureViewModule.mweb\src\assets\json\ProcedureViewDefaultParams.json|1752759744|11425
+u|DELPPWProcessModules\DELPPWProcedureViewModule.mweb\src\ProcedureViewModule.js|1756979003|137327
+u|DELPPWProcessModules\DELPPWProcedureViewModule.mweb\src\ViewPanel.js|1751376925|5090
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Seuls les fichiers AP242 STEP sont pris en charge.",
+    "IFC_UNSUPPORT": "Seuls les formats de fichier IFC2X3, IFC4 et IFC4X3_ADD2 sont pris en charge",
+    "NO_TESSELLATION": "Seuls les fichiers STEP avec des données facettisées sont pris en charge",
+    "NO_ZIP": "Les formats zippés ne sont pas pris en charge",
+    "EMPTY_ROOT": "Racine de document sans géométrie",
+    "NO_REP": "Document sans représentation prise en charge (produit ou pièce)",
+    "EXT_REF": "Les documents sans références externes ne sont pas pris en charge. Seuls les fichiers monolithiques le sont.",
+    "EMPTY_PROD": "Produit de document sans géométrie à facettes",
+    "NO_STPXZ": "stpxz dans l'archive pas encore pris en charge"
+  },
+  "warning": {
+    "MISSING_PART": "certains fichiers liés sont manquants"
+  }
+}

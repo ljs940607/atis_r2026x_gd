@@ -1,0 +1,19 @@
+{
+    "enopad3dviewer_useStaticURL": {
+        "value": true
+    },
+    "hideNoFilterSelectionPreference": true,
+    "authorized_root_types": {
+        "value": [
+            "MCAD Assembly",
+            "MCAD Component",
+            "CATDrawing",
+            "VPMReference",
+            "VPMRepReference",
+            "ENOStrRefinementSpecification",
+            "R2V_FeatureState",
+            "R2V_FeatureOfInterest"
+        ]
+  }
+}
+

@@ -1,0 +1,1 @@
+define("DS/ENOXTriptych/ENOXTriptych_tr",{});define("DS/ENOXTriptych/assets/nls/ENOXTriptych",{_close:"Kapat"});

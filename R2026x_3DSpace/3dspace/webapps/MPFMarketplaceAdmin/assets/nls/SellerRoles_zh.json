@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "marketplace {rolesText}",
+  "userSearch": "用户搜索",
+  "userRoles": "用户角色",
+  "loginEmail": "请输入您要为其授予角色的用户的登录名或电子邮件地址：",
+  "rolesGranted": "请选择您要授予给此用户的角色。角色是由系统动态授予的：",
+  "noUserSelected": "未选择任何用户",
+  "noUserFound": "未找到任何用户",
+  "userSearchFailed": "用户搜索失败",
+  "unableToSaveRoleModification": "无法保存角色修改",
+  "enterEmailOrLogin": "请在此处输入电子邮件地址或登录名...",
+  "makeSeller": "制造卖家",
+  "engineeringSeller": "工程卖家",
+  "partSupplySeller": "PartSupply 卖家",
+  "innovateSeller": "创新卖家"
+}

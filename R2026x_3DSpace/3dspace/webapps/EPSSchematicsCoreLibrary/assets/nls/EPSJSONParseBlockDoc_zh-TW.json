@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "剖析指定的 JSON 以產生物件。",
+  "description": "此為動態圖塊，因此可以使用圖塊模型組態對話方塊來變更輸入資料的物件類型。",
+  "dataPorts": {
+    "JSON": "要剖析的 JSON。",
+    "Object": "產生的物件。"
+  },
+  "controlPorts": {
+    "In": "觸發圖塊執行。",
+    "Out": "在程序完成時啟動。"
+  },
+  "example": null
+}

@@ -1,0 +1,18 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package SignageElement-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageMarker" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignagePole" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageOverheadStructure" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageHighMast" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageArmCantilever" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignagePictorial" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageOtherElement" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageMarkerType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignagePoleType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageOverheadStructureType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageHighMastType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageArmCantileverType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignagePictorialType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="SignageOtherElementType" ScriptName="ENOAP_PolicyChooser_Resource" />
+</Scripts>

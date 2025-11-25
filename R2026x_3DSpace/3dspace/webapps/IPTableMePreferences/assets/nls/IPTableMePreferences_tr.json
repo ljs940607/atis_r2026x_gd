@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "Görünüm",
+    "MP_DEFAULT": "Varsayılan Görünüm",
+    "MP_CUSTO": "Özel Görünüm",
+    "copyOf": "{MP_VIEW_NAME} kopyası"
+  },
+  "tooltip": {
+    "title": {
+      "check": "Onayla",
+      "cancel": "İptal",
+      "reset": "Sıfırla",
+      "newView": "Yeni Görünüm",
+      "editView": "Görünümü Düzenle",
+      "removeView": "Görünümü Sil",
+      "addColumn": "Sütun ekle",
+      "removeColumn": "Sütunu kaldır",
+      "lockedColumn": "Sütun kilitli",
+      "findInAtt": "Öznitelik bul",
+      "addTypesAndExt": "Tipleri ve Uzantıları Yönet",
+      "moveUp": "Yukarı Taşı",
+      "moveDown": "Aşağı Taşı",
+      "moveTop": "En Üste Taşı",
+      "moveBottom": "En Alta Taşı"
+    },
+    "check": "Geçerli eylemi onaylayın.",
+    "reset": "Geçerli görünümdeki tüm değişiklikleri kaldırın.",
+    "cancel": "Geçerli eylemi iptal edin.",
+    "findInAtt": "Mevcut tüm sütunlarda bir öznitelik arayın.",
+    "addTypesAndExt": "Mevcut sütunlarda tip veya uzantı ekleyin veya kaldırın.",
+    "moveUp": "Seçili sütunu yukarıya taşıyın.",
+    "moveDown": "Seçili sütunu aşağıya taşıyın.",
+    "moveTop": "Seçili sütunu ilk konuma taşıyın.",
+    "moveBottom": "Seçili sütunu son konuma taşıyın.",
+    "modificationNotStored": "Değişiklikler kullanıcı tercihlerine kaydedilmedi.",
+    "maximumView": "Oluşturabileceğiniz maksimum görünüm sayısına (4) ulaştınız.",
+    "newView": "Yeni bir Görünüm oluşturun. En fazla 4 görünüm oluşturabilirsiniz.",
+    "editView": "Geçerli Görünüm'ü düzenleyin.",
+    "removeView": "Geçerli Görünüm'ü silin.",
+    "addColumn": "Sütun, seçilen sütunlara taşınır.",
+    "removeColumn": "Sütun, mevcut sütunlara taşınır.",
+    "maximumColumn": "Ekleyebileceğiniz maksimum sütun sayısına (30) ulaştınız.",
+    "lockedColumn": "Sütun taşınamaz."
+  },
+  "commandMenu": {
+    "default": "Varsayılan görünüm",
+    "root": "Tablo görünümleri",
+    "admin": "Yönetici görünümleri",
+    "user": "Görünümlerim",
+    "widget": "Yerel görünüm"
+  },
+  "column_FavoriteTitle": "Başlık",
+  "column_BookmarkLocation": "Üst Öğe Yer İşareti",
+  "column_Thumbnail": "Küçük resim",
+  "column_ApprovalStatus": "Onay Durumu",
+  "column_Menu": "Menü",
+  "admin": "Yönetici",
+  "toolbar": {
+    "spacing": "Yoğunluk ",
+    "spacingComfortable": "Rahat",
+    "spacingCompact": "Kompakt",
+    "checkbox": "Nesne Seçimi Onay Kutusu",
+    "findInAtt": "Öznitelik bul",
+    "resetDefault": "Varsayılana Sıfırla"
+  },
+  "columns": {
+    "attName": "Öznitelik adı",
+    "attType": "Öznitelik tipi",
+    "colName": "Sütun adı",
+    "pin": "Sabitle",
+    "hide_show": "Gizle/Göster",
+    "findinctx": "Bul",
+    "thumbnail": "Önizleme",
+    "thumbnails": "Önizleme",
+    "matrixtxt": "Konum Matrisi",
+    "typeName": "Tip",
+    "extName": "Çeki"
+  },
+  "attSelection": {
+    "title": "Kullanılabilir sütunlar: ",
+    "extension": "{typeName} uzantısı",
+    "REFERENCE": "Referans",
+    "INSTANCE": "Örnek",
+    "CLASSIFICATION": "Sınıf",
+    "COMPUTED": "Hesaplanan",
+    "COMMAND": "Komut",
+    "pinLeft": "Sola Sabitle",
+    "pinRight": "Sağa Sabitle",
+    "unpinned": "Sabitleme Yok",
+    "commonAttributes": "Ortak öznitelikler",
+    "typesAttributes": "Tip öznitelikleri",
+    "extsAttributes": "Uzantı öznitelikleri",
+    "classifAttributes": "Sınıflandırma öznitelikleri",
+    "otherColumns": "Diğer"
+  },
+  "selectedAtt": {
+    "title": "Seçili sütunlar: "
+  },
+  "typeNext": {
+    "title": "Tip ve Uzantı seçici",
+    "okBtn": "Uygula",
+    "cancelBtn": "İptal",
+    "selectionTypeTitle": "Tipler",
+    "selectionExtTitle": "Uzantılar",
+    "extension": {
+      "placeholder": "Hiçbir tip seçilmedi. Lütfen ilgili uzantıları görüntülemek için bir veya daha fazla tip seçin."
+    }
+  },
+  "selectionTitle": "Öznitelikleri listelemek için Tip veya Uzantı seç",
+  "dialog": {
+    "title": "Tablo tercihleri",
+    "okBtn": "Kaydet",
+    "cancelBtn": "İptal"
+  },
+  "loading": {
+    "default": "Yükleniyor...",
+    "gridCusto": "Tablo tercihleri yükleniyor",
+    "baseTypeAndExt": "Mevcut tipler ve uzantılar yükleniyor",
+    "gridCustoReset": "Varsayılana sıfırla"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Fiziksel Gösterim Örneği"
+  },
+  "notDisplayedAtt": "Kullanıcı arayüzünde görüntülenmez",
+  "warning": {
+    "emptyName": {
+      "title": "Görünüm adı boş bırakılamaz",
+      "msg": "Görünüm adınız boş."
+    },
+    "tooManySelected": {
+      "title": "Maksimum sütun erişimi sayısı",
+      "msg": "Yalnızca maksimum {maxNumber} sütun yetkilendirilir"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Görünüm zaten var",
+      "msg": "\"{MP_VIEW_NAME}\" adlı bir görünüm zaten var"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Görünüm zaten var",
+      "msg": "\"{MP_VIEW_NAME}\" adlı bir görünüm zaten var"
+    }
+  }
+}

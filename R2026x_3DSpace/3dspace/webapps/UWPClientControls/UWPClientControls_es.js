@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_es",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menú",addTab:"Agregar pestaña",webAppsResizing:"El cambio de tamaño de las aplicaciones web solo es permanente para los propietarios {type}",webAppsResizingProductCockpit:"El cambio de tamaño de las aplicaciones no es permanente en esta cabina"});

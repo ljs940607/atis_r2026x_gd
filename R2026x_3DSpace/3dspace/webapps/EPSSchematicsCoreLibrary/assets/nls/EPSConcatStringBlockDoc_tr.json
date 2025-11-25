@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili girdi veri dizelerini benzersiz bir çıktı veri dizesi oluşturacak şekilde bitiştirir.",
+  "description": "Her bir dizeyi belirtilen karakterlerle ayırmak için <doc-setting-name translate=no>Separator</doc-setting-name> ayarı sağlanabilir.<br>Bu blok dinamiktir. Bu sayede girdi verisi sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Value1": "ilk dize.",
+    "Value2": "ikinci dize.",
+    "Output String": "dize bitiştirme işleminin sonucu."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "settings": {
+    "Separator": "her bir ilgili girdi veri dizesi arasında kullanılacak dize ayırıcı."
+  },
+  "example": null
+}

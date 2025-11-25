@@ -1,0 +1,23 @@
+{
+  "offline": "Не в сети",
+  "away": "Нет на месте",
+  "busy": "Занят",
+  "online": "В сети",
+  "dnd": "Не беспокоить",
+  "ooo": "Нет на работе",
+  "appearOffline": "Показывать 'Не в сети'",
+  "appearAway": "Показывать 'Нет на месте'",
+  "appearOOO": "Показывать 'Нет на работе'",
+  "presenting": " - Демонстрирует экран",
+  "inACall": " - Разговаривает",
+  "inAMeeting": " - На собрании",
+  "sinceSeveralSeconds": " несколько секунд",
+  "sinceSeveralMinutes": " {timelaps} мин",
+  "sinceOneHour": " 1 час",
+  "sinceSeveralHours": " {timelaps} ч.",
+  "sinceOneDay": " 1 день",
+  "sinceSeveralDays": " {timelaps} дня(-ей)",
+  "sinceMoreThan99Days": " более 99 дней",
+  "untilDate": " До {endDate}",
+  "myStatus": "Мой статус"
+}

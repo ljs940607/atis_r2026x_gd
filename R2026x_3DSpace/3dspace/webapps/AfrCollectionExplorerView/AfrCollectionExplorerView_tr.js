@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_tr",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"Görünüm",NLS_ThumbnailView:"Küçük Resim Görünümü",NLS_TileView:"Kutucuk Görünümü",NLS_DataGridView:"Veri Tablosu Görünümü",NLS_ListViewTitleColumnHeaderLabel:"Başlık"});

@@ -1,0 +1,15 @@
+{
+  "Assignees": "Atananlar",
+  "PlannedEnd": "Planlanan bitiş",
+  "SelectADate": "Tarih seçin",
+  "State": "Durum",
+  "Attachments": "Ekler",
+  "AddAttachment": "Ek ekle",
+  "NoAssigneesYet": "Henüz atanan kişi yok",
+  "AssigneesErrorMessage": "Maksimum atanan sayısına ulaşıldı",
+  "AssigneeCouldNotbeAddedPleaseTryAgainLater": "En az bir atananın topluluğa erişimi yok",
+  "AssigneeCouldNotbeRemovedPleaseTryAgainLater": "Atanan kaydedilemedi. Lütfen daha sonra tekrar deneyin.",
+  "RelatedProjects": "İlgili projeler",
+  "ThisProjectIsAssociatedToTheProject": "Bu WeDo, {project} projesiyle ilişkili",
+  "ThisProjectIsAssociatedToAProject": "Bu WeDo bir projeyle ilişkili"
+}

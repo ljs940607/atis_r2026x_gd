@@ -1,0 +1,64 @@
+{
+  "processExpand": {
+    "id": "<physical_id",
+    "dynamicMask": {
+      "dsprcs:ItemSpecification": [
+        "isScope",
+        "id",
+        "type",
+        "itemOcc",
+        "itemRef"
+      ]
+    },
+    "levelExpand": "-1",
+    "expandVersion": 2,
+    "occurrenceWithRef": true,
+    "requestedAttributesOnly": true
+  },
+  "progressiveExpandV2": {
+    "batch": {
+      "expands": [
+        {
+          "label": "Open Control-Part Fabrication",
+          "root": {
+            "physical_id": "<physical_id>"
+          },
+          "graph": {
+            "descending_condition_relation": {
+              "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND ([ro.DELFmiFunctionInstance.V_IsFlexiblePart]:TRUE) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:EngineeringMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingAssembly)) OR ((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND (expand3d:true)) OR ((flattenedtaxonomies:types/DELFmiProcessImplementCnx) AND (expand3d:true)) OR ((flattenedtaxonomies:reltypes/VPMInstance) OR (flattenedtaxonomies:reltypes/VPMRepInstance))"
+            }
+          },
+          "aggregation_processors": [
+            {
+              "truncate": {
+                "max_distance_from_prefix": 1,
+                "match_only_refs": 1,
+                "sequence_filter": {
+                  "sequence": [
+                    {
+                      "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) AND ([ro.DELFmiFunctionInstance.V_IsFlexiblePart]:TRUE) OR ([ro.DELFmiUseCaseExt.V_UseCase]:ManufacturingMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:EngineeringMadeFrom) OR ([ro.DELFmiUseCaseExt.V_UseCase]:*anufacturingAssembly))"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "outputs": {
+      "select_object": [
+        "physicalid",
+        "ds6w:label",
+        "ds6w:type"
+      ],
+      "select_relation": [
+        "physicalid",
+        "ds6w:globalType",
+        "ro.DELFmiFunctionInstance.V_IsFlexiblePart",
+        "ro.DELFmiUseCaseExt.V_UseCase"
+      ],
+      "format": "entity_relation_occurrence"
+    }
+  }
+}

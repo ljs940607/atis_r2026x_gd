@@ -1,0 +1,19 @@
+{
+  "_type_expression": "式を入力",
+  "correspondingClosingOperatorNotFound": "対応する閉じる演算子が見つかりません",
+  "correspondingOpeningOperatorNotFound": "対応する開く演算子が見つかりません",
+  "error": "エラー",
+  "inContextOF": "コンテキスト",
+  "isUnknown": "は不明です",
+  "isUnknownFromDictionary": "は辞書では不明です",
+  "notExpectingToBeFollowedBy": "想定しない後続タイプ",
+  "unknown": "不明",
+  "missingComparisonOperatorInEval": "EVAL に比較演算子がありません",
+  "missingParameterInEval": "EVAL にパラメーターがありません",
+  "notExpectingSeveralComparisonOperatorsInEval": "EVAL では複数の比較演算子は想定されていません",
+  "notExpectedInEval": "EVAL では想定されていません",
+  "notExpectedOutOfEval": "EVAL 外では想定されていません",
+  "parametersShouldHaveTheSameUnit": "パラメーターには、比較する同じ単位が必要です",
+  "parameterCannotBeComparedToItself": "パラメーターをそれ自体と比較することはできません",
+  "cannotStartExpressionWith": "次で式を開始できません"
+}

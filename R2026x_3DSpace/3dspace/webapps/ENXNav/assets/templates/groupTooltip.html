@@ -1,0 +1,15 @@
+<div class="enx-group-tooltip {{className}}">
+  {{#if predicateValue}}
+  <div class="enx-group-on-predicate">
+    <div class="enx-group-predicateNls">{{predicateNLS}}</div>
+    <div class="enx-group-predicate"><b>{{predicateValue}}</b></div>
+  </div>
+  {{/if}} {{#if selectedTags}}
+  <div class="enx-group-on-predicateValue">
+    <div class="enx-group-on-value">{{onPredicateValue}}</div>
+    {{#each selectedTags}}
+    <li class="enx-group-tag">{{this}}</li>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>

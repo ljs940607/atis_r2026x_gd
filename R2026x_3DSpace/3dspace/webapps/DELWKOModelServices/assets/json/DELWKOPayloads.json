@@ -1,0 +1,80 @@
+{
+  "createWorkOrderFromProcess" :
+  {
+    "items": [
+      {
+        "productionPlanId": "$productionPlanId",
+        "dsprcs:MfgProcess": {
+          "source": "$source",
+          "type": "DELLmiWorkPlanSystemReference",
+          "identifier": "$mfgProcessId",
+          "relativePath": "/resources/v1/modeler/dsprcs/dsprcs:Process/$mfgProcessId"
+        },
+        "dsmfg:MfgItem": {
+          "source": "$source",
+          "type": "DELFmiFunctionReference",
+          "identifier": "$mfgItemId",
+          "relativePath": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/$mfgItemId"
+        },
+        "build": {
+          "source": "$source",
+          "type": "Build",
+          "identifier": "$buildId",
+          "relativePath": "/resources/v1/modeler/dspfl/dspfl:Model/$buildId"
+        },
+        "title": "$title",
+        "type": "DELLmiWorkOrderReference",
+        "orderQuantity": {
+          "value":  "$orderquantity",
+          "magnitude": "$magnitude"
+        }
+      }
+    ]
+  },
+  "createWorkOrderFromProcessOnCloud" :
+  [
+    {
+      "productionPlanId": "$productionPlanId",
+      "dsprcs:MfgProcess": {
+        "source": "$source",
+        "type": "DELLmiWorkPlanSystemReference",
+        "identifier": "$mfgProcessId",
+        "relativePath": "/resources/v1/modeler/dsprcs/dsprcs:Process/$mfgProcessId"
+      },
+      "dsmfg:MfgItem": {
+        "source": "$source",
+        "type": "DELFmiFunctionReference",
+        "identifier": "$mfgItemId",
+        "relativePath": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/$mfgItemId"
+      },
+      "build": {
+        "source": "$source",
+        "type": "Build",
+        "identifier": "$buildId",
+        "relativePath": "/resources/v1/modeler/dspfl/dspfl:Model/$buildId"
+      },
+      "name": "$name",
+      "magnitude": "$magnitude",
+      "orderQuantity": "$orderquantity",
+      "dsmfg:MfgItem": {
+        "source": "$source",
+        "type": "DELFmiFunctionReference",
+        "identifier": "$mfgItemId",
+        "relativePath": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/$mfgItemId"
+      },
+      "dueDate": "$dueDate"
+    }
+  ],
+  "createExecCanUseResourceLink" :
+  [
+    {
+      "workOrderOperationId": "$workOrderOperationId",
+      "resource": {
+        "source": "$source",
+        "type": "VPMReference",
+        "identifier": "$rscId",
+        "relativePath": "/resources/v1/modeler/dsrsc/dsrsc:Resource/$rscId"
+      }
+    }
+  ]
+}

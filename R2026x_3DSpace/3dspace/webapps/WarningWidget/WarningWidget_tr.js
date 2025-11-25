@@ -1,0 +1,1 @@
+define("DS/WarningWidget/WarningWidget_tr",{});define("DS/WarningWidget/assets/nls/langWW",{"DefaultMessage:":"Devam edilsin mi ?",Cancel:"iptal",Continue:"devam",WARNING:"UYARI"});

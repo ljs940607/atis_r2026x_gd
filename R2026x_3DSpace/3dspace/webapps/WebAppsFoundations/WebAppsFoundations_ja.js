@@ -1,0 +1,1 @@
+define("DS/WebAppsFoundations/WebAppsFoundations_ja",{});define("DS/WebAppsFoundations/assets/nls/WebAppsFoundations",{wigdetRunabiltyException:"警告: この Web サイトは 3DEXPERIENCE Platform の一部でも、Dassault Systèmes 社 Web サイトの一部でもありません。信用しないでください。",onPassportErrorUnauthedClient:"最初にこのテナントに別のタブでログインしてください"});

@@ -1,0 +1,9 @@
+m|VENNodeSocketio\DSNodeSocketioClient_4.7.4.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DSNodeSocketioClient_4.7.4\DSNodeSocketioClient_4.7.4.js|1723277717|760
+s|VENNodeSocketio\DSNodeSocketioClient_4.7.4.mweb\src\DSNodeSocketioClient_4.7.4.js|1707733430|1397
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

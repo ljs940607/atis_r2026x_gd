@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "参照構造",
+  "name_Widget_Title": "参照構造の定義",
+  "name_Widget_Help": "参照構造の定義に関するヘルプ",
+  "name_Term": "用語",
+  "name_Terminology_type": "用語",
+  "terminology_pref_populateTags": "参照構造をフィルタリングするために 6W タグを有効にします",
+  "terminology_pref_activateRelationsColumns": "関連を表示",
+  "useIndexAcceleration_label": "インデックス データを表示",
+  "terminology_pref_autoSwitch_Label": "データベース モードからインデックス モードに自動切り替え",
+  "button_remove": "除去",
+  "button_close": "閉じる",
+  "Move_label": "移動",
+  "Copy_label": "コピー",
+  "oneMin_Label": "1 分",
+  "threeMin_Label": "3 分",
+  "fiveMin_Label": "5 分",
+  "tenMin_Label": "10 分",
+  "Never_Label": "しない",
+  "Paste_content_loading": "コンテンツを貼り付け",
+  "Remove_content_loading": "コンテンツを除去",
+  "Content_Loading": "コンテンツをロード中...",
+  "Widget_Loading": "ウィジェットをロード中...",
+  "Tree_Loading": "ツリーをロード中...",
+  "New_Loading": "作成パネルをロードしています...",
+  "Terminology_Loading": "参照構造を選択しています...",
+  "commands": {
+    "newBrowsingNode": "新規参照ノード",
+    "newBrowsingStructure": "新規参照構造"
+  },
+  "msg_success_copyLink_terminology": "参照構造 \"{terminologyname} \" へのリンクがコピーされました。",
+  "msg_success_copyLink_term": "参照ノード \"{termname} \" へのリンクがコピーされました。",
+  "msg_success_createTerminology": "参照構造 \"{terminologyName}\" の作成に成功しました",
+  "msg_success_createTerm": "参照ノード \"{termName}\" の作成に成功しました",
+  "msg_success_createBS": "参照構造は正常に作成されました",
+  "msg_success_createBN": "参照ノードは正常に作成されました",
+  "msg_info_terminologycopied": "{number} 個の参照構造が参照構造 {terminologyname} に追加されました。",
+  "msg_info_rename_bs": "参照構造 \"{name1}\" の名前が \"{name2}\" に変更されました。",
+  "msg_info_rename_bn": "参照ノード \"{name1}\" の名前が \"{name2}\" に変更されました。",
+  "msg_info_refresh": "リフレッシュが完了しました。",
+  "msg_info_SortNonAvailable": "この列は、検索時にソートには使用できません。",
+  "msg_info_treeFilterRemove": "参照構造を追加すると、ツリーに適用されたフィルタが削除されます。",
+  "msg_warning_nocurrentterminology": "現行参照構造がありません。参照構造を選択してください。",
+  "msg_warning_noselection": "少なくともオブジェクトを 1 つ選択してください。",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "最後の展開ステータスは保存されません。",
+    "Advice": "一部の参照構造を折りたたむと、展開ステータスを保存できます。",
+    "Details": "展開された参照構造が多すぎます。"
+  },
+  "msg_warning_copyLink": "選択したオブジェクトは参照構造ではありません。",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "ルート参照構造数が 200 を超える場合、コンテキスト内検索はサポートされません。",
+  "msg_error_Addinterminology": "コンテンツはこの参照構造に追加できません。",
+  "msg_error_CopyTerminology": "参照構造のコピー中にエラーが発生しました。",
+  "msg_error_MoveInterminology": "オブジェクトの移動中にエラーが発生しました。",
+  "msg_error_MoveInSameterminology": {
+    "title": "別の参照構造を選択してください。 ",
+    "subtitle": "ターゲット参照構造とソース参照構造が同じです。"
+  },
+  "msg_error_rename": {
+    "Title": "参照項目の名前は変更できません: {name}",
+    "Advice": "名前がまだ使用されていないか、正しい資格情報を使用していることを確認してください。",
+    "Details": "このオブジェクトの名前を変更するために必要なレスポンシビリティがターゲット コラボレーション スペースにない可能性があります。"
+  },
+  "msg_error_invalidselection": "選択しないとコマンドを起動できません",
+  "msg_error_name_maxlength": "\"{name}\" の入力は {maxLength} 文字以下にしてください。",
+  "msg_error_name_empty": "名前の値を入力します。",
+  "msg_error_TerminologyActivate": {
+    "title": "{name1} をアクティブ化できません。",
+    "subtitle": "オブジェクトが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "参照構造をこの参照ノードに関連付けます。",
+    "subtitle": "参照構造が表示されない可能性があります。たとえば、アクティブでない可能性があります。 "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "ツリーを展開できません。",
+    "subtitle": "アプリケーションをリフレッシュして再度試すか、管理者にサポートを依頼してください。"
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} に次の無効な文字が含まれています: {badChars}",
+    "Advice": "次の文字は使用できません: メッセージ: ~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "参照構造のコンテンツにアクセスできなくなります。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "コンテンツが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_InfoAction_Timeout": "起動されたアクションからタイムアウトまでに応答が受信されませんでした。実行にはさらに長い時間がかかる可能性があります。結果は、手動でリフレッシュした直後に表示されます。",
+  "msg_error_timeout": {
+    "title": "サーバーへの接続がタイムアウトしました。",
+    "subtitle": "接続を確認するか、この操作中に送信されるデータ量を減らしてください。"
+  },
+  "msg_error_terminologyPath": {
+    "title": " この参照構造にはアクセスできなくなりました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "参照構造が削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " この参照構造にはアクセスできなくなりました。",
+    "subtitle": "ウィジェットをリフレッシュします。",
+    "message": "必要な権限がありません。"
+  },
+  "msg_error_copylink": {
+    "title": "リンクをクリップボードにコピーできません。 ",
+    "subtitle": " 操作を再試行するか、管理者にサポートを依頼してください。 "
+  },
+  "msg_error_createNewFromFramework": "新規作成に失敗しました:",
+  "msg_error_createNew": {
+    "Title": "このオブジェクトを変更できません: {type}",
+    "Advice": "正しい資格情報を使用していることを確認してください。",
+    "Details": "このタイプのオブジェクトを作成するために必要なレスポンシビリティがターゲット コラボレーション スペースにない可能性があります。"
+  },
+  "msg_error_rest": {
+    "title": "サーバーが予期せず切断されました。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "msg_warning_notProductRoot": "オブジェクトが見つかりません。",
+  "msg_warning_contentnotavailable": "コンテンツを取得できませんでした。削除されたか、プライベート状態に設定されている可能性があります。",
+  "msg_warning_removeContentFromSearch": {
+    "title": "コンテンツを除去できません。",
+    "advice": "サブ用語を選択して、検索結果を絞り込みます。",
+    "details": "20 個を超える参照構造からコンテンツを除去することはできません。"
+  },
+  "CMDClearSort": "ソートをクリア",
+  "CMDShareTerminologyLink": "リンクをコピー",
+  "CMDShowInTerminologies": "参照構造で表示",
+  "alpha_sorting": "アルファベット順",
+  "alpha_sort_label": "タイトル",
+  "date_sorting": "日付順",
+  "date_sort_label": "変更日",
+  "fonticon_filter": "パネルの内容は現在フィルタ処理されています",
+  "loadingText": "読み込み中...",
+  "SearchEnterMoreThan": "検索には最低 {minNumber} 文字が必要です。",
+  "confirmation_move_title": "コンテンツを移動",
+  "confirmation_move_message": "{source} のコンテンツを {target} に移動しますか?",
+  "confirmation_move_message_monosel": "{selection} を {source} から {target} に移動しますか？",
+  "confirmation_move_message_mono_from_tree": "{source}を{target}に移動しますか？",
+  "confirmation_move_message_multisel": "{nth} 項目を {source} から {target} に移動しますか？",
+  "confirmation_move_button": "移動",
+  "confirmation_info": "タイトルおよび説明以外の属性は、\n {From} を {To} に変換する際に失われます。子オブジェクトのすべての属性がコピーされます。",
+  "authentication_error": {
+    "title": "指定したウィジェットを起動できません。",
+    "subtitle": "資格情報を確認して、もう一度お試しください。"
+  },
+  "noPlatform_error": "このアプリケーションは、お使いのいずれのプラットフォームでも使用できません。",
+  "placeholder_msg_terminology": "この参照構造は現在空です。",
+  "placeholder_CreateTerminology": "新規参照構造",
+  "placeholder_CreateTerm": "新規参照ノード",
+  "column_Thumbnail": "サムネイル",
+  "placeholder_msg_section": "参照構造が作成されていません。",
+  "placeholder_msg_terms": "参照ノードが作成されていません",
+  "placeholder_msg_search": "結果が見つかりません。",
+  "refresh_ongoing": "リフレッシュしています...",
+  "refresh_ok": "リフレッシュが完了しました",
+  "refreshError": {
+    "title": "ウィジェットをリフレッシュできません。",
+    "subtitle": "サポートについては、管理者にお問い合わせください。"
+  },
+  "success": "成功",
+  "warning": "警告",
+  "information": "情報",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "このコンテンツにアクセスできなくなりました。",
+    "Advice": "このタイプのオブジェクトを作成するために必要なレスポンシビリティがターゲット コラボレーション スペースにない可能性があります。",
+    "Details": "オブジェクトが削除されたか、必要な権限がない可能性があります。"
+  },
+  "msg_error_pasteDestination": {
+    "Title": "貼り付けできません。",
+    "InvalidParameters": "選択したオブジェクトをこの宛先に貼り付けることはできません。 ",
+    "BNDestination": "参照ノードは、参照構造セクションの下に貼り付けることはできません。",
+    "BSDestination": "参照構造は、参照構造セクションの下にのみ貼り付けることができます。"
+  },
+  "msg_paste_error": "貼り付けできません。",
+  "indexMode": {
+    "Authoring": "データベース。",
+    "Index": "インデックス。",
+    "Label": "インデックス",
+    "seconds": "秒",
+    "minutes": "分",
+    "hours": "時間",
+    "msg_Authoring": "データベース モードが有効です。パフォーマンスに影響が及ぶ可能性があります。",
+    "activeMode": "アクティブ モード : {mode}",
+    "lastRefresh": "前回の更新 : {timeElapsed} 前。",
+    "reactIndexMode": "インデックス モードは、オーサリング操作またはリフレッシュの時点から {autoSwitch} 分で再活動化されます。",
+    "info_msg_DataNotUptoDate": "インデックス モードがアクティブです。データは最新でない可能性があります。"
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "選択した参照構造 {name} はツリーに見えていません。スクロールして表示し、選択します。",
+  "ViewTooltip": {
+    "ds6w:label": "タイトル",
+    "ds6w:modified": "修正日",
+    "ds6w:responsible": "所有者",
+    "ds6w:type": "タイプ",
+    "ds6w:status": "完成度ステート",
+    "ds6w:project": "コラボレーション スペース",
+    "ds6w:identifier": "名前"
+  },
+  "notifications": {
+    "expandTooLarge": "取得したオブジェクトが多すぎます。<br> フィルタリングするか展開レベルを小さくしてナビゲーションを絞り込んでください。",
+    "initialization_error": {
+      "title": " アプリケーションに予期しないエラーが発生しました。",
+      "subtitle": "サポートについては、管理者にお問い合わせください。"
+    },
+    "tooManyResultFound": "検索は {maxResult} の結果に制限されます。照会を絞り込んでください。"
+  },
+  "generic_service_failure": "オブジェクト情報の取得に失敗しました。数分後に再試行してください。問題が解決しない場合は、管理者にお問い合わせください",
+  "cannot_insert_branch": "オブジェクトを追加できませんでした",
+  "cannot_access_after_changeowner": "所有権変更後は、オブジェクトにアクセスできません"
+}

@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_en",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"View",NLS_ThumbnailView:"Thumbnail View",NLS_TileView:"Tile View",NLS_DataGridView:"DataGrid View",NLS_ListViewTitleColumnHeaderLabel:"Title"});

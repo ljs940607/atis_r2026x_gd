@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizideki ilgili indeksten değer alır.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin dizi tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Array": "okunacak dizi.",
+    "Index": "değerin alınacağı dizi indeksi.",
+    "Value": "diziden alınan değer."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

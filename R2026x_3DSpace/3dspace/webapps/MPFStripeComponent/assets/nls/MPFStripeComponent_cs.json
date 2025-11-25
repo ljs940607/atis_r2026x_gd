@@ -1,0 +1,14 @@
+{
+  "merchant": "Obchodník",
+  "order": "Pořadí",
+  "amount": "Částka",
+  "cardHolder": "Držitel karty",
+  "cardNumber": "Číslo karty",
+  "expiryDate": "Datum expirace",
+  "cardHolderEmpty": "Jméno držitele karty je neplatné.",
+  "pay": "Zaplatit",
+  "phase": "Fáze",
+  "paymentInProgress": "Probíhá platba... Operace může chvíli trvat",
+  "failedToLoadPaymentPage": "Nepodařilo se načíst platební stránku. Zkuste to později znovu, a pokud problém přetrvává, obraťte se na podporu.",
+  "failedToLoadPaymentSection": "Nepodařilo se načíst část s platbami. Zkuste to později znovu, a pokud problém přetrvává, obraťte se na podporu."
+}

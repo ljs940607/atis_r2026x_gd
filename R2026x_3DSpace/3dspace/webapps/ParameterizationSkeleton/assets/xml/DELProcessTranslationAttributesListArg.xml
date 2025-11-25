@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration">
+	<object type="combobox" id="CorpusType" value="process,item,resource" disabled="false" onChange="onChangeCorpusTypeCombo" mandatory="true"></object>
+	<object type="combobox" id="Type" value="" disabled="true" onChange="onChangeTypeCombo" mandatory="true" ></object>
+	<object type="checkbox" id="IncludeAllAttributes" value="true" onChange="onChangeIncludeAllAttributes" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="Attribute" value="" disabled="false" mandatory="false"></object>
+</ui>

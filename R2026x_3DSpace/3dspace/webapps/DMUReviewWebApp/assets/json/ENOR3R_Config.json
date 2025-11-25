@@ -1,0 +1,38 @@
+{
+  "afrService": false,
+  "afrAppId": "ENOR3R_AP",
+  "afrFamily": "PAD3DViewerWAFRFamily",
+  "afrSpecializations": [
+    "ENOR3R_AP",
+    "ENOR3R_AP_2D",
+    "ENOR3R_AP_2DFL",
+    "ENOR3R_AP_Document",
+    "ENOR3R_AP_Workplan",
+    "ENOR3R_AP_Req",
+    "ENOR3R_AP_MSR",
+    "ENOR3R_AP_PIM",
+    "ENOR3R_AP_R2V",
+    "ENOR3R_AP_R2V3D",
+    "R3RFormat_AP_3D",
+    "R3RFormat_AP_R2V",
+    "R3RFormat_AP_2D",
+    "R3RFormat_AP_MSR",
+    "R3RFormat_AP_Workplan",
+    "ENOR3R_AP_2DTable"
+  ],
+  "afrTransitionsFrom": {
+    "ENOR3R_AP": {
+      "type": "CreateNewContainer"
+    }
+  },
+  "afrTransitionsFromFamily": {
+    "PAD3DViewerWAFRFamily": {
+      "type": "ReuseContext"
+    }
+  },
+  "afrTransitionsTo": {
+    "_default_": {
+      "type": "CreateNewContainer"
+    }
+  }
+}

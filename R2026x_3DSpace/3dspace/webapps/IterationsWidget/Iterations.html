@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+<meta charset="utf-8" />
+<!-- Application Metas -->
+<title>Iterations</title>
+ <meta name="autoRefresh" content="0" />
+ <meta http-equiv="cache-control" content="no-cache" />
+ <meta http-equiv="pragma" content="no-cache" />
+ <meta http-equiv="expires" content="0" />
+
+<!-- AMDLoader -->
+<script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+
+<!-- UWA -->
+<link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+<script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+<!-- fullscreen widget :do not use in production -->
+<link rel="stylesheet" type="text/css" href="../Controls/nv-patch.css" />
+
+<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" /> 
+<script type="text/javascript" src="../UIKIT/UIKIT.js"></script>
+
+<script type="text/javascript">
+	// Use iframe to avoid cross domain problem when using CGRViewer in an iframe. 
+	// We use CGRViewer in an iframe to avoid some of its limitations caused by storing data in window, e.g. two CGRViewers cannot function properly in the same page.
+
+    var dependencies = dependencies || [];
+
+    require(['UWA/Core',
+             'DS/i3DXCompassPlatformServices/i3DXCompassPlatformServices',
+             'DS/IterationsWidget/IterationsInternalWidget'
+            ].concat(dependencies),
+            function(UWA, i3DXCompassPlatformServices, IterationsInternalWidget) {
+
+                "use strict";
+
+                debugger;
+
+                function getUrlParamVal(variable) {
+					var query = window.location.search.substring(1);
+					var vars = query.split("&");
+					for (var i = 0; i < vars.length; i++) {
+						var pair = vars[i].split("=");
+						if (pair[0] == variable) {
+							return decodeURIComponent(pair[1]);
+						}
+					}
+					return '';
+				}
+
+                var innerWidgetOptions = {
+                };
+                var innerWidgetParams = {
+                };
+
+                {
+                    let tenant = getUrlParamVal('tenant');
+                    widget.setValue("x3dPlatformId", tenant);
+                    innerWidgetOptions.tenant = tenant;
+
+                    let SecurityContext = getUrlParamVal('SecurityContext');
+                    if (SecurityContext) SecurityContext = decodeURIComponent(SecurityContext);
+                    innerWidgetOptions.SecurityContext = SecurityContext;
+
+                    let appId = getUrlParamVal('appId');
+                    if (appId)
+                        widget.setValue("parent_x3dAppId", appId);
+
+                    let isODT = getUrlParamVal('_isODT')==='true' || getUrlParamVal('_isODT2')==='true';
+                    innerWidgetOptions.isODT = isODT;
+
+                    let isODT1 = (getUrlParamVal('_isODT')==='true')?true:undefined;
+                    let isODT2 = (getUrlParamVal('_isODT2')==='true')?true:undefined;
+                    innerWidgetOptions.isODT1 = isODT1;
+                    innerWidgetOptions.isODT2 = isODT2;
+
+                    let isWebInWinODTMode = getUrlParamVal('_isWebInWinODTMode') != '';
+                    innerWidgetOptions.isWebInWinODTMode = isWebInWinODTMode;
+
+                    let lang = getUrlParamVal('lang');
+                    innerWidgetOptions.lang = lang;
+
+                    let wintop = getUrlParamVal('wintop')==='true';
+                    innerWidgetOptions.wintop = wintop;
+
+                    let addinmode = getUrlParamVal('addinmode')
+                    innerWidgetOptions.addinmode = addinmode;
+
+                    let client_app_domain = getUrlParamVal('client_app_domain');
+                    innerWidgetOptions.client_app_domain = client_app_domain;
+                    let client_app_name = getUrlParamVal('client_app_name');
+                    innerWidgetOptions.client_app_name = client_app_name;
+
+                    let mandatoryComment = getUrlParamVal('mandatoryComment');
+                    innerWidgetOptions.mandatoryComment = mandatoryComment && mandatoryComment=="true" ? true : undefined;
+
+                    let change_autc = getUrlParamVal('change_autc');
+                    innerWidgetOptions.change_autc = change_autc;
+                    let conf_autc = getUrlParamVal('conf_autc');
+                    innerWidgetOptions.conf_autc = conf_autc;
+
+                    var licenseList = window.parent._licenseList;
+                    innerWidgetOptions._licenseList = licenseList;
+
+                    try {
+                        window.webinwinSocket = window.parent._webinwincom_socket;
+                        innerWidgetOptions.webinwinSocket = window.webinwinSocket;
+                    } catch (Exception){
+                        console.log("info: failed to read window.parent._webinwincom_socket");
+                    }
+
+                    if (isODT) innerWidgetOptions._po_exposed = {};
+                    if (isODT) window.parent._po_exposed = innerWidgetOptions._po_exposed;
+                }
+                {
+                    let objectId = getUrlParamVal("objectId");
+                    innerWidgetParams.objectId = objectId;
+
+                    let objectType = getUrlParamVal("objectType");
+                    if (objectType) objectType = decodeURIComponent(objectType);
+                    innerWidgetParams.objectType = objectType;
+
+                    let objectUsage = getUrlParamVal("objectUsage");
+                    if (objectUsage) objectUsage = decodeURIComponent(objectUsage);
+                    innerWidgetParams.objectUsage = objectUsage;
+
+                    let msgkid = getUrlParamVal('msgkid');
+                    innerWidgetParams.msgkid = msgkid;
+                }
+
+                var NLS = {};
+
+                var loadNlsJson = new Promise( (resolve,reject) => {
+                    var nlsJsonPath = 'text!DS/IterationsWidget/assets/nls/IterationsWidget_' + innerWidgetOptions.lang + '.json';
+                    require([nlsJsonPath], (nlsJson) => {
+                            NLS.json = JSON.parse(nlsJson);
+							NLS.get = function(name) {
+								return NLS.json[name];
+							}
+                            resolve();
+                        },
+                        reject
+                    );
+                });
+
+                console.log("inner window.location.href: " + (window.location ? window.location.href.substring(0, 100) : "???"));
+
+                var getPlatform3DSpaceURL = new Promise( (resolve,reject) => {
+                    let wintop = innerWidgetOptions.wintop;
+                    let isODT = innerWidgetOptions.isODT;
+                    if (wintop||isODT) {
+                        var href = window.location.href; // https://vdevpril258am.ux.dsone.3ds.com/3DSpace/webapps/IterationsWidget/Iterations.html?objectId=D72B9B561F5B00006DA579552D570E00
+					    var i = href.indexOf('webapps');
+					    innerWidgetOptions.platform3DSpaceURL = href.substring(0, i); // https://vdevpril258am.ux.dsone.3ds.com/3DSpace/
+                        resolve();
+                        return;
+                    }
+                    let tenant = innerWidgetOptions.tenant;
+                    i3DXCompassPlatformServices.getPlatformServices({
+                        platformId: tenant,
+                        onComplete: (data) => {
+                            console.log("onComplete of getPlatformServices");
+                            innerWidgetOptions.platform3DSpaceURL = data["3DSpace"] + "/";
+                            resolve();
+                        },
+                        onFailure: () => { 
+                            console.log("onFailure of getPlatformServices");
+                            reject();
+                        }
+                    });
+                });
+
+				Promise.all([loadNlsJson,getPlatform3DSpaceURL])
+                .then(function() {
+                            console.log("platform3DSpaceURL: " + innerWidgetOptions.platform3DSpaceURL);
+
+                            function onLoad() {
+                                var options = {};
+                                function postMessage(arg1,arg2) {
+                                    window.parent.postMessage(arg1,arg2);
+                                };
+                                innerWidgetOptions.postMessage = postMessage;
+                                let internalWidget = new IterationsInternalWidget(widget, options, innerWidgetOptions, NLS);
+                                internalWidget.using(innerWidgetParams).load();
+                                widget.body.setContent(internalWidget);
+                            };
+
+                            if (widget.launched) {
+                                onLoad();
+                            } else {
+                                widget.onLoad = onLoad;
+                            }
+			    });
+    });
+
+</script>
+</head>
+<body>
+</body>
+</html>

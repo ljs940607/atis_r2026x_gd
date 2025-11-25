@@ -1,0 +1,1 @@
+define("DS/ErrorWidget/ErrorWidget_tr",{});define("DS/ErrorWidget/assets/nls/langEW",{"Server issue":"Sunucuyla iletişim kurulamıyor","Forbidden access":"Sunucuya erişim yetkiniz yok"});

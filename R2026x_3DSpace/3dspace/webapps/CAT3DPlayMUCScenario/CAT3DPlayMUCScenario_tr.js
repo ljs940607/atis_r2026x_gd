@@ -1,0 +1,1 @@
+define("DS/CAT3DPlayMUCScenario/CAT3DPlayMUCScenario_tr",{});define("DS/CAT3DPlayMUCScenario/assets/nls/CAT3DPlayMUCRegister",{MUC_Title:"Kısıtlamalar Doğrultusunda Taşı",MUC_Description:"Kısıtlamalar Doğrultusunda Taşı"});

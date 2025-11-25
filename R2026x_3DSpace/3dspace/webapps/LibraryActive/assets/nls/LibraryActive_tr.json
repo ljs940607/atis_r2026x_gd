@@ -1,0 +1,25 @@
+{
+  "activeClassification_cmd": "Aktif Sınıflandırma",
+  "name_Section_FavoriteLibraries": "Sık kullanılanlar",
+  "name_Section_AllLibraries": "Kütüphaneler",
+  "activeClassification_hover_access": "Erişim",
+  "activeClassification_msg_empty": "Boş",
+  "activeClassification_msg_noclassfoud": "Sınıflandırma bulunamadı",
+  "activeClassification_btn_focus": "Sınıflandırmayı ayarlamaya odaklanın",
+  "CMDExpandAll": "Tümünü Genişlet",
+  "CMDCollapseAll": "Tümünü Daralt",
+  "multiSelectionComponent": {
+    "button_OK": "Sınıflandır",
+    "button_Cancel": "İptal",
+    "widget_name": "Kütüphanelerde Sınıflandır",
+    "PLMNewLibraryWidgetName": "Sınıf Seç",
+    "PLMNewbutton_OK": "Seç",
+    "msg_ClassifyInProgress": "Sınıflandırılıyor...",
+    "msg_ClassifySuccessful": "Başarıyla Sınıflandırıldı.",
+    "msg_ClassifyFailed": "Sınıflandırırken hata oluştu. Sınıflandırma erişiminiz yok VEYA verilen Sınıflarda zaten sınıflandırılmış.",
+    "msg_selectNodeToSeeInfo": "Ayrıntılarını görmek için bir Kütüphane veya Sınıf seçin.",
+    "msg_selection_Incorrect": "Geçerli seçim komutu başlatmak için doğru değil",
+    "msg_info_favoriteadded": "\"{name1}\" Sık Kullanılanlara eklendi.",
+    "msg_info_favoriteremoved": "\"{name1}\" Sık Kullanılanlardan kaldırıldı."
+  }
+}

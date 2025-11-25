@@ -1,0 +1,134 @@
+{
+  "properties": [
+    {
+      "name": "Collab.Body.Shape",
+      "type": "VCXPropertyValueEnum",
+      "value": 2
+    },
+    {
+      "name": "Collab.Body.Shape.Inner",
+      "type": "VCXPropertyValueEnum",
+      "value": 3
+    },
+    {
+      "name": "Hotspot.Radius",
+      "type": "VCXPropertyValueFloat",
+      "value": 16
+    },
+    {
+      "name": "Hotspot.Radius.Inner",
+      "type": "VCXPropertyValueFloat",
+      "value": 37
+    },
+
+    {
+      "name": "Collab.Background.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.953125,
+        0.95703125,
+        0.9609375,
+        0
+      ]
+    },
+    {
+      "name": "Collab.Background.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.953125,
+        0.95703125,
+        0.9609375,
+        0
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Image.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Image.Doc.ID",
+      "type": "VCXPropertyValueDocId",
+      "value": -1
+    },
+    {
+      "name": "Collab.Image.Scale",
+      "type": "VCXPropertyValueFloat",
+      "value": 0.5
+    },
+    {
+      "name": "Collab.Body.Shadow.Availability",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Shadow.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 0.55
+    },
+    {
+      "name": "Collab.Body.Shadow.Distance",
+      "type": "VCXPropertyValueFloat",
+      "value": 3
+    },
+    {
+      "name": "Collab.Body.Shadow.Orientation",
+      "type": "VCXPropertyValueFloat",
+      "value": 45
+    },
+    {
+      "name": "Collab.Body.Shadow.Blur",
+      "type": "VCXPropertyValueFloat",
+      "value": 12
+    },
+    {
+      "name": "Actor.Pulse.Condition",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Actor.Pulse.Loop",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Actor.Pulse.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 40
+    },
+    {
+      "name": "Actor.Pulse.Sinus",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Actor.Pulse.Period",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Actor.Pulse.PauseAnim",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    } 
+
+  ],
+  "name": "HotspotWhiteRounded",
+  "objectID": "styleID_HotspotWhiteRounded",
+  "visible": true
+}

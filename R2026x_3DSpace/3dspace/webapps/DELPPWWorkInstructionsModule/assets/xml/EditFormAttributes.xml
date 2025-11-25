@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2015 -->
+<AttributesDescriptionList version="2.0" Title="Attributes Description List by Types" Description="Sample configuration file delivered by DS." xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/EditLinkAttributes.xsd">
+
+	<Type name="DELWkiDataCollectPlanReferenceInteger"  >
+		<Attribute name="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" />
+		<Attribute name="V_MinValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MinControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="chips"/>
+		<Attribute name="V_MaxControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MaxValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+
+	<Type name="DELWkiDataCollectPlanReferenceText">
+		<Attribute name="V_DCParameterOnto" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" />
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="chips"/>
+		<Attribute name="V_ConformanceValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_DCPerformanceCharac" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" readOnly="true"/>
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+
+	<Type name="DELWkiDataCollectPlanReferenceBoolean">
+		<Attribute name="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true" />
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" />
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_ConformanceValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+
+	<Type name="DELWkiDataCollectPlanReferenceTimestamp">
+		<!-- IR-1292741-3DEXPERIENCER2024x Type name is updated to lowercase 's' in Timestamp. Earlier it was TimeStamp-->
+		<Attribute name="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCTimestampFormat" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"  />
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+
+	<Type name="DELWkiDataCollectPlanReferenceReal">
+		<Attribute name="V_DCParameterOnto" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true" />
+		<Attribute name="V_DCMode" dicoType="PLMSpecifyHowToCollectDataCnx" mandatory="true" readOnly="true"/>
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" />
+		<Attribute name="V_DCMagnitude" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_DCUnit" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_MinEoFValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MinValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MinControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_Value" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="UnitsSpinEditor"/>
+		<Attribute name="V_MaxControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MaxValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_MaxEoFValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_DCFormula" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" readOnly="true"/>
+		<Attribute name="V_DCPerformanceCharac" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" readOnly="true"/>
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+	<Type name="DELWkiDataCollectChecklistReferenceBoolean">
+		<Attribute name="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx"/>
+		<Attribute name="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" mandatory="true"/>
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_ConformanceValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo"/>
+		<Attribute name="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" displayType="richText" />
+	</Type>
+	<Type name="DELResourceParameterPlanReferenceSET">
+		<Attribute name="V_RPPCriticality" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" mandatory="true"/>
+		<Attribute name="V_RPPRscMinValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" readOnly="true"/>
+		<Attribute name="V_RPPMinEoFValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMinValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor"/>
+		<Attribute name="V_RPPMinControlValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor"/>
+		<Attribute name="V_RPPValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="UnitsSpinEditor"/>
+		<Attribute name="V_RPPMaxControlValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMaxValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor"/>
+		<Attribute name="V_RPPMaxEoFValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPRscMaxValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" readOnly="true"/>
+		<Attribute name="V_RPPRichText" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="richText" />
+	</Type>
+	<Type name="DELResourceParameterPlanReferenceGET">
+		<Attribute name="V_RPPCriticality" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" mandatory="true"/>
+		<Attribute name="V_RPPRscMinValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" readOnly="true"/>
+		<Attribute name="V_RPPMinEoFValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMinValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMinControlValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor"/>
+		<Attribute name="V_RPPValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="UnitsSpinEditor"/>
+		<Attribute name="V_RPPMaxControlValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMaxValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPMaxEoFValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" />
+		<Attribute name="V_RPPRscMaxValue" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="inclusiveEditor" readOnly="true"/>
+		<Attribute name="V_RPPRichText" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="richText" />
+	</Type>
+	<Type name="DELResourceParameterPlanReferenceSETArr">
+		<Attribute name="V_RPPCriticality" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" mandatory="true"/>
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo"/>
+		<Attribute name="V_RPPRichText" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="richText" />
+	</Type>
+	<Type name="DELResourceParameterPlanReferenceGETArr">
+		<Attribute name="V_RPPCriticality" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" mandatory="true"/>
+		<Attribute name="V_PossibleValues" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo"/>
+		<Attribute name="V_RPPRichText" dicoType="PLMSpecifyHowToResourcePlanCnx_Custo" displayType="richText" />
+	</Type>
+</AttributesDescriptionList>

@@ -1,0 +1,48 @@
+.wrapper {
+	width: 333px;
+	height: 100%;
+	overflow: auto;
+	background-image: url("../images/rcbg.jpg");
+}
+
+.RegCountryLangDiv {
+	padding-top: 10px;
+	height: 100%;
+	height: 25%;
+}
+
+.leftPane {
+	width: 167px;
+	padding-top: 10px;
+	float: left;
+}
+
+.rightPane {
+	padding-top: 10px;
+	margin-left: 167px;	
+}
+
+.infotext {
+	text-align: justify;
+	font-style: italic;
+	color: #DD0000; 
+	padding: 10px 5px 10px 5px; 
+	background-color: #E9E9E9;
+}
+
+.hideForm {
+	display: none;
+}
+
+.regionCountries {
+	height: 100% !important;
+}
+
+.regionCountriesHidden {
+	height: 100% !important;
+	display: none;
+}
+
+body {
+	height: 100% !important;
+}

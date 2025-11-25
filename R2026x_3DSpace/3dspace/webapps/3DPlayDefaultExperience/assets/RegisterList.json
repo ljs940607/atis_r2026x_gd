@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "NS": "DS",
+      "module": "3DPlayExploreScenario",
+      "name": "3DPlayExploreRegister",
+			"isDefault": "true"
+    },
+    {
+      "NS": "DS",
+      "module": "CATKinPlayScenario",
+      "name": "CATKinPlayRegister"
+    },
+    {
+      "NS": "DS",
+      "module": "CAT3DPlayMUCScenario",
+      "name": "CAT3DPlayMUCRegister"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "defaultAvailability": {
+    "pprTypes": {
+      "MBOM": false,
+      "SBOM": false,
+      "RESOURCE": false,
+      "PRODUCT": false,
+      "PROCESS": false,
+      "SERVICEPROCESS": false
+    },
+    "transitions": {
+      "Graphics": true,
+      "BuildUp": false,
+      "WorkInstructions": false
+    },
+    "selection": {
+      "selection": false,
+      "multiSelection": false
+    }
+  },
+  "commands": [
+    {
+      "identifier": "DELWebOER3DVolumeQueryCmd",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "pprTypes": {
+          "MBOM": true,
+          "SBOM": true,
+          "RESOURCE": true,
+          "PRODUCT": true,
+          "PROCESS": false,
+          "SERVICEPROCESS": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERCleanAllCmd",
+      "handlerType": "default",
+      "defaultAvailability": false,
+      "modes": {
+        "pprTypes": {
+          "MBOM": true,
+          "SBOM": true,
+          "RESOURCE": true,
+          "PRODUCT": true,
+          "PROCESS": true,
+          "SERVICEPROCESS": true
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "ENO3DTransparencyCmd",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompShowAll",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompShowOnly",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompLoadAllMaterials",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompRemoveAllMaterials",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompLoadMaterial",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompRemoveMaterial",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERTableViewCompHideShowMaterial",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": false,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERViewerFilterCommand",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "pprTypes": {
+          "MBOM": true,
+          "SBOM": true,
+          "RESOURCE": true,
+          "PRODUCT": true,
+          "PROCESS": true,
+          "SERVICEPROCESS": true
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWeb3DViewerHideShowCmd",
+      "handlerType": "default",
+      "defaultAvailability": true,
+      "modes": {
+        "transitions": {
+          "Graphics": true,
+          "BuildUp": true,
+          "WorkInstructions": false
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERRelationalNavigatorCmd",
+      "handlerType": "default",
+      "defaultAvailability": false,
+      "modes": {
+        "selection": {
+          "selection": true,
+          "multiSelection": true
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERPropertiesPanelCmd",
+      "handlerType": "default",
+      "defaultAvailability": false,
+      "modes": {
+        "selection": {
+          "selection": true,
+          "multiSelection": true
+        }
+      },
+      "force": false
+    },
+    {
+      "identifier": "DELWebOERGenerateIssueCmd",
+      "handlerType": "default",
+      "defaultAvailability": false,
+      "modes": {
+        "selection": {
+          "selection": true,
+          "multiSelection": true
+        }
+      },
+      "force": false
+    }
+  ]
+}

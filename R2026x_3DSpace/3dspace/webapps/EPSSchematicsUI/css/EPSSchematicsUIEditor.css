@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "eps3dsFont";
+  src: url("../assets/3dsRegular.otf") format("truetype");
+}
+/* Schematics Editor style configuration */
+.epsSchematicsEditor {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+/* Schematics Body style configuration */
+.epsSchematicsBody {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.wux-windows-immersive-frame.sch-immersive-frame {
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+
+.sch-nodeidselector-displayed .sch-block.sch-block-no-nodeid {
+  opacity: 0.5;
+}
+
+.sch-nodeidselector-paint-mode {
+  cursor: url("../assets/svg/brush.svg") 0 24, auto;
+}
+.sch-nodeidselector-paint-mode .sch-block .sch-block-container {
+  cursor: url("../assets/svg/brush-ok.svg") 0 24, auto;
+}
+.sch-nodeidselector-paint-mode .sch-block.sch-block-no-nodeid .sch-block-container {
+  cursor: url("../assets/svg/brush-block.svg") 0 24, auto;
+}

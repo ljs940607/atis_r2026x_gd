@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_fr",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menu",addTab:"Ajouter un onglet",webAppsResizing:"Le redimensionnement des applications Web n'est persistant que pour les propriétaires {type}",webAppsResizingProductCockpit:"Le redimensionnement des applications Web n'est pas conservé dans ce cockpit"});

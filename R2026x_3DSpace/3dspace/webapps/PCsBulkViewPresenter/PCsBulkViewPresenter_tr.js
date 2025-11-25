@@ -1,0 +1,1 @@
+define("DS/PCsBulkViewPresenter/PCsBulkViewPresenter_tr",{});define("DS/PCsBulkViewPresenter/assets/nls/PCsBulkViewPresenter",{ProductConfiguration:"Ürün Konfigürasyonu",BaseConfiguration:"Temel Konfigürasyon",TotalVariability:"Toplam Değişkenlik",TotalProductConfigurations:"Toplam Ürün Konfigürasyonu"});

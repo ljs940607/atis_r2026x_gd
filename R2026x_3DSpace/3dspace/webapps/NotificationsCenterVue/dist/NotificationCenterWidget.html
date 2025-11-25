@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+  <title>3DNotification Center</title>
+
+  <meta name="author" content="3DNotification" />
+  <meta name="description" content="3DNotification Center" />
+  <meta name="keywords" content="3DNotification Center" />
+  <meta name="debugMode" content="false" />
+  <meta name="strictMode" content="true" />
+  <meta name="autoRefresh" content="0" />
+
+  <!-- Will be updated on vite build with href="../../.." to point to the webapps folder -->
+  <link rel="webappsBaseUrl" href="../../..">
+  <script>
+    const baseUrl = window.dsDefaultWebappsBaseUrl || './';
+    const entryPointUrl = (baseUrl + 'src/apps/entrypointWidget.js').replaceAll("//", "/");
+    const init = () => {
+      document.getElementById('entrypoint').setAttribute("src", entryPointUrl);
+    }
+  </script>
+  
+              <!-- from center v1 -->
+              <link rel="stylesheet" href="../UIKIT/UIKIT.css" />
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script
+      type="text/javascript"
+      src="../WebappsUtils/WebappsUtils.js"
+    ></script>
+               <!-- Application JS Start -->
+    <script>
+      //
+      function loadCenterV2() {
+        //
+        widget.addEvent("onLoad", function () {
+          var baseUrl = window.dsDefaultWebappsBaseUrl.replace("../", "");
+          //
+          var script = document.createElement("script");
+          script.setAttribute(
+            "src",
+            baseUrl +
+              'resources/NotificationsCenterVue/assets/NotificationCenterWidget.js'
+          );
+          script.setAttribute("type", "module");
+          document.head.appendChild(script);
+          //
+          var link = document.createElement("link");
+          link.setAttribute(
+            "href",
+            baseUrl +
+              'resources/NotificationsCenterVue/assets/NotificationCenterWidget.js'
+          );
+          link.setAttribute("rel", "stylesheet");
+          document.head.appendChild(link);
+          //
+          var link = document.createElement("link");
+          link.setAttribute("href", "../../..");
+          link.setAttribute("rel", "webappsBaseUrl");
+          document.head.appendChild(link);
+        });
+      }
+      //
+    
+  
+              function loadCenter() {
+        
+              loadCenterV2();
+
+              }
+      //
+      loadCenter();
+    </script>
+    <!-- Application JS End -->
+              
+</head>
+
+<body onload="init()">
+</body>
+
+</html>

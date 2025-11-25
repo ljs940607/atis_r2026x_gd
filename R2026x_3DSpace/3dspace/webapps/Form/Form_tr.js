@@ -1,0 +1,1 @@
+define("DS/Form/Form_tr",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"Bu alan gereklidir"});

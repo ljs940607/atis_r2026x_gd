@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "파생된 출력 규칙 세부 정보",
+    "doattributes": "파생된 출력 규칙 속성",
+    "name": "이름",
+    "connector": "커넥터",
+    "implicitRule": "암시적 규칙",
+    "external": "외부 생성",
+    "parameters": "변환 파라미터",
+    "converter": "변환기",
+    "origin": "원점",
+    "forceUpdate": "강제 업데이트",
+    "uptodateDO": "최신",
+    "jobStatus": "작업의 상태",
+    "format": "포맷",
+    "alias": "통합 포맷",
+    "yes": "예",
+    "no": "아니요"
+  },
+  "buttons": {
+    "cancel": "취소"
+  },
+  "popup": {
+    "option": "옵션",
+    "value": "값",
+    "yesButton": "예",
+    "noButton": "아니요",
+    "cancelButton": "취소"
+  },
+  "error": {
+    "title": "오류",
+    "invalidFrame": "작업을 수행할 수 없습니다. 위젯을 새로 고치고 다시 시도하십시오.",
+    "invalidParameter": "파라미터가 올바르게 정의되지 않았습니다."
+  }
+}

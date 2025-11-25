@@ -1,0 +1,25 @@
+<div id="im-call-settings-item">
+  <div class="im-call-settings-item-label">
+    <vu-icon v-if="icon" :icon="icon" />
+    {{ label }}
+    <div>
+      <slot name="authorization"></slot>
+    </div>
+  </div>
+  <div 
+    v-if="selectOption"
+    class="im-call-settings-item-dropdown"
+    @click="warningOnSettings">
+    <vu-select
+      :placeholder="select.placeholder"
+      :hidePlaceholderOption="true"
+      :options="select.options"
+      :rules="[v => select.rule]"
+      :value="select.model"
+      @input="updateSelect"
+    />
+  </div>
+  <div v-if="preview">
+    <slot name="preview"></slot>
+  </div> 
+</div>

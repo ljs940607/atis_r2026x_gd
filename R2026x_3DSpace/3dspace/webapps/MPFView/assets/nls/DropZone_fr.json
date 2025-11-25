@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Déposer le contenu ici",
+  "orMessage": "ou",
+  "upContent": "Charger du contenu",
+  "wrongFileType": "Type de fichier incorrect",
+  "fileTooBig": "La taille du fichier dépasse la limite de {0}",
+  "bytes": "octets",
+  "kiloByte": "Ko",
+  "megaByte": "Mo",
+  "gigaByte": "Go",
+  "teraByte": "To",
+  "filesExceedSizeOf": "{0} fichiers sur {1} excèdent la taille limite de {2}",
+  "filesHaveWrongFormat": "{0} fichiers sur {1} sont au mauvais format"
+}

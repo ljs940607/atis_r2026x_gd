@@ -1,0 +1,12 @@
+m|InstantMessagingAPI\RTConvAPI.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25193|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\RTConvAPI\RTConvAPI.js|1752300642|21665
+s|InstantMessagingAPI\RTConvAPI.mweb\src\drivers\RTC_driver.js|1752267500|14777
+u|InstantMessagingAPI\RTConvAPI.mweb\src\RTConvAPI.js|1752267500|10964
+u|InstantMessagingAPI\RTConvAPI.mweb\src\drivers\Swym_driver.js|1724990255|15874
+u|InstantMessagingAPI\RTConvAPI.mweb\src\formatters\formatRTCResponse.js|1729808863|1238
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

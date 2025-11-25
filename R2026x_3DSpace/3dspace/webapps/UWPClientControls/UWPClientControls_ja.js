@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_ja",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"メニュー",addTab:"タブを追加",webAppsResizing:"Web アプリケーションのサイズ変更は、{type} 所有者にのみ永続的です",webAppsResizingProductCockpit:"Web アプリケーションのサイズ変更は、このコックピットでは保持されません"});

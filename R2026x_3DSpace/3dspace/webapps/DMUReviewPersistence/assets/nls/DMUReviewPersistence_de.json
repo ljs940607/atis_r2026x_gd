@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Befehl konnte nicht gestartet werden",
+  "LoadingPanel": "Wird geladen...",
+  "cmdFailure": "Befehl konnte nicht gestartet werden",
+  "cmdFailureNls": "NLS-Fehler, Befehl konnte nicht gestartet werden",
+  "SavingStep": "Speichervorgang wird ausgeführt...",
+  "createReview": {
+    "quickEdition": "Diesen Dialog nicht mehr anzeigen",
+    "errorMessage": "Erstellen der Überprüfung fehlgeschlagen",
+    "errorShape": "Für eine 3D-Form kann keine Überprüfung erstellt werden",
+    "multipleRootsLabel": "Einen Kontext auswählen",
+    "nameLabel": "Titel",
+    "defaultReviewName": "Überprüfen",
+    "namePlaceholder": "Titel hinzufügen",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Eine Beschreibung hinzufügen",
+    "restrictedEditionLabel": "Eingeschränkte Bearbeitung",
+    "restrictedEditionActivated": "Aktiviert",
+    "restrictedEditionDeactivated": "Deaktiviert",
+    "panelTitle": "Neue Überprüfung",
+    "panelValidationTitle": "Neue Gültigkeitsprüfung",
+    "createreviewButton": "Erzeugen",
+    "cancelButton": "Abbrechen",
+    "importModel": "JSON-Modell importieren",
+    "slideTitle": "Gleiten",
+    "loadingMessage": "Neue Überprüfung wird erstellt...",
+    "warningMessage": "Die aktuelle Überprüfung wird in der Sitzung durch die neue Überprüfung ersetzt",
+    "labelReview": "Überprüfen",
+    "labelMarkup": "Markup",
+    "labelCheck": "Prüfungen",
+    "labelMember": "Mitglieder",
+    "labelObjects": "Objekte",
+    "saveAsDraftButton": "Als Entwurf speichern",
+    "reviewContext": "Kontext",
+    "multiReviewsNaming": "Automatisch",
+    "validatedObjects": "Validierte Objekte",
+    "changeAction": "Änderungsaktion",
+    "chkListTitle": "Checkliste",
+    "autoCompletePlaceHolder": "Hier ablegen oder Eingabe tätigen, um Suche zu starten",
+    "setValObjectAsValidatedNotif": "Dieses Objekt kann nicht als validiertes Objekt festgelegt werden",
+    "setSomeValObjectAsValidatedNotif": "Einige Objekte können nicht als validiertes Objekt festgelegt werden",
+    "setDefaultNotif": "Einige abgelegte Objekte werden nicht unterstützt",
+    "setDefaultChgActNotif": "Dieses Objekt kann nicht als Änderungsaktion festgelegt werden",
+    "setCtxRootNotif": "Das Ablegen mehrerer Auswahlen wird für Kontexte nicht unterstützt",
+    "setChgActNotif": "Das Ablegen mehrerer Auswahlen wird für Änderungsaktionen nicht unterstützt",
+    "setChgActCtxNotif": "Änderungsaktion kann nicht mit diesem Kontexttyp festgelegt werden",
+    "noCASearchFound": "Keine Suche gefunden ODER Änderung bereits hinzugefügt"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Diesen Dialog nicht mehr anzeigen",
+    "errorMessage": "Erstellen von Markup fehlgeschlagen",
+    "multipleRootsLabel": "Einen Kontext auswählen",
+    "nameLabel": "Titel",
+    "defaultMarkupName": " Markup",
+    "namePlaceholder": "Titel hinzufügen",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Eine Beschreibung hinzufügen",
+    "panelTitle": "Neues Markup",
+    "createMarkupButton": "Erzeugen",
+    "cancelButton": "Abbrechen",
+    "importModel": "JSON-Modell importieren",
+    "slideTitle": "Gleiten",
+    "loadingMessage": "Neues Markup wird erstellt...",
+    "warningMessage": "Das aktuelle Markup wird in der Sitzung durch das neue Markup ersetzt"
+  },
+  "createCheck": {
+    "errorMessage": "Erstellen der geprüften Anforderung fehlgeschlagen",
+    "typeToSearch": "Hier ablegen oder Eingabe tätigen, um Suche zu starten",
+    "noSearchFound": "Keine Suche gefunden ODER Anforderung bereits hinzugefügt",
+    "requirement": "Anforderungen"
+  },
+  "createHighlight": {
+    "errorMessage": "Erstellen der Hervorhebung fehlgeschlagen",
+    "selectHighlight": "Unmarkierten Kommentar in Markup auswählen"
+  },
+  "valStateChange": {
+    "error": "Prüfungsgültigkeitsstatus konnte nicht geändert werden."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "Validiertes Objekt ist bereits vorhanden",
+    "SelectMsg": "Validierte Objekte auswählen, die hinzugefügt werden",
+    "OkBtn": "OK",
+    "CancelBtn": "Abbrechen"
+  },
+  "loadValidationContextError": "Überprüfungen dieses Datentyps werden nicht unterstützt.",
+  "loadValidationMarkupError": "Die Überprüfung konnte nicht geladen werden.",
+  "page": "Seite",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Status löschen",
+      "message": "Möchten Sie den Status der ausgewählten Kommentare wirklich löschen?",
+      "okLabel": "Löschen"
+    },
+    "unableToMark": "Status einiger Kommentare kann nicht geändert werden."
+  }
+}

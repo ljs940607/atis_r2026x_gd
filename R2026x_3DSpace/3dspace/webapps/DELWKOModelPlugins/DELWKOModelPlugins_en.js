@@ -1,0 +1,1 @@
+define("DS/DELWKOModelPlugins/DELWKOModelPlugins_en",{});define("DS/DELWKOModelPlugins/assets/nls/DELWKOViewPreferencesUI",{HeaderName:"Header Name",IsVisible:"Is Visible",Width:"Width",MinWidth:"Min Width",IsPinned:"Is Pinned"});

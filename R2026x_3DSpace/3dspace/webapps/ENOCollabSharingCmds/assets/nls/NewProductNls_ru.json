@@ -1,0 +1,11 @@
+{
+  "createNewProduct": "Новый продукт",
+  "insertNewProduct": "Вставить новый продукт",
+  "newObjectType": "Продукт",
+  "multiParentInsertProductTitle": "Вставить новый продукт",
+  "multiParentInsertProductMsg": "Действительно вставить новый продукт под несколькими родительскими элементами?",
+  "multiParentCannotInsert": "Ошибка. Невозможно вставить в выбранные объекты",
+  "CannotInsert.Type": "Невозможно вставить этот тип объекта под выбранным объектом: {type}",
+  "okBtn": "OK",
+  "closeBtn": "Закрыть"
+}

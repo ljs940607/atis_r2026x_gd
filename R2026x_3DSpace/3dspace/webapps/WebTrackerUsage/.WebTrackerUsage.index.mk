@@ -1,0 +1,17 @@
+m|X3DAnalyticsWebTracker\WebTrackerUsage.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25011|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebTrackerUsage\WebTrackerUsage.js|1736606699|43600
+s|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\Emitter.js|1732915499|2479
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\Events.js|1732915499|1207
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\GDPR.js|1732915499|4347
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\Inherit.js|1732915499|8393
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\TrackerAPI.js|1732915499|38966
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\UsageManager.js|1732915499|755
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\UsageShardingManager.js|1736593900|62377
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\Utils.js|1732915499|18282
+u|X3DAnalyticsWebTracker\WebTrackerUsage.mweb\src\XMLHttpRequest.js|1732915499|4642
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

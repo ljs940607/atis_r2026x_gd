@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Somente o arquivo STEP AP242 é compatível",
+    "IFC_UNSUPPORT": "Somente os formatos de arquivo IFC2X3, IFC4 e IFC4X3_ADD2 são aceitos",
+    "NO_TESSELLATION": "Somente arquivos STEP com dados tesselados são compatíveis",
+    "NO_ZIP": "O formato compactado não é compatível",
+    "EMPTY_ROOT": "Raiz do documento SEM geometria",
+    "NO_REP": "Documento sem representação suportada (produto ou peça)",
+    "EXT_REF": "Documento com referência externa não é compatível. Somente arquivos monolíticos são compatíveis",
+    "EMPTY_PROD": "Documentar produto sem geometria tesselada",
+    "NO_STPXZ": "stpxz no arquivo ainda não suportado"
+  },
+  "warning": {
+    "MISSING_PART": "alguns arquivos vinculados estão ausentes"
+  }
+}

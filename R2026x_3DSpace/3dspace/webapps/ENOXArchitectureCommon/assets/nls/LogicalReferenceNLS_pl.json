@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nowe odniesienie logiczne"
+  },
+  "message": {
+    "confirm_detach_instance": "Czy na pewno chcesz odłączyć wybrane wystąpienia?",
+    "confirm_reparent": "Poniższe odniesienia zostaną ponownie przypisane do "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Ponowne przypisanie odniesień nie powiodło się",
+    "reparent_cyclic": "Ten nowy Rodzic jest już zapisany na liście Ponownie przypisanych odniesień. Usuń istniejący wybór, aby uniknąć struktury cyklicznej."
+  },
+  "success": {
+    "reparent": "Ponowne przypisanie powiodło się"
+  }
+}

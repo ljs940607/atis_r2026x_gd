@@ -1,0 +1,21 @@
+{
+  "titleLabel": "Título",
+  "typeLabel": "Tipo",
+  "sequenceNoLabel": "Número de secuencia",
+  "selectionMode": "Incluye/Excluye",
+  "configurationLabel": "Configuración",
+  "variantType": "Variante",
+  "valueType": "Valor",
+  "variabilityGroupType": "Grupo de opciones",
+  "optionType": "Opción",
+  "parameterType": "Parámetro",
+  "loadingStatusLabel": "Cargando configuraciones del producto",
+  "totalPCLabel": "Configuraciones totales del producto",
+  "totalVariablityLabel": "Variabilidad total",
+  "applySelectionAction": "Aplicar a la selección",
+  "openPCAction": "Abrir",
+  "COMMERCIAL": "Anuncio publicitario",
+  "YES": "Sí",
+  "NO": "No",
+  "differentRuleModelMsg": "La configuración de producto de origen tiene un nivel de evaluación de reglas distinto"
+}

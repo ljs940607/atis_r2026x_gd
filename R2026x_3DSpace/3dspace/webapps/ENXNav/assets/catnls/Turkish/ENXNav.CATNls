@@ -1,0 +1,42 @@
+<meta charset="UTF-8"/>
+ENXNav.treelistview.Title="Ağaç Listesi Görünümü";
+ENXNav.treeview.Title="Ağaç Görünümü";
+ENXNav.graphview.Title="Grafik Görünümü";
+ENXNav.tileview.Title="Kutucuk Görünümü";
+ENXNav.thumbnailview.Title="Küçük Resim Görünümü";
+
+ENXNav.XSCExpand.Title="Genişlet";
+ENXNav.ExpandAll.Title="Tümünü Genişlet";
+ENXNav.ExpandN.Title="n seviye genişlet";
+ENXNav.CollapseAll.Title="Tümünü Daralt";
+ENXNav.XSCSelect.Title="Seç";
+ENXNav.SelectChildren.Title="Alt Öğe Seç";
+ENXNav.SelectAll.Title="Görünenlerin Tümünü Seç";
+ENXNav.SelectInversion.Title="Tersine Çevirmeyi Seç";
+ENXNav.SelectParent.Title="Üst Öğeyi Seç";
+ENXNav.SelectSiblings.Title="Kardeşleri Seç";
+ENXNav.SelectLeaves.Title="Yaprakları Seç";
+
+ENXNav.ReframeAll.Title="Tümünü Sığdır";
+ENXNav.ReframeOn.Title="Şuna Göre Yeniden Çerçevele:";
+ENXNav.ToggleOverview.Title="Genel Bakışı Aç/Kapat";
+ENXNav.GraphLayoutMode.Title="Kompakt/Kompakt Olmayan";
+ENXNav.LayoutDown.Title="Aşağı";
+ENXNav.LayoutRight.Title="Sağ";
+ENXNav.LayoutUp.Title="Yukarı";
+ENXNav.LayoutLeft.Title="Sol";
+ENXNav.SwapThumbState.Title="Küçük Resmi Gizle/Göster";
+
+ENXNav.RootPanel.Title="Kökleri Görüntüle";
+ENXNav.ToggleRightPanel.Title="Yan Paneli Görüntüle";
+ENXNav.RelationIPExplorer.Title="İlişkiler";
+ENXNav.Print.Title="Yazdır";
+ENXNav.PrintOptions.Title="Yazdırma Seçenekleri";
+ENXNav.CleanAll.Title="Tüm nesneleri kaldır";
+ENXNav.FindCmd.Title="Bul";
+ENXNav.ExportCSV.Title="Dışa Aktar";
+ENXNav.ExportCSVOptions.Title="Seçenekleri Dışa Aktar";
+ENXNav.ColumnVisibility.Title="Ağaç Listesi Görünümü Seçenekleri";
+ENXNav.TablePreference.Title="Tablo Tercihi";
+ENXNav.AppPreferences.Title="Tercihler";
+

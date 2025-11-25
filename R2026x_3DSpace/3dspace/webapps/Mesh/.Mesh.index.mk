@@ -1,0 +1,14 @@
+m|WebVisualization\Mesh.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.0.25255|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Mesh\GaussianSplattingParsing.js|1757729898|12097
+s|WebVisualization\Mesh.mweb\src\GaussianSplattingParsing.js|1756887781|38104
+t|win_b64\webapps\Mesh\Mesh.js|1753504413|111937
+s|WebVisualization\Mesh.mweb\src\Mesh.js|1752848240|301742
+t|win_b64\webapps\Mesh\MeshUtils.js|1737774240|13934
+s|WebVisualization\Mesh.mweb\src\MeshUtils.js|1733825483|42680
+t|win_b64\webapps\Mesh\ThreeJS_Base.js|1756533085|72692
+s|WebVisualization\Mesh.mweb\src\ThreeJS_Base.js|1755697383|147592
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

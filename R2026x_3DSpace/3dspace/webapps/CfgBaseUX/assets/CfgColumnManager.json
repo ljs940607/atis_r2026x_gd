@@ -1,0 +1,34 @@
+{
+    "VariantsAndOptionGroups": [
+        {
+            "text": "Name",
+            "dataIndex": "name",
+            "ds6wIndexMapping": "ds6w:identifier",
+            "typeRepresentation": "string",
+            "visibleFlag": false,
+            "sortableFlag": false,
+            "groupableFlag": false,
+            "selectableFlag": false
+        },
+        {
+            "text": "Type",
+            "dataIndex": "typeNLS",
+            "ds6wIndexMapping": "ds6w:type",
+            "typeRepresentation": "string",
+            "visibleFlag": false,
+            "sortableFlag": false,
+            "groupableFlag": false,
+            "selectableFlag": false
+        },
+        {
+            "text": "Description",
+            "dataIndex": "description",
+            "ds6wIndexMapping": "ds6w:description",
+            "typeRepresentation": "string",
+            "visibleFlag": false,
+            "sortableFlag": false,
+            "groupableFlag": false,
+            "selectableFlag": false
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+define("DS/MPFBankAccountModel/MPFBankAccountModel_ko",{});define("DS/MPFBankAccountModel/assets/nls/BankAccountModel",{isNotValid:"유효하지 않음",isRequired:"필수임",ibanSwiftNotConsistent:"IBAN과 SWIFT가 같은 국가에 있지 않습니다."});

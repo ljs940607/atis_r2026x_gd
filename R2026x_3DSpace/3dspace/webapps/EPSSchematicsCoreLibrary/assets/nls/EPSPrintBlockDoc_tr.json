@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "summary": "Sağlanan değerleri düzenleyici konsolunda görüntüler.",
+  "description": "Bu blok, ilgili değerleri düzenleyici konsolunda görüntüler.<br><doc-setting-name translate=no>Severity</doc-setting-name> ayarı, sonuç mesajının hata seviyesinin belirlenmesini sağlar.<br>Bu blok dinamiktir. Bu sayede girdi verilerinin bağlantı noktası sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Veri bağlantı noktası, tüm değer tiplerini işler.",
+  "dataPorts": {
+    "Value1": "düzenleyici konsolunda görüntülenecek değer."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "settings": {
+    "Severity": "sonuç mesajının hata seviyesi. Değer <doc-value translate=no>eInfo</doc-value>, <doc-value translate=no>eWarning</doc-value>, <doc-value translate=no>eDebug</doc-value>, <doc-value translate=no>eError</doc-value> veya <doc-value translate=no>eSuccess</doc-value> olabilir."
+  },
+  "example": {
+    "webapp": "EPSSchematicsPlay/index.html",
+    "content": "DS/EPSSchematicsCoreLibrary/assets/examples/EPSPrintBlockExample.json"
+  }
+}

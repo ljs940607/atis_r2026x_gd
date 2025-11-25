@@ -1,0 +1,21 @@
+{
+      "afrConfigurations": [
+            {
+                  "afrVersion": "0.1",
+                  "afrCode": "DS/DELWeb3DOpersReviewApp/DELWeb3DOpersReviewAppInit",
+                  "appId": "DELOER_AP",
+                  "brand": "DELMIA"
+            },
+            {
+                  "afrService": false,
+                  "afrAppId": "DELOER_AP",
+                  "afrSpecializations": [
+                        "DELOER_AP"
+                  ]
+            }
+      ],
+      "afrPreferences": {
+            "repositoryName": "3DOperationsViewerRepository",
+            "preferenceName": "DELOER_WEBAFR_VERSION"
+      }
+}

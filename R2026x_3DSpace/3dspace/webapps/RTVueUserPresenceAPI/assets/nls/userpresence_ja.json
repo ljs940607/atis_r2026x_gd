@@ -1,0 +1,23 @@
+{
+  "offline": "オフライン",
+  "away": "離席中",
+  "busy": "取り込み中",
+  "online": "オンライン",
+  "dnd": "応答不可",
+  "ooo": "不在",
+  "appearOffline": "オフライン表示",
+  "appearAway": "離席中表示",
+  "appearOOO": "不在表示",
+  "presenting": "検索アイコン",
+  "inACall": " - 通話中",
+  "inAMeeting": " - 会議中",
+  "sinceSeveralSeconds": " 数秒間",
+  "sinceSeveralMinutes": " {timelaps} 分間",
+  "sinceOneHour": " 1 時間",
+  "sinceSeveralHours": " {timelaps} 時間",
+  "sinceOneDay": " 1 日",
+  "sinceSeveralDays": " {timelaps} 日間",
+  "sinceMoreThan99Days": " 99 日以上",
+  "untilDate": " {endDate} まで",
+  "myStatus": "マイ ステータス"
+}

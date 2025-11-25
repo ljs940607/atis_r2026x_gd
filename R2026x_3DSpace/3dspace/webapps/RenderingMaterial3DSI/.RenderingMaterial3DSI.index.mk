@@ -1,0 +1,11 @@
+m|RenderingMaterial3DSIWeb\RenderingMaterial3DSI.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\RenderingMaterial3DSI\RenderingMaterial3DSI.js|1757132736|21366
+s|RenderingMaterial3DSIWeb\RenderingMaterial3DSI.mweb\src\RenderingMaterial3DSIParser.js|1756893225|38635
+u|RenderingMaterial3DSIWeb\RenderingMaterial3DSI.mweb\src\RenderingMaterial3DSIServices.js|1731586338|3758
+u|RenderingMaterial3DSIWeb\RenderingMaterial3DSI.mweb\src\TextureLoader.js|1738756349|7018
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

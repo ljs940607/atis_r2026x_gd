@@ -1,0 +1,18 @@
+<meta charset="UTF-8"/>
+FlyWalkCmdMenu.FlyWalkCmd.Title="Uçuş/Yürüyüş Gezintisi";
+FlyWalkCmdMenu.FlyWalkCmd.Description="Sahnede gezinmenizi sağlar.";
+
+FlyWalkCmdMenu.FlyWalkCmd.Title="Uçuş/Yürüyüş Gezintisi";
+FlyWalkCmdMenu.Fly.Title="Uçuş";
+FlyWalkCmdMenu.Walk.Title="Yürüyüş";
+FlyWalkCmdMenu.SpeedSettings.Title="Gezinti Hızını Düzenle";
+FlyWalkCmdMenu.TouchMode.Title="Dokunmatik Mod Kontrollerini Etkinleştir/Devre Dışı Bırak";
+FlyWalkCmdMenu.ExitNavigation.Title="Uçuş/Yürüyüş Gezintisinden Çık";
+FlyWalkCmdMenu.GroundLevel.Title="Bakış Noktasını Zemine Paralel Hizala";
+FlyWalkCmdMenu.ReframeNavigation.Title="Gezintiyi Yeniden Çerçevele";
+FlyWalkCmdMenu.PauseNotification="Duraklatmak/başlatmak için orta düğmeye tıklayın veya Boşluk tuşuna basın.";
+FlyWalkCmdMenu.CollisionToggle.Title="Çarpışmayı Etkinleştir/Devre Dışı Bırak";
+FlyWalkCmdMenu.CollisionWithInitToggle.Title="Çarpışmayı Etkinleştir/Devre Dışı Bırak ve Avatarı Başlangıç Konumuna Yerleştir";
+FlyWalkCmdMenu.CollisionSettings.Title="Uçuş/Yürüyüş Seçenekleri";
+FlyWalkCmdMenu.StepBack.Title="Geri Adım";
+FlyWalkCmdMenu.AvatarCrouch.Title="Kafaya çarpmayı önlemek için eğil";

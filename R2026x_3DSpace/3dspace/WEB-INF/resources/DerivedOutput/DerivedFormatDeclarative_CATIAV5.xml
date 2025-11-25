@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+    <!-- first official version for 22xFD2, from CHOUDHARI Ashwini ' proposal in Jan 2022  -->
+	<converter name="CATIAV5" synchronous="true"  nlsFile="emxDerivedFormatManagementCATIAV5StringResource" comment="conversion managed synchronously at save by XCAD">
+      <datasources>
+		<datasource name="CATIAV5" >    <!-- XCAD CATIA V5 only manages the CATIA V5 DataSource -->
+			<source name="CATPart" type ="Part">
+				<target name="cgr"   inputStreamId="authoring" outputStreamId="CGR" downloadable="true" />
+				<target name="hcg"   inputStreamId="authoring" outputStreamId="HCG" downloadable="true" />
+				<target name="iges"  inputStreamId="authoring" outputStreamId="IGES" downloadable="true" />
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true" />
+				<target name="model" inputStreamId="authoring" outputStreamId="MODEL" downloadable="true" />
+				<target name="png"   inputStreamId="authoring" outputStreamId="PNG" downloadable="true" />
+				<target name="postscript" inputStreamId="authoring" outputStreamId="PS" downloadable="true" /> 
+				<target name="step"  inputStreamId="authoring" outputStreamId="*" downloadable="true" > <!-- need to refine with application Level : 203 214 242 -->
+					<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2"  type="enum" default="AP242E1" mandatory="true"/>
+				</target>
+				<target name="stl"   inputStreamId="authoring" outputStreamId="STL" downloadable="true" />
+				<target name="svg"   inputStreamId="authoring" outputStreamId="SVG" downloadable="true" />
+				<target name="vps"   inputStreamId="authoring" outputStreamId="VPS" downloadable="true"/>
+				<target name="wrl"   inputStreamId="authoring" outputStreamId="WRL" downloadable="true"/>
+				<target name="3dmap" inputStreamId="authoring" outputStreamId="3DMAP" downloadable="true"/>
+				<target name="3dxml" inputStreamId="authoring" outputStreamId="3DXML" downloadable="true"/>
+			</source>
+			
+			<source name="CATDrawing" type ="Drawing">
+				<target name="catalog" inputStreamId="authoring" outputStreamId="CATALOG" downloadable="true"/>
+				<target name="cgm"   inputStreamId="authoring" outputStreamId="CGM" downloadable="true"/>
+				<target name="dwg"   inputStreamId="authoring" outputStreamId="DWG" downloadable="true"/>
+				<target name="gl2"   inputStreamId="authoring" outputStreamId="GL2" downloadable="true"/>
+				<target name="ig2"   inputStreamId="authoring" outputStreamId="IG2" downloadable="true"/>
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="pdf"   inputStreamId="authoring" outputStreamId="PDF" downloadable="true"/>
+				<target name="png"   inputStreamId="authoring" outputStreamId="PNG" downloadable="true"/>
+				<target name="postscript" inputStreamId="authoring" outputStreamId="PS" downloadable="true"/>
+				<target name="svg"   inputStreamId="authoring" outputStreamId="SVG" downloadable="true"/>
+				<target name="dxf"   inputStreamId="authoring" outputStreamId="DXF" downloadable="true"/>
+				<target name="tif"   inputStreamId="authoring"  outputStreamId="TIF" downloadable="true"/>
+				<target name="3dxml" inputStreamId="authoring" outputStreamId="3DXML" downloadable="true"/>
+			</source>
+			
+			<source name="MODEL" type="Model" subtype="model" >
+				<target name="cgr"   inputStreamId="authoring" outputStreamId="CGR" downloadable="true"/>
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="png"   inputStreamId="authoring"  outputStreamId="PNG" downloadable="true"/>			
+			</source>
+			
+			<source name="CATAnalysis" type="Analysis">
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="png"        inputStreamId="authoring" outputStreamId="PNG" downloadable="true"/>
+			</source>
+
+			<source name="CATShape" type="CATShape" subtype="CATShape">
+				<target name="cgr"   inputStreamId="authoring" outputStreamId="CGR" downloadable="true"/>
+				<target name="iges" inputStreamId="authoring" outputStreamId="IGES" downloadable="true"/>
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="model" inputStreamId="authoring"  outputStreamId="MODEL" downloadable="true"/>
+				<target name="png"   inputStreamId="authoring"  outputStreamId="PNG" downloadable="true"/>
+				<target name="postscript" inputStreamId="authoring"  outputStreamId="PS" downloadable="true"/>
+				<target name="step"  inputStreamId="authoring" outputStreamId="*" downloadable="true"> <!-- need to refine with application Level : 203 214 242 -->
+					<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2"  type="enum" default="AP242E1" mandatory="true"/>
+				</target>
+
+				<target name="stl"   inputStreamId="authoring"  outputStreamId="STL" downloadable="true"/>
+				<target name="tif"   inputStreamId="authoring"  outputStreamId="TIF" downloadable="true"/>
+				<target name="wrl"   inputStreamId="authoring"  outputStreamId="WRL" downloadable="true"/>
+				<target name="3dmap" inputStreamId="authoring"  outputStreamId="3DMAP" downloadable="true"/>
+			</source>
+
+			<source name="CGR" type="cgr" subtype="cgr">
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="png"        inputStreamId="authoring" outputStreamId="PNG" downloadable="true"/>
+			</source>
+			
+			<source name="CATProcess" type="Process">
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="png"        inputStreamId="authoring" outputStreamId="PNG" downloadable="true"/>
+				<target name="3dxml"      inputStreamId="authoring" outputStreamId="3DXML" downloadable="true"/>
+			</source>
+
+			<source name="CATMaterial" type="Material">
+				<target name="image_jpeg" inputStreamId="authoring" outputStreamId="THUMBNAIL" downloadable="true"/>
+				<target name="png"        inputStreamId="authoring" outputStreamId="PNG" downloadable="true"/>
+			</source>
+
+			<events>        <!-- XCAD CATIA V5 only manages the case of save from CATIA V5 -->
+				<event name="onXCADSave" type="interactiveUpdate" />
+			</events>
+		</datasource>
+	  </datasources>
+	</converter>
+
+</derivedformatmanagement>

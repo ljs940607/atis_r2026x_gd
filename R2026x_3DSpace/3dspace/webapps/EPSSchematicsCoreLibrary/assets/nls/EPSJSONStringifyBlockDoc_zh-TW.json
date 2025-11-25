@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "將指定物件轉換為 JSON 字串。",
+  "description": "此為動態圖塊，因此可以使用圖塊模型組態對話方塊來變更輸入資料的物件類型。",
+  "dataPorts": {
+    "Object": "要轉換為字串的物件。",
+    "JSON": "已轉換為字串的物件。"
+  },
+  "controlPorts": {
+    "In": "觸發圖塊執行。",
+    "Out": "在程序完成時啟動。"
+  },
+  "example": null
+}

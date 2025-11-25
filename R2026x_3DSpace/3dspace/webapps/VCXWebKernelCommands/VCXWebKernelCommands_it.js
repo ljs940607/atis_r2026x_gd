@@ -1,0 +1,1 @@
+define("DS/VCXWebKernelCommands/VCXWebKernelCommands_it",{});define("DS/VCXWebKernelCommands/assets/nls/VCXWebKernelCommands",{"VCXApplyToCmd.Applying":"Applicazione in corso"});

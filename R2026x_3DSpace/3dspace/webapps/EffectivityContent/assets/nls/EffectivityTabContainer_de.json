@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "Fehler beim Abrufen der Gültigkeitsinformationen.",
+  "ERROR_DATA_LOAD_MSG": "Stellen Sie sicher, dass Sie Zugriff auf dieses Objekt haben.",
+  "ERROR_DATA_FETCH_TITLE": "Fehler beim Abrufen der Objektdetails.",
+  "ERROR_EXP_FETCH_TITLE": "Fehler beim Abrufen der Details des Gültigkeitsausdrucks.",
+  "title_label": "Titel",
+  "instance_title_label": "Titel",
+  "instance_title_tooltip": "Titel für Instanz",
+  "evolution_label": "Aktuelle Entwicklung",
+  "owner_label": "Eigentümer",
+  "type_label": "Typ",
+  "openwith_label": "Öffnen mit",
+  "filter_label": "Filtern",
+  "filter_mentioned": "{0} erwähnt",
+  "filter_included": "{0} eingeschlossen",
+  "expression_label": "Variante/Option"
+}

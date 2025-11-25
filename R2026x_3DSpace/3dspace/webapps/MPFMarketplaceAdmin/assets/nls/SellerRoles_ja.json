@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "Marketplace {rolesText}",
+  "userSearch": "ユーザー検索",
+  "userRoles": "ユーザー ロール",
+  "loginEmail": "ロールを付与するユーザーのログイン名または電子メールを入力してください:",
+  "rolesGranted": "このユーザーに付与するロールを選択してください。ロールは動的に付与されます:",
+  "noUserSelected": "ユーザーが選択されていません",
+  "noUserFound": "ユーザーが見つかりません",
+  "userSearchFailed": "ユーザーの検索に失敗しました",
+  "unableToSaveRoleModification": "ロールの変更を保存できません",
+  "enterEmailOrLogin": "電子メールまたはログイン名を入力します...",
+  "makeSeller": "販売者を作成",
+  "engineeringSeller": "Engineering 販売者",
+  "partSupplySeller": "PartSupply 販売者",
+  "innovateSeller": "販売者を革新"
+}

@@ -1,0 +1,9 @@
+m|DELPPWBehaviors\DELPPWBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWBehaviors\DELPPWBehaviors.js|1757132690|1459
+s|DELPPWBehaviors\DELPPWBehaviors.mweb\src\Behaviors.js|1755682218|3177
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

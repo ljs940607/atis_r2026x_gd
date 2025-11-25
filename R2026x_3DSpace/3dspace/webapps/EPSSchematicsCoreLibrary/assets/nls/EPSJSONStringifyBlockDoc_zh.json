@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "在 JSON 中将给定对象转换为字符串。",
+  "description": "此块是动态的，因此可以使用块配置对话框更改输入数据的对象类型。",
+  "dataPorts": {
+    "Object": "要转换为字符串的对象。",
+    "JSON": "转换为字符串的对象。"
+  },
+  "controlPorts": {
+    "In": "触发块执行。",
+    "Out": "在完成流程时激活。"
+  },
+  "example": null
+}

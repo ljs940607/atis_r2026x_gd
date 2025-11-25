@@ -1,0 +1,1 @@
+define("DS/CATWebUXCopyLink/CATWebUXCopyLink_it",{});define("DS/CATWebUXCopyLink/assets/nls/CATWebUXCopyLinkCmdAdapt",{copyLinkSuccess:"Il collegamento all'oggetto '{label}' è stato copiato correttamente",copyLinkError:"Errore durante la copia del collegamento negli Appunti"});

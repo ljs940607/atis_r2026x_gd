@@ -1,0 +1,12 @@
+{
+  "Error_Models": "Echec de l'obtention de modèles attachés",
+  "Error_Deleted_Model": "Ce contenu n'est plus accessible ou a peut-être été supprimé.",
+  "Error_MixedType": "Vous ne pouvez pas éditer le contexte de configuration de plusieurs objets avec un format de CAO différent.",
+  "Error_Models_Incorrect_Type": "L'objet sélectionné ne peut pas être configuré",
+  "Error_Incorrect_Type_Partial_Fail": "Certains des objets sélectionnés ne sont pas configurables.",
+  "Error_Incorrect_Type_Complete_Fail": "Aucun des objets sélectionnés n'est configurable.",
+  "Error_Multiple_Reference_xRevision": "La modification du contexte de configuration n'est pas prise en charge pour la sélection de références multiples avec des effectivités différentes sélectionnées dans la révision du modèle.",
+  "Error_Multiple_Reference_xRevision_And_Model": "L'opération Modifier le contexte de configuration n'est pas prise en charge pour la référence multiple avec à la fois xRevision et le modèle.",
+  "Error_Multiple_Reference_Model_Version": "Vous ne pouvez pas modifier le contexte de configuration de plusieurs références avec une version de modèle en tant que contexte de configuration.",
+  "Error_NoObjectSelection": "Veuillez sélectionner des objets pour attacher des contextes de configuration"
+}

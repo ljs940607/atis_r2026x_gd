@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"Nový výkres",
+"ENONewDrawingHdr.ShortHelp":"Vytvoří nový výkres.",
+"ENONewDrawingHdr.LongHelp":"V dialogovém okně zadejte název a požadované atributy (pokud existují) a volitelně vyberte šablonu pro výběr CAD vzoru. Kliknutím na <uicontrol>Vytvořit a zavřít</uicontrol> vytvoříte pouze jeden výkres, kliknutím na <uicontrol>Vytvořit</uicontrol> vytvoříte další výkres.",
+"ENOInsertNewDrawingHdr.Title":"Vložit nový výkres",
+"ENOInsertNewDrawingHdr.ShortHelp":"Vytvoří nový výkres a přidá jej jako potomka k vybraným objektům.",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>V dialogovém okně zadejte název a volitelně vyberte šablonu pro výběr CAD vzoru. Kliknutím na <uicontrol>Vytvořit a zavřít</uicontrol> vytvoříte pouze jeden výkres, kliknutím na <uicontrol>Vytvořit</uicontrol> vytvoříte další výkres.</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

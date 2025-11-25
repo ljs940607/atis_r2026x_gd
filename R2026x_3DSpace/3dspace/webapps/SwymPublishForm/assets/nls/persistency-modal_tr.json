@@ -1,0 +1,11 @@
+{
+  "ModalTitle": "Otomatik Sohbet Kaldırma",
+  "Save": "Kaydet",
+  "Cancel": "İptal",
+  "PersistencyWithActivity": "Otomatik kaldırma etkin",
+  "PersistencyWithActivityExplanation": "Bu sohbet, 90 gün boyunca herhangi bir işlem yapılmadığında (yani mesaj veya içerik yayınlanmadığında) otomatik olarak kaldırılır. Her üye, kaldırma işleminden 30 gün önce bir bildirim alır.",
+  "UnlimitedPersistency": "Otomatik kaldırma devre dışı",
+  "UnlimitedPersistencyExplanation": "Bu sohbet asla kaldırılmaz.",
+  "SaveOk": "Değişikliğiniz başarıyla kaydedildi.",
+  "SaveKo": "Değişikliğiniz başarıyla kaydedilmedi."
+}

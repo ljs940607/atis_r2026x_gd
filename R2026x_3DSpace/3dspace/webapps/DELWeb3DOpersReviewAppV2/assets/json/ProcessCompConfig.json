@@ -1,0 +1,261 @@
+{
+  "defaultViewerMode": "WorkInstructions",
+  "authorizedPPRTypes": [
+    "PROCESS",
+    "SERVICEPROCESS"
+  ],
+  "model": {
+    "graph": {
+      "descending_condition_relation": {
+        "uql": "((taxonomies:*DELLmiPPRSystemInstance*)) OR ((taxonomies:*DELLmiOperationPPRInstance*))"
+      }
+    }
+  },
+  "Columns": [
+    {
+      "name": "Title",
+      "dicoType": "PLMEntity",
+      "dataIndex": "title.reference",
+      "columnProperties": {
+        "text": "PROCESS.Title",
+        "description": "PROCESS.Title.description"
+      }
+    },
+    {
+      "name": "InstanceLabel",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "name.instance",
+      "columnProperties": {
+        "text": "PROCESS.InstanceLabel",
+        "description": "PROCESS.InstanceLabel.description"
+      }
+    },
+    {
+      "name": "Revision",
+      "dicoType": "BusinessType",
+      "dataIndex": "revision.reference",
+      "columnProperties": {
+        "text": "PROCESS.Revision",
+        "description": "PROCESS.Revision.description"
+      }
+    },
+    {
+      "name": "Description",
+      "dicoType": "BusinessType",
+      "dataIndex": "description.reference",
+      "columnProperties": {
+        "text": "PROCESS.Description",
+        "description": "PROCESS.Description.description"
+      }
+    },
+    {
+      "name": "Maturity",
+      "dicoType": "BusinessType",
+      "dataIndex": "state.reference",
+      "columnProperties": {
+        "text": "PROCESS.Maturity",
+        "description": "PROCESS.Maturity.description"
+      }
+    },
+    {
+      "name": "EstimatedTime",
+      "dicoType": "DELLmiOperationReference",
+      "dicoAttributeName": "V_EstimatedTime",
+      "dataIndex": "V_EstimatedTime.reference",
+      "columnProperties": {
+        "text": "PROCESS.EstimatedTime",
+        "description": "PROCESS.EstimatedTime.description"
+      }
+    },
+    {
+      "name": "TimeMode",
+      "dicoType": "DELLmiOperationReference",
+      "dicoAttributeName": "V_TimeMode",
+      "dataIndex": "V_TimeMode.reference",
+      "columnProperties": {
+        "text": "PROCESS.TimeMode",
+        "description": "PROCESS.TimeMode.description"
+      }
+    },
+    {
+      "name": "MeasuredTime",
+      "dicoType": "DELLmiOperationReference",
+      "dicoAttributeName": "V_MeasuredTime",
+      "dataIndex": "V_MeasuredTime.reference",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.MeasuredTime",
+        "description": "PROCESS.MeasuredTime.description"
+      }
+    },
+    {
+      "name": "Owner",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:responsible.reference",
+      "columnProperties": {
+        "text": "PROCESS.Owner",
+        "description": "PROCESS.Owner.description"
+      }
+    },
+    {
+      "name": "Effectivity",
+      "dataIndex": "Effectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.Effectivity",
+        "description": "PROCESS.Effectivity.description"
+      }
+    },
+    {
+      "name": "VariantEffectivity",
+      "dataIndex": "VariantEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.VariantEffectivity",
+        "description": "PROCESS.VariantEffectivity.description"
+      }
+    },
+    {
+      "name": "EvolutionEffectivity",
+      "dataIndex": "EvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.EvolutionEffectivity",
+        "description": "PROCESS.EvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "CurrentEvolutionEffectivity",
+      "dataIndex": "CurrentEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.CurrentEvolutionEffectivity",
+        "description": "PROCESS.CurrentEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ProjectedEvolutionEffectivity",
+      "dataIndex": "ProjectedEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.ProjectedEvolutionEffectivity",
+        "description": "PROCESS.ProjectedEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ConfigurationContext",
+      "dataIndex": "ConfigurationContext",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PROCESS.ConfigurationContext",
+        "description": "PROCESS.ConfigurationContext.description"
+      }
+    },
+    {
+      "name": "Graph",
+      "dataIndex": "graph",
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERProcessViewToggleGraphView",
+          "args": {
+            "activateHandlerId": "DELWebOERActivateGraphView",
+            "deactivateHandlerId": "DELWebOERDeactivateGraphView"
+          }
+        }
+      },
+      "when": {
+        "graphView": "true"
+      }
+    },
+    {
+      "name": "BuildUp",
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERProcessViewToggleBuildUp",
+          "args": {
+            "activateBuildUpHandlerId": "DELWebOERActivateBuildUp",
+            "deactivateBuildUpHandlerId": "DELWeb3DViewerDeactivateBuildUp"
+          }
+        }
+      }
+    },
+    {
+      "name": "Menu",
+      "columnProperties": {
+        "text": "PROCESS.Menu",
+        "description": "PROCESS.Menu.description"
+      }
+    }
+  ],
+  "contextualMenu": [
+    {
+      "handlerId": "DELWebOERTableViewCompExpandAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompCollapseAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompFind",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      },
+      "args": {
+        "findInColumns": [
+          "PROCESS.Title",
+          "PROCESS.InstanceLabel",
+          "PROCESS.Revision",
+          "PROCESS.Description",
+          "PROCESS.Maturity"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERPropertiesPanelCmd",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "type": "PushItem",
+      "identifier": "OpenWith",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    }
+  ],
+  "tableView": {
+    "registerTypeRepresentations": {
+      "configLoading": {
+        "stdTemplate": "functionIcon",
+        "semantics": {
+          "className": "relationRefresh",
+          "icon": {
+            "iconName": "reload wux-ui-3ds-spin",
+            "fontIconFamily": 1
+          }
+        }
+      }
+    },
+    "destroyTableViewOnAllRootsRemoved": true
+  }
+}

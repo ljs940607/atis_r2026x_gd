@@ -1,0 +1,20 @@
+{
+  "AddATitle": "Add a title",
+  "Publish": "Publish",
+  "Next": "Next",
+  "Previous": "Previous",
+  "Cancel": "Cancel",
+  "Close": "Close",
+  "StartWriting": "Start writing",
+  "AreYouSure": "Are you sure you want to cancel? You will lose what you have entered.",
+  "InsertMedia": "Insert a media",
+  "InsertExternalMedia": "Insert a media",
+  "InsertOSMedia": "Upload media from computer",
+  "AddTags": "Add tags",
+  "EditContentMobileTitle": "Edit content",
+  "Error_MaxCharLimitReached": "Max character limit reached ({n})",
+  "Error_CreationFailed": "Creation failed. Please try again later.",
+  "Error_TitleIsRequired": "A title is required to publish a content",
+  "Error_DescriptionIsRequired": "A description is required to publish a content",
+  "Error_ConcurrentEdition": "<b>Updated Content:</b> {user} just published an update on this content. You may need to manually copy your changes and edit again from the latest update."
+}

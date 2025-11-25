@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_zh",{});define("DS/egraph/assets/nls/translation",{pan:"平移",zoomArea:"缩放区域",zoomOut:"缩小",zoomIn:"放大",zoomReset:"缩放重置",zoomFit:"缩放适合"});

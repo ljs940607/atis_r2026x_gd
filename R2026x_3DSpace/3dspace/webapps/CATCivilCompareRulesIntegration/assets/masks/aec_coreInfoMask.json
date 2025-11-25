@@ -1,0 +1,19 @@
+{
+    "attrToIgnore": [ "ds6w:globalType", "ds6wg:PLMReference.V_isLastVersion", "ds6wg:V_IsLastVersion", "ds6w:isLastRevisionPerState", "ds6w:isLastRevision", "ds6wg:PLMEntity.V_sec_level", "ds6w:contentStructure", "ds6wg:PLMCoreReference.V_isTerminal" ],
+    "mask": {
+        "default": [ "ds6w:type", "ds6w:label", "ds6w:identifier", "ds6wg:revision", "ds6w:description", "ds6w:status", "ds6w:responsible", "ds6w:created", "ds6w:modified", "ds6w:lastModifiedBy" ],
+        "ifc": ["ds6wg:IfcPset", "ds6wg:IfcQto", "ds6wg:Ifc"]
+    },
+    "basicDataAttributes":[
+      "ds6w:type",
+      "ds6wg:revision",
+      "ds6w:status",
+      "ds6w:responsible",
+      "ds6w:created",
+      "ds6w:modified",
+      "ds6w:organizationResponsible",
+      "ds6w:reservedBy",
+      "ds6w:project",
+      "ds6w:policy"
+    ]
+}

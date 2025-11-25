@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "正在尋找書籤資料夾..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "無法在最愛區段和最愛書籤資料夾上執行在樹狀結構中尋找。",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "放置的物件不是書籤資料夾。",
+    "subtitle": "請拖放「書籤根資料夾」或「書籤資料夾」。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "無法完成在樹狀結構中尋找。",
+    "subtitle": "將樹狀結構展開至該特定書籤資料夾節點",
+    "message": "要尋找的書籤資料夾未顯示在樹狀結構上。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "無法完成在樹狀結構中尋找。",
+    "subtitle": "將書籤資料夾區段展開至第一層。",
+    "message": "書籤資料夾區段下未顯示任何書籤資料夾。"
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "無法完成在樹狀結構中尋找。",
+    "subtitle": "請選擇書籤資料夾，然後再試一次。",
+    "message": "沒有選擇要執行尋找的書籤資料夾。"
+  },
+  "msg_info_limitToFindInRootNode": "無法顯示所有搜尋結果。請嘗試使用不同的關鍵字或從子書籤資料夾搜尋。",
+  "msg_info_searchCompleted": "搜尋已完成。",
+  "msg_info_No_Occurrence": "找不到結果。"
+}

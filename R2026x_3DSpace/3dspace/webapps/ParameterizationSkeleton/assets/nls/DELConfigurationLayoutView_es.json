@@ -1,0 +1,22 @@
+{
+  "setParameters": "Parámetro guardado",
+  "setParametersTitle": "Guardar",
+  "setParametersError": "Error al guardar los parámetros",
+  "deleteParameter": "Parámetro eliminado",
+  "deleteParameterTitle": "Eliminar",
+  "deleteParameterError": "Error al eliminar los parámetros",
+  "modifyParameter": "Parámetro modificado",
+  "modifyParameterTitle": "Modificar",
+  "modifyParameterError": "Se ha producido un error al modificar los parámetros.",
+  "columnMandatory": "La columna %1 es obligatoria",
+  "containUnsupportedChars": "%1 contiene uno o varios de los siguientes caracteres no admitidos \n %2",
+  "confirmDeleteTitle": "Confirmar eliminación",
+  "confirmDeleteContent": "¿Está seguro de que desea eliminar esta fila? Esta acción no se puede deshacer.",
+  "Add": "Agregar nueva fila",
+  "orderParameters": "Pedido actualizado",
+  "orderParametersTitle": "Reorganizar",
+  "orderParametersError": "Error al reordenar",
+  "orderParametersMaskMessage": "Actualizando el pedido",
+  "orderParametersDeleteError": "Error al eliminar el pedido anterior",
+  "orderParametersSetError": "Error al guardar el nuevo pedido"
+}

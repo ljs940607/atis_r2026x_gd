@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="Routings" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name" dicoType="PLMEntity" entity="reference"/>
+    <Columns>
+        <Column dataIndex="PLM_ExternalID" dicoType="PLMInstance" entity="instance" minWidth="50" />
+        <Column dataIndex="current" entity="reference" minWidth="50" />
+	    <Column dataIndex="SequenceNo" entity="reference" display="false" displayType="SequenceNo"/>
+        <Column dataIndex="SystemUpdateStatus" displayType="BIEssentials"/>
+        <Column dataIndex="Routings_Items" display="false" displayType="Relation" minWidth="50" />
+        <Column dataIndex="Routings_Resources" display="false" displayType="Relation" minWidth="50" />
+        <Column dataIndex="reserved" entity="reference" />
+        <Column dataIndex="reserved" entity="instance" />
+        <Column dataIndex="revision" entity="reference" minWidth="50" />
+        <Column dataIndex="V_EstimatedTime" dicoType="DELLmiOperationReference" entity="reference" minWidth="50" />
+        <Column dataIndex="V_CycleTime" dicoType="DELLmiProductionSystemReference" entity="reference" display="false" minWidth="50" />
+        <Column dataIndex="V_TimeMode" dicoType="DELLmiOperationReference" entity="reference" minWidth="50" />
+        <Column dataIndex="V_ApplicabilityDate" dicoType="PLMReference" entity="reference" minWidth="50" />
+        <Column display="false" minWidth="150">
+            <Attribute name="V_SequencingMode" dicoType="DELLmiPPRSystemReference" entity="reference" />
+            <Attribute name="V_SequencingMode" dicoType="DELLmiHeaderOperationReference" entity="reference" />
+            <Attribute name="V_SequencingMode" dicoType="DELLmiGeneralOperationReference" entity="reference" />
+            <Attribute name="V_SequencingMode" dicoType="DELLmiPPRHeaderProcessReferenceAbstract" entity="reference" />
+        </Column>
+        <Column dataIndex="originated" entity="reference" minWidth="50" />
+        <Column dataIndex="modified" entity="reference" minWidth="50" />
+        <Column dataIndex="type" entity="reference" display="false" minWidth="50" />
+        <Column dataIndex="V_QueuingModeIN" dicoType="DELLmiProductionSystemReference" entity="reference" display="false" minWidth="50"/>
+        <Column dataIndex="V_MeasuredTime" dicoType="DELLmiOperationReference" entity="reference" display="false" minWidth="50"/>
+        <Column dataIndex="V_EstimatedTime_AddedValueRatio" dicoType="DELLmiOperationReference" entity="reference" display="false" minWidth="50"/>
+        <Column dataIndex="V_PreparationTime" dicoType="DELLmiAdditionalTime" entity="reference" display="false"/>
+        <Column dataIndex="V_TimeOutMachineAfter" dicoType="DELLmiAdditionalTime" entity="reference" display="false"/>
+        <Column dataIndex="V_TimeOutMachineBefore" dicoType="DELLmiAdditionalTime" entity="reference" display="false"/>
+	    	<Column dataIndex="V_OperationTime" displayType="OPTime" display="false" minWidth="50"/>
+        <Column dataIndex="V_DistributionRule" dicoType="DELLmiHeaderOperationInstance" entity="instance" display="false"/>
+        <Column display="false" >
+            <Attribute name="V_RichText" dicoType="DELLmiRichText" entity="reference" />
+            <Attribute name="V_WIInstruction_Text" dicoType="DELWkiInstructionReference" entity="reference" />
+            <Attribute name="V_WISignOff_Text" dicoType="DELWkiSignOffReference" entity="reference" />
+            <Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" entity="reference" />
+        </Column>
+        <!-- CONFIGURATION COLUMNS: start -->
+         <Column dataIndex="RevisionMaster" displayType="CFG" display="false"/><!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="RevisionMode" displayType="CFG" display="false"/><!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="ConfigurationContext" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="Effectivity" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="VariantEffectivity" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="CurrentEvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CHG role is valid -->
+         <Column dataIndex="ProjectedEvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CHG role is valid -->
+         <Column dataIndex="EvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CFG/CSV role is valid without CHG role -->
+        <!-- CONFIGURATION COLUMNS: end -->
+    </Columns>
+</Config>

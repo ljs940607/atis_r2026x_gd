@@ -1,0 +1,1 @@
+define("DS/SPYExtUI/SPYExtUI_tr",{});define("DS/SPYExtUI/assets/nls/CATSimNavDataFrameViewXYChartUI",{rootName:"Geçerli Adım",loadCaseName:"Geçerli Yük"});

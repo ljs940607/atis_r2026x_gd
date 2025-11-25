@@ -1,0 +1,30 @@
+
+.mucsplash_container {
+    position: absolute;
+    align-items: flex-end;
+    width: 100%;
+    top: 0;
+    bottom: 20%;
+    right: 0;
+    pointer-events: none;
+    margin: 2px;
+    z-index: 100000;
+}
+
+.mucsplash_display {
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: contain;
+    z-index: 101;
+    flex: 1;
+    background-image: url('../../CATAssemblyMUCCommand/assets/images/I_MUCImage.png');
+}
+
+.mucsplash_container_msg {
+    text-align: right;
+    z-index: 100;   
+    flex: 5;
+    margin-top: 10%;
+}

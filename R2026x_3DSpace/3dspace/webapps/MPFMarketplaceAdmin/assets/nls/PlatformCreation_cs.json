@@ -1,0 +1,19 @@
+{
+  "addRoles": "Přidat role",
+  "addRole": "Přidat roli",
+  "selectRole": "Vyberte roli",
+  "onlineInstanceId": "ID online instance",
+  "quantity": "Počet",
+  "confirm": "Potvrdit",
+  "roles": "Role",
+  "createPlatform": "Vytvořit platformu",
+  "devPlatformAdmin": "Správce vývojové platformy",
+  "sendingRequest": "Odesílání požadavku...",
+  "unableToAddRolesToPlatform": "Vybrané role nelze přidat do vybrané platformy",
+  "unableToFetchAvailableRoles": "U tohoto klienta nelze načíst dostupné role",
+  "unableToRequestPlatformCreation": "Nepodařilo se požádat o vytvoření platformy, zkuste to znovu později.",
+  "platformAdmin": "Správce platformy",
+  "platformId": "Platforma",
+  "totalPriceExclTax": "Cena celkem bez daně:",
+  "totalPrice": "Celková cena"
+}

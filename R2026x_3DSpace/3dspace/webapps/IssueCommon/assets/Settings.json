@@ -1,0 +1,17 @@
+{
+    "custom": {
+
+    },
+	"enableClassification": true,
+	"enableCKEditor": false,
+	"duplicateIssues": 1,
+    "enableCopies": false,
+    "maxNumberOfCopies": 20,
+    "maxNumberOfIssueToClose" :20,
+    "exportPrimaryImage": false,
+    "contentLimit": 20,
+    "membersLimit": 20,
+    "exportLimit": 100,
+    "issuesToLoad": 100
+
+}

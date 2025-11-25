@@ -1,0 +1,19 @@
+{
+  "views": {
+    "front": "Front View",
+    "back": "Back View",
+    "left": "Left View",
+    "right": "Right View",
+    "top": "Top View",
+    "bottom": "Bottom View",
+    "iso": "Isometric View"
+  },
+  "sightVector": "Sight Direction",
+  "rightVector": "Right Orientation",
+  "coordX": "X",
+  "coordY": "Y",
+  "coordZ": "Z",
+  "reset":"Reset",
+  "warningTooltipTitle":"invalid data, settings won't be saved",
+  "warningTooltipHelp":"make sure that sight and right vectors are non-null and orthogonals"
+}

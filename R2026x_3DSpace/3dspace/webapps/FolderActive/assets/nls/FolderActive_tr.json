@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "Yer İşareti Klasörleri",
+  "activeBookmark_cmd": "Yer İşareti Klasörü'nün altında çalışma",
+  "name_Section_FavoriteFolders": "Sık kullanılanlar",
+  "name_Section_AllFolders": "Yer İşareti Klasörleri",
+  "activeBookmark_msg_empty": "Boş",
+  "activeBookmark_btn_focus": "Ayarlanan Yer İşareti Klasörüne odakla",
+  "activeBookmark_msg_noBookmark": "Yer İşareti Klasörü bulunamadı",
+  "CMDExpandAll": "Tümünü Genişlet",
+  "CMDCollapseAll": "Tümünü Daralt",
+  "InputLabel": "Yer İşareti Klasörü",
+  "loader": {
+    "findingObjects": "Yer İşareti Klasörü bulunuyor"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "Seç",
+    "button_Cancel": "İptal",
+    "widget_name": "Yer İşareti Klasörlerinde Seç",
+    "PLMNewBookmarkWidgetName": "Yer İşareti Klasörleri Seç",
+    "msg_ClassifyInProgress": "Ekleniyor...",
+    "msg_ClassifySuccessful": "Başarıyla Eklendi.",
+    "msg_ClassifyFailed": "Eklenirken hata oluştu. Ekleme erişiminiz yok YA DA verilen Yer İşareti Klasörlerine zaten ekli.",
+    "msg_selectNodeToSeeInfo": "Detaylarını görmek için bir Yer İşareti Klasörü seçin."
+  },
+  "multiSelectionNotSupported": "Çoklu seçim desteklenmiyor.",
+  "favoriteSectionNotSupported": "Bu komut sık kullanılanlar bölümünde desteklenmez.",
+  "favoriteNotSupported": "Bu komut sık kullanılanlarda desteklenmez.",
+  "sectionNotSupported": "Bu komut, bölümlerde desteklenmez.",
+  "noSelectionError": "Bu komut için bir seçim gereklidir."
+}

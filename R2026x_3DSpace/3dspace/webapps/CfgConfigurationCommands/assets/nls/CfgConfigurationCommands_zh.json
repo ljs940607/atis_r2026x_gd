@@ -1,0 +1,12 @@
+{
+  "Error_Models": "未能获取附加模型",
+  "Error_Deleted_Model": "此内容不再可访问，或者可能已被删除。",
+  "Error_MixedType": "编辑配置上下文不支持多种 CAD 类型。",
+  "Error_Models_Incorrect_Type": "该选定对象不能配置",
+  "Error_Incorrect_Type_Partial_Fail": "有些选定对象不可配置。",
+  "Error_Incorrect_Type_Complete_Fail": "所有选定对象均不可配置。",
+  "Error_Multiple_Reference_xRevision": "对于在模型的修订版中选择了不同有效性的多个参考选择，不支持编辑配置上下文。",
+  "Error_Multiple_Reference_xRevision_And_Model": "将 xRevision 和模型结合使用的多个参考不支持“编辑配置上下文”操作。",
+  "Error_Multiple_Reference_Model_Version": "对于将“模型版本”作为“配置上下文”的多个参考，不支持“编辑配置上下文”操作。",
+  "Error_NoObjectSelection": "请选择要附加配置上下文的对象"
+}

@@ -1,0 +1,16 @@
+{
+  "errorName": "회사 이름은 필수입니다.",
+  "errorTaxRegId": "세금 등록 id 형식이 올바르지 않습니다.",
+  "noSpecialCharacterMessage": "영숫자만 허용됩니다(악센트 제외).",
+  "errorPersonalIdNUmberFormat": "개인 ID 번호 형식이 올바르지 않습니다.",
+  "errorRegistrationIdFormat": "등록 ID 포맷이 올바르지 않습니다.",
+  "errorCountry": "국가는 필수입니다.",
+  "name": "이름",
+  "registrationId": "등록 ID",
+  "taxRegistrationId": "세금 등록 ID",
+  "personalIdNumber": "개인 ID 번호",
+  "url": "URL",
+  "country": "국가",
+  "isRequired": "{0}이(가) 필요합니다.",
+  "formatIsInvalid": "{0} 형식이 올바르지 않습니다."
+}

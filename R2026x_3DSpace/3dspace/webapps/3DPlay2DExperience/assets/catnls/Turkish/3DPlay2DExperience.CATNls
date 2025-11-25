@@ -1,0 +1,68 @@
+<meta charset="UTF-8"/>
+3DPlay2DExperience.3DPlayAmbiencesSection.Title="Ambiyans";
+3DPlay2DExperience.Ambiance.Title="Ambiyanslar";
+3DPlay2DExperience.AnnotationCommands2D.Title="Detaylandırmalar";
+3DPlay2DExperience.AnnotationCommands2DText.Title="Metin Detaylandırmaları";
+3DPlay2DExperience.AnnotationTour2D.Title="Detaylandırma Turu";
+3DPlay2DExperience.AntiClockWise.Title="Saat yönünün tersine döndür";
+3DPlay2DExperience.ClockWise.Title="Saat yönünde döndür";
+3DPlay2DExperience.DownloadPDF.Title="İndir";
+3DPlay2DExperience.FitWidth.Title="Genişliği Sığdır";
+3DPlay2DExperience.FitDocument.Title="Belgeyi Sığdır";
+3DPlay2DExperience.FS.Title="Tam Ekran";
+3DPlay2DExperience.FullSize.Title="Orijinal boyut";
+3DPlay2DExperience.HighlightText.Title="Metni vurgula";
+3DPlay2DExperience.Pan.Title="Kaydır";
+3DPlay2DExperience.Previous.Title="Önceki";
+3DPlay2DExperience.Print2D.Title="Yazdır";
+3DPlay2DExperience.Next.Title="Sonraki";
+3DPlay2DExperience.RealSize.Title="Gerçek Boyut";
+3DPlay2DExperience.Reframe.Title="Yeniden çerçevele";
+3DPlay2DExperience.ScrollingView.Title="Sürekli Kaydırma";
+3DPlay2DExperience.PresentationView.Title="Sunum Görünümü";
+3DPlay2DExperience.Search.Title="Ara";
+3DPlay2DExperience.SectionViews.Title="Görünüm";
+3DPlay2DExperience.SinglePageView.Title="Sayfa Bazında Kaydırma";
+3DPlay2DExperience.Scale5.Title="%500";
+3DPlay2DExperience.Scale2.Title="%200";
+3DPlay2DExperience.Scale1.Title="%100";
+3DPlay2DExperience.Scale05.Title="%50";
+3DPlay2DExperience.Scale01.Title="%10";
+3DPlay2DExperience.ScaleP.Title="Yakınlaştır";
+3DPlay2DExperience.ScaleM.Title="Uzaklaştır";
+3DPlay2DExperience.ToggleView.Title="Sayfa Küçük Resimlerini Gizle/Göster";
+3DPlay2DExperience.Views.Title="Görünümler";
+3DPlay2DExperience.Visu2DWhiteCmd.Title="Beyaz";
+3DPlay2DExperience.Visu2DBlackCmd.Title="Siyah";
+3DPlay2DExperience.Visu2DLightGreyCmd.Title="Açık gri";
+3DPlay2DExperience.Visu2DGreyCmd.Title="Gri";
+3DPlay2DExperience.Visu2DDarkGreyCmd.Title="Koyu gri";
+3DPlay2DExperience.Visu2DAutoCmd.Title="Otomatik";
+3DPlay2DExperience.Zoom.Title="Yakınlaştır/Uzaklaştır";
+
+3DPlay2DExperience.EnvDefault.Title="Varsayılan arka plan";
+3DPlay2DExperience.EnvBlack.Title="Siyah arka plan";
+3DPlay2DExperience.EnvWhite.Title="Beyaz arka plan";
+
+3DPlay2DExperience.Menu.Touch="Dokunmatik";
+3DPlay2DExperience.Menu.Mouse="Fare";
+
+3DPlay2DExperience.HelpTouchPan="Kamerayı kaydırmak için 2 parmağınızı kullanın";
+3DPlay2DExperience.HelpTouchZoom="Kamerayı kaydırmak için 2 parmağınızı kullanın";
+3DPlay2DExperience.HelpTouchRotate="Kamerayı kaydırmak için 1 parmağınızı kullanın";
+3DPlay2DExperience.HelpTouchReframe="Yeniden çerçevelemek için çift dokunun";
+
+3DPlay2DExperience.HelpLeftBtn="Belgeyi taşımak için tıklayıp sürükleyin.";
+3DPlay2DExperience.HelpMiddleScroolBtn="Yakınlaştırmak/uzaklaştırmak için yukarı/aşağı kaydırın.";
+3DPlay2DExperience.HelpMiddleBtn="Belgeyi taşımak için tıklayıp sürükleyin.";
+3DPlay2DExperience.HelpRightBtn="Varsayılan tarayıcı davranışına erişmek için tıklayın.";
+3DPlay2DExperience.AnnotationCommands2D.Title="Detaylandırma Komutları";
+3DPlay2DExperience.2DDrawing.Title="Açıklama";
+3DPlay2DExperience.2DText.Title="Metin";
+3DPlay2DExperience.RemoveDrawing.Title="Sil";
+3DPlay2DExperience.OutOfBoundForAnnotations="Detaylandırmalar yalnızca Belge üzerinde oluşturulabilir";
+3DPlay2DExperience.ExitAnnotationCommand.Title="Doğrula";
+
+3DPlay2DExperience.Print2DRealSize.Title="Gerçek boyutta yazdır";
+
+3DPlay2DExperience.LoadingErrorSheet="Önizleme kullanılamaz";

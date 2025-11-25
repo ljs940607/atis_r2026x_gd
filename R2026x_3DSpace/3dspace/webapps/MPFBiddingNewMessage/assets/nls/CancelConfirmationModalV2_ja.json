@@ -1,0 +1,22 @@
+{
+  "alreadyOrderedElseWhere": "私はすでに別のチャネル/サプライヤーから注文しました",
+  "areYouSureToCancel": "このリクエストをキャンセルしますか? この操作は元に戻せません。",
+  "cancel": "キャンセル",
+  "cancelRequest": "リクエストをキャンセル",
+  "confirm": "はい、リクエストをキャンセルします",
+  "confirmAndTransfer": "はい、リクエストをキャンセルして移管します",
+  "doNotWishToSay": "言いたくありません",
+  "doNotDeliverToThisCountry": "この国には配送していません",
+  "doNotProvideThisService": "このようなサービスは提供していません",
+  "doYouHaveOtherRemarks": "他の理由や追加コメントがありますか?",
+  "invalidCharactersMsg": "テキストに無効な文字が 1 つ以上含まれています。メッセージを修正して、再試行してください。",
+  "onlyWantedQuote": "私の当面の関心は、見積を受け取ることのみでした",
+  "other": "その他",
+  "partTooLargeTooComplex": "パーツが大きすぎるか、複雑すぎます",
+  "pleaseTellReason": "このリクエストをキャンセルする理由を教えてください。",
+  "priceTooHigh": "価格が高すぎます",
+  "requestLeadTimeTooShort": "求められたリードタイムが短すぎます",
+  "selectAReason": "理由を選択",
+  "typeTextHere": "テキストをここに入力",
+  "unableToCancelCart": "カートをキャンセルできません。このエラーが解消されない場合は、サポートにお問い合わせください。"
+}

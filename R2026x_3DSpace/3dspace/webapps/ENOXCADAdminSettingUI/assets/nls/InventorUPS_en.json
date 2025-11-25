@@ -1,0 +1,36 @@
+{
+  "INVAutoNameLabel": "Auto Naming",
+  "INVAutoNameInfo": "Enables auto-naming while saving parts, assemblies, presentations and drawings files in 3DEXPERIENCE for the first time. It applies to all applications authoring Inventor data.",
+  "INVSaveGroupLabel": "Save",
+
+  "INVReplaceTitleByNewNameOnAutonameLabel": "Replace Title By New Name On Autoname",
+  "INVReplaceTitleByNewNameOnAutonameInfo": "On selection of autoname on save dialog, the existing filename will be replaced by the autoname.",
+
+  "INVCADAttributeMappedToEINLabel": "CAD Attribute Mapped To EIN",
+  "INVCADAttributeMappedToEINInfo": "When value for this attribute is specified,then the function will be enabled and we will stamp CAD file with this attribute and its value would be the EIN of the Physical Product.",
+
+  "INVCADEnablePessimisticLockingLabel": "Pessimistic Locking",
+  "INVCADEnablePessimisticLockingInfo": "Enabling this feature ensures that data cannot be saved to the platform from the connector unless it is reserved by the current user.",
+
+  "INVCADFileReadOnlyLabel": "Make file read-only",
+  "INVCADFileReadOnlyInfo": "File will be marked as read-only if it is not reserved by current user. This behavior will be enabled only if pessimistic locking is enabled.",
+
+  "INVCADFilterOutNotInCADDataLabel": "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes",
+  "INVCADFilterOutNotInCADDataInfo": "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes",
+  "INVOpenGroupLabel": "Open",
+
+  "INVDelimiterLabel": "Set Delimiter",
+  "INVDelimiterInfo": "This delimiter will be used as follows:\n\n1. To merge values of multi-valued attributes in 3DEXPERIENCE when synchronizing on CAD file.\n\n2. To split CAD attribute value if it is mapped to multi-valued attribute in 3DEXPERIENCE.",
+  "INVOtherGroupLabel": "General",
+
+  "InvalidDelimiter": "More than one character is not allowed as a delimiter",
+
+  "INVConnectNativeDrawingAsLabel": "Connection between Physical Products and Drawings ",
+  "INVConnectNativeDrawingAsInfo": "This will be used to make Connection between Physical Products and Drawings as one of the three types. \nThis will be one time setting. \nDo not change once done.",
+
+  "INVDependencyLinkOnlyLabel": "Connect as dependency link - Drawing is not a child of the Physical Product",
+  "INVInstantiatedDrawingLabel": "Connect Drawing as child of the Physical Product",
+  "INVAggregatedDrawingLabel": "Drawing is aggregated below the Physical Product"
+
+
+}

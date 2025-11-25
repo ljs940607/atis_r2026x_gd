@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "Neue Zeichnung",
+  "insertNewDrawing": "Neue Zeichnung einfügen",
+  "newObjectType": "Zeichnung",
+  "multiParentInsertDrawingTitle": "Neue Zeichnung einfügen",
+  "multiParentInsertDrawingMsg": "Möchten Sie wirklich eine neue Zeichnung unter mehreren übergeordneten Elementen einfügen?",
+  "multiParentCannotInsert": "Fehler: Einfügen unter ausgewähltem Objekt/ausgewählten Objekten nicht möglich",
+  "CannotInsert.Type": "Dieser Objekttyp kann unter dem ausgewählten Objekt {type} nicht eingefügt werden",
+  "okBtn": "OK",
+  "closeBtn": "Schließen"
+}

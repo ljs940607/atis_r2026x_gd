@@ -1,0 +1,19 @@
+{
+  "placeholder_findInTree": "查找",
+  "toolTip": "在树中查找",
+  "loader": {
+    "retrievingPaths": "正在检索路径...",
+    "formulatingPaths": "正在制定路径..."
+  },
+  "msg_warning_TreeTagger_ClosingThefind": {
+    "Title": "无法在树中查找。",
+    "Details": "关闭在树中查找，因为当在树中查找仍在进行时，对树应用了 6Wtags 筛选器。"
+  },
+  "msg_info_limit_FindInTree": {
+    "title": "已达到最大结果数。",
+    "subtitle": "细化搜索条件，然后重试。",
+    "message": "结果数量限制为 100。"
+  },
+  "msg_info_searchCompleted": "搜索已完成。",
+  "msg_info_No_Occurrence": "未找到对象的匹配项。"
+}

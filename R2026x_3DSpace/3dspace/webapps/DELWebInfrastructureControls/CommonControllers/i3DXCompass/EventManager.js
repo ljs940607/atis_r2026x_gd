@@ -1,0 +1,1 @@
+define("DS/DELWebInfrastructureControls/CommonControllers/i3DXCompass/EventManager",["UWA/Core","UWA/Class","UWA/Class/Events"],(function(e,n,s){"use strict";return new(n.extend(s))}));

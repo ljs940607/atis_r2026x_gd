@@ -1,0 +1,79 @@
+.ENO3DRoundPanel {
+    --minimap-color08: rgba(0, 0, 0, 0.8);
+    --minimap-color07: rgba(0, 0, 0, 0.7);
+    --minimap-color05: rgba(0, 0, 0, 0.5);
+    --minimap-color03: rgba(0, 0, 0, 0.3);
+    --minimap-color01: rgba(0, 0, 0, 0.1);
+    --minimap-color0: rgba(0, 0, 0, 0);
+
+    &.hover {
+        --minimap-color07: rgba(0, 0, 0, 0.8);
+        --minimap-color05: rgba(0, 0, 0, 0.8);
+        --minimap-color03: rgba(0, 0, 0, 0.8);
+        --minimap-color01: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.minimap-white .ENO3DRoundPanel {
+    --minimap-color08: rgba(255, 255, 255, 0.8);
+    --minimap-color07: rgba(255, 255, 255, 0.7);
+    --minimap-color05: rgba(255, 255, 255, 0.5);
+    --minimap-color03: rgba(255, 255, 255, 0.3);
+    --minimap-color01: rgba(255, 255, 255, 0.1);
+    --minimap-color00: rgba(255, 255, 255, 0);
+
+    &.hover {
+        --minimap-color07: rgba(255, 255, 255, 0.8);
+        --minimap-color05: rgba(255, 255, 255, 0.8);
+        --minimap-color03: rgba(255, 255, 255, 0.8);
+        --minimap-color01: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.minimap-dark .ENO3DRoundPanel {
+    --minimap-color08: rgba(0, 0, 0, 0.8);
+    --minimap-color07: rgba(0, 0, 0, 0.7);
+    --minimap-color05: rgba(0, 0, 0, 0.5);
+    --minimap-color03: rgba(0, 0, 0, 0.3);
+    --minimap-color01: rgba(0, 0, 0, 0.1);
+    --minimap-color0: rgba(0, 0, 0, 0);
+
+    &.hover {
+        --minimap-color07: rgba(0, 0, 0, 0.8);
+        --minimap-color05: rgba(0, 0, 0, 0.8);
+        --minimap-color03: rgba(0, 0, 0, 0.8);
+        --minimap-color01: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.minimap-blue .ENO3DRoundPanel {
+    --minimap-color08: rgba(63, 108, 133, 0.8);
+    --minimap-color07: rgba(63, 108, 133, 0.7);
+    --minimap-color05: rgba(63, 108, 133, 0.5);
+    --minimap-color03: rgba(63, 108, 133, 0.3);
+    --minimap-color01: rgba(63, 108, 133, 0.1);
+    --minimap-color0: rgba(63, 108, 133, 0);
+
+    &.hover {
+        --minimap-color07: rgba(63, 108, 133, 0.8);
+        --minimap-color05: rgba(63, 108, 133, 0.8);
+        --minimap-color03: rgba(63, 108, 133, 0.8);
+        --minimap-color01: rgba(63, 108, 133, 0.8);
+    }
+}
+
+.minimap-brown .ENO3DRoundPanel {
+    --minimap-color08: rgba(165, 150, 128, 0.8);
+    --minimap-color07: rgba(165, 150, 128, 0.7);
+    --minimap-color05: rgba(165, 150, 128, 0.5);
+    --minimap-color03: rgba(165, 150, 128, 0.3);
+    --minimap-color01: rgba(165, 150, 128, 0.1);
+    --minimap-color0: rgba(165, 150, 128, 0);
+
+    &.hover {
+        --minimap-color07: rgba(165, 150, 128, 0.8);
+        --minimap-color05: rgba(165, 150, 128, 0.8);
+        --minimap-color03: rgba(165, 150, 128, 0.8);
+        --minimap-color01: rgba(165, 150, 128, 0.8);
+    }
+}

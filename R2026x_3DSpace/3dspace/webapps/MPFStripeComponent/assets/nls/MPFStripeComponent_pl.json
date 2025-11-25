@@ -1,0 +1,14 @@
+{
+  "merchant": "Sprzedawca",
+  "order": "Kolejność",
+  "amount": "Kwota",
+  "cardHolder": "Posiadacz karty",
+  "cardNumber": "Numer karty",
+  "expiryDate": "Data ważności",
+  "cardHolderEmpty": "Nazwisko posiadacza karty jest nieprawidłowe.",
+  "pay": "Zapłać",
+  "phase": "Faza",
+  "paymentInProgress": "Płatność w toku... Może to chwilę potrwać.",
+  "failedToLoadPaymentPage": "Nie można załadować strony płatności. Spróbuj ponownie później i skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał.",
+  "failedToLoadPaymentSection": "Nie można załadować strony płatności. Spróbuj ponownie później i skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał."
+}

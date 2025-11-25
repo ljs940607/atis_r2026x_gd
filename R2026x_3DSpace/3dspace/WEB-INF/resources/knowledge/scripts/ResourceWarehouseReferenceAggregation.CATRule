@@ -1,0 +1,28 @@
+Let ChildReference (PLMEntity)
+Let ChildReferenceName(String)
+Let ParentReferenceName(String)
+Let MyMessage(String)
+
+set ChildReference = Parameters->GetAttributeObject("ReferenceToInstantiate")
+
+if ( (ChildReference.IsSupporting("ResourceWarehouseZoneReference") == true) OR
+	 (ChildReference.IsSupporting("ResourceWarehouseLocationReference") == true) OR
+	 (ChildReference.IsSupporting("3DShape") == true))
+{	 
+			Validation = true
+}
+else 
+{
+	Validation = false
+}
+
+if (Validation == false) 
+{
+	set ChildReferenceName = ChildReference.PLM_ExternalID
+	set ParentReferenceName = ThisObject.PLM_ExternalID
+
+	MyMessage = BuildMessageNLS("DELPPRPLMNewSuccessFailure", "AggregationDeniedPartA", ChildReferenceName, ParentReferenceName) + MyMessage
+	
+   	Parameters.Message = MyMessage
+}
+

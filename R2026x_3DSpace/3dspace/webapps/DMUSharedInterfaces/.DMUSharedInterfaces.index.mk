@@ -1,0 +1,17 @@
+m|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\DMUSharedInterfaces\typings\DMUApplicativeControllerEvents.d.ts|1748326014|2591
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\DMUApplicativeControllerEvents.d.ts|1748326014|2591
+t|win_b64\typings\DMUSharedInterfaces\typings\DMUApplicativeControllerStates.d.ts|1740741122|1419
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\DMUApplicativeControllerStates.d.ts|1740741122|1419
+t|win_b64\typings\DMUSharedInterfaces\typings\IDMUApplicativeCommentsController.d.ts|1756451971|5343
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\IDMUApplicativeCommentsController.d.ts|1756451971|5343
+t|win_b64\typings\DMUSharedInterfaces\typings\IDMUApplicativeControllerBase.d.ts|1741086584|933
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\IDMUApplicativeControllerBase.d.ts|1741086584|933
+t|win_b64\typings\DMUSharedInterfaces\typings\IDMUApplicativeLoaderController.d.ts|1743442693|870
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\IDMUApplicativeLoaderController.d.ts|1743442693|870
+t|win_b64\typings\DMUSharedInterfaces\typings\IDMUApplicativeSlideController.d.ts|1741086537|6535
+s|DMUSharedCommandsWeb\DMUSharedInterfaces.mweb\src\typings\IDMUApplicativeSlideController.d.ts|1741086537|6535

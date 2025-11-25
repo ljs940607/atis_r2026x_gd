@@ -1,0 +1,12 @@
+{
+  "column_Visibility": "Viditelnost",
+  "isVisible": "Viditelné pro studenty",
+  "isHidden": "Neviditelné pro studenty",
+  "progressMultiple": "Změna viditelnosti {targetfolder} s {objectsAdded} položkami.",
+  "progressSingle": "Změna viditelnosti {targetfolder} ",
+  "msgSuccess": "Viditelnost položky {itemCount} byla úspěšně změněna.",
+  "msgError": "Změna viditelnosti položky {itemCount} se nezdařila.",
+  "msgMultipleSuccess": "Viditelnost {itemCount} položek byla úspěšně změněna.",
+  "msgMultipleError": "Změna viditelnosti {itemCount} položek se nezdařila.",
+  "msgMaturityError": "Změna viditelnosti se nezdařila kvůli selhání změny stavu dokončení položek."
+}

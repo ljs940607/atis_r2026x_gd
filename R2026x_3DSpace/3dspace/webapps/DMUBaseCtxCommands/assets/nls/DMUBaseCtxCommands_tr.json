@@ -1,0 +1,23 @@
+{
+  "slideNeededLabel": "Ürünlerin görünümünü değiştiren bir slayt oluşturun veya uygulayın",
+  "hideShowTargetLabel": "Gizlenecek ölçümü, kesiti, işaretçiyi veya ürünü seçin",
+  "deleteWarningPanel": {
+    "title": "Sil",
+    "message": "Seçili elemanları silmek istediğinizden emin misiniz?",
+    "checkboxMessage": "Seçili yorumlarla ilişkili işaretçileri sil",
+    "cancelLabel": "İptal",
+    "okLabel": "Tamam",
+    "deleteLastMarkup": "Bu işaretleme silinemez"
+  },
+  "noFill": "Dolgu Yok",
+  "noBorder": "Kenarlık Yok",
+  "propertiesPanel": {
+    "title": "Özellikler",
+    "okLabel": "Tamam",
+    "applyLabel": "Uygula",
+    "closeLabel": "Kapat"
+  },
+  "DeleteLastMarkupWarning": "Son işaretleme silinemez",
+  "CreatingHighlight": "Vurgulama Oluşturuluyor",
+  "GeneratingIssue": "Sorun Oluşturuluyor"
+}

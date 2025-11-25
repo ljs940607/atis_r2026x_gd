@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Application Metas -->
+      <title>Filter Explicit Management</title>
+
+      <!-- Application Standalone emulation files -->
+      <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+      <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+      <!-- Include CSS for styling of the elements we are testing in that page : -->
+      <link rel="stylesheet" href="../UIKIT/UIKIT.css" type="text/css" />
+      <link rel="stylesheet" href="../ENOFilterExplicitWebInWin/ENOFilterExplicitWebInWin.css" type="text/css" />
+
+      <script type="text/javascript">
+          window.onload = function () {
+              dscef.sendString('Filter_Ready'); 
+          };
+
+          <!-- Build good paths -->
+          function BuildGoodPaths(brokenPath, url3DSpace, securityContext, urlFederated, grantedRoles, tenantId, tenantNls, userID, rootPId, rootLId) {
+              require([
+                'DS/ENOFilterExplicitWebInWin/views/filterRepairUI'
+              ], function (filterRepairUI) {
+
+                //-- Create shared Repair UI 
+                var filterUIObj = new filterRepairUI({
+                  brokenPaths: brokenPath,
+                  url: url3DSpace,
+                  ctx: securityContext,
+                  filteringParams: {
+                    "platform_services": [{
+                      "3DSpace": url3DSpace,
+                      "Federated": urlFederated,
+                      "platformId": tenantId,
+                      "platformNls": tenantNls,
+                      "userID": userID
+                    }],
+                    "user_granted_roles": grantedRoles,
+                    "rootPId": rootPId,
+                    "rootLId": rootLId
+                  }
+                });
+
+                //-- Display View 
+                filterUIObj.fetchData().then(function (res) {
+                  if ('RepairFilterFetchData_FAILURE' !== res) {
+                    filterUIObj.render().inject(document.body);
+                  }
+                });
+              });
+          }
+
+
+          <!-- Send a Notiifcation to Win -->
+          function sendNotificationToWin(name, message) {
+            'use strict';
+            dscef.sendString(name + '=' + message); //-RCI -  IR-1336640
+
+              // if (typeof CATCefSendString !== 'undefined') {
+              //   //CATCefSendString(name + '=' + message);
+              //   dscef.sendString(name + '=' + message);
+
+              // } else {
+              //   var textarea = document.createElement("textarea");
+              //   textarea.setAttribute("name", name);
+              //   textarea.appendChild(document.createTextNode(message));
+              //   var form = document.createElement("form");
+              //   form.setAttribute("method", "POST");
+              //   form.setAttribute("action", "jsnotif://");
+              //   form.appendChild(textarea);
+              //   document.documentElement.appendChild(form);
+              //   form.submit();
+              //   form.parentNode.removeChild(form);
+              //   form = null;
+              // }
+          }
+
+      </script>
+  </head>
+
+  <body>
+  </body>
+
+</html>

@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body > *:not(#footer) {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+#externalCreateTask {
+    .ds-detail-display.ddv-view {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+    .ddv-main {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+
+    div[data-field-name="subtitle"] {
+        display: flex ;
+        flex-direction: column ;
+        flex: 1 1 auto ;
+        overflow: hidden ;
+
+        .field-group,
+        .input-group-wrapper,
+        .input-group,
+        .input-element {
+            flex: 1 1 auto;
+            overflow: hidden; 
+        }
+        textarea.form-control.short.content {
+            flex: 1 1 auto;
+        }
+    }
+        
+    #footer {
+        flex-shrink: 0;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 5px;
+        border-top: 1px solid #e2e4e3;
+        justify-content: flex-end;
+        display: flex;
+    }
+    #footer .wux-controls-button {
+        margin: 7px;
+    }
+}

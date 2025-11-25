@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_es",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"URL de cotización externa",activateExternalQuotation:"Activar la cotización externa"});

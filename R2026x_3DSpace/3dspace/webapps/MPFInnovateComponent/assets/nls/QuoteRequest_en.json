@@ -1,0 +1,16 @@
+{
+  "other": "Other",
+  "companyName": "Company Name",
+  "typeCompanyName": "Type the name of your company",
+  "country": "Country",
+  "selectCountry": "Select the country of your company",
+  "countryNotAvailable": "The customer country is not available to issue quotations",
+  "phoneNumber": "Phone number",
+  "enterPhoneNumber": "Enter phone number",
+  "phoneNumberInvalid": "This phone number is invalid",
+  "addNda": "Add NDA",
+  "ndaInfo": "You can upload a Non Disclosure Agreement (NDA) that the selected service providers will have to accept before seeing your request.\n(Maximum file size: 30Mb | Supported file formats: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "An image file can't be uploaded as NDA.",
+  "fileFormatNotSupported": "File format not supported",
+  "uploadError": "An error occurred, please be aware that only PDF and textual files with a maximum size of 50Mb are accepted."
+}

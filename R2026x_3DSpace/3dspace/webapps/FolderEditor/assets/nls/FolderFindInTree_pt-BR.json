@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Localizando pastas de marcadores..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Não é possível executar Localizar na árvore na seção de favoritos e nas pastas de marcadores favoritas.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "O objeto solto não é uma pasta de marcadores.",
+    "subtitle": "Solte uma pasta raiz de marcadores ou pasta de marcadores."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Não é possível Localizar na árvore.",
+    "subtitle": "Expanda a árvore para esse nó específico da pasta de marcadores",
+    "message": "A pasta de marcadores para localizar não está visível na árvore."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Não é possível Localizar na árvore.",
+    "subtitle": "Expanda a seção da pasta de marcadores para o nível um.",
+    "message": "Não há pastas de marcadores visíveis na seção de pasta de marcadores."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Não é possível Localizar na árvore.",
+    "subtitle": "Selecione uma pasta de marcadores e tente novamente.",
+    "message": "Não há nenhuma pasta de marcadores selecionada para executar a localização."
+  },
+  "msg_info_limitToFindInRootNode": "Não foi possível exibir todos os resultados da pesquisa. Tente palavras-chave diferentes ou pesquise a partir de subpastas de marcadores.",
+  "msg_info_searchCompleted": "A pesquisa foi concluída.",
+  "msg_info_No_Occurrence": "Nenhum resultado encontrado."
+}

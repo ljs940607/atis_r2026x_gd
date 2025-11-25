@@ -1,0 +1,1 @@
+define("DS/DMUBaseUI/DMUBaseUI_zh",{});define("DS/DMUBaseUI/assets/nls/DMUBaseUI",{defaultValidatedStampLabel:"已验证",defaultRejectedStampLabel:"已拒绝",deleteMarkupFailed:"标注删除失败",deleteReplyFailed:"重放删除失败",ProductDefinition:"3D 定义",RSDefinition:"发布快照",openButtonLabel:"打开",cancelButtonLabel:"取消",panelLoading:"产品加载"});

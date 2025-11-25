@@ -1,0 +1,53 @@
+{
+  "getlistofDELMIATypesError" : "Error when retrieving Delmia Types",
+  "getlistofDELMIATypesTitle" : "DELMIA Types",
+
+  "modalTitle" :"Attributes",
+  "Add" :"Add Custo Attributes",
+  "Select" : "Select or search",
+  "Info" : "Do your customized attribute selection and click ok. It will save the parameters in the database.",
+  "Loading" : "Loading",
+
+  "DELLmiPPRSystemReference" : "Process",
+  "DELLmiOperationPPRReference" : "Operation",
+  "DELWkiAlertReference" : "Alert",
+  "DELWkiDataCollectReference" : "Data Collect",
+  "DELWkiDataCollectPlanReference" : "Data Collect Plan",
+  "DELWkiInstructionReference" : "Instruction",
+  "DELWkiSignOffReference" : "Sign Off",
+  "DELWkiDataCollectChecklistReference" : "Checklist",
+  "DELFmiFunctionReference" : "Item",
+  "Resource" : "Resource",
+  "PLMSpecifyHowToCollectDataCnx_Real" : "Data Collect Plan Row Real",
+  "PLMSpecifyHowToCollectDataCnx_Integer" : "Data Collect Plan Row Integer",
+  "PLMSpecifyHowToCollectDataCnx_Text" : "Data Collect Plan Row Text",
+  "PLMSpecifyHowToCollectDataCnx_Boolean" : "Data Collect Plan Row Boolean",
+  "PLMSpecifyHowToCollectDataCnx_TimeStamp" : "Data Collect Plan Row Time Stamp",
+
+  "types" : "Type",
+  "typesTooltip" : "Type of Object",
+ "attribute" : "Attribute Name",
+  "attributeTooltip" : "metaName of the attribute",
+  "attrLabel" : "Attribute Label",
+  "attrLabelTooltip" : "Label to be displayed in 3DWorkbook Details panels",
+  "newRow" : "New Row",
+  "newRowTooltip" : "setting to indicate whether this attribute to be displayed in same row or new row",
+
+  "ModelDocumentTttle":"Model Document (CGR)",
+  "MmodelDocumentTooltip":"Model Document (CGR)",
+  "SearchButtonTooltip":"Launch Search to Select Model Document",
+  "SearchTitleForModelDocument":"Select Model Document", 
+
+  "ErrorMsgNotANumber" : "Entered value is not a number",
+  "ErrorMsgNotInRange" : "Entered value is not in allowed range",
+  "ErrorMsgNotAString" : "Entered value is not a String",
+  "ErrorMsgNotAnInteger" : "Entered value is not an integer",
+  "ModelDocumenttWarningMessage" : "Select from Search or Clear entire string. Manual Entering of Document Name is not allowed.",
+
+  "orderParameters" :"Order Updated",
+  "orderParametersTitle" :"Reorder",
+  "orderParametersError" :"Error when reordering",
+  "orderParametersMaskMessage" : "Updating the Order",
+  "orderParametersDeleteError" : "Error when deleting Previous Order",
+  "orderParametersSetError" : "Error when Saving New Order"
+}

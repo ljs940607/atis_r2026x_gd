@@ -1,0 +1,1 @@
+define("DS/ENODOUtilsServices/ENODOUtilsServices_tr",{});define("DS/ENODOUtilsServices/assets/nls/enodo_notifications",{error:{title:"Hata",security_context_fail:"Sunucu isteği gönderilemiyor: güvenlik bağlamı alınamadı."}});

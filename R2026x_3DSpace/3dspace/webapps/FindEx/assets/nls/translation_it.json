@@ -1,0 +1,18 @@
+{
+  "FindDialogTitle": "Trova",
+  "NavigationPreviousMatchTooltipTitle": "Vai alla corrispondenza precedente",
+  "NavigationPreviousMatchTooltipShortHelp": "È necessaria almeno 1 corrispondenza.",
+  "NavigationNextMatchTooltipTitle": "Vai alla corrispondenza successiva",
+  "NavigationNextMatchTooltipShortHelp": "È necessaria almeno 1 corrispondenza.",
+  "NavigationValidationTooltipTitle": "Trova",
+  "NavigationValidationTooltipShortHelp": "Sono necessari almeno {inputValidationThreshold} caratteri.",
+  "NavigationSelectionTooltipTitle": "Seleziona corrispondenze",
+  "NavigationSelectionTooltipShortHelp": "È necessaria almeno 1 corrispondenza.",
+  "MatchCaseTooltipShortHelp": "Maiuscole/minuscole",
+  "NavigationModeTooltipShortHelp": "Naviga tra righe invece che tra parole chiave",
+  "AutoSelectTooltipShortHelp": "Seleziona automaticamente il risultato di corrispondenza attuale",
+  "FindIn": "Trova in:",
+  "FindInComboAllSelected": "Tutte le colonne",
+  "FindInComboPlaceholder": "Nessuna colonna",
+  "NavigationValidationColumnsNotValidTooltipTitle": "È necessario selezionare almeno una colonna nell'opzione Trova in"
+}

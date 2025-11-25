@@ -1,0 +1,32 @@
+{
+  "column": {
+    "isLastIteration": "Ostatnia iteracja",
+    "usage": "Użyta iteracja",
+    "maturity": "Dojrzałość",
+    "tree": "Model systemu",
+    "contentType": "Podtyp",
+    "name": "Nazwa",
+    "contentVersion": "Wersja CAD",
+    "owner": "Właściciel",
+    "modifier": "Ostatnio zmodyfikowano przez"
+  },
+  "options": {
+    "withProfiles": "pokaż standardowe profile",
+    "withHistory": "pokaż zastosowania historyczne"
+  },
+  "msg": {
+    "relationship.support.warning": "Ta wersja klienta nie utworzyła relacji, ale zależności mogą istnieć"
+  },
+  "menu": {
+    "open_with": "Otwórz za pomocą"
+  },
+  "usage": {
+    "synchro": "aktualne",
+    "outdated": "nieaktualne",
+    "deleted": "usunięte",
+    "latest": "najnowsze"
+  },
+  "msg_not_supported_selection": "nieobsługiwane",
+  "deactivated": "Usunięto",
+  "denied": "Odmowa dostępu"
+}

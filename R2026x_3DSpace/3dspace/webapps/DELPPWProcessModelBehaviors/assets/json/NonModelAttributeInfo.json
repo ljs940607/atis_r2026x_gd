@@ -1,0 +1,107 @@
+{
+  "MfgProductionPlanning.V_usage" :  {
+    "Name": "V_usage",
+    "FullName": "MfgProductionPlanning.V_usage",
+    "DefaultValue": "",
+    "HasRangeDefined": "Yes",
+    "AuthorizedValues":[
+    ],
+    "Magnitude": "",
+    "ManipulationUnit": "",
+    "MaxLength": 40,
+    "MultiLine": "No",
+    "MultiValuated": "No",
+    "NLS": "Role",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  },
+  "MfgProductionPlanning.V_DimensionType" :  {
+    "Name": "V_DimensionType",
+    "FullName": "MfgProductionPlanning.V_DimensionType",
+    "DefaultValue": "",
+    "HasRangeDefined": "Yes",
+    "AuthorizedValues":[
+    ],
+    "Magnitude": "",
+    "ManipulationUnit": "",
+    "MaxLength": 40,
+    "MultiLine": "No",
+    "MultiValuated": "No",
+    "NLS": "Quantity Type",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  },
+  "MfgProductionPlanning.usagePoint" :  {
+    "Name": "usagePoint",
+    "FullName": "MfgProductionPlanning.usagePoint",
+    "DefaultValue": "",
+    "HasRangeDefined": "Yes",
+    "AuthorizedValues":[
+    ],
+    "MultiLine": "No",
+    "MultiValuated": "No",
+    "NLS": "Usage Point",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  },
+  "DELLmiRichText.V_RichText" : {
+    "Name": "V_RichText",
+    "FullName": "DELLmiRichText.V_RichText",
+    "DefaultValue": "",
+    "HasRangeDefined": "No",
+    "AuthorizedValues":[
+    ],
+    "Magnitude": "",
+    "ManipulationUnit": "",
+    "MaxLength": 0,
+    "MultiLine": "No",
+    "MultiValuated": "No",
+    "NLS": "Rich Text",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  },
+  "MfgProductionPlanning.V_Action" :  {
+    "Name": "V_Action",
+    "FullName": "MfgProductionPlanning.V_Action",
+    "DefaultValue": "",
+    "HasRangeDefined": "Yes",
+    "AuthorizedValues":[
+    ],
+    "Magnitude": "",
+    "ManipulationUnit": "",
+    "MaxLength": 40,
+    "MultiLine": "No",
+    "MultiValuated": "Yes",
+    "NLS": "Action(s)",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  },
+  "MfgProductionPlanning.V_CustoRole" :  {
+    "Name": "V_CustoRole",
+    "FullName": "MfgProductionPlanning.V_CustoRole",
+    "DefaultValue": "",
+    "HasRangeDefined": "Yes",
+    "AuthorizedValues":[
+    ],
+    "Magnitude": "",
+    "ManipulationUnit": "",
+    "MaxLength": 40,
+    "MultiLine": "No",
+    "MultiValuated": "No",
+    "NLS": "Service Process Role",
+    "Protection": 2,
+    "Type": "String",
+    "UIAccess": "",
+    "isReadOnly" : false
+  }
+}

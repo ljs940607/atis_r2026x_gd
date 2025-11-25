@@ -1,0 +1,62 @@
+[
+    {
+      "code": "EPSG:3857",
+      "name":"WGS 84 / Pseudo-Mercator",
+      "type":"Mercator_1SP",
+      "proj4":"+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
+      "wgs84BBox":[-180.000000,-85.060000,180.000000,85.060000],
+      "projectedBBox":[-20037508.342789,-20048966.104015,20037508.342789,20048966.104015],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    },
+    {
+      "code": "EPSG:3948",
+      "name":"RGF93 v1 / CC48",
+      "type":"Lambert_Conformal_Conic_2SP",
+      "proj4":"+proj=lcc +lat_0=48 +lon_0=3 +lat_1=47.25 +lat_2=48.75 +x_0=1700000 +y_0=7200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "wgs84BBox":[-4.870000,47.000000,8.230000,49.000000],
+      "projectedBBox":[1102438.827391,7102310.806892,2097494.099860,7340564.439128],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    },
+    {
+      "code": "EPSG:2154",
+      "name":"RGF93 v1 / Lambert-93",
+      "type":"Lambert_Conformal_Conic_2SP",
+      "proj4":"+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "wgs84BBox":[-9.860000,41.150000,10.380000,51.560000],
+      "projectedBBox":[-378305.809968,6034305.735038,1320649.571234,7235612.724773],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    },
+    {
+      "code": "EPSG:32643",
+      "name":"WGS 84 / UTM zone 43N",
+      "type":"Transverse_Mercator",
+      "proj4":"+proj=utm +zone=43 +datum=WGS84 +units=m +no_defs",
+      "wgs84BBox":[72.000000,0.000000,78.000000,84.000000],
+      "projectedBBox":[166021.443081,0.000000,833978.556919,9329005.182447],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    },
+    {
+      "code": "EPSG:32636",
+      "name":"WGS 84 / UTM zone 36N",
+      "type":"Transverse_Mercator",
+      "proj4":"+proj=utm +zone=36 +datum=WGS84 +units=m +no_defs",
+      "wgs84BBox":[30.000000,0.000000,36.000000,84.000000],
+      "projectedBBox":[166021.443081,0.000000,833978.556919,9329005.182447],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    },
+    {
+      "code": "EPSG:3414",
+      "name":"SVY21 / Singapore TM",
+      "type":"Transverse_Mercator",
+      "proj4":"+proj=tmerc +lat_0=1.36666666666667 +lon_0=103.833333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "wgs84BBox":[103.590000,1.130000,104.070000,1.470000],
+      "projectedBBox":[12576.274479,919.050021,50172.125957,54342.240853],
+      "unit":"metre",
+      "ratioToMeter":1.0
+    }
+]

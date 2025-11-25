@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Eingeschränkter Modus für Klassifizierungsverwaltungen",
+  "CCM_Manager": "Klassifizierungsverwaltung",
+  "CCM_specialist_title": "Spezialist",
+  "CCM_expert_title": "Experte",
+  "CCM_architect_title": "Architekt",
+  "permission_update_successful": "{updatedPermission} Genehmigung wurde {name} erteilt.",
+  "permission_update_failure": "Berechtigung für Benutzernamen kann nicht aktualisiert werden.",
+  "restriction_mode_switched": "Eingeschränkter Modus ist {restrictionToggle}geschaltet.",
+  "restriction_mode_switch_failure": "Eingeschränkter Modus konnte nicht umgeschaltet werden.",
+  "widget_load_failure": "Nur Administratoren mit der CSV-Rolle können auf diese App zugreifen.",
+  "on": "ein",
+  "off": "aus",
+  "search_name": "Nach Namen suchen"
+}

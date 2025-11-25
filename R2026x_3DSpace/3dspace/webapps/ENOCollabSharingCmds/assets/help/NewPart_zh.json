@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"新零件",
+"ENONewPartHdr.ShortHelp":"创建新零件。",
+"ENONewPartHdr.LongHelp":"在对话框中输入标题和必要的属性（如有），然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个零件，或者单击<uicontrol>创建</uicontrol>以创建另一个零件。",
+"ENOInsertNewPartHdr.Title":"插入新零件",
+"ENOInsertNewPartHdr.ShortHelp":"创建新零件，并将其作为子项添加到选定的对象。",
+"ENOInsertNewPartHdr.LongHelp":"<p>在对话框中输入标题，然后可选择模板以选择 CAD 主项。单击<uicontrol>创建并关闭</uicontrol>以便仅创建一个零件，或者单击<uicontrol>创建</uicontrol>以创建另一个零件。</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

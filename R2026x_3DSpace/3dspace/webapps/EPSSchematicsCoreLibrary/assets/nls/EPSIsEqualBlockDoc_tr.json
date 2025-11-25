@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "İki girdi veri bağlantı noktası değerinin eşitliğini karşılaştırır.",
+  "description": "Veri bağlantı noktaları tüm değer tiplerini işler ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Value1": "karşılaştırılacak ilk değer.",
+    "Value2": "karşılaştırılacak ikinci değer."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "True": "iki girdi veri bağlantı noktası değeri eşit olduğunda etkinleştirilir.",
+    "False": "iki girdi veri bağlantı noktası değeri farklı olduğunda etkinleştirilir."
+  },
+  "example": null
+}

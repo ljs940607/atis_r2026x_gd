@@ -1,0 +1,14 @@
+{
+  "MaxDelay": "MaxDelay",
+  "MinDelay": "MinDelay",
+  "Synchro": "同期",
+  "FinishToStart": "完了-開始",
+  "StartToStart": "開始-開始",
+  "FinishToFinish": "完了-完了",
+  "StartToFinish": "開始-完了",
+  "PreviousCycle": "直前のサイクル",
+  "DifferentResources": "異なるリソース",
+  "None": "なし",
+  "SameResources": "同じリソース",
+  "SameResourcesWithReservation": "予約による同じリソース"
+}

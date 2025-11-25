@@ -1,0 +1,14 @@
+{
+	"createNewDrawing": "New Drawing",
+	"insertNewDrawing" : "Insert New Drawing",
+	"newObjectType" : "Drawing",
+	
+	"multiParentInsertDrawingTitle" : "Insert new Drawing",
+	"multiParentInsertDrawingMsg" : "Are you sure you want to insert a new Drawing under multiple parents?",
+	"multiParentCannotInsert": "Error :Cannot insert under selected object(s)",
+	
+	"CannotInsert.Type":"You cannot insert this object type under the selected object: {type}",
+	
+	"okBtn" : "OK",
+	"closeBtn" : "Close"
+}

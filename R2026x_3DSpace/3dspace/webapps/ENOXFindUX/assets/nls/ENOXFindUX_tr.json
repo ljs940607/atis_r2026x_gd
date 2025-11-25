@@ -1,0 +1,25 @@
+{
+  "find": {
+    "title": "Bul",
+    "title1Node": "Bul - {label}",
+    "titleNNodes": "Bul - {nbNodes} Nesne",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "findBtn": "Bul",
+    "select": "Bulunan düğümleri seç",
+    "selectNodeWithoutLabel": "1 Düğüm seç",
+    "options": "Seçenekler",
+    "autoselect": "Geçerli eşleşen sonucu otomatik olarak seç",
+    "navigateByRow": "Anahtar sözcükler yerine satırlar arasında gezin",
+    "includeType3dShape": "3DShapes ekle",
+    "includeTypeInstance": "Örnekler ekle",
+    "findIn": "Şurada bul:",
+    "allColumns": "Tüm Sütunlar",
+    "none": "Hiçbiri",
+    "findBtnTooltip": "Girdi Dizesini bul",
+    "findBtnTooltipNoColumn": "\"Bul\" seçeneğinde en az bir sütun seçilmelidir",
+    "nextBtnTooltip": "Bir sonraki eşleşen hücreyi bul",
+    "previousBtnTooltip": "Önceki eşleşen hücreyi bul",
+    "selectBtnTooltip": "Eşleşen tüm öğeleri seç"
+  }
+}

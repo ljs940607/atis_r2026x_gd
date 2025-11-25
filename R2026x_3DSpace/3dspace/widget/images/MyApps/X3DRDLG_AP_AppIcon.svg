@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="j" data-name="IT 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="12.2" y1="18.25" x2="30.21" y2="49.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="c" x1="28.82" y1="34.17" x2="34.23" y2="43.53" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <linearGradient id="f" x1="31.61" y1="25.97" x2="41.28" y2="42.72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="h" x1="35.76" y1="39.12" x2="39.82" y2="46.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="k" x1="20.63" y1="12.31" x2="43.37" y2="51.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3287af"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="l" data-name="Dégradé sans nom 5" x1="36.31" y1="25.41" x2="39.65" y2="35.54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="m" x1="28.71" y1="34.23" x2="33.08" y2="41.8" xlink:href="#f"/>
+    <linearGradient id="n" x1="38.88" y1="31.13" x2="44.17" y2="40.3" xlink:href="#c"/>
+    <linearGradient id="o" x1="38.76" y1="31.21" x2="43.04" y2="38.63" xlink:href="#f"/>
+    <linearGradient id="p" x1="37.23" y1="42.44" x2="40.58" y2="48.23" xlink:href="#f"/>
+    <linearGradient id="q" x1="35.99" y1="23.02" x2="40.01" y2="29.98" xlink:href="#f"/>
+    <linearGradient id="r" x1="35.09" y1="20.47" x2="39.58" y2="28.23" xlink:href="#f"/>
+    <linearGradient id="s" x1="21.48" y1="10.17" x2="30.67" y2="26.09" xlink:href="#h"/>
+    <linearGradient id="t" x1="30.33" y1="5.06" x2="42.67" y2="26.44" xlink:href="#h"/>
+  </defs>
+  <path d="M50.9,46.19l-15.95,9.01c-1.83,1.04-4.07,1.04-5.91,0l-15.95-9.01c-1.92-1.08-3.1-3.1-3.1-5.29v-17.79c0-2.19,1.18-4.21,3.1-5.29l15.95-9.01c1.83-1.04,4.07-1.04,5.91,0l15.95,9.01c1.92,1.08,3.1,3.1,3.1,5.29v17.79c0,2.19-1.18,4.21-3.1,5.29Z" fill="none" stroke="url(#k)" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M32,10.02c-.68,0-1.36.17-1.97.51l-15.95,9.01c-1.29.73-2.08,2.09-2.08,3.55v17.79c0,1.46.8,2.82,2.08,3.55l15.95,9.01c1.21.69,2.72.69,3.94,0l15.95-9.01c1.29-.73,2.08-2.09,2.08-3.55v-17.79c0-1.46-.8-2.82-2.08-3.55l-15.95-9.01c-.61-.34-1.29-.51-1.97-.51Z" fill="#fff" opacity=".3"/>
+  <g>
+    <path d="M48.5,38.55h0v-13.79l1-.26v-2l-15.5-9-10.5-4.5-10,8.5v17.5l14,16,23-8.5v-2.51l-2-1.44Z" fill="#fff" opacity=".75" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <polygon points="48.5 38.55 25.5 46.05 25.5 29.5 48.5 24.55 48.5 38.55" fill="url(#f)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M45.5,34.44v-2.3c0-2-1.58-3.19-3.5-2.64-1.61.46-2.84,1.71-3.29,3.26l-13.21-3.26,22.5-5.5.03,11.06-2.53-.62Z" fill="url(#l)" opacity=".3"/>
+    <g>
+      <path d="M28.5,45.08v-7.95c0-2.15,1.42-4.04,3.49-4.63h.01c1.92-.55,3.5.64,3.5,2.64v7.65l-7,2.28Z" fill="url(#c)" stroke="#787878" stroke-linejoin="round"/>
+      <path d="M33.5,41.55v-7.65c0-.58-.15-1.09-.39-1.51-.35-.02-.72,0-1.11.11h-.01c-2.07.59-3.49,2.48-3.49,4.63v6.19l5-1.76Z" fill="url(#m)" stroke="#787878" stroke-linejoin="round"/>
+      <path d="M38.5,41.81v-7.67c0-2.15,1.43-4.05,3.5-4.64,1.92-.55,3.5.64,3.5,2.64v7.39l-7,2.27Z" fill="url(#n)" stroke="#787878" stroke-linejoin="round"/>
+      <path d="M43.5,30.97c0-.62-.16-1.15-.43-1.58-.34-.02-.69,0-1.07.11-2.07.59-3.51,2.49-3.5,4.64v5.91l5-1.69v-7.39Z" fill="url(#o)" stroke="#787878" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <polygon points="50.5 39.99 27.5 48.05 27.5 51 50.5 42.5 50.5 39.99" fill="url(#p)" stroke="#787878" stroke-linejoin="round"/>
+      <polygon points="48.5 38.55 45.5 39.53 43.5 38.37 38.5 40.05 38.5 41.81 35.5 42.79 33.5 41.55 28.5 43.32 28.5 45.08 25.5 46 27.5 48.05 50.5 39.99 48.5 38.55" fill="url(#h)" stroke="#787878" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M47,38.52v-6.38c0-1.13-.44-2.08-1.23-2.68-.64-.49-1.45-.66-2.31-.55.48.08.92.26,1.31.55.79.6,1.23,1.55,1.23,2.68v6.71l1-.33Z" fill="#fff" opacity=".2"/>
+      <path d="M37,41.77v-6.63c0-1.13-.44-2.08-1.23-2.68-.64-.48-1.45-.66-2.3-.55.48.08.92.26,1.3.55.79.6,1.23,1.55,1.23,2.68v6.96l1-.33Z" fill="#fff" opacity=".2"/>
+    </g>
+    <g>
+      <polygon points="49.5 22.5 26.5 28.5 26.5 30.5 49.5 24.5 49.5 22.5" fill="url(#q)" stroke="#787878" stroke-linejoin="round"/>
+      <polygon points="26.5 28.5 38.5 18.5 49.5 22.5 26.5 28.5" fill="url(#r)" stroke="#787878" stroke-linejoin="round"/>
+      <polygon points="44.46 22.26 38.8 20.2 32.62 25.35 44.46 22.26" fill="#646464" opacity=".3"/>
+    </g>
+    <g>
+      <polygon points="38.5 18.5 26.5 28.5 13.5 17.5 23.5 9 38.5 18.5" fill="url(#s)" stroke="#787878" stroke-linejoin="round"/>
+      <polygon points="26.5 26.85 14.86 17 14.27 17.5 26.5 27.85 37.65 18.56 36.97 18.12 26.5 26.85" fill="#fff" opacity=".2"/>
+      <polygon points="49.5 22.5 38.5 18.5 23.5 9 34 13.5 49.5 22.5" fill="url(#t)" stroke="#787878" stroke-linejoin="round"/>
+    </g>
+    <path d="M48.5,38.55h0v-13.79l1-.26v-2l-15.5-9-10.5-4.5-10,8.5v17.5l14,16,23-8.5v-2.51l-2-1.44Z" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <g>
+      <polygon points="13.5 17.5 13.5 35 27.5 51 27.5 48.05 25.5 46 25.5 29.5 26.5 30.5 26.5 28.5 13.5 17.5" fill="url(#a)" stroke="#003755" stroke-linejoin="round"/>
+      <g opacity=".2">
+        <path d="M26,28.73v.56l-.15-.14c-.14-.15-.35-.19-.54-.11-.11.04-.19.12-.24.21l-11.07-9.36v-1.31l12,10.15Z" fill="#fff"/>
+        <polygon points="25 34.72 25 36.11 14 25.56 14 24.17 25 34.72" fill="#fff"/>
+        <polygon points="25 41.7 25 43.14 14 31.69 14 30.25 25 41.7" fill="#fff"/>
+      </g>
+      <line x1="13.5" y1="23" x2="25.5" y2="34.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+      <line x1="13.5" y1="29" x2="25.5" y2="41.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M24,29.4c0,.83-.45,1.18-1,.79s-1-1.39-1-2.21.45-1.18,1-.79,1,1.39,1,2.21Z" fill="#003755"/>
+      <path d="M24,36.08c0,.83-.45,1.18-1,.79s-1-1.39-1-2.21.45-1.18,1-.79,1,1.39,1,2.21Z" fill="#003755"/>
+      <path d="M24,42.76c0,.83-.45,1.18-1,.79s-1-1.39-1-2.21.45-1.18,1-.79,1,1.39,1,2.21Z" fill="#003755"/>
+    </g>
+  </g>
+</svg>

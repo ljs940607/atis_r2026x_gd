@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Türetilmiş Çıktı Kuralı Detayları",
+    "doattributes": "Türetilmiş Çıktı Kuralı Öznitelikleri",
+    "name": "Ad",
+    "connector": "Bağlantı Elemanı",
+    "implicitRule": "Dolaylı Tanımlanmış Kural",
+    "external": "Harici Oluşturma",
+    "parameters": "Dönüştürme Parametreleri",
+    "converter": "Dönüştürücü",
+    "origin": "Orijin",
+    "forceUpdate": "Zorunlu Güncelleme",
+    "uptodateDO": "Güncel",
+    "jobStatus": "İşin Durumu",
+    "format": "Format",
+    "alias": "Birleştirilmiş Format",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "buttons": {
+    "cancel": "İptal"
+  },
+  "popup": {
+    "option": "Seçenek",
+    "value": "Değer",
+    "yesButton": "Evet",
+    "noButton": "Hayır",
+    "cancelButton": "İptal"
+  },
+  "error": {
+    "title": "Hata",
+    "invalidFrame": "İşlem gerçekleştirilemiyor. Pencere öğesini yenileyin ve tekrar deneyin.",
+    "invalidParameter": "Parametreler düzgün tanımlanmamış."
+  }
+}

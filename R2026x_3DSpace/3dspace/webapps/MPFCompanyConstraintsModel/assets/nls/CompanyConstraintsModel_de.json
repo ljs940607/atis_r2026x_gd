@@ -1,0 +1,16 @@
+{
+  "errorName": "Name des Unternehmens ist erforderlich",
+  "errorTaxRegId": "Format der Steuerregisternummer ist ungültig",
+  "noSpecialCharacterMessage": "Nur alphanumerische Zeichen (ohne Akzent) sind zulässig",
+  "errorPersonalIdNUmberFormat": "Das Format der Ausweisdokumentnummer ist ungültig",
+  "errorRegistrationIdFormat": "Das Format der Steuerregisternummer ist ungültig",
+  "errorCountry": "Land ist erforderlich",
+  "name": "Name",
+  "registrationId": "Registrierungs-ID",
+  "taxRegistrationId": "Steuerregisternummer",
+  "personalIdNumber": "Ausweisdokumentnummer",
+  "url": "URL",
+  "country": "Land",
+  "isRequired": "{0} ist erforderlich",
+  "formatIsInvalid": "{0}-Format ist ungültig"
+}

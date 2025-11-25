@@ -1,0 +1,1 @@
+define("DS/WAfrInternalTracker/WAfrSendManager",["DS/Usage/TrackerAPI"],(function(e){"use strict";const r=Object.create(null);return r.sendTrackers=function(r){e.trackPageEvent(r)},r}));

@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="カット";
+DMUSection.DMUSectionNoCutHdr.Title="カットなし";
+DMUSection.DMUSectionGridHdr.Title="グリッド";
+DMUSection.DMUSectionFlipHdr.Title="反転";
+DMUSection.DMUSectionNormalToXHdr.Title="X 方向に位置決め";
+DMUSection.DMUSectionNormalToYHdr.Title="Y 方向に位置決め";
+DMUSection.DMUSectionNormalToZHdr.Title="Z 方向に位置決め";
+DMUSection.DMUSectionPrecisePosHdr.Title="形状からの位置決め";
+DMUSection.DMUSectionMoveHdr.Title="視点を移動";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="セクション 2 次ビューアー";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="選択的セクション";
+DMUSection.DMUSectionDeleteSectionHdr.Title="除去";
+
+DMUSection.DMUExitClippingEditionHdr.Title="クリッピングの編集を終了";
+DMUSection.DMUClippingEditionHdr.Title="クリッピングを編集";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="建築アイテムでクリップ";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="セクションでクリップ";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="選択したオブジェクトからサイズを変更します";
+DMUSection.DMUResetClippingPlaneHdr.Title="クリッピングをリセット";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="スライスによるクリップ";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="選択したオブジェクトからサイズを変更します";
+DMUSection.DMUResetClippingSliceHdr.Title="クリッピングをリセット";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="ボックスによるクリップ";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="選択したオブジェクトからサイズを変更します";
+DMUSection.DMUResetClippingBoxHdr.Title="クリッピングをリセット";
+
+DMUSection.DMUClippingNormalToXHdr.Title="X 軸に沿って配置";
+DMUSection.DMUClippingNormalToYHdr.Title="Y 軸に沿って配置";
+DMUSection.DMUClippingNormalToZHdr.Title="Z 軸に沿って配置";
+DMUSection.DMUClippingNormalUserHdr.Title="選択した形状からの位置決め";
+DMUSection.DMUClippingReverseHdr.Title="クリッピングを反転";
+DMUSection.DMUContourViewerHdr.Title="セクション 2 次ビューアー";
+DMUSection.DMUClippingPositionHdr.Title="クリッピング位置...";
+DMUSection.DMUAlignViewHdr.Title="視点を位置合わせ";
+DMUSection.DMUHideShowHdr.Title="非表示/表示";
+DMUSection.DMUCutUncutHdr.Title="カット/アンカット...";
+DMUSection.DMUClippingEditStr.Title="クリッピング";
+DMUSection.DMUClippingPropertiesHdr.Title="プロパティ";

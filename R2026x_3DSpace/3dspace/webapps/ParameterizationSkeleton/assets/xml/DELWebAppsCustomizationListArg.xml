@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration">
+	<object type="textarea" id="applicationName" value="" disabled="false" mandatory="true" sortable="false"></object>
+  	<object type="combobox" id="parameterSet" value="" disabled="false" mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="isLocked" value="false" disabled="false" mandatory="true" sortable="false"></object>
+</ui>

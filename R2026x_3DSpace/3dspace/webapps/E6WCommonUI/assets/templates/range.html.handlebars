@@ -1,0 +1,20 @@
+{{!++subtemplate++}}
+  {{!++id:range++}}
+  {{!--
+      template for range fields
+
+--}}
+  {{#if label}}
+        {{> labelWithTooltip}}
+     </label>
+    {{/if}}
+    <div class="field-group">
+        <div class="input-group-wrapper">
+            <div class="input-group">
+                <div class="input-element">
+                    <div class="range"  {{#if fieldHTMLId}}id="{{fieldHTMLId}}Range{{viewId}}"{{else}}id="{{name}}Range{{viewId}}"{{/if}} >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

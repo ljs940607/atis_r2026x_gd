@@ -1,0 +1,60 @@
+{
+	"fields": {
+		"fieldsInfo": [{
+						"label": "label_Type",
+						"isFieldMandatory": true,
+						"createField": [{
+							"fieldName": "Type",
+							"fieldLabel": "",
+							"isMandatory": true,
+							"placeHolder": "placeHolder_Type",
+							"disabled": false,
+							"clearButton": false,
+							"type": "singleselect",
+							"visible":true
+						}]
+					},
+					{
+						"label": "label_Title",
+						"isFieldMandatory": true,
+						"createField": [{
+							"fieldName": "Title",
+							"fieldLabel": "",
+							"isMandatory": true,
+							"placeHolder": "placeHolder_Title",
+							"disabled": false,
+							"clearButton": false,
+							"type": "text",
+							"visible":true
+						}]
+					},
+					{
+						"label": "label_Description",
+						"isFieldMandatory": false,
+						"createField": [{
+							"fieldName": "Description",
+							"fieldLabel": "",
+							"isMandatory": false,
+							"placeHolder": "placeHolder_Description",
+							"disabled": false,
+							"clearButton": false,
+							"type": "textarea",
+							"visible":true						
+							}]
+					},
+					{
+						"label": "label_Notes",
+						"isFieldMandatory": false,
+						"createField": [{
+							"fieldName": "Notes",
+							"fieldLabel": "",
+							"isMandatory": false,
+							"placeHolder": "placeHolder_Notes",
+							"disabled": false,
+							"clearButton": false,
+							"type": "textarea",
+							"visible":true						
+							}]
+					}]
+	}
+}

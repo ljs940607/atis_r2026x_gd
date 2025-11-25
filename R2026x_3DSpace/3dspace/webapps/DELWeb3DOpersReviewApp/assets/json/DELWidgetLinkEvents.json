@@ -1,0 +1,174 @@
+{
+  "eventsPrefix":"DS/DELExternalWidgetCom/",
+	"eventsToSubscribe": {
+		"LoadData": {
+			"feature": "DELViewerContent",
+			"internalEvent": "loadDataFromOtherWidget"
+		},
+		"SetAppConfig": {
+			"feature": "DELViewerContent"
+		},
+		"RemoveAll": {
+			"feature": "DELViewerContent"
+		},
+		"RemoveRoots": {
+			"feature": "DELViewerContent"
+		},
+		"GetAppStatus":{
+			"feature": "DELViewerContent"
+		},
+		"SetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp",
+			"internalEvent":"setBuildUpGlobalSettings"
+		},
+		"GetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp",
+			"internalEvent":"getBuildUpGlobalSettings"
+		},
+		"GetBuildUpGlobalContent": {
+			"feature": "DELViewerBuildUp",
+			"internalEvent":"getBuildUpGlobalContent"
+		},
+		"Select": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onSelect"
+		},
+		"UnSelect": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onUnSelect"
+		},
+		"Highlight": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onHighlight"
+		},
+		"UnHighlight": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onUnHighlight"
+		},
+		"Load2DStructure": {
+			"feature": "DELViewer2DContent"
+		},
+		"Remove2DStructure": {
+			"feature": "DELViewer2DContent"
+		},
+		"Hide": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onHide"
+		},
+		"Show": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onShow"
+		},
+		"Reframe": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onReframe"
+		},
+		"Refresh": {
+			"feature": "DELViewerContentSync",
+			"internalEvent":"onRefresh"
+		},
+		"SetGraphicProperties": {
+			"feature": "DELViewerContentSync"
+		},
+		"RemoveGraphicProperties": {
+			"feature": "DELViewerContentSync"
+		},
+		"GetContent": {
+			"feature": "DELViewerContentSync"
+		},
+		"Freeze": {
+			"feature": "DELViewerContentSync"
+		},
+		"UnFreeze": {
+			"feature": "DELViewerContentSync"
+		},
+		"Show2DStructure": {
+			"feature": "DELViewer2DContent"
+		},
+		"Hide2DStructure": {
+			"feature": "DELViewer2DContent"
+		},
+		"ActivateBuildUp": {
+			"feature": "DELViewerBuildUp",
+			"internalEvent":"activateBuildup"
+		},
+		"DeactivateBuildUp": {
+			"feature": "DELViewerBuildUp",
+			"internalEvent":"deactivateBuildup"
+		}
+	},
+	"eventsToPublish": {
+		"onGetAppStatus":{
+			"feature": "DELViewerContent"
+		},
+		"onAppReady": {
+			"feature": "DELViewerContent"
+		},
+		"onDropData":{
+			"feature": "DELViewerContent"
+		},
+		"onLoadDataComplete": {
+			"feature": "DELViewerContent"
+		},
+		"onLoadDataFailure": {
+			"feature": "DELViewerContent"
+		},
+		"onRootsRemoved":{
+			"feature": "DELViewerContent"
+		},
+		"onHome": {
+			"feature": "DELViewerContent"
+		},
+		"onRefresh":{
+			"feature": "DELViewerContent"
+		},
+		"onSelect": {
+			"feature": "DELViewerContentSync"
+		},
+		"onUnSelect": {
+			"feature": "DELViewerContentSync"
+		},
+		"onHighlight": {
+			"feature": "DELViewerContentSync"
+		},
+		"onUnHighlight": {
+			"feature": "DELViewerContentSync"
+		},
+		"onGetContent": {
+			"feature": "DELViewerContentSync"
+		},
+		"onHide": {
+			"feature": "DELViewerContentSync"
+		},
+		"onShow": {
+			"feature": "DELViewerContentSync"
+		},
+		"onLoadGraphicsComplete": {
+			"feature": "DELViewerContentSync"
+		},
+		"onLoad2DStructureComplete": {
+			"feature": "DELViewer2DContent"
+		},
+		"onToggleDataGridview": {
+			"feature": "DELViewer2DContent"
+		},
+		"onBuildUpActivated": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onBuildUpDeactivated": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onSetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onGetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onGetBuildUpGlobalContent": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onBuildUpActivateFailed": {
+			"feature": "DELViewerBuildUp"
+		}
+	}
+}

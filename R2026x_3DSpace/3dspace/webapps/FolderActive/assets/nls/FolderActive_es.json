@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "Carpetas de marcadores",
+  "activeBookmark_cmd": "Trabajar en la Carpeta de marcadores",
+  "name_Section_FavoriteFolders": "Favoritos",
+  "name_Section_AllFolders": "Carpetas de marcadores",
+  "activeBookmark_msg_empty": "Vacío",
+  "activeBookmark_btn_focus": "Foco en carpeta de marcadores definida",
+  "activeBookmark_msg_noBookmark": "No se ha encontrado ninguna carpeta de marcadores",
+  "CMDExpandAll": "Expandir todo",
+  "CMDCollapseAll": "Contraer todo",
+  "InputLabel": "Carpeta de marcadores",
+  "loader": {
+    "findingObjects": "Buscando carpeta de marcadores"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "Seleccionar",
+    "button_Cancel": "Cancelar",
+    "widget_name": "Seleccionar en Carpetas de marcadores",
+    "PLMNewBookmarkWidgetName": "Seleccionar Carpetas de marcadores",
+    "msg_ClassifyInProgress": "Agregando...",
+    "msg_ClassifySuccessful": "Se ha agregado correctamente.",
+    "msg_ClassifyFailed": "Se ha producido un error al agregar. No tiene el acceso para agregar O ya está agregado en las carpetas de marcadores indicadas.",
+    "msg_selectNodeToSeeInfo": "Seleccione una carpeta de marcadores para ver sus detalles."
+  },
+  "multiSelectionNotSupported": "No se admite la selección múltiple.",
+  "favoriteSectionNotSupported": "Este comando no es compatible con la sección favorita.",
+  "favoriteNotSupported": "Este comando no es compatible con los favoritos.",
+  "sectionNotSupported": "Este comando no se admite en las secciones.",
+  "noSelectionError": "Se requiere una selección para este comando."
+}

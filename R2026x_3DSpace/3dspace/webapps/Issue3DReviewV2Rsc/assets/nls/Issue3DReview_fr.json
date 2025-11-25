@@ -1,0 +1,153 @@
+{
+  "Essentials.Title": "Essentiels",
+  "titles": {
+    "issues": "{number} sujet(s)",
+    "noIssuesToShow": "Aucun sujet à afficher.",
+    "issuesNotDisplayed": "Les sujets ne sont pas affichés.",
+    "documentation": "Aide pour Issue 3D Review"
+  },
+  "error": {
+    "generic": {
+      "label": "Une erreur inattendue s'est produite.",
+      "sub": "Actualisez la page, puis réessayez."
+    },
+    "licensing": {
+      "label": "Impossible d'obtenir une licence pour {user}.",
+      "sub": "Vérifiez que vous disposez d'une licence."
+    }
+  },
+  "filter": {
+    "title": "Filtrer par",
+    "synchronize": {
+      "header": "Partager le filtrage avec la liste",
+      "title": "Synchroniser avec Issue Management",
+      "timeout": "L'app Issue Management doit être ouverte pour synchroniser les deux applications.",
+      "tooltip": "Synchroniser les filtres de Issue Management vers Issue 3D Review."
+    },
+    "owned": "Détenu par moi-même",
+    "assigned": "Affecté à moi-même",
+    "others": {
+      "title": "Autres",
+      "reported": "Détenu par ma ou mes organisations",
+      "responsible": "Attribué à ma ou mes organisations",
+      "contributed": "Où je contribue",
+      "closed": "Terminé"
+    }
+  },
+  "commands": {
+    "inspect": "Inspecter",
+    "properties": "Propriétés",
+    "relationalExplorer": "Relations",
+    "collaborativeLifecycle": "Maturité",
+    "compare": "Comparer",
+    "detach": "Détacher",
+    "attachments": "Pièces jointes",
+    "close": "Marquer comme Terminé(e)",
+    "delete": "Supprimer",
+    "duplicate": "Dupliquer",
+    "more": "Plus",
+    "reportedAgainst": "Eléments affectés",
+    "resolvedBy": "Résolu par",
+    "resolvedItems": "Eléments résolus",
+    "contexts": "Contextes",
+    "open": {
+      "single": "Ouvrir avec",
+      "multiple": "Ouvrir",
+      "reportedAgainst": "Eléments affectés",
+      "resolvedBy": "Résolu par",
+      "resolvedItems": "Eléments résolus",
+      "contexts": "Contextes"
+    },
+    "share": "Copier le lien"
+  },
+  "tooltips": {
+    "helper": "Cliquez pour afficher l'aide pour Issue 3D Review",
+    "selectedIssues": "{number} sujet(s) sélectionné(s)"
+  },
+  "preferences": {
+    "securityContext": "Informations d'identification",
+    "tenant": "3DEXPERIENCE platform",
+    "name": {
+      "title": "Titre du widget",
+      "default": "Mes sujets"
+    },
+    "defaultFilterForAll": {
+      "title": "Si aucun filtre n'est sélectionné, les sujets affichés devraient correspondre aux éléments actuels suivants :",
+      "organizationAndProject": "Organisation et espace de collaboration",
+      "organization": "Organisation",
+      "project": "Espace de collaboration",
+      "policy": "Tous les sujets disponibles"
+    },
+    "validation": "Ajouter un processus de validation pour les nouveaux sujets pour permettre l'approbation/le rejet de la promotion d'un sujet après analyse ou révision.",
+    "tagger": "Remplir les balises",
+    "stream": "Utiliser la géométrie simplifiée comme flux de géométrie par défaut",
+    "organizationFilter": "Afficher les filtres de l'organisation"
+  },
+  "notifications": {
+    "refreshIssues": "Application de filtres",
+    "clearIssues": "Effacement des sujets...",
+    "lookingIssues": "Recherche de sujets...",
+    "issuesLoaded": "{label} Chargé(e).",
+    "dropPreventedForInspection": "Vous ne pouvez pas déposer d'objets lorsqu'une inspection est en cours.",
+    "serverError": "Une erreur s'est produite, veuillez actualiser votre page et réessayer.",
+    "serverWarning": "Des opérations serveur sont en cours pour ces objets. Veuillez réessayer ultérieurement.",
+    "noIssuesInSession": "Aucun sujet dans la session.",
+    "commandAlreadyProcessing": "Cette commande est déjà en cours de traitement, veuillez patienter.",
+    "cannotRelocateBalloon": "Cette bulle ne peut pas être repositionnée, veuillez vérifier vos responsabilités.",
+    "notValidReportedAgainst": "Elément concerné non valide. Veuillez sélectionner un autre objet.",
+    "noFocusedViewWhenColorized": "La vue ciblée n'est pas affichée lorsque l'option Colorier est activée dans 6WTags.",
+    "noSupportedReportedAgainstData": "Les données associées à l'élément 'Eléments concernés' du sujet {name} ne sont pas prises en charge dans cette app.",
+    "noReportedAgainstData": "Aucune donnée n'est associée à l'élément 'Eléments concernés' du sujet {name}."
+  },
+  "preview": {
+    "modified": "Mis à jour il y a {date}",
+    "comments": "{number} commentaire(s)",
+    "dueDate": "Echéance : {date}",
+    "noAssignees": "Aucune personne affectée",
+    "errorFetch": "Informations non disponibles",
+    "close": "Fermer"
+  },
+  "inspect": {
+    "title": "Inspection de {number} sujet(s)",
+    "withContext": "Avec contexte",
+    "withContextTooltip": "Afficher le contexte du sujet inspecté. Un seul sujet doit être inspecté.",
+    "switchRelated": "Echanger le contenu",
+    "switchRelatedTooltip": "Echangez les éléments affectés avec les éléments résolus (ou vice-versa). Un seul sujet doit être inspecté.",
+    "inspectNotAvailable": "Veuillez inspecter un seul sujet pour charger le contexte.",
+    "noContext": "Aucun contexte DMU à charger.",
+    "noResolvedItemsForSwitch": "Aucun élément résolu à charger.",
+    "objectLoadError": "Erreur lors du chargement des objets.",
+    "relocate": "Voulez-vous repositionner ce marqueur ?",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "tasks": {
+    "cancel": "Cliquer avec le bouton droit pour annuler"
+  },
+  "selectIn3D": {
+    "confirmTitle": "Veuillez sélectionner un objet dans 'Issue 3D Review’",
+    "confirmBody": "Veuillez confirmer la sélection.",
+    "confirmOK": "Ok",
+    "confirmCancel": "Annuler",
+    "pickIn3D": "Choisir dans 3D",
+    "selectAffectedItem": "Sélectionner l'élément concerné",
+    "pickUpFrom3DApplication": "Choisir l'objet 3D existant dans une application 3D compatible",
+    "selectApplicableContext": "Sélectionner le contexte applicable",
+    "pickUpOccurrenceFrom3DApplication": "Sélectionner dans l'application 3D le sujet de chemin qui doit être applicable",
+    "cancel": "Annuler"
+  },
+  "largeData": "La visualisation de données de très grande taille n'est pas prise en charge dans Issue3DReview",
+  "templateDndErrorMsg": "Le modèle de sujet n'est pas autorisé",
+  "transitionRejectedInV2": "En raison d'une mise à niveau de 3DNavigate, la transition est temporairement impossible. Pour contourner ce problème, vous pouvez épingler le nouveau widget créé et utiliser WidgetLink pour le lier à n'importe quel autre widget du tableau de bord. Pour en savoir plus sur WidgetLink, consultez la documentation.",
+  "close": "Fermer",
+  "reopen": "Rouvrir",
+  "WidgetTitle": "Issue 3D Review",
+  "comments": "Commentaires",
+  "resolveTheIssue": "Résoudre le sujet",
+  "taskAsResolvedBy": "Nouvelle tâche comme résolue par",
+  "caAsResolvedBy": "Nouvelle action de modification comme résolue par",
+  "addExistingAsResolvedBy": "Ajouter existant",
+  "syncFilterMsg": "Les filtres ont été synchronisés avec Issue Management.",
+  "syncTitle": "Synchroniser les filtres",
+  "syncShortMsg": "Les filtres de l'app Issue Management ne sont pas encore appliqués. Actualisez pour synchroniser et appliquer ces filtres ici."
+}

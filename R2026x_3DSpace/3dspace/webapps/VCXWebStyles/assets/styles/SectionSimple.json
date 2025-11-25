@@ -1,0 +1,92 @@
+{
+  "properties": [
+    {
+        "name": "Actor.Opacity",
+        "type": "VCXPropertyValueFloat",
+        "value": 0.15
+    },
+    {
+        "name": "Actor.Color.Defined",
+        "type": "VCXPropertyValueBoolean",
+        "value": true
+    },
+    {
+        "name": "Actor.Color",
+        "type": "VCXPropertyValueColor",
+        "value": [
+            1.0,
+            1.0,
+            1.0,
+            1
+        ]
+    },
+    {
+        "name": "Actor.ToolTip",
+        "type": "VCXPropertyValueString",
+        "value": "$(##Actor.Name)"
+    },
+    {
+        "name": "Section.AutoFlip",
+        "type": "VCXPropertyValueBoolean",
+        "value": false
+    },
+    {
+        "name": "Section.Capping",
+        "type": "VCXPropertyValueBoolean",
+        "value": true
+    },
+    {
+        "name": "Section.Capping.Color",
+        "type": "VCXPropertyValueColor",
+        "value": [
+            1.0,
+            1.0,
+            1.0,
+            1
+        ]
+    },
+    {
+        "name": "Section.Plane.Enable",
+        "type": "VCXPropertyValueBoolean",
+        "value": false
+    },
+    {
+        "name": "Section.Enable",
+        "type": "VCXPropertyValueBoolean",
+        "value": true
+    },
+    {
+        "name": "Section.Hatching.Frequency",
+        "type": "VCXPropertyValueInt",
+        "value": 80
+    },
+    {
+        "name": "Section.SpaceBackAlpha",
+        "type": "VCXPropertyValueFloat",
+        "value": 1
+    },
+    {
+        "name": "Section.SpaceFrontAlpha",
+        "type": "VCXPropertyValueFloat",
+        "value": 0
+    },
+    {
+        "name": "Section.Capping.ActorColor",
+        "type": "VCXPropertyValueBoolean",
+        "value": false
+    },
+    {
+        "name": "Section.Hatching.Angle",
+        "type": "VCXPropertyValueFloat",
+        "value": 0
+    },
+    {
+        "name": "Actor.Opacity.Defined",
+        "type": "VCXPropertyValueBoolean",
+        "value": false
+    }
+],
+  "name": "SectionSimple",
+  "objectID": "styleID_SectionSimple",
+  "visible": true
+}

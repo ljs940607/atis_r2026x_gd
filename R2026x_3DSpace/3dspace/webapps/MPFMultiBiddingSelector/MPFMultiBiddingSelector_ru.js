@@ -1,0 +1,1 @@
+define("DS/MPFMultiBiddingSelector/MPFMultiBiddingSelector_ru",{});define("DS/MPFMultiBiddingSelector/assets/nls/MultiBiddingSelector",{next:"Далее",selectedLabs:"Выбранные лаборатории"});

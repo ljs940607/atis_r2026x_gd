@@ -1,0 +1,1 @@
+Proj4js.defs["EPSG:3993"] = "+proj=aeqd +guam +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +ellps=clrk66 +towgs84=-100,-248,259,0,0,0,0 +units=m +no_defs";

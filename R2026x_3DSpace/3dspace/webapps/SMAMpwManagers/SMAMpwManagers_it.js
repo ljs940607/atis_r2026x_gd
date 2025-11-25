@@ -1,0 +1,1 @@
+define("DS/SMAMpwManagers/SMAMpwManagers_it",{});define("DS/SMAMpwManagers/assets/nls/SMAMpwProbing",{NOTEXTUREVALUE:"Nessun valore risultato"});

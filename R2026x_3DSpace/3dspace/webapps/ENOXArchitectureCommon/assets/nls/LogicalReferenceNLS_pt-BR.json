@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nova Referência lógica"
+  },
+  "message": {
+    "confirm_detach_instance": "Tem certeza de que deseja desanexar as instâncias selecionadas?",
+    "confirm_reparent": "As referências abaixo serão reparadas para "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Falha nas referências de novo pai",
+    "reparent_cyclic": "Este novo pai já está salvo na lista Referências de recuo. Desmarque a seleção existente para evitar a estrutura cíclica."
+  },
+  "success": {
+    "reparent": "Recuo bem-sucedido"
+  }
+}

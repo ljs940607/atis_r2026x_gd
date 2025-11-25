@@ -1,0 +1,97 @@
+{
+    "version": "1.0",
+    "settings": [
+        {
+            "id": "ECADUPSPCBReferenceDesignator",
+            "uitype": "textbox",
+            "label": "ECADUPSPCBReferenceDesignatorLabel",
+            "info": "ECADUPSPCBReferenceDesignatorInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PCBReferenceDesignator",
+            "groupName": "ProductStructureGroupLabel"
+        },
+        {
+            "id": "ECADUPSPackageNameProperty",
+            "uitype": "textbox",
+            "label": "ECADUPSPackageNamePropertyLabel",
+            "info": "ECADUPSPackageNamePropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PackageNameProperty",
+            "groupName": "SaveGroupLabel"
+        },
+        {
+            "id": "ECADUPSPackageDescriptionProperty",
+            "uitype": "textbox",
+            "label": "ECADUPSPackageDescriptionPropertyLabel",
+            "info": "ECADUPSPackageDescriptionPropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-PackageDescriptionProperty",
+            "groupName": "SaveGroupLabel"
+        },
+        {
+            "id": "AltiumUPSCheckoutFolderNaming",
+            "uitype": "combobox",
+            "label": "AltiumUPSCheckoutFolderNamingLabel",
+            "info": "AltiumUPSCheckoutFolderNamingInfo",
+            "range": [
+                "NAME",
+                "TITLE",
+                "NAME_TITLE"
+            ],
+            "rangelabel": [
+                "Folder_Name",
+                "Folder_Title",
+                "Folder_Name_Title"
+            ],
+            "mode": "basic",
+            "attribute": "ECADUPS-CheckoutFolderNaming",
+            "groupName": "OpenGroupLabel"
+        },
+        {
+            "id": "ECADUPSUseClassification",
+            "uitype": "switch",
+            "label": "ECADUPSUseClassificationLabel",
+            "info": "ECADUPSUseClassificationInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-UseClassification",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "ECADUPSElectronicLibrary",
+            "uitype": "textbox",
+            "label": "ECADUPSElectronicLibraryLabel",
+            "info": "ECADUPSElectronicLibraryInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-ElectronicLibrary",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "ECADClassificationPathDefinitionProperty",
+            "uitype": "textbox",
+            "label": "ECADClassificationPathDefinitionPropertyLabel",
+            "info": "ECADClassificationPathDefinitionPropertyInfo",
+            "mode": "basic",
+            "attribute": "ECADUPS-ClassificationPathDefinitionProperty",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "AltiumUPSECADCategories",
+            "uitype": "multilineTextbox",
+            "label": "AltiumUPSECADCategoriesLabel",
+            "info": "AltiumUPSECADCategoriesInfo",
+            "mode": "basic",
+            "nbRows": "10",
+            "attribute": "AltiumUPS-ECADCategories",
+            "groupName": "ClassificationGroupLabel"
+        },
+        {
+            "id": "AltiumUPSEnterpriseItemNumberProperty",
+            "uitype": "textbox",
+            "label": "AltiumUPSEnterpriseItemNumberPropertyLabel",
+            "info": "AltiumUPSEnterpriseItemNumberPropertyInfo",
+            "mode": "basic",
+            "attribute": "AltiumUPS-EnterpriseItemNumberProperty",
+            "groupName": "EnterpriseItemNumberLabel"
+        }
+    ]
+}

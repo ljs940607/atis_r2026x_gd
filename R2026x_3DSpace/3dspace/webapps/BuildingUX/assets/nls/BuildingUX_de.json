@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "Konstruktionseigenschaften"
+  },
+  "construction": {
+    "loading": "Konstruktionseigenschaften laden",
+    "attFromObj": "Verfügbare Attribute aus Objekt abrufen",
+    "objAttr": "Objektattributwert abrufen",
+    "attrGlobal": "Attribute"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "Domäne des ausgewählten Objekts wird nicht unterstützt.",
+    "unknownI3dx": "Objekt kann in der Datenquelle nicht gefunden werden."
+  },
+  "customAttributesDlg": {
+    "title": "Konstruktionseigenschaften"
+  },
+  "customAttributes": {
+    "loading": "Dynamische Eigenschaften werden geladen",
+    "attFromObj": "Verfügbare externe Attribute aus Objekt abrufen",
+    "objAttr": "Objektattributwert abrufen",
+    "attrGlobal": "Attribute",
+    "noAttributes": "Keine anzuzeigenden Attribute"
+  }
+}

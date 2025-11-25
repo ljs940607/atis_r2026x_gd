@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "正在查找书签文件夹..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "不能对收藏夹部分和收藏夹书签文件夹执行在树中查找。",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "放置的对象不是书签文件夹。",
+    "subtitle": "请放置书签根文件夹或书签文件夹。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "无法在树中查找。",
+    "subtitle": "将树扩展到该特定书签文件夹节点",
+    "message": "要查找的书签文件夹在树中不可见。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "无法在树中查找。",
+    "subtitle": "将书签文件夹部分扩展至第一级。",
+    "message": "书签文件夹部分下没有可见的书签文件夹。"
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "无法在树中查找。",
+    "subtitle": "请选择一个书签文件夹并重试。",
+    "message": "未选择任何书签文件夹来执行“在...中查找”。"
+  },
+  "msg_info_limitToFindInRootNode": "无法显示所有搜索结果。请尝试不同的关键字或从子书签文件夹中搜索。",
+  "msg_info_searchCompleted": "搜索已完成。",
+  "msg_info_No_Occurrence": "未找到结果。"
+}

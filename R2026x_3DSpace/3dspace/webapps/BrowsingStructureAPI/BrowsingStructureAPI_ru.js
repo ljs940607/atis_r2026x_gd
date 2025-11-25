@@ -1,0 +1,1 @@
+define("DS/BrowsingStructureAPI/BrowsingStructureAPI_ru",{});define("DS/BrowsingStructureAPI/assets/nls/BrowsingStructureAPI",{msg_info_Timeout:"Ответ от запущенного действия не получен в течение периода ожидания. Это может занять больше времени. Результат может отобразиться через несколько секунд после обновления вручную."});

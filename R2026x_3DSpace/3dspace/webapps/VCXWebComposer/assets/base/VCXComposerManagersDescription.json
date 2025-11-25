@@ -1,0 +1,82 @@
+{
+    "experienceBaseMode": {
+        "VCXExperience": {},
+        "VCX3DGridManager": {},
+        "VCXSelectManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXMultiUserInputManager": {
+            "initialize_options": {"persistency": 2}
+        }, 
+        "VCXPaperManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXHyperlinkManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXImageManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXDressupManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXStylesManager": {},
+        "VCXRobotAdapter": {},
+        "VCXVolatileGhostingManager": {},
+        "VCXSelectionManager": {},
+        "VCXMaterialManager": {
+            "initialize_options": {"persistency": 2}
+        },  
+        "VCXVisuManager": {},
+        "VCXMarkerManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXDRMManager": {
+            "initialize_options": {"persistency": 1}
+        },
+        "VCXPulseManager": {
+            "initialize_options": {"persistency": 2}
+        },
+        "VCXManipulatorManager": {},
+        "VCXPlayManager": {},
+        "VCXSectionManager": {},
+        "VCXHotspotManager": {},
+        "VCXSelectionSetManager": {},
+        "VCXComponentPartListManager": {},
+        "VCXUserInputControllerManager": {},
+        "VCXCommandControllerManager": {}
+    },
+    "webApplicationBaseMode": {
+        "VCXNotificationManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        }
+    },
+    "biMode": {
+        "VCXGUIManager": {
+            "initialize_options": {
+                "initPhase": 5
+            }
+        },
+        "VCXGUIManager1": {
+            "initialize_options": {
+                "initPhase": 6
+            },
+            "support": {
+                "GUIArchitectureV2" : {"value": true}
+            }
+        },
+        "VCXGUIManager0": {
+            "initialize_options": {
+                "initPhase": 6
+            },
+            "support": {
+               "GUIArchitectureV2" : {"value": false}
+            }
+        },    
+        "VCXAPIManager": {
+            "initialize_options": {"persistency": 2}
+        }
+    }
+}

@@ -1,0 +1,268 @@
+{
+  "enableCrossPreHighlight": true,
+  "model": {},
+  "Columns": [
+    {
+      "name": "Title",
+      "dicoType": "PLMEntity",
+      "dataIndex": "ds6w:label.reference",
+      "columnProperties": {
+        "text": "PRODUCT.Title",
+        "description": "PRODUCT.Title.description"
+      }
+    },
+    {
+      "name": "InstanceLabel",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "ds6w:label.instance",
+      "columnProperties": {
+        "text": "PRODUCT.InstanceLabel",
+        "description": "PRODUCT.InstanceLabel.description"
+      }
+    },
+    {
+      "name": "PositionMatrix",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "matrixtxt.instance",
+      "columnProperties": {
+        "text": "PRODUCT.PositionMatrix",
+        "description": "PRODUCT.PositionMatrix.description"
+      }
+    },
+    {
+      "name": "Revision",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6wg:revision.reference",
+      "columnProperties": {
+        "text": "PRODUCT.Revision",
+        "description": "PRODUCT.Revision.description"
+      }
+    },
+    {
+      "name": "Description",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:description.reference",
+      "columnProperties": {
+        "text": "PRODUCT.Description",
+        "description": "PRODUCT.Description.description"
+      }
+    },
+    {
+      "name": "Maturity",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:status.reference",
+      "columnProperties": {
+        "text": "PRODUCT.Maturity",
+        "description": "PRODUCT.Maturity.description"
+      }
+    },
+    {
+      "name": "Owner",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:responsible.reference",
+      "columnProperties": {
+        "text": "PRODUCT.Owner",
+        "description": "PRODUCT.Owner.description"
+      }
+    },
+    {
+      "name": "Effectivity",
+      "dataIndex": "Effectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.Effectivity",
+        "description": "PRODUCT.Effectivity.description"
+      }
+    },
+    {
+      "name": "VariantEffectivity",
+      "dataIndex": "VariantEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.VariantEffectivity",
+        "description": "PRODUCT.VariantEffectivity.description"
+      }
+    },
+    {
+      "name": "EvolutionEffectivity",
+      "dataIndex": "EvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.EvolutionEffectivity",
+        "description": "PRODUCT.EvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "CurrentEvolutionEffectivity",
+      "dataIndex": "CurrentEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.CurrentEvolutionEffectivity",
+        "description": "PRODUCT.CurrentEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ProjectedEvolutionEffectivity",
+      "dataIndex": "ProjectedEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.ProjectedEvolutionEffectivity",
+        "description": "PRODUCT.ProjectedEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ConfigurationContext",
+      "dataIndex": "ConfigurationContext",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "PRODUCT.ConfigurationContext",
+        "description": "PRODUCT.ConfigurationContext.description"
+      }
+    },
+    {
+      "name": "HideShow3D",
+      "columnProperties": {
+        "description": "PRODUCT.HideShow3D.description"
+      },
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERTableViewCompHideShow",
+          "args": {
+            "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+            "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+          }
+        }
+      }
+    },
+    {
+      "name": "Menu",
+      "columnProperties": {
+        "text": "PRODUCT.Menu",
+        "description": "PRODUCT.Menu.description"
+      }
+    }
+  ],
+  "authorizedPPRTypes": [
+    "PRODUCT"
+  ],
+  "contextualMenu": [
+    {
+      "handlerId": "DELWebOERTableViewCompExpandAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompCollapseAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompReframe",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      },
+      "args": {
+        "reframeIn3DHandlerId": "DELWeb3DViewerReframe"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompFind",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      },
+      "args": {
+        "findInColumns": [
+          "PRODUCT.Title",
+          "PRODUCT.InstanceLabel",
+          "PRODUCT.Revision",
+          "PRODUCT.Description",
+          "PRODUCT.Maturity"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompShowAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root",
+          "intermediate"
+        ]
+      },
+      "args": {
+        "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+        "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompShowOnly",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ]
+      },
+      "args": {
+        "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+        "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveRoot",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERPropertiesPanelCmd",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "type": "PushItem",
+      "identifier": "OpenWith",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    }
+  ],
+  "tableView": {
+    "registerTypeRepresentations": {
+      "configLoading": {
+        "stdTemplate": "functionIcon",
+        "semantics": {
+          "className": "relationRefresh",
+          "icon": {
+            "iconName": "reload wux-ui-3ds-spin",
+            "fontIconFamily": 1
+          }
+        }
+      }
+    },
+    "destroyTableViewOnAllRootsRemoved": true
+  }
+}

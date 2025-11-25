@@ -1,0 +1,160 @@
+﻿html {
+	background-color: #494949;
+	color: white;
+	font-family: Arial, Helvetica;
+	font-size: .8em;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.headerInfo {
+	font-weight: bold;
+	padding: 3px;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+#headerText {
+	float: left;
+	font-size: 11px;
+	padding-top: 7px;
+	position: absolute;
+}
+
+.poaContentInfo {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	margin: auto;
+}
+
+.actions {
+	display: block;
+	padding-left: 3px;
+	margin: 6px 0px;
+}
+
+.poainfo {
+	border: 1px solid #c0c0c0;
+	height: 72px;
+	margin: 0 auto;
+	overflow: visible;
+	padding: 2px;
+}
+
+.artworkassembly {
+	display: block;
+	overflow: auto;
+	margin-top: 132px;
+	margin-bottom: 180px;
+}
+
+.preview,.note {
+	border: 1px solid #C0C0C0;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	height: 62px;
+	overflow: auto;
+}
+
+.syncAEs {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.syncElementsbtn {
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	vertical-align: middle;
+}
+
+#assemblyHeader {
+	margin: 0 auto;
+}
+
+.preivewImage {
+	height: 50px;
+	padding: 5px;
+	width: 50px;
+}
+
+.progressWheelContent {
+	float: right;
+	display: none;
+}
+
+#progressWheelText {
+	padding-top: 5px;
+}
+
+.insertedText, .deletedText, .matcingText {
+	color: #000;
+	font-weight: bold;
+}
+
+.matcingText {
+	background-color: #7FFF00;
+}
+
+.insertedText {
+	background-color: #DEB887;
+}
+
+.deletedText {
+	background-color: #FF7F50;
+}
+
+.ui-tooltip {
+	display: none;
+	color: black;
+	font-size: 12px;
+	font-family: Arial;
+	text-align: center;
+	padding: 3px 0;
+	border-radius: 2px;
+}
+
+/*wx7 changes*/
+body {
+	margin: 0;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
+
+#copyElementTypeSpan {
+	vertical-align: middle;
+}
+
+.action-command {
+	width: 23px;
+	height: 23px;
+	margin: 0 auto;
+	cursor: pointer;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+.disabled-commands{
+	opacity: 0.5;
+    pointer-events: none;
+}
+
+span.separator {
+	border-left: 1px solid #b3b3b3;
+	padding-top: 10px;
+	margin: 0px 5px 0px 1px;
+}

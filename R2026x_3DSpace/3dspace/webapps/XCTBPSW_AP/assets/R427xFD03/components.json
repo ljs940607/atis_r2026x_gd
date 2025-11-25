@@ -1,0 +1,55 @@
+{
+  "Abstract3DExperienceObject_Spec": {
+    "extensions": {
+      "CATI3DExperienceObject": "DS/CAT3DExpModel/extensions/CATE3DExperienceObject",
+      "CATI3DXAssetHolder": "DS/CAT3DExpModel/extensions/CATE3DXAssetHolder",
+      "CATI3DXVolatileEO": "DS/CAT3DExpModel/extensions/CATE3DXVolatileEO",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEExperienceBasePrototypeBuild"
+    }
+  },
+  "CXPExperience_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEExperience3DGeoVisu",
+      "CATICXPActorsMgr": "DS/CATCXPModel/extensions/CATECXPActorsMgr",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "CXP3DActor_Spec": {
+    "extensions": {
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATE3DActor3DGeoVisu",
+      "CATIMovable": "DS/CATCXPModel/extensions/CATE3DActorMovable",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuE3DActorPrototypeBuild",
+      "CATI3DXGraphicalProperties": "DS/CATCXPModel/extensions/CATE3DX3DActorGraphicalProperties",
+      "CATICXPActorsMgr": "DS/CATCXPModel/extensions/CATECXPActorsMgr",
+      "CATI3DXAVPExpModel": "DS/CAT3DExpModelAVP/extensions/CATE3DXAVPExpModel"
+    }
+  },
+  "Model_VPMReference_Spec": {
+    "extensions": {
+      "CATI3DX3DActorAsset": "DS/CATCXPModel/extensions/CATE3DX3DActorAssetMedia",
+      "CATI3DGeoVisu": "DS/CATCXPModel/extensions/CATEVPMReference3DGeoVisu",
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEProductActorPrototypeBuild"
+    }
+  },
+  "CXPScriptBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/XCTWebExperienceAppPlay/extensions/StuEBeScriptPrototypeBuild"
+    }
+  },
+  "AmbienceModel_Spec": {
+    "extensions": {
+      "CATI3DXAmbienceAsset": "DS/CAT3DExpAmbienceModelWebMedia/extensions/CATE3DXAmbienceAssetMedia",
+      "CATICXPEnvironmentActivate": "DS/CAT3DExpAmbienceModelWeb/extensions/CATECXPAmbienceEnvironmentActivate"
+    }
+  },
+  "CXPNavigationBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuENavigationPrototypeBuild"
+    }
+  },
+  "CXPOrbitalNavigationBe_Spec": {
+    "extensions": {
+      "StuIPrototypeBuild": "DS/StudioCamerasModelWebPlay/extensions/StuEOrbitalNavigationPrototypeBuild"
+    }
+  }
+}

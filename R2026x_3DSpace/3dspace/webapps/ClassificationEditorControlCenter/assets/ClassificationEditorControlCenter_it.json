@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Modalità riservata ai Classification Manager",
+  "CCM_Manager": "Classification Manager",
+  "CCM_specialist_title": "Specialista",
+  "CCM_expert_title": "Esperto",
+  "CCM_architect_title": "Architetto",
+  "permission_update_successful": "L'autorizzazione {updatedPermission} è stata concessa a {name}.",
+  "permission_update_failure": "Impossibile aggiornare l'autorizzazione per il nome utente.",
+  "restriction_mode_switched": "La modalità limitata è impostata su {restrictionToggle}.",
+  "restriction_mode_switch_failure": "Impossibile cambiare la modalità limitata.",
+  "widget_load_failure": "Solo gli amministratori con il ruolo CSV possono accedere a questa app.",
+  "on": "on",
+  "off": "off",
+  "search_name": "Cerca nome"
+}

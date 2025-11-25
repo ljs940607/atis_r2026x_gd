@@ -1,0 +1,19 @@
+{
+  "_type_expression": "Typ Expression",
+  "correspondingClosingOperatorNotFound": "nie znaleziono odpowiedniego operatora zamykającego",
+  "correspondingOpeningOperatorNotFound": "nie znaleziono odpowiedniego operatora otwierającego",
+  "error": "błąd",
+  "inContextOF": "w kontekście",
+  "isUnknown": "nie jest znany",
+  "isUnknownFromDictionary": "nie jest znany ze słownika",
+  "notExpectingToBeFollowedBy": "Nie oczekuje się, że po nim nastąpi",
+  "unknown": "nieznany",
+  "missingComparisonOperatorInEval": "Brak operatora porównania w EVAL",
+  "missingParameterInEval": "Brak parametru w EVAL",
+  "notExpectingSeveralComparisonOperatorsInEval": "Nie oczekuje się kilku operatorów porównania w EVAL",
+  "notExpectedInEval": "Nie oczekuje się w EVAL",
+  "notExpectedOutOfEval": "Nie oczekuje się poza EVAL",
+  "parametersShouldHaveTheSameUnit": "Parametry powinny mieć tę samą jednostkę, aby można było je porównać",
+  "parameterCannotBeComparedToItself": "Parametr nie może być porównywany z samym parametrem",
+  "cannotStartExpressionWith": "Nie można rozpocząć wyrażenia od"
+}

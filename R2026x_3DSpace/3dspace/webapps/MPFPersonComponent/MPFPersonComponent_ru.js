@@ -1,0 +1,1 @@
+define("DS/MPFPersonComponent/MPFPersonComponent_ru",{});define("DS/MPFPersonComponent/assets/nls/MPFPersonComponent",{firstName:"Имя",lastName:"Фамилия"});

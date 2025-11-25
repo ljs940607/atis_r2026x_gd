@@ -1,0 +1,66 @@
+{
+  "title": "產生導出輸出",
+  "buttons": {
+    "generate": "產生",
+    "reset": "還原預設",
+    "cancel": "取消"
+  },
+  "loading": "正在載入物件",
+  "optionsLabel": "選項",
+  "optionFormat": "格式",
+  "optionUniqueFormat": "導出輸出格式將為：{oFormat}。",
+  "warning": {
+    "title": "警告",
+    "noFormat": "導出輸出產生沒有可用的格式。請聯絡您的管理員。"
+  },
+  "error": {
+    "title": "錯誤",
+    "noSelection": "請先選擇要輸出的物件，然後再按一下指令，以產生衍生輸出。",
+    "jobFailed": "無法產生衍生輸出。{oMsg}",
+    "security_context_fail": "無法擷取相關使用者的安全性關聯。",
+    "expandIssue": {
+      "Title": "無法展開物件，因為所有資料都未建立索引。",
+      "Subtitle": "請稍候幾分鐘，然後再試一次。"
+    },
+    "wrongSelection": "先選取已儲存至 3DExperience 的資料，然後按一下指令。",
+    "code401": {
+      "Title": " 無法驗證您的認證。",
+      "Subtitle": "錯誤代碼：401。"
+    },
+    "code400": {
+      "Title": "發生非預期的錯誤。",
+      "Subtitle": "聯絡您的管理員尋求支援。",
+      "Message": " 錯誤代碼：400"
+    },
+    "invalidPhID": "先選取已儲存至 3DExperience 的資料，然後按一下指令。",
+    "doCreationTimeout": "要求所花費的時間超過預期時間。請稍候。"
+  },
+  "info": {
+    "title": "資訊",
+    "upToDate": "所選物件的導出輸出為最新版本。沒有可產生的項目。",
+    "generationLaunched": "將產生導出輸出。此程序可能需要花一點時間。",
+    "generationOnRep": "只有呈現方法才會產生導出輸出。",
+    "jobsCreated": "已建立 {oJobs} 個導出輸出工作。",
+    "jobCreated": "已建立一個導出輸出工作。",
+    "noJobCreated": "未產生任何工作。所選的格式可能不適用或可能已提交重複的導出輸出工作，或已產生導出輸出格式並處於同步狀態。"
+  },
+  "column": {
+    "format": "目標格式",
+    "connector": "原點",
+    "type": "類型",
+    "parameters": "參數",
+    "converter": "轉換器",
+    "usage": "統一格式",
+    "forceUpdate": "強制更新"
+  },
+  "type": {
+    "catpart": "零件",
+    "sldprt": "零件",
+    "prt": "零件",
+    "ipt": "零件",
+    "catdrawing": "工程圖",
+    "slddrw": "工程圖",
+    "dxf": "工程圖",
+    "dwg": "工程圖"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "CollisionPref": {
+    "PanelTitle": {
+      "Label": "Uçuş/Yürüyüş Seçenekleri",
+      "ShortHelp": "Uçuş veya Yürüyüş modunda yapılan gezinti sırasında kullanılan seçenekleri tanımlar."
+    },
+    "AvatarManagement": {
+      "Label": "Avatar",
+      "ShortHelp": "Avatar seçeneklerini tanımlar."
+    },
+    "InitialPosition": {
+      "Label": "Başlangıç konumu",
+      "ShortHelp": "Gezintiye başladığınızda avatarı başlangıç konumuna yerleştirir."
+    },
+    "Pick": {
+      "Label": "Seç",
+      "ShortHelp": "Avatarın başlangıç konumunu tanımlamak için 3B sahneyi seçmenizi sağlar."
+    },
+    "AvatarHeight": {
+      "Label": "Yükseklik (mm)",
+      "ShortHelp": "Avatarın yüksekliğini tanımlar."
+    },
+    "ThirdPerson": {
+      "Label": "Üçüncü kişi",
+      "ShortHelp": "Avatarı üçüncü kişi olarak görüntüler."
+    },
+    "Collision": {
+      "Label": "Çarpışma",
+      "ShortHelp": "Çarpışma moduyla ilgili seçenekleri tanımlar."
+    },
+    "Gravity": {
+      "Label": "Yerçekimi",
+      "ShortHelp": "Avatarın basamaklardan yukarı veya aşağı gitmesini sağlar."
+    },
+    "EnableTransparent": {
+      "Label": "Şeffaf nesnelerle çarpışma",
+      "ShortHelp": "Şeffaf nesnelerle çarpışmayı etkinleştirir."
+    },
+    "Navigation": {
+      "Label": "Gezinti",
+      "ShortHelp": "Gezintiyle ilgili seçenekleri tanımlar."
+    },
+    "PointerLock": {
+      "Label": "Birinci kişi",
+      "ShortHelp": "Yönü belirlemek için klavyeyi ve fare işaretçisini kullanarak kamerayı hareket ettirir."
+    },
+    "AutoSelectGround": {
+      "Label": "Zemin otomatik tanımlanır",
+      "ShortHelp": "Zemin otomatik olarak belirlenir; Nokta Bulutu durumunda zemin yüksekliği kullanıcı tarafından tanımlanmalıdır."
+    },
+    "GroundHeight": {
+      "Label": "Zemin yüksekliği (mm)",
+      "ShortHelp": "Yürüyüş için zemin yüksekliği."
+    }
+  },
+  "AssistanceMsg": {
+    "All_OK": {
+      "Label": "Çarpışma modu etkinleştirildi."
+    },
+    "Turned_Off": {
+      "Label": "Çarpışma modu devre dışı bırakıldı."
+    },
+    "Completely_Collided": {
+      "Label": "Çarpışma modu etkinleştirildi ancak tüm yönlerde engellendiniz. Konumunuzu değiştirip tekrar deneyin."
+    },
+    "Collided_On": {
+      "Label": "Bir nesneyle çarpışıyorsunuz."
+    },
+    "left": {
+      "Label": " \"sol\""
+    },
+    "right": {
+      "Label": " \"sağ\" "
+    },
+    "front": {
+      "Label": " \"ön\" "
+    },
+    "back": {
+      "Label": " \"arka\" "
+    },
+    "Move_To_Other_Dir": {
+      "Label": "Başka bir yönde hareket edin. Çarpışma modu etkinleştirildi."
+    },
+    "Stopped_Ahead": {
+      "Label": "Başka bir yönde hareket edin; ileri gidemiyorsunuz."
+    },
+    "Stuck": {
+      "Label": "Modelin içinde olabilirsiniz; \"Geri adım\" seçeneğini (Klavye Kısayolu \"R\") kullanın."
+    },
+    "No_Floor": {
+      "Label": "İleride zemin yok; başka bir yönde hareket edin."
+    },
+    "No_Floor_No_Collision": {
+      "Label": "Ayakların altında zemin yok; Çarpışma modu etkinleştirildi."
+    },
+    "No_Floor_Collision_Activated": {
+      "Label": "Çarpışma modu etkinleştirildi ancak ayakların altında yürüyebileceğiniz bir zemin yok. Yeniden konumlandırmak için ışınlanmayı kullanın."
+    },
+    "Collision_Already": {
+      "Label": "Çarpışma modu zaten etkinleştirildi."
+    },
+    "Select_Correct_Surface": {
+      "Label": "Yatay bir yüzey seçin. Seçilen yüzey yürüyüş için uygun değil."
+    },
+    "Wait_For_Loading": {
+      "Label": "Yükleme sürüyor, bekleyin."
+    },
+    "Crouch": {
+      "Label": "İlerlemek için çömelebilirsiniz."
+    },
+    "Server_Error": {
+      "Label": "Sunucu hatası, veri alınamıyor."
+    },
+    "Unauthorized_Pod": {
+      "Label": "Çarpışma özelliği bu kiracı için devre dışı bırakıldı."
+    }
+  }
+}

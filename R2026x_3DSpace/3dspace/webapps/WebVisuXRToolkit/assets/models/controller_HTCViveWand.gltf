@@ -1,0 +1,604 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20240312.5"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "translation": [
+        -0.006354244,
+        -0.0243911929,
+        -0.04878803
+      ],
+      "name": "__HTC_Vive_Controller_Lowpoly001"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        3.81469745E-09,
+        0.004495079,
+        0.0210779589
+      ],
+      "name": "ViveWand_Trigger"
+    },
+    {
+      "translation": [
+        -0.006389291,
+        0.000250450132,
+        -0.07412919
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082977
+      ],
+      "scale": [
+        0.999999642,
+        1.0000006,
+        1.00000012
+      ],
+      "name": "icon_pose/lower_button/center"
+    },
+    {
+      "translation": [
+        0.0122591173,
+        -0.0164106041,
+        -0.07154898
+      ],
+      "rotation": [
+        -0.00321332342,
+        0.05944273,
+        0.998213649,
+        0.00508307526
+      ],
+      "scale": [
+        0.9999999,
+        1.00000012,
+        1.00000012
+      ],
+      "name": "icon_pose/squeeze/center"
+    },
+    {
+      "translation": [
+        -0.00633921847,
+        0.00150187686,
+        -0.036484994
+      ],
+      "rotation": [
+        -0.00321322726,
+        0.0594429262,
+        0.9982136,
+        0.005083057
+      ],
+      "scale": [
+        0.999999762,
+        1.00000024,
+        1.00000012
+      ],
+      "name": "icon_pose/thumbstick/center"
+    },
+    {
+      "translation": [
+        -0.0210877378,
+        0.00162469875,
+        -0.03644166
+      ],
+      "rotation": [
+        -0.00321322749,
+        0.0594429336,
+        0.9982136,
+        0.005083057
+      ],
+      "scale": [
+        0.999999762,
+        1.00000012,
+        1.0
+      ],
+      "name": "icon_pose/thumbstick/east"
+    },
+    {
+      "translation": [
+        -0.00634328,
+        0.00328251673,
+        -0.021985421
+      ],
+      "rotation": [
+        -0.00321322773,
+        0.05944295,
+        0.9982136,
+        0.005083057
+      ],
+      "scale": [
+        0.9999999,
+        1.00000048,
+        1.0000006
+      ],
+      "name": "icon_pose/thumbstick/north"
+    },
+    {
+      "translation": [
+        -0.006350635,
+        -0.000207668316,
+        -0.0511986
+      ],
+      "rotation": [
+        -0.0032132268,
+        0.05944292,
+        0.9982136,
+        0.00508306
+      ],
+      "scale": [
+        0.999999642,
+        1.00000012,
+        1.00000012
+      ],
+      "name": "icon_pose/thumbstick/south"
+    },
+    {
+      "translation": [
+        0.00840031449,
+        0.00149249274,
+        -0.03634672
+      ],
+      "rotation": [
+        -0.00321322773,
+        0.0594429336,
+        0.9982136,
+        0.005083058
+      ],
+      "scale": [
+        0.999999642,
+        1.00000036,
+        1.0
+      ],
+      "name": "icon_pose/thumbstick/west"
+    },
+    {
+      "translation": [
+        -0.006255566,
+        0.00321615231,
+        -0.008384331
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "icon_pose/upper_button/center"
+    },
+    {
+      "translation": [
+        0.01440721,
+        -0.01693702,
+        -0.0715066
+      ],
+      "rotation": [
+        -0.00321343448,
+        0.0594428554,
+        0.9982136,
+        0.005083069
+      ],
+      "scale": [
+        0.999999762,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "indicator_pose/squeeze"
+    },
+    {
+      "translation": [
+        -0.00621454464,
+        -0.001768139,
+        0.02868427
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944288,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.999999762,
+        1.00000036,
+        0.99999994
+      ],
+      "name": "indicator_pose/tip"
+    },
+    {
+      "translation": [
+        -0.0062725707,
+        0.03432934,
+        -0.107747562
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "label_pose/controller"
+    },
+    {
+      "translation": [
+        -0.07440288,
+        0.0188648682,
+        -0.0617067739
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "label_pose/lower_button/center"
+    },
+    {
+      "translation": [
+        0.06817313,
+        0.0238819513,
+        -0.09522982
+      ],
+      "rotation": [
+        -0.003213316,
+        0.05944273,
+        0.998213649,
+        0.005083063
+      ],
+      "scale": [
+        0.9999996,
+        1.00000036,
+        1.00000048
+      ],
+      "name": "label_pose/squeeze/center"
+    },
+    {
+      "translation": [
+        0.0670219138,
+        0.0262710974,
+        0.0435839556
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "label_pose/thumbstick/center"
+    },
+    {
+      "translation": [
+        0.07271402,
+        -0.049124904,
+        -0.002786583
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "label_pose/trigger/center"
+    },
+    {
+      "translation": [
+        -0.0986437,
+        0.02596998,
+        0.0101331566
+      ],
+      "rotation": [
+        -0.00321315671,
+        0.05944289,
+        0.9982136,
+        0.005082978
+      ],
+      "scale": [
+        0.9999998,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "label_pose/upper_button/center"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "__HTC_Vive_Controller_Lowpoly001"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "ViveWand_Trigger"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 135396,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23765,
+      "max": [
+        0.05424039,
+        0.0276720636,
+        0.101298325
+      ],
+      "min": [
+        -0.05424038,
+        -0.052060008,
+        -0.102018446
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 285180,
+      "componentType": 5126,
+      "count": 23765,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23765,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 270792,
+      "componentType": 5123,
+      "count": 3072,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 570360,
+      "componentType": 5126,
+      "count": 566,
+      "max": [
+        0.009598141,
+        0.0110293292,
+        0.00184114464
+      ],
+      "min": [
+        -0.00959814247,
+        -0.0201039389,
+        -0.0190479178
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 577152,
+      "componentType": 5126,
+      "count": 566,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 190120,
+      "componentType": 5126,
+      "count": 566,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 276936,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 276936,
+      "byteLength": 583944,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 860880,
+      "byteLength": 194648,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1055528,
+      "byteLength": 8,
+      "name": "bufferViewAnimationFloatScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1055536,
+      "byteLength": 32,
+      "name": "bufferViewAnimationFloatVec4"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "controller_HTCViveWand.bin",
+      "byteLength": 1055568
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.460000038
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "name": "ViveWand"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "controller_HTCViveWand_Normals.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "controller_HTCViveWands_AO__Roughness0.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "controller_HTCViveWands_BaseColor.png"
+    }
+  ],
+  "images": [
+    {
+      "uri": "controller_HTCViveWand_Normals.png"
+    },
+    {
+      "uri": "controller_HTCViveWands_AO__Roughness0.png"
+    },
+    {
+      "uri": "controller_HTCViveWands_BaseColor.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 8,
+          "output": 9
+        }
+      ],
+      "name": "input/trigger/value"
+    }
+  ]
+}

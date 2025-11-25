@@ -1,0 +1,15 @@
+m|WebUX\Spreadsheet2.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Spreadsheet2\Spreadsheet2.js|1723278071|400
+s|WebUX\Spreadsheet2.mweb\src\CellModel.js|1454666788|173
+t|win_b64\webapps\Spreadsheet2\wux-datagrid.html|1723278072|4412
+s|WebUX\Spreadsheet2.mweb\src\wux-datagrid.html|1426864106|4412
+u|WebUX\Spreadsheet2.mweb\src\CellView.js|1454666792|169
+u|WebUX\Spreadsheet2.mweb\src\DataGrid.js|1454666798|168
+u|WebUX\Spreadsheet2.mweb\src\Manager.js|1454666806|164
+u|WebUX\Spreadsheet2.mweb\src\Spreadsheet2.js|1427881303|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

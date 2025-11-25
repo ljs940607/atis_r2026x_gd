@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Coupe";
+DMUSection.DMUSectionNoCutHdr.Title="Non coupant";
+DMUSection.DMUSectionGridHdr.Title="Grille";
+DMUSection.DMUSectionFlipHdr.Title="Inverser";
+DMUSection.DMUSectionNormalToXHdr.Title="Positionner sur X";
+DMUSection.DMUSectionNormalToYHdr.Title="Positionner sur Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Positionner sur Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Positionner à partir de la géométrie";
+DMUSection.DMUSectionMoveHdr.Title="Déplacer le point de vue";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Sectionner le visualiseur secondaire";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Section sélective";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Supprimer";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Quitter l'édition de découpe";
+DMUSection.DMUClippingEditionHdr.Title="Modifier la découpe";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Couper par un élément de construction";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Couper par une section";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Redimensionner à partir des objets sélectionnés";
+DMUSection.DMUResetClippingPlaneHdr.Title="Réinitialiser la découpe";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Couper par tranche";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Redimensionner à partir des objets sélectionnés";
+DMUSection.DMUResetClippingSliceHdr.Title="Réinitialiser la découpe";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Couper par une boîte";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Redimensionner à partir des objets sélectionnés";
+DMUSection.DMUResetClippingBoxHdr.Title="Réinitialiser la découpe";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Positionner le long de l'axe X";
+DMUSection.DMUClippingNormalToYHdr.Title="Positionner le long de l'axe Y";
+DMUSection.DMUClippingNormalToZHdr.Title="Positionner le long de l'axe Z";
+DMUSection.DMUClippingNormalUserHdr.Title="Positionner à partir de la géométrie sélectionnée";
+DMUSection.DMUClippingReverseHdr.Title="Inverser la découpe";
+DMUSection.DMUContourViewerHdr.Title="Sectionner le visualiseur secondaire";
+DMUSection.DMUClippingPositionHdr.Title="Position de découpe...";
+DMUSection.DMUAlignViewHdr.Title="Aligner le point de vue";
+DMUSection.DMUHideShowHdr.Title="Cacher/Afficher";
+DMUSection.DMUCutUncutHdr.Title="Couper/Annuler la coupe...";
+DMUSection.DMUClippingEditStr.Title="Découpe";
+DMUSection.DMUClippingPropertiesHdr.Title="Propriétés";

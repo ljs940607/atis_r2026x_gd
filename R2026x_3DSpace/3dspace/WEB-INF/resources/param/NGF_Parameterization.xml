@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="ObjectIdentification">
+		<Family id="ObjectIdentifier" icon="iconParameterizationIdentification.gif">
+			<Parameter id="AdvancedFilterNaming" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.ENOStrRefinementSpecification">
+				<Argument id="PrefixArg" type="string" default="Filter"/>
+				<Argument id="SuffixArg" type="string" default=""/>
+				<Constant id="type" value="ENOStrRefinementSpecification"/> 
+				<Constant id="appType" value="VPM"/>
+			</Parameter>
+		</Family>
+	</Domain>
+	 <Domain id="NGFMdl" regSuite="NGF">
+	    <Family id="ConfigureNGFExperience" icon="iconParameterizationIdentification.gif">
+		    <Parameter id="NGFCreateInWork" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="NGF">
+			    <Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+				<Constant id="expression" value="NGFCreateInWork"/>
+				<Constant id="valueChecked" value="true"/>
+				<Constant id="valueUnchecked" value="false"/>
+			</Parameter>
+	    </Family>
+    </Domain>
+</OOTBParameterization>

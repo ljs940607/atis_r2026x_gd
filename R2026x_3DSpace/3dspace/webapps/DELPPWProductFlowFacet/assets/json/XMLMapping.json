@@ -1,0 +1,21 @@
+{
+	"indexMappingXML": {
+		"path": "DELPPWProductFlowFacet/IndexMapping"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELPPWProductFlowFacet/ModelCustomRelations"
+	},
+	"modelRelationsXML": {
+		"path": "DELPPWProductFlowFacet/ModelRelations"
+	},
+	"editFormAttributesXML": {
+		"path": "DELPPWProductFlowFacet/EditFormAttributes",
+		"type": "editFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"productFlowViewNodePreferenceXML": {
+		"path": "DELPPWProductFlowFacet/ProductFlowViewReferenceAttribute",
+		"type": "graphViewConfiguration",
+		"rootNode": "Config"
+	}
+}

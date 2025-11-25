@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Nommage automatique",
+  "ACADAutoNameInfo": "Active l'attribution automatique de noms lors de l'enregistrement initial des fichiers de mise en plan dans 3DEXPERIENCE. S'applique à toutes les applications qui créent des données AutoCAD.",
+  "ACADSaveGroupLabel": "Enregistrer",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Remplacer le titre par le nouveau nom du nommage automatique",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Lors de la sélection du nommage automatique dans la boîte de dialogue d'enregistrement, le nom de fichier existant est remplacé par le nom automatique.",
+  "ACADEnablePessimisticLockingLabel": "Verrouillage pessimiste",
+  "ACADEnablePessimisticLockingInfo": "L'activation de cette fonction garantit que les données ne peuvent pas être enregistrées sur la plate-forme à partir du connecteur, sauf si elles sont réservées par l'utilisateur actuel.",
+  "ACADFileReadOnlyLabel": "Mettre le fichier en lecture seule",
+  "ACADFileReadOnlyInfo": "Le fichier sera marqué en lecture seule s'il n'est pas réservé par l'utilisateur actuel. Ce comportement est activé uniquement si le verrouillage pessimiste est activé.",
+  "ACADDelimiterLabel": "Définir un délimiteur",
+  "ACADDelimiterInfo": "Ce délimiteur sera utilisé comme suit :\n1. Pour fusionner les valeurs des attributs à valeurs multiples dans 3DEXPERIENCE lors de la synchronisation d'un fichier CAO.\n2. Pour diviser la valeur d'attribut CAO si elle est mappée à un attribut à valeurs multiples dans 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "Général",
+  "InvalidDelimiter": "Il n'est pas possible d'utiliser plusieurs caractères comme délimiteur"
+}

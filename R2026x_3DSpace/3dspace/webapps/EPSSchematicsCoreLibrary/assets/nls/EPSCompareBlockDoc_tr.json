@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "İki girdi verisinin değerini karşılaştırır.",
+  "description": "Veri bağlantı noktası değer tipi <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype> olabilir ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Value1": "karşılaştırılacak ilk değerdir.",
+    "Value2": "karşılaştırılacak ikinci değerdir."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Equal": "girdi verisi değerleri eşit olduğunda etkinleştirilir.",
+    "Greater": "<doc-idp-name translate=no>Value1</doc-idp-name> değeri <doc-idp-name translate=no>Value2</doc-idp-name> değerinden daha büyük olduğunda etkinleştirilir (<doc-idp-name translate=no>Value1</doc-idp-name> > <doc-idp-name translate=no>Value2</doc-idp-name>).",
+    "Lesser": "<doc-idp-name translate=no>Value1</doc-idp-name> değeri <doc-idp-name translate=no>Value2</doc-idp-name> değerinden daha küçük olduğunda etkinleştirilir (<doc-idp-name translate=no>Value1</doc-idp-name> < <doc-idp-name translate=no>Value2</doc-idp-name>)."
+  },
+  "example": null
+}

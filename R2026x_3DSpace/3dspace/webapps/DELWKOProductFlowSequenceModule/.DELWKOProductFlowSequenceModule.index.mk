@@ -1,0 +1,11 @@
+m|DELWKOApp\DELWKOProductFlowSequenceModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25099|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOProductFlowSequenceModule\DELWKOProductFlowSequenceModule.js|1744228830|32039
+s|DELWKOApp\DELWKOProductFlowSequenceModule.mweb\src\DELWKOProductFlowComponent.js|1743795433|38015
+u|DELWKOApp\DELWKOProductFlowSequenceModule.mweb\src\DELWKOProductFlowSequenceModule.js|1710356157|44172
+u|DELWKOApp\DELWKOProductFlowSequenceModule.mweb\src\DELWKOProductFlowSequenceModuleCloud.js|1736287870|45682
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

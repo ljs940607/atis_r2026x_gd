@@ -1,0 +1,1 @@
+define("DS/MPFUtils/MPFUtils_zh",{});define("DS/MPFUtils/assets/nls/MPFUtils",{bytes:"字节",kiloByte:"Kb",megaByte:"Mb",gigaByte:"Gb",teraByte:"Tb"});

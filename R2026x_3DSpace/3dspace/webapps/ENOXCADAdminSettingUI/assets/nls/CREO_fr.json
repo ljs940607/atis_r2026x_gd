@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Enregistrer",
+  "CREOOpenGroupLabel": "Ouvrir",
+  "CREOMissingLinksWarningLabel": "Enregistrer le fichier avec des références manquantes",
+  "CREOMissingLinksWarningInfo": "Lorsque cette option est activée, un avertissement s'affiche si une conception enfant est manquante pendant l'opération d'enregistrement dans la session Creo Parametric. Lorsque cette option est désactivée, l'opération d'enregistrement se poursuit sans avertissement.",
+  "CREOPartFamilyInstanceHandlingLabel": "Manipulation d'instance de famille de pièces Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Détermine le traitement des instances de table de famille de pièces Creo pendant l'enregistrement : <br><strong>InstanceFamillePiècesLégère</strong> - Des fichiers XPR sont générés uniquement pour les instances actives. <br><strong> InstanceFamillePiècesChargée</strong> - Des fichiers XPR sont générés pour toutes les instances.",
+  "CREOCADAttributeMappedToEINLabel": "Attribut CAO mappé à l'EIN",
+  "CREOCADAttributeMappedToEINInfo": "Lorsque la valeur de cet attribut est spécifiée, la fonction est activée et nous appliquons au fichier CAO un tampon avec cet attribut, dont la valeur sera l'EIN du produit physique.",
+  "EnterpriseItemNumberGroupLabel": "Numéro d'élément d'entreprise",
+  "PartFamilyInstanceLight": "InstanceFamillePiècesLégère",
+  "PartFamilyInstanceLoaded": "InstanceFamillePiècesChargée",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Filtrer les éléments d'ingénierie 3DEXPERIENCE sans géométrie ni nœud enfant",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Filtrez les éléments d'ingénierie 3DEXPERIENCE sans géométrie ni nœud enfant."
+}

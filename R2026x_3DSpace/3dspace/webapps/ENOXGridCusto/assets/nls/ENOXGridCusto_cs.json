@@ -1,0 +1,95 @@
+{
+  "views": {
+    "viewLabel": "Zobrazit",
+    "ENO2D_DEFAULT": "Výchozí pohled",
+    "ENO2D_CUSTO": "Vlastní pohled",
+    "copyOf": "Kopie zdroje {viewName}",
+    "addView": "Přidat nové vlastní zobrazení",
+    "editView": "Upravit vlastní zobrazení",
+    "removeView": "Odebrat vlastní zobrazení",
+    "arrowRight": "Přidat atribut do zobrazení",
+    "arrowLeft": "Odebrat atribut ze zobrazení"
+  },
+  "toolbar": {
+    "spacing": "Hustota ",
+    "spacingComfortable": "Komfortní",
+    "spacingCompact": "Kompaktní",
+    "checkbox": "Zaškrtávací políčko pro výběr objektu",
+    "findInAtt": "Najít atribut",
+    "resetDefault": "Obnovit výchozí hodnoty"
+  },
+  "columns": {
+    "attName": "Název atributu",
+    "attType": "Typ atributu",
+    "colName": "Název sloupce",
+    "pin": "Připnout",
+    "hide_show": "Skrýt/zobrazit",
+    "findinctx": "Najít",
+    "thumbnail": "Náhled",
+    "thumbnails": "Náhled",
+    "matrixtxt": "Polohová matice",
+    "typeName": "Typ",
+    "extName": "Rozšíření"
+  },
+  "attSelection": {
+    "title": "Dostupné atributy: ",
+    "REFERENCE": "Odkaz",
+    "INSTANCE": "Instance",
+    "CLASSIFICATION": "Třída",
+    "COMPUTED": "Spočítaný",
+    "COMMAND": "Příkaz",
+    "pinLeft": "Připnout vlevo",
+    "pinRight": "Připnout vpravo",
+    "unpinned": "Nepřipínat",
+    "commonAttributes": "Společné sloupce",
+    "typesAttributes": "Sloupce typu",
+    "extsAttributes": "Sloupce rozšíření",
+    "classifAttributes": "Klasifikační sloupce",
+    "otherColumns": "Ostatní společnosti",
+    "findAttributes": "Najít atributy",
+    "addTypesAndExt": "Přidat další typy a rozšíření"
+  },
+  "selectedAtt": {
+    "title": "Vybrané atributy: ",
+    "moveFirst": "Posunout nahoru",
+    "moveUp": "Nahoru",
+    "moveDown": "Dolů",
+    "moveLast": "Přesunout dolů"
+  },
+  "typeNext": {
+    "title": "Nástroj pro výběr typů a rozšíření",
+    "okBtn": "Použít",
+    "cancelBtn": "Zrušit",
+    "selectionTypeTitle": "Typy",
+    "selectionExtTitle": "Přípony"
+  },
+  "selectionTitle": "Chcete-li zobrazit atributy, vyberte Typ nebo Rozšíření",
+  "dialog": {
+    "title": "Předvolby tabulky",
+    "okBtn": "Uložit",
+    "cancelBtn": "Zrušit"
+  },
+  "loading": {
+    "gridCusto": "Načítání předvoleb tabulky",
+    "baseTypeAndExt": "Načítání dostupných typů a rozšíření",
+    "gridCustoReset": "Resetovat na výchozí hodnoty"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Příklad fyzické reprezentace"
+  },
+  "notDisplayedAtt": "Nezobrazovat v uživatelském rozhraní",
+  "warning": {
+    "tooManySelected": {
+      "title": "Dosažení maximálního počtu sloupců",
+      "msg": "Povolen je pouze maximální počet sloupců {maxNumber}"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Pohled již existuje",
+      "msg": "Pohled s názvem „{viewName}“ již existuje"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Pohled již existuje",
+      "msg": "Pohled s názvem „{viewName}“ již existuje"
+    }
+  }
+}

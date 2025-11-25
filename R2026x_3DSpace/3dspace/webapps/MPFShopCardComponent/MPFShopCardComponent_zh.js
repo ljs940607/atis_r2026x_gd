@@ -1,0 +1,1 @@
+define("DS/MPFShopCardComponent/MPFShopCardComponent_zh",{});define("DS/MPFShopCardComponent/assets/nls/ShopCardComponent",{requestAPart:"请求零件",moreInformation:"更多信息",getAQuote:"获取报价",reviews:"查看",directPurchase:"直接购买",viewMore:"查看更多",buyNow:"立即购买",selectForQuote:"选择以获取报价",deselect:"取消选中"});

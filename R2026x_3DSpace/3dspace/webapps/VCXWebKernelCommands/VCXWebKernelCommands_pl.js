@@ -1,0 +1,1 @@
+define("DS/VCXWebKernelCommands/VCXWebKernelCommands_pl",{});define("DS/VCXWebKernelCommands/assets/nls/VCXWebKernelCommands",{"VCXApplyToCmd.Applying":"Stosowanie"});

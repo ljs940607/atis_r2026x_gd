@@ -1,0 +1,480 @@
+{
+  "enableCrossPreHighlight": true,
+  "treeOptions": {
+    "connectionTypes": [
+      "DELFmiProcessImplementCnx",
+      "DELFmiProcessOutputPrereqMaterializationCnx"
+    ]
+  },
+  "authorizedPPRTypes": [
+    "MBOM"
+  ],
+  "model": {
+    "graph": {
+      "descending_condition_relation": {
+        "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance) OR (flattenedtaxonomies:reltypes/VPMInstance) OR (flattenedtaxonomies:reltypes/VPMRepInstance) OR (flattenedtaxonomies:types/DELFmiProcessImplementCnx) OR (flattenedtaxonomies:types/DELFmiProcessOutputPrereqMaterializationCnx))"
+      }
+    },
+    "aggregation_processors": [
+      {
+        "truncate": {
+          "max_distance_from_prefix": 1,
+          "match_only_refs": 1,
+          "sequence_filter": {
+            "sequence": [
+              {
+                "uql": "(flattenedtaxonomies:types/DELFmiFunctionReference)"
+              },
+              {
+                "statement": "END"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "Columns": [
+    {
+      "name": "Title",
+      "dicoType": "PLMEntity",
+      "dataIndex": "ds6w:label.reference",
+      "columnProperties": {
+        "text": "MBOM.Title",
+        "description": "MBOM.Title.description"
+      }
+    },
+    {
+      "name": "InstanceLabel",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "ds6w:label.instance",
+      "columnProperties": {
+        "text": "MBOM.InstanceLabel",
+        "description": "MBOM.InstanceLabel.description"
+      }
+    },
+    {
+      "name": "Scope",
+      "dataIndex": "to.DELFmiProcessImplementCnx",
+      "columnProperties": {
+        "text": "MBOM.Scope",
+        "description": "MBOM.Scope.description"
+      }
+    },
+    {
+      "name": "ResultingProduct",
+      "dataIndex": "to.DELFmiProcessOutputPrereqMaterializationCnx",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.ResultingProduct",
+        "description": "MBOM.ResultingProduct.description"
+      }
+    },
+    {
+      "name": "Requirement",
+      "dataIndex": "Requirement",
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERTableViewCompToggleFTA",
+          "args": {
+            "loadFTAIn3DHandlerId": "DELWeb3DViewerLoadFTA",
+            "removeFTAIn3DHandlerId": "DELWeb3DViewerRemoveFTA"
+          }
+        }
+      },
+      "columnProperties": {
+        "text": "MBOM.Requirement",
+        "description": "MBOM.Requirement.description"
+      }
+    },
+    {
+      "name": "PartFabrication",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "ro.DELFmiUseCaseExt.V_UseCase.instance",
+      "columnProperties": {
+        "text": "MBOM.PartFabrication",
+        "description": "MBOM.PartFabrication.description"
+      },
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERTableViewCompHideShowMaterial",
+          "args": {
+            "showMaterialId": "DELWeb3DViewerShowMaterial",
+            "hideMaterialId": "DELWeb3DViewerHideMaterial"
+          }
+        }
+      }
+    },
+    {
+      "name": "PositionMatrix",
+      "dicoType": "DELFmiFunctionIdentifiedInstance",
+      "dataIndex": "matrixtxt.instance",
+      "columnProperties": {
+        "text": "MBOM.PositionMatrix",
+        "description": "MBOM.PositionMatrix.description"
+      }
+    },
+    {
+      "name": "Revision",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6wg:revision.reference",
+      "columnProperties": {
+        "text": "MBOM.Revision",
+        "description": "MBOM.Revision.description"
+      }
+    },
+    {
+      "name": "Description",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:description.reference",
+      "columnProperties": {
+        "text": "MBOM.Description",
+        "description": "MBOM.Description.description"
+      }
+    },
+    {
+      "name": "Maturity",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:status.reference",
+      "columnProperties": {
+        "text": "MBOM.Maturity",
+        "description": "MBOM.Maturity.description"
+      }
+    },
+    {
+      "name": "Owner",
+      "dicoType": "BusinessType",
+      "dataIndex": "ds6w:responsible.reference",
+      "columnProperties": {
+        "text": "MBOM.Owner",
+        "description": "MBOM.Owner.description"
+      }
+    },
+    {
+      "name": "Effectivity",
+      "dataIndex": "Effectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.Effectivity",
+        "description": "MBOM.Effectivity.description"
+      }
+    },
+    {
+      "name": "VariantEffectivity",
+      "dataIndex": "VariantEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.VariantEffectivity",
+        "description": "MBOM.VariantEffectivity.description"
+      }
+    },
+    {
+      "name": "EvolutionEffectivity",
+      "dataIndex": "EvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.EvolutionEffectivity",
+        "description": "MBOM.EvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "CurrentEvolutionEffectivity",
+      "dataIndex": "CurrentEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.CurrentEvolutionEffectivity",
+        "description": "MBOM.CurrentEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ProjectedEvolutionEffectivity",
+      "dataIndex": "ProjectedEvolutionEffectivity",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.ProjectedEvolutionEffectivity",
+        "description": "MBOM.ProjectedEvolutionEffectivity.description"
+      }
+    },
+    {
+      "name": "ConfigurationContext",
+      "dataIndex": "ConfigurationContext",
+      "columnProperties": {
+        "visibleFlag": false,
+        "text": "MBOM.ConfigurationContext",
+        "description": "MBOM.ConfigurationContext.description"
+      }
+    },
+    {
+      "name": "HideShow3D",
+      "columnProperties": {
+        "description": "MBOM.HideShow3D.description"
+      },
+      "callbacks": {
+        "onClick": {
+          "handlerId": "DELWebOERTableViewCompHideShow",
+          "args": {
+            "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+            "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+          }
+        }
+      }
+    },
+    {
+      "name": "Menu",
+      "columnProperties": {
+        "text": "MBOM.Menu",
+        "description": "MBOM.Menu.description"
+      }
+    }
+  ],
+  "contextualMenu": [
+    {
+      "handlerId": "DELWebOERTableViewCompExpandAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompCollapseAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompReframe",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      },
+      "args": {
+        "reframeIn3DHandlerId": "DELWeb3DViewerReframe"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompFind",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      },
+      "args": {
+        "findInColumns": [
+          "MBOM.Title",
+          "MBOM.InstanceLabel",
+          "MBOM.Revision",
+          "MBOM.Description",
+          "MBOM.Maturity"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompShowAll",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root",
+          "intermediate"
+        ]
+      },
+      "args": {
+        "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+        "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompShowOnly",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ]
+      },
+      "args": {
+        "hideIn3DHandlerId": "DELWeb3DViewerHideCmd",
+        "showIn3DHandlerId": "DELWeb3DViewerShowCmd"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveRoot",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERPropertiesPanelCmd",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "type": "PushItem",
+      "identifier": "OpenWith",
+      "availableOn": {
+        "position": [
+          "all"
+        ]
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompLoadFTA",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ],
+        "column": {
+          "name": "Requirement",
+          "values": [
+            0,
+            1
+          ]
+        }
+      },
+      "args": {
+        "loadFTAIn3DHandlerId": "DELWeb3DViewerLoadFTA"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveFTA",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ],
+        "column": {
+          "name": "Requirement",
+          "values": [
+            0,
+            1
+          ]
+        }
+      },
+      "args": {
+        "removeFTAIn3DHandlerId": "DELWeb3DViewerRemoveFTA"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompLoadAllFTA",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      },
+      "args": {
+        "loadFTAIn3DHandlerId": "DELWeb3DViewerLoadFTA"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveAllFTA",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      },
+      "args": {
+        "removeFTAIn3DHandlerId": "DELWeb3DViewerRemoveFTA"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompLoadAllMaterials",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      },
+      "args": {
+        "showMaterialId": "DELWeb3DViewerShowMaterial"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveAllMaterials",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "root"
+        ]
+      },
+      "args": {
+        "hideMaterialId": "DELWeb3DViewerHideMaterial"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompLoadMaterial",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ],
+        "column": {
+          "name": "ro.DELFmiUseCaseExt.V_UseCase.instance",
+          "values": [
+            "ManufacturingMadeFrom",
+            "EngineeringMadeFrom",
+            "ManufacturingAssembly"
+          ]
+        }
+      },
+      "args": {
+        "showMaterialId": "DELWeb3DViewerShowMaterial"
+      }
+    },
+    {
+      "handlerId": "DELWebOERTableViewCompRemoveMaterial",
+      "type": "WAfrDefaultHandlerItem",
+      "availableOn": {
+        "position": [
+          "leaf",
+          "intermediate"
+        ],
+        "column": {
+          "name": "ro.DELFmiUseCaseExt.V_UseCase.instance",
+          "values": [
+            "ManufacturingMadeFrom",
+            "EngineeringMadeFrom",
+            "ManufacturingAssembly"
+          ]
+        }
+      },
+      "args": {
+        "hideMaterialId": "DELWeb3DViewerHideMaterial"
+      }
+    }
+  ],
+  "tableView": {
+    "registerTypeRepresentations": {
+      "configLoading": {
+        "stdTemplate": "functionIcon",
+        "semantics": {
+          "className": "relationRefresh",
+          "icon": {
+            "iconName": "reload wux-ui-3ds-spin",
+            "fontIconFamily": 1
+          }
+        }
+      }
+    },
+    "destroyTableViewOnAllRootsRemoved": true
+  }
+}

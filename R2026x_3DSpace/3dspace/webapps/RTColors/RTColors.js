@@ -1,0 +1,1 @@
+define("DS/RTColors/RTColors",[],(function(){var o={offline:"#ADADAD",online:"#57B847",busy:"#EA4F37",away:"#FEE000",dnd:"#EA4F37",ooo:"#9B2C98"};return o}));

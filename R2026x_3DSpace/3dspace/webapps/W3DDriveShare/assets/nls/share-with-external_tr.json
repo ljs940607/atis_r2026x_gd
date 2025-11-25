@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "Harici paylaşım bağlantısını etkinleştir",
+  "activateShareByLinkDescription": "Aşağıdaki bağlantıya sahip herkes bu içeriği önizleyebilir ve indirebilir.",
+  "expirationDate": "Sona erme tarihi: {date}",
+  "restrictAccessToSpecificUsers": "Erişimi belirli kullanıcılarla kısıtla",
+  "addRestrictions": "Kısıtlamalar ekle",
+  "noRestrictedEmails": "İçeriğe kimse erişemez",
+  "addMessage": "Mesaj ekle",
+  "enterMessageDescription": "Gönderilen e-postaya eklenecek özel bir mesaj girin",
+  "addRestrictedUsersDescription": "Kullanıcı kısıtlamaları kullanıldığında, içeriğe yalnızca ilgili e-postalarla bağlantılı hesapların erişmesi sağlanabilir",
+  "authorizedList": "Yetki listesi ({count}/{max})",
+  "restrictionsCount": "{count}/{max} kısıtlama",
+  "close": "Kapat",
+  "share": "Paylaş",
+  "copyExternalLink": "Harici bağlantıyı kopyala",
+  "enableGuestComments": "Konuk yorumlarını etkinleştir",
+  "enableGuestCommentsDescription": "Bu bağlantıyı kullanan herhangi biri, içerik hakkında yorum yapabilir ve platform üyeleri tarafından yapılan önceki yorumlar da dahil olmak üzere tüm yorumları okuyabilir",
+  "externalSharingFeatureDisabled": "Bu platformda harici paylaşım özelliği etkinleştirilmedi. Lütfen yöneticinizle iletişime geçin.",
+  "cannotAccessContent": "İçeriğe erişilemiyor.",
+  "platformNotAccessible": "Platforma erişilemiyor."
+}

@@ -1,0 +1,1 @@
+define("DS/MPFCartQuoteComponent/MPFCartQuoteComponent_ko",{});define("DS/MPFCartQuoteComponent/assets/nls/CartQuoteComponent",{downloadQuote:"견적 다운로드"});

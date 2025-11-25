@@ -1,0 +1,1 @@
+define("DS/VisuLoaders/ThreeDXStreamer",[],(function(){"use strict";console.error("ThreeDXStreamer only exists in a debug context");let e=null;return{stream:function(r){console.error("ThreeDXStreamer only exists in a debug context"),e?e.stream(r):require("DS/VisuLoadersDebug/ThreeDXStreamer",(function(t){e=t,e.stream(r)}))}}}));

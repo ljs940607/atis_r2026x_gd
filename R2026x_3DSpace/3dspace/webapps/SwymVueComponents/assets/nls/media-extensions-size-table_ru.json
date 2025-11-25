@@ -1,0 +1,10 @@
+{
+  "type": "Тип",
+  "supportedExtensions": "Поддерживаемые расширения файлов",
+  "maximumSize": "Максимально допустимый размер",
+  "sizeB": "{n} Б",
+  "sizeKB": "{n} КБ",
+  "sizeMB": "{n} МБ",
+  "sizeGB": "{n} ГБ",
+  "sizeOrDimensions": "{size} или {dimensions} (MPX)"
+}

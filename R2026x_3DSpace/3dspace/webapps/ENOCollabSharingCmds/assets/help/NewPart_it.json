@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Nuova parte",
+"ENONewPartHdr.ShortHelp":"Crea una nuova parte.",
+"ENONewPartHdr.LongHelp":"Nella finestra di dialogo, immettere un titolo, gli eventuali attributi richiesti e selezionare facoltativamente un modello per scegliere il CAD principale. Fare clic su <uicontrol>Crea e chiudi</uicontrol> per creare una sola parte o su <uicontrol>Crea</uicontrol> per crearne un'altra.",
+"ENOInsertNewPartHdr.Title":"Inserisci nuova parte",
+"ENOInsertNewPartHdr.ShortHelp":"Crea una nuova parte e la aggiunge come figlio agli oggetti selezionati.",
+"ENOInsertNewPartHdr.LongHelp":"<p>Nella finestra di dialogo, immettere un titolo e selezionare facoltativamente un modello per scegliere il CAD principale. Fare clic su <uicontrol>Crea e chiudi</uicontrol> per creare una sola parte o su <uicontrol>Crea</uicontrol> per crearne un'altra.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

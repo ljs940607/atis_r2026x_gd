@@ -1,0 +1,12 @@
+m|DMUBaseUIWeb\DMUBaseUIWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DMUBaseUIWebInWin\DMUBaseUIWebInWin.js|1723278548|2413
+s|DMUBaseUIWeb\DMUBaseUIWebInWin.mweb\src\DMUBaseUIWebInWin.js|1476855312|100
+t|win_b64\webapps\DMUBaseUIWebInWin\DMUWebInWinSlidePanel.html|1723278548|3932
+s|DMUBaseUIWeb\DMUBaseUIWebInWin.mweb\src\DMUWebInWinSlidePanel.html|1621269806|3932
+u|DMUBaseUIWeb\DMUBaseUIWebInWin.mweb\src\DMUWebInWinSlidePanel.js|1621262448|4360
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

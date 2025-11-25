@@ -1,0 +1,11 @@
+m|WebAppsFoundations\LatencyResources.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\LatencyResources\assets\images\download_20mb.jpg|1725720355|20972001
+s|WebAppsFoundations\LatencyResources.mweb\src\assets\images\download_20mb.jpg|1724871892|20972001
+t|win_b64\webapps\LatencyResources\assets\images\latency_big.jpg|1725720355|2008578
+s|WebAppsFoundations\LatencyResources.mweb\src\assets\images\latency_big.jpg|1724871892|2008578
+t|win_b64\webapps\LatencyResources\assets\images\latency_small.png|1725720355|1000
+s|WebAppsFoundations\LatencyResources.mweb\src\assets\images\latency_small.png|1724871892|1000

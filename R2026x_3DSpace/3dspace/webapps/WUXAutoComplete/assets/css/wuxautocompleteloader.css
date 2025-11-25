@@ -1,0 +1,17 @@
+
+.wux-controls-autoComplete-dataGridViewContainer .wux-controls-autoComplete-dataGridView-loading {
+  --autocomplete-loader-container-height: 1;
+  --autocomplete-loader-container-height-computed: calc(var(--autocomplete-loader-container-height) * 1px);
+  height: calc(100% - var(--autocomplete-loader-container-height-computed));
+}
+
+.wux-controls-autoComplete-dataGridViewContainer .wux-controls-autoComplete-loader-container {
+  --autocomplete-loader-container-height: 1;
+  height: calc(var(--autocomplete-loader-container-height) * 1px);
+  box-sizing: content-box;
+}
+
+.wux-controls-autoComplete-dataGridViewContainer-withLoader {
+  --autocomplete-loader-container-height: 1;
+  min-height: calc(var(--autocomplete-loader-container-height) * 2px);
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="CADENCEALLEGRO" synchronous="true"  nlsFile="emxDerivedFormatManagementCADENCEALLEGROStringResource" comment="conversion managed synchronously at save by CADENCE ALLEGRO PowerBy connector">
+	<!-- from 24xFD02 -->
+      <datasources>
+		<datasource name="CADENCEALLEGRO" >    
+			<source name="brd,mdd,mcm,zip" type="Part" subtype="CBDBoard" partExtension="CBDBoard"> 
+				<target name="IPC2581" inputStreamId="authoring" outputStreamId="IPC2581" downloadable="true"/>
+			</source> 			
+			<events>       
+				<event name="onXCADSave" type="interactiveUpdate" />
+			</events>
+		</datasource>
+	  </datasources>
+	</converter>
+
+</derivedformatmanagement>

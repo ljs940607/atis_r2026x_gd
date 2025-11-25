@@ -1,0 +1,13 @@
+{
+  "alreadyOrderedElseWhere": "私はすでに別のチャネル/サプライヤーから注文しました",
+  "doNotWishToSay": "言いたくありません",
+  "doNotDeliverToThisCountry": "この国には配送していません",
+  "doNotProvideThisService": "このようなサービスは提供していません",
+  "onlyWantedQuote": "私の当面の関心は、見積を受け取ることのみでした",
+  "operatorCancellationMessage": "このリクエストは Dassault Systèmes のオペレータによってキャンセルされました。",
+  "other": "その他",
+  "partTooLargeTooComplex": "パーツが大きすぎるか、複雑すぎます",
+  "priceTooHigh": "価格が高すぎます",
+  "requestLeadTimeTooShort": "求められたリードタイムが短すぎます",
+  "cancellationReason": "キャンセルの理由: {reason}"
+}

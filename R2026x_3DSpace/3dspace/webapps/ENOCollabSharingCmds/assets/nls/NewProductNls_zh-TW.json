@@ -1,0 +1,11 @@
+{
+  "createNewProduct": "新產品",
+  "insertNewProduct": "插入新產品",
+  "newObjectType": "產品",
+  "multiParentInsertProductTitle": "插入新產品",
+  "multiParentInsertProductMsg": "確定要在多個父項次下方插入新產品？",
+  "multiParentCannotInsert": "錯誤：無法插入至所選物件下",
+  "CannotInsert.Type": "您無法在所選物件下插入此物件類型：{type}",
+  "okBtn": "確定",
+  "closeBtn": "關閉"
+}

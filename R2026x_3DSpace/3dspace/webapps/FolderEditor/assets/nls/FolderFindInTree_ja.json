@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "ブックマーク フォルダを検索中です..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "お気に入りセクションおよびお気に入りのブックマーク フォルダでは、[ツリーで検索] は実行できません。",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "ドロップされたオブジェクトはブックマーク フォルダではありません。",
+    "subtitle": "ブックマーク ルート フォルダまたはブックマーク フォルダをドロップしてください。"
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "[ツリーで検索] を実行できません。",
+    "subtitle": "ツリーをその特定のブックマーク フォルダ ノードまで展開してください",
+    "message": "検索するブックマーク フォルダがツリー内に表示されていません。"
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "[ツリーで検索] を実行できません。",
+    "subtitle": "ブックマーク フォルダ セクションをレベル 1 まで展開してください。",
+    "message": "ブックマーク フォルダ セクションの下に表示可能なブックマーク フォルダがありません。"
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "[ツリーで検索] を実行できません。",
+    "subtitle": "ブックマーク フォルダを選択して再試行してください。",
+    "message": "検索を実行するブックマーク フォルダが選択されていません。"
+  },
+  "msg_info_limitToFindInRootNode": "すべての検索結果を表示できませんでした。別のキーワードを試すか、サブ ブックマーク フォルダから検索してください。",
+  "msg_info_searchCompleted": "検索が完了しました。",
+  "msg_info_No_Occurrence": "結果が見つかりません。"
+}

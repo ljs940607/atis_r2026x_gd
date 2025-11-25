@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Wyszukiwanie terminologii..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Upuszczony obiekt nie jest obiektem struktury przeglądania.",
+    "Advice": "Upuść strukturę lub węzeł przeglądania."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Advice": "Rozwiń drzewo do określonego węzła przeglądania",
+    "Details": "Przeszukiwany węzeł przeglądania nie jest widoczny w drzewie."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Advice": "Rozwiń sekcję struktury przeglądania do pierwszego poziomu.",
+    "Details": "W sekcji struktury przeglądania nie ma widocznej struktury przeglądania."
+  },
+  "msg_info_limit_FindInTree": "Osiągnięto limit. Limit wyszukiwania jest ustawiony na 100.",
+  "msg_info_limitToFindInRootNode": "Limit wyszukiwania w strukturze przeglądania jest ustawiony na 200, zostanie uwzględnione 200 pierwszych elementów struktury przeglądania.",
+  "msg_info_No_Occurrence": "Nie znaleziono żadnych wystąpień struktury przeglądania."
+}

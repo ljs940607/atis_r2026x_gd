@@ -1,0 +1,18 @@
+{
+  "FindDialogTitle": "Find",
+  "NavigationPreviousMatchTooltipTitle": "Go to previous match",
+  "NavigationPreviousMatchTooltipShortHelp": "At least 1 match is needed.",
+  "NavigationNextMatchTooltipTitle": "Go to next match",
+  "NavigationNextMatchTooltipShortHelp": "At least 1 match is needed.",
+  "NavigationValidationTooltipTitle": "Find",
+  "NavigationValidationTooltipShortHelp": "At least {inputValidationThreshold} characters are needed.",
+  "NavigationSelectionTooltipTitle": "Select matches",
+  "NavigationSelectionTooltipShortHelp": "At least 1 match is needed.",
+  "MatchCaseTooltipShortHelp": "Match case",
+  "NavigationModeTooltipShortHelp": "Navigate between rows instead of keywords",
+  "AutoSelectTooltipShortHelp": "Auto-select the current matching result",
+  "FindIn": "Find in:",
+  "FindInComboAllSelected": "All columns",
+  "FindInComboPlaceholder": "No column",
+  "NavigationValidationColumnsNotValidTooltipTitle": "At least one column must be be selected in the Find in option"
+}

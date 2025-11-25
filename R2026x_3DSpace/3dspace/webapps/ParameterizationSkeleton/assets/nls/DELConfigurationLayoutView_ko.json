@@ -1,0 +1,22 @@
+{
+  "setParameters": "파라미터 저장됨",
+  "setParametersTitle": "저장",
+  "setParametersError": "파라미터를 저장하는 중 오류 발생",
+  "deleteParameter": "파라미터 삭제됨",
+  "deleteParameterTitle": "삭제",
+  "deleteParameterError": "파라미터를 삭제하는 중 오류 발생",
+  "modifyParameter": "파라미터 수정됨",
+  "modifyParameterTitle": "수정",
+  "modifyParameterError": "파라미터를 수정하는 중 오류 발생",
+  "columnMandatory": "이 열 %1은(는) 필수입니다.",
+  "containUnsupportedChars": "%1에 지원되지 않는 문자가 하나 이상 있습니다(\n %2).",
+  "confirmDeleteTitle": "삭제 확인",
+  "confirmDeleteContent": "이 행을 삭제하시겠습니까? 이 작업은 실행되면 다시 취소할 수 없습니다.",
+  "Add": "새 행 추가",
+  "orderParameters": "순서 업데이트됨",
+  "orderParametersTitle": "순서 재지정",
+  "orderParametersError": "순서 재지정 오류",
+  "orderParametersMaskMessage": "순서 업데이트 중",
+  "orderParametersDeleteError": "이전 순서 삭제 오류 발생",
+  "orderParametersSetError": "새 순서 저장 오류 발생"
+}

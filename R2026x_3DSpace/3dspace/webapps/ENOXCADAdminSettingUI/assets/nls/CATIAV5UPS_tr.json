@@ -1,0 +1,12 @@
+{
+  "UniqueFileName": "Benzersiz Dosya Adı",
+  "UniqueFileNameInfo": "Bu özellik etkinleştirildiğinde; revize et, yeni dal, çoğalt veya yeni olarak kaydet işleminde veriler için benzersiz bir dosya adı oluşturur. Bu, CATIA V5 oturumunda birden fazla dalın, çoğaltılmış veya revize edilmiş verilerin yüklenmesini sağlar.",
+  "Revise": "Revize Et",
+  "NewBranch": "Yeni Dal",
+  "Duplicate": "Çoğalt",
+  "SaveAsNew": "Yeni olarak kaydet",
+  "uniqueFileName": "Benzersiz Dosya Adı",
+  "defaultConfigTables": "Varsayılan Konfigürasyon Tabloları",
+  "defaultConfigTablesSaveCommand": "Kaydet",
+  "defaultConfigTablesSaveCommandInfo": "Kaydet komutu için özel tablo belirle"
+}

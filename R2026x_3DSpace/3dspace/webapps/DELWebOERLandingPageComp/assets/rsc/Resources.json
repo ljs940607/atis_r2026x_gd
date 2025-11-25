@@ -1,0 +1,21 @@
+{
+  "background": "DELWebOERLandingPageComp/assets/img/DELOPREV_Background.jpg",
+  "guidedTour": {
+    "HomePageOverview": {
+      "type": "IMAGE",
+      "img": "DELWebOERLandingPageComp/assets/img/LandingPage.jpg"
+    },
+    "ViewerOverview": {
+      "type": "IMAGE",
+      "img": "DELWebOERLandingPageComp/assets/img/Viewer.jpg"
+    },
+    "Viewerand2DStructureOverview": {
+      "type": "IMAGE",
+      "img": "DELWebOERLandingPageComp/assets/img/PPRNavigator.jpg"
+    },
+    "ReviewBuildupAndWKIOverview": {
+      "type": "VIDEO",
+      "video": "DelOerOvGuidedTour/deloer-c-ov-OerGuidedTour.mp4"
+    }
+  }
+}

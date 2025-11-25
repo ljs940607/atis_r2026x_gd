@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "summary": "<doc-ocp-name translate=no>Out</doc-ocp-name> çıktı kontrol bağlantı noktası etkinleştirilmeden önce belirli bir milisaniyeye karşılık gelen bir süre boyunca bekler.",
+  "description": "Bu bloğun davranışı, belirlenen <doc-idp-name translate=no>Delay</doc-idp-name> tamamlanmadan önce <doc-ocp-name translate=no>Out</doc-ocp-name> çıktı bağlantı noktasının etkinleştirilmesini önler.<br>Ancak Javascript asenkron olduğu için <doc-ocp-name translate=no>Out</doc-ocp-name> çıktı kontrol bağlantı noktasının tam olarak <doc-idp-name translate=no>Delay</doc-idp-name> noktasında etkinleştirilmesi garanti edilemez!",
+  "dataPorts": {
+    "Delay": "bekleme işleminin süresi (milisaniye cinsinden)."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir (<doc-idp-name translate=no>Delay</doc-idp-name> değerine ulaşıldığında)."
+  },
+  "example": null
+}

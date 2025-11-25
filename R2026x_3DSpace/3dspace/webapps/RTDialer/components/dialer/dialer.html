@@ -1,0 +1,33 @@
+<div class="dialer">
+  <vu-form class="dialer-form" ref="form">
+     <vu-select
+      class="dialer-select"
+      required
+      autocomplete
+      :placeholder="countrySelector.placeholder"
+      :rules="countrySelector.rules"
+      :options="countrySelector.options"
+      v-model="countrySelector.model" />
+    <vu-input
+      class="dialer-input"
+      required
+      v-model="phoneInput.model"
+      :placeholder="phoneInput.placeholder"
+      :rules="phoneInput.rules"
+      rows=1
+      wrap="off"
+      v-on:keypress="checkKeyboardInput"/>
+    <vu-btn
+      class="dialer-btn-delete"
+      active="true"
+      v-on:click="deleteLastInput">
+      <span class="fonticon fonticon-chevron-left"/>
+      <span class="fonticon fonticon-clear"/>
+    </vu-btn>
+  </vu-form>
+  <VirtualKeyboard
+    v-bind:buttonsValues="keyboardValues"
+    v-bind:submitValue="callIcon"
+    v-on:updateInput="updateInput"
+    v-on:submit="submit"/>
+</div>

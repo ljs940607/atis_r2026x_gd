@@ -1,0 +1,370 @@
+{
+  "managedCommands": [
+    "Refresh",
+    "HideAll",
+    "DetachInstance",
+    "Relations",
+    "OrderBySequence",
+    "DisplayProperties",
+    "ActionBar_ChangeOwner",
+    "ActionBar_TransferOwnership",
+    "ShowCharacteristicsCmd",
+    "ShowConsolidatedCharactscsCmd",
+    "MaturityHdr",
+    "RevisionHdr",
+    "NewBranchHdr",
+    "DuplicateHdr",
+    "DuplicateAdv",
+    "HistoryHdr",
+    "DeleteHdr",
+    "CreateCapableResourceStructureLink",
+    "ManageCapableResources",
+    "CreateLink",
+    "CreateInstance",
+    "ExpandAll",
+    "CollapseAll",
+    "ExportCSV",
+    "RelationIPExplorer",
+    "SearchAndAddInstanceCommand",
+    "InsertAsCopy",
+    "CapableResourceBL",
+    "ProductFlowCmd",
+    "SwimLaneChartCmd",
+    "EditConfigurationContext",
+    "EditVariant",
+    "CopyVariantEffectivity",
+    "PasteVariantEffectivity",
+    "EditEvolution",
+    "ExtendEvolutionEffectivity",
+    "CopyEvolutionEffectivity",
+    "PasteEvolutionEffectivity",
+    "DisplayEffectivity",    
+    "DefineFilter",
+    "LoadRelations",
+    "ReplaceByLatestRevision",
+    "ReplaceByExisting",
+    "ReplaceByNewRevision",
+    "ReplaceByNewReference",
+    "CompareHdr",
+    "ActionBar_ReserveCmd",
+    "ActionBar_UnreserveCmd",
+    "SetThePartNumber",
+    "BuildUpReviewModeCmd"
+  ],
+  "initial": {
+    "enabled": [
+      "HideAll",
+      "ExportCSV",
+      "CreateLink",
+      "CreateInstance"
+    ]
+  },
+  "action": {
+    "enabled": [
+      "AlternateCommand",
+      "OriginCommand",
+      "CapableResourceCommand",
+      "ResponsibilityCommand",
+      "Refresh",
+      "Relations",
+      "OrderBySequence",
+      "OriginRemove",
+      "OriginAdd",
+      "AlternateRemove",
+      "AlternateAdd",
+      "AlternateBL",
+      "CapableResourceRemove",
+      "CapableResourceAdd",
+      "CapableResourceBL",
+      "ResponsibilityAdd",
+      "ResponsibilityRemove",
+      "DisplayProperties",
+      "ExportCSV",
+      "ActionViewFilter",
+      "RelationIPExplorer"
+    ]
+  },
+  "none": {
+    "enabled": [
+      "HideAll",
+      "ExportCSV",
+      "BuildUpReviewModeCmd"
+    ]
+  },
+  "one": {
+    "process": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "HistoryHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "SetThePartNumber"
+      ]
+    },
+    "system": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "OrderBySequence",
+        "ManageCapableResources",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "ProductFlowCmd",
+        "SwimLaneChartCmd",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "BuildUpReviewModeCmd"
+      ]
+    },
+    "workInstruction": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd"
+      ]
+    },
+    "resource": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "SetThePartNumber"
+      ]
+    },
+    "product": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "ExploreInWebApp",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "DuplicateHdr"
+      ]
+    },
+    "organization": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations"
+      ]
+    },
+    "requirement": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "Relations"
+      ]
+    }
+  },
+  "multiple": {
+    "process": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "SetThePartNumber"
+      ]
+    },
+    "system": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "ReplaceWhereUsed"
+      ]
+    },
+    "workInstruction": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "ReplaceWhereUsed"
+      ]
+    },
+    "product": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "DuplicateHdr",
+        "SetThePartNumber"
+      ]
+    },
+    "resource": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "CompareHdr",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd",
+        "SetThePartNumber"
+      ]
+    },
+    "mixed": {
+      "enabled": [
+        "HideAll",
+        "Refresh",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "CompareHdr",
+        "ActionBar_ChangeOwner",
+        "ActionBar_TransferOwnership",
+        "ActionBar_ReserveCmd",
+        "ActionBar_UnreserveCmd"
+      ]
+    }
+  },
+  "disableCommandsForReadOnlyProcessTypes": [
+    "ReplaceByLatestRevision",
+    "ReplaceByExisting",
+    "ReplaceByNewRevision",
+    "ReplaceByNewReference",
+    "ReplaceWhereUsed",
+    "DeleteHdr",
+    "CreateInstance",
+    "DetachInstance",
+    "CreateLink",
+    "DuplicateAdv",
+    "EditConfigurationContext",
+    "EditVariant",
+    "CopyVariantEffectivity",
+    "PasteVariantEffectivity",
+    "EditEvolution",
+    "CopyEvolutionEffectivity",
+    "PasteEvolutionEffectivity",
+    "ExtendEvolutionEffectivity"
+  ]
+}

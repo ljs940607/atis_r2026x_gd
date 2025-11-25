@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="ENOR3MHeaders" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+		<CATCommandHeader ID="DMUReviewHdr" ClassName="DS/DMUReviewPersistence/DMUCreateMulitpleReviewsCmd" ResourceFile="DMUReviewPersistence/DMUReviewPersistence"        HelpResourceFile = "DMUReviewPersistence/DMUReviewPersistence">
+			<CATAfrCommandHeaderArgs>
+				<CATCommandHeaderArg ID="WebAppID" Value="DMUDesignValidation" Mode="In" />
+			</CATAfrCommandHeaderArgs>
+		</CATCommandHeader>
+
+      <CATCommandHeader ID="DMUPublishToSwymCmdHdr" ClassName="DS/DMUBaseCommands/DMUPublishToSwymCmd" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands" ResourceFile="DMUBaseCommands/DMUBaseWebCommands" />
+      <CATCommandHeader ID="CATWebUXPreferencesHdr" ClassName="DS/CATWebUXPreferences/CATWebUXPreferencesCmd" HelpResourceFile = "CATWebUXPreferences/CATWebUXPreferences" ResourceFile="CATWebUXPreferences/CATWebUXPreferences" Available="1"/>
+    </CATCmdHeadersList>
+  </Template>
+	<Template syp:name="ENOR3MHeadersAccess" Target="CATCmdWorkbench">
+		<CATCmdWorkbench Name="ENOR3MHeaders">
+		</CATCmdWorkbench>
+	</Template>
+</Styles>

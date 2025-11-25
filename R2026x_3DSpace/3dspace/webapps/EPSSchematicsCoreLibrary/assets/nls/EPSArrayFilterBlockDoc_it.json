@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Crea una copia di una parte dell'array specificato, filtrata solo per gli elementi che superano il test implementato dal grafico fornito.",
+  "description": "Filtra un determinato array richiamando un grafico fornito su ciascun elemento, mantenendo solo gli elementi per i quali il grafico corrispondente attiva la porta di controllo <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Questo blocco è in grado di filtrare qualsiasi tipo di array <doc-idp-name translate=no>ArrayIn</doc-idp-name> su qualsiasi tipo di array di output.<br>Il grafico interno deve essere modificato per fornire il processo di filtro.",
+  "dataPorts": {
+    "ArrayIn": "L'array di input da filtrare. <br>Questa porta dati gestisce tutti i tipi di array.",
+    "SharedData": "I dati da condividere in tutte le istanze del grafico interno. <br>Questa porta dati gestisce tutti i tipi. <br>Se è necessario condividere numerosi dati di tipo diverso, si consiglia di creare un tipo di utente.",
+    "ArrayOut": "L'array di output filtrato.<br>Questa porta dati gestisce tutti i tipi di array.<br>La dimensione di questo array non supererà la dimensione dell'array <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Un array di <doc-valuetype translate=no>ArrayFilterState</doc-valuetype> fornisce il valore <doc-valuetype translate=no>EExecutionState</doc-valuetype> per ciascun indice dell'array di output <doc-odp-name translate=no>Success</doc-odp-name>.<br>La dimensione di questo array sarà sempre uguale alla dimensione dell'array di <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Un array di <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype> che fornisce il valore <doc-valuetype translate=no>EExecutionState</doc-valuetype> per ciascun indice dell'array di input <doc-odp-name translate=no>ArrayIn</doc-odp-name>.<br>Questo array può essere compilato con diversi dati durante un singolo avanzamento, in quanto dipende dal processo di distribuzione dietro il blocco.<br>Tuttavia, le dimensioni di questo array non supereranno le dimensioni dell'array di <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Un array di <doc-valuetype translate=no>ArrayFilterError</doc-valuetype> che fornisce l'oggetto errore per l'indice dell'array di input <doc-odp-name translate=no>ArrayIn</doc-odp-name>.<br>La dimensione di questo array non supererà la dimensione dell'array di <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "attiva l'esecuzione del blocco.",
+    "Success": "viene attivato al termine del processo.",
+    "Progress": "viene attivato a ogni avanzamento.",
+    "Error": "viene attivato quando si verifica un errore."
+  },
+  "example": null
+}

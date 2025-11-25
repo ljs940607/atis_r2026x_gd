@@ -1,0 +1,355 @@
+{
+  "managedColumns": {
+    "tree": {
+      "options": {
+        "editableFlag": true,
+        "editionPolicy": "EditionOnDoubleClick",
+        "typeRepresentation": "url",
+        "dataIndex": "tree",
+        "allowUnsafeHTMLContent": false,
+        "alwaysVisibleFlag": "true",
+        "pinned": "left",
+        "width": "250"
+      },
+      "supportedDBMode": true
+    },
+    "level": {
+      "options": {
+        "dataIndex": "level",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "typeRepresentation": "integer",
+        "groupableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:label-Instance": {
+      "options": {
+        "dataIndex": "ds6w:label-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": true
+      },
+      "supportedDBMode": true
+    },
+    "ds6wg:revision": {
+      "options": {
+        "dataIndex": "ds6wg:revision",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:modified": {
+      "options": {
+        "dataIndex": "ds6w:modified",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "typeRepresentation": "datetime"
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:created": {
+      "options": {
+        "dataIndex": "ds6w:created",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "typeRepresentation": "datetime"
+      }
+    },
+    "occurence": {
+      "options": {
+        "dataIndex": "occurence",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "groupableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:reservedBy": {
+      "options": {
+        "dataIndex": "ds6w:reservedBy",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:identifier": {
+      "options": {
+        "dataIndex": "ds6w:identifier",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:type": {
+      "options": {
+        "dataIndex": "ds6w:type",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:project": {
+      "options": {
+        "dataIndex": "ds6w:project",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:responsible": {
+      "options": {
+        "dataIndex": "ds6w:responsible",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false,
+        "className": "xen-owner-icon"
+      },
+      "supportedDBMode": true
+    },
+    "rollup": {
+      "options": {
+        "dataIndex": "rollup",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "groupableFlag": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self"
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:status": {
+      "options": {
+        "dataIndex": "ds6w:status",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "tag",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false,
+        "minWidth": 50,
+        "kind": "tag",
+        "className": "lc-maturity-state"
+      },
+      "supportedDBMode": true
+    },
+    "ds6wg:EnterpriseExtension.V_PartNumber": {
+      "options": {
+        "dataIndex": "ds6wg:EnterpriseExtension.V_PartNumber",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:reserved": {
+      "options": {
+        "dataIndex": "ds6w:reserved",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "alignment": "center",
+        "editableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:reserved-Instance": {
+      "options": {
+        "dataIndex": "ds6w:reserved-Instance",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "icon",
+        "alignment": "center",
+        "editableFlag": false
+      }
+    },
+    "ds6w:cadMaster": {
+      "options": {
+        "dataIndex": "ds6w:cadMaster",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "image",
+        "alignment": "center",
+        "editableFlag": false
+      }
+    },
+    "ds6wg:PLMReference.V_isLastVersion": {
+      "options": {
+        "dataIndex": "ds6wg:PLMReference.V_isLastVersion",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "typeRepresentation": "boolean"
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:isLastRevision": {
+      "options": {
+        "dataIndex": "ds6w:isLastRevision",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false,
+        "typeRepresentation": "boolean"
+      },
+      "supportedDBMode": true
+    },
+    "ds6wg:DELFmiContQuantity_Mass.V_ContQuantity": {
+      "options": {
+        "dataIndex": "ds6wg:DELFmiContQuantity_Mass.V_ContQuantity",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false
+      }
+    },
+    "ds6wg:DELFmiContQuantity_Volume.V_ContQuantity": {
+      "options": {
+        "dataIndex": "ds6wg:DELFmiContQuantity_Volume.V_ContQuantity",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false
+      }
+    },
+    "quantity": {
+      "options": {
+        "dataIndex": "quantity",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self",
+        "editableFlag": false
+      }
+    },
+    "AlternateReference": {
+      "options": {
+        "dataIndex": "AlternateReference",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self"
+      }
+    },
+    "AlternateInstance": {
+      "options": {
+        "dataIndex": "AlternateInstance",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self"
+      }
+    },
+    "Thumbnail": {
+      "options": {
+        "dataIndex": "thumbnail",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "image",
+        "alignment": "center",
+        "width": "80",
+        "editableFlag": false,
+        "groupableFlag": false
+      },
+      "supportedDBMode": true
+    },
+    "ds6w:manufacturable": {
+      "options": {
+        "dataIndex": "ds6w:manufacturable",
+        "allowUnsafeHTMLContent": false,
+        "dbName": "VPMReference.V_IsManufacturable",
+        "editableFlag": "true",
+        "editionPolicy": "EditionOnDoubleClick"
+      }
+    },
+    "Deformable": {
+      "options": {
+        "dataIndex": "Deformable",
+        "allowUnsafeHTMLContent": false,
+        "typeRepresentation": "url",
+        "hyperlinkTarget": "_self"
+      }
+    },
+    "ds6w:organizationResponsible": {
+      "options": {
+        "dataIndex": "ds6w:organizationResponsible",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:organizationResponsible-Instance": {
+      "options": {
+        "dataIndex": "ds6w:organizationResponsible-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:project-Instance": {
+      "options": {
+        "dataIndex": "ds6w:project-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:kind": {
+      "options": {
+        "dataIndex": "ds6w:kind",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:kind-Instance": {
+      "options": {
+        "dataIndex": "ds6w:kind-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:originator": {
+      "options": {
+        "dataIndex": "ds6w:originator",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:manufacturer": {
+      "options": {
+        "dataIndex": "ds6w:manufacturer",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:deformability": {
+      "options": {
+        "dataIndex": "ds6w:deformability",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:type-Instance": {
+      "options": {
+        "dataIndex": "ds6w:type-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:responsible-Instance": {
+      "options": {
+        "dataIndex": "ds6w:responsible-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:reservedBy-Instance": {
+      "options": {
+        "dataIndex": "ds6w:reservedBy-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:effectivitytype-Instance": {
+      "options": {
+        "dataIndex": "ds6w:effectivitytype-Instance",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    },
+    "ds6w:policy": {
+      "options": {
+        "dataIndex": "ds6w:policy",
+        "allowUnsafeHTMLContent": false,
+        "editableFlag": false
+      }
+    }
+  }
+}

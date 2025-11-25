@@ -1,0 +1,11 @@
+{
+  "createNewProduct": "新产品",
+  "insertNewProduct": "插入新产品",
+  "newObjectType": "产品",
+  "multiParentInsertProductTitle": "插入新产品",
+  "multiParentInsertProductMsg": "是否确定要在多个父项下插入新产品？",
+  "multiParentCannotInsert": "错误：无法插入到选定对象下",
+  "CannotInsert.Type": "不能在选定对象下插入此对象类型：{type}",
+  "okBtn": "确定",
+  "closeBtn": "关闭"
+}

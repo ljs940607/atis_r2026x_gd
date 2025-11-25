@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_it",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Passaggio","Step.Action":"Azione","Step.DefaultMessage":"Messaggio predefinito per la fase "});

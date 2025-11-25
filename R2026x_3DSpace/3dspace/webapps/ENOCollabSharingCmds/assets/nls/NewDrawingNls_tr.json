@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "Yeni Teknik Resim",
+  "insertNewDrawing": "Yeni Teknik Resim Ekle",
+  "newObjectType": "Teknik Resim",
+  "multiParentInsertDrawingTitle": "Yeni Teknik Resim ekle",
+  "multiParentInsertDrawingMsg": "Birden çok üst öğe altına yeni bir Teknik Resim eklemek istediğinizden emin misiniz?",
+  "multiParentCannotInsert": "Hata: Seçili nesnelerin altına eklenemez",
+  "CannotInsert.Type": "Bu nesne tipini seçili nesnenin altına ekleyemezsiniz: {type}",
+  "okBtn": "Tamam",
+  "closeBtn": "Kapat"
+}

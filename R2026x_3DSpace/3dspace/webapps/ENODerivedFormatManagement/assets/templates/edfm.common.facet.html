@@ -1,0 +1,20 @@
+<div class="edfm-facetview">
+	
+	<span class="facet-list-right">
+		{{#each actions}}
+			{{#if hasAccess }}
+				{{#if html }}
+					<span>{{{ html }}}</span>
+				{{else}}
+		  			<span class="wux-ui-3ds wux-ui-3ds-1x wux-ui-3ds-{{ icon }}" title="{{ label }}"></span>
+					<!--<span class="fonticon fonticon-{{facet.fonticon}}" title={{facet.text}}></span>
+            		<span class="facet-label"> {{facet.text}} </span> -->
+				{{/if}}
+			{{/if}}
+		{{/each}}
+		
+	</span> 
+</div>
+</div>
+<br/><br/>
+

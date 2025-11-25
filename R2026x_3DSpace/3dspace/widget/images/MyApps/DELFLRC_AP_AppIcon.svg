@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="n" data-name="Factory" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="35.22" y1="35.66" x2="37.89" y2="40.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="c" x1="41.06" y1="34.95" x2="43.77" y2="39.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="e" x1="40.24" y1="32.76" x2="42.76" y2="37.14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="g" x1="28.53" y1="19.06" x2="35.36" y2="30.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <linearGradient id="i" x1="40.04" y1="16.19" x2="52.82" y2="38.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="l" x1="34.14" y1="-24.75" x2="41.65" y2="-11.74" gradientTransform="translate(0 18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="o" x1="19.2" y1="-29.17" x2="26.63" y2="-16.31" xlink:href="#l"/>
+    <linearGradient id="p" x1="14.23" y1="24.12" x2="20.42" y2="34.84" xlink:href="#g"/>
+    <linearGradient id="q" x1="25.46" y1="39.21" x2="28.43" y2="44.35" xlink:href="#c"/>
+    <linearGradient id="r" x1="24.59" y1="36.56" x2="27.41" y2="41.44" xlink:href="#e"/>
+    <linearGradient id="s" x1="19.06" y1="39.75" x2="22.05" y2="44.93" xlink:href="#a"/>
+    <linearGradient id="t" x1="34.77" y1="29.36" x2="37.23" y2="33.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset=".95" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="u" x1="19.62" y1="33.12" x2="22.38" y2="37.88" xlink:href="#c"/>
+    <linearGradient id="v" x1="17.79" y1="-18.82" x2="21.87" y2="-11.77" gradientTransform="translate(0 18) scale(1 -1)" xlink:href="#e"/>
+    <linearGradient id="w" x1="13.22" y1="33.66" x2="15.89" y2="38.28" xlink:href="#a"/>
+    <linearGradient id="x" x1="29.33" y1="29.85" x2="31.78" y2="34.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset=".97" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="y" x1="45.76" y1="-1.24" x2="36.93" y2="-10.07" gradientTransform="translate(0 18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="z" x1="29.91" y1="-8.49" x2="25.96" y2="-12.44" xlink:href="#y"/>
+    <linearGradient id="aa" x1="36.14" y1="-3.83" x2="28.91" y2="-11.06" xlink:href="#y"/>
+    <linearGradient id="ab" x1="30.68" y1="-15.25" x2="32.76" y2="-11.65" gradientTransform="translate(0 18) scale(1 -1)" xlink:href="#g"/>
+    <linearGradient id="ac" x1="25.53" y1="-5.97" x2="14.91" y2="-16.59" xlink:href="#y"/>
+  </defs>
+  <polygon points="39.5 16.5 39.5 28.5 52.5 38.5 52.5 24.5 39.5 16.5" fill="url(#i)" stroke="#323232" stroke-linejoin="round"/>
+  <path d="M36,43.82l-14.5,4.68-11-12,13.48-3.72,12.02,11.04Z" fill="url(#o)" opacity=".5" stroke-width="0"/>
+  <path d="M23.98,32.78l15.52-4.28,13,10-16.5,5.32" fill="url(#l)" stroke="#787878" stroke-linejoin="round"/>
+  <polyline points="24 32.78 39.5 28.5 39.5 16.5 32.93 20.88 29.5 18.5 23.98 22.18" fill="url(#g)" stroke="#787878" stroke-linejoin="round"/>
+  <polyline points="23.98 22.18 23.32 22.62 20.5 20.5 10.5 26.5 10.5 36.5 24 32.78" fill="url(#p)" opacity=".5" stroke-width="0"/>
+  <g>
+    <line x1="10.5" y1="36.5" x2="11.46" y2="36.23" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="13.12" y1="35.78" x2="22.21" y2="33.27" fill="none" stroke="#787878" stroke-dasharray="0 0 1.71 1.71" stroke-linejoin="round"/>
+    <polyline points="23.04 33.04 24 32.78 24.74 33.45" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="26.24" y1="34.84" x2="34.51" y2="42.45" fill="none" stroke="#787878" stroke-dasharray="0 0 2.04 2.04" stroke-linejoin="round"/>
+    <line x1="35.26" y1="43.15" x2="36" y2="43.82" fill="none" stroke="#787878" stroke-linejoin="round"/>
+  </g>
+  <polygon points="47.5 34.4 47.5 37.5 37.5 40.5 37.5 37 47.5 34.4" fill="url(#c)" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="35.5 35.5 37.5 37 47.5 34.4 45.5 32.9 35.5 35.5" fill="url(#e)" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="35.5 35.5 35.5 38.75 37.5 40.5 37.5 37 35.5 35.5" fill="url(#a)" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="32.5 38.5 21.5 41.5 21.5 45.25 32.5 42 32.5 38.5" fill="url(#q)" opacity=".5" stroke-width="0"/>
+  <polygon points="30 36.75 19.5 39.5 21.5 41.5 32.5 38.5 30 36.75" fill="url(#r)" opacity=".5" stroke-width="0"/>
+  <polygon points="21.5 45.25 21.5 41.5 19.5 39.5 19.5 43 21.5 45.25" fill="url(#s)" opacity=".5" stroke-width="0"/>
+  <polygon points="31.5 34.25 40.5 31.75 40.5 28.75 31.5 31.25 31.5 34.25" fill="url(#t)" stroke="#003755" stroke-linejoin="round"/>
+  <polygon points="26.5 32.5 26.5 35.5 15.5 38.5 15.5 35.5 26.5 32.5" fill="url(#u)" opacity=".5" stroke-width="0"/>
+  <polygon points="13.5 33.5 15.5 35.5 26.5 32.5 24 31 13.5 33.5" fill="url(#v)" opacity=".5" stroke-width="0"/>
+  <polygon points="15.5 38.5 13.5 36.25 13.5 33.5 15.5 35.5 15.5 38.5" fill="url(#w)" opacity=".5" stroke-width="0"/>
+  <g>
+    <polyline points="32.5 39.5 32.5 38.5 31.54 38.76" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="29.72" y1="39.26" x2="23.37" y2="40.99" fill="none" stroke="#003755" stroke-dasharray="0 0 1.88 1.88" stroke-linejoin="round"/>
+    <polyline points="22.46 41.24 21.5 41.5 21.5 42.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="21.5 44.25 21.5 45.25 22.46 44.97" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="24.28" y1="44.43" x2="30.63" y2="42.55" fill="none" stroke="#003755" stroke-dasharray="0 0 1.89 1.89" stroke-linejoin="round"/>
+    <polyline points="31.54 42.28 32.5 42 32.5 41" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <polyline points="30.82 37.32 30 36.75 29.03 37" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="27.32" y1="37.45" x2="21.32" y2="39.02" fill="none" stroke="#003755" stroke-dasharray="0 0 1.77 1.77" stroke-linejoin="round"/>
+    <polyline points="20.47 39.25 19.5 39.5 20.21 40.21" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="20.79 40.79 21.5 41.5 22.46 41.24" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="24.28" y1="40.74" x2="30.63" y2="39.01" fill="none" stroke="#003755" stroke-dasharray="0 0 1.88 1.88" stroke-linejoin="round"/>
+    <polyline points="31.54 38.76 32.5 38.5 31.68 37.93" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <polyline points="20.84 44.5 21.5 45.25 21.5 44.25" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="21.5 42.72 21.5 41.5 20.75 40.75" fill="none" stroke="#003755" stroke-dasharray="0 0 1.53 1.53" stroke-linejoin="round"/>
+    <polyline points="20.21 40.21 19.5 39.5 19.5 40.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="19.5 42 19.5 43 20.34 43.94" fill="none" stroke="#003755" stroke-dasharray="0 0 1.5 1.5" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <polyline points="25.54 32.76 26.5 32.5 26.5 33.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="26.5 34.5 26.5 35.5 25.54 35.76" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="23.72" y1="36.26" x2="17.37" y2="37.99" fill="none" stroke="#003755" stroke-dasharray="0 0 1.88 1.88" stroke-linejoin="round"/>
+    <polyline points="16.46 38.24 15.5 38.5 15.5 37.5" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="15.5 36.5 15.5 35.5 16.46 35.24" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="18.28" y1="34.74" x2="24.63" y2="33.01" fill="none" stroke="#003755" stroke-dasharray="0 0 1.88 1.88" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <polyline points="14.47 33.27 13.5 33.5 14.21 34.21" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="14.79 34.79 15.5 35.5 16.46 35.24" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="18.28" y1="34.74" x2="24.63" y2="33.01" fill="none" stroke="#003755" stroke-dasharray="0 0 1.88 1.88" stroke-linejoin="round"/>
+    <polyline points="25.54 32.76 26.5 32.5 25.64 31.99" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <line x1="23.59" y1="31.1" x2="15.61" y2="33" fill="none" stroke="#003755" stroke-dasharray="0 0 2.34 2.34" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <polyline points="15.5 37.5 15.5 38.5 14.84 37.75" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="14 36.82 13.5 36.25 13.5 35.13" fill="none" stroke="#003755" stroke-dasharray="0 0 1.25 1.25" stroke-linejoin="round"/>
+    <polyline points="13.5 34.5 13.5 33.5 14.21 34.21" fill="none" stroke="#003755" stroke-linejoin="round"/>
+    <polyline points="15.11 35.11 15.5 35.5 15.5 36.86" fill="none" stroke="#003755" stroke-dasharray="0 0 1.28 1.28" stroke-linejoin="round"/>
+  </g>
+  <polygon points="31.5 34.25 29.5 32.5 29.5 29.75 31.5 31.25 31.5 34.25" fill="url(#x)" stroke="#003755" stroke-linejoin="round"/>
+  <path d="M42.5,31.5l-12-9,9-6,13,8-10,7Z" fill="url(#y)" stroke="#787878" stroke-linejoin="round"/>
+  <polygon points="42.5 27.5 42.5 31.5 39.7 29.4 42.5 27.5" fill="url(#g)" stroke="#787878" stroke-linejoin="round"/>
+  <path d="M35.8,32l-3.3,2.3-12-9.8,2.82-1.88,12.48,9.38Z" fill="url(#z)" opacity=".5" stroke-width="0"/>
+  <path d="M23.32,22.62l6.18-4.12,13,9-6.7,4.5" fill="url(#aa)" stroke="#787878" stroke-linejoin="round"/>
+  <g>
+    <line x1="35.8" y1="32" x2="34.98" y2="32.57" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <polyline points="33.32 33.73 32.5 34.3 31.73 33.67" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="30.23" y1="32.45" x2="22.02" y2="25.74" fill="none" stroke="#787878" stroke-dasharray="0 0 1.93 1.93" stroke-linejoin="round"/>
+    <polyline points="21.27 25.13 20.5 24.5 21.33 23.95" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="22.49" y1="23.17" x2="23.32" y2="22.62" fill="none" stroke="#787878" stroke-linejoin="round"/>
+  </g>
+  <polygon points="32.5 29.5 32.5 34.3 29.2 31.6 32.5 29.5" fill="url(#ab)" opacity=".5" stroke-width="0"/>
+  <g>
+    <polyline points="31.66 30.04 32.5 29.5 32.5 30.5" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <polyline points="32.5 33.3 32.5 34.3 31.73 33.67" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <polyline points="29.97 32.23 29.2 31.6 30.04 31.07" fill="none" stroke="#787878" stroke-linejoin="round"/>
+  </g>
+  <path d="M21.5,36.5l-11-10,10-6,12,9-11,7Z" fill="url(#ac)" opacity=".5" stroke-width="0"/>
+  <g>
+    <polyline points="22.34 35.96 21.5 36.5 20.76 35.83" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="19.4" y1="34.59" x2="11.92" y2="27.79" fill="none" stroke="#787878" stroke-dasharray="0 0 1.84 1.84" stroke-linejoin="round"/>
+    <polyline points="11.24 27.17 10.5 26.5 11.36 25.99" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="13.01" y1="24.99" x2="18.81" y2="21.51" fill="none" stroke="#787878" stroke-dasharray="0 0 1.93 1.93" stroke-linejoin="round"/>
+    <polyline points="19.64 21.01 20.5 20.5 21.3 21.1" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="22.79" y1="22.21" x2="30.96" y2="28.34" fill="none" stroke="#787878" stroke-dasharray="0 0 1.86 1.86" stroke-linejoin="round"/>
+    <polyline points="31.7 28.9 32.5 29.5 31.66 30.04" fill="none" stroke="#787878" stroke-linejoin="round"/>
+    <line x1="29.79" y1="31.22" x2="23.27" y2="35.37" fill="none" stroke="#787878" stroke-dasharray="0 0 2.21 2.21" stroke-linejoin="round"/>
+  </g>
+  <polyline points="36 43.82 52.5 38.5 52.5 24.5 39.5 16.5 32.93 20.88 29.5 18.5 23.32 22.62" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  <g>
+    <line x1="36" y1="43.82" x2="35.05" y2="44.13" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <line x1="33.25" y1="44.71" x2="23.35" y2="47.9" fill="none" stroke="#323232" stroke-dasharray="0 0 1.89 1.89" stroke-linejoin="round"/>
+    <polyline points="22.45 48.19 21.5 48.5 20.82 47.76" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <polyline points="19.56 46.39 10.5 36.5 10.5 28.43" fill="none" stroke="#323232" stroke-dasharray="0 0 1.87 1.87" stroke-linejoin="round"/>
+    <polyline points="10.5 27.5 10.5 26.5 11.36 25.99" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <line x1="13.01" y1="24.99" x2="18.81" y2="21.51" fill="none" stroke="#323232" stroke-dasharray="0 0 1.93 1.93" stroke-linejoin="round"/>
+    <polyline points="19.64 21.01 20.5 20.5 21.3 21.1" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <line x1="22.52" y1="22.02" x2="23.32" y2="22.62" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  </g>
+</svg>

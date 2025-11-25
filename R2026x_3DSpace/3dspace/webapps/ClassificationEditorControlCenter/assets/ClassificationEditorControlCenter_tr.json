@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Sınıflandırma Yöneticileri için kısıtlı mod",
+  "CCM_Manager": "Sınıflandırma Yöneticisi",
+  "CCM_specialist_title": "Konu Uzmanı",
+  "CCM_expert_title": "Uzman Seviyesi",
+  "CCM_architect_title": "Mimar",
+  "permission_update_successful": "{name} için {updatedPermission} izni verildi.",
+  "permission_update_failure": "Kullanıcı adı için izin güncellenemiyor.",
+  "restriction_mode_switched": "Kısıtlı mod şu şekilde değiştirildi: {restrictionToggle}.",
+  "restriction_mode_switch_failure": "Kısıtlı mod değiştirilemedi.",
+  "widget_load_failure": "Bu uygulamaya yalnızca CSV rolüne sahip Yöneticiler erişebilir.",
+  "on": "açık",
+  "off": "kapalı",
+  "search_name": "Ad Ara"
+}

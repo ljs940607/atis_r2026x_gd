@@ -1,0 +1,1 @@
+define("DS/MPFBusinessExperienceDevPlatform/MPFBusinessExperienceDevPlatform_zh",{});define("DS/MPFBusinessExperienceDevPlatform/assets/nls/MPFBusinessExperienceDevPlatform",{errorDoNotUseEmail:"请使用您的三字母组创建一个新的开发平台"});

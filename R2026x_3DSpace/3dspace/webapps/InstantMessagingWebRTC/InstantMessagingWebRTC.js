@@ -1,0 +1,1 @@
+define("DS/InstantMessagingWebRTC/js/model/RTCallingTracker",["DS/InstantMessagingCall/lib/RTCallingTracker"],(function(e){"use strict";return console.warn("InstantMessagingWebRTC is deprecated, please migrate to InstantMessagingCall"),e}));

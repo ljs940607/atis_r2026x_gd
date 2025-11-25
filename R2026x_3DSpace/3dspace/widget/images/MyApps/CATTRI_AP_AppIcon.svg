@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="52.92" y1="46.91" x2="58.47" y2="56.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="21" y1="27.5" x2="28" y2="27.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#464646"/>
+      <stop offset="1" stop-color="#141414"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="9" x2="55" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="9" x2="55" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="13.77" y1="22.77" x2="19.23" y2="32.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d4d5d3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="14.85" y1="22.14" x2="18.15" y2="27.86" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="28.77" y1="30.77" x2="34.23" y2="40.23" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-8" x1="29.85" y1="30.14" x2="33.15" y2="35.86" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="28.77" y1="14.77" x2="34.23" y2="24.23" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-10" x1="29.85" y1="14.14" x2="33.15" y2="19.86" xlink:href="#linear-gradient"/>
+    <linearGradient id="Dégradé_sans_nom_5" data-name="Dégradé sans nom 5" x1="20.91" y1="27.5" x2="54" y2="27.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect x="8.5" y="11.5" width="47" height="32" rx="1.83" ry="1.83" fill="none" stroke="#323232" stroke-linejoin="round"/>
+    <rect x="9" y="12" width="46" height="31" rx=".6" ry=".6" fill="url(#linear-gradient-4)" stroke-width="0"/>
+    <path d="M10,14v27c0,.55.45,1,1,1h42c.55,0,1-.45,1-1V14c0-.55-.45-1-1-1H11c-.55,0-1,.45-1,1Z" fill="#fff" stroke-width="0"/>
+    <rect x="12.5" y="23.5" width="8" height="8" fill="url(#linear-gradient-5)" stroke="#323232" stroke-linejoin="round"/>
+    <rect x="12.5" y="23.5" width="8" height="3" fill="url(#linear-gradient-6)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="25 27 25 20 28 20 28 19 25 19 24 19 24 20 24 27 21 27 21 28 24 28 24 35 24 36 25 36 28 36 28 35 25 35 25 28 25 27" fill="url(#linear-gradient-2)" stroke-width="0"/>
+    <path d="M40,13h13c.55,0,1,.45,1,1v27c0,.55-.45,1-1,1h-13V13h0Z" fill="#646464" opacity=".5" stroke-width="0"/>
+    <rect x="42" y="15" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="18" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="21" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="24" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="27" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="30" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="33" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="36" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="42" y="39" width="10" height="1" fill="#fff" stroke-width="0"/>
+    <rect x="27.5" y="31.5" width="8" height="8" fill="url(#linear-gradient-7)" stroke="#323232" stroke-linejoin="round"/>
+    <rect x="27.5" y="31.5" width="8" height="3" fill="url(#linear-gradient-8)" stroke="#003755" stroke-linejoin="round"/>
+    <rect x="27.5" y="15.5" width="8" height="8" fill="url(#linear-gradient-9)" stroke="#323232" stroke-linejoin="round"/>
+    <rect x="27.5" y="15.5" width="8" height="3" fill="url(#linear-gradient-10)" stroke="#003755" stroke-linejoin="round"/>
+    <path d="M53.4,42H20.91l15.26-29h17.23c.33,0,.6.27.6.6v27.8c0,.33-.27.6-.6.6Z" fill="url(#Dégradé_sans_nom_5)" opacity=".3" stroke-width="0"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M57,36l-6.5,6.86v-10.36c0-.55-.45-1-1-1h-3c-.55,0-1,.45-1,1v8.52l-1.5-1.52-.5.48v-2.48c0-.2-.07-.38-.18-.53,0-.01-.02-.03-.03-.04-.05-.07-.1-.13-.17-.19-.04-.03-.08-.06-.12-.08-.05-.03-.1-.06-.15-.09-.11-.04-.23-.07-.35-.07h-3c-.55,0-1,.45-1,1v7.29l-2,1.92v-.21c0-.55-.45-1-1-1h-3c-.55,0-1,.45-1,1v5.02l-.5.48v6l.81-.78c.18.17.42.28.69.28h3c.55,0,1-.45,1-1v-3.79l2-1.92v5.71c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-10.52l.5-.48,1.5,1.52v9.48c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-7.64l2-2.11v9.75c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-12.24h-.5v-8.26Z" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <g>
+      <polygon points="48.95 44.5 57 36 57 42 48.95 50.5 44 45.5 31 58 31 52 44 39.5 48.95 44.5" fill="url(#linear-gradient-2)" stroke-width="0"/>
+      <path d="M52.5,49.62v6.88c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-12.24l-5,5.36Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M48.93,41.63l1.57-1.64v-7.5c0-.55-.45-1-1-1h-3c-.55,0-1,.45-1,1v5.67l3.43,3.46Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M50.41,51.86l-1.42,1.52-1.46-1.48-2.03-2.05v6.64c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-4.73l-.09.09Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M38.5,53.55v2.95c0,.55.45,1,1,1h3c.55,0,1-.45,1-1v-7.75l-5,4.8Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M42.6,38.07l.85-.83c-.12-.42-.49-.74-.95-.74h-3c-.55,0-1,.45-1,1v4.58l4.1-4.01Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M35.01,45.5h-2.51c-.55,0-1,.45-1,1v2.44l3.51-3.44Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+      <path d="M34.39,57.5h1.11c.55,0,1-.45,1-1v-1.03l-2.11,2.03Z" fill="url(#linear-gradient)" stroke="#003755" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

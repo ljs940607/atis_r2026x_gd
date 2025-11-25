@@ -1,0 +1,9 @@
+m|DELPPWItemModules\DELPPWItemReplaceModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWItemReplaceModule\DELPPWItemReplaceModule.js|1757132690|2501
+s|DELPPWItemModules\DELPPWItemReplaceModule.mweb\src\MfgItemReplaceModule.js|1752563266|9288
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

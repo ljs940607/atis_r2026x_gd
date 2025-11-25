@@ -1,0 +1,175 @@
+{
+    "BuildUpSettings": {
+        "Version": "V6R2016x",
+        "GeneralOptions": {
+            "RestrictToFlow": "TRUE",
+            "WithTracks": "TRUE",
+            "WithDefinePosition": "TRUE",
+            "WithFTA": "FALSE",
+            "IsShowFastenerEnabled": "TRUE",
+            "IsShowOnlyConcernedFastener": "FALSE"
+        },
+        "DisplayOptions": {
+            "Current": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "Parallel": {
+                "IsDisplayed": "FALSE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "191"
+            },
+            "PreviousInSystem": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "PreviousFromPreviousSystem": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "Context": {
+                "IsDisplayed": "FALSE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "191"
+            },
+            "Disassembled": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "Missing": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "AssignedInScope": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "AssignedOutOfScope": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "Assignable": {
+                "IsDisplayed": "TRUE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "AdditionalProducts": {
+                "IsDisplayed": "FALSE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "191"
+            },
+            "Siblings": {
+                "IsDisplayed": "FALSE",
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "191"
+            },
+            "Assembled": {
+                "WithColor": "TRUE",
+                "WithTransparency": "TRUE",
+                "TransparencyCoefficient": "255"
+            },
+            "Resource": {
+                "IsDisplayed": "TRUE",
+                "Filter": "All",
+                "IsDisplayedImplementing": "TRUE",
+                "IsDisplayedCapable": "FALSE",
+                "IsIgnoredScopeForItems": "FALSE",
+                "IsMassDisplayed": "FALSE",
+                "IsPrioritizedResourcePosition": "FALSE"
+            }
+        },
+        "ColorOptions": {
+            "WithAssemblyStatus": "FALSE",
+            "WithColor": "TRUE",
+            "ColorCurrent": {
+                "R": "255",
+                "G": "255",
+                "B": "0"
+            },
+            "ColorParallel": {
+                "R": "255",
+                "G": "146",
+                "B": "72"
+            },
+            "ColorPreviousInSystem": {
+                "R": "0",
+                "G": "0",
+                "B": "255"
+            },
+            "ColorPreviousFromPreviousSystem": {
+                "R": "0",
+                "G": "0",
+                "B": "255"
+            },
+            "ColorContext": {
+                "R": "223",
+                "G": "223",
+                "B": "223"
+            },
+            "ColorDisassembled": {
+                "R": "128",
+                "G": "0",
+                "B": "255"
+            },
+            "ColorAssembled": {
+                "R": "255",
+                "G": "255",
+                "B": "0"
+            },
+            "ColorMissing": {
+                "R": "255",
+                "G": "0",
+                "B": "0"
+            },
+            "ColorAssignedInScope": {
+                "R": "86",
+                "G": "180",
+                "B": "233"
+            },
+            "ColorAssignedOutOfScope": {
+                "R": "255",
+                "G": "146",
+                "B": "72"
+            },
+            "ColorAssignable": {
+                "R": "230",
+                "G": "159",
+                "B": "0"
+            },
+            "ColorAdditionalProducts": {
+                "R": "255",
+                "G": "146",
+                "B": "72"
+            },
+            "ColorSiblings": {
+                "R": "255",
+                "G": "146",
+                "B": "72"
+            }
+        },
+        "AdvancedOptions": {
+            "ReframeOn": "Disabled",
+            "AdditionalProductsContext": "None",
+            "IsDiplayedAdditionalProductsExternalContext": "FALSE"
+        }
+    }
+}

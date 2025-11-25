@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+ValidationCheck1.Title="座標系参照のみ、座標系参照の下に集約できます。";
+ValidationCheck2.Title="シェル座標系参照をシェル座標系参照の下に集約することはできません。";
+ValidationCheck3.Title="1 つの座標系参照のみ、シェル座標系参照の下に集約できます。";
+ValidationCheck4.Title="座標系参照のみ、シェル座標系参照の下に集約できます。";
+ValidationCheck5.Title="位置決めアーキテクチャを持つプロダクトは、3D シェイプをインスタンス化できませんでした。";
+ValidationCheck6.Title="位置決めアーキテクチャを持つプロダクトは、マークアップをインスタンス化できませんでした。";

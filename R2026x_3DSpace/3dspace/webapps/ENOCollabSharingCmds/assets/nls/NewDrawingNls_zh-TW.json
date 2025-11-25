@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "新工程圖",
+  "insertNewDrawing": "插入新工程圖",
+  "newObjectType": "工程圖",
+  "multiParentInsertDrawingTitle": "插入新工程圖",
+  "multiParentInsertDrawingMsg": "確定要在多個父項次下方插入新工程圖？",
+  "multiParentCannotInsert": "錯誤：無法插入至所選物件下",
+  "CannotInsert.Type": "您無法在所選物件下插入此物件類型：{type}",
+  "okBtn": "確定",
+  "closeBtn": "關閉"
+}

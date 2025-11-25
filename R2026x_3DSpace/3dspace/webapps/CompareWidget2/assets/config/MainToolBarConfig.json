@@ -1,0 +1,173 @@
+{
+  "entries": [
+
+    {
+      "id": "mainToolbarLeftObjectColor",
+      "dataElements": {
+        "domId": "compare-main-left-color",
+        "typeRepresentation": "color",
+        "value": "#ff8a2e",
+        "position": "near",
+        "readOnly": "true"
+      }
+    },
+    {
+      "id": "mainToolbarLeftObjectString",
+      "dataElements": {
+        "domId": "compare-main-left-label",
+        "typeRepresentation": "string",
+        "value": "",
+        "position": "near",
+        "readOnly": "true"
+      }
+    },
+    {
+      "id": "mainToolbarRightObjectColor",
+      "dataElements": {
+        "domId": "compare-main-right-color",
+        "typeRepresentation": "color",
+        "value": "#009ddb",
+        "position": "near",
+        "readOnly": "true"
+      }
+    },
+    {
+      "id": "mainToolbarRightObjectString",
+      "dataElements": {
+        "domId": "compare-main-right-label",
+        "typeRepresentation": "string",
+        "value": "",
+        "position": "near",
+        "readOnly": "true"
+      }
+    },
+    {
+      "id": "mainToolbarProfile",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-customization-profile",
+        "label": "",
+        "displayLabel": "true",
+        "typeRepresentation": "customEnumMember",
+        "position": "far",
+        "category": "1",
+        "value": "",
+        "possibleValues": [ ],
+        "onNodeUpdate": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "onProfileUpdate"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarEditCustomization",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-edit-customization",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "cog",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "1",
+        "value": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "onEditCustomization"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarSwap",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-swap-columns",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "exchange",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "2",
+        "value": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "onClickSwap"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarDisplayViews",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-display-views",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "eye-cog",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "2",
+        "value": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "createViewDropdown"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarRefresh",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-refresh",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "refresh",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "2",
+        "value": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "onClickRefresh"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarExport",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-export",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "export",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "2",
+        "disabled": true,
+        "value": {
+          "module"  : "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func"    : "onClickExport"
+        }
+      }
+    },
+    {
+      "id": "mainToolbarAdditionalMenu",
+      "hasTooltip": true,
+      "dataElements": {
+        "domId": "compare-main-additional",
+        "typeRepresentation": "functionIcon",
+        "icon": {
+          "iconName": "menu-dot",
+          "fontIconFamily": 1
+        },
+        "position": "far",
+        "category": "2",
+        "value": {
+          "module": "DS/CompareWidget2/viewComponents/MainToolbarEvents",
+          "func": "createAdditionalMenu"
+        }
+
+      }
+    }
+  ]
+}

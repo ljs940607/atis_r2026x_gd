@@ -1,0 +1,34 @@
+<div class="eno-dialog-body-content eno-dialog-resource-view">
+  {{#if emptyMessage}}
+    <span>{{ emptyMessage }}</span>
+  {{/if}}
+  {{#if data}}
+    <table class="eno-dialog-body-content-table">
+      <thead>
+      <tr class="eno-dialog-table-column-header">
+        {{~#each colData as |col|~}}
+          <th scope="col">{{col}}</th>
+        {{~/each~}}
+      </tr>
+      </thead>
+      <tbody class="eno-dialog-table-body">
+      {{#each data }}
+          <tr>
+            <td class="eno-dialog-table-assignee-column"> 
+              <span class="eno-dialog-table-assignee">
+                {{#if image }}
+                  <span>
+                    <img class="eno-dialog-table-image" src={{ image }}>
+                  </span>
+                {{/if}}
+                <span>{{ name }}</span>
+              </span>
+            </td>
+            <td>{{noOfIssues }}</td>
+            <td>{{ storyPoints }}</td>
+          </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  {{/if}}
+</div>

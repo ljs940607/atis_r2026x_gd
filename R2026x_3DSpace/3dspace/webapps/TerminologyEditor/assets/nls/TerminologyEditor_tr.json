@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Yapılara Göz Atma",
+  "name_Widget_Title": "Göz Atma Yapısı Tanımı",
+  "name_Widget_Help": "Göz Atma Yapısı Tanımı Yardımı",
+  "name_Term": "Terim",
+  "name_Terminology_type": "Terminoloji",
+  "terminology_pref_populateTags": "Göz Atma Yapılarını filtrelemek için 6W Tags'i etkinleştir",
+  "terminology_pref_activateRelationsColumns": "İlgilileri Göster",
+  "useIndexAcceleration_label": "Dizinlenmiş verileri göster",
+  "terminology_pref_autoSwitch_Label": "Veritabanı modundan Dizin moduna otomatik geçiş",
+  "button_remove": "Kaldır",
+  "button_close": "Kapat",
+  "Move_label": "Taşı",
+  "Copy_label": "Kopyala",
+  "oneMin_Label": "1 Dakika",
+  "threeMin_Label": "3 Dakika",
+  "fiveMin_Label": "5 Dakika",
+  "tenMin_Label": "10 Dakika",
+  "Never_Label": "Hiçbir zaman",
+  "Paste_content_loading": "İçeriği yapıştır",
+  "Remove_content_loading": "İçeriği kaldır",
+  "Content_Loading": "İçerik yükleniyor...",
+  "Widget_Loading": "Widget yükleniyor...",
+  "Tree_Loading": "Ağaç yükleniyor...",
+  "New_Loading": "Oluşturma paneli yükleniyor...",
+  "Terminology_Loading": "Göz Atma Yapısı seçiliyor...",
+  "commands": {
+    "newBrowsingNode": "Yeni Göz Atma Düğümü",
+    "newBrowsingStructure": "Yeni Göz Atma Yapısı"
+  },
+  "msg_success_copyLink_terminology": "\"{terminologyname}\" Göz Atma Yapısı'na bağlantı kopyalandı.",
+  "msg_success_copyLink_term": "\"{termname}\" Göz Atma Düğümü'ne bağlantı kopyalandı.",
+  "msg_success_createTerminology": "\"{terminologyName}\" Göz Atma Yapısı başarıyla oluşturuldu",
+  "msg_success_createTerm": "\"{termName}\" Göz Atma Düğümü başarıyla oluşturuldu",
+  "msg_success_createBS": "Göz Atma Yapısı başarıyla oluşturuldu",
+  "msg_success_createBN": "Göz Atma Düğümü başarıyla oluşturuldu",
+  "msg_info_terminologycopied": "{number} Göz Atma Yapısı \"{terminologyname}\" Göz Atma Yapısı'na eklendi.",
+  "msg_info_rename_bs": "\"{name1}\" Göz Atma Yapısı, \"{name2}\" olarak yeniden adlandırıldı.",
+  "msg_info_rename_bn": "\"{name1}\" Göz Atma Düğümü \"{name2}\" olarak yeniden adlandırıldı.",
+  "msg_info_refresh": "Yenileme tamamlandı.",
+  "msg_info_SortNonAvailable": "Bu sütunda arama esnasında sıralama yapılamaz.",
+  "msg_info_treeFilterRemove": "Ağaca uygulanan filtreler, siz bir göz atma yapısı ekledikten sonra kaldırılır.",
+  "msg_warning_nocurrentterminology": "Geçerli Göz Atma Yapısı yok: Lütfen bir Göz Atma Yapısı seçin.",
+  "msg_warning_noselection": "En az bir nesne seçilmelidir.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "Son genişletme durumu kaydedilmeyecek.",
+    "Advice": "Genişletme durumunu kaydetmek için birkaç Göz Atma Yapısı'nı daraltın.",
+    "Details": "Genişletilmiş çok fazla Göz Atma Yapısı var."
+  },
+  "msg_warning_copyLink": "Seçili Nesne bir Göz Atma Yapısı değil.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "Kök Göz Atma Yapısı sayısı 200'den fazla olduğunda Bağlam İçinde Arama desteklenmez.",
+  "msg_error_Addinterminology": "Bu göz atma yapısına içerik ekleyemezsiniz.",
+  "msg_error_CopyTerminology": "Göz Atma Yapıları kopyalanırken hata oluştu.",
+  "msg_error_MoveInterminology": "Nesneler taşınırken hata oluştu.",
+  "msg_error_MoveInSameterminology": {
+    "title": "Farklı bir göz atma yapısı seçin. ",
+    "subtitle": "Hedef göz atma yapısı ve kaynak göz atma yapıları aynıdır."
+  },
+  "msg_error_rename": {
+    "Title": "Şu Göz Atma öğesini yeniden adlandıramazsınız: {name}.",
+    "Advice": "Adın zaten kullanımda olmadığını veya doğru kimlik bilgilerini kullandığınızı doğrulayın.",
+    "Details": "Bu nesneyi yeniden adlandırmak için hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz."
+  },
+  "msg_error_invalidselection": "Komut, seçim yapılmadan başlatılamaz",
+  "msg_error_name_maxlength": "{maxLength} karakterden uzun olmayan bir \"{name}\" girin.",
+  "msg_error_name_empty": "Ad için bir değer girin.",
+  "msg_error_TerminologyActivate": {
+    "title": "{name1} öğesini etkinleştiremezsiniz.",
+    "subtitle": "Nesne silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Bir göz atma yapısını bu göz atma düğümüyle ilişkilendirin.",
+    "subtitle": "Göz atma yapısı görünür olmayabilir. Örneğin, etkin olmayabilir. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Ağaç genişletilemiyor.",
+    "subtitle": "Uygulamayı yenileyin ve tekrar deneyin veya destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} geçersiz karakterler içeriyor: {badChars}.",
+    "Advice": "Şu karakterlerden hiçbirini kullanamazsınız: Mesaj:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Göz atma yapısının içeriğine artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "İçerik silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_InfoAction_Timeout": "Başlatılan eylemden zaman aşımı süresi içinde yanıt alınmadı, yürütme işlemi daha uzun sürebilir. Sonuç, manuel yenilemeden bir süre sonra görülebilir.",
+  "msg_error_timeout": {
+    "title": "Sunucu bağlantısı zaman aşımına uğradı.",
+    "subtitle": "Bağlantınızı doğrulayın veya bu işlem sırasında gönderilen veri miktarını azaltın."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Bu göz atma yapısına artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Göz atma yapısı silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Bu göz atma yapısına artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Gerekli izinleriniz yok."
+  },
+  "msg_error_copylink": {
+    "title": "Bağlantı panoya kopyalanamıyor. ",
+    "subtitle": " İşlemi tekrar deneyin veya destek için yöneticinizle iletişime geçin. "
+  },
+  "msg_error_createNewFromFramework": "Yeni Oluştur işlemi başarısız oldu :",
+  "msg_error_createNew": {
+    "Title": "Bu nesne oluşturulamıyor: {type}.",
+    "Advice": "Doğru kimlik bilgilerini kullandığınızdan emin olun.",
+    "Details": "Bu nesne tipini oluşturmak için hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz."
+  },
+  "msg_error_rest": {
+    "title": "Sunucunun bağlantısı beklenmedik şekilde kesildi.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "msg_warning_notProductRoot": "Nesne bulunamadı.",
+  "msg_warning_contentnotavailable": "İçerik alınamadı. Silinmiş veya özel duruma ayarlanmış olabilir.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "İçerik kaldırılamıyor.",
+    "advice": "Arama sonuçlarını daraltmak için lütfen bir alt terminoloji seçin.",
+    "details": "20'den fazla Göz Atma Yapısı'ndan içerik kaldırılamaz."
+  },
+  "CMDClearSort": "Sıralamayı Temizle",
+  "CMDShareTerminologyLink": "Bağlantıyı Kopyala",
+  "CMDShowInTerminologies": "Göz Atma Yapılarında Göster",
+  "alpha_sorting": "Alfabetik sıralama",
+  "alpha_sort_label": "Başlık",
+  "date_sorting": "Tarihe göre sıralama",
+  "date_sort_label": "Değiştirilme tarihi",
+  "fonticon_filter": "Panel içeriği şu anda filtrelenmiş durumda",
+  "loadingText": "Yükleniyor...",
+  "SearchEnterMoreThan": "Arama için minimum {minNumber} karakter gerekir.",
+  "confirmation_move_title": "İçeriği taşı",
+  "confirmation_move_message": "{source} içeriğini {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_monosel": "{selection} öğesini {source} konumundan {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_mono_from_tree": "{source} öğesini {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_multisel": "{nth} öğeyi {source} konumundan {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_button": "Taşı",
+  "confirmation_info": "{From} olan \n öğesi {To} olarak dönüştürülürken başlık ve açıklama dışındaki öznitelikler kaybolur. Alt öğe nesneleri için tüm öznitelikler kopyalanır.",
+  "authentication_error": {
+    "title": "Belirtilen widget başlatılamıyor.",
+    "subtitle": "Kimlik bilgilerinizi doğrulayın ve tekrar deneyin."
+  },
+  "noPlatform_error": "Bu uygulama platformlarınızdan hiçbirinde kullanılamıyor.",
+  "placeholder_msg_terminology": "Bu Göz Atma Yapısı şu anda boş.",
+  "placeholder_CreateTerminology": "Yeni Göz Atma Yapısı",
+  "placeholder_CreateTerm": "Yeni Göz Atma Düğümü",
+  "column_Thumbnail": "Küçük resim",
+  "placeholder_msg_section": "Göz Atma Yapısı oluşturulmadı.",
+  "placeholder_msg_terms": "Göz Atma Düğümü oluşturulmadı",
+  "placeholder_msg_search": "Sonuç bulunamadı.",
+  "refresh_ongoing": "Yenileniyor...",
+  "refresh_ok": "Yenileme tamamlandı",
+  "refreshError": {
+    "title": "Widget yenilenemiyor.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "success": "Başarılı",
+  "warning": "Uyarı",
+  "information": "Bilgi",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Bu içeriğe artık erişilemiyor.",
+    "Advice": "Bu nesne tipini oluşturmak için hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz.",
+    "Details": "Nesne silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Yapıştırılamıyor.",
+    "InvalidParameters": "Seçilen nesneler bu hedefe yapıştırılamaz. ",
+    "BNDestination": "Göz atma düğümleri, Göz Atma yapıları bölümünün altına yapıştırılamaz.",
+    "BSDestination": "Göz atma yapısı yalnızca Göz Atma yapıları bölümünün altına yapıştırılabilir."
+  },
+  "msg_paste_error": "Yapıştırılamıyor.",
+  "indexMode": {
+    "Authoring": "Veritabanı.",
+    "Index": "Dizin.",
+    "Label": "İndeks",
+    "seconds": "saniye",
+    "minutes": "dakika",
+    "hours": "saat",
+    "msg_Authoring": "Veritabanı modu etkinleştirildi. Performans etkilenebilir.",
+    "activeMode": "Etkin mod: {mode}",
+    "lastRefresh": "Son Yenileme: {timeElapsed} önce.",
+    "reactIndexMode": "Dizin modu, oluşturma işlemi veya yenileme zamanından sonra {autoSwitch} dakika içinde yeniden etkinleştirilir.",
+    "info_msg_DataNotUptoDate": "Dizin modu aktif. Veriler güncel olmayabilir."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "{name} adlı seçilen Göz Atma Yapısı ağaçta gösterilmiyor, görüntülemek ve seçmek için aşağı kaydırın.",
+  "ViewTooltip": {
+    "ds6w:label": "Başlık",
+    "ds6w:modified": "Değiştirme Tarihi",
+    "ds6w:responsible": "Sahip",
+    "ds6w:type": "Tip",
+    "ds6w:status": "Olgunluk Durumu",
+    "ds6w:project": "İş Birliği Alanı",
+    "ds6w:identifier": "Ad"
+  },
+  "notifications": {
+    "expandTooLarge": "Çok fazla nesne alındı.<br> Lütfen filtreleme ile veya genişletme seviyesini azaltarak gezinmeyi daraltın.",
+    "initialization_error": {
+      "title": " Uygulama beklenmeyen bir hatayla karşılaştı.",
+      "subtitle": "Destek için yöneticinizle iletişime geçin."
+    },
+    "tooManyResultFound": "Arama {maxResult} sonuç ile sınırlıdır. Lütfen sorguyu daraltın."
+  },
+  "generic_service_failure": "Nesne bilgileri alınamadı. Birkaç dakika içinde tekrar deneyin. Sorun devam ederse yöneticinizle iletişime geçin",
+  "cannot_insert_branch": "Nesne eklenemedi",
+  "cannot_access_after_changeowner": "Sahiplik değişikliğinden sonra nesneye erişilemiyor"
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Marketplace Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./AmdLoader/AmdLoader.js"></script>
+    <script src="./UIKIT/UIKIT.js"></script>
+    <link rel="stylesheet" href="./UIKIT/UIKIT.css">
+  </head>
+  <body>
+    <script defer>
+      require(['DS/MPFMarketplaceAdmin/MarketplaceAdmin'], (MarketplaceAdmin) => {
+        MarketplaceAdmin.run({
+          container: document.body
+        });
+      })
+    </script>
+  </body>
+</html>

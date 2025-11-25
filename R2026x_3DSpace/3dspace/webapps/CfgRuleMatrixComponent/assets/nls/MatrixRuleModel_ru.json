@@ -1,0 +1,9 @@
+{
+  "TYPE_VARIANT": "Вариант",
+  "TYPE_VARIANT_VALUE": "Значение варианта",
+  "TYPE_VALUE": "Значение",
+  "TYPE_OPTION_GROUP": "Группа параметров",
+  "TYPE_OPTION": "Параметр",
+  "_mr_max_valid_combination_msg_title": "Существует более 1000 допустимых комбинаций.",
+  "_mr_max_valid_combination_msg_message": "Редактор правил матрицы поддерживает не более 1000 столбцов, поэтому некоторые столбцы скрыты."
+}

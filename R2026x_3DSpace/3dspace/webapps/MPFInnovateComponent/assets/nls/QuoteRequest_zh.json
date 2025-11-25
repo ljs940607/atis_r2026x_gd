@@ -1,0 +1,16 @@
+{
+  "other": "其他",
+  "companyName": "公司名称",
+  "typeCompanyName": "键入您的公司名称",
+  "country": "国家/地区",
+  "selectCountry": "选择您公司所在的国家/地区",
+  "countryNotAvailable": "客户国家/地区无法发布报价单",
+  "phoneNumber": "电话号码",
+  "enterPhoneNumber": "输入电话号码",
+  "phoneNumberInvalid": "此电话号码无效",
+  "addNda": "添加 NDA",
+  "ndaInfo": "您可以上传保密协议 (NDA)，选定服务提供商必须接受该协议才能查看您的请求。\n（最大文件大小：30Mb | 支持的文件格式：PDF、DOCX、DOC）",
+  "imageCantBeUploadedNDA": "图像文件无法作为 NDA 文档上传。",
+  "fileFormatNotSupported": "文件格式不受支持",
+  "uploadError": "出现错误，请注意，仅接受最大为 50Mb 的 PDF 和文本文件。"
+}

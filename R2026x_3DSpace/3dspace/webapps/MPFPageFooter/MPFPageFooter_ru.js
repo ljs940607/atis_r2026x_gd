@@ -1,0 +1,1 @@
+define("DS/MPFPageFooter/MPFPageFooter_ru",{});define("DS/MPFPageFooter/assets/nls/PageFooter",{links:"Ссылки",contacts:"Контакты",copyright:"© Dassault Systèmes, {year} | Все права защищены",generalTermsAndConfitions:"Общие условия и положения",privacyPolicy:"Политика конфиденциальности",cookies:"Файлы cookie"});

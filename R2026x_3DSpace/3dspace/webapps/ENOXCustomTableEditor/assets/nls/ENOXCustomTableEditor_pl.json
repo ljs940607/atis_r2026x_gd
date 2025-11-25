@@ -1,0 +1,73 @@
+{
+  "columnChooser": {
+    "title": "Dostępne atrybuty:",
+    "treeTitle": "Nazwa atrybutu",
+    "tooltips": {
+      "findDialog": "Znajdź atrybuty",
+      "moveFirst": "Przenieś na wierzch",
+      "moveUp": "Przenieś w górę",
+      "moveDown": "Przenieś w dół",
+      "moveBottom": "Przenieś na spód",
+      "arrowRight": "Dodaj atrybut w widoku",
+      "arrowLeft": "Usuń atrybut z widoku"
+    }
+  },
+  "component": {
+    "views": {
+      "ENO2D_DEFAULT": "Widok domyślny",
+      "ENO2D_CUSTO": "Widok niestandardowy"
+    },
+    "tooltips": {
+      "addView": "Dodaj nowy widok niestandardowy",
+      "editView": "Edytuj widok niestandardowy",
+      "removeView": "Usuń widok niestandardowy"
+    }
+  },
+  "columnGroups": {
+    "commonAttributes": "Kolumny wspólne",
+    "typesAttributes": "Kolumny typu",
+    "extsAttributes": "Kolumny rozszerzeń",
+    "classifAttributes": "Kolumny klasyfikacji"
+  },
+  "columnsHardCoded": {
+    "thumbnail": "Podgląd",
+    "positionMatrix-Instance": "Macierz pozycji"
+  },
+  "selectedAtt": {
+    "title": "Wybrane atrybuty: ",
+    "colName": "Nazwa kolumny",
+    "pin": "Przypnij",
+    "pinLeft": "Przypnij po lewej",
+    "pinRight": "Przypnij po prawej"
+  },
+  "dialog": {
+    "okBtn": "Zastosuj",
+    "cancelBtn": "Anuluj"
+  },
+  "extensionChooser": {
+    "title": "Wybór typów i rozszerzeń",
+    "selectionTypeTitle": "Typy",
+    "selectionExtTitle": "Rozszerzenia",
+    "typeName": "Typ",
+    "extName": "Rozszerzenie"
+  },
+  "localnls": {
+    "thumbnail": "Podgląd",
+    "thumbnails": "Podgląd",
+    "matrixtxt": "Macierz pozycji"
+  },
+  "warning": {
+    "tooManySelected": {
+      "title": "Maksymalna liczba dostępnych kolumn",
+      "msg": "Dozwolona jest maksymalna liczba kolumn {maxNumber}"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Widok już istnieje",
+      "msg": "Widok o nazwie „{viewName}” już istnieje"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Widok już istnieje",
+      "msg": "Widok o nazwie „{viewName}” już istnieje"
+    }
+  }
+}

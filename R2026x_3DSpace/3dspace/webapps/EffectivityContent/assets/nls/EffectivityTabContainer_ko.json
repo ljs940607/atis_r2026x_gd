@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "유효성 정보를 가져오는 동안 오류가 발생했습니다.",
+  "ERROR_DATA_LOAD_MSG": "이 개체에 대한 액세스 권한이 있는지 확인하십시오.",
+  "ERROR_DATA_FETCH_TITLE": "개체 세부 정보를 가져오는 동안 오류가 발생했습니다.",
+  "ERROR_EXP_FETCH_TITLE": "유효성 표현식 세부 정보를 가져오는 동안 오류가 발생했습니다.",
+  "title_label": "제목",
+  "instance_title_label": "제목",
+  "instance_title_tooltip": "예를 들어, 제목",
+  "evolution_label": "현재 전개",
+  "owner_label": "소유자",
+  "type_label": "유형",
+  "openwith_label": "연결 프로그램",
+  "filter_label": "필터",
+  "filter_mentioned": "{0} 언급됨",
+  "filter_included": "{0} 포함됨",
+  "expression_label": "파생/옵션"
+}

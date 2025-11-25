@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "Minimum ve maksimum değer arasında rastgele bir sayı hesaplar.",
+  "description": "Rastgele sayı hesaplanırken, minimum ve maksimum değerler aralığa dahil edilir.<br>Veri bağlantı noktası değer tipi <doc-valuetype translate=no>Double</doc-valuetype> veya <doc-valuetype translate=no>Integer</doc-valuetype> olabilir ve blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "Min": "aralığın minimum değeri.",
+    "Max": "aralığın maksimum değeri.",
+    "Result": "döndürülen değer, <doc-valuetype translate=no>Min</doc-valuetype> ve <doc-valuetype translate=no>Max</doc-valuetype> arasında rastgele bir <doc-idp-name translate=no>Double</doc-idp-name> veya <doc-idp-name translate=no>Integer</doc-idp-name> olacaktır (seçilen veri bağlantı noktası değer tipine bağlı olarak)."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

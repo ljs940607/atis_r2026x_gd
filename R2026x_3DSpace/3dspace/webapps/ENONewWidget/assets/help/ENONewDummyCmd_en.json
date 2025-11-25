@@ -1,0 +1,11 @@
+{
+"ENONewContentInputTypeHdr.Title":"New",
+"ENONewContentInputTypeHdr.ShortHelp":"Creates a new object",
+"ENONewContentInputTypeHdr.LongHelp":"In the dialog box, enter the required type <p>Click <b>Create</b> button to launch creation dialog.</p>",
+"ENONewContentHdr.Title":"New Content Panel",
+"ENONewContentHdr.ShortHelp":"Creates a new object from the listed Types",
+"ENONewContentHdr.LongHelp":"In the dialog box, click on the required type to launch creation dialog.",
+"ENONewDummyHdr.Title":"New MockDocument",
+"ENONewDummyHdr.ShortHelp":"Creates a new MockDocument object",
+"ENONewDummyHdr.LongHelp":"In the dialog box, fill the required details in the form. <p>Click <ul> <li>Create button to create only one object</li> <li>Create another button to create another one</li> </ul> </p>"
+}

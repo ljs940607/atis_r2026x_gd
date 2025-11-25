@@ -1,0 +1,14 @@
+{
+  "merchant": "Establecimiento comercial",
+  "order": "Orden",
+  "amount": "Cantidad",
+  "cardHolder": "Titular de la tarjeta",
+  "cardNumber": "Número de tarjeta",
+  "expiryDate": "Fecha de caducidad",
+  "cardHolderEmpty": "El nombre del titular de la tarjeta no es válido.",
+  "pay": "Pagar",
+  "phase": "Fase",
+  "paymentInProgress": "Pago en curso. Esto puede tardar un momento",
+  "failedToLoadPaymentPage": "Error al cargar la página de pago. Vuelva a intentarlo más tarde y póngase en contacto con el servicio de asistencia si el problema persiste.",
+  "failedToLoadPaymentSection": "Error al cargar la sección de pago. Vuelva a intentarlo más tarde y póngase en contacto con el servicio de asistencia si el problema persiste."
+}

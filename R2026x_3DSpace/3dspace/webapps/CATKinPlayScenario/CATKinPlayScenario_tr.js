@@ -1,0 +1,1 @@
+define("DS/CATKinPlayScenario/CATKinPlayScenario_tr",{});define("DS/CATKinPlayScenario/assets/nls/CATKinPlayRegister",{CATKinPlayRegister_Title:"Kinematik",CATKinPlayRegister_Description:"Kaydol Animasyon Oynat",Animation_Title:"Animasyon Oynatıcı",Animation_Description:"Animasyonu Yeniden Oynat"});

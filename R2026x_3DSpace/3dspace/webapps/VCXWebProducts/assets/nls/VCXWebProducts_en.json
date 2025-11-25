@@ -1,0 +1,21 @@
+{
+  "GuidedTourTerminateButton": "Terminate Guided Tour",
+  "PreviewModeTooltipTerminateButton": "Terminate Preview Mode command",
+  "PreviewModeTooltipToggleCanvasButton": "Activate/Deactivate the display of paper",
+  "PreviewModeTooltipTogglePlayButton": "Play automatic play",
+  "PreviewModeTooltipTogglePauseButton": "Pause automatic play",
+  "PreviewModeLabelTogglePlayButton": "PLAY",
+  "PreviewModeLabelTogglePauseButton": "PAUSE",
+  "PreviewModeLabelTerminateButton": "STOP PREVIEW",
+  "PreviewModeLabelToggleCanvasButton": "CANVAS",
+  "VCXSelectElementMessage": "Select an object",
+
+  "VCXStepCmd.ApplyTransformation.Step1": "Select the part(s) to move",
+  "VCXStepCmd.ApplyTransformation.Step2": "Select the reference part",
+  "VCXStepCmd.ApplyTransformation.Action": "Select the reference part",
+  "VCXApplyTransformation.Referential.Parent": "Parent",
+  "VCXApplyTransformation.Referential.World": "World",
+
+  "VCXSwapVisibleSpace.Information.Step.Content": "Nonvisible space active",
+  "VCXSwapVisibleSpace.Information.Step.Title": "Information"
+}

@@ -1,0 +1,19 @@
+{
+  "addRoles": "ロールを追加",
+  "addRole": "ロールを追加",
+  "selectRole": "ロールを選択",
+  "onlineInstanceId": "オンライン インスタンス ID",
+  "quantity": "数量",
+  "confirm": "確認",
+  "roles": "ロール",
+  "createPlatform": "プラットフォームを作成",
+  "devPlatformAdmin": "開発プラットフォーム管理者",
+  "sendingRequest": "リクエストを送信しています...",
+  "unableToAddRolesToPlatform": "選択したプラットフォームに選択したロールを追加できません",
+  "unableToFetchAvailableRoles": "このテナントで使用可能なロールを取得できません",
+  "unableToRequestPlatformCreation": "プラットフォームの作成をリクエストできません。後で再試行してください。",
+  "platformAdmin": "プラットフォーム管理者",
+  "platformId": "プラットフォーム",
+  "totalPriceExclTax": "税抜合計価格:",
+  "totalPrice": "合計価格"
+}

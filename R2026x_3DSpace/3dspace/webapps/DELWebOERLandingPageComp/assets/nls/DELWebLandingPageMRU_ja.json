@@ -1,0 +1,14 @@
+{
+  "Tooltip.Title": "タイトル",
+  "Tooltip.Type": "タイプ",
+  "Tooltip.Revision": "リビジョン",
+  "Tooltip.MaturityState": "完成度ステート",
+  "Tooltip.Owner": "所有者",
+  "Tooltip.ModificationDate": "変更日",
+  "ContextualMenu.RemoveItem.Title": "除去",
+  "ContextualMenu.RemoveItem.FontIcon": "wux-ui-3ds wux-ui-3ds-remove",
+  "RecentContentNotAvailable.Error.Message": "最新のコンテンツを表示することはできません。このコンテンツを表示する権限がないか、コンテンツが削除された可能性があります。",
+  "MRU.Open.Title": "開く",
+  "MRU.OpenWithFilter.Title": "フィルタ付きで開く",
+  "MRU.Remove.Title": "除去"
+}

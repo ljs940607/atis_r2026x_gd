@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_tr",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"Adım","Step.Action":"Eylem","Step.DefaultMessage":"Adım İçin Varsayılan Mesaj "});

@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_ko",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"메뉴",addTab:"탭 추가",webAppsResizing:"웹 앱 크기 조절은 {type} 소유자에게만 적용됩니다.",webAppsResizingProductCockpit:"웹 앱 크기 조정은 이 조종석에서 유지되지 않습니다."});

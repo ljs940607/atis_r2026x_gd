@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DEL3DOperationsViewerConfiguration" treelistnls="DEL3DOperationsViewerConfiguration" modalnls="DEL3DOperationsViewerConfiguration">
+	<object type="combobox" id="corpusType" value="product,mfgItem,serviceItem,process,resource" disabled="false" onChange="onChangeCorpusTypeCombo" mandatory="true"></object>
+	<object type="combobox" id="attribute" value="" disabled="false" mandatory="true"></object>
+</ui>

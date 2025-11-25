@@ -1,0 +1,11 @@
+m|DELPPWItemModules\DELPPWMfgStructureModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWMfgStructureModule\DELPPWMfgStructureModule.js|1757132698|18005
+s|DELPPWItemModules\DELPPWMfgStructureModule.mweb\src\BatchMapping.js|1752753836|236
+u|DELPPWItemModules\DELPPWMfgStructureModule.mweb\src\JobStatusUI.js|1755840537|41394
+u|DELPPWItemModules\DELPPWMfgStructureModule.mweb\src\MfgStructureModule.js|1754307491|23779
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

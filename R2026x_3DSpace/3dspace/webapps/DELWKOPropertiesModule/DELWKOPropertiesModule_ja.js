@@ -1,0 +1,1 @@
+define("DS/DELWKOPropertiesModule/DELWKOPropertiesModule_ja",{});define("DS/DELWKOPropertiesModule/assets/nls/DELWKOPropertiesPanelUI",{PropertiesTab:"プロパティ",SomeAttributesEdition:"一部の属性が編集中です。切り替えるには変更を確定するかまたはキャンセルしてください。",Save:"保存",Cancel:"キャンセル",EditTooltip:"編集モード",Multiple:"複数",FactoryTimeZoneTooltip:"工場のタイムゾーン"});

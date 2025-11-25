@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_zh-TW",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed 服務似乎故障",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" 可能尚未載入所有述詞",CUSTOM_ATTR_APPLIED:"自訂屬性已更新"});

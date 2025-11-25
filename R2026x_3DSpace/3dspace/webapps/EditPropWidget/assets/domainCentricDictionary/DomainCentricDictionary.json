@@ -1,0 +1,38 @@
+{
+    "PHYSICALSTRUCTUREDUMMY" : {
+        "fetchforproperties": {
+            "service": "3DSpace",
+            "relativePath": "/resources/domains/v1/i3dx/fetch",
+            "responsible": "VZO"
+        } 
+    },
+    "CONSTRUCTIONFEAT": {
+        "fetchforproperties":{
+            "service": "3DSpace",
+            "relativePath": "/resources/ConstructionFeat/v1/i3dx/fetch",
+            "responsible": "LST"
+        }
+    },
+    "R2VSURVEY": {
+        "fetchforproperties":{
+            "service": "r2vsurvey",
+            "relativePath": "/enovia/resources/r2v/v1/modeler/i3dx/fetch",
+            "responsible": "JRD12"
+        }
+    },
+    "DUMMYDOMAIN": {
+        "propertiesread":{
+            "service": "3DSpace",
+            "relativePath": "/resources/dummyDomain/v1/i3dx/propertiesread",
+            "responsible": "RPL30"
+        }
+    },
+	"DUMMYDOMAIN2": {
+        "fetchforproperties":{
+            "service": "3DSpace",
+            "relativePath": "/enovia/resources/dummyDomain2/v1/modeler/i3dx/fetch",
+            "responsible": "RPL30"
+        }
+    }
+}
+

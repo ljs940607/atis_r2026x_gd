@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "Keine Datei ausgewählt",
+  "noValidFileSelected": "Keine gültige Datei ausgewählt",
+  "isRequired": "{0} ist erforderlich",
+  "isInvalid": "{0} ist ungültig",
+  "wrongFileType": "Falscher Dateityp",
+  "fileTooBig": "Datei ist größer als die maximal zulässige Dateigröße von {0}",
+  "bytes": "Byte",
+  "kiloByte": "KB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "fileUploadFailed": "Hochladen der Datei fehlgeschlagen. Bitte versuchen Sie es erneut.",
+  "replaceImage": "Bild ersetzen",
+  "loading": "Wird geladen...",
+  "fileCouldNotBeLoaded": "Datei konnte nicht geladen werden"
+}

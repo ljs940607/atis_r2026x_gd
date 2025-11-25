@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="VPMCentral">
+	<Domain id="CCMReport"  solution="ALL">
+		<Family id="batchValues">
+			<Parameter id="status" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="statusArg" type="string"/>
+			</Parameter>
+			<Parameter id="startDate" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="startDateArg" type="string"/>
+			</Parameter>
+			<Parameter id="estimatedDate" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="estimatedDateArg" type="string"/>
+			</Parameter>
+			<Parameter id="processedObject" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="processedObjectArg" type="integer"/>
+			</Parameter>
+			<Parameter id="currentOp" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="currentOpArg" type="integer"/>
+			</Parameter>
+			<Parameter id="totalOp" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="totalOpArg" type="integer"/>		
+			</Parameter>
+			<Parameter id="duration" implementation="com.matrixone.vplm.batchReport.CCMReportHandler">
+				<Argument id="durationArg" type="string"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

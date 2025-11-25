@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Recherche des dossiers de signets..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "L'opération Rechercher dans l'arbre ne peut pas être effectuée sur la section Favoris et les dossiers de signets favoris.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "L'objet déposé n'est pas un dossier de signets.",
+    "subtitle": "Veuillez déposer un dossier racine de signets ou un dossier de signets."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "subtitle": "Développer l'arbre jusqu'à ce nœud de dossier de signets spécifique",
+    "message": "Le dossier de signets à rechercher n'est pas visible dans l'arbre."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "subtitle": "Développez la section Dossier de signets jusqu'au premier niveau.",
+    "message": "Il n'existe aucun dossier de signets visible sous la section Dossier de signets."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "subtitle": "Sélectionnez un dossier de signets, puis réessayez.",
+    "message": "Aucun dossier de signets n'est sélectionné pour y effectuer l'opération de recherche."
+  },
+  "msg_info_limitToFindInRootNode": "Impossible d'afficher tous les résultats de la recherche. Veuillez essayer d'autres mots clés ou effectuer une recherche à partir des dossiers de signets.",
+  "msg_info_searchCompleted": "La recherche est terminée",
+  "msg_info_No_Occurrence": "Aucun résultat trouvé."
+}

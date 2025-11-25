@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Ausschneiden";
+DMUSection.DMUSectionNoCutHdr.Title="Nicht Zerspanen";
+DMUSection.DMUSectionGridHdr.Title="Raster";
+DMUSection.DMUSectionFlipHdr.Title="Umdrehen";
+DMUSection.DMUSectionNormalToXHdr.Title="Position zu X";
+DMUSection.DMUSectionNormalToYHdr.Title="Position zu Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Position zu Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Position aus Geometrie";
+DMUSection.DMUSectionMoveHdr.Title="Blickpunkt verschieben";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Sekundäre Schnittebenenanzeige";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Selektiver Schnitt";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Entfernen";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Begrenzungsbearbeitung beenden";
+DMUSection.DMUClippingEditionHdr.Title="Begrenzung bearbeiten";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Durch Konstruktionselement begrenzen";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Durch Schnitt begrenzen";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Größe aus ausgewählten Objekten ändern";
+DMUSection.DMUResetClippingPlaneHdr.Title="Begrenzung zurücksetzen";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Durch Schicht begrenzen";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Größe aus ausgewählten Objekten ändern";
+DMUSection.DMUResetClippingSliceHdr.Title="Begrenzung zurücksetzen";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Durch Rahmen begrenzen";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Größe aus ausgewählten Objekten ändern";
+DMUSection.DMUResetClippingBoxHdr.Title="Begrenzung zurücksetzen";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Entlang der X-Achse positionieren";
+DMUSection.DMUClippingNormalToYHdr.Title="Entlang der Y-Achse positionieren";
+DMUSection.DMUClippingNormalToZHdr.Title="Entlang der Z-Achse positionieren";
+DMUSection.DMUClippingNormalUserHdr.Title="Aus ausgewählter Geometrie positionieren";
+DMUSection.DMUClippingReverseHdr.Title="Begrenzung invertieren";
+DMUSection.DMUContourViewerHdr.Title="Sekundäre Schnittebenenanzeige";
+DMUSection.DMUClippingPositionHdr.Title="Position der Begrenzung...";
+DMUSection.DMUAlignViewHdr.Title="Blickpunkt ausrichten";
+DMUSection.DMUHideShowHdr.Title="Ausblenden/Einblenden";
+DMUSection.DMUCutUncutHdr.Title="Schneiden/Schnitt aufheben...";
+DMUSection.DMUClippingEditStr.Title="Begrenzung";
+DMUSection.DMUClippingPropertiesHdr.Title="Eigenschaften";

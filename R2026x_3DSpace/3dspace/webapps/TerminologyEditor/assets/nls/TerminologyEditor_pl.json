@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Struktury przeglądania",
+  "name_Widget_Title": "Definicja struktury przeglądania",
+  "name_Widget_Help": "Przeglądanie pomocy definicji struktury",
+  "name_Term": "Termin",
+  "name_Terminology_type": "Terminologia",
+  "terminology_pref_populateTags": "Włącz znaczniki 6W do filtrowania struktur przeglądania",
+  "terminology_pref_activateRelationsColumns": "Pokaż powiązane",
+  "useIndexAcceleration_label": "Pokaż indeksowane dane",
+  "terminology_pref_autoSwitch_Label": "Automatyczne przełączanie z trybu bazy danych do trybu indeksowania",
+  "button_remove": "Usuń",
+  "button_close": "Zamknij",
+  "Move_label": "Przenieś",
+  "Copy_label": "Kopiuj",
+  "oneMin_Label": "1 min",
+  "threeMin_Label": "3 min",
+  "fiveMin_Label": "5 min",
+  "tenMin_Label": "10 min",
+  "Never_Label": "Nigdy",
+  "Paste_content_loading": "Wklej zawartość",
+  "Remove_content_loading": "Usuń zawartość",
+  "Content_Loading": "Ładowanie zawartości...",
+  "Widget_Loading": "Ładowanie widżetu...",
+  "Tree_Loading": "Ładowanie drzewa...",
+  "New_Loading": "Wczytywanie panelu tworzenia...",
+  "Terminology_Loading": "Wybieranie struktury przeglądania...",
+  "commands": {
+    "newBrowsingNode": "Nowy węzeł przeglądania",
+    "newBrowsingStructure": "Nowa struktura przeglądania"
+  },
+  "msg_success_copyLink_terminology": "Skopiowano powiązanie ze strukturą przeglądania „{terminologyname}”.",
+  "msg_success_copyLink_term": "Skopiowano powiązanie z węzłem przeglądania „{termname}”.",
+  "msg_success_createTerminology": "Utworzenie struktury przeglądania „{terminologyName}” powiodło się",
+  "msg_success_createTerm": "Utworzenie węzła przeglądania „{termName}” powiodło się",
+  "msg_success_createBS": "Struktura przeglądania została pomyślnie utworzona.",
+  "msg_success_createBN": "Węzeł przeglądania został pomyślnie utworzony.",
+  "msg_info_terminologycopied": "Struktury przeglądania {number} dodane do struktury przeglądania „{terminologyname}”.",
+  "msg_info_rename_bs": "Nazwa struktury przeglądania „{name1}” zmienia się na „{name2}”.",
+  "msg_info_rename_bn": "Nazwa węzła przeglądania „{name1}” zmienia się na „{name2}”.",
+  "msg_info_refresh": "Odświeżanie zakończone.",
+  "msg_info_SortNonAvailable": "Ta kolumna nie jest dostępna do sortowania podczas wyszukiwania.",
+  "msg_info_treeFilterRemove": "Filtry zastosowane do drzewa są usuwane po dodaniu struktury przeglądania.",
+  "msg_warning_nocurrentterminology": "Brak bieżącej struktury przeglądania: wybierz strukturę przeglądania.",
+  "msg_warning_noselection": "Należy wybrać co najmniej jeden obiekt.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "Status ostatniego rozwinięcia nie zostanie zapisany.",
+    "Advice": "Zwiń niektóre struktury przeglądania, aby umożliwić zapisywanie statusu rozwinięcia.",
+    "Details": "Liczba rozwiniętych struktur przeglądania jest zbyt duża."
+  },
+  "msg_warning_copyLink": "Wybrany obiekt nie jest strukturą przeglądania.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "Wyszukiwanie w kontekście nie jest obsługiwane, gdy liczba głównych struktur przeglądania jest większa niż 200.",
+  "msg_error_Addinterminology": "Nie można dodać zawartości do tej struktury przeglądania.",
+  "msg_error_CopyTerminology": "Błąd podczas kopiowania struktury przeglądania.",
+  "msg_error_MoveInterminology": "Błąd podczas przenoszenia obiektu(-ów).",
+  "msg_error_MoveInSameterminology": {
+    "title": "Wybierz inną strukturę przeglądania. ",
+    "subtitle": "Docelowa struktura przeglądania i źródłowe struktury przeglądania są takie same."
+  },
+  "msg_error_rename": {
+    "Title": "Nie można zmienić nazwy elementu przeglądania: {name}.",
+    "Advice": "Sprawdź, czy nazwa nie jest już używana lub czy używasz prawidłowych danych logowania.",
+    "Details": "Być może nie masz wymaganej odpowiedzialności w docelowym obszarze współpracy, aby zmienić nazwę tego obiektu."
+  },
+  "msg_error_invalidselection": "Polecenia nie można uruchomić bez zaznaczenia",
+  "msg_error_name_maxlength": "Wprowadź „{name}” nie dłuższe niż {maxLength} znaków.",
+  "msg_error_name_empty": "Wprowadź wartość dla nazwy.",
+  "msg_error_TerminologyActivate": {
+    "title": "Nie można aktywować programu {name1}.",
+    "subtitle": "Obiekt mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Powiąż strukturę przeglądania z tym węzłem przeglądania.",
+    "subtitle": "Struktura przeglądania może nie być widoczna. Na przykład może nie być aktywna. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Nie można rozwinąć drzewa.",
+    "subtitle": "Odśwież aplikację i spróbuj ponownie lub skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} zawiera niedozwolone znaki: {badChars}.",
+    "Advice": "Następujące znaki są niedozwolone: wiadomość:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Zawartość struktury przeglądania nie jest już dostępna.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Zawartość mogła zostać usunięta lub nie masz wymaganych uprawnień."
+  },
+  "msg_InfoAction_Timeout": "Nie otrzymano odpowiedzi od uruchomionej akcji w określonym czasie, może to potrwać dłużej. Wynik może być widoczny po ręcznym odświeżeniu.",
+  "msg_error_timeout": {
+    "title": "Przekroczono limit czasu połączenia z serwerem.",
+    "subtitle": "Sprawdź połączenie lub zmniejsz ilość danych przesyłanych podczas tej operacji."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Ta struktura przeglądania nie jest już dostępna.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Struktura przeglądania mogła zostać usunięta lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Ta struktura przeglądania nie jest już dostępna.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Nie masz wymaganych uprawnień."
+  },
+  "msg_error_copylink": {
+    "title": "Nie można skopiować łącza do schowka. ",
+    "subtitle": " Ponów operację lub skontaktuj się z administratorem, aby uzyskać pomoc. "
+  },
+  "msg_error_createNewFromFramework": "Tworzenie nowego obiektu nie powiodło się:",
+  "msg_error_createNew": {
+    "Title": "Nie można utworzyć tego obiektu: {type}.",
+    "Advice": "Sprawdź, czy używasz prawidłowych danych logowania.",
+    "Details": "Być może nie masz wymaganej odpowiedzialności w docelowym obszarze współpracy, aby utworzyć ten typ obiektu."
+  },
+  "msg_error_rest": {
+    "title": "Serwer rozłączył się nieoczekiwanie.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_warning_notProductRoot": "Nie znaleziono obiektu.",
+  "msg_warning_contentnotavailable": "Nie można pobrać zawartości. Być może została usunięta lub jej stan ustawiono na prywatny.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "Nie można usunąć zawartości.",
+    "advice": "Wybierz terminologię podrzędną, aby zawęzić wyniki wyszukiwania.",
+    "details": "Nie można usunąć zawartości z więcej niż 20 struktur przeglądania."
+  },
+  "CMDClearSort": "Wyczyść sortowanie",
+  "CMDShareTerminologyLink": "Kopiuj łącze",
+  "CMDShowInTerminologies": "Pokaż w obszarze Przeglądanie struktur",
+  "alpha_sorting": "Kolejność alfabetyczna",
+  "alpha_sort_label": "Tytuł",
+  "date_sorting": "Kolejność dat",
+  "date_sort_label": "Data modyfikacji",
+  "fonticon_filter": "Zawartość panelu jest obecnie filtrowana",
+  "loadingText": "Wczytywanie…",
+  "SearchEnterMoreThan": "Do wyszukiwania należy wprowadzić co najmniej {minNumber} znaki(-ów).",
+  "confirmation_move_title": "Przenieś zawartość",
+  "confirmation_move_message": "Czy chcesz przenieść zawartość {source} do {target}?",
+  "confirmation_move_message_monosel": "Czy chcesz przenieść {selection} z {source} do {target}?",
+  "confirmation_move_message_mono_from_tree": "Czy chcesz przenieść {source} do {target}?",
+  "confirmation_move_message_multisel": "Czy chcesz przenieść elementy w liczbie {nth} z {source} do {target}?",
+  "confirmation_move_button": "Przenieś",
+  "confirmation_info": "Atrybuty inne niż tytuł i opis zostają utracone podczas konwersji z \n {From} na {To}. Wszystkie atrybuty obiektów podrzędnych są kopiowane.",
+  "authentication_error": {
+    "title": "Nie można uruchomić określonego widżetu.",
+    "subtitle": "Sprawdź dane logowania i spróbuj ponownie."
+  },
+  "noPlatform_error": "Ta aplikacja nie jest dostępna na żadnej z Twoich platform.",
+  "placeholder_msg_terminology": "Ta struktura przeglądania jest obecnie pusta.",
+  "placeholder_CreateTerminology": "Nowa struktura przeglądania",
+  "placeholder_CreateTerm": "Nowy węzeł przeglądania",
+  "column_Thumbnail": "Miniatura",
+  "placeholder_msg_section": "Nie utworzono struktury przeglądania.",
+  "placeholder_msg_terms": "Nie utworzono węzła przeglądania",
+  "placeholder_msg_search": "Nie znaleziono wyników.",
+  "refresh_ongoing": "Odświeżanie...",
+  "refresh_ok": "Odświeżanie zakończone",
+  "refreshError": {
+    "title": "Nie można odświeżyć widżetu.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "success": "Sukces",
+  "warning": "Ostrzeżenie",
+  "information": "Informacje",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Ta zawartość nie jest już dostępna.",
+    "Advice": "Być może nie masz wymaganej odpowiedzialności w docelowym obszarze współpracy, aby utworzyć ten typ obiektu.",
+    "Details": "Obiekt mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Nie można wkleić.",
+    "InvalidParameters": "Wybranych obiektów nie można wkleić do tego miejsca docelowego. ",
+    "BNDestination": "Nie można wkleić węzłów przeglądania w sekcji Przeglądanie struktur.",
+    "BSDestination": "Strukturę przeglądania można wkleić tylko w sekcji Przeglądanie struktur."
+  },
+  "msg_paste_error": "Nie można wkleić.",
+  "indexMode": {
+    "Authoring": "Baza danych.",
+    "Index": "Indeks.",
+    "Label": "Indeks",
+    "seconds": "s",
+    "minutes": "min",
+    "hours": "godz.",
+    "msg_Authoring": "Tryb bazy danych jest włączony. Może to mieć wpływ na wydajność.",
+    "activeMode": "Tryb aktywny: {mode}",
+    "lastRefresh": "Ostatnie odświeżenie: {timeElapsed} temu.",
+    "reactIndexMode": "Tryb indeksowania zostanie ponownie aktywowany w ciągu {autoSwitch} min od operacji tworzenia lub odświeżania.",
+    "info_msg_DataNotUptoDate": "Tryb indeksowania jest aktywny. Dane mogą być nieaktualne."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "Wybrana struktura przeglądania {name} nie jest widoczna w drzewie. Przewiń widok, aby ją wyświetlić i wybrać.",
+  "ViewTooltip": {
+    "ds6w:label": "Tytuł",
+    "ds6w:modified": "Data modyfikacji",
+    "ds6w:responsible": "Właściciel",
+    "ds6w:type": "Typ",
+    "ds6w:status": "Stan dojrzałości",
+    "ds6w:project": "Obszar współpracy",
+    "ds6w:identifier": "Nazwa"
+  },
+  "notifications": {
+    "expandTooLarge": "Pobrano zbyt wiele obiektów.<br> Zawęź nawigację, korzystając z filtrowania lub zmniejszając poziom rozwinięcia.",
+    "initialization_error": {
+      "title": " Wystąpił nieoczekiwany błąd aplikacji.",
+      "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+    },
+    "tooManyResultFound": "Wyszukiwanie jest ograniczone do {maxResult} wyników. Doprecyzuj zapytanie."
+  },
+  "generic_service_failure": "Nie można pobrać informacji o obiekcie. Spróbuj ponownie za kilka minut. Jeśli problem będzie się powtarzał, skontaktuj się z administratorem.",
+  "cannot_insert_branch": "Dodanie obiektu nie powiodło się",
+  "cannot_access_after_changeowner": "Nie można uzyskać dostępu do obiektu po zmianie własności"
+}

@@ -1,0 +1,16 @@
+m|SocialToolbarVue\SocialToolbarVueTest.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.0.25234|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SocialToolbarVueTest\Reset.css|1744917714|2608
+s|SocialToolbarVue\SocialToolbarVueTest.mweb\src\Reset.css|1729502012|7695
+t|win_b64\webapps\SocialToolbarVueTest\SocialToolbarVueTest.html|1729535841|1048
+s|SocialToolbarVue\SocialToolbarVueTest.mweb\src\SocialToolbarVueTest.html|1729502012|1048
+t|win_b64\webapps\SocialToolbarVueTest\SocialToolbarVueTest.js|1755932132|7939
+s|SocialToolbarVue\SocialToolbarVueTest.mweb\src\SocialToolbarVueTest.js|1755894373|13599
+t|win_b64\webapps\SocialToolbarVueTest\Styles.css|1744917715|2012
+s|SocialToolbarVue\SocialToolbarVueTest.mweb\src\Styles.css|1732311090|2392
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

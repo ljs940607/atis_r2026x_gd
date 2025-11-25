@@ -1,0 +1,20 @@
+{
+"DefineFilterHdr.Title":"Filtre",
+"DefineFilterHdr.ShortHelp":"Yapıyı özniteliğe veya konfigürasyona göre filtreler.",
+"DefineFilterHdr.LongHelp":"Yapıyı özniteliğe ya da konfigürasyona göre filtrelemek için kriterleri tanımlayabileceğiniz filtre bölmesini açar.",
+"PAD3DLineLayoutHdr.Title":"Çizgi Düzeni",
+"PAD3DLineLayoutHdr.ShortHelp":"Tüm kök nesneleri daha iyi ayırt etmek için bir çizgi boyunca yerleştirir.",
+"PAD3DViewerRelationalNavigatorHdr.Title":"Relations",
+"PAD3DViewerRelationalNavigatorHdr.ShortHelp":"Relations pencere öğesini açar ve ilgili nesnelerin ekosistemini görüntüler.",
+"IncludeBorder.Title":"Sınırı Dahil Et",
+"IncludeBorder.ShortHelp":"Hacim sorgusu, sınır nesneleri arasında gerçek sonuçların doğru şekilde ayırt edilmesini sağlamayan dizin oluşturma tekniklerini kullanır. \n\nBu seçenek şunları etkinleştirir: \n • İşaretlenmezse hiçbir Sınır nesnesi alınmaz, dolayısıyla gerçek sonuçları kaçırma olasılığı vardır. \n • İşaretlenirse tüm Sınır nesneleri alınır, böylece gerçek sonuçlar kaçırılmaz ancak potansiyel olarak yabancı nesneler yüklenir.",
+"PAD3DViewerPrintHdr.Title":"Ekran Görüntüsünü Yazdır",
+"PAD3DViewerPrintHdr.ShortHelp":"Seçim vurgusu ve yükleme kutuları da dahil olmak üzere görüntüleyicinin içeriğini seçtiğiniz yazıcıya yazdırır.",
+"RevealDocuments.Title":"Belgeleri Göster",
+"RevealDocuments.ShortHelp":"3B görünümdeki nesnelere iliştirilmiş ekleri ve teknik özellik belgelerini görüntüler.",
+"ViewerScreenshot.Title":"Ekran Görüntüsünü Kaydet",
+"ViewerScreenshot.ShortHelp":"3D Viewer'ın ekran görüntüsünü alır ve bunu bir .png dosyası olarak kaydeder.",
+"ViewerScreenshot.LongHelp":"Ekran görüntüsü yalnızca 3D Viewer'ın içeriğini kapsar, paneller (katman paneli veya yan panel gibi) ve eylem çubuğu yakalanmaz.",
+"IncludeBorder.WebHelp":"SharedUserMap/cfg-t-Filter-Volume-Query.htm",
+"RevealDocuments.WebHelp":"EnxdiscUserMap/enxdisc-t-RevealDocumentsPOI.htm"
+}

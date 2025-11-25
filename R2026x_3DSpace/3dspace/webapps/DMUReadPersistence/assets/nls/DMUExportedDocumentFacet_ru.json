@@ -1,0 +1,16 @@
+{
+  "title": "Заголовок",
+  "fileType": "Тип файла",
+  "creationDate": "Дата создания",
+  "revision": "Редакция",
+  "owner": "Владелец",
+  "menu": "Меню",
+  "download": "Скачать",
+  "downloadTitle": "Скачать",
+  "downloadTooltip": "Скачать выбранные файлы/документы",
+  "openWith": "Открыть с помощью",
+  "openWithTitle": "Открыть с помощью",
+  "openWithTooltip": "Открыть файлы/документы в совместимых внешних приложениях",
+  "noDataGridDisplayed": "Нет экспортированных документов для отображения",
+  "errorWhenFetchingExportedDocuments": "При извлечении экспортированных документов произошла ошибка"
+}

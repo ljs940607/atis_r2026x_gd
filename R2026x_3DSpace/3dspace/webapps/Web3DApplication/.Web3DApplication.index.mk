@@ -1,0 +1,10 @@
+m|WebApplication\Web3DApplication.mweb
+b|j|c,m
+b|c|n,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Web3DApplication\Web3DApplication.js|1723278169|219
+s|WebApplication\Web3DApplication.mweb\src\Web3DApplication.js|1510747591|530
+u|WebApplication\Web3DApplication.mweb\src\Web3DFrameWindow.js|1510924217|475
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

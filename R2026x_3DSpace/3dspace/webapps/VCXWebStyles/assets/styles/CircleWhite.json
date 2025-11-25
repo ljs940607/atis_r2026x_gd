@@ -1,0 +1,36 @@
+{
+  "properties": [
+    {
+      "name": "Collab.Body.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1,
+        1,
+        1,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 4
+    },
+    {
+      "name": "Circle.Background.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    }
+  ],
+  "name": "CircleWhite",
+  "objectID": "styleID_CircleWhite"
+}

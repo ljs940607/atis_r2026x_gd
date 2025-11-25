@@ -1,0 +1,1 @@
+define("DS/DMUComment/DMUComment_tr",{});define("DS/DMUComment/assets/nls/DMUComment",{highlightCommentPrefix:"CommentHighlight",positionedCommentPrefix:"CommentPositioned",commentPrefix:"Yorum",commentCreationLabel:"Yeni bir yorum bağlamak için bir nokta, işaretçi veya metin seçin"});

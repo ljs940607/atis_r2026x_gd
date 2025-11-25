@@ -1,0 +1,70 @@
+{
+  "sectionCutLimitation": "Kesit oluşturmaya devam etmek için baz alınacak kesit kesimi görülemiyor",
+  "sectionPrefix": "Kesit",
+  "properties": {
+    "computeContour": "Konturu hesapla"
+  },
+  "preferences": {
+    "sectionSectionTitle": "Kesit",
+    "ComputeContourLbl": "Konturu hesapla"
+  },
+  "notifyobjectselection": "Seçimli kesit için bir nesne seçin",
+  "ok": "Tamam",
+  "cancel": "İptal",
+  "ValidateSel": "Kesit düzlemi konumunu tanımlamak için geometri seçin",
+  "firstSelection": "Kesit düzlemi konumunu tanımlamak için geometri seçin",
+  "secondSelection": "Kesit düzlemi konumunu tanımlamak için seçimleri doğrulayın veya ikinci geometri seçin",
+  "thirdSelection": "Kesit düzlemi konumunu tanımlamak için üçüncü geometriyi seçin",
+  "ValidateSelObj": "Seçili nesneleri doğrula ",
+  "DMUExitClippingEditionHdr": "Kırpma Düzenlemesinden Çık",
+  "DMUHideShowHdr": "Gizle/Göster",
+  "DMUPropertiesHdr": "Özellikler",
+  "DMUContourViewerHdr": "Kesit İkincil Görüntüleyicisi",
+  "DMUClippingPositionHdr": "Konum Kırpılıyor...",
+  "DMUAlignViewHdr": "Bakış Noktasını Hizala",
+  "DMUCutHdr": "Kes",
+  "DMUCopyHdr": "Kopyala",
+  "DMUDeleteHdr": "Sil",
+  "DMUCutUncutHdr": "Kesildi/Kesilmedi...",
+  "clippingCutUncutPanel": {
+    "title": "Kesildi/Kesilmedi",
+    "okLabel": "Tamam",
+    "applyLabel": "Uygula",
+    "closeLabel": "İptal",
+    "cutSelectedElemBnt": "Kes",
+    "uncutSelectedElemBnt": "Kesme İşlemini Geri Al",
+    "clearAllBnt": "Tümünü temizle",
+    "selectedElementslbl": "Seçili elemanlar:",
+    "noSelection": "Seçim yok"
+  },
+  "clippingPositionPanel": {
+    "title": "Konum Kırpılıyor",
+    "position": "Konum",
+    "positionX": "X:",
+    "positionY": "Y:",
+    "positionZ": "Z:",
+    "translation": "Öteleme",
+    "planeDirW": "W",
+    "planeDirU": "U",
+    "planeDirV": "V",
+    "orientation": "Yönlenme",
+    "orientationX": "X:",
+    "orientationY": "Y:",
+    "orientationZ": "Z:",
+    "rotation": "Döndürme",
+    "rotationW": "W:",
+    "rotationU": "U:",
+    "rotationV": "V:",
+    "planePosition": "Düzlem Konumu",
+    "offset": "Öteleme",
+    "okBtn": "Tamam",
+    "cancelBtn": "İptal"
+  },
+  "stepValueContextualMenu": {
+    "title": "Adımı değiştir",
+    "stepValue": "Adım değeri",
+    "ApplyAllBnt": "Tüm alanlara uygula",
+    "okBtn": "Tamam",
+    "cancelBtn": "İptal"
+  }
+}

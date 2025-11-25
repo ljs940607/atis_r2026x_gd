@@ -1,0 +1,1 @@
+define("DS/HTMLDiffModule/HtmlDiffLib",["DS/VENHtmlDiff/HTMLDiff"],(function(f){"use strict";return f}));

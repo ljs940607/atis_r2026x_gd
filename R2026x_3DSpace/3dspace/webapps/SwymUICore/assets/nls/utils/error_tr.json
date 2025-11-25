@@ -1,0 +1,19 @@
+{
+  "Anerrorhasoccured": "Bir hata oluştu",
+  "Apagecannotbeaddedabovethewikirootpage": "Wiki kök sayfasının üzerine bir sayfa eklenemez",
+  "Apagecannotbeaddedatthesamelevelofthewikirootpage": "Wiki kök sayfasının aynı düzeyinde bir sayfa eklenemez",
+  "ContainerNotFoundException": "Bu içerik yok",
+  "ERROR_MODEL_NOT_FOUND": "Bu içerik yok",
+  "ERROR_TRY_TO_EDIT_ENDED_SURVEY": "Zaten sonlandırılmış bir anketi düzenleyemezsiniz",
+  "ERROR_NO_RIGHTS_TO_EDIT_THIS_CONTENT": "Bu içeriği düzenleme yetkisine sahip değilsiniz",
+  "ERROR_ACCESS_DENIED": "Bu içeriğe erişiminiz yok",
+  "ERROR_FILE_FORMAT_UNAUTHORIZED": "Bu formattaki bir dosyayı yükleyemezsiniz",
+  "ERROR_IQ_ANSWER_STILL_LINK_TO_IQUESTION": "Bir soru zaten yanıtsa silinemez",
+  "ERROR_BAD_PARAM": "Hatalı bir parametre bulundu.",
+  "MEDIA_UPLOAD_NUM_MAX": "Aynı anda 20 ortamdan fazlası yüklenemez",
+  "MEDIA_UPLOAD_TIMEOUT": "Ortamınız yüklenirken bir hata oluştu. Lütfen \"Katkılarım\" sekmesinde olup olmadığını kontrol edin. Bunlar listelenmişse yayınlayabilirsiniz. Aksi takdirde lütfen bunları tekrar yükleyin.",
+  "ERROR_AUTO_MODERATION_FORBIDDEN": "Kendi rolünüzü değiştiremezsiniz",
+  "ERROR_ASSIGNEE_IS_NOT_PART_OF_COMMUNITY": "En az bir atananın topluluğa erişimi yok",
+  "SocialSecurityException": "Bu içeriğe erişiminiz yok.",
+  "Apagecannotbemovedtoitsdescendant": "Bir sayfa, alt öğesine veya herhangi bir alt sayfasına taşınamaz"
+}

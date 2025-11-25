@@ -1,0 +1,1 @@
+define("DS/MSFDocumentManagement/MSFDocumentManagement_de",{});define("DS/MSFDocumentManagement/assets/nls/MSFDocumentManagement",{BlockActionAsWebEditionIsOn:"Das Dokument wird derzeit von anderen Benutzern bearbeitet. Ihre aktuelle Aktion verhindert, dass sie weitere Änderungen vornehmen. Sie können fortfahren, sobald die Web-Editor-Sitzung geschlossen ist."});

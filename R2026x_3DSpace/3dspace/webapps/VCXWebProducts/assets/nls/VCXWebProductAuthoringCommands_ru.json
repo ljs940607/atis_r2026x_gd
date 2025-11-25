@@ -1,0 +1,19 @@
+{
+  "VCXSelectElementMessage": "Выбрать объект",
+  "VCXCaptureInNeutralsCmd": "Сохранить как элемент по умолчанию",
+  "VCXRestoreNeutralsCmd": "Восстановить элемент по умолчанию",
+  "VCXFormatPainterCmd": "Копировать внешний вид",
+  "VCXArrowOrientationCmd": "Ориентация",
+  "VCXChangeInteractionCmd": "Взаимодействие",
+  "VCXArrowOrientationCircularCmd": "Ориентация",
+  "VCXSingleFormatPainterCmd": "Копировать внешний вид один раз",
+  "VCXMultipleFormatPainterCmd": "Копировать внешний вид несколько раз",
+  "VCXAddCameraKeyCmd": "Обновить положение камеры",
+  "VCXDeleteSceneSelectionCmd": "Удалить выбранные сцены",
+  "VCXReplaceScenarioCmd": "Заменить сцену",
+  "VCXCreateScenarioCmd": "Записать в новую сцену",
+  "VCXCreateEmptyScenarioCmd": "Создать пустую сцену",
+  "VCXShowUpdateViewCmd": "Обновление ресурсов",
+  "VCXApplyToSelectedCmd": "Применить свойства и видимость к выбранным сценам",
+  "VCXApplyToAllCmd": "Применить свойства и видимость ко всем сценам"
+}

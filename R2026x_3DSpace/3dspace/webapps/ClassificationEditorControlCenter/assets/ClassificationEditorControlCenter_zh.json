@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "分类管理器的受限模式",
+  "CCM_Manager": "分类管理器",
+  "CCM_specialist_title": "专员",
+  "CCM_expert_title": "专家",
+  "CCM_architect_title": "架构师",
+  "permission_update_successful": "已向 {name} 授予 {updatedPermission} 权限。",
+  "permission_update_failure": "无法为用户名更新权限。",
+  "restriction_mode_switched": "受限模式已转变为 {restrictionToggle}。",
+  "restriction_mode_switch_failure": "无法切换受限模式。",
+  "widget_load_failure": "只有具有 CSV 角色的管理员才能访问此应用程序。",
+  "on": "打开",
+  "off": "关闭",
+  "search_name": "搜索名称"
+}

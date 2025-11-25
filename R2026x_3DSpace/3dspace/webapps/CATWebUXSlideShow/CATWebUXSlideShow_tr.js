@@ -1,0 +1,1 @@
+define("DS/CATWebUXSlideShow/CATWebUXSlideShow_tr",{});define("DS/CATWebUXSlideShow/assets/nls/CATWebUXSlideShow",{previousSlide:"Önceki Görünüm",nextSlide:"Sonraki Görünüm",exitSlideShow:"Sunum Modundan Çık",slideShowCannotBeLaunched:"Sunum modunda görüntülenecek bir şey yok"});

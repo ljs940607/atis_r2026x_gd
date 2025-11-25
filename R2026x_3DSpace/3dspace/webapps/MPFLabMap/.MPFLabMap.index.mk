@@ -1,0 +1,11 @@
+m|MPFComponents\MPFLabMap.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFLabMap\MPFLabMap.js|1725720384|2194
+s|MPFComponents\MPFLabMap.mweb\src\LabMap.js|1724871219|2347
+u|MPFComponents\MPFLabMap.mweb\src\MPFLabMap.js|1724871219|0
+u|MPFComponents\MPFLabMap.mweb\src\ShopMarkerBuilder.js|1724871219|1435
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

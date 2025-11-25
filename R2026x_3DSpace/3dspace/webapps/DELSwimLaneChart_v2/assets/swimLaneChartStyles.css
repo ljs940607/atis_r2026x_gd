@@ -1,0 +1,216 @@
+:root {
+    --ds-blue: #0d6efd;
+    --ds-body-color: #212529;
+    --ds-secondary-color: rgba(33, 37, 41, 0.75);
+    --ds-font-arial: Arial;
+    --ds-body-font-family: var(--ds-font-arial);
+    --ds-body-font-size: 14px;
+    --ds-body-font-weight: 400;
+    --ds-body-line-height: 1.5;
+    --ds-body-bg: #fff;
+    --ds-outline: var(--COLOR_OUTLINE_DARK_GRAY);
+    --white: #fff;
+    --black: #212529;
+    --red: #ff8a8a;
+    --green: #a2e88e;
+    --blue: #00b8de;
+    --yellow: #fff792;
+    --lightgrey: #e7e2e2;
+    --darkred: #ea4f37;
+    --darkgreen: #57b847;
+    --darkblue: #00b8de;
+    --darkyellow: #ffce00;
+    --darkgrey: rgba(0, 0, 0, .25);
+    --fontdarkgrey: #77797c;
+    --transparent: transparent;
+}
+
+
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.parentContainer {
+    transform-origin: top left;
+    scroll-behavior: smooth;
+}
+
+.content {
+    scroll-behavior: smooth;
+    transform-origin: top left;
+}
+
+.content:focus {
+    outline: 1px solid white;
+    cursor: default;
+}
+
+.sticky-layer {
+    transform-origin: top left;
+}
+
+.cover {
+    pointer-events: none;
+}
+
+
+.node,
+foreignObject {
+    display: block;
+    cursor: pointer;
+}
+
+/* swim-lane-chart p{
+    margin-block-start:4px;
+    margin-block-end: 4px;
+} */
+
+.childElement {
+    overflow: hidden;
+}
+
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+/* text css styles */
+.titleParent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.titleIcon {
+    width: 24px;
+    height: 100%;
+    display: inline-block;
+    font: normal normal normal 14px/1 DSFontIcon;
+    text-rendering: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--fontdarkgrey);
+}
+
+.title {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding: 8px 0;
+    color: var(--fontdarkgrey);
+
+}
+
+
+swim-lane-chart-v2 foreignObject div {
+    white-space: unset !important;
+}
+
+swim-lane-chart-v2 foreignObject span {
+    white-space: unset !important;
+}
+
+
+.spanText {
+    outline: none;
+    font-size: 12px;
+    line-height: 1;
+    word-break: break-all;
+}
+
+.responsiveText {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4px 0;
+    /* flex-direction: row; */
+    word-break: break-all;
+    overflow: hidden;
+
+}
+
+foreignObject div {
+    white-space: wrap;
+}
+
+
+
+.current_mark {
+    background: orange;
+}
+
+.headerCollapsibleIcon:hover {
+    opacity: 0.6;
+}
+
+
+/* @media (pointer:none),
+(pointer:coarse) {
+
+    .node,
+    .top-layer * {
+        will-change: transform;
+    }
+} */
+
+
+
+/* @-moz-document url-prefix() {
+    .node,.top-layer *{
+        will-change: transform;
+        contain: paint;
+        overflow: auto;
+        position: sticky; 
+        transform: translate3d(0,0,0);
+        backface-visibility: hidden;
+        position: fixed;
+        top:0;
+        left:0;
+    
+    }
+  } */
+
+
+
+/* @media (prefers-reduced-motion: reduce) {
+    .node {
+      transition: none;
+      animation:none;
+    }
+  } */
+   

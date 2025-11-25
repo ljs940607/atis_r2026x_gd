@@ -1,0 +1,25 @@
+{{#if label}}
+<label>{{label}}</label>
+{{/if}}
+<div class="field-group">
+    <div class="input-group-wrapper">
+        <div class="input-group">
+            {{#if inputGroupLabel}}
+            <label>{{inputGroupLabel}}</label>
+            {{/if}}
+            {{#if isToggleView}}
+            <span class="input-element eno-toggle-grid" {{#if toggleConfiguration}}
+                style="--enoToggleCols: {{toggleConfiguration.toggleCols}}; --enoToggleRows: {{toggleConfiguration.toggleRows}}; --enoToggleFlow: {{toggleConfiguration.toggleFlow}};"
+                {{/if}} id="{{id}}"></span>
+            {{/if}}
+        </div>
+        {{#if commentRequired}}
+        <div class="input-group">
+            <label>{{commentsNLS}}</label>
+            <span class="input-element" id="{{commentId}}">
+                <textarea class="form-control short"></textarea>
+            </span>
+        </div>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Стоимость",
+  "CostingDomainTooltip": "Выберите процесс эволюции для показателей затрат",
+  "CostingDefaultEvolution": "Последовательный",
+  "CostingEvolutionConcurrent": "Параллельно",
+  "deployFailureMsg": "Настройка параллельного процесса эволюции запрещена, так как существуют некоторые показатели затрат за пределами состояния В работе",
+  "MetricEvolutionAccordionTitle": "Процесс эволюции показателей"
+}

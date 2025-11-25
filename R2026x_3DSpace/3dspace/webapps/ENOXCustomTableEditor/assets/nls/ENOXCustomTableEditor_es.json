@@ -1,0 +1,73 @@
+{
+  "columnChooser": {
+    "title": "Atributos disponibles:",
+    "treeTitle": "Nombre de atributo",
+    "tooltips": {
+      "findDialog": "Buscar atributos",
+      "moveFirst": "Mover a la parte superior",
+      "moveUp": "Mover hacia arriba",
+      "moveDown": "Mover hacia abajo",
+      "moveBottom": "Mover a la parte inferior",
+      "arrowRight": "Agregar atributo en la vista",
+      "arrowLeft": "Quitar atributo de la vista"
+    }
+  },
+  "component": {
+    "views": {
+      "ENO2D_DEFAULT": "Vista predeterminada",
+      "ENO2D_CUSTO": "Vista personalizada"
+    },
+    "tooltips": {
+      "addView": "Agregar nueva vista personalizada",
+      "editView": "Editar vista personalizada",
+      "removeView": "Quitar vista personalizada"
+    }
+  },
+  "columnGroups": {
+    "commonAttributes": "Columnas comunes",
+    "typesAttributes": "Columnas de tipo",
+    "extsAttributes": "Columnas de extensión",
+    "classifAttributes": "Columnas de clasificación"
+  },
+  "columnsHardCoded": {
+    "thumbnail": "Vista preliminar",
+    "positionMatrix-Instance": "Matriz de posición"
+  },
+  "selectedAtt": {
+    "title": "Atributos seleccionados: ",
+    "colName": "Nombre de columna",
+    "pin": "Anclar",
+    "pinLeft": "Anclar a la izquierda",
+    "pinRight": "Anclar a la derecha"
+  },
+  "dialog": {
+    "okBtn": "Aplicar",
+    "cancelBtn": "Cancelar"
+  },
+  "extensionChooser": {
+    "title": "Selector de tipos y extensiones",
+    "selectionTypeTitle": "Tipos",
+    "selectionExtTitle": "Extensiones",
+    "typeName": "Tipo",
+    "extName": "Extensión"
+  },
+  "localnls": {
+    "thumbnail": "Vista preliminar",
+    "thumbnails": "Vista preliminar",
+    "matrixtxt": "Matriz de posición"
+  },
+  "warning": {
+    "tooManySelected": {
+      "title": "Se ha alcanzado el número máximo de columnas",
+      "msg": "Solo se autoriza un máximo de {maxNumber} columnas"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "La vista ya existe",
+      "msg": "Ya existe una vista con el nombre \"{viewName}\""
+    },
+    "viewAlreadyExistsMod": {
+      "title": "La vista ya existe",
+      "msg": "Ya existe una vista con el nombre \"{viewName}\""
+    }
+  }
+}

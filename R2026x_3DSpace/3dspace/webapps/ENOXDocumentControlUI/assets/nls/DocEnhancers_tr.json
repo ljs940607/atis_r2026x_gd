@@ -1,0 +1,13 @@
+{
+  "message.undefined": "Mesaj mevcut değil",
+  "message.callback": "Geri çağırma işlevi tanımlı değil",
+  "message.callback.notfunction": "Gönderilen geri çağırma bir işlev değil",
+  "message.invalidinput": "Geçersiz girdiler sağlandı ",
+  "message.missingtype": "Tip çoğaltma eksik ",
+  "Credentials": "Kimlik Bilgileri",
+  "3DEXPERIENCEPlatform": "3DEXPERIENCE platform",
+  "CredentialChanged": "Kimlik Bilgileri Değiştirildi",
+  "PreferredCredentialNotAvailable": "“{credential}” olarak ayarlandı.",
+  "PlatformChanged": "Platform Değiştirildi",
+  "PreferredPlatformNotAvailable": "Tercih Edilen Platform kullanılamıyor, “{platform}” konumuna geçiliyor"
+}

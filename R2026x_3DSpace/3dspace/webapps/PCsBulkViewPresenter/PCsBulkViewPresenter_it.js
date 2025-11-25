@@ -1,0 +1,1 @@
+define("DS/PCsBulkViewPresenter/PCsBulkViewPresenter_it",{});define("DS/PCsBulkViewPresenter/assets/nls/PCsBulkViewPresenter",{ProductConfiguration:"Configurazione prodotto",BaseConfiguration:"Configurazione base",TotalVariability:"Variabilità totale",TotalProductConfigurations:"Configurazioni del prodotto totali"});

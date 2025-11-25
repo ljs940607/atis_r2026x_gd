@@ -1,0 +1,140 @@
+<OOTBParameterization>
+<Domain id="IssueParameterization" regSuite="IssueManagement">	
+	<Family id="IssueApproval" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_ApprovalEnforcement" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="String" input="combobox" default="UserChoice">
+				<Value id="Always"/>
+				<Value id="Never"/>
+				<Value id="UserChoice"/>
+			</Argument>
+			<Constant id="expression" value="ISS_ApprovalEnforcement" />
+		</Parameter>		
+	</Family>
+	<Family id="IssueClosure" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_CancellationClosure" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_CancellationClosure" />
+		</Parameter>
+		<Parameter id="ISS_ResolutionClosure" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ResolutionClosure" />
+		</Parameter>	
+		<Parameter id="ISS_CancelledReopening" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_CancelledReopening" />
+		</Parameter>	
+		<Parameter id="ISS_ResolutionReopening" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ResolutionReopening" />
+		</Parameter>	
+	</Family>
+	<Family id="IssueApprovalConfigureDraft" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_DraftEnableApproval" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_DraftEnableApproval" />
+		</Parameter>
+		<Parameter id="ISS_DraftMandateAllUsersApproval" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_DraftMandateAllUsersApproval" />
+		</Parameter>
+		<Parameter id="ISS_DraftApprovers" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl">
+			<Argument id="Argument" type="string" input="comboboxmultiselect" default="" maxLength="123">
+				<Value id="Owner"/>
+				<Value id="Coordinators"/>
+				<Value id="Assignees"/>
+			</Argument>
+			<Constant id="expression" value="ISS_DraftApprovers"/>
+			<Constant id="Owner" value="Owner"/>
+			<Constant id="Coordinators" value="Coordinators"/>
+			<Constant id="Assignees" value="Assignees"/>
+		</Parameter>
+	</Family>
+	<Family id="IssueApprovalConfigureToDo" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_ToDoEnableApproval" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ToDoEnableApproval" />
+		</Parameter>
+		<Parameter id="ISS_ToDoMandateAllUsersApproval" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_ToDoMandateAllUsersApproval" />
+		</Parameter>
+		<Parameter id="ISS_ToDoApprovers" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl">
+			<Argument id="Argument" type="string" input="comboboxmultiselect" default="Assignees" maxLength="123">
+				<Value id="Owner"/>
+				<Value id="Coordinators"/>
+				<Value id="Assignees"/>
+			</Argument>
+			<Constant id="expression" value="ISS_ToDoApprovers"/>
+			<Constant id="Owner" value="Owner"/>
+			<Constant id="Coordinators" value="Coordinators"/>
+			<Constant id="Assignees" value="Assignees"/>
+		</Parameter>
+	</Family>
+	<Family id="IssueApprovalConfigureInWork" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_InWorkEnableApproval" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_InWorkEnableApproval" />
+		</Parameter>
+		<Parameter id="ISS_InWorkMandateAllUsersApproval" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_InWorkMandateAllUsersApproval" />
+		</Parameter>
+		<Parameter id="ISS_InWorkApprovers" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl">
+			<Argument id="Argument" type="string" input="comboboxmultiselect" default="" maxLength="123">
+				<Value id="Owner"/>
+				<Value id="Coordinators"/>
+				<Value id="Assignees"/>
+			</Argument>
+			<Constant id="expression" value="ISS_InWorkApprovers"/>
+			<Constant id="Owner" value="Owner"/>
+			<Constant id="Coordinators" value="Coordinators"/>
+			<Constant id="Assignees" value="Assignees"/>
+		</Parameter>
+	</Family>
+	<Family id="IssueApprovalConfigureInApproval" icon="iconParameterizationIdentification.gif">
+		<Parameter id="ISS_InApprovalEnableApproval" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_InApprovalEnableApproval" />
+		</Parameter>
+		<Parameter id="ISS_InApprovalMandateAllUsersApproval" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="IssueManagement">
+			<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+			<Constant id="valueChecked" value="true"/>
+			<Constant id="valueUnchecked" value="false"/>
+			<Constant id="expression" value="ISS_InApprovalMandateAllUsersApproval" />
+		</Parameter>
+		<Parameter id="ISS_InApprovalApprovers" implementation="com.dassault_systemes.enovia.issue.parameterization.IssueParameterizationExpressionImpl">
+			<Argument id="Argument" type="string" input="comboboxmultiselect" default="Owner,Coordinators" maxLength="123">
+				<Value id="Owner"/>
+				<Value id="Coordinators"/>
+				<Value id="Assignees"/>
+			</Argument>
+			<Constant id="expression" value="ISS_InApprovalApprovers"/>
+			<Constant id="Owner" value="Owner"/>
+			<Constant id="Coordinators" value="Coordinators"/>
+			<Constant id="Assignees" value="Assignees"/>
+		</Parameter>
+	</Family>
+</Domain>
+</OOTBParameterization>

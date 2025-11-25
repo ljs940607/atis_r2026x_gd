@@ -1,0 +1,22 @@
+{
+  "minimumOrderCost": "Costo minimo ordine",
+  "pricePerQuote": "Prezzo per preventivo",
+  "totalOrderPriceIs": "Il prezzo totale dell'ordine è",
+  "orMore": "o più",
+  "totalPartQuantityIs": "La quantità totale di parti è",
+  "unitsOrMore": "unità o più",
+  "general": "Generale",
+  "automatedPricing": "I prezzi automatizzati verranno disabilitati se",
+  "discountOrderValue": "Sconto per valore dell'ordine",
+  "addDiscount": "Aggiungi uno sconto",
+  "orderValueLabel": "Se il valore dell'ordine è superiore",
+  "discountLabel": "lo sconto applicato è",
+  "generalSectionTooltip_1": "Il costo minimo dell'ordine è l'importo al di sotto del quale non si desidera fatturare un cliente, escluse tasse e spedizione. Questo importo sostituirà qualsiasi importo inferiore generato dal modulo di definizione dei prezzi automatizzato. Ad esempio, se un cliente richiede una parte che normalmente costerebbe 5 euro, ma il prezzo minimo dell'ordine è stato impostato a 20 euro, il cliente vedrà 20 euro come prezzo della parte.",
+  "generalSectionTooltip_2": "Il prezzo per preventivo è un importo che si desidera aggiungere agli altri costi e che rappresentano un costo amministrativo, come l'invio della fattura, la creazione del cliente nel database e così via. Questo importo viene aggiunto una sola volta per ordine. Ad esempio, se il cliente ordina una parte del valore di 5 euro secondo le impostazioni e il prezzo per preventivo è stato impostato a 5 euro, il cliente vedrà 10 euro in totale per una parte, 15 euro per due parti, 20 euro per 3 parti e così via.",
+  "generalSectionTooltip": "Questi costi saranno applicati a ciascun ordine e saranno aggiunti ai costi relativi a materiali, spedizioni e servizi. Se l'importo dell'ordine è inferiore al \"costo minimo dell'ordine\", il totale verrà sostituito da questo valore.",
+  "automatedPricingSectionTooltip": "Se l'ordine nella fase di invio della richiesta supera la seguente soglia, la funzionalità di determinazione automatica dei prezzi verrà disabilitata. L'acquirente dovrà quindi inviare una richiesta di preventivo.",
+  "discountPerOrderValueSectionTooltip_1": "In questa sezione puoi impostare tutti gli sconti che desideri. Gli sconti si basano sul valore dell'ordine e si applicano allo stesso, escluse tasse e spedizione. Al valore dell'ordine viene applicata solo la fascia più alta. Ad esempio, se si impostano le seguenti regole: sconto del 10% sugli ordini superiori a 100 euro E sconto del 20% sugli ordini superiori a 200 euro, allora",
+  "discountPerOrderValueSectionTooltip_2": "non verrà applicato alcuno sconto su ordini da 0 a 100.00 euro,",
+  "discountPerOrderValueSectionTooltip_3": "verrà applicato uno sconto del 10% sugli ordini da 100.01 a 200.00 euro,",
+  "discountPerOrderValueSectionTooltip_4": "verrà applicato uno sconto del 20% sugli ordini di importo pari o superiore a 200.01 euro"
+}

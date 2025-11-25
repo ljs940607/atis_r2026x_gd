@@ -1,0 +1,19 @@
+{
+  "addRoles": "Agregar funciones",
+  "addRole": "Agregar función",
+  "selectRole": "Seleccionar función",
+  "onlineInstanceId": "ID de instancia en línea",
+  "quantity": "Cantidad",
+  "confirm": "Confirmar",
+  "roles": "Funciones",
+  "createPlatform": "Crear plataforma",
+  "devPlatformAdmin": "Administrador de la plataforma de desarrollo",
+  "sendingRequest": "Enviando solicitud...",
+  "unableToAddRolesToPlatform": "No se pueden agregar las funciones seleccionadas a la plataforma seleccionada",
+  "unableToFetchAvailableRoles": "No se pueden obtener las funciones disponibles para este tenant",
+  "unableToRequestPlatformCreation": "No se puede solicitar la creación de la plataforma, inténtelo de nuevo más tarde.",
+  "platformAdmin": "Administrador de la plataforma",
+  "platformId": "Plataforma",
+  "totalPriceExclTax": "Importe total sin impuestos:",
+  "totalPrice": "Precio total"
+}

@@ -1,0 +1,42 @@
+DMUSection.DMUSectionCutHdr.Title="Cut";
+DMUSection.DMUSectionNoCutHdr.Title="No Cut";
+DMUSection.DMUSectionGridHdr.Title="Grid";
+DMUSection.DMUSectionFlipHdr.Title="Flip";
+DMUSection.DMUSectionNormalToXHdr.Title="Position to X";
+DMUSection.DMUSectionNormalToYHdr.Title="Position to Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Position to Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Position from geometry";
+DMUSection.DMUSectionMoveHdr.Title="Move viewpoint";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Section Secondary Viewer";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Selective Section";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Remove";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Exit Clipping Edition";
+DMUSection.DMUClippingEditionHdr.Title="Edit Clipping";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Clip by a construction item";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Clip by a section";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Resize from selected objects";
+DMUSection.DMUResetClippingPlaneHdr.Title="Reset Clipping";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Clip by a slice";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Resize from selected objects";
+DMUSection.DMUResetClippingSliceHdr.Title="Reset Clipping";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Clip by a box";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Resize from selected objects";
+DMUSection.DMUResetClippingBoxHdr.Title="Reset Clipping";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Position along X-axis";
+DMUSection.DMUClippingNormalToYHdr.Title="Position along Y-axis";
+DMUSection.DMUClippingNormalToZHdr.Title="Position along Z-axis";
+DMUSection.DMUClippingNormalUserHdr.Title="Position from selected geometry";
+DMUSection.DMUClippingReverseHdr.Title="Invert clipping";
+DMUSection.DMUContourViewerHdr.Title="Section Secondary Viewer";
+DMUSection.DMUClippingPositionHdr.Title="Clipping Position...";
+DMUSection.DMUAlignViewHdr.Title="Align Viewpoint";
+DMUSection.DMUHideShowHdr.Title="Hide/Show";
+DMUSection.DMUCutUncutHdr.Title="Cut/Uncut...";
+DMUSection.DMUClippingEditStr.Title="Clipping";
+DMUSection.DMUClippingPropertiesHdr.Title="Properties";

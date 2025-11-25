@@ -1,0 +1,17 @@
+m|CAT3DPlayExperiences\3DPlayNRExperience.mweb
+b|j|c,m
+b|c|n,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DPlayNRExperience\assets\SampleModels.json|1723277506|2062
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\SampleModels.json|1553526112|2062
+t|win_b64\webapps\3DPlayNRExperience\assets\afr\3DPlayNRExperience.xml|1723277506|1019
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\afr\3DPlayNRExperience.xml|1572446029|1019
+t|win_b64\webapps\3DPlayNRExperience\assets\catrsc\3DPlayNRExperience.CATRsc|1723277506|46
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\catrsc\3DPlayNRExperience.CATRsc|1572443516|46
+t|win_b64\webapps\3DPlayNRExperience\assets\icons\I_NRExplode.png|1723277506|930
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\icons\I_NRExplode.png|1553070047|930
+t|win_b64\webapps\3DPlayNRExperience\assets\icons\I_NRRepositionModel.png|1723277506|942
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\icons\I_NRRepositionModel.png|1553070047|942
+t|win_b64\webapps\3DPlayNRExperience\assets\templates\template.htm|1723277506|140
+s|CAT3DPlayExperiences\3DPlayNRExperience.mweb\src\assets\templates\template.htm|1536158502|140

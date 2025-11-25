@@ -1,0 +1,11 @@
+{
+  "errorName": "Il nome azienda è obbligatorio",
+  "errorTaxRegId": "Il formato dell'ID di registrazione fiscale non è valido",
+  "noSpecialCharacterMessage": "Sono consentiti solo caratteri alfanumerici (senza accento)",
+  "errorPersonalIdNUmberFormat": "Il formato del numero ID personale non è valido",
+  "errorRegistrationIdFormat": "Il formato dell'ID registrazione non è valido",
+  "errorCountry": "Il paese è obbligatorio",
+  "errorCeoFirstName": "Il nome del proprietario dell'azienda non è valido",
+  "errorCeoLastName": "Il cognome del proprietario dell'azienda non è valido",
+  "invalidURL": "L'URL del sito Web non è valido"
+}

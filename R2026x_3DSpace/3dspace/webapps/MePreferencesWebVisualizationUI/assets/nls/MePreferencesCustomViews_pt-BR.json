@@ -1,0 +1,19 @@
+{
+  "views": {
+    "front": "Vista frontal",
+    "back": "Vista posterior",
+    "left": "Vista esquerda",
+    "right": "Vista direita",
+    "top": "Vista superior",
+    "bottom": "Vista inferior",
+    "iso": "Vista isométrica"
+  },
+  "sightVector": "Direção do visor",
+  "rightVector": "Orientação direita",
+  "coordX": "X",
+  "coordY": "Y",
+  "coordZ": "Z",
+  "reset": "Redefinir",
+  "warningTooltipTitle": "dados inválidos, as configurações não serão salvas",
+  "warningTooltipHelp": "Certifique-se de que os vetores direitos e de visor sejam não nulos e ortogonais"
+}

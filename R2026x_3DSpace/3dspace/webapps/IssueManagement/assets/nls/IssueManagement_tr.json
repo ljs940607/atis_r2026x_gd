@@ -1,0 +1,489 @@
+{
+  "titles": {
+    "issues": "{number} Sorun",
+    "placeholder": {
+      "title": "Gösterilecek sorun yok.",
+      "label": "Filtrelerinizle eşleşen sorun bulunamadı.",
+      "sub": "Filtre kriterlerinizi değiştirmeyi {filter} veya yeni bir sorun oluşturmayı {create} deneyin.",
+      "sub2": "Filtre kriterlerinizi değiştirmeyi {filter} deneyin"
+    },
+    "refreshing": "Sorunlar yenileniyor...",
+    "documentation": "Issue Management Yardımı"
+  },
+  "error": {
+    "generic": {
+      "label": "Hay aksi! Bir sorun oluştu.",
+      "sub": "Talebinizle ilgili bir sorun oluştu, lütfen sayfanızı yenileyin ve tekrar deneyin."
+    },
+    "licensing": {
+      "label": "Lisans Hatası.",
+      "sub": "Sunucu, kullanıcı {user} için lisans alamıyor"
+    }
+  },
+  "information": {
+    "toggleTooltip": "Bilgi",
+    "layoutSwitcherTooltip": "Görüntüleme seçeneği",
+    "right": "Sağda görüntüle",
+    "bottom": "Altta görüntüle",
+    "views": {
+      "properties": "Özellikler",
+      "relatedObjects": "İçerik",
+      "contexts": "Bağlamlar",
+      "team": "Üyeler",
+      "attachments": "Ekler",
+      "comments": "Yorumlar",
+      "relations": "İlişkiler",
+      "history": "Geçmiş",
+      "documents": "Belgeler",
+      "noSelection": "Bilgilerini görüntülemek için lütfen bir sorun seçin."
+    },
+    "header": {
+      "summary": "{timeSince} önce açıldı. Sahibi: {ownerIcon} {owner}.",
+      "multipleSelection": {
+        "title": "{number} sorun seçildi.",
+        "summary": "Değişiklikler tümüne uygulanacak."
+      },
+      "showMenu": "Eylemler",
+      "goToNext": "Sonraki soruna git.",
+      "close": "Kapat",
+      "goToPrevious": "Önceki soruna git.",
+      "Varies": "Değişir",
+      "changeResponsibleOrg": "Sorumlu Organizasyon",
+      "changeReportingOrg": "Raporlama Organizasyonu",
+      "moveResponsibleOrg": "Sorumlu Organizasyonu Taşı",
+      "moveReportingOrg": "Raporlama Organizasyonunu Taşı",
+      "moveOrgMsg": "Sorumlu Organizasyon Değişikliği Başarılı.",
+      "moveReportingOrgMsg": "Raporlama Organizasyonu Değişikliği Başarılı.",
+      "move": "Taşı",
+      "cancel": "İptal"
+    }
+  },
+  "actions": {
+    "create": {
+      "title": "Yeni sorun",
+      "more": "Şuradan yeni...",
+      "placeholder": "Yeni sorunun başlığı...",
+      "open": "Oluşturma iletişim kutusunu aç",
+      "clear": "Temizle",
+      "success": "'{title}' başlıklı sorun başarıyla oluşturuldu.",
+      "failure": "Oluşturma sırasında bir hata oluştu, lütfen tekrar deneyin.",
+      "issue": {
+        "blank": "Yeni Sorun",
+        "template": "Şablondan Yeni Sorun",
+        "recentTemplate": "Son şablonlar",
+        "similarIssues": "{count} benzer sorun bulundu."
+      }
+    },
+    "changeAction": "Şunun tarafından çözümlenmiş yeni bir değişiklik eylemi ekle:",
+    "markup3D": "Yeni bir 3B işaretlemeyi ek olarak ekle",
+    "templates": "Şablonları yönet",
+    "print": "Yazdır",
+    "export": "Farklı dışa aktar",
+    "exportCSV": "CSV",
+    "exportPPTX": "PPTX",
+    "exportZIP": "Zip",
+    "exportBCF": "BCF",
+    "customizeView": "Tablo Görünümlerini Yapılandır",
+    "select": {
+      "title": "Nesneleri seç",
+      "selectIssues": "Tüm sorunları seç",
+      "selectChildren": "Tüm görünür sorun içeriğini seç",
+      "unselectAll": "Tümünün seçimini kaldır"
+    },
+    "find": {
+      "title": "Bul",
+      "placeholder": "Bul...",
+      "clear": "Temizle",
+      "next": "Sonraki {number1} / {number2}",
+      "previous": "Önceki {number1} / {number2}",
+      "select": "Bulunan {number} sorunu seç"
+    },
+    "gridView": "Tablo",
+    "listView": "Liste Görünümü",
+    "kanbanView": "Kanban",
+    "more": "Daha fazla eylem",
+    "dummy": "Kullanılamaz",
+    "subscription": {
+      "header": "Abonelik",
+      "subscribe": "Abone Ol",
+      "unsubscribe": "Abonelikten Çık",
+      "editSubscription": "Abonelikleri Düzenle",
+      "mySubscriptions": "Aboneliklerim"
+    }
+  },
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "Süresi geçmiş",
+      "none": "Tarih yok",
+      "today": "Bugün",
+      "tomorrow": "Yarın",
+      "week": "Bu hafta",
+      "future": "Gelecek"
+    },
+    "all": "Tümü",
+    "dnd": {
+      "unsupportedPromote": "Sorunlar '{currState}' durumundan doğrudan '{state}' durumuna yükseltilemez.",
+      "unsupportedDemote": "Sorunlar '{currState}' durumundan doğrudan '{state}' durumuna düşürülemez.",
+      "cannotEditClosedIssues": "Bazı sorunlar zaten \"Tamamlanmış\" durumunda ve güncellenemedi.",
+      "placeholder": "Buraya bırakın",
+      "notAllSameStatePromote": "Aynı durumda olmayan sorunlar yükseltilemez/düşürülemez."
+    },
+    "warning": {
+      "closed": "\"Tamamlanmış\" sorunları görüntüleyen filtre seçili değil.<br>Bunu, filtre tercihlerinizden etkinleştirebilirsiniz."
+    },
+    "tooltips": {
+      "chizu": "Sütunu göstermek için tıklayın:<br>{title}",
+      "leftArrow": "Önceki sütuna git",
+      "rightArrow": "Sonraki sütuna git"
+    }
+  },
+  "filter": {
+    "title": "Şuna göre filtrele:",
+    "session": {
+      "header": "Oturumum",
+      "title": "{number} sorun görüntüle",
+      "nothing": "Oturumda hiçbir şey yok"
+    },
+    "owned": "Bana ait",
+    "assigned": "Bana atanan",
+    "filterbyobject": {
+      "title": "Nesneye göre filtrele",
+      "placeholder": "Filtrelenecek nesneyi ara",
+      "filterMessage": "Sonuç bulunamadı",
+      "search": "Ara",
+      "menu": {
+        "title": "Menü",
+        "settings": {
+          "title": "Ayarlar",
+          "filterby": "Şuna göre filtrele:",
+          "affectedItem": "Etkilenen Öğe",
+          "resolvedItem": "Çözümlenen Öğe",
+          "context": "Bağlam",
+          "apply": "Uygula",
+          "cancel": "İptal",
+          "issueCreation": "Sorun oluşturma",
+          "createSetting": "Sorun oluşturma sırasında seçili nesneyi otomatik olarak ekle"
+        },
+        "information": "Bilgi",
+        "openwith": "Birlikte aç"
+      },
+      "dropNotSupported": "Bu bırakma işlemi desteklenmiyor."
+    },
+    "others": {
+      "title": "Diğer",
+      "reported": "Organizasyonlarıma ait",
+      "responsible": "Organizasyonlarıma atanan",
+      "contributed": "Katkıda bulunduğum yerler",
+      "closed": "Tamamlanmış"
+    }
+  },
+  "columns": {
+    "selection": "",
+    "actionsColumn": "Eylemler",
+    "titleColumn": "Başlık",
+    "nameColumn": "Ad",
+    "occurrenceColumn": "Yol",
+    "stateColumn": "Olgunluk Durumu",
+    "allColumn": "Tümü",
+    "validationColumn": "Doğrulama Durumu",
+    "descriptionColumn": "Tanım",
+    "priorityColumn": "Öncelik",
+    "contextsColumn": "Bağlamlar",
+    "reportedAgainstColumn": "Etkilenen Öğeler",
+    "resolvedByColumn": "Çözen",
+    "resolvedItemsColumn": "Çözümlenmiş Öğeler",
+    "assigneesColumn": "Atanan",
+    "originatorColumn": "Oluşturucu",
+    "ownerColumn": "Sahip",
+    "coOwnersColumn": "Koordinatör",
+    "contributorsColumn": "Katkı Sağlayan",
+    "informedUsersColumn": "Bilgilendirilmiş Kullanıcı",
+    "modifiedColumn": "Değiştirme Tarihi",
+    "revisionColumn": "Revizyon",
+    "isLastRevisionColumn": "Son Revizyondur",
+    "typeColumn": "Tip",
+    "organizationColumn": "Organizasyon",
+    "collaborativeSpaceColumn": "İş Birliği Alanı",
+    "reportingOrganizationColumn": "Raporlama Organizasyonu",
+    "responsibleOrganizationColumn": "Sorumlu Organizasyon",
+    "resolutionDateColumn": "Bitiş Tarihi",
+    "actionTakenColumn": "Gerçekleştirilen Eylem",
+    "resolutionRecommendationColumn": "Çözüm Önerisi",
+    "resolutionStatementColumn": "Tamamlama Bildirimi",
+    "estimatedStartDateColumn": "Planlanan Başlangıç Tarihi",
+    "estimatedEndDateColumn": "Planlanan Tamamlanma Tarihi",
+    "actualStartDateColumn": "Fiili Başlangıç Tarihi",
+    "actualEndDateColumn": "Gerçek Tamamlanma Tarihi",
+    "createdColumn": "Oluşturma Tarihi",
+    "attachmentsColumn": "Ekler",
+    "escalationRequiredColumn": "Yükseltme Gerekli",
+    "approvalColumn": "Onaylar",
+    "libraryColumn": "Kütüphane",
+    "libraryClassColumn": "Kütüphane Sınıfları",
+    "completionTypeColumn": "Tamamlama Tipi"
+  },
+  "list": {
+    "expandOrCollapse": "Genişlet/Daralt",
+    "hasRelated": "Evet ({number})",
+    "hasRelatedItems": "Evet",
+    "noRelated": "Hayır"
+  },
+  "related": {
+    "dialogTitle": "{number} nesneyi {issues} Sorunlarından ayır",
+    "confirmDetach": "Seçili nesneleri ayırmak istediğinizden emin misiniz?",
+    "detach": "Ayır",
+    "cancel": "İptal"
+  },
+  "commands": {
+    "properties": "Özellikler",
+    "relationalExplorer": "İlişkiler",
+    "collaborativeLifecycle": "Olgunluk",
+    "compare": "Karşılaştır",
+    "detach": "Kaldır",
+    "attachments": "Ekler",
+    "close": "Tamamlandı Olarak İşaretle",
+    "delete": "Sil",
+    "duplicate": "Çoğalt",
+    "expandAll": "İçeriği genişlet",
+    "collapseAll": "İçeriği daralt",
+    "more": "Daha Fazla",
+    "sizeColumnToFit": "Sütun genişliğini otomatik sığdır",
+    "clearSortOrder": "Sıralama tercihini temizle",
+    "share": "Bağlantıyı kopyala",
+    "reopen": "Yeniden aç",
+    "move": "Taşı",
+    "open": {
+      "single": "Birlikte aç",
+      "multiple": "Aç",
+      "reportedAgainst": "Etkilenen Öğeler",
+      "resolvedBy": "Çözen",
+      "resolvedItems": "Çözümlenmiş Öğeler",
+      "contexts": "Bağlamlar"
+    },
+    "preview": "Önizle",
+    "edit": "Düzenle",
+    "undoEdit": "Düzenlemeyi geri al",
+    "update": "Güncelle",
+    "information": "Bilgi",
+    "download": "İndir",
+    "approvalOn": "Onaylar (AÇIK)",
+    "approvalOff": "Onaylar (KAPALI)"
+  },
+  "tooltips": {
+    "reportedAgainst": "{number} etkilenen öğe",
+    "resolvedBy": "{number} çözen",
+    "resolvedItems": "{number} çözümlenmiş öğe",
+    "contexts": "{number} bağlam",
+    "noReportedAgainst": "\"Etkilenen Öğe\" eklenmedi",
+    "noResolvedBy": "\"Çözen\" eklenmedi",
+    "noResolvedItems": "\"Çözümlenmiş öğe\" eklenmedi",
+    "noContext": "Bağlam eklenmedi",
+    "isLastRevision": "Bu en son revizyondur",
+    "isNotLastRevision": "Bu en son revizyon değildir",
+    "noIsLastRevision": "Geçerli değil",
+    "selectedIssues": "{number} Sorun seçildi",
+    "helper": "\"Issue Management\" yardımını görüntülemek için tıklayın.",
+    "comments": "{number} yorum",
+    "attachments": "{number} ek",
+    "creationDate": "{date} tarihinde açıldı.",
+    "resolutionDate": "Bitiş Tarihi: {date}",
+    "assignees": "{number} atanan",
+    "noAssignee": "Atanan yok"
+  },
+  "notifications": {
+    "refresh": "Sorunlar yenilendi.",
+    "attachSuccess": {
+      "reportedAgainst": "{count} nesneyi {issue} sorununa Etkilenen Öğe olarak başarıyla eklediniz.",
+      "resolvedBy": "{count} nesneyi {issue} sorununa Çözen olarak başarıyla eklediniz.",
+      "resolvedItems": "{count} nesneyi {issue} sorununa Çözümlenmiş Öğe olarak başarıyla eklediniz.",
+      "contexts": "{count} nesneyi {issue} sorununa Bağlam olarak başarıyla eklediniz.",
+      "attachments": "{count} nesneyi {issue} sorununa Ek olarak başarıyla eklediniz."
+    },
+    "detachSuccess": "Nesneler başarıyla ayrıldı.",
+    "serverError": "Bir hata oluştu, lütfen sayfanızı yenileyin ve tekrar deneyin.",
+    "serverWarning": "Bu nesneler için sunucu işlemleri devam ediyor. Lütfen daha sonra tekrar deneyin."
+  },
+  "preferences": {
+    "securityContext": "Kimlik Bilgileri",
+    "tenant": "3DEXPERIENCE platform",
+    "name": {
+      "title": "Widget Başlığı",
+      "default": "Sorunlarım"
+    },
+    "defaultFilterForAll": {
+      "title": "Hiçbir filtre seçilmezse görüntülenen sorunlar geçerli kimlik bilgilerinizle eşleşmelidir",
+      "organizationAndProject": "Organizasyon ve İş Birliği Alanı",
+      "organization": "Organizasyon",
+      "project": "İş Birliği Alanı",
+      "policy": "Tüm mevcut sorunlar"
+    },
+    "validation": "Bir sorun analiz edildikten veya incelendikten sonra, sorunun yükseltilmesinin onaylanmasını veya reddedilmesini zorunlu kılmak için yeni sorunlara yönelik bir doğrulama işlemi ekleyin.",
+    "highlights": {
+      "soon": "Bir uyarı gösterilmeden önce Son Tamamlanma Tarihine kadar kalan gün sayısı. Son Tamamlanma Tarihi sütunu görünür olmalıdır."
+    },
+    "organizationFilter": "Organizasyon filtrelerini göster",
+    "tagger": "Etiketleri doldur"
+  },
+  "validation": {
+    "none": "Yok",
+    "loading": "Doğrulama durumu hakkında bilgiler alınıyor...",
+    "approved": "Sorunun yükseltilmesi onaylandı.",
+    "rejected": "Sorunun yükseltilmesi reddedildi.",
+    "inProgress": "Doğrulama bekleniyor.",
+    "notStarted": "Doğrulama işlemi etkin."
+  },
+  "export": {
+    "exporting": "Sorunlar dışa aktarılıyor, lütfen bekleyin...",
+    "confirmation": {
+      "confirm": "Onayla",
+      "cancel": "İptal"
+    },
+    "csv": {
+      "name": "IM_Export_"
+    },
+    "pptx": {
+      "title": "PPTX'e dışa aktarımı onayla",
+      "content": "Bu eylem {number} sorunu dışa aktaracağından biraz zaman alabilir. Devam etmek istiyor musunuz?",
+      "name": "IM_Export_",
+      "exporting": "PPTX dışa aktarılıyor...",
+      "done": "PPTX dışa aktarıldı",
+      "failure": "Sorunlar PPTX olarak dışa aktarılamıyor"
+    },
+    "zip": {
+      "title": "ZIP'e dışa aktarımı onayla",
+      "content": "Bu eylem {number} sorunu dışa aktaracağından biraz zaman alabilir. Devam etmek istiyor musunuz?",
+      "name": "IM_Export_",
+      "primary": "primary-image.png",
+      "exporting": "ZIP dışa aktarılıyor...",
+      "images": "Birincil görüntüler indiriliyor...",
+      "documents": "Belgeler indiriliyor...",
+      "zipping": "Dosyalar sıkıştırılıyor...",
+      "done": "ZIP dışa aktarıldı"
+    },
+    "exportingAll": "{number} sorunun tümü dışa aktarılıyor. Lütfen bekleyin...",
+    "nothingToExport": "Dışa aktarılacak sorun yok.",
+    "failure": "Dışa aktarma başarısız oldu, lütfen tekrar deneyin.",
+    "printTotalLabel": "Sorunlar"
+  },
+  "dnd": {
+    "partiallyNotSupported": "Bazı nesneler desteklenmiyor.",
+    "notSupported": "Bu içerik türü desteklenmiyor. Daha fazla bilgi için platform yöneticinizle iletişime geçin.",
+    "onlyIssues": "Yalnızca sorunlar bırakılabilir.",
+    "dialogTitle": "{issue} sorununa {number} nesne ekle",
+    "whereToDrop": "Bu nesneleri nereye eklemek istiyorsunuz?",
+    "alreadyAttached": "Bu nesne önceden soruna eklenmiş.",
+    "attach": "Ekle",
+    "cancel": "İptal",
+    "references": "Referanslar",
+    "instances": "Yollar"
+  },
+  "tasks": {
+    "cancel": "İptal",
+    "cancelLabel": "Bu komutu kullanabilmek için sekmede Issue 3D Review uygulaması açık olmalıdır."
+  },
+  "facets": {
+    "attachments": {
+      "placeholder": "Bu görünüm birden fazla seçimi desteklemiyor, eklerini görüntülemek için lütfen yalnızca bir sorun seçin."
+    },
+    "comments": {
+      "placeholder": "Bu görünüm birden fazla seçimi desteklemiyor, yorumlarını görüntülemek için lütfen yalnızca bir sorun seçin."
+    },
+    "history": {
+      "placeholder": "Bu görünüm birden fazla seçimi desteklemiyor, geçmişini görüntülemek için lütfen yalnızca bir sorun seçin."
+    },
+    "relations": {
+      "placeholder": "Bu görünüm birden fazla seçimi desteklemiyor, ilişkilerini görüntülemek için lütfen yalnızca bir sorun seçin."
+    }
+  },
+  "tagger": {
+    "waiting": {
+      "title": "6WTags uygulanıyor...",
+      "label": "Sorunlarınız önceki 6WTags'e göre filtrelenecektir."
+    },
+    "cancel": "İptal"
+  },
+  "summaryview": "",
+  "multiTenants": {
+    "differentTenant": "Platform değiştirildi",
+    "mismatchTenant": "{tenant} platformundaki sorunlara erişmek için gerekli lisans rolüne sahip değilsiniz.",
+    "mismatchTenantSharedTemplate": "Platform uyuşmazlığı. Bu paylaşılan şablon, şablon listenize eklenmedi."
+  },
+  "approvals": {
+    "approvalEnabled": "Sorun Onayı etkinleştirildi",
+    "approvalDisabled": "Sorun Onayı devre dışı bırakıldı",
+    "approvalOn": "AÇIK",
+    "approvalOff": "KAPALI"
+  },
+  "resolvedBy": {
+    "errorSameIssue": "Aynı sorun nesnesi çözümleyici olarak eklenemez."
+  },
+  "issueManagementAppHeader": "Issue Management",
+  "issueManagementAppIntro": "Sorun Oluşturmak ve Yönetmek için Issue Management'ı Kullanmak",
+  "welcomePanelQuickAccess": "Hızlı erişim",
+  "welcomePanelIssueManagementHeader": "Yeni Bir Faaliyet Başlat",
+  "welcomePanelIssueManagement": "Sorunlar",
+  "welcomePanelIssueTemplate": "Sorun Şablonları",
+  "createNewIssue": "Yeni Sorun Oluştur",
+  "createNewTemplate": "Yeni Şablon Oluştur",
+  "whatsNew": "Yenilikler",
+  "footer": "Altbilgi Kesiti",
+  "issueSummaryLoading": "Sorunlarınız yükleniyor, lütfen bekleyin",
+  "templateSummaryLoading": "Şablonunuz yükleniyor, lütfen bekleyin",
+  "templateTitlePlaceholder": "Gösterilecek şablon yok.",
+  "templatePreferenceName": "Şablonlarım",
+  "resetSession": "Oturumu Sıfırla",
+  "emptyDataGridPlaceHolder": "",
+  "completionType": "Tamamlama Tipi",
+  "Open": "Aç",
+  "Cancelled": "İptal Edildi",
+  "Resolved": "Çözümlenmiş",
+  "successPartial": "İşlem kısmen başarılı",
+  "switchView": "Görünümü Değiştir",
+  "classificationFacetTitle": "Sınıflandırma",
+  "classificationFacet": "Bu görünüm birden fazla seçimi desteklemiyor, sınıflandırmasını görüntülemek için lütfen yalnızca bir sorun seçin.",
+  "propertiesTitle": "Özellikler",
+  "propertiesShortHelp": "Nesneyle ilgili ayrıntıları görüntüler. Sorunun ayrıntılarını sekmeden de düzenleyebilirsiniz.",
+  "propertiesLongHelp": "Yalnızca sorunun sahibi, atanan kişisi veya koordinatörü olmanız durumunda sorunu düzenleyebilirsiniz.",
+  "classificationTitle": "Sınıflandırma",
+  "classificationShortHelp": "Sınıflandırmalara ait tüm yer işaretlerini ve sınıfları görüntüler ve bir yer işaretini sınıflandırmanızı veya sınıflandırmayı kaldırmanızı sağlar.",
+  "classificationLongHelp": "Ayrıca, genel sınıfların sınıflandırma özniteliklerini görüntüleyebilir ve düzenleyebilirsiniz. Ancak, güvenlik sınıflarının sınıflandırma özniteliklerini değiştiremezsiniz.",
+  "relatedObjectsTitle": "İçerik",
+  "relatedObjectsShortHelp": "İçerik, sorunu etkili bir şekilde anlamak, analiz etmek ve ele almak için gereken sorunla doğrudan ilgili tüm verileri içerir.",
+  "relatedObjectsLongHelp": "İçerik; Etkilenen Öğeler, Bağlam, Çözümlenmiş Öğeler ve Çözen şeklinde sınıflandırılır.",
+  "attachmentsTitle": "Ekler",
+  "attachmentsShortHelp": "Ekler, ek bilgiler sağlayan ve bir sorunun çözümüne yardımcı olan ek dosyalardır.",
+  "attachmentsLongHelp": "Ekler sekmesine içerik yüklemek için sorunun iş birliği alanında Author veya Leader sorumluluğuna sahip olmanız gerekir.",
+  "teamTitle": "Üyeler",
+  "teamShortHelp": "Belirli bir ölçüde soruna dahil olan veya bu sorundan etkilenen kullanıcıları veya grupları yönetin. Bu üyelerin sorunun tespit edilmesi, değerlendirilmesi, ele alınması veya çözümlenmesi konusunda bir rolü vardır. ",
+  "teamLongHelp": "Mevcut üyelerin sorumluluklarını ekleyebilir, kaldırabilir veya değiştirebilirsiniz.",
+  "commentsTitle": "Yorumlar",
+  "commentsShortHelp": "Yorumlar sekmesi, bir nesneye eklenen yorumları görüntüler ve yorum ekleyip yorumları yanıtlayarak diğer kullanıcılarla iş birliği yapmanızı sağlar.",
+  "commentsLongHelp": "Bir nesneyi beğenerek ve nesne hakkında yorumlar ekleyerek ve yorumları yanıtlayarak diğer kişilerle nesne üzerinde iş birliği yapabilirsiniz.",
+  "relationsTitle": "İlişkiler",
+  "relationsShortHelp": "İlişkiler sekmesi, seçili nesneyle ilgili nesneleri görüntüler.",
+  "relationsLongHelp": "Görüntülemek istediğiniz ilişki kümesini seçebilirsiniz; örneğin, Ürün Yapısı ilişkileri, CATIA V5 ilişkileri, tüm ilişkiler vb.",
+  "historyTitle": "Geçmiş",
+  "historyShortHelp": "Geçmiş sekmesi, uygulamadaki seçili veya etkin bir nesne için meydana gelen olayları listeler.",
+  "historyLongHelp": "",
+  "dismiss": "Kapat",
+  "primaryImageColumnTitle": "Birincil Görüntü",
+  "totalIssues": " / {number} görüntüleniyor",
+  "loadedIssues": "{number}",
+  "selectedIssues": "Seçildi: {number}",
+  "totalIssuesWarning": "Bazı nesneler dizine alınmamış olabilir.",
+  "loadRemaining": "Kalan sorunları yükle",
+  "loadAllConfirmation": "Bu işlem biraz zaman alabilir ve yükleme tamamlanana kadar uygulamayı kullanamazsınız veya işlemi iptal edersiniz",
+  "dialogShowAgain": "Bir daha gösterme",
+  "loadIssues": "Sorunları yükle",
+  "loadingIssues": "Tüm sorunlar yükleniyor",
+  "resolveTheIssue": "Sorunu Çöz",
+  "taskAsResolvedBy": "Çözen Kişiye Göre Yeni Görev",
+  "caAsResolvedBy": "Çözen Kişiye göre Yeni Değişiklik Eylemi",
+  "addExistingAsResolvedBy": "Mevcut Olanı Ekle",
+  "exportTitle": "CSV Olarak Dışa Aktar",
+  "exportLabel": "Dışa Aktar",
+  "exportMessage": "{number} sorun bir CSV dosyasına aktarılacak. Bu işlemin tamamlanması biraz zaman alabilir.<br>Devam etmek istiyor musunuz?",
+  "cancel": "İptal",
+  "printTitle": "Yazdır",
+  "printMessage": "{number} sorun yazdırılacak. Bu işlemin tamamlanması birkaç dakika sürebilir. Devam etmek istiyor musunuz?"
+}

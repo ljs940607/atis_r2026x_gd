@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "Migracja Stripe FR",
+  "startStripeFrConversion": "Rozpocznij konwersję Stripe FR",
+  "migrationExplanation": "Kliknij przycisk, aby rozpocząć migrację sklepu do Stripe FR.",
+  "documentsExplanation": "Pobierz pliki KYC pojedynczo i prześlij je na nową platformę Stripe FR za pomocą odpowiednich przycisków przesyłania w tej sekcji.",
+  "downloadFile": "Pobierz plik",
+  "uploadFile": "Prześlij plik",
+  "failedToDownloadFile": "Nie można pobrać pliku",
+  "failedToUploadFile": "Nie można przesłać pliku",
+  "invalidFileTypeMessage": "Nieprawidłowy typ pliku. Użyj pliku JPEG lub PNG.",
+  "fileTooBig": "Plik przekracza maksymalny dozwolony rozmiar.",
+  "migrationFailedMsg": "Nie można ukończyć migracji.",
+  "migrationCompleted": "Migracja zakończona",
+  "kycSatusIs": "Stan dokumentu to „{status}”",
+  "startingMigration": "Rozpoczynanie migracji…",
+  "updating": "Aktualizowanie danych…",
+  "unableToUpdateData": "Nie można zaktualizować danych",
+  "waitingForMigrationConfirmation": "Trwa weryfikacja dokumentu. Sprawdź status migracji później.",
+  "migrationFailed": "Migracja nie powiodła się"
+}

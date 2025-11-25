@@ -1,0 +1,1 @@
+define("DS/MPFShopModel/MPFShopModel_ja",{});define("DS/MPFShopModel/assets/nls/ShopModel",{isRequired:"{0} は必須です",isInvalid:"{0} は無効です",email:"電子メール アドレス",phoneNumber:"電話番号",name:"名前",serviceName:"{0} の名前",emailError:"電子メール アドレスは必須です",emailInvalid:"電子メール アドレスが無効です",labNameError:"ラボ名は必須です",currencyError:"通貨を選択してください"});

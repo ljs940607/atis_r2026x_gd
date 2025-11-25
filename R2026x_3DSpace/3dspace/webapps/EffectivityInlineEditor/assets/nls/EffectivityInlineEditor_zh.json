@@ -1,0 +1,20 @@
+{
+  "EFF_CLEAR": "清除表达式",
+  "MODEL_RM": "从编辑器移除模型",
+  "MODEL_ADD": "选择模型",
+  "NO_FEATURES": "未找到任何变体和选项",
+  "Evolution_Impact_Msg": "有些变体/选项缺少“衍生有效性”中的更改",
+  "NO_MODELS_MSG": "您没有定义任何变体和选项表达式，您可以开始添加模型并定义变体和选项表达式",
+  "No_Model_Error": "将模型附加到父 {1}，然后重试。",
+  "No_Variant_Crit_Error": "在父对象上启用变体和选项条件。",
+  "Legacy_Eff_Error": "您不能在具有非分离有效性的对象上编辑变体和选项。",
+  "CC_AC_HDR_Error": "{1} 的父项受更改控制。 ",
+  "CC_AC_HDR_Error_Subtitle": "为 {1} 指定要在其下工作的更改操作",
+  "Edit_Var_OK": "确定",
+  "Edit_Var_Cancel": "取消",
+  "Syntax_Error": "变体和选项表达式中的语法错误",
+  "Service_OK": "成功编辑变体和选项",
+  "Service_Fail": "编辑变体和选项失败。",
+  "Dictionary_Error": "无法加载配置词典。",
+  "CFG_Application_Refresh_For_Instance_Evolved": "实例可使用“变体拆分”操作进行演变。"
+}

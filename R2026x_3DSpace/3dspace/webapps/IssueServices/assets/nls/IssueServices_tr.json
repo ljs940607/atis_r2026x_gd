@@ -1,0 +1,15 @@
+{
+  "migration": {
+    "refresh": "Bu sayfayı yeniden yükle",
+    "upgrading": "Güncellemeler üzerinde çalışılıyor. Lütfen bekleyin",
+    "upgrade": "Bu widget güncellendi, en son sürüme sahip olmak için lütfen tarayıcı sayfanızı yenileyin.",
+    "preferences": {
+      "error": "Tercihleriniz geçişi sırasında bir hata oluştu."
+    }
+  },
+  "support": {
+    "swym": "3DSwym kullanılamıyor. Bazı unsurlar sınırlandırılmış olabilir.",
+    "browser": "{name}{version} bu uygulama için önerilmez. En iyi deneyim için lütfen önerilen tarayıcıyı kullanın: {supported}",
+    "unknown": "Bilinmeyen"
+  }
+}

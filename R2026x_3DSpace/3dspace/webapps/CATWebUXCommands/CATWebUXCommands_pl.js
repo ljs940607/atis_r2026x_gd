@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_pl",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Skopiowano zrzut ekranu do schowka"});

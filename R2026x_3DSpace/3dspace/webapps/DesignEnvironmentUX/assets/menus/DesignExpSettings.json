@@ -1,0 +1,12 @@
+{
+    "preferences": {
+        "autoload_items": {
+            "value": true,
+            "preference": {
+                "type": "boolean",
+                "label": "autoload_items_label"
+            },
+            "dispatch": true
+        }
+    }
+}

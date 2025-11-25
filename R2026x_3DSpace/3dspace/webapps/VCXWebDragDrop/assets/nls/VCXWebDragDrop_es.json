@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "Acción no admitida",
+  "Notification.DragAndDrop.Loading.Title": "Cargando",
+  "Notification.DragAndDrop.Loading.Title.Error": "Error de carga",
+  "Notification.DragAndDrop.Loading.Message.Error": "El contenido no se ha podido cargar",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "Extensión no admitida",
+  "Notification.DragAndDrop.Impossible.Title": "Arrastrar y soltar",
+  "Notification.DragAndDrop.Impossible.SubTitle": "No es posible utilizar Arrastrar y soltar en el mismo widget",
+  "Notification.DragAndDrop.NotYet.Title": "Arrastrar y soltar",
+  "Notification.DragAndDrop.NotYet.SubTitle": "Todavía no puede usar Arrastrar y soltar. Abra primero una experiencia",
+  "Notification.DragAndDrop.Insert.Failed": "Error de inserción",
+  "Notification.DragAndDrop.Insert.Before.Experience": "No se puede insertar el tipo antes de crear una presentación",
+  "Notification.DragAndDrop.Not.Supported": "Tipo no compatible",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "Error al insertar los materiales",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "Error al insertar varios elementos",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "Solo se admite la inserción múltiple para el tipo Material de cobertura."
+}

@@ -1,0 +1,42 @@
+{"SCCPreferredTags": {
+	
+    "preferredTags": 
+	{
+        
+"predicates": 
+	[
+          {
+            "uri": "computedCountryInfo"
+          },
+          {
+            "uri": "ds6w:dataSource"
+          },
+          {
+            "uri": "ds6w:type"
+          },
+          {
+            "uri": "ds6w:modified"
+          },
+          {
+            "uri": "ds6w:created"
+          },
+          {
+            "uri": "ds6w:lastModifiedBy"
+          },
+          {
+            "uri": "ds6w:responsible"
+          }
+    ]
+	},
+	
+	
+	
+    "ExcludedTags": {
+	
+     "predicates":[]
+		 
+  }
+}
+}
+
+

@@ -1,0 +1,16 @@
+{
+    "marketPlaceRoles": "marketplace {rolesText}",
+    "userSearch": "User search",
+    "userRoles": "User roles",
+    "loginEmail": "Please enter the login or Email of the user you wish to grant roles to:",
+    "rolesGranted": "Please select the role you wish to grant to this user. Roles are granted dynamically:",
+    "noUserSelected": "No user selected",
+    "noUserFound": "No user found",
+    "userSearchFailed": "User search failed",
+    "unableToSaveRoleModification": "Unable to save role modification",
+    "enterEmailOrLogin": "Enter email or login here ...",
+    "makeSeller": "Make seller",
+    "engineeringSeller": "Engineering seller",
+    "partSupplySeller": "PartSupply seller",
+    "innovateSeller": "Innovate seller"
+}

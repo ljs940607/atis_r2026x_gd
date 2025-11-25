@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="UnitsAndParameters" treelistnls="UnitsAndParameters" modalnls="UnitsAndParameters">
+	<!--<object type="textarea" id="URI" value="" disabled="true" mandatory="true" sortable="false"></object>-->
+	<object type="textarea" id="paramLabel" value="" disabled="false" mandatory="true" sortable="true"></object>
+	<object type="textarea" id="paramDescription" value="" disabled="false" mandatory="false" sortable="true"></object>
+	<object type="combobox" id="paramType" value="Real,String" disabled="false" onChange="onChangeParamTypeCombo" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="paramDimension" value="" disabled="false" onChange="onChangeParamDimensionCombo" mandatory="true" sortable="true"></object>
+	<object type="combobox" id="paramUOM" value="" disabled="false" mandatory="false" sortable="true"></object>
+  	<object type="textarea" id="paramPossibleValues" value="" disabled="false"  mandatory="false" sortable="true"></object>
+	<object type="textarea" id="paramLabel_en" value="" hidden="false"></object>
+	<object type="textarea" id="paramDescription_en" value="" hidden="false"></object>
+	<object type="textarea" id="paramLabel_fr" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_fr" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_de" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_de" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_es" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_es" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_cs" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_cs" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_it" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_it" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_ja" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_ja" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_ko" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_ko" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_pl" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_pl" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_pt-BR" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_pt-BR" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_ru" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_ru" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_zh" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_zh" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_zh-TW" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_zh-TW" value="" hidden="true"></object>
+	<object type="textarea" id="paramLabel_tr" value="" hidden="true"></object>
+	<object type="textarea" id="paramDescription_tr" value="" hidden="true"></object>
+</ui>

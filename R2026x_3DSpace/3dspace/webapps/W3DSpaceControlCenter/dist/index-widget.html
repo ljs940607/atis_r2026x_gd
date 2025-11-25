@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">-->
+<!DOCTYPE html>
+<!-- Copyright 2014 , Dassault Systemes. All rights reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+  <head>
+    <meta name="author" content="Dassault Systèmes" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="debugMode" content="true" />
+    <meta name="autoRefresh" content="0" />
+    <title>3DSpace Control Center</title>
+    
+    <widget:preferences>
+        <preference name="collab-storage" type="list" label="storage_label" defaultValue="">
+            <option value="" label="loading_label" />
+        </preference>
+    </widget:preferences>
+    <!-- Will be updated on vite build with href="../../.." to point to the webapps folder -->
+    <link rel="webappsBaseUrl" href="../../..">
+    <script>
+      (function() {
+        window.CSCC_DIST_PATH = new URL(window.dsDefaultWebappsBaseUrl + 'webapps/' + 'W3DSpaceControlCenter/dist/').href;
+        ["assets/cscc-widget-jkGroEcq.js"].forEach(function(src) {
+          var script = document.createElement('script');
+          script.setAttribute('src', window.CSCC_DIST_PATH + src);
+          script.setAttribute('type', 'module');
+          document.head.appendChild(script);
+        });
+        ["assets/cscc-widget-ipgDEudU.css"].forEach(function(src) {
+          var link = document.createElement('link');
+          link.setAttribute('href', window.CSCC_DIST_PATH + src);
+          link.setAttribute('rel', 'stylesheet');
+          document.head.appendChild(link);
+        });
+      })();
+    </script>
+    
+    
+  </head>
+  <body>
+    <!--<script type="module" src="./src/apps/entrypoint-widget.ts"></script>-->
+    <div id="app"></div>
+  </body>
+</html>

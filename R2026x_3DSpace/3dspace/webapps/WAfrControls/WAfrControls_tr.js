@@ -1,0 +1,1 @@
+define("DS/WAfrControls/WAfrControls_tr",{});define("DS/WAfrControls/assets/nls/controls",{NLS_TaskProgressBarCloseButtonDefaultTooltip:"İptal"});

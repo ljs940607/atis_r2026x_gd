@@ -1,0 +1,90 @@
+<meta charset="UTF-8"/>
+DMUBaseCtxCommands.DMUHideShowHdr.Title="Gizle/Göster";
+DMUBaseCtxCommands.DMUDeleteHdr.Title="Sil";
+DMUBaseCtxCommands.DMUQuickDeleteHdr.Title="Hızlı sil";
+DMUBaseCtxCommands.DMUPropertiesHdr.Title="Özellikler";
+DMUBaseCtxCommands.DMUExpandAllHdr.Title="Tümünü Genişlet";
+DMUBaseCtxCommands.DMUCollapseAllHdr.Title="Tümünü Daralt";
+DMUBaseCtxCommands.DMUSetIssueCreationTemplateTypeHdr.Title="Şablondan Yeni Sorun";
+DMUBaseCtxCommands.DMUSetIssueCreationTypeHdr.Title="Yeni Sorun";
+DMUBaseCtxCommands.DMUIssueTypeSubMenu.Title="Sorun Oluştur";
+DMUBaseCtxCommands.DMUGenerateIssueFromSelectionHdr.Title="Sorun Oluştur";
+DMUBaseCtxCommands.DMUGenerateIssueFromTemplateFromSelectionHdr.Title="Şablondan Sorun Oluştur";
+DMUBaseCtxCommands.DMUGenerateTaskFromSelectionHdr.Title="Görev Oluştur";
+
+DMUBaseCtxCommands.DMUHideShowOverloadHdr.Title="Gizle/Göster";
+DMUBaseCtxCommands.DMUGraphicPropertiesPanelHdr.Title="Grafik özellikleri";
+
+DMUBaseCtxCommands.Marker_DMUDefaultStyleHdr.Title="Varsayılan";
+DMUBaseCtxCommands.Marker_DMUMeasureStyleHdr.Title="Ölçüm";
+DMUBaseCtxCommands.Marker_DMUPostitStyleHdr.Title="Not";
+DMUBaseCtxCommands.Marker_DMUValidateStyleHdr.Title="Doğrulandı";
+DMUBaseCtxCommands.Marker_DMUWarningStyleHdr.Title="Uyarı";
+DMUBaseCtxCommands.Marker_DMUCautionStyleHdr.Title="Tehlike";
+DMUBaseCtxCommands.Marker_DMULightStyleHdr.Title="Işık";
+
+DMUBaseCtxCommands.DMUDefaultStyleHdr.Title="Varsayılan";
+DMUBaseCtxCommands.DMUMeasureStyleHdr.Title="Ölçüm";
+DMUBaseCtxCommands.DMUPostitStyleHdr.Title="Not";
+DMUBaseCtxCommands.DMUValidateStyleHdr.Title="Doğrulandı";
+DMUBaseCtxCommands.DMUWarningStyleHdr.Title="Uyarı";
+DMUBaseCtxCommands.DMUCautionStyleHdr.Title="Tehlike";
+DMUBaseCtxCommands.DMULightStyleHdr.Title="Hafif";
+
+DMUBaseCtxCommands.DMUCleanDefaultStyleHdr.Title="Varsayılan";
+DMUBaseCtxCommands.DMUCleanMeasureStyleHdr.Title="Ölçüm";
+DMUBaseCtxCommands.DMUCleanPostitStyleHdr.Title="Not";
+DMUBaseCtxCommands.DMUCleanValidateStyleHdr.Title="Doğrulandı";
+DMUBaseCtxCommands.DMUCleanWarningStyleHdr.Title="Uyarı";
+DMUBaseCtxCommands.DMUCleanCautionStyleHdr.Title="Tehlike";
+DMUBaseCtxCommands.DMUCleanLightStyleHdr.Title="Hafif";
+
+DMUBaseCtxCommands.Marker_DMUIncreaseFontSizeHdr.Title="Yazı Tipini Büyüt";
+DMUBaseCtxCommands.Marker_DMUDecreaseFontSizeHdr.Title="Yazı Tipini Küçült";
+
+
+DMUBaseCtxCommands.Measure_DMUDefaultStyleHdr.Title="Varsayılan";
+DMUBaseCtxCommands.Measure_DMUMeasureStyleHdr.Title="Ölçüm";
+DMUBaseCtxCommands.Measure_DMUPostitStyleHdr.Title="Not";
+DMUBaseCtxCommands.Measure_DMUValidateStyleHdr.Title="Doğrulandı";
+DMUBaseCtxCommands.Measure_DMUWarningStyleHdr.Title="Uyarı";
+DMUBaseCtxCommands.Measure_DMUCautionStyleHdr.Title="Tehlike";
+DMUBaseCtxCommands.Measure_DMULightStyleHdr.Title="Işık";
+
+DMUBaseCtxCommands.Measure_DMUIncreaseFontSizeHdr.Title="Yazı Tipini Büyüt";
+DMUBaseCtxCommands.Measure_DMUDecreaseFontSizeHdr.Title="Yazı Tipini Küçült";
+
+
+DMUBaseCtxCommands.Format_DMUDeleteHdr.Title="Sil";
+
+DMUBaseCtxCommands.DMUNoLeaderHdr.Title="Açıklama Çizgisi Yok";
+DMUBaseCtxCommands.DMUArrowLeaderHdr.Title="Ok";
+DMUBaseCtxCommands.DMUBubbleLeaderHdr.Title="Nokta";
+DMUBaseCtxCommands.DMUCrossLeaderHdr.Title="Çarpı";
+DMUBaseCtxCommands.DMUSquareLeaderHdr.Title="Kare";
+DMUBaseCtxCommands.DMUNoEndLeaderHdr.Title="Uç Yok";
+DMUBaseCtxCommands.DMULeaderStr.Title="Açıklama çizgisi uç tipi";
+
+DMUBaseCtxCommands.DMUPointTypeStr.Title="Nokta tipi";
+DMUBaseCtxCommands.DMUCrossPointTypeHdr.Title="Çarpı";
+DMUBaseCtxCommands.DMUPlusPointTypeHdr.Title="Artı";
+DMUBaseCtxCommands.DMUConcentricPointTypeHdr.Title="Eş Merkezli";
+DMUBaseCtxCommands.DMUCoincidentPointTypeHdr.Title="Çakışık";
+DMUBaseCtxCommands.DMUFullCirclePointTypeHdr.Title="Tam daire";
+DMUBaseCtxCommands.DMUFullSquarePointTypeHdr.Title="Tam kare";
+DMUBaseCtxCommands.DMUStarPointTypeHdr.Title="Yıldız";
+DMUBaseCtxCommands.DMUDotPointTypeHdr.Title="Nokta";
+DMUBaseCtxCommands.DMUSmallDotPointTypeHdr.Title="Küçük nokta";
+DMUBaseCtxCommands.DMUNonePointTypeHdr.Title="Hiçbiri";
+
+DMUBaseCtxCommands.DMUExtremityTypeStr.Title="Uç tipi";
+DMUBaseCtxCommands.DMUCrossExtremityTypeHdr.Title="Çarpı";
+DMUBaseCtxCommands.DMUPlusExtremityTypeHdr.Title="Artı";
+DMUBaseCtxCommands.DMUConcentricExtremityTypeHdr.Title="Eş Merkezli";
+DMUBaseCtxCommands.DMUCoincidentExtremityTypeHdr.Title="Çakışık";
+DMUBaseCtxCommands.DMUFullCircleExtremityTypeHdr.Title="Tam daire";
+DMUBaseCtxCommands.DMUFullSquareExtremityTypeHdr.Title="Tam kare";
+DMUBaseCtxCommands.DMUStarExtremityTypeHdr.Title="Yıldız";
+DMUBaseCtxCommands.DMUDotExtremityTypeHdr.Title="Nokta";
+DMUBaseCtxCommands.DMUSmallDotExtremityTypeHdr.Title="Küçük nokta";
+DMUBaseCtxCommands.DMUNoneExtremityTypeHdr.Title="Hiçbiri";

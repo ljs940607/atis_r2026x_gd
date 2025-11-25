@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"新規プロダクト",
+"ENONewProductHdr.ShortHelp":"新しいプロダクトを作成します。",
+"ENONewProductHdr.LongHelp":"ダイアログ ボックスで、タイトルと、必要な属性がある場合は入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つのプロダクトのみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別のプロダクトを作成します。",
+"ENOInsertNewProductHdr.Title":"新規プロダクトを挿入",
+"ENOInsertNewProductHdr.ShortHelp":"新しいプロダクトを作成し、選択したオブジェクトに子として追加します。",
+"ENOInsertNewProductHdr.LongHelp":"<p>ダイアログ ボックスで、タイトルを入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つのプロダクトのみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別のプロダクトを作成します。</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

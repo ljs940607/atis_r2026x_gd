@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Szczegóły wyprowadzonej reguły wyjściowej",
+    "doattributes": "Atrybuty wyprowadzonej reguły wyjściowej",
+    "name": "Nazwa",
+    "connector": "Łącznik",
+    "implicitRule": "Reguła niejawna",
+    "external": "Generowanie zewnętrzne",
+    "parameters": "Parametry konwersji",
+    "converter": "Konwerter",
+    "origin": "Początek układu współrzędnych",
+    "forceUpdate": "Wymuś aktualizację",
+    "uptodateDO": "Aktualne",
+    "jobStatus": "Status zadania",
+    "format": "Format",
+    "alias": "Ujednolicony format",
+    "yes": "Tak",
+    "no": "Nie"
+  },
+  "buttons": {
+    "cancel": "Anuluj"
+  },
+  "popup": {
+    "option": "Opcja",
+    "value": "Wartość",
+    "yesButton": "Tak",
+    "noButton": "Nie",
+    "cancelButton": "Anuluj"
+  },
+  "error": {
+    "title": "Błąd",
+    "invalidFrame": "Nie można wykonać operacji. Odśwież widżet i spróbuj ponownie.",
+    "invalidParameter": "Parametry nie są zdefiniowane prawidłowo."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "createNewPart": "新零件",
+  "insertNewPart": "插入新零件",
+  "newObjectType": "零件",
+  "multiParentInsertPartTitle": "插入新零件",
+  "multiParentInsertPartMsg": "是否确定要在多个父项下插入新零件？",
+  "multiParentCannotInsert": "错误：无法插入到选定对象下",
+  "CannotInsert.Type": "不能在选定对象下插入此对象类型：{type}",
+  "okBtn": "确定",
+  "closeBtn": "关闭"
+}

@@ -1,0 +1,17 @@
+m|MPFModels\MPFCouponModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24328|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFCouponModel\MPFCouponModel.js|1732360459|7123
+s|MPFModels\MPFCouponModel.mweb\src\ByNameDataProxy.js|1732311151|549
+u|MPFModels\MPFCouponModel.mweb\src\CouponCollectionFilterModel.js|1732311151|1406
+u|MPFModels\MPFCouponModel.mweb\src\CouponCreationCollection.js|1732311151|743
+u|MPFModels\MPFCouponModel.mweb\src\CouponCreationDataProxy.js|1732311151|2251
+u|MPFModels\MPFCouponModel.mweb\src\CouponCreationFactory.js|1732311151|2436
+u|MPFModels\MPFCouponModel.mweb\src\CouponCreationModel.js|1732311151|4271
+u|MPFModels\MPFCouponModel.mweb\src\CouponFilters.js|1732311151|486
+u|MPFModels\MPFCouponModel.mweb\src\CouponPackCollection.js|1732311151|388
+u|MPFModels\MPFCouponModel.mweb\src\CouponPackModel.js|1732311151|1589
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

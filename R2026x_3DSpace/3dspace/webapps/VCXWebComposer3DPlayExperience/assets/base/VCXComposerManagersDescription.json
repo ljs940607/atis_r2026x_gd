@@ -1,0 +1,210 @@
+{
+    "experienceBaseMode": {
+    },
+
+    "webApplicationBaseMode": {
+    },
+
+    "biMode": {
+        "VCX3DGridManager": {
+           "initialize_options": {
+                "persistency": 1
+            }
+        },
+
+        "VCXAPIManager": {
+           "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXCommandManager": {
+            
+        },
+
+        "VCXComponentBomManager": {
+            
+        },
+
+        "VCXComposerAPIManager": {
+            "initialize_options": {
+                "persistency": 1
+            }
+        },
+
+        "VCXContextManager": {
+            
+        },
+
+        "VCXDRMManager": {
+            "initialize_options": {
+                "persistency": 1
+            }
+        },
+
+        "VCXDocManager": {
+            
+        },
+
+        "VCXDressupManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXExperience": {
+            
+        },
+
+        "VCXGUIManager": {
+
+        },
+
+        "VCXGUIManager0": {
+            "support": {
+                "GUIArchitectureV2" : {"value": false}
+            }
+        },
+
+        "VCXGUIManager1": {
+            "support": {
+                "GUIArchitectureV2" : {"value": true}
+            }
+        },
+
+        "VCXHotspotManager": {
+            "initialize_options": {
+                "persistency": 1
+            }
+        },
+
+        "VCXHyperlinkManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXNLSManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXImageManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXLinkedPropertyManager": {
+            
+        },
+
+        "VCXManipulatorManager": {
+            
+        },
+
+        "VCXMarkerManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXMaterialManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXMetaPropertyManager": {
+            
+        },
+
+        "VCXModelChangeListener": {
+            
+        },
+
+        "VCXMultiUserInputManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXNotificationManager": {
+            "initialize_options": {
+                "persistency": 2
+            },
+            "support": {
+                "SupportWebApplicationBase" : {"value": false}
+            }
+        },
+
+        "VCXPaperManager": {
+           "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        
+        "VCXSelectManager": {
+            "initialize_options": {
+                 "persistency": 2
+            }
+        },
+
+        "VCXPlayManager": {
+            
+        },
+
+        "VCXPulseManager": {
+            
+        },
+
+        "VCXRobotAdapter": {
+            
+        },
+
+        "VCXScenarioManager": {
+            
+        },
+
+        "VCXSectionManager": {
+            
+        },
+
+        "VCXSelectionManager": {
+            
+        },
+
+        "VCXSelectionSetManager": {
+            
+        },
+
+        "VCXSequenceManager": {
+            
+        },
+
+        "VCXStylesManager": {
+            
+        },
+
+        "VCXUnitManager": {
+            
+        },
+
+        "VCXUserInputControllerManager": {
+            
+        },
+
+        "VCXVisuManager": {
+            "initialize_options": {
+                "persistency": 2
+            }
+        },
+
+        "VCXVolatileGhostingManager": {
+            
+        }
+    }
+}
+

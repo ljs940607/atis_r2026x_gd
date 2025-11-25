@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="DCP" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfigDCP.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+	<Columns>
+		<Column dataIndex="V_DCParameterOnto" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCLabel" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCMode" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCRichText" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCNbSameMeasurement" dicoType="PLMSpecifyHowToCollectDataCnx" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_DCType" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCMagnitude" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCUnit" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCCriticality" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MinEoFValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MinEoFValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		
+		<Column dataIndex="V_MinValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		
+		<Column dataIndex="V_MinValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MinControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MinControlValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_Value" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_ConformanceValues" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MaxControlValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MaxControlValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MaxValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MaxValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		
+		<Column dataIndex="V_MaxEoFValue" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_MaxEoFValue_Inclusive" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		
+		<Column dataIndex="V_DCTimestampFormat" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCPerformanceCharac" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCRequirementLink" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="V_DCFormula" dicoType="PLMSpecifyHowToCollectDataCnx_Custo" display="true" minWidth="100" displayType="DataCollectRow"/>
+		<Column dataIndex="PLM_ExternalID" dicoType="PLMEntity" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="V_description" dicoType="PLMEntity" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="organization" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="project" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="reservedby" display="true" minWidth="100" displayType="NonEditable"/>
+		<Column dataIndex="originated" display="true" minWidth="100"/>
+		<Column dataIndex="modified" display="true" minWidth="100"/>
+    </Columns>
+</Config>

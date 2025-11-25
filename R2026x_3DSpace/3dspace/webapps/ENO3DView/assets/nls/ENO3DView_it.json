@@ -1,0 +1,34 @@
+{
+  "appDescription": "Consente di esplorare i modelli 3D in modo semplice ed efficiente",
+  "rootFrozen": "La sessione viene bloccata dopo una transizione",
+  "transitionRefusedStaticMapping": "La configurazione del prodotto istanziato non è supportata nell'app di destinazione",
+  "transitionRefusedFlexibleAssemblies": "Gli assiemi flessibili non sono supportati nell'app di destinazione",
+  "pointCloudClassificationLayer": {
+    "title": "Colorazione classificazione LAS",
+    "headerTooltip": "La classificazione LAS consiste negli schemi di classificazione predefiniti definiti dall'American Society for Photogramometry and Remote Sensing (ASPRS) per la categoria di dati desiderata.",
+    "class0": "0 - Mai classificato",
+    "class1": "1 – Non classificato",
+    "class2": "2 - Terra",
+    "class3": "3 - Vegetazione bassa",
+    "class4": "4 - Vegetazione media",
+    "class5": "5 - Vegetazione alta",
+    "class6": "6 - Edificio",
+    "class7": "7 - Punto basso (rumore)",
+    "class8": "8 - Modello chiave/Riservato",
+    "class9": "9 - Acqua",
+    "class10": "10 - Ferrovia",
+    "class11": "11 - Superficie stradale",
+    "class12": "12 - Sovrapposizione/Riservato",
+    "class13": "13 - Protezione dei fili (schermatura)",
+    "class14": "14 - Filo conduttore (fase)",
+    "class15": "15 - Torre di trasmissione",
+    "class16": "16 - Connettore filo-struttura",
+    "class17": "17 - Ponte di comando",
+    "class18": "18 - Rumore elevato"
+  },
+  "pointCloudElevationLayer": {
+    "title": "Colorazione delle coordinate",
+    "comboLabel": "Asse: ",
+    "tooltip": "La coordinata x viene misurata lungo l'asse est-ovest, la coordinata y viene misurata lungo l'asse nord-sud e la coordinata z misura l'altezza o l'elevazione."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Slider": {
+    "Button": {
+      "Upstair": "上楼",
+      "UpstairShort": "单击可上一层楼",
+      "Downstair": "下楼",
+      "DownstairShort": "单击可下一层楼",
+      "Inverse": "反转",
+      "InverseShort": "单击以反转裁剪视图"
+    },
+    "Icon": {
+      "Offset": "偏移",
+      "OffsetShort": "从当前楼层偏移",
+      "Elevation": "标高",
+      "ElevationShort": "当前楼层的标高"
+    }
+  },
+  "Dialog": {
+    "Button": {
+      "Ok": "确定",
+      "Cancel": "取消",
+      "OkShort": "验证楼层创建",
+      "CancelShort": "取消"
+    },
+    "Spinbox": {
+      "Elevation": "每个层楼的标高",
+      "ElevationShort": "将定义每个楼层的标高",
+      "Numbers": "要创建的层数",
+      "NumbersShort": "输入需要创建的层数",
+      "Offset": "第一层楼的基础标高",
+      "OffsetShort": "第一层楼的基础标高，其他楼层将根据第一层计算"
+    },
+    "Storey": {
+      "DefaultName": "楼层"
+    },
+    "Title": "默认楼层创建"
+  },
+  "Notification": {
+    "RequestSuccessNotif": {
+      "DriverLoadingOK": "从驱动程序加载楼层成功。",
+      "StoreysLoadingOK": "加载楼层成功。"
+    },
+    "RequestWarningNotif": {
+      "DriverLoadingFail": "已找到驱动程序但无法读取层级信息。正在从产品结构中加载楼层，请稍候...",
+      "DriverMissing": "未找到驱动程序。正在从产品结构中加载楼层，请稍候..."
+    },
+    "RequestErrorNotif": {
+      "LoadingFail": "无法检索楼层。"
+    }
+  }
+}

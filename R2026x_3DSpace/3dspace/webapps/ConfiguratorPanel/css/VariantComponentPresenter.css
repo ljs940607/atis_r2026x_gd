@@ -1,0 +1,181 @@
+.OneVariantDiv {
+  text-align: left;
+  margin-left: 5px;
+  position: relative;
+  display: inline-flex;
+  padding: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-right: 5px;
+  /* .refinedIcon {
+    color: gray;
+    display: none;}*/
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0.3; }
+
+    100% {
+      opacity: 1; } }
+ }
+  .OneVariantDiv.xlargeContainer {
+    width: calc(25% - 10px); }
+  .OneVariantDiv.largeContainer {
+    width: calc(33.3% - 10px); }
+  .OneVariantDiv.mediumContainer {
+    width: calc(50% - 10px); }
+  .OneVariantDiv.smallContainer {
+    width: calc(100% - 10px); }
+  .OneVariantDiv.smallerContainer {
+    width: 768px; }
+  .OneVariantDiv .variantDropDownMenu_multi {
+    display: none; }
+  .OneVariantDiv .variantDropDownMenu_single {
+    display: none; }
+  .OneVariantDiv.single-select .variantDropDownMenu_single {
+    display: none; }
+  .OneVariantDiv.single-select .variantDropDownMenu_multi {
+    display: none; }
+  .OneVariantDiv .config-editor-validate {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    display: none; }
+  .OneVariantDiv .imagesDropdown {
+    max-width: 260px;
+    max-height: 260px;
+    overflow: auto; }
+  .OneVariantDiv .OptionsDD {
+    max-height: 180px;
+    overflow: auto; }
+  .OneVariantDiv .dropdown-menu .item > .fonticon {
+    width: 28px !important; }
+  .OneVariantDiv .configurator-img-thumbnail {
+    max-height: 100%;
+    padding: 2px !important;
+    vertical-align: top !important;
+    width: 100%;
+    border: 0px; }
+  .OneVariantDiv .configurator-img-thumbnail {
+    height: inherit;
+    width: inherit;
+    vertical-align: top; }
+  .OneVariantDiv .variantImgContainer {
+    width: 80px;
+    height: 60px;
+    margin-right: 5px;
+    line-height: 80px;
+    border-radius: 4px;
+    border: 1px solid #b1b1b1;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+  .OneVariantDiv .variantLabelContainer {
+    display: inline-block;
+    margin: 0px;
+    height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    .OneVariantDiv .variantLabelContainer[is-mandatory="true"]::before {
+      content: '\e000';
+      padding: 2px 5px;
+      color: #e87b00;
+      font: normal normal normal 8px/1 DSFontIcon; }
+    .OneVariantDiv .variantLabelContainer .variantMultiSelect {
+      margin-right: 0;
+      margin-left: auto;
+      color: #b4b6ba; }
+      .OneVariantDiv .variantLabelContainer .variantMultiSelect:hover {
+        color: #3d3d3d; }
+      .OneVariantDiv .variantLabelContainer .variantMultiSelect.active {
+        color: #368ec4; }
+    .OneVariantDiv .variantLabelContainer .variantSelectionMode {
+      margin: 0px;
+      padding: 0px; }
+      .OneVariantDiv .variantLabelContainer .variantSelectionMode.readOnly:hover {
+        text-decoration: none;
+        cursor: auto; }
+  .OneVariantDiv .variantLabel {
+    margin: 0px;
+    font-family: sans-serif;
+    height: 20px;
+    max-width: 100%;
+    display: flex;
+    font-weight: bold; }
+  .OneVariantDiv .variantUnit {
+    margin: 0px;
+    font-family: sans-serif;
+    height: 20px;
+    max-width: 100%;
+    display: flex;
+    font-weight: bold;
+    padding-left: 5px; }
+  .OneVariantDiv .imageContainer {
+    display: inline-block;
+    position: relative; }
+  .OneVariantDiv .contentContainer {
+    position: relative;
+    height: inherit;
+    display: inline-block;
+    flex-grow: 1;
+    vertical-align: top; }
+    .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete {
+      border: 1px solid #b4b6ba;
+      border-radius: 4px;
+      height: 100%; }
+      .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor {
+        height: 100%; }
+        .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container {
+          height: 100%; }
+          .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; }
+          .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete {
+            height: 100%; }
+            .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-editor {
+              height: 100%;
+              display: inline-flex; }
+              .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-editor .cfg-autoComplete-image {
+                width: auto; }
+                .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-editor .cfg-autoComplete-image .wux-ui-3ds-alert {
+                  display: none; }
+                .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-editor .cfg-autoComplete-image .wux-ui-genereatedicon-image {
+                  display: none; }
+              .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-editor input {
+                height: 100%;
+                width: 100% !important; }
+            .OneVariantDiv .contentContainer .config-editor-multivalue-autocomplete .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-autoComplete-selectionChips {
+              height: 100%;
+              /*.wux-controls-lastWidget-selectionChips {
+              }*/ }
+  .OneVariantDiv .labelContainer {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: 100%;
+    height: 100%; }
+    .OneVariantDiv .labelContainer .autocompleteContainer {
+      width: 100%;
+      flex-grow: 1;
+      position: relative; }
+  .OneVariantDiv .righticon {
+    color: #e87b00 !important;
+    font-family: entypo !important; }
+  .OneVariantDiv .rightIconContainer {
+    display: inline-block;
+    verticalAlign: middle;
+    vertical-align: middle;
+    display: flex; }
+  .OneVariantDiv .animated-variant {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; }

@@ -1,0 +1,16 @@
+{
+	"actions": [
+		{
+			"key": "AddTestMethod",
+			"nlsLabel": "AddTestMethod",
+			"text": "AddTestMethod",
+			"fonticon": "plus"
+		},
+		{
+			"key": "RemoveTestMethod",
+			"text": "RemoveTestMethod",
+			"nlsLabel": "RemoveTestMethod",
+			"fonticon": "tree-delete"
+		}
+	]
+}

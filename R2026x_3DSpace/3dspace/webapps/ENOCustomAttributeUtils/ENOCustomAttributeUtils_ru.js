@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_ru",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Службы FED в нерабочем состоянии",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" Возможно, не загружены все предикаты",CUSTOM_ATTR_APPLIED:"Пользовательские атрибуты обновлены"});

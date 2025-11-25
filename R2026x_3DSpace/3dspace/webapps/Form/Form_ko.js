@@ -1,0 +1,1 @@
+define("DS/Form/Form_ko",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"이 필드는 필수임"});

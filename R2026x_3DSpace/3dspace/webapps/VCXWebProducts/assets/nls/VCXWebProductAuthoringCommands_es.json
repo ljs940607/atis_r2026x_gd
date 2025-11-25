@@ -1,0 +1,19 @@
+{
+  "VCXSelectElementMessage": "Seleccionar un objeto",
+  "VCXCaptureInNeutralsCmd": "Guardar como predeterminado",
+  "VCXRestoreNeutralsCmd": "Restaurar valor predeterminado",
+  "VCXFormatPainterCmd": "Copiar apariencia",
+  "VCXArrowOrientationCmd": "Orientación de flechas",
+  "VCXChangeInteractionCmd": "Interacción",
+  "VCXArrowOrientationCircularCmd": "Orientación de flechas",
+  "VCXSingleFormatPainterCmd": "Copiar apariencia una vez",
+  "VCXMultipleFormatPainterCmd": "Copia apariencia varias veces",
+  "VCXAddCameraKeyCmd": "Actualizar posición de cámara",
+  "VCXDeleteSceneSelectionCmd": "Eliminar escenas seleccionadas",
+  "VCXReplaceScenarioCmd": "Reemplazar escena",
+  "VCXCreateScenarioCmd": "Capturar en una nueva escena",
+  "VCXCreateEmptyScenarioCmd": "Crear escena vacía",
+  "VCXShowUpdateViewCmd": "Actualización de activos",
+  "VCXApplyToSelectedCmd": "Aplicar propiedades y visibilidad a escenas seleccionadas",
+  "VCXApplyToAllCmd": "Aplicar propiedades y visibilidad a todas las escenas"
+}

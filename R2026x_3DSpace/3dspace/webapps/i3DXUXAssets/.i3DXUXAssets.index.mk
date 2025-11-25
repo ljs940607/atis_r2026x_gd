@@ -1,0 +1,15 @@
+m|i3DXUXAssets\i3DXUXAssets.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\i3DXUXAssets\assets\fonts\3dsregular.eot|1723277876|80248
+s|i3DXUXAssets\i3DXUXAssets.mweb\src\assets\fonts\3dsregular.eot|1547212692|80248
+t|win_b64\webapps\i3DXUXAssets\assets\fonts\3dsregular.svg|1723277876|419169
+s|i3DXUXAssets\i3DXUXAssets.mweb\src\assets\fonts\3dsregular.svg|1547212693|419169
+t|win_b64\webapps\i3DXUXAssets\assets\fonts\3dsregular.ttf|1723277876|80040
+s|i3DXUXAssets\i3DXUXAssets.mweb\src\assets\fonts\3dsregular.ttf|1547212692|80040
+t|win_b64\webapps\i3DXUXAssets\assets\fonts\3dsregular.woff|1723277876|37396
+s|i3DXUXAssets\i3DXUXAssets.mweb\src\assets\fonts\3dsregular.woff|1547212692|37396
+t|win_b64\webapps\i3DXUXAssets\assets\fonts\3dsregular.woff2|1723277876|28680
+s|i3DXUXAssets\i3DXUXAssets.mweb\src\assets\fonts\3dsregular.woff2|1547212693|28680

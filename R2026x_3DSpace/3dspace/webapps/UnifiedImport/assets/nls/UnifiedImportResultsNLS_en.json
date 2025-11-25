@@ -1,0 +1,27 @@
+{
+  "importresults.actions.restore": "Restore",
+  "importresults.actions.maximize": "Maximize",
+  "importresults.actions.layout.grid": "Datagrid View",
+  "importresults.actions.layout.tiles": "Tile View",
+  "importresults.grid.column.title": "Title",
+  "importresults.grid.column.type": "Type",
+  "importresults.grid.column.revision": "Revision",
+  "importresults.grid.column.created": "Creation Date",
+  "importresults.grid.column.modified": "Modification Date",
+  "importresults.grid.column.maturityState": "Maturity State",
+  "importresults.grid.column.CollaborativeSpace": "Collaborative Space",
+  "importresults.grid.column.description": "Description",
+  "importresults.grid.column.name": "Name",
+  "importresults.grid.column.owner": "Owner",
+  "importresults.loader.pleasewait": "Please wait",
+  "importresults.loader.loadingdetails": "Loading Details",
+  "importresults.grid.column.status": "Maturity",
+  "importresults.grid.column.status.private": "Private",
+  "importresults.grid.column.status.inwork": "In Work",
+  "importresults.grid.column.status.frozen": "Frozen",
+  "importresults.grid.column.status.released": "Released",
+  "importresults.grid.column.status.obsolete": "Obsolete",
+  "importresults.data.error": "There was a problem retrieving the information. Refresh the page or check back later",
+  "importresults.data.error2":"Nothing to display as the data might not exist or indexed properly"
+
+}

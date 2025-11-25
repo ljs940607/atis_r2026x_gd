@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Buscando carpetas de marcadores..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "La función Buscar en árbol no se puede realizar en la sección favorita ni en las carpetas de marcadores favoritas.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "El objeto soltado no es una carpeta de marcadores.",
+    "subtitle": "Suelte una carpeta raíz de marcadores o una carpeta de marcadores."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "No se puede buscar en árbol.",
+    "subtitle": "Ampliar el árbol hasta ese nodo de carpeta de marcadores concreto",
+    "message": "La carpeta de marcadores que se va a buscar no es visible en el árbol."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "No se puede buscar en árbol.",
+    "subtitle": "Ampliar la sección de carpeta de marcadores hasta el nivel uno.",
+    "message": "No hay carpetas de marcadores visibles en la sección de carpetas de marcadores."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "No se puede buscar en árbol.",
+    "subtitle": "Seleccione una carpeta de marcadores e inténtelo de nuevo.",
+    "message": "No se ha seleccionado ninguna carpeta de marcadores para realizar la búsqueda."
+  },
+  "msg_info_limitToFindInRootNode": "No se han podido mostrar todos los resultados de la búsqueda. Pruebe con otras palabras clave o busque en las subcarpetas de marcadores.",
+  "msg_info_searchCompleted": "La búsqueda se ha completado.",
+  "msg_info_No_Occurrence": "No se encontraron resultados."
+}

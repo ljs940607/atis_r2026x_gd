@@ -1,0 +1,1 @@
+define("DS/XCTInfNotifications/XCTInfNotifications_zh-TW",{});define("DS/XCTInfNotifications/assets/nls/XCTInfNotifications",{Notifications:{Error:"錯誤",Information:"資訊",Succes:"成功",Warning:"警告"}});

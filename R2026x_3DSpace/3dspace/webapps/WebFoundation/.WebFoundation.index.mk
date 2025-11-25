@@ -1,0 +1,9 @@
+m|WebFoundation\WebFoundation.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebFoundation\WebFoundation.js|1723278169|397
+s|WebFoundation\WebFoundation.mweb\src\Class.js|1502194214|958
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

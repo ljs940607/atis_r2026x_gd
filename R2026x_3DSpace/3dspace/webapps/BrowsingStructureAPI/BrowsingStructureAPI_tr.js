@@ -1,0 +1,1 @@
+define("DS/BrowsingStructureAPI/BrowsingStructureAPI_tr",{});define("DS/BrowsingStructureAPI/assets/nls/BrowsingStructureAPI",{msg_info_Timeout:"Başlatılan eylemden zaman aşımı süresi içinde yanıt alınmadı, yürütme işlemi daha uzun sürebilir. Sonuç, manuel yenilemeden bir süre sonra görülebilir."});

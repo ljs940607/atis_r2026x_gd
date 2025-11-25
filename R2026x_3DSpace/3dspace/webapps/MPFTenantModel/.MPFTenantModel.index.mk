@@ -1,0 +1,13 @@
+m|MPFModels\MPFTenantModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24328|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFTenantModel\MPFTenantModel.js|1732360481|1884
+s|MPFModels\MPFTenantModel.mweb\src\MPFTenantModel.js|1724871226|0
+u|MPFModels\MPFTenantModel.mweb\src\TenantCollection.js|1724871226|303
+u|MPFModels\MPFTenantModel.mweb\src\TenantFactory.js|1724871226|1459
+u|MPFModels\MPFTenantModel.mweb\src\TenantModel.js|1724871226|1087
+u|MPFModels\MPFTenantModel.mweb\src\TenantsDataProxy.js|1732311152|1127
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

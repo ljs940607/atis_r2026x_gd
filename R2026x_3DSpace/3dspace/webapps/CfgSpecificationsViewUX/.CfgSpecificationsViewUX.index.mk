@@ -1,0 +1,13 @@
+m|ENOCfgBaseUX\CfgSpecificationsViewUX.mweb
+b|j|c,m
+b|c|n,u
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CfgSpecificationsViewUX\CfgSpecificationsViewTest.html|1723277610|1400
+s|ENOCfgBaseUX\CfgSpecificationsViewUX.mweb\src\CfgSpecificationsViewTest.html|1606456644|1400
+t|win_b64\webapps\CfgSpecificationsViewUX\CfgSpecificationsViewUX.js|1723277611|1515
+s|ENOCfgBaseUX\CfgSpecificationsViewUX.mweb\src\scripts\CfgSpecificationsView.js|1668427311|4780
+t|win_b64\webapps\CfgSpecificationsViewUX\styles\CfgSpecificationsView.css|1606235980|783
+s|ENOCfgBaseUX\CfgSpecificationsViewUX.mweb\src\styles\CfgSpecificationsView.css|1606235980|783
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

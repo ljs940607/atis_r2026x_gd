@@ -1,0 +1,1 @@
+define("DS/VCXWebTreeExtensions/VCXWebTreeExtensions_tr",{});define("DS/VCXWebTreeExtensions/assets/nls/VCXWebTreeExtensions",{"VCXTreeNodeSelectionSetAuthoring.ContextualMenu.AddSelectionSet":"Seçim Setine Seçim Ekle","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Delete":"Sil","VCXTreeNodeSelectionSetAuthoring.ContextualMenu.Rename":"Yeniden Adlandır"});

@@ -1,0 +1,30 @@
+{
+  "loader": {
+    "findingObjects": "Sınıflar Bulunuyor...",
+    "formulatingPaths": "Yollar Oluşturuluyor..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Ağaçta bul, geçerli seçimde gerçekleştirilemez. Lütfen bir sınıf seçin (sık kullanılan olmayan) ve tekrar deneyin.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Bırakılan nesne bir sınıf değil.",
+    "Advice": "Lütfen bir sınıf bırakın."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "Advice": "Ağacı ilgili sınıf düğümüne genişletin",
+    "Details": "Bulunacak sınıf ağaçta görünmez."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "Advice": "Kütüphaneler bölümünü birinci seviyeye genişletin.",
+    "Details": "Kütüphaneler bölümünün altında görünür kütüphane yok."
+  },
+  "msg_warning_NoObjectSelected": {
+    "Title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "Advice": "Lütfen bir sınıf seçin ve tekrar deneyin.",
+    "Details": "Bulma işlemini gerçekleştirmek için seçili sınıf yok."
+  },
+  "msg_info_limit_FindInTree": "Sınıra ulaşıldı. Sınıf bulma sınırı 100 olarak ayarlandı.",
+  "msg_info_limitToFindInRootNode": "Kütüphanelerde bulma sınırı 200 olarak ayarlı, ilk 200 sınıf dikkate alınır.",
+  "msg_info_No_Occurrence": "Herhangi bir sınıf oluşumu bulunamadı.",
+  "msg_error_while_formulating_paths": "Yollar formüle edilirken hata oluştu: erişim yok veya nesneler mevcut değil, bir süre sonra deneyin veya yöneticinizle iletişime geçin"
+}

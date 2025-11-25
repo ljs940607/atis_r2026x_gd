@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Estruturas de navegação",
+  "name_Widget_Title": "Definição de estrutura de navegação",
+  "name_Widget_Help": "Ajuda da definição de estrutura de navegação",
+  "name_Term": "Termo",
+  "name_Terminology_type": "Terminologia",
+  "terminology_pref_populateTags": "Ativar 6W Tags para filtrar estruturas de navegação",
+  "terminology_pref_activateRelationsColumns": "Mostrar relacionados",
+  "useIndexAcceleration_label": "Mostrar dados indexados",
+  "terminology_pref_autoSwitch_Label": "Alternar automaticamente do modo de banco de dados para o modo de índice",
+  "button_remove": "Remover",
+  "button_close": "Fechar",
+  "Move_label": "Mover",
+  "Copy_label": "Copiar",
+  "oneMin_Label": "1 minuto",
+  "threeMin_Label": "3 minutos",
+  "fiveMin_Label": "5 minutos",
+  "tenMin_Label": "10 minutos",
+  "Never_Label": "Nunca",
+  "Paste_content_loading": "Colar conteúdo",
+  "Remove_content_loading": "Remover conteúdo",
+  "Content_Loading": "Carregando conteúdo...",
+  "Widget_Loading": "Carregando widget...",
+  "Tree_Loading": "Carregando árvore...",
+  "New_Loading": "Carregando painel de criação...",
+  "Terminology_Loading": "Selecionando estrutura de navegação...",
+  "commands": {
+    "newBrowsingNode": "Novo nó de navegação",
+    "newBrowsingStructure": "Nova estrutura de navegação"
+  },
+  "msg_success_copyLink_terminology": "O link para a estrutura de navegação “{terminologyname}” foi copiado.",
+  "msg_success_copyLink_term": "O link para o nó de navegação “{termname}” foi copiado.",
+  "msg_success_createTerminology": "Estrutura de navegação “{terminologyName}” criada com sucesso",
+  "msg_success_createTerm": "Nó de navegação “{termName}” criado com sucesso",
+  "msg_success_createBS": "A estrutura de navegação foi criada com sucesso",
+  "msg_success_createBN": "O nó de navegação foi criado com sucesso",
+  "msg_info_terminologycopied": "{number} estrutura(s) de navegação adicionada(s) à estrutura de navegação “{terminologyname}”.",
+  "msg_info_rename_bs": "A estrutura de navegação “{name1}” foi renomeada para “{name2}”.",
+  "msg_info_rename_bn": "O nó de navegação “{name1}” foi renomeado para “{name2}”.",
+  "msg_info_refresh": "Atualização concluída.",
+  "msg_info_SortNonAvailable": "A classificação desta coluna não está disponível durante as pesquisas.",
+  "msg_info_treeFilterRemove": "Os filtros aplicados à árvore são removidos depois de adicionar uma estrutura de navegação.",
+  "msg_warning_nocurrentterminology": "Nenhuma estrutura de navegação atual: selecione uma estrutura de navegação.",
+  "msg_warning_noselection": "Pelo menos um objeto deve ser selecionado.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "O último status de expansão não será salvo.",
+    "Advice": "Recolha algumas estruturas de navegação para poder salvar o status de expansão.",
+    "Details": "Há muitas estruturas de navegação expandidas."
+  },
+  "msg_warning_copyLink": "O objeto selecionado não é uma estrutura de navegação.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "A Pesquisa no Contexto não é compatível enquanto a contagem de estruturas de navegação raiz for maior do que 200.",
+  "msg_error_Addinterminology": "Não é possível adicionar conteúdo a esta estrutura de navegação.",
+  "msg_error_CopyTerminology": "Erro ao copiar estruturas de navegação.",
+  "msg_error_MoveInterminology": "Erro ao mover objetos.",
+  "msg_error_MoveInSameterminology": {
+    "title": "Selecione uma estrutura de navegação diferente. ",
+    "subtitle": "A estrutura de navegação de destino e as estruturas de navegação de origem são iguais."
+  },
+  "msg_error_rename": {
+    "Title": "Não é possível renomear o item de navegação: {name}.",
+    "Advice": "Verifique se o nome já não está sendo usado ou se você está usando as credenciais corretas.",
+    "Details": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para renomear esse objeto."
+  },
+  "msg_error_invalidselection": "O comando não pode ser iniciado sem uma seleção",
+  "msg_error_name_maxlength": "Insira um “{name}” com um máximo de {maxLength} caracteres.",
+  "msg_error_name_empty": "Insira um valor para o nome.",
+  "msg_error_TerminologyActivate": {
+    "title": "Não é possível ativar {name1}.",
+    "subtitle": "O objeto pode ter sido excluído ou você pode não ter as permissões requeridas."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Associe uma estrutura de navegação a este nó de navegação.",
+    "subtitle": "A estrutura de navegação pode não estar visível. Por exemplo, ela pode não estar ativa. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Não é possível expandir a árvore.",
+    "subtitle": "Atualize o aplicativo e tente novamente ou entre em contato com o administrador para receber suporte."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} contém caracteres inválidos: {badChars}.",
+    "Advice": "Você não pode usar nenhum dos seguintes caracteres: Mensagem:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "O conteúdo da estrutura de navegação não está mais acessível.",
+    "subtitle": "Atualize o widget.",
+    "message": "O conteúdo pode ter sido excluído ou você pode não ter as permissões necessárias."
+  },
+  "msg_InfoAction_Timeout": "Nenhuma resposta recebida da ação iniciada dentro do período limite. O tempo de execução da ação pode ser mais longo. O resultado pode ficar visível em instantes após uma atualização manual.",
+  "msg_error_timeout": {
+    "title": "A conexão com o servidor expirou.",
+    "subtitle": "Verifique sua conexão ou reduza a quantidade de dados enviados durante essa operação."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Esta estrutura de navegação não está mais acessível.",
+    "subtitle": "Atualize o widget.",
+    "message": "A estrutura de navegação pode ter sido excluída ou você não tem as permissões necessárias."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Esta estrutura de navegação não está mais acessível.",
+    "subtitle": "Atualize o widget.",
+    "message": "Você não tem as permissões necessárias."
+  },
+  "msg_error_copylink": {
+    "title": "Não é possível copiar o link para a área de transferência. ",
+    "subtitle": " Repita a operação ou entre em contato com o administrador para obter suporte. "
+  },
+  "msg_error_createNewFromFramework": "Criar Novo falhou :",
+  "msg_error_createNew": {
+    "Title": "Não é possível criar este objeto: {type}.",
+    "Advice": "Verifique se você está usando as credenciais corretas.",
+    "Details": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para criar esse tipo de objeto."
+  },
+  "msg_error_rest": {
+    "title": "O servidor foi desconectado inesperadamente.",
+    "subtitle": "Entre em contato com o administrador para obter suporte."
+  },
+  "msg_warning_notProductRoot": "O objeto não foi encontrado.",
+  "msg_warning_contentnotavailable": "Não foi possível recuperar o conteúdo. Ele pode ter sido excluído ou definido para o estado privado.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "Não é possível remover conteúdo.",
+    "advice": "Selecione uma subterminologia para refinar os resultados da pesquisa.",
+    "details": "Não é possível remover conteúdo de mais de 20 estruturas de navegação."
+  },
+  "CMDClearSort": "Apagar classificação",
+  "CMDShareTerminologyLink": "Copiar Link",
+  "CMDShowInTerminologies": "Exibir em Estruturas de navegação",
+  "alpha_sorting": "Ordem alfabética",
+  "alpha_sort_label": "Título",
+  "date_sorting": "Ordem de data",
+  "date_sort_label": "Data da modificação",
+  "fonticon_filter": "O conteúdo do painel está filtrado no momento",
+  "loadingText": "Carregando...",
+  "SearchEnterMoreThan": "O mínimo de {minNumber} caracteres é necessário para a pesquisa.",
+  "confirmation_move_title": "Mover o conteúdo",
+  "confirmation_move_message": "Deseja mover o conteúdo de {source} para {target} ?",
+  "confirmation_move_message_monosel": "Deseja mover {selection} de {source} para {target} ?",
+  "confirmation_move_message_mono_from_tree": "Deseja mover {source} para {target} ?",
+  "confirmation_move_message_multisel": "Deseja mover itens {nth} de {source} para {target} ?",
+  "confirmation_move_button": "Mover",
+  "confirmation_info": "Atributos diferentes de título e descrição são perdidos durante a conversão de \n{From} para {To}. Todos os atributos são copiados para objetos filhos.",
+  "authentication_error": {
+    "title": "Não é possível iniciar o widget especificado.",
+    "subtitle": "Verifique suas credenciais e tente novamente."
+  },
+  "noPlatform_error": "Este aplicativo não está disponível em nenhuma de suas plataformas.",
+  "placeholder_msg_terminology": "Esta estrutura de navegação está atualmente vazia.",
+  "placeholder_CreateTerminology": "Nova estrutura de navegação",
+  "placeholder_CreateTerm": "Novo nó de navegação",
+  "column_Thumbnail": "Miniatura",
+  "placeholder_msg_section": "Nenhuma estrutura de navegação criada.",
+  "placeholder_msg_terms": "Nenhum nó de navegação criado",
+  "placeholder_msg_search": "Nenhum resultado encontrado.",
+  "refresh_ongoing": "Atualizando...",
+  "refresh_ok": "Atualização concluída",
+  "refreshError": {
+    "title": "Não é possível atualizar o widget.",
+    "subtitle": "Entre em contato com o administrador para obter suporte."
+  },
+  "success": "Êxito",
+  "warning": "Aviso",
+  "information": "Informações",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Este conteúdo não está mais acessível.",
+    "Advice": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para criar esse tipo de objeto.",
+    "Details": "O objeto pode ter sido excluído ou você pode não ter as permissões necessárias."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Não é possível colar.",
+    "InvalidParameters": "Os objetos selecionados não podem ser colados neste destino. ",
+    "BNDestination": "Os nós de navegação não podem ser colados na seção Estruturas de navegação.",
+    "BSDestination": "A estrutura de navegação pode ser colada somente na seção Estruturas de navegação."
+  },
+  "msg_paste_error": "Não é possível colar.",
+  "indexMode": {
+    "Authoring": "Banco de dados.",
+    "Index": "Índice.",
+    "Label": "Índice",
+    "seconds": "segundo(s)",
+    "minutes": "minuto(s)",
+    "hours": "hora(s)",
+    "msg_Authoring": "O modo de banco de dados está ativo. O desempenho pode ser afetado.",
+    "activeMode": "Modo ativo: {mode}",
+    "lastRefresh": "Última atualização: {timeElapsed} atrás.",
+    "reactIndexMode": "O modo de índice será reativado em {autoSwitch} minutos a partir do momento da operação de criação ou atualização.",
+    "info_msg_DataNotUptoDate": "O modo de índice está ativo. Os dados podem não estar atualizados."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "A estrutura de navegação {name} selecionada não está visível na árvore, role para visualizar e selecioná-la.",
+  "ViewTooltip": {
+    "ds6w:label": "Título",
+    "ds6w:modified": "Data da modificação",
+    "ds6w:responsible": "Proprietário",
+    "ds6w:type": "Tipo",
+    "ds6w:status": "Estado de Maturidade",
+    "ds6w:project": "Espaço colaborativo",
+    "ds6w:identifier": "Nome"
+  },
+  "notifications": {
+    "expandTooLarge": "Muitos objetos recuperados.<br> Restrinja a navegação utilizando filtros ou reduza o nível de expansão.",
+    "initialization_error": {
+      "title": " O aplicativo encontrou um erro inesperado.",
+      "subtitle": "Entre em contato com o administrador para obter suporte."
+    },
+    "tooManyResultFound": "A pesquisa é limitada a {maxResult} resultados. Refine a consulta."
+  },
+  "generic_service_failure": "Falha ao recuperar informações do objeto. Tente novamente em alguns minutos. Se o problema persistir, entre em contato com o administrador",
+  "cannot_insert_branch": "Falha ao adicionar objeto",
+  "cannot_access_after_changeowner": "Não é possível acessar o objeto após uma alteração de propriedade"
+}

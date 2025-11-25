@@ -1,0 +1,14 @@
+{
+  "caOK": "Azione di modifica generata correttamente",
+  "caKO": "Generazione azione di modifica non riuscita",
+  "taskOK": "Attività generata correttamente",
+  "taskKO": "Generazione attività non riuscita",
+  "issueOK": "Problema generato correttamente",
+  "issueKO": "Generazione del problema non riuscita",
+  "caAttached": "L'azione di modifica è stata allegata al problema principale",
+  "caNotAttached": "L'azione di modifica non è stata allegata al problema principale",
+  "taskAttached": "Attività allegata al problema principale",
+  "taskNotAttached": "Attività non allegata al problema principale",
+  "ticSection": "Genera problema",
+  "ticTemplateIssue": "Utilizza sempre un modello per generare un problema"
+}

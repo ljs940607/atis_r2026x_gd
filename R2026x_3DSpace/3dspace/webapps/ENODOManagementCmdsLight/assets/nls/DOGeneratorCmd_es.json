@@ -1,0 +1,66 @@
+{
+  "title": "Generar salida derivada",
+  "buttons": {
+    "generate": "Generar",
+    "reset": "Restaurar valor predeterminado",
+    "cancel": "Cancelar"
+  },
+  "loading": "Cargando los objetos",
+  "optionsLabel": "Opciones",
+  "optionFormat": "Formato",
+  "optionUniqueFormat": "El formato de salida derivado será: {oFormat}.",
+  "warning": {
+    "title": "Advertencia",
+    "noFormat": "No hay ningún formato disponible para la generación de salida derivada. Póngase en contacto con el administrador."
+  },
+  "error": {
+    "title": "Error",
+    "noSelection": "Seleccione el objeto que desea exportar antes de hacer clic en el comando para generar una salida derivada.",
+    "jobFailed": "No se puede generar la salida derivada.{oMsg}",
+    "security_context_fail": "No se puede recuperar el contexto de seguridad para el usuario asociado.",
+    "expandIssue": {
+      "Title": "No se puede expandir el objeto porque no se han indexado todos los datos.",
+      "Subtitle": "Espere unos minutos e inténtelo de nuevo."
+    },
+    "wrongSelection": "Seleccione los datos que se han guardado en 3DExperience antes de hacer clic en el comando.",
+    "code401": {
+      "Title": " No se pueden autenticar sus credenciales.",
+      "Subtitle": "Código de error: 401."
+    },
+    "code400": {
+      "Title": "Se ha producido un error inesperado.",
+      "Subtitle": "Póngase en contacto con su administrador para recibir asistencia.",
+      "Message": " Código de error: 400"
+    },
+    "invalidPhID": "Seleccione los datos que se han guardado en 3DExperience antes de hacer clic en el comando.",
+    "doCreationTimeout": "La solicitud está tardando más de lo esperado en completarse. Espere."
+  },
+  "info": {
+    "title": "Información",
+    "upToDate": "La salida derivada de los objetos seleccionados está actualizada. No hay nada que generar.",
+    "generationLaunched": "Se generará la salida derivada. Este proceso puede tardar unos minutos.",
+    "generationOnRep": "Las salidas derivadas solo se generarán para las representaciones.",
+    "jobsCreated": "Se han creado {oJobs} trabajos de salida derivados.",
+    "jobCreated": "Se ha creado un trabajo de salida derivado.",
+    "noJobCreated": "No se ha generado ningún trabajo. Es posible que el formato seleccionado no sea aplicable, que ya se haya enviado un trabajo de salida derivada duplicado o que el formato de salida derivada se haya generado y esté en estado sincronizado."
+  },
+  "column": {
+    "format": "Formato de destino",
+    "connector": "Origen",
+    "type": "Tipo",
+    "parameters": "Parámetros",
+    "converter": "Conversor",
+    "usage": "Formato unificado",
+    "forceUpdate": "Forzar actualización"
+  },
+  "type": {
+    "catpart": "Pieza",
+    "sldprt": "Pieza",
+    "prt": "Pieza",
+    "ipt": "Pieza",
+    "catdrawing": "Dibujo",
+    "slddrw": "Dibujo",
+    "dxf": "Dibujo",
+    "dwg": "Dibujo"
+  }
+}

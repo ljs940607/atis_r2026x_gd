@@ -1,0 +1,1 @@
+define("DS/RunYourApp/RunYourApp_zh-TW",{});define("DS/RunYourApp/assets/nls/RunYourApp",{urlLabel:"Web 應用程式 Url",insertUrl:"請插入 URL。",submitURLBtn:"執行"});

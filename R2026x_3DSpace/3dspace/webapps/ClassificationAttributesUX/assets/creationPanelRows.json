@@ -1,0 +1,109 @@
+{
+    "type": {
+        "id": "type",
+        "label": "",
+        "typeRepresentation": "customEnumMember",
+        "value": "String",
+        "semantics": {
+            "possibleValues": []
+        },
+        "requiredFlag": true
+    },
+    "internalName": {
+        "id": "internalName",
+        "label": "",
+        "typeRepresentation": "string",
+        "requiredFlag": true,
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "6wPredicate": {
+        "id": "6wPredicate",
+        "label": "",
+        "typeRepresentation": "string",
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "enable6wPredicate": {
+        "id": "enable6wPredicate",
+        "label": "",
+        "typeRepresentation": "independantBoolean",
+        "value": false,
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "title": {
+        "id": "title",
+        "label": "",
+        "typeRepresentation": "string",
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        },
+        "invalidFlag": true,
+        "onNodeUpdate": "validation"
+    },
+    "behavior": {
+        "id": "behavior",
+        "label": "",
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "multivalued": {
+        "id": "multivalued",
+        "label": "",
+        "typeRepresentation": "independantBoolean",
+        "value": false,
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "multiline": {
+        "id": "multiline",
+        "label": "",
+        "typeRepresentation": "independantBoolean",
+        "value": false,
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "authorizedValues": {
+        "id": "authorizedValues",
+        "label": "",
+        "typeRepresentation": "string",
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "hasADefaultValue": {
+        "id": "hasADefaultValue",
+        "label": "",
+        "typeRepresentation": "independantBoolean",
+        "value": false,
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    },
+    "defaultValue": {
+        "id": "defaultValue",
+        "label": "",
+        "typeRepresentation": "string",
+        "moreInformation": {
+            "shortHelp": "",
+            "longHelp": ""
+        }
+    }
+}
+

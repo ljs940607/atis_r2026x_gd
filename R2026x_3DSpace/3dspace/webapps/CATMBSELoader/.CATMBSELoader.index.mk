@@ -1,0 +1,11 @@
+m|CATMBSEMagicExperience\CATMBSELoader.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25220|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CATMBSELoader\CATMBSELoader.js|1754716624|2539
+s|CATMBSEMagicExperience\CATMBSELoader.mweb\src\CATIAMagicReportCommentsCtrl.js|1751618523|3792
+u|CATMBSEMagicExperience\CATMBSELoader.mweb\src\CATIAMagicReportController.js|1753712618|2658
+u|CATMBSEMagicExperience\CATMBSELoader.mweb\src\CATIAMagicReportLoader.js|1753712572|2900
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

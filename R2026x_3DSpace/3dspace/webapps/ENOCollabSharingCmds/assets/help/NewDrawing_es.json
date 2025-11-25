@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"Nuevo dibujo",
+"ENONewDrawingHdr.ShortHelp":"Crea un nuevo dibujo.",
+"ENONewDrawingHdr.LongHelp":"En el cuadro de diálogo, introduzca un título, los atributos (en su caso) y, opcionalmente seleccione una plantilla para elegir el CAD maestro. Haga clic en <uicontrol>Crear y cerrar</uicontrol> para crear solo un dibujo, o en <uicontrol>Crear</uicontrol> para crear otro.",
+"ENOInsertNewDrawingHdr.Title":"Insertar dibujo nuevo",
+"ENOInsertNewDrawingHdr.ShortHelp":"Crea un nuevo dibujo y lo agrega como hijo a los objetos seleccionados.",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>En el cuadro de diálogo, introduzca un título y, opcionalmente, seleccione una plantilla para elegir el CAD maestro. Haga clic en <uicontrol>Crear y cerrar</uicontrol> para crear un solo dibujo, o en <uicontrol>Crear</uicontrol> para crear otro.</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

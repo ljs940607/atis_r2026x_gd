@@ -1,0 +1,15 @@
+{
+  "confirmUpdateTitle": "Potwierdzenie aktualizacji",
+  "confirmUpdateMsg": "Czy chcesz kontynuować tę operację?\nCo najmniej jeden obiekt został zmodyfikowany w sesji i nie został jeszcze zapisany.",
+  "confirmationMsg": "Kontynuowanie tej operacji uniemożliwi jego późniejsze zapisanie.",
+  "cancelUpdate": "Anuluj",
+  "continueUpdate": "Kontynuuj",
+  "titleNbObject": "Obiekty: {nb}",
+  "sessionRefreshNeeded": {
+    "title": "Wymagane odświeżenie",
+    "subtitle": "Niektóre obiekty w sesji muszą zostać odświeżone.",
+    "message": "Odświeżone obiekty utracą najnowsze modyfikacje."
+  },
+  "refresh": "Odśwież sesję",
+  "checkInSession": "Sprawdzanie bieżących obiektów w sesji..."
+}

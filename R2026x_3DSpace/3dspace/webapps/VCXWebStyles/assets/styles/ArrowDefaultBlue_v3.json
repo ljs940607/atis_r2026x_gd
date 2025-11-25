@@ -1,0 +1,102 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.33725490196078434,
+        0.5254901960784314,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Arrow.Head.ShowMode",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Arrow.Head.2.ShowMode",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Border.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Border.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 2
+    },
+    {
+      "name": "Collab.Border.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Arrow.Body.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.7215686274509804,
+        0.8705882352941177,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Arrow.Body.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Border.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.49019607843137253,
+        0.6392156862745098,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Border.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Arrow.Body.2.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.4666666666666667,
+        0.8431372549019608,
+        0.9294117647058824,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Arrow.Body.2.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Border.Line.2.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.49019607843137253,
+        0.6392156862745098,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Border.Line.2.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    }
+  ],
+  "name": "ArrowDefaultBlue_v3",
+  "objectID": "styleID_ArrowDefaultBlue_v3",
+  "visible": true
+}

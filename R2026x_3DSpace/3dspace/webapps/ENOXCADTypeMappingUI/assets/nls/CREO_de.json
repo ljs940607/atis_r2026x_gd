@@ -1,0 +1,13 @@
+{
+  "busTypeMapping": "Bustypzuordnung",
+  "assemblyLabel": "Baugruppe",
+  "assemblyInfo": "Ändern Sie die Typzuordnung für den Baugruppen-CAD-Typ in 3DEXPERIENCE Typ",
+  "assemblyInstanceLabel": "Baugruppeninstanz",
+  "assemblyInstanceInfo": "Typzuordnung für CAD-Typ der Baugruppeninstanz in 3DEXPERIENCE Typ ändern",
+  "componentLabel": "Komponente",
+  "componentInfo": "Ändern Sie die Typzuordnung für den Komponenten-CAD-Typ in 3DEXPERIENCE Typ",
+  "componentInstanceLabel": "Komponenteninstanz",
+  "componentInstanceInfo": "Typzuordnung für CAD-Typ der Komponenteninstanz in 3DEXPERIENCE Typ ändern",
+  "drawingLabel": "Zeichnung",
+  "drawingInfo": "Ändern Sie die Typzuordnung für den Zeichnungs-CAD-Typ in 3DEXPERIENCE Typ"
+}

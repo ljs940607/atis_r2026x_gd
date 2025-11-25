@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Je podporován pouze soubor STEP AP242",
+    "IFC_UNSUPPORT": "Podporovány jsou pouze formáty souborů IFC2X3, IFC4 a IFC4X3_ADD2",
+    "NO_TESSELLATION": "Je podporován pouze soubor STEP s mozaikovými daty",
+    "NO_ZIP": "Formát ZIP není podporován",
+    "EMPTY_ROOT": "Kořenová složka dokumentu BEZ geometrie",
+    "NO_REP": "Dokument bez podporované reprezentace (výrobek nebo díl)",
+    "EXT_REF": "Dokument s externí referencí není podporován. Jsou podporovány pouze monolitické soubory",
+    "EMPTY_PROD": "Dokument výrobku BEZ mozaikované geometrie",
+    "NO_STPXZ": "stpxz v archivu ještě není podporováno"
+  },
+  "warning": {
+    "MISSING_PART": "některé propojené soubory chybí"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "activeClassification_cmd": "使用中的分類",
+  "name_Section_FavoriteLibraries": "最愛",
+  "name_Section_AllLibraries": "資料庫",
+  "activeClassification_hover_access": "存取權",
+  "activeClassification_msg_empty": "空白",
+  "activeClassification_msg_noclassfoud": "找不到分類",
+  "activeClassification_btn_focus": "專注於設定分類",
+  "CMDExpandAll": "全部展開",
+  "CMDCollapseAll": "全部摺疊",
+  "multiSelectionComponent": {
+    "button_OK": "分類",
+    "button_Cancel": "取消",
+    "widget_name": "在資料庫中分類",
+    "PLMNewLibraryWidgetName": "選擇類別",
+    "PLMNewbutton_OK": "選擇",
+    "msg_ClassifyInProgress": "正在分類...",
+    "msg_ClassifySuccessful": "分類成功。",
+    "msg_ClassifyFailed": "分類時發生錯誤。可能是您沒有分類存取權，或其已分類至指定的類別。",
+    "msg_selectNodeToSeeInfo": "選擇資料庫或類別以查看其詳細資料。",
+    "msg_selection_Incorrect": "目前所選範圍不正確，無法啟動指令",
+    "msg_info_favoriteadded": "「{name1}」已加入至最愛項目。",
+    "msg_info_favoriteremoved": "「{name1}」已從最愛項目中移除。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+    "defaultColumns": [ 
+        {
+            "name": "title" ,
+            "nlsKey": "TITLE",
+            "pinned": "left", 
+            "curi": "ds6w:label"
+        },
+        {
+            "name": "name",
+            "nlsKey": "NAME",
+            "curi": "ds6w:identifier"
+        },
+        {
+            "name": "typeNLS",
+            "nlsKey": "TYPE",
+            "curi": "ds6w:type"
+        },
+        {
+            "name": "policyNLS",
+            "nlsKey": "COLLABORATIVE_POLICY",
+            "hiddenAlways": true
+        },
+        {
+            "name": "collabSpaceTitle",
+            "nlsKey": "COLLABORATIVE_SPACE",
+            "curi": "ds6w:project"
+        },
+        {
+            "name": "revision",
+            "nlsKey": "REVISION",
+            "curi": "ds6wg:revision"
+        },
+        {
+            "name": "isLatestRevision",
+            "nlsKey": "IS_LATEST_REVISION"
+        },
+        {
+            "name": "files",
+            "nlsKey": "FILES"
+        },
+        {
+            "name": "lockStatus",
+            "nlsKey": "LOCK_STATUS",
+            "curi": "ds6w:who/ds6w:responsible/ds6w:reservedBy"
+        },
+        {
+            "name": "description",
+            "nlsKey": "DESCRIPTION",
+            "visibleFlag": false,
+            "curi": "ds6w:description"
+        },
+        {
+            "name": "organizationTitle",
+            "nlsKey": "ORGANIZATION",
+            "visibleFlag": false,
+            "curi": "ds6w:organizationResponsible"
+        },
+        {
+            "name": "owner",
+            "nlsKey": "OWNER",
+            "curi": "ds6w:responsible"
+        },
+        {
+            "name": "originator",
+            "nlsKey": "ORIGINATOR",
+            "visibleFlag": false,
+            "curi": "ds6w:originator"
+        },
+        {
+            "name": "stateNLS",
+            "nlsKey": "MATURITY"
+        },
+        {
+            "name": "originated",
+            "nlsKey": "CREATION_DATE",
+            "visibleFlag": false,
+            "curi": "ds6w:created"
+        },
+        {
+            "name": "modified",
+            "nlsKey": "MODIFIED_DATE",
+            "curi": "ds6w:modified"
+        },
+        {
+            "name": "comments",
+            "nlsKey": "COMMENTS",
+            "visibleFlag": false
+        },
+        {
+            "name": "fileExtension",
+            "visibleFlag": false,
+            "curi": "ds6w:docExtension",
+            "nlsKey": "FILE_TYPE"
+        }
+    ],
+    "externalColumns": [
+        {
+            "name": "approvalStatus",
+            "nlsKey" : "APPROVAL_STATUS",
+            "visibleFlag": false
+        }
+    ]
+}

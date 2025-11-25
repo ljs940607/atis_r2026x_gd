@@ -1,0 +1,1 @@
+define("DS/ENO3DUtils/ENO3DUtils_tr",{});define("DS/ENO3DUtils/assets/nls/ENO3DUtils",{mePreferenceLoadingFailureTitle:"Uygulama tercihleriniz alınamıyor",mePreferenceLoadingFailureSubtitle:"Varsayılan tercih değerleri kullanılır.",mePreferenceLoadingFailureDescritption:"Daha sonra tekrar deneyin. Sorun devam ederse destek için yöneticinizle iletişime geçin."});

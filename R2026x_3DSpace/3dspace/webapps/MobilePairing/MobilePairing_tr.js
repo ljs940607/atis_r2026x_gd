@@ -1,0 +1,1 @@
+define("DS/MobilePairing/MobilePairing_tr",{});define("DS/MobilePairing/assets/nls/mobilePairing",{description:"Mobil uygulamanızı 3DEXPERIENCE Platform ile eşleştirmek için aşağıdaki kodları kullanın"});

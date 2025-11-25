@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir nesne oluşturmak için ilgili JSON'u ayrıştırır.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verilerinin nesne tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "JSON": "ayrıştırılacak JSON.",
+    "Object": "oluşturulan nesne."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

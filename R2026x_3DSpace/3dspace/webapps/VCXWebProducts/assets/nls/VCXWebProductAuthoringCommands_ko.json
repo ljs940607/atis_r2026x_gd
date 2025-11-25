@@ -1,0 +1,19 @@
+{
+  "VCXSelectElementMessage": "개체 선택",
+  "VCXCaptureInNeutralsCmd": "기본값으로 저장",
+  "VCXRestoreNeutralsCmd": "기본값 복원",
+  "VCXFormatPainterCmd": "표현 복사",
+  "VCXArrowOrientationCmd": "화살표 방향",
+  "VCXChangeInteractionCmd": "상호작용",
+  "VCXArrowOrientationCircularCmd": "화살표 방향",
+  "VCXSingleFormatPainterCmd": "표현 한 번 복사",
+  "VCXMultipleFormatPainterCmd": "표현 여러 번 복사",
+  "VCXAddCameraKeyCmd": "카메라 위치 업데이트",
+  "VCXDeleteSceneSelectionCmd": "선택한 장면 삭제",
+  "VCXReplaceScenarioCmd": "장면 대치",
+  "VCXCreateScenarioCmd": "새 장면에 캡처",
+  "VCXCreateEmptyScenarioCmd": "빈 장면 생성",
+  "VCXShowUpdateViewCmd": "자산 업데이트",
+  "VCXApplyToSelectedCmd": "선택한 화면에 속성과 가시성 적용",
+  "VCXApplyToAllCmd": "모든 화면에 속성과 가시성 적용"
+}

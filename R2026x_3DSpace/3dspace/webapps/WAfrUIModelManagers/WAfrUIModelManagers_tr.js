@@ -1,0 +1,1 @@
+define("DS/WAfrUIModelManagers/WAfrUIModelManagers_tr",{});define("DS/WAfrUIModelManagers/assets/nls/ActionBarContextMenu",{"iconLabel.title":"Komutların Adını Görüntüle","iconLabelHide.title":"Komutların Adını Gizle","resetActionBar.title":"Konumu Sıfırla"});define("DS/WAfrUIModelManagers/assets/nls/WAfrCategories",{"WAfrStandard.Title":"Standart"});

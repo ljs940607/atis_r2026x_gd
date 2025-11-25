@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Neues Teil",
+"ENONewPartHdr.ShortHelp":"Erstellt ein neues Teil.",
+"ENONewPartHdr.LongHelp":"Geben Sie im Dialogfeld einen Titel und ggf. die erforderlichen Attribute ein. Anschließend können Sie eine Vorlage auswählen, um den CAD-Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und Schließen</uicontrol> , um nur ein Teil zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um ein weiteres Teil zu erstellen.",
+"ENOInsertNewPartHdr.Title":"Neues Teil einfügen",
+"ENOInsertNewPartHdr.ShortHelp":"Erstellt ein neues Teil und fügt es als untergeordnetes Element zu den ausgewählten Objekten hinzu.",
+"ENOInsertNewPartHdr.LongHelp":"<p>Geben Sie im Dialogfeld einen Titel ein und wählen Sie ggf. eine Vorlage aus, um den CAD- Ausgang zu bestimmen. Klicken Sie auf <uicontrol>Erstellen und schließen</uicontrol> , um nur ein Teil zu erstellen, oder auf <uicontrol>Erstellen</uicontrol> , um ein weiteres Teil zu erstellen.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

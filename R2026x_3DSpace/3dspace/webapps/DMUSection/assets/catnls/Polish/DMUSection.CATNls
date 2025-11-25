@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Wytnij";
+DMUSection.DMUSectionNoCutHdr.Title="Bez cięcia";
+DMUSection.DMUSectionGridHdr.Title="Siatka";
+DMUSection.DMUSectionFlipHdr.Title="Odwróć";
+DMUSection.DMUSectionNormalToXHdr.Title="Położenie na X";
+DMUSection.DMUSectionNormalToYHdr.Title="Położenie na Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Położenie na Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Pozycja z geometrii";
+DMUSection.DMUSectionMoveHdr.Title="Przesuń punkt widzenia";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Dodatkowa przeglądarka przekrojów";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Przekrój selektywny";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Usuń";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Zakończ edycję przycinającą";
+DMUSection.DMUClippingEditionHdr.Title="Edytuj przycinanie";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Przytnij za pomocą elementu konstrukcyjnego";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Przytnij za pomocą przekroju";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Zmień rozmiar na podstawie wybranych obiektów";
+DMUSection.DMUResetClippingPlaneHdr.Title="Zresetuj przycinanie";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Przypnij za pomocą przekroju";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Zmień rozmiar na podstawie wybranych obiektów";
+DMUSection.DMUResetClippingSliceHdr.Title="Zresetuj przycinanie";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Przytnij za pomocą ramki";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Zmień rozmiar na podstawie wybranych obiektów";
+DMUSection.DMUResetClippingBoxHdr.Title="Zresetuj przycinanie";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Położenie wzdłuż osi X.";
+DMUSection.DMUClippingNormalToYHdr.Title="Położenie wzdłuż osi Y";
+DMUSection.DMUClippingNormalToZHdr.Title="Położenie wzdłuż osi Z.";
+DMUSection.DMUClippingNormalUserHdr.Title="Położenie z wybranej geometrii";
+DMUSection.DMUClippingReverseHdr.Title="Odwróć przycinanie";
+DMUSection.DMUContourViewerHdr.Title="Dodatkowa przeglądarka przekrojów";
+DMUSection.DMUClippingPositionHdr.Title="Położenie przycinania…";
+DMUSection.DMUAlignViewHdr.Title="Wyrównaj punkt widzenia";
+DMUSection.DMUHideShowHdr.Title="Ukryj/Pokaż";
+DMUSection.DMUCutUncutHdr.Title="Wytnij/odetnij…";
+DMUSection.DMUClippingEditStr.Title="Przycinanie";
+DMUSection.DMUClippingPropertiesHdr.Title="Właściwości";

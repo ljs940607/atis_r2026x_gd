@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "Моя личная папка закладок",
+  "name_Section_FolderSection_favorite": "Избранное",
+  "name_Section_FolderSection_AllFolders": "Папки закладок",
+  "name_Section_TerminologySection_AllTerminologies": "Структуры просмотра",
+  "name_Section_ParentFolders": "Родительские папки закладок: {number}",
+  "www_multisel_forbidden": "Множественный выбор не поддерживается для выбранных объектов",
+  "wwwLinkType": "URL-адрес",
+  "folder_pref_dnd": "Перетаскивание",
+  "default_pref_label": "Предпочтительная метка",
+  "cannot_insert_branch": "Сбой при извлечении информации об объекте. Повторите попытку через несколько минут. Если проблема не устранена, обратитесь к администратору",
+  "export_level": "Уровень",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "Скрыть дочерние продукты, добавленные в закладки",
+  "folder_pref_allow_products_expand": "Включить расширение продуктов",
+  "folder_pref_subfolder": "Показать дочерние папки закладок в виде содержимого",
+  "folder_pref_populateTags": "Разрешить теги 6W для фильтрации папок закладок",
+  "useIndexAcceleration_label": "Показать индексированные данные",
+  "folder_pref_autoSwitch_Label": "Автоматическое переключение из режима базы данных в режим индексирования",
+  "button_remove": "Удалить",
+  "button_close": "Закрыть",
+  "button_treeOrder": "Настроить порядок дерева",
+  "Move_label": "Переместить",
+  "Copy_label": "Копия",
+  "oneMin_Label": "1 минута",
+  "threeMin_Label": "3 минуты",
+  "fiveMin_Label": "5 минут",
+  "tenMin_Label": "10 минут",
+  "Never_Label": "Никогда",
+  "Upload_content_loading": "Загрузить содержимое",
+  "AddExisting_content_loading": "Добавить существующее содержимое",
+  "AddContentError": "Объект(ы) уже подключены.",
+  "Paste_content_loading": "Вставить содержимое",
+  "Remove_content_loading": "Удалить содержимое",
+  "Remove_shortcut_loading": "Удалить ярлык",
+  "Replace_revision_loading": "Замена содержимого последней редакцией",
+  "LoadAttributes_Loading": "Загрузка атрибутов перекрестной службы...",
+  "Content_Loading": "Загрузка содержимого...",
+  "LoadingView_Loading": "Загрузка вида...",
+  "CheckingAccess_Loading": "Проверка доступа к папке закладок...",
+  "Widget_Loading": "Загрузка виджета...",
+  "BookmarksTree_Loading": "Загрузка дерева...",
+  "FavoriteBkTree_Loading": "Загрузка дерева избранного...",
+  "PersonalTree_Loading": "Загрузка персонального дерева...",
+  "ExpandAndSelect_Loading": "Переход к {typeStruct}...",
+  "Bookmark_Loading": "Выбор папки закладок...",
+  "SetActiveBookmark_Loading": "Установка новой глобальной папки закладок по умолчанию...",
+  "UnsetActiveBookmark_Loading": "Отмена установки глобальной папки закладок по умолчанию...",
+  "EnableActiveBookmark_Loading": "Включение глобальной папки закладок по умолчанию...",
+  "DisableActiveBookmark_Loading": "Отключение глобальной папки закладок по умолчанию...",
+  "New_Loading": "Загрузка панели создания...",
+  "Shared_label": "Общее",
+  "Personal_label": "Личное",
+  "label_ActionBar_AddToFavorites": "Добавить или удалить элементы избранного",
+  "label_ActionBar_RemoveFromFavorites": "Удалить из избранного",
+  "label_title_NewBookmark": "Новая папка закладок",
+  "newBookmark_typeNls": "Папка закладок",
+  "msg_success_copyLink_content": "Ссылка на документ '{filename}' в {typeStruct} '{foldername}' скопирована.",
+  "msg_success_copyLink_folder": "Ссылка на {typeStruct} '{foldername}' скопирована.",
+  "msg_success_favoriteReordered": "Переупорядочено.",
+  "msg_info_contentcopied": "Содержимое скопировано.",
+  "msg_info_contentcut": "Содержимое вырезано.",
+  "msg_info_objetremoved": "Объекты ({number}) удалены из {typeStruct} '{foldername}'.",
+  "msg_info_LinkRemoved": "Ссылки ({number}) удалены из {typeStruct} '{foldername}'.",
+  "msg_info_objectremovedfromfolders": "Объект '{objectname}' успешно удален из {number} {typeStruct} объектов.",
+  "msg_info_notConnectToBk": "Он не был прикреплен к {number} {typeStruct} объектам",
+  "msg_info_objetnotremoved": "Объекты ({number}), которые нужно удалить, не вложены в {typeStruct} '{foldername}'.",
+  "msg_info_Addinfolder": "Объекты ({objectsAdded}) добавлены в {typeStruct} {targetfolder}, объекты для добавления ({objectsAlreadyPresent}) уже присутствуют.",
+  "msg_info_Addinfolder_1": "Объекты ({objectsAdded}) добавлены в {typeStruct} {targetfolder}.",
+  "msg_info_Addinfolder_2": "{objectsAlreadyPresent} Объект(ы), которые необходимо добавить, уже присутствуют.",
+  "msg_info_objetadded": "Файл {filename} добавлен в '{foldername}'.",
+  "msg_info_objetmoved": "Объекты ({objectsMoved}) перемещены в {typeStruct} {targetfolder}, объекты для перемещения ({objectsAlreadyPresent}) уже присутствуют.",
+  "msg_info_objetmoved_1": "Объекты ({objectsMoved}) перемещены в {typeStruct} {targetfolder}.",
+  "msg_info_foldercopied": "Объекты {number} {typeNode} добавлены в {typeStruct} '{foldername}'.",
+  "msg_info_rootCreated": "Создано объектов {typeNode}: {number}.",
+  "msg_info_foldercopied_2": "Объекты {typeNode} ({number}) добавлены в '{foldername}'.",
+  "msg_info_objetmoved_2": "Объекты ({objectsAlreadyPresent}), которые необходимо переместить, уже присутствуют.",
+  "msg_info_foldermoved": "{number}{typeNode} объекты перемещены в {typeStruct} '{foldername}'.",
+  "msg_info_filecheckedout": "Файл разрегистрирован.",
+  "msg_info_filecheckedin": "Файл зарегистрирован.",
+  "msg_info_filecancelcheckout": "Операция редактирования файла отменена.",
+  "msg_info_favoriteadded": "Папка закладок '{name1}' добавлена в избранное.",
+  "msg_info_favoriteremoved": "Папка закладок '{name1}' удалена из избранного.",
+  "msg_info_favoritesremoved": "Папки закладок ({number}) удалены из избранного.",
+  "msg_info_favoriterenamed": "Элемент избранного {name1} переименован в {name2}.",
+  "msg_info_rename": "{typeStruct} '{name1}' переименован в '{name2}'.",
+  "msg_info_refresh": "Обновление выполнено.",
+  "msg_info_reorder_NonRootbks": "Выберите папку закладок в разделе 'Папки закладок'.",
+  "msg_info_reorder_emptyBks": "Выберите папку закладок с 2 или более дочерними элементами.",
+  "tree_ordering_panel_title": "Настроить порядок дерева — ",
+  "tree_ordering_Reorder_btn": "Переупорядочить",
+  "find_in_left_tree_btn": "Найти",
+  "tree_ordering_reset_btn": "Сбросить порядок дерева",
+  "tree_ordering_cancel_btn": "Отмена",
+  "tree_ordering_moveup_btn": "Переместить вверх",
+  "tree_ordering_movedown_btn": "Переместить вниз",
+  "tree_ordering_movetop_btn": "Переместить вверх",
+  "tree_ordering_movebottom_btn": "Переместить вниз",
+  "tree_ordering_drop_here": "Перетащить сюда",
+  "reorderSuccess": "Переупорядочено",
+  "msg_info_noResultSearch": "Результаты не найдены.",
+  "msg_info_SortNonAvailable": "Этот столбец недоступен для сортировки во время поиска.",
+  "msg_info_replaceByRevision": "Объект заменен.",
+  "msg_info_replaceByLatestRevision": "Выполнена замена последней редакцией",
+  "msg_info_replaceByLatestRevision_removed": "Объекты ({number}) явно удалены, так как их последняя редакция уже присутствовала в закладке или несколько выбранных объектов имели общую редакцию.",
+  "msg_info_treeFilterRemove": "Фильтры дерева удаляются после добавления корневого объекта",
+  "msg_info_active_successfully": "{folderLabel} установлено в качестве глобальной папки закладок по умолчанию.",
+  "msg_info_inactive_successfully": "Установка глобальной папки закладок по умолчанию {folderLabel} отменена.",
+  "msg_info_enable_successfully": "Глобальная папка закладок по умолчанию {folderLabel} включена.",
+  "msg_info_disable_successfully": "Глобальная папка закладок по умолчанию {folderLabel} отключена.",
+  "msg_info_defaultLocation": "Глобальная папка закладок по умолчанию — {folderLabel}.",
+  "msg_warning_MultipleSelection": "Множественный выбор не поддерживается.",
+  "msg_warning_nocontent": "Содержимое не выбрано. Выберите содержимое.",
+  "msg_warning_nofoldernocontent": "Ничего не выбрано. Выберите содержимое или папку закладок.",
+  "msg_warning_nocurrentfolder": "Нет выбранных элементов: выберите элемент в дереве.",
+  "msg_warning_noselection": "Выберите хотя бы один объект.",
+  "msg_warning_dndnotsupported": "Эта операция перетаскивания не поддерживается.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Перемещение внешних объектов в раздел избранного не допускается.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Перемещение объектов с другого экземпляра 3DEXPERIENCE platform не допускается.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "Невозможно добавить объекты типа {objectType}.",
+    "subtitle": "Выберите поддерживаемый тип объекта."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "Добавление объектов с другого экземпляра 3DEXPERIENCE platform не допускается.",
+  "msg_warning_webInWinDnD": "Перемещение объектов допускается только на 3DDashboard.",
+  "msg_warning_Linked_Or_Shortcut": "Ярлыки папки закладок нельзя перетащить. Отмените выбор ярлыков папки закладок для перетаскивания других объектов.",
+  "msg_warning_FolderAlreadyAmongFavorites": "{typeStruct} '{foldername}' уже находится в избранном.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "Статус последнего развертывания не будет сохранен.",
+    "subtitle": "Сверните некоторые структуры дерева, чтобы включить сохранение состояния развертывания.",
+    "message": "Развернуто слишком много структур дерева."
+  },
+  "msg_warning_copyLink": "Выбранный объект не является папкой закладок.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "Функция контекстного поиска не поддерживается, если количество корней превышает 200.",
+  "msg_warning_searchOpen": {
+    "title": "Не удается создать папку закладок.",
+    "subtitle": "Невозможно создать новую папку закладок во время поиска.",
+    "message": "Закройте команду поиска, чтобы создать новую папку закладок."
+  },
+  "msg_error_OnRefreshCmdfailure": "Возникла непредвиденная ошибка",
+  "msg_error_preferencessnotsaved": "Не удается сохранить настройки.",
+  "msg_error_nopreferences": "Не удается извлечь настройки.",
+  "msg_error_Addinfolder": "Невозможно добавить выбранное содержимое.",
+  "msg_error_Addinfolder_obj": "Не удается добавить {object}.",
+  "msg_error_CopyFolder": "Невозможно скопировать {typeStruct}.",
+  "msg_error_MoveFolder": "Нельзя переместить {typeStruct}.",
+  "msg_error_MoveFolder_parent": "Целевой {typeStruct} является одним из предков {typeNode}, который необходимо переместить.",
+  "msg_error_CutPasteToRoot": "Нельзя переместить {typeStruct} в корневой раздел.",
+  "msg_error_Removefromfolder": "Невозможно удалить объекты из {typeStruct}.",
+  "msg_error_RemoveLinkfromBookmark": "Невозможно удалить ссылки из папки закладок.",
+  "msg_error_MoveInfolder": "Невозможно переместить объекты",
+  "msg_error_MoveInSamefolder": {
+    "title": "Выберите другой {typeStruct}.",
+    "subtitle": "Исходный {typeStruct} и целевой {typeStruct} совпадают."
+  },
+  "msg_error_rename": {
+    "title": "Невозможно переименовать {typeStruct} : {name}.",
+    "subtitle": "Убедитесь, что используются правильные учетные данные.",
+    "subtitle_oneName": "Убедитесь, что имя не используется или используются правильные учетные данные.",
+    "message": "Возможно, у вас нет необходимой ответственности в целевом пространстве совместной работы для переименования этого объекта."
+  },
+  "msg_error_name_maxlength": "Введите новое имя длиной от 1 до {maxLength} символов.",
+  "msg_error_name_empty": "Заголовок не может быть пустым.",
+  "msg_error_bookmarkNotFound": {
+    "title": "Не удается получить доступ к {name1}.",
+    "title2": "Не удается получить доступ к {typeStruct}.",
+    "subtitle": "{typeStruct} больше не доступен или, возможно, удален.",
+    "message": "Возможно, у вас нет необходимой ответственности в целевом пространстве совместной работы."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Не удается развернуть дерево.",
+    "subtitle": "Обновите приложение и повторите попытку, либо обратитесь к администратору за поддержкой."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} содержит недопустимые символы: {badChars}.",
+    "subtitle": "Нельзя использовать следующие символы:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Ошибка при загрузке атрибутов.",
+    "subtitle": "Обновите виджет.",
+    "message": "Не удается получить атрибуты других служб."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "{typeStruct} больше не доступен. ",
+    "subtitle": "Обновите виджет.",
+    "message": "Возможно, папка закладок удалена, либо у вас нет необходимых разрешений."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "Эта внешняя ссылка больше не доступна."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "{typeStruct} больше не доступен.",
+    "subtitle": "Удалить {typeStruct} из избранного.",
+    "message": "Возможно, папка закладок удалена, либо у вас нет необходимых разрешений."
+  },
+  "msg_InfoAction_Timeout": "Операция занимает больше времени, чем ожидалось. Она продолжит работать в фоновом режиме. Обновите страницу, чтобы обновить данные.",
+  "msg_error_authorTimeout": {
+    "title": "Операция занимает больше времени, чем ожидалось.",
+    "message": "Она будет продолжена в фоновом режиме."
+  },
+  "msg_error_timeout": {
+    "title": "Не удается извлечь содержимое.",
+    "subtitle": "Время ожидания подключения к серверу истекло.",
+    "message": "Проверьте подключение или обратитесь за помощью к администратору."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Этот объект больше не доступен.",
+    "subtitle": "Обновите виджет.",
+    "message": "Возможно, объект удален, либо у вас нет необходимых разрешений."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Невозможно открыть приложение Relations.",
+    "subtitle": " Проверьте свою роль лицензии."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Не удается заменить объекты их последней редакцией.",
+    "subtitle": "Обратитесь за помощью к администратору."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Невозможно {move_copy} папку закладок {personal_shared} в папку закладок {shared_personal}.",
+  "msg_error_copylink": {
+    "title": "У вас должно быть разрешение на копирование ссылки в буфер обмена.",
+    "subtitle": "Проверьте ваши учетные данные или обратитесь за помощью к администратору."
+  },
+  "msg_error_createNew": {
+    "title": "Невозможно создать этот объект: ",
+    "subtitle": "Убедитесь, что используются правильные учетные данные.",
+    "message": "Возможно, у вас нет необходимой ответственности в целевом пространстве совместной работы для создания этого типа объекта."
+  },
+  "msg_error_rest": {
+    "title": "Возникла непредвиденная ошибка",
+    "subtitle": "Обратитесь за помощью к администратору."
+  },
+  "msg_error_js": {
+    "title": "Произошла ошибка во время операции",
+    "subtitle": "Обратитесь за помощью к администратору."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Не удается извлечь папку закладок по умолчанию.",
+    "subtitle": "Обратитесь за помощью к администратору.",
+    "message": "Папка закладок по умолчанию больше не определена."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Выберите другую редакцию.",
+    "subtitle": "Невозможно заменить редакцию объекта той же редакцией."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "{typeStruct} уже содержит последнюю редакцию выбранных объектов.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Невозможно отобразить этот путь.",
+    "subtitle": "В папке закладок нет видимых родительских объектов.",
+    "message": "Снимите флажок 'Скрыть дочерние продукты, добавленные в закладки'."
+  },
+  "msg_warning_notProductRoot": "Этот объект больше не доступен или, возможно, удален.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "Не выбирайте более 100 объектов.",
+  "msg_warning_contentnotavailable": {
+    "title": "Это содержимое больше не доступно.",
+    "subtitle": "Обновите виджет.",
+    "message": "Возможно, содержимое удалено, либо у вас нет необходимых разрешений."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "Невозможно удалить содержимое.",
+    "subtitle": "Выберите вложенный {typeStruct} для уточнения результатов поиска.",
+    "message": "Невозможно удалить содержимое из более чем 20 элементов {typeStruct}."
+  },
+  "msg_error_settings": {
+    "title": "Не удается извлечь настройки.",
+    "subtitle": "Возникла непредвиденная ошибка Обратитесь за поддержкой к администратору."
+  },
+  "msg_error_search_login": "Ошибка сервера. Федеративный поиск недоступен.",
+  "CMDInsertNewFolder": "Новая папка закладок",
+  "CMDRemoveContent": "Удалить содержимое",
+  "CMDAddFile": "Загрузить документ",
+  "CMDDownloadFile": "Скачать",
+  "CMDPreviewFile": "Предварительный просмотр",
+  "CMDCheckOutFile": "Разрегистрировать",
+  "CMDCheckInFile": "Зарегистрировать",
+  "CMDEditFile": "Редактировать",
+  "CMDUndoEditFile": "Отменить редактирование",
+  "CMDFolderUpload": "Загрузка папки",
+  "CMDUpdateFile": "Обновить",
+  "CMDRename": "Переименовать",
+  "CMDCut": "Вырезать",
+  "CMDCopy": "Копировать",
+  "CMDPaste": "Вставить",
+  "CMDDelete": "Удалить",
+  "CMDClearSort": "Очистить сортировку",
+  "CMDHideColumn": "Скрыть столбец",
+  "CMDOpenColumnCusto": "Параметры вида списка дерева",
+  "CMDAddExistingContent": "Добавить существующее содержимое",
+  "CMDAddExternalLink": "Добавить внешнюю ссылку",
+  "CMDExpandAll": "Развернуть все",
+  "CMDCollapseAll": "Свернуть все",
+  "CMDAccessRightCmd": "Общий доступ",
+  "CMDAddToFavorites": "Добавить в избранное",
+  "CMDProperties": "Свойства",
+  "CMDSynchronize": "Синхронизировать с локальным диском",
+  "CMDActiveFolder": "Глобальная папка закладок по умолчанию",
+  "CMDOpen": "Открыть",
+  "CMDOpenWithCV5": "Подключить CATIA V5",
+  "CMDFindInCtx": "Найти в контексте",
+  "csv_base_file_name": "bookmark_editor_",
+  "alpha_sorting": "Заголовок",
+  "date_sorting": "Дата создания",
+  "tree_sorting": "Очистить сортировку",
+  "fonticon_filter": "Фильтр",
+  "fonticon_sort": "Сортировка по",
+  "download": "Скачать",
+  "upload": "Загрузить",
+  "CMDDeleteDefinitively": "Удалить",
+  "CMDShareBookmarkLink": "Копировать ссылку",
+  "CMDRestore": "Восстановить",
+  "CMDSizeColumnToFit": "Столбец по размеру содержимого",
+  "HeaderThumbnail": "Миниатюра",
+  "HeaderDeletionDate": "Дата удаления",
+  "HeaderDeleteBy": "Кем удалено",
+  "SearchEnterMoreThan": "Для поиска требуется ввести не менее {minNumber} симв.",
+  "SearchEmptyQuotes": "Пустые кавычки не разрешены в запросе поиска.",
+  "searchDefaultError": {
+    "title": "Во время поиска произошла ошибка.",
+    "subtitle": "Обратитесь за помощью к администратору."
+  },
+  "ShowNavPane": "Показать панель навигации",
+  "HideNavPane": "Скрыть панель навигации",
+  "relations_tab": "Взаимосвязи",
+  "confirmation_ok": "ОК",
+  "confirmation_cancel": "Отмена",
+  "confirmation_ok_Paste": "Вставить",
+  "confirmation_move_title": "Переместить содержимое",
+  "confirmation_add_title": "Добавить содержимое",
+  "confirmation_add_move_title": "Перемещение и добавление содержимого",
+  "confirmation_move_message": "Переместить содержимое {source} в {target}?",
+  "confirmation_move_message_monosel": "Переместить {selection} из {source} в {target}?",
+  "confirmation_move_message_mono_from_tree": "Переместить {source} в {target}?",
+  "confirmation_move_message_multisel": "Переместить элементы ({nth}) из {source} в {target}?",
+  "details_for_alone_objects": "Элементы, не связанные с {source}, будут добавлены в {target}.",
+  "confirmation_add_message_multisel": "Добавить элементы ({nth}) в {target}?",
+  "confirmation_move_add_message_multisel": "Переместить элементы {move_nth} из {source} в {target} и добавить элементы {add_nth} в {target}?",
+  "removeChildrenInMove": "Удалить выбранные подэлементы из {source}, если они прилагаются.",
+  "confirmation_move_button": "Переместить",
+  "confirmation_add_button": "Добавить",
+  "confirmation_add_move_button": "ОК",
+  "confirmation_remove_title": "Удалить — {label}",
+  "confirmation_remove_titleX": "Удалить — объекты ({nb})",
+  "confirmation_remove_message": "Действительно удалить содержимое из {label}?",
+  "confirmation_removeshortcut_title": "Удалить ярлык папки закладок",
+  "confirmation_removeshortcut_message": "Действительно удалить ярлык из папки закладок?",
+  "confirmation_copyMassive_title": "Создать копию {source} в {target}",
+  "confirmation_copyMassive_message": "Будет скопировано большое количество элементов.",
+  "confirmation_copyMassive_checkBox": "Сохранять добавленные в закладки элементы в скопированной папке закладок",
+  "PasteCmdTitle": "Вставить {source}",
+  "PasteCmdMultiTitle": "Вставка объектов {typeStruct}",
+  "confirmation_copy": "Копировать",
+  "confirmation_info": "Атрибуты, отличные от заголовка и описания, теряются при преобразовании \n{From} в {To}. Все атрибуты копируются для дочерних объектов.",
+  "authentication_error": "Невозможно использовать это приложение. Убедитесь, что используются правильные учетные данные.",
+  "noPlatform_error": "Это приложение недоступно на вашей платформе.",
+  "placeholder_msg_folder": "{typeStruct} в настоящее время пуст.",
+  "placeholder_CMD_AddExisting": "Добавить существующие",
+  "placeholder_CMD_UploadFile": "Загрузить файл",
+  "placeholder_CreateFolder": "Создать {typeStruct}",
+  "tooltip_reserved": "Заблокировано",
+  "tooltip_unreserved": "Разблокировано",
+  "tooltip_shortcut": "Функция быстрого доступа",
+  "tooltip_noDefaultLocation": "Отсутствует текущая глобальная папка закладок по умолчанию.",
+  "tooltip_defaultLocation": "Глобальная папка закладок по умолчанию — {folderLabel}. Нажмите, чтобы просмотреть ее.",
+  "tooltip_enableDefaultLocation": "Глобальная папка закладок по умолчанию {folderLabel} отключена. Нажмите, чтобы включить.",
+  "tooltip_disableDefaultLocation": "Нажмите, чтобы отключить глобальную папка закладок по умолчанию {folderLabel}.",
+  "BookmarkLocation": "Показать в родительской папке закладок",
+  "column_FavoriteTitle": "Заголовок",
+  "column_BookmarkLocation": "Родительская папка закладок",
+  "column_Thumbnail": "Миниатюра",
+  "column_ApprovalStatus": "Статус утверждения",
+  "placeholder_msg_favorite": "Нет избранной папки закладок.",
+  "placeholder_msg_section": "Не найдено {typeStruct}.",
+  "placeholder_msg_search": "Нет результатов.",
+  "refresh_ongoing": "Обновление...",
+  "refresh_ok": "Обновление выполнено",
+  "refreshError": {
+    "title": "Не удается обновить виджет.",
+    "subtitle": "Обратитесь за помощью к администратору."
+  },
+  "placeholder_findInCtx": "Поиск или выбор объекта",
+  "findInCtxsearchview": {
+    "ftssearch": "Поиск",
+    "searchBtn": "Поиск",
+    "check": "Подтвердить выбор",
+    "cannotRetrieveLabel": "Невозможно извлечь метку выбранного объекта",
+    "loadingLabel": "Загрузка..."
+  },
+  "badCredentialChanged": "Установлены учетные данные \"{credential}\", так как у вас нет доступа к предварительно выбранным учетным данным.",
+  "credentialChanged": "Установлены \"{credential}\".",
+  "success": "Успешно",
+  "warning": "Предупреждение",
+  "information": "Информация",
+  "revisionReport": {
+    "reportTitle": "Отчет — Заменить отчетом последней редакции",
+    "successfullyReplaced": "{prd1}: заменено пользователем {prd2}.",
+    "explicitlyRemoved": "{prd1}: явно удалено.",
+    "isLatestRevison": "Заменяемый объект {prd1} уже используется в последней редакции.",
+    "msgObjectSelected": "Объекты ({object}) выбраны для замены последней редакцией.",
+    "msgObjectAlreadyLatestRevision": "Объекты ({object}) уже используются в последней редакции.",
+    "msgSuccessfullyReplaced": "Объекты ({object}) заменены последней редакцией.",
+    "msgObjectExplicitlyRemoved": "Объекты ({object}) явно удалены, так как их последняя редакция уже присутствовала в закладке или несколько выбранных объектов имели общую редакцию."
+  },
+  "msg_advice_refreshWidget": "Обновите виджет или браузер и убедитесь, что используются правильные учетные данные.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Этот объект больше не доступен.",
+    "subtitle": "Обновите виджет.",
+    "message": "Возможно, объект удален, либо у вас нет необходимых разрешений."
+  },
+  "msg_error_NoModifyAccess": "Нет доступа к отношению для изменения; сбой при выполнении текущей операции.",
+  "Attachments": "Вложения",
+  "Specification": "Документы спецификации",
+  "OpenLocationRemoveTitle": "Удалить содержимое: {label}",
+  "OpenLocationRemoveMessage": "Удалить этот объект из следующих расположений?",
+  "CMDUnsetGlobalActiveFolder": "Отменить установку глобальной папки закладок по умолчанию",
+  "CMDShowInBookmarks": "Показать в папках закладок",
+  "CMDEnableGlobalActiveBookmark": "Включить",
+  "CMDDisableGlobalActiveBookmark": "Отключить",
+  "indexMode": {
+    "Authoring": "Разработка.",
+    "Index": "Индекс.",
+    "Label": "Индекс",
+    "seconds": "сек.",
+    "minutes": "мин.",
+    "hours": "ч",
+    "msg_Authoring": "Включен режим разработки. Это может повлиять на производительность.",
+    "activeMode": "Активный режим: {mode}",
+    "lastRefresh": "Последнее обновление: {timeElapsed} назад.",
+    "reactIndexMode": "Режим индексирования будет повторно активирован через {autoSwitch} мин после последней операции разработки или обновления.",
+    "errorMessageBookmarkRoot": {
+      "title": "Не удается извлечь объекты {typeStruct}.",
+      "subtitle": "Обратитесь за помощью к администратору."
+    },
+    "info_msg_DataNotUptoDate": "Приложение переключилось в режим индексирования, так как вы не вносили никаких изменений в содержимое в течение {timeElapsed} мин.",
+    "title": "Режим индексирования или базы данных",
+    "IndexModeTooltip": "Режим индексирования активен",
+    "AuthoringModeTooltip": "Режим базы данных активен",
+    "IndexModelongHelp": "Режим индексирования повышает производительность, но последние изменения недоступны до их индексирования.",
+    "AuthoringModelongHelp": "В режиме базы данных последние изменения отображаются немедленно, но это влияет на производительность.",
+    "info_msg_DatabaseModeTitle": "Режим базы данных включен",
+    "info_msg_IndexModeTitle": "Режим индексирования включен.",
+    "info_msg_DatabaseModeMessage": "Отображаются последние изменения.",
+    "info_msg_IndexModeMessage": "Изменения и новое содержимое могут быть доступны не сразу после обновления индекса."
+  },
+  "CMD_Yes": "Да",
+  "CMD_No": "Нет",
+  "dialog_replaceByLatestRevision": "Заменить редакцией",
+  "msg_warning_DndNotSupported": "Перетаскивание не поддерживается в режиме только для чтения.",
+  "ViewTooltip": {
+    "favoriteTitle": "Название избранного"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "Переносимое содержимое включает папку и не поддерживается",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "Структура папки закладок содержит более 1000 документов. Выберите структуру папки закладок, содержащую меньшее количество документов.",
+    "BookmarkNo_Documents": "Структура папки закладок не содержит документов, скачивание не будет выполнено.",
+    "BookmarkDupalicateDOC": "Сбой при скачивании структуры закладки, так как такая иерархия уже существует в документе.",
+    "DownloadStructureFailure": "Сбой при скачивании структуры папки закладок.",
+    "BookmarkDownloadStarted": "Запущено скачивание структуры папки закладок.",
+    "BookmarkDownloadMultiFileError": "Выберите документ с одним файлом.\n",
+    "BookmarkDownloadNoFileError": "\n Выберите документ, содержащий хотя бы один файл.\n"
+  },
+  "editLinkTitle": "Редактировать связь",
+  "msg_NewBookmarkSuccess": {
+    "message": "Создание выполнено."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Добавлен новый ярлык.",
+    "message": "Новый ярлык добавлен в папку закладок."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Добавлены новые ярлыки.",
+    "message": "Новые ярлыки добавлены в папку закладок."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Сбой при создании ярлыка.",
+    "message": "Сбой при создании ярлыка папки закладок."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Добавить новую ссылку.",
+    "message": "Новая внешняя ссылка добавлена в папку закладок."
+  },
+  "msg_AddLinkPresent": "Внешние ссылки ({nbLinks}) уже присутствуют.",
+  "msg_AddLinkFail": {
+    "title": "Не удалось добавить внешнюю ссылку.",
+    "message": "Не удалось добавить внешнюю ссылку в папку закладок."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Ссылка изменена.",
+    "message": "Внешняя ссылка отредактирована."
+  },
+  "msg_EditLinkFail": {
+    "title": "Не удалось изменить ссылку.",
+    "message": "Не удалось отредактировать внешнюю ссылку."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Операция редактирования не выполнена. Выполните необходимые изменения."
+  },
+  "msg_error_AddShortcut": "Невозможно добавить ярлыки папки закладок.",
+  "msg_info_addShortcut_alreadyPresent": "Ярлыки ({shortcutAlreadyPresent}), которые необходимо создать, уже присутствуют.",
+  "msg_error_RemoveShortcut": "Не удается удалить ярлыки папки закладок.",
+  "msg_creating_AddShortcut": "Добавление ярлыков папки закладок",
+  "msg_error_Rename_Shortcut": "Переименование ярлыка не разрешено.",
+  "NoPathFound": "Допустимые пути не найдены",
+  "progressPanel_dragDrop": "Загрузка элементов ({objectsAdded}) в {targetfolder}",
+  "progressPanel_add": "Добавление элементов ({objectsAdded}) в {targetfolder}",
+  "progressPanel_move": "Перемещение элементов ({objectsAdded}) в {targetfolder}",
+  "progressPanel_copy": "Копирование элементов ({objectsAdded}) в {targetfolder}",
+  "progressPanel_copyFolder": "Копирование {objectsAdded} {typeStruct} в {targetfolder}",
+  "progressPanel_moveFolder": "Перемещение {objectsAdded} {typeStruct} в {targetfolder}",
+  "progressPanel_remove": "Удаление элементов ({objectsAdded}) из {targetfolder}",
+  "progressPanel_expand": "Развертывание элементов ({objectsexpanded}) в {targetfolder}",
+  "progressPanel_download": "Скачивание структуры папки закладок из {bookmarkname}",
+  "removeStructuralObject": "Включить структурные объекты",
+  "msg_info_objetexpanded": "Объект развернут",
+  "msg_info_objetexpandedError": {
+    "title": "Не удается развернуть объекты.",
+    "subtitle": "Обновите приложение и повторите попытку, либо обратитесь к администратору за поддержкой."
+  },
+  "Paste_as_Duplicate": "Вставить как дубликат",
+  "Paste_as_Shortcut": "Вставить как ярлык",
+  "Paste_to_move": "Вставить для перемещения",
+  "Paste_to_Bookmark": "Вставить в закладку",
+  "CopySettings": "Вставить как дубликаты параметров",
+  "AddPrefix": "Добавить префикс",
+  "AddSuffix": "Добавить суффикс",
+  "prefixPlaceholder": "Введите префикс для заголовка.",
+  "suffixPlaceholder": "Введите суффикс для заголовка.",
+  "helpPrefix": {
+    "shortHelp": "Символы, добавляемые в начале заголовков дубликатов объекта.",
+    "longHelp": "Например, если добавить Design_ в качестве префикса к объекту Brake, заголовок дубликата объекта будет Design_Brake."
+  },
+  "helpSuffix": {
+    "shortHelp": "Символы, добавляемые в конце заголовков дубликатов объекта.",
+    "longHelp": "Например, если добавить Design_ в качестве суффикса к объекту Brake, заголовок дубликата объекта будет Brake_Design."
+  },
+  "PrefixLine": "Префикс",
+  "SuffixLine": "Суффикс",
+  "msg_info_notEnabledExpand": {
+    "title": "Структурные объекты не включены",
+    "subtitle": "Изменяет настройку 'Включить расширение продуктов'"
+  },
+  "documentCommands": {
+    "notAvailable": "Эта команда недоступна для выбора.",
+    "notReady": {
+      "title": "Эта команда не готова к использованию.",
+      "message": "Повторите попытку через несколько секунд."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Эта операция не поддерживается.",
+    "message": "Этот тип объекта нельзя добавить с помощью этой команды."
+  },
+  "exportMask": "Экспорт CSV.",
+  "attrComputation": "Извлечение значений атрибутов.",
+  "tooManyResultFound": "Поиск ограничен {maxResult} результ. Уточните запрос.",
+  "initialization_error": "Приложение обнаружило непредвиденную ошибку. Обратитесь за поддержкой к администратору.",
+  "expandTooLarge": "Получено слишком много объектов.<br>Сузьте навигацию с помощью фильтрации или уменьшите уровень развертывания.",
+  "loadingText": "Загрузка...",
+  "treeExpandTooLarge": {
+    "title": "Невозможно развернуть {typeStruct}",
+    "message": "Получено слишком много объектов {subType}",
+    "subtitle": "Сверните все и разверните только один уровень."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Кем заблокировано",
+    "subtitle": "Нажмите, чтобы разблокировать"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Разблокировано",
+    "subtitle": "Нажмите, чтобы заблокировать"
+  },
+  "Broken link": "Разорванная связь",
+  "find_in_context_timeout": "Тайм-аут команды Найти в контексте",
+  "classificationFacetName": "Классификации",
+  "classificationFacetText": "Классификации",
+  "searchLoading": "Поиск в {typeStruct}",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Не удается объявить новый избранный элемент.",
+    "subtitle": "Удалите существующие избранные элементы для объявления новых.",
+    "message": "Количество избранных элементов не может быть больше {maxLimit}."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Невозможно открыть контекстное меню.",
+    "subtitle": "Необходимо выбрать меньше объектов.",
+    "message": "В рамках контекстного меню CATIA количество выбранных объектов не должно превышать 10."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Невозможно добавить выбранные объекты.",
+    "subtitle": "Повторите попытку через несколько минут, если можно выполнить поиск объектов.",
+    "message": "Некоторые объекты еще не индексированы или недоступны для поиска: {objects}."
+  },
+  "generic_service_failure": "Сбой при извлечении информации об объекте. Повторите попытку через несколько минут. Если проблема не устранена, обратитесь к администратору",
+  "cannotChangeOwner": "{objectname} невозможно передать пользователю {userId}.",
+  "multipleClassificationValue": "Несколько",
+  "searchReasultWarningMsg": "Количество объектов может быть больше ожидаемого",
+  "warn_tb_unavailableRoot": "У вас нет доступа к предку {typeStruct}.",
+  "err_UnsupportedFavoriteType": "Этот раздел избранного не поддерживает выбранный тип.",
+  "operation_add": "Добавить содержимое",
+  "toAdd": "Добавить",
+  "folderLoader_loading": "Загрузка",
+  "folderLoader_cancel": "Отмена",
+  "folderLoader_expanding": "Развернуть",
+  "folderLoader_expanding_products": "Развернуть продукты",
+  "ActionBar_SelectAllCmd": "Выбрать все",
+  "ActionBar_SelectChildrenCmd": "Выбрать дочерние элементы",
+  "ActionBar_SelectInversionCmd": "Инверсия выбора",
+  "ActionBar_SelectLeavesCmd": "Выбрать листья",
+  "ActionBar_SelectParentCmd": "Выбрать родителя",
+  "ActionBar_SelectSiblingCmd": "Выбрать одноуровневые компоненты",
+  "Filter_owner": "Принадлежат мне",
+  "Filter_tagger": "Фильтровать по тегам",
+  "switchViewImpossible": {
+    "title": "Этот вид недоступен.",
+    "message": "Обновите браузер, чтобы обновить виды."
+  },
+  "requestSaveView": {
+    "title": "Текущий вид не сохраняется.",
+    "message": "Сохранить текущий вид?",
+    "link": "Сохранить вид"
+  },
+  "loadingAllRoots": "Загрузка оставшихся корневых элементов.",
+  "loadingRoots": "Загрузка корневых элементов.",
+  "RefreshingNodes": "Обновление атрибутов объекта",
+  "docCmd_unavailable": {
+    "title": "Команда недоступна.",
+    "subtitle": "Повторите попытку через несколько секунд."
+  },
+  "unsupported_command_error": {
+    "title": "Команда не поддерживается.",
+    "message": "Текущий выбор содержит типы, которые не поддерживают эту операцию."
+  },
+  "lookingForObject": "Поиск объекта",
+  "openWithTitle": "Открыть с помощью",
+  "openWithMessage": "Объект существует в нескольких местоположениях, выберите путь который хотите открыть:",
+  "openWithNotSupported": "{label} не поддерживается.",
+  "warningNotAssociated": "{label} не связано с",
+  "unsupportedAction": "Эта операция не поддерживается в текущем контексте."
+}

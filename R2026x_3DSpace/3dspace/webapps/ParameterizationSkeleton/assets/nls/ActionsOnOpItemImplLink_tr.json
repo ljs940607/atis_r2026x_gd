@@ -1,0 +1,9 @@
+{
+  "action": "Eylem",
+  "actionTooltip": "Eylemin Adı",
+  "modalTitle": "Eylemler",
+  "Add": "Eylem Ekle",
+  "Select": "Seç veya ara",
+  "Info": "Bir Eylem adı yazıp Tamam'a tıklayın. Eylem, veritabanına kaydedilir.",
+  "ErrorActionAlreadyDefined": "Zaten mevcut olan %1 için Etered değeri. %2 için lütfen farklı bir ad seçin"
+}

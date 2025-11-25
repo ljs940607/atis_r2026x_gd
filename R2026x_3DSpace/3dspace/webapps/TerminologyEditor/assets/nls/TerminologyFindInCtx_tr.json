@@ -1,0 +1,12 @@
+{
+  "findInCtxSearchView": {
+    "objects": "nesneler"
+  },
+  "msg_warning_FindInCtx_objectsLimit": "Bulunacak Fiziksel Ürün sayısı sınırlı. Geçerli yer işaretindeki İlk {limit} Fiziksel Ürün nesneyi bulmak için dikkate alınacak.",
+  "title_warning_FindInCtx_objectsLimit": "Sınırlı Fiziksel Ürünlerde bağlam içinde bul işlemi yapılır.",
+  "msg_warning_FindInCtx_novalidobject": "Mevcut yer işaretinde, Bağlam içinde bul işlemini gerçekleştirmek için geçerli bir nesne yok. Bağlam panelinde bul işlemi başlatılmaz.",
+  "title_warning_FindInCtx_novalidobject": "Bağlam içinde bul işlemi gerçekleştirilemiyor.",
+  "msg_warning_FindInCtx_allowProductExpand": "\"Ürünleri Genişletmeye İzin Ver\" tercih ayarı yanlış olarak ayarlandığı için Bağlam içinde bul işlemi gerçekleştirilemiyor.",
+  "subtitle_warning_FindInCtx_allowProductExpand": "\"Ürünlerin Genişletilmesine İzin Ver\" tercih ayarını doğru olarak değiştirin.",
+  "msg_error_FindInCtx_noValidPhysicalObject": " Mevcut yer işaretinde bağlam içinde bul işlemini gerçekleştirmek için geçerli bir fiziksel ürün yok"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Parses the given JSON to generate an object.",
+  "description": "This block is dynamic thus the object type of the input data can be changed using the block configuration dialog.",
+  "dataPorts": {
+    "JSON": "the JSON to parse.",
+    "Object": "the generated object."
+  },
+  "controlPorts": {
+    "In": "triggers the block execution.",
+    "Out": "is activated when the process is completed."
+  },
+  "example": null
+}

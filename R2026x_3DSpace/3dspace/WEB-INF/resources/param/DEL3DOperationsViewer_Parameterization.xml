@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DEL3DOperationsViewer" regSuite="DEL3DOperationsViewerParams">
+		<Family id="DEL3DOperationsViewerAttributesDisplayFamily">
+			<Parameter id="DEL3DOperationsViewerAttributesListParam">
+				<Argument id="DEL3DOperationsViewerAttributesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

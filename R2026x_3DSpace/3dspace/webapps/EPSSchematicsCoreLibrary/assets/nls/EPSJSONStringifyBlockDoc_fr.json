@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Convertit en chaîne l'objet donné dans un JSON.",
+  "description": "Ce bloc étant dynamique, le type d'objet des données d'entrée peut être modifié à l'aide de la boîte de dialogue Configuration du bloc.",
+  "dataPorts": {
+    "Object": "objet à convertir en chaîne.",
+    "JSON": "l'objet converti en chaîne."
+  },
+  "controlPorts": {
+    "In": "déclenche l'exécution du bloc.",
+    "Out": "est activé lorsque le processus est terminé."
+  },
+  "example": null
+}

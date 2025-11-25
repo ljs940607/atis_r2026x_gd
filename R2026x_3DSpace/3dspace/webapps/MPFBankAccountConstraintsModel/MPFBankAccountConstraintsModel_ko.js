@@ -1,0 +1,1 @@
+define("DS/MPFBankAccountConstraintsModel/MPFBankAccountConstraintsModel_ko",{});define("DS/MPFBankAccountConstraintsModel/assets/nls/BankAccountConstraintsModel",{isRequired:"{0}이(가) 필요합니다.",isInvalid:"{0}이(가) 올바르지 않습니다.",iban:"IBAN",swift:"SWIFT",bsbNumber:"BSB 번호",abaNumber:"ABA 번호",transitNumber:"등록 은행 번호",accountNumber:"계좌 번호",bankNumber:"은행 번호"});

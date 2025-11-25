@@ -1,0 +1,21 @@
+{
+  "activateExternalShareLink": "Externen Freigabelink aktivieren",
+  "activateShareByLinkDescription": "Jeder mit dem folgenden Link kann diesen Inhalt in der Vorschau anzeigen und herunterladen.",
+  "expirationDate": "Ablaufdatum: {date}",
+  "restrictAccessToSpecificUsers": "Zugriff auf bestimmte Benutzer beschränken",
+  "addRestrictions": "Beschränkungen hinzufügen",
+  "noRestrictedEmails": "Niemand kann auf den Inhalt zugreifen",
+  "addMessage": "Nachricht hinzufügen",
+  "enterMessageDescription": "Geben Sie eine benutzerdefinierte Nachricht ein, die der gesendeten E-Mail hinzugefügt wird",
+  "addRestrictedUsersDescription": "Die Option Benutzer mit eingeschränktem Zugriff ermöglicht den Zugriff auf den Inhalt nur für Konten, die mit diesen E-Mail-Adressen verknüpft sind",
+  "authorizedList": "Autorisierte Liste ({count}/{max})",
+  "restrictionsCount": "{count}/{max} Beschränkungen",
+  "close": "Schließen",
+  "share": "Freigeben",
+  "copyExternalLink": "Externe Verknüpfung kopieren",
+  "enableGuestComments": "Gastkommentare aktivieren",
+  "enableGuestCommentsDescription": "Jeder, der diesen Link verwendet, kann den Inhalt kommentieren und alle Kommentare lesen, einschließlich vorheriger Kommentare von Plattformmitgliedern",
+  "externalSharingFeatureDisabled": "Die externe Freigabefunktion ist auf dieser Plattform nicht aktiviert. Wenden Sie sich an Ihren Administrator.",
+  "cannotAccessContent": "Zugriff auf Inhalt nicht möglich.",
+  "platformNotAccessible": "Zugriff auf Plattform nicht möglich."
+}

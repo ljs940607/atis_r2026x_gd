@@ -1,0 +1,17 @@
+{
+  "MouseControlPreferences": {
+    "Title": "Selecionar preferência",
+    "Profiles": {
+      "Title": "Controle do mouse",
+      "Description_part_1": "Selecione a forma de manipular as vistas 3D com o mouse em aplicativos de visuta e modelagem 3D.",
+      "Description_part_2": "Para obter melhores resultados com aplicativos de modelagem 3D do <b>CATIA</b> ou do <b>SOLIDWORKS</b>, escolha a preferência de controle do mouse que corresponde aos aplicativos que você usa.",
+      "Description_part_3": "Você pode alterar essa configuração a qualquer momento nas preferências na barra superior do 3DDashboard.",
+      "SOLIDWORKS": "SOLIDWORKS",
+      "CATIA": "CATIA",
+      "3DEXPERIENCE": "3DEXPERIENCE"
+    },
+    "Information": {
+      "Description": "Todos os aplicativos de visualização e modelagem 3D baseados em navegador usarão a preferência de controle do mouse que você selecionar.\n\nAs opções de controle do mouse estão disponíveis para usuários do CATIA e SOLIDWORKS, pois esses aplicativos têm gestos de mouse significativamente diferentes para trabalhar com modelos 3D.\n\nPara todos os outros usuários, a opção 3DEXPERIENCE utiliza formas padrão de ampliar e rotacionar modelos."
+    }
+  }
+}

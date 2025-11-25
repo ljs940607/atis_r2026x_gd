@@ -1,0 +1,9 @@
+<meta charset="UTF-8"/>
+3DXML_errors.ERROR_VERSION="Desteklenmeyen 3dxml sürümü";
+3DXML_errors.ERROR_LOAD="3DXML dosyası yüklenemedi";
+3DXML_errors.ERROR_LOAD_ARCHIVE="3DXML dosyası yüklenemedi";
+3DXML_errors.ERROR_LOAD_ENTRY="Bu 3DXML için Zip girişleri okunamadı";
+3DXML_errors.ERROR_PARSE="XML verileri ayrıştırılamadı";
+3DXML_errors.ERROR_REPFORMAT="Gösterim formatı desteklenmiyor";
+3DXML_errors.ERROR_NO_GEOMETRY="Bu model 3B geometri içermiyor";
+3DXML_errors.ERROR_REVIEW_MISSING="3DXML dosyası herhangi bir inceleme verisi içermiyor; yalnızca evrak çantası içeriyor";

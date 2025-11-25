@@ -1,0 +1,1 @@
+define("DS/ENOXEngineerCompare/ENOXEngineerCompare_de",{});define("DS/ENOXEngineerCompare/assets/nls/ENOXEngineerCompare",{makeFromAsRequired:"Wie angefordert",structureView:"Strukturansicht",structureReferenceView:"Strukturreferenzansicht",listView:"Listenansicht","unit.m3":"m³","unit.m2":"m²","unit.m":"m","unit.kg":"kg"});

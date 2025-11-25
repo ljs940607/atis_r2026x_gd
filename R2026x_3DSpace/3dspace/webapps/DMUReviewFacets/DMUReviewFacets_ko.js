@@ -1,0 +1,1 @@
+define("DS/DMUReviewFacets/DMUReviewFacets_ko",{});define("DS/DMUReviewFacets/assets/nls/DMUReviewFacets",{noHighlight:"선택된 검토에 강조 표시가 없습니다.",noCheck:"선택된 검토에 확인이 없습니다.",noMember:"선택된 검토에 멤버가 없습니다.",multiMembers:"다중 개체 선택은 지원되지 않습니다.",membersPanelHeaderTitle:"참여",contributionValue:{NotStarted:"시작되지 않음",OnGoing:"진행 중",Completed:"완료됨"}});

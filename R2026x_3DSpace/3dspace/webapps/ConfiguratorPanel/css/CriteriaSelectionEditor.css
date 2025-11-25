@@ -1,0 +1,106 @@
+.criteria-selection-editor {
+  width: 100%; }
+  .criteria-selection-editor .criteria-selection-mode {
+    color: #368ec4 !important;
+    margin-right: 2px;
+    margin-left: 2px; }
+  .criteria-selection-editor .criteria-selection-mode:hover {
+    color: #368ec4 !important;
+    text-decoration: underline !important; }
+  .criteria-selection-editor input {
+    background: transparent !important;
+    border-color: transparent !important; }
+  .criteria-selection-editor .value-container {
+    width: 100%;
+    display: flex; }
+    .criteria-selection-editor .value-container .all_values_except {
+      justify-content: center;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      white-space: nowrap; }
+    .criteria-selection-editor .value-container .conflict-action-content {
+      display: inline-block;
+      padding-right: 5px; }
+    .criteria-selection-editor .value-container .required-action-content {
+      display: inline-block;
+      padding-right: 5px; }
+    .criteria-selection-editor .value-container .action-button-left {
+      display: inline-block;
+      padding-right: 5px;
+      width: 16px;
+      margin-left: 27px; }
+    .criteria-selection-editor .value-container .action-button-right {
+      display: inline-block;
+      width: 20px;
+      margin-left: 5px; }
+    .criteria-selection-editor .value-container .wux-controls-spinbox {
+      flex-grow: 1; }
+    .criteria-selection-editor .value-container .cfg-autoComplete-image span.wux-ui-3ds-alert {
+      display: none; }
+    .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete {
+      width: auto !important;
+      flex-grow: 1; }
+      .criteria-selection-editor .value-container .cfg-bulkedit-autoComplete .wux-controls-selectionChips {
+        background: transparent !important;
+        border-color: transparent !important; }
+    .criteria-selection-editor .value-container .clear-action-content {
+      display: inline-block;
+      padding-right: 5px; }
+    .criteria-selection-editor .value-container .validate-action-content {
+      display: inline-block;
+      padding-right: 5px; }
+    .criteria-selection-editor .value-container .criteria-chip-rule-status-conflict + li::before {
+      content: '\e46f' !important;
+      font: normal normal normal 14px/1 DSFontIcon;
+      color: red; }
+    .criteria-selection-editor .value-container .criteria-chip-image {
+      display: none; }
+    .criteria-selection-editor .value-container .criteria-chip-rule-status-required + li::before {
+      content: '\e46b';
+      font: normal normal normal 14px/1 DSFontIcon;
+      padding-right: 5px;
+      margin-left: -5px; }
+    .criteria-selection-editor .value-container .criteria-chip-rule-status-default + li::before {
+      content: '\e46c';
+      font: normal normal normal 14px/1 DSFontIcon;
+      padding-right: 5px;
+      margin-left: -5px; }
+    .criteria-selection-editor .value-container .criteria-chip-rule-status-selected + li::before {
+      content: '\e46e';
+      font: normal normal normal 14px/1 DSFontIcon;
+      padding-right: 5px;
+      margin-left: -5px; }
+    .criteria-selection-editor .value-container .criteria-chip-user-delete + li::before {
+      content: '\e006';
+      font: normal normal normal 14px/1 DSFontIcon;
+      padding-right: 5px;
+      margin-left: -5px; }
+    .criteria-selection-editor .value-container .criteria-chip-rule-status-incompatible + li::before {
+      content: '\e46d';
+      font: normal normal normal 14px/1 DSFontIcon;
+      padding-right: 5px;
+      margin-left: -5px; }
+    .criteria-selection-editor .value-container .criteria-chip-no-close ~ .wux-ui-3ds-close {
+      display: none !important; }
+    .criteria-selection-editor .value-container .criteria-chip-validate + li::after {
+      content: '\e014';
+      font: normal normal normal 14px/1 DSFontIcon;
+      width: 24px !important;
+      text-align: center;
+      height: 100%;
+      border: 1px solid #e2e4e3;
+      background-color: white;
+      margin-right: -1px;
+      padding: 2px;
+      display: inline-block;
+      font-size: 12px;
+      position: absolute;
+      right: 0px; }
+    .criteria-selection-editor .value-container .criteria-chip-validate + li {
+      padding-right: 24px !important; }
+    .criteria-selection-editor .value-container .wux-controls-selectionChips[touch-mode] .criteria-chip-validate + li::after {
+      padding: 5px !important; }
+
+.wux-controls-autoComplete-popup .wux-layouts-datagridview .item-state-conflict {
+  color: red; }

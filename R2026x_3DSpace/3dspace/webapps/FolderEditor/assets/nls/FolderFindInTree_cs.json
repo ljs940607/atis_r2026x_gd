@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Hledání složek záložek..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Hledání ve stromu nelze provést v části Oblíbené a v oblíbených složkách záložek.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "Přetažené objekty nejsou složkou záložek.",
+    "subtitle": "Přetáhněte kořenovou složku záložek nebo složku záložek."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Hledání ve stromu nelze provést.",
+    "subtitle": "Rozbalte strom k tomuto konkrétnímu uzlu složky záložek",
+    "message": "Hledaná složka záložek není ve stromu vidět."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Hledání ve stromu nelze provést.",
+    "subtitle": "Rozbalte část se složkami záložek na první úroveň.",
+    "message": "V části Složky záložek nejsou žádné viditelné složky záložek."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Hledání ve stromu nelze provést.",
+    "subtitle": "Vyberte složku záložek a zkuste to znovu.",
+    "message": "Není vybrána žádná složka záložek, kde provést hledání."
+  },
+  "msg_info_limitToFindInRootNode": "Nelze zobrazit všechny výsledky vyhledávání. Zkuste použít jiná klíčová slova nebo hledat ve složkách podzáložek.",
+  "msg_info_searchCompleted": "Vyhledávání je dokončeno.",
+  "msg_info_No_Occurrence": "Nebyl nalezen žádný výsledek."
+}

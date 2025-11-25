@@ -1,0 +1,15 @@
+m|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWManageCapableResourcesModule_FD02\DELPPWManageCapableResourcesModule_FD02.js|1723277662|17428
+s|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\ManageCapableResourcesBaseUI.js|1679512249|20548
+t|win_b64\webapps\DELPPWManageCapableResourcesModule_FD02\assets\json\ManageCapableRscTLVOption.json|1723277658|2651
+s|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\assets\json\ManageCapableRscTLVOption.json|1648110071|2651
+u|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\ManageCapableResourcesModule.js|1679512254|16094
+u|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\ManageCapableResourcesUI.js|1679512259|11270
+u|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\ManageStepOperationsUsageBaseUI.js|1679512262|4792
+u|DELWKOApp\DELPPWManageCapableResourcesModule_FD02.mweb\src\ManageStepOperationsUsageUI.js|1679512266|9061
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

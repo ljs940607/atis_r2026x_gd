@@ -1,0 +1,1 @@
+define("DS/DELWebViewerCommon/DELWebViewerCommon_de",{});define("DS/DELWebViewerCommon/assets/nls/nls",{"Error.InvalidInput.Message":"Ungültige Eingabe."});

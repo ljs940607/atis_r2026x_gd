@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "Действие не поддерживается",
+  "Notification.DragAndDrop.Loading.Title": "Загрузка",
+  "Notification.DragAndDrop.Loading.Title.Error": "Ошибка загрузки",
+  "Notification.DragAndDrop.Loading.Message.Error": "Не удалось загрузить содержимое",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "Расширение не поддерживается",
+  "Notification.DragAndDrop.Impossible.Title": "Перетаскивание",
+  "Notification.DragAndDrop.Impossible.SubTitle": "Нельзя использовать перетаскивание в том же виджете",
+  "Notification.DragAndDrop.NotYet.Title": "Перетаскивание",
+  "Notification.DragAndDrop.NotYet.SubTitle": "Использовать перетаскивание пока еще нельзя! Сначала откройте решение!",
+  "Notification.DragAndDrop.Insert.Failed": "Сбой вставки",
+  "Notification.DragAndDrop.Insert.Before.Experience": "Невозможно вставить тип перед созданием презентации",
+  "Notification.DragAndDrop.Not.Supported": "Тип не поддерживается",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "Сбой при вставке материалов",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "Сбой при вставке нескольких элементов",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "Множественная вставка поддерживается только для типа Изоляционный материал."
+}

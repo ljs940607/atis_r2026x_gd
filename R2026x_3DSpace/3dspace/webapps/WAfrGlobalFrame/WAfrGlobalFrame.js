@@ -1,0 +1,1 @@
+define("DS/WAfrGlobalFrame/WAfrGlobalImmersiveFrame",["DS/Windows/ImmersiveFrame"],(function(e){"use strict";class r{constructor(){if(this instanceof r)throw Error("WAfrGlobalImmersiveFrame cannot be instantiated.")}static _immersiveFrame=void 0;static getWAfrGlobalImmersiveFrame(){return this._immersiveFrame||(this._immersiveFrame=new e),this._immersiveFrame}}return r}));

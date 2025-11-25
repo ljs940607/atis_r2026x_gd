@@ -1,0 +1,1 @@
+define("DS/3DPlayApp/3DPlayApp_cs",{});define("DS/3DPlayApp/assets/nls/3DPlayApp",{SpecificData_NoTransition:"Tento obsah nelze otevřít v jiné webové aplikaci.",AutoringAppData_NoTransition:"Aplikace 3DPlay nemůže přepínat ze zdrojové aplikace.",RTVIssue_NoTransition:"Chcete-li přepínat mezi aplikacemi 3DPlay a 3DMaster, musíte vždy začít s aplikací 3DMaster."});

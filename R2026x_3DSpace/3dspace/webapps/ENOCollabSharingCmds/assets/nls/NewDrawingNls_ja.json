@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "新規図面",
+  "insertNewDrawing": "新規図面を挿入",
+  "newObjectType": "図面",
+  "multiParentInsertDrawingTitle": "新規図面を挿入",
+  "multiParentInsertDrawingMsg": "新しい図面を複数の親の下に挿入してよろしいですか?",
+  "multiParentCannotInsert": "エラー: 選択したオブジェクトの下に挿入できません",
+  "CannotInsert.Type": "このオブジェクト タイプは選択したオブジェクトの下に挿入できません: {type}",
+  "okBtn": "OK",
+  "closeBtn": "閉じる"
+}

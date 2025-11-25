@@ -1,0 +1,1236 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20240312.5"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        8,
+        17,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "mesh": 0,
+      "translation": [
+        0.006744504,
+        -0.009088828,
+        0.0134814763
+      ],
+      "rotation": [
+        -7.791343E-08,
+        -0.896544635,
+        -0.442953378,
+        5.901632E-08
+      ],
+      "name": "MetaQuest_Controller_right_wo_ring"
+    },
+    {
+      "children": [
+        2
+      ],
+      "translation": [
+        0.0182649866,
+        0.0207981616,
+        -0.0242555626
+      ],
+      "rotation": [
+        1.9431063E-08,
+        -0.9915837,
+        -0.129467368,
+        -1.60364877E-07
+      ],
+      "scale": [
+        1.00000024,
+        1.00000024,
+        1.00000048
+      ],
+      "name": "thumbstick_helper_y001"
+    },
+    {
+      "children": [
+        3
+      ],
+      "translation": [
+        9.536744E-10,
+        3.81469745E-09,
+        7.629395E-09
+      ],
+      "rotation": [
+        1.05208215E-07,
+        2.08813162E-07,
+        -0.130526185,
+        0.9914449
+      ],
+      "scale": [
+        0.9999996,
+        0.9999998,
+        0.9999999
+      ],
+      "name": "thumbstick_helper_x001"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.0,
+        0.0079872,
+        -0.000142818462
+      ],
+      "rotation": [
+        2.30968212E-07,
+        -0.999999464,
+        0.00106737879,
+        -2.756718E-07
+      ],
+      "scale": [
+        0.99999994,
+        0.9999995,
+        0.9999994
+      ],
+      "name": "MetaQuest_Controller_right_thumbstck"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -0.00385144632,
+        0.0294190422,
+        -0.02650776
+      ],
+      "rotation": [
+        0.0,
+        8.881784E-16,
+        -3.602976E-08,
+        1.0
+      ],
+      "name": "MetaQuest_Controller_right_B"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0.0006432467,
+        0.0294186119,
+        -0.0116837416
+      ],
+      "rotation": [
+        0.0,
+        8.881784E-16,
+        -3.602976E-08,
+        1.0
+      ],
+      "name": "MetaQuest_Controller_right_A"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        0.00261459942,
+        -0.0046390323,
+        -0.005847399
+      ],
+      "rotation": [
+        0.4874262,
+        -1.756185E-08,
+        -3.14598978E-08,
+        0.8731642
+      ],
+      "name": "MetaQuest_Controller_right_squeeze"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        0.003209018,
+        0.018527532,
+        -0.0518852
+      ],
+      "rotation": [
+        0.0,
+        8.881784E-16,
+        -3.602976E-08,
+        1.0
+      ],
+      "name": "MetaQuest_Controller_right_trigger"
+    },
+    {
+      "children": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "translation": [
+        0.00197637756,
+        -0.009933215,
+        0.0478462167
+      ],
+      "rotation": [
+        -0.9601942,
+        0.0,
+        0.0,
+        -0.279333323
+      ],
+      "name": "RootNode"
+    },
+    {
+      "translation": [
+        0.00467765471,
+        0.0274734776,
+        0.0178677831
+      ],
+      "rotation": [
+        -0.0519902073,
+        -0.674074,
+        0.735281646,
+        0.04777389
+      ],
+      "scale": [
+        1.0,
+        1.00000012,
+        1.0
+      ],
+      "name": "icon_pose/trigger/center"
+    },
+    {
+      "translation": [
+        0.009986885,
+        -0.0223853458,
+        0.0275774747
+      ],
+      "rotation": [
+        -0.06526987,
+        -0.951267362,
+        -0.30017516,
+        -0.0269291978
+      ],
+      "name": "indicator_pose/squeeze"
+    },
+    {
+      "translation": [
+        0.00237071328,
+        0.0417666733,
+        -0.0005411377
+      ],
+      "rotation": [
+        -0.05199017,
+        -0.6740742,
+        0.7352814,
+        0.04777389
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.00000012
+      ],
+      "name": "indicator_pose/tip"
+    },
+    {
+      "translation": [
+        -0.007856103,
+        -0.0580007881,
+        -0.008946877
+      ],
+      "rotation": [
+        -0.0477738827,
+        -0.7352815,
+        -0.674074,
+        -0.05199021
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "name": "label_pose/controller"
+    },
+    {
+      "translation": [
+        -0.07266609,
+        -0.0138515914,
+        -0.008678132
+      ],
+      "rotation": [
+        -0.0477738827,
+        -0.7352815,
+        -0.674074,
+        -0.05199021
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "name": "label_pose/lower_button/center"
+    },
+    {
+      "translation": [
+        0.06628156,
+        -0.0563861765,
+        0.0188661646
+      ],
+      "rotation": [
+        -0.04777383,
+        -0.7352815,
+        -0.674074,
+        -0.0519903861
+      ],
+      "scale": [
+        1.0,
+        1.00000012,
+        0.99999994
+      ],
+      "name": "label_pose/squeeze/center"
+    },
+    {
+      "translation": [
+        -0.056392,
+        0.04395018,
+        -0.0357965343
+      ],
+      "rotation": [
+        -0.0477738827,
+        -0.7352815,
+        -0.674074,
+        -0.05199021
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "name": "label_pose/thumbstick/center"
+    },
+    {
+      "translation": [
+        0.06462541,
+        0.05410655,
+        -0.0120636988
+      ],
+      "rotation": [
+        -0.0477738827,
+        -0.7352815,
+        -0.674074,
+        -0.05199021
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "name": "label_pose/trigger/center"
+    },
+    {
+      "children": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "translation": [
+        0.00197637756,
+        -0.009933215,
+        0.0478462167
+      ],
+      "rotation": [
+        -0.9601942,
+        0.0,
+        0.0,
+        -0.279333442
+      ],
+      "name": "RootNode (1)"
+    },
+    {
+      "translation": [
+        0.004182479,
+        -0.0104320319,
+        -0.00321495067
+      ],
+      "rotation": [
+        -0.04777396,
+        -0.7352814,
+        -0.6740742,
+        -0.0519902371
+      ],
+      "scale": [
+        1.0,
+        1.00000024,
+        1.00000024
+      ],
+      "name": "icon_pose/lower_button/center"
+    },
+    {
+      "translation": [
+        0.00558017474,
+        -0.0340385772,
+        0.0212285873
+      ],
+      "rotation": [
+        -0.06526994,
+        -0.951267362,
+        -0.30017516,
+        -0.0269289967
+      ],
+      "scale": [
+        1.0,
+        1.00000024,
+        1.00000036
+      ],
+      "name": "icon_pose/squeeze/center"
+    },
+    {
+      "translation": [
+        0.0089457,
+        0.00418903353,
+        -0.004482189
+      ],
+      "rotation": [
+        -0.04777396,
+        -0.7352814,
+        -0.6740742,
+        -0.0519902371
+      ],
+      "scale": [
+        1.0,
+        1.00000036,
+        1.00000024
+      ],
+      "name": "icon_pose/upper_button/center"
+    },
+    {
+      "translation": [
+        0.07180284,
+        0.0059398273,
+        -0.0193358958
+      ],
+      "rotation": [
+        -0.0477738865,
+        -0.735281467,
+        -0.6740741,
+        -0.05199021
+      ],
+      "scale": [
+        1.0,
+        1.00000024,
+        1.00000012
+      ],
+      "name": "label_pose/upper_button/center"
+    },
+    {
+      "translation": [
+        -0.0113182217,
+        -0.00720676,
+        0.05559945
+      ],
+      "rotation": [
+        0.06326561,
+        -0.4418532,
+        0.894304454,
+        -0.03134973
+      ],
+      "scale": [
+        0.9999997,
+        1.00000024,
+        1.00000024
+      ],
+      "name": "icon_pose/thumbstick/center"
+    },
+    {
+      "translation": [
+        -0.01300663,
+        0.001895217,
+        0.04857581
+      ],
+      "rotation": [
+        0.0632659346,
+        -0.4418534,
+        0.894304335,
+        -0.03134958
+      ],
+      "scale": [
+        0.9999996,
+        0.9999999,
+        1.0
+      ],
+      "name": "icon_pose/thumbstick/south"
+    },
+    {
+      "translation": [
+        -0.009748167,
+        -0.01629448,
+        0.06249053
+      ],
+      "rotation": [
+        0.06326601,
+        -0.441853374,
+        0.894304335,
+        -0.0313494541
+      ],
+      "scale": [
+        0.99999994,
+        1.00000012,
+        1.0
+      ],
+      "name": "icon_pose/thumbstick/north"
+    },
+    {
+      "translation": [
+        -7.234765E-05,
+        -0.005903164,
+        0.05454385
+      ],
+      "rotation": [
+        0.06326592,
+        -0.441853374,
+        0.894304335,
+        -0.0313495733
+      ],
+      "scale": [
+        0.9999999,
+        0.9999994,
+        0.99999994
+      ],
+      "name": "icon_pose/thumbstick/west"
+    },
+    {
+      "translation": [
+        -0.0233587474,
+        -0.008537129,
+        0.05655376
+      ],
+      "rotation": [
+        0.063265726,
+        -0.441853434,
+        0.894304335,
+        -0.0313496739
+      ],
+      "scale": [
+        1.0,
+        1.00000048,
+        1.00000024
+      ],
+      "name": "icon_pose/thumbstick/east"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_wo_ring"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_thumbstck"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_B"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_A"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_squeeze"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 20,
+          "material": 0
+        }
+      ],
+      "name": "MetaQuest_Controller_right_trigger"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 5112,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1807,
+      "max": [
+        0.04000159,
+        0.0287477411,
+        0.056807328
+      ],
+      "min": [
+        -0.0333021544,
+        -0.0393574126,
+        -0.06208881
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21684,
+      "componentType": 5126,
+      "count": 1807,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1807,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 10224,
+      "componentType": 5123,
+      "count": 993,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 43368,
+      "componentType": 5126,
+      "count": 238,
+      "max": [
+        0.008375319,
+        0.006200388,
+        0.008497382
+      ],
+      "min": [
+        -0.00837532,
+        -0.00620038435,
+        -0.008497385
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 46224,
+      "componentType": 5126,
+      "count": 238,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14456,
+      "componentType": 5126,
+      "count": 238,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12212,
+      "componentType": 5123,
+      "count": 150,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49080,
+      "componentType": 5126,
+      "count": 41,
+      "max": [
+        0.00501810946,
+        0.00222632429,
+        0.005092499
+      ],
+      "min": [
+        -0.005018109,
+        -0.00222632429,
+        -0.005092505
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49572,
+      "componentType": 5126,
+      "count": 41,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16360,
+      "componentType": 5126,
+      "count": 41,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12512,
+      "componentType": 5123,
+      "count": 150,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 50064,
+      "componentType": 5126,
+      "count": 41,
+      "max": [
+        0.005091853,
+        0.002226328,
+        0.005016869
+      ],
+      "min": [
+        -0.005091853,
+        -0.00222632429,
+        -0.005016869
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 50556,
+      "componentType": 5126,
+      "count": 41,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16688,
+      "componentType": 5126,
+      "count": 41,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12812,
+      "componentType": 5123,
+      "count": 426,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 51048,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        0.00681317458,
+        0.0237630978,
+        0.005845468
+      ],
+      "min": [
+        -0.008039495,
+        -0.003885359,
+        -0.00986329652
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 52020,
+      "componentType": 5126,
+      "count": 81,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17016,
+      "componentType": 5126,
+      "count": 81,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13664,
+      "componentType": 5123,
+      "count": 384,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 52992,
+      "componentType": 5126,
+      "count": 73,
+      "max": [
+        0.0148907444,
+        0.000349308044,
+        0.01942375
+      ],
+      "min": [
+        -0.0148907444,
+        -0.0253870059,
+        -0.00266218581
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53868,
+      "componentType": 5126,
+      "count": 73,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17664,
+      "componentType": 5126,
+      "count": 73,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC3",
+      "name": "accessorAnimationPositions"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 16,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 64,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC3",
+      "name": "accessorAnimationPositions"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 96,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.0333333351
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC3",
+      "name": "accessorAnimationPositions"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14432,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14432,
+      "byteLength": 54744,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69176,
+      "byteLength": 18248,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87424,
+      "byteLength": 56,
+      "name": "bufferViewAnimationFloatScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87480,
+      "byteLength": 128,
+      "name": "bufferViewAnimationFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87608,
+      "byteLength": 72,
+      "name": "bufferViewAnimationFloatVec3"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "controller_MetaQuest2_right.bin",
+      "byteLength": 87680
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "Quest"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "controller_MetaQuest2_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "controller_MetaQuest2_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "controller_MetaQuest2_Roughness0.png"
+    }
+  ],
+  "images": [
+    {
+      "uri": "controller_MetaQuest2_Normal.png"
+    },
+    {
+      "uri": "controller_MetaQuest2_BaseColor.png"
+    },
+    {
+      "uri": "controller_MetaQuest2_Roughness0.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 24,
+          "output": 25
+        }
+      ],
+      "name": "input/thumbstick/x"
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 6,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 6,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 26,
+          "output": 27
+        },
+        {
+          "input": 28,
+          "output": 29
+        }
+      ],
+      "name": "input/squeeze/value"
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 30,
+          "output": 31
+        }
+      ],
+      "name": "input/trigger/value"
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 4,
+            "path": "translation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 32,
+          "output": 33
+        }
+      ],
+      "name": "input/upper_button/click"
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 34,
+          "output": 35
+        }
+      ],
+      "name": "input/thumbstick/y"
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "translation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 36,
+          "output": 37
+        }
+      ],
+      "name": "input/lower_button/click"
+    }
+  ]
+}

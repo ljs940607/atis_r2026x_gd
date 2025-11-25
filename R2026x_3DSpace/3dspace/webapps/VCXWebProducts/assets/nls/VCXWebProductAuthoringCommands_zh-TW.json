@@ -1,0 +1,19 @@
+{
+  "VCXSelectElementMessage": "選擇物件",
+  "VCXCaptureInNeutralsCmd": "儲存為預設值",
+  "VCXRestoreNeutralsCmd": "回復預設值",
+  "VCXFormatPainterCmd": "複製外觀",
+  "VCXArrowOrientationCmd": "箭頭方位",
+  "VCXChangeInteractionCmd": "互動",
+  "VCXArrowOrientationCircularCmd": "箭頭方位",
+  "VCXSingleFormatPainterCmd": "複製外觀一次",
+  "VCXMultipleFormatPainterCmd": "複製外觀多次",
+  "VCXAddCameraKeyCmd": "更新攝影機位置",
+  "VCXDeleteSceneSelectionCmd": "刪除所選場景",
+  "VCXReplaceScenarioCmd": "取代場景",
+  "VCXCreateScenarioCmd": "抓取至新場景",
+  "VCXCreateEmptyScenarioCmd": "建立空白場景",
+  "VCXShowUpdateViewCmd": "資產更新",
+  "VCXApplyToSelectedCmd": "將屬性和可見度套用至所選場景",
+  "VCXApplyToAllCmd": "將屬性和可見度套用至所有場景"
+}

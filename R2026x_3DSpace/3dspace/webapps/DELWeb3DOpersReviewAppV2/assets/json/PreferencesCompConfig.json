@@ -1,0 +1,71 @@
+{
+    "preferences": [
+        {
+            "name": "autoReload",
+            "type": "boolean",
+            "label": "Preferences.AutoReload.Label",
+            "defaultValue": "false"
+        },
+        {
+            "name": "usePublishedContent",
+            "type": "boolean",
+            "label": "Preferences.UsePublishedContent.Label",
+            "defaultValue": "false"
+        },
+        {
+            "name": "installAutoApplyVolume",
+            "type": "boolean",
+            "label": "Preferences.InstallAutoApplyVolume.Label",
+            "defaultValue": "false"
+        },
+        {
+            "name": "installVolumeOffSet",
+            "type": "text",
+            "label": "Preferences.InstallVolumeOffSet.Label",
+            "defaultValue": "50"
+        },
+        {
+            "name": "defaultViewerMode",
+            "type": "list",
+            "label": "Preferences.DefaultViewerMode.Label",
+            "defaultValue": "BuildUp",
+            "options": [
+                {
+                    "label": "Preferences.DefaultViewerMode.WorkInstructions.Label",
+                    "value": "WorkInstructions"
+                },
+                {
+                    "label": "Preferences.DefaultViewerMode.BuildUp.Label",
+                    "value": "BuildUp"
+                }
+            ]
+        },
+        {
+            "name": "defaultPickability",
+            "type": "list",
+            "label": "Preferences.DefaultPickability.Label",
+            "defaultValue": "ITEM",
+            "options": [
+                {
+                    "label": "Preferences.DefaultPickability.SHAPE.Label",
+                    "value": "SHAPE"
+                },
+                {
+                    "label": "Preferences.DefaultPickability.ITEM.Label",
+                    "value": "ITEM"
+                }
+            ]
+        },
+        {
+            "name": "webTimeout",
+            "type": "text",
+            "label": "Preferences.WebTimeout.Label",
+            "defaultValue": "70000"
+        },
+        {
+            "name": "editProperties_readOnly",
+            "type": "hidden",
+            "defaultValue": true
+        }
+    ]
+}

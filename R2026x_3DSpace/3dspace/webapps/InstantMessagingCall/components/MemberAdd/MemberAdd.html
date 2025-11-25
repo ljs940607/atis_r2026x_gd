@@ -1,0 +1,62 @@
+<div id="im-call-member-add">
+  <vu-modal :title="$store.getters.nls('addToCall')" :show="showAddUser" @close="hideAddUserModal()" :noMobile="false">
+    <template #modal-body>
+      <vu-message v-if="!isPrivateConv"
+      color="primary"
+      :closable="false"
+      :show="true"
+    >
+      {{ $store.getters.nls('addedPeopleWillSeeHistory') }}
+    </vu-message>
+      <vu-form ref="form">
+        <vu-multiple-select
+            ref="searchUsersMultipleSelect"
+            :label="selectUsers.label"
+            :placeholder="selectUsers.placeholder"
+            :helper="selectHelper"
+            :options="selectUsers.options"
+            :preserveSearchOnBlur="selectUsers.preserveSearchOnBlur"
+            v-model="selectUsers.list"
+        /> 
+        <div class="searchUsersList">
+          <ul class='member-add-displayList'>
+            <vu-scroller v-if="Object.keys(searchUsersList).length > 0" style="max-height: 225px;">
+              <li
+                v-for="(userInfo, key) in searchUsersList"
+                @mousedown="addUser(userInfo.userName, key)"
+                >
+                <vu-rtuserpresence
+                  :tenantId="$store.getters.tenant"
+                  :login="key"
+                  class="noPresence bgInherit smalldium"
+                  :class="key=='noResult' && 'noAvatar'"
+                />
+                  <span>{{ userInfo.userName }}</span>
+              </li>
+            </vu-scroller>
+          </ul>
+        </div>
+        <br v-if="isPrivateConv">
+        <vu-input
+            :class="{topicField : $store.getters.isMobile}"
+            v-if="isPrivateConv"
+            :label="topic.label"
+            required
+            :placeholder="topic.placeholder"
+            v-model="topic.model"
+            :rules="topic.rules"
+        />
+      </vu-form>
+    </template>
+    <template #modal-footer>
+      <vu-btn color="primary" @click="sendInvite()">
+          {{ $store.getters.nls('add') }}
+      </vu-btn>
+      <vu-btn
+      @click="hideAddUserModal()">
+          {{ $store.getters.nls('cancel') }}
+      </vu-btn>
+    </template>
+</vu-modal>
+</div>
+  

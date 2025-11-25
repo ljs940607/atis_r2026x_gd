@@ -1,0 +1,865 @@
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px;
+}
+body{
+        min-width: 737px;
+}
+/* Body Custom Scrollbar */
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.checkboxIcon{
+    background-image: URL("../connector/images/uncheck-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px; 
+    height:15px;
+    width:15px;
+    display: inline-block;
+    /*margin-left: 20px; */
+}
+.checkboxIcon.selected{
+    background-image: URL("../connector/images/check-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+    height:15px;
+    width:15px;
+    display: inline-block;
+   /* margin-left: 20px;*/
+}
+.filterCheckbox{
+    background-image: URL("../connector/images/Uncheck.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+    height:22px;
+    width:22px;
+    display: inline-block;
+
+}
+
+.filterCheckbox.selected{
+    background-image: URL("../connector/images/check-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px 20px;
+    height:22px;
+    width:22px;
+    display: inline-block;
+}
+.disabledCheckboxIcon{
+    background-image: URL("../connector/images/uncheck-pressed.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 15px 15px;
+    height:15px;
+    width:15px;
+    display: inline-block;
+    /*margin-left: 20px; */
+}
+
+label#autoAddMarkersCheckboxLabel, label#autoAddMarkersCheckboxLabel.selected{
+	background-size: 20px 20px;
+	height: 20px;
+    width: 20px;
+}
+ /* Assembly Elements Table Custom Scrollbar */ 
+#assemblyElementsContainer::-webkit-scrollbar {
+    width: 0.5em;
+}
+#assemblyElementsContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#assemblyElementsContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+    height:0.5em
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+/* mapped Assembly Table Custom Scrollbar */
+#mappedElementsTableBody::-webkit-scrollbar {
+    width: 0.5em;
+}
+#mappedElementsTableBody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#mappedElementsTableBody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/* Mapped Elements table Container */
+/* #mappedElementsContainer::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+#mappedElementsContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#mappedElementsContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+
+/* Assembly Elements table Container */
+#assemblyElementsTableContainer::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+#assemblyElementsTableContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#assemblyElementsTableContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/* Artwork Assembly Table Custom Scrollbar */
+.assemblyElementsTableBody::-webkit-scrollbar {
+    width: 0.5em;
+}
+.assemblyElementsTableBody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.assemblyElementsTableBody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} 
+
+/* premapElementsContainer panel Custom Scrollbar  */
+#premapElementsContainer::-webkit-scrollbar {
+    width: 0.5em;
+}
+#premapElementsContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#premapElementsContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} 
+
+/*  previewContainer panel Custom Scrollbar  */
+#previewContainer::-webkit-scrollbar {
+    width: 0.5em;
+}
+#previewContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#previewContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} 
+
+/*  current Content Container panel Custom Scrollbar  */
+#currentContentPreviewContainer::-webkit-scrollbar {
+    width: 0.5em;
+}
+#currentContentPreviewContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#currentContentPreviewContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} 
+
+.collapsed{
+    display: none;
+}
+.gs1-child-type{
+    margin-left: 30px;
+}
+.expandIcon{
+  /*  background-image: url('../images/AWLApprovedForRelease.gif');*/
+/*    height:10px;
+    width:10px;
+    display:inline-block;*/
+   float: left;
+     margin-right: 5px;
+    margin-top:2px; 
+    content: url('../connector/images/bullet_triangle.gif');
+    
+}
+.tilted{
+    content: url('../connector/images/bullet_triangle_tilted.gif');
+}
+
+.gs1ParentContainer{
+    margin-left:10px;
+}
+#mappedElementsTable,#assemblyElementsTable{
+ /*   border:1px solid white;*/
+    border-collapse: collapse;
+	text-align: left;
+}
+
+#mappedElementsHeaderRow{
+	height: 35px;
+	width: 100vh;
+}
+.mappedElementsHeaderCell,.ArtworkAssemblyHeaderCell{
+    border:1px solid darkgrey;
+    border-collapse: collapse;
+    height:100%;
+}
+.mappedElementsContentCell,.ArtworkAssemblyContentCell{
+    border:1px solid #494949;
+    
+    /* text-align: center; */
+}
+.selectedPremapElement{
+    background-color: #595959;
+}
+#refreshPreviewPanelContainer{
+    height:10px;
+    width:10px;
+}
+.AssemblyInputHeaderCell,.assemblyCheckbox{
+   /* width:10%;*/
+    width: 40px;
+    min-width: 30px;
+	/* max-width: 50px; */
+}
+.AssemblyTypeIconHeaderCell{
+    /*width:10%;*/
+    width:30px;
+    min-width:30px;
+	/* max-width: 40px; */
+}
+.AsemblyTypeHeaderCell,.assemblyElementType{
+    /*width:18%;*/
+    width:150px;
+    min-width: 120px;
+   word-break:break-word;
+}
+
+.AssemblyISHeaderCell,.assemblyInstanceSequence{
+    /*width:15%;*/
+    width:60px;
+    min-width:60px;
+	/* max-width: 70px; */
+}
+.AssemblyLanguageHeaderCell,.assemblyLanguage{
+   /* width:24%;*/
+    width:150px;
+    min-width: 150px;
+    word-break: break-word;
+	/* max-width: 150px; */
+}
+.AssemblyStateHeaderCell,.assemblyState{
+   /* width:20%;*/
+    width:150px;
+    min-width: 150px;
+	/* max-width: 150px; */
+}
+.AssemblyContentHeaderCell,.assemblyContent{
+	    width:246px;
+    min-width:246px;
+	/* max-width:200px; */
+}
+.AssemblyNotesHeaderCell,.assemblyNotes{
+	    width:90px;
+    min-width:90px;
+}
+.AssemblyLinkHeaderCell{
+    border-right:6px solid rgba(0,0,0,0.3); 
+}
+.AssemblyLinkHeaderCell,.assemblyLink{
+   width:30px;
+   min-width:30px;
+}
+
+.linkSpanImg {
+	height: 20px;
+}
+
+#massUpdate{
+	height: 20px;
+	width: 20px;
+}
+
+#massUpdateImg{
+	border-radius: 5px;
+	height: 20px;
+	width: 20px;
+}
+
+span#defaultMarkerValueSpan{
+	position:relative;
+	bottom: 6px;
+	margin-bottom: 5px;
+}
+
+#defaultMarkerValue{
+	vertical-align: middle;
+	position:relative;
+	bottom: 2px;
+	resize: horizontal;
+	max-width: 200px;
+	font-family: Arial, Helvetica;
+	font-size: .8em;
+}
+
+span.showHideFilterSpan{
+	width: 15px;
+	display: inline-block;
+}
+
+.showHideFilterImage{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sortingImage{
+	height: 10px;
+	width: 10px;
+	position: relative;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+span.tableHeaderTitle{
+	min-height: 20px;
+	padding-top: 5px;
+	padding-left: 2px;
+	display: inline-block;
+}
+
+.clearAllFiltersButton{
+	height: 20px;
+	width: 20px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.filter {
+	background-color:#adadad;
+	border: 1px solid #dadada;
+	border-radius: 2.5px;
+	position: relative;
+	box-shadow: 0 0 10px;
+    float : left;
+	font-size: 12px;
+	font-family: Arial;
+	height: 15px;
+	width: 80%;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser*/
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px;
+	vertical-align: middle;
+}
+
+.checkbox{width:30px;min-width:30px;}
+.typeIcon{width:60px;min-width:60px;}
+.elementType{width:200px;min-width:150px;word-break: break-word;}
+.instSeq{width:90px;min-width:40px;}
+.language{width:90px;min-width:70px;word-break: break-word;}
+.state{width:70px;min-width:50px;}
+.experienceContent{width:300px;min-width:150px;word-break: break-word;}
+.copyTextContent{width:350px;min-width:150px;word-break: break-word;}
+.syncIndicator{width:30px;min-width:20px;}
+
+/*.checkbox{width:5%; min-width:40px;}
+.typeIcon{width:10%; min-width:40px;}
+.elementType{width:20%; min-width:120px;word-break:break-word;}
+.instSeq{width:5%; min-width:50px;}
+.language{width:10%; min-width:80px;}
+.state{width:10%; min-width:100px;}
+.copyTextContent{width:25%; min-width:120px;word-break: break-word;}
+.experienceContent{width:12.5%; min-width:120px;word-break: break-word;}
+.syncIndicator{width:12.5%; min-width:40px;}*/
+#mappedElementsTableContainer{
+    height: 100%;
+}
+#mappedElementsTable{
+    height: 100%;
+    width: 100%;
+}
+#mappedElementsTable > thead{
+    display: block;
+    background-color: #4f504c;
+	width: 100%;
+}
+#mappedElementsTable > tbody{
+    display:block;
+    height:94%;
+    overflow-y: scroll;
+}
+/*#mappedElementsTable>thead>th.unknown*/
+#syncIndicator{
+    border-right:6px solid rgba(0,0,0,0.3);
+}
+
+/* styling for available elements container STARTS*/
+#availableElementsContainer{
+	width: 99%;
+	height: 32%;
+    overflow: hidden;
+    border:1px solid white;
+	background-color: #333333;
+}
+#premapElementsContainer{
+	float: left;
+	width: 33%;
+	height: 92%;
+	overflow-y: scroll;
+}
+#assemblyElementsContainer{
+	float: left;
+	width: 67%;
+	height: 96%;
+    overflow: auto;
+}
+#assemblyElementsTableContainer{
+	height: 59%;
+	/*overflow-y: hidden;*/
+    width:98%;
+    margin-left:2px;
+    
+}
+#assemblyElementsTable{
+    height:100%;
+   /* width:100%;*/
+}
+#assemblyElementsTable>thead{
+    display:block;
+        background-color: #4f504c;
+}
+/*.assemblyElementsTableBody{
+    height:83%;
+}*/
+#assemblyElementsTable>tbody{
+    display: block;
+    overflow-y: scroll;
+    height: 120px;
+
+}
+#artworkAssemblyHeader{
+    margin-right:10px;
+    display: inline;
+    margin-left: 16px;
+}
+#previewElementsContainer{
+    width: 96.5%;
+    height: 50%;
+    padding: 7px;
+    background-color: white;
+    color: black;
+    margin: 2px 4px 0px 6px;
+    overflow: auto;
+}
+#previewHeader{
+    text-align: center;
+    margin-top: -5px;
+}
+
+#AssemblyFilter{
+    margin-right: 16px;
+    float: right;    
+}
+#AssemblyFilter>input{
+    border-radius: 12px;
+    margin-left:5px;
+    margin-top:2px;
+    padding-left: 5px;
+    outline-style: none;
+}
+#artworkAssemblyToolbar{
+    height: 20px;
+    position: relative;
+}
+/* styling for available elements container ENDS */
+
+#footerToolbar{
+    position: fixed;
+    bottom: 2px;
+    right: 11px;
+}
+#filterContainer{
+    position: relative;
+	display: inline-block;
+	right: 2px;
+	margin-left: 2px;
+    margin-top: 2px;
+    height: 26px;
+	width: 158px;
+	float: right;
+}
+
+/*wx7 Styling Starts*/
+.container{
+	background-color: #333333;
+	width: 100%;
+	height: 100%;
+	position: relative; 
+	border: 0;
+	padding: 0;
+   /* min-width:900px;*/
+}
+
+/*.container>div{
+	border: 0.5px solid white;
+}*/
+
+#mappedElementsContainer{
+	height: 27%;
+	width: 100%;
+    overflow-y: hidden;
+}
+
+#markupFilter{
+    /*position: absolute;
+    right: 30px;
+    top: 12px;*/
+}
+#markupFilter>input{
+    margin-left: 5px;
+    border-radius:10px;
+    padding-left: 5px;
+    outline-style: none;
+}
+.showSyncIcon{  /* to show the sync Icon  */
+    background-image: url('../connector/images/iconSynchronization.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inlineIcon{  /* to show the sync Icon  */
+    background-image: url('../connector/images/AWLiconStatusInlineTranslation.gif');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.noTranslateIcon{  /* to show the sync Icon  */
+    background-image: url('../connector/images/AWLiconStatusNoTranslation.gif');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.CopyElementIcon{
+    background-image: url('../connector/images/Artwork_A_Icon.png');
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.markerElementIcon{
+      background-image: url('../connector/images/Marker_M_Icon.png');
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.premapElementIcon{
+    background-image: url('../connector/images/Artwork_A_Icon.png');
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/*#previewContainer.collapsed{
+    height:5%;
+}
+#availableElementsContainer.expanded*/
+
+#toolbarContainer{
+	/*height: 6%;*/
+    height: 28px;
+	width: 98.2%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	margin-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+#commandsContainer{
+    height: 46%;
+}
+#applyButton{
+    width: 85px;
+    height: 30px;
+    float: left;
+    position: relative;
+	top: -4px;
+    color: white;
+    background-color: black;
+    border-color: darkgray;
+}
+#footerButtons>button{
+     width: 100px;
+    height: 20px;
+ /*   float: right;*/
+    position: relative;
+    right: 25px;
+    color: white;
+    background-color: black;
+    border-color: darkgray;
+}
+#footerButtons{
+  /*  position: absolute;*/
+     float: right; 
+/*    right: 35px; */
+    margin-top: 5px;
+    margin-bottom: 2px;
+    height: 25px;
+    border: 0.0px white solid;
+}
+#premapToolbar{
+	padding: 5px;
+	padding-left: 20px;
+    margin: 4px 8px;
+}
+#premapFilterSpanLabel{
+	font-weight: bold;
+}
+#premapFilter{
+    border-radius: 5px;
+    margin-left: 2px;
+    outline-style: none;
+    padding-left: 5px;
+	background-color:#adadad;
+	border: 1px solid #dadada;
+	box-shadow: 0 0 10px;
+}
+.gs1-parent-type{
+	
+}
+
+#assemblyElementPreview{
+    border: 1px solid lightgrey;
+    width: 97%;
+    padding: 2px;
+    margin-left: 2px;
+    margin-top: 10px;
+    height: 12%;
+	overflow: auto;
+}
+
+#assemblyElementNotes{
+	border: 1px solid lightgrey;
+    width: 97%;
+    padding: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 11%;
+    margin-bottom:2px;
+	overflow: auto;
+}
+.label{
+	display: block;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+#textFrameNameContainer{
+	vertical-align: middle;
+	position: relative;
+	bottom: 7px;
+}
+
+#textFrameName{
+    margin-left:1px;
+	
+}
+.clicktoHideImage {
+    width: 15px;
+    height: 10px;
+    float: right;
+    /*margin-top: -7px;*/
+}
+.showHideContainer{
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+    width: 99%;
+    height: 2px;
+}
+
+#revertToOriginalSortingButton{
+	height: 10px;
+	height: 10px;
+	float: left;
+	clear: left;
+	margin-left: 8px;
+	margin-top: 1px;
+}
+
+.maxPanelHeight{
+    height:53%;
+}
+.minPanelHeight{
+    height:5%;
+}
+.availableElementsDefaultSize{
+    height:33%;
+}
+.previewConatinerDefaultSize{
+    height:25%;
+}
+#previewContainer{
+	height: 14%;
+	width: 99%;
+    overflow: auto;
+    position: relative;
+    border:1px solid white;
+	background-color: #333333;
+}
+#currentContentPreviewContainer{
+    height: 14%;
+    width: 99%;
+    overflow: auto;
+    position: relative;
+    background-color: #4d4d4d;
+    border:1px solid white;
+}
+#currentContentPreviewHeader{
+    text-align: center;
+    margin-top: -5px;
+}
+#currentContentPreviewElementsContainer{
+    width: 96.5%;
+    height: 50%;
+    padding: 7px;
+    background-color: #333333;
+    color: white;
+    margin: 2px 4px 0px 6px;
+    overflow: auto;
+}
+.premapPanelHeaderContainer{
+    position:relative;
+}
+#collapsePremapPanel.collapsePremap{
+  background-image: url(../connector/images/iconClickLeft.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+   top: 6px;
+}
+#collapsePremapPanel.expandPremap{
+    background-image: url('../connector/images/iconClickRight.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+}
+#collapseAssemblyPanel.collapseAssembly{
+    background-image: url('../connector/images/iconClickRight.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+}
+#collapseAssemblyPanel.expandAssembly{
+    background-image: url('../connector/images/iconClickLeft.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+}
+#collapseCopyElementsGrid.expandCopyGrid {
+    background-image: url(../connector/images/iconClickDown.png);
+    background-size: 15px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    right: 2px;
+    top: 0px;
+	float: right;
+}
+#collapseCopyElementsGrid.collapseCopyGrid {
+    background-image: url(../connector/images/iconClickUp.png);
+    background-size: 15px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    right: 2px;
+    top: 0px;
+	float: right;
+}
+
+#previewElements{
+    white-space: pre-wrap;
+}
+td.copyTextContent{
+	white-space: pre-wrap;
+}
+
+.assemblyTypeIcon{
+	width: 15px;
+	height:15px;
+	padding-right: 3px;
+}
+
+.artworkTypeImage{
+	position : relative;
+	top: 2px;
+}
+
+.selectionSequenceSpan{
+	padding-left: 3px;
+	color: #fcffbf;
+}
+

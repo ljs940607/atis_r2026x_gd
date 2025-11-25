@@ -1,0 +1,69 @@
+{
+
+  "ArbitraryUnit" : "Arbitrary Unit",
+
+  "URI" : "URI",
+  "URITooltip" : "Unique identifier of Arbitrary Unit",
+  "arbitraryUnitName" : "Label",
+  "arbitraryUnitNameTooltip" : "Name of the Arbitrary Unit", 
+  "arbitraryUnitSymbol" : "Symbol",
+  "arbitraryUnitSymbolTooltip" : "Symbol of the Arbitrary Unit",
+
+
+  "Title_ArbitraryUnits_modal": "Arbitrary Units",
+  "Info_ArbitraryUnits_modal" : "Define Arbitrary Unit by providing name and symbol",
+
+
+  "paramLabel" : "Label",
+  "paramLabelTooltip" : "Name of the Parameter",
+  "paramDescription" : "Description",
+  "paramDescriptionTooltip" : "Description of the Parameter",
+  "paramType" : "Type",
+  "Real" : "Real",
+  "String" : "String",
+  "paramTypeTooltip" : "Type of the Parameter",   
+  "paramDimension" : "Dimension",
+  "paramDimensionTooltip" : "Dimension of the Parameter, Select from the list of OOTB dimensions or an Arbitrary Unit",
+  "paramUOM" : "Units of Measurement", 
+  "paramUOMTooltip" : "Units of Measurement for the selected dimension. Select multiple units",
+  "paramPossibleValues" : "Possible Values",
+  "paramPossibleValuesTooltip" : "Possible Values for the Parameter",
+
+
+
+  "Title_Parameters_modal": "Parameters",
+  "Info_Parameters_modal" : "Define Parameter with Dimension and Units of Measurement",
+  
+  "Loading" : "Loading",
+
+  "parameter" : "Parameter",
+  "parameterTooltip" : "Select from the list of Parameters Defined under Arbitrary Parameters",
+  "extension" : "Extension",
+  "extensionTooltip" : "Select from the list of extensions",   
+  "attributeName" : "Attribute",
+  "attributeNameTooltip" : "Select from the list of attributes available on the selected Extension",
+  "attributeValue" : "Attribute Value",
+  "attributeValueTooltip" : "Value of the selected Attribute",
+
+  "Title_ParametersAndExtensions_modal": "Custom Attributes For Parameters",
+  "Info_ParametersAndExtensions_modal" : "Define Mapping of Parameters with Custom Attributes of Extensions",
+
+ 
+  "Select" : "Select or search",
+ 
+
+  "ErrorMsgAlreadyUsed" : "Entered value for %1 is already used, Please choose a different %1",
+  "ErrorMsgNotANumber" : "Entered value for %1 is not a number",
+  "ErrorMsgNotInRange" : "Entered value for %1 is not in allowed range",
+  "ErrorMsgNotAString" : "Entered value is not a String",
+  "ErrorMsgNotAnInteger" : "Entered value is not an integer",
+
+  "deleteParameterTitle" : "Delete",
+  "deleteParameterError" : "Can not Delete, This Arbitrary Unit is used in a Parameter",
+
+
+  "orderParameters" :"Order Updated",
+  "orderParametersTitle" :"Reorder",
+  "orderParametersError" :"Error when reordering",
+  "orderParametersMaskMessage" : "Updating the Order"
+}

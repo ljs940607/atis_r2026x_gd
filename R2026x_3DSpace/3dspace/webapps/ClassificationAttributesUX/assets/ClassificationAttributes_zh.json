@@ -1,0 +1,20 @@
+{
+  "dialog_header": "分类属性是全局管理对象，在租户中必须是唯一的，并且只要可以限制其编号，便应在多个类中重复使用。创建所有分类属性后，请平台管理员重新刷新索引模型并重新加载缓存，等待反馈，然后再使用它们。",
+  "type": "类型",
+  "internalName": "内部名称",
+  "predicate": "6W 谓词",
+  "enable6wPredicate": "在 6W 标签中显示",
+  "title": "标题",
+  "behavior": "行为",
+  "multivalued": "多值",
+  "multiline": "多线",
+  "authorizedValues": "授权值",
+  "hasADefaultValue": "具有默认值",
+  "defaultValue": "默认值",
+  "string": "字符串",
+  "integer": "整数",
+  "real": "实数",
+  "boolean": "布尔值",
+  "date": "日期",
+  "double": "带有尺寸的属性"
+}

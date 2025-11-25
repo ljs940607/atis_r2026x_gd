@@ -1,0 +1,13 @@
+m|MPFModels\MPFEnterpriseMarketplaceModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFEnterpriseMarketplaceModel\MPFEnterpriseMarketplaceModel.js|1725720387|2772
+s|MPFModels\MPFEnterpriseMarketplaceModel.mweb\src\EnterpriseMarketplaceCollection.js|1724871225|763
+u|MPFModels\MPFEnterpriseMarketplaceModel.mweb\src\EnterpriseMarketplaceFactory.js|1724871225|1597
+u|MPFModels\MPFEnterpriseMarketplaceModel.mweb\src\EnterpriseMarketplaceModel.js|1724871225|4155
+u|MPFModels\MPFEnterpriseMarketplaceModel.mweb\src\MPFEnterpriseMarketplaceModel.js|1724871225|0
+u|MPFModels\MPFEnterpriseMarketplaceModel.mweb\src\MeEnterpriseMarketplaceDataProxy.js|1724871225|1225
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

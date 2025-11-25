@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Erstellt eine Kopie eines Teils des Arrays, gefiltert nach den Elementen, die den vom bereitgestellten Diagramm implementierten Test bestehen.",
+  "description": "Filtert ein gegebenes Array, indem ein bereitgestelltes Diagramm für jedes Element aufgerufen wird, wobei nur die Elemente beibehalten werden, für die das entsprechende Diagramm den Steueranschluss <doc-ocp-name translate=no>True</doc-ocp-name> aktiviert.<br>Dieser Block ist in der Lage, einen beliebigen <doc-idp-name translate=no>ArrayIn</doc-idp-name>-Arraytyp nach einem beliebigen Ausgabe-Arraytyp zu filtern. <br>Das interne Diagramm muss bearbeitet werden, um den Filterprozess bereitzustellen.",
+  "dataPorts": {
+    "ArrayIn": "Das zu filternde Eingabearray. <br>Dieser Datenanschluss verarbeitet alle Arraytypen.",
+    "SharedData": "Die Daten, die für jede interne Diagramminstanz freigegeben werden sollen. <br>Dieser Datenanschluss verarbeitet alle Typen. <br>Wenn mehrere Daten mit unterschiedlichen Typen freigegeben werden müssen, wird die Erstellung eines Benutzertyps empfohlen.",
+    "ArrayOut": "Das gefilterte Ausgabearray. <br>Dieser Datenanschluss verarbeitet alle Arraytypen. <br>Die Größe dieses Arrays überschreitet nicht die <doc-idp-name translate=no>ArrayIn</doc-idp-name>-Arraygröße.",
+    "State": "Ein Array von <doc-valuetype translate=no>ArrayFilterState</doc-valuetype>, das den <doc-valuetype translate=no>EExecutionState</doc-valuetype> bei jedem Index des <doc-odp-name translate=no>Success</doc-odp-name>-Ausgabearrays angibt. <br>Die Größe dieses Arrays entspricht immer der <doc-idp-name translate=no>ArrayIn</doc-idp-name>-Arraygröße.",
+    "Progress": "Ein Array von <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype>, das den <doc-valuetype translate=no>EExecutionState</doc-valuetype> bei jedem Index des <doc-odp-name translate=no>ArrayIn</doc-odp-name>-Eingabearrays angibt. <br>Dieses Array kann während eines Fortschritts mit mehreren Daten gefüllt werden, da es vom Verteilungsprozess hinter dem Block abhängt. <br>Die Größe dieses Arrays überschreitet aber nicht die <doc-idp-name translate=no>Input</doc-idp-name>-Arraygröße.",
+    "Error": "Ein Array von <doc-valuetype translate=no>ArrayFilterError</doc-valuetype>, das ein Fehlerobjekt für den Index des <doc-odp-name translate=no>ArrayIn</doc-odp-name>-Eingabearrays angibt. <br>Die Größe dieses Arrays überschreitet nicht die <doc-idp-name translate=no>ArrayIn</doc-idp-name>-Arraygröße."
+  },
+  "controlPorts": {
+    "In": "löst die Blockausführung aus.",
+    "Success": "wird aktiviert, wenn der Prozess erfolgreich abgeschlossen ist.",
+    "Progress": "wird bei jedem Fortschritt aktiviert.",
+    "Error": "wird aktiviert, wenn ein Fehler aufgetreten ist."
+  },
+  "example": null
+}

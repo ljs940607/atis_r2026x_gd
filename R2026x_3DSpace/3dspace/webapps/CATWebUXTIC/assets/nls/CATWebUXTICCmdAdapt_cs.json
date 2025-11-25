@@ -1,0 +1,14 @@
+{
+  "caOK": "Akce změny byla úspěšně vygenerována",
+  "caKO": "Generování akce změny se nezdařilo",
+  "taskOK": "Úloha byla vygenerována s úspěchem",
+  "taskKO": "Generování úlohy se nezdařilo",
+  "issueOK": "Problém byl úspěšně vygenerován",
+  "issueKO": "Generování problému se nezdařilo",
+  "caAttached": "K nadřazenému problému byla připojena akce změny",
+  "caNotAttached": "Akce změny nebyla připojena k nadřazenému problému",
+  "taskAttached": "K nadřazenému problému byla připojena úloha",
+  "taskNotAttached": "Úloha nebyla připojena k nadřazenému problému",
+  "ticSection": "Generovat problém",
+  "ticTemplateIssue": "K vygenerování problému vždy použijte šablonu"
+}

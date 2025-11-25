@@ -1,0 +1,24 @@
+{
+    "appTitle":"HomePage.AppTitle",
+    "appSubtitle":"HomePage.AppMotto",
+    "contentAndKnowledge": {
+         "title" : "HomePage.AppContent&Knowledge",
+         "contents":[
+            {
+            "title":"HomePage.AppUserAssistance",
+            "url": "https://help.3ds.com/2025x/english/DSDoc/DelWomUserMap/delwom-c-ov.htm?contextscope=cloud&id=8437554c1dd44954ae5633ae6ef2acb3",
+            "icon": "i-question"
+        }
+        ]
+    },
+    "socialNetworks": {
+        "title": "HomePage.AppSocialNetworks",
+        "communities" : [
+            {
+                "title": "HomePage.AppUserCommunity",
+                "url": "https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:47",
+                "icon": "3dswym-cog"
+            }
+        ]
+    }
+}

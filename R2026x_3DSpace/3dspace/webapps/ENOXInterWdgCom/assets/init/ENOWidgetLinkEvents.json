@@ -1,0 +1,272 @@
+{
+    "SyncFeaturesChange": {
+        "feature": "ENXContentSync"
+    },
+    "UnlinkBIProxy": {
+        "feature": "ENXContentSync"
+    },
+    "ViewPointSync": {
+        "feature": "ENXContentSync",
+        "syncFeature": "ViewPoint"
+    },
+    "SetViewpointSyncMaster": {
+        "feature": "ENXContentSync",
+        "syncFeature": "ViewPoint"
+    },
+    "SyncContent": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "SyncContent3D": {
+        "feature": "ENXContentSync"
+    },
+    "CancelSyncContent3D": {
+        "feature": "ENXContentSync"
+    },
+    "ConfirmSyncContent": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "GetInfosForSync": {
+        "feature": "ENXContentSync"
+    },
+    "GetContentForSync": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "ReadyForSync": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "EndSync": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "focusChange": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "padPagerSync": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "filterCancel": { 
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "changeControlDlgOpen": { 
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "expand": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "hide": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "show": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "refreshModel": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "padFilterBI": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "padExpand": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "preferenceModification": {
+        "feature": "ENXContentSync"
+    },
+    "requestViewPoint": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "updateViewPoint": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "applyFilter": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "applyGrouping": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "addFilter": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "filterWarn": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "sharedAlert": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "disableFilterWaiting": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "retrieveFilterFailure": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "dropFilter3D": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "drop": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "remove": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "cleanAll": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "loadStoredObj": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "removeStoredObj": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "StateStopClicked": {
+        "feature": "ENXContentSync",
+        "syncFeature": "Content"
+    },
+    "LoadData": {
+        "feature": "ENXContent",
+        "topic": "DS/ExternalWdgtCom/LoadData"
+    },
+    "RemoveAll": {
+        "feature": "ENXContent",
+        "topic": "DS/ExternalWdgtCom/RemoveAll"
+    },
+    "RemoveRoot": {
+        "feature": "ENXContent",
+        "topic": "DS/ExternalWdgtCom/RemoveRoot"
+    },
+    "captureSnapshot": {
+        "topic": "DS/ExternalWdgtCom/captureSnapshot",
+        "feature": "ENXContent"
+    },
+    "DisableTimeline": {
+        "topic": "DS/ExternalWdgtCom/DisableTimeline",
+        "feature": "ENXContent"
+    },
+    "EnableTimeline": {
+        "topic": "DS/ExternalWdgtCom/EnableTimeline",
+        "feature": "ENXContent"
+    },
+    "CapturePoint": {
+        "topic": "DS/ExternalWdgtCom/CapturePoint",
+        "feature": "ENXEnrich"
+    },
+    "MoveRoot": {
+        "topic": "DS/ExternalWdgtCom/MoveRoot",
+        "feature": "ENXContent"
+    },
+    "Find": {
+        "feature": "ENXContent"
+    },
+    "HideShowInherit": {
+        "feature": "ENXContentExt"
+    },
+    "UpdateHideShowInheritStatus": {
+        "feature": "ENXContentExt"
+    },
+    "getReadOnlyRoots": {
+        "topic": "DesignExp/ReadOnlyRoot/getRoots",
+        "feature": "ENXAuthoring"
+    },
+    "setReadOnlyRootSelection": {
+        "topic": "DesignExp/ReadOnlyRoot/setReadonlyRoot",
+        "feature": "ENXAuthoring"
+    },
+    "setCfgContextFrom2d": {
+        "topic": "Enops/CfgAuthoring/setCfgContext2d",
+        "feature": "ENXContent"
+	},
+ 	"designExpFilterRestore": {
+    	"topic": "DesignExp/FilterRestore",
+    	"feature": "ENXAuthoring"
+    },
+    "authoredSync": {
+        "feature": "ENXAuthoring"
+    },
+    "authored": {
+        "feature": "ENXAuthoring"
+    },
+    "updatePosMatrix": {
+        "feature": "ENXAuthoring"
+    },
+    "update2DPosMatrix": {
+        "feature": "ENXAuthoring"
+    },
+    "sessionStateChange": {
+        "feature": "ENXAuthoring"
+    },
+    "padRefresh": {
+        "feature": "ENXAuthoring"
+    },
+    "loadStoredObjects": {
+        "feature": "ENXLandingPageSync"
+    },
+    "appProxyReady": {
+        "feature": "ENXLandingPageSync"
+    },
+    "removeObjFromView": {
+        "feature": "ENXLandingPageSync"
+    },
+    "updatePreviousContent": {
+        "feature": "ENXLandingPageSync"
+    },
+    "viewpointUpdate": {
+        "feature": "ENXEnrich"
+    },
+    "enrich3D": {
+        "feature": "ENXEnrich"
+    },
+    "layerHide": {
+        "feature": "ENXEnrich"
+    },
+    "layerShow": {
+        "feature": "ENXEnrich"
+    },
+    "sessionContent": {
+        "feature": "ENXEnrich"
+    },
+    "getSessionContent": {
+        "feature": "ENXEnrich"
+    },
+    "capturePOI": {
+        "feature": "ENXEnrich"
+    },
+    "display3DVolume": {
+        "feature": "ENXEnrich"
+    },
+    "setCurrentViewpoint": {
+        "feature": "ENXEnrich"
+    },
+    "RestoreLayers": {
+        "feature": "ENXEnrich"
+    },
+    "LayerDeleted": {
+        "feature": "ENXEnrich"
+    }
+}

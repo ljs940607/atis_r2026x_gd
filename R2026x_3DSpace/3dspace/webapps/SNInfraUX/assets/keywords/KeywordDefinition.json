@@ -1,0 +1,39 @@
+{
+  "ME": {
+    "query": "([ds6w:lastModifiedBy]:\"{USER_FULLNAME}\" OR [ds6w:responsible]:\"{USER_FULLNAME}\")",
+    "alias": [ "SELF" ]
+  },
+  "BY": {
+    "query": "([ds6w:lastModifiedBy]:\"{USER_NAME}\" OR [ds6w:responsible]:\"{USER_NAME}\")",
+    "predicates": ["ds6w:lastModifiedBy", "ds6w:responsible"]
+  },
+  "TODAY": {
+    "query": "[ds6w:modified]>=\"{TODAY_START}\" AND [ds6w:modified]<=\"{TODAY_END}\"",
+    "alias": [ "TODAY" ]
+  },
+  "THIS_WEEK": {
+    "query": "[ds6w:modified]>=\"{THIS_WEEK_START}\" AND [ds6w:modified]<=\"{THIS_WEEK_END}\"",
+    "alias": [ "THISWEEK" ]
+  },
+  "THIS_MONTH": {
+    "query": "[ds6w:modified]>=\"{THIS_MONTH_START}\" AND [ds6w:modified]<=\"{THIS_MONTH_END}\"",
+    "alias": [ "THISMONTH" ]
+  },
+  "THIS_YEAR": {
+    "query": "[ds6w:modified]>=\"{THIS_YEAR_START}\" AND [ds6w:modified]<=\"{THIS_YEAR_END}\"",
+    "alias": [ "THISYEAR" ]
+  },
+  "LAST_YEAR": {
+    "query": "[ds6w:modified]>=\"{LAST_YEAR_START}\" AND [ds6w:modified]<=\"{LAST_YEAR_END}\"",
+    "alias": [ "LASTYEAR" ]
+  },
+  "START_APP": {
+    "query": "ApplicationsFromCompass",
+    "alias": [ "START_APP" ]
+  },
+  "LAUNCH_APP": {
+    "query": "ApplicationsFromCompass",
+    "alias": [ "LAUNCH_APP" ]
+  }
+
+}

@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_ru",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0} является обязательным",isInvalid:"Недопустимый элемент {0}",title:"Заголовок",description:"Описание",image:"Изображение"});

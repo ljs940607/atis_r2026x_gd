@@ -1,0 +1,16 @@
+{
+  "other": "Altro",
+  "companyName": "Nome azienda",
+  "typeCompanyName": "Immetti il nome della tua azienda",
+  "country": "Paese",
+  "selectCountry": "Seleziona il paese della tua azienda",
+  "countryNotAvailable": "Il paese del cliente non è disponibile per emettere preventivi",
+  "phoneNumber": "Numero di telefono",
+  "enterPhoneNumber": "Inserisci numero di telefono",
+  "phoneNumberInvalid": "Questo numero di telefono non è valido",
+  "addNda": "Aggiungi NDA",
+  "ndaInfo": "È possibile caricare un accordo di riservatezza (NDA) che i fornitori di servizi selezionati dovranno accettare prima di visualizzare la richiesta\n(dimensioni massime del file: 30 MB | Formati file supportati: PDF, DOCX, DOC).",
+  "imageCantBeUploadedNDA": "Impossibile caricare un file immagine come accordo di riservatezza.",
+  "fileFormatNotSupported": "Formato file non supportato",
+  "uploadError": "Si è verificato un errore. Tieni presente che sono accettati solo file PDF e di testo con dimensioni massime di 50 MB."
+}

@@ -1,0 +1,11 @@
+m|XCTInfrastructureWeb\XCTInfWebApplication.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCTInfWebApplication\XCTInfWebApplication.js|1723278228|1792
+s|XCTInfrastructureWeb\XCTInfWebApplication.mweb\src\XCTApplicationBase.js|1573545386|2447
+u|XCTInfrastructureWeb\XCTInfWebApplication.mweb\src\XCTFactory.js|1508844136|1308
+u|XCTInfrastructureWeb\XCTInfWebApplication.mweb\src\XCTInfWebApplication.js|1498656105|114
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

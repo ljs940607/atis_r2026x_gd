@@ -1,0 +1,18 @@
+{
+  "CompareDialogHeader": "Compare - 2 Objects",
+
+  "loading_attributes_failed": "Loading attributes failed",
+  "federated_attributes_failed": "Failed to retrieve preview or icon information",
+
+  "Effectivity": "Effectivity",
+  "Yes": "Yes",
+  "No": "No",
+  "VariantOption": "Variant/Option",
+  "CurrentEvolution": "Current Evolution",
+  "ProjectedEvolution": "Projected Evolution",
+
+  "INDEX_REQ_ENABLING": "Index mode is enabled as this object type requires it",
+  "INDEX_REQ_ENABLING_FOR_CUSTOM_PROFILE": "Index mode is enabled when using a custom profile",
+  "DISABLE_EXTERNAL_RELATIONS": "Comparing relations is disabled when using a custom profile",
+  "MISSING ALERT MESSAGE": "Unknown Alert"
+}

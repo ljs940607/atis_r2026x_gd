@@ -1,0 +1,57 @@
+<meta charset="UTF-8"/>
+PrecommitTriggerOpenings.Alias="Общие открытия сервера ER";
+PrecommitTriggerOpenings.Description="Бизнес-правила, выполняемые на сервере во время инициализации и предварительной фиксации";
+promote.Alias="предварительная фиксация при повышении";
+promote.Description="это открытие инициируется при повышении объекта";
+demote.Alias="предварительная фиксация на понижении";
+demote.Description="это открытие инициируется при понижении объекта";
+create.Alias="предварительная фиксация при создании";
+create.Description="это открытие инициируется при создании объекта";
+connect.Alias="предварительная фиксация при подключении";
+connect.Description="это открытие инициируется при подключении объекта";
+delete.Alias="предварительная фиксация при удалении";
+delete.Description="это открытие инициируется при удалении объекта";
+disconnect.Alias="предварительная фиксация при отключении";
+disconnect.Description="это открытие инициируется при отключении объекта";
+modifyattribute.Alias="предварительная фиксация при изменении атрибута";
+modifyattribute.Description="это открытие инициируется при изменении атрибута объекта";
+modifydescription.Alias="предварительная фиксация при изменении описания";
+modifydescription.Description="это открытие инициируется при модификации описания объекта";
+changename.Alias="предварительная фиксация при изменении имени";
+changename.Description="это открытие инициируется при изменении имени объекта";
+changeowner.Alias="предварительная фиксация при смене владельца";
+changeowner.Description="это открытие инициируется при изменении владельца объекта";
+copy.Alias="предварительная фиксация при копировании";
+copy.Description="это открытие инициируется при копировании объекта";
+majorrevision.Alias="предварительная фиксация при основной редакции";
+majorrevision.Description="это открытие инициируется для (основной) редакции объекта";
+batchclone.Alias="предварительная фиксация при пакетном клонировании";
+batchclone.Description="это открытие инициируется при операции пакетного клонирования";
+batchrevise.Alias="предварительная фиксация при пакетном пересмотре";
+batchrevise.Description="это открытие инициируется при выполнении операции пакетного пересмотра";
+addinterface.Alias="предварительная фиксация при добавлении интерфейса";
+addinterface.Description="это открытие инициируется при добавлении интерфейса";
+removeinterface.Alias="предварительная фиксация при удалении интерфейса";
+removeinterface.Description="это открытие инициируется при удалении интерфейса";
+revision.Alias="предварительная фиксация при редакции";
+revision.Description="это открытие инициируется при редакции объекта";
+init_create.Alias="инициализация при создании";
+init_create.Description="это открытие инициируется при инициализации объекта для создания";
+// VDU/DRT
+compute_DefaultPropagationScope.Alias="Распространение операций жизненного цикла";
+compute_DefaultPropagationScope.Description="Позволяет распространить или не распространять операцию";
+// MBE31
+compute_SimulationDocumentStore.Alias="Сохранить вычисление для документа Simulation";
+compute_SimulationDocumentStore.Description="Позволяет сохранить вычисление для документа Simulation";
+// JBV/QTP
+compute_new_init.Alias="Новая инициализация";
+compute_new_init.Description="Инициируется при построении новой панели";
+ux_init_new_modify.Alias="Изменение нового";
+ux_init_new_modify.Description="Инициируется при изменении пользователем атрибута в новом объекте";
+compute_edit_properties_init.Alias="Инициализация свойств";
+compute_edit_properties_init.Description="Инициируется при создании свойств";
+ux_init_edit_properties_modify.Alias="Изменение свойства";
+ux_init_edit_properties_modify.Description="Инициируется при изменении пользователем атрибута в свойствах";
+//FUN152195: adding changepolicy
+changepolicy.Alias="предварительная фиксация при смене политики";
+changepolicy.Description="это открытие инициируется при изменении политики объектом";

@@ -1,0 +1,17 @@
+m|DELPPWBehaviors\DELPPWModelBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWModelBehaviors\DELPPWModelBehaviors.js|1757132694|74514
+s|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\AppPreferencesBehavior.js|1751878831|2273
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\DocumentBehavior.js|1737534454|25521
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\InterWidgetComBehavior.js|1729515246|1732
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\LinkBehavior.js|1749642102|82250
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\ModelBehavior.js|1755848463|116270
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\Mutex.js|1755842006|1805
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\ResourceBehavior.js|1718985506|1694
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\ResultingProductBatchCmdBehavior.js|1755590018|23060
+u|DELPPWBehaviors\DELPPWModelBehaviors.mweb\src\UserDefProceduresBehaviour.js|1753275210|26689
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

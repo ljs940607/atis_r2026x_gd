@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DEL3DWorkbookConfiguration" treelistnls="DEL3DWorkbookConfiguration" modalnls="DEL3DWorkbookConfiguration">
+	<object type="combobox" id="types" value="DELFmiFunctionReference,DELLmiPPRSystemReference,DELLmiOperationPPRReference,DELWkiAlertReference,DELWkiDataCollectReference,DELWkiDataCollectPlanReference,DELWkiInstructionReference,DELWkiSignOffReference,Resource,PLMSpecifyHowToCollectDataCnx_Real,PLMSpecifyHowToCollectDataCnx_Integer,PLMSpecifyHowToCollectDataCnx_Text,PLMSpecifyHowToCollectDataCnx_Boolean,PLMSpecifyHowToCollectDataCnx_TimeStamp" disabled="false" onChange="onChangeTypeCombo" mandatory="true" sortable="false"></object>
+  	<object type="combobox" id="attribute" value="" disabled="true" onChange="onChangeAttributeCombo" mandatory="true" sortable="false"></object>
+	<object type="textarea" id="attrLabel" value="" disabled="true" mandatory="false" sortable="false"></object>
+	<object type="checkbox" id="newRow" value="true" mandatory="true" sortable="false"></object>
+</ui>

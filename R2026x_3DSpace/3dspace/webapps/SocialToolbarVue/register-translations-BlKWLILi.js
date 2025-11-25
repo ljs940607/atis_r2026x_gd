@@ -1,0 +1,2 @@
+define("DS/SocialToolbarVue/register-translations-BlKWLILi",["exports"],function(n){"use strict";function o(e){const r=window.CKEDITOR_TRANSLATIONS||{};e.forEach(i=>{const t=Object.keys(i)[0],{dictionary:s,getPluralForm:a}=i[t];r[t]=r[t]||{dictionary:{},getPluralForm:null},r[t].dictionary=Object.assign(r[t].dictionary,s),r[t].getPluralForm=a}),window.CKEDITOR_TRANSLATIONS=r}n.registerTranslations=o});
+//# sourceMappingURL=register-translations-BlKWLILi.js.map

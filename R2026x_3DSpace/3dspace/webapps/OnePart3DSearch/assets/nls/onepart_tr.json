@@ -1,0 +1,15 @@
+{
+  "facet": {
+    "properties": {
+      "title": "Özellikler"
+    }
+  },
+  "action": {
+    "openInOnePart": {
+      "title": "OnePart'ta Aç..."
+    }
+  },
+  "error": {
+    "cannotRetrieveAppInfo": "Uygulama bilgileri alınırken hata oluştu"
+  }
+}

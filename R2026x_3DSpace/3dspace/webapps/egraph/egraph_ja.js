@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_ja",{});define("DS/egraph/assets/nls/translation",{pan:"パン",zoomArea:"ズーム エリア",zoomOut:"縮小",zoomIn:"拡大",zoomReset:"ズーム　リセット",zoomFit:"ズーム フィット"});

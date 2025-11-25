@@ -1,0 +1,12 @@
+{
+  "addressLine1Error": "Ten adres jest nieprawidłowy, zmień go",
+  "addressLine2Error": "Ten adres jest nieprawidłowy, zmień go",
+  "addressLine3Error": "Ten adres jest nieprawidłowy, zmień go",
+  "addressLine4Error": "Ten adres jest nieprawidłowy, zmień go",
+  "cityError": "To miasto jest nieprawidłowe, zmień je",
+  "countyError": "Ten kraj jest nieprawidłowy, zmień go",
+  "stateError": "Ten stan jest nieprawidłowy, zmień go",
+  "postalCodeError": "Ten kod pocztowy jest nieprawidłowy, zmień go",
+  "countryError": "Kraj jest wymagany",
+  "japaneseCharsNotSupportedError": "Znaki japońskie nie są obsługiwane"
+}

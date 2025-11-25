@@ -1,0 +1,10 @@
+m|DELWebViewerController\DELWebViewerEventManager.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWebViewerEventManager\DELWebViewerEventManager.js|1723277699|2052
+s|DELWebViewerController\DELWebViewerEventManager.mweb\src\ComponentEventHandler.js|1634204366|1300
+u|DELWebViewerController\DELWebViewerEventManager.mweb\src\ComponentEventNotifier.js|1719387724|18467
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

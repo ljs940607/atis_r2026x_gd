@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "Папки закладок",
+  "activeBookmark_cmd": "Работать под папкой закладок",
+  "name_Section_FavoriteFolders": "Избранное",
+  "name_Section_AllFolders": "Папки закладок",
+  "activeBookmark_msg_empty": "Пусто",
+  "activeBookmark_btn_focus": "Фокус на папке закладок установлен",
+  "activeBookmark_msg_noBookmark": "Папки закладок не найдено",
+  "CMDExpandAll": "Развернуть все",
+  "CMDCollapseAll": "Свернуть все",
+  "InputLabel": "Папка закладок",
+  "loader": {
+    "findingObjects": "Поиск папки закладок"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "Выбрать",
+    "button_Cancel": "Отмена",
+    "widget_name": "Выбрать в папках закладок",
+    "PLMNewBookmarkWidgetName": "Выбрать папки закладок",
+    "msg_ClassifyInProgress": "Добавление...",
+    "msg_ClassifySuccessful": "Добавлено.",
+    "msg_ClassifyFailed": "Ошибка при добавлении. Либо у вас нет доступа для добавления, ЛИБО добавление уже выполнено в данных папках закладок.",
+    "msg_selectNodeToSeeInfo": "Выберите папку закладок для просмотра сведений о ней."
+  },
+  "multiSelectionNotSupported": "Множественный выбор не поддерживается.",
+  "favoriteSectionNotSupported": "Эта команда не поддерживается для избранного сечения.",
+  "favoriteNotSupported": "Эта команда не поддерживается для избранного.",
+  "sectionNotSupported": "Эта команда не поддерживается для сечений.",
+  "noSelectionError": "Для этой команды требуется выбор."
+}

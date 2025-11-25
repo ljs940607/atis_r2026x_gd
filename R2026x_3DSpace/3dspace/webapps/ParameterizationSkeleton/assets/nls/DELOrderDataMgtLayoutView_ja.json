@@ -1,0 +1,12 @@
+{
+  "NbDigits": "桁数",
+  "NbDigitsInfo": "6 桁以上、40 文字以下で入力してください",
+  "PrefixValueEmptyInfo": "このフィールドは必須です。空のプレフィックス値は使用しないでください。",
+  "NbDigitsNaN": "桁数は 6 より大きい正の整数です",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_es",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Los servicios de la Reserva Federal parecen estar caídos",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" Es posible que no se hayan cargado todos los predicados",CUSTOM_ATTR_APPLIED:"Atributos personalizados actualizados"});

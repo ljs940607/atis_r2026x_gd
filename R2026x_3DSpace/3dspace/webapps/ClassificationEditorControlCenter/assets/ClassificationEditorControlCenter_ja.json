@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "分類マネージャの制限モード",
+  "CCM_Manager": "分類マネージャ",
+  "CCM_specialist_title": "スペシャリスト",
+  "CCM_expert_title": "エキスパート",
+  "CCM_architect_title": "Architect",
+  "permission_update_successful": "{updatedPermission} 権限が {name} に付与されました。",
+  "permission_update_failure": "ユーザー名の権限を更新できません。",
+  "restriction_mode_switched": "制限モードが {restrictionToggle} に切り替わりました。",
+  "restriction_mode_switch_failure": "制限モードの切り替えに失敗しました。",
+  "widget_load_failure": "CSV ロールを持つ管理者のみがこのアプリケーションにアクセスできます。",
+  "on": "オン",
+  "off": "オフ",
+  "search_name": "名前を検索"
+}

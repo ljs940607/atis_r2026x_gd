@@ -1,0 +1,16 @@
+{
+    "components": [{
+            "amd": "DS/VIOCtrlCenterApp/components/AppModelCmp"
+        },
+        {
+            "amd": "DS/VIOCtrlCenterApp/components/AppViewCmp"
+        }
+    ],
+    "roles": {
+        "available": ["Operator"],
+        "edit": ["Operator"]
+    },
+    "nbRecord": 100,
+    "token2track": "VIO",
+    "settings": {}
+}

@@ -1,0 +1,40 @@
+{
+  "AdvancedSettings": "Дополнительные настройки",
+  "MobileMessage": "Команда Качество изображения недоступна на мобильных устройствах.",
+  "Elements": {
+    "Low": "Быстро",
+    "Medium": "Сбалансировано",
+    "High": "Качество",
+    "Ultra": "Ультра",
+    "Default": "Рекомендуется",
+    "Custom": "Настройка"
+  },
+  "PostProcessElements": {
+    "NoAA": "NoAA",
+    "FXAA": "FXAA",
+    "SMAA": "SMAA",
+    "Iterative": "Итеративный",
+    "TAA": "TAA"
+  },
+  "TransparencyElements": {
+    "AlphaBlending": "Альфа-смешивание",
+    "WeightedAverage": "Среднее взвешенное",
+    "OrderIndependent": "Независимое от порядка"
+  },
+  "FilteringElements": {
+    "PCFOptimized": "Оптимизировано для PCF",
+    "ESM": "ESM",
+    "Poisson": "Пуассон"
+  },
+  "SSAOElements": {
+    "None": "Нет",
+    "Low": "8 образцов",
+    "Medium": "16 образцов",
+    "High": "32 образца"
+  },
+  "SectionCappingElements": {
+    "Off": "Выкл",
+    "Auto": "Авто",
+    "On": "Вкл"
+  }
+}

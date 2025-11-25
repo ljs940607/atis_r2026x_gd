@@ -1,0 +1,11 @@
+m|CAT3DSketchWebBootstrap\CAT3DSKBootstrap.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25074|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DSKBootstrap\CAT3DSKBootstrap.js|1742014911|6775
+s|CAT3DSketchWebBootstrap\CAT3DSKBootstrap.mweb\src\CAT3DSKBootstrapHelper.js|1724871643|5880
+u|CAT3DSketchWebBootstrap\CAT3DSKBootstrap.mweb\src\CAT3DSketchBootstrap.js|1741996155|10506
+u|CAT3DSketchWebBootstrap\CAT3DSKBootstrap.mweb\src\CAT3DSketchWidgetEnv.js|1724871643|1443
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

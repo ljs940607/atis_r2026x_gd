@@ -1,0 +1,1 @@
+define("DS/3DPlayMagicReportExperience/3DPlayMagicReportExperience_ko",{});define("DS/3DPlayMagicReportExperience/assets/nls/3DPlayMagicReportExperience",{Perspectives:"원근 보기",Views:"보기",Model:"모델",View:"보기",Document:"문서",Wiki:"위키",Back:"뒤로",Forward:"전달",error:{timeout:"Experience 초기화가 느리고 중단되었습니다. 나중에 다시 시도하십시오."}});

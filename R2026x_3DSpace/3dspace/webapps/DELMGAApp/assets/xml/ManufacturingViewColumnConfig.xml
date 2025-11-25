@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config version="2.0" name="Manufacturing" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name" dicoType="PLMEntity" entity="reference" />
+    <Columns>
+        <Column dataIndex="PLM_ExternalID" dicoType="PLMInstance" entity="instance" />
+        <Column dataIndex="type" entity="reference" display="false" />
+        <Column dataIndex="current" entity="reference"/>
+        <Column dataIndex="reserved" entity="reference" />
+        <Column dataIndex="reserved" entity="instance"  />
+        <Column dataIndex="ItemAssignmentStatus" displayType="BIEssentials" />
+        <Column dataIndex="V_description" dicoType="PLMEntity" entity="reference" />
+        <Column display="false">
+            <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Mass" entity="instance" />
+            <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Area" entity="instance" />
+            <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Length" entity="instance" />
+            <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Volume" entity="instance" />
+            <Attribute name="V_ContQuantity" dicoType="DELFmiRatioOfDiscreteQuantity" entity="instance"/>
+        </Column>
+        <Column display="false">
+            <Attribute name="V_TargetReleaseDate" dicoType="DELFmiFunctionPPRCreateReference" entity="reference" />
+            <Attribute name="V_TargetReleaseDate" dicoType="DELFmiFunctionPPRContinuousReference" entity="reference" />
+        </Column> 
+        <Column display="false">
+			<Attribute name="V_NeedDedicatedSystem" dicoType="CreateAssembly" entity="reference" />
+			<Attribute name="V_NeedDedicatedSystem" dicoType="CreateKit" entity="reference" />
+			<Attribute name="V_NeedDedicatedSystem" dicoType="Installation" entity="reference" />
+			<Attribute name="V_NeedDedicatedSystem" dicoType="CreateMaterial" entity="reference" />
+			<Attribute name="V_NeedDedicatedSystem" dicoType="ProcessContinuousCreateMaterial" entity="reference" />
+		</Column>
+        <Column dataIndex="V_Outsourced" dicoType="CreateAssembly" entity="reference" display="false" />
+        <Column dataIndex="Items_Routings" displayType="Relation" />
+        <Column dataIndex="revision" entity="reference"/>
+        <Column dataIndex="owner" entity="reference"/>
+        <Column dataIndex="V_ApplicabilityDate" dicoType="PLMReference" entity="reference" display="false" />
+        <Column dataIndex="originated" entity="reference" display="false"/>
+        <Column dataIndex="modified" entity="reference" display="false"/>
+        <Column dataIndex="organization" entity="reference" display="false"/>
+        <Column dataIndex="documents" display="false" displayType="DocMgmt"/>
+        <Column dataIndex="V_PartNumber" entity="reference"  dicoType="EnterpriseExtension"/>
+                <!-- CONFIGURATION COLUMNS: start -->
+         <Column dataIndex="RevisionMaster" displayType="CFG" display="false"/><!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="RevisionMode" displayType="CFG" display="false"/><!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="ConfigurationContext" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="Effectivity" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="VariantEffectivity" displayType="CFG" display="false"/> <!-- Available if atleast CFG/CSV role is valid -->
+         <Column dataIndex="CurrentEvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CHG role is valid -->
+         <Column dataIndex="ProjectedEvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CHG role is valid -->
+         <Column dataIndex="EvolutionEffectivity" displayType="CFG" display="false"/> <!-- Available only if CFG/CSV role is valid without CHG role -->
+        <!-- CONFIGURATION COLUMNS: end -->
+
+    </Columns>
+</Config>

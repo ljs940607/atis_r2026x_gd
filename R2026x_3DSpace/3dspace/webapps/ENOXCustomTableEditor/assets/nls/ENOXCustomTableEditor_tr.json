@@ -1,0 +1,73 @@
+{
+  "columnChooser": {
+    "title": "Mevcut öznitelikler:",
+    "treeTitle": "Öznitelik adı",
+    "tooltips": {
+      "findDialog": "Öznitelik bul",
+      "moveFirst": "En Üste Taşı",
+      "moveUp": "Yukarı Taşı",
+      "moveDown": "Aşağı Taşı",
+      "moveBottom": "En Alta Taşı",
+      "arrowRight": "Görünüme öznitelik ekle",
+      "arrowLeft": "Özniteliği görünümden kaldır"
+    }
+  },
+  "component": {
+    "views": {
+      "ENO2D_DEFAULT": "Varsayılan Görünüm",
+      "ENO2D_CUSTO": "Özel Görünüm"
+    },
+    "tooltips": {
+      "addView": "Yeni özel görünüm ekle",
+      "editView": "Özel görünümü düzenle",
+      "removeView": "Özel görünümü kaldır"
+    }
+  },
+  "columnGroups": {
+    "commonAttributes": "Ortak Sütunlar",
+    "typesAttributes": "Tip Sütunları",
+    "extsAttributes": "Uzantı Sütunları",
+    "classifAttributes": "Sınıflandırma Sütunları"
+  },
+  "columnsHardCoded": {
+    "thumbnail": "Önizleme",
+    "positionMatrix-Instance": "Konum Matrisi"
+  },
+  "selectedAtt": {
+    "title": "Seçili öznitelikler: ",
+    "colName": "Sütun adı",
+    "pin": "Sabitle",
+    "pinLeft": "Sola Sabitle",
+    "pinRight": "Sağa Sabitle"
+  },
+  "dialog": {
+    "okBtn": "Uygula",
+    "cancelBtn": "İptal"
+  },
+  "extensionChooser": {
+    "title": "Tip ve Uzantı seçici",
+    "selectionTypeTitle": "Tipler",
+    "selectionExtTitle": "Uzantılar",
+    "typeName": "Tip",
+    "extName": "Çeki"
+  },
+  "localnls": {
+    "thumbnail": "Önizleme",
+    "thumbnails": "Önizleme",
+    "matrixtxt": "Konum Matrisi"
+  },
+  "warning": {
+    "tooManySelected": {
+      "title": "Maksimum sütun erişimi sayısı",
+      "msg": "Yalnızca maksimum {maxNumber} sütun yetkilendirilir"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Görünüm zaten var",
+      "msg": "\"{viewName}\" adlı bir görünüm zaten var"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Görünüm zaten var",
+      "msg": "\"{viewName}\" adlı bir görünüm zaten var"
+    }
+  }
+}

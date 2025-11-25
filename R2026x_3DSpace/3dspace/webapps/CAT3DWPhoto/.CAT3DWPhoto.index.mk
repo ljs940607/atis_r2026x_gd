@@ -1,0 +1,17 @@
+m|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25262|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DWPhoto\CAT3DWPhoto.js|1758323935|25730
+s|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\CAT3DWImage.js|1741996157|8454
+t|win_b64\webapps\CAT3DWPhoto\assets\graphics\G_NXGAddImage.png|1725720299|7094
+s|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\assets\graphics\G_NXGAddImage.png|1724871648|7094
+t|win_b64\webapps\CAT3DWPhoto\assets\graphics\G_NXGAddImage_template.png|1725720299|7399
+s|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\assets\graphics\G_NXGAddImage_template.png|1724871648|7399
+u|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\CAT3DWImageView.js|1758312719|19282
+u|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\CAT3DWImagesManager.js|1724871648|2718
+u|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\CAT3DWPhoto.js|1724871648|0
+u|CAT3DWebAppInfraUI\CAT3DWPhoto.mweb\src\CAT3DWVibrantAPI.js|1724871648|31325
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

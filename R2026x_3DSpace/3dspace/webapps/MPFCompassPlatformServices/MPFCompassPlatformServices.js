@@ -1,0 +1,1 @@
+define("DS/MPFCompassPlatformServices/CompassPlatformServices",["DS/i3DXCompassPlatformServices/i3DXCompassPlatformServices"],(function(e){"use strict";return e.getServiceUrlPromise=function({platformId:r,serviceName:s}){return new Promise(((i,o)=>{e.getServiceUrl({platformId:r,serviceName:s,onComplete:i,onFailure:o})}))},e}));

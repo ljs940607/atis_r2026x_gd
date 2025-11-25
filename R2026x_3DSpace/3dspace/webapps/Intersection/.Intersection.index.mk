@@ -1,0 +1,16 @@
+m|WebVisualization\Intersection.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25193|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Intersection\Intersection.js|1752300621|43260
+s|WebVisualization\Intersection.mweb\src\Intersection.js|1615205981|1
+u|WebVisualization\Intersection.mweb\src\IntersectionUtils.js|1713281810|8848
+u|WebVisualization\Intersection.mweb\src\Ray.js|1740500542|29828
+u|WebVisualization\Intersection.mweb\src\RayCastUtils.js|1750405563|23999
+u|WebVisualization\Intersection.mweb\src\RayFrustumUtils.js|1713282406|19297
+u|WebVisualization\Intersection.mweb\src\RayIntersectionUtils.js|1750945139|50868
+u|WebVisualization\Intersection.mweb\src\Raycaster.js|1641470148|6107
+u|WebVisualization\Intersection.mweb\src\VolumeIntersection.js|1711719732|9087
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

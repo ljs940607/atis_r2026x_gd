@@ -1,0 +1,1 @@
+define("DS/MMPrint/MMPrint_zh-TW",{});define("DS/MMPrint/assets/nls/MMPrint",{printErrorTitle:"列印錯誤",printRealSizeError:"未支援實際尺寸列印",DerivedOutputTitle:"無法使用衍生輸出",DerivedOutputMessage:"無法使用衍生輸出，切換至點陣產生的輸出。",PrintLaunchedTitle:"已啟動列印指令",PrintLaunchedMessage:"我們正在處理您的要求，可能需要一些時間..."});

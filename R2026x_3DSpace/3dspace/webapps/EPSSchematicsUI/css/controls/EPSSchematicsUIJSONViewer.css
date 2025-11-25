@@ -1,0 +1,160 @@
+@keyframes message-animation {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.sch-controls-jsonviewer {
+  box-sizing: border-box;
+  width: 100%;
+}
+.sch-controls-jsonviewer .wux-controls-lineeditor {
+  box-sizing: border-box;
+  width: 100%;
+}
+.sch-controls-jsonviewer .wux-controls-lineeditor > input {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  background: transparent;
+  user-select: none;
+}
+.sch-controls-jsonviewer .wux-controls-lineeditor > input::selection {
+  background-color: transparent;
+}
+.sch-controls-jsonviewer .wux-controls-lineeditor > input:focus {
+  border-style: dashed;
+  border-color: #b4b6ba !important;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-button {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
+  min-height: 22px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-button > .wux-button-icon-placeholder {
+  vertical-align: middle;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-button > .wux-button-icon-placeholder > .wux-ui-3ds-lg {
+  font-size: 14px;
+}
+.sch-controls-jsonviewer:hover .sch-controls-jsonviewer-button {
+  display: inline-flex;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message {
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 5px;
+  pointer-events: none;
+  margin: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  animation-name: message-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message.success {
+  border-color: #009688;
+  background-color: #b2dfdb;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message.success > span {
+  color: #009688;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message.error {
+  border-color: #ea4f37;
+  background-color: rgb(255, 150, 150);
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message.error > span {
+  color: #ea4f37;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message > span {
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 2px;
+}
+.sch-controls-jsonviewer .sch-controls-jsonviewer-message > div {
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.wux-menu-mouse.sch-controls-jsonviewer-menu {
+  box-sizing: border-box;
+  box-shadow: none;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column {
+  /*&.wux-menu-column-icon,
+  &.wux-menu-column-title {
+      .wux-menu-cell {
+          background: linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.85) 100%);
+          backdrop-filter: blur(5px);
+      }
+  }*/
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column .wux-menu-cell {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /*&.wux-menu-hover {
+      background-color: red;
+  }*/
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column .wux-menu-cell:not(.wux-menu-disabled) {
+  cursor: pointer;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-left {
+  background-color: transparent;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-left .wux-menu-cell {
+  border-color: transparent;
+  background-color: transparent;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-icon {
+  border-left: 1px solid #e2e4e3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-icon .wux-menu-cell {
+  font-size: 16px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-icon .wux-menu-cell:first-child {
+  border-top-left-radius: 5px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-icon .wux-menu-cell:last-child {
+  border-bottom-left-radius: 5px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-title {
+  border-radius: 5px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-title .wux-menu-cell {
+  font-size: 12px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-title .wux-menu-cell:first-child {
+  border-top-right-radius: 5px;
+}
+.wux-menu-mouse.sch-controls-jsonviewer-menu .wux-menu-column.wux-menu-column-title .wux-menu-cell:last-child {
+  border-bottom-right-radius: 5px;
+}

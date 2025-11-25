@@ -1,0 +1,20 @@
+{
+  "dialog_header": "Klassifizierungsattribute sind globale Admin-Objekte, die in einem Mandanten eindeutig sein müssen und in mehreren Klassen wiederverwendet werden sollten, wenn es möglich ist, ihre Anzahl zu begrenzen. Nachdem alle Klassifizierungsattribute erstellt wurden, bitten Sie den Plattformadministrator, das Indexmodell neu zu aktualisieren und den Cache neu zu laden, und warten Sie vor der Verwendung auf das Feedback des Administrators.",
+  "type": "Typ",
+  "internalName": "Interner Name",
+  "predicate": "6W-Prädikat",
+  "enable6wPredicate": "Anzeige im 6W Tag",
+  "title": "Titel",
+  "behavior": "Verhalten",
+  "multivalued": "Mehrfachwert",
+  "multiline": "Mehrzeilig",
+  "authorizedValues": "Zulässige Werte",
+  "hasADefaultValue": "Hat Standardwert",
+  "defaultValue": "Standardwert",
+  "string": "Zeichenkette",
+  "integer": "Ganzzahl",
+  "real": "Reelle Zahl",
+  "boolean": "Boolesch",
+  "date": "Datum",
+  "double": "Attribut mit Dimension"
+}

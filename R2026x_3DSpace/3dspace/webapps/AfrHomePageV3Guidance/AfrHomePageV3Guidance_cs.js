@@ -1,0 +1,1 @@
+define("DS/AfrHomePageV3Guidance/AfrHomePageV3Guidance_cs",{});define("DS/AfrHomePageV3Guidance/assets/nls/afr-home-page-guidance",{NLS_CarouselValidation:"Rozumím!"});

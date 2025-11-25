@@ -1,0 +1,19 @@
+{
+  "addRoles": "Ajouter des rôles",
+  "addRole": "Ajouter un rôle",
+  "selectRole": "Sélectionner un rôle",
+  "onlineInstanceId": "ID d'instance en ligne",
+  "quantity": "Quantité",
+  "confirm": "Confirmer",
+  "roles": "Rôles",
+  "createPlatform": "Créer une plateforme",
+  "devPlatformAdmin": "Administrateur de la plateforme de développement",
+  "sendingRequest": "Envoi de la demande...",
+  "unableToAddRolesToPlatform": "Impossible d'ajouter les rôles sélectionnés à la plateforme sélectionnée",
+  "unableToFetchAvailableRoles": "Impossible d'extraire les rôles disponibles pour ce tenant",
+  "unableToRequestPlatformCreation": "Impossible de demander la création de la plateforme, veuillez réessayer ultérieurement.",
+  "platformAdmin": "Admin de plateforme",
+  "platformId": "Plateforme",
+  "totalPriceExclTax": "Prix total hors taxe :",
+  "totalPrice": "Prix total"
+}

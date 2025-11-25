@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Mode restreint pour les gestionnaires de classification",
+  "CCM_Manager": "Gestionnaire de classification",
+  "CCM_specialist_title": "Spécialiste",
+  "CCM_expert_title": "Expert",
+  "CCM_architect_title": "Architecte",
+  "permission_update_successful": "L'autorisation {updatedPermission} a été accordée à {name}.",
+  "permission_update_failure": "Impossible de mettre à jour l'autorisation pour le nom d'utilisateur.",
+  "restriction_mode_switched": "Le mode restreint est activé {restrictionToggle}.",
+  "restriction_mode_switch_failure": "Impossible de passer au mode restreint.",
+  "widget_load_failure": "Seuls les administrateurs ayant le rôle CSV peuvent accéder à cette application.",
+  "on": "le",
+  "off": "désactivé",
+  "search_name": "Nom de recherche"
+}

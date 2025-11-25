@@ -1,0 +1,272 @@
+{
+	"eventsPrefix": "DS/DELExternalWidgetCom/",
+	"eventsToSubscribe": {
+		"LoadData": {
+			"feature": "DELViewerContent",
+			"type": "ModelEvent",
+			"internalEvent": "loadData"
+		},
+		"SetAppConfig": {
+			"feature": "DELViewerContent",
+			"type": "ModelEvent",
+			"internalEvent": "setAppConfig"
+		},
+		"RemoveAll": {
+			"feature": "DELViewerContent",
+			"type": "handler",
+			"handlerId": "DELWebOERRemoveAll"
+		},
+		"RemoveRoots": {
+			"feature": "DELViewerContent",
+			"type": "handler",
+			"handlerId": "DELWebOERRemoveRoots"
+		},
+		"GetAppStatus": {
+			"feature": "DELViewerContent",
+			"type": "ModelEvent",
+			"internalEvent": "getAppStatus"
+		},
+		"SetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "setBuildUpGlobalSettings"
+		},
+		"GetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "getBuildUpGlobalSettings"
+		},
+		"GetBuildUpGlobalContent": {
+			"feature": "DELViewerBuildUp",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "getBuildUpGlobalContent"
+		},
+		"Select": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "selectNode"
+		},
+		"UnSelect": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "unSelectNode"
+		},
+		"Highlight": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "highlight"
+		},
+		"UnHighlight": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "unhighlight"
+		},
+		"Load2DStructure": {
+			"feature": "DELViewer2DContent",
+			"type": "ModelEvent",
+			"internalEvent": "load2DStructure"
+		},
+		"Remove2DStructure": {
+			"feature": "DELViewer2DContent",
+			"type": "ModelEvent",
+			"internalEvent": "remove2DStructure"
+		},
+		"Hide": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "hideNode"
+		},
+		"Show": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "showNode"
+		},
+		"ShowMaterial": {
+			"feature": "DELViewerContentSync",
+			"type": "handler",
+			"handlerId": "DELWeb3DViewerShowMaterial"
+		},
+		"HideMaterial": {
+			"feature": "DELViewerContentSync",
+			"type": "handler",
+			"handlerId": "DELWeb3DViewerHideMaterial"
+		},
+		"Reframe": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "setReframe"
+		},
+		"Refresh": {
+			"feature": "DELViewerContentSync",
+			"type": "ModelEvent",
+			"internalEvent": "refresh"
+		},
+		"SetGraphicProperties": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "setGraphicProperties"
+		},
+		"RemoveGraphicProperties": {
+			"feature": "DELViewerContentSync",
+			"type": "API",
+			"componentId": "DELWebViewer",
+			"func": "removeGraphicProperties"
+		},
+		"GetContent": {
+			"feature": "DELViewerContentSync",
+			"type": "ModelEvent",
+			"internalEvent": "getContent"
+		},
+		"Freeze": {
+			"feature": "DELViewerContentSync",
+			"type": "ModelEvent",
+			"internalEvent": "freeze"
+		},
+		"UnFreeze": {
+			"feature": "DELViewerContentSync",
+			"type": "ModelEvent",
+			"internalEvent": "unFreeze"
+		},
+		"Show2DStructure": {
+			"feature": "DELViewer2DContent",
+			"type": "ModelEvent",
+			"internalEvent": "show2DStructure"
+		},
+		"Hide2DStructure": {
+			"feature": "DELViewer2DContent",
+			"type": "ModelEvent",
+			"internalEvent": "hide2DStructure"
+		},
+		"ActivateBuildUp": {
+			"feature": "DELViewerBuildUp",
+			"type": "handler",
+			"handlerId": "DELWeb3DViewerActivateBuildUp"
+		},
+		"DeactivateBuildUp": {
+			"feature": "DELViewerBuildUp",
+			"type": "handler",
+			"handlerId": "DELWeb3DViewerDeactivateBuildUp"
+		},
+		"Enrich3D": {
+			"feature": "DELViewerContentSync",
+			"type": "handler",
+			"handlerId": "DELWeb3DViewerEnrich3D"
+		}
+	},
+	"eventsToPublish": {
+		"onGetAppStatus": {
+			"feature": "DELViewerContent"
+		},
+		"onAppReady": {
+			"feature": "DELViewerContent"
+		},
+		"onDropData": {
+			"feature": "DELViewerContent"
+		},
+		"onLoadDataComplete": {
+			"feature": "DELViewerContent"
+		},
+		"onLoadDataFailure": {
+			"feature": "DELViewerContent"
+		},
+		"onRootsRemoved": {
+			"feature": "DELViewerContent"
+		},
+		"onHome": {
+			"feature": "DELViewerContent"
+		},
+		"onRefresh": {
+			"feature": "DELViewerContent"
+		},
+		"onSelect": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onSelectNode"
+		},
+		"onUnSelect": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onUnSelectNode"
+		},
+		"onHighlight": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onHighlightNode"
+		},
+		"onUnHighlight": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onUnHighlightNode"
+		},
+		"onGetContent": {
+			"feature": "DELViewerContentSync"
+		},
+		"onShowMaterialComplete": {
+			"feature": "DELViewerContentSync"
+		},
+		"onHideMaterialComplete": {
+			"feature": "DELViewerContentSync"
+		},
+		"onHide": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onHideNode"
+		},
+		"onShow": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "DS/DELWebViewer/onShowNode"
+		},
+		"onLoadGraphicsComplete": {
+			"feature": "DELViewerContentSync",
+			"internalEvent": "onEndProgressiveLoad"
+		},
+		"onEnrich3DComplete": {
+			"feature": "DELViewerContentSync"
+		},
+		"onEnrich3DFailed": {
+			"feature": "DELViewerContentSync"
+		},
+		"onLoad2DStructureComplete": {
+			"feature": "DELViewer2DContent",
+			"internalEvent": "on2DRootAdded"
+		},
+		"onToggleDataGridview": {
+			"feature": "DELViewer2DContent"
+		},
+		"onBuildUpActivated": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onBuildUpDeactivated": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onSetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onGetBuildUpGlobalSettings": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onGetBuildUpGlobalContent": {
+			"feature": "DELViewerBuildUp"
+		},
+		"onBuildUpActivateFailed": {
+			"feature": "DELViewerBuildUp"
+		}
+	},
+	"widget_linkability": {
+		"appIds": [],
+		"open": false,
+		"uses": [],
+		"implements": [
+			"DELViewerContent",
+			"DELViewer2DContent",
+			"DELViewerBuildUp",
+			"DELViewerContentSync"
+		]
+	}
+}

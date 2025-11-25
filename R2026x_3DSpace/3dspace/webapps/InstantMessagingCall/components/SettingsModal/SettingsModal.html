@@ -1,0 +1,152 @@
+<div
+  id="im-call-settings-modal"
+  v-show="displaySettings"
+>
+  <vu-modal
+    :show="displaySettings"
+    :title="$store.getters.nls('deviceSettings')"
+    :showCancelIcon="true"
+    :showCancelButton="false"
+    :showFooter="true"
+    :showInput="false"
+    :required="false"
+    @close="close()"
+  >
+    <template v-slot:modal-header>
+
+    </template>
+
+    <template v-slot:modal-body>
+      <vu-form ref ="form">
+        <!-- Camera -->
+        <im-call-settings-item
+          icon="videocamera"
+          :label="$store.getters.nls('videoInputDevice') || 'Camera'"
+          :selectOption="isVideoToggle"
+          :select="{
+            placeholder: $store.getters.nls('selectOption')  || 'Select an option',
+            options: videoinputDevices,
+            model: videoinputDeviceSelected,
+            rule: cameraRule
+          }"
+          @input="onSelectedVideoInput"
+        >
+          <template #authorization>
+            <vu-checkbox
+              type="switch"
+              :options="videoToggle.options"
+              :value="videoToggle.model"
+              @input="videoSwitch()"
+            ></vu-checkbox>
+          </template>
+        </im-call-settings-item>
+  
+        <!-- Preview Camera -->
+        <im-call-settings-item
+          v-if="isVideoToggle"
+          :label="$store.getters.nls('videoPreview') || 'Preview'"
+          :preview="true"
+        >
+          <template v-slot:preview>
+            <div class="im-call-settings-modal-preview">
+              <im-call-video-item
+                :stream="videoStream"
+              />
+            </div>
+          </template>
+        </im-call-settings-item>
+  
+        <!-- Microphone -->
+        <im-call-settings-item
+          icon="microphone"
+          :label="$store.getters.nls('audioInputDevice') || 'Microphone'"
+          :selectOption="isMicroToggle"
+          :select="{
+            placeholder: $store.getters.nls('selectOption')  || 'Select an option',
+            options: audioinputDevices,
+            model: audioinputDeviceSelected,
+            rule: microRule
+          }"
+          @input="onSelectedAudioInput"
+        >
+          <template #authorization>
+            <vu-checkbox
+              type="switch"
+              :options="microToggle.options"
+              :value="microToggle.model"
+              @input="microSwitch()"
+            ></vu-checkbox>
+          </template>
+        </im-call-settings-item>
+  
+        <!-- Test Microphone -->
+        <im-call-settings-item
+        v-if="isMicroToggle"
+        :label="$store.getters.nls('microTest') || 'Microphone - Test'"
+        :preview="true"
+        >
+          <template v-slot:preview>
+            <div class="im-call-settings-modal-test-micro">
+              <div class="im-call-settings-modal-test-micro-bar">
+                  <div class="im-call-settings-modal-test-micro-volume" :style="{ width: audioVolumePercentage + '%' }">
+                  </div>
+              </div>
+            </div>
+          </template>
+        </im-call-settings-item>
+  
+        <!-- Speaker -->
+        <im-call-settings-item
+          icon="sound"
+          ref="speakerRef"
+          :label="$store.getters.nls('audioOutputDevice') || 'Speaker'"
+          :selectOption="isSpeakerToggle"
+          :select="{
+            placeholder: $store.getters.nls('selectOption')  || 'Select an option',
+            options: audiooutputDevices,
+            model: audiooutputDeviceSelected,
+            rule: speakerRule
+          }"
+          @input="onSelectedAudioOutput"
+          @click="audioOutputNotSupported"
+        >
+          <template #authorization>
+            <vu-checkbox
+              type="switch"
+              :options="speakerToggle.options"
+              :value="speakerToggle.model"
+              @input="speakerSwitch()"
+            ></vu-checkbox>
+          </template>
+        </im-call-settings-item>
+  
+        <!-- Test Speaker -->
+        <im-call-settings-item
+        v-if="isSpeakerToggle"
+        :label="$store.getters.nls('speakerTest') || 'Speaker - Test'"
+        :preview="true"
+        >
+          <template v-slot:preview>
+            <div class="im-call-settings-modal-test-speaker"> 
+              <audio
+              controls
+              controlsList="nodownload noplaybackrate novolume">
+                <source :src="$store.getters.holdtoneURL">
+              </audio>
+            </div>
+          </template>
+        </im-call-settings-item>
+      </vu-form>
+     </template>
+
+    <template v-slot:modal-footer>
+      <vu-btn color="primary" @click="validate()">
+        {{ $store.getters.nls('validate') || 'Validate' }}
+     </vu-btn>
+     <vu-btn
+     @click="close()">
+         {{ $store.getters.nls('cancel') }}
+     </vu-btn>
+    </template>
+  </vu-modal>
+</div>

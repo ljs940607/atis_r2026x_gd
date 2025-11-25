@@ -1,0 +1,27 @@
+{
+	"ColumnManagers": [
+		"DS/DELPPWViewBehaviors/CfgColumnsBehavior/CfgCellManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/AdditionalGroupingColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/BIEssentials/BIColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/BuildUp3DColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/DocMgmtColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/HideShowItems3DColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/LabelColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/LockColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/MfgProcessMILColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/MCRColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/MSOColumnManager",
+		"DS/DELPPWItemViewBehaviors/ColumnManagers/MfgItemQuantityCellManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/OperationTime/OperationTimeColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/RWU/RWUColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/Relations/RelationsColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/RichTextColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/SequenceNoCellManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/DynamicAttrNonEditableColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/UrlColumnManager",
+		"DS/DELPPWInstructionViewBehaviors/ColumnManagers/DataCollectRowColumnManager",
+		"DS/DELPPWInstructionViewBehaviors/ColumnManagers/ResourceParameterRowColumnManager",
+		"DS/DELPPWProcessViewBehaviors/ColumnManagers/SequenceModeColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/MoreAttributesWizardColumnManager"
+	]
+}

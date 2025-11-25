@@ -1,0 +1,26 @@
+{
+    "actions": [
+        {
+            "launcher": "launchUPSReplaceByLatestRevision",
+            "nls_key": "replace_by_latest",
+            "fonticon": "replace-by-latest-version",
+            "applicableType": ["PhysicalProduct"],
+            "excludeType": [],
+            "applicableAt": ["ItemTabActions"],
+            "access": ["modify"],
+            "isAvailableOnMultiSelect": true,
+            "isVisibleForMEI": true
+          },
+           {
+            "launcher": "launchUPSAuthReplaceByRevision",
+            "nls_key": "replace_by_version",
+            "fonticon": "replace-by-revision",
+            "applicableType": ["PhysicalProduct"],
+            "excludeType": [],
+            "applicableAt": ["ItemTabActions"],
+            "access": ["modify"],
+            "isAvailableOnMultiSelect": true,
+            "isVisibleForMEI": true
+          }
+      ] 
+  }

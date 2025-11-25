@@ -1,0 +1,596 @@
+{
+ "GS1Types": [
+      {
+        "id": "1",
+        "parent": "true",
+        "name": "Distribution and Manufacturing",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "LOCAL_CONTACT_INFORMATION",
+            "id": "1",
+            "parent": "false",
+            "name": "Local Contact Information",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "REGIONAL_CONTACT_INFORMATION",
+            "id": "2",
+            "parent": "false",
+            "name": "Regional Contact Information",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "LOT_NUMBER",
+            "id": "3",
+            "parent": "false",
+            "name": "Lot Number",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "MANUFACTURER_STATEMENT",
+            "id": "4",
+            "parent": "false",
+            "name": "Manufacturer Statement",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "MANUFACTURING_SITE",
+            "id": "5",
+            "parent": "false",
+            "name": "Manufacturing Site",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "INTERNAL_PACKAGE_IDENTIFIER",
+            "id": "6",
+            "parent": "false",
+            "name": "Internal Package Identifier",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "DISTRIBUTION_STATEMENT",
+            "id": "7",
+            "parent": "false",
+            "name": "Distribution Statement",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "IMPORTER_STATEMENT",
+            "id": "8",
+            "parent": "false",
+            "name": "Importer Statement",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "LOCATION_OF_ORIGIN",
+            "id": "9",
+            "parent": "false",
+            "name": "Location of Origin",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "ONLINE_PRINTER_HEADER",
+            "id": "10",
+            "parent": "false",
+            "name": "Online Printer Header",
+            "parentid": "1"
+          },
+          {
+            "gs1key": "PACKING_STATEMENT",
+            "id": "11",
+            "parent": "false",
+            "name": "Packing Statement",
+            "parentid": "1"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "parent": "true",
+        "name": "Global Warning and Caution Statements",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "ALLERGEN_STATEMENT",
+            "id": "1",
+            "parent": "false",
+            "name": "Allergen Statements",
+            "parentid": "2"
+          },
+          {
+            "gs1key": "WARNING_STATEMENTS",
+            "id": "2",
+            "parent": "false",
+            "name": "Warning Statements",
+            "parentid": "2"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "parent": "true",
+        "name": "Header Information",
+        "parentid": "0",
+        "GS1SubType": [{
+          "gs1key": "TARGET_MARKET",
+          "id": "1",
+          "parent": "false",
+          "name": "Target Market",
+          "parentid": "3"
+        }]
+      },
+      {
+        "id": "4",
+        "parent": "true",
+        "name": "Ingredients and Technical Facts",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "ACTIVE_INGREDIENTS_DECLARATION",
+            "id": "1",
+            "parent": "false",
+            "name": "Active Ingredients Declaration",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "ACTIVE_INGREDIENTS_HEADER",
+            "id": "2",
+            "parent": "false",
+            "name": "Active Ingredients Header",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "DRUG_FACTS",
+            "id": "3",
+            "parent": "false",
+            "name": "Drug Facts",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "ENVIRONMENT_STATEMENTS",
+            "id": "4",
+            "parent": "false",
+            "name": "Environmental Statements",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "INACTIVE_INGREDIENTS_DECLARATION",
+            "id": "5",
+            "parent": "false",
+            "name": "Inactive Ingredients Declaration",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "INACTIVE_INGREDIENTS_HEADER",
+            "id": "6",
+            "parent": "false",
+            "name": "Inactive Ingredients Header",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "INGREDIENTS_DECLARATION",
+            "id": "7",
+            "parent": "false",
+            "name": "Ingredients Declaration",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "INGREDIENTS_HEADER",
+            "id": "8",
+            "parent": "false",
+            "name": "Ingredients Header",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "NUTRITION_CLAIMS",
+            "id": "9",
+            "parent": "false",
+            "name": "Nutrition Claims",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "NUTRITION_FACTS",
+            "id": "10",
+            "parent": "false",
+            "Structure": "true",
+            "name": "Nutrition Facts",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "PRESERVATIVES",
+            "id": "11",
+            "parent": "false",
+            "name": "Preservatives",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "PRODUCT_USE",
+            "id": "12",
+            "parent": "false",
+            "name": "Product Use",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "QUALITY_STATEMENTS",
+            "id": "13",
+            "parent": "false",
+            "name": "Quality Statements",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "REGISTRATION_INFORMATION",
+            "id": "14",
+            "parent": "false",
+            "name": "Registration Information",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "SHELF_LIFE_STATEMENT",
+            "id": "15",
+            "parent": "false",
+            "name": "Shelf Life Statement",
+            "parentid": "4"
+          },
+          {
+            "gs1key": "TECHNICAL_FACTS",
+            "id": "16",
+            "parent": "false",
+            "name": "Technical Facts",
+            "parentid": "4"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "parent": "true",
+        "name": "Marketing Copy Claims and Endorsements",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "CONTENT_CLAIM",
+            "id": "1",
+            "parent": "false",
+            "name": "Content Claim",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "DISCLAIMER",
+            "id": "2",
+            "parent": "false",
+            "name": "Disclaimer",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "MARKETING_CLAIM",
+            "id": "3",
+            "parent": "false",
+            "name": "Marketing Claim",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "MARKETING_COPY",
+            "id": "4",
+            "parent": "false",
+            "name": "Marketing",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "NOT_FOR_SALE_STATEMENT",
+            "id": "5",
+            "parent": "false",
+            "name": "Not for Sale Statement",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "PACKAGING_CLAIM",
+            "id": "6",
+            "parent": "false",
+            "name": "Packaging Claim",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "PRICING_STATEMENT",
+            "id": "7",
+            "parent": "false",
+            "name": "Pricing Statement",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "PRODUCT_FEATURES",
+            "id": "8",
+            "parent": "false",
+            "name": "Product Features",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "PROMOTIONAL_COPY",
+            "id": "9",
+            "parent": "false",
+            "name": "Promotional",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "THIRD_PARTY_ENDORSEMENTS",
+            "id": "10",
+            "parent": "false",
+            "name": "Third Party Endorsements",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "VIOLATOR",
+            "id": "11",
+            "parent": "false",
+            "name": "Violator",
+            "parentid": "5"
+          },
+          {
+            "gs1key": "WARRANTY_DESCRIPTION",
+            "id": "11",
+            "parent": "false",
+            "name": "Warranty Description",
+            "parentid": "5"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "parent": "true",
+        "name": "Nominal Content",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "GROSS_CONTENT_STATEMENT",
+            "id": "1",
+            "parent": "false",
+            "name": "Gross Content Statement",
+            "parentid": "6"
+          },
+          {
+            "gs1key": "NET_CONTENT_STATEMENT",
+            "id": "2",
+            "parent": "false",
+            "name": "Net Content Statement",
+            "parentid": "6"
+          },
+          {
+            "gs1key": "PACKAGE_COUNT",
+            "id": "3",
+            "parent": "false",
+            "name": "Package Count",
+            "parentid": "6"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "parent": "true",
+        "name": "Patent Trademark Master Copyright Legal",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "COPYRIGHT_TRADEMARK_STATEMENT",
+            "id": "1",
+            "parent": "false",
+            "name": "Copyright Trademark Statement",
+            "parentid": "7"
+          },
+          {
+            "gs1key": "PATENT_NUMBERS",
+            "id": "2",
+            "parent": "false",
+            "name": "Patent Numbers",
+            "parentid": "7"
+          },
+          {
+            "gs1key": "PATENT_STATEMENT",
+            "id": "3",
+            "parent": "false",
+            "name": "Patent Statement",
+            "parentid": "7"
+          },
+          {
+            "gs1key": "UNDER_LICENSE_STATEMENT",
+            "id": "4",
+            "parent": "false",
+            "name": "Under License Statement",
+            "parentid": "7"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "parent": "true",
+        "name": "Product Identity",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "ADDITIONAL_PRODUCT_VARIANT_INFORMATION",
+            "id": "1",
+            "parent": "false",
+            "name": "Additional Product Variant Information",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "BRAND_NAME",
+            "id": "2",
+            "parent": "false",
+            "name": "Brand Name",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "FUNCTIONAL_NAME",
+            "id": "3",
+            "parent": "false",
+            "name": "Functional Name",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "PRODUCT_OR_STATEMENT_OF_IDENTITY",
+            "id": "4",
+            "parent": "false",
+            "name": "Product or Statement of Identity",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "SUB_BRAND_NAME",
+            "id": "5",
+            "parent": "false",
+            "name": "Sub Brand Name",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "TRADE_ITEM_FORM_DESCRIPTION",
+            "id": "6",
+            "parent": "false",
+            "name": "Trade Item Form Description",
+            "parentid": "8"
+          },
+          {
+            "gs1key": "VARIANT",
+            "id": "7",
+            "parent": "false",
+            "name": "Variant",
+            "parentid": "8"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "parent": "true",
+        "name": "Usage Instructions and Consumer Relations Info",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "ASSEMBLY_INSTRUCTIONS",
+            "id": "1",
+            "parent": "false",
+            "name": "Assembly Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "CONTACT_INFORMATION",
+            "id": "2",
+            "parent": "false",
+            "name": "Contact Information",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "DISPOSAL_INFORMATION",
+            "id": "3",
+            "parent": "false",
+            "name": "Disposal Information",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "OPENING_INSTRUCTIONS",
+            "id": "4",
+            "parent": "false",
+            "name": "Opening Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "OTHER_INSTRUCTIONS",
+            "id": "5",
+            "parent": "false",
+            "name": "Other Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "PREPARATION_INSTRUCTIONS",
+            "id": "6",
+            "parent": "false",
+            "name": "Preparation Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "RECYCLE_STATEMENT",
+            "id": "7",
+            "parent": "false",
+            "name": "Recycle Statements",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "STORAGE_INSTRUCTIONS",
+            "id": "8",
+            "parent": "false",
+            "name": "Storage Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "USAGE_INSTRUCTIONS",
+            "id": "9",
+            "parent": "false",
+            "name": "Usage Instructions",
+            "parentid": "9"
+          },
+          {
+            "gs1key": "WEBSITE",
+            "id": "10",
+            "parent": "false",
+            "name": "Website",
+            "parentid": "9"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "parent": "true",
+        "name": "Various",
+        "parentid": "0",
+        "GS1SubType": [
+          {
+            "gs1key": "CONSUMER_GUARANTEE",
+            "id": "1",
+            "parent": "false",
+            "name": "Consumer Guarantee",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "CROSS_SELL",
+            "id": "2",
+            "parent": "false",
+            "name": "Cross Sell",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "DIET_EXCHANGES",
+            "id": "3",
+            "parent": "false",
+            "name": "Diet Exchanges",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "ICON_VARIABLE_TEXT",
+            "id": "4",
+            "parent": "false",
+            "Structure": "true",
+            "name": "Icon Variable Text",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "PRODUCT_DISPLAY_DISCLAIMER",
+            "id": "5",
+            "parent": "false",
+            "name": "Product Display Disclaimer",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "RECIPE",
+            "id": "6",
+            "parent": "false",
+            "name": "Recipe",
+            "parentid": "10"
+          },
+          {
+            "gs1key": "SWEEPSTAKES_OFFER",
+            "id": "7",
+            "parent": "false",
+            "name": "Sweepstakes Offer",
+            "parentid": "10"
+          }
+        ]
+      }
+    ]
+}
+

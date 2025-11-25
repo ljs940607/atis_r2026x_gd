@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "ファイルが選択されていません",
+  "noValidFileSelected": "有効なファイルが選択されていません",
+  "isRequired": "{0} は必須です",
+  "isInvalid": "{0} は無効です",
+  "wrongFileType": "不正なファイル タイプ",
+  "fileTooBig": "ファイル サイズが制限の {0} を超えています",
+  "bytes": "バイト",
+  "kiloByte": "KB",
+  "megaByte": "MB",
+  "gigaByte": "GB",
+  "teraByte": "TB",
+  "fileUploadFailed": "ファイルのアップロードに失敗しました。やり直してください。",
+  "replaceImage": "イメージを置換",
+  "loading": "ロード中...",
+  "fileCouldNotBeLoaded": "ファイルをロードできませんでした"
+}

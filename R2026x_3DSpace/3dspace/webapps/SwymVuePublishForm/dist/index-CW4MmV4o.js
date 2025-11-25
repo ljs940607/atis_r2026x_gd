@@ -1,0 +1,31 @@
+import { b as a, c as r, G as t, d as o, S as i, X as n, e as c, f as d, g as l, h as u, i as R, j as h, k as C, l as E, m as v, n as A, o as S, p as O, q as f, r as g, s as q, t as I, u as L, v as m, w as p, x as _, y as F } from "./publish-form-vue-D_6ZLo1R.js";
+export {
+  a as CACHE,
+  r as CSRF,
+  t as GLOBAL_ERROR_EVENT,
+  o as GLOBAL_ERROR_LIST_403,
+  i as SERVICE,
+  n as XRequestIdHeader,
+  c as addRequestId,
+  d as cacheDecorator,
+  l as dsFetch,
+  u as getAllPlatformsAvailable,
+  R as getServiceUrl,
+  h as getServicesUrl,
+  C as handleCsrfError,
+  E as handleInactiveUser,
+  v as handleLicenseError,
+  A as initCsrfFromTokenOrSessionStorage,
+  S as logout,
+  O as networkFirstAndCacheDecorator,
+  f as passportAuth,
+  g as removeRequestId,
+  q as requirejs,
+  I as requirejsOne,
+  L as serviceProxy,
+  m as servicesAuth,
+  p as setCsrfOnHeader,
+  _ as updateCache,
+  F as useTranslations
+};
+//# sourceMappingURL=index-CW4MmV4o.js.map

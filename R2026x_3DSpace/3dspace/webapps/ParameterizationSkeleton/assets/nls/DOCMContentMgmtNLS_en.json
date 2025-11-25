@@ -1,0 +1,28 @@
+{
+    "intro" :"Configure Document Management Experience",
+    "DownloadRules":"Document Download Rules",
+    "rule1": "Multiple Documents Download ",
+    "option1":"Folder Structure. Folder named after “<Document name> <Document revision>” e.g. DOC-00000001 0",
+    "option2":"Flat List of all files without folder structure. Conflicting filenames will be suffixed with serial numbers",
+    "defaultOption":"OneFileOneDirectory",
+    "Flatlist":"Flatlist",
+    "ApplySuccess" : "Changes applied successfully",
+    "ApplyError" : "Failed to Apply changes",
+    "ResetSuccess" : "Reset Successful",
+    "Enable_Work_Under_Setting" : "Enable Work Under",
+	"Enable_Mandatory_Comment_Setting" : "Make mandatory anytime a file is uploaded, updated or edited.",
+    "File_Comment_Label":"File comments",
+    "Work_Under_Accordion_Title" : "Work Under Configuration",
+    "Work_Under": "Work Under",
+	"Comment_As_Mandatory__Accordion_Title" : "Document Update",
+    "Failed_Load" : "Failed to load configurations.",
+    "DownloadBehaviorTooltip":{
+        "title":"Select how to organize files when downloading multiple documents:",
+        "subtitle1Heading":"• Folder structure: ",
+        "subtitle2Heading":"• Flat list: ",
+        "subtitle1":"Creates a ZIP folder with subfolders for each document, maintaining their original file organization.",
+        "subtitle2":"Downloads all files in a single list without subfolders. Files with the same name will be suffixed with serial numbers to avoid conflicts."
+    },
+    "WorkUnderRuleTooltip" : "Select to use a change object to record all modifications as realized changes.",
+    "CommentMandatoryTooltip": "Makes comments mandatory for any Create/Update action in Document Management and for saving documents to 3DEXPERIENCE in Collaboration for Microsoft. File comments are especially useful for documents containing multiple files, to provide context about its purpose and how it relates to the document."
+ }

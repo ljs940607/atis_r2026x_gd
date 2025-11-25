@@ -1,0 +1,41 @@
+{
+  "enoripe_init": {
+    "widget_id": "1",
+    "Duration": "2",
+    "LayoutType": "3",
+    "NavigationType": "4"
+  },
+  "enoripe_getecosystem": {
+    "widget_id": "1",
+    "Duration": "2",
+    "NumberOfObjects" : "3",
+    "NavigationType": "4"
+  },
+  "enoripe_getRelationCount": {
+    "widget_id": "1",
+    "Duration": "2",
+    "NumberOfObjects" : "3",
+    "NavigationType": "4"
+  },
+  "enoripe_detail": {
+    "widget_id": "1",
+    "Duration": "2"
+  },
+  "enoripe_fullImport": {
+    "widget_id": "1",
+    "Duration": "2",
+    "NumberOfObjects" : "3",
+    "NavigationType": "4"
+  },
+
+  "enoripe_initColumns":{
+    "widget_id": "1",
+    "ColumnName": "2",
+    "AppID" : "3"
+  },
+  "enoripe_showRelations":{
+    "widget_id": "1",
+    "AppID" : "2"
+  }
+
+}

@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_ru",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"URL-адрес внешнего предложения с расценками",activateExternalQuotation:"Включить внешнее предложение с расценками"});

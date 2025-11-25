@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "使用条件情報の取得中にエラーが発生しました。",
+  "ERROR_DATA_LOAD_MSG": "このオブジェクトへのアクセス権があることを確認します。",
+  "ERROR_DATA_FETCH_TITLE": "オブジェクト詳細の取得中にエラーが発生しました",
+  "ERROR_EXP_FETCH_TITLE": "使用条件式の詳細を取得中にエラーが発生しました",
+  "title_label": "タイトル",
+  "instance_title_label": "タイトル",
+  "instance_title_tooltip": "インスタンスのタイトル",
+  "evolution_label": "現行の展開",
+  "owner_label": "所有者",
+  "type_label": "タイプ",
+  "openwith_label": "オプションを指定して開く",
+  "filter_label": "フィルタ",
+  "filter_mentioned": "{0} を言及済み",
+  "filter_included": "{0} を付加済み",
+  "expression_label": "バリアント/オプション"
+}

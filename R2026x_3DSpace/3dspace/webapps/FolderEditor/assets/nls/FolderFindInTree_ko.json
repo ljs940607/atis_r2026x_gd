@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "북마크 폴더 찾는 중..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "즐겨찾기 섹션과 즐겨찾기 북마크 폴더에 대해 트리에서 찾기를 수행할 수 없습니다.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "놓인 개체가 북마크 폴더가 아닙니다.",
+    "subtitle": "북마크 루트 폴더 또는 북마크 폴더를 놓으십시오."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "트리에서 찾기를 수행할 수 없습니다.",
+    "subtitle": "해당 북마크 폴더 노드로 트리를 확장합니다.",
+    "message": "찾을 북마크 폴더가 트리에서 보이지 않습니다."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "트리에서 찾기를 수행할 수 없습니다.",
+    "subtitle": "북마크 폴더 섹션을 레벨 1로 확장합니다.",
+    "message": "북마크 폴더 섹션 아래에 표시된 북마크 폴더가 없습니다."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "트리에서 찾기를 수행할 수 없습니다.",
+    "subtitle": "북마크 폴더를 선택하고 다시 시도하십시오.",
+    "message": "찾기를 수행할 북마크 폴더가 선택되지 않았습니다."
+  },
+  "msg_info_limitToFindInRootNode": "모든 검색 결과를 표시할 수 없습니다. 다른 키워드를 사용하거나 하위 북마크 폴더에서 검색하십시오.",
+  "msg_info_searchCompleted": "검색이 완료되었습니다.",
+  "msg_info_No_Occurrence": "결과가 없습니다."
+}

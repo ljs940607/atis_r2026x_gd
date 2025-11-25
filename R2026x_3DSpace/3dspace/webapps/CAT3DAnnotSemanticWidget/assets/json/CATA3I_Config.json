@@ -1,0 +1,21 @@
+{
+  "afrService": false,
+  "afrAppId": "CATA3I_AP",
+  "afrFamily": "PAD3DViewerWAFRFamily",
+  "afrSpecializations": [],
+  "afrTransitionsFrom": {
+    "CATA3I_AP": {
+      "type": "CreateNewContainer"
+    }
+  },
+  "afrTransitionsFromFamily": {
+    "PAD3DViewerWAFRFamily": {
+      "type": "ReuseContext"
+    }
+  },
+  "afrTransitionsTo": {
+    "_default_": {
+      "type": "CreateNewContainer"
+    }
+  }
+}

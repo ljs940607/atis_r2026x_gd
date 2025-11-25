@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "Kalkulacja kosztów",
+  "CostingDomainTooltip": "Wybierz proces ewolucji dla wskaźników kosztów",
+  "CostingDefaultEvolution": "Sekwencyjnie",
+  "CostingEvolutionConcurrent": "Jednocześnie",
+  "deployFailureMsg": "Ustawianie procesu ewolucji jako współbieżnego nie jest dozwolone, ponieważ istnieją wskaźniki kosztów poza stanem roboczym",
+  "MetricEvolutionAccordionTitle": "Proces ewolucji wskaźników"
+}

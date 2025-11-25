@@ -1,0 +1,22 @@
+.sch-vlist-block {
+  box-sizing: border-box;
+}
+.sch-vlist-block .sch-vlist {
+  box-sizing: border-box;
+}
+.sch-vlist-block .sch-vlist .sch-vlist-item {
+  box-sizing: border-box;
+}
+.sch-vlist-block .sch-vlist .sch-vlist-item > span {
+  color: #368ec4;
+  display: inline-block;
+  font-size: 1.33333em;
+  margin: 7px;
+}
+.sch-vlist-block .sch-vlist .sch-vlist-item .block-category {
+  font-style: italic;
+  font-size: 10px;
+}
+.sch-vlist-block .sch-vlist .sch-vlist-item.preselected > span {
+  color: white;
+}

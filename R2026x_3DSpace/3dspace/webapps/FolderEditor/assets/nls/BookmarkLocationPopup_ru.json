@@ -1,0 +1,16 @@
+{
+  "OK": "ОК",
+  "Cancel": "Отмена",
+  "OpenLocation": "Родительский объект {typeStruct}",
+  "Bookmark_Locations": "{typeStruct} Местоположения",
+  "Open": "Открыть",
+  "OpenLocationPopupLable": "Выберите {typeStruct}, который требуется открыть:",
+  "msg_error_BookmarkLocation": "Не удается открыть местоположение для {typeStruct} '{name1}' (возможно, он удален или недоступен).",
+  "msg_error_BM_LOC_InValid_Object": "Не удается выбрать объект. Возможно, он удален или недоступен.",
+  "removeFromSearchNotif": {
+    "success": "Объект удален.",
+    "failNotAllowed": "Убедитесь в том, что {typeStruct} находится в состоянии, позволяющем изменять содержимое.",
+    "serverError": "Обновите виджет или браузер и убедитесь, что используются правильные учетные данные.",
+    "failNoRelationFound": "Убедитесь, что у вас есть необходимые разрешения."
+  }
+}

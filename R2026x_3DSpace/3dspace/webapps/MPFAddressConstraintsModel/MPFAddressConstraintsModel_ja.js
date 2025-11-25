@@ -1,0 +1,1 @@
+define("DS/MPFAddressConstraintsModel/MPFAddressConstraintsModel_ja",{});define("DS/MPFAddressConstraintsModel/assets/nls/AddressConstraintsModel",{addressLine1:"住所",addressLine2:"住所",addressLine3:"住所",addressLine4:"住所",city:"市",county:"郡",state:"都道府県",postalCode:"郵便番号",phoneNumber:"電話番号",country:"国",requiredError:"{0} は必須です",invalidError:"{0} は無効です"});

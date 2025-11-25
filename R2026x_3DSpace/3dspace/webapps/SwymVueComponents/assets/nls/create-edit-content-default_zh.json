@@ -1,0 +1,20 @@
+{
+  "AddATitle": "添加标题",
+  "Publish": "发布",
+  "Next": "下一个",
+  "Previous": "上一个",
+  "Cancel": "取消",
+  "Close": "关闭",
+  "StartWriting": "开始编写",
+  "AreYouSure": "是否确定要取消？您将丢失所输入的内容。",
+  "InsertMedia": "插入媒体",
+  "InsertExternalMedia": "插入媒体",
+  "InsertOSMedia": "从计算机上传媒体",
+  "AddTags": "添加标记",
+  "EditContentMobileTitle": "编辑内容",
+  "Error_MaxCharLimitReached": "已达到最大字符数限制 ({n})",
+  "Error_CreationFailed": "创建失败。请稍后重试。",
+  "Error_TitleIsRequired": "需要标题才能发布内容",
+  "Error_DescriptionIsRequired": "需要描述才能发布内容",
+  "Error_ConcurrentEdition": "<b>更新内容：</b>{user}刚刚发布了有关此内容的更新。您可能需要手动复制您的更改并从最新更新中再次编辑。"
+}

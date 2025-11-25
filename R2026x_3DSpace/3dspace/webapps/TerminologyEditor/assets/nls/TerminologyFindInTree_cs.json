@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Hledání terminologií..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Upuštěný objekt není objekt struktury procházení.",
+    "Advice": "Přetáhněte strukturu nebo uzel procházení."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Hledání ve stromu nelze provést.",
+    "Advice": "Rozbalte strom k tomuto konkrétnímu uzlu procházení",
+    "Details": "Hledaný uzel procházení není ve stromu vidět."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Hledání ve stromu nelze provést.",
+    "Advice": "Rozbalte část struktury procházení na první úroveň.",
+    "Details": "V části struktury procházení není žádná viditelná struktura procházení."
+  },
+  "msg_info_limit_FindInTree": "Bylo dosaženo limitu. Limit pro nalezení je nastaven na 100.",
+  "msg_info_limitToFindInRootNode": "Limit pro nalezení struktury procházení je nastaven na 200. Bude zvažováno prvních 200 struktur procházení.",
+  "msg_info_No_Occurrence": "Nebyly nalezeny žádné výskyty struktury procházení."
+}

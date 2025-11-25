@@ -1,0 +1,358 @@
+{
+  "close": "Kapat",
+  "filter": "Filtre",
+  "addContentInvite": {
+    "enx-invite-title-NLS": "İçerik yönetimi",
+    "enx-add-NLS": "Nesne Ekle",
+    "enx-addincontext-NLS": "Bağlamda nesne ekle",
+    "enx-filter-NLS": "İçeriği filtrele",
+    "enx-recentcontent-NLS": "Son kullanılan içerik",
+    "enx-insert-NLS": "Ekle"
+  },
+  "recentContent": {
+    "title": "Yüklenecek Nesneleri Seç",
+    "load": "Yükle",
+    "branches": "dallar",
+    "removeFromRecent": "Kaldır",
+    "detachRoot": "Kök çıkar",
+    "attachRoot": "Kök ekle"
+  },
+  "attributesCustomization": {
+    "apptitle": "Ağaç Listesi Görünümü Seçenekleri",
+    "close": "Kapat",
+    "reset": "Sıfırla",
+    "specificColumn": "Özel sütunların yönetimi",
+    "moveFirst": "En Üste Taşı",
+    "moveUp": "Yukarı Taşı",
+    "moveDown": "Aşağı Taşı",
+    "moveLast": "En Alta Taşı",
+    "changeColor": "Rengi Değiştir",
+    "changeExport": "Dışa Aktarılabilirlik",
+    "remove": "Kaldır",
+    "density": "Yoğunluk",
+    "comfortable": "Rahat",
+    "comfortableExplanation": "Mobil Cihazlarla Uyumlu",
+    "compact": "Kompakt",
+    "compactExplanation": "Fareyle Kullanıma Uygun",
+    "apply_to_this_app": "Seçenekleri yalnızca bu uygulama için geçerli kıl",
+    "selection": "Onay Kutuları",
+    "activateSelectionBoxes": "Seçili Onay Kutularını Etkinleştir",
+    "deactivateSelectionBoxes": "Seçili Onay Kutularını Devre Dışı Bırak",
+    "activateThumbnails": "Ağaç Görünümünde küçük resimleri görüntüle",
+    "deactivateThumbnails": "Ağaç Görünümünden küçük resimleri kaldır",
+    "hide_show": "3B'de Gizle/Göster",
+    "findcmd": "Bul",
+    "findinctx": "Bul",
+    "ContextualMenuColumn": "Bağlamsal Menü Sütunu",
+    "instanceAtt": "Öznitelikleri Örnekten Yönet",
+    "instanceName": "Örnek Adı",
+    "instanceMatrix": "Konum Matrisi",
+    "thumbnail": "Küçük resimleri görüntüle",
+    "moreAttributes": "Daha fazla öznitelik",
+    "attrVisible": "Görünür",
+    "attrTitle": "Sütun Adı",
+    "exportContent": "Dışa Aktarılabilir",
+    "columnColor": "Renk",
+    "attrRemove": "Kaldır",
+    "icon": "Simge",
+    "title": "Ad",
+    "colorContent": "a",
+    "pinLeft": "Sola Sabitle",
+    "pinRight": "Sağa Sabitle",
+    "unpinned": "Sabitleme Yok",
+    "cannotRemove": "Öznitelik {attr} kaldırılamıyor",
+    "panel2small": "Uygulama boyutu çok küçük. Komutu kullanmak için lütfen en üst düzeye çıkarın",
+    "tooltipColName": "{instRef} üzerindeki {label}",
+    "Reference": "Referans",
+    "Instance": "Örnek",
+    "WARN_001": "Mükerrer ad bulundu.\nÖrnek sütun adı son ekle güncellendi.",
+    "canBeGrouped": "Gruplama Kriteri",
+    "classificationAttributes": "Sınıflandırma",
+    "resetView": "Görünüm Sıfırlanıyor",
+    "dimension": "Ölçü",
+    "preferredUnit": "Tercih Edilen Birim"
+  },
+  "moreAttributesWizard": {
+    "titlePanel": "Daha fazla öznitelik seç",
+    "selectTypes": "Tipleri Seç",
+    "selectExtension": "Uzantıları Seç",
+    "selectAttributes": "Öznitelikleri Seç",
+    "cancel": "İptal",
+    "next": "Sonraki",
+    "done": "Bitti",
+    "attrSel": "Seçili",
+    "attrTitle": "Ad",
+    "previousResult": "Önceki Sonuç",
+    "nextResult": "Sonraki Sonuç",
+    "filterRows": "Satırları filtrele",
+    "none": "Filtre yok",
+    "selected": "Seçileni Koru",
+    "unselected": "Seçili Olmayanı Koru",
+    "description": "Tanım",
+    "declaredIn": "Beyan edilme yeri",
+    "attrIcon": "Simge",
+    "filterRowsKind": "Örnek/Referans Filtre",
+    "filterreference": "Referansı Koru",
+    "filterinstance": "Örneği Koru",
+    "declaredInWithTypes": "Beyan edilme yeri:\n{types}",
+    "reload": "Yeniden Yükle {what}",
+    "availableTypes": "mevcut tipler",
+    "availableExtensions": "mevcut uzantılar",
+    "availableAttributes": "mevcut öznitelikler"
+  },
+  "searchInput": {
+    "placeholder": "Aramak için yaz",
+    "clear": "Temizle",
+    "search": "Ara"
+  },
+  "infos": {
+    "pastePositionSucceeded": "Konum yapıştırma başarılı",
+    "rootAlreadyLoaded": "Bazı nesneler zaten yüklü",
+    "findInCtxNoResult": "Herhangi bir seçili nesne oluşumu bulunamadı",
+    "refreshOK": "Yenileme tamamlandı"
+  },
+  "errors": {
+    "cannotFetchAttributesTitle": "Nesne alınamıyor",
+    "cannotFetchAttributes": "Doğru kimlik bilgilerini kullandığınızdan emin olun veya destek için yöneticinizle iletişime geçin.",
+    "objetNotFoundOnIndex": "Nesne henüz dizine alınmamış olabilir; görüntüleme izniniz olmayabilir veya silinmiş olabilir.",
+    "objetRefreshWidget": "Bu durumun dizine alma ile ilgili olup olmadığını kontrol etmek için birkaç dakika içinde widget'ı yenileyin.",
+    "objectNotFoundInDB": "Yeni nesneler dizine alınmamış, nesne silinmiş olabilir veya artık gerekli erişime sahip olmayabilirsiniz",
+    "wrongInputParameter": "[{functionCalled}] işlevi için yanlış girdi parametresi [{param}];",
+    "tooManyResults": "Çok fazla sonuç alındı",
+    "requesttimeoutTitle": "Sunucu bağlantısı zaman aşımına uğradı.",
+    "requesttimeout": "Bağlantınızı doğrulayın",
+    "cannotExpandObject": "{rootLabel} belirtilen genişletme seviyesine ({expandLevel}) genişletemiyor.",
+    "genericWSFailure": "Yeni nesneler dizine alınmamış, nesne silinmiş olabilir veya artık gerekli erişime sahip olmayabilirsiniz",
+    "lastIndexed": "Dizine son alınan: {lastIndexed}",
+    "cannotInsertBranch": "Nesne yolları eklenemedi",
+    "cannotInsertBranchFiltered": "Nesne eklenemedi, filtre izin vermiyor"
+  },
+  "warnings": {
+    "unsupported_type_v2": "{type} tipi, bu uygulama içinde desteklenmiyor",
+    "disablingIndexFromServer": "Son içerik oluşturma işlemi nedeniyle dizin hızlandırma devre dışı bırakılıyor",
+    "unknownMeta": {
+      "title": "{envId} platformunda bilinmeyen öznitelik {metaName}",
+      "subtitle": "Mevcut sütunlardan kaldırılmış"
+    },
+    "unknownMeta2": {
+      "title": "{envId} platformunda bilinmeyen öznitelik {metaName}",
+      "subtitle": "Mevcut sütunlardan kaldırılmış"
+    },
+    "unindexedRootExpand": {
+      "singleRootTitle": "Henüz dizine alınmadığı için {product} genişletilemiyor.",
+      "multiRootTitle": "Henüz dizine alınmadığı için seçim genişletilemiyor",
+      "subtitle": "Dizinin güncellenmesini bekleyin."
+    },
+    "parseTimeout": "Yapı genişletme zaman aşımına uğradı. Daraltılmış düğümleri manuel olarak genişletin.",
+    "tooManyResultFound": "Arama {maxResult} sonuçla sınırlı. Lütfen sorguyu daraltın.",
+    "removeNodeDuringRefresh": "Bazı düğümler, arka uç hizmetinde artık bulunmadıkları için yenileme sırasında kaldırıldı."
+  },
+  "productConfChooser": {
+    "apptitle": "Ürün Konfigürasyonu Seçici",
+    "ok": "Tamam",
+    "close": "Kapat"
+  },
+  "welcomePanel": {
+    "appLoading": "Uygulama yükleniyor",
+    "newActivity": "Yeni bir Faaliyet başlat",
+    "searchContent": "İçeriği Aç",
+    "content": "İşinize erişin",
+    "availablecontent": "İçerik",
+    "availableproducts": "Ürünleri Aç",
+    "availablefilters": "Filtreleri Aç",
+    "previousContent": "Son Kullanılanlar",
+    "addObjectInCtx": "Bağlamda nesneleri ekle",
+    "addObject": "Nesne ekle",
+    "filter": "İçerik Ekle ve Filtrele",
+    "loading": "Yükleniyor...",
+    "notLoaded": "Bilgiler yüklenmedi.",
+    "remove": "Kaldır",
+    "loadpreviouscontentauto": "Önceki içeriği otomatik olarak yükle",
+    "opened": "Zaten açılmış nesneler",
+    "noPreviousContent": "Önceki oturumda hiçbir nesne yüklenmedi",
+    "searchForResults": "Aranıyor...",
+    "applyWithFilter": "İçeriği açın ve Filtreleyin",
+    "notFoundOnIndex": "Nesne henüz dizine alınmamış",
+    "filterNotIndexYet": "Filtre henüz dizine alınmamış",
+    "newProduct": "Yeni Ürün Oluştur",
+    "newCtx": "Oluştur",
+    "readOnlyDashboard": "Siz pano okuyucususunuz. Son kullanılanları yalnızca sahibi değiştirebilir."
+  },
+  "contentChooser": {
+    "back2app": "Kapat",
+    "open": "Aç",
+    "branches": " dallar",
+    "onrootprod": " kök üzerinde ",
+    "openwithfilter": "Filtreyle Aç",
+    "remove": "Kaldır",
+    "manageSelection": "Seçimi Yönet",
+    "selectAll": "Tümünü Seç",
+    "selectNone": "Tüm Seçimleri Kaldır",
+    "bigTiles": "Büyük kutucuk görünümü",
+    "smallTiles": "Kutucuk görünümü",
+    "smallThb": "Küçük resim görünümü",
+    "dropcontenthere": "İçeriği buraya bırakın",
+    "checkOnRecent": "Yükleniyor... Son Kullanılanda Ara",
+    "removeFromView": "Kaldır",
+    "removeFromViewTile": "Oturumdan Kaldır",
+    "params": "Seçenekler",
+    "expand-left": "Daralt",
+    "expand-right": "Genişlet"
+  },
+  "colorPicker": {
+    "title": "Özel renk ekle",
+    "addTitle": "Ekle",
+    "resetTitle": "Sıfırla",
+    "OKtitle": "Kaydet ve Uygula",
+    "Canceltitle": "İptal",
+    "Resettitle": "Sıfırla",
+    "preview": "Önizleme",
+    "backgroundColor": "Arka plan rengi",
+    "textColor": "Metin rengi",
+    "titleCustom": "Özel renk ekle"
+  },
+  "colorView": {
+    "content": "a",
+    "checkmark": "&#x2714;"
+  },
+  "documentsList": {
+    "referenceDocumentLabel": "Referans Belgeler",
+    "specificationDocumentLabel": "Teknik Özellik Belgeleri",
+    "noDocsFound": "Seçili nesne için Belge bulunamadı",
+    "noDocsFound-referenceDocs": "Ek bulunamadı",
+    "noDocsFound-specificationDocs": "Hiçbir Belge bulunamadı",
+    "noReferenceDocsFound": "Seçili nesne için Referans Belge bulunamadı",
+    "insertDocuments": "Eklenecek Belgeleri Seç",
+    "ctx": {
+      "openIn3DPlay": "3DPlay",
+      "checkInDocument": "Teslim Et",
+      "checkOutDocument": "Teslim Al",
+      "detachDocument": "Ayır",
+      "attachDocument": "İliştir",
+      "downloadDocument": "İndir",
+      "deleteDocument": "Sil"
+    },
+    "masks": {
+      "createDocumentMask": "Yeni Belgeler oluşturuluyor",
+      "attachDocumentMask": "Belge ekleniyor",
+      "checkinDocumentMask": "Belge Teslim Ediliyor",
+      "checkoutDocumentMask": "Belge Teslim Alınıyor",
+      "downloadDocumentMask": "Belge İndiriliyor",
+      "detachDocumentMask": "Belge çıkarılıyor",
+      "deleteDocumentMask": "Belge Siliniyor",
+      "searchDocuments": "Ekli Belgeleri Ara",
+      "cancelExport": "Dışa Aktarma/Yazdırma İptal Ediliyor"
+    },
+    "notifs": {
+      "cannotCheckInDocument": "Belge Teslim edilemiyor",
+      "cannotDownloadDoc": "Belge indirilemiyor",
+      "cannotDeleteDoc": "Belge silinemiyor",
+      "cannotDetachDoc": "Belge çıkarılamıyor",
+      "unableCreateDocumentRep": "Belge Gösterime bağlanamıyor",
+      "somedroppedobjnotvalid": "Bazı nesneler Belge olarak eklenemiyor",
+      "nofileselected": "Dosya seçilmedi"
+    }
+  },
+  "modal": {
+    "cancel": "İptal"
+  },
+  "designenv": {
+    "tablabel": "Tasarım Ortamı",
+    "WIPLabel": "Çalışma Devam Ediyor",
+    "ContextLabel": "Bağlam",
+    "menuAddWipLabel": "Öğe Ekle",
+    "menuAddCtxLabel": "Bağlam Ekle",
+    "menuRemoveLabel": "Kaldır",
+    "menuInitLabel": "Görünümü Yeniden Başlat",
+    "warningExisting": "{label}, mevcut Tasarım Ortamına zaten ekli"
+  },
+  "rootLst": {
+    "rootLstLabel": "Kök Listesi",
+    "removeRoot": "Kapat",
+    "noRoot": "İçerik yok"
+  },
+  "dropTarget": {
+    "openTitle": "Aç",
+    "openInCtxTitle": "Bağlam içinde aç",
+    "openAndFilterTitle": "Aç ve Filtrele"
+  },
+  "dropdiv": {
+    "dropcontenthere": "İçeriği buraya bırakın",
+    "openContent": "İçeriği Aç"
+  },
+  "columnsNLS": {
+    "r2v:fsEffectivityDate": "Geçerlilik tarihi",
+    "locationstate": "Konum Durumu"
+  },
+  "welcomescreen": {
+    "dropHere": "Buraya bırakın"
+  },
+  "recent": {
+    "title": "Son kullanılan",
+    "loading": "Son Kullanılan Alınıyor...",
+    "emptyMessage": "Son Kullanılan bulunamadı",
+    "today": "Bugün",
+    "NoRecentAct": "Son faaliyet bulunamadı.",
+    "openNew": "İçeriği Aç",
+    "open": "Aç",
+    "openShortHelp": "Seçili nesneleri aç",
+    "openWithFilter": "Filtreyle aç",
+    "openWithFilterShortHelp": "Seçili nesneyi filtreyle aç",
+    "remove": "Kaldır",
+    "removeShortHelp": "Seçili nesneyi son kullanılanlardan kaldır",
+    "close": "Kapat",
+    "closeShortHelp": "Ana Sayfayı kapat",
+    "timeline": "Geçmiş",
+    "largetiles": "Büyük kutucuklar",
+    "tiles": "Kutucuklar",
+    "thumbnailtiles": "Küçük resim kutucukları",
+    "selection": "Seçim",
+    "selectionShortHelp": "Ana sayfa seçim eylemleri kullanılabilir",
+    "selectAll": "Tümünü Seç",
+    "selectNone": "Tüm Seçimleri Kaldır",
+    "branches": " dallar",
+    "on": " açık "
+  },
+  "soiTimelineV2": {
+    "locationState": "Konum Durumu: ",
+    "effectivityDate": "Geçerlilik Tarihi: ",
+    "owner": "Sahip: ",
+    "locationSurvey": "Konum Etüdü: ",
+    "creationDate": "Oluşturma Tarihi: "
+  },
+  "soiTimelineV1": {
+    "options": "Seçenekler",
+    "view": "Görüntüle",
+    "splattingFactor": "Nokta Boyutu",
+    "show360": "360° Fotoğraf Görüntüle"
+  },
+  "pointVisualizationPanel": {
+    "title": "Nokta Görselleştirme",
+    "pointShape": "Nokta Şekli:",
+    "shape": {
+      "circle": "Daire",
+      "square": "Kare"
+    },
+    "pointSize": "Nokta Boyutu:",
+    "fillHoles": "Dolgu Delikleri:",
+    "edl": "Eye Dome Lighting:",
+    "edlStrength": "Güç:",
+    "edlRadius": "Yarıçap:"
+  },
+  "parser": {
+    "loadingText": "Yükleniyor..."
+  },
+  "mePreferenceMigrationPanel": {
+    "title": "Tercihler",
+    "docLabel": "Artık bu uygulamanın tercihlerine üst çubuktaki Ben > Tercihler bölümünden veya eylem çubuğundaki Tercihler komutundan erişebilirsiniz.",
+    "docLink": "Yardım.",
+    "prefPanelLabel": "Tercihleriniz sıfırlandı.",
+    "prefPanelLink": "Bunları değiştirmek için buraya tıklayın.",
+    "doNotShowAgain": "Bu iletişim kutusunu tekrar gösterme",
+    "close": "Kapat"
+  },
+  "multiSourcePanel": {
+    "title": "Nesneler açılamıyor",
+    "message": "Uygulama, bırakılan nesneden/nesnelerden birinden farklı bir kaynaktan zaten nesne içeriyor.\nLütfen uygulamayı ve Ana Sayfa'yı boşaltın."
+  }
+}

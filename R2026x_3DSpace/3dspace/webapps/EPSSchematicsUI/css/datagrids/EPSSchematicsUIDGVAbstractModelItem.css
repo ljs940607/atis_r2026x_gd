@@ -1,0 +1,20 @@
+.sch-datagridview-abstract-model-item {
+  box-sizing: border-box;
+  border: 1px solid #d1d4d4;
+  border-top: 4px solid #368ec4;
+  border-radius: 4px 4px 0px 0px;
+}
+.sch-datagridview-abstract-model-item .sch-dgv-node-root:not([is-preselected]) {
+  background-color: #f4f5f6;
+}
+.sch-datagridview-abstract-model-item .sch-dgv-node-root .wux-tweakers-string-label {
+  font-weight: bold;
+}
+.sch-datagridview-abstract-model-item .sch-dgv-node-empty,
+.sch-datagridview-abstract-model-item .wux-layouts-datagridview .wux-layouts-datagridview-cell:not([is-editable]):not(.sch-dgv-node-root):not(.wux-layouts-datagridview-column-header-cell) {
+  color: #77797c;
+}
+.sch-datagridview-abstract-model-item .sch-dgv-node-empty:not([is-preselected]),
+.sch-datagridview-abstract-model-item .wux-layouts-datagridview .wux-layouts-datagridview-cell:not([is-editable]):not(.sch-dgv-node-root):not(.wux-layouts-datagridview-column-header-cell):not([is-preselected]) {
+  background-color: #f4f5f6;
+}

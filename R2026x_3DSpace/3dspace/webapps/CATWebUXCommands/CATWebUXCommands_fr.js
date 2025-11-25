@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_fr",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Capture d'écran copiée dans le presse-papiers"});

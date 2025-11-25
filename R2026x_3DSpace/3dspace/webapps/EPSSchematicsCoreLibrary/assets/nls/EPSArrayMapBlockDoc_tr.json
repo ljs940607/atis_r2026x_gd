@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "İlgili dizideki her bir elemanda verilen bir grafiğin çağrılmasıyla elde edilen sonuçlarla doldurulan yeni bir dizi oluşturur.",
+  "description": "Bu blok, herhangi bir <doc-idp-name translate=no>Input</doc-idp-name> dizi tipini herhangi bir çıktı dizi tipiyle eşleyebilir. <br>Eşleme işlemini sağlamak için dahili grafiğin düzenlenmesi gerekir.",
+  "dataPorts": {
+    "Input": "Eşlenecek girdi dizisi. <br>Bu veri bağlantı noktası, tüm dizi tiplerini işler.",
+    "SharedData": "Her bir dahili grafik örneği arasında paylaşılacak veriler. <br>Bu veri bağlantı noktası, tüm tipleri işler. <br>Farklı tiplerde birden çok verinin paylaşılması gerekiyorsa bir kullanıcı tipinin oluşturulması önerilir.",
+    "Success": "Başarılı çıktı dizisi. <br>Bu veri bağlantı noktası, tüm dizi tiplerini işler. <br>Bu dizinin boyutu, her zaman <doc-idp-name translate=no>Input</doc-idp-name> dizi boyutuna eşit olur.",
+    "State": "<doc-valuetype translate=no>Success</doc-valuetype> çıktı dizisinin her bir indeksinde <doc-odp-name translate=no>EExecutionState</doc-odp-name> veren bir <doc-odp-name translate=no>ArrayMapState</doc-odp-name> dizisi. <br>Bu dizinin boyutu, her zaman <doc-idp-name translate=no>Input</doc-idp-name> dizi boyutuna eşit olur.",
+    "Progress": "<doc-valuetype translate=no>Input</doc-valuetype> girdi dizisinin her bir indeksinde <doc-odp-name translate=no>EExecutionState</doc-odp-name> veren bir <doc-odp-name translate=no>ArrayMapProgress</doc-odp-name> dizisi. <br>Bu dizi, bloğun arkasındaki dağıtım işlemine bağlı olarak bir ilerleme sırasında birden çok veriyle doldurulabilir. <br>Ancak bu dizinin boyutu, <doc-idp-name translate=no>Input</doc-idp-name> dizi boyutunu aşmaz.",
+    "Error": "<doc-valuetype translate=no>Input</doc-valuetype> girdi dizisinin indeksi için bir hata nesnesi veren bir <doc-odp-name translate=no>ArrayMapError</doc-odp-name> dizisi. <br>Bu dizinin boyutu, <doc-idp-name translate=no>Input</doc-idp-name> dizisinin boyutunu aşmaz."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Success": "işlem başarıyla tamamlandığında etkinleştirilir.",
+    "Progress": "her ilerleme gerçekleştiğinde etkinleştirilir.",
+    "Error": "bir hata oluştuğunda etkinleştirilir."
+  },
+  "example": null
+}

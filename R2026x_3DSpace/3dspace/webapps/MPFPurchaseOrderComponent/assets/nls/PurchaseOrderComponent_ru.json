@@ -1,0 +1,18 @@
+{
+  "purchaseOrderNumber": "Номер заказа для ссылки в счете",
+  "purchaseOrderLabel": "Метка для отображения в счете",
+  "purchaseOrderFile": "Файл",
+  "purchaseOrderNoticeMessage": "Вы подтвердили предложение и выбрали метод отложенного платежа. Загрузите заказ на покупку, чтобы начать его производство.",
+  "learnMoreAboutDifferedPayment": "Узнать больше о процессе отложенного платежа",
+  "uploadPurchaseOrder": "Загрузить заказ на покупку",
+  "cancleOrder": "Отменить подтверждение заказа",
+  "purchaseOrderUploadedMessage": "Заказ на покупку загружен. Можно начать производство.",
+  "learnMoreAboutPurchaseOrder": "Узнать больше о процессе отложенного платежа",
+  "downloadPurchaseOrder": "Скачать заказ на покупку",
+  "save": "Сохранить",
+  "purchaseOrder": "Заказ на покупку",
+  "purchaseOrderDocument": "Документ заказа на покупку",
+  "anErrorOccured": "Возникла ошибка. Повторите попытку",
+  "uploadWarning": "Предупреждение. После загрузки документ не может быть изменен",
+  "financialExpenseLine": "Строка финансовых расходов"
+}

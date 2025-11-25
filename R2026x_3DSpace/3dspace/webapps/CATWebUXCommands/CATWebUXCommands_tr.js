@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_tr",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Ekran görüntüsü panoya kopyalandı"});

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="Resource" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name" dicoType="PLMEntity" entity="reference" />
+    <Columns>
+        <Column dataIndex="type" entity="reference" />
+        <Column dataIndex="PLM_ExternalID" dicoType="PLMInstance" entity="instance" display="false"/>
+        <Column dataIndex="revision" entity="reference"/>
+        <Column dataIndex="current" entity="reference"/>
+        <Column dataIndex="reserved" entity="reference" />
+        <Column dataIndex="reserved" entity="instance"/>
+        <Column dataIndex="owner" entity="reference"/>
+        <Column dataIndex="organization" entity="reference"/>
+        <Column dataIndex="V_MTBF" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_RepairCost" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_CycleTime" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="Resources_Routings" displayType="Relation" display="false"/>
+        <Column dataIndex="originated" entity="reference"/>
+        <Column dataIndex="modified" entity="reference"/>
+        <Column dataIndex="V_DELRmi_MountingMethod" dicoType="Robot" entity="reference" display="false"/>
+        <Column dataIndex="V_DELRmi_NbDOFs" dicoType="Robot" entity="reference" display="false"/>
+        <Column dataIndex="V_MTTR" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_ConsumableCost" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_CalculatedCycleTime" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_TargetedCycleTime" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_SetUpTime" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_TargetCost" dicoType="Resource" entity="reference" display="false"/>
+        <Column dataIndex="V_PartNumber" entity="reference"  dicoType="EnterpriseExtension"/>
+    </Columns>
+</Config>

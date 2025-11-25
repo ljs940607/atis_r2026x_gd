@@ -1,0 +1,10 @@
+m|WAfrUI\WAfrLayouts.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25025|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrLayouts\WAfrLayouts.js|1737774251|422
+s|WAfrUI\WAfrLayouts.mweb\src\WAfrLayout.js|1732711696|4267
+u|WAfrUI\WAfrLayouts.mweb\src\WAfrLayouts.js|1729759051|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

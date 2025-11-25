@@ -1,0 +1,51 @@
+.del-web3d-form-container-v2{
+    height: 220px;
+    width: 350px;
+}
+
+.del-web3d-form-container-v3{
+    height: 250px;
+    width: 350px;
+}
+
+.del-form-autocomplete-disable-cell{
+    opacity: 0.5 !important;
+}
+
+.del-accordeon-content{
+    display:flex;
+    width: 100%;
+}
+
+.del-accordeon-content .wux-controls-button{
+    min-width: 35px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-radius: 4px !important;
+}
+
+.del-autocomplete-container-with-filter{
+    width: 90%;
+    padding-right: 10px;
+}
+
+
+.del-autocomplete-container-without-filter{
+    width: 100%;
+}
+
+
+.del-filter-button-active { 
+    border: 1px solid !important;
+    background-color: rgb(213, 232, 242) !important;
+    border-color: rgb(54, 142, 196) !important;
+    border-radius: 4px !important;
+    border-style: solid !important;
+}
+
+.del-filter-button-inactive { 
+    border: none !important;
+    background-color: white !important;
+    border-color: none !important;
+    border-radius: 0px !important;
+}

@@ -1,0 +1,10 @@
+m|DELPPWItemModules\DELPPWMfgSubstitutesViewModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWMfgSubstitutesViewModule\DELPPWMfgSubstitutesViewModule.js|1757132697|4857
+s|DELPPWItemModules\DELPPWMfgSubstitutesViewModule.mweb\src\MfgSubstitutesViewModule.js|1716997048|14315
+u|DELPPWItemModules\DELPPWMfgSubstitutesViewModule.mweb\src\MfgSubstitutesViewUI.js|1715133989|6275
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

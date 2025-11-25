@@ -1,0 +1,10 @@
+m|FolderNGUX\BksSelectorWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25081|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\BksSelectorWebInWin\BksSelectorWebInWin.js|1742620220|4712
+s|FolderNGUX\BksSelectorWebInWin.mweb\src\BksSelectorWebInWin.js|1739985724|4837
+u|FolderNGUX\BksSelectorWebInWin.mweb\src\FolderSelectorWebInWin.js|1739262240|5918
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

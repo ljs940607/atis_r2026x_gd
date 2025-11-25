@@ -1,0 +1,11 @@
+m|DELWKOApp\DELPPWProductFlowSequenceModule_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWProductFlowSequenceModule_FD02\DELPPWProductFlowSequenceModule_FD02.js|1723277653|25636
+s|DELWKOApp\DELPPWProductFlowSequenceModule_FD02.mweb\src\GraphPanel.js|1679514643|5297
+u|DELWKOApp\DELPPWProductFlowSequenceModule_FD02.mweb\src\ProductFlowComponent.js|1679514646|42780
+u|DELWKOApp\DELPPWProductFlowSequenceModule_FD02.mweb\src\ProductFlowSequenceModule.js|1679514652|47571
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

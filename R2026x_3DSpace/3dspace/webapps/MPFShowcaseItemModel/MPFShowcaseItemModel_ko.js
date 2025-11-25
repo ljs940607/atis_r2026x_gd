@@ -1,0 +1,1 @@
+define("DS/MPFShowcaseItemModel/MPFShowcaseItemModel_ko",{});define("DS/MPFShowcaseItemModel/assets/nls/ShowcaseItemModel",{isRequired:"{0}이(가) 필요합니다.",isInvalid:"{0}이(가) 올바르지 않습니다.",title:"제목",description:"설명",image:"이미지"});

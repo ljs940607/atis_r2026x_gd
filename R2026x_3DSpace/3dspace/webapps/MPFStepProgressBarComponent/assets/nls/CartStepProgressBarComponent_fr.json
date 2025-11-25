@@ -1,0 +1,21 @@
+{
+  "submitted": "Envoyée",
+  "waiting_payment": "Devis",
+  "paid": "Confirmée",
+  "processing": "Traitement en cours",
+  "ready": "Prête",
+  "shipped": "Expédiée",
+  "delivered": "Livrée",
+  "submittedInfo": "Votre demande est en attente d'une réponse et d'un devis du fournisseur de services. Vous pouvez quand même modifier les spécifications ou envoyer des messages.",
+  "waitingPaymentInfo": "Votre demande a été étudiée et acceptée par le fournisseur de services. Vous pouvez la confirmer en effectuant le paiement ou envoyer des messages et ajuster les spécifications au besoin.",
+  "paidInfo": "Votre commande est confirmée et va être traitée par le fournisseur de services. A ce stade, il n'est plus possible de modifier les spécifications.",
+  "processingInfo": "Le fournisseur de services a commencé le traitement de votre commande.",
+  "shippedInfo": "Le fournisseur de services a expédié votre commande. Veuillez confirmer la livraison à réception de la commande.",
+  "readyInfo": "Votre commande est prête à être retirée. Veuillez confirmer sa réception dès récupération.",
+  "deliveredInfo": "La transaction est maintenant fermée.",
+  "submittedInfo_seller": " Votre client attend une réponse et un devis pour cette demande. Vous pouvez également ajuster les spécifications (matériaux, dates, finition, etc.) et répondre par un message.",
+  "waitingPaymentInfo_seller": "Vous avez proposé un devis en réponse à cette demande. Il doit maintenant être confirmé puis réglé par votre client.",
+  "paidInfo_seller": "La commande a été confirmée par votre client. Vous pouvez maintenant la traiter. A ce stade, il n'est plus possible de modifier les spécifications.",
+  "processingInfo_seller": "Votre client a été averti que vous avez commencé à traiter sa commande.",
+  "shippedInfo_seller": "Vous avez expédié la commande de votre client. Il confirmera la livraison à réception."
+}

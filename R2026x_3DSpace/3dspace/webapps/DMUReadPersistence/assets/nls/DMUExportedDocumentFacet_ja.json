@@ -1,0 +1,16 @@
+{
+  "title": "タイトル",
+  "fileType": "ファイル タイプ",
+  "creationDate": "作成日",
+  "revision": "リビジョン",
+  "owner": "所有者",
+  "menu": "メニュー",
+  "download": "ダウンロード",
+  "downloadTitle": "ダウンロード",
+  "downloadTooltip": "選択したファイル/ドキュメントをダウンロード",
+  "openWith": "オプションを指定して開く",
+  "openWithTitle": "オプションを指定して開く",
+  "openWithTooltip": "互換性のある外部アプリケーションでファイル/ドキュメントを開く",
+  "noDataGridDisplayed": "表示するエクスポートされたドキュメントはありません",
+  "errorWhenFetchingExportedDocuments": "エクスポートされたドキュメントの取得中にエラーが発生しました"
+}

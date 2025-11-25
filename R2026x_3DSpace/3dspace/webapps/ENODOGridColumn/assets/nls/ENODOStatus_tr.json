@@ -1,0 +1,13 @@
+{
+  "hasDO": "Türetilmiş Çıktı Durumu",
+  "status_SYNC": "Güncel",
+  "status_NOTSYNC": "Tarihi geçmiş",
+  "status_JOBSUBMITTED": "Senkronizasyon İşi gönderildi",
+  "status_JOBRUNNING": "Senkronizasyon İşi çalışıyor",
+  "status_JOBFAILED": "Senkronizasyon İşi başarısız oldu",
+  "status_INTERMEDIATE": "Durumu hesaplamak için tıklayın",
+  "status_LOADING": "Hesaplama düğümü durumu",
+  "status_ERROR": "Veriler henüz dizine alınmadığı için bir hata oluştu",
+  "select_format": "Formatı Seç",
+  "nls_nonleaf": "{leafnumber} Türetilmiş Çıktı arasından {syncDo} Türetilmiş Çıktı senkronize edildi"
+}

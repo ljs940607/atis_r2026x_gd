@@ -1,0 +1,1 @@
+define("DS/WidgetServices/WidgetServices_ko",{});define("DS/WidgetServices/assets/nls/SecurityContextNls",{ErrorSecurityContextEmpty:"사용자의 자격증명을 찾을 수 없습니다. 다시 로그인을 시도하거나 지원 부서에 문의하십시오.",ErrorSecurityContext:"사용자의 자격증명을 찾을 수 없습니다. 예상치 않은 오류가 발생했습니다. 다시 로그인을 시도하거나 지원 부서에 문의하십시오.",ErrorTimeOut:"사용자의 자격증명을 찾을 수 없습니다. 연결 시간 초과가 발생합니다. 다시 로그인을 시도하거나 지원 부서에 문의하십시오."});

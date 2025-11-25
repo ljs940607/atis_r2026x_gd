@@ -1,0 +1,15 @@
+m|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25106|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\VCXWebModifiablesImpl\VCXWebModifiablesImpl.js|1744834523|20160
+s|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableCamera.js|1655200260|8828
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableCommandManager.js|1495185231|4352
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableDocManager.js|1662369777|4153
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableOccurrence.js|1743721258|31332
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableScenario.js|1738195265|16113
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableViewOccurrence.js|1674555568|6349
+u|VCXWebExperienceBase\VCXWebModifiablesImpl.mweb\src\VCXModifiableViewScenario.js|1727524248|3534
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

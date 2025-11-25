@@ -1,0 +1,1 @@
+define("DS/MPFCurrencySelectComponent/MPFCurrencySelectComponent_ko",{});define("DS/MPFCurrencySelectComponent/assets/nls/MPFCurrencySelectComponent",{selectCurrency:"통화 선택",currency:"통화",currencyRequired:"통화는 필수입니다."});

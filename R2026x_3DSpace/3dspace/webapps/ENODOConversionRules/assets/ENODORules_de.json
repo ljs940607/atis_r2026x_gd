@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Abgeleitete Ausgaberegel – Details",
+    "doattributes": "Abgeleitete Ausgaberegel – Attribute",
+    "name": "Name",
+    "connector": "Konnektor",
+    "implicitRule": "Implizite Regel",
+    "external": "Externe Generierung",
+    "parameters": "Konvertierungsparameter",
+    "converter": "Konverter",
+    "origin": "Ursprung",
+    "forceUpdate": "Aktualisierung erzwingen",
+    "uptodateDO": "Aktuell",
+    "jobStatus": "Status des Jobs",
+    "format": "Format",
+    "alias": "Einheitliches Format",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "buttons": {
+    "cancel": "Abbrechen"
+  },
+  "popup": {
+    "option": "Option",
+    "value": "Wert",
+    "yesButton": "Ja",
+    "noButton": "Nein",
+    "cancelButton": "Abbrechen"
+  },
+  "error": {
+    "title": "Fehler",
+    "invalidFrame": "Der Vorgang kann nicht ausgeführt werden. Aktualisieren Sie das Widget und versuchen Sie es erneut.",
+    "invalidParameter": "Die Parameter wurden nicht ordnungsgemäß definiert."
+  }
+}

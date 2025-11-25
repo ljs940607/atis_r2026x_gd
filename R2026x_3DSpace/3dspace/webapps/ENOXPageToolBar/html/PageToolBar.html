@@ -1,0 +1,31 @@
+<div class="page-toolbar-element">
+    {{#if withWelcomePanelMenuMobile}}
+    <div class="mobile-menu panel-icon-wrapper">
+        <span class="fonticon fonticon-2x fonticon-menu"></span>
+    </div>
+    {{/if}}
+    {{#if withWelcomePanelButton}}
+    <div class="welcome-panel panel-icon-wrapper">
+        {{#if isWelcomePanelCollapsed}}
+        <span title="{{expand_nls_name}}" class="fonticon fonticon-2x fonticon-expand-right"></span>
+        {{else}}
+        <span title="{{collapse_nls_name}}" class="fonticon fonticon-2x fonticon-expand-left"></span>
+        {{/if}}
+    </div>
+    {{/if}}
+    <div class="body-content">
+
+    </div>
+    {{#if enableNavigation}}
+    <div class="navigate">
+      <span id="navigateBackward" class="fonticon fonticon-2x fonticon-chevron-left disabled"></span>
+      <span id="navigateForward" class="fonticon fonticon-2x fonticon-chevron-right disabled"></span>
+    </div>
+
+    {{/if}}
+    {{#if withInformationButton}}
+    <div title="{{information_nls_name}}" class="information-panel panel-icon-wrapper">
+        <span class="fonticon fonticon-2x fonticon-info{{#if _informationOpen}} selected{{/if}}"></span>
+    </div>
+    {{/if}}
+</div>

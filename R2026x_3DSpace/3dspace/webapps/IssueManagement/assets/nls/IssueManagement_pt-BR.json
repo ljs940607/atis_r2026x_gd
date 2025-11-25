@@ -1,0 +1,489 @@
+{
+  "titles": {
+    "issues": "{number} problemas",
+    "placeholder": {
+      "title": "Não há problemas a serem mostrados.",
+      "label": "Nenhum problema correspondente aos filtros foi encontrado.",
+      "sub": "Tente modificar os critérios dos filtros {filter} ou criar um novo problema {create}.",
+      "sub2": "Tente modificar os critérios de filtro {filter}"
+    },
+    "refreshing": "Atualizando problemas...",
+    "documentation": "Ajuda do Issue Management"
+  },
+  "error": {
+    "generic": {
+      "label": "Algo deu errado.",
+      "sub": "Ocorreu um problema com sua solicitação. Atualize a página e tente novamente."
+    },
+    "licensing": {
+      "label": "Erro de Licença.",
+      "sub": "O servidor não conseguiu obter a licença para o usuário {user}"
+    }
+  },
+  "information": {
+    "toggleTooltip": "Informações",
+    "layoutSwitcherTooltip": "Exibir opção",
+    "right": "Exibir à direita",
+    "bottom": "Exibir na parte inferior",
+    "views": {
+      "properties": "Propriedades",
+      "relatedObjects": "Conteúdo",
+      "contexts": "Contextos",
+      "team": "Membros",
+      "attachments": "Anexos",
+      "comments": "Comentários",
+      "relations": "Relations",
+      "history": "Histórico",
+      "documents": "Documentos",
+      "noSelection": "Selecione um problema para ver as informações."
+    },
+    "header": {
+      "summary": "Aberto {timeSince} atrás. Propriedade de {ownerIcon} {owner}.",
+      "multipleSelection": {
+        "title": "{number} problemas selecionados.",
+        "summary": "As alterações serão aplicadas a todos."
+      },
+      "showMenu": "Ações",
+      "goToNext": "Ir para o próximo problema.",
+      "close": "Fechar",
+      "goToPrevious": "Ir para o problema anterior.",
+      "Varies": "Varia",
+      "changeResponsibleOrg": "Organização Responsável",
+      "changeReportingOrg": "Organização Relatora",
+      "moveResponsibleOrg": "Mover Organização responsável",
+      "moveReportingOrg": "Mover Organização de relatório",
+      "moveOrgMsg": "Alteração de Organização responsável bem-sucedida",
+      "moveReportingOrgMsg": "Alteração da Organização de relatório bem-sucedida.",
+      "move": "Mover",
+      "cancel": "Cancelar"
+    }
+  },
+  "actions": {
+    "create": {
+      "title": "Novo problema",
+      "more": "Novo a partir de...",
+      "placeholder": "Título do novo problema...",
+      "open": "Abrir a caixa de diálogo de criação",
+      "clear": "Limpar",
+      "success": "Problema \"{title}\" criado com êxito.",
+      "failure": "Ocorreu um erro durante a criação. Tente novamente.",
+      "issue": {
+        "blank": "Novo problema",
+        "template": "Novo problema com base no template",
+        "recentTemplate": "Modelos recentes",
+        "similarIssues": "{count} problemas semelhantes encontrados."
+      }
+    },
+    "changeAction": "Adicionar uma nova ação de alteração como resolvida por",
+    "markup3D": "Adicionar uma nova anotação 3D como anexo",
+    "templates": "Gerenciar modelos",
+    "print": "Imprimir",
+    "export": "Exportar como",
+    "exportCSV": "CSV",
+    "exportPPTX": "PPTX",
+    "exportZIP": "ZIP",
+    "exportBCF": "BCF",
+    "customizeView": "Configurar vistas da tabela",
+    "select": {
+      "title": "Selecionar objetos",
+      "selectIssues": "Selecionar todos os problemas",
+      "selectChildren": "Selecionar todo o conteúdo visível do problema",
+      "unselectAll": "Desmarcar tudo"
+    },
+    "find": {
+      "title": "Localizar",
+      "placeholder": "Localizar...",
+      "clear": "Limpar",
+      "next": "Próximo {number1}/{number2}",
+      "previous": "{number1}/{number2} anterior",
+      "select": "Selecione {number} problemas encontrados"
+    },
+    "gridView": "Tabela",
+    "listView": "Exibição de Lista",
+    "kanbanView": "Kanban",
+    "more": "Mais ações",
+    "dummy": "Não disponível",
+    "subscription": {
+      "header": "Inscrição",
+      "subscribe": "Inscrever-se",
+      "unsubscribe": "Cancelar inscrição",
+      "editSubscription": "Editar inscrições",
+      "mySubscriptions": "Minhas inscrições"
+    }
+  },
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "Atrasado",
+      "none": "Sem data",
+      "today": "Hoje",
+      "tomorrow": "Amanhã",
+      "week": "Esta semana",
+      "future": "Futuro"
+    },
+    "all": "Tudo",
+    "dnd": {
+      "unsupportedPromote": "Não é possível promover problemas diretamente de '{currState}' para '{state}'.",
+      "unsupportedDemote": "Não é possível rebaixar problemas diretamente de '{currState}' para '{state}'.",
+      "cannotEditClosedIssues": "Alguns problemas já estão 'Concluídos' e não puderam ser atualizados.",
+      "placeholder": "Soltar aqui",
+      "notAllSameStatePromote": "Não é possível promover/rebaixar problemas que não estejam em estados iguais."
+    },
+    "warning": {
+      "closed": "O filtro para a exibição dos problemas 'Concluídos' não está selecionado.<br>Ative-o nas preferências de filtro."
+    },
+    "tooltips": {
+      "chizu": "Clique para mostrar a coluna:<br> {title}",
+      "leftArrow": "Ir para a coluna anterior",
+      "rightArrow": "Ir para a próxima coluna"
+    }
+  },
+  "filter": {
+    "title": "Filtrar por",
+    "session": {
+      "header": "Minha sessão",
+      "title": "Exibir {number} problemas",
+      "nothing": "Nada na sessão"
+    },
+    "owned": "De minha propriedade",
+    "assigned": "Atribuído a mim",
+    "filterbyobject": {
+      "title": "Filtrar por objeto",
+      "placeholder": "Procure um objeto para filtrar",
+      "filterMessage": "Nenhum resultado encontrado",
+      "search": "Pesquisar",
+      "menu": {
+        "title": "Menu",
+        "settings": {
+          "title": "Configurações",
+          "filterby": "Filtrar por",
+          "affectedItem": "Itens afetados",
+          "resolvedItem": "Item Resolvido",
+          "context": "Contexto",
+          "apply": "Aplicar",
+          "cancel": "Cancelar",
+          "issueCreation": "Criação de problema",
+          "createSetting": "Adicionar automaticamente o objeto selecionado durante a criação do problema"
+        },
+        "information": "Informações",
+        "openwith": "Abrir com"
+      },
+      "dropNotSupported": "Esta operação de soltar não é suportada."
+    },
+    "others": {
+      "title": "Outros",
+      "reported": "De propriedade das minhas organizações",
+      "responsible": "Atribuídos às minhas organizações",
+      "contributed": "Onde eu contribuo",
+      "closed": "Concluído"
+    }
+  },
+  "columns": {
+    "selection": "",
+    "actionsColumn": "Ações",
+    "titleColumn": "Título",
+    "nameColumn": "Nome",
+    "occurrenceColumn": "Caminho",
+    "stateColumn": "Estado de maturidade",
+    "allColumn": "Tudo",
+    "validationColumn": "Status de Validação",
+    "descriptionColumn": "Descrição",
+    "priorityColumn": "Prioridade",
+    "contextsColumn": "Contextos",
+    "reportedAgainstColumn": "Itens afetados",
+    "resolvedByColumn": "Resolvido por",
+    "resolvedItemsColumn": "Itens resolvidos",
+    "assigneesColumn": "Encarregado",
+    "originatorColumn": "Originador",
+    "ownerColumn": "Proprietário",
+    "coOwnersColumn": "Coordenador",
+    "contributorsColumn": "Colaborador",
+    "informedUsersColumn": "Usuário Informado",
+    "modifiedColumn": "Data de modificação",
+    "revisionColumn": "Revisão",
+    "isLastRevisionColumn": "É a revisão mais recente",
+    "typeColumn": "Tipo",
+    "organizationColumn": "Organização",
+    "collaborativeSpaceColumn": "Espaço Colaborativo",
+    "reportingOrganizationColumn": "Organização Relatora",
+    "responsibleOrganizationColumn": "Organização Responsável",
+    "resolutionDateColumn": "Data de conclusão prevista",
+    "actionTakenColumn": "Ação Executada",
+    "resolutionRecommendationColumn": "Recomendação de Resolução",
+    "resolutionStatementColumn": "Declaração de conclusão",
+    "estimatedStartDateColumn": "Data Planejada para Início",
+    "estimatedEndDateColumn": "Data de conclusão planejada",
+    "actualStartDateColumn": "Data de início real",
+    "actualEndDateColumn": "Data real de conclusão",
+    "createdColumn": "Data de Criação",
+    "attachmentsColumn": "Anexos",
+    "escalationRequiredColumn": "Requer Escalonamento",
+    "approvalColumn": "Aprovações",
+    "libraryColumn": "Biblioteca",
+    "libraryClassColumn": "Classes de biblioteca",
+    "completionTypeColumn": "Tipo de conclusão"
+  },
+  "list": {
+    "expandOrCollapse": "Expandir/Recolher",
+    "hasRelated": "Sim ({number})",
+    "hasRelatedItems": "Sim",
+    "noRelated": "Não"
+  },
+  "related": {
+    "dialogTitle": "Desanexar {number} objeto(s) de {issues} problemas",
+    "confirmDetach": "Tem certeza de que deseja desanexar os itens selecionados?",
+    "detach": "Desanexar",
+    "cancel": "Cancelar"
+  },
+  "commands": {
+    "properties": "Propriedades",
+    "relationalExplorer": "Relations",
+    "collaborativeLifecycle": "Maturidade",
+    "compare": "Compare",
+    "detach": "Remover",
+    "attachments": "Anexos",
+    "close": "Marcar como concluído",
+    "delete": "Excluir",
+    "duplicate": "Duplicar",
+    "expandAll": "Expandir o conteúdo",
+    "collapseAll": "Recolher conteúdo",
+    "more": "Mais",
+    "sizeColumnToFit": "Ajustar largura da coluna automaticamente",
+    "clearSortOrder": "Limpar preferência de classificação",
+    "share": "Copiar link",
+    "reopen": "Reabrir",
+    "move": "Mover",
+    "open": {
+      "single": "Abrir com",
+      "multiple": "Abrir",
+      "reportedAgainst": "Itens afetados",
+      "resolvedBy": "Resolvido por",
+      "resolvedItems": "Itens resolvidos",
+      "contexts": "Contextos"
+    },
+    "preview": "Visualizar",
+    "edit": "Editar",
+    "undoEdit": "Desfazer edição",
+    "update": "Atualizar",
+    "information": "Informações",
+    "download": "Fazer Download",
+    "approvalOn": "Aprovações (Ativado)",
+    "approvalOff": "Aprovações (Desativado)"
+  },
+  "tooltips": {
+    "reportedAgainst": "{number} item afetado",
+    "resolvedBy": "{number} resolvido por",
+    "resolvedItems": "{number} itens resolvidos",
+    "contexts": "{number} contextos",
+    "noReportedAgainst": "Nenhum \"item afetado\" anexado",
+    "noResolvedBy": "Nenhum 'resolvido por' anexado",
+    "noResolvedItems": "Nenhum \"item resolvido\" anexado",
+    "noContext": "Nenhum contexto anexado",
+    "isLastRevision": "Esta é a revisão mais recente",
+    "isNotLastRevision": "Esta não é a revisão mais recente",
+    "noIsLastRevision": "Não aplicável",
+    "selectedIssues": "{number} problemas selecionados",
+    "helper": "Clique para exibir a ajuda do “Issue Management”.",
+    "comments": "{number} comentários",
+    "attachments": "{number} anexos",
+    "creationDate": "Aberto em {date}.",
+    "resolutionDate": "Data de conclusão prevista: {date}",
+    "assignees": "{number} encarregados",
+    "noAssignee": "Nenhum encarregado"
+  },
+  "notifications": {
+    "refresh": "Os problemas foram atualizados.",
+    "attachSuccess": {
+      "reportedAgainst": "Você adicionou {count} objetos a {issue} como itens afetados.",
+      "resolvedBy": "Você adicionou {count} objetos a {issue} como Resolvido por.",
+      "resolvedItems": "Você adicionou {count} objetos a {issue} como itens resolvidos.",
+      "contexts": "Você adicionou {count} objetos a {issue} como contextos.",
+      "attachments": "Você adicionou {count} objetos a {issue} como anexos."
+    },
+    "detachSuccess": "Objetos desanexados com êxito.",
+    "serverError": "Ocorreu um erro. Atualize sua página e tente novamente.",
+    "serverWarning": "As operações do servidor estão em andamento para esses objetos. Tente novamente mais tarde."
+  },
+  "preferences": {
+    "securityContext": "Credenciais",
+    "tenant": "3DEXPERIENCE platform",
+    "name": {
+      "title": "Título do Widget",
+      "default": "Meus problemas"
+    },
+    "defaultFilterForAll": {
+      "title": "Se nenhum filtro estiver selecionado, os problemas exibidos deverão corresponder às suas credenciais atuais",
+      "organizationAndProject": "Organização e Espaço Colaborativo",
+      "organization": "Organização",
+      "project": "Espaço Colaborativo",
+      "policy": "Todos os problemas disponíveis"
+    },
+    "validation": "Adicione um processo de validação para novos problemas para aplicar a aprovação ou a rejeição da promoção de um problema depois que ele tiver sido analisado ou revisado.",
+    "highlights": {
+      "soon": "Número de dias restantes até a data de conclusão prevista antes de mostrar um aviso. A coluna de data de conclusão prevista deve estar visível."
+    },
+    "organizationFilter": "Exibir filtros da organização",
+    "tagger": "Preencher marcas"
+  },
+  "validation": {
+    "none": "N/A",
+    "loading": "Buscando informações sobre o status de validação...",
+    "approved": "A promoção do problema foi aprovada.",
+    "rejected": "A promoção do problema foi rejeitada.",
+    "inProgress": "Aguardando a validação.",
+    "notStarted": "O processo de validação está ativo."
+  },
+  "export": {
+    "exporting": "Exportando problemas, aguarde...",
+    "confirmation": {
+      "confirm": "Confirmar",
+      "cancel": "Cancelar"
+    },
+    "csv": {
+      "name": "IM_Export_"
+    },
+    "pptx": {
+      "title": "Confirmar exportação para PPTX",
+      "content": "Essa ação exportará {number} problemas e pode levar algum tempo. Deseja continuar?",
+      "name": "IM_Export_",
+      "exporting": "Exportando o PPTX...",
+      "done": "O PPTX foi exportado",
+      "failure": "Não é possível exportar os problemas como PPTX"
+    },
+    "zip": {
+      "title": "Confirmar exportação para ZIP",
+      "content": "Essa ação exportará {number} problemas e pode levar algum tempo. Deseja continuar?",
+      "name": "IM_Export_",
+      "primary": "primary-image.png",
+      "exporting": "Exportando o ZIP...",
+      "images": "Fazendo download das imagens principais...",
+      "documents": "Fazendo download dos documentos...",
+      "zipping": "Compactando os arquivos...",
+      "done": "O ZIP foi exportado"
+    },
+    "exportingAll": "Exportando todos os {number} problemas. Aguarde...",
+    "nothingToExport": "Não há problemas a serem exportados.",
+    "failure": "Falha na exportação. Tente novamente.",
+    "printTotalLabel": "Problemas"
+  },
+  "dnd": {
+    "partiallyNotSupported": "Alguns objetos não são suportados.",
+    "notSupported": "Este tipo de conteúdo não é aceito. Entre em contato com o administrador da plataforma para obter mais informações.",
+    "onlyIssues": "Somente problemas podem ser soltos.",
+    "dialogTitle": "Adicionar {number} objetos a {issue}",
+    "whereToDrop": "Onde você deseja adicionar esses objetos?",
+    "alreadyAttached": "Este objeto já está anexado ao problema.",
+    "attach": "Adicionar",
+    "cancel": "Cancelar",
+    "references": "Referências",
+    "instances": "Caminhos"
+  },
+  "tasks": {
+    "cancel": "Cancelar",
+    "cancelLabel": "O aplicativo Issue 3D Review deve estar aberto na guia para usar esse comando."
+  },
+  "facets": {
+    "attachments": {
+      "placeholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seus anexos."
+    },
+    "comments": {
+      "placeholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seus comentários."
+    },
+    "history": {
+      "placeholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seu histórico."
+    },
+    "relations": {
+      "placeholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver suas relações."
+    }
+  },
+  "tagger": {
+    "waiting": {
+      "title": "Aplicando 6WTags...",
+      "label": "Seus problemas serão filtrados com base em 6WTags anteriores."
+    },
+    "cancel": "Cancelar"
+  },
+  "summaryview": "",
+  "multiTenants": {
+    "differentTenant": "Plataforma alterada",
+    "mismatchTenant": "Você não tem a função de licença necessária para acessar problemas na plataforma {tenant}.",
+    "mismatchTenantSharedTemplate": "Incompatibilidade de plataforma. Este modelo compartilhado não foi adicionado à sua lista de modelos."
+  },
+  "approvals": {
+    "approvalEnabled": "Aprovação de problema habilitada",
+    "approvalDisabled": "Aprovação de problema desabilitada",
+    "approvalOn": "ATIVADO",
+    "approvalOff": "DESATIVADO"
+  },
+  "resolvedBy": {
+    "errorSameIssue": "O mesmo objeto de Problema não pode ser adicionado como Resolvido por."
+  },
+  "issueManagementAppHeader": "Issue Management",
+  "issueManagementAppIntro": "Use o Issue Management para criar e gerenciar problemas",
+  "welcomePanelQuickAccess": "Acesso rápido",
+  "welcomePanelIssueManagementHeader": "Começar uma nova atividade",
+  "welcomePanelIssueManagement": "Problemas",
+  "welcomePanelIssueTemplate": "Templates de problemas",
+  "createNewIssue": "Criar novo problema",
+  "createNewTemplate": "Criar novo template",
+  "whatsNew": "Novidades",
+  "footer": "Seção do rodapé",
+  "issueSummaryLoading": "Carregando problemas, aguarde",
+  "templateSummaryLoading": "Carregando seu template, aguarde",
+  "templateTitlePlaceholder": "Não há templates para mostrar.",
+  "templatePreferenceName": "Meus templates",
+  "resetSession": "Redefinir sessão",
+  "emptyDataGridPlaceHolder": "",
+  "completionType": "Tipo de conclusão",
+  "Open": "Abrir",
+  "Cancelled": "Cancelado",
+  "Resolved": "Resolvido",
+  "successPartial": "A operação foi parcialmente bem-sucedida",
+  "switchView": "Alternar vista",
+  "classificationFacetTitle": "Classificação",
+  "classificationFacet": "Esta visualização não suporta seleção múltipla. Por favor, selecione apenas um problema para exibir sua classificação.",
+  "propertiesTitle": "Propriedades",
+  "propertiesShortHelp": "Exibe os detalhes sobre o objeto. Você também pode editar os detalhes do problema na guia.",
+  "propertiesLongHelp": "Você poderá editar a baixa somente se for proprietário, responsável ou coordenador.",
+  "classificationTitle": "Classificação",
+  "classificationShortHelp": "Exibe todos os marcadores e classes pertencentes às classificações e permite classificar ou desclassificar um marcador.",
+  "classificationLongHelp": "Você também pode visualizar e editar os atributos de classificação das classes gerais. No entanto, não é possível modificar os atributos de classificação das classes de segurança.",
+  "relatedObjectsTitle": "Conteúdo",
+  "relatedObjectsShortHelp": "O conteúdo inclui todos os dados relevantes diretamente relacionados ao problema necessário para entender, analisar e resolver o problema de forma eficaz.",
+  "relatedObjectsLongHelp": "O conteúdo é categorizado como Itens afetados, Contexto, Itens resolvidos e Resolvido por.",
+  "attachmentsTitle": "Anexos",
+  "attachmentsShortHelp": "Anexos são arquivos complementares que fornecem informações adicionais e auxiliam na resolução de um problema.",
+  "attachmentsLongHelp": "Você deve ter a responsabilidade de Autor ou Líder no espaço colaborativo do problema para carregar conteúdo na aba Anexos.",
+  "teamTitle": "Membros",
+  "teamShortHelp": "Gerencie usuários ou grupos envolvidos ou afetados pelo problema em alguma capacidade. Esses membros têm uma função na identificação, avaliação, abordagem ou resolução do problema. ",
+  "teamLongHelp": "Você pode adicionar, remover ou alterar as responsabilidades dos membros existentes.",
+  "commentsTitle": "Comentários",
+  "commentsShortHelp": "A aba Comentários exibe os comentários adicionados a um objeto e permite que você colabore com outras pessoas adicionando e respondendo comentários.",
+  "commentsLongHelp": "Para colaborar com outras pessoas em um objeto, curta-o e adicione-o e respondendo aos comentários sobre ele.",
+  "relationsTitle": "Relations",
+  "relationsShortHelp": "A aba Relações exibe os objetos relacionados do objeto selecionado.",
+  "relationsLongHelp": "Você pode selecionar o conjunto de relações que deseja exibir, como relações de Estrutura do produto, relações do CATIA V5, todas as relações etc.",
+  "historyTitle": "Histórico",
+  "historyShortHelp": "A aba Histórico lista os eventos que ocorreram para um objeto selecionado ou ativo no aplicativo.",
+  "historyLongHelp": "",
+  "dismiss": "Ignorar",
+  "primaryImageColumnTitle": "Imagem Principal",
+  "totalIssues": " de {number} exibido(s)",
+  "loadedIssues": "{number}",
+  "selectedIssues": "Selecionado: {number}",
+  "totalIssuesWarning": "Alguns objetos podem não ter sido indexados.",
+  "loadRemaining": "Carregar questões restantes",
+  "loadAllConfirmation": "Isso pode levar algum tempo, e você não poderá usar o aplicativo até que o carregamento seja concluído ou você cancele o processo",
+  "dialogShowAgain": "Não mostrar novamente",
+  "loadIssues": "Carregar problemas",
+  "loadingIssues": "Carregando todos os problemas",
+  "resolveTheIssue": "Resolver o problema",
+  "taskAsResolvedBy": "Nova tarefa como Resolvido por",
+  "caAsResolvedBy": "Adicionar nova ação de alteração como Resolvido por",
+  "addExistingAsResolvedBy": "Adicionar existente",
+  "exportTitle": "Exportar como CSV",
+  "exportLabel": "Exportar",
+  "exportMessage": "{number} problemas serão exportados para um arquivo CSV. Isso pode levar algum tempo para ser concluído.<br>Deseja continuar?",
+  "cancel": "Cancelar",
+  "printTitle": "Imprimir",
+  "printMessage": "{number} problemas serão impressos. Isso pode levar algum tempo para ser concluído. Deseja continuar?"
+}

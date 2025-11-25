@@ -1,0 +1,13 @@
+.sch-tweakers-bigint {
+  box-sizing: border-box;
+}
+.sch-tweakers-bigint.sch-tweakers-bigint-readonly {
+  font-family: Arial;
+  padding-left: 7px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+  flex: 0 1 auto;
+  word-wrap: normal;
+  word-break: normal;
+}

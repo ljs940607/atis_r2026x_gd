@@ -1,0 +1,226 @@
+.wux-square {
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wux-square.wux-ui-style-icon {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.wux-square.wux-ui-style-icon:hover {
+  background-color: #e2e4e3;
+  border-color: #77797c;
+}
+.wux-square.wux-ui-style-icon:hover:active {
+  background-color: #d1d4d4;
+  border-color: #3d3d3d;
+}
+.wux-square.wux-texture-button {
+  overflow: hidden;
+}
+.wux-square.wux-texture-button > span {
+  flex: 1;
+  line-height: 24px;
+  text-align: start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 7px;
+}
+
+.wux-image {
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wux-layout-sideattach {
+  position: relative;
+}
+
+.wux-basecomponenthandler-content {
+  width: 100%;
+  height: 100%;
+}
+
+.wux-windows-window-content[movable] .wux-basecomponenthandler-content {
+  pointer-events: none;
+}
+
+.wux-widget[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.wux-layout-grid,
+.wux-layout-layer {
+  display: grid;
+  box-sizing: border-box;
+}
+
+.wux-layout-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.wux-layout-grid,
+.wux-layout-layer,
+.wux-layout-sideattach,
+.wux-spacer {
+  pointer-events: none;
+}
+.wux-layout-grid .wux-controls-abstract, .wux-layout-grid .wux-scroller,
+.wux-layout-layer .wux-controls-abstract,
+.wux-layout-layer .wux-scroller,
+.wux-layout-sideattach .wux-controls-abstract,
+.wux-layout-sideattach .wux-scroller,
+.wux-spacer .wux-controls-abstract,
+.wux-spacer .wux-scroller {
+  pointer-events: auto;
+}
+
+.wux-gp {
+  box-sizing: border-box;
+}
+.wux-gp[manipulable] {
+  pointer-events: auto;
+}
+.wux-gp:not([manipulable]) {
+  pointer-events: none;
+}
+
+.wux-basecomponenthandler-content > .wux-layout-grid, .wux-basecomponenthandler-content > .wux-layout-layer, .wux-basecomponenthandler-content > .wux-layout-sideattach, .wux-basecomponenthandler-content > .wux-layout-flow, .wux-basecomponenthandler-content > .wux-layout-control, .wux-basecomponenthandler-content > .wux-scroller,
+.wux-controls-tab-container > .wux-layout-grid,
+.wux-controls-tab-container > .wux-layout-layer,
+.wux-controls-tab-container > .wux-layout-sideattach,
+.wux-controls-tab-container > .wux-layout-flow,
+.wux-controls-tab-container > .wux-layout-control,
+.wux-controls-tab-container > .wux-scroller,
+.wux-popup-handler > .wux-layout-grid,
+.wux-popup-handler > .wux-layout-layer,
+.wux-popup-handler > .wux-layout-sideattach,
+.wux-popup-handler > .wux-layout-flow,
+.wux-popup-handler > .wux-layout-control,
+.wux-popup-handler > .wux-scroller {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.wux-list-handler-cell-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.wux-list-handler-cell-container > .wux-layout-grid, .wux-list-handler-cell-container > .wux-layout-layer, .wux-list-handler-cell-container > .wux-layout-sideattach, .wux-list-handler-cell-container > .wux-layout-flow, .wux-list-handler-cell-container > .wux-layout-control, .wux-list-handler-cell-container > .wux-scroller, .wux-list-handler-cell-container > .wux-controls-slider {
+  flex-grow: 1;
+}
+.wux-list-handler-cell-container .wux-layout-grid {
+  line-height: normal;
+}
+
+.wux-ninepatchsquare-handler-var {
+  --nps-top-border-size: 1;
+  --nps-right-border-size: 1;
+  --nps-bottom-border-size: 1;
+  --nps-left-border-size: 1;
+  --nps-border-image: "";
+}
+
+.wux-ninepatchsquare-handler {
+  border-image: var(--nps-border-image);
+  border-image-slice: var(--nps-top-border-size) var(--nps-right-border-size) var(--nps-bottom-border-size) var(--nps-left-border-size) fill;
+  border-image-width: calc(var(--nps-top-border-size) * 1px) calc(var(--nps-right-border-size) * 1px) calc(var(--nps-bottom-border-size) * 1px) calc(var(--nps-left-border-size) * 1px);
+}
+
+.wux-layout-control.wux-layout-gridsplitter {
+  pointer-events: auto;
+}
+.wux-layout-control.wux-layout-gridsplitter[orientation=horizontal] {
+  cursor: ns-resize;
+}
+.wux-layout-control.wux-layout-gridsplitter[orientation=vertical] {
+  cursor: ew-resize;
+}
+
+.egraph_views_HTMLNodeView_Node .wux-layouts-graph-customviews-expander {
+  cursor: pointer;
+}
+
+.egraph_views_HtmlLayer > .egraph_views_HTMLNodeView_Node.selected {
+  border-color: #78befa;
+  background: #d5e8f2;
+}
+
+.egraph_views_HtmlLayer > .egraph_views_HTMLNodeView_Node:hover {
+  background: #d1d4d4;
+}
+
+.egraph_views_HtmlLayer > .egraph_views_HTMLNodeView_Node.selected:hover {
+  border-color: #78befa;
+  background: #78befa;
+}
+
+.egraph_customViews_SVGEdgeView_type_0 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_2 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 0.5;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_3 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 2;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_4 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 0.5, 1, 2, 1;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_5 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-opacity: 50%;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_6 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 1, 1, 0.5, 1;
+  fill: none;
+}
+
+.egraph_customViews_SVGEdgeView_type_7 {
+  stroke: #b3b3b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 5;
+  fill: none;
+}
+
+.egraph_customViews_HTMLNodeView_Node_Label {
+  color: #3d3d3d;
+}
+
+.wux-controls-codemirror-a2x {
+  height: 100%;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+.wux-controls-codemirror-a2x .CodeMirror-hscrollbar {
+  left: 0px !important;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="FSX">
+	<Domain id="FasteningParameterization">
+		<Family id="FasteningStandard">
+			<Parameter id="FasteningCSDefinition" implementation="com.dassault_systemes.fsx.param.impl.FasteningStdXPHandler">
+			</Parameter>
+		</Family>
+  </Domain>
+  <Domain id="FasteningRivetParameterization">
+    <Family id="FasteningRivetSetting">
+      <Parameter id="FasteningRivetSingleComp" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl">
+        <Argument id="Argument" type="boolean" input="checkbox" default="Disabled" />
+        <Constant id="expression" value="FasteningRivetSingleCompValue" />
+      </Parameter>
+    </Family>
+	</Domain>
+</OOTBParameterization>

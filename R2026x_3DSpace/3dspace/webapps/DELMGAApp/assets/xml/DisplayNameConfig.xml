@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayNameAttributeList version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/DisplayNameConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+      <Type name="DELLmiHeaderWorkPlanReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiWorkPlanSystemReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiGeneralSystemReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiQtyControlProcessReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiTransformationSystemReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiTransferSystemReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="SourceSystem">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="SinkSystem">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="BufferSystem">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+
+
+     <Type name="DELLmiHeaderOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiGeneralOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiPunctualOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiCurveOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiLoadingOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiUnloadingOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiTransferOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DELLmiRemoveMaterialOperationReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+
+
+     <Type name="CreateAssembly">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Installation">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision" />
+     </Type>
+     <Type name="Transform">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision" />
+     </Type>
+     <Type name="CreateMaterial">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="CreateKit">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Provide">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ProcessContinuousCreateMaterial">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ProcessContinuousProvide">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ContinuousByProduct">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="DiscreteByProduct">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+
+
+     <Type name="ResourceArea">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Organizational">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Robot">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Worker">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Transport">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Conveyor">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="NCMachine">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="IndustrialMachine">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Inspect">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ControlDevice">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="LogicController">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ToolDevice">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Storage">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="Sensor">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="UserDefined">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+     <Type name="ResourceManufacturingSetup">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+
+     <Type name="VPMReference">
+          <Attribute name="V_Name" dicoType="PLMEntity" />
+          <Attribute name="revision"/>
+     </Type>
+
+
+    <Type name="DELWkiInstructionReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+      
+      <Type name="DELWkiDataCollectPlanReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+      
+
+      <Type name="DELWkiDataCollectChecklistReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+      
+      <Type name="DELWkiSignOffReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+       
+      <Type name="DELWkiAlertReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+      <Type name="DELWkiAlertNoteReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+      <Type name="DELWkiAlertCautionReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+      <Type name="DELWkiAlertWarningReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+      <Type name="DELResourceParameterPlanReference">
+            <Attribute name="V_Name" dicoType="PLMEntity"/>
+            <Attribute name="revision"/>
+      </Type>
+
+
+     <!--Instance Config-->
+
+     <Type name="VPMInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+      <Type name="DELFmiFunctionIdentifiedInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+      </Type>
+
+      <Type name="ProcessInstanceContinuous">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+      </Type>
+
+     <Type name="DELLmiWorkPlanSystemInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiGeneralSystemInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiQtyControlProcessInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiTransformationSystemInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiTransferSystemInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+     
+
+     <Type name="DELLmiHeaderOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiGeneralOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiPunctualOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiCurveOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiLoadingOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiUnloadingOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+     <Type name="DELLmiTransferOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+    
+     <Type name="DELLmiRemoveMaterialOperationInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+
+     <Type name="DELWkiInstructionInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+      <Type name="DELWkiDataCollectPlanInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+      <Type name="DELWkiSignOffInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+      <Type name="DELWkiAlertInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+      <Type name="DELResourceParameterPlanInstance">
+          <Attribute name="PLM_ExternalID" dicoType="PLMInstance" />
+     </Type>
+
+</DisplayNameAttributeList>

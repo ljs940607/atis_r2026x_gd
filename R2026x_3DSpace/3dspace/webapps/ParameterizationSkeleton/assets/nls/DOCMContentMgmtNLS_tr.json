@@ -1,0 +1,28 @@
+{
+  "intro": "Belge Yönetimi Deneyimini Yapılandır",
+  "DownloadRules": "Belge İndirme Kuralları",
+  "rule1": "Birden Fazla Belge İndirme ",
+  "option1": "Klasör Yapısı. \"<Belge adı> <Belge revizyonu>\" şeklinde adlandırılan klasör; ör. DOC-00000001 0",
+  "option2": "Klasör yapısı olmayan tüm dosyaların Düz Liste'si. Çakışan dosya adlarının sonlarına seri numaraları eklenir",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "Değişiklikler başarıyla uygulandı",
+  "ApplyError": "Değişiklikler uygulanamadı",
+  "ResetSuccess": "Sıfırlama Başarılı",
+  "Enable_Work_Under_Setting": "Altında Çalışmayı Etkinleştir",
+  "Enable_Mandatory_Comment_Setting": "Bir dosya yüklendiğinde, güncellendiğinde veya düzenlendiğinde zorunlu hale getirin.",
+  "File_Comment_Label": "Dosya yorumları",
+  "Work_Under_Accordion_Title": "Altında Çalışma Konfigürasyonu",
+  "Work_Under": "Altında Çalışma",
+  "Comment_As_Mandatory__Accordion_Title": "Belge Güncelleme",
+  "Failed_Load": "Konfigürasyonlar yüklenemedi.",
+  "DownloadBehaviorTooltip": {
+    "title": "Birden çok belge indirirken dosyaların nasıl düzenleneceğini seçin:",
+    "subtitle1Heading": "• Klasör yapısı: ",
+    "subtitle2Heading": "• Düz liste: ",
+    "subtitle1": "Orijinal dosya düzenlerini koruyarak her belge için alt klasörler içeren bir ZIP klasörü oluşturur.",
+    "subtitle2": "Alt klasörler olmadan tüm dosyaları tek bir listede indirir. Çakışmaları önlemek için aynı ada sahip dosyalara seri numaraları eklenir."
+  },
+  "WorkUnderRuleTooltip": "Tüm değişiklikleri uygulanan değişiklikler olarak kaydetmek üzere bir değişiklik nesnesi kullanmak için seçin.",
+  "CommentMandatoryTooltip": "Document Management'taki herhangi bir Oluştur/Güncelle eylemi ve Collaboration for Microsoft'ta 3DEXPERIENCE'a belge kaydetmek için yorumları zorunlu kılar. Dosya yorumları özellikle birden çok dosya içeren belgeler için, amacı ve belgeyle nasıl ilgili olduğu hakkında bağlam sağlamak açısından yararlıdır."
+}

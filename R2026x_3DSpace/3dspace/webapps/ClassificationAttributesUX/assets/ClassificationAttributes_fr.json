@@ -1,0 +1,20 @@
+{
+  "dialog_header": "Les attributs de classification sont des objets administrateur globaux qui doivent être uniques dans un tenant et doivent être réutilisés dans plusieurs classes chaque fois qu'il est possible de limiter leur nombre. Une fois tous les attributs de classification créés, demandez à l'administrateur de plateforme d'actualiser le modèle d'index, de recharger le cache et attendez ses commentaires avant de les utiliser.",
+  "type": "Type",
+  "internalName": "Nom interne",
+  "predicate": "Prédicat 6W",
+  "enable6wPredicate": "Afficher dans la balise 6W",
+  "title": "Titre",
+  "behavior": "Comportements",
+  "multivalued": "A valeurs multiples",
+  "multiline": "Multiligne",
+  "authorizedValues": "Valeurs autorisées",
+  "hasADefaultValue": "A une valeur par défaut",
+  "defaultValue": "Valeur par défaut",
+  "string": "Chaîne",
+  "integer": "Entier",
+  "real": "Réel",
+  "boolean": "Booléen",
+  "date": "Date",
+  "double": "Attribut avec cote"
+}

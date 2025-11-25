@@ -1,0 +1,10 @@
+m|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.0.25227|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\TerminologySelectorManagementWebInWin\TerminologyManagement\TerminologyManagementWebInWin.html|1723278105|2237
+s|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb\src\TerminologyManagement\TerminologyManagementWebInWin.html|1718789453|2237
+t|win_b64\webapps\TerminologySelectorManagementWebInWin\TerminologyManagement\TerminologyManagementWebInWin.js|1755316719|3047
+s|ENOTerminologyUX\TerminologySelectorManagementWebInWin.mweb\src\TerminologyManagement\TerminologyManagementWebInWin.js|1754476222|6564
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

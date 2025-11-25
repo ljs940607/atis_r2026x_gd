@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Не удалось запустить команду",
+  "LoadingPanel": "Загрузка...",
+  "cmdFailure": "Не удалось запустить команду",
+  "cmdFailureNls": "Ошибка NLS, не удалось запустить команду",
+  "SavingStep": "Сохранение...",
+  "createReview": {
+    "quickEdition": "Больше не показывать это диалоговое окно",
+    "errorMessage": "Сбой при создании проверки",
+    "errorShape": "Невозможно создать проверку 3D-геометрии",
+    "multipleRootsLabel": "Выберите контекст",
+    "nameLabel": "Заголовок",
+    "defaultReviewName": "Проверка",
+    "namePlaceholder": "Добавить заголовок",
+    "descriptionLabel": "Описание",
+    "descriptionPlaceholder": "Добавить описание",
+    "restrictedEditionLabel": "Ограниченная версия",
+    "restrictedEditionActivated": "Активировано",
+    "restrictedEditionDeactivated": "Деактивировано",
+    "panelTitle": "Новая проверка",
+    "panelValidationTitle": "Новая проверка",
+    "createreviewButton": "Создать",
+    "cancelButton": "Отмена",
+    "importModel": "Импорт модели JSON",
+    "slideTitle": "Слайд",
+    "loadingMessage": "Создание новой проверки...",
+    "warningMessage": "Текущая проверка будет заменена новой в этом сеансе",
+    "labelReview": "Проверка",
+    "labelMarkup": "Исправления",
+    "labelCheck": "Проверки",
+    "labelMember": "Участники",
+    "labelObjects": "объект.",
+    "saveAsDraftButton": "Сохранить как черновик",
+    "reviewContext": "Контекст",
+    "multiReviewsNaming": "Автоматически",
+    "validatedObjects": "Проверенные объекты",
+    "changeAction": "Задание на изменение",
+    "chkListTitle": "Контрольный список",
+    "autoCompletePlaceHolder": "перетащите сюда или введите для поиска",
+    "setValObjectAsValidatedNotif": "Этот объект не может быть задан как проверенный объект",
+    "setSomeValObjectAsValidatedNotif": "Некоторые объекты не могут быть заданы как проверенные объекты",
+    "setDefaultNotif": "Некоторые перенесенные объекты не поддерживаются",
+    "setDefaultChgActNotif": "Этот объект не может быть задан как задание на изменение",
+    "setCtxRootNotif": "Множественный выбор и перенос не поддерживаются для контекстов",
+    "setChgActNotif": "Множественный выбор и перенос не поддерживаются для заданий на изменение",
+    "setChgActCtxNotif": "Задание на изменение не может быть задано с этим типом контекста",
+    "noCASearchFound": "Поиск не дал результатов ИЛИ изменение уже добавлено"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Больше не показывать это диалоговое окно",
+    "errorMessage": "Сбой при создании исправления",
+    "multipleRootsLabel": "Выберите контекст",
+    "nameLabel": "Заголовок",
+    "defaultMarkupName": " Исправления",
+    "namePlaceholder": "Добавить заголовок",
+    "descriptionLabel": "Описание",
+    "descriptionPlaceholder": "Добавить описание",
+    "panelTitle": "Новое исправление",
+    "createMarkupButton": "Создать",
+    "cancelButton": "Отмена",
+    "importModel": "Импорт модели JSON",
+    "slideTitle": "Слайд",
+    "loadingMessage": "Создание нового исправления...",
+    "warningMessage": "Текущее исправление будет заменено на новое в этом сеансе"
+  },
+  "createCheck": {
+    "errorMessage": "Не удалось создать проверенное требование",
+    "typeToSearch": "перетащите сюда или введите для поиска",
+    "noSearchFound": "Поиск не дал результатов ИЛИ требование уже добавлено",
+    "requirement": "Требования"
+  },
+  "createHighlight": {
+    "errorMessage": "Сбой при создании выделения",
+    "selectHighlight": "Выберите непомеченный комментарий в исправлении"
+  },
+  "valStateChange": {
+    "error": "Не удалось изменить статус проверки."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "Проверенный объект уже существует",
+    "SelectMsg": "Выбрать проверенные объекты для добавления",
+    "OkBtn": "OK",
+    "CancelBtn": "Отмена"
+  },
+  "loadValidationContextError": "Проверки с этим типом данных не поддерживаются.",
+  "loadValidationMarkupError": "Не удается загрузить проверку.",
+  "page": "Страница",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Очистить статус",
+      "message": "Вы уверены, что хотите очистить статус выбранных комментариев?",
+      "okLabel": "Очистить"
+    },
+    "unableToMark": "Невозможно изменить статус некоторых комментариев."
+  }
+}

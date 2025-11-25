@@ -1,0 +1,40 @@
+{
+  "AdvancedSettings": "Rozšířená nastavení",
+  "MobileMessage": "Příkaz Vizuální kvalita není k dispozici na mobilních zařízeních.",
+  "Elements": {
+    "Low": "Rychlý",
+    "Medium": "Vyváženě",
+    "High": "Kvalita",
+    "Ultra": "Ultra",
+    "Default": "Doporučeno",
+    "Custom": "Vlastní"
+  },
+  "PostProcessElements": {
+    "NoAA": "Bez AA",
+    "FXAA": "FXAA",
+    "SMAA": "SMAA",
+    "Iterative": "Iterační",
+    "TAA": "TAA"
+  },
+  "TransparencyElements": {
+    "AlphaBlending": "Alpha Blending",
+    "WeightedAverage": "Vážený průměr",
+    "OrderIndependent": "Nezávisle na pořadí"
+  },
+  "FilteringElements": {
+    "PCFOptimized": "Optimalizováno pro PCF",
+    "ESM": "ESM",
+    "Poisson": "poisson"
+  },
+  "SSAOElements": {
+    "None": "Žádný",
+    "Low": "8 vzorků",
+    "Medium": "16 vzorků",
+    "High": "32 vzorků"
+  },
+  "SectionCappingElements": {
+    "Off": "Vypnuto",
+    "Auto": "Automaticky",
+    "On": "Zapnuto"
+  }
+}

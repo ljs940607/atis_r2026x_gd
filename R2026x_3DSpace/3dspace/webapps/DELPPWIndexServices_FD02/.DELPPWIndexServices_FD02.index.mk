@@ -1,0 +1,11 @@
+m|DELWKOApp\DELPPWIndexServices_FD02.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWIndexServices_FD02\DELPPWIndexServices_FD02.js|1723277661|4954
+s|DELWKOApp\DELPPWIndexServices_FD02.mweb\src\IndexParser.js|1696442167|16900
+u|DELWKOApp\DELPPWIndexServices_FD02.mweb\src\IndexParserNode.js|1679507105|2055
+u|DELWKOApp\DELPPWIndexServices_FD02.mweb\src\IndexParserProgressiveNode.js|1696442428|1549
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

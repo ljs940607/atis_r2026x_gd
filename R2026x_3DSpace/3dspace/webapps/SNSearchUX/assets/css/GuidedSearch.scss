@@ -1,0 +1,209 @@
+
+// from SNResultUX\SNResultUX.mweb\src\assets\css\_globals.scss
+// To remove
+
+@import "SearchDropDownUtils";
+
+.sophisticatedMode-container {
+  .smart-queries-activation-content {
+    display: flex;
+    float: right;
+    align-items: center;
+
+    .wux-label {
+      max-width: unset !important;
+    }
+  }
+}
+
+.smart-queries-container {
+  .smart-queries-content {
+    overflow-y: hidden;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: grid;
+
+    @include queries-editor();
+  }
+
+  .smart-queries-content-div {
+    display: block;
+
+    .wux-controls-toggle {
+      float: right;
+      display: flex;
+      align-items: center;
+
+      .wux-label {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.suggestion-container {
+  @include suggestion();
+}
+
+.input_ctn_search .nv-autocomplete .nv-autocomplete-input.disabled {
+  background-color: #D1D4D4;
+  border-color: #D1D4D4;
+}
+
+.sn-search-field .uwa-autocomplete .nv-autocomplete-input.enabled {
+  background-color: white;
+  border-color: unset;
+  visibility: unset;
+}
+
+.run_btn_search.fonticon.fonticon-search.disabled {
+  cursor: default;
+}
+
+.run_btn_search.fonticon.fonticon-search.enabled {
+  cursor: pointer;
+}
+
+.run_ctn_search.ctn_search.disabled {
+  pointer-events: none;
+}
+
+.run_ctn_search.ctn_search.enabled {
+  pointer-events: auto;
+  color: unset;
+}
+
+.custom-suggestion-container-content {
+  @include custom-scrollbar();
+
+  overflow-y: auto;
+
+  .search-history-container.hover {
+    background-color: #d5e8f2;
+    cursor: pointer;
+  }
+}
+
+.instant-search-tab-container {
+  .suggestion-container {
+    .custom-suggestion-container-content-spinner-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 20%;
+      top: 50%;
+    }
+  }
+
+  .instant-search-container {
+    .guidedmode-content {
+      @include guidedmode-content();
+      height: 85%;
+
+      .guidedmode-section {
+        .guidedmode-section-text {
+          border: unset;
+
+          .section-icon:hover {
+            background-color: #FFFFFF;
+          }
+        }
+
+        .guidedmode-section-text:hover {
+          border: unset;
+          background-color: #FFFFFF;
+
+          .section-icon {
+            background-color: #FFFFFF;
+          }
+        }
+      }
+    }
+
+    .instant-search-app-view {
+      display: flex;
+      height: 85%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+
+      .instant-search-app-view-image {
+        width: 100%;
+        height: 100%;
+        position: relative !important;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .instant-search-app-view-text {
+        position: relative;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.sn-search-field.uwa-autocomplete.nv-autocomplete-container {
+  .search-global-content-container {
+    @include settings();
+
+    .predefined-queries-tab-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+
+      @include predefined();
+    }
+  }
+
+  &.helps-settings {
+
+    @media screen and (max-height: 1000px) {
+      height: 78vh;
+    }
+
+    @media screen and (min-height: 1000px) {
+      height: 748px;
+    }
+
+    .search-global-footer-container {
+      display: none !important;
+    }
+
+    .search-global-content-container {
+      height: 100% !important;
+      border-bottom: 1px solid #D1D4D4;
+    }
+  }
+
+  .search-global-footer-container {
+    .search-dropdown-tab-predefined-queries,
+    .search-dropdown-tab-settings {
+      //height: 44px;
+      height: 38px;
+      //width: 44px;
+      width:38px;
+      margin-right: 0px;
+      
+    }
+    .search-dropdown-tab-predefined-queries{
+      margin-right: 20px;
+      gap: 2px;
+
+    }
+
+    .search-dropdown-tab-settings{
+      gap : 10px;
+    }
+
+    .search-dropdown-tab-mycontent {
+      display: none !important;
+    }
+  }
+}

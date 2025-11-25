@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"新產品",
+"ENONewProductHdr.ShortHelp":"產生新產品。",
+"ENONewProductHdr.LongHelp":"在對話方塊中，輸入標題、必要屬性 (若有)， 並可選擇是否要選擇範本以選擇 CAD 原版。按一下 <uicontrol>產生並關閉</uicontrol>以產生僅一個產品，或按一下 <uicontrol>產生</uicontrol>，以產生另一個產品。",
+"ENOInsertNewProductHdr.Title":"插入新產品",
+"ENOInsertNewProductHdr.ShortHelp":"產生新產品並加入為所選物件的 子件。",
+"ENOInsertNewProductHdr.LongHelp":"<p>在對話方塊中，輸入標題，並可選擇是否要選擇範本以選擇 CAD 原版。按一下<uicontrol>產生並關閉</uicontrol>以產生僅一個產品， 或按一下<uicontrol>產生</uicontrol>，以產生另一個產品。</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

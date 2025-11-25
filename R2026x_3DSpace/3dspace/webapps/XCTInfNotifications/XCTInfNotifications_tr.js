@@ -1,0 +1,1 @@
+define("DS/XCTInfNotifications/XCTInfNotifications_tr",{});define("DS/XCTInfNotifications/assets/nls/XCTInfNotifications",{Notifications:{Error:"Hata",Information:"Bilgi",Succes:"Başarılı",Warning:"Uyarı"}});

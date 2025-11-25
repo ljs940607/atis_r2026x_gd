@@ -1,0 +1,33 @@
+{
+  "getGCOInfoFailureMessage": "GCO bilgileri alınırken hata oluştu. Lütfen Altyapı ekibiyle bağlantı kurun.",
+  "iefJSONParsingFailureMessage": "IEF JSON çözümlenirken hata oluştu. Lütfen IEF JSON dosyasını kontrol edin.",
+  "integJSONParsingFailureMessage": "JSON çözümlenirken hata oluştu. Lütfen entegrasyon JSON dosyasını kontrol edin.",
+  "integNLSLoadingFailureMessage": "Entegrasyon NLS dosyası yüklenemedi. Lütfen entegrasyon NLS dosyasının yolunu kontrol edin.",
+  "getValuesFailureMessage": "DB'den öznitelik değerleri alınırken hata oluştu. Lütfen yöneticinizle iletişime geçin.",
+  "invalidValidateRequest": "Geçersiz doğrulama talebi. Lütfen web hizmeti parametrelerini doğrulamayı kontrol edin.",
+  "applySuccessMessage": "Değerler başarıyla ayarlandı!",
+  "applyFailureMessage": "Yönetici Ayarları değerleri ayarlanamadı",
+  "resetSuccessMessage": "Sıfırlama başarılı!",
+  "intro": "CAD için yönetici ayarını değiştir",
+  "Reset": "Sıfırla",
+  "Apply": "Uygula",
+  "Deployed": "Dağıtıldı",
+  "NotDeployed": "Dağıtılmadı",
+  "NewNotDeplyed": "Yeni - Dağıtılmadı",
+  "InvalidValueCanNotDeploy": "Geçersiz Değer - Dağıtılamaz",
+  "Name": "Ad",
+  "Info": "Bilgi",
+  "Value": "Değer",
+  "DeployStatus": "Dağıtım Durumu",
+  "FileExchange": {
+    "LineEditor.PlaceHolder": "Bir dosya seçin",
+    "BrowseFile": "Dosyalara göz at",
+    "Warning": "Lütfen geçerli dosya uzantısına sahip bir dosya seçin.",
+    "Upload.Success": " başarıyla yüklendi",
+    "Upload.Error": "Yüklenemiyor ",
+    "Download.Success": " başarıyla indirildi",
+    "Download.Error": "İndirilemiyor ",
+    "targetName.Error": "Bildirim içeriğinin ayarlanması geçerli değil. Lütfen yöneticinizle iletişime geçin"
+  },
+  "contactAdminMessage": "Destek için yöneticinizle iletişime geçin."
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "summary": "Agrega los valores indicados al final de la matriz indicada.",
+  "description": "Este bloque dará la matriz modificada como salida.<br>Este bloque es dinámico, por lo que el tipo de matriz y el número de puertos de los datos de entrada se pueden cambiar mediante el cuadro de diálogo de configuración de bloques.",
+  "dataPorts": {
+    "ArrayIn": "matriz que se va a modificar.",
+    "Value1": "el primer valor que se va a agregar.",
+    "ArrayOut": "la matriz modificada."
+  },
+  "controlPorts": {
+    "In": "activa la ejecución del bloque.",
+    "Out": "se activa cuando se completa el proceso."
+  },
+  "example": null
+}

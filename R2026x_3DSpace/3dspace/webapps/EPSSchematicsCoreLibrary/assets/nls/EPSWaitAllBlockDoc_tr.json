@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Tüm girdi kontrol bağlantı noktalarının etkinleştirildiği anda çıktı kontrol bağlantı noktasını etkinleştirir.",
+  "description": "Tüm girdi kontrol bağlantı noktaları etkinleştirildiğinde, blok tarafından çıktı kontrol bağlantı noktası etkinleştirilir ve tüm girdi kontrol bağlantı noktaları sıfırlanır.<br><br>Çıktı kontrol bağlantı noktası tetiklenene etkinleştirilen tüm girdi kontrol bağlantı noktaları aktif kalır.<br>Bununla birlikte <doc-setting-name translate=no>Same Frame</doc-setting-name> ayarı, etkinleştirmenin aynı karede gerekli olup olmadığını belirlemenizi sağlar.<br>Bu ayar etkinleştirilirse çıktı kontrol bağlantı noktasının tetiklenmemesi halinde girdi kontrol bağlantı noktaları, her bir yürütme adımını sıfırlar.<br><br>Bu blok dinamiktir. Bu sayede girdi verilerinin bağlantı noktası sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "controlPorts": {
+    "In1": "blok yürütmeyi tetikler.",
+    "In2": "blok yürütmeyi tetikler.",
+    "Out": "yalnızca tüm girdi kontrol bağlantı noktaları bir kez etkinleştirildiğinde etkinleştirilir."
+  },
+  "settings": {
+    "Same Frame": "aynı yürütme adımı sırasında etkinleştirme gerekip gerekmediğini belirler."
+  },
+  "example": null
+}

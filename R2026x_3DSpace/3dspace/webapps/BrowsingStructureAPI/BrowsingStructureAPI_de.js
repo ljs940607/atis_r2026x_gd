@@ -1,0 +1,1 @@
+define("DS/BrowsingStructureAPI/BrowsingStructureAPI_de",{});define("DS/BrowsingStructureAPI/assets/nls/BrowsingStructureAPI",{msg_info_Timeout:"Keine Antwort von der gestarteten Aktion innerhalb der Zeitüberschreitung erhalten. Die Ausführung kann mehr Zeit beanspruchen. Das Ergebnis wird kurz nach der manuellen Aktualisierung angezeigt."});

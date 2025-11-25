@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "summary": "Kullanıcı tanımlı JavaScript komut dizisini yürütür.",
+  "description": "Bu blok dinamiktir. Bu sayede blok konfigürasyonu iletişim kutusu kullanılarak birden çok parametre değiştirilebilir: <ul><li>Blok adı.Girdi ve çıktı veri bağlantı noktası sayısı.Girdi ve çıktı veri bağlantı noktası adı.Girdi ve çıktı veri bağlantı noktası değer tipi.Girdi ve çıktı kontrol bağlantı noktası sayısı.Girdi ve çıktı kontrol bağlantı noktası adı.</li></ul><br>Aşağıdaki işlevlere JavaScript komut dizisi bloğu üzerinden erişilebilir:<ul><li>Bir çıktı kontrol bağlantı noktası şu yöntemle etkinleştirilebilir: <doc-value translate=no>this.activateOutputControlPort(&lt;portName&gt;);</doc-value>Bir girdi veri bağlantı noktasına şu yöntemle erişilebilir: <doc-value translate=no>this.getInputDataPortValue(&lt;portName&gt;);</doc-value>Bir çıktı veri bağlantı noktası şu yöntemle ayarlanabilir: <doc-value translate=no>this.setOutputDataPortValue(&lt;portName&gt;,&lt;portValue&gt;);</doc-value></li></ul>",
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

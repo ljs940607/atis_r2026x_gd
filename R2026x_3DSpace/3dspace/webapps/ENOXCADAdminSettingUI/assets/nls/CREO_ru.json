@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Сохранить",
+  "CREOOpenGroupLabel": "Открыть",
+  "CREOMissingLinksWarningLabel": "Сохранить файл с отсутствующими ссылками",
+  "CREOMissingLinksWarningInfo": "Если эта функция включена, при отсутствии дочерних проектов во время операции сохранения в параметрическом сеансе Creo появится предупреждение. Если эта функция отключена, операция сохранения будет продолжена без предупреждения.",
+  "CREOPartFamilyInstanceHandlingLabel": "Обработка экземпляров семейства деталей Creo",
+  "CREOPartFamilyInstanceHandlingInfo": "Определяет обработку экземпляров таблицы семейства деталей Creo во время сохранения: <br><strong>PartFamilyInstanceLight</strong> — файлы XPR создаются только для активных экземпляров.<br><strong>PartFamilyInstanceLoaded</strong> — файлы XPR создаются для всех экземпляров.",
+  "CREOCADAttributeMappedToEINLabel": "Атрибут CAD сопоставлен c EIN",
+  "CREOCADAttributeMappedToEINInfo": "Если указано значение для этого атрибута, функция будет включена и файл CAD будет содержать этот атрибут, а его значение будет соответствовать номеру EIN физического продукта.",
+  "EnterpriseItemNumberGroupLabel": "Номер позиции организации",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Отфильтруйте элементы проектирования 3DEXPERIENCE без геометрии и дочерних узлов",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Отфильтруйте элементы проектирования 3DEXPERIENCE без геометрии и дочерних узлов."
+}

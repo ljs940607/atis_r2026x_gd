@@ -1,0 +1,19 @@
+.pc-summary {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .pc-summary .contentTitle {
+    color: #77797c;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: initial;
+    padding: 10px;
+    height: 5%;
+    flex: 0; }
+  .pc-summary .contentDiv {
+    padding-left: 10px;
+    flex: 1; }
+    .pc-summary .contentDiv .wux-ui-3ds-required {
+      color: #e87b00 !important;
+      font: normal normal normal 8px/1 DSFontIcon; }

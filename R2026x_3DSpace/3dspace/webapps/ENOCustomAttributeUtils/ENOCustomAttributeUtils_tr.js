@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_tr",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed Hizmetleri çalışmaz durumda görünüyor",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" Tüm Koşul İfadeleri yüklenmemiş olabilir",CUSTOM_ATTR_APPLIED:"Özel Öznitelikler güncellendi"});

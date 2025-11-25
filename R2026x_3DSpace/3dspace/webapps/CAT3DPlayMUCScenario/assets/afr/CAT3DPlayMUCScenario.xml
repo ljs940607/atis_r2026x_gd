@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="MUCAfrWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface  WkbInterface= "MUCAfrWorkshopConfiguration"/>
+  </Template>
+
+
+  <Template syp:name="3DSHARE_Scenario_MUC" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+	  <CATCommandHeader ID = "CAT3DPlayMUCCmd" ClassName = "DS/CATAssemblyMUCCommand/CAT3DPlayMUCCmd" ResourceFile = "CATAssemblyMUCCommand/CATAssemblyMUCCommand" />
+    </CATCmdHeadersList>
+  </Template>
+
+  <Template syp:name="MUCAfrWorkshopAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="3DSHARE_Scenario_MUC">
+		<CATCmdContainer Name = "Tools" Visibility = "1" RepresentationType="AfrActionBarSection">
+		<CATCmdSeparator Name="VisuMode_Separator"/>
+			<CATCmdStarter Name = "CAT3DPlayMUCCmd"        Command = "CAT3DPlayMUCCmd" />
+		</CATCmdContainer>
+    </CATCmdWorkbench>
+  </Template>
+  
+</Styles>

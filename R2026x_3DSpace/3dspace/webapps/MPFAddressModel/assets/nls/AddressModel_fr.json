@@ -1,0 +1,12 @@
+{
+  "addressLine1Error": "Cette adresse n'est pas valide, veuillez la modifier",
+  "addressLine2Error": "Cette adresse n'est pas valide, veuillez la modifier",
+  "addressLine3Error": "Cette adresse n'est pas valide, veuillez la modifier",
+  "addressLine4Error": "Cette adresse n'est pas valide, veuillez la modifier",
+  "cityError": "Cette ville n'est pas valide, veuillez la modifier",
+  "countyError": "Ce comté n'est pas valide, veuillez le modifier",
+  "stateError": "Cet Etat n'est pas valide, veuillez le modifier",
+  "postalCodeError": "Ce code postal n'est pas valide, veuillez le modifier",
+  "countryError": "Veuillez indiquer le pays",
+  "japaneseCharsNotSupportedError": "Les caractères japonais ne sont pas pris en charge"
+}

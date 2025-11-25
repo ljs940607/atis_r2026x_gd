@@ -1,0 +1,1 @@
+define("DS/3DPlayMagicReportExperience/3DPlayMagicReportExperience_en",{});define("DS/3DPlayMagicReportExperience/assets/nls/3DPlayMagicReportExperience",{Perspectives:"Perspectives",Views:"Views",Model:"Model",View:"View",Document:"Document",Wiki:"Wiki",Back:"Back",Forward:"Forward",error:{timeout:"Experience initialization is slow and has been aborted. Please retry later."}});

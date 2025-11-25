@@ -1,0 +1,15 @@
+{
+  "toolbar_header": "Omezený režim pro správce klasifikace",
+  "CCM_Manager": "Správce klasifikace",
+  "CCM_specialist_title": "Specialista",
+  "CCM_expert_title": "Expert",
+  "CCM_architect_title": "Architect",
+  "permission_update_successful": "Povolení {updatedPermission} bylo uděleno uživateli {name}.",
+  "permission_update_failure": "Nelze aktualizovat oprávnění pro uživatelské jméno.",
+  "restriction_mode_switched": "Omezený režim je zapnutý na {restrictionToggle}.",
+  "restriction_mode_switch_failure": "Přepnutí omezeného režimu se nezdařilo.",
+  "widget_load_failure": "K této aplikaci mají přístup pouze správci s rolí CSV.",
+  "on": "zapnout",
+  "off": "vypnout",
+  "search_name": "Hledat název"
+}

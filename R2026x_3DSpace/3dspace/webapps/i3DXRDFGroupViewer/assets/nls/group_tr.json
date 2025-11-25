@@ -1,0 +1,21 @@
+{
+  "compassError": "Hizmet bilgileri alınırken bir hata oluştu",
+  "noMembers": "Görüntülenecek üye yok",
+  "facet.properties": "Özellikler",
+  "facet.members": "Elemanlar",
+  "form.name": "Ad",
+  "form.description": "Tanım",
+  "form.owner": "Sahip",
+  "form.maturity": "Olgunluk",
+  "form.modified": "Değiştirme Tarihi",
+  "form.groupURI": "Grup URI'si",
+  "group.fetchError": "Grup bilgileri alınırken bir hata oluştu.",
+  "group.notFound": "Grup bulunamadı.",
+  "member.fetchError": "Grup üyeleri alınırken bir hata oluştu.",
+  "categories.member": "Eleman",
+  "header.firstName": "Ad",
+  "header.lastName": "Soyadı",
+  "tile.member": "üyeler",
+  "action.searchMember": "Üye Ara",
+  "action.openWith": "Aç"
+}

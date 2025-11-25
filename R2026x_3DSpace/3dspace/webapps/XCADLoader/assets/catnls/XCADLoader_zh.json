@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "仅支持 STEP AP242 文件",
+    "IFC_UNSUPPORT": "仅支持 IFC2X3、IFC4 和 IFC4X3_ADD2 文件格式",
+    "NO_TESSELLATION": "仅支持包含面片化数据的 STEP 文件",
+    "NO_ZIP": "Zip 格式不受支持",
+    "EMPTY_ROOT": "无几何图形的文档根",
+    "NO_REP": "无受支持展示的文档（产品或零件）",
+    "EXT_REF": "不支持带外部参考的文档。仅支持单片文件",
+    "EMPTY_PROD": "无网格化几何图形的文档产品",
+    "NO_STPXZ": "存档中的 stpxz 尚不受支持"
+  },
+  "warning": {
+    "MISSING_PART": "缺少一些链接文件"
+  }
+}

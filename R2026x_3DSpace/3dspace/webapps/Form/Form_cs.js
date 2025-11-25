@@ -1,0 +1,1 @@
+define("DS/Form/Form_cs",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"Toto pole je povinné"});

@@ -1,0 +1,17 @@
+{
+  "failMessage": "échec : ",
+  "ok": "OK",
+  "cancel": "Annuler",
+  "title": "Ajouter des extensions",
+  "autoCompPlaceHolder": "Saisir le nom des extensions",
+  "urlNotFound": "Impossible de trouver l'URL correcte des services de requêtes",
+  "roleNotAllowed": "Votre rôle d'accès actuel ne vous permet pas d'utiliser cette commande",
+  "noConnection": "Aucune connexion Internet.",
+  "webServiceError": "Une erreur a été renvoyée par le service Web.",
+  "webServiceUnauthorized": "Vous n'êtes pas autorisé à accéder à cette ressource. Actualisez la page Web pour vous connecter, puis réessayez.",
+  "removeExt": "Supprimer cette extension",
+  "cancelRemove": "Annuler la suppression",
+  "attachedExtension": "Extension(s) attachée(s)",
+  "noChangeTypeMessage": "L'utilisateur n'est pas autorisé à ajouter une extension à cet objet",
+  "noActionDone": "Aucune action n'a été effectuée"
+}

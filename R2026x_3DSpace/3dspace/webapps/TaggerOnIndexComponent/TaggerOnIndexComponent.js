@@ -1,0 +1,1 @@
+define("DS/TaggerOnIndexComponent/TaggerOnIndexComponent",["DS/ENOXTaggerOnIndexComponent/ENOXTaggerOnIndexComponent"],(function(n){"use strict";return n}));

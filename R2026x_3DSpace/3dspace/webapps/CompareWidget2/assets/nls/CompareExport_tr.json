@@ -1,0 +1,21 @@
+{
+  "BaseFilenameExport": "Sonuçları Karşılaştır",
+  "Depth": "Derinlik",
+  "ReferenceAttribute": "Referans {attributeName} = {attributeValue}",
+  "ReferenceQuantity": "Referans Miktarı",
+  "ReferenceID": "Referans Kimliği",
+  "ComparedAttribute": "Karşılaştırılan {attributeName} = {attributeValue}",
+  "ComparedQuantity": "Karşılaştırılan Miktar",
+  "ComparedID": "Karşılaştırılan Kimlik",
+  "Type": "Tip",
+  "ComparisonStatus": "Karşılaştırma Durumu",
+  "InstanceAttrDiapNamePostfix": " Örnekteki",
+  "Quantity": "Miktar",
+  "Level": "Seviye",
+  "ComparisonInformation": "Karşılaştırma Bilgileri",
+  "ComparisonInformationForInstances": "Örnekler için Karşılaştırma Bilgileri",
+  "CompareExportRunning": "Dışa aktarma arka planda çalışıyor.",
+  "CompareExportComplete": "Dışa aktarım tamamlandı.",
+  "CompareExportFailure": "Dışa aktarılamadı",
+  "ExportAbortedNewCompareInitiated": "Dışa aktarma iptal edildi; yeni karşılaştırma başlatıldı"
+}

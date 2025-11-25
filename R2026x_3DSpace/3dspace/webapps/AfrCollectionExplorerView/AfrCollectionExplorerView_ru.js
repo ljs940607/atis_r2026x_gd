@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_ru",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"Вид",NLS_ThumbnailView:"Вид миниатюр",NLS_TileView:"Вид плиток",NLS_DataGridView:"Вид таблицы данных",NLS_ListViewTitleColumnHeaderLabel:"Заголовок"});

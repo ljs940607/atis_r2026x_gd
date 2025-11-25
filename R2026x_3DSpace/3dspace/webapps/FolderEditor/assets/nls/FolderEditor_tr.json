@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "Kişisel Yer İşareti Klasörüm",
+  "name_Section_FolderSection_favorite": "Sık kullanılanlar",
+  "name_Section_FolderSection_AllFolders": "Yer İşareti Klasörleri",
+  "name_Section_TerminologySection_AllTerminologies": "Yapılara Göz Atma",
+  "name_Section_ParentFolders": "{number} Üst Yer İşareti Klasörleri",
+  "www_multisel_forbidden": "Seçili nesneler için çoklu seçim desteklenmiyor",
+  "wwwLinkType": "URL Bağlantısı",
+  "folder_pref_dnd": "Sürükle ve bırak davranışı",
+  "default_pref_label": "Tercih Etiketi",
+  "cannot_insert_branch": "Nesne bilgileri alınamadı. Birkaç dakika içinde tekrar deneyin. Sorun devam ederse yöneticinizle iletişime geçin",
+  "export_level": "Seviye",
+  "csv_base_file_name_product": "ürün_yapısı_",
+  "folder_pref_filter": "Yer işaretlerine eklenen alt ürünleri gizle",
+  "folder_pref_allow_products_expand": "Ürünlerin genişletilmesine izin ver",
+  "folder_pref_subfolder": "İçerik görünümünde alt öğe Yer İşareti Klasörlerini göster",
+  "folder_pref_populateTags": "Yer İşareti Klasörlerini filtrelemek için 6W Tags'i etkinleştir",
+  "useIndexAcceleration_label": "Dizinlenmiş verileri göster",
+  "folder_pref_autoSwitch_Label": "Veritabanı modundan Dizin moduna otomatik geçiş",
+  "button_remove": "Kaldır",
+  "button_close": "Kapat",
+  "button_treeOrder": "Ağaç Sıralamasını Özelleştir",
+  "Move_label": "Taşı",
+  "Copy_label": "Kopyala",
+  "oneMin_Label": "1 Dakika",
+  "threeMin_Label": "3 Dakika",
+  "fiveMin_Label": "5 Dakika",
+  "tenMin_Label": "10 Dakika",
+  "Never_Label": "Hiçbir zaman",
+  "Upload_content_loading": "İçerik yükle",
+  "AddExisting_content_loading": "Mevcut içeriği ekle",
+  "AddContentError": "Nesneler önceden bağlanmış.",
+  "Paste_content_loading": "İçeriği yapıştır",
+  "Remove_content_loading": "İçeriği kaldır",
+  "Remove_shortcut_loading": "Kısayolu kaldır",
+  "Replace_revision_loading": "İçerik en son revizyonla değiştiriliyor",
+  "LoadAttributes_Loading": "Çapraz hizmet öznitelikleri yükleniyor...",
+  "Content_Loading": "İçerik yükleniyor...",
+  "LoadingView_Loading": "Görünüm yükleniyor...",
+  "CheckingAccess_Loading": "Yer İşareti Klasörü erişimleri kontrol ediliyor...",
+  "Widget_Loading": "Widget yükleniyor...",
+  "BookmarksTree_Loading": "Ağaç yükleniyor...",
+  "FavoriteBkTree_Loading": "Sık kullanılanlar ağacı yükleniyor...",
+  "PersonalTree_Loading": "Kişisel ağaç yükleniyor...",
+  "ExpandAndSelect_Loading": "{typeStruct} yapısına gidiliyor...",
+  "Bookmark_Loading": "Yer İşareti Klasörü seçiliyor...",
+  "SetActiveBookmark_Loading": "Yeni global varsayılan Yer İşareti Klasörü ayarlanıyor...",
+  "UnsetActiveBookmark_Loading": "Global varsayılan Yer İşareti Klasörü ayarı kaldırılıyor...",
+  "EnableActiveBookmark_Loading": "Global varsayılan Yer İşareti Klasörü etkinleştiriliyor...",
+  "DisableActiveBookmark_Loading": "Global varsayılan Yer İşareti Klasörü devre dışı bırakılıyor...",
+  "New_Loading": "Oluşturma paneli yükleniyor...",
+  "Shared_label": "Paylaşılan",
+  "Personal_label": "Kişisel",
+  "label_ActionBar_AddToFavorites": "Sık Kullanılan Ekle / Kaldır",
+  "label_ActionBar_RemoveFromFavorites": "Sık Kullanılanlardan Kaldır",
+  "label_title_NewBookmark": "Yeni Yer İşareti Klasörü",
+  "newBookmark_typeNls": "Yer İşareti Klasörü",
+  "msg_success_copyLink_content": "{typeStruct} \"{foldername}\" içerisindeki \"{filename}\" belge bağlantısı kopyalandı.",
+  "msg_success_copyLink_folder": "{typeStruct} \"{foldername}\" bağlantısı kopyalandı.",
+  "msg_success_favoriteReordered": "Yeniden sıralama başarılı.",
+  "msg_info_contentcopied": "İçerik kopyalandı.",
+  "msg_info_contentcut": "İçerik kesildi.",
+  "msg_info_objetremoved": "{number} nesne {typeStruct} \"{foldername}\" klasöründen kaldırıldı.",
+  "msg_info_LinkRemoved": "{number} bağlantı, {typeStruct} \"{foldername}\" klasöründen kaldırıldı.",
+  "msg_info_objectremovedfromfolders": "\"{objectname}\" nesnesi {number} {typeStruct} nesnesinden başarıyla kaldırıldı.",
+  "msg_info_notConnectToBk": "{number} {typeStruct} nesneye eklenmedi",
+  "msg_info_objetnotremoved": "Kaldırılacak {number} Nesne, {typeStruct} \"{foldername}\" klasörüne eklenmedi.",
+  "msg_info_Addinfolder": "{objectsAdded} Nesne {typeStruct} {targetfolder} klasörüne eklendi, eklenecek {objectsAlreadyPresent} Nesne zaten mevcuttu.",
+  "msg_info_Addinfolder_1": "{objectsAdded} Nesne {typeStruct} {targetfolder} klasörüne eklendi.",
+  "msg_info_Addinfolder_2": "{objectsAlreadyPresent} Eklenecek nesneler önceden mevcut.",
+  "msg_info_objetadded": "\"{filename}\", \"{foldername}\" yer işaretine eklendi.",
+  "msg_info_objetmoved": "{objectsMoved} Nesne {typeStruct} {targetfolder} klasörüne aşındı, taşınacak {objectsAlreadyPresent} Nesne zaten mevcuttu.",
+  "msg_info_objetmoved_1": "{objectsMoved} Nesne {typeStruct} {targetfolder} klasörüne taşındı.",
+  "msg_info_foldercopied": "{number} {typeNode} nesne {typeStruct} \"{foldername}\" klasörüne eklendi.",
+  "msg_info_rootCreated": "{number} {typeNode} nesne oluşturuldu.",
+  "msg_info_foldercopied_2": "{number} {typeNode} nesne \"{foldername}\" klasörüne eklendi.",
+  "msg_info_objetmoved_2": "Taşınacak {objectsAlreadyPresent} Nesne zaten mevcuttu.",
+  "msg_info_foldermoved": "{number} {typeNode} nesne {typeStruct} \"{foldername}\" klasörüne taşındı.",
+  "msg_info_filecheckedout": "Dosya başarıyla teslim alındı.",
+  "msg_info_filecheckedin": "Dosya başarıyla teslim edildi.",
+  "msg_info_filecancelcheckout": "Dosya Düzenleme işlemi başarıyla iptal edildi.",
+  "msg_info_favoriteadded": "\"{name1}\" Yer İşareti Klasörü Sık Kullanılanlar'a eklendi.",
+  "msg_info_favoriteremoved": "\"{name1}\" Yer İşareti Klasörü Sık Kullanılanlar'dan kaldırıldı.",
+  "msg_info_favoritesremoved": "{number} Yer İşareti Klasörü Sık Kullanılanlar'dan kaldırıldı.",
+  "msg_info_favoriterenamed": "\"{name1}\" adlı Sık Kullanılan \"{name2}\" olarak yeniden adlandırıldı.",
+  "msg_info_rename": "{typeStruct} \"{name1}\", \"{name2}\" olarak yeniden adlandırıldı.",
+  "msg_info_refresh": "Yenileme tamamlandı.",
+  "msg_info_reorder_NonRootbks": "Yer İşareti Klasörleri bölümünden bir Yer İşareti Klasörü seçin.",
+  "msg_info_reorder_emptyBks": "2 veya daha fazla alt öğesi olan bir Yer İşareti Klasörü seçin.",
+  "tree_ordering_panel_title": "Ağaç Sıralamasını Özelleştir - ",
+  "tree_ordering_Reorder_btn": "Yeniden Sırala",
+  "find_in_left_tree_btn": "Bul",
+  "tree_ordering_reset_btn": "Ağaç Sıralamasını Sıfırla",
+  "tree_ordering_cancel_btn": "İptal",
+  "tree_ordering_moveup_btn": "Yukarı Taşı",
+  "tree_ordering_movedown_btn": "Aşağı Taşı",
+  "tree_ordering_movetop_btn": "En Üste Taşı",
+  "tree_ordering_movebottom_btn": "En Alta Taşı",
+  "tree_ordering_drop_here": "Buraya Bırakın",
+  "reorderSuccess": "Yeniden sıralama başarılı",
+  "msg_info_noResultSearch": "Sonuç bulunamadı.",
+  "msg_info_SortNonAvailable": "Bu sütunda arama esnasında sıralama yapılamaz.",
+  "msg_info_replaceByRevision": "Nesne başarıyla değiştirildi.",
+  "msg_info_replaceByLatestRevision": "Son Revizyonla Değiştir işlemi başarıyla yürütüldü",
+  "msg_info_replaceByLatestRevision_removed": "{number} Nesne, en son revizyonları yer işaretinde zaten mevcut olduğundan veya birden çok seçili nesnenin ortak bir revizyonu olduğundan açık bir şekilde kaldırıldı.",
+  "msg_info_treeFilterRemove": "Ağaç Filtreleri, kök nesnesi eklendikten sonra kaldırılır",
+  "msg_info_active_successfully": "{folderLabel}, global varsayılan Yer İşareti Klasörü olarak başarıyla ayarlandı.",
+  "msg_info_inactive_successfully": "{folderLabel}, global varsayılan Yer İşareti Klasörü olmaktan başarıyla çıkarıldı.",
+  "msg_info_enable_successfully": "Global varsayılan Yer İşareti Klasörü {folderLabel} artık etkin.",
+  "msg_info_disable_successfully": "Global varsayılan Yer İşareti Klasörü {folderLabel} artık devre dışı.",
+  "msg_info_defaultLocation": "Global varsayılan Yer İşareti Klasörü: {folderLabel}.",
+  "msg_warning_MultipleSelection": "Çoklu seçim desteklenmiyor.",
+  "msg_warning_nocontent": "Hiçbir içerik seçilmedi: Lütfen içerik seçin.",
+  "msg_warning_nofoldernocontent": "Hiçbir şey seçilmedi: Lütfen içerik veya Yer İşareti Klasörü seçin.",
+  "msg_warning_nocurrentfolder": "Geçerli bir seçim yok: Lütfen ağaçtan bir eleman seçin.",
+  "msg_warning_noselection": "En az bir nesne seçilmelidir.",
+  "msg_warning_dndnotsupported": "Bu bırakma işlemi desteklenmiyor.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Sık Kullanılanlar bölümüne dış nesne bırakılamaz.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Farklı bir 3DEXPERIENCE platform'dan nesneler bırakılamaz.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "{objectType} nesneleri eklenemiyor.",
+    "subtitle": "Desteklenen bir nesne tipi seçin."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "Farklı bir 3DEXPERIENCE platform'dan nesneler eklenemez.",
+  "msg_warning_webInWinDnD": "Nesneler yalnızca 3DDashboard'a bırakılabilir.",
+  "msg_warning_Linked_Or_Shortcut": "Yer İşareti Klasörü kısayolları sürüklenemez. Diğer nesneleri sürüklemek için Yer İşareti Klasörü kısayollarının seçimini kaldırın.",
+  "msg_warning_FolderAlreadyAmongFavorites": "{typeStruct} \"{foldername}\" zaten Sık Kullanılanlar arasında.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "Son genişletme durumu kaydedilmeyecek.",
+    "subtitle": "Genişletme durumunu kaydetmek için birkaç ağaç elemanını daraltın.",
+    "message": "Çok fazla genişletilmiş ağaç elemanı var."
+  },
+  "msg_warning_copyLink": "Seçili Nesne bir Yer İşareti Klasörü değil.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "Bağlam İçi Arama, kök sayısı 200'den fazla olduğunda desteklenmez.",
+  "msg_warning_searchOpen": {
+    "title": "Yer İşareti Klasörü oluşturulamıyor.",
+    "subtitle": "Arama etkinken yeni bir Yer İşareti Klasörü oluşturulamaz.",
+    "message": "Yeni bir Yer İşareti Klasörü oluşturmak için arama komutunu kapatın."
+  },
+  "msg_error_OnRefreshCmdfailure": "Beklenmeyen bir hata oluştu.",
+  "msg_error_preferencessnotsaved": "Tercihleriniz kaydedilemiyor.",
+  "msg_error_nopreferences": "Tercihleriniz alınamıyor.",
+  "msg_error_Addinfolder": "Seçili içeriği ekleyemezsiniz.",
+  "msg_error_Addinfolder_obj": "{object} eklenemiyor.",
+  "msg_error_CopyFolder": "{typeStruct} öğesini kopyalayamazsınız.",
+  "msg_error_MoveFolder": "{typeStruct} öğesini taşıyamazsınız.",
+  "msg_error_MoveFolder_parent": "Hedef {typeStruct}, taşınacak {typeNode} öğesinin üst öğelerinden biri.",
+  "msg_error_CutPasteToRoot": "{typeStruct} elemanlarını kök bölümüne taşıyamazsınız.",
+  "msg_error_Removefromfolder": "Nesneleri {typeStruct} öğesinden kaldıramazsınız.",
+  "msg_error_RemoveLinkfromBookmark": "Bağlantıları Yer İşareti Klasörü'nden kaldıramazsınız.",
+  "msg_error_MoveInfolder": "Nesneleri taşıyamazsınız.",
+  "msg_error_MoveInSamefolder": {
+    "title": "Farklı bir {typeStruct} seçin.",
+    "subtitle": "Kaynak {typeStruct} ve hedef {typeStruct} aynı."
+  },
+  "msg_error_rename": {
+    "title": "{typeStruct} öğesini {name} olarak yeniden adlandıramazsınız.",
+    "subtitle": "Doğru kimlik bilgilerini kullandığınızdan emin olun.",
+    "subtitle_oneName": "Adın zaten kullanımda olmadığını veya doğru kimlik bilgilerini kullandığınızı doğrulayın.",
+    "message": "Bu nesneyi yeniden adlandırmak için hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz."
+  },
+  "msg_error_name_maxlength": "1 ile {maxLength} karakter arasında yeni bir ad girin.",
+  "msg_error_name_empty": "Başlık boş bırakılamaz.",
+  "msg_error_bookmarkNotFound": {
+    "title": "{name1} öğesine erişilemiyor.",
+    "title2": "{typeStruct} öğesine erişilemiyor.",
+    "subtitle": "{typeStruct} öğesine artık erişilemiyor veya öğe silinmiş.",
+    "message": "Hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Ağaç genişletilemiyor.",
+    "subtitle": "Uygulamayı yenileyin ve tekrar deneyin veya destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} geçersiz karakterler içeriyor: {badChars}.",
+    "subtitle": "Şu karakterlerden herhangi birini kullanamazsınız:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Özniteliklerin yüklenmesi sırasında bir hata oluştu.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Diğer hizmetlerin öznitelikleri alınamıyor."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "{typeStruct} öğesine artık erişilemiyor. ",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Yer İşareti Klasörü silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "Bu Harici bağlantıya artık erişilemiyor."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "{typeStruct} öğesine artık erişilemiyor.",
+    "subtitle": "{typeStruct} öğesini sık kullanılanlarınızdan kaldırın.",
+    "message": "Yer İşareti Klasörü silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_InfoAction_Timeout": "İşlem beklenenden uzun sürüyor. Arka planda devam edecek. Verileri güncellemek için yenileyin.",
+  "msg_error_authorTimeout": {
+    "title": "İşlem beklenenden uzun sürüyor.",
+    "message": "Arka planda devam edecek."
+  },
+  "msg_error_timeout": {
+    "title": "İçerik alınamıyor.",
+    "subtitle": "Sunucu bağlantısı zaman aşımına uğradı.",
+    "message": "Bağlantınızı doğrulayın veya destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Bu nesneye artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Nesne silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Relations uygulamasını açamazsınız.",
+    "subtitle": " Lisans rolünüzü doğrulayın."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Nesneler en son revizyonlarıyla değiştirilemiyor.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Bir {personal_shared} Yer İşareti Klasörü'nü, bir {shared_personal} Yer İşareti Klasörü'ne {move_copy} işlemine izin verilmez.",
+  "msg_error_copylink": {
+    "title": "Bağlantıyı panoya kopyalama iznine sahip olmalısınız.",
+    "subtitle": "Kimlik bilgilerinizi doğrulayın veya destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_createNew": {
+    "title": "Bu nesneyi oluşturamazsınız.",
+    "subtitle": "Doğru kimlik bilgilerini kullandığınızdan emin olun.",
+    "message": "Bu nesne tipini oluşturmak için hedef iş birliği alanında gerekli sorumluluğa sahip olmayabilirsiniz."
+  },
+  "msg_error_rest": {
+    "title": "Beklenmeyen bir hata oluştu.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_js": {
+    "title": "İşlem sırasında bir hata oluştu.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Varsayılan Yer İşareti Klasörü alınamıyor.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin.",
+    "message": "Varsayılan Yer İşareti Klasörü artık tanımlı değil."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Başka bir revizyon seçin.",
+    "subtitle": "Bir nesnenin revizyonunu aynı revizyonla değiştiremezsiniz."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "{typeStruct}, seçili nesnelerin en son revizyonunu zaten içeriyor.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Bu yolu görüntüleyemezsiniz.",
+    "subtitle": "Yer İşareti Klasörü'nde hiçbir üst öğe nesnesi görünmüyor.",
+    "message": "\"Yer işaretlerine eklenen alt ürünleri gizle\" seçiminin işaretini kaldırın."
+  },
+  "msg_warning_notProductRoot": "Nesneye artık erişilemiyor veya nesne silinmiş.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "En fazla 100 nesne seçin.",
+  "msg_warning_contentnotavailable": {
+    "title": "Bu içeriğe artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "İçerik silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "İçerik kaldırılamıyor.",
+    "subtitle": "Arama sonuçlarını daraltmak için lütfen bir alt {typeStruct} seçin.",
+    "message": "20'den fazla {typeStruct} elemanından içerik kaldırılamıyor."
+  },
+  "msg_error_settings": {
+    "title": "Tercihleriniz alınamıyor.",
+    "subtitle": "Beklenmeyen bir hata oluştu. Destek için yöneticinizle iletişime geçin."
+  },
+  "msg_error_search_login": "Sunucu hatası. Birleşik arama kullanılamıyor.",
+  "CMDInsertNewFolder": "Yeni Yer İşareti Klasörü",
+  "CMDRemoveContent": "İçeriği Kaldır",
+  "CMDAddFile": "Belge Yükle",
+  "CMDDownloadFile": "İndir",
+  "CMDPreviewFile": "Önizleme",
+  "CMDCheckOutFile": "Teslim Al",
+  "CMDCheckInFile": "Teslim Et",
+  "CMDEditFile": "Düzenle",
+  "CMDUndoEditFile": "Düzenlemeyi Geri Al",
+  "CMDFolderUpload": "Klasör Yükleme",
+  "CMDUpdateFile": "Güncelle",
+  "CMDRename": "Yeniden Adlandır",
+  "CMDCut": "Kes",
+  "CMDCopy": "Kopyala",
+  "CMDPaste": "Yapıştır",
+  "CMDDelete": "Sil",
+  "CMDClearSort": "Sıralamayı Temizle",
+  "CMDHideColumn": "Sütunu Gizle",
+  "CMDOpenColumnCusto": "Ağaç Listesi Görünüm Seçenekleri",
+  "CMDAddExistingContent": "Mevcut İçeriği Ekle",
+  "CMDAddExternalLink": "Harici Bağlantı Ekle",
+  "CMDExpandAll": "Tümünü Genişlet",
+  "CMDCollapseAll": "Tümünü Daralt",
+  "CMDAccessRightCmd": "Paylaş",
+  "CMDAddToFavorites": "Sık Kullanılanlara Ekle",
+  "CMDProperties": "Özellikler",
+  "CMDSynchronize": "Yerel disk ile senkronize et",
+  "CMDActiveFolder": "Global Varsayılan Yer İşareti Klasörü",
+  "CMDOpen": "Aç",
+  "CMDOpenWithCV5": "CATIA V5'i bağla",
+  "CMDFindInCtx": "Bağlam İçinde Bul",
+  "csv_base_file_name": "bookmark_editor_",
+  "alpha_sorting": "Başlık",
+  "date_sorting": "Oluşturma Tarihi",
+  "tree_sorting": "Sıralamayı Temizle",
+  "fonticon_filter": "Filtre",
+  "fonticon_sort": "Sıralama kriteri",
+  "download": "İndir",
+  "upload": "Karşıya Yükle",
+  "CMDDeleteDefinitively": "Sil",
+  "CMDShareBookmarkLink": "Bağlantıyı Kopyala",
+  "CMDRestore": "Geri Yükle",
+  "CMDSizeColumnToFit": "Sütunu Sığacak Şekilde Boyutlandır",
+  "HeaderThumbnail": "Küçük resim",
+  "HeaderDeletionDate": "Silme Tarihi",
+  "HeaderDeleteBy": "Silen",
+  "SearchEnterMoreThan": "Arama için minimum {minNumber} karakter gerekir.",
+  "SearchEmptyQuotes": "Bir arama sorgusunda boş fiyat tekliflerine izin verilmez.",
+  "searchDefaultError": {
+    "title": "Arama sorgusu sırasında bir hata oluştu.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "ShowNavPane": "Gezinme panelini görüntüle",
+  "HideNavPane": "Gezinme panelini gizle",
+  "relations_tab": "İlişkiler",
+  "confirmation_ok": "Tamam",
+  "confirmation_cancel": "İptal",
+  "confirmation_ok_Paste": "Yapıştır",
+  "confirmation_move_title": "İçeriği taşı",
+  "confirmation_add_title": "İçerik ekle",
+  "confirmation_add_move_title": "İçeriği Taşı ve İçerik Ekle",
+  "confirmation_move_message": "{source} içeriğini {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_monosel": "{selection} öğesini {source} konumundan {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_mono_from_tree": "{source} öğesini {target} hedefine taşımak istiyor musunuz?",
+  "confirmation_move_message_multisel": "{nth} öğeyi {source} konumundan {target} hedefine taşımak istiyor musunuz?",
+  "details_for_alone_objects": "{source} ile bağlı olmayan öğeler {target} hedefine eklenecek.",
+  "confirmation_add_message_multisel": "{nth} öğeyi {target} hedefine eklemek istiyor musunuz?",
+  "confirmation_move_add_message_multisel": "{move_nth} öğeyi {source} öğesinden {target} öğesine taşımak ve {add_nth} öğeyi {target} öğesine eklemek istiyor musunuz?",
+  "removeChildrenInMove": "Varsa seçili alt öğeleri {source} kaynağından kaldırın.",
+  "confirmation_move_button": "Taşı",
+  "confirmation_add_button": "Ekle",
+  "confirmation_add_move_button": "Tamam",
+  "confirmation_remove_title": "Kaldır: {label}",
+  "confirmation_remove_titleX": "Kaldır: {nb} nesne",
+  "confirmation_remove_message": "İçeriği {label} etiketinden kaldırmak istediğinizden emin misiniz?",
+  "confirmation_removeshortcut_title": "Yer İşareti Klasörü Kısayolunu Kaldır",
+  "confirmation_removeshortcut_message": "Kısayol'u Yer İmi Klasörü'nden kaldırmak istediğinizden emin misiniz?",
+  "confirmation_copyMassive_title": "{target} içinde {source} öğesinin Kopyasını oluştur",
+  "confirmation_copyMassive_message": "Çok sayıda öğeyi kopyalamak üzeresiniz.",
+  "confirmation_copyMassive_checkBox": "Kopyalanan Yer İşareti Klasöründe yer işaretine eklenmiş öğeleri tut",
+  "PasteCmdTitle": "{source} öğesini yapıştır",
+  "PasteCmdMultiTitle": "{typeStruct} nesnelerini yapıştır",
+  "confirmation_copy": "Kopyala",
+  "confirmation_info": "{From} olan \n öğesi {To} olarak dönüştürülürken başlık ve açıklama dışındaki öznitelikler kaybolur. Alt öğe nesneleri için tüm öznitelikler kopyalanır.",
+  "authentication_error": "Bu uygulamayı kullanamazsınız. Doğru kimlik bilgilerini kullandığınızdan emin olun.",
+  "noPlatform_error": "Bu uygulama platformunuzda kullanılamıyor.",
+  "placeholder_msg_folder": "Bu {typeStruct} şu anda boş.",
+  "placeholder_CMD_AddExisting": "Mevcut Olanı Ekle",
+  "placeholder_CMD_UploadFile": "Dosya yükle",
+  "placeholder_CreateFolder": "{typeStruct} oluştur",
+  "tooltip_reserved": "Kilitli",
+  "tooltip_unreserved": "Kilidi Açıldı",
+  "tooltip_shortcut": "Kısayol",
+  "tooltip_noDefaultLocation": "Geçerli bir global varsayılan Yer İşareti Klasörü yok.",
+  "tooltip_defaultLocation": "Global varsayılan Yer İşareti Klasörü: {folderLabel}. Keşfetmek için tıklayın.",
+  "tooltip_enableDefaultLocation": "{folderLabel} global varsayılan Yer İşareti Klasörü devre dışı bırakıldı. Etkinleştirmek için tıklayın.",
+  "tooltip_disableDefaultLocation": "{folderLabel} global varsayılan Yer İşareti Klasörü'nü devre dışı bırakmak için tıklayın.",
+  "BookmarkLocation": "Üst Yer İşareti Klasörü'nde göster",
+  "column_FavoriteTitle": "Başlık",
+  "column_BookmarkLocation": "Üst Yer İşareti Klasörü",
+  "column_Thumbnail": "Küçük resim",
+  "column_ApprovalStatus": "Onay Durumu",
+  "placeholder_msg_favorite": "Sık Kullanılan Yer İşareti Klasörü yok.",
+  "placeholder_msg_section": "{typeStruct} Bulunamadı.",
+  "placeholder_msg_search": "Sonuç bulunamadı.",
+  "refresh_ongoing": "Yenileniyor...",
+  "refresh_ok": "Yenileme tamamlandı",
+  "refreshError": {
+    "title": "Widget yenilenemiyor.",
+    "subtitle": "Destek için yöneticinizle iletişime geçin."
+  },
+  "placeholder_findInCtx": "Nesne Ara veya Seç",
+  "findInCtxsearchview": {
+    "ftssearch": "Ara",
+    "searchBtn": "Ara",
+    "check": "Seçimi Onayla",
+    "cannotRetrieveLabel": "Seçili nesnenin etiketi alınamıyor",
+    "loadingLabel": "Yükleniyor..."
+  },
+  "badCredentialChanged": "Önceden seçilmiş kimlik bilgilerine erişiminiz olmadığı için \"{credential}\" olarak ayarlandı.",
+  "credentialChanged": "\"{credential}\" olarak ayarlandı.",
+  "success": "Başarılı",
+  "warning": "Uyarı",
+  "information": "Bilgi",
+  "revisionReport": {
+    "reportTitle": "Rapor - Son Revizyonla Değiştir",
+    "successfullyReplaced": "{prd1}, {prd2} ile değiştirildi.",
+    "explicitlyRemoved": "{prd1} açık bir şekilde kaldırıldı.",
+    "isLatestRevison": "Değiştirilecek {prd1} öğesi zaten son revizyon.",
+    "msgObjectSelected": "{object} nesne son revizyonlarıyla değiştirilmek üzere seçildi.",
+    "msgObjectAlreadyLatestRevision": "{object} nesne zaten son revizyonunda.",
+    "msgSuccessfullyReplaced": "{object} nesne son revizyonlarıyla başarılı bir şekilde değiştirildi.",
+    "msgObjectExplicitlyRemoved": "{object} nesne, en son revizyonları yer işaretinde zaten mevcut olduğundan veya birden çok seçili nesnenin ortak bir revizyonu olduğundan açık bir şekilde kaldırıldı."
+  },
+  "msg_advice_refreshWidget": "Widget'ı veya tarayıcınızı yenileyin ve doğru kimlik bilgilerini kullandığınızdan emin olun.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Bu nesneye artık erişilemiyor.",
+    "subtitle": "Widget'ı yenileyin.",
+    "message": "Nesne silinmiş olabilir veya gerekli izinlere sahip olmayabilirsiniz."
+  },
+  "msg_error_NoModifyAccess": "İlişkiyi değiştirme erişimi yok; geçerli işlem gerçekleştirilemedi.",
+  "Attachments": "Ekler",
+  "Specification": "Teknik Özellik Belgeleri",
+  "OpenLocationRemoveTitle": "İçeriği kaldır: {label}",
+  "OpenLocationRemoveMessage": "Bu nesneyi aşağıdaki konumlardan kaldırmak istiyor musunuz?",
+  "CMDUnsetGlobalActiveFolder": "Global Varsayılan Yer İşareti Klasörü'nü Kaldır",
+  "CMDShowInBookmarks": "Yer İşareti Klasörlerinde Göster",
+  "CMDEnableGlobalActiveBookmark": "Etkinleştir",
+  "CMDDisableGlobalActiveBookmark": "Devre dışı bırak",
+  "indexMode": {
+    "Authoring": "Oluşturuluyor.",
+    "Index": "Dizin.",
+    "Label": "İndeks",
+    "seconds": "saniye",
+    "minutes": "dakika",
+    "hours": "saat",
+    "msg_Authoring": "Oluşturma modu etkin. Performans etkilenebilir.",
+    "activeMode": "Etkin mod: {mode}",
+    "lastRefresh": "Son Yenileme: {timeElapsed} önce.",
+    "reactIndexMode": "Dizin modu, oluşturma işlemi veya yenileme zamanından sonra {autoSwitch} dakika içinde yeniden etkinleştirilir.",
+    "errorMessageBookmarkRoot": {
+      "title": "{typeStruct} nesneleri alınamıyor.",
+      "subtitle": "Destek için yöneticinizle iletişime geçin."
+    },
+    "info_msg_DataNotUptoDate": "İçerikte {timeElapsed} dakika boyunca herhangi bir değişiklik yapmadığınız için uygulama dizin moduna geçti.",
+    "title": "Dizin veya Veritabanı Modu",
+    "IndexModeTooltip": "Dizin Modu Etkin",
+    "AuthoringModeTooltip": "Veritabanı Modu Etkin",
+    "IndexModelongHelp": "Dizin modu performansı artırır ancak en son değişiklikler dizine alınana kadar kullanılamaz.",
+    "AuthoringModelongHelp": "Veritabanı modu en son değişiklikleri hemen görüntüler ancak performans bundan etkilenir.",
+    "info_msg_DatabaseModeTitle": "Veritabanı modu etkinleştirildi",
+    "info_msg_IndexModeTitle": "Dizin modu etkinleştirildi.",
+    "info_msg_DatabaseModeMessage": "En son değişiklikler görüntüleniyor.",
+    "info_msg_IndexModeMessage": "Dizin güncellenene kadar değişiklikler ve yeni içerikler hemen kullanılamayabilir."
+  },
+  "CMD_Yes": "Evet",
+  "CMD_No": "Hayır",
+  "dialog_replaceByLatestRevision": "Revizyonla Değiştir",
+  "msg_warning_DndNotSupported": "Salt okunur modda bırakma eylemi desteklenmez.",
+  "ViewTooltip": {
+    "favoriteTitle": "Sık kullanılan başlık"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "Bırakma eylemi Klasör içeriyor ve bu desteklenmez",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "Yer İşareti Klasörü Yapısı 1000'den fazla Belge içeriyor; Lütfen daha az sayıda Belge içeren bir Yer İşareti Klasörü Yapısı seçin.",
+    "BookmarkNo_Documents": "Yer İşareti Klasörü Yapısı hiçbir Belge içermiyor, hiçbir şey indirilmeyecek.",
+    "BookmarkDupalicateDOC": "Belge için aynı hiyerarşi zaten mevcut olduğundan Yer İşareti Yapısı İndirilemedi.",
+    "DownloadStructureFailure": "Yer İşareti Klasörü Yapısı İndirilemedi.",
+    "BookmarkDownloadStarted": "Yer İşareti Klasörü Yapısı İndirilmeye Başlandı.",
+    "BookmarkDownloadMultiFileError": "Tek dosya içeren bir belge seçin. \n",
+    "BookmarkDownloadNoFileError": "\n En az bir dosya içeren bir belge seçin.\n"
+  },
+  "editLinkTitle": "Bağlantıyı Düzenle",
+  "msg_NewBookmarkSuccess": {
+    "message": "Oluşturma başarılı."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Yeni Kısayol eklendi.",
+    "message": "Yeni kısayol Yer İşareti Klasörü'ne başarıyla eklendi."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Yeni Kısayollar eklendi.",
+    "message": "Yeni kısayollar Yer İşareti Klasörü'ne başarıyla eklendi."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Kısayol Oluşturma Başarısız.",
+    "message": "Yer İşareti Klasörü Kısayolu oluşturulamadı."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Yeni Bağlantı Ekle.",
+    "message": "Yeni harici bağlantı Yer İşareti Klasörü'ne başarıyla eklendi."
+  },
+  "msg_AddLinkPresent": "{nbLinks} harici bağlantı zaten mevcut.",
+  "msg_AddLinkFail": {
+    "title": "Harici Bağlantı Eklenemedi.",
+    "message": "Harici bağlantı Yer İşareti Klasörü'ne eklenemedi."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Bağlantıyı Düzenleme Başarılı.",
+    "message": "Harici Bağlantıyı Düzenleme Başarılı."
+  },
+  "msg_EditLinkFail": {
+    "title": "Bağlantıyı Düzenleme Başarısız Oldu.",
+    "message": "Harici bağlantı düzenlenemedi."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Düzenleme işlemi gerçekleştirilmedi, lütfen gerekli değişikliği yapın."
+  },
+  "msg_error_AddShortcut": "Yer İşareti Klasörü kısayolları eklenemiyor.",
+  "msg_info_addShortcut_alreadyPresent": "Oluşturulacak {shortcutAlreadyPresent} kısayol zaten mevcut.",
+  "msg_error_RemoveShortcut": "Yer İşareti Klasörü kısayolları kaldırılamıyor.",
+  "msg_creating_AddShortcut": "Yer İşareti Klasörü kısayolları ekleme",
+  "msg_error_Rename_Shortcut": "Kısayolun yeniden adlandırılmasına izin verilmiyor.",
+  "NoPathFound": "Geçerli yol bulunamadı.",
+  "progressPanel_dragDrop": "{objectsAdded} öğe {targetfolder} hedefine yükleniyor",
+  "progressPanel_add": "{objectsAdded} öğe {targetfolder} hedefine ekleniyor",
+  "progressPanel_move": "{objectsAdded} öğe {targetfolder} hedefine taşınıyor",
+  "progressPanel_copy": "{objectsAdded} öğe {targetfolder} hedefine kopyalanıyor",
+  "progressPanel_copyFolder": "{objectsAdded} {typeStruct}, {targetfolder} hedefine kopyalanıyor",
+  "progressPanel_moveFolder": "{objectsAdded} {typeStruct}, {targetfolder} hedefine taşınıyor",
+  "progressPanel_remove": "{objectsAdded} öğe {targetfolder} konumundan kaldırılıyor",
+  "progressPanel_expand": "{objectsexpanded} öğe {targetfolder} konumunda genişletiliyor",
+  "progressPanel_download": "Yer İşareti Klasörü yapısı {bookmarkname} yer işaretinden indiriliyor",
+  "removeStructuralObject": "Yapısal nesneleri dahil et",
+  "msg_info_objetexpanded": "Nesne başarıyla genişletildi",
+  "msg_info_objetexpandedError": {
+    "title": "Nesneler genişletilemiyor.",
+    "subtitle": "Uygulamayı yenileyin ve tekrar deneyin veya destek için yöneticinizle iletişime geçin."
+  },
+  "Paste_as_Duplicate": "Çoğaltma Olarak Yapıştır",
+  "Paste_as_Shortcut": "Kısayol Olarak Yapıştır",
+  "Paste_to_move": "Taşımak İçin Yapıştır",
+  "Paste_to_Bookmark": "Yer İşaretine Yapıştır",
+  "CopySettings": "Çoğaltma Olarak Yapıştırma Seçenekleri",
+  "AddPrefix": "Ön ek ekle",
+  "AddSuffix": "Son ek ekle",
+  "prefixPlaceholder": "Başlık için bir ön ek girin.",
+  "suffixPlaceholder": "Başlık için bir son ek girin.",
+  "helpPrefix": {
+    "shortHelp": "Çoğaltılmış nesneler başlığının başına eklenen karakterler.",
+    "longHelp": "Örneğin, Fren nesnesine ön ek olarak Tasarım_ eklerseniz çoğaltılmış nesnesinin başlığı Tasarım_Fren Sorunu olacaktır."
+  },
+  "helpSuffix": {
+    "shortHelp": "Çoğaltılmış nesneler başlığının sonuna eklenen karakterler.",
+    "longHelp": "Örneğin, Fren nesnesine son ek olarak _Tasarım eklerseniz çoğaltılmış nesnenin başlığı Fren_Tasarım olacaktır."
+  },
+  "PrefixLine": "Ön Ek",
+  "SuffixLine": "Son Ek",
+  "msg_info_notEnabledExpand": {
+    "title": "Yapısal nesneler dahil değil",
+    "subtitle": "\"Ürünlerin genişletilmesine izin ver\" tercihini değiştirir"
+  },
+  "documentCommands": {
+    "notAvailable": "Bu komut mevcut seçim için kullanılamaz.",
+    "notReady": {
+      "title": "Bu komut kullanıma hazır değil.",
+      "message": "Lütfen birkaç saniye içinde tekrar deneyin."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Bu işlem desteklenmiyor.",
+    "message": "Bu tipte bir nesne bu komutla eklenemez."
+  },
+  "exportMask": "CSV Dışa Aktarma.",
+  "attrComputation": "Öznitelik değerleri alınıyor.",
+  "tooManyResultFound": "Arama {maxResult} sonuç ile sınırlıdır. Lütfen sorguyu daraltın.",
+  "initialization_error": "Uygulama beklenmeyen bir hatayla karşılaştı. Destek için yöneticinizle iletişime geçin.",
+  "expandTooLarge": "Çok fazla nesne alındı.<br> Lütfen filtreleme ile veya genişletme seviyesini azaltarak gezinmeyi daraltın.",
+  "loadingText": "Yükleniyor...",
+  "treeExpandTooLarge": {
+    "title": "{typeStruct} genişletilemiyor",
+    "message": "Çok fazla {subType} nesnesi alındı",
+    "subtitle": "Tümünü daraltın ve yalnızca bir seviyeyi genişletin."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Kilitleyen",
+    "subtitle": "Kilidi açmak için tıklayın"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Kilidi Açıldı",
+    "subtitle": "Kilitlemek için tıklayın"
+  },
+  "Broken link": "Bozuk bağlantı",
+  "find_in_context_timeout": "Bağlam İçinde Bul zaman aşımı",
+  "classificationFacetName": "Sınıflandırmalar",
+  "classificationFacetText": "Sınıflandırmalar",
+  "searchLoading": "{typeStruct} içerisinde aranıyor",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Yeni bir sık kullanılan tanımlanamıyor.",
+    "subtitle": "Yeni sık kullanılanlar tanımlamak için mevcut olanları kaldırın.",
+    "message": "Sık kullanılan sayısı {maxLimit} ile sınırlıdır."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Bağlamsal menü açılamaz.",
+    "subtitle": "Daha az nesnenin seçilmesi gerekir.",
+    "message": "Seçilen nesne sayısı, CATIA bağlamsal menüsü için 10 ile sınırlıdır."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Seçili nesneler eklenemiyor.",
+    "subtitle": "Nesnelerin aranabilmesi için birkaç dakika içinde tekrar deneyin.",
+    "message": "Bazı nesneler henüz dizine eklenmemiş veya aranamıyor: {objects}."
+  },
+  "generic_service_failure": "Nesne bilgileri alınamadı. Birkaç dakika içinde tekrar deneyin. Sorun devam ederse yöneticinizle iletişime geçin",
+  "cannotChangeOwner": "{objectname}, {userId} hedefine aktarılamıyor.",
+  "multipleClassificationValue": "Çoklu",
+  "searchReasultWarningMsg": "Nesne sayısı beklenenden yüksek olabilir",
+  "warn_tb_unavailableRoot": "Üst {typeStruct} erişiminiz yok.",
+  "err_UnsupportedFavoriteType": "Bu sık kullanılan bölüm, seçili tipi desteklemiyor.",
+  "operation_add": "İçerik Ekle",
+  "toAdd": "Ekle",
+  "folderLoader_loading": "Yükleniyor",
+  "folderLoader_cancel": "İptal",
+  "folderLoader_expanding": "Genişletiliyor",
+  "folderLoader_expanding_products": "Ürünler Genişletiliyor",
+  "ActionBar_SelectAllCmd": "Tümünü Seç",
+  "ActionBar_SelectChildrenCmd": "Alt Öğe Seç",
+  "ActionBar_SelectInversionCmd": "Tersine Çevirmeyi Seç",
+  "ActionBar_SelectLeavesCmd": "Yaprakları Seç",
+  "ActionBar_SelectParentCmd": "Üst Öğeyi Seç",
+  "ActionBar_SelectSiblingCmd": "Eşdüzeyleri Seç",
+  "Filter_owner": "Bana Ait",
+  "Filter_tagger": "Etiketlere göre filtrele",
+  "switchViewImpossible": {
+    "title": "Görünüm mevcut değil.",
+    "message": "Görünümleri güncellemek için tarayıcıyı yenileyin."
+  },
+  "requestSaveView": {
+    "title": "Geçerli görünüm sürdürülmez.",
+    "message": "Geçerli görünümünüzü kaydetmek istiyor musunuz?",
+    "link": "Görünümü kaydet"
+  },
+  "loadingAllRoots": "Kalan kök elemanlar yükleniyor.",
+  "loadingRoots": "Kök elemanlar yükleniyor.",
+  "RefreshingNodes": "Nesne öznitelikleri yenileniyor",
+  "docCmd_unavailable": {
+    "title": "Komut kullanılamıyor.",
+    "subtitle": "Birkaç saniye içinde tekrar deneyin."
+  },
+  "unsupported_command_error": {
+    "title": "Komut desteklenmiyor.",
+    "message": "Geçerli seçim, bu işlemi desteklemeyen tipler içeriyor."
+  },
+  "lookingForObject": "Nesne aranıyor",
+  "openWithTitle": "Birlikte aç",
+  "openWithMessage": "Nesne birden çok konumda mevcut, açmak istediğiniz yolu seçin:",
+  "openWithNotSupported": "{label} desteklenmez.",
+  "warningNotAssociated": "{label} etiketinin şununla ilişkisi yok:",
+  "unsupportedAction": "Bu işlem, mevcut bağlamda desteklenmiyor."
+}

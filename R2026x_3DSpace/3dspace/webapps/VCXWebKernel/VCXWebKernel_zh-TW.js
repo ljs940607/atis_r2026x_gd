@@ -1,0 +1,1 @@
+define("DS/VCXWebKernel/VCXWebKernel_zh-TW",{});define("DS/VCXWebKernel/assets/nls/VCXWebKernel",{"ProgressNotification.Loading":"正在載入","Notification.Cancel":"取消","Cmd.Isolate":"隔離顯示","Cmd.SelectSimilarColor":"依類似顏色選擇","Cmd.SelectSimilarInstance":"依類似副本選擇","Cmd.AddToSelectionSetCmd":"加入至選擇組","Cmd.ApplyTo":"套用至","Cmd.ApplyTo.All":"套用至所有場景","Cmd.ApplyTo.Selected":"套用至所選場景"});

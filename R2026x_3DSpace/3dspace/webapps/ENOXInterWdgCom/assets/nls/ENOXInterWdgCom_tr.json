@@ -1,0 +1,12 @@
+{
+  "widgetLinkOptionsPanel": {
+    "title": "Bağlı Web Uygulamaları Seçenekleri",
+    "subTitle": "Web Uygulamaları arasında hangi özellikleri bağlamak istediğinizi seçin:",
+    "all": "Tümü",
+    "content": "İçerik",
+    "viewMode": "Görünüm Modu",
+    "viewPoint": "Bakış Noktası",
+    "contentHelp": "İçerik, 3B pencere öğesine yüklenen tüm içerikleri (Ürünler, PointClouds...) tanımlar",
+    "viewPointHelp": "Bakış noktası, yakınlaştırma, çevirme veya 3B'de döndürme ile elde edilen görüş noktasıdır"
+  }
+}

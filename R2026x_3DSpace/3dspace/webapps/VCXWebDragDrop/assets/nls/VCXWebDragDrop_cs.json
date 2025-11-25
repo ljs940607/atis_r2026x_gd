@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "Akce není podporována",
+  "Notification.DragAndDrop.Loading.Title": "Probíhá načítání",
+  "Notification.DragAndDrop.Loading.Title.Error": "Chyba načítání",
+  "Notification.DragAndDrop.Loading.Message.Error": "Obsah nelze načíst",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "Rozšíření není podporováno",
+  "Notification.DragAndDrop.Impossible.Title": "Přetažení pomocí myši",
+  "Notification.DragAndDrop.Impossible.SubTitle": "Ve stejném widgetu nelze použít DnD",
+  "Notification.DragAndDrop.NotYet.Title": "Přetažení pomocí myši",
+  "Notification.DragAndDrop.NotYet.SubTitle": "DnD ještě nemůžete použít! Nejprve otevřete zkušenost!",
+  "Notification.DragAndDrop.Insert.Failed": "Vložení se nezdařilo",
+  "Notification.DragAndDrop.Insert.Before.Experience": "Text nelze vložit před vytvořením prezentace",
+  "Notification.DragAndDrop.Not.Supported": "Typ není podporován",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "Vložení materiálů se nezdařilo",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "Vložení více položek se nezdařilo",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "Vícenásobné vložení je podporováno pouze u typu Krycí materiál."
+}

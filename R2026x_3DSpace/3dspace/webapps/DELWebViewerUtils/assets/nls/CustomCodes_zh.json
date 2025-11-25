@@ -1,0 +1,14 @@
+{
+  "Error.InvalidInput.Message": "提供的输入无效。",
+  "Error.InvalidInput.Title": "输入无效",
+  "Error.BuildupFailed.Title": "动态构建",
+  "Error.BuildupFailed.Message": "构建计算当前无法处理此数据，这可能会影响构建的可用性。请确保流程数据包含所需的链接，且结构符合要求。请尝试重新加载会话。如果问题仍然存在，请联系您的管理员。",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Title": "动态构建",
+  "Warn.ManufacturingComputeServiceConnectionFailed.Message": "由于与制造计算服务的连接错误，构建当前不可用。请尝试重新加载会话。如果问题仍然存在，请联系您的管理员。",
+  "Warn.ManufacturingComputeUnavailable.Title": "动态构建",
+  "Warn.ManufacturingComputeUnavailable.Message": "由于无法访问制造计算服务，构建当前不可用。请确保服务已正确安装。如果问题仍然存在，请联系您的管理员。",
+  "Warn.PublishedContentNotFound.Title": "发布构建",
+  "Warn.PublishedContentNotFound.Message": "发布的内容不可用。请确保使用工作计划发布应用程序 (PND) 发布流程。",
+  "Error.BuildupFromExternalContentNotValid.Message": "构建内容不可用于查看器选项集，请检查选项",
+  "Error.BuildupFromExternalContentNotValid.Title": "构建无效"
+}

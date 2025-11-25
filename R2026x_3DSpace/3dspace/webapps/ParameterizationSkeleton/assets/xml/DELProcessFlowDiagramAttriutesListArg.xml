@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration">
+	<object type="combobox" id="attributeName" value="" disabled="false" mandatory="true" sortable="false"></object>
+	<object type="textarea" id="maxWidth" value="" disabled="false" mandatory="false" sortable="false"></object>
+	<object type="checkbox" id="mergeWithPreviousRow" value="false" mandatory="true" sortable="false"></object>
+	<object type="checkbox" id="displayAttribute" value="true" mandatory="true" sortable="false"></object>
+</ui>

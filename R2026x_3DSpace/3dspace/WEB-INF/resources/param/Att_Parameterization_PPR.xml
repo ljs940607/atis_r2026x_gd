@@ -1,0 +1,1466 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="PPRObjects">
+<!--
+##############################################################
+       PPR Attributes Parameterization
+       Management Atttibutes PPR Planning Object 
+       - Manufacturing Items -used also by service Items
+       - Operations
+       - Systems
+       - Workplan
+       - Work Instructions
+       - Services Type
+##############################################################
+-->
+ <!--Attributes-->
+ <!--Attributes-->
+ <!--Attributes-->
+<Domain id="AttributeDef">
+  <!--Manuf Item Planning (the 3 group families used by Maturity Graph)-->
+  <!--Continuous Manuf Item-->
+  <Family id="DELFmiFunctionPPRContinuousReference" regSuite="PPRObjects" >
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELFmiFunctionPPRContinuousReference"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Create (NLS == Discrete) Manuf Item-->
+  <Family id="DELFmiFunctionPPRCreateReference" regSuite="PPRObjects" >
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELFmiFunctionPPRCreateReference"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Transform -->
+  <Family id="Transform">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Transform"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--All the Types Manuf Item-->
+  <Family id="DELFmiFunctionPPRReference">
+		<Constant id="appType" value="VPM"/>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELFmiFunctionPPRContinuousReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELFmiFunctionPPRContinuousReference"/>
+      <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELFmiFunctionPPRDiscreteReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELFmiFunctionPPRDiscreteReference"/>
+      <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+   </Family>
+    <Family id="MBOMContinuousInProcessItem"> 
+      <Constant id="appType" value="VPM"/> 
+      <Constant id="type" value="MBOMContinuousInProcessItem"/> 
+      <Constant id="package" value="DELAsmAssemblyModelDisciplines"/> 
+  </Family>
+    <Family id="MBOMContinuousPhaseReference"> 
+      <Constant id="appType" value="VPM"/> 
+      <Constant id="type" value="MBOMContinuousPhaseReference"/> 
+      <Constant id="package" value="DELAsmAssemblyModelDisciplines"/> 
+  </Family>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+	</Family>
+
+  <!--Every Type of Manuf Item -->
+  <!--CreateAssembly -->
+  <Family id="CreateAssembly">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="CreateAssembly"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--CreateKit -->
+  <Family id="CreateKit">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="CreateKit"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--CreateMaterial -->
+  <Family id="CreateMaterial">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="CreateMaterial"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--ProcessContinuousCreateMaterial -->
+  <Family id="ProcessContinuousCreateMaterial">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="ProcessContinuousCreateMaterial"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--ElementaryEndItem -->
+  <Family id="ElementaryEndItem">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="ElementaryEndItem"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Provide -->
+  <Family id="Provide">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Provide"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+
+  <!--Marking -->
+  <Family id="Marking">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Marking"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Annotation -->
+  <Family id="Annotation">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Annotation"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Machine -->
+  <Family id="Machine">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Machine"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--RemoveMaterial -->
+  <Family id="RemoveMaterial">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="RemoveMaterial"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Drill -->
+  <Family id="Drill">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Drill"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--PreDrill -->
+  <Family id="PreDrill">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="PreDrill"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--NoDrill -->
+  <Family id="NoDrill">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="NoDrill"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Cutting -->
+  <Family id="Cutting">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Cutting"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Grinding -->
+  <Family id="Grinding">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Grinding"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Beveling -->
+  <Family id="Beveling">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Beveling"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--SplitProcess -->
+  <Family id="SplitProcess">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="SplitProcess"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--ProcessContinuousProvide -->
+  <Family id="ProcessContinuousProvide">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="ProcessContinuousProvide"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Fasten -->
+  <Family id="Fasten">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Fasten"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Fasten -->
+  <Family id="Unfasten">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Unfasten"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Disassemble -->
+  <Family id="Disassemble">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Disassemble"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Install -->
+  <Family id="Installation">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="Installation"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DetailedFasten -->
+  <Family id="DetailedFasten">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DetailedFasten"/>
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/>
+    <!--DELAsmAssemblyModelDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+
+  <!--Generic Operation (All the types) -->
+  <Family id="DELLmiOperationPPRReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiOperationPPRReference"/>
+    <Constant id="package" value="DELLmiProductionOperationPPR"/>
+    <!--DELLmiProductionOperationPPR == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--General Operation-->
+  <Family id="DELLmiGeneralOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiGeneralOperationReference"/>
+    <Constant id="package" value="DELLmiProductionGeneralOperation"/>
+    <!--DELLmiProductionGeneralOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Loading Operation-->
+  <Family id="DELLmiLoadingOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiLoadingOperationReference"/>
+    <Constant id="package" value="DELLmiLoadingOperationReference"/>
+    <!--DELLmiLoadingOperationReference == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Unloading Operation-->
+  <Family id="DELLmiUnloadingOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiUnloadingOperationReference"/>
+    <Constant id="package" value="DELLmiProductionUnloadingOperation"/>
+    <!--DELLmiProductionUnloadingOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  
+ <!--Picking Operation-->
+  <!--<Family id="DELLmiPickingOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiPickingOperationReference"/>
+    <Constant id="package" value="DELLmiProductionPickingOperation"/>-->
+    <!--DELLmiProductionPickingOperation == nom du package (Name defined in metadata)-->
+  <!--</Family>-->
+  
+  <!--Curve Operation-->
+  <Family id="DELLmiCurveOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiCurveOperationReference"/>
+    <Constant id="package" value="DELLmiProductionCurveOperation"/>
+    <!--DELLmiProductionCurveOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Punctual Operation-->
+  <Family id="DELLmiPunctualOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiPunctualOperationReference"/>
+    <Constant id="package" value="DELLmiProductionPunctualOperation"/>
+    <!--DELLmiProductionPunctualOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Source Operation-->
+  <Family id="DELLmiSourceOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiSourceOperationReference"/>
+    <Constant id="package" value="DELLmiProductionSourceOperation"/>
+    <!--DELLmiProductionSourceOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Sink Operation-->
+  <Family id="DELLmiSinkOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiSinkOperationReference"/>
+    <Constant id="package" value="DELLmiProductionSinkOperation"/>
+    <!--DELLmiProductionSinkOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Buffer Operation-->
+  <Family id="DELLmiBufferOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiBufferOperationReference"/>
+    <Constant id="package" value="DELLmiProductionBufferOperation"/>
+    <!--DELLmiProductionBufferOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Interrupt Operation-->
+  <Family id="DELLmiInterruptOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiInterruptOperationReference"/>
+    <Constant id="package" value="DELLmiProductionInterruptOperation"/>
+    <!--DELLmiProductionInterruptOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Transfer Operation-->
+  <Family id="DELLmiTransferOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiTransferOperationReference"/>
+    <Constant id="package" value="DELLmiProductionTransferOperation"/>
+    <!--DELLmiProductionTransferOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Remove Material Operation-->
+  <Family id="DELLmiRemoveMaterialOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiRemoveMaterialOperationReference"/>
+    <Constant id="package" value="DELLmiProductionRemoveMaterialOperation"/>
+    <!--DELLmiProductionRemoveMaterialOperation == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Header Operation-->
+  <Family id="DELLmiHeaderOperationReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiHeaderOperationReference"/>
+    <Constant id="package" value="DELLmiProductionHeaderOperation"/>
+    <!--DELLmiProductionHeaderOperation == nom du package (Name defined in metadata)-->
+  </Family>
+
+  <!--All the Types Header operations-->
+  <Family id="DELLmiHeaderOperations">
+    <Constant id="appType" value="VPM"/>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiHeaderOperationReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiHeaderOperationReference"/>
+      <Constant id="package" value="DELLmiProductionHeaderOperation"/>
+      <!--DELLmiProductionHeaderOperation == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiExecHeaderOperationReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiExecHeaderOperationReference"/>
+      <Constant id="package" value="DELLmiProductionExecHeaderOperation"/>
+      <!--DELLmiProductionExecHeaderOperation == nom du package (Name defined in metadata)-->
+    </Family>
+  </Family>
+
+  <!--General System-->
+  <Family id="DELLmiGeneralSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiGeneralSystemReference"/>
+    <Constant id="package" value="DELLmiProductionGeneralSystem"/>
+    <!--DELLmiProductionGeneralSystem == nom du package (Name defined in metadata)-->
+  </Family>
+  
+  <!--Production System All types-->
+  <Family id="DELLmiProductionSystemPPR">
+    <!--There is not any Abstract class for all the System excepting Workplan
+    Every new type should be added there-->
+    <Constant id="appType" value="VPM"/>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiGeneralSystemReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiGeneralSystemReference"/>
+      <Constant id="package" value="DELLmiProductionGeneralSystem"/>
+      <!--DELLmiProductionGeneralSystem == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiTransformationSystemReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiTransformationSystemReference"/>
+      <Constant id="package" value="DELLmiProductionTransformationSystem"/>
+      <!--DELLmiProductionTransformationSystem == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiTransferSystemReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiTransferSystemReference"/>
+      <Constant id="package" value="DELLmiProductionTransferSystem"/>
+      <!--DELLmiProductionTransferSystem == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+     <Family id="DELLmiStorageSystemReference">
+       <Constant id="appType" value="VPM"/>
+       <Constant id="type" value="DELLmiStorageSystemReference"/>
+       <Constant id="package" value="DELLmiProductionStorageSystem"/>
+       <!--DELLmiProductionStorageSystem == nom du package (Name defined in metadata)-->
+      </Family>
+  </Family>
+  <!--Every System type-->
+
+  <!--DELLmiTransformationSystemReference-->
+  <Family id="DELLmiTransformationSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiTransformationSystemReference"/>
+    <Constant id="package" value="DELLmiProductionTransformationSystem"/>
+    <!--DELLmiProductionTransformationSystem == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELLmiTransferSystemReference -->
+  <Family id="DELLmiTransferSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiTransferSystemReference"/>
+    <Constant id="package" value="DELLmiProductionTransferSystem"/>
+    <!--DELLmiProductionTransferSystem == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELLmiStorageSystemReference -->
+  <Family id="DELLmiStorageSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiStorageSystemReference"/>
+    <Constant id="package" value="DELLmiProductionStorageSystem"/>
+    <!--DELLmiProductionStorageSystem == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--SourceSystem -->
+  <Family id="SourceSystem">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="SourceSystem"/>
+    <Constant id="package" value="PLMDELMIASystemDisciplines"/>
+    <!--PLMDELMIASystemDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--SinkSystem -->
+  <Family id="SinkSystem">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="SinkSystem"/>
+    <Constant id="package" value="PLMDELMIASystemDisciplines"/>
+    <!--PLMDELMIASystemDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--BufferSystem -->
+  <Family id="BufferSystem">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="BufferSystem"/>
+    <Constant id="package" value="PLMDELMIASystemDisciplines"/>
+    <!--PLMDELMIASystemDisciplines == nom du package (Name defined in metadata)-->
+  </Family>
+
+  <!--All the Types Work plans-->
+  <Family id="DELLmiWorkPlans">
+    <Constant id="appType" value="VPM"/>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiQtyControlProcessReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiQtyControlProcessReference"/>
+      <Constant id="package" value="DELLmiQtyControlProcess"/>
+      <!--DELLmiQtyControlProcess == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiWorkPlanSystemReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiWorkPlanSystemReference"/>
+      <Constant id="package" value="DELLmiProductionWorkplanSystem"/>
+      <!--DELLmiProductionWorkplanSystem == nom du package (Name defined in metadata)-->
+    </Family>
+    <!--SubFamilly => required when several types are involved -->
+    <Family id="DELLmiWorkOrderReference">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="type" value="DELLmiWorkOrderReference"/>
+      <Constant id="package" value="DELLmiWorkOrder"/>
+      <!--DELLmiWorkOrder == nom du package (Name defined in metadata)-->
+    </Family>
+  </Family>
+  
+  <!--Quality Control Process-->
+  <Family id="DELLmiQtyControlProcessReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiQtyControlProcessReference"/>
+    <Constant id="package" value="DELLmiQtyControlProcess"/>
+    <!--DELLmiQtyControlProcess == nom du package (Name defined in metadata)-->
+  </Family>
+  
+  <!--Workplan-->
+  <Family id="DELLmiWorkPlanSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiWorkPlanSystemReference"/>
+    <Constant id="package" value="DELLmiProductionWorkplanSystem"/>
+    <!--DELLmiProductionWorkplanSystem == nom du package (Name defined in metadata)-->
+  </Family>
+  
+  <!--Work Instruction-->
+  <Family id="DELWkiPPRReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELWkiPPRReference"/>
+    <Constant id="package" value="DELWkiWorkInstructionPPR"/>
+    <!--DELWkiWorkInstructionPPR == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELWkiSignOffReference-->
+  <Family id="DELWkiSignOffReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELWkiSignOffReference"/>
+    <Constant id="package" value="DELWkiSignOff"/>
+    <!--DELWkiSignOff == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELWkiInstructionReference-->
+  <Family id="DELWkiInstructionReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELWkiInstructionReference"/>
+    <Constant id="package" value="DELWkiInstruction"/>
+    <!--DELWkiInstruction == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELWkiAlertReference-->
+  <Family id="DELWkiAlertReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELWkiAlertReference"/>
+    <Constant id="package" value="DELWkiAlert"/>
+    <!--DELWkiAlertReference == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELWkiDataCollectReference-->
+  <Family id="DELWkiDataCollectReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELWkiDataCollectReference"/>
+    <Constant id="package" value="DELWkiDataCollect"/>
+    <!--DELWkiDataCollect == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--Items Services-->
+  <!--Familly All the Service Create Items-->
+  <Family id="DELFmiFunctionPPRServiceCreateReference" regSuite="PPRObjects" >
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELFmiFunctionPPRServiceCreateReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (Name defined in metadata)-->
+  </Family>
+   <!--DELServicePartReference-->
+  <Family id="DELServicePartReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELServicePartReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (useName defined in metadata)-->
+  </Family>
+ <!--DELServiceAssemblyReference-->
+  <Family id="DELServiceAssemblyReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELServiceAssemblyReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (useName defined in metadata)-->
+  </Family>
+ <!--DELServiceKitReference-->
+  <Family id="DELServiceKitReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELServiceKitReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (useName defined in metadata)-->
+  </Family>
+  <!--Familly All the Service Continuous Items-->
+  <Family id="DELFmiFunctionServiceContinuousReference" regSuite="PPRObjects" >
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELFmiFunctionServiceContinuousReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (Name defined in metadata)-->
+  </Family>
+  <!--DELContinuousServicePartReference-->
+  <Family id="DELContinuousServicePartReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELContinuousServicePartReference"/>
+    <Constant id="package" value="DELServiceItemModel"/>
+    <!--DELServiceItemModel == nom du package (useName defined in metadata)-->
+  </Family>
+  <!--End of Items Services-->
+ <!--DELLmiHeaderWorkPlanReference-->
+  <Family id="DELLmiHeaderWorkPlanReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiHeaderWorkPlanReference"/>
+    <Constant id="package" value="DELLmiProductionHeaderProcessAbstract"/>
+    <!--DELLmiProductionHeaderProcessAbstract == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELLmiServiceHeaderWorkPlanReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiServiceHeaderWorkPlanReference"/>
+    <Constant id="package" value="DELLmiProductionHeaderProcessAbstract"/>
+    <!--DELLmiProductionHeaderProcessAbstract == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELLmiServiceWorkPlanSystemReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiServiceWorkPlanSystemReference"/>
+    <Constant id="package" value="DELLmiProductionSystemPPR"/>
+    <!--DELLmiProductionSystemPPR == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELLmiServiceWorkPlanSupportingTaskReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiServiceWorkPlanSupportingTaskReference"/>
+    <Constant id="package" value="DELLmiProductionServiceWorkplanSystem"/>
+    <!--DELLmiProductionServiceWorkplanSystem == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELLmiServiceWorkPlanRectifyingReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiServiceWorkPlanRectifyingReference"/>
+    <Constant id="package" value="DELLmiProductionServiceWorkplanSystem"/>
+    <!--DELLmiProductionServiceWorkplanSystem == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELLmiServiceWorkPlanOperationalReference">
+    <Constant id="appType" value="VPM"/>
+    <Constant id="type" value="DELLmiServiceWorkPlanOperationalReference"/>
+    <Constant id="package" value="DELLmiProductionServiceWorkplanSystem"/>
+    <!--DELLmiProductionServiceWorkplanSystem == nom du package (useName defined in metadata)-->
+  </Family>
+  <Family id="DELResourceParameterPlanReference"> 
+	<Constant id="appType" value="VPM"/> 
+	<Constant id="type" value="DELResourceParameterPlanReference"/> 
+	<Constant id="package" value="DELResourceParameterPlan"/> 
+	<!-- DELResourceParameterPlan== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="MBOMContinuousInProcessItem"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="MBOMContinuousInProcessItem"/> 
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/> 
+    <!-- DELAsmAssemblyModelDisciplines== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="MBOMContinuousPhaseReference"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="MBOMContinuousPhaseReference"/> 
+    <Constant id="package" value="DELAsmAssemblyModelDisciplines"/> 
+    <!-- DELAsmAssemblyModelDisciplines== nom du package (useName defined in metadata)--> 
+  </Family>
+  <!-- construction Items-->
+  <Family id="DELConstructionStructure"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionStructure"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkElementArea"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkElementArea"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkElementEach"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkElementEach"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkElementLength"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkElementLength"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkPackageArea"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkPackageArea"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkPackageEach"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkPackageEach"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkPackageGroup"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkPackageGroup"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELConstructionWorkPackageLength"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELConstructionWorkPackageLength"/> 
+    <Constant id="package" value="DELConstructionItemModel"/> 
+    <!-- 	DELConstructionItemModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELStandardProcessReference"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELStandardProcessReference"/> 
+    <Constant id="package" value="DELStandardProcess"/> 
+    <!-- DELStandardProcess== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELIllustratedItemHeaderReference"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELIllustratedItemHeaderReference"/> 
+    <Constant id="package" value="DELIllustratedItem"/> 
+    <!-- DELIllustratedItem== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELIllustratedItemReference"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELIllustratedItemReference"/> 
+    <Constant id="package" value="DELIllustratedItem"/> 
+    <!-- DELIllustratedItem== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELIllustratedItemFigureReference"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELIllustratedItemFigureReference"/> 
+    <Constant id="package" value="DELIllustratedItem"/> 
+    <!-- DELIllustratedItem== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="PLMSpecifyHowToCollectDataCnx"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="PLMSpecifyHowToCollectDataCnx"/> 
+    <Constant id="package" value="DELWkiDataCollectPlan"/> 
+    <!-- DELWkiDataCollectPlan== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmPlanAbstract"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmPlanAbstract"/> 
+    <Constant id="package" value="DELResourceParameterPlan"/> 
+    <!-- DELResourceParameterPlan== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmPlanGET"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmPlanGET"/> 
+    <Constant id="package" value="DELResourceParameterPlan"/> 
+    <!-- DELResourceParameterPlan== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmPlanSET"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmPlanSET"/> 
+    <Constant id="package" value="DELResourceParameterPlan"/> 
+    <!-- DELResourceParameterPlan== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmAbstract"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmAbstract"/> 
+    <Constant id="package" value="DELRmiParameterModel"/> 
+    <!-- DELRmiParameterModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmINPUT"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmINPUT"/> 
+    <Constant id="package" value="DELRmiParameterModel"/> 
+    <!-- DELRmiParameterModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELResourcePrmOUTPUT"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELResourcePrmOUTPUT"/> 
+    <Constant id="package" value="DELRmiParameterModel"/> 
+    <!-- DELRmiParameterModel== nom du package (useName defined in metadata)--> 
+  </Family>
+  <Family id="DELMfgResponsibilityCnx"> 
+    <Constant id="appType" value="VPM"/> 
+    <Constant id="type" value="DELMfgResponsibilityCnx"/> 
+    <Constant id="package" value="DELMfgResponsibility"/> 
+    <!-- DELMfgResponsibility== nom du package (useName defined in metadata)--> 
+  </Family>
+  <!--DELDiscreteTimeLimitReference -->  
+  <Family id="DELDiscreteTimeLimitReference">    
+	<Constant id="appType" value="VPM"/>    
+	<Constant id="type" value="DELDiscreteTimeLimitReference"/>    
+	<Constant id="package" value="DELTimeLimit"/>    
+	<!--DELTimeLimit == nom du package (Name defined in metadata)-->  
+  </Family>
+  <!--DELPeriodicTimeLimitReference -->  
+  <Family id=" DELPeriodicTimeLimitReference">    
+	<Constant id="appType" value="VPM"/>    
+	<Constant id="type" value="DELPeriodicTimeLimitReference"/>    
+	<Constant id="package" value="DELTimeLimit"/>    
+  <!--DELTimeLimit == nom du package (Name defined in metadata)-->
+  </Family>
+	<!--DELSBOMHardwareReferenceAbst -->
+	<Family id="DELSBOMHardwareReferenceAbst">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMHardwareReferenceAbst"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMAggregatedReferenceAbst -->
+	<Family id="DELSBOMAggregatedReferenceAbst">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMAggregatedReferenceAbst"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMZonalReferenceAbst -->
+	<Family id="DELSBOMZonalReferenceAbst">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMZonalReferenceAbst"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMSoftwareReferenceAbst -->
+	<Family id="DELSBOMSoftwareReferenceAbst">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMSoftwareReferenceAbst"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMHardwareUsageReference -->
+	<Family id="DELSBOMHardwareUsageReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMHardwareUsageReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMHardwareItemReference -->
+	<Family id="DELSBOMHardwareItemReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMHardwareItemReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMAggregatedComponentReference -->
+	<Family id="DELSBOMAggregatedComponentReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMAggregatedComponentReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMAggregatedUsageReference -->
+	<Family id="DELSBOMAggregatedUsageReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMAggregatedUsageReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMZoneReference -->
+	<Family id="DELSBOMZoneReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMZoneReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMZoneUsageReference -->
+	<Family id="DELSBOMZoneUsageReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMZoneUsageReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMSoftwareItemReference -->
+	<Family id="DELSBOMSoftwareItemReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMSoftwareItemReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMSoftwareUsageReference -->
+	<Family id="DELSBOMSoftwareUsageReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMSoftwareUsageReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<!--DELSBOMSoftwareComponentReference -->
+	<Family id="DELSBOMSoftwareComponentReference">
+		<Constant id="appType" value="VPM"/>
+		<Constant id="type" value="DELSBOMSoftwareComponentReference"/>
+		<Constant id="package" value="DELSBOMModel"/>
+		<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+	</Family>
+	<Family id="DELAllServiceBOMReference">
+		<Constant id="appType" value="VPM"/>
+		<Family id="DELFmiFunctionPPRServiceCreateReference" regSuite="PPRObjects" >
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="DELFmiFunctionPPRServiceCreateReference"/>
+			<Constant id="package" value="DELServiceItemModel"/>
+			<!--DELServiceItemModel == nom du package (Name defined in metadata)-->
+		</Family>
+		<Family id="DELFmiFunctionServiceContinuousReference" regSuite="PPRObjects" >
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="DELFmiFunctionServiceContinuousReference"/>
+			<Constant id="package" value="DELServiceItemModel"/>
+			<!--DELServiceItemModel == nom du package (Name defined in metadata)-->
+		</Family>
+		<Family id="DELSBOMDiscreteReferenceAbst" regSuite="PPRObjects" >
+			<Constant id="appType" value="VPM"/>
+			<Constant id="type" value="DELSBOMDiscreteReferenceAbst"/>
+			<Constant id="package" value="DELSBOMModel"/>
+			<!--DELSBOMModel == nom du package (Name defined in metadata)-->
+		</Family>
+	</Family>
+
+	<!-- content naming rules -->
+</Domain>
+<!-- content naming rules -->
+<Domain id="ObjectIdentification">
+	<Family id="ObjectIdentifier" icon="iconParameterizationIdentification.gif">
+		<Parameter id="IDCreateAssembly" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.CreateAssembly">	
+			<Argument id="PrefixArg" type="string" default="mass"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="CreateAssembly"/>
+			<Constant id="appType" value="VPM"/>				
+		</Parameter>
+		<Parameter id="IDProvide" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Provide">	
+			<Argument id="PrefixArg" type="string" default="prvd"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Provide"/>
+			<Constant id="appType" value="VPM"/>				
+		</Parameter>
+		<Parameter id="IDProcessContinuousCreateMaterial" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.ProcessContinuousCreateMaterial">
+			<Argument id="PrefixArg" type="string" default="ccm"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="ProcessContinuousCreateMaterial"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDProcessContinuousProvide" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.ProcessContinuousProvide">
+			<Argument id="PrefixArg" type="string" default="cpr"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="ProcessContinuousProvide"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDTransform" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Transform">
+			<Argument id="PrefixArg" type="string" default="trsf"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Transform"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDCreateKit" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.CreateKit">
+			<Argument id="PrefixArg" type="string" default="ckt"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="CreateKit"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDCreateMaterial" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.CreateMaterial">
+			<Argument id="PrefixArg" type="string" default="cmt"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="CreateMaterial"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDElementaryEndItem" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.ElementaryEndItem">
+			<Argument id="PrefixArg" type="string" default="elei"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="ElementaryEndItem"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDFasten" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Fasten">
+			<Argument id="PrefixArg" type="string" default="mfst"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Fasten"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDInstallation" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Installation">
+			<Argument id="PrefixArg" type="string" default="ipc"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Installation"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDMarking" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Marking">
+			<Argument id="PrefixArg" type="string" default="mrk"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Marking"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDRemoveMaterial" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.RemoveMaterial">
+			<Argument id="PrefixArg" type="string" default="rmat"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="RemoveMaterial"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDSplitProcess" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.SplitProcess">
+			<Argument id="PrefixArg" type="string" default="splt"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="SplitProcess"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDUnfasten" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Unfasten">
+			<Argument id="PrefixArg" type="string" default="ufs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Unfasten"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDAnnotation" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Annotation">
+			<Argument id="PrefixArg" type="string" default="ann"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Annotation"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDBeveling" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Beveling">
+			<Argument id="PrefixArg" type="string" default="bvl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Beveling"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDCutting" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Cutting">
+			<Argument id="PrefixArg" type="string" default="cut"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Cutting"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDrill" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Drill">
+			<Argument id="PrefixArg" type="string" default="drl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Drill"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkPackageGroup" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkPackageGroup">
+			<Argument id="PrefixArg" type="string" default="cwpg"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkPackageGroup"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkPackageLength" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkPackageLength">
+			<Argument id="PrefixArg" type="string" default="cwpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkPackageLength"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkPackageLength" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkPackageLength">
+			<Argument id="PrefixArg" type="string" default="cwpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkPackageLength"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELIllustratedItemHeaderReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELIllustratedItemHeaderReference">
+			<Argument id="PrefixArg" type="string" default="ilih"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELIllustratedItemHeaderReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDetailedTransform" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DetailedTransform">
+			<Argument id="PrefixArg" type="string" default="dtrsf"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DetailedTransform"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiBufferOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiBufferOperationReference">
+			<Argument id="PrefixArg" type="string" default="bop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiBufferOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiCurveOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiCurveOperationReference">
+			<Argument id="PrefixArg" type="string" default="cop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiCurveOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiGeneralOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiGeneralOperationReference">
+			<Argument id="PrefixArg" type="string" default="gop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiGeneralOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiGeneralSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiGeneralSystemReference">
+			<Argument id="PrefixArg" type="string" default="gsys"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiGeneralSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiLoadingOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiLoadingOperationReference">
+			<Argument id="PrefixArg" type="string" default="lop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiLoadingOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiPunctualOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiPunctualOperationReference">
+			<Argument id="PrefixArg" type="string" default="pop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiPunctualOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiRemoveMaterialOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiRemoveMaterialOperationReference">
+			<Argument id="PrefixArg" type="string" default="rmop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiRemoveMaterialOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiSinkOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiSinkOperationReference">
+			<Argument id="PrefixArg" type="string" default="sko"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiSinkOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiSourceOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiSourceOperationReference">
+			<Argument id="PrefixArg" type="string" default="sco"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiSourceOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiStorageSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiStorageSystemReference">
+			<Argument id="PrefixArg" type="string" default="sts"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiStorageSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiTransferOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiTransferOperationReference">
+			<Argument id="PrefixArg" type="string" default="top"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiTransferOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiTransferSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiTransferSystemReference">
+			<Argument id="PrefixArg" type="string" default="tfs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiTransferSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiTransformationSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiTransformationSystemReference">
+			<Argument id="PrefixArg" type="string" default="trs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiTransformationSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiUnloadingOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiUnloadingOperationReference">
+			<Argument id="PrefixArg" type="string" default="uop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiUnloadingOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiInterruptOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiInterruptOperationReference">
+			<Argument id="PrefixArg" type="string" default="iop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiInterruptOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiAlertReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiAlertReference">
+			<Argument id="PrefixArg" type="string" default="wia"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiAlertReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiInstructionReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiInstructionReference">
+			<Argument id="PrefixArg" type="string" default="wit"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiInstructionReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiSignOffReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiSignOffReference">
+			<Argument id="PrefixArg" type="string" default="wis"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiSignOffReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiProductionShiftModelReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiProductionShiftModelReference">
+			<Argument id="PrefixArg" type="string" default="shm"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiProductionShiftModelReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELIllustratedItemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELIllustratedItemReference">
+			<Argument id="PrefixArg" type="string" default="ili"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELIllustratedItemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDGrinding" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Grinding">
+			<Argument id="PrefixArg" type="string" default="grd"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Grinding"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDMachine" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.Machine">
+			<Argument id="PrefixArg" type="string" default="mach"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="Machine"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDNoDrill" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.NoDrill">
+			<Argument id="PrefixArg" type="string" default="ndl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="NoDrill"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDPreDrill" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.PreDrill">
+			<Argument id="PrefixArg" type="string" default="pdl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="PreDrill"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELServiceAssemblyReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELServiceAssemblyReference">
+			<Argument id="PrefixArg" type="string" default="srva"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELServiceAssemblyReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELServiceKitReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELServiceKitReference">
+			<Argument id="PrefixArg" type="string" default="srvk"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELServiceKitReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELServicePartReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELServicePartReference">
+			<Argument id="PrefixArg" type="string" default="srvp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELServicePartReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDetailedFasten" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DetailedFasten">
+			<Argument id="PrefixArg" type="string" default="dfs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DetailedFasten"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELContinuousServicePartReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELContinuousServicePartReference">
+			<Argument id="PrefixArg" type="string" default="csp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELContinuousServicePartReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDContinuousByProduct" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.ContinuousByProduct">
+			<Argument id="PrefixArg" type="string" default="cbp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="ContinuousByProduct"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDiscreteByProduct" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DiscreteByProduct">
+			<Argument id="PrefixArg" type="string" default="dbp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DiscreteByProduct"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELServiceAttachingItemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELServiceAttachingItemReference">
+			<Argument id="PrefixArg" type="string" default="srvatti"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELServiceAttachingItemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELServiceSpareItemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELServiceSpareItemReference">
+			<Argument id="PrefixArg" type="string" default="srvspi"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELServiceSpareItemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDMBOMContinuousInProcessItem" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.MBOMContinuousInProcessItem">
+			<Argument id="PrefixArg" type="string" default="mcipi"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="MBOMContinuousInProcessItem"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDMBOMContinuousPhaseReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.MBOMContinuousPhaseReference">
+			<Argument id="PrefixArg" type="string" default="mcp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="MBOMContinuousPhaseReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionStructure" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionStructure">
+			<Argument id="PrefixArg" type="string" default="cstr"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionStructure"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkElementArea" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkElementArea">
+			<Argument id="PrefixArg" type="string" default="cwea"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkElementArea"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkElementEach" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkElementEach">
+			<Argument id="PrefixArg" type="string" default="cwee"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkElementEach"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkElementLength" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkElementLength">
+			<Argument id="PrefixArg" type="string" default="cwel"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkElementLength"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkPackageArea" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkPackageArea">
+			<Argument id="PrefixArg" type="string" default="cwpa"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkPackageArea"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELConstructionWorkPackageEach" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELConstructionWorkPackageEach">
+			<Argument id="PrefixArg" type="string" default="cwpe"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELConstructionWorkPackageEach"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiWorkPlanSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiWorkPlanSystemReference">
+			<Argument id="PrefixArg" type="string" default="wpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiWorkPlanSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiPickingOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiPickingOperationReference">
+			<Argument id="PrefixArg" type="string" default="pope"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiPickingOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiHeaderOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiHeaderOperationReference">
+			<Argument id="PrefixArg" type="string" default="hop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiHeaderOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiDataCollectPlanReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiDataCollectPlanReference">
+			<Argument id="PrefixArg" type="string" default="widp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiDataCollectPlanReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiProductionPlanReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiProductionPlanReference">
+			<Argument id="PrefixArg" type="string" default="pnp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiProductionPlanReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiServiceWorkPlanSystemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiServiceWorkPlanSystemReference">
+			<Argument id="PrefixArg" type="string" default="srvwpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiServiceWorkPlanSystemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiDataCollectChecklistReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiDataCollectChecklistReference">
+			<Argument id="PrefixArg" type="string" default="widc"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiDataCollectChecklistReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiHeaderWorkPlanReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiHeaderWorkPlanReference">
+			<Argument id="PrefixArg" type="string" default="hwpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiHeaderWorkPlanReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiServiceHeaderWorkPlanReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiServiceHeaderWorkPlanReference">
+			<Argument id="PrefixArg" type="string" default="srvhwpl"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiServiceHeaderWorkPlanReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiQtyControlProcessReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiQtyControlProcessReference">
+			<Argument id="PrefixArg" type="string" default="qcp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiQtyControlProcessReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiChangeOverOperationReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiChangeOverOperationReference">
+			<Argument id="PrefixArg" type="string" default="coop"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiChangeOverOperationReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELResourceParameterPlanReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELResourceParameterPlanReference">
+			<Argument id="PrefixArg" type="string" default="rpp"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELResourceParameterPlanReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiAlertCautionReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiAlertCautionReference">
+			<Argument id="PrefixArg" type="string" default="wic"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiAlertCautionReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiAlertNoteReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiAlertNoteReference">
+			<Argument id="PrefixArg" type="string" default="win"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiAlertNoteReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELWkiAlertWarningReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELWkiAlertWarningReference">
+			<Argument id="PrefixArg" type="string" default="wiw"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELWkiAlertWarningReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiServiceWorkPlanOperationalReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiServiceWorkPlanOperationalReference">
+			<Argument id="PrefixArg" type="string" default="srvwplo"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiServiceWorkPlanOperationalReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiServiceWorkPlanRectifyingReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiServiceWorkPlanRectifyingReference">
+			<Argument id="PrefixArg" type="string" default="srvwplr"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiServiceWorkPlanRectifyingReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELLmiServiceWorkPlanSupportingTaskReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELLmiServiceWorkPlanSupportingTaskReference">
+			<Argument id="PrefixArg" type="string" default="srvwplst"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELLmiServiceWorkPlanSupportingTaskReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELStandardProcessReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELStandardProcessReference">
+			<Argument id="PrefixArg" type="string" default="stdprcs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELStandardProcessReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELIllustratedItemFigureReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELIllustratedItemFigureReference">
+			<Argument id="PrefixArg" type="string" default="ilif"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELIllustratedItemFigureReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDSinkSystem" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.SinkSystem">
+			<Argument id="PrefixArg" type="string" default="sks"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="SinkSystem"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDBufferSystem" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.BufferSystem">
+			<Argument id="PrefixArg" type="string" default="bfs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="BufferSystem"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDSourceSystem" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.SourceSystem">
+			<Argument id="PrefixArg" type="string" default="scs"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="SourceSystem"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELDiscreteTimeLimitReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELDiscreteTimeLimitReference">
+			<Argument id="PrefixArg" type="string" default="sdtl"/>			
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELDiscreteTimeLimitReference"/>
+			<Constant id="appType" value="VPM"/>				
+		</Parameter>
+		<Parameter id="IDDELPeriodicTimeLimitReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELPeriodicTimeLimitReference">
+			<Argument id="PrefixArg" type="string" default="sptl"/>			
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value=" DELPeriodicTimeLimitReference"/>
+			<Constant id="appType" value="VPM"/>				
+		</Parameter>
+		<Parameter id="IDDELSBOMHardwareComponentReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMHardwareComponentReference">
+			<Argument id="PrefixArg" type="string" default="srhwc"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMHardwareComponentReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMHardwareUsageReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMHardwareUsageReference">
+			<Argument id="PrefixArg" type="string" default="srhwu"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMHardwareUsageReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMHardwareItemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMHardwareItemReference">
+			<Argument id="PrefixArg" type="string" default="srhwi"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMHardwareItemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMAggregatedComponentReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMAggregatedComponentReference">
+			<Argument id="PrefixArg" type="string" default="srac"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMAggregatedComponentReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMAggregatedUsageReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMAggregatedUsageReference">
+			<Argument id="PrefixArg" type="string" default="srau"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMAggregatedUsageReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMZoneReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMZoneReference">
+			<Argument id="PrefixArg" type="string" default="srz"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMZoneReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMZoneUsageReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMZoneUsageReference">
+			<Argument id="PrefixArg" type="string" default="srzu"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMZoneUsageReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMSoftwareItemReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMSoftwareItemReference">
+			<Argument id="PrefixArg" type="string" default="srswi"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMSoftwareItemReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMSoftwareUsageReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMSoftwareUsageReference">
+			<Argument id="PrefixArg" type="string" default="srswu"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMSoftwareUsageReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+		<Parameter id="IDDELSBOMSoftwareComponentReference" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat" regSuite="Framework" nlsKey="emxFramework.Type.DELSBOMSoftwareComponentReference">
+			<Argument id="PrefixArg" type="string" default="srswc"/>
+			<Argument id="SuffixArg" type="string" default=""/>
+			<Constant id="type" value="DELSBOMSoftwareComponentReference"/>
+			<Constant id="appType" value="VPM"/>
+		</Parameter>
+	</Family>
+</Domain>
+
+</OOTBParameterization>

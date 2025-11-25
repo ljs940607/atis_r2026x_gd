@@ -1,0 +1,1 @@
+define("DS/CfgApplicabilityUX/CfgApplicabilityUX_tr",{});define("DS/CfgApplicabilityUX/assets/nls/CfgApplicabilityNLS",{CFG_EmptyApplicability_Expression:"Bu bağlam için Uygulanabilirlik tanımlanmadı",CFG_Applicability_Summary:"Uygulanabilirlik Özeti",Applicability_Title_Edit:"Düzenle",Edit_Denied:"Düzenleme İşlemine izin verilmiyor"});

@@ -1,0 +1,139 @@
+{
+    "defaultIdCardDisplayAttributes": {
+        "ds6wg:EnterpriseExtension.V_PartNumber": {
+            "id": "ds6wg:EnterpriseExtension.V_PartNumber",
+            "displayWhenMinified": true,
+            "defaultVisibility": true,
+            "visibility": true
+        },
+        "ds6w:status": {
+            "id": "ds6w:status",
+            "displayWhenMinified": true,
+            "defaultVisibility": true,
+            "visibility": true
+        },
+        "ds6w:responsible": {
+            "id": "ds6w:responsible",
+            "displayWhenMinified": true,
+            "defaultVisibility": true,
+            "visibility": true
+        },
+        "ds6w:modified": {
+            "id": "ds6w:modified",
+            "displayWhenMinified": true,
+            "defaultVisibility": true,
+            "visibility": true
+        },
+        "ds6w:type": {
+            "id": "ds6w:type",
+            "displayWhenMinified": true,
+            "defaultVisibility": true,
+            "visibility": true
+        }
+    },
+    "referenceColumnProviderAttributes": ["ConfigurationContext", "CoreMaterial", "CoveringMaterial", "AlternateReference", "Deformable", "MadeFrom", "v6_specdoc_to", "Manufacturing", "MEIColumn", "RevisionMaster", "RevisionMode"],
+    "instanceColumnProviderAttributes": ["AlternateInstance", "ProductConfiguration", "Effectivity", "ProjectedEvolutionEffectivity", "EvolutionEffectivity", "VariantEffectivity", "CurrentEvolutionEffectivity"],
+    "idCardDisplayAttributes": {
+        "ds6wg:EnterpriseExtension.V_PartNumber": {
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "SetThePartNumber"
+        },
+        "ds6w:responsible": {
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "ActionBar_ChangeOwner"
+        },
+        "ds6wg:PLMReference.V_isLastVersion": {
+            "checkClassName": "fonticon fonticon-check fonticon-idCard-check",
+            "closeClassName": "fonticon fonticon-close fonticon-idCard-close"
+        },
+        "ds6w:isLastRevision": {
+            "checkClassName": "fonticon fonticon-check fonticon-idCard-check",
+            "closeClassName": "fonticon fonticon-close fonticon-idCard-close"
+        },
+        "ds6w:isLastRevisionPerState": {
+            "checkClassName": "fonticon fonticon-check fonticon-idCard-check",
+            "closeClassName": "fonticon fonticon-close fonticon-idCard-close"
+        },
+        "ds6w:reserved":{
+            "id": "lock",
+            "key": "fonticon fonticon-key xen-idCard-key",
+            "lock": "fonticon fonticon-lock xen-idCard-lock",
+            "unlock": "fonticon fonticon-lock-open xen-idCard-lock-open"
+        },
+        "ConfigurationContext": {
+            "id": "ConfigurationContext",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "EditConfigContext"
+        },
+        "v6_specdoc_to": {
+            "id": "v6_specdoc_to",
+            "className": "fonticon fonticon-doc-log xen-idCard-spec-doc-log",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-spec-doc",
+            "openFacet": true
+        },
+        "AlternateReference": {
+            "id": "AlternateReference",
+            "className": "fonticon fonticon-exchange xen-idCard-alternate-exchange",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-alternates",
+            "openFacet": true
+        },
+        "CoreMaterial": {
+            "id": "CoreMaterial",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-materials",
+            "openFacet": true
+        },
+        "CoveringMaterial": {
+            "id": "CoveringMaterial",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-materials",
+            "openFacet": true
+        },
+        "Manufacturing": {
+            "id": "Manufacturing",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-manufacturing",
+            "openFacet": true
+        },
+        "Deformable": {
+            "id": "Deformable",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "XENG_OPEN_ENG_ITEM"
+        },
+        "MadeFrom": {
+            "id": "MadeFrom",
+            "type": "type-hyperlink",
+            "editable": true,
+            "commandId": "edit-made-from",
+            "openFacet": true
+        },
+        "MEIColumn": {
+            "id": "MEIColumn",
+            "type": "type-hyperlink",
+            "editable": false,
+            "commandId": "edit-meiColumn",
+            "openFacet": true
+        },
+        "RevisionMaster": {
+            "id": "RevisionMaster",
+            "type": "type-text",
+            "editable": false
+        },
+        "RevisionMode": {
+            "id": "RevisionMode",
+            "type": "type-text",
+            "editable": false
+        }
+    }
+}

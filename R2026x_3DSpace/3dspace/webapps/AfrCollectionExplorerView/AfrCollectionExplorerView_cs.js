@@ -1,0 +1,1 @@
+define("DS/AfrCollectionExplorerView/AfrCollectionExplorerView_cs",{});define("DS/AfrCollectionExplorerView/assets/nls/collection-explorer",{NLS_ViewModeIconTooltip:"Zobrazit",NLS_ThumbnailView:"Zobrazení miniatur",NLS_TileView:"Zobrazení dlaždic",NLS_DataGridView:"Zobrazení datové mřížky",NLS_ListViewTitleColumnHeaderLabel:"Název"});

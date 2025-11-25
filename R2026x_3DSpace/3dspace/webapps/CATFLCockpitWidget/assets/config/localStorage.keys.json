@@ -1,0 +1,51 @@
+{
+	"indexDatabaseMode": "indexDatabaseMode",
+    "onlyDatabaseMode": "only_db",
+    "indexAndDatabaseMode": "index_and_db",
+	"showSpecDocs": "showSpecDocs",
+	"timeoutIndex": "timeoutIndex",
+
+	"depthDefaultExpandStructuredView": "depthDefaultExpandStructuredView",
+    "depthFlattenedView": "depthFlattenedView",
+    "depthFlattenedViewArchitectureItemOnly": "depthFlattenedViewArchitectureItemOnly",
+
+	"recentlyAuthored": "flweb-cockpit-recently-authored-",
+    "recentlyAuthoredStructure": "flweb-cockpit-recently-authored-structure-",
+	"previousSpaceHierarchy": "flwebcockpit-previous-space-hierarchy",
+
+	"componentView": "component-view",
+    "structuredView": "structured-view",
+    "flattenedView": "flattened-view",
+    "flattenedViewOnlyArchitectureItem": "flattend-view-only-architecture-item",
+
+	"customViews": "flweb-cockpit-customViews",
+	"customHeaderView": "flweb-cockpit-customHeaderView",
+    "attributesManagementSelectedExtensions": "flweb-cockpit-attributes-management-selected-extensions",
+    "attributesManagementSelectedExtensionsForPhysicalProduct": "flweb-cockpit-attributes-management-selected-extensions-physical-product",
+    "attributesManagementSelectedAttributes": "flweb-cockpit-attributes-management-selected-attributes",
+    "attributesManagementSelectedAttributesForPhysicalProduct": "flweb-cockpit-attributes-management-selected-attributes-physical-product",
+    "userAdditionalAttributes": "flweb-cockpit-user-additional-attributes",
+    "userAdditionalAttributesForPhysicalProduct": "flweb-cockpit-user-additional-attributes-physical-product",
+    "nlsBasicAttributesBO":" flweb-cockpit-nls-basic-attributes-bo",
+    "nlsBasicAttributesRel": "flweb-cockpit-nls-basic-attributes-rel",
+
+    "exportCSVOptions": "flweb-cockpit-export-csv-options",
+	"exportCSVSelectedColumns": "flweb-cockpit-export-csv-selected-columns",
+    "selectedPCcheckAN" : "flweb-cockpit-check-an-selected-pc",
+
+    "displayWorkUnder": "displayWorkUnder",
+	"workunderpos": "work-under-position",
+	"credentials": "xPref_CREDENTIAL",
+    "workunderonconfig": "set-work-under-on-config",
+    "askSetWorkunderOnConfig" : "each-time",
+    "alwaysSetWorkunderOnConfig" : "always",
+    "neverSetWorkunderOnConfig" : "never",
+
+	"refineSelectionOptions":  "flweb-refine-selection-options",
+    "structureFilter" : "structure-filter",
+
+    "exportConfigData": "export_config_data",
+    "exportGridviewPrefAsk": "export_gridview_pref_ask",
+    "exportGridviewPrefNever": "export_gridview_pref_never",
+    "exportGridviewPrefAlways": "export_gridview_pref_always"
+}

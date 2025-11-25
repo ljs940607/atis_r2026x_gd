@@ -1,0 +1,12 @@
+m|ENOCollaborativeServicesWebUI\SharingReportPopup.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SharingReportPopup\SharingReportPopup.css|1744917711|333
+s|ENOCollaborativeServicesWebUI\SharingReportPopup.mweb\src\SharingReportPopup.css|1723231312|496
+t|win_b64\webapps\SharingReportPopup\SharingReportPopup.js|1731158568|2306
+s|ENOCollaborativeServicesWebUI\SharingReportPopup.mweb\src\SharingReportPopup.js|1730489719|7925
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

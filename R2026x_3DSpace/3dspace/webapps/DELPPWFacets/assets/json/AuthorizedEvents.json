@@ -1,0 +1,21 @@
+{
+	"modelEvents": [],
+	"actionStartEvents": [
+		"Reframe",
+		"ReframeOn",
+		"CreateMfgItemAndResultingProduct",
+		"CreateMfgItemAndScope",
+		"CreateMfgItemStructure"
+	],
+	"actionCompletionEvents": [
+		"assignProduct",
+		"createManufacturingItemStructure",
+		"createMfgItemAndResultingProduct",
+		"createMfgItemAndScope",
+		"createMfgItemStructure",
+		"createStructure",
+		"RerouteMfgItem"
+	],
+	"uiEvents": [],
+	"odtEvents": []
+}

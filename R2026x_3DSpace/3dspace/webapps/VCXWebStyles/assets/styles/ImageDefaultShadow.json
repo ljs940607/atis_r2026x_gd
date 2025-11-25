@@ -1,0 +1,67 @@
+{
+  "properties": [
+    {
+      "name": "Collab.Text.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Body.Shape",
+      "type": "VCXPropertyValueEnum",
+      "value": 10
+    },
+    {
+      "name": "Collab.Background.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Image.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Attach.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },   
+    {
+      "name": "Collab.Border.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Body.Shadow.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Body.Shadow.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 0.75
+    },
+    {
+      "name": "Collab.Body.Shadow.Distance",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.Shadow.Orientation",
+      "type": "VCXPropertyValueFloat",
+      "value": 45
+    },
+    {
+      "name": "Collab.Body.Shadow.Blur",
+      "type": "VCXPropertyValueFloat",
+      "value": 5
+    },
+    {
+      "name": "Collab.Border.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    }
+  ],
+  "name": "ImageDefaultShadow",
+  "objectID": "styleID_ImageDefaultShadow",
+  "visible": true
+}

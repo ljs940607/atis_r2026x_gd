@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="h" data-name="SurfaceMineDesign" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="23.03" y1="4.96" x2="40.97" y2="36.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="c" x1="4.1" y1="15.89" x2="27.47" y2="56.36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#bebebe"/>
+    </linearGradient>
+    <linearGradient id="f" x1="35.12" y1="30.95" x2="47.67" y2="52.68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="i" x1="17.08" y1="22" x2="44.15" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#376e8c"/>
+      <stop offset=".2" stop-color="#8cd7f5"/>
+      <stop offset=".21" stop-color="#87d2f0"/>
+      <stop offset=".29" stop-color="#5c9cba"/>
+      <stop offset=".35" stop-color="#417a98"/>
+      <stop offset=".38" stop-color="#376e8c"/>
+      <stop offset=".61" stop-color="#6cafcd"/>
+      <stop offset=".77" stop-color="#8cd7f5"/>
+      <stop offset=".81" stop-color="#88d2f0"/>
+      <stop offset=".86" stop-color="#7cc4e2"/>
+      <stop offset=".91" stop-color="#6aadcb"/>
+      <stop offset=".96" stop-color="#508caa"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="j" x1="30.5" y1="15.09" x2="30.5" y2="29.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3287af" stop-opacity="0"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+  </defs>
+  <polygon points="25.5 57.5 57.5 47 57.5 26.5 25.5 36.5 25.5 57.5" fill="url(#f)" stroke="#787878" stroke-linejoin="round"/>
+  <path d="M25.5,36.5l-9-8c-3-3-1-6-3-8s-7-6-7-6v22l19,21v-21Z" fill="url(#c)" stroke="#787878" stroke-linejoin="round"/>
+  <path d="M25.5,36.5l-9-8c-3-3-1-6-3-8s-7-6-7-6v22l19,21,32-10.5v-20.5l-32,10Z" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  <path d="M45.5,19.5c-3-2-2-5-4-7s-7-5-7-5L6.5,14.5s5,4,7,6,0,5,3,8l9,8,32-10s-1.49-.83-3.46-1.95c-.53-.3-1.95-2.72-2.54-3.05-.63-.36-2.08.4-2.53.13-1.4-.83-2.66-1.59-3.47-2.13Z" fill="url(#a)" stroke="#323232" stroke-linejoin="round"/>
+  <path d="M22.5,13.5c-4,0-6,2-6,5s4,5,5,7,3.83,5,8.92,5,14.08-2,14.08-7-4-7-8-7-8,0-9-1-1-2-5-2Z" fill="url(#i)" stroke="#003755" stroke-linejoin="round"/>
+  <path d="M19.84,22.85c.87.82,1.69,1.6,2.11,2.42,1.09,2.18,3.96,4.72,8.47,4.72,4.74,0,13.58-1.91,13.58-6.5s-3.87-6.5-7.5-6.5c-5.11,0-8.28-.08-9.35-1.15-.18-.18-.34-.37-.48-.54-.61-.73-1.08-1.31-4.16-1.31-3.55,0-5.5,1.6-5.5,4.5,0,1.67,1.44,3.03,2.84,4.35Z" fill="url(#j)"/>
+  <path d="M44.14,25.13c-1.05-3.27-4.35-4.63-7.64-4.63-4,0-8,0-9-1s-1-2-5-2c-2.9,0-4.75,1.05-5.53,2.77" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  <path d="M42.83,26.87c-1.53-1.65-3.93-2.37-6.33-2.37-4,0-8,0-9-1s-1-2-5-2c-1.61,0-2.89.32-3.85.91" fill="none" stroke="#003755" stroke-linejoin="round"/>
+  <path d="M16.97,20.27c.78-1.72,2.63-2.77,5.53-2.77,4,0,4,1,5,2s5,1,9,1c3.29,0,6.59,1.36,7.64,4.63" fill="none" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.65,22.41c.96-.59,2.24-.91,3.85-.91,4,0,4,1,5,2s5,1,9,1c2.4,0,4.8.72,6.33,2.37" fill="none" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39.37,28.87c-.92-.25-1.89-.37-2.87-.37-4,0-8,0-9-1s-1-2-5-2c-.34,0-.67.01-.98.05,0-.02-.01-.03-.02-.05" fill="none" stroke="#003755" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

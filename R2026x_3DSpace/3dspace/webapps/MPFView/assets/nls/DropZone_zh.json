@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "在此处放置内容",
+  "orMessage": "或者",
+  "upContent": "上传内容",
+  "wrongFileType": "文件类型错误",
+  "fileTooBig": "文件大小超过限制 {0}",
+  "bytes": "字节",
+  "kiloByte": "Kb",
+  "megaByte": "Mb",
+  "gigaByte": "Gb",
+  "teraByte": "Tb",
+  "filesExceedSizeOf": "{0}/{1} 个文件超过大小限制 {2}",
+  "filesHaveWrongFormat": "{0}/{1} 个文件的文件格式错误"
+}

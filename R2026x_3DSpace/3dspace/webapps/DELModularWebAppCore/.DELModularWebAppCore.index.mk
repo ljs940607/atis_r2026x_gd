@@ -1,0 +1,14 @@
+m|DELModularWebAppCore\DELModularWebAppCore.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25209|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELModularWebAppCore\DELModularWebAppCore.js|1753740125|14225
+s|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Core.js|1735540547|40840
+t|win_b64\webapps\DELModularWebAppCore\assets\json\AuthorizedEvents_Core.json|1753740117|2860
+s|DELModularWebAppCore\DELModularWebAppCore.mweb\src\assets\json\AuthorizedEvents_Core.json|1753253670|2860
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\FacadeBase.js|1753262989|4916
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Logger.js|1635242206|2859
+u|DELModularWebAppCore\DELModularWebAppCore.mweb\src\Mediator.js|1699856265|12226
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

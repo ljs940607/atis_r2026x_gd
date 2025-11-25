@@ -1,0 +1,34 @@
+{
+  "appDescription": "Snadné a efektivní procházení 3D modelů",
+  "rootFrozen": "Relace je zmrazená v důsledku přechodu",
+  "transitionRefusedStaticMapping": "Vytváření instancí konfigurace produktu není v cílové aplikaci podporováno",
+  "transitionRefusedFlexibleAssemblies": "Flexibilní sestavy nejsou v cílové aplikaci podporovány",
+  "pointCloudClassificationLayer": {
+    "title": "Vybarvení klasifikace LAS",
+    "headerTooltip": "Klasifikace LAS je předem definované schéma klasifikace definované americkou společností pro fotogrammetrii a vzdálené snímání (ASPRS) pro požadovanou kategorii dat.",
+    "class0": "0 – nikdy neklasifikováno",
+    "class1": "1 – neklasifikováno",
+    "class2": "2 – půda",
+    "class3": "3 – nízká vegetace",
+    "class4": "4 – středně vysoká vegetace",
+    "class5": "5 – vzrostlá vegetace",
+    "class6": "6 – budova",
+    "class7": "7 – slabý bod (šum)",
+    "class8": "8 – modelový klíč/vyhrazeno",
+    "class9": "9 – voda",
+    "class10": "10 – kolejnice",
+    "class11": "11 – povrch vozovky",
+    "class12": "12 – překryv/vyhrazeno",
+    "class13": "13 – vodič-ochrana (stínění)",
+    "class14": "14 – vodič-vodič (fáze)",
+    "class15": "15 – vysílací věž",
+    "class16": "16 – konektor kabeláže",
+    "class17": "17 – mostovka",
+    "class18": "18 – vysoký šum"
+  },
+  "pointCloudElevationLayer": {
+    "title": "Zkoordinovat vybarvení",
+    "comboLabel": "Osa: ",
+    "tooltip": "Souřadnice X se měří podél osy východ-západ, souřadnice Y se měří podél osy sever-jih a souřadnice Z měří výšku nebo zvýšení."
+  }
+}

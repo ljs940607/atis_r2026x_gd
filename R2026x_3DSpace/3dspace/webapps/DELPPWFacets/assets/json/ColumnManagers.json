@@ -1,0 +1,8 @@
+{
+	"ColumnManagers": [
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/LabelColumnManager",
+		"DS/DELPPWItemViewBehaviors/ColumnManagers/MfgItemMakeOrBuyColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/OwnerNameColumnManager",
+		"DS/DELPPWViewBehaviors/TreeListViewBehavior/UrlColumnManager"
+	]
+}

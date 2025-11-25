@@ -1,0 +1,18 @@
+{
+	"busTypeMapping": "Bus Type Mapping",
+	
+	"assemblyLabel": "Assembly",
+	"assemblyInfo": "Modify type mapping for assembly cad type to 3DEXPERIENCE type",
+	
+	"assemblyInstanceLabel": "Assembly Instance",
+	"assemblyInstanceInfo": "Modify type mapping for assemblyInstance cad type to 3DEXPERIENCE type",
+	
+	"componentLabel": "Component",
+	"componentInfo": "Modify type mapping for component cad type to 3DEXPERIENCE type",
+	
+	"componentInstanceLabel": "Component Instance",
+	"componentInstanceInfo": "Modify type mapping for componentInstance cad type to 3DEXPERIENCE type",
+	
+	"drawingLabel": "Drawing",
+	"drawingInfo": "Modify type mapping for drawing cad type to 3DEXPERIENCE type"
+}

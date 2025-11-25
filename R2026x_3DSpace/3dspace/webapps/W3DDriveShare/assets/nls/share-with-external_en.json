@@ -1,0 +1,21 @@
+{
+    "activateExternalShareLink": "Activate external sharing link",
+    "activateShareByLinkDescription": "Anyone with the following link can preview and download this content.",
+    "expirationDate": "Expiration date: {date}",
+    "restrictAccessToSpecificUsers": "Restrict access to specific users",
+    "addRestrictions": "Add restrictions",
+    "noRestrictedEmails": "Nobody can access the content",
+    "addMessage": "Add a message",
+    "enterMessageDescription": "Enter a custom message that will be added in the sent email",
+    "addRestrictedUsersDescription": "Restricted users allow to give access to the content only to account linked with those emails",
+    "authorizedList": "Authorized list ({count}/{max})",
+    "restrictionsCount": "{count}/{max} restrictions",
+    "close": "Close",
+    "share": "Share",
+    "copyExternalLink": "Copy external link",
+    "enableGuestComments": "Enable guest comments",
+    "enableGuestCommentsDescription": "Anyone who uses this link will be able to comment on the content and read all the comments, including any previous comments made by platform members",
+    "externalSharingFeatureDisabled": "The external sharing feature is not enabled on this platform. Please, contact your administrator.",
+    "cannotAccessContent": "Content is not accessible.",
+    "platformNotAccessible": "The platform is not accessible."
+}

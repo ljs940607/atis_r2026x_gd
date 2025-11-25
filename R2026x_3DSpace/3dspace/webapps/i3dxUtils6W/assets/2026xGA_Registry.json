@@ -1,0 +1,219 @@
+{
+    "data": {
+        "MBSE": {
+            "domain": "MBSE",
+            "service": "mbseapps",
+            "owner": "NDF",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/v1/modeler/mbse/i3dx/fetch"
+            }
+        },
+        "Recipe": {
+            "domain": "Recipe",
+            "service": "bioexperiment",
+            "owner": "KW3",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/Recipe/v1/i3dx/fetch"
+            }
+        },
+        "3dplan": {
+            "domain": "3dplan",
+            "service": "3dplan",
+            "owner": "BCC",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/3dplan/v1/i3dx/fetch"
+            }
+        },
+        "ControlBuild": {
+            "domain": "ControlBuild",
+            "service": "3DSpace",
+            "owner": "NDF",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "Laboratory": {
+            "domain": "Laboratory",
+            "service": "laboratory",
+            "owner": "KDE14",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/Laboratory/v1/i3dx/fetch"
+            }
+        },
+        "WikitreePage": {
+            "domain": "WikitreePage",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "Question": {
+            "domain": "Question",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "DataPerspective": {
+            "domain": "DataPerspective",
+            "service": "3danalytics",
+            "owner": "NOH",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/api/resources/dataperspective/v1/i3dx/fetch"
+            }
+        },
+        "ScientificInvestigation": {
+            "domain": "ScientificInvestigation",
+            "service": "bioexperiment",
+            "owner": "TBS1",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/Investigation/v1/i3dx/fetch"
+            }
+        },
+        "Stimulus": {
+            "domain": "Stimulus",
+            "service": "3DSpace",
+            "owner": "NDF",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "ConstructionFeat": {
+            "domain": "ConstructionFeat",
+            "service": "3DSpace",
+            "owner": "VMC2",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/ConstructionFeat/v1/i3dx/fetch"
+            }
+        },
+        "PipingFeat": {
+            "domain": "PipingFeat",
+            "service": "3DSpace",
+            "owner": "VMC2",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/ConstructionFeat/v1/i3dx/fetch"
+            }
+        },
+        "Post": {
+            "domain": "Post",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "Magic": {
+            "domain": "Magic",
+            "service": "3DSpace",
+            "owner": "NDF",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "Portfolio": {
+            "domain": "Portfolio",
+            "service": "3DPortfolio",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "r2vsurvey": {
+            "domain": "r2vsurvey",
+            "service": "r2vsurvey",
+            "owner": "LQ2",
+            "description": "Real representation of things",
+            "operationURLs": {
+                "fetch": "/enovia/resources/r2v/modeler/v2/i3dx/fetch"
+            }
+        },
+        "Dymola": {
+            "domain": "Dymola",
+            "service": "3DSpace",
+            "owner": "NDF",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "ElectricalFeat": {
+            "domain": "ElectricalFeat",
+            "service": "3DSpace",
+            "owner": "VMC2",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/ConstructionFeat/v1/i3dx/fetch"
+            }
+        },
+        "Material": {
+            "domain": "Material",
+            "service": "materials",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "HVACFeat": {
+            "domain": "HVACFeat",
+            "service": "3DSpace",
+            "owner": "VMC2",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/ConstructionFeat/v1/i3dx/fetch"
+            }
+        },
+        "Idea": {
+            "domain": "Idea",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "ScientificStudy": {
+            "domain": "ScientificStudy",
+            "service": "bioexperiment",
+            "owner": "TBS1",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/Study/v1/i3dx/fetch"
+            }
+        },
+        "RichMedia": {
+            "domain": "RichMedia",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "Community": {
+            "domain": "Community",
+            "service": "3DSwym",
+            "owner": "ToDo",
+            "description": "ToDo",
+            "operationURLs": {}
+        },
+        "EquipmentFeat": {
+            "domain": "EquipmentFeat",
+            "service": "3DSpace",
+            "owner": "VMC2",
+            "description": "ToDo",
+            "operationURLs": {
+                "fetch": "/resources/ConstructionFeat/v1/i3dx/fetch"
+            }
+        },
+        "GeospatialDataset": {
+            "domain": "GeospatialDataset",
+            "service": "globe",
+            "owner": "rbt6",
+            "description": "globe dataset",
+            "operationURLs": {
+                "fetch": "/resources/v1/globe/i3dx/fetch"
+            }
+        }
+    },
+    "info": {
+        "success": true,
+        "count": 26,
+        "statusCode": 200
+    }
+}

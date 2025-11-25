@@ -1,0 +1,1 @@
+define("DS/W3DDashboardSearchActions/W3DDashboardSearchActions_tr",{});define("DS/W3DDashboardSearchActions/assets/nls/main",{goToDashboard:"Aç",type:"Tip",typeValue:"Pano",title:"Başlık",creationDate:"Oluşturma Tarihi",modificationDate:"Değiştirme Tarihi",responsible:"Sorumlu",propertiesFacet:"Özellikler",membersFacet:"Üyeler"});

@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_zh-TW",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"刪除",confirm:"是否要刪除所選物件？此將永久刪除，且無法復原。"});

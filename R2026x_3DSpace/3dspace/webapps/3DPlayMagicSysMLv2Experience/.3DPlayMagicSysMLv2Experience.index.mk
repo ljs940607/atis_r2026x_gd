@@ -1,0 +1,13 @@
+m|CATMBSEMagicExperience\3DPlayMagicSysMLv2Experience.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25164|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\3DPlayMagicSysMLv2Experience\3DPlayMagicSysMLv2Experience.js|1749880344|760
+s|CATMBSEMagicExperience\3DPlayMagicSysMLv2Experience.mweb\src\3DPlayMagicSysMLv2Experience.js|1749060296|1567
+t|win_b64\webapps\3DPlayMagicSysMLv2Experience\assets\RegisterList.json|1749880344|3
+s|CATMBSEMagicExperience\3DPlayMagicSysMLv2Experience.mweb\src\assets\RegisterList.json|1748432803|3
+t|win_b64\webapps\3DPlayMagicSysMLv2Experience\assets\ScenarioList.json|1749880344|16
+s|CATMBSEMagicExperience\3DPlayMagicSysMLv2Experience.mweb\src\assets\ScenarioList.json|1748432806|16
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

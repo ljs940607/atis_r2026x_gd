@@ -1,0 +1,1 @@
+define("DS/ENOXEngineerInfra/ENOXEngineerInfra_tr",{});define("DS/ENOXEngineerInfra/assets/nls/xAppCore",{"error.on.startup":"Uygulama başlatılırken bir sorun oluştu! Lütfen yöneticinizle iletişime geçin"});

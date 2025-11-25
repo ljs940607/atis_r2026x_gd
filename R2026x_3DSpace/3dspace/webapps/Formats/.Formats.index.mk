@@ -1,0 +1,10 @@
+m|WebVisualization\Formats.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.0.25255|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\Formats\CGRFile.js|1757729892|284558
+s|WebVisualization\Formats.mweb\src\CGRFile.js|1756911982|888250
+t|win_b64\webapps\Formats\Formats.js|1723277856|0
+s|WebVisualization\Formats.mweb\src\Formats.js|1425399768|1
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

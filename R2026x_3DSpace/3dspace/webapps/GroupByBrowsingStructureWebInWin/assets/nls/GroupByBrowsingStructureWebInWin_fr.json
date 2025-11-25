@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "Grouper par structure de navigation",
+    "chooserLabel": "Sélectionner une structure de navigation",
+    "organizeButton": "Grouper",
+    "ungroupButton": "Dégrouper",
+    "cancelButton": "Annuler"
+  },
+  "noBSWarning": {
+    "message": "Aucune structure de navigation disponible.",
+    "advice": "Contactez le gestionnaire de structure de navigation pour créer les structures de navigation et définissez leur maturité sur \"Distribué\" pour les rendre disponibles dans cette commande."
+  },
+  "webServiceError": "Impossible de récupérer la liste des structures de navigation. Réessayez ou contactez votre administrateur"
+}

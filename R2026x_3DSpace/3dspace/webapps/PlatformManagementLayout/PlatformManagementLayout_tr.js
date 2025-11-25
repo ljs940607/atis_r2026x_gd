@@ -1,0 +1,1 @@
+define("DS/PlatformManagementLayout/PlatformManagementLayout_tr",{});define("DS/PlatformManagementLayout/assets/nls/PlatformManagementLayout",{welcome:"Platforma Hoş Geldiniz ",platformManagement:"Platform Yönetimi",more:"Daha Fazla",less:"Daha Az"});

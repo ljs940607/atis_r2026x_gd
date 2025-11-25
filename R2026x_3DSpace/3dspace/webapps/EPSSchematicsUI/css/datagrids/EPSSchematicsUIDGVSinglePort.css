@@ -1,0 +1,16 @@
+.sch-datagridview-single-port {
+  box-sizing: border-box;
+  outline: 1px solid #d1d4d4;
+  /*.wux-layouts-header {
+      pointer-events: none;
+  }*/
+}
+.sch-datagridview-single-port.sch-datagridview-single-data-port .sch-dgv-play-value {
+  background-color: #b2dfdb;
+}
+.sch-datagridview-single-port.sch-datagridview-single-data-port .sch-dgv-debug-value {
+  background-color: #ffc782;
+}
+.sch-datagridview-single-port.sch-datagridview-single-data-port .wux-layouts-datagridview .wux-layouts-datagridview-cell:not([is-editable]):not(.sch-dgv-node-root):not(.wux-layouts-datagridview-column-header-cell) {
+  color: #b4b6ba;
+}

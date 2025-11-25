@@ -1,0 +1,46 @@
+{
+  "CAT3DXVisuManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXVisuManager",
+    "extensions": {
+      "W3AIManager": "DS/CAT3DExpModel/managers/W3AACAT3DXVisuManager",
+      "XCTEWSIExperienceMgr": "DS/CAT3DExpModel/managers/XCTEWSEExperienceVisuManager"
+    }
+  },
+  "CAT3DXEnvironmentManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXEnvironmentManager",
+    "extensions": {
+      "W3AIManager": "DS/CAT3DExpModel/managers/W3AACAT3DXEnvironmentManager"
+    }
+  },
+  "CXPWebPlayManager": {
+    "impl": "DS/XCTWebCreativeAppPlay/managers/CXPWebPlayManager",
+    "extensions": {
+      "W3AIManager": "DS/XCTWebExperienceAppPlay/managers/W3AACXPWebPlayManager"
+    }
+  },
+  "CXPWebEventListenerManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CXPWebEventListenerManager",
+    "extensions": {
+      "W3AIManager": "DS/WebApplicationBase/W3AAManager"
+    }
+  },
+  "XCTEWSPublishToSwymMgr": {
+    "extensions": {
+      "W3AIManager": "DS/WebApplicationBase/W3AAManager",
+      "XCTEWSIExperienceMgr": "DS/XCTWebExperienceAppPlay/managers/XCTEWSEPublishToSwymExperienceMgr",
+      "XCTEWSIPlayerOptionsMgr": "DS/XCTWebExperienceAppPlay/managers/XCTEWSEPublishToSwymPlayerOptionsMgr"
+    }
+  },
+  "CAT3DExperienceESExportManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CAT3DExperienceESExportManager",
+    "extensions": {
+      "W3AIManager": "DS/WebApplicationBase/W3AAManager"
+    }
+  },
+  "CXPWebPlayDependanciesManager": {
+    "impl": "DS/XCTWebCreativeAppPlay/managers/CXPWebPlayDependanciesManager",
+    "extensions": {
+      "W3AIManager": "DS/WebApplicationBase/W3AAManager"
+    }
+  }
+}

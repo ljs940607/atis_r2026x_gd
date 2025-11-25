@@ -1,0 +1,20 @@
+{
+  "phaseStartDateMustBeAfterPreviousPhaseEndDate": "前のフェーズの配送日以降でなければなりません",
+  "phaseEndDateMustBeAfterStartDate": "開始日以降でなければなりません",
+  "selectedDateIsPast": "選択した日付は過去の日付です",
+  "submitted": "送信済み",
+  "quoted": "見積もり",
+  "confirmed": "確認済み",
+  "processing": "処理中",
+  "ready": "準備完了",
+  "delivered": "納品済み",
+  "canceled": "キャンセル済み",
+  "unknown": "不明",
+  "errorDescriptionMissing": "説明は必須です",
+  "errorStartDateMissing": "開始日は必須です",
+  "errorEndDateMissing": "終了日は必須です",
+  "errorPriceMissing": "価格は必須です",
+  "errorPriceFormat": "価格の形式が正しくありません",
+  "errorPriceNotANumber": "価格は数である必要があります",
+  "errorPriceZeroOrNegative": "価格は 0 より大きくなければなりません"
+}

@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Estructuras de exploración",
+  "name_Widget_Title": "Definición de estructura de exploración",
+  "name_Widget_Help": "Ayuda de definición de estructura de exploración",
+  "name_Term": "Término",
+  "name_Terminology_type": "Terminología",
+  "terminology_pref_populateTags": "Habilitar etiquetas 6W para filtrar estructuras de exploración",
+  "terminology_pref_activateRelationsColumns": "Mostrar relacionados",
+  "useIndexAcceleration_label": "Mostrar datos indexados",
+  "terminology_pref_autoSwitch_Label": "Cambiar automáticamente del modo de base de datos al modo de índice",
+  "button_remove": "Eliminar",
+  "button_close": "Cerrar",
+  "Move_label": "Mover",
+  "Copy_label": "Copiar",
+  "oneMin_Label": "1 minuto",
+  "threeMin_Label": "3 minutos",
+  "fiveMin_Label": "5 minutos",
+  "tenMin_Label": "10 minutos",
+  "Never_Label": "Nunca",
+  "Paste_content_loading": "Pegar contenido",
+  "Remove_content_loading": "Quitar contenido",
+  "Content_Loading": "Cargando contenido...",
+  "Widget_Loading": "Cargando widget...",
+  "Tree_Loading": "Cargando árbol...",
+  "New_Loading": "Cargando panel de creación...",
+  "Terminology_Loading": "Seleccionar estructura de exploración...",
+  "commands": {
+    "newBrowsingNode": "Nuevo nodo de exploración",
+    "newBrowsingStructure": "Nueva estructura de exploración"
+  },
+  "msg_success_copyLink_terminology": "Se ha copiado el enlace a la estructura de exploración \"{terminologyname}\".",
+  "msg_success_copyLink_term": "Se ha copiado el enlace al nodo de exploración \"{termname}\".",
+  "msg_success_createTerminology": "La estructura de navegación \"{terminologyName}\" se ha creado correctamente",
+  "msg_success_createTerm": "El nodo de navegación \"{termName}\" se ha creado correctamente",
+  "msg_success_createBS": "La estructura de exploración se ha creado correctamente",
+  "msg_success_createBN": "El nodo de exploración se ha creado correctamente",
+  "msg_info_terminologycopied": "{number} Estructuras de exploración se han añadido a la estructura de exploración \"{terminologyname}\".",
+  "msg_info_rename_bs": "El nombre de la estructura de navegación \"{name1}\" se ha cambiado a \"{name2}\".",
+  "msg_info_rename_bn": "El nombre del nodo de navegación \"{name1}\" se ha cambiado a \"{name2}\".",
+  "msg_info_refresh": "Actualizado.",
+  "msg_info_SortNonAvailable": "Esta columna no está disponible para ordenar durante una búsqueda.",
+  "msg_info_treeFilterRemove": "Los filtros aplicados al árbol se eliminan después de agregar una estructura de exploración.",
+  "msg_warning_nocurrentterminology": "No hay ninguna estructura de exploración actual. Seleccione una estructura de exploración.",
+  "msg_warning_noselection": "Debe seleccionar al menos un objeto.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "No se guardará el último estado de expansión.",
+    "Advice": "Contraiga algunas estructuras de exploración para que se pueda guardar el estado de expansión.",
+    "Details": "Hay demasiadas estructuras de exploración expandidas."
+  },
+  "msg_warning_copyLink": "El objeto seleccionado no es una estructura de exploración.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "No se admite la búsqueda de contexto si el recuento de estructuras de exploración de raíz es superior a 200.",
+  "msg_error_Addinterminology": "No puede agregar contenido a esta estructura de exploración.",
+  "msg_error_CopyTerminology": "Error al copiar las estructuras de exploración.",
+  "msg_error_MoveInterminology": "Error al mover los objetos.",
+  "msg_error_MoveInSameterminology": {
+    "title": "Seleccione una estructura de exploración diferente. ",
+    "subtitle": "La estructura de exploración de destino y las estructuras de exploración de origen son iguales."
+  },
+  "msg_error_rename": {
+    "Title": "No puede cambiar el nombre del elemento de exploración: {name}.",
+    "Advice": "Compruebe que el nombre no está ya en uso o que está utilizando las credenciales correctas.",
+    "Details": "Es posible que no tenga la responsabilidad necesaria en el espacio de colaboración de destino para cambiar el nombre de este objeto."
+  },
+  "msg_error_invalidselection": "El comando no se puede iniciar sin una selección",
+  "msg_error_name_maxlength": "Introduzca un \"{name}\" de no más de {maxLength} caracteres.",
+  "msg_error_name_empty": "Introduzca un valor para el nombre.",
+  "msg_error_TerminologyActivate": {
+    "title": "No puede activar {name1}.",
+    "subtitle": "Es posible que el objeto se haya eliminado o que usted ya no tenga los permisos necesarios."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Asocie una estructura de exploración a este nodo de exploración.",
+    "subtitle": "Es posible que la estructura de exploración no sea visible. Por ejemplo, puede que no esté activo. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "No se puede expandir el árbol.",
+    "subtitle": "Actualice la aplicación y pruebe de nuevo, o póngase en contacto con su administrador para obtener asistencia."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} contiene caracteres no válidos: {badChars}.",
+    "Advice": "No puede utilizar ninguno de los siguientes caracteres: Mensaje:~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Ya no se puede acceder al contenido de la estructura de navegación.",
+    "subtitle": "Actualice el widget.",
+    "message": "Es posible que el contenido se haya eliminado o que no tenga los permisos necesarios."
+  },
+  "msg_InfoAction_Timeout": "No se ha recibido ninguna respuesta de la acción iniciada dentro del periodo de tiempo de espera, puede llevar más tiempo ejecutarla. Es posible que pueda visualizarse el resultado tras unos instantes al actualizar manualmente.",
+  "msg_error_timeout": {
+    "title": "Se ha agotado el tiempo de espera de la conexión con el servidor.",
+    "subtitle": "Compruebe la conexión o reduzca la cantidad de datos que se envían durante esta operación."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Ya no se puede acceder a esta estructura de exploración.",
+    "subtitle": "Actualice el widget.",
+    "message": "Es posible que se haya eliminado la estructura de exploración o que no tenga los permisos necesarios."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Ya no se puede acceder a esta estructura de exploración.",
+    "subtitle": "Actualice el widget.",
+    "message": "No tiene los permisos necesarios."
+  },
+  "msg_error_copylink": {
+    "title": "No se puede copiar el enlace al portapapeles. ",
+    "subtitle": " Vuelva a intentar realizar la operación o póngase en contacto con el administrador para obtener asistencia. "
+  },
+  "msg_error_createNewFromFramework": "Fallo al crear el nuevo elemento :",
+  "msg_error_createNew": {
+    "Title": "No se puede modificar este objeto: {type}.",
+    "Advice": "Compruebe que está utilizando las credenciales correctas.",
+    "Details": "Es posible que no tenga la responsabilidad necesaria en el espacio de colaboración de destino para crear este tipo de objeto."
+  },
+  "msg_error_rest": {
+    "title": "El servidor se ha desconectado inesperadamente.",
+    "subtitle": "Póngase en contacto con su administrador para recibir asistencia."
+  },
+  "msg_warning_notProductRoot": "No se ha encontrado el objeto.",
+  "msg_warning_contentnotavailable": "No se ha podido recuperar el contenido. Es posible que se haya suprimido o que se haya cambiado al estado privado.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "No se puede eliminar el contenido.",
+    "advice": "Seleccione una subterminología para acotar los resultados de la búsqueda.",
+    "details": "No se puede eliminar contenido de más de 20 estructuras de exploración."
+  },
+  "CMDClearSort": "Borrar orden",
+  "CMDShareTerminologyLink": "Copiar enlace",
+  "CMDShowInTerminologies": "Mostrar en estructuras de exploración",
+  "alpha_sorting": "Orden alfabético",
+  "alpha_sort_label": "Título",
+  "date_sorting": "Orden de fecha",
+  "date_sort_label": "Fecha de modificación",
+  "fonticon_filter": "El contenido del panel está filtrado actualmente",
+  "loadingText": "Cargando…",
+  "SearchEnterMoreThan": "Se necesitan {minNumber} como mínimo para buscar.",
+  "confirmation_move_title": "Mover contenido",
+  "confirmation_move_message": "¿Desea mover el contenido de {source} a {target}?",
+  "confirmation_move_message_monosel": "¿Desea mover {selection} de {source} a {target}?",
+  "confirmation_move_message_mono_from_tree": "¿Desea mover {source} a {target}?",
+  "confirmation_move_message_multisel": "¿Desea mover {nth} elementos de {source} a {target}?",
+  "confirmation_move_button": "Mover",
+  "confirmation_info": "Los atributos que no sean el título y la descripción se pierden al convertir \n de {From} a {To}. Todos los atributos se copian para los objetos hijos.",
+  "authentication_error": {
+    "title": "No se puede iniciar el widget especificado.",
+    "subtitle": "Verifique sus credenciales e inténtelo de nuevo."
+  },
+  "noPlatform_error": "Esta aplicación no está disponible en ninguna de sus plataformas.",
+  "placeholder_msg_terminology": "Esta estructura de exploración está vacía actualmente.",
+  "placeholder_CreateTerminology": "Nueva estructura de exploración",
+  "placeholder_CreateTerm": "Nuevo nodo de exploración",
+  "column_Thumbnail": "Miniatura",
+  "placeholder_msg_section": "No se ha creado ninguna estructura de exploración.",
+  "placeholder_msg_terms": "No se ha creado ningún nodo de exploración",
+  "placeholder_msg_search": "No se han encontrado resultados.",
+  "refresh_ongoing": "Actualizando...",
+  "refresh_ok": "Actualizado",
+  "refreshError": {
+    "title": "No se puede actualizar el widget.",
+    "subtitle": "Póngase en contacto con su administrador para recibir asistencia."
+  },
+  "success": "Correcto",
+  "warning": "Advertencia",
+  "information": "Información",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Ya no se puede acceder a este contenido.",
+    "Advice": "Es posible que no tenga la responsabilidad necesaria en el espacio de colaboración de destino para crear este tipo de objeto.",
+    "Details": "Es posible que el objeto se haya eliminado o que no tenga los permisos necesarios."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "No se puede pegar.",
+    "InvalidParameters": "Los objetos seleccionados no se pueden pegar en este destino. ",
+    "BNDestination": "Los nodos de exploración no se pueden pegar en la sección de estructuras de exploración.",
+    "BSDestination": "La estructura de exploración solo se puede pegar en la sección de estructuras de exploración."
+  },
+  "msg_paste_error": "No se puede pegar.",
+  "indexMode": {
+    "Authoring": "Base de datos.",
+    "Index": "Índice.",
+    "Label": "Índice",
+    "seconds": "segundo(s)",
+    "minutes": "minuto(s)",
+    "hours": "hora(s)",
+    "msg_Authoring": "El modo de base de datos está activo. Es posible que el rendimiento se vea afectado.",
+    "activeMode": "Modo activo: {mode}",
+    "lastRefresh": "Última actualización: hace {timeElapsed}.",
+    "reactIndexMode": "El modo de índice se reactivará en {autoSwitch} minutos a partir del momento de la operación de creación o actualización.",
+    "info_msg_DataNotUptoDate": "El modo de índice está activo. Es posible que los datos no estén actualizados."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "La estructura de exploración seleccionada {name} no es visible en el árbol. Desplácese para verla y seleccionarla.",
+  "ViewTooltip": {
+    "ds6w:label": "Título",
+    "ds6w:modified": "Fecha de modificación",
+    "ds6w:responsible": "Propietario",
+    "ds6w:type": "Tipo",
+    "ds6w:status": "Estado de madurez",
+    "ds6w:project": "Espacio de colaboración",
+    "ds6w:identifier": "Nombre"
+  },
+  "notifications": {
+    "expandTooLarge": "Se han recuperado demasiados objetos.<br> Limite la navegación utilizando filtros o reduzca el nivel de expansión.",
+    "initialization_error": {
+      "title": " La aplicación ha detectado un error inesperado.",
+      "subtitle": "Póngase en contacto con su administrador para recibir asistencia."
+    },
+    "tooManyResultFound": "La búsqueda está limitada a {maxResult} resultados. Restrinja la consulta."
+  },
+  "generic_service_failure": "Error al recuperar la información del objeto. Vuelva a intentarlo en unos minutos. Si el problema persiste, póngase en contacto con el administrador",
+  "cannot_insert_branch": "No se ha podido agregar el objeto",
+  "cannot_access_after_changeowner": "No se puede acceder al objeto después de cambiar la propiedad"
+}

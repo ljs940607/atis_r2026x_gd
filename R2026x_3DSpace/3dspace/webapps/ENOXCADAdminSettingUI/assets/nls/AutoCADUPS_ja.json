@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "自動命名",
+  "ACADAutoNameInfo": "図面ファイルを 3DEXPERIENCE に初めて保存する際に、自動命名を有効にします。これは、AutoCAD データをオーサリングするすべてのアプリケーションに適用されます。",
+  "ACADSaveGroupLabel": "保存",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "自動命名時にタイトルを新しい名前で置換",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "保存ダイアログで自動名称を選択すると、既存のファイル名が自動名称に置き換えられます。",
+  "ACADEnablePessimisticLockingLabel": "ペシミスティック ロック",
+  "ACADEnablePessimisticLockingInfo": "この機能を有効にすると、コネクターからプラットフォームにデータを保存できなくなります (ただし、そのデータが現在のユーザーによって予約されている場合は除きます)。",
+  "ACADFileReadOnlyLabel": "ファイルを読み取り専用にします",
+  "ACADFileReadOnlyInfo": "ファイルは、現行ユーザーが予約していない場合、読み取り専用としてマークされます。このビヘイビアは、悲観的なロックが有効になっている場合にのみ有効になります。",
+  "ACADDelimiterLabel": "区切り記号を設定",
+  "ACADDelimiterInfo": "この区切り記号は次の目的で使用します。\n1. CAD ファイルでの同期時に 3DEXPERIENCE で複数値属性の値をマージするため。\n2. CAD 属性値が 3DEXPERIENCE の複数値属性にマッピングされている場合に、その値を分割するため。",
+  "ACADOtherGroupLabel": "一般",
+  "InvalidDelimiter": "複数の文字を区切り記号として使用することはできません"
+}

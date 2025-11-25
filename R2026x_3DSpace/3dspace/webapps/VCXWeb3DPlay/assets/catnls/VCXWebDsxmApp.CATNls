@@ -1,0 +1,220 @@
+VCXWebAuthoringApp.VCXCreateSelectiveOverridesCmd.Title="Creates participating actors";
+VCXWebAuthoringApp.VCXCreateAllOverridesCmd.Title="Creates all actors";
+
+VCXWebAuthoringApp.Modifiable.Style.Title="Style";
+
+VCXWebAuthoringApp.VCXDressupChangeStyleCmd.Title = "Change Style";
+
+VCXWebAuthoringApp.styleID_NoStyle.Title = "None";
+VCXWebAuthoringApp.styleID_LabelClassicBlack.Title = "Label Classic Black";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlackCmd.Title = "Create Label";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack.Title = "Label Rounded Box Black";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlackCmd.Title = "Rounded Box";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack.Title = "Label Underline Black";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlackCmd.Title = "Underline";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack.Title = "Label Simple Black";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlackCmd.Title = "Simple";
+
+VCXWebAuthoringApp.styleID_LabelClassicGrey.Title = "Label Classic Grey";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicGreyCmd.Title = "Create Label";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey.Title = "Label Rounded Box Grey";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxGreyCmd.Title = "Create Label";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey.Title = "Label Underline Grey";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineGreyCmd.Title = "Underline";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey.Title = "Label Simple Grey";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleGreyCmd.Title = "Simple";
+
+VCXWebAuthoringApp.styleID_LabelClassicWhite.Title = "Label Classic White";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicWhiteCmd.Title = "Classic";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite.Title = "Label Rounded Box White";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedWhiteCmd.Title = "Rounded Box";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite.Title = "Label Underline White";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineWhiteCmd.Title = "Underline";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite.Title = "Label Simple White";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleWhiteCmd.Title = "Simple";
+VCXWebAuthoringApp.styleID_LabelClassicRed.Title = "Label Classic Red";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicRedCmd.Title = "Classic";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed.Title = "Label Rounded Box Red";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxRedCmd.Title = "Rounded Box";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed.Title = "Label Underline Red";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineRedCmd.Title = "Underline";
+VCXWebAuthoringApp.styleID_LabelSimpleRed.Title = "Label Simple Red";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleRedCmd.Title = "Simple";
+VCXWebAuthoringApp.styleID_LabelClassicBlue.Title = "Label Classic Blue";
+VCXWebAuthoringApp.VCXCreateDressupLabelClassicBlueCmd.Title = "Classic";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue.Title = "Label Rounded Box Blue";
+VCXWebAuthoringApp.VCXCreateDressupLabelRoundedBoxBlueCmd.Title = "Rounded Box";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue.Title = "Label Underline Blue";
+VCXWebAuthoringApp.VCXCreateDressupLabelUnderlineBlueCmd.Title = "Underline";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue.Title = "Label Simple Blue";
+VCXWebAuthoringApp.VCXCreateDressupLabelSimpleBlueCmd.Title = "Simple";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite.Title = "Arrow White";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultWhiteCmd.Title = "White";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey.Title = "Arrow Grey";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultGreyCmd.Title = "Grey";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed.Title = "Arrow Red";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultRedCmd.Title = "Red";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue.Title = "Arrow Blue";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlueCmd.Title = "Blue";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack.Title = "Arrow Black";
+VCXWebAuthoringApp.VCXCreateDressupArrowDefaultBlackCmd.Title = "Create Linear Arrow";
+
+
+VCXWebAuthoringApp.styleID_CircleBlack.Title = "Circle Black";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlackCmd.Title = "Black";
+VCXWebAuthoringApp.styleID_CircleWhite.Title = "Circle White";
+VCXWebAuthoringApp.VCXCreateDressupCircleWhiteCmd.Title = "White";
+VCXWebAuthoringApp.styleID_CircleGrey.Title = "Circle Grey";
+VCXWebAuthoringApp.VCXCreateDressupCircleGreyCmd.Title = "Grey";
+VCXWebAuthoringApp.styleID_CircleRed.Title = "Circle Red";
+VCXWebAuthoringApp.VCXCreateDressupCircleRedCmd.Title = "Red";
+VCXWebAuthoringApp.styleID_CircleBlue.Title = "Circle Blue";
+VCXWebAuthoringApp.VCXCreateDressupCircleBlueCmd.Title = "Blue";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack.Title = "TextBox Default Black";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlackCmd.Title = "Create 2D Text in Paper space";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack.Title = "TextBox Simple Black";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlackCmd.Title = "Simple";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey.Title = "TextBox Default Grey";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultGreyCmd.Title = "Grey";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey.Title = "TextBox Simple Grey";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleGreyCmd.Title = "Grey";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite.Title = "TextBox Default White";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultWhiteCmd.Title = "Create Text Box";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite.Title = "TextBox Simple White";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleWhiteCmd.Title = "Create Text Box";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed.Title = "TextBox Default Red";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultRedCmd.Title = "Red";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed.Title = "TextBox Simple Red";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleRedCmd.Title = "Red";
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue.Title = "TextBox Default Blue";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxDefaultBlueCmd.Title = "Blue";
+
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue.Title = "TextBox Simple Blue";
+VCXWebAuthoringApp.VCXCreateDressupTextBoxSimpleBlueCmd.Title = "Blue";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title = "Image Default";
+
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title = "Image Black Border";
+
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title = "Image White Border";
+
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title = "Image Round Border";
+
+VCXWebAuthoringApp.styleID_CallOutBlack.Title = "Call-Out Black";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlackCmd.Title = "Create Callout";
+
+VCXWebAuthoringApp.styleID_CallOutWhite.Title = "Call-Out White";
+VCXWebAuthoringApp.VCXCreateDressupCallOutWhiteCmd.Title = "Create Call-Out";
+
+VCXWebAuthoringApp.styleID_CallOutGrey.Title = "Call-Out Grey";
+VCXWebAuthoringApp.VCXCreateDressupCallOutGreyCmd.Title = "Grey";
+
+VCXWebAuthoringApp.styleID_CallOutRed.Title = "Call-Out Red";
+VCXWebAuthoringApp.VCXCreateDressupCallOutRedCmd.Title = "Red";
+
+VCXWebAuthoringApp.styleID_CallOutBlue.Title = "Call-Out Blue";
+VCXWebAuthoringApp.VCXCreateDressupCallOutBlueCmd.Title = "Blue";
+
+VCXWebAuthoringApp.styleID_LabelClassicBlack_v2.Title = "Label Classic Black";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlack_v2.Title = "Label Rounded Box Black";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlack_v2.Title = "Label Underline Black";
+VCXWebAuthoringApp.styleID_LabelSimpleBlack_v2.Title = "Label Simple Black";
+VCXWebAuthoringApp.styleID_LabelClassicGrey_v2.Title = "Label Classic Grey";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxGrey_v2.Title = "Label Rounded Box Grey";
+VCXWebAuthoringApp.styleID_LabelUnderlineGrey_v2.Title = "Label Underline Grey";
+VCXWebAuthoringApp.styleID_LabelSimpleGrey_v2.Title = "Label Simple Grey";
+VCXWebAuthoringApp.styleID_LabelClassicWhite_v2.Title = "Label Classic White";
+VCXWebAuthoringApp.styleID_LabelRoundedWhite_v2.Title = "Label Rounded Box White";
+VCXWebAuthoringApp.styleID_LabelUnderlineWhite_v2.Title = "Label Underline White";
+VCXWebAuthoringApp.styleID_LabelSimpleWhite_v2.Title = "Label Simple White";
+VCXWebAuthoringApp.styleID_LabelClassicRed_v2.Title = "Label Classic Red";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v2.Title = "Label Rounded Box Red";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxRed_v3.Title = "Label Rounded Box Red";
+VCXWebAuthoringApp.styleID_LabelUnderlineRed_v2.Title = "Label Underline Red";
+VCXWebAuthoringApp.styleID_LabelSimpleRed_v2.Title = "Label Simple Red";
+VCXWebAuthoringApp.styleID_LabelClassicBlue_v2.Title = "Label Classic Blue";
+VCXWebAuthoringApp.styleID_LabelRoundedBoxBlue_v2.Title = "Label Rounded Box Blue";
+VCXWebAuthoringApp.styleID_LabelUnderlineBlue_v2.Title = "Label Underline Blue";
+VCXWebAuthoringApp.styleID_LabelSimpleBlue_v2.Title = "Label Simple Blue";
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v2.Title = "Arrow White";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v2.Title = "Arrow Grey";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v2.Title = "Arrow Red";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v2.Title = "Arrow Blue";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v2.Title = "Arrow Black";
+VCXWebAuthoringApp.styleID_CircleBlack_v2.Title = "Circle Black";
+VCXWebAuthoringApp.styleID_CircleWhite_v2.Title = "Circle White";
+VCXWebAuthoringApp.styleID_CircleGrey_v2.Title = "Circle Grey";
+VCXWebAuthoringApp.styleID_CircleRed_v2.Title = "Circle Red";
+VCXWebAuthoringApp.styleID_CircleBlue_v2.Title = "Circle Blue";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v2.Title = "TextBox Default Black";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v2.Title = "TextBox Simple Black";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v2.Title = "TextBox Default Grey";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v2.Title = "TextBox Simple Grey";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v2.Title = "TextBox Default White";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v2.Title = "TextBox Simple White";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v2.Title = "TextBox Default Red";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v2.Title = "TextBox Simple Red";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v2.Title = "TextBox Default Blue";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v2.Title = "TextBox Simple Blue";
+VCXWebAuthoringApp.styleID_CallOutBlack_v2.Title = "Call-Out Black";
+VCXWebAuthoringApp.styleID_CallOutWhite_v2.Title = "Call-Out White";
+VCXWebAuthoringApp.styleID_CallOutGrey_v2.Title = "Call-Out Grey";
+VCXWebAuthoringApp.styleID_CallOutGrey_v3.Title = "Call-Out Grey";
+VCXWebAuthoringApp.styleID_CallOutRed_v2.Title = "Call-Out Red";
+VCXWebAuthoringApp.styleID_CallOutBlue_v2.Title = "Call-Out Blue";
+VCXWebAuthoringApp.styleID_CallOutSimple_v2.Title = "Call-Out Simple";
+
+VCXWebAuthoringApp.styleID_MesureClassicBlack_v3.Title = "Classic Black";
+VCXWebAuthoringApp.styleID_MesureClassicGrey_v3.Title = "Classic Grey";
+VCXWebAuthoringApp.styleID_MesureClassicWhite_v3.Title = "Classic White";
+VCXWebAuthoringApp.styleID_MesureClassicRed_v3.Title = "Classic Red";
+VCXWebAuthoringApp.styleID_MesureClassicBlue_v3.Title = "Classic Blue";
+
+VCXWebAuthoringApp.styleID_MesureRoundedBoxRed_v3.Title = "Rounded Box Red";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlue_v3.Title = "Rounded Box Blue";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxWhite_v3.Title = "Rounded Box White";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxGrey_v3.Title = "Rounded Box Grey";
+VCXWebAuthoringApp.styleID_MesureRoundedBoxBlack_v3.Title = "Rounded Box Black";
+
+
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlack_v3.Title = "TextBox Default Black";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlack_v3.Title = "TextBox Simple Black";
+VCXWebAuthoringApp.styleID_TextBoxDefaultGrey_v3.Title = "TextBox Default Grey";
+VCXWebAuthoringApp.styleID_TextBoxSimpleGrey_v3.Title = "TextBox Simple Grey";
+VCXWebAuthoringApp.styleID_TextBoxDefaultWhite_v3.Title = "TextBox Default White";
+VCXWebAuthoringApp.styleID_TextBoxSimpleWhite_v3.Title = "TextBox Simple White";
+VCXWebAuthoringApp.styleID_TextBoxDefaultRed_v3.Title = "TextBox Default Red";
+VCXWebAuthoringApp.styleID_TextBoxSimpleRed_v3.Title = "TextBox Simple Red";
+VCXWebAuthoringApp.styleID_TextBoxDefaultBlue_v3.Title = "TextBox Default Blue";
+VCXWebAuthoringApp.styleID_TextBoxSimpleBlue_v3.Title = "TextBox Simple Blue";
+
+VCXWebAuthoringApp.styleID_ImageDefaultShadow.Title = "Image Default";
+VCXWebAuthoringApp.styleID_ImageBlackBorder.Title = "Black Border";
+VCXWebAuthoringApp.styleID_ImageWhiteBorder.Title = "White Border";
+VCXWebAuthoringApp.styleID_ImageRoundShape.Title = "Round Shape";
+
+VCXWebAuthoringApp.styleID_ArrowDefaultWhite_v3.Title = "Arrow White";
+VCXWebAuthoringApp.styleID_ArrowDefaultGrey_v3.Title = "Arrow Grey";
+VCXWebAuthoringApp.styleID_ArrowDefaultRed_v3.Title = "Arrow Red";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlue_v3.Title = "Arrow Blue";
+VCXWebAuthoringApp.styleID_ArrowDefaultBlack_v3.Title = "Arrow Black";
+
+VCXWebAuthoringApp.styleID_PolylineDefaultGrey_v3.Title = "Grey";
+VCXWebAuthoringApp.styleID_PolylineDefaultDash.Title = "Dash";
+VCXWebAuthoringApp.styleID_PolylineDefaultPlain.Title = "Plain";
+
+VCXWebAuthoringApp.styleID_RedlineBlue_v3.Title = "Blue";
+VCXWebAuthoringApp.styleID_RedlineRed.Title = "Red";
+
+VCXWebAuthoringApp.styleID_SectionBlue.Title = "Bleu";
+VCXWebAuthoringApp.styleID_SectionSimple.Title = "Simple";
+

@@ -1,0 +1,16 @@
+{
+  "OK": "確定",
+  "Cancel": "取消",
+  "OpenLocation": "父項次 {typeStruct}",
+  "Bookmark_Locations": "{typeStruct} 位置",
+  "Open": "開啟",
+  "OpenLocationPopupLable": "選擇您要開啟的 {typeStruct}：",
+  "msg_error_BookmarkLocation": "無法開啟 {typeStruct}「{name1}」的位置 (可能已刪除或無法存取)。",
+  "msg_error_BM_LOC_InValid_Object": "無法選擇物件。可能已刪除或無法存取。",
+  "removeFromSearchNotif": {
+    "success": "已移除物件。",
+    "failNotAllowed": "確認 {typeStruct} 處於允許變更內容的狀態。",
+    "serverError": "重新整理小工具或瀏覽器，並確認您使用正確的認證。",
+    "failNoRelationFound": "確認您有足夠的許可。"
+  }
+}

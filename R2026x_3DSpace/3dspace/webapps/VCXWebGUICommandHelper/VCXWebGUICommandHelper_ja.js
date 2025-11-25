@@ -1,0 +1,1 @@
+define("DS/VCXWebGUICommandHelper/VCXWebGUICommandHelper_ja",{});define("DS/VCXWebGUICommandHelper/assets/nls/VCXWebGUICommandHelper",{"Step.Title":"ステップ","Step.Action":"アクション","Step.DefaultMessage":"ステップのデフォルト メッセージ "});

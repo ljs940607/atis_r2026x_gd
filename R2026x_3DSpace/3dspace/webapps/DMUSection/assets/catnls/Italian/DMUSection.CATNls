@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Taglia";
+DMUSection.DMUSectionNoCutHdr.Title="Nessun taglio";
+DMUSection.DMUSectionGridHdr.Title="Grid";
+DMUSection.DMUSectionFlipHdr.Title="Inverti";
+DMUSection.DMUSectionNormalToXHdr.Title="Posiziona in X";
+DMUSection.DMUSectionNormalToYHdr.Title="Posiziona in Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Posiziona in Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Posizione da geometria";
+DMUSection.DMUSectionMoveHdr.Title="Sposta punto di vista";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Visualizzatore secondario sezione";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Sezione selettiva";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Rimuovi";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Esci dalla modifica del ritaglio";
+DMUSection.DMUClippingEditionHdr.Title="Modifica ritaglio";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Ritaglia per un elemento di costruzione";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Ritaglia per sezione";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Ridimensiona da oggetti selezionati";
+DMUSection.DMUResetClippingPlaneHdr.Title="Reimposta ritaglio";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Ritaglia per sezione";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Ridimensiona da oggetti selezionati";
+DMUSection.DMUResetClippingSliceHdr.Title="Reimposta ritaglio";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Ritaglia per riquadro";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Ridimensiona da oggetti selezionati";
+DMUSection.DMUResetClippingBoxHdr.Title="Reimposta ritaglio";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Posizione lungo l'asse X.";
+DMUSection.DMUClippingNormalToYHdr.Title="Posizione lungo l'asse Y.";
+DMUSection.DMUClippingNormalToZHdr.Title="Posizione lungo l'asse Z.";
+DMUSection.DMUClippingNormalUserHdr.Title="Posizione dalla geometria selezionata";
+DMUSection.DMUClippingReverseHdr.Title="Inverti ritaglio";
+DMUSection.DMUContourViewerHdr.Title="Visualizzatore secondario sezione";
+DMUSection.DMUClippingPositionHdr.Title="Posizione di ritaglio...";
+DMUSection.DMUAlignViewHdr.Title="Allinea punto di vista";
+DMUSection.DMUHideShowHdr.Title="Nascondi/Mostra";
+DMUSection.DMUCutUncutHdr.Title="Tagliato/Non tagliato...";
+DMUSection.DMUClippingEditStr.Title="Ritaglio";
+DMUSection.DMUClippingPropertiesHdr.Title="Proprietà";

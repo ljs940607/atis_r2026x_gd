@@ -1,0 +1,20 @@
+{
+  "EFF_CLEAR": "Vymazat výraz",
+  "MODEL_RM": "Odebrat model z editoru",
+  "MODEL_ADD": "Vybrat model",
+  "NO_FEATURES": "Nebyly nalezeny žádné varianty ani možnosti",
+  "Evolution_Impact_Msg": "Některé varianty/možnosti chybí kvůli změně platnosti rozvinutí",
+  "NO_MODELS_MSG": "Nemáte definován žádný výraz varianty a možností; můžete začít přidávat model a definovat výraz varianty a možností",
+  "No_Model_Error": "Připojte model k nadřazenému prvku {1} a zkuste to znovu.",
+  "No_Variant_Crit_Error": "Povolte kritéria variant a možností u nadřazeného objektu.",
+  "Legacy_Eff_Error": "U objektu s neoddělenou platností nelze upravovat varianty a možnosti.",
+  "CC_AC_HDR_Error": "Nadřazený prvek {1} podléhá řízení změn. ",
+  "CC_AC_HDR_Error_Subtitle": "Určete akci změny, pod kterou chcete pracovat, pro {1}",
+  "Edit_Var_OK": "OK",
+  "Edit_Var_Cancel": "Zrušit",
+  "Syntax_Error": "Chyba syntaxe ve výrazu varianty a možností",
+  "Service_OK": "Úprava variant a možností proběhla úspěšně",
+  "Service_Fail": "Úprava variant a možností se nezdařila.",
+  "Dictionary_Error": "Nelze načíst konfigurační slovník.",
+  "CFG_Application_Refresh_For_Instance_Evolved": "Instance se vyvíjí s operací rozdělení Varianta."
+}

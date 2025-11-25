@@ -1,0 +1,1 @@
+define("DS/Form/Form_it",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"Campo obbligatorio"});

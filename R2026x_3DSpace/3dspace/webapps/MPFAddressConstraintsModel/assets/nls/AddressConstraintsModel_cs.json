@@ -1,0 +1,14 @@
+{
+  "addressLine1": "adresa",
+  "addressLine2": "adresa",
+  "addressLine3": "adresa",
+  "addressLine4": "adresa",
+  "city": "město",
+  "county": "okres",
+  "state": "stát",
+  "postalCode": "PSČ",
+  "phoneNumber": "telefonní číslo",
+  "country": "země",
+  "requiredError": "{0} je povinný údaj",
+  "invalidError": "{0} je neplatná hodnota"
+}

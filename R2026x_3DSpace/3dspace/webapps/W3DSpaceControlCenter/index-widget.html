@@ -1,0 +1,26 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">-->
+<!DOCTYPE html>
+<!-- Copyright 2014 , Dassault Systemes. All rights reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+  <head>
+    <meta name="author" content="Dassault Systèmes" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="debugMode" content="true" />
+    <meta name="autoRefresh" content="0" />
+    <title>3DSpace Control Center</title>
+    
+    <widget:preferences>
+        <preference name="collab-storage" type="list" label="storage_label" defaultValue="">
+            <option value="" label="loading_label" />
+        </preference>
+    </widget:preferences>
+    <!-- Will be updated on vite build with href="../../.." to point to the webapps folder -->
+    <link rel="webappsBaseUrl">
+    <meta name="cscc-marker:code-injection" content="script-injection">
+  </head>
+  <body>
+    <!--<script type="module" src="./src/apps/entrypoint-widget.ts"></script>-->
+    <div id="app"></div>
+    <script type="module" src="./src/W3DSpaceControlCenter.ts"></script>
+  </body>
+</html>

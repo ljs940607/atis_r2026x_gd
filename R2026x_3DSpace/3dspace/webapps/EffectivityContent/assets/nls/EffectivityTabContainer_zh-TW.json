@@ -1,0 +1,17 @@
+{
+  "ERROR_DATA_LOAD_TITLE": "擷取有效性資訊時發生錯誤。",
+  "ERROR_DATA_LOAD_MSG": "確認您可以存取此物件。",
+  "ERROR_DATA_FETCH_TITLE": "擷取物件詳細資料時發生錯誤。",
+  "ERROR_EXP_FETCH_TITLE": "擷取有效性運算式詳細資料時發生錯誤。",
+  "title_label": "標題",
+  "instance_title_label": "標題",
+  "instance_title_tooltip": "副本的標題",
+  "evolution_label": "目前的進化",
+  "owner_label": "擁有者",
+  "type_label": "類型",
+  "openwith_label": "開啟方式",
+  "filter_label": "濾器",
+  "filter_mentioned": "{0} 提及",
+  "filter_included": "{0} 包括",
+  "expression_label": "變體/選項"
+}

@@ -1,0 +1,21 @@
+{
+  "PLATFORM_LABEL ": "Platform",
+  "MODELID_LABEL  ": "3DSwym Model Kimliği",
+  "QUERY_ERROR": "3DSwym bağlantısı kurulamadı",
+  "MY_APPS_ERROR": "Dönüştürülüyor",
+  "SWYM_ERROR": "3DSwym platformu bulunamadı. Lütfen 3DSwym erişiminizin olduğundan emin olun",
+  "UNAUTHORIZED_MODEL": "Dönüştürülüyor",
+  "EMPTY_MODEL_ID": "3B içeriğinizi buraya bırakın",
+  "EMPTY_MODEL_ID_IPAD": "Lütfen tercihlerde Model Kimliğini ayarlayın",
+  "BAD_TYPE": "Bu Ortam, beklenen Ortam formatıyla uyuşmuyor",
+  "BAD_ID_TYPE": "Geçersiz Model Kimliği tipi; lütfen Model Kimliği alanına sayısal bir değer girin",
+  "UNKNOWN_MODEL": "Girilen içerik kimliği yanlış. Lütfen widget tercihine geçerli bir kimlik girin",
+  "EXPERIENCES_LABEL": "Mevcut Deneyimler",
+  "UNAVAILABLE_EXPERIENCE": "Deneyim yok",
+  "SAME_MODEL_TITLE": "Bu, aynı model",
+  "SAME_MODEL": "Yeniden yüklemek istiyorsanız Yenile'ye basın.",
+  "MultipleSelection": "Yalnızca ilk seçilen nesne yüklenir",
+  "DROP_IT_MSG": "Öğenizi buraya bırakın",
+  "REPLACE_IT_MSG": "Değiştirin",
+  "DROP_ERROR_MSG": "Çoklu seçim desteklenmiyor"
+}

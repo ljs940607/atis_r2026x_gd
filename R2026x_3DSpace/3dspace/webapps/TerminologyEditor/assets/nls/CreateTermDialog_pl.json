@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "Utwórz węzeł przeglądania",
+    "terminologyCreation": "Utwórz strukturę przeglądania"
+  },
+  "options": {
+    "title": "Tytuł",
+    "titleMessage": "Musisz wprowadzić tytuł",
+    "description": "Opis",
+    "descMessage": "Wprowadź opis"
+  },
+  "buttons": {
+    "create": "Utwórz",
+    "cancel": "Anuluj"
+  },
+  "error": {
+    "invalidFrame": "wybrana ramka jest nieprawidłowa, nie można utworzyć okna dialogowego",
+    "missingcallback": "Brak wywołań zwrotnych",
+    "invalidType": "Należy wywołać to polecenie, aby utworzyć strukturę przeglądania lub węzeł przeglądania"
+  }
+}

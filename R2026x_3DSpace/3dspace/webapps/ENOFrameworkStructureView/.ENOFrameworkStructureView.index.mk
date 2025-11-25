@@ -1,0 +1,9 @@
+m|ENOTeamCentral\ENOFrameworkStructureView.mweb
+b|j|n,u
+b|c|n,u
+v|6.428.0.25150|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ENOFrameworkStructureView\ENOFrameworkStructureView.html|1748664840|3756
+s|ENOTeamCentral\ENOFrameworkStructureView.mweb\src\ENOFrameworkStructureView.html|1744316166|3756
+t|win_b64\webapps\ENOFrameworkStructureView\ENOFrameworkStructureView.js|1741081592|43375
+s|ENOTeamCentral\ENOFrameworkStructureView.mweb\src\ENOFrameworkStructureView.js|1741081592|43375

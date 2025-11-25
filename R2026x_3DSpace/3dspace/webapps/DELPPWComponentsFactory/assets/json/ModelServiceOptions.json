@@ -1,0 +1,35 @@
+{
+	"NavigateUtil": {
+		"indexMappingXML": "indexMappingXML"
+	},
+	"DicoUtils": {
+		"modelRelationsXML": "modelRelationsXML",
+		"modelCustomRelationsXML": "modelCustomRelationsXML",
+		"fetchConfig": {
+			"interfaces" : [],
+			"attrMaskInfo" : ["RESOURCE"]
+		}
+	},
+	"intializeOptions": [
+		[
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveRefDicoType"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveInstDicoType"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveDocDicoType"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveResourceType"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrievePPRTypes"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveValidChildTypes"}
+		],
+		[
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveDimensions"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveModelRelations"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveModelCustomRelations"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveDicoAttributeInfo"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveAttrMaskInfoForPPRTypes"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveExtnInfoForClassTypes", "isBackgroundSeq" : "true"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveSharedIconPath"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveDicoTypesAttributesIndexMapping"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveParameterIsAutoCreateScopeOnHOP"},
+			{ "require": "DS/DELPPWDicoServices/DicoUtils",  "function": "retrieveCustomDicoType"}
+		]
+	]
+}

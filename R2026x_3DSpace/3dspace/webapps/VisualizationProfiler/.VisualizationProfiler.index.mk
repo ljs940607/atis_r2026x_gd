@@ -1,0 +1,12 @@
+m|CSIViewModelWeb\VisualizationProfiler.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25112|3.2
+r|G:\R428\BSF\.
+t|win_b64\typings\VisualizationProfiler\VisuProfiler.d.ts|1714242160|58
+s|CSIViewModelWeb\VisualizationProfiler.mweb\src\VisuProfiler.d.ts|1714242160|58
+t|win_b64\webapps\VisualizationProfiler\VisualizationProfiler.js|1723572803|20191
+s|CSIViewModelWeb\VisualizationProfiler.mweb\src\VisualizationProfiler.js|1710157122|2
+u|CSIViewModelWeb\VisualizationProfiler.mweb\src\VisuProfiler.js|1722879252|47602
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

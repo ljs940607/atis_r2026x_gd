@@ -1,0 +1,19 @@
+{
+  "DRAFT" : "Draft",
+  "FIRM" : "Firm",
+  "RELEASED_FOR_EXECUTION" : "Released for Execution",
+  "READY_FOR_EXECUTION" : "Ready for Execution",
+  "WORK_IN_PROGRESS" : "Work in Progress",
+  "COMPLETED" : "Completed",
+  "CANCELLED" : "Canceled",
+  "ABORTED" : "Aborted",
+  "CLOSED" : "Closed",
+  "confirm" : "confirm",
+  "release" : "release",
+  "start_execution" : "start",
+  "complete_execution" : "execute",
+  "abort" : "abort",
+  "close" :"close",
+  "cancel" : "cancel",
+  "explode" : "explode"
+}

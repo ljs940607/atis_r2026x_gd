@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "Moje osobní složka záložek",
+  "name_Section_FolderSection_favorite": "Oblíbené",
+  "name_Section_FolderSection_AllFolders": "Složky záložek",
+  "name_Section_TerminologySection_AllTerminologies": "Struktury procházení",
+  "name_Section_ParentFolders": "{number} Nadřazené složky záložek",
+  "www_multisel_forbidden": "Vícenásobný výběr není u vybraných objektů podporován",
+  "wwwLinkType": "Odkaz URL",
+  "folder_pref_dnd": "Chování při přetažení",
+  "default_pref_label": "Štítek předvolby",
+  "cannot_insert_branch": "Načtení informací o objektu selhalo. Zkuste to znovu za několik minut. Pokud problém přetrvává, obraťte se na správce",
+  "export_level": "Úroveň",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "Skrýt podřízené výrobky označené záložkou",
+  "folder_pref_allow_products_expand": "Povolit rozšíření výrobků",
+  "folder_pref_subfolder": "Zobrazit podřízené složky záložek v zobrazení obsahu",
+  "folder_pref_populateTags": "Povolit značky 6W Tags pro filtrování složek záložek",
+  "useIndexAcceleration_label": "Zobrazit indexovaná data",
+  "folder_pref_autoSwitch_Label": "Automatické přepnutí z režimu databáze do režimu indexování",
+  "button_remove": "Odebrat",
+  "button_close": "Zavřít",
+  "button_treeOrder": "Přizpůsobit pořadí ve stromu",
+  "Move_label": "Přesunout",
+  "Copy_label": "Kopírovat",
+  "oneMin_Label": "1 minuta",
+  "threeMin_Label": "3 minuty",
+  "fiveMin_Label": "5 minut",
+  "tenMin_Label": "10 minut",
+  "Never_Label": "Nikdy",
+  "Upload_content_loading": "Nahrát obsah",
+  "AddExisting_content_loading": "Přidat stávající obsah",
+  "AddContentError": "Objekty jsou již připojeny.",
+  "Paste_content_loading": "Vložit obsah",
+  "Remove_content_loading": "Odebrat obsah",
+  "Remove_shortcut_loading": "Odebrat zástupce",
+  "Replace_revision_loading": "Nahrazování obsahu nejnovější revizí",
+  "LoadAttributes_Loading": "Načítání atributů křížových služeb...",
+  "Content_Loading": "Načítání obsahu...",
+  "LoadingView_Loading": "Načítání pohledu...",
+  "CheckingAccess_Loading": "Probíhá kontrola přístupů k složkám záložek...",
+  "Widget_Loading": "Načítání pomůcky...",
+  "BookmarksTree_Loading": "Načítání stromu...",
+  "FavoriteBkTree_Loading": "Načítání stromu oblíbených položek...",
+  "PersonalTree_Loading": "Načítání osobního stromu...",
+  "ExpandAndSelect_Loading": "Navigace ke struktuře {typeStruct}…",
+  "Bookmark_Loading": "Výběr složky záložek...",
+  "SetActiveBookmark_Loading": "Nastavení nové globální výchozí složky záložek...",
+  "UnsetActiveBookmark_Loading": "Rušení nastavení globální výchozí složky záložek...",
+  "EnableActiveBookmark_Loading": "Aktivace globální výchozí složky záložek...",
+  "DisableActiveBookmark_Loading": "Deaktivace globální výchozí složky záložek...",
+  "New_Loading": "Načítání panelu vytváření...",
+  "Shared_label": "Sdíleno",
+  "Personal_label": "Osobní",
+  "label_ActionBar_AddToFavorites": "Přidat/odebrat oblíbené",
+  "label_ActionBar_RemoveFromFavorites": "Odebrat z oblíbených",
+  "label_title_NewBookmark": "Nová složka záložek",
+  "newBookmark_typeNls": "Složka záložek",
+  "msg_success_copyLink_content": "Odkaz na dokument „{filename}“ uvnitř struktury {typeStruct} „{foldername}“ byl zkopírován.",
+  "msg_success_copyLink_folder": "Odkaz na strukturu {typeStruct} „{foldername}“ byl zkopírován.",
+  "msg_success_favoriteReordered": "Změna pořadí proběhla úspěšně.",
+  "msg_info_contentcopied": "Obsah byl zkopírován.",
+  "msg_info_contentcut": "Obsah byl vyjmut.",
+  "msg_info_objetremoved": "Bylo odebráno {number} objektů ze struktury {typeStruct} „{foldername}“.",
+  "msg_info_LinkRemoved": "Bylo odebráno {number} odkazů ze struktury {typeStruct} „{foldername}“.",
+  "msg_info_objectremovedfromfolders": "Objekt „{objectname}“ byl úspěšně odebrán z {number} {typeStruct} struktur.",
+  "msg_info_notConnectToBk": "Nebyl připojen k {number} objektům {typeStruct}",
+  "msg_info_objetnotremoved": "Objekty ({number}), které mají být odstraněny, nebyly připojeny ke složce {typeStruct} „{foldername}“.",
+  "msg_info_Addinfolder": "Bylo přidáno {objectsAdded} objektů do složky {typeStruct} {targetfolder}. {objectsAlreadyPresent} objektů, které měly být přidány, již bylo přítomno.",
+  "msg_info_Addinfolder_1": "Bylo přidáno {objectsAdded} objektů do složky {typeStruct} {targetfolder}.",
+  "msg_info_Addinfolder_2": "{objectsAlreadyPresent} Objekty, které mají být přidány, již byly přítomny.",
+  "msg_info_objetadded": "Soubor „{filename}“ přidán do složky záložek „{foldername}“.",
+  "msg_info_objetmoved": "Bylo přesunuto {objectsMoved} objektů do složky {typeStruct} {targetfolder}, {objectsAlreadyPresent} objektů, které měly být přesunuty, již bylo přítomno.",
+  "msg_info_objetmoved_1": "Bylo přesunuto {objectsMoved} objektů do složky {typeStruct} {targetfolder}.",
+  "msg_info_foldercopied": "Bylo přidáno {number} {typeNode} objektů do složky {typeStruct} „{foldername}“.",
+  "msg_info_rootCreated": "Bylo vytvořeno {number}{typeNode} objektů.",
+  "msg_info_foldercopied_2": "Bylo přidáno {number} {typeNode} objektů do složky „{foldername}“.",
+  "msg_info_objetmoved_2": "{objectsAlreadyPresent} Objekty, které mají být přesunuty, již byly přítomny.",
+  "msg_info_foldermoved": "Bylo přesunuto {number} {typeNode} objektů do složky {typeStruct} „{foldername}“.",
+  "msg_info_filecheckedout": "Soubor byl úspěšně vyzvednut.",
+  "msg_info_filecheckedin": "Soubor byl úspěšně odevzdán.",
+  "msg_info_filecancelcheckout": "Operace úpravy souboru byla úspěšně zrušena.",
+  "msg_info_favoriteadded": "Složka záložek „{name1}“ byla přidána do oblíbených.",
+  "msg_info_favoriteremoved": "Složka záložek „{name1}“ byla odebrána z oblíbených.",
+  "msg_info_favoritesremoved": "Z oblíbených položek byl odebrán tento počet složek záložek: {number}.",
+  "msg_info_favoriterenamed": "Oblíbená položka „{name1}“ byla přejmenována na „{name2}“.",
+  "msg_info_rename": "Struktura {typeStruct} „{name1}“ je přejmenována na „{name2}“.",
+  "msg_info_refresh": "Aktualizace provedena.",
+  "msg_info_reorder_NonRootbks": "Vyberte složku záložek z části Složky záložek.",
+  "msg_info_reorder_emptyBks": "Vyberte složku záložek se 2 nebo více dětmi.",
+  "tree_ordering_panel_title": "Přizpůsobit pořadí ve stromu – ",
+  "tree_ordering_Reorder_btn": "Změnit pořadí",
+  "find_in_left_tree_btn": "Najít",
+  "tree_ordering_reset_btn": "Obnovit pořadí stromu",
+  "tree_ordering_cancel_btn": "Zrušit",
+  "tree_ordering_moveup_btn": "Nahoru",
+  "tree_ordering_movedown_btn": "Dolů",
+  "tree_ordering_movetop_btn": "Přesunout na začátek",
+  "tree_ordering_movebottom_btn": "Přesunout na konec",
+  "tree_ordering_drop_here": "Přetáhnout sem",
+  "reorderSuccess": "Změna pořadí proběhla úspěšně",
+  "msg_info_noResultSearch": "Nebyl nalezen žádný výsledek.",
+  "msg_info_SortNonAvailable": "Tento sloupec není k dispozici pro třídění během vyhledávání.",
+  "msg_info_replaceByRevision": "Objekt byl úspěšně nahrazen.",
+  "msg_info_replaceByLatestRevision": "Nahrazení poslední verzí bylo úspěšně provedeno",
+  "msg_info_replaceByLatestRevision_removed": "Tento počet: {number} objektů byl explicitně odebrán, protože jejich poslední verze již byla přítomna v záložce nebo mělo několik vybraných objektů společnou verzi.",
+  "msg_info_treeFilterRemove": "Filtry stromu se odstraní po přidání kořenového objektu",
+  "msg_info_active_successfully": "{folderLabel} byla úspěšně nastavena jako globální výchozí složka záložek.",
+  "msg_info_inactive_successfully": "Nastavení globální výchozí složky záložek {folderLabel} bylo úspěšně zrušeno.",
+  "msg_info_enable_successfully": "Globální výchozí složka záložek {folderLabel} je nyní povolena.",
+  "msg_info_disable_successfully": "Globální výchozí složka záložek {folderLabel} je nyní zakázána.",
+  "msg_info_defaultLocation": "Globální výchozí složkou záložek je {folderLabel}.",
+  "msg_warning_MultipleSelection": "Vícenásobný výběr není podporován.",
+  "msg_warning_nocontent": "Nebyl vybrán žádný obsah: Vyberte obsah.",
+  "msg_warning_nofoldernocontent": "Nic není vybráno: Vyberte obsah nebo složku záložek.",
+  "msg_warning_nocurrentfolder": "Žádný aktuální výběr: Vyberte prvek ve stromu.",
+  "msg_warning_noselection": "Musí být vybrán alespoň jeden objekt.",
+  "msg_warning_dndnotsupported": "Tato operace přetažení není podporována.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Přetažení externích objektů v části Oblíbené není akceptováno.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Přetažení objektů z jiné platformy 3DEXPERIENCE platform není akceptováno.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "{objectType} objektů nelze přidat.",
+    "subtitle": "Vyberte podporovaný typ objektu."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "Přidání objektů z jiné platformy 3DEXPERIENCE platform není akceptováno.",
+  "msg_warning_webInWinDnD": "Přetažení objektů je akceptováno pouze na 3DDashboard.",
+  "msg_warning_Linked_Or_Shortcut": "Zástupce složek záložek nelze přetáhnout. Chcete-li přetahovat ostatní objekty, zrušte výběr zástupců složek záložek.",
+  "msg_warning_FolderAlreadyAmongFavorites": "Složka {typeStruct} „{foldername}“ již patří mezi oblíbené.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "Stav posledního rozbalení nebude uložen.",
+    "subtitle": "Sbalte některé prvky stromu, aby bylo možné ukládat stav rozbalení.",
+    "message": "Bylo rozbaleno příliš mnoho prvků stromu."
+  },
+  "msg_warning_copyLink": "Vybraný objekt není složka záložek.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "V kontextovém hledání není podporováno, pokud je počet kořenů vyšší než 200.",
+  "msg_warning_searchOpen": {
+    "title": "Nelze vytvořit složku záložek.",
+    "subtitle": "Novou složku záložek nelze vytvořit, zatímco je aktivní vyhledávání.",
+    "message": "Zavřením příkazu vyhledávání vytvoříte novou složku záložek."
+  },
+  "msg_error_OnRefreshCmdfailure": "Došlo k neočekávané chybě.",
+  "msg_error_preferencessnotsaved": "Předvolby nelze uložit.",
+  "msg_error_nopreferences": "Předvolby nelze načíst.",
+  "msg_error_Addinfolder": "Vybraný obsah nelze přidat.",
+  "msg_error_Addinfolder_obj": "Nelze přidat {object}.",
+  "msg_error_CopyFolder": "Nelze kopírovat {typeStruct}.",
+  "msg_error_MoveFolder": "Nelze přesunout {typeStruct}.",
+  "msg_error_MoveFolder_parent": "Cílová struktura {typeStruct} je jedním z rodičů uzlu {typeNode}, který chcete přesunout.",
+  "msg_error_CutPasteToRoot": "Prvky {typeStruct} nelze přesunout do kořenového oddílu.",
+  "msg_error_Removefromfolder": "Nelze odstranit objekty ze struktury {typeStruct}.",
+  "msg_error_RemoveLinkfromBookmark": "Nelze odebrat odkaz(y) ze složky záložek.",
+  "msg_error_MoveInfolder": "Objekty nelze přesouvat.",
+  "msg_error_MoveInSamefolder": {
+    "title": "Vyberte jinou strukturu {typeStruct}.",
+    "subtitle": "Zdrojová struktura {typeStruct} a cílová struktura {typeStruct} jsou stejné."
+  },
+  "msg_error_rename": {
+    "title": "Nelze přejmenovat {typeStruct} : {name}.",
+    "subtitle": "Zkontrolujte, zda používáte správné přihlašovací údaje.",
+    "subtitle_oneName": "Ověřte, zda se název není již nepoužívá nebo zda používáte správné přihlašovací údaje.",
+    "message": "K přejmenování tohoto typu objektu možná nemáte potřebnou odpovědnost v cílovém prostoru pro spolupráci."
+  },
+  "msg_error_name_maxlength": "Zadejte nový název v rozsahu 1 až {maxLength} znaků.",
+  "msg_error_name_empty": "Název nesmí být prázdný.",
+  "msg_error_bookmarkNotFound": {
+    "title": "Nelze získat přístup k {name1}.",
+    "title2": "Nelze získat přístup ke struktuře {typeStruct}.",
+    "subtitle": "Struktura {typeStruct} již není přístupná nebo byla možná odstraněna.",
+    "message": "Možná nemáte potřebnou odpovědnost v cílovém prostoru pro spolupráci."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Strom nelze rozbalit.",
+    "subtitle": "Obnovte aplikaci a zkuste to znovu, nebo se obraťte na správce se žádostí o podporu."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "Štítek {label} obsahuje neplatné znaky: {badChars}.",
+    "subtitle": "Nelze použít žádný z následujících znaků:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Při načítání atributů došlo k chybě.",
+    "subtitle": "Obnovte widget.",
+    "message": "Atributy ostatních služeb nelze načíst."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Tato struktura {typeStruct} již není přístupná. ",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Složka záložek byla možná odstraněna nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "Tento externí odkaz již není přístupný."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "Struktura {typeStruct} již není dostupná.",
+    "subtitle": "Odeberte strukturu {typeStruct} z vašich oblíbených položek.",
+    "message": "Složka záložek byla možná odstraněna nebo nemáte požadovaná oprávnění."
+  },
+  "msg_InfoAction_Timeout": "Operace trvá déle, než se očekávalo. Bude pokračovat na pozadí. Obnovením aktualizujte data.",
+  "msg_error_authorTimeout": {
+    "title": "Operace trvá déle, než se očekávalo.",
+    "message": "Bude pokračovat na pozadí."
+  },
+  "msg_error_timeout": {
+    "title": "Obsah nelze načíst.",
+    "subtitle": "Vypršel časový limit připojení k serveru.",
+    "message": "Zkontrolujte připojení nebo se obraťte na správce se žádostí o pomoc."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Tento objekt již není přístupný.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Objekt mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Nelze otevřít aplikaci Relations.",
+    "subtitle": " Ověřte roli vaší licence."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Objekty nelze nahradit jejich nejnovější revizí.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Nelze {move_copy} složku záložek {personal_shared} do složky záložek {shared_personal}.",
+  "msg_error_copylink": {
+    "title": "Ke kopírování odkazu do schránky musíte mít oprávnění.",
+    "subtitle": "Zkontrolujte své přihlašovací údaje nebo se obraťte se žádostí o pomoc na správce."
+  },
+  "msg_error_createNew": {
+    "title": "Tento objekt nelze vytvořit.",
+    "subtitle": "Zkontrolujte, zda používáte správné přihlašovací údaje.",
+    "message": "Možná nemáte potřebnou odpovědnost k vytvoření tohoto typu objektu v cílovém prostoru pro spolupráci."
+  },
+  "msg_error_rest": {
+    "title": "Došlo k neočekávané chybě.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "msg_error_js": {
+    "title": "Během operace došlo k chybě.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Nelze načíst výchozí složku záložek.",
+    "subtitle": "Ohledně pomoci se obraťte na správce.",
+    "message": "Výchozí složka záložek již není definována."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Vyberte jinou revizi.",
+    "subtitle": "Revizi objektu nelze nahradit stejnou revizí."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "Struktura {typeStruct} již obsahuje nejnovější revizi vybraných objektů.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Tuto cestu nelze zobrazit.",
+    "subtitle": "Ve složce záložek není vidět žádný nadřazený objekt.",
+    "message": "Zrušte výběr předvolby „Skrýt podřízené výrobky označené záložkou“."
+  },
+  "msg_warning_notProductRoot": "Objekt již není přístupný nebo byl možná odstraněn.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "Vyberte maximálně 100 objektů.",
+  "msg_warning_contentnotavailable": {
+    "title": "Tento obsah již není přístupný.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Obsah mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "Obsah nelze odebrat.",
+    "subtitle": "Vyberte dílčí strukturu {typeStruct} pro upřesnění výsledků vyhledávání.",
+    "message": "Obsah nelze odstranit z více než 20 prvků {typeStruct}."
+  },
+  "msg_error_settings": {
+    "title": "Předvolby nelze načíst.",
+    "subtitle": "Došlo k neočekávané chybě. Ohledně pomoci se obraťte na správce."
+  },
+  "msg_error_search_login": "Chyba serveru. Služba Federated Search není k dispozici.",
+  "CMDInsertNewFolder": "Nová složka záložek",
+  "CMDRemoveContent": "Odebrat obsah",
+  "CMDAddFile": "Nahrát dokument",
+  "CMDDownloadFile": "Stáhnout",
+  "CMDPreviewFile": "Náhled",
+  "CMDCheckOutFile": "Vyzvednout",
+  "CMDCheckInFile": "Odevzdat",
+  "CMDEditFile": "Upravit",
+  "CMDUndoEditFile": "&Zpět úpravy",
+  "CMDFolderUpload": "Nahrát složku",
+  "CMDUpdateFile": "Aktualizovat",
+  "CMDRename": "Přejmenovat",
+  "CMDCut": "Vyjmout",
+  "CMDCopy": "Kopírovat",
+  "CMDPaste": "Vložit",
+  "CMDDelete": "Odstranit",
+  "CMDClearSort": "Zrušit řazení",
+  "CMDHideColumn": "Skrýt sloupec",
+  "CMDOpenColumnCusto": "Možnosti zobrazení stromového seznamu",
+  "CMDAddExistingContent": "Přidat stávající obsah",
+  "CMDAddExternalLink": "Přidat externí odkaz",
+  "CMDExpandAll": "Rozbalit vše",
+  "CMDCollapseAll": "Sbalit vše",
+  "CMDAccessRightCmd": "Sdílet",
+  "CMDAddToFavorites": "Přidat do oblíbených",
+  "CMDProperties": "Vlastnosti",
+  "CMDSynchronize": "Synchronizovat s místním diskem",
+  "CMDActiveFolder": "Globální výchozí složka záložek",
+  "CMDOpen": "Otevřít",
+  "CMDOpenWithCV5": "Připojit CATIA V5",
+  "CMDFindInCtx": "Najít v kontextu",
+  "csv_base_file_name": "editor_záložek_",
+  "alpha_sorting": "Název",
+  "date_sorting": "Datum vytvoření",
+  "tree_sorting": "Zrušit řazení",
+  "fonticon_filter": "Filtr",
+  "fonticon_sort": "Seřadit dle",
+  "download": "Stáhnout",
+  "upload": "Nahrát",
+  "CMDDeleteDefinitively": "Odstranit",
+  "CMDShareBookmarkLink": "Kopírovat odkaz",
+  "CMDRestore": "Obnovit",
+  "CMDSizeColumnToFit": "Přizpůsobit velikost sloupce",
+  "HeaderThumbnail": "Miniatura",
+  "HeaderDeletionDate": "Datum odstranění",
+  "HeaderDeleteBy": "Odstraněno uživatelem",
+  "SearchEnterMoreThan": "Hledání vyžaduje tento minimální počet znaků: {minNumber}.",
+  "SearchEmptyQuotes": "Prázdné cenové nabídky nejsou v dotazu pro vyhledávání povoleny.",
+  "searchDefaultError": {
+    "title": "Během vyhledávání dojde k chybě.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "ShowNavPane": "Zobrazit navigační panel",
+  "HideNavPane": "Skrýt navigační panel",
+  "relations_tab": "Vztahy",
+  "confirmation_ok": "OK",
+  "confirmation_cancel": "Zrušit",
+  "confirmation_ok_Paste": "Vložit",
+  "confirmation_move_title": "Přesunout obsah",
+  "confirmation_add_title": "Přidat obsah",
+  "confirmation_add_move_title": "Přesunout a přidat obsah",
+  "confirmation_move_message": "Chcete přesunout obsah {source} do {target}?",
+  "confirmation_move_message_monosel": "Chcete přesunout {selection} z {source} do {target} ?",
+  "confirmation_move_message_mono_from_tree": "Chcete přesunout {source} do {target} ?",
+  "confirmation_move_message_multisel": "Chcete přesunout položky {nth} z {source} do {target} ?",
+  "details_for_alone_objects": "Položky nepřipojené k {source} budou přidány do {target}.",
+  "confirmation_add_message_multisel": "Chcete přesunout položky ({nth}) do {target} ?",
+  "confirmation_move_add_message_multisel": "Chcete přesunout položky ({move_nth}) z {source} do {target} a přidat položky ({add_nth}) do {target}?",
+  "removeChildrenInMove": "Odeberte vybrané dílčí položky z {source}, pokud jsou připojeny.",
+  "confirmation_move_button": "Přesunout",
+  "confirmation_add_button": "Přidat",
+  "confirmation_add_move_button": "OK",
+  "confirmation_remove_title": "Odebrat – {label}",
+  "confirmation_remove_titleX": "Odebrat – {nb} objektů",
+  "confirmation_remove_message": "Opravdu chcete odebrat obsah z {label}?",
+  "confirmation_removeshortcut_title": "Odebrat zástupce složky záložek",
+  "confirmation_removeshortcut_message": "Opravdu chcete odebrat zástupce ze složky záložek?",
+  "confirmation_copyMassive_title": "Vytvořit kopii {source} v cíli {target}",
+  "confirmation_copyMassive_message": "Chystáte se zkopírovat velké množství položek.",
+  "confirmation_copyMassive_checkBox": "Ponechat položky označené záložkami v kopírované složce záložek",
+  "PasteCmdTitle": "Vložit {source}",
+  "PasteCmdMultiTitle": "Vložit objekty {typeStruct}",
+  "confirmation_copy": "Kopírovat",
+  "confirmation_info": "Atributy jiné než název a popis jsou ztraceny při převodu \n {From} na {To}. Všechny atributy podřízených objektů jsou zkopírovány.",
+  "authentication_error": "Tuto aplikaci nelze použít. Zkontrolujte, zda používáte správné přihlašovací údaje.",
+  "noPlatform_error": "Tato aplikace není na vaší platformě dostupná.",
+  "placeholder_msg_folder": "Tato struktura {typeStruct} je aktuálně prázdná.",
+  "placeholder_CMD_AddExisting": "Přidat stávající",
+  "placeholder_CMD_UploadFile": "Nahrát soubor",
+  "placeholder_CreateFolder": "Vytvořit {typeStruct}",
+  "tooltip_reserved": "Zamknuto",
+  "tooltip_unreserved": "Odemknuto",
+  "tooltip_shortcut": "Zástupce",
+  "tooltip_noDefaultLocation": "Žádná aktuální globální výchozí složka záložek.",
+  "tooltip_defaultLocation": "Globální výchozí složkou záložek je {folderLabel}. Kliknutím ji prozkoumejte.",
+  "tooltip_enableDefaultLocation": "Globální výchozí složka záložek {folderLabel} je zakázána. Kliknutím ji povolte.",
+  "tooltip_disableDefaultLocation": "Kliknutím zakážete globální výchozí složku záložek {folderLabel}.",
+  "BookmarkLocation": "Zobrazit v nadřazené složce záložek",
+  "column_FavoriteTitle": "Název",
+  "column_BookmarkLocation": "Nadřazená složka záložek",
+  "column_Thumbnail": "Miniatura",
+  "column_ApprovalStatus": "Stav schválení",
+  "placeholder_msg_favorite": "Žádná oblíbená složka záložek.",
+  "placeholder_msg_section": "{typeStruct} se nepodařilo najít.",
+  "placeholder_msg_search": "Nebyly nalezeny žádné výsledky.",
+  "refresh_ongoing": "Probíhá aktualizace...",
+  "refresh_ok": "Aktualizace provedena",
+  "refreshError": {
+    "title": "Pomůcku nelze aktualizovat.",
+    "subtitle": "Ohledně pomoci se obraťte na správce."
+  },
+  "placeholder_findInCtx": "Vyhledat nebo vybrat objekt",
+  "findInCtxsearchview": {
+    "ftssearch": "Hledat",
+    "searchBtn": "Hledat",
+    "check": "Potvrdit výběr",
+    "cannotRetrieveLabel": "Nelze načíst popis vybraného objektu",
+    "loadingLabel": "Probíhá načítání..."
+  },
+  "badCredentialChanged": "Byly nastaveny přihlašovací údaje „{credential}“, protože nemáte přístup k přednastaveným přihlašovacím údajům.",
+  "credentialChanged": "Byly nastaveny přihlašovací údaje „{credential}“.",
+  "success": "Úspěšně provedeno",
+  "warning": "Varování",
+  "information": "Informace",
+  "revisionReport": {
+    "reportTitle": "Zpráva – Nahradit poslední verzí",
+    "successfullyReplaced": "{prd1} byl nahrazen uživatelem {prd2}.",
+    "explicitlyRemoved": "{prd1} byl explicitně odebrán.",
+    "isLatestRevison": "{prd1} bude nahrazen a je již nejnovější verze.",
+    "msgObjectSelected": "Celkem {object} objektů bylo vybráno k nahrazení poslední verzí",
+    "msgObjectAlreadyLatestRevision": "Celkem {object} objektů má již nejnovější verzi.",
+    "msgSuccessfullyReplaced": "Celkem {object} objektů bylo úspěšně nahrazeno příslušnou nejnovější verzí.",
+    "msgObjectExplicitlyRemoved": "Celkem {object} objektů bylo explicitně odebráno, protože jejich poslední verze již byla přítomna v záložce nebo mělo několik vybraných objektů společnou verzi."
+  },
+  "msg_advice_refreshWidget": "Obnovte pomůcku nebo stránku v prohlížeči a zkontrolujte, zda jste použili správné přihlašovací údaje.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Tento objekt již není přístupný.",
+    "subtitle": "Obnovte pomůcku.",
+    "message": "Objekt mohl být odstraněn nebo nemáte požadovaná oprávnění."
+  },
+  "msg_error_NoModifyAccess": "Chybí přístup k úpravám pro vztah; aktuální operace selhala.",
+  "Attachments": "Přílohy",
+  "Specification": "Dokumenty specifikací",
+  "OpenLocationRemoveTitle": "Odebrat obsah: {label}",
+  "OpenLocationRemoveMessage": "Chcete odstranit tento objekt z následujících umístění?",
+  "CMDUnsetGlobalActiveFolder": "Zrušit nastavení globální výchozí složky záložek",
+  "CMDShowInBookmarks": "Zobrazit ve složkách záložek",
+  "CMDEnableGlobalActiveBookmark": "Povolit",
+  "CMDDisableGlobalActiveBookmark": "Zakázat",
+  "indexMode": {
+    "Authoring": "Vytváření.",
+    "Index": "Index.",
+    "Label": "Index",
+    "seconds": "sekund",
+    "minutes": "minut",
+    "hours": "hodin",
+    "msg_Authoring": "Režim vytváření je povolen. Může dojít k ovlivnění výkonu.",
+    "activeMode": "Aktivní režim: {mode}",
+    "lastRefresh": "Poslední aktualizace : před {timeElapsed}.",
+    "reactIndexMode": "Režim indexu se znovu aktivuje za {autoSwitch} minut od okamžiku vytvoření nebo obnovení.",
+    "errorMessageBookmarkRoot": {
+      "title": "Objekty {typeStruct} nelze načíst.",
+      "subtitle": "Ohledně pomoci se obraťte na správce."
+    },
+    "info_msg_DataNotUptoDate": "Aplikace se přepnula do režimu rejstříku, protože jste po dobu {timeElapsed} minut neprovedli žádné úpravy obsahu.",
+    "title": "Režim indexu nebo databáze",
+    "IndexModeTooltip": "Režim indexu je aktivní",
+    "AuthoringModeTooltip": "Režim databáze je aktivní",
+    "IndexModelongHelp": "Režim indexu zlepšuje výkon, ale nejnovější úpravy nebudou k dispozici, dokud nebudou indexovány.",
+    "AuthoringModelongHelp": "Režim databáze okamžitě zobrazí poslední změny, ale má vliv na výkon.",
+    "info_msg_DatabaseModeTitle": "Je aktivován režim databáze",
+    "info_msg_IndexModeTitle": "Je aktivován režim indexu",
+    "info_msg_DatabaseModeMessage": "Zobrazují se poslední změny.",
+    "info_msg_IndexModeMessage": "Změny a nový obsah nemusí být ihned k dispozici, dokud nebude index aktualizován."
+  },
+  "CMD_Yes": "Ano",
+  "CMD_No": "Ne",
+  "dialog_replaceByLatestRevision": "Nahradit revizí",
+  "msg_warning_DndNotSupported": "Přetažení není podporováno v režimu jen ke čtení.",
+  "ViewTooltip": {
+    "favoriteTitle": "Oblíbený název"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "Upuštění obsahuje složku a není podporováno",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "Struktura složek záložek obsahuje více než 1 000 dokumentů. Vyberte strukturu složek záložek obsahující méně dokumentů.",
+    "BookmarkNo_Documents": "Struktura složek záložek neobsahuje žádný dokument, nic se nestáhne.",
+    "BookmarkDupalicateDOC": "Stažení struktury záložek selhalo, protože stejná hierarchie pro dokument již existuje.",
+    "DownloadStructureFailure": "Nepodařilo se stáhnout strukturu složek záložek.",
+    "BookmarkDownloadStarted": "Stahování struktury složek záložek bylo zahájeno.",
+    "BookmarkDownloadMultiFileError": "Vyberte dokument s jedním souborem. \n",
+    "BookmarkDownloadNoFileError": "\n Vyberte dokument s alespoň jedním souborem. \n"
+  },
+  "editLinkTitle": "Upravit odkaz",
+  "msg_NewBookmarkSuccess": {
+    "message": "Vytvoření proběhlo úspěšně."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Nový zástupce je přidán.",
+    "message": "Přidání nového zástupce do složky záložek proběhlo úspěšně."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Noví zástupci jsou přidáni.",
+    "message": "Přidání nových zástupců do složky záložek proběhlo úspěšně."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Vytvoření zástupce se nezdařilo.",
+    "message": "Nepodařilo se vytvořit zástupce složky záložek."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Přidat nový odkaz.",
+    "message": "Do složky záložek byl úspěšně přidán nový externí odkaz."
+  },
+  "msg_AddLinkPresent": "{nbLinks} externí odkazy již byly přítomny.",
+  "msg_AddLinkFail": {
+    "title": "Přidání externího odkazu se nezdařilo.",
+    "message": "Přidání externího odkazu do složky záložek se nezdařilo."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Úprava odkazu byla úspěšná.",
+    "message": "Úprava externího odkazu byla úspěšná."
+  },
+  "msg_EditLinkFail": {
+    "title": "Úprava odkazu se nezdařila.",
+    "message": "Úprava externího odkazu se nezdařila."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Nebyla provedena úprava, proveďte požadovanou úpravu."
+  },
+  "msg_error_AddShortcut": "Nepodařilo se přidat zástupce složek záložek.",
+  "msg_info_addShortcut_alreadyPresent": "{shortcutAlreadyPresent} zástupci, které mají být vytvořeny, již existují.",
+  "msg_error_RemoveShortcut": "Nepodařilo se odebrat zástupce složek záložek.",
+  "msg_creating_AddShortcut": "Přidávání zástupců složek záložek",
+  "msg_error_Rename_Shortcut": "Přejmenování zástupce není povoleno.",
+  "NoPathFound": "Nebyly nalezeny žádné platné cesty.",
+  "progressPanel_dragDrop": "Nahrávání položek {objectsAdded} do složky {targetfolder}",
+  "progressPanel_add": "Přidávání položek {objectsAdded} do složky {targetfolder}",
+  "progressPanel_move": "Přesouvání položek {objectsAdded} do složky {targetfolder}",
+  "progressPanel_copy": "Kopírování položek {objectsAdded} do složky {targetfolder}",
+  "progressPanel_copyFolder": "Kopírování {objectsAdded} {typeStruct} do {targetfolder}",
+  "progressPanel_moveFolder": "Přesouvání {objectsAdded} {typeStruct} do {targetfolder}",
+  "progressPanel_remove": "Odebírání položek {objectsAdded} ze složky {targetfolder}",
+  "progressPanel_expand": "Rozbalování {objectsexpanded} položek ve složce {targetfolder}",
+  "progressPanel_download": "Stahování struktury složek záložek z {bookmarkname}",
+  "removeStructuralObject": "Zahrnout strukturální objekty",
+  "msg_info_objetexpanded": "Objekt byl úspěšně rozbalen",
+  "msg_info_objetexpandedError": {
+    "title": "Objekty nelze rozbalit.",
+    "subtitle": "Obnovte aplikaci a zkuste to znovu, nebo se obraťte na správce se žádostí o podporu."
+  },
+  "Paste_as_Duplicate": "Vložit jako duplikát",
+  "Paste_as_Shortcut": "Vložit jako zástupce",
+  "Paste_to_move": "Vložením proveďte přesunutí",
+  "Paste_to_Bookmark": "Vložením přidejte do záložek",
+  "CopySettings": "Vložit jako duplicitní volby",
+  "AddPrefix": "Přidat předponu",
+  "AddSuffix": "Přidat příponu",
+  "prefixPlaceholder": "Zadejte předponu názvu.",
+  "suffixPlaceholder": "Zadejte příponu názvu.",
+  "helpPrefix": {
+    "shortHelp": "Znaky přidané na začátek názvu duplikovaných objektů.",
+    "longHelp": "Pokud například přidáte Návrh_ jako předponu k objektu Brzda, bude název duplikovaného objektu Návrh_Brzda."
+  },
+  "helpSuffix": {
+    "shortHelp": "Znaky přidané na konec názvu duplikovaných objektů.",
+    "longHelp": "Pokud například přidáte _Návrh jako příponu k objektu Brzda, bude název duplikovaného objektu Brzda_Návrh."
+  },
+  "PrefixLine": "Předpona",
+  "SuffixLine": "Přípona",
+  "msg_info_notEnabledExpand": {
+    "title": "Strukturální objekty nejsou zahrnuty",
+    "subtitle": "Změní nastavení „Povolit rozbalení výrobků“"
+  },
+  "documentCommands": {
+    "notAvailable": "Tento příkaz není pro tento výběr k dispozici.",
+    "notReady": {
+      "title": "Tento příkaz není připraven k použití.",
+      "message": "Zkuste to znovu za několik sekund."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Tato operace není podporována.",
+    "message": "Tento typ objektu nelze přidat pomocí tohoto příkazu."
+  },
+  "exportMask": "Export do formátu CSV.",
+  "attrComputation": "Načítání hodnot atributů.",
+  "tooManyResultFound": "Vyhledávání bylo omezeno na {maxResult} výsledků. Upřesněte dotaz.",
+  "initialization_error": "V aplikaci došlo k neočekávané chybě. Obraťte se na správce.",
+  "expandTooLarge": "Bylo načteno příliš mnoho objektů.<br> Zpřesněte výsledky filtrováním nebo snížením úrovně rozbalení.",
+  "loadingText": "Načítání…",
+  "treeExpandTooLarge": {
+    "title": "{typeStruct} nelze rozbalit",
+    "message": "Bylo načteno příliš mnoho objektů {subType}",
+    "subtitle": "Sbalit vše a rozbalit pouze jednu úroveň."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Uzamčeno uživatelem",
+    "subtitle": "Kliknutím odemknete"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Odemknuto",
+    "subtitle": "Kliknutím uzamknete"
+  },
+  "Broken link": "Nefunkční odkaz",
+  "find_in_context_timeout": "Vypršel časový limit hledání v kontextu",
+  "classificationFacetName": "Klasifikace",
+  "classificationFacetText": "Klasifikace",
+  "searchLoading": "Vyhledávání v: {typeStruct}",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Nelze deklarovat novou oblíbenou položku.",
+    "subtitle": "Chcete-li deklarovat nové oblíbené položky, odeberte stávající.",
+    "message": "Počet oblíbených je omezen na {maxLimit}."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Nelze otevřít místní nabídku.",
+    "subtitle": "Je nutno vybrat méně objektů.",
+    "message": "Počet vybraných objektů v místní nabídce CATIA je omezen na 10."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Vybrané objekty nelze přidat.",
+    "subtitle": "Zkuste to znovu za několik minut pro případ, že by bylo možné objekty vyhledat.",
+    "message": "Některé objekty ještě nejsou indexovány nebo nelze vyhledávat: {objects}."
+  },
+  "generic_service_failure": "Načtení informací o objektu selhalo. Zkuste to znovu za několik minut. Pokud problém přetrvává, obraťte se na správce",
+  "cannotChangeOwner": "{objectname} nelze přenést na {userId}.",
+  "multipleClassificationValue": "Více",
+  "searchReasultWarningMsg": "Počet objektů může být vyšší než očekávaný počet",
+  "warn_tb_unavailableRoot": "Nemáte přístup k nadřazené struktuře {typeStruct}.",
+  "err_UnsupportedFavoriteType": "Tento oddíl oblíbených položek nepodporuje vybraný typ.",
+  "operation_add": "Přidat obsah",
+  "toAdd": "Přidat",
+  "folderLoader_loading": "Probíhá načítání",
+  "folderLoader_cancel": "Zrušit",
+  "folderLoader_expanding": "Rozšiřování",
+  "folderLoader_expanding_products": "Rozšiřování výrobků",
+  "ActionBar_SelectAllCmd": "Vybrat vše",
+  "ActionBar_SelectChildrenCmd": "Vybrat potomky",
+  "ActionBar_SelectInversionCmd": "Vybrat obráceně",
+  "ActionBar_SelectLeavesCmd": "Vybrat listy",
+  "ActionBar_SelectParentCmd": "Vybrat rodiče",
+  "ActionBar_SelectSiblingCmd": "Vybrat sourozence",
+  "Filter_owner": "V mém vlastnictví",
+  "Filter_tagger": "Filtrovat podle značek",
+  "switchViewImpossible": {
+    "title": "Pohled není k dispozici.",
+    "message": "Aktualizujte prohlížeč a aktualizujte pohledy."
+  },
+  "requestSaveView": {
+    "title": "Aktuální pohled nepřetrvá.",
+    "message": "Chcete uložit aktuální pohled?",
+    "link": "Uložit pohled"
+  },
+  "loadingAllRoots": "Načítání zbývajících kořenových prvků.",
+  "loadingRoots": "Načítání kořenových prvků.",
+  "RefreshingNodes": "Obnovení atributů objektu",
+  "docCmd_unavailable": {
+    "title": "Příkaz není k dispozici.",
+    "subtitle": "Zkuste to znovu za několik sekund."
+  },
+  "unsupported_command_error": {
+    "title": "Příkaz není podporován.",
+    "message": "Aktuální výběr obsahuje typy, které tuto operaci nepodporují."
+  },
+  "lookingForObject": "Hledání objektu",
+  "openWithTitle": "Otevřít v programu",
+  "openWithMessage": "Objekt existuje ve více umístěních, vyberte cestu, kterou chcete otevřít:",
+  "openWithNotSupported": "{label} není podporováno.",
+  "warningNotAssociated": "{label} nemá spojení s",
+  "unsupportedAction": "Tato operace není v aktuálním kontextu podporována."
+}

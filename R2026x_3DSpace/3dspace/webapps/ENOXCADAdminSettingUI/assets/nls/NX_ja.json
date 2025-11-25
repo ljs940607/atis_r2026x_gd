@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "保存",
+  "NXOpenGroupLabel": "開く",
+  "NXToolkitLicenseGroupLabel": "MultiCAD STEP トランスレータの可用性",
+  "NXMissingLinksWarningLabel": "リファレンスが欠落したファイルを保存",
+  "NXMissingLinksWarningInfo": "有効にすると、NX セッションでの保存操作中に子設計が欠落している場合に警告が表示されます。無効にすると、保存操作は警告なしで続行されます。",
+  "NXSuppressPatternElementsLabel": "抑制パターン エレメント",
+  "NXSuppressPatternElementsInfo": "有効にすると、この設定でパターン エレメントが抑制されるため、パターン マスター パーツが保存ダイアログに表示されません。無効にすると、パーツはパターン マスター パーツへの関係を保持し、MakeFrom 関係を作成します。",
+  "NXSTEP242LicenseAvailableLabel": "MultiCAD STEP トランスレータの可用性",
+  "NXSTEP242LicenseAvailableInfo": "MultiCAD 設計を NX セッションで開くときに、STEP AP214 トランスレータ、STEP AP242 トランスレータのどちらを使用するかを指定する設定。デフォルト値は、STEP AP242 です。",
+  "NXCADAttributeMappedToEINLabel": "EIN にマッピングされる CAD 属性",
+  "NXCADAttributeMappedToEINInfo": "この属性の値を指定すると、機能が有効になり、この属性を持つ CAD ファイルがスタンプされ、その値が物理プロダクトの EIN になります。",
+  "EnterpriseItemNumberGroupLabel": "エンタープライズ項目番号",
+  "NXFilterOutEngItemsDataNotInCADLabel": "形状なし、子ノードなしの 3DEXPERIENCE エンジニアリング項目をフィルタ アウト",
+  "NXFilterOutEngItemsDataNotInCADInfo": "形状なし、子ノードなしの 3DEXPERIENCE エンジニアリング項目をフィルタ アウト。"
+}

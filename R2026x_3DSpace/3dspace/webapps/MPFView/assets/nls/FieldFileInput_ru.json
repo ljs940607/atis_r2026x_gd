@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "Файл не выбран",
+  "noValidFileSelected": "Не выбран допустимый файл",
+  "isRequired": "{0} является обязательным",
+  "isInvalid": "Недопустимый элемент {0}",
+  "wrongFileType": "Неверный тип файла",
+  "fileTooBig": "Размер файла превышает ограничение: {0}",
+  "bytes": "байт",
+  "kiloByte": "КБ",
+  "megaByte": "МБ",
+  "gigaByte": "ГБ",
+  "teraByte": "ТБ",
+  "fileUploadFailed": "Сбой при загрузке файла. Повторите попытку.",
+  "replaceImage": "Заменить изображение",
+  "loading": "Загрузка ...",
+  "fileCouldNotBeLoaded": "Не удалось загрузить файл"
+}

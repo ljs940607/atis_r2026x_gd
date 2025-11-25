@@ -1,0 +1,232 @@
+{
+    "DELResourceParameterPlanReference": {
+        "columnConfig": {
+            "Columns": {
+                "Column": [
+                    {
+                        "dataIndex": "V_RPPMode",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "NonEditable",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+
+                    {
+                        "dataIndex": "V_RPPRichText",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPTitle",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMagnitude",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPCriticality",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+                        "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMinControlValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMinControlValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxControlValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxControlValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMinValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100",
+                        "editableFlag": false
+                    },
+                    {
+                        "dataIndex": "V_RPPMinValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "typeRepresentation": "boolean",
+                        "editableFlag": false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100",
+                        "typeRepresentation": "boolean",
+                        "editableFlag": false
+                    },
+                    {
+                        "dataIndex": "V_RPPMinEoFValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100",
+                        "editableFlag": false
+                    },
+                    {
+                        "dataIndex": "V_RPPMinEoFValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "typeRepresentation": "boolean",
+                        "editableFlag": false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxEoFValue",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100"
+                    },
+                    {
+                        "dataIndex": "V_RPPMaxEoFValue_Inclusive",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100",
+                        "typeRepresentation": "boolean",
+                        "editableFlag": false
+                    },
+                    {
+                        "dataIndex": "V_RPPRLinkedCapableResouce",
+                        "dicoType": "PLMSpecifyHowToResourcePlanCnx_Custo",
+                        "displayType": "ResourceParameterRow",
+	                    "isGroupable" : false,
+                        "isFilterable" : false,
+                        "minWidth": "100",
+                        "editableFlag": false
+                    }
+                ]
+            }
+        },
+        "dragDropManager": "WUXResourceParameterRowDragDrop",
+        "dataGridViewOptions": {
+            "showRowIndexFlag": true,
+            "showSelectionCheckBoxesFlag": "OnOver",
+            "enableDragAndDrop": true,
+            "showTagger": false,
+            "isEditable": false,
+            "contextualCommands": [
+                "EditResourceParameterRow",
+                "DeleteResourceParameterRow"
+            ],
+            "toolbarOptions": {
+                "items": [
+                    {
+                        "id": "RPPTitle",
+                        "category": "title",
+                        "icon": "DELResourceParameterPlanReference",
+                        "typeRepresentation": "string",
+                        "value": true,
+                        "readOnly": false,
+                        "overflowPriority": "none",
+                        "position": "near"
+                    },
+                    {
+                        "id": "RPPAddRow",
+                        "icon": "DCPAddRow",
+                        "category": "add",
+                        "position": "far",
+                        "tooltip": {
+                            "title": "ResourceParameterPlan.Tooltip.AddRow.Title",
+                            "shortHelp": "ResourceParameterPlan.Tooltip.AddRow.ShortHelp"
+                        }
+                    },
+                    {
+                        "id": "RPPEditRow",
+                        "icon": "DCPEditRow",
+                        "category": "edit",
+                        "position": "far",
+                        "disabled": true,
+                        "tooltip": {
+                            "title": "ResourceParameterPlan.Tooltip.EditRow.Title",
+                            "shortHelp": "ResourceParameterPlan.Tooltip.EditRow.ShortHelp"
+                        }
+                    },
+                    {
+                        "id": "RPPDeleteRow",
+                        "icon": "DCPDeleteRow",
+                        "category": "delete",
+                        "position": "far",
+                        "disabled": true,
+                        "tooltip": {
+                            "title": "ResourceParameterPlan.Tooltip.DeleteRow.Title",
+                            "shortHelp": "ResourceParameterPlan.Tooltip.DeleteRow.ShortHelp"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

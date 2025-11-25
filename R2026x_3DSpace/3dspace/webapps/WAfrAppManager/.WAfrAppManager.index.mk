@@ -1,0 +1,12 @@
+m|WAfrFoundation\WAfrAppManager.mweb
+b|j|n,m
+b|c|c,m
+v|6.428.0.25193|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrAppManager\App.js|1746247609|552
+s|WAfrFoundation\WAfrAppManager.mweb\src\App.js|1744286427|5983
+t|win_b64\webapps\WAfrAppManager\WAfrAppManager.js|1723278163|0
+s|WAfrFoundation\WAfrAppManager.mweb\src\WAfrAppManager.js|1457459975|0
+t|win_b64\webapps\WAfrAppManager\mod_AppManager.js|1752300672|4747
+s|WAfrFoundation\WAfrAppManager.mweb\src\mod_AppManager.js|1749821348|9945
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

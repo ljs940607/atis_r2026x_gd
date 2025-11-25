@@ -1,0 +1,31 @@
+{
+  "label": {
+   
+  },
+  "title": {
+    
+  },
+  "ph": {
+    
+  },
+  "action": {
+    "add_new": "New Logical Reference"
+  },
+  "message": {
+    "confirm_detach_instance":"Are you sure that you want to detach the selected instances?",
+    "confirm_reparent": "Below references will be reparented to "
+  },
+  "info": {
+    
+  },
+  "warning": {
+    
+  },
+  "error": {
+    "reparent_failed": "Reparent references failed",
+    "reparent_cyclic":"This new Parent is already saved under Reparenting References list. Please clear existing selection to avoid cyclic structure."
+  },
+  "success": {
+    "reparent": "Reparenting Successful"
+  }
+}

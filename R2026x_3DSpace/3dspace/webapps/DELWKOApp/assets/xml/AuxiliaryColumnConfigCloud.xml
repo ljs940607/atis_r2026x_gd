@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="Auxiliary" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/ColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name.reference" dicoType="PLMEntity" displayType="NonEditable" />
+    <Columns>
+      <Column dataIndex="current.reference" displayType="URL" dicoType="BusinessType"  minWidth="50"/>
+      <!-- <Column dataIndex="V_ScheduledStartDate.reference" dicoType="DELLmiUPRSystemReference" displayType="NonEditable" minWidth="50"/>
+      <Column dataIndex="V_ScheduledEndDate.reference" dicoType="DELLmiUPRSystemReference"  displayType="NonEditable" minWidth="50"/> -->
+
+      <Column dataIndex="V_ScheduledStartDate.reference" displayType="NonEditableMultiType" minWidth="50" display="true">
+             <dicoType dicoType="DELLmiOperationUPRReference" />
+             <dicoType dicoType="DELLmiUPRSystemReference" />
+     </Column>
+
+     <Column dataIndex="V_ScheduledEndDate.reference" displayType="NonEditableMultiType" minWidth="50" display="true">
+                  <dicoType dicoType="DELLmiOperationUPRReference" />
+                  <dicoType dicoType="DELLmiUPRSystemReference" />
+      </Column>
+
+    </Columns>
+</Config>

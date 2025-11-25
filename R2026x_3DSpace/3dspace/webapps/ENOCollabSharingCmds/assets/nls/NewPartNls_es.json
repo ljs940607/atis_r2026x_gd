@@ -1,0 +1,11 @@
+{
+  "createNewPart": "Nueva pieza",
+  "insertNewPart": "Insertar pieza nueva",
+  "newObjectType": "Pieza",
+  "multiParentInsertPartTitle": "Insertar pieza nueva",
+  "multiParentInsertPartMsg": "¿Está seguro de que desea insertar una pieza nueva en varios padres?",
+  "multiParentCannotInsert": "Error: No se puede insertar debajo de los objetos seleccionados",
+  "CannotInsert.Type": "No puede insertar este tipo de objeto en el objeto seleccionado: {type}",
+  "okBtn": "Aceptar",
+  "closeBtn": "Cerrar"
+}

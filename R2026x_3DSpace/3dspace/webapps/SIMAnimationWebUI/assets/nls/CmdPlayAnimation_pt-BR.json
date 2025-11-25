@@ -1,0 +1,22 @@
+{
+  "__comment__": "nº recomendado de caracteres na palavra traduzida para SpeedControlResetLabel é 5 a 7.",
+  "SpeedControlResetLabel": "Redefinir",
+  "SpeedControlErrorTitle": "Velocidade de reprodução inválida",
+  "SpeedControlErrorMsg": "Insira um número maior do que 0.",
+  "buttonLoop.tooltipInfos.title": "Modo de loop",
+  "buttonLoop.tooltipInfos.shortHelp": "Repete a animação continuamente.",
+  "buttonStepBackward.tooltipInfos.title": "Retroceder",
+  "buttonStepBackward.tooltipInfos.shortHelp": "Retrocede a animação em um quadro.",
+  "buttonPlay.tooltipInfos.title": "Avançar",
+  "buttonPlay.tooltipInfos.shortHelp": "Reproduz a animação a partir do quadro em que ela está parada no momento.",
+  "buttonPause.tooltipInfos.title": "Pausar",
+  "buttonPause.tooltipInfos.shortHelp": "Pausa a animação durante a reprodução.",
+  "buttonStepForward.tooltipInfos.title": "Avançar",
+  "buttonStepForward.tooltipInfos.shortHelp": "Avança a animação em um quadro.",
+  "autoCompleteSpeedControl.tooltipInfos.title": "Fator de velocidade",
+  "autoCompleteSpeedControl.tooltipInfos.shortHelp": "Especifica a velocidade na qual a animação será reproduzida.",
+  "buttonChoose.tooltipInfos.title": "Escolher animação",
+  "buttonChoose.tooltipInfos.shortHelp": "Exibe uma lista de animações disponíveis para o produto e permite que você escolha a animação a ser reproduzida.",
+  "buttonClose.tooltipInfos.title": "Fechar",
+  "buttonClose.tooltipInfos.shortHelp": "Fecha o reprodutor de animação."
+}

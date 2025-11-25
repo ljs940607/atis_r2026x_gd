@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "summary": "Bu blok, kontrol ve veri akışınızı senkronize etmenize yardımcı olur. Tüm girdi kontrol bağlantı noktaları etkinleştirildiği anda çıktı kontrol bağlantı noktasını etkinleştirir. Daha karmaşık bir senaryo için (örneğin ilgili bloğun birden çok kez yürütülmesi) lütfen aşağıdaki detaylı açıklamayı okuyun.",
+  "description": "Her bir girdi kontrol bağlantı noktasında, bağlantı etkinleştirildiğinde artırılan ve bloğun <doc-ocp-name translate=no>Out</doc-ocp-name> çıktı kontrol bağlantı noktasından çıkışı halinde azaltılan bir dahili sayaç bulunur. Bir girdi kontrol bağlantı noktası her etkinleştirildiğinde, blok yürütülür ve yalnızca tüm girdi kontrol bağlantı noktası dahili sayaçlarının kesin olarak 0'dan büyük olması halinde, <doc-ocp-name translate=no>Out</doc-ocp-name> çıktı bağlantı noktası üzerinden çıkış yapar.",
+  "controlPorts": {
+    "In1": "blok yürütmeyi tetikler ve bu bağlantı noktasıyla ilişkili dahili sayacı artırır.",
+    "In2": "blok yürütmeyi tetikler ve bu bağlantı noktasıyla ilişkili dahili sayacı artırır.",
+    "Out": "yalnızca tüm girdi kontrol bağlantı noktası dahili sayaçlarının kesin olarak 0'dan büyük olması halinde etkinleştirilir. Tüm girdi kontrol bağlantı noktası dahili sayaçlarını azaltır."
+  },
+  "example": null
+}

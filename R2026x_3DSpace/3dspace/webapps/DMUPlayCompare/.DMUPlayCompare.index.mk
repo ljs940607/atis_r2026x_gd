@@ -1,0 +1,14 @@
+m|DMUPlayWeb\DMUPlayCompare.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DMUPlayCompare\DMUPlayCompare.js|1723278569|2685
+s|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUCompare.js|1693578783|2458
+u|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUCompare2D.js|1635307923|479
+u|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUCompare3D.js|1614350136|475
+u|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUCompareImport.js|1618306138|630
+u|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUCompareRequirement.js|1714650758|356
+u|DMUPlayWeb\DMUPlayCompare.mweb\src\DMUPlayCompare.js|1476855251|100
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

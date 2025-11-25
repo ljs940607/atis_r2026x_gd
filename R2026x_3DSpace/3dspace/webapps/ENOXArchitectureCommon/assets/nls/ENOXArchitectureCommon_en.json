@@ -1,0 +1,123 @@
+{
+  "label": {
+    "all": "All",
+    "true": "True",
+    "false": "False",
+    "none": "None",
+    "name": "Name",
+    "title": "Title",
+    "type": "Type",
+    "objects": "Objects",
+    "declared_in": "Declared in",
+    "instance_title": "Instance Title",
+    "copy_attributes": "Copy Attributes",
+    "select": "Select",
+    "copy_successful" : "Is Paste Successful",
+    "information": "Information",
+    "attribute_name": "Attribute Name",
+    "instance" : "(Instance)",
+    "implementingref": "Implementing",
+    "implementedref": "Implemented by"
+  },
+  "title": {
+    "IPProtection": "IP Protected",
+    "summary_paste_attributes" : "Paste Attributes Summary",
+    "search": "Select an item",
+    "error_details": "Below are the error details:"
+  },
+  "ph": {
+    "title": "Enter a title"
+  },
+  "action": {
+    "create": "Create",
+    "copy": "Copy",
+    "close": "Close",
+    "compare": "Compare",
+    "revisions": "Revisions",
+    "relations": "Relations",
+    "maturity": "Maturity",
+    "duplicate": "Duplicate",
+    "open_with": "Open With",
+    "move_to": "Move To",
+    "share": "Share",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "export": "Export",
+    "reparent": "Reparent",
+    "expand": "Expand",
+    "expand_one_level": "Expand One Level",
+    "expand_two_level": "Expand Two Levels",
+    "expand_all": "Expand All",
+    "collapse_all": "Collapse All",
+    "information": "Information",
+    "create_and_open": "Create and open",
+    "create_and_close": "Create and close",
+    "create_and_replace": "Create and Replace",
+    "detach": "Detach"
+  },
+  "message": {
+    "creating": "Creating...",
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "bulkOperation_limitReached":"You have chosen nodes beyond the presribed limit of {limit} for this operation and hence processing might take a while. Please wait."
+  },
+  "groupingNode": {
+    "other": "Others"
+  },
+  "info": {
+    "no_match_in_filter": "No object matches the criteria"
+  },
+  "warning": {
+    "indexed_data_filtered": "Filter is applied on indexed data",
+    "clear_filter": "Existing filter applied on the item is cleared as it was not saved!",
+    "filter_only_indexed_mode": "Filter feature is only available when you are on index acceleration",
+    "bulkOperation_limit_reached":"You have chosen nodes beyond the presribed limit of {limit} for this operation and hence processing might take a while. Please wait.",
+    "expand_multiLvl_multiSelect":"You have chosen more than one Reference for multilevel expand. Fetching complete data might take a little while. Please wait.",
+    "expand_largeData_warning": "This Expand action has more than 1000 children data to fetch. Processing might take a while. Please wait. "
+  },
+  "error": {
+    "header": "Error",
+    "create_item": "Failed to create item",
+    "get_customFields": "Failed to get the custom fields for the item {title}",
+    "req_field_subtitle": "{field} is required",
+    "req_field" : "Required Field Missing",
+    "mandatory_field_title": "The title field is mandatory. please enter a value",
+    "no_modification_possible": "No modification is possible",
+    "modification_not_allowed" : "Verify that the maturity of the object or your credentials and permissions allow you to modify it.",
+    "too_long_field_title": "You can not perform this edit operation.\n\nThe {fieldName} can't be longer than {maxLength} characters.",
+    "action_unavailable_in_release": "Action unavailable in the context of a Released / Obsolete item",
+    "get_structure": "Failed to fetch Logical Reference Structure as related services are not available",
+    "get_structure_media": "Failed to fetch Logical Reference Structure as services are not available. Check with your administrator if required media is installed",
+    "get_logitem": "Failed to fetch Logical Reference details as related services are not available.",
+    "get_logitem_media": "Failed to fetch Logical Reference details as services are not available. Check with your administrator if required media is installed",
+    "invalid_filter": "Invalid filter for the context item",
+    "filter_colorize_predicate" : "The predicate chosen is a customized predicate so the colorization is not available OR the predicate chosen is not in the content view. In this case, add the attribute through Attributes management to enable colorization.",
+    "request_timed_out": "The request has timed out!",
+    "generic_get_failed": "Failed to get required data",
+    "creation": "Error during creation",
+    "add_item": "Failed to add item",
+    "copy_all_attributes_failed" : "Paste of this attribute has failed because of other errors during the paste",
+    "copy_attributes_failed": "Copy attributes failed",
+    "copy_attribute_on_extension_failed" : "Paste of this attribute has failed. Reason can be corresponding extensions are not added.",
+    "copy_attribute_on_type_failed" : "Paste of this attribute has failed because it does not belong to the selected type.",
+    "copy_attribute_classif_failed" : "Paste of this attribute has failed, verify that the destination Logical Reference is assigned with classified attribute.",
+    "copy_attribute_equal_values_failed" : "Paste of this attribute has failed, verify that attribute value of source and destination Logical Reference is different.",
+    "copy_attribute_failed_not_allowed" : "Paste of this attribute has failed. Verify that the maturity of the object or your credentials and permissions allow you to copy it.",
+    "create_refref_link": "Failed to create Reference to Reference links",
+    "inst_detach": "You can not perform 'Detach Logical Reference' operation on the following parents: ",
+    "error_delete_link": "Failed to delete Implement relations"
+  },
+  "success": {
+    "add": "Addition successful",
+    "replace":"Successfully Replaced",
+    "create":"Creation Successful",
+    "msg_create": " created successfully",
+    "msg_add": "The following are added successfully: ",
+    "create_log_ref" : "Logical Reference created successfully",
+    "copy_attributes":"Attributes copied",
+    "msg_create_ref2ref": "Ref to Ref implement relation created successfully",
+    "msg_delete_link_success": "Implement relation(s) deleted successfully",
+    "summary_paste_attributes_export" : "Summary of Paste Attributes exported successfully",
+    "inst_detach": "Detach instances of the following parents is successful: "
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Relatório de gerenciamento de reconciliação",
+  "statusTag": "Status",
+  "startDateTag": "Início do processamento",
+  "estimatedDateTag": "Data estimada para o próximo processamento",
+  "processedObjectTag": "Objetos processados",
+  "currentOpTag": "Operações processadas",
+  "totalOpTag": "Total de operações a serem processadas",
+  "durationTag": "Duração do último processamento"
+}

@@ -1,0 +1,17 @@
+m|FolderNGUX\BksStandalone.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|FolderNGUX\BksStandalone.mweb\LocalGenerated\win_b64\standalone.css|1723277187|284
+s|FolderNGUX\BksStandalone.mweb\src\standalone.scss|1659542959|291
+t|win_b64\webapps\BksStandalone\BksStandalone.css|1744917678|230
+g|FolderNGUX\BksStandalone.mweb\LocalGenerated\win_b64\standalone.css|1723277187|284
+t|win_b64\webapps\BksStandalone\BksStandalone.js|1742620220|7355
+s|FolderNGUX\BksStandalone.mweb\src\Ajax.js|1741193274|3969
+u|FolderNGUX\BksStandalone.mweb\src\Parametrization.js|1661258627|4289
+u|FolderNGUX\BksStandalone.mweb\src\Standalone.js|1731090767|11043
+u|FolderNGUX\BksStandalone.mweb\src\utils\Helper.js|1661328502|968
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

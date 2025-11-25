@@ -1,0 +1,30 @@
+{
+  "loader": {
+    "findingObjects": "Hledání tříd...",
+    "formulatingPaths": "Formulování cest..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Hledání ve stromu nelze u aktuálního výběru provést. Vyberte jednu třídu (neoblíbenou) a zkuste to znovu.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Přetažený objekt není třídou.",
+    "Advice": "Přetáhněte třídu."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Hledání ve stromu nelze provést.",
+    "Advice": "Rozbalte strom k tomuto uzlu třídy",
+    "Details": "Hledaná třída není ve stromu viditelná."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Hledání ve stromu nelze provést.",
+    "Advice": "Rozbalte část Knihovny na první úroveň.",
+    "Details": "V části Knihovny nejsou žádné viditelné knihovny."
+  },
+  "msg_warning_NoObjectSelected": {
+    "Title": "Hledání ve stromu nelze provést.",
+    "Advice": "Vyberte třídu a zkuste to znovu.",
+    "Details": "Není vybrána žádná třída k provedení hledání."
+  },
+  "msg_info_limit_FindInTree": "Bylo dosaženo limitu. Limit pro nalezení třídy je nastaven na 100.",
+  "msg_info_limitToFindInRootNode": "Limit pro nalezení v knihovnách je nastaven na 200, zvažuje se prvních 200 tříd.",
+  "msg_info_No_Occurrence": "Nebyl nalezen žádný výskyt tříd.",
+  "msg_error_while_formulating_paths": "Chyba při formulování cest: možná žádný přístup nebo objekty neexistují, zkuste to později nebo se obraťte na správce"
+}

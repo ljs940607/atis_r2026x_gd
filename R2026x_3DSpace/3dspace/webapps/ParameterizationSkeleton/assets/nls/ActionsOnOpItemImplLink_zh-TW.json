@@ -1,0 +1,9 @@
+{
+  "action": "動作",
+  "actionTooltip": "動作名稱",
+  "modalTitle": "動作",
+  "Add": "新增動作",
+  "Select": "選擇或搜尋",
+  "Info": "寫下動作名稱，然後按一下「確定」。這會將「動作」儲存在資料庫中。",
+  "ErrorActionAlreadyDefined": "%1 的輸入值已存在。請為 %2 選擇不同的名稱"
+}

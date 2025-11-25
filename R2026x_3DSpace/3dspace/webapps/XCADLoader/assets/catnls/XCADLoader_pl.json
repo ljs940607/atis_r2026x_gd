@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Obsługiwany jest tylko plik STEP AP242",
+    "IFC_UNSUPPORT": "Obsługiwane są tylko formaty plików IFC2X3, IFC4 i IFC4X3_ADD2",
+    "NO_TESSELLATION": "Obsługiwany jest tylko plik STEP z danymi mozaikowymi",
+    "NO_ZIP": "Format skompresowany nie jest obsługiwany",
+    "EMPTY_ROOT": "Katalog główny dokumentu BEZ geometrii",
+    "NO_REP": "Dokument bez obsługiwanej reprezentacji (produkt lub część)",
+    "EXT_REF": "Dokument z odniesieniem zewnętrznym nie jest obsługiwany. Obsługiwane są tylko pliki monolityczne",
+    "EMPTY_PROD": "Dokument produktu BEZ geometrii mozaikowej",
+    "NO_STPXZ": "stpxz w archiwum nie jest jeszcze obsługiwany"
+  },
+  "warning": {
+    "MISSING_PART": "brak niektórych połączonych plików"
+  }
+}

@@ -1,0 +1,17 @@
+m|WebappsUtils\WebappsUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25252|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WebappsUtils\WebappsUtils.js|1757453550|17589
+s|WebappsUtils\WebappsUtils.mweb\src\BetaOptions.js|1750788679|7261
+u|WebappsUtils\WebappsUtils.mweb\src\Console.js|1724871894|1609
+u|WebappsUtils\WebappsUtils.mweb\src\Emitter.js|1724871894|2476
+u|WebappsUtils\WebappsUtils.mweb\src\Inherit.js|1724871894|8390
+u|WebappsUtils\WebappsUtils.mweb\src\Map.js|1724871894|1592
+u|WebappsUtils\WebappsUtils.mweb\src\Performance.js|1724871894|7932
+u|WebappsUtils\WebappsUtils.mweb\src\Promise.js|1724871894|13819
+u|WebappsUtils\WebappsUtils.mweb\src\Utils.js|1745345340|19908
+u|WebappsUtils\WebappsUtils.mweb\src\WebappsUtils.js|1757441729|7169
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Yeni Mantıksal Referans"
+  },
+  "message": {
+    "confirm_detach_instance": "Seçili örnekleri ayırmak istediğinizden emin misiniz?",
+    "confirm_reparent": "Aşağıdaki referanslar şuraya yeniden üst öğe tanımlanacaktır: "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Referanslara yeniden üst öğe tanımlama başarısız",
+    "reparent_cyclic": "Bu yeni Üst Öğe zaten Yeniden Üst Öğe Tanımlama Referansları listesine kaydedilmiş. Döngüsel yapıdan kaçınmak için lütfen mevcut seçimi temizleyin."
+  },
+  "success": {
+    "reparent": "Yeniden Üst Öğe Tanımlama Başarılı"
+  }
+}

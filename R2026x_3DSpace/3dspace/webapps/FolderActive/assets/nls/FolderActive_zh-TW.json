@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "書籤資料夾",
+  "activeBookmark_cmd": "在書籤資料夾下工作",
+  "name_Section_FavoriteFolders": "最愛",
+  "name_Section_AllFolders": "書籤資料夾",
+  "activeBookmark_msg_empty": "空白",
+  "activeBookmark_btn_focus": "對焦至所設定的書籤資料夾",
+  "activeBookmark_msg_noBookmark": "找不到書籤資料夾",
+  "CMDExpandAll": "全部展開",
+  "CMDCollapseAll": "全部摺疊",
+  "InputLabel": "書籤資料夾",
+  "loader": {
+    "findingObjects": "尋找書籤資料夾"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "選擇",
+    "button_Cancel": "取消",
+    "widget_name": "在書籤資料夾中選擇",
+    "PLMNewBookmarkWidgetName": "選擇書籤資料夾",
+    "msg_ClassifyInProgress": "正在新增...",
+    "msg_ClassifySuccessful": "新增成功。",
+    "msg_ClassifyFailed": "加入時發生錯誤。可能是您沒有加入存取權限，或其已加入至指定的書籤資料夾中。",
+    "msg_selectNodeToSeeInfo": "選擇書籤資料夾以查看其詳細資料。"
+  },
+  "multiSelectionNotSupported": "不支援多重選擇。",
+  "favoriteSectionNotSupported": "最愛項目區段不支援此指令。",
+  "favoriteNotSupported": "最愛項目不支援此指令。",
+  "sectionNotSupported": "區段不支援此指令。",
+  "noSelectionError": "此指令需要選擇。"
+}

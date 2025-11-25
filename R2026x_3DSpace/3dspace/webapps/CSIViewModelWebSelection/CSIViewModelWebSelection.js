@@ -1,0 +1,1 @@
+define("DS/CSIViewModelWebSelection/CSIViewModelWebSelectionObjectFactory",["DS/CSIViewModelWebInterfaces/CSIVMClientSelectionObject"],(function(e){"use strict";let t;return null==t&&(t={},t.createCSISelectionObject=function(t){return e.declareType(),new e(t)}),t}));

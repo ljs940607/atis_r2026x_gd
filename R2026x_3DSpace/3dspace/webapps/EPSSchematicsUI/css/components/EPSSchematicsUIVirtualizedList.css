@@ -1,0 +1,58 @@
+.sch-vlist-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #77797c transparent;
+  user-select: none;
+  background-color: white;
+  border: 0px;
+}
+.sch-vlist-container .sch-vlist {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica;
+  width: 100%;
+  background: white;
+  margin: 0px;
+  padding: 0px;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  font-size: 12px;
+  margin: 0px;
+  padding: 3px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item > * {
+  pointer-events: none;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item.invisible {
+  display: none;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item.preselected, .sch-vlist-container .sch-vlist .sch-vlist-item.preselected.selected {
+  background: #368ec4;
+  color: white;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item.selected {
+  background: #f1f1f4;
+  border-top-color: #368ec4;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item.selected + li {
+  border-top-color: #368ec4;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-item.selected:has(+ .sch-vlist-item.invisible) {
+  border-bottom-color: #368ec4;
+}
+.sch-vlist-container .sch-vlist .sch-vlist-placeholder {
+  box-sizing: border-box;
+}

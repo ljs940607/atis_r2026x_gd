@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Dzieli dany obiekt na ciągi w pliku JSON.",
+  "description": "Ten blok jest dynamiczny, dlatego typ obiektu danych wejściowych można zmienić w oknie dialogowym konfiguracji bloku.",
+  "dataPorts": {
+    "Object": "obiekt do podziału na ciągi.",
+    "JSON": "obiekt podzielony na ciągi."
+  },
+  "controlPorts": {
+    "In": "wyzwala wykonanie bloku.",
+    "Out": "jest aktywowane po zakończeniu procesu."
+  },
+  "example": null
+}

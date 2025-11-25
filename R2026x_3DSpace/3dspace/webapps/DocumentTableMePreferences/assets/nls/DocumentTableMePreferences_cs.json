@@ -1,0 +1,97 @@
+{
+  "views": {
+    "viewLabel": "Zobrazit"
+  },
+  "commandMenu": {
+    "default": "Výchozí pohled",
+    "root": "Zobrazení tabulky",
+    "admin": "Zobrazení správce",
+    "user": "Moje pohledy",
+    "widget": "Místní pohled"
+  },
+  "columns": {
+    "column_name": "Název sloupce",
+    "attType": "Typ atributu",
+    "colName": "Název sloupce",
+    "pin": "Připnout",
+    "visibility": "Viditelnost",
+    "hide_show": "Skrýt/zobrazit",
+    "findinctx": "Najít",
+    "thumbnail": "Náhled",
+    "thumbnails": "Náhled",
+    "matrixtxt": "Polohová matice",
+    "typeName": "Typ",
+    "extName": "Prodloužení"
+  },
+  "attributeCategoriesNodes": {
+    "COMMON_COLUMNS": "Společné sloupce",
+    "TYPE_COLUMNS": "Sloupce typu",
+    "EXTENSION_COLUMNS": "Sloupce rozšíření"
+  },
+  "ViewManager": {
+    "pinLeft": "Připnout vlevo",
+    "pinRight": "Připnout vpravo",
+    "unpinned": "Nepřipínat",
+    "title": "Vybrané sloupce: "
+  },
+  "AttributeManager": {
+    "title": "Dostupné sloupce: "
+  },
+  "CreateViewPane": {
+    "createview": "Vytvořit zobrazení",
+    "message1": "Nejsou k dispozici žádná zobrazení uživatele nebo správce.",
+    "message2": "Vytvoření nových zobrazení správce:",
+    "message3": "1. Otevřete widget Document Management.",
+    "message4": "2. Spusťte zobrazení konfigurační tabulky s přihlašovacími údaji správce."
+  },
+  "columnsNls": {
+    "TITLE": "Název",
+    "NAME": "Název",
+    "TYPE": "Typ",
+    "COLLABORATIVE_POLICY": "Zásady spolupráce",
+    "COLLABORATIVE_SPACE": "Prostor pro spolupráci",
+    "REVISION": "Revize",
+    "IS_LATEST_REVISION": "Je nejnovější revize",
+    "FILES": "Soubory",
+    "LOCK_STATUS": "Stav zámku",
+    "DESCRIPTION": "Popis",
+    "ORGANIZATION": "Organizace",
+    "OWNER": "Vlastník",
+    "ORIGINATOR": "Původce",
+    "MATURITY": "Stav dokončení",
+    "CREATION_DATE": "Datum vytvoření",
+    "MODIFIED_DATE": "Datum změny",
+    "COMMENTS": "Komentáře",
+    "FILE_TYPE": "Typ souboru",
+    "APPROVAL_STATUS": "Stav schválení"
+  },
+  "COPY_OF": "Kopie",
+  "AdminViewSaveMessage1": "Chcete jej uložit jako zobrazení Správce?",
+  "AdminViewSaveMessage2": "V opačném případě se uloží jako uživatelské zobrazení",
+  "ViewAlreadyExistWarning": "Zobrazení „{newViewLabel}“ již existuje.",
+  "MaxViewLimitReachedTitle": "Limit byl překročen",
+  "MaxViewLimitReachedMsg": "Můžete vytvořit až 4 {viewType} zobrazení.",
+  "commands": {
+    "addview": {
+      "title": "Vytvořit zobrazení",
+      "message1": "Můžete vytvořit maximálně 4 zobrazení uživatelů.",
+      "message2": "Můžete vytvořit maximálně 4 zobrazení uživatelů/správců."
+    },
+    "removeview": {
+      "title": "Odstranit zobrazení",
+      "message": "Odstraní vybrané zobrazení."
+    },
+    "addColumn": {
+      "title": "Přidat sloupec",
+      "message": "Přidá sloupec k vybraným sloupcům."
+    },
+    "removeColumn": {
+      "title": "Odebrat sloupec",
+      "message": "Odstraní sloupec z vybraných sloupců."
+    },
+    "confirm": "Potvrdit",
+    "cancel": "Zrušit"
+  },
+  "createNewView": "Vytvořit nový pohled",
+  "Default": "Výchozí"
+}

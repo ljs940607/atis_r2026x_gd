@@ -1,0 +1,5 @@
+{
+  "ErrorSecurityContextEmpty": "Nie można znaleźć danych uwierzytelnienia użytkownika. Spróbuj zalogować się ponownie. W przeciwnym razie skontaktuj się z działem pomocy technicznej.",
+  "ErrorSecurityContext": "Nie można znaleźć danych uwierzytelnienia użytkownika. Występuje nieoczekiwany błąd. W przeciwnym razie skontaktuj się z działem pomocy technicznej.",
+  "ErrorTimeOut": "Nie można znaleźć danych uwierzytelnienia użytkownika. Występuje przekroczenie czasu połączenia. W przeciwnym razie skontaktuj się z działem pomocy technicznej."
+}

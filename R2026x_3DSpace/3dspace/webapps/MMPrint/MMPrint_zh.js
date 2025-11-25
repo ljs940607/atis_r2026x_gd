@@ -1,0 +1,1 @@
+define("DS/MMPrint/MMPrint_zh",{});define("DS/MMPrint/assets/nls/MMPrint",{printErrorTitle:"打印错误",printRealSizeError:"不支持实际尺寸打印",DerivedOutputTitle:"衍生输出不可用",DerivedOutputMessage:"衍生输出不可用，正在切换到栅格生成的输出。",PrintLaunchedTitle:"打印命令已启动",PrintLaunchedMessage:"我们正在处理您的请求，这可能需要一些时间..."});

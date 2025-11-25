@@ -1,0 +1,98 @@
+{
+    "selectedTypes": ["VPMReference", "VPMRepReference", "3DShape"],
+    "selectedExtensions": ["XCADExtension", "EnterpriseExtension"],
+    "default": true,
+    "order": ["tree", "Visibility", "ds6w:status", "ds6w:organizationResponsible", "ds6w:project"],
+    "attributesParams": [
+        {
+            "dataIndex": "tree",
+            "hasNLS": false,
+            "ds6w": "ds6w:label",
+            "tree": true,
+            "customisation": {
+                "layout": {
+                    "removableFromView": false,
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": true
+                }
+            }
+        },
+        {
+            "dataIndex": "Visibility",
+            "hasNLS": false,
+            "typeRepresentation": "url",
+            "customisation": {
+                "exportable": {
+                    "lock": true,
+                    "value": false
+                },
+                "layout": {
+                    "removable": false
+                }
+            }
+        },
+        {
+            "ds6w": "ds6w:status",
+            "customisation": {
+                "layout": {
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": false,
+                    "value": true
+                }
+            }
+        },
+        {
+            "ds6w": "ds6w:organizationResponsible",
+            "sortableFlag": false,
+            "customisation": {
+                "layout": {
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": false,
+                    "value": true
+                }
+            }
+        },
+        {
+            "ds6w": "ds6w:project",
+            "customisation": {
+                "layout": {
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": false,
+                    "value": true
+                }
+            }
+        }
+    ],
+    "MP_SELECTED_TYPES": ["VPMReference", "Document", "Workspace", "Workspace Vault"],
+    "MP_SELECTED_EXTS": ["XCADExtension", "EnterpriseExtension", "MaterialUsageExtension"],
+    "MP_SELECTED_COLS": [
+        {
+            "dataIndex": "tree",
+            "ds6w": "ds6w:label"
+        },
+        {
+            "dataIndex": "Visibility"
+        },
+        {
+            "ds6w": "ds6w:status"
+        },
+        {
+            "ds6w": "ds6w:organizationResponsible"
+        },
+        {
+            "ds6w": "ds6w:project"
+        }
+    ],
+    "commandColumns": [],
+    "typeRepresentations": {},
+    "allowedIndexAttributes": ["ds6w:label", "ds6w:status", "ds6w:organizationResponsible", "ds6w:project", "ContextualMenuColumn"]
+}

@@ -1,0 +1,488 @@
+{
+  "version": "1.1",
+  "eno3dviewerinfra": {
+    "run_options": {
+      "webapi_timeout": {
+        "value": 600000
+      },
+      "authorized_root_types": {
+        "value": [
+          "CatAnalysis",
+          "CatProcess",
+          "MCAD Assembly",
+          "MCAD Component",
+          "CATDrawing",
+          "VPMReference",
+          "VPMRepReference",
+          "Change Action",
+          "ENOStrRefinementSpecification",
+          "R2V_Activity",
+          "R2V_FeatureOfInterest",
+          "VPMReferenceExtPos"
+        ]
+      },
+      "type_kind": {
+        "value": {
+          "Product": [
+            "VPMReference",
+            "VPMRepReference"
+          ],
+          "VDRP": [
+            "VPMReferenceExtPos"
+          ],
+          "Filter": [
+            "ENOStrRefinementSpecification"
+          ],
+          "Change": [
+            "Change Action"
+          ],
+          "R2V" : [
+            "R2V_Activity",
+            "R2V_FeatureOfInterest"
+          ]
+        }
+      },
+      "unsupported_root_types": {
+        "value": [
+          "CATAnalysisResults",
+          "CATAnalysisComputations",
+          "AxisSystemReference"
+        ]
+      },
+      "supported_root_types": {
+        "value": [
+          "CatAnalysis",
+          "CatProcess",
+          "MCAD Assembly",
+          "MCAD Component",
+          "CATDrawing",
+          "VPMReference",
+          "VPMRepReference",
+          "VPMReferenceExtPos"
+        ]
+      },
+      "authorized_types": {
+        "value": [
+          "CATProduct",
+          "CATPart",
+          "CATDrawing",
+          "CATAnalysis",
+          "CATProcess",
+          "CATIA Embedded Component",
+          "CATIA CGR",
+          "CATShape",
+          "CATIA V4 Model",
+          "CATIA Design Table",
+          "Physical Product",
+          "VPMReference",
+          "VPMRepReference",
+          "3DShape",
+          "SW Assembly Instance",
+          "SW Component Instance"
+        ]
+      },
+      "dynamic_authorized_types": {
+        "value": true
+      },
+      "touchDropInvite": {
+        "value": true
+      },
+      "enopad3dviewer_FilterAvailable": {
+        "value": true
+      },
+      "activateVolumeFilter": {
+        "value": true
+      },
+      "enopad3dviewer_LDHBatchSize": {
+        "value": 5000
+      },
+      "enopad3dviewer_streamFileType": {
+        "value": "cgr"
+      },
+      "enopad3dviewer_pixelCulling_progressiveExpand": {
+        "value": "10"
+      },
+      "enopad3dviewer_rotateFocusMode": {
+        "value": true
+      },
+      "enopad3DViewer_enableStatusInfo": {
+        "value": true
+      },
+      "enopad3dviewer_volumeFilterAvailability": {
+        "value": true
+      },
+      "enopad3dviewer_propertiesCommandAvailability": {
+        "value": true
+      },
+      "enopad3dviewer_defaultStatusBarVisibility": {
+        "value": true
+      },
+      "enopad3dviewer_interwidgetComAvailability": {
+        "value": true
+      },
+      "enopad3dviewer_selectiveLoading": {
+          "value": true
+      },
+      "enopad3dviewer_activateStartupViewAutoloader": {
+        "value": true
+      },
+      "enopad3dviewer_offlineMode": {
+        "value": false
+      },
+      "enopad3dviewer_allowDnD": {
+          "value": true
+      },
+      "enopad3dviewer_getPlatformServicesInBackground": {
+          "value": false
+      },
+      "privateFlag_enopad3dviewer_onPremiseElasticLoading": {
+        "value": true
+      },
+      "enopad_webapis": {
+        "value": false
+      },
+      "activateWidgetLink": {
+        "value" : true
+      },
+      "supportWorldOrientation": {
+        "value": true
+      },
+      "eno3dview_supportMultiValueAttributes": {
+        "value": false
+      },
+      "dndLA": {
+          "value": false
+      },
+      "landingPage_defaultSearchPrecondition" : {
+        "value": "flattenedtaxonomies:\"types/VPMReference\" OR flattenedtaxonomies:\"types/VPMRepReference\" OR flattenedtaxonomies:\"types/ENOStrRefinementSpecification\" OR flattenedtaxonomies:\"types/R2V_FeatureOfInterest\""
+      },
+      "widgetLink_options": {
+        "value" : {
+            "appIds": [],
+            "open": false,
+            "uses": ["ENXContent", "ENXContentExt" ,"ENXContentSync2D", "ENXContentSync3D", "ENXEnrich", "ENXLandingPageSync"],
+            "implements": ["ENXContent", "ENXContentExt", "ENXContentSync3D", "ENXEnrich", "ENXLandingPageSync"]
+        }
+      },
+      "enopad3dviewer_CGRorTHB": {
+        "value": "OPTIMIZED",
+        "only3D": true,
+        "preference": {
+          "type": "list",
+          "label": "defaultStreamToLoad_label",
+          "options": [
+            {
+              "label": "defaultStreamToLoad_optimized_label",
+              "value": "OPTIMIZED"
+            },
+            {
+              "label": "defaultStreamToLoad_high_label",
+              "value": "HIGH"
+            }
+          ]
+        },
+        "dispatch": true
+      },
+      "enopad3dviewer_displayCandidateQueue": {
+        "value": "ALWAYS",
+        "dispatch": true
+      },
+      "enopad3dviewer_displayCandidateQueue_color": {
+        "value": "GREY",
+        "dispatch": true
+      },
+      "propertiesFacet": {
+        "value": [
+          "properties",
+          "relations",
+          {
+           "require": "DS/PADServices/views/private/docsMgt/SpecificationDocsFacet",
+           "alwaysVisible": true,
+            "services": ["3DSpace"],
+            "inheritance": true,
+            "content": null,
+            "facet": {
+              "name": "specificationdocuments",
+              "icon": "doc-log wux-ui-3ds"
+            },
+            "options": {
+              "hideAttachments": true,
+               "readonly": false,
+               "renderDiv": ".explorer-root"
+            }
+          }, {
+            "require": "DS/PADServices/views/private/docsMgt/AttachmentDocsFacet",
+            "alwaysVisible": true,
+            "services": ["3DSpace"],
+            "inheritance": true,
+            "content": null,
+            "facet": {
+              "name": "referencedocuments",
+              "icon": "attach"
+            },
+            "options": {
+              "hideSpecifications": true,
+              "readonly": false,
+              "renderDiv": ".explorer-root",
+              "supportedTypes": {
+                "includedTypes": ["Document", "DOCUMENTS", "Drawing"],
+                "excludedTypes": []
+              }
+            }
+          },
+          {
+            "require": "DS/ENODODisplay/commands/facets/DerivedOutputFacet",
+            "inheritance": true,
+            "alwaysVisible": true,
+            "services": [
+              "3DSpace"
+            ],
+            "content": null,
+            "facet": {
+              "name": "derivedoutputs",
+              "icon": "derived-output"
+            },
+            "options": {
+              "activateActions": false
+            },
+            "actions": [{
+                "name": "refreshDOView",
+                "text": "refreshDOViewNLS",
+                "icon": "refresh"
+            }, {
+                "name": "bulkDownloadDO",
+                "text": "bulkDownloadDONLS",
+                "icon": "folder-zipped-download"
+            }]
+          }
+        ]
+      },
+      "disableDetach": {
+        "value": true
+      },
+      "enopad3dviewer_selectionFilter": {
+        "value": "PRODUCT",
+        "dispatch": true
+      },
+      "padstatusbar_allowSelectionDragging": {
+        "value": true
+      },
+      "changeControlActivation": {
+        "value": true,
+        "dispatch": true,
+        "activatedBySetting": "authorizeChangeControl"
+      },
+      "changeControlPosition": {
+        "value": "bottom-left",
+        "dispatch": true,
+        "activatedBySetting": "authorizeChangeControl"
+      },
+      "autoreload": {
+        "value": false,
+        "dispatch": true
+      },
+      "activateLockUX": {
+        "value": true
+      },
+      "activateSup": {
+          "value": true
+      },
+      "eno3dview_VDRP_activate_POS": {
+        "value": true
+      }
+    },
+    "debug_options": {
+      "syncAutoReload": {
+        "value": true
+      },
+      "accept_all_types": {
+        "value": false,
+        "preference": {
+          "type": "boolean",
+          "label": "Accept all types"
+        }
+      },
+      "remove_type_from_navigate": {
+        "value": false,
+        "preference": {
+          "type": "boolean",
+          "label": "Remove some types from navigate instead of authorize some types"
+        }
+      },
+      "display_sceneGraph": {
+        "value": false,
+        "preference": {
+          "type": "boolean",
+          "label": "Display the scene graph"
+        },
+        "dispatch": true
+      },
+      "enox3dsc_activateBI": {
+        "value": true,
+        "preference": {
+          "type": "boolean",
+          "label": "Populate tags"
+        },
+        "dispatch": true
+      },
+      "debug_me": {
+        "value": false
+      },
+      "dynamic_authorized_types": {
+        "value": true,
+        "preference": {
+          "type": "boolean",
+          "label": "Use dynamically authorized types"
+        }
+      },
+      "enopad_webapis": {
+        "value": false
+      },
+      "activate_newDropInvite": {
+        "value": false,
+        "preference": {
+          "type": "boolean",
+          "label": "Use the new drop feedback based on tooltip"
+        }
+      },
+      "touchDropInvite": {
+        "value": true,
+        "preference": {
+          "type": "boolean",
+          "label": "Use touch drop invite on touch devices"
+        }
+      },
+      "settypes": {
+        "value": true,
+        "preference": {
+          "type": "boolean",
+          "label": "Use compass setTypes API on selection"
+        }
+      },
+      "enopad3dviewer_streamFileType": {
+        "value": "cgr",
+        "preference": {
+          "type": "list",
+          "label": "Stream file type (page reload required)",
+          "options": [
+            {
+              "value": "cgr",
+              "label": "CGR"
+            },
+            {
+              "value": "3dxc",
+              "label": "3DXM"
+            }
+          ]
+        }
+      },
+      "authorizeChangeControl": {
+        "value": true
+      }
+    },
+    "webapi_options": {
+      "navigate3D": {
+        "select_bo": [
+          "physicalid",
+          "ds6w:type",
+          "ds6w:globalType",
+          "cgrwms",
+          "3dthbwms",
+          "ds6w:i3dx"
+        ],
+        "select_rel": [
+          "physicalid",
+          "ds6w:type",
+          "ds6w:globalType",
+          "matrixtxt"
+        ],
+        "computeCGRs": [
+          "cgr"
+        ],
+        "computeThumbnails": [
+          "thumbnail_3d"
+        ],
+        "computeCGRsNThumbnails": [
+          "thumbnail_3d",
+          "cgr"
+        ]
+      },
+      "volumeQuery": {
+        "select_bo": [
+          "physicalid",
+          "ds6w:type",
+          "ds6w:globalType",
+          "cgrwms",
+          "3dthbwms",
+          "ds6w:i3dx"
+        ],
+        "select_rel": [
+          "physicalid",
+          "ds6w:type",
+          "ds6w:globalType",
+          "matrixtxt"
+        ]
+      }
+    },
+    "layout_options": {
+      "frmWindow_opts": {
+        "viewerOptions": {
+          "fetchMePreferenceSettings": true,
+          "showReferenceAxisSystem": true,
+          "defaultAnimationLoop": true,
+          "autoUpdateFrustum": true,
+          "autoUpdateLights": true,
+          "highlight": {
+            "activated": true,
+            "displayHL": true,
+            "gpu": true,
+            "computeNormalDepth": true,
+            "primitive": false,
+            "trapSelection": true,
+            "trapGPU": true,
+            "trapPrimitive": false
+          },
+          "pHighlight": {
+            "activated": true,
+            "displayHL": true,
+            "gpu": true,
+            "computeNormalDepth": true,
+            "primitive": false,
+            "disableWhileMoving": true
+          },
+          "displayGrid": false,
+          "infinitePlane": false,
+          "autoUpdatePlane": true,
+          "defaultLights": true,
+          "useShadowMap": false,
+          "antiAliasing": false,
+          "useVignetting": false,
+          "ssao": false,
+          "ssaoIterative": false,
+          "mirror": false,
+          "sslr": false,
+          "bloom": false,
+          "flare": false,
+          "dof": false,
+          "hdr": true,
+          "multiViewer": false,
+          "multiViewerFix": true,
+          "useQualityManager": true,
+          "visuFaceMaterialsAsPBR": true,
+          "useViewPanel": true,
+          "viewPanelConfig": {
+            "importFromOldLocalStorage": false,
+            "uiConfig" : {
+              "useShadingIllustration": false,
+              "useOutline": false
+            }
+          }
+        },
+        "robotVisibility": false,
+        "allowDnD": true,
+        "mouseProfile": "COMBINED",
+        "BIMode": "DUAL"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "setParameters": "参数已保存",
+  "setParametersTitle": "保存",
+  "setParametersError": "保存参数时出错",
+  "deleteParameter": "参数已删除",
+  "deleteParameterTitle": "删除",
+  "deleteParameterError": "删除参数时出错",
+  "modifyParameter": "参数已修改",
+  "modifyParameterTitle": "修改",
+  "modifyParameterError": "修改参数时出错",
+  "columnMandatory": "列 %1 必填",
+  "containUnsupportedChars": "%1 包含以下一个或多个不支持的字符 \n%2",
+  "confirmDeleteTitle": "确认删除",
+  "confirmDeleteContent": "是否确定要删除此行？此操作无法撤销。",
+  "Add": "添加新行",
+  "orderParameters": "顺序已更新",
+  "orderParametersTitle": "重新排序",
+  "orderParametersError": "重新排序时出错",
+  "orderParametersMaskMessage": "正在更新顺序",
+  "orderParametersDeleteError": "删除先前的顺序时出错",
+  "orderParametersSetError": "保存新顺序时出错"
+}

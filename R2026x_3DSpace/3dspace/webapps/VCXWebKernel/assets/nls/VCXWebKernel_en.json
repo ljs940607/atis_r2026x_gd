@@ -1,0 +1,12 @@
+{
+    "ProgressNotification.Loading" : "Loading",
+    "Notification.Cancel" : "Cancel",
+
+    "Cmd.Isolate" : "Isolate",
+    "Cmd.SelectSimilarColor" : "Select with similar color",
+    "Cmd.SelectSimilarInstance" : "Select with similar instance",
+    "Cmd.AddToSelectionSetCmd" : "Add to Selection Set",
+    "Cmd.ApplyTo" : "Apply to",
+    "Cmd.ApplyTo.All" : "Apply on all scenes",
+    "Cmd.ApplyTo.Selected" : "Apply on selected scenes"
+}

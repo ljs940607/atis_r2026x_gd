@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="DELWebMfgAssemblyDefHeaders" Target="CATCmdHeadersList">
+
+    <CATCmdHeadersList>
+
+      <!-- WKO Cloud Generic Section-->
+      <CATCommandHeader ID = "LandingPage"	        ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"  ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+      <CATCommandHeader ID = "Authoring"	          ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"  ResourceFile = "DELWKOApp/DELWKOApp" Available = "0"/>
+      <CATCommandHeader ID = "Refresh"              ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"	  ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+      <CATCommandHeader ID = "Hide"	                ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+      <CATCommandHeader ID = "HideAll"              ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"   HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+      <CATCommandHeader ID = "ToggleAuxiliaryView"  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand" Behavior = "CATAfrHeaderCheck"  HelpResourceFile = "DELWKOApp/DELWKOApp" ResourceFile = "DELWKOApp/DELWKOApp" Available = "0"/>
+
+      <CATCommandHeader ID = "CreateWorkOrderFromProcess"  ClassName = "DS/DELWKOAfrCommands/DELWKOCreateWorkOrderFromProcessCmd"  HelpResourceFile = "DELWKOApp/DELWKOApp"  ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+
+      <CATCommandHeader ID = "DELWKOWorkBookCmdHdr"   ClassName = 'DS/DELWKOAfrCommands/DELWKOWorkBookCmd'   HelpResourceFile = "DELPPWAfrCommands/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" 	  Available = "1"/>
+      <CATCommandHeader ID = "DELWKOFAMCmdHdr"   ClassName = 'DS/DELWKOAfrCommands/DELWKOFAMCmd'   HelpResourceFile = "DELPPWAfrCommands/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" 	  Available = "1"/>
+      <CATCommandHeader ID = "DELWKOExploreInWebAppCmdHdr"   ClassName = 'DS/DELWKOAfrCommands/DELWKOExploreInWebAppCmd'   HelpResourceFile = "DELPPWAfrCommands/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" 	  Available = "1"/>
+
+      <CATCommandHeader
+            ID               = "Relations"
+            ClassName        = "DS/DELPPWAfrCommands_FD02/CheckCommand"
+            Behavior         = "CATAfrHeaderCheck"
+            ResourceFile     = "DELWKOApp/DELWKOApp"
+            HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"
+            Available        = "0"
+        />
+
+      <CATCommandHeader
+            ID               = "DisplayProperties"
+            ClassName        = "DS/DELPPWAfrCommands_FD02/CheckCommand"
+            Behavior         = "CATAfrHeaderCheck"
+            ResourceFile     = "DELWKOApp/DELWKOApp"
+            HelpResourceFile = "DELWKOApp/DELWKOApp"
+            Available        = "0"
+      />
+
+    <CATCommandHeader ID = "MaturityCmdCloud"    ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"   HelpResourceFile = "DELWKOApp/DELWKOApp"   ResourceFile = "DELWKOApp/DELWKOAppCloud" Available = "0"/>
+    <CATCommandHeader ID = "DeleteCmdCloud"    ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"   HelpResourceFile = "DELWKOApp/DELWKOApp"   ResourceFile = "DELWKOApp/DELWKOAppCloud" Available = "0"/>
+    <CATCommandHeader ID = "ExplodeWorkOrderCmdCloud"    ClassName = "DS/DELWKOAfrCommands/DELWKOExplodeWorkOrderCmd"   HelpResourceFile = "DELWKOApp/DELWKOApp"   ResourceFile = "DELWKOApp/DELWKOAppCloud" Available = "0"/>
+
+    <CATCommandHeader ID = "DuplicateHdr"  ClassName = "DS/LifecycleCmd/DuplicateCmd"   HelpResourceFile = "LifecycleWidget/LifecycleCmd"   ResourceFile = "LifecycleCmd/DuplicateCmd"    Available = "1"/>
+
+    <CATCommandHeader ID = "WorkOrderView"  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"  Behavior = "CATAfrHeaderCheck"  HelpResourceFile = "DELWKOApp/DELWKOApp"  ResourceFile = "DELWKOApp/DELWKOApp" Available = "1">
+        <CATAfrCommandHeaderArgs>
+            <CATCommandHeaderArg ID="CheckGroup"   Value="ViewsGroup"/>
+        </CATAfrCommandHeaderArgs>
+    </CATCommandHeader>
+    <CATCommandHeader ID = "ItemsView"  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"    Behavior = "CATAfrHeaderCheck"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"  ResourceFile = "DELMGAApp/DELMGAApp" Available = "1">
+        <CATAfrCommandHeaderArgs>
+            <CATCommandHeaderArg ID="CheckGroup"   Value="ViewsGroup"/>
+        </CATAfrCommandHeaderArgs>
+    </CATCommandHeader>
+    <CATCommandHeader ID = "ResourcesView"  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"  Behavior = "CATAfrHeaderCheck"  HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"  ResourceFile = "DELMGAApp/DELMGAApp" Available = "1">
+        <CATAfrCommandHeaderArgs>
+            <CATCommandHeaderArg ID="CheckGroup"   Value="ViewsGroup"/>
+        </CATAfrCommandHeaderArgs>
+    </CATCommandHeader>
+
+    <CATCommandHeader ID = "ExpandAll"		ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"   HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+    <CATCommandHeader ID = "CollapseAll"	ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"   HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+
+    <CATCommandHeader ID = "ProductFlowCmd"         		  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"   HelpResourceFile = "DELWKOApp/DELWKOApp"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "0"/>
+
+
+	 <CATCommandHeader ID = "BIEssentialsCmd"  ClassName = "DS/DELPPWAfrCommands_FD02/CheckCommand"  Behavior = "CATAfrHeaderCheck"  HelpResourceFile = "DELWKOApp/DELWKOApp"  ResourceFile = "DELWKOApp/DELWKOApp"  Available = "0"/>
+    <CATCommandHeader ID = "ExportCSV"            ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"    HelpResourceFile = "DELPPWAfrCommands_FD02/DELPPWAfrCommands"		ResourceFile = "DELWKOApp/DELWKOApp" Available = "1">
+        <CATAfrCommandHeaderArgs>
+            <CATCommandHeaderArg ID="Preferences" Value="DELWebMfgAssetsDefUI/DELWebMfgAssetsDefUIExportCSVPreferences"/>
+        </CATAfrCommandHeaderArgs>
+    </CATCommandHeader>
+
+    <CATCommandHeader ID="RelationIPExplorer" ClassName = "DS/DELPPWAfrCommands_FD02/RelationalExplorerCmd"  HelpResourceFile = "ENXNav/ENXNavHelpForCommands"  ResourceFile = "ENXNav/ENXNav" Available="1"/>
+    <CATCommandHeader ID = "EditViewPreferences"        ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"   HelpResourceFile = "DELWKOApp/DELWKOApp" 	ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+    <CATCommandHeader ID = "LayoutPreferences" ClassName = "DS/DELPPWAfrCommands_FD02/AfrCommand"   HelpResourceFile = "DELWKOApp/DELWKOApp"   ResourceFile = "DELWKOApp/DELWKOApp" Available = "1"/>
+    <CATCommandHeader ID = "DefineFilter" ClassName="DS/DELPPWAfrCommands_FD02/FilterCommands/ExpandFilterCmd"   HelpResourceFile = "DELMGAApp/DELMGAApp"   ResourceFile="ENONextGenFilterCmd/ENONextGenFilterCmd" Available = "1">
+    <CATAfrCommandHeaderArgs>
+        <CATCommandHeaderArg ID="AuthorizeFilter" Value="true" Mode="In"/>
+    </CATAfrCommandHeaderArgs>
+</CATCommandHeader>
+  </CATCmdHeadersList>
+
+  </Template>
+
+  <!--======================================================================================================================================-->
+  <!--======================================================================================================================================-->
+  <!--======================================================================================================================================-->
+  <!--======================================================================================================================================-->
+  <!--======================================================================================================================================-->
+
+  <Template syp:name="DELWebMfgAssemblyDefAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="DELWebMfgAssemblyDefWorkbench">
+
+      <CATCmdContainer 		Name="SWXUiFixedCommands" 			RepresentationType="AfrActionBarFixedSection">
+        <CATCmdStarter Name = "LandingPage"    Command = "LandingPage" />
+        <!-- <CATCmdStarter Name = "Authoring"    Command = "Authoring" /> -->
+        <CATCmdStarter Name = "Refresh"      Command = "Refresh" />
+        <CATCmdContainer  Name = "Hide" Visibility = "1" 	RepresentationType="AfrActionBarDropDown">
+          <CATCmdStarter  Name = "Hide"             Command = "Hide" />
+          <CATCmdStarter  Name = "HideAll"          Command = "HideAll" />
+        </CATCmdContainer>
+        <CATCmdStarter 	  Name = "ToggleAuxiliaryView"    Command = "ToggleAuxiliaryView" />
+      </CATCmdContainer>
+
+      <CATCmdContainer 		Name = "Authoring" Visibility = "1" RepresentationType="AfrActionBarSection">
+        <CATCmdStarter Name = "Create Work Order from Process" Command = "CreateWorkOrderFromProcess" />
+        <CATCmdStarter Name = "ProductFlowCmd"      Command = "ProductFlowCmd" />
+        <CATCmdStarter Name = "Properties" Command = "DisplayProperties" />
+      </CATCmdContainer>
+
+      <!--	WKO CmdContainer for Lifecycle commands	-->
+    	<CATCmdContainer Name="Lifecycle" Visibility="1" RepresentationType="AfrActionBarSection">
+         <CATCmdStarter Name="Maturity"   Command="MaturityCmdCloud" />
+         <CATCmdStarter Name="Delete"   Command="DeleteCmdCloud" />
+        <CATCmdSeparator Name="Lifecyle_Separator"/>
+         <CATCmdStarter Name="ExplodeWorkOrder"   Command="ExplodeWorkOrderCmdCloud" />
+      </CATCmdContainer>
+
+      <!-- WKO CmdContainer for View Blocks commands -->
+      <CATCmdContainer Name="View" Visibility="1" RepresentationType="AfrActionBarSection">
+        <CATCmdContainer Name = "ExpandNCollapse" Visibility = "1" RepresentationType = "AfrActionBarDropDown">
+          <CATCmdStarter Name = "ExpandAll" Command = "ExpandAll" />
+          <CATCmdStarter Name = "CollapseAll" Command = "CollapseAll" />
+        </CATCmdContainer>
+        <CATCmdSeparator Name = "BasicManip_Separator" />
+        <CATCmdStarter Name = "WorkOrderView"         Command = "WorkOrderView" />
+        <CATCmdStarter Name = "ItemsView"           Command = "ItemsView" />
+        <CATCmdStarter Name = "ResourcesView"       Command = "ResourcesView" />
+    	</CATCmdContainer>
+
+    <!-- WKO CmdContainer for Tools commands -->
+  		<CATCmdContainer Name="Tools" Visibility="1" RepresentationType="AfrActionBarSection">
+            <CATCmdStarter      Name = "EditViewPreferences"    Command = "EditViewPreferences" />
+            <CATCmdStarter      Name = "LayoutPreferences"   Command = "LayoutPreferences"/>
+            <CATCmdStarter      Name = "ExportCSV"              Command = "ExportCSV" />
+            <CATCmdStarter      Name = "ExpandFilterCmd"        Command = "DefineFilter" />
+    	</CATCmdContainer>
+
+
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

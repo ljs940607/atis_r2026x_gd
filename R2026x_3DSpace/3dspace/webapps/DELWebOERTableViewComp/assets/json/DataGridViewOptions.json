@@ -1,0 +1,26 @@
+{
+  "dataGridViewOptions": {
+    "defaultColumnDef": {
+      "editableFlag": false
+    },
+    "rowSelection": "multiple",
+    "columnSelection": "none",
+    "cellSelection": "none",
+    "showOutlineFlag": true,
+    "cellDragEnabledFlag": true,
+    "showContextualMenuColumnFlag": true,
+    "layoutOptions": {
+      "cellHeight": 40
+    }
+  },
+  "progressBarOptions": {
+    "defaultValue": {
+      "enable": true,
+      "infiniteFlag": true,
+      "displayStyle": "lite",
+      "emphasize": "info"
+    },
+    "type": "object",
+    "category": "Behavior"
+  }
+}

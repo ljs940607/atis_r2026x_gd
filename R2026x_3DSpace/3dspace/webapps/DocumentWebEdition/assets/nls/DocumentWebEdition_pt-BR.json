@@ -1,0 +1,16 @@
+{
+  "WebEditorSave": "Salvar",
+  "WebEditorCloseWithoutSave": "Não salvar",
+  "WebEditorConfirmMessageOnClose": "Deseja salvar suas alterações? Você perderá seu trabalho se continuar sem salvar.",
+  "WebEditorConfirmMessageWithNoLock": "O documento está sendo editado por outros usuários. Bloqueá-lo impedirá que ele faça outras alterações. Você pode editar online sem afetar outros usuários.",
+  "WebEditorConfirmMessageWithLock": "bloqueou o documento e não é possível editá-lo.\nVocê pode enviar uma solicitação para desbloquear o documento.",
+  "DocumentUpdatedOtherthanWebEditorSession": "Alguém modificou recentemente o conteúdo do arquivo externamente. Você pode copiar e colar manualmente para salvar todas as alterações.",
+  "OfficeWebEditorSuccessfulSave": "Documento salvo com êxito.",
+  "FileContentIsNotChanged": "Não foram feitas alterações desde que o documento foi aberto.",
+  "SaveDocument": "Salvar documento",
+  "Close": "Fechar",
+  "Cancel": "Cancelar",
+  "SaveInProgress": "Salvando...",
+  "WebEditionSaveFailed": "Não é possível salvar as alterações.",
+  "Save": "Salvar"
+}

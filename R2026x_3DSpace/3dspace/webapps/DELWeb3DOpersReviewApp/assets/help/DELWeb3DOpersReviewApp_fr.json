@@ -1,0 +1,15 @@
+{
+"ToggleDataGridView.Title":"Afficher la vue de structure 2D",
+"ToggleDataGridView.ShortHelp":"Affiche ou masque la vue de structure 2D",
+"ToggleDataGridView.LongHelp":"Activez la commande pour naviguer dans la structure 2D, mettre en surbrillance croisée, masquer/afficher et recadrer sur les graphiques 3D.",
+"DELWeb3DGenerateIssueCmd.Title":"Générer un problème",
+"DELWeb3DGenerateIssueCmd.ShortHelp":"Vous permet de générer un problème.",
+"DELWeb3DGenerateIssueCmd.LongHelp":"Sélectionnez un ou plusieurs objets pour créer un problème.",
+"DELOERRelationalNavigatorCmd.Title":"Relations",
+"DELOERRelationalNavigatorCmd.ShortHelp":"Ouvre le widget Relations et affiche l'écosystème des objets associés.",
+"DELWeb3DFilterCmd.Title":"Filtrer",
+"DELWeb3DFilterCmd.ShortHelp":"Filtre la structure par attribut, sélection, configuration ou volume.",
+"DELWeb3DFilterCmd.LongHelp":"Ouvre le volet de filtre dans lequel vous pouvez définir les critères afin de filtrer la structure par attribut, sélection, configuration ou volume.",
+"CleanAll.Title":"Fermer",
+"CleanAll.ShortHelp":"Fermez tous les objets de la vue."
+}

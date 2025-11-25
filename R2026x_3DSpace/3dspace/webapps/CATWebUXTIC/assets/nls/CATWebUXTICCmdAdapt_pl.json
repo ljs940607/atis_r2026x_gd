@@ -1,0 +1,14 @@
+{
+  "caOK": "Działanie zmiany wygenerowane prawidłowo",
+  "caKO": "Generowanie działania zmiany nie powiodło się",
+  "taskOK": "Zadanie wygenerowane pomyślnie",
+  "taskKO": "Generowanie zadania zakończone niepowodzeniem",
+  "issueOK": "Problem wygenerowany prawidłowo",
+  "issueKO": "Generowanie problemu nie powiodło się",
+  "caAttached": "Działanie zmiany zostało dołączone do problemu nadrzędnego",
+  "caNotAttached": "Działanie zmiany nie zostało dołączone do problemu nadrzędnego",
+  "taskAttached": "Zadanie zostało dołączone do problemu nadrzędnego",
+  "taskNotAttached": "Zadanie nie zostało dołączone do problemu nadrzędnego",
+  "ticSection": "Wygeneruj problem",
+  "ticTemplateIssue": "Do generowania problemu należy zawsze używać szablonu"
+}

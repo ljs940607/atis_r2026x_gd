@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Detalhes da regra de saída derivada",
+    "doattributes": "Atributos de regra de saída derivada",
+    "name": "Nome",
+    "connector": "Conector",
+    "implicitRule": "Regra implícita",
+    "external": "Geração externa",
+    "parameters": "Parâmetros de conversão",
+    "converter": "Conversor",
+    "origin": "Origem",
+    "forceUpdate": "Forçar atualização",
+    "uptodateDO": "Atualizado",
+    "jobStatus": "Status do trabalho",
+    "format": "Formato",
+    "alias": "Formato -",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "buttons": {
+    "cancel": "Cancelar"
+  },
+  "popup": {
+    "option": "Opção",
+    "value": "Valor",
+    "yesButton": "Sim",
+    "noButton": "Não",
+    "cancelButton": "Cancelar"
+  },
+  "error": {
+    "title": "Erro",
+    "invalidFrame": "Não é possível executar a operação. Atualize o widget e tente novamente.",
+    "invalidParameter": "Os parâmetros não estão definidos corretamente."
+  }
+}

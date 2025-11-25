@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "settings": [
+    {
+      "id": "SLEAutoName",
+      "uitype": "switch",
+      "label": "SLEAutoNameLabel",
+      "info": "SLEAutoNameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-AutonameOnSave",
+      "groupName": "SLESaveGroupLabel"
+    },
+    {
+      "id": "SLEReplaceTitleByNewNameOnAutoname",
+      "uitype": "switch",
+      "label": "SLEReplaceTitleByNewNameOnAutonameLabel",
+      "info": "SLEReplaceTitleByNewNameOnAutonameInfo",
+      "mode": "basic",
+      "attribute": "XCAD-ReplaceTitleByNewNameOnAutoname",
+      "groupName": "SLESaveGroupLabel"
+    },
+    {
+      "id": "SLECADAttributeMappedToEIN",
+      "uitype": "textbox",
+      "label": "SLECADAttributeMappedToEINLabel",
+      "info": "SLECADAttributeMappedToEINInfo",
+      "mode": "basic",
+      "attribute": "XCAD-CADAttributeMappedToEIN",
+      "groupName": "SLEOtherGroupLabel"
+    },
+    {
+      "id": "SLECheckinCFGfiles",
+      "uitype": "switch",
+      "label": "SLECheckinCFGfilesLabel",
+      "info": "SLECheckinCFGfilesInfo",
+      "mode": "basic",
+      "attribute": "XCAD-CheckinCFGfiles",
+      "groupName": "SLESaveGroupLabel"
+    },
+    {
+      "id": "SLEEnablePessimisticLocking",
+      "uitype": "switch",
+      "label": "SLEEnablePessimisticLockingLabel",
+      "info": "SLEEnablePessimisticLockingInfo",
+      "mode": "basic",
+      "attribute": "XCAD-EnablePessimisticLocking",
+      "groupName": "SLESaveGroupLabel"
+    },
+    {
+      "id": "SLEFileReadOnly",
+      "uitype": "switch",
+      "label": "SLEFileReadOnlyLabel",
+      "info": "SLEFileReadOnlyInfo",
+      "mode": "basic",
+      "attribute": "XCAD-FileReadOnly",
+      "groupName": "SLESaveGroupLabel"
+    },
+    {
+      "id": "SLECADFilterOutNotInCADData",
+      "uitype": "switch",
+      "label": "SLECADFilterOutNotInCADDataLabel",
+      "info": "SLECADFilterOutNotInCADDataInfo",
+      "mode": "basic",
+      "attribute": "XCAD-FilterOutNotInCADData",
+      "groupName": "SLEOpenGroupLabel"
+    },
+    {
+      "id": "SLEDelimiter",
+      "uitype": "textbox",
+      "label": "SLEDelimiterLabel",
+      "info": "SLEDelimiterInfo",
+      "mode": "advanced",
+      "className": "com.dassault_systemes.adminsetting.connector.sle.Delimiter",
+      "groupName": "SLEOtherGroupLabel"
+    }
+
+  ]
+}

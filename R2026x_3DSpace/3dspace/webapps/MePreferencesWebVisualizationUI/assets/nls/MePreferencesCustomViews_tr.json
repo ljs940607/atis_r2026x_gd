@@ -1,0 +1,19 @@
+{
+  "views": {
+    "front": "Ön Görünüm",
+    "back": "Arka Görünüm",
+    "left": "Sol Görünüm",
+    "right": "Sağ Görünüm",
+    "top": "Üst Görünüm",
+    "bottom": "Alt Görünüm",
+    "iso": "İzometrik Görünüm"
+  },
+  "sightVector": "Görüş Yönü",
+  "rightVector": "Sağ Yön",
+  "coordX": "X",
+  "coordY": "Y",
+  "coordZ": "Z",
+  "reset": "Sıfırla",
+  "warningTooltipTitle": "geçersiz veri, ayarlar kaydedilmez",
+  "warningTooltipHelp": "görüş vektörlerinin ve sağ vektörlerin boş ve ortogonal olmadığından emin olun"
+}

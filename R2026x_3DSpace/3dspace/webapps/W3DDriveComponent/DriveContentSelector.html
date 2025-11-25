@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html style="height: 100%;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <head>
+        <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+        <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+        <script type="text/javascript" src="../c/UWA/js/UWA_Frame_Alone.js"></script>
+        <script type="text/javascript">
+            define('DS/W3DDriveApp/widget', ['UWA/Utils', 'DS/UWPClientCode/PublicAPI', 'DS/MessageBus/MessageBus'], function (Utils) {
+                'use strict';
+
+                return {
+                    getValue: function (property) {
+                        switch (property) {
+                            case "3ddrive_uuid":
+                                return 'C-' + Utils.getUUID();
+                                break;
+                            default:
+                                return null;
+                        }
+                    },
+                    setValue: function (key, pref) {
+                        return;
+                    },
+                    hasPreference: function (key) {
+                        return false;
+                    },
+                    addPreference: function (key, value) {
+                        return;
+                    }
+                };
+            });
+
+            // This variable needs to be global for native apps integration using cef javascript handlers (js events). CEF: Chromium Embedded Framework.
+            let driveContentSelector;
+
+            (function () {
+                'use strict';
+
+                require([
+                    'DS/W3DDriveComponent/DriveContentSelector',
+                    'DS/i3DXCompass/Data',
+                    'DS/W3DDriveApp/widget'
+                ], function (
+                    DriveContentSelector,
+                    CompassData
+                ) {
+                    const urlSearchParams = new URLSearchParams(window.location.search);
+
+                    CompassData.initialize({
+                        myAppsBaseUrl: urlSearchParams.get('myAppsUrl'),
+                        userId: 'USER_ID',
+                        lang: urlSearchParams.get('lang')
+                    });
+
+                    let options = {
+                        onSelect: function (inode) { },
+                        select: {},
+                        filter: {}
+                    };
+
+                    if (urlSearchParams.get('envId')) {
+                        options.envId = urlSearchParams.get('envId');
+                    };
+                    if (urlSearchParams.get('multiEnv')) {
+                        options.multiEnv = urlSearchParams.get('multiEnv').toLowerCase() === 'true'
+                    };
+                    if (urlSearchParams.get('multiSelect')) {
+                        options.select.multiSelect = urlSearchParams.get('multiSelect').toLowerCase() === 'true';
+                    };
+                    if (urlSearchParams.get('accessright')) {
+                        options.select.accessright = urlSearchParams.get('accessright');
+                    };
+                    if (urlSearchParams.get('createFolder')) {
+                        options.select.createFolder = urlSearchParams.get('createFolder').toLowerCase() === 'true';
+                    };
+                    if (urlSearchParams.get('selectType')) {
+                        options.select.type = urlSearchParams.get('selectType');
+                    };
+                    if (urlSearchParams.get('filterType')) {
+                        options.filter.type = urlSearchParams.get('filterType');
+                    };
+                    if (urlSearchParams.get('extension')) {
+                        options.filter.extension = urlSearchParams.get('extension').split(',');
+                    };
+
+                    driveContentSelector = DriveContentSelector.create3DDriveChooser(options);
+                    window.onSelect = function (inode) {
+                        console.log(inode);
+                        if (window.dscef) {
+                            dscef.sendString('onSelect', JSON.stringify(inode))
+                        }
+                    }
+                    driveContentSelector.onSelectNode = window.onSelect;
+
+                    driveContentSelector.container.inject(document.body);
+                });
+            }());
+        </script>
+
+    <body style="height: 100%;">
+    </body>
+
+</html>

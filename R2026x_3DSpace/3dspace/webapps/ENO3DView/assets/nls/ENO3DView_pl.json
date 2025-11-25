@@ -1,0 +1,34 @@
+{
+  "appDescription": "Łatwa i wydajna nawigacja po modelach 3D",
+  "rootFrozen": "Po przejściu sesja zostaje zamrożona",
+  "transitionRefusedStaticMapping": "Konfiguracja wystąpienia produktu nie jest obsługiwana w aplikacji docelowej",
+  "transitionRefusedFlexibleAssemblies": "Elastyczne złożenia nie są obsługiwane w aplikacji docelowej",
+  "pointCloudClassificationLayer": {
+    "title": "Koloryzacja klasyfikacji LAS",
+    "headerTooltip": "Klasyfikacja LAS to wstępnie zdefiniowane schematy klasyfikacji zdefiniowane przez American Society for Photogrammetry and Remote Sensing (ASPRS) dla żądanej kategorii danych.",
+    "class0": "0 - nigdy nie sklasyfikowano",
+    "class1": "1 - nie sklasyfikowano",
+    "class2": "2 - ziemia",
+    "class3": "3 - niska roślinność",
+    "class4": "4 - średnia roślinność",
+    "class5": "5 - wysoka roślinność",
+    "class6": "6 - budynek",
+    "class7": "7 - niski punkt (szum)",
+    "class8": "8 - klucz modelu/zarezerwowany",
+    "class9": "9 - woda",
+    "class10": "10 - szyna",
+    "class11": "11 - nawierzchnia drogi",
+    "class12": "12 - nakładanie/zarezerwowane",
+    "class13": "13 - osłona przewodu (osłona)",
+    "class14": "14 - przewód (faza)",
+    "class15": "15 - wieża transmisyjna",
+    "class16": "16 - złącze przewód-struktura",
+    "class17": "17 - pomost",
+    "class18": "18 — wysoki poziom hałasu"
+  },
+  "pointCloudElevationLayer": {
+    "title": "Koloryzacja zgodnie ze współrzędnymi",
+    "comboLabel": "Oś: ",
+    "tooltip": "Współrzędna x jest mierzona wzdłuż osi wschód-zachód, współrzędna y wzdłuż osi północ-południe, a współrzędna z mierzy wysokość lub przewyższenie."
+  }
+}

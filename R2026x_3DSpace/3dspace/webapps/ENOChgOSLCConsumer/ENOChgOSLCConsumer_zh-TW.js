@@ -1,0 +1,1 @@
+define("DS/ENOChgOSLCConsumer/ENOChgOSLCConsumer_zh-TW",{});define("DS/ENOChgOSLCConsumer/assets/nls/ECMOSLC",{ECM_OSLC_Select_Reported_Against:"選擇報告依據",ECM_OSLC_Select_External_Change:"選擇外部變更",ECM_OSLC_Create_External_Change:"建立外部變更"});

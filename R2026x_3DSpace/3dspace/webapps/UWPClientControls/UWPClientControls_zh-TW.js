@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_zh-TW",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"功能表",addTab:"加入標籤",webAppsResizing:"只有 {type} 擁有者可以持續調整 Web 應用程式大小",webAppsResizingProductCockpit:"Web 應用程式不會在此駕駛艙中持續調整大小"});

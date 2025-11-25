@@ -1,0 +1,17 @@
+[
+    {
+        "domainid": "XENManagement",
+        "familyid": "PartNumberMapping",
+        "image": "paramXENPartNumberMapping.png"
+    },
+    {
+        "domainid": "ENGDefinationManagement",
+        "familyid": "PartNumberAdminConfigurations",
+        "image": "paramXENPartNumberAdminConfigurations.png"
+    },
+    {
+        "domainid": "ENGDefinationManagement",
+        "familyid": "AlternateSubstituteManagement",
+        "image": "paramXENAlternateSubstituteManagement.png"
+    }
+]

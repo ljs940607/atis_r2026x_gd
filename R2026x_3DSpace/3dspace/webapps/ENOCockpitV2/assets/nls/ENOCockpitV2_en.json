@@ -1,0 +1,12 @@
+{
+  "View.Title":"View",
+  "Tools.Title":"Tools",
+  "Real.Title":"Real World Data",
+  "appDescription": "Navigate your 3D models in a easy and efficient way",
+  "rootFrozen": "Session is frozen, following a transition",
+  "transitionRefusedStaticMapping": "Instanciated Product Configuration aren't supported in target app",
+  "transitionRefusedFlexibleAssemblies": "Flexible Assemblies aren't supported in target app",
+  "transitionRejectedInV2": "Transition is impossible. As a bypass, you can pin the new widget created, and use WidgetLink to bind it to any other widget of the dashboard. See documentation for more details about WidgetLink.",
+  "maskApplicationLoading": "Application is loading",
+  "refreshInProgress": "Application is refreshing"
+}

@@ -1,0 +1,18 @@
+{
+    "VCXWeb3DPlayManager": {
+        "impl": "DS/VCXWeb3DPlay/VCXWeb3DPlayManager",
+        "extensions": {
+            "W3AIManager": "DS/WebApplicationBase/W3AAManager",
+            "XCTEWSIExperienceMgr": "DS/VCXWeb3DPlay/VCXWebExperienceMgr",
+            "XCTEWSIPlayerOptionsMgr": "DS/VCXWeb3DPlay/VCXWebPlayerOptionsMgr"
+        }
+    },
+    "CAT3DXVisuManager":
+    {
+        "impl": "DS/CAT3DExpModel/managers/CAT3DXVisuManager",
+        "extensions": {
+            "W3AIManager": "DS/CAT3DExpModel/managers/W3AACAT3DXVisuManager",
+            "XCTEWSIExperienceMgr": "DS/CAT3DExpModel/managers/XCTEWSEExperienceVisuManager"
+        }
+    }
+}

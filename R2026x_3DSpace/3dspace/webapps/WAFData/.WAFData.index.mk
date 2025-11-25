@@ -1,0 +1,11 @@
+m|WebAppsFoundations\WAFData.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25175|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAFData\WAFData.js|1750798361|11643
+s|WebAppsFoundations\WAFData.mweb\src\WAFData.js|1750788679|69959
+t|win_b64\webapps\WAFData\index.html|1725720455|4125
+s|WebAppsFoundations\WAFData.mweb\src\index.html|1724871892|4125
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

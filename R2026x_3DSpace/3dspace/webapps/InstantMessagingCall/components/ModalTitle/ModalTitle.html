@@ -1,0 +1,26 @@
+<div id="im-call-modal-title">
+  <vu-modal :title="modalTitle" :show="showModal" @close="closeModal()" :noMobile="false">
+    <template #modal-body>
+      <vu-form ref="form">
+        <vu-input
+            required
+            :label="title.label"
+            :placeholder="title.placeholder"
+            :value="modelTitle"
+            @input="updateTitle"
+            :rules="title.rules"
+        />
+      </vu-form>
+    </template>
+    <template #modal-footer>
+      <vu-btn color="primary" @click="sendTitle()">
+          {{ $store.getters.nls('add') }}
+      </vu-btn>
+      <vu-btn
+      @click="closeModal()">
+          {{ $store.getters.nls('cancel') }}
+      </vu-btn>
+    </template>
+  </vu-modal>
+</div>
+    

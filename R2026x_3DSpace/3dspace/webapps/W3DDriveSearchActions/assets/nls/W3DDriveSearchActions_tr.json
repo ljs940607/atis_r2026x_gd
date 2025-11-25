@@ -1,0 +1,22 @@
+{
+  "ds6w:created": "Oluşturulma Tarihi",
+  "ds6w:modified": "Değiştirilme Tarihi",
+  "ds6w:type": "Tip",
+  "ds6w:label": "Başlık",
+  "ds6w:lastModifiedBy": "Değiştiren",
+  "ds6w:originator": "Oluşturan",
+  "ds6w:responsible": "Sahip",
+  "ds6w:responsible/ds6w:originator": "Oluşturan",
+  "ds6wg:filesize": "Boyut",
+  "folder": "Klasör",
+  "properties": "Özellikler",
+  "sharedWith": "Şununla paylaşıldı:",
+  "members": "{number} üye - {access}",
+  "moreSharedInfo": "...ve {number} üye ve/veya grup daha ile",
+  "notShared": "Hiçbir kullanıcı veya grupla paylaşılmadı",
+  "emptyDownload": "'{name}' boş, indirilemiyor",
+  "edit": "Düzenleyebilir",
+  "read": "Görüntüleyebilir",
+  "read_share": "Görüntüleyebilir ve paylaşabilir",
+  "edit_share": "Düzenleyebilir ve paylaşabilir"
+}

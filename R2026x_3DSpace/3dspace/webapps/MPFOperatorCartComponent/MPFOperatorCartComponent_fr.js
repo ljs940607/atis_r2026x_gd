@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_fr",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"Filtrer par :",orderId:"Identifiant de commande",seller:"Vendeur",buyer:"Acheteur",enterOrderId:"Entrer un identifiant de commande",enterSeller:"Entrer un vendeur",enterBuyer:"Entrer un acheteur",search:"Rechercher"});

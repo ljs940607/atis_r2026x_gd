@@ -1,0 +1,1 @@
+define("DS/ENOProcessStepsReferential/ENOProcessStepsReferential_tr",{});define("DS/ENOProcessStepsReferential/assets/nls/ProcessStepsReferential",{MyReferential:"Son Kullanılan Belgelerim"});

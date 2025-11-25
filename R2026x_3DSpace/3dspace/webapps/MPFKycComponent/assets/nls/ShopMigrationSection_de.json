@@ -1,0 +1,20 @@
+{
+  "stripeFrMigration": "Stripe FR-Migration",
+  "startStripeFrConversion": "Stripe FR-Konvertierung starten",
+  "migrationExplanation": "Klicken Sie auf die Schaltfläche, um die Migration des Shops zu Stripe FR zu starten.",
+  "documentsExplanation": "Laden Sie die KYC-Dateien einzeln herunter und laden Sie sie über die entsprechenden Upload-Schaltflächen in diesem Abschnitt auf die neue Stripe FR-Plattform hoch.",
+  "downloadFile": "Datei herunterladen",
+  "uploadFile": "Datei hochladen",
+  "failedToDownloadFile": "Herunterladen der Datei fehlgeschlagen",
+  "failedToUploadFile": "Hochladen der Datei fehlgeschlagen",
+  "invalidFileTypeMessage": "Dateityp ungültig. Verwenden Sie eine JPEG- oder PNG-Datei.",
+  "fileTooBig": "Die Datei überschreitet die maximale Dateigröße.",
+  "migrationFailedMsg": "Migration kann nicht abgeschlossen werden.",
+  "migrationCompleted": "Migration abgeschlossen",
+  "kycSatusIs": "Der Status des Dokuments lautet '{status}'",
+  "startingMigration": "Migration wird gestartet...",
+  "updating": "Daten werden aktualisiert...",
+  "unableToUpdateData": "Aktualisierung der Daten fehlgeschlagen",
+  "waitingForMigrationConfirmation": "Dokumentüberprüfung läuft. Prüfen Sie den Migrationsstatus später.",
+  "migrationFailed": "Migration fehlgeschlagen"
+}

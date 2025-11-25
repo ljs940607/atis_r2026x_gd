@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="Mapping">
+	<Domain id="ManagementTypeMapping">
+	<Family id="AttributeMapping">
+			<Parameter id="ManagementTypeMapping" implementation="com.dassault_systemes.collaborationmodelerchecker.rules.envchecker.mappingdata.AttributeInfo.TypeMappingXPParameter">
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

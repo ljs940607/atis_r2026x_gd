@@ -1,0 +1,33 @@
+{
+    "global": [
+        "NotifyAddedAssignee",
+        "NotifyAffectedItemAdded",
+        "grant",
+        "revoke",
+        "Approve",
+        "(add interface)",
+        "(Approve)",
+        "(cancel)",
+        "(clone)",
+        "(modify)",
+        "(Reject)",
+        "vcCheckin",
+        "vcCheckout",
+        "vcConnect",
+        "vcDeleteConnection",
+        "vcLock",
+        "vcModify",
+        "vcModifyConnection",
+        "vcUnlock",
+        "vcRemoveCurrentVersion",
+        "vcRemoveFile",
+        "vcAddTag",
+        "vcRemoveTag",
+        "vcCopyFromStore",
+        "vcComplete",
+        "vcIncomplete",
+        "vcAddBranch"
+
+    ]
+}
+

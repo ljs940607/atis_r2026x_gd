@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "지원되지 않는 작업",
+  "Notification.DragAndDrop.Loading.Title": "로드 중",
+  "Notification.DragAndDrop.Loading.Title.Error": "로드 오류",
+  "Notification.DragAndDrop.Loading.Message.Error": "콘텐츠를 로드할 수 없습니다.",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "확장자가 지원되지 않음",
+  "Notification.DragAndDrop.Impossible.Title": "끌어 놓기",
+  "Notification.DragAndDrop.Impossible.SubTitle": "동일한 위젯에서 DnD를 사용할 수 없습니다.",
+  "Notification.DragAndDrop.NotYet.Title": "끌어 놓기",
+  "Notification.DragAndDrop.NotYet.SubTitle": "DnD를 아직 사용할 수 없습니다! 먼저 환경을 여십시오!",
+  "Notification.DragAndDrop.Insert.Failed": "삽입 실패",
+  "Notification.DragAndDrop.Insert.Before.Experience": "프레젠테이션을 생성하기 전에 유형을 삽입할 수 없습니다.",
+  "Notification.DragAndDrop.Not.Supported": "지원되지 않는 유형",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "물질 삽입 실패",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "여러 아이템 삽입 실패",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "피복재 유형에는 복수 삽입만 지원됩니다."
+}

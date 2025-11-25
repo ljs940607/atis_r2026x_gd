@@ -1,0 +1,1 @@
+define("DS/ENOX3DSpaceAttributesMgt/ENOX3DSpaceAttributesMgt_tr",{});define("DS/ENOX3DSpaceAttributesMgt/assets/nls/ENOXAttributesMgtNls",{isCellEditableColumns:{title:"Görünümden düzenlenebilir"},attributeForEditingColumns:{title:"Hücre düzenleme için öznitelik"},Classification:{title:"Sınıflandırma"},instance:"Örnek",ClassificationAttributes:{title:"Classification"}});

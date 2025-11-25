@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "새 논리 참조"
+  },
+  "message": {
+    "confirm_detach_instance": "선택된 인스턴스를 분리하시겠습니까?",
+    "confirm_reparent": "아래 참조는 다음으로 상위 항목이 재지정됨: "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "참조 상위 항목 재지정 실패",
+    "reparent_cyclic": "이 새 상위는 이미 상위 항목 재지정 참조 목록에 저장되어 있습니다. 기존 선택 항목을 지워서 순환 구조를 피하십시오."
+  },
+  "success": {
+    "reparent": "상위 항목 재지정 성공"
+  }
+}

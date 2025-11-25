@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_en",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed Services seem to be down",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" All the Predicates might not have been loaded",CUSTOM_ATTR_APPLIED:"Custom Attributes updated"});

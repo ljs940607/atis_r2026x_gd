@@ -1,0 +1,21 @@
+{
+  "submitted": "Inviato",
+  "waiting_payment": "Preventivo",
+  "paid": "Confermato",
+  "processing": "Elaborazione",
+  "ready": "Pronto",
+  "shipped": "Spedito",
+  "delivered": "Consegnato",
+  "submittedInfo": "La richiesta è in attesa di una risposta e di un preventivo da parte del fornitore di servizi. Puoi ancora modificare le specifiche o inviare messaggi.",
+  "waitingPaymentInfo": "La richiesta è stata analizzata e accettata dal fornitore di servizi. Puoi confermarla effettuando il pagamento o inviare messaggi e modificare le specifiche, se necessario.",
+  "paidInfo": "L'ordine è confermato. Il fornitore di servizi inizierà a elaborarlo. Da questo momento, non è più possibile modificare le specifiche.",
+  "processingInfo": "Il fornitore di servizi ha iniziato a elaborare l'ordine.",
+  "shippedInfo": "Il fornitore di servizi ha inviato l'ordine. Conferma la consegna quando ricevi l'ordine.",
+  "readyInfo": "L'ordine è pronto per essere ritirato. Conferma la ricezione quando lo ritiri.",
+  "deliveredInfo": "A questo punto, la transazione è chiusa.",
+  "submittedInfo_seller": " Il cliente è in attesa di una risposta e di un preventivo per questa richiesta. Puoi anche modificare le specifiche (materiali, date, finitura) e rispondere con un messaggio.",
+  "waitingPaymentInfo_seller": "Hai proposto un preventivo per questa richiesta. È in attesa di conferma e pagamento da parte del cliente.",
+  "paidInfo_seller": "L'ordine è stato confermato dal cliente e può essere ora elaborato. Da questo momento, non è più possibile modificare le specifiche.",
+  "processingInfo_seller": "Il cliente è stato informato che hai iniziato a elaborare l'ordine.",
+  "shippedInfo_seller": "Hai spedito l'ordine del cliente, che confermerà la consegna quando lo riceverà."
+}

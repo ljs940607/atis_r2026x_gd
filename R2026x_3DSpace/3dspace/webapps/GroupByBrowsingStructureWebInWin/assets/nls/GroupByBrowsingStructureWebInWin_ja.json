@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "参照構造をグループ化",
+    "chooserLabel": "別の参照構造を選択",
+    "organizeButton": "グループ",
+    "ungroupButton": "グループ化解除",
+    "cancelButton": "キャンセル"
+  },
+  "noBSWarning": {
+    "message": "利用可能な参照構造がありません。",
+    "advice": "参照構造の管理者に連絡して参照構造を作成し、それらの完成度を \"リリース済み\" に設定することで、それらの参照構造をこのコマンドで使用できるようにしてください。"
+  },
+  "webServiceError": "参照構造のリストを取得できません。再試行するか、管理者に連絡してください。"
+}

@@ -1,0 +1,20 @@
+{
+  "EFF_CLEAR": "표현식 지우기",
+  "MODEL_RM": "편집기에서 모델 제거",
+  "MODEL_ADD": "모델 선택",
+  "NO_FEATURES": "파생 및 옵션을 찾을 수 없음",
+  "Evolution_Impact_Msg": "전개 유효성의 변경으로 일부 파생/옵션이 누락되었습니다.",
+  "NO_MODELS_MSG": "파생 및 옵션 표현식이 정의되지 않았습니다. 모델 추가를 시작하고 변형 및 옵션 표현식을 정의할 수 있습니다.",
+  "No_Model_Error": "상위 {1}에 모델을 첨부하고 다시 시도하십시오.",
+  "No_Variant_Crit_Error": "상위 개체에 대한 파생과 옵션 기준을 활성화합니다.",
+  "Legacy_Eff_Error": "디커플링되지 않은 유효성이 있는 개체의 파생과 옵션은 편집할 수 없습니다.",
+  "CC_AC_HDR_Error": "{1}의 상위가 변경 제어에 있습니다. ",
+  "CC_AC_HDR_Error_Subtitle": "{1}에 대해 작업할 Change Action을 지정하십시오.",
+  "Edit_Var_OK": "확인",
+  "Edit_Var_Cancel": "취소",
+  "Syntax_Error": "파생 및 옵션 표현식에 구문 오류가 있음",
+  "Service_OK": "파생 및 옵션 편집 성공",
+  "Service_Fail": "파생과 옵션 편집 실패.",
+  "Dictionary_Error": "사양 사전을 로드할 수 없습니다.",
+  "CFG_Application_Refresh_For_Instance_Evolved": "이 인스턴스는 파생 분할 작업으로 진행됩니다."
+}

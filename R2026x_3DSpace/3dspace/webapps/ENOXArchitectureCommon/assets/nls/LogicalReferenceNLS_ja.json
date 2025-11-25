@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "新しい論理リファレンス"
+  },
+  "message": {
+    "confirm_detach_instance": "選択したインスタンスを切り離しますか?",
+    "confirm_reparent": "以下のリファレンスは次に親を変更されます: "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "リファレンスの親を変更できませんでした",
+    "reparent_cyclic": "この新しい親は、親を変更するリファレンスのリストにすでに保存されています。構造が循環参照になるのを避けるために、既存の選択をクリアしてください。"
+  },
+  "success": {
+    "reparent": "親の変更に成功しました"
+  }
+}

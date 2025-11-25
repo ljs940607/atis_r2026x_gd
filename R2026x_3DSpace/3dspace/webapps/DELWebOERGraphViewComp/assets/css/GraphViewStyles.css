@@ -1,0 +1,19 @@
+.pert-view-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: auto;
+  overflow: hidden;
+}
+
+.pert-view-container .product-flow-seq-container > .egraph-toobar {
+  display: none;
+}
+
+.pert-view-container .product-flow-seq-container > .wux-controls-loader {
+  display: none;
+}
+
+.pert-view-container .product-flow-seq-container > .canvas-gv {
+  background-color: unset;
+}

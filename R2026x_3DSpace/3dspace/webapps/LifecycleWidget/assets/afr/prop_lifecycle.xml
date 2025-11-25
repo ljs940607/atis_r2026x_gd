@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+      <Template syp:name="PropLifecycleHeaders" Target="CATCmdHeadersList">
+            <CATCmdHeadersList>
+                  <!-- Fixed area -->
+                  <!-- EDIT SECTION -->
+                  <!--
+                  <CATCommandHeader ID="RevisionHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+		  		  <CATCommandHeader ID="MaturityHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="NewBranchHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="ReviseFromHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="DeleteHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="DuplicateHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="CompareHdr" ClassName="DS/CompareCmd/CompareCmd" ResourceFile="CompareCmd/CompareCmd" Available="1" />
+                  <CATCommandHeader ID="IterationsHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="HistoryHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />
+                  <CATCommandHeader ID="ClearAllCmdHdr" ClassName="DS/LifecycleWidget/LifecycleCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1"/> 
+                  -->
+                  <!-- 
+                  //IR-1276637 - Currently using this xml file to load document commands.
+                  -->
+                  <CATCommandHeader ID="DownloadHdr" ClassName="DS/LifecycleCmd/DownloadCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" /> 
+                  <CATCommandHeader ID="PreviewHdr" ClassName="DS/LifecycleCmd/PreviewCmd" ResourceFile="LifecycleWidget/LifecycleCmd" Available="1" />                          
+            </CATCmdHeadersList>
+      </Template>
+
+</Styles>

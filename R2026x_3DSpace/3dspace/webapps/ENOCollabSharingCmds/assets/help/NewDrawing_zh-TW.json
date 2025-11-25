@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"新工程圖",
+"ENONewDrawingHdr.ShortHelp":"產生新工程圖。",
+"ENONewDrawingHdr.LongHelp":"在對話方塊中，輸入標題、屬性 (若有)， 並可選擇是否要選擇範本以選擇 CAD 原版。按一下<uicontrol>產生並關閉</uicontrol> 以產生僅一個工程圖，或按一下<uicontrol>產生</uicontrol>， 以建立另一個工程圖。",
+"ENOInsertNewDrawingHdr.Title":"插入新工程圖",
+"ENOInsertNewDrawingHdr.ShortHelp":"產生新工程圖，並加入為所選物件的 子件。",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>在對話方塊中，輸入標題，並可選擇是否要選擇範本以選擇 CAD 原版。按一下<uicontrol>產生並關閉</uicontrol>以產生僅一個工程圖， 或按一下<uicontrol>產生</uicontrol>，以產生另一個工程圖。</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

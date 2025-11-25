@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "书签文件夹",
+  "activeBookmark_cmd": "在书签文件夹下操作",
+  "name_Section_FavoriteFolders": "收藏夹",
+  "name_Section_AllFolders": "书签文件夹",
+  "activeBookmark_msg_empty": "空",
+  "activeBookmark_btn_focus": "关注已设置的书签文件夹",
+  "activeBookmark_msg_noBookmark": "未找到书签文件夹",
+  "CMDExpandAll": "全部展开",
+  "CMDCollapseAll": "全部折叠",
+  "InputLabel": "书签文件夹",
+  "loader": {
+    "findingObjects": "正在查找书签文件夹"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "选择",
+    "button_Cancel": "取消",
+    "widget_name": "在书签文件夹中选择",
+    "PLMNewBookmarkWidgetName": "选择书签文件夹",
+    "msg_ClassifyInProgress": "正在添加...",
+    "msg_ClassifySuccessful": "已成功添加。",
+    "msg_ClassifyFailed": "添加时出错。您没有添加权限，或者已将其添加到给定书签文件夹中。",
+    "msg_selectNodeToSeeInfo": "选择书签文件夹以查看其详细信息。"
+  },
+  "multiSelectionNotSupported": "不支持多选。",
+  "favoriteSectionNotSupported": "收藏夹部分不支持此命令。",
+  "favoriteNotSupported": "收藏夹不支持此命令。",
+  "sectionNotSupported": "这些部分不支持此命令。",
+  "noSelectionError": "此命令需要做出一个选择。"
+}

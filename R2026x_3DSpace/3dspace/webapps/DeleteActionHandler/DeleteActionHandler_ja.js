@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_ja",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"削除",confirm:"選択したオブジェクトを削除しますか? この操作は恒久的なものであり、元に戻すことはできません。"});

@@ -1,0 +1,9 @@
+m|DELPPWInstructionBehaviors\DELPPWInstructionBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWInstructionBehaviors\DELPPWInstructionBehaviors.js|1757132688|427
+s|DELPPWInstructionBehaviors\DELPPWInstructionBehaviors.mweb\src\InstructionBehaviors.js|1754220608|771
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

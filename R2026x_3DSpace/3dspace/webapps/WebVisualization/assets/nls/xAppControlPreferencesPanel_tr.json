@@ -1,0 +1,17 @@
+{
+  "MouseControlPreferences": {
+    "Title": "Tercihi seç",
+    "Profiles": {
+      "Title": "Fare Kontrolü",
+      "Description_part_1": "3B görünüm ve modelleme uygulamalarında farenizle 3B görünümleri yönlendirme yönteminizi seçin.",
+      "Description_part_2": "<b>CATIA</b> veya <b>SOLIDWORKS</b>'ün 3B modelleme uygulamalarıyla en iyi sonuçları elde etmek için kullandığınız uygulamalarla eşleşen fare kontrolü tercihini seçin.",
+      "Description_part_3": "Bu ayarı 3DDashboard üst çubuğundaki Tercihler bölümünde istediğiniz zaman değiştirebilirsiniz.",
+      "SOLIDWORKS": "SOLIDWORKS",
+      "CATIA": "CATIA",
+      "3DEXPERIENCE": "3DEXPERIENCE"
+    },
+    "Information": {
+      "Description": "Tüm tarayıcı tabanlı 3B görüntüleme ve modelleme uygulamaları, seçtiğiniz fare kontrolü tercihini kullanır.\n\nCATIA ve SOLIDWORKS kullanıcıları için fare kontrolü seçenekleri mevcuttur çünkü bu uygulamalar 3B modellerle çalışmak için önemli ölçüde farklı fare hareketlerine sahiptir.\n\nDiğer tüm kullanıcılar için 3DEXPERIENCE seçeneği, modelleri yakınlaştırmak ve döndürmek için standart yöntemler kullanır."
+    }
+  }
+}

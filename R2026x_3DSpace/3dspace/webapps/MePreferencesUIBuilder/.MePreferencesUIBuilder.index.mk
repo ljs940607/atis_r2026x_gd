@@ -1,0 +1,13 @@
+m|MePreferencesClientSDK\MePreferencesUIBuilder.mweb
+b|j|n,u
+b|c|n,u
+v|6.428.0.25206|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MePreferencesUIBuilder\MePreferencesAdminTableBuilder.js|1740117577|17815
+s|MePreferencesClientSDK\MePreferencesUIBuilder.mweb\src\MePreferencesAdminTableBuilder.js|1740117577|17815
+t|win_b64\webapps\MePreferencesUIBuilder\MePreferencesCustomViewBuilder.js|1747137883|9751
+s|MePreferencesClientSDK\MePreferencesUIBuilder.mweb\src\MePreferencesCustomViewBuilder.js|1747137883|9751
+t|win_b64\webapps\MePreferencesUIBuilder\MePreferencesTableBuilder.js|1740117589|15670
+s|MePreferencesClientSDK\MePreferencesUIBuilder.mweb\src\MePreferencesTableBuilder.js|1740117589|15670
+t|win_b64\webapps\MePreferencesUIBuilder\MePreferencesUIBuilder.js|1752211200|76787
+s|MePreferencesClientSDK\MePreferencesUIBuilder.mweb\src\MePreferencesUIBuilder.js|1752211200|76787

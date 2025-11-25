@@ -1,0 +1,1 @@
+define("DS/ENOXEmptyContent/ENOXEmptyContent_tr",{});define("DS/ENOXEmptyContent/assets/nls/ENOXEmptyContent",{defaultBottomSentence:"Yukarıdaki yönergeleri izleyin",defaultSearchText:"İçerikte ara",defaultDropText:"İçeriği buraya bırakın",or:"veya",emptyPage:"Sayfa boş."});

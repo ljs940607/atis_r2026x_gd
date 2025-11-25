@@ -1,0 +1,1 @@
+define("DS/NotificationManager/NotificationManager_tr",{});define("DS/NotificationManager/assets/nls/feed",{openInNewTab:"Yeni Sekmede Aç",close:"Kapat"});

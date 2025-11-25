@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "コスト計算",
+  "CostingDomainTooltip": "コスト メトリックの展開プロセスを選択します",
+  "CostingDefaultEvolution": "順次",
+  "CostingEvolutionConcurrent": "同時",
+  "deployFailureMsg": "作業中ステートを過ぎているコスト メトリックがあるため、展開プロセスを [同時] に設定することはできません",
+  "MetricEvolutionAccordionTitle": "メトリック展開プロセス"
+}

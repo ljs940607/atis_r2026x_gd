@@ -1,0 +1,19 @@
+{
+  "learnMoreAboutDifferedPayment": "Obtener más información sobre el proceso de pago diferido",
+  "invoicePaymentNoticeMessage": "Debe proporcionar una factura dirigida a su cliente para recibir el pago.",
+  "invoiceInfoNoticeMessage": "La factura debe incluir la siguiente información: referencia y etiqueta de la orden de compra.",
+  "uploadInvoice": "Cargar factura",
+  "invoiceInfo": "Información de la factura",
+  "downloadInvoice": "Descargar factura",
+  "proceedPaymentMessage": "Proceda al pago.",
+  "invoiceNumber": "Número de factura",
+  "invoiceFile": "Cargar",
+  "invoiceUpload": "Cargar factura",
+  "placeholderInvoiceUploadFile": "Cargue la factura aquí.",
+  "cancel": "Cancelar",
+  "mandatoryFields": "Complete el campo obligatorio.",
+  "uploadWarning": "Advertencia: El documento no se puede modificar una vez cargado.",
+  "invoiceOrderDocument": "Documento de la factura",
+"uploadWarning": "Advertencia: la factura no se puede cambiar después de subirla",
+  "proceedToPayment": "Proceda a abonar el pago"
+}

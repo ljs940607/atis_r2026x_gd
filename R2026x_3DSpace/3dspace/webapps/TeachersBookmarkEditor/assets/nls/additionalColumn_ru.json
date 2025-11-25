@@ -1,0 +1,12 @@
+{
+  "column_Visibility": "Видимость",
+  "isVisible": "Отображается студентам",
+  "isHidden": "Не отображается студентам",
+  "progressMultiple": "Изменение видимости {targetfolder} с доступными элементами ({objectsAdded}).",
+  "progressSingle": "Изменение видимости {targetfolder} ",
+  "msgSuccess": "Видимость {itemCount} элемента изменена.",
+  "msgError": "Сбой при изменении видимости для {itemCount} элемента.",
+  "msgMultipleSuccess": "Видимость элементов ({itemCount}) изменена.",
+  "msgMultipleError": "Сбой при изменении видимости для элементов ({itemCount}).",
+  "msgMaturityError": "Сбой при изменении видимости, поскольку произошла ошибка при изменении готовности элементов."
+}

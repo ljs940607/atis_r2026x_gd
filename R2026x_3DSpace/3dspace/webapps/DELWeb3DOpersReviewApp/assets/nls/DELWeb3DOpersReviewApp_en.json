@@ -1,0 +1,23 @@
+{
+  	"OpenContent.Title" : "Open Content",
+    "WaitingPage.Title" : "Loading...",
+    "TypesNotSupported.Error.Message":"Type not supported",
+    "ProcessNotSupportedMultiRootScenarios.Error.Message": "Multiple Process cannot be open inside this app. You can open a single process.",
+    "NoObjectInformation.Error.Message": "Failed to retrieve object information. Retry in a few minutes. If the problem persists, contact your administrator",
+    "DragAndDrop.icon.Title" : "Open",
+    "DragAndDropWithFilter.icon.Title" : "Open with filter",
+    "Preferences.DefaultViewerMode.Label":"Default Mode",
+    "Preferences.DefaultViewerMode.WorkInstructions.Label":"Work Instructions",
+    "Preferences.DefaultViewerMode.BuildUp.Label":"Product Build Up",
+    "Preferences.UsePublishedContent.Label":"Use Published Content",
+    "Preferences.InstallVolumeOffSet.Label":"Volume Offset (cm)",
+    "Preferences.InstallAutoApplyVolume.Label":"Automatic Apply Volume Filter",
+    "Preferences.WebTimeout.Label":"Web Service Request Timeout (ms)",
+    "Preferences.DefaultPickability.Label":"3D Item Selection Level",
+    "Preferences.DefaultPickability.ITEM.Label":"Item",
+    "Preferences.DefaultPickability.SHAPE.Label":"Shape",
+    "Preferences.AutoReload.Label" : "Automatic Reload Recents From Last Session (Auto Reload takes priority on Startup View)",
+    "Failed.StartupViewLoading.Title" : "Startup View loading failed",
+  	"Failed.StartupViewLoading.Subtitle" : "Both Startup View and 'Automatically reload recents from last session' are set.",
+	  "Failed.StartupViewLoading.Message" : "To make Startup View work, please disable 'Automatically reload recents from last session' in preferences."
+}

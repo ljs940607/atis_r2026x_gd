@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Nueva pieza",
+"ENONewPartHdr.ShortHelp":"Crea una nueva pieza.",
+"ENONewPartHdr.LongHelp":"En el cuadro de diálogo, introduzca un título, los atributos necesarios (en su caso) y, si lo desea, seleccione una plantilla para elegir el CAD maestro. Haga clic en <uicontrol>Crear y cerrar</uicontrol> para crear solo una pieza o en <uicontrol>Crear</uicontrol> para crear otra.",
+"ENOInsertNewPartHdr.Title":"Insertar pieza nueva",
+"ENOInsertNewPartHdr.ShortHelp":"Crea una nueva pieza y la agrega como hija a los objetos seleccionados.",
+"ENOInsertNewPartHdr.LongHelp":"<p>En el cuadro de diálogo, introduzca un título y, opcionalmente, seleccione una plantilla para elegir el CAD maestro. Haga clic <uicontrol>en Crear y cerrar</uicontrol> para crear solo una pieza, o en <uicontrol>Crear</uicontrol> para crear otra.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

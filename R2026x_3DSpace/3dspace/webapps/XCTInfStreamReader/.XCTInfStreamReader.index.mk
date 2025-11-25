@@ -1,0 +1,10 @@
+m|XCTInfrastructureWeb\XCTInfStreamReader.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCTInfStreamReader\XCTInfStreamReader.js|1723278225|4270
+s|XCTInfrastructureWeb\XCTInfStreamReader.mweb\src\XCTInfStreamReader.js|1564046149|6868
+u|XCTInfrastructureWeb\XCTInfStreamReader.mweb\src\XCTXHRWithProxyAbstraction.js|1564046019|6581
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

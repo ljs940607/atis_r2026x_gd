@@ -1,0 +1,11 @@
+{
+"ENONewProductHdr.Title":"New Product",
+"ENONewProductHdr.ShortHelp":"Creates a new product.",
+"ENONewProductHdr.LongHelp":"In the dialog box, enter a title, the required attributes if any, and optionally select a template to choose the CAD master. Click <uicontrol>Create and Close</uicontrol> to create only one product, or <uicontrol>Create</uicontrol> to create another one.",
+"ENOInsertNewProductHdr.Title":"Insert New Product",
+"ENOInsertNewProductHdr.ShortHelp":"Creates a new product and adds it as a child to the selected objects.",
+"ENOInsertNewProductHdr.LongHelp":"<p>In the dialog box, enter a title, and optionally select a template to choose the CAD master. Click <uicontrol>Create and Close</uicontrol> to create only one product, or <uicontrol>Create</uicontrol> to create another one.</p>",
+"ENONewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm",
+"ENONewProductHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Product.htm",
+"ENOInsertNewProductHdr.WebHelp":"PsteUserMap/pste-t-create-Product.htm"
+}

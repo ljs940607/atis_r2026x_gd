@@ -1,0 +1,1 @@
+define("DS/MPFBankAccountConstraintsModel/MPFBankAccountConstraintsModel_ja",{});define("DS/MPFBankAccountConstraintsModel/assets/nls/BankAccountConstraintsModel",{isRequired:"{0} は必須です",isInvalid:"{0} は無効です",iban:"IBAN",swift:"SWIFT",bsbNumber:"BSB 番号",abaNumber:"ABA 番号",transitNumber:"支店番号",accountNumber:"口座番号",bankNumber:"銀行番号"});

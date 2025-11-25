@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "瀏覽結構",
+  "name_Widget_Title": "瀏覽結構定義",
+  "name_Widget_Help": "瀏覽結構定義說明",
+  "name_Term": "字詞",
+  "name_Terminology_type": "術語",
+  "terminology_pref_populateTags": "啟用 6W Tags 以過濾瀏覽結構",
+  "terminology_pref_activateRelationsColumns": "顯示相關",
+  "useIndexAcceleration_label": "顯示已建立索引的資料",
+  "terminology_pref_autoSwitch_Label": "自動從資料庫模式切換至索引模式",
+  "button_remove": "移除",
+  "button_close": "關閉",
+  "Move_label": "移動",
+  "Copy_label": "複製",
+  "oneMin_Label": "1 分鐘",
+  "threeMin_Label": "3 分鐘",
+  "fiveMin_Label": "5 分鐘",
+  "tenMin_Label": "10 分鐘",
+  "Never_Label": "永不",
+  "Paste_content_loading": "貼上內容",
+  "Remove_content_loading": "移除內容",
+  "Content_Loading": "正在載入內容...",
+  "Widget_Loading": "正在載入小工具...",
+  "Tree_Loading": "正在載入樹狀結構...",
+  "New_Loading": "正在載入建立面板...",
+  "Terminology_Loading": "正在選擇瀏覽結構...",
+  "commands": {
+    "newBrowsingNode": "新的瀏覽節點",
+    "newBrowsingStructure": "新的瀏覽結構"
+  },
+  "msg_success_copyLink_terminology": "已複製瀏覽結構「{terminologyname}」的連結。",
+  "msg_success_copyLink_term": "已複製瀏覽節點「{termname}」的連結。",
+  "msg_success_createTerminology": "已成功建立瀏覽結構「{terminologyName}」",
+  "msg_success_createTerm": "已成功建立瀏覽節點「{termName}」",
+  "msg_success_createBS": "已成功建立瀏覽結構",
+  "msg_success_createBN": "已成功建立瀏覽節點",
+  "msg_info_terminologycopied": "{number} 個瀏覽結構已新增至瀏覽結構「{terminologyname}」。",
+  "msg_info_rename_bs": "瀏覽結構「{name1}」已重新命名為「{name2}」。",
+  "msg_info_rename_bn": "瀏覽節點「{name1}」已重新命名為「{name2}」。",
+  "msg_info_refresh": "重新整理完成。",
+  "msg_info_SortNonAvailable": "此欄無法在搜尋時用於排序。",
+  "msg_info_treeFilterRemove": "新增瀏覽結構後，即會移除套用至樹狀結構的濾器。",
+  "msg_warning_nocurrentterminology": "目前沒有瀏覽結構：請選擇瀏覽結構。",
+  "msg_warning_noselection": "至少必須選擇一個物件。",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "將不會儲存最後的展開狀態。",
+    "Advice": "摺疊部分瀏覽結構以儲存展開狀態。",
+    "Details": "展開的瀏覽結構太多。"
+  },
+  "msg_warning_copyLink": "所選物件不是瀏覽結構。",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "根瀏覽結構數量超過 200 時，不支援關聯搜尋。",
+  "msg_error_Addinterminology": "您無法將內容新增至此瀏覽結構。",
+  "msg_error_CopyTerminology": "複製瀏覽結構時發生錯誤。",
+  "msg_error_MoveInterminology": "移動物件時發生錯誤。",
+  "msg_error_MoveInSameterminology": {
+    "title": "選擇不同的瀏覽結構。 ",
+    "subtitle": "目標瀏覽結構與來源瀏覽結構相同。"
+  },
+  "msg_error_rename": {
+    "Title": "您無法重新命名瀏覽項目：{name}。",
+    "Advice": "確認名稱並非使用中，或您使用的是正確的認證。",
+    "Details": "您在目標協同作業空間中可能沒有所需的責任，因此無法重新命名此物件。"
+  },
+  "msg_error_invalidselection": "沒有選擇就無法啟動指令",
+  "msg_error_name_maxlength": "輸入不超過 {maxLength} 個字元的「{name}」。",
+  "msg_error_name_empty": "請輸入名稱的值。",
+  "msg_error_TerminologyActivate": {
+    "title": "您無法啟動 {name1}。",
+    "subtitle": "物件可能已刪除或您沒有必要權限。"
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "為瀏覽結構建立與此瀏覽節點的關聯性。",
+    "subtitle": "可能看不到瀏覽結構。例如，可能沒有加以啟用。 "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "無法展開樹狀結構。",
+    "subtitle": "請重新整理應用程式，然後再試一次，或聯絡您的管理員以取得支援。"
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} 包含無效字元：{badChars}。",
+    "Advice": "您無法使用任何下列字元：訊息：~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "已無法再存取瀏覽結構的內容。",
+    "subtitle": "重新整理小工具。",
+    "message": "內容可能已遭刪除或您沒有必要權限。"
+  },
+  "msg_InfoAction_Timeout": "在逾時期間內未從已啟動的動作收到回應，可能需要更長的執行時間。手動重新整理後可能會看到結果。",
+  "msg_error_timeout": {
+    "title": "與伺服器的連線逾時。",
+    "subtitle": "請確認您的連線，或減少此操作期間提交的資料量。"
+  },
+  "msg_error_terminologyPath": {
+    "title": " 已無法再存取此瀏覽結構。",
+    "subtitle": "重新整理小工具。",
+    "message": "瀏覽結構可能已遭刪除，或您沒有必要權限。"
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " 已無法再存取此瀏覽結構。",
+    "subtitle": "重新整理小工具。",
+    "message": "您沒有必要權限。"
+  },
+  "msg_error_copylink": {
+    "title": "無法將連結複製到剪貼簿。 ",
+    "subtitle": " 請重試操作，或聯絡您的管理員以取得支援。 "
+  },
+  "msg_error_createNewFromFramework": "產生新項目失敗：",
+  "msg_error_createNew": {
+    "Title": "無法產生此物件：{type}。",
+    "Advice": "確認您使用的是正確的認證。",
+    "Details": "您在目標協同作業空間中可能沒有所需的責任，因此無法產生此類型的物件。"
+  },
+  "msg_error_rest": {
+    "title": "伺服器非預期中斷連線。",
+    "subtitle": "聯絡您的管理員尋求支援。"
+  },
+  "msg_warning_notProductRoot": "找不到物件。",
+  "msg_warning_contentnotavailable": "無法擷取內容。可能已刪除或設定為私人狀態。",
+  "msg_warning_removeContentFromSearch": {
+    "title": "無法移除內容。",
+    "advice": "請選擇次術語以縮小搜尋結果範圍。",
+    "details": "無法從超過 20 個瀏覽結構移除內容。"
+  },
+  "CMDClearSort": "清除排序",
+  "CMDShareTerminologyLink": "複製連結",
+  "CMDShowInTerminologies": "在瀏覽結構中顯示",
+  "alpha_sorting": "字母順序",
+  "alpha_sort_label": "標題",
+  "date_sorting": "日期順序",
+  "date_sort_label": "修改日期",
+  "fonticon_filter": "目前已篩選面板內容",
+  "loadingText": "正在載入...",
+  "SearchEnterMoreThan": "至少需要 {minNumber} 個字元才能進行搜尋。",
+  "confirmation_move_title": "移動內容",
+  "confirmation_move_message": "是否要將 {source} 的內容移至 {target}？",
+  "confirmation_move_message_monosel": "是否要將 {selection} 從 {source} 移至 {target}？",
+  "confirmation_move_message_mono_from_tree": "是否要將 {source} 移至 {target}？",
+  "confirmation_move_message_multisel": "是否要將 {nth} 項目從 {source} 移至 {target}？",
+  "confirmation_move_button": "移動",
+  "confirmation_info": "將 \n {From} 轉換為 {To} 時，會遺失標題和說明以外的屬性。已為子項目物件複製所有屬性。",
+  "authentication_error": {
+    "title": "無法啟動指定的小工具。",
+    "subtitle": "請確認您的認證，然後再試一次。"
+  },
+  "noPlatform_error": "此應用程式無法在您的任何平台上使用。",
+  "placeholder_msg_terminology": "此瀏覽結構目前是空的。",
+  "placeholder_CreateTerminology": "新的瀏覽結構",
+  "placeholder_CreateTerm": "新的瀏覽節點",
+  "column_Thumbnail": "縮圖",
+  "placeholder_msg_section": "沒有建立瀏覽結構。",
+  "placeholder_msg_terms": "沒有建立瀏覽節點",
+  "placeholder_msg_search": "找不到結果。",
+  "refresh_ongoing": "正在重新整理...",
+  "refresh_ok": "重新整理完成",
+  "refreshError": {
+    "title": "無法重新整理小工具。",
+    "subtitle": "聯絡您的管理員尋求支援。"
+  },
+  "success": "成功",
+  "warning": "警告",
+  "information": "資訊",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "已無法再存取此內容。",
+    "Advice": "您在目標協同作業空間中可能沒有所需的責任，因此無法產生此類型的物件。",
+    "Details": "物件可能已遭刪除或您沒有必要權限。"
+  },
+  "msg_error_pasteDestination": {
+    "Title": "無法貼上。",
+    "InvalidParameters": "所選物件無法貼上至此目的地。 ",
+    "BNDestination": "無法在瀏覽結構區段下貼上瀏覽節點。",
+    "BSDestination": "瀏覽結構只能貼在瀏覽結構區段下。"
+  },
+  "msg_paste_error": "無法貼上。",
+  "indexMode": {
+    "Authoring": "資料庫。",
+    "Index": "索引。",
+    "Label": "索引",
+    "seconds": "秒",
+    "minutes": "分鐘",
+    "hours": "小時",
+    "msg_Authoring": "資料庫模式已啟用。效能可能受到影響。",
+    "activeMode": "使用中模式：{mode}",
+    "lastRefresh": "上次重新整理：{timeElapsed} 前。",
+    "reactIndexMode": "索引模式將在從製作操作或重新整理時間開始 {autoSwitch} 分鐘後重新啟動。",
+    "info_msg_DataNotUptoDate": "索引模式使用中。資料可能並非最新。"
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "無法在樹狀結構中看到所選瀏覽結構 {name}，請捲動以檢視並選擇。",
+  "ViewTooltip": {
+    "ds6w:label": "標題",
+    "ds6w:modified": "修改日期",
+    "ds6w:responsible": "擁有者",
+    "ds6w:type": "類型",
+    "ds6w:status": "成熟度狀態",
+    "ds6w:project": "協同作業空間",
+    "ds6w:identifier": "名稱"
+  },
+  "notifications": {
+    "expandTooLarge": "已擷取太多物件。<br>請篩選或減少展開層級以縮小瀏覽範圍。",
+    "initialization_error": {
+      "title": " 應用程式發生非預期的錯誤。",
+      "subtitle": "聯絡您的管理員尋求支援。"
+    },
+    "tooManyResultFound": "搜尋僅限於 {maxResult} 個結果。請縮小查詢範圍。"
+  },
+  "generic_service_failure": "無法擷取物件資訊。請在幾分鐘後重試。如果問題持續存在，請聯絡您的管理員",
+  "cannot_insert_branch": "新增物件失敗",
+  "cannot_access_after_changeowner": "無法在變更擁有權後存取物件"
+}

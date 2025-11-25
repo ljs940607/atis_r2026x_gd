@@ -1,0 +1,1 @@
+define("DS/GraphListView/GraphListView_zh-TW",{});define("DS/GraphListView/assets/nls/ColumnsTitles",{colGraph:"圖形",colTitle:"標題 ",colMenu:"功能表",colIntent:"分支意圖",colSpecification:"篩選",colFilter:"篩選",colBranchTitle:"分支標題",clickToHideDescendants:"按一下以隱藏下游",clickToHideAncestors:"按一下以隱藏上游",clickToShowDescendants:"按一下以展開下游",clickToShowAncestors:"按一下以展開上游",clickToShowAll:"按一下以顯示全部"});

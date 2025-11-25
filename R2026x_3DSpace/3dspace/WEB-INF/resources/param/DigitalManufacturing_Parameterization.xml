@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DigitalManufacturing" regSuite="DigitalMfg">
+		<Family id="OOTBRolesLayoutView">
+			<Parameter id="OOTBRolesLayoutTreeListView">
+				<Argument id="OOTBRolesLayoutTreeListViewArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="ActionsOnOpItemImplLinkLayoutView">
+			<Parameter id="ActionsOnOpItemImplLinkTreeListView">
+				<Argument id="ActionsOnOpItemImplLinkTreeListViewArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="MfgItemsBehavior" icon="iconParameterizationDataAccess.gif">
+			<Parameter id="ContextualILCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="ContextualILArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="PartialScopeCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="PartialScopeArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="TakeIntoAccountRawCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="TakeIntoAccountRawArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="AllowSingleItemCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="AllowSingleItemArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="TypeOfIntermediateItemCombobox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="TypeOfIntermediateItemArg" type="string" input="combobox" default="ManufacturedPart">
+					<Value id="ManufacturedPart"/>
+					<Value id="ManufacturedMaterial"/>
+				</Argument>
+			</Parameter>
+			<Parameter id="CopyEINFromProductCombobox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="CopyEINFromProductArg" type="string" input="combobox" default="CopyEIN_YES">
+					<Value id="CopyEIN_YES"/>
+					<Value id="CopyEIN_NO"/>
+				</Argument>
+			</Parameter>
+			<Parameter id="LifecycleSyncBetweenProvideAnd3DPartCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="LifecycleSyncBetweenProvideAnd3DPartArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="EnableEngineeringNotesCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="EnableEngineeringNotesArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+		</Family>
+		<Family id="ProcessBehaviors">
+			<Parameter id="AutoCreateScopeOnHOPCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="AutoCreateScopeOnHOPArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+			<Parameter id="AllowPFDSVGUpdateForFrozenProcessCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="AllowPFDSVGUpdateForFrozenProcessArg" type="string" input="checkbox" default="Enabled"/>
+			</Parameter>
+		</Family>
+		<Family id="RolesOnProcessInstanceLayoutView">
+			<Parameter id="RolesOnProcessInstanceTreeListView">
+				<Argument id="RolesOnProcessInstanceTreeListViewArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="CustomAttrLayoutView">
+			<Parameter id="CustomAttrLayoutTreeListView">
+				<Argument id="CustomAttrLayoutTreeListViewArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		<Family id="ChangeOverOperationAttributes">
+			<Parameter id="ChangeOverOperationAttributesParam">
+				<Argument id="ChangeOverOperationAttributesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>		
+		<!-- <Family id="RoleOnLinkLayoutView">
+		<Parameter id="RoleOnLinkLayoutTreeListView">
+		    <Argument id="RoleOnLinkLayoutTreeListViewArg" default="DELConfigurationTreeListView"/>
+		</Parameter>
+	</Family> -->
+		<Family id="WorkInstructions">
+			<Parameter id="SupportLargeTextCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="SupportLargeTextArg" type="string" input="checkbox" default="Disabled"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

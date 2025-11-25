@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir olayı, bir olay bağlantı noktası tarafından yayınlanabilecek şekilde yazar.",
+  "description": "Olay bağlantı noktası olay tipi, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.",
+  "dataPorts": {
+    "DataEventIn": "yazılacak olaydır."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "EventOut": "işlem tamamlandığında, belirlenen <doc-idp-name translate=no>DataEventIn</doc-idp-name> olayıyla etkinleştirilir."
+  },
+  "example": null
+}

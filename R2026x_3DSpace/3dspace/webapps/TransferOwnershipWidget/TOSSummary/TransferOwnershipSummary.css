@@ -1,0 +1,30 @@
+.TOS_SummaryTable .TOS_Sum_Collab,
+.TOS_SummaryTable .TOS_Sum_Org,
+.TOS_SummaryTable .TOS_Summary_Id{
+	display: none; /*Hide useless element for user*/
+}
+
+/*
+.TOS_RestrictedReport{
+	padding-top: 20px; 
+}*/
+
+.TOS_HistoryTable {
+	height: 100%;		
+}
+
+.TOS_MainSummary {
+	height: 100%;
+}
+
+.TOS_containerTable{
+	position: relative;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+} 
+
+.TOS_SummaryTableBody th,td {
+    white-space: normal;
+    !important
+}

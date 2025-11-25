@@ -1,0 +1,1 @@
+define("DS/MPFShopModel/MPFShopModel_zh",{});define("DS/MPFShopModel/assets/nls/ShopModel",{isRequired:"{0} 必填",isInvalid:"{0} 无效",email:"电子邮件地址",phoneNumber:"电话号码",name:"名称",serviceName:"{0} 名称",emailError:"需要电子邮件地址",emailInvalid:"电子邮件地址无效",labNameError:"需要标签名称",currencyError:"请选择货币"});

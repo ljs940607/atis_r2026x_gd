@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "Göz Atma Düğümü Oluştur",
+    "terminologyCreation": "Göz Atma Yapısı Oluştur"
+  },
+  "options": {
+    "title": "Başlık",
+    "titleMessage": "Bir başlık girmeniz gerekir",
+    "description": "Tanım",
+    "descMessage": "Lütfen tanım girin"
+  },
+  "buttons": {
+    "create": "Oluştur",
+    "cancel": "İptal"
+  },
+  "error": {
+    "invalidFrame": "seçilen çerçeve geçersiz, iletişim kutusu oluşturulamıyor",
+    "missingcallback": "Geri çağırmalar eksik",
+    "invalidType": "Bir Göz Atma Yapısı veya Göz Atma Düğümü oluşturmak için bu komutu çağırmanız gerekir"
+  }
+}

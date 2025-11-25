@@ -1,0 +1,167 @@
+body {
+	font: 15px/1.3 Arial, sans-serif;
+	color: #4f4f4f;
+}
+textarea{
+	width: 100%;
+    height: 100%;
+}
+
+.heading{
+	font-weight: bold;
+    font-family: sans-serif;
+    color: red;
+}
+span{
+	padding : 6px;
+}
+
+.values {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
+}
+
+.allowedFormats{
+	 width: 65%;
+}
+
+.required {
+	padding: 10px;
+	font-style: italic;
+}
+
+.labelHeader {
+	padding-right: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "3dsregular", Arial, Helvetica, sans-serif;
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+td.uploadFile{
+	padding: 30px;
+}
+
+table {
+	width: 100%;
+}
+
+select {
+	width: 83px;
+}
+
+/* Odd Table Row Appearance */
+tr.odd td {background-color:#FFF;}
+
+/* Even Table Row Appearance */
+tr.even td {background-color:#EEE;}
+
+.comments {
+	min-height: 26px;
+	padding: 10px 5px 10px 5px;
+	background: #f5f6f7;
+	font-weight: bold;
+	border-top: 1px solid #288fd1;
+	border-right: 1px solid #b4b6ba;
+	border-bottom: 1px solid #288fd1;
+}
+
+d>p {
+	padding: 10px;
+	font-weight: bolder;
+}
+
+.tableContainer {
+	padding-top: 10px;
+}
+
+.submitcontainer {
+	padding-left: 12em;
+	padding-top: 10px;
+}
+
+div {
+	padding: 10px;
+}
+
+td>div {
+	padding: 10px;
+}
+
+th.required {
+	background: #930303;
+	color: white;
+	background: -moz-linear-gradient(top, #f23433 0%, #930303 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f23433),
+		color-stop(100%, #930303));
+	background: -webkit-linear-gradient(top, #f23433 0%, #930303 100%);
+	background: -o-linear-gradient(top, #f23433 0%, #930303 100%);
+	background: -ms-linear-gradient(top, #f23433 0%, #930303 100%);
+	background: linear-gradient(to bottom, #f23433 0%, #930303 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#f23433',
+		endColorstr='#930303', GradientType=0);
+	border-right: 1px solid #4E6E90;
+	text-align: left;
+}
+
+.upload {
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-image: -moz-linear-gradient(top, #373a3d, #313437);
+	background-image: linear-gradient(top, #373a3d, #313437);
+	width: 250px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 5px auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input#shiny {
+	padding: 4px 20px;
+	/*give the background a gradient*/
+	background: #368ec4;
+	border: 2px outset #dad9d8;
+	/*style the text*/
+	font-family: Andika, Arial, sans-serif;
+	/*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+	font-size: 1.1em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0px 1px 10px #000;
+	/*add to small curve to the corners of the button*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/*give the button a drop shadow*/
+	-webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+	-moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+	box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+
+/****NOW STYLE THE BUTTON'S HOVER STATE***/
+input#shiny:hover,input#shiny:focus {
+	border: 2px solid #dad9d8;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section,footer,header,aside {
+	display: block;
+}
+
+.MessageContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 14px;
+    font-weight: bold;
+    text-align: center;
+}

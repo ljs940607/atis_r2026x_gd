@@ -1,0 +1,8 @@
+.youtube-preview-link {
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 16/9;
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+}

@@ -1,0 +1,70 @@
+{
+   "MANMOD":{
+      "moduleIcon":"CreateAssembly",
+      "moduleTitle":"",
+      "isAuthoringAllowed":true,
+      "registerRoots":true,
+      "pprTypes":[
+         "PROCESS"
+      ],
+      "implementing":true,
+      "implemented":false,
+      "enableCrossHighlight":true,
+      "displayBadgeProductScope":{
+         "linkType":"ProductImplementLink",
+         "badgeIcon":"Scope"
+      },
+	   "displayBadgeRPL": {
+            "linkType": "ResultingProductLink",
+            "badgeIcon": "ResultingproductLink"
+        },
+      "displayBadgePartialProductScope":{
+         "linkType":"PartialProductImplementLink",
+         "badgeIcon":"PartialScope"
+      },
+      "linkTypes":[
+        "ResultingProductLink",
+        "ProductImplementLink",
+        "ProductImplementLinkOcc",
+        "ProcessImplementLink",
+        "MfgProcessAlternate",
+        "HistorizationLinkRefRef",
+        "DELAsmProcessCanUseCnx",
+        "PLMDocConnection",
+        "PartialProductImplementLink"
+      ],
+      "views":{
+         "treeListView":{
+			"isViewGroupable" : false,
+			"isViewFilterable" : false,
+            "enableDragAndDrop" : true,
+            "showTagger":false,
+            "show3DHideShow":false,
+            "headerContextualCommands":[
+               "ToggleGraphView"
+            ],
+            "contextualCommands":[],
+            "toolTipConfigXML":"toolTipConfigXML"
+         },
+         "graphView":{
+            "contextualCommands":[
+               "ToggleGraphView",
+               "ToggleOverview",
+               "ToggleOrientation",
+               "Reframe",
+               "ReframeOn",
+               "ExpandAll",
+               "ExploreInWebApp"
+            ],
+            "configXML":"MBOM.bomViewXML"
+         }
+      },
+      "columnConfigName":"columnConfigPathXML",
+      "exportCSVPreferencesXML":"exportCSVPreferencesXML",
+      "exportCSVFileName":"ManufacturingItems",
+      "registerViewPreference":true,
+      "registerLayoutPreference":true,
+      "unhide3DOnFilterApplication":true,
+      "support3DFilter":false
+   }
+}

@@ -1,0 +1,9 @@
+m|ENXSBGridConnector\ENXSBGridPerformanceLogs.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ENXSBGridPerformanceLogs\ENXSBGridPerformanceLogs.js|1723277842|2449
+s|ENXSBGridConnector\ENXSBGridPerformanceLogs.mweb\src\ENXSBGridPerformanceLogs.js|1548182211|4725
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

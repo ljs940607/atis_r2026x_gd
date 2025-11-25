@@ -1,0 +1,1 @@
+define("DS/MPFShopSubmitComponent/MPFShopSubmitComponent_ko",{});define("DS/MPFShopSubmitComponent/assets/nls/ShopSubmitComponent",{submitShop:"샵 제출",confirmShopSubmit:"샵 제출 확인",confirmShopSubmitMessage:"경고! 샵 정보가 완전하지 않을 수 있습니다. 나중에 일부 정보를 편집하지 못할 수 있으므로, 실험실이 제출될 준비가 되었는지 확인하십시오."});

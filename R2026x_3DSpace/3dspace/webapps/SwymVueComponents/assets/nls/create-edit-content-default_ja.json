@@ -1,0 +1,20 @@
+{
+  "AddATitle": "タイトルを追加",
+  "Publish": "パブリッシュ",
+  "Next": "次へ",
+  "Previous": "前へ",
+  "Cancel": "キャンセル",
+  "Close": "閉じる",
+  "StartWriting": "書き込みを開始",
+  "AreYouSure": "キャンセルしますか? 入力した内容が失われます。",
+  "InsertMedia": "メディアを挿入",
+  "InsertExternalMedia": "メディアを挿入",
+  "InsertOSMedia": "コンピュータからメディアをアップロード",
+  "AddTags": "タグを追加",
+  "EditContentMobileTitle": "コンテンツを編集",
+  "Error_MaxCharLimitReached": "上限文字数に達しました ({n})",
+  "Error_CreationFailed": "作成できませんでした。後でやり直してください。",
+  "Error_TitleIsRequired": "コンテンツをパブリッシュするにはタイトルが必要です",
+  "Error_DescriptionIsRequired": "コンテンツをパブリッシュするには説明が必要です",
+  "Error_ConcurrentEdition": "<b>更新されたコンテンツ:</b> {user} がこのコンテンツの更新をパブリッシュしました。変更を手動でコピーし、最新の更新からの再編集が必要な場合があります。"
+}

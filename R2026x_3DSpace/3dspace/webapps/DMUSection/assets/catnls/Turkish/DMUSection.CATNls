@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Kes";
+DMUSection.DMUSectionNoCutHdr.Title="Kesim Yok";
+DMUSection.DMUSectionGridHdr.Title="Izgara";
+DMUSection.DMUSectionFlipHdr.Title="Tersine Çevir";
+DMUSection.DMUSectionNormalToXHdr.Title="X'te konumlandır";
+DMUSection.DMUSectionNormalToYHdr.Title="Y'de konumlandır";
+DMUSection.DMUSectionNormalToZHdr.Title="Z'de konumlandır";
+DMUSection.DMUSectionPrecisePosHdr.Title="Geometriden hareketle konumlandır";
+DMUSection.DMUSectionMoveHdr.Title="Bakış noktasını taşı";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Kesit İkincil Görüntüleyicisi";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Seçimli Kesit";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Kaldır";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Kırpma Düzenlemesinden Çık";
+DMUSection.DMUClippingEditionHdr.Title="Kırpmayı Düzenle";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Yardımcı öğeye göre kırp";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Kesite göre kırp";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Seçili nesnelerden hareketle yeniden boyutlandır";
+DMUSection.DMUResetClippingPlaneHdr.Title="Kırpmayı Sıfırla";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Dilime göre kırp";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Seçili nesnelerden hareketle yeniden boyutlandır";
+DMUSection.DMUResetClippingSliceHdr.Title="Kırpmayı Sıfırla";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Kutuya göre kırp";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Seçili nesnelerden hareketle yeniden boyutlandır";
+DMUSection.DMUResetClippingBoxHdr.Title="Kırpmayı Sıfırla";
+
+DMUSection.DMUClippingNormalToXHdr.Title="X ekseni boyunca konumlandır";
+DMUSection.DMUClippingNormalToYHdr.Title="Y ekseni boyunca konumlandır";
+DMUSection.DMUClippingNormalToZHdr.Title="Z ekseni boyunca konumlandır";
+DMUSection.DMUClippingNormalUserHdr.Title="Seçili geometriden hareketle konumlandır";
+DMUSection.DMUClippingReverseHdr.Title="Kırpmayı tersine çevir";
+DMUSection.DMUContourViewerHdr.Title="Kesit İkincil Görüntüleyicisi";
+DMUSection.DMUClippingPositionHdr.Title="Konum Kırpılıyor...";
+DMUSection.DMUAlignViewHdr.Title="Bakış Noktasını Hizala";
+DMUSection.DMUHideShowHdr.Title="Gizle/Göster";
+DMUSection.DMUCutUncutHdr.Title="Kesildi/kesilmedi...";
+DMUSection.DMUClippingEditStr.Title="Kırpma";
+DMUSection.DMUClippingPropertiesHdr.Title="Özellikler";

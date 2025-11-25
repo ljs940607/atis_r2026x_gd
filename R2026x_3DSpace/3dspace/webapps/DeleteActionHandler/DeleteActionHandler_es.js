@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_es",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Eliminar",confirm:"¿Desea eliminar los objetos seleccionados? Esta acción es permanente y no se puede deshacer."});

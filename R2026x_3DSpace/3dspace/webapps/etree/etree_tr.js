@@ -1,0 +1,1 @@
+define("DS/etree/etree_tr",{});define("DS/etree/assets/nls/overviewui",{zoom_in:"Yakınlaştır",zoom_out:"Uzaklaştır",zoom_default:"Varsayılan Yakınlaştırmayı Geri Yükle",zoom_fit:"Tümünü Sığdır"});

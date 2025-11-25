@@ -1,0 +1,143 @@
+{
+    "views": {
+        "viewLabel": "View",
+        "MP_DEFAULT": "Default View",
+        "MP_CUSTO": "Custom View",
+        "copyOf":"Copy of {MP_VIEW_NAME}"
+    },
+    "tooltip": {
+        "title": {
+            "check": "Confirm",
+            "cancel": "Cancel",
+            "reset": "Reset",
+            "newView": "New View",
+            "editView": "Edit View",
+            "removeView": "Delete View",
+            "addColumn": "Add column",
+            "removeColumn": "Remove column",
+            "lockedColumn": "Column is locked",
+            "findInAtt": "Find attribute",
+            "addTypesAndExt": "Manage Types and Extensions",
+            "moveUp": "Move Up",
+            "moveDown": "Move Down",
+            "moveTop": "Move Top",
+            "moveBottom": "Move Bottom"
+        },
+        "check": "Confirm the current action.",
+        "reset": "Remove all the changes from the view.",
+        "cancel": "Cancel the current action.",
+        "findInAtt": "Search an attribute on all the available columns.",
+        "addTypesAndExt": "Add or Remove types or extensions from the available columns.",
+        "moveUp": "Move the selected column up.",
+        "moveDown": "Move the selected column down.",
+        "moveTop": "Move the selected column at first position.",
+        "moveBottom": "Move the selected column at last position.",
+        "modificationNotStored": "Changes have not been saved to user preferences.",
+        "maximumView": "You have reached the maximum number of views (4) you can create.",
+        "newView": "Create a new View. You can create 4 views maximum.",
+        "editView": "Edit the current View.",
+        "removeView": "Delete the current View.",
+        "addColumn": "Column will be moved in selected columns.",
+        "removeColumn": "Column will be moved in available columns.",
+        "maximumColumn": "You have reached the maximum number of columns (30) you can add.",
+        "lockedColumn": "Column can not be moved."
+    },
+    "commandMenu": {
+        "default": "Default view",
+        "root": "Table views",
+        "admin": "Admin views",
+        "user": "My views",
+        "widget": "Local view"
+    },
+    "column_FavoriteTitle": "Title",
+    "column_BookmarkLocation": "Parent Bookmark",
+    "column_Thumbnail": "Thumbnail",
+    "column_ApprovalStatus": "Approval Status", 
+    "column_Menu": "Menu", 
+    "admin": "Admin",
+    "toolbar": {
+        "spacing": "Density ",
+        "spacingComfortable": "Comfortable",
+        "spacingCompact": "Compact",
+        "checkbox": "Object Selection Checkbox",
+        "findInAtt": "Find attribute",
+        "resetDefault": "Reset to Default"
+    },
+    "columns": {
+        "attName": "Attribute name",
+        "attType": "Attribute type",
+        "colName": "Column name",
+        "pin": "Pin",
+        "hide_show": "Hide/Show",
+        "findinctx": "Find",
+        "thumbnail": "Preview",
+        "thumbnails": "Preview",
+        "matrixtxt": "Position Matrix",
+        "typeName": "Type",
+        "extName": "Extension"
+    },
+    "attSelection": {
+        "title": "Available columns: ",
+        "extension": "{typeName} extension",
+        "REFERENCE": "Reference",
+        "INSTANCE": "Instance",
+        "CLASSIFICATION": "Class",
+        "COMPUTED": "Computed",
+        "COMMAND": "Command",
+        "pinLeft": "Pin Left",
+        "pinRight": "Pin Right",
+        "unpinned": "No Pin",
+        "commonAttributes": "Common attributes",
+        "typesAttributes": "Type attributes",
+        "extsAttributes": "Extension attributes",
+        "classifAttributes": "Classification attributes",
+        "otherColumns": "Others"
+    },
+    "selectedAtt": {
+        "title": "Selected columns: "
+    },
+    "typeNext": {
+        "title": "Types and Extensions chooser",
+        "okBtn": "Apply",
+        "cancelBtn": "Cancel",
+        "selectionTypeTitle": "Types",
+        "selectionExtTitle": "Extensions",
+        "extension": {
+            "placeholder": "No types selected. Please select one or more types to display the associated extensions."
+        }
+    },
+    "selectionTitle": "Select Type or Extension to list attributes",
+    "dialog": {
+        "title": "Table preferences",
+        "okBtn": "Save",
+        "cancelBtn": "Cancel"
+    },
+    "loading": {
+        "default": "Loading...",
+        "gridCusto": "Loading Table preferences",
+        "baseTypeAndExt": "Loading available types and extensions",
+        "gridCustoReset": "Reset to default"
+    },
+    "hcTypes": {
+        "VPMRepInstance": "Physical Representation Instance"
+    },
+    "notDisplayedAtt": "Not to be displayed in UI",
+    "warning": {
+        "emptyName": {
+            "title": "View name can not be empty",
+            "msg": "Your view name is empty."
+        },
+        "tooManySelected": {
+            "title": "Maximum number of column reach",
+            "msg": "Only a maximum of {maxNumber} columns is authorized"
+        },
+        "viewAlreadyExistsAdd": {
+            "title": "View already exists",
+            "msg": "A view with the name \"{MP_VIEW_NAME}\" already exists"
+        },
+        "viewAlreadyExistsMod": {
+            "title": "View already exists",
+            "msg": "A view with the name \"{MP_VIEW_NAME}\" already exists"
+        }
+    }
+}

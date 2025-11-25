@@ -1,0 +1,45 @@
+.delmia-3d-viewer{
+	height: 100%;
+	width: 100%;
+}
+.labelTextContainer{
+		text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.timeTextContainer{
+		width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#DEL3DViewerToolbar{
+	left: 45%;
+	z-index: 9999;
+}
+
+.delWebCommandActiveState {
+	color: #3d3d3d;
+  background-color: #d5e8f2;
+  border: 1px solid #368ec4;
+}
+
+/*mobile devices*/
+@media only screen and (max-device-width : 480px) {
+	.timeTextContainer{
+		font-size : x-small;
+	}
+	.labelTextContainer{
+		display: none;
+	}
+}
+
+/*tablets devices*/
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+	.timeTextContainer{
+		font-size : small;
+	}
+	.labelTextContainer{
+ 		width: 50px;
+	}
+}

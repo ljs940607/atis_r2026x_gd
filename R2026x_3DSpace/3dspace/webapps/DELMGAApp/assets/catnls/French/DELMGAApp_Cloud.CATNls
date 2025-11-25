@@ -1,0 +1,146 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELMGAApp.LandingPage.Title="Accueil";
+DELMGAApp.Refresh.Title="Actualiser le ou les objets sélectionnés";
+DELMFNApp.Edit.Title="Modifier";
+DELMGAApp.RefreshAll.Title="Actualiser tout";
+DELMGAApp.ToggleAuxiliaryView.Title="Vue auxiliaire";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELMGAApp_Cloud.Authoring.Title="Création";
+
+//-------------------------------------------------
+//				MGA Create Command Titles for System,Operation, Mfg and Resource
+//-------------------------------------------------
+DELMGAApp.InsertHeaderWorkplanSystem.Title="Système de plan de travail d'en-tête";
+DELMGAApp.InsertQualityControlProcess.Title="Processus de contrôle qualité";
+DELMGAApp.InsertGeneralSystem.Title="Système général";
+DELMGAApp.InsertTransformationSystem.Title="Système de transformation";
+DELMGAApp.InsertWorkplanSystem.Title="Système de plan de travail";
+DELMGAApp.InsertTransferSystem.Title="Système de transfert";
+DELMGAApp.InsertSourceSystem.Title="Système source";
+DELMGAApp.InsertSinkSystem.Title="Système de tassement";
+DELMGAApp.InsertBufferSystem.Title="Système tampon";
+DELMGAApp.InsertGeneralOperation.Title="Opération générale";
+DELMGAApp.InsertPointFasteningOperation.Title="Opération de fixation de point";
+DELMGAApp.InsertCurveFasteningOperation.Title="Opération de fixation de courbe";
+DELMGAApp.InsertLoadingOperation.Title="Opération de chargement";
+DELMGAApp.InsertUnloadingOperation.Title="Opération de déchargement";
+DELMGAApp.InsertTransferOperation.Title="Opération de transfert";
+DELMGAApp.InsertRemoveMaterialOperation.Title="Opération de retrait de matériau";
+DELMGAApp.InsertHeaderOperation.Title="Opération d'en-tête";
+DELMGAApp.InsertCreateAssembly.Title="Assemblage de fabrication";
+DELMGAApp.InsertCreateMaterial.Title="Matériau fabriqué";
+DELMGAApp.InsertCreateMaterialProcessContinuous.Title="Matériau fabriqué en continu";
+DELMGAApp.InsertCreateKit.Title="Kit de fabrication";
+DELMGAApp.InsertProvide.Title="Pièce fournie";
+DELMGAApp.InsertArea.Title="Aire";
+DELMGAApp.InsertOrganizational.Title="Cellule de fabrication";
+DELMGAApp.InsertRobot.Title="Robot";
+DELMGAApp.InsertWorker.Title="Travailleur";
+DELMGAApp.InsertTransport.Title="Transport";
+DELMGAApp.InsertConveyor.Title="Convoyeur";
+DELMGAApp.InsertNCMachine.Title="Machine NC";
+DELMGAApp.InsertIndustrialMachine.Title="Machine industrielle";
+DELMGAApp.InsertInspect.Title="Inspection";
+DELMGAApp.InsertControlDevice.Title="Equipement de contrôle";
+DELMGAApp.InsertLogicController.Title="Contrôleur logique";
+DELMGAApp.InsertToolDevice.Title="Equipement d'outil";
+DELMGAApp.InsertStorage.Title="Stockage";
+DELMGAApp.InsertSensor.Title="Capteur";
+DELMGAApp.InsertUserDefined.Title="Ressource définie par l'utilisateur";
+DELMGAApp.InsertManufacturingSetup.Title="Configuration de fabrication";
+
+DELMGAApp.InsertAlert.Title="Instruction d'alerte";
+DELMGAApp.InsertDataCollectPlan.Title="Instruction de plan de collecte de données";
+DELMGAApp.InsertDataCollectChecklist.Title="Instruction de liste de contrôle de collecte de données";
+DELMGAApp.InsertSignOff.Title="Instruction d'approbation";
+DELMGAApp.InsertInstruction.Title="Instruction de texte";
+DELMGAApp.InsertResourceParameterPlan.Title="Plan de paramètres de ressources";
+DELMGAApp.InsertWarning.Title="Instruction d'avertissement";
+DELMGAApp.InsertCaution.Title="Instructions de mise en garde";
+DELMGAApp.InsertNote.Title="Instruction de remarque";
+
+//MGA
+DELMGAApp.CreateInstance.Title="Créer une instance";
+DELMGAApp.SearchAndAddInstanceCommand.Title="Insérer";
+DELMFNApp.InsertAsCopy.Title="Insérer comme copie";
+DELMGAApp.DetachInstance.Title="Détacher";
+DELMGAApp.CreateCapableResourceStructureLink.Title="Créer la structure de ressource possible";
+DELMGAApp.ManageCapableResources.Title="Gérer les ressources possibles";
+DELMGAApp.CreateLink.Title="Créer un lien";
+DELMGAApp.Relations.Title="Relations";
+DELMGAApp.OrderBySequence.Title="Ordonner par séquence";
+DELMGAApp.DisplayProperties.Title="Informations";
+DELMGAApp.ShowCharacteristicsCmd.Title="Gestion des caractéristiques";
+DELMGAApp.ShowConsolidatedCharactscsCmd.Title="Gestion des caractéristiques : vue consolidée";
+DELMGAApp.ManageInconsistentLinks.Title="Gestion de l'impact des modifications";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELMGAApp_Cloud.Lifecycle.Title="Cycle de vie";
+DELMGAApp.changeMaturity.Title="Changer la maturité...";
+DELMGAApp.revise.Title="Nouvelle révision...";
+DELMGAApp.Delete.Title="Supprimer";
+DELMGAApp.duplicate.Title="Dupliquer";
+DELMGAApp.DuplicateAdv.Title="Duplication avancée";
+
+
+//=============================================================================
+// 								View
+//=============================================================================
+//MGA
+DELMGAApp_Cloud.View.Title="Afficher";
+
+DELMGAApp.ProcessView.Title="Afficher la vue Processus et opérations";
+DELMGAApp.ItemsView.Title="Afficher la vue Eléments de fabrication";
+DELMGAApp.ResourcesView.Title="Afficher la vue Ressources";
+DELMGAApp.BottomAndLeftBlock.Title="Afficher le bloc de gauche et inférieur";
+DELMGAApp.BottomAndRightBlock.Title="Afficher le bloc de droite et inférieur";
+
+DELMGAApp.ShowGraphView.Title="Afficher la vue graphique";
+DELMGAApp.ShowLinksFilterMenu.Title="Afficher le menu Filtrer les liens";
+DELMGAApp.ProductFlowCmd.Title="Diagramme de flux de processus";
+DELMGAApp.SwimLaneChartCmd.Title="Tableau au format « couloirs »";
+DELMGAApp.ExpandLevel.Title="Développer";
+DELMGAApp.ExpandAll.Title="Tout développer";
+DELMGAApp.ExpandNLevel.Title="Développer le niveau N";
+DELMGAApp.CollapseAll.Title="Tout réduire";
+DELMGAApp.UserDefinedExplore.Title="Exploration définie par l'utilisateur";
+DELMGAApp.ShowLogPanel.Title="Afficher le journal";
+DELMGAApp.Show3DViewerCmd.Title="Ouvrir 3DOperations Viewer";
+DELMGAApp.BuildUpReviewModeCmd.Title="Mode Revue de séquence";
+DELMGAApp.Requirement.Title="Gérer l'exigence";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELMGAApp_Cloud.Tools.Title="Outils";
+
+DELMGAApp.EditViewPreferences.Title="Modifier les préférences d'affichage";
+DELMGAApp.LayoutPreferences.Title="Préférences de présentation";
+DELMGAApp.ExportCSV.Title="Exporter CSV";
+DELMGAApp.RelationalExplorerCmd.Title="Objets associés";
+DELMGAApp.BIEssentialsCmd.Title="B.I. Essentials";
+DELMGAApp.ProcessValidationCmd.Title="Validation du processus";
+DELMGAApp.LoadRelations.Title="Charger les relations";
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELMGAApp.ReplaceByExisting.Title="Remplacer par un objet existant";
+DELMGAApp.ReplaceByNewRevision.Title="Remplacer par une nouvelle révision";
+DELMGAApp.ReplaceByPredefined.Title="Remplacer par un élément prédéfini";
+DELMGAApp.ReplaceByLatestRevision.Title="Remplacer par la dernière révision";
+DELMGAApp.ReplaceByNewReference.Title="Remplacer par un nouvel élément";
+DELMFNApp.ReplaceWhereUsed.Title="Remplacer cas d'emploi";
+//-------------------------------------------------
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELMGAApp_Cloud.Configuration.Title="Configuration";

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+
+<head>
+
+  <!-- Application Metas -->
+  <!-- <title>3DSearch</title> -->
+
+  <meta name="author" content="Dassault Systemes" />
+  <meta name="description" content="6WTags Widget" />
+
+  <!-- Application JavaScript Source -->
+  <script type="text/javascript">
+    require([
+      'UWA/Core',
+      'DS/TagNavigatorWidget/TaggerWidget',
+      'DS/UIKIT/Mask'
+    ], function (UWACore, TaggerWidget, Mask
+    ) {
+      'use strict';
+      Mask.mask(widget.body);
+      let taggerWidget = new TaggerWidget({
+        'widget': widget
+      });
+
+      if (taggerWidget) {
+        widget.addEvent("onLoad", taggerWidget.onLoad.bind(taggerWidget));
+        widget.addEvent("onRefresh", taggerWidget.onRefresh.bind(taggerWidget));
+        widget.addEvent("onSearch", taggerWidget.onSearch.bind(taggerWidget));
+        widget.addEvent("onResetSearch", taggerWidget.onResetSearch.bind(taggerWidget));
+      }
+    });
+  </script>
+
+</head>
+
+<body>
+</body>
+
+</html>

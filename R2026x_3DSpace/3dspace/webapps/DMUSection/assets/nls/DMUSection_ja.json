@@ -1,0 +1,70 @@
+{
+  "sectionCutLimitation": "これ以上セクション作成しても、セクション カットは表示されません",
+  "sectionPrefix": "セクション",
+  "properties": {
+    "computeContour": "輪郭を計算"
+  },
+  "preferences": {
+    "sectionSectionTitle": "セクション",
+    "ComputeContourLbl": "輪郭を計算"
+  },
+  "notifyobjectselection": "選択的セクションのオブジェクトを選択します",
+  "ok": "OK",
+  "cancel": "キャンセル",
+  "ValidateSel": "形状を選択して、断面平面の位置を定義",
+  "firstSelection": "形状を選択して、断面平面の位置を定義",
+  "secondSelection": "選択項目を検証するか、2 番目の形状を選択して断面平面の位置を定義",
+  "thirdSelection": "3 番目の形状を選択して、断面平面の位置を定義",
+  "ValidateSelObj": "選択したオブジェクトを検証 ",
+  "DMUExitClippingEditionHdr": "クリッピング編集を終了",
+  "DMUHideShowHdr": "非表示/表示",
+  "DMUPropertiesHdr": "プロパティ",
+  "DMUContourViewerHdr": "セクション 2 次ビューア",
+  "DMUClippingPositionHdr": "位置をクリップ中...",
+  "DMUAlignViewHdr": "視点を位置合わせ",
+  "DMUCutHdr": "カット",
+  "DMUCopyHdr": "コピー",
+  "DMUDeleteHdr": "削除",
+  "DMUCutUncutHdr": "カット/アンカット...",
+  "clippingCutUncutPanel": {
+    "title": "カット/アンカット",
+    "okLabel": "OK",
+    "applyLabel": "適用",
+    "closeLabel": "キャンセル",
+    "cutSelectedElemBnt": "カット",
+    "uncutSelectedElemBnt": "アンカット",
+    "clearAllBnt": "すべてクリア",
+    "selectedElementslbl": "選択したエレメント:",
+    "noSelection": "選択なし"
+  },
+  "clippingPositionPanel": {
+    "title": "位置をクリップ",
+    "position": "位置",
+    "positionX": "X:",
+    "positionY": "Y:",
+    "positionZ": "Z:",
+    "translation": "平行移動",
+    "planeDirW": "W",
+    "planeDirU": "U",
+    "planeDirV": "V",
+    "orientation": "方向",
+    "orientationX": "X:",
+    "orientationY": "Y:",
+    "orientationZ": "Z:",
+    "rotation": "回転",
+    "rotationW": "W:",
+    "rotationU": "U:",
+    "rotationV": "V:",
+    "planePosition": "平面位置",
+    "offset": "オフセット",
+    "okBtn": "OK",
+    "cancelBtn": "キャンセル"
+  },
+  "stepValueContextualMenu": {
+    "title": "ステップを変更",
+    "stepValue": "ステップ値",
+    "ApplyAllBnt": "すべてのフィールドに適用",
+    "okBtn": "OK",
+    "cancelBtn": "キャンセル"
+  }
+}

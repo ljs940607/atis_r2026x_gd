@@ -1,0 +1,10 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package Controlled Documents-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="CONTROLLED DOCUMENTS" ScriptName="ENOAP_PolicyChooser_Controlled_Documents" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="Controlled Document Template" ScriptName="ENOAP_PolicyChooser_Controlled_Document_Template" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="Rendition Configuration" ScriptName="ENOAP_PolicyChooser_Rendition_Configuration" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="Rendition Document Template" ScriptName="ENOAP_PolicyChooser_Rendition_Document_Template" />
+</Scripts>
+
+

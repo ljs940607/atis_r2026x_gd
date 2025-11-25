@@ -1,0 +1,1 @@
+define("DS/MPFString/MPFString_ja",{});define("DS/MPFString/assets/nls/MPFString",{hiddenInformation:"非表示の情報"});

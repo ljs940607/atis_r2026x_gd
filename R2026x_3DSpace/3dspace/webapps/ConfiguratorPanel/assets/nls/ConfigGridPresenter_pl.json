@@ -1,0 +1,21 @@
+{
+  "titleLabel": "Tytuł",
+  "typeLabel": "Typ",
+  "sequenceNoLabel": "Numer sekwencji",
+  "selectionMode": "Obejmuje/nie obejmuje",
+  "configurationLabel": "Konfiguracja",
+  "variantType": "Wariant",
+  "valueType": "Wartość",
+  "variabilityGroupType": "Grupa opcji",
+  "optionType": "Opcja",
+  "parameterType": "Parametr",
+  "loadingStatusLabel": "Ładowanie konfiguracji produktu",
+  "totalPCLabel": "Całkowita konfiguracja produktu",
+  "totalVariablityLabel": "Zmienność całkowita",
+  "applySelectionAction": "Zastosuj do wyboru",
+  "openPCAction": "Otwórz",
+  "COMMERCIAL": "Komercyjne",
+  "YES": "Tak",
+  "NO": "Nie",
+  "differentRuleModelMsg": "Źródłowa konfiguracja produktu ma inny poziom oceny reguły"
+}

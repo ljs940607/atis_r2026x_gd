@@ -1,0 +1,11 @@
+m|MPFModels\MPFPersonRolesModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFPersonRolesModel\MPFPersonRolesModel.js|1725720395|2246
+s|MPFModels\MPFPersonRolesModel.mweb\src\PersonRolesDataProxy.js|1724871225|732
+u|MPFModels\MPFPersonRolesModel.mweb\src\PersonRolesFactory.js|1724871225|940
+u|MPFModels\MPFPersonRolesModel.mweb\src\PersonRolesModel.js|1724871225|2811
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

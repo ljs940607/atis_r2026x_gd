@@ -1,0 +1,14 @@
+m|WAfrFoundation\WAfrUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24286|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrUtils\WAfrUtils.js|1728782665|7077
+s|WAfrFoundation\WAfrUtils.mweb\src\Logger.js|1721910267|2572
+u|WAfrFoundation\WAfrUtils.mweb\src\WAfrUtils.js|1516291163|0
+u|WAfrFoundation\WAfrUtils.mweb\src\mod_APIRegistry.js|1722266873|7103
+u|WAfrFoundation\WAfrUtils.mweb\src\mod_ConcatenationUtils.js|1721982402|2895
+u|WAfrFoundation\WAfrUtils.mweb\src\mod_Performances.js|1722236633|11931
+u|WAfrFoundation\WAfrUtils.mweb\src\mod_PromiseUtils.js|1727340008|857
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

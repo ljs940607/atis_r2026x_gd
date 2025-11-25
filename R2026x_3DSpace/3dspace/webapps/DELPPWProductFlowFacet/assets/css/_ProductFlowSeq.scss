@@ -1,0 +1,26 @@
+.product-flow-seq-container{
+  display: flex;
+  flex-direction: column;
+  .egraph-toobar{
+    position: relative;
+    height: 36px;
+  }
+  .canvas-gv {
+    width: 100%;
+    height: calc(100% - 36px);
+    background-color: #FFF;
+    position: relative;
+  }
+  .loader{
+    margin: auto;
+  }
+}
+.product-flow-seq-container .my-node{
+  border: 1px solid #424242;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.product-flow-seq-container .GraphViewBar{
+  float: none;
+}

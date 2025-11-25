@@ -1,0 +1,20 @@
+{
+  "alternateDesigns": "Duplicates",
+  "chooseObject": "Select Object To Compare",
+  "displayAlternateDepthAll": "All Duplicates",
+  "displayAlternateDepthDirect": "Immediate Duplicates Only",
+  "displayAlternateDepthOrigin": "Descendant Duplicates Only",
+  "displayAlternateRevisionAll": "All Revisions for each Duplicate",
+  "displayAlternateRevisionLatest": "Last Revision for each Duplicate",
+  "displayAlternateRevisionLatestPublished": "Last Published Revision for each Duplicate",
+  "displayAlternateRevisionTop": "First Revision for each Duplicate",
+  "displayAlternateRevisionType": "Revision of Duplicate to Display",
+  "filters": "Filters",
+  "filterType": "Advanced Filter",
+  "noAlternateDesign": "No duplicates available. Please drop an object below for comparison.",
+  "noFilters": "No filters available. Please drop an object below for comparison.",
+  "noHistoryGraphSelection": "No selection made. Please make a selection or drop an object below for comparison.",
+  "noRevision": "No revisions available. Please drop an object below for comparison.",
+  "revisions": "Revisions",
+  "rootHistoryGraphSelection": "A different object than the compare object must be selected to compare to. Please make a selection or drop an object below for comparison."
+}

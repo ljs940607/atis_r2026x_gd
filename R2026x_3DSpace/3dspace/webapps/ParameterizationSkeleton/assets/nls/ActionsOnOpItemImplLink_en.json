@@ -1,0 +1,11 @@
+{
+	"action": "Action",
+	"actionTooltip": "Name of the Action",
+	
+	
+	"modalTitle": "Actions",
+	"Add": "Add Action",
+	"Select": "Select or search",
+	"Info": "Write an Action name and click ok. It will save the Action in the database.",
+	"ErrorActionAlreadyDefined": "Etered value for %1 already present. Please choose different name for %2"
+}

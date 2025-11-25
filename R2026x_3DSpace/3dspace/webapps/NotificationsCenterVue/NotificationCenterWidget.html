@@ -1,0 +1,27 @@
+<html xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+  <title>3DNotification Center</title>
+
+  <meta name="author" content="3DNotification" />
+  <meta name="description" content="3DNotification Center" />
+  <meta name="keywords" content="3DNotification Center" />
+  <meta name="debugMode" content="false" />
+  <meta name="strictMode" content="true" />
+  <meta name="autoRefresh" content="0" />
+
+  <!-- Will be updated on vite build with href="../../.." to point to the webapps folder -->
+  <link rel="webappsBaseUrl">
+  <script>
+    const baseUrl = window.dsDefaultWebappsBaseUrl || './';
+    const entryPointUrl = (baseUrl + 'src/apps/entrypointWidget.js').replaceAll("//", "/");
+    const init = () => {
+      document.getElementById('entrypoint').setAttribute("src", entryPointUrl);
+    }
+  </script>
+</head>
+
+<body onload="init()">
+  <script id="entrypoint" type="module" src="/src/apps/entrypointWidget"></script>
+</body>
+
+</html>

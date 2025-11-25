@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="DMUMarkupContextHdrAfrWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface WkbInterface="DMUMarkupContextHdrAfrWorkshopConfiguration" />
+  </Template>
+
+  <Template syp:name="DMUPersistenceCtxCmds" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <CATCommandHeader ID="DMUReviewMarkupHdr" ClassName="DS/DMUReviewPersistence/DMUCreateReviewMarkupCmd"            ResourceFile="DMUReviewPersistence/DMUReviewPersistence"        HelpResourceFile = "DMUReviewPersistence/DMUReviewPersistence"  />
+			<CATCommandHeader ID="DMUAddHighlightHdr" ClassName="DS/DMUReviewPersistence/DMUAddHighlightCmd" ResourceFile="DMUReviewPersistence/DMUReviewPersistence"        HelpResourceFile = "DMUReviewPersistence/DMUReviewPersistence"  />
+      <CATCommandHeader ID="DMUReplyCmdHdr" ClassName="DS/DMUReplyAndComments/DMUCommentReplyCreateCmd" ResourceFile="DMUReplyAndComments/DMUReplyAndComments"      HelpResourceFile = "DMUReplyAndComments/DMUReplyAndComments" />
+      <CATCommandHeader ID="DMURenameMarkupHdr" ClassName="DS/DMUPersistence/DMURenameMarkupCmd"    ResourceFile="DMUPersistence/DMUPersistence"          HelpResourceFile = "DMUPersistence/DMUPersistence"/>
+      <CATCommandHeader ID="DMUCutHdr"          ClassName="DS/DMUBaseCommands/DMUCutCmd"            ResourceFile="DMUBaseCommands/DMUBaseWebCommands"     HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+      <CATCommandHeader ID="DMUCopyHdr"         ClassName="DS/DMUBaseCommands/DMUCopyCmd"           ResourceFile="DMUBaseCommands/DMUBaseWebCommands"     HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+      <CATCommandHeader ID="DMUPasteHdr"        ClassName="DS/DMUBaseCommands/DMUPasteCmd"          ResourceFile="DMUBaseCommands/DMUBaseWebCommands"     HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+      <CATCommandHeader ID="DMUEditPropertiesHdr"       ClassName="DS/DMUCommands/DMUEditPropertiesCmd"      ResourceFile="DMUCommands/DMUCommands"       HelpResourceFile = "DMUCommands/DMUCommands"/>
+      <CATCommandHeader ID="DMUDeleteHdr"       ClassName="DS/DMUBaseCtxCommands/DMUDeleteCmd"      ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands"  HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+			<CATCommandHeader ID="DMUGenerateIssueFromSelectionHdr" ClassName="DS/DMUBaseCtxCommands/DMUGenerateIssueFromSelectionCmd"  ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>	  
+			<CATCommandHeader ID="DMUGenerateIssueFromTemplateFromSelectionHdr" ClassName="DS/DMUBaseCtxCommands/DMUGenerateIssueFromSelectionCmd"  ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>	  
+      <CATCommandHeader ID="DMUSetAsPreviewHdr" ClassName="DS/DMUBaseCommands/DMUSetAsPreviewCmd" ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands"/>
+
+      <CATCommandHeader ID="DMUCreateSlideReplyHdr" ClassName="DS/DMUReplyAndComments/DMUCreateSlideReplyCmd" ResourceFile="DMUReplyAndComments/DMUReplyAndComments"      HelpResourceFile = "DMUReplyAndComments/DMUReplyAndComments" />
+      <CATCommandHeader ID="slideCmdHdr"                    ClassName="DS/DMUSlideEdition/DMUCreateSlideCmd"          ResourceFile="DMUSlideEdition/DMUSlideEdition"    HelpResourceFile = "DMUSlideEdition/DMUSlideEdition" />
+      <CATCommandHeader ID="DMUFormatCmdHdr"                ClassName="DS/DMUSlideEdition/DMUCreateSlideCmd"          ResourceFile="DMUSlideEdition/DMUSlideEdition"    HelpResourceFile = "DMUSlideEdition/DMUSlideEdition" />
+      <CATCommandHeader ID="DMUFormatChooserHdr"            ClassName="DS/DMUFormatEdition/DMUFormatChooserCmd"       ResourceFile="DMUFormatEdition/DMUFormatEdition"  HelpResourceFile = "DMUFormatEdition/DMUFormatEdition" />
+      <CATCommandHeader ID="DMUEditAssociatedFormatHdr"     ClassName="DS/DMUSlideEdition/DMUEditAssociatedFormatCmd" ResourceFile="DMUSlideEdition/DMUSlideEdition"    HelpResourceFile = "DMUSlideEdition/DMUSlideEdition" />
+      <CATCommandHeader ID="DMURemoveOverloadHdr"           ClassName="DS/DMUCommands/DMURemoveOverloadCmd"           ResourceFile="DMUCommands/DMUCommands"            HelpResourceFile = "DMUCommands/DMUCommands" />
+      <CATCommandHeader ID="Format_DMUCutHdr"               ClassName="DS/DMUBaseCommands/DMUCutCmd"                  ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands" Available="0"/>
+      <CATCommandHeader ID="Format_DMUCopyHdr"              ClassName="DS/DMUBaseCommands/DMUCopyCmd"                 ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands" Available="0"/>
+      <CATCommandHeader ID="Format_DMUPasteHdr"             ClassName="DS/DMUBaseCommands/DMUPasteCmd"                ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands" Available="0"/>
+      <CATCommandHeader ID="Format_DMUPasteSpecialHdr"      ClassName="DS/DMUBaseCommands/DMUPasteSpecialCmd"         ResourceFile="DMUBaseCommands/DMUBaseWebCommands" HelpResourceFile = "DMUBaseCommands/DMUBaseCommands" Available="0"/>
+      <CATCommandHeader ID="Format_DMUDeleteHdr"            ClassName="DS/DMUBaseCtxCommands/DMUDeleteCmd"            ResourceFile="DMUBaseCtxCommands/DMUBaseCtxCommands" HelpResourceFile = "DMUBaseCtxCommands/DMUBaseCtxCommands"/>
+    </CATCmdHeadersList>
+  </Template>
+</Styles>

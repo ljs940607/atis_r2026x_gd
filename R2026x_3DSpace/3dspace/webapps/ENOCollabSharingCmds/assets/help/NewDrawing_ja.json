@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"新規図面",
+"ENONewDrawingHdr.ShortHelp":"新しい図面を作成します。",
+"ENONewDrawingHdr.LongHelp":"ダイアログ ボックスで、タイトルと、必要な属性がある場合は入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つの図面のみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別の図面を作成します。",
+"ENOInsertNewDrawingHdr.Title":"新規図面を挿入",
+"ENOInsertNewDrawingHdr.ShortHelp":"新しい図面を作成し、選択したオブジェクトに子として追加します。",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>ダイアログ ボックスで、タイトルを入力し、必要に応じてテンプレートを選択して、CAD マスターを選択します。 [<uicontrol>作成して閉じる</uicontrol>] をクリックして 1 つの図面のみを作成するか、[<uicontrol>作成</uicontrol>] をクリックして別の図面を作成します。</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

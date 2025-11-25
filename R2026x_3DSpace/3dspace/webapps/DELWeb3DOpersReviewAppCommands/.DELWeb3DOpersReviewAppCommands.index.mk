@@ -1,0 +1,14 @@
+m|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWeb3DOpersReviewAppCommands\DELWeb3DOpersReviewAppCommands.js|1723277696|6999
+s|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\DELOERRelationalNavigatorCmd.js|1708665330|3646
+u|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\DELOERRightSidePanel.js|1655881562|2272
+u|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\DELWeb3DGenerateIssueCmd.js|1708665360|12795
+u|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\HomeCmd.js|1704866427|592
+u|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\RemoveAllCmd.js|1708665385|1101
+u|DELWeb3DOpersReviewApp\DELWeb3DOpersReviewAppCommands.mweb\src\ToggleDataGridViewCmd.js|1684750991|1682
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

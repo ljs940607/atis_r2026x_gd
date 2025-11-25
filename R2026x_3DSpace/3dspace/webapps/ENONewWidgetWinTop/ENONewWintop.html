@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+  <head>
+    <!-- Application Metas -->
+	<!-- These information will be displayed in the widget preferences -->
+    <title>New</title>
+    
+    <meta name="author" content="VMA12" />
+    <meta name="brand" content="ENOVIA" />    
+    <meta name="description" content="Creation Panel" />
+    <!-- UWA Environment -->
+	<script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+	<!-- Load UWA environment --> 
+	<link rel="stylesheet" type="text/css" href="./ENONewWidgetWinTop.css" /> <!-- Hide UWA layout -->
+	<link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" /> 
+	<script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script> 
+	<!-- UWA/Class/View, Model and Collection will be loaded dynamically -->
+
+	<link rel="stylesheet" type="text/css" href="../UIKIT/UIKIT.css" /> 
+	<script type="text/javascript" src="../UIKIT/UIKIT.js"></script> 
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+		};
+	</style>
+        
+    <script type="text/javascript">
+        /*
+          We create the global MyWidget object.
+          This object will be used to store variables and functions.
+        */
+        var _wintopAdaptor;
+        var _widgetServices;
+        var _LifecycleServicesSettings;
+        var tenant ;
+        var newType;
+       
+               
+        /**
+        *	Set the options of the widget
+        *	@param {String} options.myAppsBaseUrl - the url to my apps url	
+        *	@param {String} [options.userId] - The current id of the user
+        *	@param {String} [options.lang] - language of the browser
+        */
+        var setOptions = function(options){
+        	console.log("setOptions" + JSON.stringify(options));
+        	if (!window["COMPASS_CONFIG"]) window["COMPASS_CONFIG"] = {};
+       		
+           	if (options.myAppsBaseUrl) window["COMPASS_CONFIG"].myAppsBaseUrl = options.myAppsBaseUrl;
+           	if (options.userId) window["COMPASS_CONFIG"].userId = options.userId;
+           	if (options.lang) window["COMPASS_CONFIG"].lang = options.lang;     
+           		
+        }
+        
+        var receiveString = function(instructionType, options){
+        	console.log(instructionType + JSON.stringify(options));
+        	
+        	try {
+				if ("initCmd" === instructionType){
+        		options.tenant = tenant;
+        		options.newType = newType;
+        		
+        		if (!options.appDomain) throw new Error("appDomain is not set");
+        		if (!options.appName) throw new Error("appName is not set");
+        		
+        		if (options.lang){
+        			widget.lang = options.lang;
+            		setOptions({lang: options.lang});	
+        		}
+        		_LifecycleServicesSettings.service_initialization(function() {
+        			_wintopAdaptor.configureOptions(options);
+                	_wintopAdaptor.getCmdDetails(options.newType);
+        		});
+            	
+        	}else if ("executecommand" === instructionType){
+        		_wintopAdaptor.setCreateOptions(options, function(){
+        			_wintopAdaptor.launchCommand();	
+        		});
+        		
+        	}	
+			}catch (error){
+				console.log(error);
+				widget.body.setText(error);
+				throw new Error("Failure on New Infra, please check console");	
+			}
+        	
+        }
+        
+        //Initialize WidgetServices
+        require([
+            'DS/WidgetServices/WidgetServices',
+            'DS/ENONewWidgetWinTop/WintopAdaptor',
+            'DS/ENONewWidget/ajaxRequests/LifecycleServicesSettings',
+            
+        ], function (WidgetServices, Adaptor, LifecycleServicesSettings) {
+        	_widgetServices = WidgetServices
+        	_wintopAdaptor = Adaptor;
+        	_LifecycleServicesSettings = LifecycleServicesSettings;
+        	
+        	tenant = WidgetServices.getUrlParameter("tenant");
+        	newType = WidgetServices.getUrlParameter("newType");
+        	
+        	var retObject = {
+    				onLoad(){
+    					
+    					console.log("onLoad:ENONewWintop.html");
+    					if (WidgetServices.isNatifEnvironnement()) dscef.sendString("readyForInit#");
+    					else {
+    						console.warn("not a native env");
+    						setOptions(getDefaultOptions());
+    						receiveString("initCmd", {    
+    						    "lang": "en",
+    						    "baseUrl": "https://"+"vedvpril0393plp"+".dsone.3ds.com/3DSpace",
+    						    "service": "3DSpace",
+    						    "secCtx": "",
+    						    "appDomain": "",
+    						    "appName": ""
+    						});
+    						setTimeout(()=>{
+    							receiveString("executecommand");
+
+    						},5000);
+
+    					}
+    				},
+    				
+    				onRefresh : function(){},
+    				onResize : function(){},
+    				onViewChange : function(){},
+    				onDestroy : function(){},
+    		}
+    		
+    		widget.addEvent('onLoad', retObject.onLoad);
+    	    widget.addEvent('onRefresh', retObject.onRefresh);
+    	    widget.addEvent('onResize', retObject.onResize);
+    	    widget.addEvent('onViewChange', retObject.onViewChange);
+    	    window.addEventListener('unload', retObject.onDestroy);
+    	    
+    	    function getDefaultOptions (){
+    	    	return {
+       				myAppsBaseUrl: "https://" + location.host + "/3DSpace/resources/AppsMngt",
+       				userId: "all",
+       				lang: "en"
+       			}
+    	    };
+    	    
+        	WidgetServices._getMyappsUrl(function(myAppsURL){
+        		if (myAppsURL){
+        			setOptions({myAppsBaseUrl: myAppsURL,
+        				userId: "all",
+           				lang: "en"});
+        		}else {
+        			var loadAuto = WidgetServices.getUrlParameter("auto");
+                	if (loadAuto === "true"){ //Launch an approximative myAppsBaseUrl. Above all for debug
+                		setOptions(getDefaultOptions());	 
+                	}
+        		}
+        	});
+        	
+        	
+        	
+        });
+        
+        
+    </script>
+  </head>
+  <body class="enoNewWidgetHTML">
+  </body>
+</html>
+

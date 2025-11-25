@@ -1,0 +1,10 @@
+{
+  "title": "Raport dotyczący zarządzania uzgadnianiem",
+  "statusTag": "Status",
+  "startDateTag": "Rozpoczęcie przetwarzania",
+  "estimatedDateTag": "Szacowana data następnego przetwarzania",
+  "processedObjectTag": "Przetworzone obiekty",
+  "currentOpTag": "Przetworzone operacje",
+  "totalOpTag": "Całkowita liczba operacji do przetworzenia",
+  "durationTag": "Czas trwania ostatniego przetwarzania"
+}

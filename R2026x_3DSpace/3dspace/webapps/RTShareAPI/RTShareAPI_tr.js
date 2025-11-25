@@ -1,0 +1,1 @@
+define("DS/RTShareAPI/RTShareAPI_tr",{});define("DS/RTShareAPI/assets/nls/feed",{ShareWith:"Şununla paylaş: ..."});

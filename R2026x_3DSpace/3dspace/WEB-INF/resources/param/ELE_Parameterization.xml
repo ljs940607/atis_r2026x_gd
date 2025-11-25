@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="ElectricalLogical">
+    <Domain id="AttributeDef">
+		<!-- Electrical logical 2D -->
+        <Family id="EleLogicalSingleConnector" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalSingleConnector">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalSingleConnector"/>
+        </Family>
+		<Family id="EleLogicalRelay" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalRelay">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalRelay"/>
+        </Family>
+		<Family id="EleLogicalContact" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalContact">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalContact"/>
+        </Family>
+		<Family id="EleLogicalOperatingDevice" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalOperatingDevice">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalOperatingDevice"/>
+        </Family>
+		<Family id="EleLogicalInlineConnector" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalInlineConnector">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalInlineConnector"/>
+        </Family>
+		<Family id="EleLogicalShellConnector" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalShellConnector">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalShellConnector"/>
+        </Family>
+		<Family id="EleLogicalSplice" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalSplice">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalSplice"/>
+        </Family>
+		<Family id="EleLogicalTerminalBoard" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalTerminalBoard">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalTerminalBoard"/>
+        </Family>
+		<Family id="EleLogicalBusbar" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalBusbar">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalBusbar"/>
+        </Family>
+		<Family id="EleLogicalHarness" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalHarness">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalHarness"/>
+        </Family>
+		<Family id="EleLogicalNet" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalNet">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalNet"/>
+        </Family>
+		<Family id="EleLogicalNetGroup" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalNetGroup">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalNetGroup"/>
+        </Family>
+		<Family id="EleLogicalWire" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalWire">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalWire"/>
+        </Family>
+		<Family id="EleLogicalWireShield" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalWireShield">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalWireShield"/>
+        </Family>
+		<Family id="EleLogicalCable" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCable">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCable"/>
+        </Family>
+		<Family id="EleLogicalCableShielded" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCableShielded">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCableShielded"/>
+        </Family>
+		<Family id="EleLogicalCableTwisted" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCableTwisted">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCableTwisted"/>
+        </Family>
+		<Family id="EleLogicalCableTwistedShielded" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCableTwistedShielded">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCableTwistedShielded"/>
+        </Family>
+		<Family id="EleLogicalOverShield" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalOverShield">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalOverShield"/>
+        </Family>
+		<Family id="EleLogicalPowerCable" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalPowerCable">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalPowerCable"/>
+        </Family>
+		<Family id="EleLogicalCoaxCable" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCoaxCable">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCoaxCable"/>
+        </Family>
+		<Family id="EleLogicalCableGroup" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCableGroup">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCableGroup"/>
+        </Family>
+		<Family id="EleTechLogicalComponent" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleTechLogicalComponent">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleTechLogicalComponent"/>
+        </Family>
+		<Family id="EleTerminalStripComponent" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleTerminalStripComponent">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleTerminalStripComponent"/>
+        </Family>
+		<Family id="EleTerminalComponent" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleTerminalComponent">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleTerminalComponent"/>
+        </Family>
+		<Family id="EleLogicalPLC" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalPLC">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalPLC"/>
+        </Family>
+		<Family id="EleLogicalModule" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalModule">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalModule"/>
+        </Family>
+		<Family id="EleLogicalRack" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalRack">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalRack"/>
+        </Family>
+		<Family id="EleLogicalCircuit" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalCircuit">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalCircuit"/>
+        </Family>
+		<Family id="EleLogicalModuleCircuit" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalModuleCircuit">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalModuleCircuit"/>
+        </Family>
+		<Family id="EleLogicalTerminalCircuit" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalTerminalCircuit">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalTerminalCircuit"/>
+        </Family>
+		<Family id="EleLogicalLoosePart" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalLoosePart">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalLoosePart"/>
+        </Family>
+		<Family id="EleLogicalEndFittingContact" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalEndFittingContact">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalEndFittingContact"/>
+        </Family>
+		<Family id="EleLogicalBackShell" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEleLogicalBackShell">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMElectricalLogical"/>
+            <Constant id="type" value="EleLogicalBackShell"/>
+        </Family>
+		<!-- logical equipement -->
+		<Family id="EnsLogicalEquipment" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newEnsLogicalEquipment">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMEnsLogicalEquipment"/>
+            <Constant id="type" value="EnsLogicalEquipment"/>
+        </Family>
+		<!-- logical piping-->
+		<Family id="Piping_Logical_Miscellaneous" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Miscellaneous">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Miscellaneous"/>
+        </Family>
+		<Family id="Piping_Logical_Branch" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Branch">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Branch"/>
+        </Family>
+		<Family id="Piping_Logical_Instrument" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Instrument">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Instrument"/>
+        </Family>
+		<Family id="Piping_Logical_Reducert" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Reducer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Reducer"/>
+        </Family>
+		<Family id="Piping_Logical_Valve" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Valve">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Valve"/>
+        </Family>
+		<Family id="Piping_Logical_Pipe" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Logical_Pipe">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Logical_Pipe"/>
+        </Family>
+		<Family id="Piping_Line" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newPiping_Line">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="Piping_Line"/>
+        </Family>
+		<Family id="ICLoop_Line" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newICLoop_Line">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMFluidSystemsLogical"/>
+            <Constant id="type" value="ICLoop_Line"/>
+        </Family>
+		<!-- logical HVAC-->
+		<Family id="HVAC_Logical_Miscellaneous" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Miscellaneous">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Miscellaneous"/>
+        </Family>
+		<Family id="HVAC_Logical_Branch" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Branch">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Branch"/>
+        </Family>
+		<Family id="HVAC_Logical_Instrument" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Instrument">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Instrument"/>
+        </Family>
+		<Family id="HVAC_Logical_Reducer" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Reducer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Reducer"/>
+        </Family>
+		<Family id="HVAC_Logical_Damper" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Damper">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Damper"/>
+        </Family>
+		<Family id="HVAC_Logical_Duct" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Logical_Duct">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Logical_Duct"/>
+        </Family>
+		<Family id="HVAC_Line" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.newHVAC_Line">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVACLogical"/>
+            <Constant id="type" value="HVAC_Line"/>
+        </Family>
+	</Domain >
+</OOTBParameterization >

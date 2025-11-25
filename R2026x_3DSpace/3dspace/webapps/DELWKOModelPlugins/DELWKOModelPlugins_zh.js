@@ -1,0 +1,1 @@
+define("DS/DELWKOModelPlugins/DELWKOModelPlugins_zh",{});define("DS/DELWKOModelPlugins/assets/nls/DELWKOViewPreferencesUI",{HeaderName:"标题名称",IsVisible:"可见",Width:"宽度",MinWidth:"最小宽度",IsPinned:"已固定"});

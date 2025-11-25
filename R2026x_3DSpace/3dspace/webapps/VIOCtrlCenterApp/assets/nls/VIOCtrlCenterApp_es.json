@@ -1,0 +1,71 @@
+{
+  "loadingApp": "Cargando aplicación",
+  "loadingRefresh": "Actualizar aplicación",
+  "noToken": "Tokens no disponibles",
+  "noTokenTooltip": "Los tokens no están disponibles actualmente. Agregue más tokens para continuar con la optimización.",
+  "buyToken": "Comprar tokens de VIO",
+  "summaryTitle": "Resumen de tokens",
+  "summaryLabel": "Tokens ({usage} % utilizados)",
+  "usageLabel": "{used}/{total}",
+  "getMoreTokens": "Obtener más tokens",
+  "tokensHistory": "Historial de tokens",
+  "registeredrepLabel": "Objetos registrados para optimización",
+  "registeredrepLabelNoToken": "Objetos listos para optimización",
+  "noRegisteredrep": "No se pueden obtener los objetos registrados",
+  "failedRegisterObject": "Error al recuperar objetos registrados",
+  "tokenUsage": "Uso del token",
+  "tokenStatus": "Estado del token",
+  "used": "Tokens consumidos",
+  "total": "Total",
+  "fromLabel": "Uso desde ",
+  "toLabel": " hasta ",
+  "tokens": "Tokens",
+  "noDataConsumed": "No se ha consumido ningún token durante ese periodo",
+  "percentUsed": "{percentUsed} % de token utilizado",
+  "percentRemaining": "{remaining} ({percentRem} %) tokens restantes",
+  "expDate": "Fecha de caducidad del token: {expDate}",
+  "errors": {
+    "requesttimeout": {
+      "title": "Tiempo de espera de solicitud agotado",
+      "message": "Se ha agotado el tiempo de espera de la conexión con el servidor."
+    }
+  },
+  "tokenUsageInfos": "Diferencia de sincronización de pocas horas entre el uso del token y los objetos registrados para la optimización.",
+  "months": [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ],
+  "shortMonths": [
+    "Ene",
+    "Feb",
+    "Mar",
+    "Abr",
+    "May",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dic"
+  ],
+  "weekdays": [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado"
+  ]
+}

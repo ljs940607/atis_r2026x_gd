@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "Nouvelle référence logique"
+  },
+  "message": {
+    "confirm_detach_instance": "Voulez-vous vraiment détacher les instances sélectionnées ?",
+    "confirm_reparent": "Les références ci-dessous changeront de parent. Nouveau parent : "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "Echec du changement de parent des références",
+    "reparent_cyclic": "Ce nouveau parent est déjà enregistré dans la liste de références de changement de parent. Veuillez supprimer la sélection existante pour éviter toute structure cyclique."
+  },
+  "success": {
+    "reparent": "Changement de parent réussi"
+  }
+}

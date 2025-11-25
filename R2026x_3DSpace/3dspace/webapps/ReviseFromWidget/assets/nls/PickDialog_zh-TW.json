@@ -1,0 +1,20 @@
+{
+  "alternateDesigns": "複製",
+  "chooseObject": "選取要比較的物件",
+  "displayAlternateDepthAll": "所有複製項目",
+  "displayAlternateDepthDirect": "僅限直屬複製項目",
+  "displayAlternateDepthOrigin": "僅子代複製項目",
+  "displayAlternateRevisionAll": "每個複製項目的所有修訂",
+  "displayAlternateRevisionLatest": "每個複製項目的最後修訂",
+  "displayAlternateRevisionLatestPublished": "每個複製項目的最近一次修訂",
+  "displayAlternateRevisionTop": "每個複製項目的第一個修訂",
+  "displayAlternateRevisionType": "顯示的複製項目修訂",
+  "filters": "過濾器",
+  "filterType": "進階過濾器",
+  "noAlternateDesign": "沒有複製項目可用。請在下方放置物件以進行比較。",
+  "noFilters": "沒有濾器可用。請在下方放置物件以進行比較。",
+  "noHistoryGraphSelection": "沒有所選範圍。請選擇所選範圍或在下方放置物件以進行比較。",
+  "noRevision": "沒有修訂可用。請在下方放置物件以進行比較。",
+  "revisions": "修訂版",
+  "rootHistoryGraphSelection": "必須選取與比較物件不同的物件以進行比較。請選擇所選範圍或在下方放置物件以進行比較。"
+}

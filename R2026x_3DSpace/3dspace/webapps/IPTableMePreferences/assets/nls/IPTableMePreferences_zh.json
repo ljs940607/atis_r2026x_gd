@@ -1,0 +1,143 @@
+{
+  "views": {
+    "viewLabel": "查看",
+    "MP_DEFAULT": "默认视图",
+    "MP_CUSTO": "自定义视图",
+    "copyOf": "{MP_VIEW_NAME} 的副本"
+  },
+  "tooltip": {
+    "title": {
+      "check": "确认",
+      "cancel": "取消",
+      "reset": "重置",
+      "newView": "新建视图",
+      "editView": "编辑视图",
+      "removeView": "删除视图",
+      "addColumn": "添加列",
+      "removeColumn": "移除列",
+      "lockedColumn": "列已锁定",
+      "findInAtt": "查找属性",
+      "addTypesAndExt": "管理类型和扩展",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "moveTop": "移至顶部",
+      "moveBottom": "移至底部"
+    },
+    "check": "确认当前操作。",
+    "reset": "从视图中移除所有更改。",
+    "cancel": "取消当前操作。",
+    "findInAtt": "在所有可用列中搜索属性。",
+    "addTypesAndExt": "在可用列中添加或删除类型或扩展。",
+    "moveUp": "上移选定列。",
+    "moveDown": "下移选定列。",
+    "moveTop": "将选定列移至首位。",
+    "moveBottom": "将选定列移至末位。",
+    "modificationNotStored": "更改尚未保存到用户首选项。",
+    "maximumView": "您已达到可创建的最大视图数 (4)。",
+    "newView": "创建新视图。您最多可以创建 4 个视图。",
+    "editView": "编辑当前视图。",
+    "removeView": "删除当前视图。",
+    "addColumn": "列将在所选列中移动。",
+    "removeColumn": "列将在可用列中移动。",
+    "maximumColumn": "您已达到可添加的最大列数 (30)。",
+    "lockedColumn": "无法移动列。"
+  },
+  "commandMenu": {
+    "default": "默认视图",
+    "root": "表视图",
+    "admin": "管理视图",
+    "user": "我的视图",
+    "widget": "本地视图"
+  },
+  "column_FavoriteTitle": "标题",
+  "column_BookmarkLocation": "父书签",
+  "column_Thumbnail": "缩略图",
+  "column_ApprovalStatus": "审批状态",
+  "column_Menu": "菜单",
+  "admin": "管理",
+  "toolbar": {
+    "spacing": "密度 ",
+    "spacingComfortable": "舒适",
+    "spacingCompact": "紧凑",
+    "checkbox": "“对象选择”复选框",
+    "findInAtt": "查找属性",
+    "resetDefault": "重置为默认值"
+  },
+  "columns": {
+    "attName": "属性名称",
+    "attType": "属性类型",
+    "colName": "列名称",
+    "pin": "固定",
+    "hide_show": "隐藏/显示",
+    "findinctx": "查找",
+    "thumbnail": "预览",
+    "thumbnails": "预览",
+    "matrixtxt": "位置矩阵",
+    "typeName": "类型",
+    "extName": "扩展名"
+  },
+  "attSelection": {
+    "title": "可用列： ",
+    "extension": "{typeName} 扩展名",
+    "REFERENCE": "参考",
+    "INSTANCE": "实例",
+    "CLASSIFICATION": "分类",
+    "COMPUTED": "已计算",
+    "COMMAND": "命令",
+    "pinLeft": "固定左侧",
+    "pinRight": "固定右侧",
+    "unpinned": "不固定",
+    "commonAttributes": "公共属性",
+    "typesAttributes": "类型属性",
+    "extsAttributes": "扩展属性",
+    "classifAttributes": "分类属性",
+    "otherColumns": "其他"
+  },
+  "selectedAtt": {
+    "title": "选定列： "
+  },
+  "typeNext": {
+    "title": "类型和扩展选择器",
+    "okBtn": "应用",
+    "cancelBtn": "取消",
+    "selectionTypeTitle": "类型",
+    "selectionExtTitle": "扩展",
+    "extension": {
+      "placeholder": "未选择类型。请选择一个或多个类型以显示关联的扩展名。"
+    }
+  },
+  "selectionTitle": "选择类型或扩展以列出属性",
+  "dialog": {
+    "title": "表首选项",
+    "okBtn": "保存",
+    "cancelBtn": "取消"
+  },
+  "loading": {
+    "default": "正在加载...",
+    "gridCusto": "正在加载表首选项",
+    "baseTypeAndExt": "正在加载可用类型和扩展",
+    "gridCustoReset": "重置为默认值"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "物理展示实例"
+  },
+  "notDisplayedAtt": "不在 UI 中显示",
+  "warning": {
+    "emptyName": {
+      "title": "视图名称不能为空",
+      "msg": "您的视图名称为空。"
+    },
+    "tooManySelected": {
+      "title": "已达到最大列数",
+      "msg": "最多只能授权 {maxNumber} 个列"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "视图已存在",
+      "msg": "名为“{MP_VIEW_NAME}”的视图已存在"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "视图已存在",
+      "msg": "名为“{MP_VIEW_NAME}”的视图已存在"
+    }
+  }
+}

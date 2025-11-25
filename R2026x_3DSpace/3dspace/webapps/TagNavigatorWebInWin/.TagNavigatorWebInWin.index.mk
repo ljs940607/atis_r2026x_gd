@@ -1,0 +1,11 @@
+m|TagNavigator\TagNavigatorWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\TagNavigatorWebInWin\TagNavigatorWebInWin.js|1723278106|36228
+s|TagNavigator\TagNavigatorWebInWin.mweb\src\BroadcastWebInWinTaggerManager.js|1707465676|5004
+u|TagNavigator\TagNavigatorWebInWin.mweb\src\TaggerWebInWin.js|1715666822|64220
+u|TagNavigator\TagNavigatorWebInWin.mweb\src\TaggerWebInWinLeftPanel.js|1648451461|2996
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

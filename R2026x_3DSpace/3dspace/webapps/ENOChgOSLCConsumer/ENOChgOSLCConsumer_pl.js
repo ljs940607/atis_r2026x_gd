@@ -1,0 +1,1 @@
+define("DS/ENOChgOSLCConsumer/ENOChgOSLCConsumer_pl",{});define("DS/ENOChgOSLCConsumer/assets/nls/ECMOSLC",{ECM_OSLC_Select_Reported_Against:"Wybierz opcję Zgłoszenie dotyczy",ECM_OSLC_Select_External_Change:"Wybierz zmianę zewnętrzną",ECM_OSLC_Create_External_Change:"Utwórz zmianę zewnętrzną"});

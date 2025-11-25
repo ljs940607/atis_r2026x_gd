@@ -1,0 +1,372 @@
+{
+  "managedCommands": [
+    "Refresh",
+    "Hide",
+    "DetachInstance",
+    "Relations",
+    "DisplayProperties",
+    "ActionBar_ChangeOwner",
+    "ShowCharacteristicsCmd",
+    "ShowConsolidatedCharactscsCmd",
+    "RevisionHdr",
+    "NewBranchHdr",
+    "DuplicateHdr",
+    "DuplicateAdv",
+    "HistoryHdr",
+    "CreateCapableResourceStructureLink",
+    "ManageCapableResources",
+    "CreateLink",
+    "CreateInstance",
+    "AttachDocument",
+    "SearchDocument",
+    "ManageDocuments",
+    "ExpandAll",
+    "CollapseAll",
+    "ExportCSV",
+    "RelationIPExplorer",
+    "SearchAndAddInstanceCommand",
+    "InsertAsCopy",
+    "CapableResourceBL",
+    "ProductFlowCmd",
+    "DefineFilter",
+    "LoadRelations",
+    "ReplaceByLatestRevision",
+    "ReplaceByExisting",
+    "ReplaceByNewRevision",
+    "BuildUp"
+  ],
+  "initial": {
+    "enabled": [
+      "ExportCSV",
+      "CreateLink",
+      "CreateInstance"
+    ]
+  },
+  "action": {
+    "enabled": [
+      "AlternateCommand",
+      "OriginCommand",
+      "CapableResourceCommand",
+      "Refresh",
+      "Relations",
+      "OriginRemove",
+      "OriginAdd",
+      "AlternateRemove",
+      "AlternateAdd",
+      "AlternateBL",
+      "CapableResourceRemove",
+      "CapableResourceAdd",
+      "CapableResourceBL",
+      "DisplayProperties",
+      "ExportCSV",
+      "ActionViewFilter",
+      "RelationIPExplorer"
+    ]
+  },
+  "none": {
+    "enabled": [
+      "ExportCSV"
+    ]
+  },
+  "one": {
+    "process": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "AttachDocument",
+        "SearchDocument",
+        "Relations",
+        "DisplayProperties",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "HistoryHdr",
+        "ActionBar_ChangeOwner",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "system": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "AttachDocument",
+        "SearchDocument",
+        "Relations",
+        "ManageCapableResources",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "DisplayProperties",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer",
+        "ProductFlowCmd"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "workInstruction": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "AttachDocument",
+        "SearchDocument",
+        "Relations",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "resource": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "AttachDocument",
+        "SearchDocument",
+        "Relations",
+        "HistoryHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "ExpandAll",
+        "CollapseAll",
+        "ShowCharacteristicsCmd",
+        "ShowConsolidatedCharactscsCmd",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "product": {
+      "enabled": [
+        "Hide",
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "ExploreInWebApp",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "workorder": {
+      "enabled": [
+        "Hide",
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "ExploreInWebApp",
+        "ApplyConfiguration",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer",
+        "ProductFlowCmd",
+        "DeleteHdr",
+        "Duplicate",
+        "MaturityHdr",
+        "RevisionHdr",
+        "DuplicateHdr",
+        "ExportCSV"
+      ]
+    },
+    "execHeader": {
+      "enabled": [
+        "Hide",
+        "HideAll",
+        "Refresh",
+        "Relations",
+        "HistoryHdr",
+        "ExploreInWebApp",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer",
+        "DeleteHdr",
+        "Duplicate",
+        "MaturityHdr"
+      ]
+    }
+  },
+  "multiple": {
+		"workorder": {
+			"enabled": [
+				"Hide",
+				"HideAll",
+				"DisplayProperties",
+				"MaturityHdr"
+			]
+		},
+	"execHeader": {
+      "enabled": [
+        "Hide",
+        "HideAll",
+        "DisplayProperties",
+        "MaturityHdr"
+      ]
+    },
+    "process": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "ActionBar_ChangeOwner",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "system": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ActionBar_ChangeOwner",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "workInstruction": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "DuplicateHdr",
+        "DuplicateAdv",
+        "ActionBar_ChangeOwner",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "product": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "DisplayProperties",
+        "ExpandAll",
+        "CollapseAll",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "resource": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "DisplayProperties",
+        "MaturityHdr",
+        "RevisionHdr",
+        "NewBranchHdr",
+        "ActionBar_ChangeOwner",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    },
+    "mixed": {
+      "enabled": [
+        "Hide",
+        "Refresh",
+        "ExpandAll",
+        "CollapseAll",
+        "ExportCSV",
+        "RelationIPExplorer"
+			],
+			"disabled": [
+				"MaturityHdr",
+				"DeleteHdr"
+      ]
+    }
+  },
+  "disableCommandsForReadOnlyProcessTypes": [
+    "ReplaceByLatestRevision",
+    "ReplaceByExisting",
+    "ReplaceByNewRevision",
+    "ReplaceByNewReference",
+    "CreateInstance",
+    "DetachInstance",
+    "CreateLink",
+    "DuplicateHdr",
+    "DuplicateAdv"
+  ]
+}

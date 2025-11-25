@@ -1,0 +1,21 @@
+{
+  "title": {
+    "termCreation": "Vytvořit uzel procházení",
+    "terminologyCreation": "Vytvořit strukturu procházení"
+  },
+  "options": {
+    "title": "Název",
+    "titleMessage": "Musíte zadat název",
+    "description": "Popis",
+    "descMessage": "Zadejte popis"
+  },
+  "buttons": {
+    "create": "Vytvořit",
+    "cancel": "Storno"
+  },
+  "error": {
+    "invalidFrame": "vybraný snímek je neplatný, dialog nelze vytvořit",
+    "missingcallback": "Zpětná volání chybí",
+    "invalidType": "Tento příkaz byste měli zavolat, chcete-li vytvořit strukturu procházení nebo uzel procházení"
+  }
+}

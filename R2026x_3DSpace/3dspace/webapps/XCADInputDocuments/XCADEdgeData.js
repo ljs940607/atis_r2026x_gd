@@ -1,0 +1,1 @@
+define("DS/XCADInputDocuments/XCADEdgeData",[],(function(){"use strict";function t(){this.vertices=[]}return t.prototype={getVerticesNumber:function(){return void 0===this.vertices?0:this.vertices.length/3}},t}));

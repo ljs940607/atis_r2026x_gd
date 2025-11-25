@@ -1,0 +1,1 @@
+define("DS/CfgApplicabilityUX/CfgApplicabilityUX_cs",{});define("DS/CfgApplicabilityUX/assets/nls/CfgApplicabilityNLS",{CFG_EmptyApplicability_Expression:"Pro tento kontext není definována použitelnost",CFG_Applicability_Summary:"Shrnutí použitelnosti",Applicability_Title_Edit:"Upravit",Edit_Denied:"Operace úprav není povolena"});

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration">
+	<object type="textarea" id="aspectRatioName" value="" disabled="false" mandatory="true"></object>
+  	<object type="textarea" id="aspectRatioWidth" value="" disabled="false" mandatory="true"></object>
+	<object type="textarea" id="aspectRatioHeight" value="" disabled="false" mandatory="true"></object>
+</ui>

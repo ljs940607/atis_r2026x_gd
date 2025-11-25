@@ -1,0 +1,1 @@
+define("DS/ENO3DUtils/ENO3DUtils_ja",{});define("DS/ENO3DUtils/assets/nls/ENO3DUtils",{mePreferenceLoadingFailureTitle:"アプリケーションのプリファレンスを取得できません",mePreferenceLoadingFailureSubtitle:"デフォルトのプリファレンス値が使用されます。",mePreferenceLoadingFailureDescritption:"後でやり直してください。問題が解決しない場合は、管理者にサポートを依頼してください。"});

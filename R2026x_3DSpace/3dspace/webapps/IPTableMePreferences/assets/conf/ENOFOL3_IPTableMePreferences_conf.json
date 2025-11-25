@@ -1,0 +1,214 @@
+{
+    "attributesParams": {
+        "tree": {
+            "hasNLS": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": false,
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": true
+                }
+            }
+        },
+        "favoriteTitle": {
+            "nls": "column_FavoriteTitle",
+            "hasNLS": false,
+            "icon": {
+                "iconName": "favorite-on",
+                "fontIconFamily": 1
+            },
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": false
+                }
+            }
+        },
+        "bookmarkLocation": {
+            "nls": "column_BookmarkLocation",
+            "hasNLS": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": false
+                }
+            }
+        },
+        "ds6w:library": {
+            "multiValue": true
+        },
+        "ds6w:responsible": {
+            "filterId": "set"
+        },
+        "ds6w:type": {
+            "filterId": "set"
+        },
+        "ds6w:status": {
+            "sortableFlag": false,
+            "filterId": "set"
+        },
+        "ds6wg:revision": {
+            "hasNLS": false,
+            "typeRepresentation": "url"
+        },
+        "ds6w:description": {
+            "hasNLS": false
+        },
+        "ds6w:policy": {
+            "sortableFlag": false,
+            "filterId": "set"
+        },
+        "ds6w:project": {
+            "filterId": "set"
+        },
+        "ds6w:reserved": {
+            "filterId": "set"
+        },
+        "ds6w:reservedBy": {
+            "filterId": "set"
+        },
+        "ds6w:created": {
+            "hasNLS": false,
+            "kind": "dateTime"
+        },
+        "ds6w:modified": {
+            "hasNLS": false,
+            "kind": "dateTime"
+        },
+        "ds6w:organizationResponsible": {
+            "sortableFlag": false,
+            "filterId": "set"
+        },
+        "ApprovalStatus": {
+            "nls": "column_ApprovalStatus",
+            "hasNLS": false
+        },
+        "ds6w:isLastRevision": {
+            "hasNLS": false
+        },
+        "isLastRevision": {
+            "newPredicate": "ds6w:isLastRevision",
+            "lastRelease": "2028x"
+        },
+        "thumbnail": {
+            "noFilter": true,
+            "nls": "column_Thumbnail",
+            "hasNLS": false
+        },
+        "ContextualMenuColumn": {
+            "noFilter": true,
+            "nls": "column_Menu",
+            "hasNLS": false,
+            "customisation": {
+                "layout": {
+                    "removableFromView": true,
+                    "removable": false
+                },
+                "exportable": {
+                    "lock": true,
+                    "value": false
+                }
+            }
+        }
+    },
+    "additionalColumns": [
+        "favoriteTitle", 
+        "bookmarkLocation",
+        "thumbnail",
+        "ApprovalStatus",
+        "ContextualMenuColumn"
+    ],
+    "computedAttr": [
+        "ds6w:docExtension"
+    ],
+    "computedAttrCommon": [
+        "ds6w:library",
+        "ds6w:isLastRevision"
+    ],
+    "MP_SELECTED_TYPES": [
+        "VPMReference",
+        "Document",
+        "Workspace",
+        "Workspace Vault"
+    ],
+    "MP_SELECTED_EXTS": [
+        "XCADExtension",
+        "EnterpriseExtension",
+        "MaterialUsageExtension"
+    ],
+    "MP_SELECTED_COLS": [
+        {
+            "dataIndex": "tree",
+            "ds6w": "ds6w:label",
+            "pinned": "left"
+        },
+        {
+            "dataIndex": "favoriteTitle"
+        },
+        {
+            "dataIndex": "bookmarkLocation"
+        },
+        {
+            "ds6w": "ds6wg:revision"
+        },
+        {
+            "ds6w": "ds6w:reserved"
+        },
+        {
+            "ds6w": "ds6w:description"
+        },
+        {
+            "ds6w": "ds6w:modified"
+        },
+        {
+            "ds6w": "ds6w:created"
+        },
+        {
+            "ds6w": "ds6w:responsible"
+        },
+        {
+            "ds6w": "ds6w:type"
+        },
+        {
+            "ds6w": "ds6w:status"
+        },
+        {
+            "ds6w": "ds6w:policy"
+        },
+        {
+            "ds6w": "ds6w:organizationResponsible"
+        },
+        {
+            "ds6w": "ds6w:project"
+        },
+        {
+            "ds6w": "ds6w:reservedBy"
+        },
+        {
+            "ds6w": "ds6w:isLastRevision"
+        },
+        {
+            "dataIndex": "ContextualMenuColumn",
+            "pinned": "right"
+        }
+    ],
+    "allowedIndexAttributes": [
+        "ds6w:label",
+        "ds6wg:revision",
+        "ds6w:reserved",
+        "ds6w:description",
+        "ds6w:modified",
+        "ds6w:created",
+        "ds6w:responsible",
+        "ds6w:type",
+        "ds6w:status",
+        "ds6w:policy",
+        "ds6w:organizationResponsible",
+        "ds6w:project",
+        "ds6w:reservedBy",
+        "isLastRevision",
+        "ContextualMenuColumn"
+    ]
+}

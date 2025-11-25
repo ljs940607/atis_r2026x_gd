@@ -1,0 +1,9 @@
+{
+  "ToolTipComment": "Пользователь {nickname} добавил комментарии ({number})",
+  "ToolTipPost": "Пользователь {nickname} создал публикации ({number})",
+  "ToolTipMedia": "Пользователь {nickname} создал материалы ({number})",
+  "ToolTipQuestion": "Пользователь {nickname} задал вопросы ({number})",
+  "ToolTipAnswer": "Пользователь {nickname} ответил на вопросы ({number})",
+  "ToolTipIdeation": "Пользователь {nickname} создал идеи ({number})",
+  "ToolTipDerivedType": "Пользователь {nickname} создал содержимое ({number}): {derivedtype}"
+}

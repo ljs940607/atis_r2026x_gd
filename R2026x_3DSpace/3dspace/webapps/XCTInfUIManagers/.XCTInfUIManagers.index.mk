@@ -1,0 +1,10 @@
+m|XCTInfrastructureUIWeb\XCTInfUIManagers.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCTInfUIManagers\XCTInfUIManagers.js|1723278225|887
+s|XCTInfrastructureUIWeb\XCTInfUIManagers.mweb\src\XCTInfUIManagers.js|1498651929|106
+u|XCTInfrastructureUIWeb\XCTInfUIManagers.mweb\src\XCTInfViewManager.js|1519055757|2576
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

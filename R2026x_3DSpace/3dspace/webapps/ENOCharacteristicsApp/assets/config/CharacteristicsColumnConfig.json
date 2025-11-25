@@ -1,0 +1,187 @@
+{
+	"columns": [
+		{
+			"dataIndex": "tree",
+			"text": "label_Type",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 170,
+			"alwaysVisibleFlag": true,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "title",
+			"text": "label_Title",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 80,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "menu",
+			"text": "label_ColumnActions",
+			"width": 60,
+			"pinned": "left",
+			"alwaysVisibleFlag": true,
+			"sortableFlag": true,
+			"groupableFlag": false,
+			"typeRepresentation": "contextMenu",
+			"editableFlag": false,
+			"editionPolicy": "EditionOnClick",
+			"allowUnsafeHTMLContent": false,
+			"exportFlag": false,
+			"visibleFlag": true
+		},
+		{
+			"dataIndex": "revision",
+			"text": "label_Revision",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"pinned": "left",
+			"width": 60,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "maturity",
+			"text": "label_Maturity",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"pinned": "left",
+			"width": 100,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "description",
+			"text": "label_Description",
+			"typeRepresentation": "textBlock",
+			"pinned": "left",
+			"width": 100,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "newAcceptanceLimits",
+			"text": "label_AcceptanceLimits",
+			"typeRepresentation": "UWAObject",
+			"width": 300,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false,
+			"sortableFlag" : false
+		},
+		{
+			"dataIndex": "newRoutineLimits",
+			"text": "label_RoutineReleaseLimit",
+			"typeRepresentation": "UWAObject",
+			"width": 250,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false,
+			"sortableFlag" : false
+		},
+		{
+			"dataIndex": "newSpecificationLimits",
+			"text": "label_SpecificationLimit",
+			"typeRepresentation": "UWAObject",
+			"width": 250,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false,
+			"sortableFlag" : false
+		},
+		{
+			"dataIndex": "charPrecision",
+			"text": "label_Precision",
+			"typeRepresentation": "string",
+			"width": 80,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "priority",
+			"text": "label_Priority",
+			"typeRepresentation": "string",
+			"width": 80,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "testMethods",
+			"text": "label_TestMethod",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"width": 130,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "requirements",
+			"text": "label_Requirement",
+			"typeRepresentation": "url",
+			"hyperlinkTarget": "_self",
+			"width": 130,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "missedTargetAction",
+			"text": "label_MissedTargetAction",
+			"typeRepresentation": "string",
+			"width": 120,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "dimension",
+			"text": "label_Dimension",
+			"typeRepresentation": "string",
+			"width": 100,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "parameterTemplate",
+			"text": "label_ParameterTemplate",
+			"typeRepresentation": "string",
+			"width": 100,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": false
+		},
+		{
+			"dataIndex": "notes",
+			"text": "label_Notes",
+			"typeRepresentation": "textBlock",
+			"width": 120,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		},
+		{
+			"dataIndex": "category",
+			"text": "label_Category",
+			"typeRepresentation": "string",
+			"pinned": "left",
+			"width": 100,
+			"visibleFlag" : false,
+			"allowUnsafeHTMLContent": false,
+			"autoRowHeightFlag": false,
+			"editableFlag": true
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+  "ErrorSecurityContextEmpty": "Não foi possível localizar as credenciais do usuário. Tente fazer login novamente, caso contrário, entre em contato com o suporte.",
+  "ErrorSecurityContext": "Não foi possível localizar as credenciais do usuário. Ocorreu um erro inesperado. Tente fazer login novamente, caso contrário, entre em contato com o suporte.",
+  "ErrorTimeOut": "Não foi possível localizar as credenciais do usuário. O tempo de conexão se esgotou. Tente fazer login novamente, caso contrário, entre em contato com o suporte."
+}

@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_zh",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"{0} 无效",areInvalid:"{0} 无效",idNumber:"身份证号",ssnLast4:"SSN 后 4 位"});

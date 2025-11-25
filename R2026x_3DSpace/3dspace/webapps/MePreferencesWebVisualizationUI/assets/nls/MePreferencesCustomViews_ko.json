@@ -1,0 +1,19 @@
+{
+  "views": {
+    "front": "정면도",
+    "back": "후면도",
+    "left": "좌측면도",
+    "right": "우측면도",
+    "top": "윗면도",
+    "bottom": "아랫면도",
+    "iso": "등각 보기"
+  },
+  "sightVector": "시야 방향",
+  "rightVector": "오른쪽 방향",
+  "coordX": "X",
+  "coordY": "Y",
+  "coordZ": "Z",
+  "reset": "재설정",
+  "warningTooltipTitle": "잘못된 데이터입니다. 설정이 저장되지 않습니다.",
+  "warningTooltipHelp": "시야와 오른쪽 벡터가 null이 아니고 직교인지 확인합니다."
+}

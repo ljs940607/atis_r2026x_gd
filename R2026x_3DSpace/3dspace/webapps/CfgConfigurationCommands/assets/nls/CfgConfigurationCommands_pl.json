@@ -1,0 +1,12 @@
+{
+  "Error_Models": "Nie można pobrać dołączonych modeli",
+  "Error_Deleted_Model": "Ta zawartość nie jest już dostępna lub mogła zostać usunięta.",
+  "Error_MixedType": "Wiele typów CAD nie jest obsługiwanych na potrzeby edycji kontekstu konfiguracji.",
+  "Error_Models_Incorrect_Type": "Ten wybrany obiekt nie podlega konfiguracji",
+  "Error_Incorrect_Type_Partial_Fail": "Niektóre z wybranych obiektów nie podlegają konfiguracji.",
+  "Error_Incorrect_Type_Complete_Fail": "Żaden z wybranych obiektów nie podlega konfiguracji.",
+  "Error_Multiple_Reference_xRevision": "Edycja kontekstu konfiguracji nie jest obsługiwana dla wyboru wielu odniesień z różną efektywnością wybraną w Poprawce dla modelu.",
+  "Error_Multiple_Reference_xRevision_And_Model": "Operacja Edytuj kontekst konfiguracji nie jest obsługiwana dla wielu odniesień z typem xRevision i modelem.",
+  "Error_Multiple_Reference_Model_Version": "Operacja Edytuj kontekst konfiguracji nie jest obsługiwana dla wielu odniesień z wersją modelu jako kontekstem konfiguracji.",
+  "Error_NoObjectSelection": "Wybierz obiekty do dołączenia kontekstów konfiguracji"
+}

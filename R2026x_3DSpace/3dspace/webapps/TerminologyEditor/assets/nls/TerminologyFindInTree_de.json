@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Terminologien werden gesucht..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Das gelöschte Objekt ist kein Suchstrukturobjekt.",
+    "Advice": "Löschen Sie eine Suchstruktur oder einen Knoten."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Die Funktion In Strukturbaum suchen kann nicht ausgeführt werden.",
+    "Advice": "Strukturbaum auf diesen bestimmten Suchknoten erweitern",
+    "Details": "Der gesuchte Suchknoten ist im Strukturbaum nicht sichtbar."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Die Funktion In Strukturbaum suchen kann nicht ausgeführt werden.",
+    "Advice": "Erweitern Sie den Suchstrukturabschnitt auf Ebene 1.",
+    "Details": "Unter dem Suchstrukturabschnitt sind keine Suchstrukturen sichtbar."
+  },
+  "msg_info_limit_FindInTree": "Grenzwert erreicht. Der Grenzwert ist auf 100 eingestellt.",
+  "msg_info_limitToFindInRootNode": "Der Grenzwert für die Suche in der Suchstruktur ist auf 200 eingestellt, die ersten 200 Suchstrukturen werden berücksichtigt.",
+  "msg_info_No_Occurrence": "Es wurden keine Vorkommen der Suchstruktur gefunden."
+}

@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Browsing-Strukturen",
+  "name_Widget_Title": "Browsing-Strukturdefinition",
+  "name_Widget_Help": "Hilfe zur Browsing-Strukturdefinition",
+  "name_Term": "Begriff",
+  "name_Terminology_type": "Terminologie",
+  "terminology_pref_populateTags": "Aktivieren Sie 6W-Tags zum Filtern von Browsing-Strukturen",
+  "terminology_pref_activateRelationsColumns": "Zugehörige anzeigen",
+  "useIndexAcceleration_label": "Indizierte Daten anzeigen",
+  "terminology_pref_autoSwitch_Label": "Automatischer Wechsel vom Datenbankmodus in den Indexmodus",
+  "button_remove": "Entfernen",
+  "button_close": "Schließen",
+  "Move_label": "Verschieben",
+  "Copy_label": "Kopieren",
+  "oneMin_Label": "1 Minute",
+  "threeMin_Label": "3 Minuten",
+  "fiveMin_Label": "5 Minuten",
+  "tenMin_Label": "10 Minuten",
+  "Never_Label": "Nie",
+  "Paste_content_loading": "Inhalt einfügen",
+  "Remove_content_loading": "Inhalt entfernen",
+  "Content_Loading": "Inhalt wird geladen...",
+  "Widget_Loading": "Widget wird geladen...",
+  "Tree_Loading": "Baumstruktur wird geladen...",
+  "New_Loading": "Erstellungsfenster wird geladen...",
+  "Terminology_Loading": "Browsing-Struktur wird ausgewählt...",
+  "commands": {
+    "newBrowsingNode": "Neuer Browsing-Knoten",
+    "newBrowsingStructure": "Neue Browsing-Struktur"
+  },
+  "msg_success_copyLink_terminology": "Link zur Browsing-Struktur ‚{terminologyname}‘ wurde kopiert.",
+  "msg_success_copyLink_term": "Link zum Browsing-Knoten ‚{termname}‘ wurde kopiert.",
+  "msg_success_createTerminology": "Erstellung von Browsing-Struktur ‚{terminologyName}‘ erfolgreich",
+  "msg_success_createTerm": "Erstellung von Browsing-Knoten ‚{termName}‘ erfolgreich",
+  "msg_success_createBS": "Die Browsing-Struktur wurde erfolgreich erstellt",
+  "msg_success_createBN": "Der Browsing-Knoten wurde erfolgreich erstellt",
+  "msg_info_terminologycopied": "{number} Browsing-Struktur(en) wurden zur Browsing-Struktur ‚{terminologyname}‘ hinzugefügt.",
+  "msg_info_rename_bs": "Die Browsing-Struktur ‚{name1}‘ wird in ‚{name2}‘ umbenannt.",
+  "msg_info_rename_bn": "Der Suchknoten ‚{name1}‘ wird in ‚{name2}‘ umbenannt.",
+  "msg_info_refresh": "Aktualisierung durchgeführt.",
+  "msg_info_SortNonAvailable": "Diese Spalte kann während einer Suche nicht sortiert werden.",
+  "msg_info_treeFilterRemove": "Die auf die Struktur angewendeten Filter werden entfernt, nachdem Sie eine Browsing-Struktur hinzugefügt haben.",
+  "msg_warning_nocurrentterminology": "Keine aktuelle Browsing-Struktur: Wählen Sie eine Browsing-Struktur aus.",
+  "msg_warning_noselection": "Mindestens ein Objekt muss ausgewählt werden.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "Der letzte Erweiterungsstatus wird nicht gespeichert.",
+    "Advice": "Minimieren Sie einige Browsing-Strukturen, um das Speichern von Erweiterungsstatus zu ermöglichen.",
+    "Details": "Es wurden zu viele Browsing-Strukturen erweitert."
+  },
+  "msg_warning_copyLink": "Das ausgewählte Objekt ist keine Browsing-Struktur.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "Kontext-Suche wird nicht unterstützt, wenn die Anzahl der Browsing-Strukturen größer als 200 ist.",
+  "msg_error_Addinterminology": "Sie können dieser Browsing-Struktur keinen Inhalt hinzufügen.",
+  "msg_error_CopyTerminology": "Fehler beim Kopieren der Browsing-Struktur(en).",
+  "msg_error_MoveInterminology": "Fehler beim Verschieben von Objekt(en).",
+  "msg_error_MoveInSameterminology": {
+    "title": "Wählen Sie eine andere Browsing-Struktur aus. ",
+    "subtitle": "Die Ziel-Browsing-Struktur und die Quell-Browsing-Strukturen sind identisch."
+  },
+  "msg_error_rename": {
+    "Title": "Sie können das Browsing-Element nicht umbenennen: {name}.",
+    "Advice": "Stellen Sie sicher, dass der Name nicht bereits verwendet wird oder dass Sie die richtigen Anmeldeinformationen verwenden.",
+    "Details": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich, um dieses Objekt umzubenennen."
+  },
+  "msg_error_invalidselection": "Der Befehl kann ohne Auswahl nicht gestartet werden",
+  "msg_error_name_maxlength": "Geben Sie einen \"{name}\" mit maximal {maxLength} Zeichen ein.",
+  "msg_error_name_empty": "Geben Sie einen Wert für den Namen ein.",
+  "msg_error_TerminologyActivate": {
+    "title": "Sie können {name1} nicht aktivieren.",
+    "subtitle": "Das Objekt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Ordnen Sie diesem Browsing-Knoten eine Browsing-Struktur zu.",
+    "subtitle": "Die Browsing-Struktur ist möglicherweise nicht sichtbar. Sie ist beispielsweise nicht aktiv. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Struktur kann nicht erweitert werden.",
+    "subtitle": "Aktualisieren Sie die App und versuchen Sie es erneut oder wenden Sie sich an den Administrator."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "{label} enthält ungültige Zeichen: {badChars}.",
+    "Advice": "Die folgenden Zeichen dürfen nicht verwendet werden: Meldung: ~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Auf den Inhalt der Browsing-Struktur kann nicht mehr zugegriffen werden.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Der Inhalt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_InfoAction_Timeout": "Keine Antwort von der gestarteten Aktion innerhalb der Zeitüberschreitung erhalten. Die Ausführung kann mehr Zeit beanspruchen. Das Ergebnis wird kurz nach der manuellen Aktualisierung angezeigt.",
+  "msg_error_timeout": {
+    "title": "Die Verbindung zum Server wurde durch Zeitüberschreitung unterbrochen.",
+    "subtitle": "Prüfen Sie die Verbindung oder verringern Sie die während dieses Vorgangs zu übermittelnde Datenmenge."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Diese Browsing-Struktur ist nicht mehr verfügbar.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Die Browsing-Struktur wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Diese Browsing-Struktur ist nicht mehr verfügbar.",
+    "subtitle": "Aktualisieren Sie das Widget.",
+    "message": "Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_copylink": {
+    "title": "Verknüpfung kann nicht in die Zwischenablage kopiert werden. ",
+    "subtitle": " Wiederholen Sie den Vorgang oder wenden Sie sich an den Administrator. "
+  },
+  "msg_error_createNewFromFramework": "Neu erstellen fehlgeschlagen:",
+  "msg_error_createNew": {
+    "Title": "Dieses Objekt kann nicht erstellt werden: {type}.",
+    "Advice": "Stellen Sie sicher, dass Sie die richtigen Anmeldeinformationen verwenden.",
+    "Details": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich, um diesen Objekttyp zu erstellen."
+  },
+  "msg_error_rest": {
+    "title": "Die Serververbindung wurde unerwartet getrennt.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "msg_warning_notProductRoot": "Objekt wurde nicht gefunden.",
+  "msg_warning_contentnotavailable": "Inhalte konnten nicht abgerufen werden. Ggf. wurden sie gelöscht oder in den Status 'Private' (privat) versetzt.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "Inhalt kann nicht entfernt werden.",
+    "advice": "Wählen Sie eine untergeordnete Terminologie aus, um die Suchergebnisse einzugrenzen.",
+    "details": "Inhalt kann nicht aus mehr als 20 Browsing-Strukturen entfernt werden."
+  },
+  "CMDClearSort": "Sortierung löschen",
+  "CMDShareTerminologyLink": "Verknüpfung kopieren",
+  "CMDShowInTerminologies": "In Browsing-Strukturen anzeigen",
+  "alpha_sorting": "Alphabetische Reihenfolge",
+  "alpha_sort_label": "Titel",
+  "date_sorting": "Datumsreihenfolge",
+  "date_sort_label": "Änderungsdatum",
+  "fonticon_filter": "Der Fensterinhalt ist derzeit gefiltert",
+  "loadingText": "Wird geladen...",
+  "SearchEnterMoreThan": "Für eine Suche werden mindestens {minNumber} Zeichen benötigt.",
+  "confirmation_move_title": "Inhalt verschieben",
+  "confirmation_move_message": "Möchten Sie den Kontext von {source} in {target} verschieben?",
+  "confirmation_move_message_monosel": "Möchten Sie {selection} von {source} zu {target} verschieben?",
+  "confirmation_move_message_mono_from_tree": "Möchten Sie {source} zu {target} verschieben?",
+  "confirmation_move_message_multisel": "Möchten Sie {nth} Elemente von {source} zu {target} verschieben?",
+  "confirmation_move_button": "Verschieben",
+  "confirmation_info": "Andere Attribute außer Titel und Beschreibung gehen beim Konvertieren von \n {From} in {To} verloren. Alle Attribute werden für untergeordnete Objekte kopiert.",
+  "authentication_error": {
+    "title": "Angegebenes Widget kann nicht gestartet werden.",
+    "subtitle": "Überprüfen Sie Ihre Anmeldeinformationen und versuchen Sie es erneut."
+  },
+  "noPlatform_error": "Diese App ist in keiner Ihrer Umgebungen verfügbar.",
+  "placeholder_msg_terminology": "Diese Browsing-Struktur ist derzeit leer.",
+  "placeholder_CreateTerminology": "Neue Browsing-Struktur",
+  "placeholder_CreateTerm": "Neuer Browsing-Knoten",
+  "column_Thumbnail": "Miniaturbild",
+  "placeholder_msg_section": "Keine Browsing-Struktur erstellt.",
+  "placeholder_msg_terms": "Kein Browsing-Knoten erstellt",
+  "placeholder_msg_search": "Keine Ergebnisse gefunden.",
+  "refresh_ongoing": "Wird aktualisiert...",
+  "refresh_ok": "Aktualisierung durchgeführt",
+  "refreshError": {
+    "title": "Widget kann nicht aktualisiert werden.",
+    "subtitle": "Wenden Sie sich an Ihren Administrator."
+  },
+  "success": "Erfolgreich",
+  "warning": "Warnung",
+  "information": "Informationen",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Dieser Inhalt ist nicht mehr verfügbar.",
+    "Advice": "Möglicherweise verfügen Sie nicht über die erforderliche Zuständigkeit im Ziel-Teamarbeitsbereich, um diesen Objekttyp zu erstellen.",
+    "Details": "Das Objekt wurde möglicherweise gelöscht oder Sie verfügen nicht über die erforderlichen Berechtigungen."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Einfügen nicht möglich.",
+    "InvalidParameters": "Die ausgewählten Objekte können nicht in dieses Ziel eingefügt werden. ",
+    "BNDestination": "Browsing-Knoten können nicht in den Abschnitt Browsing-Strukturen eingefügt werden.",
+    "BSDestination": "Die Browsing-Struktur kann nur unter dem Abschnitt Browsing-Strukturen eingefügt werden."
+  },
+  "msg_paste_error": "Einfügen nicht möglich.",
+  "indexMode": {
+    "Authoring": "Datenbank.",
+    "Index": "Index.",
+    "Label": "Index",
+    "seconds": "Sekunde(n)",
+    "minutes": "Minute(n)",
+    "hours": "Stunde(n)",
+    "msg_Authoring": "Datenbankmodus ist aktiv. Die Leistung kann beeinträchtigt sein.",
+    "activeMode": "Aktiver Modus: {mode}",
+    "lastRefresh": "Letzte Aktualisierung: vor {timeElapsed}.",
+    "reactIndexMode": "Der Indexmodus wird in {autoSwitch} Minuten nach dem Zeitpunkt des Authoring-Vorgangs oder der Aktualisierung erneut aktiviert.",
+    "info_msg_DataNotUptoDate": "Der Indexmodus ist aktiv. Die Daten sind möglicherweise nicht aktuell."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "Die ausgewählte Browsing-Struktur {name} ist in der Struktur nicht sichtbar. Scrollen Sie zur Ansicht und wählen Sie sie aus.",
+  "ViewTooltip": {
+    "ds6w:label": "Titel",
+    "ds6w:modified": "Änderungsdatum",
+    "ds6w:responsible": "Eigentümer",
+    "ds6w:type": "Typ",
+    "ds6w:status": "Bearbeitungsstatus",
+    "ds6w:project": "Teamarbeitsbereich",
+    "ds6w:identifier": "Name"
+  },
+  "notifications": {
+    "expandTooLarge": "Zu viele Objekte abgerufen.<br> Grenzen Sie die Navigation mit Filtern ein oder reduzieren Sie die Erweiterungsebene.",
+    "initialization_error": {
+      "title": " In der App ist ein unerwarteter Fehler aufgetreten.",
+      "subtitle": "Wenden Sie sich an Ihren Administrator."
+    },
+    "tooManyResultFound": "Die Suche ist auf {maxResult} Ergebnisse beschränkt. Verfeinern Sie die Abfrage."
+  },
+  "generic_service_failure": "Objektinformationen konnten nicht abgerufen werden. Versuchen Sie es in einigen Minuten erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator",
+  "cannot_insert_branch": "Fehler beim Hinzufügen des Objekts",
+  "cannot_access_after_changeowner": "Zugriff auf Objekt nach Besitzrechtsänderung nicht möglich"
+}

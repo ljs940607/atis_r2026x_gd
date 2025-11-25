@@ -1,0 +1,18 @@
+{
+  "ConnectorOrderAccordText": "CAD Şablonu için CAD Sıralaması",
+  "ColumnParamNameHeader": "Ad",
+  "ColumnParamInfoHeader": "Bilgi",
+  "ColumnParamValueHeader": "Değer",
+  "ColumnParamActionsHeader": "Eylemler",
+  "ColumnParamDeployStatusHeader": "Dağıtım Durumu",
+  "ParamConnectorOrderName": "Tercih edilen CAD sıralaması",
+  "ParamConnectorOrderInfoTooltip": "Ürün Yapısı Düzenleyicisi > Yeni Oluştur seçeneğinde kullanılacak CAD Şablonu için CAD Sıralamasının tanımlanmasını sağlar",
+  "XCADCanNotBeRemoved": "CAD kaldırılamaz",
+  "DeployedStatusText": "Dağıtıldı",
+  "NotDeployedStatusText": "Dağıtılmadı",
+  "NewValueNotDeployedStatusText": "Yeni değer dağıtılmadı",
+  "InvalidValueDeployStatusText": "Geçersiz değer dağıtılamadı",
+  "deleteCADSequencing": "CAD Şablonunun CAD sıralamasını sil",
+  "deleteErrorMessage": "CAD sıralaması silinirken hata oluştu!",
+  "deleteSuccessMessage": "CAD sıralama parametresi başarıyla silindi!"
+}

@@ -1,0 +1,1 @@
+define("DS/ApplicationFrame/ApplicationFrame_tr",{});define("DS/ApplicationFrame/assets/nls/ApplicationFrameActionBar",{hideActionBar:"Eylem Çubuğunu Gizle",showActionBar:"Eylem Çubuğunu Göster"});

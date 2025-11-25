@@ -1,0 +1,11 @@
+{
+  "errorName": "会社名は必須です",
+  "errorTaxRegId": "税登録 ID の形式が無効です",
+  "noSpecialCharacterMessage": "英数字のみ（アクセント記号なし）使用できます",
+  "errorPersonalIdNUmberFormat": "個人 ID 番号の形式が無効です",
+  "errorRegistrationIdFormat": "登録 ID の形式が無効です",
+  "errorCountry": "国は必須です",
+  "errorCeoFirstName": "会社所有者の名は無効です",
+  "errorCeoLastName": "会社所有者の姓は無効です",
+  "invalidURL": "Web サイト URL が無効です"
+}

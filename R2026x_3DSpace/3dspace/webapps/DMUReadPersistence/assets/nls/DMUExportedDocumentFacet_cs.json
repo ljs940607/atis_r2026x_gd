@@ -1,0 +1,16 @@
+{
+  "title": "Název",
+  "fileType": "Typ souboru",
+  "creationDate": "Datum vytvoření",
+  "revision": "Revize",
+  "owner": "Vlastník",
+  "menu": "Nabídka",
+  "download": "Stáhnout",
+  "downloadTitle": "Stáhnout",
+  "downloadTooltip": "Stáhnout vybrané soubory/dokumenty",
+  "openWith": "Otevřít v programu",
+  "openWithTitle": "Otevřít v programu",
+  "openWithTooltip": "Otevřít soubory/dokumenty do kompatibilních externích aplikací",
+  "noDataGridDisplayed": "Neexistují žádné exportované dokumenty k zobrazení",
+  "errorWhenFetchingExportedDocuments": "Při načítání exportovaných dokumentů došlo k chybě"
+}

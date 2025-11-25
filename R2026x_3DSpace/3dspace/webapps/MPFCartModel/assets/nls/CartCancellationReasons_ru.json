@@ -1,0 +1,13 @@
+{
+  "alreadyOrderedElseWhere": "Я уже оформил(-а) заказ через другой канал/поставщика",
+  "doNotWishToSay": "Не хочу говорить",
+  "doNotDeliverToThisCountry": "Мы не доставляем в эту страну",
+  "doNotProvideThisService": "Мы не предоставляем услуги такого рода",
+  "onlyWantedQuote": "Я был(-а) заинтересован(-а) в получении ценового предложения только на данный момент",
+  "operatorCancellationMessage": "Этот запрос был отменен оператором Dassault Systèmes.",
+  "other": "Другое",
+  "partTooLargeTooComplex": "Деталь слишком большая или слишком сложная",
+  "priceTooHigh": "Слишком высокая цена",
+  "requestLeadTimeTooShort": "Запрошен слишком короткий срок разработки",
+  "cancellationReason": "Причина отмены: {reason}"
+}

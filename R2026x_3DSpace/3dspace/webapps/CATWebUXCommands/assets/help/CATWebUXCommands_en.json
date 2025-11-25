@@ -1,0 +1,5 @@
+{
+"DMUCaptureCmdHdr.Title":"Copy Screenshot",
+"DMUCaptureCmdHdr.ShortHelp":"Take the screenshot of the viewer and copy to the clipboard",
+"DMUCaptureCmdHdr.LongHelp":"The screenshot only includes the content of the 3D viewer, the panels (such as the layer panel or side panel), and the action bar are not captured."
+}

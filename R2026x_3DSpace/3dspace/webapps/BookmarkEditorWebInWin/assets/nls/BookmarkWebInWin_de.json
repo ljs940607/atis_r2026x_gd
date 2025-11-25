@@ -1,0 +1,15 @@
+{
+  "confirmUpdateTitle": "Aktualisierungsbestätigung",
+  "confirmUpdateMsg": "Möchten Sie mit dieser Operation fortfahren?\nMindestens ein Objekt wurde in der Sitzung geändert und noch nicht gespeichert.",
+  "confirmationMsg": "Wenn Sie diese Operation fortsetzen, können Sie die Objekte später nicht speichern.",
+  "cancelUpdate": "Abbrechen",
+  "continueUpdate": "Fortfahren",
+  "titleNbObject": "{nb} Objekte",
+  "sessionRefreshNeeded": {
+    "title": "Aktualisierung erforderlich",
+    "subtitle": "Einige Objekte in der Sitzung müssen aktualisiert werden.",
+    "message": "Aktualisierte Objekte verlieren die letzten Änderungen."
+  },
+  "refresh": "Sitzung aktualisieren",
+  "checkInSession": "Aktuelle Objekte in Sitzung werden geprüft..."
+}

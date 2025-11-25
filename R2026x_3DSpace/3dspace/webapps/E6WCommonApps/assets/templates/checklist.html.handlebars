@@ -1,0 +1,25 @@
+{{#if hasItems}}
+
+{{else}}
+<div class="eno-empty-set-wrapper">
+    <div class="eno-empty-set-content">
+        <div class="eno-empty-set-icon">
+            <span class="fonticon fonticon-list-ok"></span>
+        </div>
+        <div class="eno-empty-set-info">
+            <span class="eno-empty-set-info-title">{{i18n "E6WCommonApps.Label.NoChecklistItemsFound"}}</span>
+            {{#if allowCreation}}
+            <span class="eno-empty-set-info-instructions">{{i18n "E6WCommonApps.Label.CreateNewChecklistDescription"}}</span>
+            {{/if}}
+        </div>
+        {{#if allowCreation}}
+        <div class="eno-empty-set-actions">
+            <button type="button" class="btn-primary btn btn-root" id="emptyCreateButton">
+                <span class="fonticon fonticon-plus"></span>
+                      {{i18n "E6WCommonApps.Label.New"}}
+            </button>
+        </div>
+        {{/if}}
+    </div>
+</div>
+{{/if}}

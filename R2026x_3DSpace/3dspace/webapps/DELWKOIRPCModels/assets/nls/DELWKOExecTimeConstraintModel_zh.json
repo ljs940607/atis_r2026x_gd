@@ -1,0 +1,14 @@
+{
+  "MaxDelay": "MaxDelay",
+  "MinDelay": "MinDelay",
+  "Synchro": "同步",
+  "FinishToStart": "结束对开始",
+  "StartToStart": "开始对开始",
+  "FinishToFinish": "结束对结束",
+  "StartToFinish": "开始对结束",
+  "PreviousCycle": "上一个周期",
+  "DifferentResources": "不同资源",
+  "None": "无",
+  "SameResources": "相同资源",
+  "SameResourcesWithReservation": "与保留相同的资源"
+}

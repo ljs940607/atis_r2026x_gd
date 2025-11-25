@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="VPLMAdministration">
+  <Domain id="AttributeDef">
+    <Family id="InsSurfaceInsulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsSurfaceInsulation">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsSurfaceInsulation"/>
+    </Family>
+    <Family id="InsProfileInsulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsProfileInsulation">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsProfileInsulation"/>
+    </Family>
+    <Family id="InsSpiralInsulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsSpiralInsulation">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsSpiralInsulation"/>
+    </Family>
+    <Family id="InsFormedInsulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsFormedInsulation">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsFormedInsulation"/>
+    </Family>
+    <Family id="InsFlatRawMaterial" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsFlatRawMaterial">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsFlatRawMaterial"/>
+    </Family>
+    <Family id="InsLinearRawMaterial" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.InsLinearRawMaterial">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMInsulation"/>
+      <Constant id="type" value="InsLinearRawMaterial"/>
+    </Family>
+  </Domain>
+</OOTBParameterization>

@@ -1,0 +1,116 @@
+.cfg-X-revision-versionexplorerview {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cfg-X-revision-versionexplorerview .version-subway-canvas {
+  border: 1px solid #d4d4d4;
+}
+
+.cfg-X-revision-versionExplorerEmptyView {
+  width: 100%;
+  color: silver;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.xRevision {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+#xRevision-button {
+  margin: 10px;
+  width: 300px;
+}
+
+#CfgModelInVariability {
+  height: 25px;
+  display: flex;
+}
+
+.CfgVersionGraphInVariability {
+  min-height: 150px;
+  height: calc(100% - 26px);
+}
+
+.contextLabel {
+  font-size: 12px;
+  font-weight: bold;
+  flex: 0 1 auto;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.cfgContextDiv {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.cfgContextDiv img {
+  max-width: 20px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.VariabilityResize {
+  flex-direction: column;
+  height: 60px !important;
+}
+
+.CfgVersionGraphInVariabilityResize {
+  height: calc(100% - 60px);
+}
+
+.CfgReuse {
+  display: flex;
+}
+
+.CfgRefSearchButton {
+  position: relative;
+  right: 20px;
+  top: 5px;
+}
+
+div.revisionControlDropDown .wux-controls-combobox {
+  width: 100%;
+}
+
+div.modelCriteriaDropDown .wux-controls-combobox {
+  width: 100%;
+}
+
+div.revisionPLMNewContainer {
+  padding: 7px 7px 7px 20px;
+  overflow-y: auto;
+}
+
+.xRevAutocompleteContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  width: fit-content;
+}
+
+#CfgContainerInVariability {
+  display: flex;
+  align-items: center;
+}
+
+#CfgContainerInVariability .wux-controls-toolbar.wux-toolbar-horizontal {
+  width: auto;
+}

@@ -1,0 +1,44 @@
+{
+    "customTablesAccordText": "Custom Tables",
+
+    "nameColumnHeader": "Name",
+    "infoColumnHeader": "Info",
+    "valueColumnHeader": "Value",
+    "actionsColumnHeader": "Actions",
+    "deployStatusColumnHeader": "Deploy Status",
+
+    "infoIconTooltip": "Allows to define Custom Tables which can be used with multiple commands at CAD side.",
+
+    "addColumnTooltip": "Add Column",
+    "deleteIconTooltip": "Delete Table",
+
+    "deployedStatusText": "Deployed",
+    "notDeployedStatusText": "Not Deployed",
+    "newValueNotDeployedStatusText": "New value not deployed",
+
+    "columnIsAlreadyPresentMessage": "Column is already present.",
+    "columnIsEmptyMessage": "The column value cannot be blank. Please select a column.",
+
+    "addCustomTableTooltip": "Add Custom Table",
+    "addValidTableNameMessage": "Please enter a valid table name.",
+    "addUniqueTableNameMessage": "Table name already in use. Please enter a different table name.",
+
+    "tableIsUsedByConnectorsMessage": "Table is used by connectors. It can not be deleted.",
+    "deleteCustomTableFailureMessage": "Failure in deleting custom table. Please contact your administrator.",
+    "deleteCustomTableSuccessMessage": "Table deleted successfully.",
+
+    "nameLabel": "Name",
+    "nameEditorPlaceholder": "No special characters allowed.",
+    "modalDialogTitle": "Add Custom Table",
+    "okButtonLabel": "OK",
+    "cancelButtonLabel": "Cancel",
+
+    "addColumnOkButtonLabel": "OK",
+    "addColumnCancelButtonLabel": "Cancel",
+    "addColumnModalDialogTitle": "Add Column",
+    "gcoLabel": "Connector",
+    "typeLabel": "Type",
+    "extensionLabel": "Extension",
+    "attributeLabel": "Attribute",
+    "addColumnButtonLabel": "Add Column"
+}

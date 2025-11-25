@@ -1,0 +1,1 @@
+define("DS/XCADIFCZIPDocument/IFCZIPInputDocument",["DS/XCADIFCDocument/IFCInputDocument"],(function(e){"use strict";return e.zipped=!0,e.requestResponseType="arraybuffer",e}));

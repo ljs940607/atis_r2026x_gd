@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="HVAC3D">
+	<Domain id="AttributeDef">
+        <Family id="HVAC_AccessCover" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_AccessCover">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_AccessCover"/>
+        </Family>
+        <Family id="HVAC_Cap" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Cap">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Cap"/>
+        </Family>
+		<Family id="HVAC_Cross" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Cross">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Cross"/>
+        </Family>
+		<Family id="HVAC_Damper" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Damper">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Damper"/>
+        </Family>
+		<Family id="HVAC_Diffuser" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Diffuser">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Diffuser"/>
+        </Family>
+		<Family id="HVAC_DuctXPort" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_DuctXPort">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_DuctXPort"/>
+        </Family>
+		<Family id="HVAC_Elbow" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Elbow">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Elbow"/>
+        </Family>
+		<Family id="HVAC_Flange" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Flange">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Flange"/>
+        </Family>
+		<Family id="HVAC_Flexible_Duct" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Flexible_Duct">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Flexible_Duct"/>
+        </Family>
+		<Family id="HVAC_Gasket" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Gasket">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Gasket"/>
+        </Family>
+		<Family id="HVAC_Instrument" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Instrument">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Instrument"/>
+        </Family>
+		<Family id="HVAC_Port" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Port">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Port"/>
+        </Family>
+		<Family id="HVAC_Reducer" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Reducer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Reducer"/>
+        </Family>
+		<Family id="HVAC_Rigid_Duct" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Rigid_Duct">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Rigid_Duct"/>
+        </Family>
+		<Family id="HVAC_Saddle" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Saddle">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Saddle"/>
+        </Family>
+		<Family id="HVAC_Silencer" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Silencer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Silencer"/>
+        </Family>
+		<Family id="HVAC_Spool" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Spool">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Spool"/>
+        </Family>
+		<Family id="HVAC_Tee" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Tee">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Tee"/>
+        </Family>
+		<Family id="HVAC_Transition" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Transition">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Transition"/>
+        </Family>
+		<Family id="HVAC_Union" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Union">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Union"/>
+        </Family>
+		<Family id="HVAC_Miscellaneous" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Miscellaneous">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMHVAC"/>
+            <Constant id="type" value="HVAC_Miscellaneous"/>
+        </Family>
+		<Family id="Raw_Material_Duct" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raw_Material_Duct">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLM3DFluidicRaw"/>
+            <Constant id="type" value="Raw_Material_Duct"/>
+        </Family>
+		<Family id="HVAC_Insulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.HVAC_Insulation">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMEnsPhysical"/>
+            <Constant id="type" value="HVAC_Insulation"/>
+        </Family>
+  </Domain>
+</OOTBParameterization>
+

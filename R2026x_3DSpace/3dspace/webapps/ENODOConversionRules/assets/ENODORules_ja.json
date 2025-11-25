@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "派生出力ルールの詳細",
+    "doattributes": "派生出力ルール属性",
+    "name": "名前",
+    "connector": "コネクター",
+    "implicitRule": "暗黙のルール",
+    "external": "外部生成",
+    "parameters": "変換パラメーター",
+    "converter": "コンバーター",
+    "origin": "原点",
+    "forceUpdate": "強制更新",
+    "uptodateDO": "最新",
+    "jobStatus": "ジョブのステータス",
+    "format": "形式",
+    "alias": "統一形式",
+    "yes": "はい",
+    "no": "いいえ"
+  },
+  "buttons": {
+    "cancel": "キャンセル"
+  },
+  "popup": {
+    "option": "オプション",
+    "value": "値",
+    "yesButton": "はい",
+    "noButton": "いいえ",
+    "cancelButton": "キャンセル"
+  },
+  "error": {
+    "title": "エラー",
+    "invalidFrame": "操作を実行できません。ウィジェットを更新して、再試行してください。",
+    "invalidParameter": "パラメーターが正しく定義されていません。"
+  }
+}

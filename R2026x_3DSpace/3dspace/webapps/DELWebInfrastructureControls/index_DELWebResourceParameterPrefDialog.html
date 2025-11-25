@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+
+    <!-- Application Metas -->
+    <title>DELWebResourceParameterPrefDialog</title>
+    <meta name="description" content="Full Screen Resource Parameters Dialog" />
+
+    <!-- AMDLoader -->
+    <script type="text/javascript" src="../AmdLoader/AmdLoader.js"></script>
+    <script type="text/javascript" src="../WebappsUtils/WebappsUtils.js"></script>
+
+    <!-- UWA -->
+    <link rel="stylesheet" type="text/css" href="../c/UWA/assets/css/standalone.css" />
+    <script type="text/javascript" src="../c/UWA/js/UWA_Standalone_Alone.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Controls/nv-patch.css" comment="to manage taking over the entire page" />
+
+    <!-- Application JS Start -->
+    <script>
+        /* global widget */
+        setTimeout( function () {
+            'use strict';
+
+            if (window.location.href.indexOf('useFixtures=1') > 0) {
+                //add the script to manage fixtures for testing
+                var fixtureScriptElem = document.createElement('script');
+                fixtureScriptElem.setAttribute('src','../DELWebInfrastructure/jquery.uwa.fixture.js');
+                document.head.appendChild(fixtureScriptElem);
+
+                //make sure that the notifications are above the modal dialog
+                var fixtureStyleElem = document.createElement('style');
+                fixtureStyleElem.textContent = '.wux-notification-screen { z-index:40001 !important; }';
+                document.head.appendChild(fixtureStyleElem);
+            }
+
+            require([
+                'UWA/Core',
+                'DS/DELWebInfrastructureControls/DELWebResourceParameter/DELWebResourceParameterPrefDialog',
+                'DS/UWPClientCode/PublicAPI'
+            ],
+            function (UWA, DELWebResourceParameterPrefDialog,PublicAPI) {
+                var module = UWA.extend(document.querySelector('.module'));
+                if (module) {
+                    module.setStyles({
+                        position: 'absolute',
+                        top: 0,
+                        width: 'auto',
+                        left: 0,
+                        right: 0,
+                        bottom: 0
+                    });
+                }
+
+                var myUrl = location.href;
+                if (myUrl && (myUrl.indexOf('?') > 0)) {
+                    var myUrlUserDeatils = myUrl.split("?");
+                    if (myUrlUserDeatils && (myUrlUserDeatils.length > 1)) {
+                        var arrKeyValuePairs = myUrlUserDeatils[1].split('&');
+                        if (arrKeyValuePairs && (arrKeyValuePairs.length > 0)) {
+                            var myUrlUserID = null;
+                            for(var idxKeyValuePair = 0 ; idxKeyValuePair < arrKeyValuePairs.length ; ++idxKeyValuePair) {
+                                var arrPair = arrKeyValuePairs[idxKeyValuePair].split("=");
+                                if (arrPair && (arrPair.length > 1)) {
+                                    if (arrPair[0] === 'user') {
+                                        myUrlUserID = arrPair[1]; //this is the user to set as the login
+                                        break; //for now, we only care about this one parameter
+                                    }
+                                }
+                            }
+
+                            if (myUrlUserID) {
+                                PublicAPI._setUser({login:myUrlUserID});
+                            }
+                        }
+                    }
+                }
+
+                UWA.debug = false;
+                var myWidget = {
+                    onLoad: function () {
+                        var that = this;
+
+                        //set the standalone flag if needed
+                        if(window.widget && window.widget.environment && window.widget.environment.name) {
+                            window.widget.standalone = (window.widget.environment.name == 'uwa');
+                        }
+
+
+                        var objParams = {
+                            flippable: false,
+                            blnForceRefresh: true,
+                            blnSuppressCreateDlg: true,
+                            resizableFlag: false,
+                            maximizedFlag: true,
+                            width: window.innerWidth,
+                            onClose: function() {
+                                UWA.log('DELWebResourceParameterPrefDialog Closed!');
+                                this._displayNotificationMessage('DELWebResourceParameterPrefDialog Closed!', {level:'info'});
+                            }
+                        };
+
+                        //no dialog exists yet, so we need to create it
+                        this._prefDialog = new DELWebResourceParameterPrefDialog(objParams);
+                        that._prefDialog.getContent().setStyles({top:0, bottom:0, left:0, right:0});
+                        window.setTimeout(function() {
+                            that._prefDialog.getContent().setStyles({top:0, bottom:0, left:0, right:0});
+                            that._prefDialog.elements._mainContentDiv.setStyles({width: '100%', height: '100%'});
+                            that._prefDialog.elements._footerDiv.setStyles({width: '100%'});
+                        }, 500);
+                        window._prefDialog = this._prefDialog;
+                    }
+                };
+
+                if (widget.launched) {
+                    myWidget.onLoad();
+                } else {
+                    widget.onLoad = myWidget.onLoad;
+                }
+            });
+
+        }, 500 ) ;
+    </script>
+    <!-- Application JS End -->
+
+</head><body></body></html>

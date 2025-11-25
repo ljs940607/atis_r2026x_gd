@@ -1,0 +1,1 @@
+define("DS/MPFCompanyUboModel/MPFCompanyUboModel_pl",{});define("DS/MPFCompanyUboModel/assets/nls/CompanyUboModel",{isInvalid:"{0} jest nieprawidłowy",areInvalid:"{0} są nieprawidłowe",idNumber:"Numer ID",ssnLast4:"Ostatnie 4 cyfry numeru SSN"});

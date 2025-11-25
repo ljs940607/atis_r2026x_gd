@@ -1,0 +1,1 @@
+define("DS/MPFMultiBiddingSelector/MPFMultiBiddingSelector_ko",{});define("DS/MPFMultiBiddingSelector/assets/nls/MultiBiddingSelector",{next:"다음",selectedLabs:"선택된 실험실"});

@@ -1,0 +1,126 @@
+{
+    "globalInformation": {
+        "text":"Fill the information below to create a new marker on the map",
+            "emphasize": "info",
+            "icon    ": "info"
+    },
+    "model": [
+    {
+        "id":"title",
+        "label":"Title",
+        "typeRepresentation":"string",
+        "semantics": {
+            "placeholder": "Enter your marker title here"
+        }
+    },
+    {
+        "id":"lat",
+        "label":"Latitude",
+        "typeRepresentation":"number",
+        "semantics": {
+            "placeholder": "From -90° to 90°"
+        }
+    },
+    {
+        "id":"lng",
+        "label":"Longitude",
+        "typeRepresentation":"number",
+        "semantics": {
+            "placeholder": "From -180° to 180°"
+        }
+    },
+    {
+        "id":"desc",
+        "label":"Description",
+        "typeRepresentation":"string",
+        "semantics": {
+            "placeholder": "Enter your marker description here"
+        }
+    },
+    {
+      "id":"visible",
+      "label":"Visible",
+      "typeRepresentation":"boolean",
+      "value": true
+  },
+    {
+        "id": "iconFolder",
+        "label": "Icon",
+        "style": "expander",
+        "expandedFlag": true,
+        "children": [
+            {
+                "id":"icon",
+                "label":"Name",
+                "typeRepresentation":"string",
+                "value":"record"
+            },
+            {
+                "id":"color",
+                "label":"Color",
+                "typeRepresentation":"color",
+                "value":"#3D3D3D"
+            }
+        ]
+    },
+    {
+        "id": "notificationFolder",
+        "label": "Notification",
+        "style": "expander",
+        "expandedFlag": true,
+        "children": [
+            {
+                "id":"notificationText",
+                "label":"Text",
+                "typeRepresentation":"string"
+            },
+            {
+                "id":"notificationColor",
+                "label":"Color",
+                "typeRepresentation":"color",
+                "value":"#E87B00"
+            }
+        ]
+    },{
+        "id": "badgeFolder",
+        "label": "Badge",
+        "style": "expander",
+        "expandedFlag": true,
+        "children": [
+            {
+                "id":"badgeIcon",
+                "label":"Icon",
+                "typeRepresentation":"string"
+            },
+            {
+                "id":"badgeColor",
+                "label":"Color",
+                "typeRepresentation":"color",
+                "value":"#00B8DE"
+            }
+        ]
+    },{
+        "id": "popupFolder",
+        "label": "Popup",
+        "style": "expander",
+        "expandedFlag": true,
+        "children": [
+            {
+                "id":"popupTrigger",
+                "label":"Trigger",
+                "typeRepresentation":"string",
+                "value": "click",
+                "semantics": {
+                    "possibleValues": ["click", "hover", "both"]
+                }               
+            },
+            {
+                "id":"popupContent",
+                "label":"Content",
+                "typeRepresentation":"string"
+            }
+        ]
+    }],
+    "readOnly":false,
+    "buttons": []
+}

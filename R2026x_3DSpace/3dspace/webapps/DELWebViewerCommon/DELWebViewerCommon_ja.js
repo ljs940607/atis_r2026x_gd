@@ -1,0 +1,1 @@
+define("DS/DELWebViewerCommon/DELWebViewerCommon_ja",{});define("DS/DELWebViewerCommon/assets/nls/nls",{"Error.InvalidInput.Message":"入力が無効です。"});

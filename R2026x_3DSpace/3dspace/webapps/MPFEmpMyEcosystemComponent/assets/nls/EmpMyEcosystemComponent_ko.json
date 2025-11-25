@@ -1,0 +1,22 @@
+{
+  "communityProvidersHeader": "커뮤니티 서비스 공급업체",
+  "communityProvidersInfo": "Dassault Systèmes의 전 세계 커뮤니티에서 서비스 공급업체를 찾아 선택합니다.",
+  "selectComunityProvidersLabel": "기존 커뮤니티 서비스 공급업체를 선택합니다.",
+  "internalProvidersHeader": "내 회사 서비스 공급업체",
+  "internalProvidersInfo": "회사의 내부 서비스 공급업체를 선언합니다.",
+  "declareInternalProviderLabel": "내부 서비스 공급업체 선언",
+  "allowNonSelectedProvidersLabel": "구매자가 선택하지 않은 공급업체에 주문을 표시하고 제출할 수 있도록 허용합니다.",
+  "edit": "편집",
+  "moreInformation": "추가 정보",
+  "internalServiceProvider": "내부 서비스 공급업체",
+  "serviceName": "서비스 이름",
+  "savingError": "저장하는 중 오류가 발생했습니다. 다시 시도하십시오.",
+  "save": "저장",
+  "saving": "저장하는 중",
+  "oneResult": "1개 결과",
+  "results": "{0}개 결과",
+  "select": "선택",
+  "deselect": "선택 취소",
+  "xLabsFound": "\"{1}\"에 대한 {0}개 서비스 공급업체 찾음",
+  "oneLabFound": "\"{0}\"에 대한 1개 서비스 공급업체 찾음"
+}

@@ -1,0 +1,12 @@
+{
+  "noHighlight": "The selected Review does not contain any Highlight",
+  "noCheck": "The selected Review does not contain any Check",
+  "noMember": "The selected Review does not contain any Members",
+  "multiMembers": "Selection of multiple Objects not supported",
+  "membersPanelHeaderTitle": "Contributions",
+  "contributionValue": {
+    "NotStarted": "Not Started",
+    "OnGoing": "Ongoing",
+    "Completed": "Completed"
+  }
+}

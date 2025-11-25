@@ -1,0 +1,17 @@
+m|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWProcessModelBehaviors\DELPPWProcessModelBehaviors.js|1757132695|72817
+s|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\BuildUpBehavior.js|1754226172|96397
+t|win_b64\webapps\DELPPWProcessModelBehaviors\assets\json\NonModelAttributeInfo.json|1757132690|2590
+s|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\assets\json\NonModelAttributeInfo.json|1754395312|2590
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\CapableResourceLinkBehaviour.js|1756389361|43168
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\MfgProcessBehavior.js|1754226160|10286
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\OperationTimeBehavior.js|1754226316|21827
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\ProcessImplementBehavior.js|1756389546|12058
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\ProcessImplementBehaviorBase.js|1754226591|29738
+u|DELPPWProcessBehaviors\DELPPWProcessModelBehaviors.mweb\src\ProductFlowLinkBehavior.js|1754226424|49620
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

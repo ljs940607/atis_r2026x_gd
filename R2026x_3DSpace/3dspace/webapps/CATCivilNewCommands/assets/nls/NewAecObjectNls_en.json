@@ -1,0 +1,763 @@
+{
+  "createNewAecChimneyNls": "New Chimney",
+  "newAecChimneyType" : "Chimney",
+
+  "createNewAecCoveringNls": "New Covering",
+  "newAecCoveringType" : "Covering",
+
+  "createNewAecCurtainWallNls": "New Curtain Wall",
+  "newAecCurtainWallType" : "Curtain Wall",
+
+  "createNewAecDoorNls": "New Door",
+  "newAecDoorType" : "Door",
+
+  "createNewAecOtherArchitecturalElementNls": "New Other AEC Architectural Element",
+  "newAecOtherArchitecturalElementType" : "Other AEC Architectural Element",
+
+  "createNewAecRailingNls": "New Railing",
+  "newAecRailingType" : "Railing",
+
+  "createNewAecRampNls": "New Ramp",
+  "newAecRampType" : "Ramp",
+
+  "createNewAecRampFlightNls": "New Ramp Flight",
+  "newAecRampFlightType" : "Ramp Flight",
+
+  "createNewAecRoofNls": "New Roof",
+  "newAecRoofType" : "Roof",
+
+  "createNewAecShadingDeviceNls": "New Shading Device",
+  "newAecShadingDeviceType" : "Shading Device",
+
+  "createNewAecStairNls": "New Stair",
+  "newAecStairType" : "Stair",
+
+  "createNewAecStairFlightNls": "New Stair Flight",
+  "newAecStairFlightType" : "Stair Flight",
+
+  "createNewAecWindowNls": "New Window",
+  "newAecWindowType" : "Window",
+
+  "createNewAecFoundationNls": "New Foundation",
+  "newAecFoundationType" : "Foundation",
+
+  "createNewAecOtherSpatialStructureElementNls": "New Other AEC Spatial Structure Element",
+  "newAecOtherSpatialStructureElementType" : "Other AEC Spatial Structure Element",
+
+  "createNewAecSiteNls": "New Site",
+  "newAecSiteType" : "Site",
+
+  "createNewAecTerrainNls": "New Terrain",
+  "newAecTerrainType" : "Terrain",
+
+  "createNewAecBuildingElementPartNls": "New Building Element Part",
+  "newAecBuildingElementPartType" : "Building Element Part",
+
+  "createNewAecDiscreteAccessoryNls": "New Discrete Accessory",
+  "newAecDiscreteAccessoryType" : "Discrete Accessory",
+
+  "createNewAecImpactProtectionDeviceNls": "New Impact Protection Device",
+  "newAecImpactProtectionDeviceType" : "Impact Protection Device",
+
+  "createNewAecMechanicalFastenerNls": "New Mechanical Fastener",
+  "newAecMechanicalFastenerType" : "Mechanical Fastener",
+
+  "createNewAecMechanicalFastenerAnchorNls": "New Anchor",
+  "newAecMechanicalFastenerAnchorType" : "Anchor",
+
+  "createNewAecMechanicalFastenerCouplerNls": "New Coupler",
+  "newAecMechanicalFastenerCouplerType" : "Coupler",
+
+  "createNewAecReinforcingBarNls": "New Reinforcing Bar",
+  "newAecReinforcingBarType" : "Reinforcing Bar",
+
+  "createNewAecReinforcingMeshNls": "New Reinforcing Mesh",
+  "newAecReinforcingMeshType" : "Reinforcing Mesh",
+
+  "createNewAecSignNls": "New Sign",
+  "newAecSignType" : "Sign",
+
+  "createNewAecSignalNls": "New Signal",
+  "newAecSignalType" : "Signal",
+
+  "createNewAecTendonNls": "New Tendon",
+  "newAecTendonType" : "Tendon",
+
+  "createNewAecTendonAnchorNls": "New Tendon Anchor",
+  "newAecTendonAnchorType" : "Tendon Anchor",
+
+  "createNewAecTendonConduitNls": "New Tendon Conduit",
+  "newAecTendonConduitType" : "Tendon Conduit",
+
+  "createNewAecFurnishingElementNls": "New Furnishing Element",
+  "newAecFurnishingElementType" : "Furnishing Element",
+
+  "createNewAecElementAssemblyNls": "New Element Assembly",
+  "newAecElementAssemblyType" : "Element Assembly",
+
+  "createNewAecSpatialZoneNls": "New Spatial Zone",
+  "newAecSpatialZoneType" : "Spatial Zone",
+
+  "createNewConstructionDriverNls": "New Construction Driver",
+  "newConstructionDriverType" : "Construction Driver",
+
+  "createNewAecBeamNls": "New Beam",
+  "newAecBeamType" : "Beam",
+
+  "createNewAecBearingNls": "New Bearing",
+  "newAecBearingType" : "Bearing",
+
+  "createNewAecCableNls": "New Cable",
+  "newAecCableType" : "Cable",
+  
+  "createNewAecCaissonFoundationNls": "New Caisson Foundation",
+  "newAecCaissonFoundationType" : "Caisson Foundation",
+
+  "createNewAecColumnNls": "New Column",
+  "newAecColumnType" : "Column",
+
+  "createNewAecCuttingElementNls": "New Cutting Element",
+  "newAecCuttingElementType" : "Cutting Element",
+
+  "createNewAecFootingNls": "New Footing",
+  "newAecFootingType" : "Footing",
+
+  "createNewAecMemberNls": "New Member",
+  "newAecMemberType" : "Member",
+
+  "createNewAecOpeningElementNls": "New Opening Element",
+  "newAecOpeningElementType" : "Opening Element",
+
+  "createNewAecOtherStructuralElementNls": "New Other AEC Structural Element",
+  "newAecOtherStructuralElementType" : "Other AEC Structural Element",
+
+  "createNewAecPileNls": "New Pile",
+  "newAecPileType" : "Pile",
+
+  "createNewAecPlateNls": "New Plate",
+  "newAecPlateType" : "Plate",
+
+  "createNewAecSlabNls": "New Slab",
+  "newAecSlabType" : "Slab",
+
+  "createNewAecStiffenerNls": "New Stiffener",
+  "newAecStiffenerType" : "Stiffener",
+
+  "createNewAecWallNls": "New Wall",
+  "newAecWallType" : "Wall",
+
+  "createNewAecTransportElementNls": "New Transport Element",
+  "newAecTransportElementType" : "Transport Element",
+
+  "createNewAecVirtualElementNls": "New Virtual Element",
+  "newAecVirtualElementType" : "Virtual Element",
+
+  "createNewBridgeOtherArchitecturalElementNls": "New Other Bridge Architectural Element",
+  "newBridgeOtherArchitecturalElementType" : "Other Bridge Architectural Element",
+
+  "createNewBridgeNls": "New Bridge",
+  "newBridgeType" : "Bridge",
+
+  "createNewBridgeAbutmentNls": "New Abutment",
+  "newBridgeAbutmentType" : "Abutment",
+
+  "createNewBridgeAnchorBlockNls": "New Anchor Block",
+  "newBridgeAnchorBlockType" : "Anchor Block",
+
+  "createNewBridgeArchNls": "New Arch",
+  "newBridgeArchType" : "Arch",
+
+  "createNewBridgeDeckNls": "New Deck",
+  "newBridgeDeckType" : "Deck",
+
+  "createNewBridgeHangerBeltNls": "New Hanger Belt",
+  "newBridgeHangerBeltType" : "Hanger Belt",
+
+  "createNewBridgeOtherSpatialStructureElementNls": "New Other Bridge Spatial Structure Element",
+  "newBridgeOtherSpatialStructureElementType" : "Other Bridge Spatial Structure Element",
+
+  "createNewBridgePierNls": "New Pier",
+  "newBridgePierType" : "Pier",
+
+  "createNewBridgeSpanNls": "New Span",
+  "newBridgeSpanType" : "Span",
+
+  "createNewBridgeStayBeltNls": "New Stay Belt",
+  "newBridgeStayBeltType" : "Stay Belt",
+
+  "createNewBridgeSuspensionSystemNls": "New Suspension System",
+  "newBridgeSuspensionSystemType" : "Suspension System",
+
+  "createNewBridgeTowerNls": "New Tower",
+  "newBridgeTowerType" : "Tower",
+
+  "createNewBridgeArchSegmentNls": "New Arch Segment",
+  "newBridgeArchSegmentType" : "Arch Segment",
+
+  "createNewBridgeCrossheadNls": "New Crosshead",
+  "newBridgeCrossheadType" : "Crosshead",
+
+  "createNewBridgeDeckSegmentNls": "New Deck Segment",
+  "newBridgeDeckSegmentType" : "Deck Segment",
+
+  "createNewBridgeHangerCableNls": "New Hanger Cable",
+  "newBridgeHangerCableType" : "Hanger Cable",
+
+  "createNewBridgeOtherStructuralElementNls": "New Other Bridge Structural Element",
+  "newBridgeOtherStructuralElementType" : "Other Bridge Structural Element",
+
+  "createNewBridgePierSegmentNls": "New Pier Segment",
+  "newBridgePierSegmentType" : "Pier Segment",
+
+  "createNewBridgeStayCableNls": "New Stay Cable",
+  "newBridgeStayCableType" : "Stay Cable",
+
+  "createNewBridgeSuspensionCableNls": "New Suspension Cable",
+  "newBridgeSuspensionCableType" : "Suspension Cable",
+
+  "createNewBridgeTowerSegmentNls": "New Tower Segment",
+  "newBridgeTowerSegmentType" : "Tower Segment",
+
+  "createNewBridgeWayNls": "New Way",
+  "newBridgeWayType" : "Way",
+
+  "createNewBuildingNls": "New Building",
+  "newBuildingType" : "Building",
+
+  "createNewBuildingShellAndCoreNls": "New Shell And Core",
+  "newBuildingShellAndCoreType" : "Shell And Core",
+
+  "createNewBuildingSpaceNls": "New Space",
+  "newBuildingSpaceType" : "Space",
+
+  "createNewBuildingStoreyNls": "New Storey",
+  "newBuildingStoreyType" : "Storey",
+
+  "createNewBuildingStructureNls": "New Structure",
+  "newBuildingStructureType" : "Structure",
+
+  "createNewDamOtherElementNls": "New Other Dam Element",
+  "newDamOtherElementType" : "Other Dam Element",
+
+  "createNewDamNls": "New Dam",
+  "newDamType" : "Dam",
+
+  "createNewDamOtherSpatialStructureElementNls": "New Other Dam Spatial Structure Element",
+  "newDamOtherSpatialStructureElementType" : "Other Dam Spatial Structure Element",
+
+  "createNewEPSDistributionLineNls": "New Distribution Line",
+  "newEPSDistributionLineType" : "Distribution Line",
+
+  "createNewEPSDistributionSpanNls": "New Distribution Span",
+  "newEPSDistributionSpanType" : "Distribution Span",
+
+  "createNewEPSElectricPoleNls": "New Electric Pole",
+  "newEPSElectricPoleType" : "Electric Pole",
+
+  "createNewEPSElectricPowerSystemNls": "New Electric Power System",
+  "newEPSElectricPowerSystemType" : "Electric Power System",
+
+  "createNewEPSHighVoltagePylonNls": "New High Voltage Pylon",
+  "newEPSHighVoltagePylonType" : "High Voltage Pylon",
+
+  "createNewEPSHighVoltageSpanNls": "New High Voltage Span",
+  "newEPSHighVoltageSpanType" : "High Voltage Span",
+
+  "createNewEPSHighVoltageTransmissionLineNls": "New High Voltage Transmission Line",
+  "newEPSHighVoltageTransmissionLineType" : "High Voltage Transmission Line",
+
+  "createNewEPSOtherSpatialStructureElementNls": "New Other Electric Power System Spatial Structure Element",
+  "newEPSOtherSpatialStructureElementType" : "Other Electric Power System Spatial Structure Element",
+
+  "createNewEPSOutputPositionNls": "New Output Position",
+  "newEPSOutputPositionType" : "Output Position",
+
+  "createNewEPSPowerPlantNls": "New Power Plant",
+  "newEPSPowerPlantType" : "Power Plant",
+
+  "createNewEPSSubstationNls": "New Substation",
+  "newEPSSubstationType" : "Substation",
+
+  "createNewEPSSwitchPositionNls": "New Switch Position",
+  "newEPSSwitchPositionType" : "Switch Position",
+
+  "createNewEPSSwitchYardNls": "New Switch Yard",
+  "newEPSSwitchYardType" : "Switch Yard",
+
+  "createNewEPSTransformerCellNls": "New Transformer Cell",
+  "newEPSTransformerCellType" : "Transformer Cell",
+
+  "createNewEPSTransformerCenterNls": "New Transformer Center",
+  "newEPSTransformerCenterType" : "Transformer Center",
+
+  "createNewEPSAuxiliarTransformerNls": "New Auxiliar Transformer",
+  "newEPSAuxiliarTransformerType" : "Auxiliar Transformer",
+
+  "createNewEPSBatteryNls": "New Battery",
+  "newEPSBatteryType" : "Battery",
+
+  "createNewEPSBusbarNls": "New Busbar",
+  "newEPSBusbarType" : "Busbar",
+
+  "createNewEPSCableNls": "New Cable",
+  "newEPSCableType" : "Cable",
+
+  "createNewEPSCableAssemblyNls": "New Cable Assembly",
+  "newEPSCableAssemblyType" : "Cable Assembly",
+
+  "createNewEPSCableDeviceNls": "New Cable Device",
+  "newEPSCableDeviceType" : "Cable Device",
+
+  "createNewEPSCapacitorNls": "New Capacitor",
+  "newEPSCapacitorType" : "Capacitor",
+
+  "createNewEPSCapacitorBankNls": "New Capacitor Bank",
+  "newEPSCapacitorBankType" : "Capacitor Bank",
+
+  "createNewEPSCoilNls": "New Coil",
+  "newEPSCoilType" : "Coil",
+
+  "createNewEPSControlBoxNls": "New Control Box",
+  "newEPSControlBoxType" : "Control Box",
+
+  "createNewEPSControlEquipmentNls": "New Control Equipment",
+  "newEPSControlEquipmentType" : "Control Equipment",
+
+  "createNewEPSConversionSF6Nls": "New Conversion SF6",
+  "newEPSConversionSF6Type" : "Conversion SF6",
+
+  "createNewEPSConverterNls": "New Converter",
+  "newEPSConverterType" : "Converter",
+
+  "createNewEPSDisconnectorNls": "New Disconnector",
+  "newEPSDisconnectorType" : "Disconnector",
+
+  "createNewEPSDisconnectorToEarthNls": "New Disconnector To Earth",
+  "newEPSDisconnectorToEarthType" : "Disconnector To Earth",
+
+  "createNewEPSDividerNls": "New Divider",
+  "newEPSDividerType" : "Divider",
+
+  "createNewEPSEarthingGridNls": "New Earthing Grid",
+  "newEPSEarthingGridType" : "Earthing Grid",
+
+  "createNewEPSEarthingPointsNls": "New Earthing Points",
+  "newEPSEarthingPointsType" : "Earthing Points",
+
+  "createNewEPSEquipmentNls": "New Equipment",
+  "newEPSEquipmentType" : "Equipment",
+
+  "createNewEPSEquipmentAssemblyNls": "New Equipment Assembly",
+  "newEPSEquipmentAssemblyType" : "Equipment Assembly",
+
+  "createNewEPSEquipmentPoleNls": "New Equipment Pole",
+  "newEPSEquipmentPoleType" : "Equipment Pole",
+
+  "createNewEPSInterfaceNls": "New Interface",
+  "newEPSInterfaceType" : "Interface",
+
+  "createNewEPSMeasureProtectionNls": "New Measure Protection",
+  "newEPSMeasureProtectionType" : "Measure Protection",
+
+  "createNewEPSMeasureTransformerNls": "New Measure Transformer",
+  "newEPSMeasureTransformerType" : "Measure Transformer",
+
+  "createNewEPSMobileLinkNls": "New Mobile Link",
+  "newEPSMobileLinkType" : "Mobile Link",
+
+  "createNewEPSMVSupplyNls": "New MV Supply",
+  "newEPSMVSupplyType" : "MV Supply",
+
+  "createNewEPSOpFlexEquipmentNls": "New Op Flex Equipment",
+  "newEPSOpFlexEquipmentType" : "Op Flex Equipment",
+
+  "createNewEPSOtherElementNls": "New Other Electric Power System Element",
+  "newEPSOtherElementType" : "Other Electric Power System Element",
+
+  "createNewEPSPanelNls": "New Panel",
+  "newEPSPanelType" : "Panel",
+
+  "createNewEPSPhaseShiftingTransformerNls": "New Phase Shifting Transformer",
+  "newEPSPhaseShiftingTransformerType" : "Phase Shifting Transformer",
+
+  "createNewEPSPowerTransformerNls": "New Power Transformer",
+  "newEPSPowerTransformerType" : "Power Transformer",
+
+  "createNewEPSProtectionNls": "New Protection",
+  "newEPSProtectionType" : "Protection",
+
+  "createNewEPSProtectionAssemblyNls": "New Protection Assembly",
+  "newEPSProtectionAssemblyType" : "Protection Assembly",
+
+  "createNewEPSPylonDeviceNls": "New Pylon Device",
+  "newEPSPylonDeviceType" : "Pylon Device",
+
+  "createNewEPSReactanceNls": "New Reactance",
+  "newEPSReactanceType" : "Reactance",
+
+  "createNewEPSRectifierNls": "New Rectifier",
+  "newEPSRectifierType" : "Rectifier",
+
+  "createNewEPSResistorNls": "New Resistor",
+  "newEPSResistorType" : "Resistor",
+
+  "createNewEPSSAXPLCNls": "New SAX PLC",
+  "newEPSSAXPLCType" : "SAX PLC",
+
+  "createNewEPSShieldBoxNls": "New Shield Box",
+  "newEPSShieldBoxType" : "Shield Box",
+
+  "createNewEPSShuntReactorNls": "New Shunt Reactor",
+  "newEPSShuntReactorType" : "Shunt Reactor",
+
+  "createNewEPSSignalCoilNls": "New Signal Coil",
+  "newEPSSignalCoilType" : "Signal Coil",
+
+  "createNewEPSSpliceNls": "New Splice",
+  "newEPSSpliceType" : "Splice",
+
+  "createNewEPSStabilizerTransformerNls": "New Stabilizer Transformer",
+  "newEPSStabilizerTransformerType" : "Stabilizer Transformer",
+
+  "createNewEPSStringInsulatorNls": "New String Insulator",
+  "newEPSStringInsulatorType" : "String Insulator",
+
+  "createNewEPSSubstationConnectionNls": "New Substation Connection",
+  "newEPSSubstationConnectionType" : "Substation Connection",
+
+  "createNewEPSSurgeArresterNls": "New Surge Arrester",
+  "newEPSSurgeArresterType" : "Surge Arrester",
+
+  "createNewEPSSwitchNls": "New Switch",
+  "newEPSSwitchType" : "Switch",
+
+  "createNewMarineFacilityNls": "New Marine Facility",
+  "newMarineFacilityType" : "Marine Facility",
+
+  "createNewMarineOtherSpatialStructureElementNls": "New Other Marine Spatial Structure Element",
+  "newMarineOtherSpatialStructureElementType" : "Other Marine Spatial Structure Element",
+
+  "createNewNatureLakeNls": "New Lake",
+  "newNatureLakeType" : "Lake",
+
+  "createNewNatureOtherElementNls": "New Nature Other Element",
+  "newNatureOtherElementType" : "Nature Other Element",
+
+  "createNewNaturePlantNls": "New Plant",
+  "newNaturePlantType" : "Plant",
+
+  "createNewNaturePlantCoverNls": "New Plant Cover",
+  "newNaturePlantCoverType" : "Plant Cover",
+
+  "createNewNatureRiverNls": "New River",
+  "newNatureRiverType" : "River",
+
+  "createNewNatureSeaNls": "New Sea",
+  "newNatureSeaType" : "Sea",
+
+  "createNewRailwayOtherElementNls": "New Other Railway Element",
+  "newRailwayOtherElementType" : "Other Railway Element",
+
+  "createNewRailwayTrackPanelNls": "New Track Panel",
+  "newRailwayTrackPanelType" : "Track Panel",
+
+  "createNewRailwayTrackRailNls": "New Track Rail",
+  "newRailwayTrackRailType" : "Track Rail",
+
+  "createNewRailwayTrackSleeperNls": "New Track Sleeper",
+  "newRailwayTrackSleeperType" : "Track Sleeper",
+
+  "createNewRailwayTrackTurnoutNls": "New Track Turnout",
+  "newRailwayTrackTurnoutType" : "Track Turnout",
+
+  "createNewRailwayNls": "New Railway",
+  "newRailwayType" : "Railway",
+
+  "createNewRailwayOtherSpatialStructureElementNls": "New Other Railway Spatial Structure Element",
+  "newRailwayOtherSpatialStructureElementType" : "Other Railway Spatial Structure Element",
+
+  "createNewRailwayStretchNls": "New Railway Stretch",
+  "newRailwayStretchType" : "Railway Stretch",
+
+  "createNewRailwaySwitchNls": "New Railway Switch",
+  "newRailwaySwitchType" : "Railway Switch",
+
+  "createNewAecKerbNls": "New Kerb",
+  "newAecKerbType" : "Kerb",
+
+  "createNewRoadOtherElementNls": "New Other Road Element",
+  "newRoadOtherElementType" : "Other Road Element",
+
+  "createNewRoadNls": "New Road",
+  "newRoadType" : "Road",
+
+  "createNewRoadInterchangeNls": "New Road Interchange",
+  "newRoadInterchangeType" : "Road Interchange",
+
+  "createNewRoadIntersectionNls": "New Road Intersection",
+  "newRoadIntersectionType" : "Road Intersection",
+
+  "createNewRoadOtherSpatialStructureElementNls": "New Other Road Spatial Structure Element",
+  "newRoadOtherSpatialStructureElementType" : "Other Road Spatial Structure Element",
+
+  "createNewRoadRampNls": "New Road Ramp",
+  "newRoadRampType" : "Road Ramp",
+
+  "createNewRoadStretchNls": "New Road Stretch",
+  "newRoadStretchType" : "Road Stretch",
+
+  "createNewSignageArmCantileverNls": "New Arm Cantilever",
+  "newSignageArmCantileverType" : "Arm Cantilever",
+
+  "createNewSignageHighMastNls": "New High-mast",
+  "newSignageHighMastType" : "High-mast",
+
+  "createNewSignageMarkerNls": "New Marker",
+  "newSignageMarkerType" : "Marker",
+
+  "createNewSignageOtherElementNls": "New Other Signage Element",
+  "newSignageOtherElementType" : "Other Signage EElement",
+
+  "createNewSignageOverheadStructureNls": "New Overhead Structure",
+  "newSignageOverheadStructureType" : "Overhead Structure",
+
+  "createNewSignagePictorialNls": "New Pictorial",
+  "newSignagePictorialType" : "Pictorial",
+
+  "createNewSignagePoleNls": "New Pole",
+  "newSignagePoleType" : "Pole",
+
+  "createNewSubgradeExcavationWorksNls": "New Excavation Works",
+  "newSubgradeExcavationWorksType" : "Excavation Works",
+
+  "createNewSubgradeFillingWorksNls": "New Filling Works",
+  "newSubgradeFillingWorksType" : "Filling Works",
+
+  "createNewSubgradeGroundReinforcementElementNls": "New Ground Reinforcement",
+  "newSubgradeGroundReinforcementElementType" : "Ground Reinforcement",
+
+  "createNewSubgradeLayerNls": "New Subgrade Layer",
+  "newSubgradeLayerType" : "Subgrade Layer",
+
+  "createNewSubgradeOtherElementNls": "New Other Subgrade Element",
+  "newSubgradeOtherElementType" : "Other Subgrade Element",
+
+  "createNewSubgradeReinforcedSoilElementNls": "New Reinforced Soil",
+  "newSubgradeReinforcedSoilElementType" : "Reinforced Soil",
+
+  "createNewSubgradeRetainingElementNls": "New Retaining Element",
+  "newSubgradeRetainingElementType" : "Retaining Element",
+
+  "createNewSubgradeStockpileNls": "New Stockpile",
+  "newSubgradeStockpileType" : "Stockpile",
+
+  "createNewSubgradeNls": "New Subgrade",
+  "newSubgradeType" : "Subgrade",
+
+  "createNewSubgradeOtherSpatialStructureElementNls": "New Other Subgrade Spatial Structure Element",
+  "newSubgradeOtherSpatialStructureElementType" : "Other Subgrade Spatial Structure Element",
+
+  "createNewSubgradeRetainingStructureNls": "New Retaining Structure",
+  "newSubgradeRetainingStructureType" : "Retaining Structure",
+
+  "createNewTunnelOtherElementNls": "New Other Tunnel Element",
+  "newTunnelOtherElementType" : "Other Tunnel Element",
+
+  "createNewTunnelRingSegmentNls": "New Ring Segment",
+  "newTunnelRingSegmentType" : "Ring SSegment",
+
+  "createNewUndergroundExcavationworksNls": "New Underground Excavation Works",
+  "newUndergroundExcavationworksType" : "Underground Excavation Works",
+
+  "createNewUndergroundLiningNls": "New Underground Lining",
+  "newUndergroundLiningType" : "Underground Lining",
+
+  "createNewUndergroundSupportNls": "New Underground Support",
+  "newUndergroundSupportType" : "Underground Support",
+
+  "createNewUndergroundWaterproofingNls": "New Underground Waterproofing",
+  "newUndergroundWaterproofingType" : "Underground Waterproofing",
+
+  "createNewCutCoverTunnelNls": "New Cut & Cover Tunnel",
+  "newCutCoverTunnelType" : "Cut & Cover Tunnel",
+
+  "createNewTunnelNls": "New Underground Tunnel",
+  "newTunnelType" : "Underground Tunnel",
+
+  "createNewTunnelBayNls": "New Niche",
+  "newTunnelBayType" : "Niche",
+
+  "createNewTunnelFullTunnelSpaceNls": "New Full Tunnel Space",
+  "newTunnelFullTunnelSpaceType" : "Full Tunnel Space",
+
+  "createNewTunnelInterchangeNls": "New Crossing",
+  "newTunnelInterchangeType" : "Crossing",
+
+  "createNewTunnelOtherSpaceNls": "New Other Tunnel Space",
+  "newTunnelOtherSpaceType" : "Other Tunnel Space",
+
+  "createNewTunnelOtherSpatialStructureElementNls": "New Other Underground Spatial Structure Element",
+  "newTunnelOtherSpatialStructureElementType" : "Other Underground Spatial Structure Element",
+
+  "createNewTunnelRingNls": "New Ring Space",
+  "newTunnelRingType" : "Ring Space",
+
+  "createNewTunnelStretchNls": "New Tunnel Section",
+  "newTunnelStretchType" : "Tunnel Section",
+
+  "createNewUndergroundAccessPortalNls": "New Access Portal",
+  "newUndergroundAccessPortalType" : "Access Portal",
+
+  "createNewUndergroundAditNls": "New Adit",
+  "newUndergroundAditType" : "Adit",
+
+  "createNewUndergroundCavernNls": "New Cavern",
+  "newUndergroundCavernType" : "Cavern",
+
+  "createNewUndergroundConnectionNls": "New Connection",
+  "newUndergroundConnectionType" : "Connection",
+
+  "createNewUndergroundCrossPassageNls": "New Cross-passage",
+  "newUndergroundCrossPassageType" : "Cross-passage",
+
+  "createNewUndergroundEnlargementNls": "New Enlargement",
+  "newUndergroundEnlargementType" : "Enlargement",
+
+  "createNewUndergroundGalleryNls": "New Gallery",
+  "newUndergroundGalleryType" : "Gallery",
+
+  "createNewUndergroundInclineNls": "New Incline",
+  "newUndergroundInclineType" : "Incline",
+
+  "createNewUndergroundProfileTransitionNls": "New Profile Transition",
+  "newUndergroundProfileTransitionType" : "Profile Transition",
+
+  "createNewUndergroundShaftNls": "New Shaft",
+  "newUndergroundShaftType" : "Shaft",
+
+  "createNewUndergroundSpaceNls": "New Underground Space",
+  "newUndergroundSpaceType" : "Underground Space",
+
+  "createNewWSSDistributionLineNls": "New Distribution Line",
+  "newWSSDistributionLineType" : "Distribution Line",
+
+  "createNewWSSOtherSpatialStructureElementNls": "New Other Water Supply System Spatial structure Element",
+  "newWSSOtherSpatialStructureElementType" : "Other water Supply System spatial Structure Element",
+
+  "createNewWSSTransmissionLineNls": "New Transmission Line",
+  "newWSSTransmissionLineType" : "Transmission Line",
+
+  "createNewWSSWaterStorageNls": "New Water Storage",
+  "newWSSWaterStorageType" : "Water Storage",
+
+  "createNewWSSWaterSupplySystemNls": "New Water Supply System",
+  "newWSSWaterSupplySystemType" : "Water Supply System",
+
+  "createNewWSSWaterTreatmentPlantNls": "New Water Treatment Plant",
+  "newWSSWaterTreatmentPlantType" : "Water Treatment Plant",
+
+  "createNewWSSOtherElementNls": "New Other Water Supply System Element",
+  "newWSSOtherElementType" : "Other Water Supply System Element",
+
+  "createNewWSSSupportNls": "New Support",
+  "newWSSSupportType" : "Support",
+
+  "createNewWSSThrustBlockNls": "New Thrust Block",
+  "newWSSThrustBlockType" : "Thrust Block",
+
+  "createNewDrainageNls": "New Drainage",
+  "newDrainageType" : "Drainage",
+
+  "createNewDrainageCulvertNls": "New Culvert",
+  "newDrainageCulvertType" : "Culvert",
+
+  "createNewDrainageOtherSpatialStructureElementNls": "New Other Drainage Spatial Structure Element",
+  "newDrainageOtherSpatialStructureElementType" : "Other Drainage Spatial Structure Element",
+
+  "createNewDrainageTrenchNls": "New Trench",
+  "newDrainageTrenchType" : "Trench",
+
+  "createNewRockSoilMassNls": "New Rock Soil Mass",
+  "newRockSoilMassType" : "Rock Soil Mass",
+
+  "createNewGeologyOtherElementNls": "New Geology Other Element",
+  "newGeologyOtherElementType" : "Geology Other Element",
+
+  "createNewGeoscienceDatasetNls": "New Geoscience Dataset",
+  "newGeoscienceDatasetType" : "Geoscience Dataset",
+
+  "createNewGeologyModelNls": "New Geology Model",
+  "newGeologyModelType" : "Geology Model",
+
+  "createNewGeologicOtherStructureNls": "New Geologic Other Structure",
+  "newGeologicOtherStructureType" : "Geologic Other Structure",
+
+  "createNewGeologicUnitNls": "New Geologic Unit",
+  "newGeologicUnitType" : "Geologic Unit",
+
+  "createNewEarthResourceOtherNls": "New Earth Resource Other",
+  "newEarthResourceOtherType" : "Earth Resource Other",
+
+  "createNewGeologicStructuralZonesNls": "New Geologic Structural Zones",
+  "newGeologicStructuralZonesType" : "Geologic Structural Zones",
+
+  "createNewGeologicFaultNls": "New Geologic Fault",
+  "newGeologicFaultType" : "Geologic Fault",
+
+  "createNewGeologicUnconformityNls": "New Geologic Unconformity",
+  "newGeologicUnconformityType" : "Geologic Unconformity",
+
+  "createNewGeologicTrendNls": "New Geologic Trend",
+  "newGeologicTrendType" : "Geologic Trend",
+
+  "createNewGeologicBoundaryNls": "New Geologic Boundary",
+  "newGeologicBoundaryType" : "Geologic Boundary",
+
+  "createNewGeologicConformableUnitNls": "New Geologic Conformable Unit",
+  "newGeologicConformableUnitType" : "Geologic Conformable Unit",
+
+  "createNewGeologicIntrusiveUnitNls": "New Geologic Intrusive Unit",
+  "newGeologicIntrusiveUnitType" : "Geologic Intrusive Unit",
+
+  "createNewMiningModelNls": "New Mining Model",
+  "newMiningModelType" : "Mining Model",
+
+  "createNewResourceModelNls": "New Resource Model",
+  "newResourceModelType" : "Resource Model",
+
+  "createNewEarthModelNls": "New Earth Model",
+  "newEarthModelType" : "Earth Model",
+
+  "createNewResourceDomainNls": "New Resource Domain",
+  "newResourceDomainType" : "Resource Domain",
+
+  "createNewGeoMineStopeNls": "New Geo Mine Stope",
+  "newGeoMineStopeType" : "Geo Mine Stope",
+
+  "createNewGeoUndergroundMineNls": "New Geo Underground Mine",
+  "newGeoUndergroundMineType" : "Geo Underground Mine",
+
+  "createNewGeoUndergroundSpaceNls": "New Geo Underground Space",
+  "newGeoUndergroundSpaceType" : "Geo Underground Space",
+
+  "createNewGeoSurfaceMineNls": "New Geo Surface Mine",
+  "newGeoSurfaceMineType" : "Geo Surface Mine",
+
+  "createNewGeoSurfacePitNls": "New Geo Surface Pit",
+  "newGeoSurfacePitType" : "Geo Surface Pit",
+
+  "createNewGeoSurfaceBenchNls": "New Geo Surface Bench",
+  "newGeoSurfaceBenchType" : "Geo Surface Bench",
+
+  "createNewGeoSurfacePitPhaseNls": "New Geo Surface Pit Phase",
+  "newGeoSurfacePitPhaseType" : "Geo Surface Pit Phase",
+
+  "createNewGeoSurfaceDumpNls": "New Geo Surface Dump",
+  "newGeoSurfaceDumpType" : "Geo Surface Dump",
+
+  "createNewGeologyPartNls": "New Geology Part",
+  "newGeologyPartType" : "Geology Part",
+
+  "createNewGeologyOtherSpatialStructureElementNls": "New Geology Other Spatial Structure Element",
+  "newGeologyOtherSpatialStructureElementType" : "Geology Other Spatial Structure Element"
+}

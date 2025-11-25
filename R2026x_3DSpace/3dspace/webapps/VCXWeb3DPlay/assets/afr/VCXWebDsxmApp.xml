@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  /*
+  * @quickReview SBU8 20:02:20 added split delete commands
+  * @quickReview JDN4 19:02:01 Remove some commented commands, unused for long
+  * @quickReview MGI1 18:11:16 merge VCXDeleteDressupCmd and VCXDeleteSelectionCmd 
+  * @Quickreview  JDN4 18:07:25 Add Free Drag Command
+  * @Quickreview  QPX 17:08:04 Fix dependencies, from Tst to WebVisualizationCommands
+  */
+-->
+
+
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="VCXWebProductHighlightWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface  WkbInterface= "VCXWebProductHighlightWorkshopInterface"/>
+  </Template>
+
+  <!-- Command headers -->
+  <Template syp:name="myAFRCommandHeaders" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+
+      <!-- Views and Render Options commands -->
+      <CATCommandHeader ID="VisuLeftView" ClassName="DS/ViewerCommands/VisuLeftViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuRightView" ClassName="DS/ViewerCommands/VisuRightViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+	  <CATCommandHeader ID="VisuFrontView" ClassName="DS/ViewerCommands/VisuFrontViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuBackView" ClassName="DS/ViewerCommands/VisuBackViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuTopView" ClassName="DS/ViewerCommands/VisuTopViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuBottomView" ClassName="DS/ViewerCommands/VisuBottomViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuIsoView" ClassName="DS/ViewerCommands/VisuIsoViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuReframeView" ClassName="DS/ViewerCommands/VisuReframeViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuPanView" ClassName="DS/ViewerCommands/VisuPanViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuPanViewPaper" ClassName="DS/VCXWebGUI/VCXPaperPanCmd" />
+      <CATCommandHeader ID="VisuZoomView" ClassName="DS/ViewerCommands/VisuZoomViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      <CATCommandHeader ID="VisuRotateView" ClassName="DS/ViewerCommands/VisuRotateViewCmd" SharedLibraryName="ShareUI" HelpResourceFile="ViewerCommands/ViewerCommandsIDs" ResourceFile="ViewerCommands/ViewerCommands" />
+      
+    </CATCmdHeadersList>
+  </Template>
+
+  <!-- Command Starters -->
+  <Template syp:name="VCXWebProductHighlightWorkshopAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="VCXWebProductHighlightWorkbench">
+
+      <!--<CATWorkbenchOptions ToolbarsExclusive="1"/>-->
+
+      <!--Define a fixed Section-->
+      
+
+<CATCmdContainer Name="Views" Visibility="1" Position="3" RepresentationType="AfrActionBarSection">
+        <CATCmdStarter Name="Reframe" Command="VisuReframeView" />
+        <CATCmdStarter Name="Pan" Command="VisuPanView" />
+        <CATCmdStarter Name="Rotate" Command="VisuRotateView" />
+        <CATCmdStarter Name="Zoom" Command="VisuZoomView" />
+        <CATCmdContainer Name="CameraViews" Visibility="1" RepresentationType="AfrActionBarDropDown">
+          <CATCmdStarter Name="BottomView" Command="VisuBottomView" />
+          <CATCmdStarter Name="LeftView" Command="VisuLeftView" />
+          <CATCmdStarter Name="RightView" Command="VisuRightView" />
+          <CATCmdStarter Name="FrontView" Command="VisuFrontView" />
+          <CATCmdStarter Name="BackView" Command="VisuBackView" />
+          <CATCmdStarter Name="TopView" Command="VisuTopView" />
+          <CATCmdStarter Name="IsoView" Command="VisuIsoView" />
+        </CATCmdContainer> 
+      </CATCmdContainer>
+
+
+
+
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

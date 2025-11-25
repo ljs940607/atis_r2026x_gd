@@ -1,0 +1,12 @@
+{
+  "NbDigits": "Número de dígitos",
+  "NbDigitsInfo": "Introduzca al menos 6 dígitos y no más de 40 caracteres",
+  "PrefixValueEmptyInfo": "Este campo es obligatorio. No utilice valores de prefijo vacíos.",
+  "NbDigitsNaN": "El número de dígitos es un entero positivo mayor que 6",
+  "Dash": "-",
+  "Under_Score": "_",
+  "Dot": ".",
+  "Plus": "+",
+  "Slash": "/",
+  "Empty": ""
+}

@@ -1,0 +1,2 @@
+/*! Copyright 2021 Dassault Systèmes */
+(function(){"use strict";let e=require.toUrl("DS/vuekit/vu-kit.umd");e.indexOf("?")>-1&&(e=e.substring(0,e.indexOf("?")));let t=e+("object"===typeof UWA&&UWA.debug?"":".min");require.config({paths:{"vu-kit":t}})})(),define("DS/vuekit/vuekit",["DS/vue/vue","vu-kit","css!DS/vuekit/vu-kit.css"],(function(e,t){"use strict";return e.use(t),t}));

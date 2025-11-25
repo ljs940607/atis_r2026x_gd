@@ -1,0 +1,196 @@
+{
+    "title": "Images Viewer",
+    "error": {
+        "manager": {
+            "unsupportedMode": "You cannot select objects in {mode} mode."
+        },
+        "common": {
+            "incorrectArgument": "Enter a valid {type}.",
+            "incorrectInitArgument": "Enter a valid {type}.",
+            "multiSelectionNotSupported": "Select only 1 {component}."
+        },
+        "components": {
+            "Item": {},
+            "Collection": {
+                "addItem": {
+                    "itemAlreadyExist": {
+                        "Title": "Enter a unique item ID.",
+                        "Subtitle": "The following specified IDs are already in use:{id}"
+                    }
+                },
+                "addItems": {
+                    "itemsAlreadyExist": {
+                        "Title": "Enter a unique item ID.",
+                        "Subtitle": "The following specified IDs are already in use:{ids}"
+                    },
+                    "itemsNotUnique": {
+                        "Title": "Enter a unique item ID.",
+                        "Subtitle": "The following specified IDs are already in use:{ids}"
+                    }
+                },
+                "common": {
+                    "itemNotExist": "No item exists matching the id(s) '{id}'."
+                }
+            }
+        },
+        "views": {
+            "Catalog": {
+                "unsupportedLayout": "You cannot use {layout}."
+            }
+        }
+    },
+    "views": {
+        "Attachment": {
+            "Failures": {
+                "Upload": "Error occurred during upload."
+            },
+            "Unknown": "Unknown",
+            "isPrimary": "Primary Attachment",
+            "cancelButton": "Cancel",
+            "discardButton": "Discard",
+            "relOwnerTooltip": "Attached by {name}",
+            "relDateTooltip": "Attached on {date}",
+            "types": {
+                "Document": "Document"
+            }
+        },
+        "Preview" : {
+            "close" : "Close"
+        },
+        "Placeholder": {
+            "text": "Add existing content (*) or upload files to create new documents…",
+            "textNoAuthoring": "No documents attached.",
+            "addExisting": "Add existing",
+            "upload": "Upload Files"
+        },
+        "Viewer": {
+            "noPreview": "No preview to display.",
+            "noSelection": "Please select an attachment."
+        },
+        "Header": {
+            "Iconbar": {
+                "actions": {
+                    "download": "Download",
+                    "screenshotAvailable": "Take a screenshot.",
+                    "attach": {
+                        "title": "Attach",
+                        "fromLocalDisk": "Upload Files",
+                        "from3DX": "Add Existing"
+                    },
+                    "detachDelete": {
+                        "title": "Detach/Delete",
+                        "detach": "Detach",
+                        "delete": "Delete"
+                    },
+                    "popup": {
+                        "pin": "Pin the Attachment Manager",
+                        "release": "Release the Attachment Manager"
+                    },
+                    "sort": {
+                        "groupByType": "Group By",
+                        "groupBy_None": "None",
+                        "groupBy_Type": "Type",
+                        "dropdown": "Sort Attachments",
+                        "ascDate": "By Oldest Modified Date",
+                        "descDate": "By Most Recent Modified Date",
+                        "ascTitle": "By Ascending Title",
+                        "descTitle": "By Descending Title"
+                    },
+                    "switchCatalogLayout": "Thumbnail View and Grid View",
+                    "switchCatalogLayout_TV": "Thumbnail View",
+                    "switchCatalogLayout_GV": "Grid View",
+                    "preview" : "Preview",
+                    "annotate": "New Annotation",
+                    "setAsPrimary": "Set/Unset as primary",
+                    "setAsPrimaryInfo": "Set the selected image as primary",
+                    "openWith": "Open with",
+                    "openWithNoApps": "No compatible application found."
+                }
+            },
+            "Info": {
+                "Multi": {
+                    "title": "{count} Attachments selected."
+                }
+            }
+        },
+        "preview": "Preview",
+        "edit": "Edit",
+        "undoEdit": "Undo Edit",
+        "update": "Update",
+        "information": "Information",
+        "collaborativeLifecycle": "Maturity",
+        "UploadDialog": {
+            "title": "Uploading {total} file(s)... (OK: {success} - KO: {failure})",
+            "uploadSuccess": "All {total} file(s) successfully uploaded.",
+            "uploadFailure": "Upload completed with errors: OK: {success} - KO: {failure}"
+        }
+    },
+    "notifications": {
+        "Init": {
+            "failure": "Error occurred during initialization of Attachment Manager."
+        },
+        "BrowseFile": {
+            "failure": "Error occurred during browsing files from local disk."
+        },
+        "Fetch": {
+            "failure": "Error occurred during fetching data of attachments."
+        },
+        "Download": {
+            "failure": "Error occurred during download of attachments."
+        },
+        "Attach": {
+            "success": "{count} new objects have been attached successfully.",
+            "alreadyAttached": "{count} objects have already been attached.",
+            "failure": "Error occurred during attachment of {count} objects.",
+            "sameIssueAttached":"Same Issue object cannot be added as attachment."
+        },
+        "Detach": {
+            "success": "{count} objects have been detached successfully.",
+            "failure": "Error occurred during detachment of {count} objects."
+        },
+        "Delete": {
+            "success": "{count} objects have been deleted successfully.",
+            "failure": "Error occurred during deletion of {count} objects."
+        },
+        "Upload": {
+            "success": "{count} new attachments have been uploaded successfully.",
+            "successIssue": "You have successfully added {count} objects to {issue} as Attachments.",
+            "failure": "Error occurred during upload of {count} attachments."
+        },
+        "Annotation": {
+            "initFailure": "Error occurred when opening Annotation component.",
+            "uploadSuccess": "New annotation has been uploaded successfully: {fileName}.",
+            "uploadFailure": "Error occurred during upload of new annotation."
+        },
+        "Drop": {
+            "unsupported": "This type of content is not supported. Please use the appropriate App from Compass to open this type of content."
+        },
+        "SetAsPrimary": {
+            "success": "Attachment has been successfully set as primary image.",
+            "failure": "Error occurred when trying to set an attachment as primary image.",
+            "Restricted":"Error occurred when trying to set an attachment as primary image. You must be Originator, Owner, Co-onwer, Assignee to perform this action."
+        },
+        "UnsetAsPrimary": {
+            "success": "Attachment has been successfully unset as primary image.",
+            "failure": "Error occurred when trying to unset an attachment as primary image."
+        },
+        "Preview" : "No Document Attached to Preview"
+    },
+    "Attach": {
+        "SearchTitle": "Attach objects from 3DExperience"
+    },
+    "Delete": {
+        "confirm": {
+            "title": "Delete the Attachment",
+            "text": "Are you sure you want to permanently delete the selected attachment(s)?",
+            "okButton": "Delete",
+            "cancelButton": "Cancel"
+        }
+    },
+    "annotate": {
+        "defaultName": "Annotation_{date}.png"
+    },
+    "close" : "Close",
+    "preview" : "Preview",
+    "attachmentNotSupported": "Selected object is not supported."
+}

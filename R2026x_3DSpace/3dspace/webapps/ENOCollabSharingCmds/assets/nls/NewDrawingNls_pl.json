@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "Nowy rysunek",
+  "insertNewDrawing": "Wstaw nowy rysunek",
+  "newObjectType": "Rysunek",
+  "multiParentInsertDrawingTitle": "Wstaw nowy rysunek",
+  "multiParentInsertDrawingMsg": "Czy na pewno chcesz wstawić nowy rysunek pod wieloma obiektami nadrzędnymi?",
+  "multiParentCannotInsert": "Błąd: Nie można wstawić pod wybranymi obiektami",
+  "CannotInsert.Type": "Nie możesz wprowadzić tego typu obiektu do wybranego obiektu: {type}",
+  "okBtn": "OK",
+  "closeBtn": "Zamknij"
+}

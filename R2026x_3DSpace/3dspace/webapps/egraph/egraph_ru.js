@@ -1,0 +1,1 @@
+define("DS/egraph/egraph_ru",{});define("DS/egraph/assets/nls/translation",{pan:"Панорамирование",zoomArea:"Масштабировать область",zoomOut:"Уменьшить",zoomIn:"Увеличить",zoomReset:"Сбросить масштабирование",zoomFit:"Изменить в размер экрана"});

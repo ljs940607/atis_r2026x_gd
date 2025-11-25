@@ -1,0 +1,136 @@
+{
+  "WFS_Capabilities": {
+    "version": "2.0.0",
+    "updateSequence": "1",
+    "ServiceIdentification": {
+      "Title": "Exemple de WFS avec plusieurs FeatureTypes",
+      "Abstract": "Un service WFS exposant plusieurs couches de données géospatiales.",
+      "ServiceType": "WFS",
+      "ServiceTypeVersion": "2.0.0"
+    },
+    "ServiceProvider": {
+      "ProviderName": "Exemple Provider",
+      "ProviderSite": "http://www.example.com"
+    },
+    "OperationsMetadata": {
+      "Operations": [
+        {
+          "name": "GetCapabilities",
+          "DCP": {
+            "HTTP": {
+              "Get": "http://www.example.com/wfs?request=GetCapabilities"
+            }
+          }
+        },
+        {
+          "name": "DescribeFeatureType",
+          "DCP": {
+            "HTTP": {
+              "Get": "http://www.example.com/wfs?request=DescribeFeatureType"
+            }
+          }
+        },
+        {
+          "name": "GetFeature",
+          "DCP": {
+            "HTTP": {
+              "Get": "http://www.example.com/wfs?request=GetFeature"
+            }
+          }
+        }
+      ]
+    },
+    "FeatureTypeList": [
+      {
+        "Name": "example:lakes",
+        "Title": "Lacs",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-123.12, 37.74],
+          "UpperCorner": [-122.67, 38.01]
+        }
+      },
+      {
+        "Name": "example:rivers",
+        "Title": "Rivières",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-100.20, 40.50],
+          "UpperCorner": [-99.95, 40.75]
+        }
+      },
+      {
+        "Name": "example:forests",
+        "Title": "Forêts",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-60.00, 5.00],
+          "UpperCorner": [-58.00, 7.00]
+        }
+      },
+      {
+        "Name": "example:mountains",
+        "Title": "Montagnes",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [20.00, 45.00],
+          "UpperCorner": [22.00, 47.00]
+        }
+      },
+      {
+        "Name": "example:cities",
+        "Title": "Villes",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [2.00, 48.00],
+          "UpperCorner": [3.00, 49.00]
+        }
+      },
+      {
+        "Name": "example:roads",
+        "Title": "Réseau routier",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-10.00, 35.00],
+          "UpperCorner": [-8.00, 37.00]
+        }
+      },
+      {
+        "Name": "example:railways",
+        "Title": "Chemins de fer",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [100.00, 15.00],
+          "UpperCorner": [102.00, 17.00]
+        }
+      },
+      {
+        "Name": "example:airports",
+        "Title": "Aéroports",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-75.00, 40.00],
+          "UpperCorner": [-74.50, 40.50]
+        }
+      },
+      {
+        "Name": "example:parks",
+        "Title": "Parcs nationaux",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [-3.00, 42.00],
+          "UpperCorner": [-1.00, 44.00]
+        }
+      },
+      {
+        "Name": "example:deserts",
+        "Title": "Déserts",
+        "DefaultCRS": "urn:ogc:def:crs:EPSG::4326",
+        "WGS84BoundingBox": {
+          "LowerCorner": [30.00, -25.00],
+          "UpperCorner": [32.00, -23.00]
+        }
+      }
+    ]
+  }
+}

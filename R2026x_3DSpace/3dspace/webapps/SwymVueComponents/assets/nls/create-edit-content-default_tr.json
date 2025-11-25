@@ -1,0 +1,20 @@
+{
+  "AddATitle": "Başlık ekle",
+  "Publish": "Yayınla",
+  "Next": "Sonraki",
+  "Previous": "Önceki",
+  "Cancel": "İptal",
+  "Close": "Kapat",
+  "StartWriting": "Yazmaya başlayın",
+  "AreYouSure": "İptal etmek istediğinizden emin misiniz? Girdiğiniz bilgileri kaybedeceksiniz.",
+  "InsertMedia": "Bir ortam takın",
+  "InsertExternalMedia": "Bir ortam takın",
+  "InsertOSMedia": "Bilgisayardan ortam yükle",
+  "AddTags": "Etiket ekle",
+  "EditContentMobileTitle": "İçeriği düzenle",
+  "Error_MaxCharLimitReached": "Maksimum karakter sınırına ulaşıldı ({n})",
+  "Error_CreationFailed": "Oluşturulamadı. Lütfen daha sonra tekrar deneyin.",
+  "Error_TitleIsRequired": "İçerik yayınlamak için bir başlık gerekir",
+  "Error_DescriptionIsRequired": "İçerik yayınlamak için bir tanım gerekir",
+  "Error_ConcurrentEdition": "<b>Güncellenen İçerik:</b> {user}, bu içerik hakkında yeni bir güncelleme yayınladı. Değişikliklerinizi manuel olarak kopyalamanız ve en son güncellemeden yeniden düzenlemeniz gerekebilir."
+}

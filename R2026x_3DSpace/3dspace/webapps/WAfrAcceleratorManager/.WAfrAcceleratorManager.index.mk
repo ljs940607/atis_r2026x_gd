@@ -1,0 +1,14 @@
+m|WAfrFoundation\WAfrAcceleratorManager.mweb
+b|j|n,m
+b|c|n,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\WAfrAcceleratorManager\AcceleratorManagerHelperUtilities.js|1723278163|1934
+s|WAfrFoundation\WAfrAcceleratorManager.mweb\src\AcceleratorManagerHelperUtilities.js|1662024839|5829
+t|win_b64\webapps\WAfrAcceleratorManager\WAfrAcceleratorManager.js|1723278165|0
+s|WAfrFoundation\WAfrAcceleratorManager.mweb\src\WAfrAcceleratorManager.js|1586967741|4
+t|win_b64\webapps\WAfrAcceleratorManager\mod_AcceleratorInterpreter.js|1723278163|4919
+s|WAfrFoundation\WAfrAcceleratorManager.mweb\src\mod_AcceleratorInterpreter.js|1689857953|15358
+t|win_b64\webapps\WAfrAcceleratorManager\mod_AcceleratorManagementComponent.js|1723278164|6881
+s|WAfrFoundation\WAfrAcceleratorManager.mweb\src\mod_AcceleratorManagementComponent.js|1662024055|24986
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401

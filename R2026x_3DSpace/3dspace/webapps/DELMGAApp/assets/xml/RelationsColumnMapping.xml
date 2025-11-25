@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<RelationsColumnMapping version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/RelationsColumnMapping.xsd" Title="Relations columns configuration" Description="Sample configuration file delivered by DS.">
+    <RelationsColumns>
+      <RelationsColumn name="Routings_Items">
+        <Relation name="ProcessImplementLink" attribute_source="Type" direction="To" />
+        <Relation name="PartialProcessImplementLink" attribute_source="Type" direction="To" />
+        <Relation name="DELLmiProductionSystemOutputCnxToMBOM" attribute_source="Type" direction="To"/>
+        <Relation name="ProcessImplementLinkOcc" attribute_source="Relation,Type" direction="To"/>
+        <!-- MGA-ProductFlow for Testing
+        <Relation name="DELLmiTimeConstraintCnx" attribute_source="Type" direction="Both"/>
+        -->
+      </RelationsColumn>
+      <RelationsColumn name="Routings_Resources">
+        <Relation name="DELAsmProcessCanUseCnx" attribute_source="Type" direction="To"/>
+        <Relation name="CapableResourcesStructureLink" attribute_source="Type" direction="To"/>
+        <Relation name="SecondaryCandidateResourceLink" attribute_source="Type" direction="To"/>
+        <Relation name="DELAssetsStructureLink" attribute_source="Type" direction="To"/>
+        <Relation name="AllocatedResourceLink" attribute_source="Type" direction="To"/>
+      </RelationsColumn>
+      <RelationsColumn name="Items_Routings">
+        <Relation name="ProcessImplementLink" attribute_source="Type" direction="From"/>
+        <Relation name="PartialProcessImplementLink" attribute_source="Type" direction="From"/>
+        <Relation name="DELLmiProductionSystemOutputCnxToMBOM" attribute_source="Type" direction="From"/>
+        <Relation name="ProcessImplementLinkOcc" attribute_source="Relation,Type" direction="From"/>
+      </RelationsColumn>
+      <RelationsColumn name="Resources_Routings">
+        <Relation name="DELAsmProcessCanUseCnx" attribute_source="Type" direction="From"/>
+        <Relation name="CapableResourcesStructureLink" attribute_source="Type" direction="From"/>
+        <Relation name="SecondaryCandidateResourceLink" attribute_source="Type" direction="From"/>
+        <Relation name="DELAssetsStructureLink" attribute_source="Type" direction="From"/>
+        <Relation name="AllocatedResourceLink" attribute_source="Type" direction="From"/>
+      </RelationsColumn>
+      <RelationsColumn name="Responsibility">
+        <Relation name="DELMfgResponsibilityCnx" attribute_source="Type" direction="To"/>
+      </RelationsColumn>
+  </RelationsColumns>
+  <RelationsDisplayAttributes>
+    <Type name="DELLmiHeaderWorkPlanReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiWorkPlanSystemReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiGeneralSystemReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiQtyControlProcessReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELSCPLogisticsSiteRef" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiTransformationSystemReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiTransferSystemReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="SourceSystem" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="SinkSystem" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="BufferSystem" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiHeaderOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiGeneralOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiPunctualOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiCurveOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiLoadingOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiUnloadingOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiTransferOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="DELLmiRemoveMaterialOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="CreateAssembly" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+        <Attribute name="revision" />
+    </Type>
+    <Type name="Part" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="Provide" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="VPMReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Type name="VPMInstance" display_icon="relatedObject">
+        <Attribute name="PLM_ExternalID"  dicoType="PLMInstance" />
+    </Type>
+    <Type name="Installation" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+        <Attribute name="revision" />
+    </Type>
+    <Type name="Transform" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+        <Attribute name="revision" />
+    </Type>
+
+    <Relation linkName="ProcessImplementLinkOcc" display_icon="relation" >
+        <Attribute name="V_usage" dicoType="PLMEntity" />
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Area"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Length"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Mass"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Volume"/>
+        <Attribute name="V_UsageQuantityRatio" dicoType="DELLmiUsageQuantity_Ratio"/>
+        <Attribute name="V_Action" dicoType="ImplementLinkUsageFamily"/>
+    </Relation>
+
+    <!-- MGA-ImplementLink for Testing
+    <RelationsColumn name="Routings_Items">
+      <Relation name="ProcessImplementLinkOcc" attribute_source="Relation,Type" direction="To"/>
+    </RelationsColumn>
+    <Type name="DELLmiHeaderOperationReference" display_icon="relatedObject">
+        <Attribute name="V_Name" dicoType="PLMEntity" />
+    </Type>
+    <Relation linkName="ProcessImplementLinkOcc" display_icon="relation" >
+        <Attribute name="V_usage" dicoType="PLMEntity" />
+    </Relation>
+    -->
+  </RelationsDisplayAttributes>
+</RelationsColumnMapping>

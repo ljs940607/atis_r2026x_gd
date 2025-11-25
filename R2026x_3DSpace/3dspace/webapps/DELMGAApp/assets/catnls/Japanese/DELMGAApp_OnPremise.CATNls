@@ -1,0 +1,146 @@
+<meta charset="UTF-8"/>
+//=============================================================================
+// 								Fixed
+//=============================================================================
+DELMGAApp.LandingPage.Title="ホーム";
+DELMGAApp.Refresh.Title="選択したオブジェクトをリフレッシュ";
+DELMFNApp.Edit.Title="編集";
+DELMGAApp.RefreshAll.Title="すべてリフレッシュ";
+DELMGAApp.ToggleAuxiliaryView.Title="補助投影ビュー";
+
+//=============================================================================
+// 								Authoring
+//=============================================================================
+DELMGAApp_OnPremise.Authoring.Title="オーサリング";
+
+//-------------------------------------------------
+//				MGA Create Command Titles for System,Operation, Mfg and Resource
+//-------------------------------------------------
+DELMGAApp.InsertHeaderWorkplanSystem.Title="ヘッダー ワークプラン システム";
+DELMGAApp.InsertQualityControlProcess.Title="品質管理プロセス";
+DELMGAApp.InsertGeneralSystem.Title="一般システム";
+DELMGAApp.InsertTransformationSystem.Title="変形システム";
+DELMGAApp.InsertWorkplanSystem.Title="ワークプラン システム";
+DELMGAApp.InsertTransferSystem.Title="搬送システム";
+DELMGAApp.InsertSourceSystem.Title="ソース システム";
+DELMGAApp.InsertSinkSystem.Title="シンク システム";
+DELMGAApp.InsertBufferSystem.Title="バッファー システム";
+DELMGAApp.InsertGeneralOperation.Title="一般オペレーション";
+DELMGAApp.InsertPointFasteningOperation.Title="点ファスニング オペレーション";
+DELMGAApp.InsertCurveFasteningOperation.Title="曲線ファスニング オペレーション";
+DELMGAApp.InsertLoadingOperation.Title="ロード オペレーション";
+DELMGAApp.InsertUnloadingOperation.Title="アンロード オペレーション";
+DELMGAApp.InsertTransferOperation.Title="搬送オペレーション";
+DELMGAApp.InsertRemoveMaterialOperation.Title="マテリアル除去オペレーション";
+DELMGAApp.InsertHeaderOperation.Title="ヘッダー オペレーション";
+DELMGAApp.InsertCreateAssembly.Title="マニュファクチャリング アセンブリー";
+DELMGAApp.InsertCreateMaterial.Title="マニュファクチャード マテリアル";
+DELMGAApp.InsertCreateMaterialProcessContinuous.Title="連続マニュファクチャード マテリアル";
+DELMGAApp.InsertCreateKit.Title="マニュファクチャリング キット";
+DELMGAApp.InsertProvide.Title="提供パーツ";
+DELMGAApp.InsertArea.Title="領域";
+DELMGAApp.InsertOrganizational.Title="マニュファクチャリング セル";
+DELMGAApp.InsertRobot.Title="ロボット";
+DELMGAApp.InsertWorker.Title="作業者";
+DELMGAApp.InsertTransport.Title="輸送";
+DELMGAApp.InsertConveyor.Title="コンベヤ";
+DELMGAApp.InsertNCMachine.Title="NC 工作機械";
+DELMGAApp.InsertIndustrialMachine.Title="産業機械";
+DELMGAApp.InsertInspect.Title="点検";
+DELMGAApp.InsertControlDevice.Title="制御機器";
+DELMGAApp.InsertLogicController.Title="ロジック コントローラー";
+DELMGAApp.InsertToolDevice.Title="ツール機器";
+DELMGAApp.InsertStorage.Title="ストレージ";
+DELMGAApp.InsertSensor.Title="センサー";
+DELMGAApp.InsertUserDefined.Title="ユーザー定義リソース";
+DELMGAApp.InsertManufacturingSetup.Title="マニュファクチャリング セットアップ";
+
+DELMGAApp.InsertAlert.Title="アラート指示";
+DELMGAApp.InsertDataCollectPlan.Title="データ収集計画指示";
+DELMGAApp.InsertDataCollectChecklist.Title="データ収集チェックリスト指示";
+DELMGAApp.InsertSignOff.Title="サイン オフ指示";
+DELMGAApp.InsertInstruction.Title="テキスト指示";
+DELMGAApp.InsertResourceParameterPlan.Title="リソース パラメーター計画";
+DELMGAApp.InsertWarning.Title="警告指示";
+DELMGAApp.InsertCaution.Title="注意指示";
+DELMGAApp.InsertNote.Title="注記指示";
+
+//MGA
+DELMGAApp.CreateInstance.Title="インスタンスを作成";
+DELMGAApp.SearchAndAddInstanceCommand.Title="挿入";
+DELMFNApp.InsertAsCopy.Title="コピーとして挿入";
+DELMGAApp.DetachInstance.Title="切り離し";
+DELMGAApp.CreateCapableResourceStructureLink.Title="使用可能リソース構造を作成";
+DELMGAApp.ManageCapableResources.Title="使用可能リソースを管理";
+DELMGAApp.CreateLink.Title="リンクを作成";
+DELMGAApp.Relations.Title="関係";
+DELMGAApp.OrderBySequence.Title="シーケンス順に並べ替え";
+DELMGAApp.DisplayProperties.Title="情報";
+DELMGAApp.ShowCharacteristicsCmd.Title="特性の管理";
+DELMGAApp.ShowConsolidatedCharactscsCmd.Title="特性の管理: 統合されたビュー";
+DELMGAApp.ManageInconsistentLinks.Title="変更インパクト管理";
+
+//=============================================================================
+// 								lifecycle
+//=============================================================================
+DELMGAApp_OnPremise.Lifecycle.Title="ライフサイクル";
+DELMGAApp.changeMaturity.Title="完成度を変更...";
+DELMGAApp.revise.Title="新規リビジョン...";
+DELMGAApp.Delete.Title="削除";
+DELMGAApp.duplicate.Title="複写";
+DELMGAApp.DuplicateAdv.Title="拡張複写";
+
+
+//=============================================================================
+// 								View
+//=============================================================================
+//MGA
+DELMGAApp_OnPremise.View.Title="ビュー";
+
+DELMGAApp.ProcessView.Title="プロセスとオペレーション ビューを表示";
+DELMGAApp.ItemsView.Title="マニュファクチャリング アイテム ビューを表示";
+DELMGAApp.ResourcesView.Title="リソース ビューを表示";
+DELMGAApp.BottomAndLeftBlock.Title="左および下部ブロックを表示";
+DELMGAApp.BottomAndRightBlock.Title="右および下部ブロックを表示";
+
+DELMGAApp.ShowGraphView.Title="グラフ ビューを表示";
+DELMGAApp.ShowLinksFilterMenu.Title="リンク フィルタ メニューを表示";
+DELMGAApp.ProductFlowCmd.Title="プロセス フロー ダイアグラム";
+DELMGAApp.SwimLaneChartCmd.Title="スイムレーン チャート";
+DELMGAApp.ExpandLevel.Title="展開";
+DELMGAApp.ExpandAll.Title="すべてを展開";
+DELMGAApp.ExpandNLevel.Title="N レベルを展開";
+DELMGAApp.CollapseAll.Title="すべてを折りたたむ";
+DELMGAApp.UserDefinedExplore.Title="ユーザー定義済みの探索";
+DELMGAApp.ShowLogPanel.Title="ログを表示";
+DELMGAApp.Show3DViewerCmd.Title="3DOperations ビューアーを開く";
+DELMGAApp.BuildUpReviewModeCmd.Title="ビルドアップ レビュー モード";
+DELMGAApp.Requirement.Title="要求を管理";
+
+//=============================================================================
+// 								Tools
+//=============================================================================
+DELMGAApp_OnPremise.Tools.Title="ツール";
+
+DELMGAApp.EditViewPreferences.Title="ビューの環境設定を編集";
+DELMGAApp.LayoutPreferences.Title="レイアウトの環境設定";
+DELMGAApp.ExportCSV.Title="CSV をエクスポート";
+DELMGAApp.RelationalExplorerCmd.Title="関連オブジェクト";
+DELMGAApp.BIEssentialsCmd.Title="B.I. Essentials";
+DELMGAApp.ProcessValidationCmd.Title="プロセスの検証";
+DELMGAApp.LoadRelations.Title="Relations をロード";
+//-------------------------------------------------
+//				Replace
+//-------------------------------------------------
+DELMGAApp.ReplaceByExisting.Title="既存で置換";
+DELMGAApp.ReplaceByNewRevision.Title="新しいリビジョンで置換";
+DELMGAApp.ReplaceByPredefined.Title="事前定義で置換";
+DELMGAApp.ReplaceByLatestRevision.Title="最新リビジョンで置換";
+DELMGAApp.ReplaceByNewReference.Title="新規で置換";
+DELMFNApp.ReplaceWhereUsed.Title="使用先を置換";
+//-------------------------------------------------
+
+//=============================================================================
+// 								Configuration
+//=============================================================================
+DELMGAApp_OnPremise.Configuration.Title="構成";

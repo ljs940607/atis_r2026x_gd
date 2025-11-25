@@ -1,0 +1,23 @@
+{
+  "OpenContent.Title": "打开内容",
+  "WaitingPage.Title": "正在加载...",
+  "TypesNotSupported.Error.Message": "类型不受支持",
+  "ProcessNotSupportedMultiRootScenarios.Error.Message": "此应用程序内无法打开多个流程。您可以打开单个流程。",
+  "NoObjectInformation.Error.Message": "无法检索对象信息。几分钟后重试。如果问题仍然存在，请与管理员联系",
+  "DragAndDrop.icon.Title": "打开",
+  "DragAndDropWithFilter.icon.Title": "通过过滤器打开",
+  "Preferences.DefaultViewerMode.Label": "默认模式",
+  "Preferences.DefaultViewerMode.WorkInstructions.Label": "工作指令",
+  "Preferences.DefaultViewerMode.BuildUp.Label": "产品构建",
+  "Preferences.UsePublishedContent.Label": "使用已发布内容",
+  "Preferences.InstallVolumeOffSet.Label": "包络体偏移 (cm)",
+  "Preferences.InstallAutoApplyVolume.Label": "自动应用包络体过滤器",
+  "Preferences.WebTimeout.Label": "Web 服务请求超时 (ms)",
+  "Preferences.DefaultPickability.Label": "3D 项目选择级别",
+  "Preferences.DefaultPickability.ITEM.Label": "项目",
+  "Preferences.DefaultPickability.SHAPE.Label": "形状",
+  "Preferences.AutoReload.Label": "自动重新加载上一个会话中的最近项（自动重新加载在启动视图中优先）",
+  "Failed.StartupViewLoading.Title": "启动视图加载失败",
+  "Failed.StartupViewLoading.Subtitle": "已设置启动视图和“自动重新加载上一个会话中的最近项”。",
+  "Failed.StartupViewLoading.Message": "要使启动视图正常工作，请在首选项中禁用“自动重新加载上一个会话中的最近项”。"
+}

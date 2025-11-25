@@ -1,0 +1,266 @@
+{
+	"Examples": [
+		{
+			"title": "Title Contains hello world",
+			"blocks": [
+				{
+					"type": "PREDICATE",
+					"uri": "ds6w:label",
+					"displayValue": "Title",
+					"value": "[ds6w:label]",
+					"suggestion": {
+						"displayValue": "Title",
+						"value": "[ds6w:label]",
+						"type": "PREDICATE",
+						"uri": "ds6w:label",
+						"iconClass": "fonticon-properties",
+						"category": "ds6w:what"
+					},
+					"dataTypes": "string"
+				},
+				{
+					"type": "R_OPERATOR",
+					"uri": "operator:contains",
+					"displayValue": "Contains",
+					"value": ":",
+					"suggestion": {
+						"displayValue": "Contains",
+						"value": ":",
+						"type": "R_OPERATOR",
+						"uri": "operator:contains",
+						"category": "OPERATOR"
+					}
+				},
+				{
+					"type": "USER_TEXT",
+					"uri": "",
+					"displayValue": "hello word",
+					"value": "hello word",
+					"suggestion": {
+						"displayValue": "hello word",
+						"type": "USER_TEXT",
+						"uri": "",
+						"iconClass": "fonticon-pencil",
+						"value": "hello word"
+					}
+				}
+			],
+			"display": [
+				"Title",
+				"Contains",
+				"hello world"
+			]
+		},
+		{
+			"title": "Post Creation Date This Month ME",
+			"edit": false,
+			"blocks": [
+				{
+					"type": "TYPE",
+					"uri": "swym:Post",
+					"displayValue": "Post",
+					"value": "[ds6w:type]:\"swym:Post\"",
+					"suggestion": {
+						"displayValue": "Post",
+						"type": "TYPE",
+						"value": "[ds6w:type]:\"swym:Post\"",
+						"uri": "swym:Post",
+						"iconClass": "fonticon-newspaper",
+						"category": "ds6w:what"
+					}
+				},
+				{
+					"type": "PREDICATE",
+					"uri": "ds6w:created",
+					"displayValue": "Creation Date",
+					"value": "[ds6w:created]",
+					"suggestion": {
+						"displayValue": "Creation Date",
+						"value": "[ds6w:created]",
+						"type": "PREDICATE",
+						"uri": "ds6w:created",
+						"iconClass": "fonticon-properties",
+						"category": "ds6w:when",
+						"dataTypes": "date"
+					},
+					"dataTypes": "date"
+				},
+				{
+					"type": "VALUE_KEYWORD",
+					"uri": "keyword:thismonth",
+					"displayValue": "This Month",
+					"value": "$THIS_MONTH",
+					"suggestion": {
+						"displayValue": "This Month",
+						"value": "$THIS_MONTH",
+						"type": "VALUE_KEYWORD",
+						"uri": "keyword:thismonth",
+						"category": "ds6w:when"
+					}
+				},
+				{
+					"type": "KEYWORD",
+					"displayValue": "ME",
+					"value": "$ME",
+					"suggestion": {
+						"displayValue": "ME",
+						"value": "$ME",
+						"type": "KEYWORD",
+						"category": "ds6w:who"
+					}
+				}
+			],
+			"display": [
+				"Post",
+				"Creation Date",
+				"This Month",
+				"ME"
+			]
+		},
+		{
+			"title": "Physical Product Creation Date This Week ME",
+			"edit": false,
+			"blocks": [
+				{
+					"type": "TYPE",
+					"uri": "ds6wg:VPMReference",
+					"displayValue": "Physical Product",
+					"value": "flattenedtaxonomies:\"types/VPMReference\"",
+					"suggestion": {
+						"displayValue": "Physical Product",
+						"type": "TYPE",
+						"value": "flattenedtaxonomies:\"types/VPMReference\"",
+						"uri": "ds6wg:VPMReference",
+						"category": "ds6w:what"
+					}
+				},
+				{
+					"type": "PREDICATE",
+					"uri": "ds6w:created",
+					"displayValue": "Creation Date",
+					"value": "[ds6w:created]",
+					"suggestion": {
+						"displayValue": "Creation Date",
+						"value": "[ds6w:created]",
+						"type": "PREDICATE",
+						"uri": "ds6w:created",
+						"iconClass": "fonticon-properties",
+						"category": "ds6w:when",
+						"dataTypes": "date"
+					},
+					"dataTypes": "date"
+				},
+				{
+					"type": "VALUE_KEYWORD",
+					"uri": "keyword:thisweek",
+					"displayValue": "This Week",
+					"value": "$THIS_WEEK",
+					"suggestion": {
+						"displayValue": "This Week",
+						"value": "$THIS_WEEK",
+						"type": "VALUE_KEYWORD",
+						"uri": "keyword:thisweek",
+						"category": "ds6w:when"
+					}
+				},
+				{
+					"type": "KEYWORD",
+					"displayValue": "ME",
+					"value": "$ME",
+					"suggestion": {
+						"displayValue": "ME",
+						"value": "$ME",
+						"type": "KEYWORD",
+						"category": "ds6w:who"
+					}
+				}
+			],
+			"display": [
+				"Physical Product",
+				"Creation Date",
+				"This Week",
+				"ME"
+			]
+		}
+	],
+	"toTranslate": [
+		"_intro_title",
+		"_intro_line_1",
+		"_intro_line_2",
+		"_intro_line_3",
+		"_intro_line_4",
+		"_intro_property_1",
+		"_intro_value_1",
+		"_intro_property_2",
+		"_intro_value_2",
+		"_intro_property_3",
+		"_intro_value_3",
+		"_intro_property_4",
+		"_intro_value_4",
+		"_intro_property_5",
+		"_intro_value_5",
+		"_intro_property_6",
+		"_intro_value_6",
+		"_intro_property_7",
+		"_intro_value_7",
+		"_intro_line_5",
+		"_intro_query_1",
+		"_intro_OR",
+		"_intro_query_2",
+		"_intro_query_3",
+		"_intro_query_4",
+		"_intro_line_6",
+		"_headers_title",
+		"_headers_line_1",
+		"_headers_subtitle_1",
+		"_headers_content_1_line_1",
+		"_headers_content_1_line_2",
+		"_headers_subtitle_2",
+		"_headers_content_2_line_1",
+		"_headers_subtitle_3",
+		"_headers_content_3_line_1",
+		"_headers_subtitle_4",
+		"_headers_content_4_line_1",
+		"_headers_content_4_line_2",
+		"_headers_content_4_line_3",
+		"_headers_subtitle_5",
+		"_headers_content_5_line_1",
+		"_headers_content_5_line_2",
+		"_headers_content_5_line_3",
+		"_headers_content_5_line_4",
+		"_headers_content_5_line_5",
+		"_headers_content_5_line_6",
+		"_headers_subtitle_6",
+		"_headers_content_6_line_1",
+		"_headers_subtitle_7",
+		"_headers_content_7_line_1",
+		"_headers_subtitle_8",
+		"_headers_content_8_line_1",
+		"_navigate_title",
+		"_navigate_subtitle_1",
+		"_navigate_content_1_part_1",
+		"_navigate_content_1_part_2",
+		"_navigate_content_1_part_3",
+		"_navigate_content_1_part_4",
+		"_navigate_subtitle_2",
+		"_navigate_content_2_part_1",
+		"_navigate_content_2_part_2",
+		"_navigate_content_2_part_3",
+		"_navigate_subtitle_3",
+		"_navigate_content_3_line_1",
+		"_navigate_subtitle_4",
+		"_navigate_content_4_part_1",
+		"_navigate_content_4_part_2",
+		"_navigate_subtitle_5",
+		"_navigate_content_5_line_1",
+		"_navigate_subtitle_6",
+		"_navigate_content_6_line_1",
+		"_operator_title",
+		"_operator_subtitle_1",
+		"_operator_content_1_line_1",
+		"_operator_subtitle_2",
+		"_operator_content_2_line_1",
+		"_operator_subtitle_3",
+		"_operator_content_3_line_1"
+	]
+}

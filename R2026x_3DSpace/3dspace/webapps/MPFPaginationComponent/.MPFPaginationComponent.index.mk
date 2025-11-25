@@ -1,0 +1,16 @@
+m|MPFComponents\MPFPaginationComponent.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|MPFComponents\MPFPaginationComponent.mweb\LocalGenerated\win_b64\MPFPaginationComponent.css|1736606387|3579
+s|MPFComponents\MPFPaginationComponent.mweb\src\MPFPaginationComponent.scss|1724871220|1313
+t|win_b64\webapps\MPFPaginationComponent\MPFPaginationComponent.css|1744917708|1089
+g|MPFComponents\MPFPaginationComponent.mweb\LocalGenerated\win_b64\MPFPaginationComponent.css|1736606387|3579
+t|win_b64\webapps\MPFPaginationComponent\MPFPaginationComponent.js|1732360481|3642
+s|MPFComponents\MPFPaginationComponent.mweb\src\MPFPaginationComponent.js|1724871220|0
+u|MPFComponents\MPFPaginationComponent.mweb\src\PaginationComponent.js|1732311149|7480
+u|WebUiAssets\ProtectedInterfaces\_variables.uikit.scss|1736594068|7434
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

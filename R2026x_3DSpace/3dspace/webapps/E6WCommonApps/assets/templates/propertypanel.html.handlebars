@@ -1,0 +1,31 @@
+{{!--
+    template file for detail
+    version: SCM.23
+    class of the containing div is: "details"
+ --}}
+<div class="header">
+  <div class="panel-tabs">
+    <ul class="panel-tab-wrap">
+      {{#each panelTabs}}
+        <li id="{{id}}" class="panel-tab">
+          <span class="{{iconClass}}"></span>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="panel-actions"></div>
+  <div class="panel-overflow"></div>
+</div>
+<div id="detailsPanelFrame" class="body">
+      {{!-- generic property form goes here--}}
+</div>{{!-- /.body --}}
+
+<div class="footer">
+      <div class="panel-actions">
+            <div class="panel-action">
+                  <button id="saveButton" class="btn btn-primary">{{i18n "E6WCommonApps.Command.Save"}}</button>
+                  <button id="cancelButton" class="btn btn-default">{{i18n "E6WCommonApps.Command.Cancel"}}</button>
+                  <button id="closeButton" class="btn btn-default">{{i18n "E6WCommonApps.Command.Close"}}</button>
+            </div>
+      </div>
+</div>{{!-- /.footer --}}

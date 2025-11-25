@@ -1,0 +1,25 @@
+{
+    "AirGrabName": "Air Grab Navigation",
+    "AirGrabLabel": "Air Grab",
+    "FlyNavName": "Fly Navigation",
+    "FlyNavLabel": "Fly Navigation",
+    "flySpeed": "flySpeed",
+    "TeleportName": "Teleport",
+    "TeleportMode": "TeleportMode",
+    "TeleportArc": "Arc",
+    "CollisionsLineTeleport" : "CollisionsLineTeleport",
+    "MeasureName": "Measure",
+    "MeasureLabel": "Measure",
+    "MeasureLabelRescaleSetting": "Label Rescaling",
+    "MeasureMode" : "MeasureMode",
+    "MeasureModeDefault" : "Default",
+    "MeasureModeFree" : "Free",
+    "MeasureModeNormal": "Normal",
+    "MeasureDelete": "Delete Measure",
+    "PickingName": "Picking",
+    "PickingMode" : "pickingMode",
+    "PickingLabel" : "Picking",
+    "ObjectPlacementName" : "Object Placement",
+    "ObjectPlacementLabel" : "World Placement"
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--<Result xsi:schemaLocation="DELConfigurationPropertiesView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+<ui nodetreenls="DELUserExperienceConfiguration" treelistnls="DELUserExperienceConfiguration" modalnls="DELUserExperienceConfiguration">
+  	<object type="combobox" id="type" value="process,item,resource" disabled="false" onChange="onChangetypeCombo" mandatory="true" sortable="false"></object>
+	<object type="combobox" id="graphicalElement" value="headerBackgroundColor,tileBackgroundColor,headerTextColor,tileTextColor" disabled="true" onChange="onChangeGraphicElementCombo" mandatory="true" sortable="false"></object>
+	<object type="textarea" id="color" value="" disabled="false"  mandatory="true" sortable="false"></object>
+	<object type="combobox" id="attributeName" value="" onChange="onChangeAttributesCombo" disabled="true" mandatory="false" sortable="false"></object>
+	<object type="combobox" id="attributeCondition" value="Equal,NotEqual,LessThanOrEqual,GreaterThanOrEqual" mandatory="false" sortable="false"></object>
+	<object type="combobox" id="attributeValue" value="" disabled="true" mandatory="false" sortable="false"></object>
+</ui>

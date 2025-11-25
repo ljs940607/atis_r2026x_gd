@@ -1,0 +1,77 @@
+{
+  "AddItemToContextHdr": {
+    "commandHdr": "AddItemToContextHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/DesignEnvAddItemToContextCmd",
+    "isInternalCmd": true,
+    "nls_key": "menuAddWipLabel",
+    "fonticon": "plus"
+},
+  "AddItemToWIPHdr": {
+    "commandHdr": "AddItemToWIPHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/DesignEnvAddItemToWIPCmd",
+    "isInternalCmd": true,
+    "nls_key": "menuAddWipLabel",
+    "fonticon": "plus"
+  },
+  "DesignExpRefreshHdr": {
+    "commandHdr": "DesignExpRefreshHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/DesignExpRefreshView",
+    "isInternalCmd": true,
+    "nls_key": "menuRefreshDesignExpLabel",
+    "fonticon": "refresh"
+  },
+  "DesignEnvRemoveContentHdr": {
+    "commandHdr": "DesignEnvRemoveContentHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/RemoveContentCmd",
+    "isInternalCmd": true,
+    "nls_key": "remove",
+    "fonticon": "wrong",
+    "multiSelect": true
+  },
+  "OpenDesignEnvHdr": {
+    "commandHdr": "OpenDesignEnvHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/OpenDesignEnvItemCmd",
+    "isInternalCmd": true,
+    "nls_key": "menuRemoveLabel",
+    "fonticon": "wrong"
+  },
+  "CloseDesignEnvHdr": {
+    "commandHdr": "CloseDesignEnvHdr",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/CloseDesignEnvCmd",
+    "isInternalCmd": true,
+    "nls_key": "closeDesignExpLabel",
+    "fonticon": "wrong"
+  },
+  "RemoveItemsFromFolderCmd": {
+    "commandHdr": "RemoveItemsFromFolderCmd",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/RemoveItemsFromFolderCmd",
+    "isInternalCmd": true,
+    "nls_key": "removeItems",
+    "fonticon": "wrong",
+    "checkState": true
+  },
+  "UnsetCowCmd": {
+    "commandHdr": "UnsetCowCmd",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/UnsetCowCmd",
+    "isInternalCmd": true,
+    "nls_key": "unSetCow",
+    "fonticon": "wrong",
+    "checkState": false
+  },
+  "AddInViewCmd": {
+    "commandHdr": "AddInViewCmd",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/AddInViewCmd",
+    "isInternalCmd": true,
+    "nls_key": "addInView",
+    "fonticon": "open",
+    "multiSelect": true,
+    "checkState": true
+  },
+  "EditPropertiesCmd": {
+    "commandHdr": "EditPropertiesCmd",
+    "AmdLoader": "DS/DesignEnvironmentUX/commands/EditPropertiesCmd",
+    "isInternalCmd": true,
+    "nls_key": "information",
+    "fonticon": "info"
+  }
+}

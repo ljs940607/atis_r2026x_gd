@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="XPEDITIONEDM" synchronous="true"  nlsFile="emxDerivedFormatManagementXPEDITIONEDMStringResource" comment="conversion managed synchronously at save by XPEDITION EDM PowerBy connector">
+	<!-- from 25xFD01 -->
+      <datasources>
+		<datasource name="XPEDITIONEDM" >    
+			<source name="brd,mdd,mcm,zip" type="Part" subtype="CBDBoard" partExtension="CBDBoard"> 
+				<target name="STEP" inputStreamId="authoring" outputStreamId="STEP" downloadable="true"/>
+			</source> 			
+			<source name="STEP,STP" type="Part" subtype="PLMPCBPackageWrap" partExtension="PLMPCBPackageWrap">
+				<target name="STEP" inputStreamId="authoring" outputStreamId="STEP" downloadable="true"/>
+			</source> 		
+			
+			<events>       
+				<event name="onXCADSave" type="interactiveUpdate" />
+			</events>
+		</datasource>
+	  </datasources>
+	</converter>
+
+</derivedformatmanagement>

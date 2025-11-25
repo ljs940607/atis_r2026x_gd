@@ -1,0 +1,11 @@
+{
+  "isRequired": "{0} является обязательным",
+  "isInvalid": "Недопустимый элемент {0}",
+  "iban": "IBAN",
+  "swift": "SWIFT",
+  "bsbNumber": "код BSB",
+  "abaNumber": "код ABA",
+  "transitNumber": "транзитный номер",
+  "accountNumber": "номер счета",
+  "bankNumber": "код банка"
+}

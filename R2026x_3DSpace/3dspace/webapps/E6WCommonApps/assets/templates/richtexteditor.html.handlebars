@@ -1,0 +1,34 @@
+
+<label>
+      {{#if label}}
+      <div class="field-label">
+      <div class="field-label-text">
+            <div class="title_field" title="{{~#if title}} {{title}}:&nbsp;{{~/if~}} {{label}}">{{~#if title}} {{title}}:&nbsp;{{~/if~}} {{label}}</div>
+            <div class="label_field" title="{{label}}">{{label}}</div>
+      </div>
+      {{~/if~}}
+      {{~#if required~}}
+      <span class="required-field-indicator">*</span>
+      {{~/if~}}
+      <span class="field-label-actions">
+            {{#if tooltipTitle}}
+            <span class="fonticon fonticon-info"></span>
+            {{/if}}
+      </span>
+      </div>
+      <span class="actions">
+            <a class="btn custom-button expandEditor" title="Expand">
+                  <span class="fonticon fonticon-resize-fullscreen"></span>
+            </a>
+      </span>
+</label>
+  <div class="field-group drop-target drag-container">
+        <div class="input-group-wrapper">
+              <div class="input-group">
+                    <div class="input-element ck-editor">
+                          <img id="hidden_img" crossorigin="anonymous" src="" style="display:none;"></img>
+                          <div id="hidden_div" style="display:none;"></div>
+                    </div>
+              </div>
+        </div>
+  </div>

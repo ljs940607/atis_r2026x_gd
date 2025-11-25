@@ -1,0 +1,16 @@
+{
+  "OK": "OK",
+  "Cancel": "Storno",
+  "OpenLocation": "Rodič {typeStruct}",
+  "Bookmark_Locations": "Umístění {typeStruct}",
+  "Open": "Otevřít",
+  "OpenLocationPopupLable": "Vyberte {typeStruct} k otevření:",
+  "msg_error_BookmarkLocation": "Nelze otevřít umístění pro strukturu {typeStruct} „{name1}“ (může být odstraněna nebo není přístupná).",
+  "msg_error_BM_LOC_InValid_Object": "Nelze vybrat objekt. Mohl být odstraněn nebo není přístupný.",
+  "removeFromSearchNotif": {
+    "success": "Objekt byl odebrán.",
+    "failNotAllowed": "Zkontrolujte, zda je {typeStruct} ve stavu, který umožňuje změnu obsahu.",
+    "serverError": "Obnovte pomůcku nebo stránku v prohlížeči a zkontrolujte, zda jste použili správné přihlašovací údaje.",
+    "failNoRelationFound": "Ověřte, zda máte dostatečné oprávnění."
+  }
+}

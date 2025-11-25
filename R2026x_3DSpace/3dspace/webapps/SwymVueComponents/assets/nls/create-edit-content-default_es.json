@@ -1,0 +1,20 @@
+{
+  "AddATitle": "Agregar un título",
+  "Publish": "Publicar",
+  "Next": "Siguiente",
+  "Previous": "Anterior",
+  "Cancel": "Cancelar",
+  "Close": "Cerrar",
+  "StartWriting": "Comenzar a escribir",
+  "AreYouSure": "¿Seguro que desea cancelar? Perderá los datos que ha introducido.",
+  "InsertMedia": "Insertar un medio",
+  "InsertExternalMedia": "Insertar un medio",
+  "InsertOSMedia": "Cargar archivos multimedia desde el ordenador",
+  "AddTags": "Agregar etiquetas",
+  "EditContentMobileTitle": "Editar contenido",
+  "Error_MaxCharLimitReached": "Se ha alcanzado el límite máximo de caracteres ({n})",
+  "Error_CreationFailed": "Se ha producido un error de creación. Vuelva a intentarlo más tarde.",
+  "Error_TitleIsRequired": "Se requiere un título para publicar un contenido",
+  "Error_DescriptionIsRequired": "Se requiere una descripción para publicar un contenido",
+  "Error_ConcurrentEdition": "<b>Contenido actualizado:</b>{user} acaba de publicar una actualización de este contenido. Es posible que tenga que copiar manualmente los cambios y editarlos de nuevo desde la última actualización."
+}

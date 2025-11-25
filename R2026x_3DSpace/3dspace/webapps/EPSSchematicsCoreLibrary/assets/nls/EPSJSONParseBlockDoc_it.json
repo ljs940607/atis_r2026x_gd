@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Analizza il file JSON specificato per generare un oggetto.",
+  "description": "Questo blocco è dinamico, pertanto il tipo di oggetto dei dati di input può essere modificato utilizzando la finestra di dialogo di configurazione del blocco.",
+  "dataPorts": {
+    "JSON": "il file JSON da analizzare.",
+    "Object": "l'oggetto generato."
+  },
+  "controlPorts": {
+    "In": "attiva l'esecuzione del blocco.",
+    "Out": "viene attivato al termine del processo."
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Lesezeichenordner werden gesucht..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Die Suche im Strukturbaum kann für den Bereich Favoriten und für bevorzugte Lesezeichenordner nicht ausgeführt werden.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "Abgelegtes Objekt ist kein Lesezeichenordner.",
+    "subtitle": "Legen Sie einen Lesezeichen-Stammordner oder Lesezeichenordner ab."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Die Suche im Strukturbaum kann nicht ausgeführt werden.",
+    "subtitle": "Erweitern Sie den Strukturbaum auf diesen bestimmten Lesezeichenordnerknoten",
+    "message": "Der zu durchsuchende Lesezeichenordner ist im Strukturbaum nicht sichtbar."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Die Suche im Strukturbaum kann nicht ausgeführt werden.",
+    "subtitle": "Erweitern Sie den Lesezeichenordnerbereich auf Ebene 1.",
+    "message": "Unter dem Lesezeichenordnerbereich sind keine sichtbaren Lesezeichenordner vorhanden."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Die Suche im Strukturbaum kann nicht ausgeführt werden.",
+    "subtitle": "Wählen Sie einen Lesezeichenordner aus und versuchen Sie es erneut.",
+    "message": "Es wurde kein Lesezeichenordner für die Suche ausgewählt."
+  },
+  "msg_info_limitToFindInRootNode": "Es konnten nicht alle Suchergebnisse angezeigt werden. Versuchen Sie es mit anderen Schlüsselwörtern oder suchen Sie in untergeordneten Lesezeichenordnern.",
+  "msg_info_searchCompleted": "Suche ist abgeschlossen.",
+  "msg_info_No_Occurrence": "Kein Ergebnis gefunden."
+}

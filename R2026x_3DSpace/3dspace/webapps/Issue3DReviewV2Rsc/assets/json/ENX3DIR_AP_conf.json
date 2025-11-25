@@ -1,0 +1,24 @@
+{
+        "afrService": false,
+        "afrAppId": "ENX3DIR_AP",
+        "afrFamily": "PAD3DViewerFamily",
+        "afrSpecializations": [
+              "ENX3DIR_AP",
+              "ENX3DIR_AP_RealAssets"
+        ],
+        "afrTransitionsFrom": {
+            "ENX3DIR_AP": {
+                  "type": "CreateNewContainer"
+            }
+        },
+        "afrTransitionsFromFamily": {
+          "PAD3DViewerFamily": {
+            "type": "ReuseContext"
+          }
+        },
+        "afrTransitionsTo": {
+          "_default_": {
+            "type": "CreateNewContainer"
+          }
+        }
+}

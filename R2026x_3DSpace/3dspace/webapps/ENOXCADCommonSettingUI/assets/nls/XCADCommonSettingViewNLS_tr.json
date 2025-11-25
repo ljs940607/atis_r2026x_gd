@@ -1,0 +1,10 @@
+{
+  "IntroductionText": "Tüm CAD Bağlantı Elemanları için ortak ayarlar",
+  "ApplyText": "Uygula",
+  "ApplyTooltipText": "Güncellenmiş ortak ayar parametresi değerlerini uygula",
+  "ResetTooltipText": "Tüm genel ayar parametresi değerlerini sıfırla",
+  "ResetText": "Sıfırla",
+  "applyErrorMessage": "Ortak ayarlar uygulanırken hata oluştu. Lütfen yöneticinizle iletişime geçin.",
+  "applySuccessMessage": "Ortak ayar değerleri başarıyla dağıtıldı!",
+  "customTableErrorMessage": "Özel tablolarda en az bir sütun olmalıdır."
+}

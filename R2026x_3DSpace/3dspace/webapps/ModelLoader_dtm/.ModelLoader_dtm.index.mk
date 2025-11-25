@@ -1,0 +1,9 @@
+m|GEOV1WebVisu\ModelLoader_dtm.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ModelLoader_dtm\ModelLoader_dtm.js|1723277917|191
+s|GEOV1WebVisu\ModelLoader_dtm.mweb\src\loader.js|1466496609|1739
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

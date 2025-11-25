@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+ViewerCommands.VisuZoomView.Title="Yakınlaştır";
+ViewerCommands.VisuPanView.Title="Kaydır";
+ViewerCommands.VisuRotateView.Title="Döndür";
+ViewerCommands.VisuReframeView.Title="Yeniden çerçevele";
+ViewerCommands.VisuPerspectiveView.Title="Perspektif";
+ViewerCommands.VisuOrthographicView.Title="Paralel";
+ViewerCommands.VisuIsoView.Title="İzometrik Görünüm";
+ViewerCommands.VisuFrontView.Title="Ön Görünüm";
+ViewerCommands.VisuBackView.Title="Arka Görünüm";
+ViewerCommands.VisuLeftView.Title="Sol Görünüm";
+ViewerCommands.VisuRightView.Title="Sağ Görünüm";
+ViewerCommands.VisuTopView.Title="Üst Görünüm";
+ViewerCommands.VisuBottomView.Title="Alt Görünüm";
+ViewerCommands.VisuHideShow.Title="Gizle/Göster";
+ViewerCommands.VisuVisibleSpace.Title="Görünür alanı değiştir";
+
+ViewerCommands.VisuFilterPoints.Title="Noktaları Gizle/Göster";
+ViewerCommands.VisuFilterAxis.Title="Referans Ekseni Gizle/Göster";
+ViewerCommands.VisuFilterLines.Title="Çizgileri Gizle/Göster";
+
+ViewerCommands.VisuShadingEdges.Title="Kenarlarla gölgeleme";
+ViewerCommands.VisuShading.Title="Gölgeleme";
+ViewerCommands.VisuShadingIllustration.Title="Çizim";
+ViewerCommands.VisuShadingMaterial.Title="Malzemeyle gölgeleme";
+ViewerCommands.VisuShadingMaterialEdges.Title="Malzemeyle ve kenarlarla gölgeleme";
+ViewerCommands.VisuNoShadingEdges.Title="Telkafes";
+ViewerCommands.VisuShadingEdgesHiddenEdges.Title="Kenarlarla ve gizli kenarlarla gölgeleme";
+ViewerCommands.VisuShadingEdgesNoSmoothEdges.Title="Düzgün kenarlar dışındaki kenarlarla gölgeleme";
+
+
+ViewerCommands.VisuToggleShadow.Title="Gölgeleri aç/kapat";
+ViewerCommands.VisuToggleMirror.Title="Aynayı aç/kapat";
+ViewerCommands.VisuGrid.Title="Izgarayı göster/gizle";
+
+ViewerCommands.VisuNoEnv.Title="Temel";
+ViewerCommands.VisuV6Env.Title="Beyaz İnceleme";
+ViewerCommands.VisuCleanSpaceEnv.Title="Saf Beyaz";
+ViewerCommands.VisuDarkBlueEnv.Title="Mavi Tasarım";
+ViewerCommands.VisuDarkGreyEnv.Title="Karanlık İnceleme";
+ViewerCommands.VisuShinyEnv.Title="Karanlık Ayna";
+ViewerCommands.VisuQMCommand.Title="Görsel Kalite";
+ViewerCommands.VisuGIQMCommand.Title="Işın İzleyici Görsel Kalite";
+ViewerCommands.VisuPageObjectsConsoleCommand.Title="Sayfa Nesneleri Konsolu";
+ViewerCommands.VisuViewPanelCommand.Title="Görünüm Modları";
+
+
+ViewerCommands.VisuBasicOCACmd.Title="Temel";
+ViewerCommands.VisuWhiteDesignOCACmd.Title="Beyaz Tasarım";
+ViewerCommands.VisuBlueDesignOCACmd.Title="Mavi Tasarım";
+ViewerCommands.VisuDarkDesignOCACmd.Title="Karanlık Tasarım";
+ViewerCommands.VisuStudioOCACmd.Title="Stüdyo";
+ViewerCommands.VisuPureWhiteOCACmd.Title="Saf Beyaz";
+ViewerCommands.VisuWhiteMirrorOCACmd.Title="Beyaz Ayna";
+ViewerCommands.VisuWhiteExperienceOCACmd.Title="Beyaz Deneyim";
+ViewerCommands.VisuWhiteReviewOCACmd.Title="Beyaz İnceleme";
+ViewerCommands.VisuDarkMirrorOCACmd.Title="Karanlık Ayna";
+ViewerCommands.VisuDarkReviewOCACmd.Title="Karanlık İnceleme";
+ViewerCommands.VisuOutdoorOCACmd.Title="Dış Mekan";
+ViewerCommands.VisuIndoorOCACmd.Title="İç Mekan";
+ViewerCommands.VisuCityOCACmd.Title="Şehir";
+ViewerCommands.VisuRoadOCACmd.Title="Yol";
+
+
+ViewerCommands.VisuMagnifierOverview.Title="BüyüteçGenelBakışı";
+ViewerCommands.VisuDepthEffectView.Title="Derinlik Efekti";

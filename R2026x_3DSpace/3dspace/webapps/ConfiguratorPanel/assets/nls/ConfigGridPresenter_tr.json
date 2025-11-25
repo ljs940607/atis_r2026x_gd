@@ -1,0 +1,21 @@
+{
+  "titleLabel": "Başlık",
+  "typeLabel": "Tip",
+  "sequenceNoLabel": "Dizi Numarası",
+  "selectionMode": "Dahil Edilenler / Hariç Tutulanlar",
+  "configurationLabel": "Konfigürasyon",
+  "variantType": "Varyant",
+  "valueType": "Değer",
+  "variabilityGroupType": "Seçenek Grubu",
+  "optionType": "Seçenek",
+  "parameterType": "Parametre",
+  "loadingStatusLabel": "Ürün Konfigürasyonları Yükleniyor",
+  "totalPCLabel": "Toplam Ürün Konfigürasyonu",
+  "totalVariablityLabel": "Toplam Değişkenlik",
+  "applySelectionAction": "Seçime uygula",
+  "openPCAction": "Aç",
+  "COMMERCIAL": "Ticari",
+  "YES": "Evet",
+  "NO": "Hayır",
+  "differentRuleModelMsg": "Kaynak Ürün Konfigürasyonunun farklı Kural Değerlendirme Seviyesi var"
+}

@@ -1,0 +1,11 @@
+m|CATWebMove3DUX\CATW3DUtils.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24307|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CATW3DUtils\CATW3DUtils.js|1730554551|5975
+s|CATWebMove3DUX\CATW3DUtils.mweb\src\_copyright.js|1607435502|63
+u|CATWebMove3DUX\CATW3DUtils.mweb\src\CATC3DAxisSystemDisplayAgent.js|1729253478|8502
+u|CATWebMove3DUX\CATW3DUtils.mweb\src\CATW3DUtils.js|1611156016|7573
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

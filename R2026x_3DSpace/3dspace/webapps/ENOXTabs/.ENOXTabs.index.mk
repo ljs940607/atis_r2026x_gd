@@ -1,0 +1,16 @@
+m|ENOXAppsFoundationsUX\ENOXTabs.mweb
+b|j|c,m
+b|c|n,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|ENOXAppsFoundationsUX\ENOXTabs.mweb\LocalGenerated\win_b64\css\ENOXTabComponent.css|1723277191|2471
+s|ENOXAppsFoundationsUX\ENOXTabs.mweb\src\css\ENOXTabComponent.scss|1505291881|2437
+t|win_b64\webapps\ENOXTabs\ENOXTabs.js|1723277832|7988
+s|ENOXAppsFoundationsUX\ENOXTabs.mweb\src\js\ENOXTabs.js|1513328565|17583
+t|win_b64\webapps\ENOXTabs\css\ENOXTabComponent.css|1744917699|1724
+g|ENOXAppsFoundationsUX\ENOXTabs.mweb\LocalGenerated\win_b64\css\ENOXTabComponent.css|1723277191|2471
+t|win_b64\webapps\ENOXTabs\html\ENOXTabComponent.html|1723277831|754
+s|ENOXAppsFoundationsUX\ENOXTabs.mweb\src\html\ENOXTabComponent.html|1491990544|754
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

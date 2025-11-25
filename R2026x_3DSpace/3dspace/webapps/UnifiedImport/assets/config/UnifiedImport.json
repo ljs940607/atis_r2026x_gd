@@ -1,0 +1,540 @@
+[
+  {
+    "value": "STEAP242",
+    "label": "Enterprise IP Integration",
+    "service": "exchange",
+    "roles": ["XXH"],
+    "import": {
+      "checkinticketurl": "/resources/v1/modeler/exchangejobs/files/checkinticket",
+      "resulturl": "/resources/v1/modeler/exchangejobs/imports/{0}/lightreport",
+      "importurl": "/resources/v1/modeler/exchangejobs/uicmdimports?accessmode=internal&submit=yes",
+      "validate": {
+        "limited-availability": "importSTPX",
+        "max-nb-of-priors": 1,
+        "methodIdentifier": [
+          {
+            "primary": "stpx"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/ExchangeImportConfig",
+        "module-directory": "/ExchangeImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "3DEXPERIENCE",
+    "label": "3DEXPERIENCE",
+    "service": "exchange",
+    "roles": ["Some Dummy Role"],
+    "import": {
+      "resulturl": "/resources/v1/modeler/exchangejobs/transfers/{0}/lightreport"
+    }
+  },
+  {
+    "value": "Industry Foundation Classes",
+    "label": "Industry Foundation Classes",
+    "service": "exchange",
+    "roles": ["IFC"],
+    "import": {
+      "checkinticketurl": "/resources/v1/modeler/exchangejobs/files/checkinticket",
+      "resulturl": "/resources/v1/modeler/exchangejobs/imports/{0}/lightreport",
+      "importurl": "/resources/v1/modeler/exchangejobs/uicmdimports?accessmode=internal&submit=yes",
+      "validate": {
+        "max-nb-of-priors": 1,
+        "methodIdentifier": [
+          {
+            "primary": "ifc"
+          },
+          {
+            "primary": "ifczip"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/IFCImportConfig",
+        "module-directory": "/ExchangeImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "AVEVA™ E3D Design",
+    "label": "AVEVA™ E3D Design",
+    "service": "exchange",
+    "roles": ["InternalDS"],
+    "import": {
+      "importurl": "/resources/v1/modeler/exchangejobs/uicmdimports?accessmode=internal&submit=yes",
+      "resulturl": "/resources/v1/modeler/exchangejobs/imports/{0}/lightreport",
+      "validate": {
+        "max-nb-of-priors": 1,
+        "methodIdentifier": [
+          {
+            "primary": "rvm",
+            "secondary": ["att"],
+            "matching-file": "any"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/AvevaImportConfig",
+        "module-directory": "/ExchangeImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "Intergraph Smart® 3D",
+    "label": "Intergraph Smart® 3D",
+    "service": "exchange",
+    "roles": ["InternalDS"],
+    "import": {
+      "importurl": "/resources/v1/modeler/exchangejobs/uicmdimports?accessmode=internal&submit=yes",
+      "resulturl": "/resources/v1/modeler/exchangejobs/imports/{0}/lightreport",
+      "validate": {
+        "max-nb-of-priors": 1,
+        "methodIdentifier": [
+          {
+            "primary": "vue",
+            "secondary": ["xml"],
+            "matching-file": "any"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/IntergraphImportConfig",
+        "module-directory": "/ExchangeImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "cv5exchange",
+    "label": "Design with CATIA V5",
+    "service": "xcaddataprocessor",
+    "roles": [
+      "PAU",
+      "UE5",
+      "IWR",
+      "UWA",
+      "UWD",
+      "UWE",
+      "UWM",
+      "UWP",
+      "UWR",
+      "UWS",
+      "UWT",
+      "UWU",
+      "UWG",
+      "UXF",
+      "UXI"
+    ],
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "methodIdentifier": [
+          {
+            "primary": "catpart"
+          },
+          {
+            "primary": "catproduct"
+          },
+          {
+            "primary": "catdrawing"
+          },
+          {
+            "primary": "catanalysis"
+          },
+          {
+            "primary": "catanalysisresults"
+          },
+          {
+            "primary": "catanalysiscomputations"
+          },
+          {
+            "primary": "catprocess"
+          },
+          {
+            "primary": "cgr"
+          },
+          {
+            "primary": "catshape"
+          },
+          {
+            "primary": "model"
+          },
+          {
+            "primary": "catmaterial"
+          },
+          {
+            "primary": "catalog"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/CV5Model",
+        "module-directory": "/CADImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "fbdi",
+    "label": "File Base Design Import",
+    "service": "xcaddataprocessor",
+    "roles": ["InternalDS"],
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "limited-availability": "importFBDI",
+        "methodIdentifier": [
+          {
+            "primary": "CATPart"
+          },
+          {
+            "primary": "CATShape"
+          },
+          {
+            "primary": "CATProduct"
+          },
+          {
+            "primary": "CATDrawing"
+          },
+          {
+            "primary": "CATProcess"
+          },
+          {
+            "primary": "CATMaterial"
+          },
+          {
+            "primary": "CATSwl"
+          },
+          {
+            "primary": "catalog"
+          },
+          {
+            "primary": "CATfct"
+          },
+          {
+            "primary": "CATAnalysis"
+          },
+          {
+            "primary": "cgr"
+          },
+          {
+            "primary": "model"
+          },
+          {
+            "primary": "CATAppliRsc"
+          },
+          {
+            "primary": "stl"
+          },
+          {
+            "primary": "txt"
+          },
+          {
+            "primary": "xls"
+          },
+          {
+            "primary": "xlsx"
+          },
+          {
+            "primary": "xlsm"
+          },
+          {
+            "primary": "xlsb"
+          },
+          {
+            "primary": "doc"
+          },
+          {
+            "primary": "docx"
+          },
+          {
+            "primary": "docm"
+          },
+          {
+            "primary": "ppt"
+          },
+          {
+            "primary": "pptx"
+          },
+          {
+            "primary": "pptm"
+          },
+          {
+            "primary": "xml"
+          },
+          {
+            "primary": "123"
+          },
+          {
+            "primary": "csv"
+          },
+          {
+            "primary": "pdf"
+          },
+          {
+            "primary": "html"
+          },
+          {
+            "primary": "iXFElec"
+          },
+          {
+            "primary": "cc360"
+          },
+          {
+            "primary": "isl"
+          },
+          {
+            "primary": "lib"
+          },
+          {
+            "primary": "asc"
+          },
+          {
+            "primary": "view"
+          },
+          {
+            "primary": "cloud"
+          },
+          {
+            "primary": "hym"
+          },
+          {
+            "primary": "cbk"
+          },
+          {
+            "primary": "grk"
+          },
+          {
+            "primary": "ac"
+          },
+          {
+            "primary": "Surf"
+          },
+          {
+            "primary": "xyz"
+          },
+          {
+            "primary": "crs"
+          },
+          {
+            "primary": "lin"
+          },
+          {
+            "primary": "bin"
+          },
+          {
+            "primary": "swl"
+          },
+          {
+            "primary": "cgo"
+          },
+          {
+            "primary": "cals"
+          },
+          {
+            "primary": "ioca"
+          },
+          {
+            "primary": "png"
+          },
+          {
+            "primary": "tif"
+          },
+          {
+            "primary": "bmp"
+          },
+          {
+            "primary": "iff"
+          },
+          {
+            "primary": "jpg"
+          },
+          {
+            "primary": "jpeg"
+          },
+          {
+            "primary": "jpe"
+          },
+          {
+            "primary": "pcx"
+          },
+          {
+            "primary": "pic"
+          },
+          {
+            "primary": "psd"
+          },
+          {
+            "primary": "ras"
+          },
+          {
+            "primary": "rgb"
+          },
+          {
+            "primary": "rtl"
+          },
+          {
+            "primary": "tga"
+          },
+          {
+            "primary": "xpm"
+          },
+          {
+            "primary": "xwd"
+          },
+          {
+            "primary": "gif"
+          },
+          {
+            "primary": "hdr"
+          },
+          {
+            "primary": "exr"
+          },
+          {
+            "primary": "fx"
+          },
+          {
+            "primary": "cgfx"
+          },
+          {
+            "primary": "dds"
+          },
+          {
+            "primary": "dib"
+          },
+          {
+            "primary": "rle"
+          },
+          {
+            "primary": "bmz"
+          },
+          {
+            "primary": "jfif"
+          },
+          {
+            "primary": "tiff"
+          },
+          {
+            "primary": "bw"
+          },
+          {
+            "primary": "svg"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/CV5Model",
+        "module-directory": "/FBDIImportWebUX",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "revitexchange",
+    "label": "Design with Revit",
+    "service": "xcaddataprocessor",
+    "roles": ["PAU", "UDV"],
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "methodIdentifier": [
+          {
+            "primary": "rfa"
+          },
+          {
+            "primary": "rte"
+          },
+          {
+            "primary": "rft"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/RevitModel",
+        "module-directory": "/CADImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "autocadexchange",
+    "label": "Design with AutoCAD",
+    "service": "xcaddataprocessor",
+    "roles": ["PAU","UDA","IWR","UWR","UXF"],
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "methodIdentifier": [
+          {
+            "primary": "dwg"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/AutoCADModel",
+        "module-directory": "/CADImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "nxexchange",
+    "label": "Design with NX",
+    "service": "xcaddataprocessor",
+    "roles": ["PAU", "UDN"],
+
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "methodIdentifier": [
+          {
+            "primary": "prt"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/NXModel",
+        "module-directory": "/CADImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  },
+  {
+    "value": "creoexchange",
+    "label": "Design with CREO",
+    "service": "xcaddataprocessor",
+    "roles": ["PAU", "UDO"],
+    "import": {
+      "importurl": "/resources/v1/modeler/xdpjobs/filesavejob/submit",
+      "validate": {
+        "withdualextension": true,
+        "methodIdentifier": [
+          {
+            "primary": "prt"
+          },
+          {
+            "primary": "asm"
+          },
+          {
+            "primary": "drw"
+          },
+          {
+            "primary": "frm"
+          }
+        ]
+      },
+      "import-ui": {
+        "module-name": "/models/CREOModel",
+        "module-directory": "/CADImportConfig",
+        "module-deployment-directory": "/webapps"
+      }
+    }
+  }
+]

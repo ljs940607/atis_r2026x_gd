@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "Tarama Yapısına Göre Grupla",
+    "chooserLabel": "Göz Atma Yapısı Seç",
+    "organizeButton": "Gruplandır",
+    "ungroupButton": "Grubu Çöz",
+    "cancelButton": "İptal"
+  },
+  "noBSWarning": {
+    "message": "Kullanılabilir göz atma yapısı yok.",
+    "advice": "Göz atma yapıları oluşturmak için Göz Atma Yapısı yöneticisiyle iletişime geçin ve bu komutta kullanılabilir hale getirmek için olgunluğunu \"Serbest Bırakılmış\" olarak ayarlayın."
+  },
+  "webServiceError": "Göz Atma Yapıları listesi alınamıyor. Tekrar deneyin veya yöneticinizle iletişime geçin"
+}

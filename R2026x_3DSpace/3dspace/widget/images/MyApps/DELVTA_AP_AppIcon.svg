@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="b" x1="17.28" y1="10.05" x2="25.49" y2="24.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <linearGradient id="d" x1="36.04" y1="6.19" x2="48.82" y2="28.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aaa"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="g" x1="20.24" y1="-22.08" x2="33.4" y2=".71" gradientTransform="translate(0 18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="j" x1="37.06" y1="24.95" x2="39.77" y2="29.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset=".94" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="k" x1="36.24" y1="22.76" x2="38.76" y2="27.14" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="l" x1="31.22" y1="25.66" x2="33.89" y2="30.28" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="m" x1="21.46" y1="29.21" x2="24.43" y2="34.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="n" x1="20.59" y1="26.56" x2="23.41" y2="31.44" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="o" x1="15.06" y1="29.75" x2="18.05" y2="34.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="p" x1="30.77" y1="19.36" x2="33.23" y2="23.64" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#8cd7f5"/>
+      <stop offset="1" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="q" x1="15.62" y1="23.12" x2="18.38" y2="27.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cd7f5"/>
+      <stop offset=".96" stop-color="#376e8c"/>
+    </linearGradient>
+    <linearGradient id="r" x1="17.1" y1="-7.09" x2="14.6" y2="-2.33" gradientTransform="translate(0 18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#a0e1fa"/>
+      <stop offset="1" stop-color="#73c3e1"/>
+    </linearGradient>
+    <linearGradient id="s" x1="9.22" y1="23.66" x2="11.89" y2="28.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset=".86" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="t" x1="25.33" y1="19.85" x2="27.78" y2="24.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82bedc"/>
+      <stop offset=".96" stop-color="#285a78"/>
+    </linearGradient>
+    <linearGradient id="u" x1="41.76" y1="8.76" x2="32.93" y2="-.07" gradientTransform="translate(0 18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="v" x1="31.8" y1="6.3" x2="22.18" y2="-3.32" xlink:href="#u"/>
+    <linearGradient id="w" x1="21.53" y1="4.03" x2="10.91" y2="-6.59" xlink:href="#u"/>
+    <linearGradient id="y" x1="39.12" y1="27.93" x2="63.23" y2="65.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#bfbfbf"/>
+    </linearGradient>
+    <linearGradient id="z" x1="44.9" y1="223.33" x2="54.16" y2="232.15" gradientTransform="translate(0 -208.89) rotate(22) scale(1.08 .93) skewX(19.15)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="aa" x1="39.35" y1="232.86" x2="48.62" y2="241.68" xlink:href="#z"/>
+    <linearGradient id="ab" x1="45.11" y1="230.73" x2="54.37" y2="239.54" xlink:href="#z"/>
+    <radialGradient id="ad" cx="33.95" cy="44.7" fx="33.95" fy="44.7" r="6.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </radialGradient>
+    <linearGradient id="ae" x1="30.25" y1="37.77" x2="39.75" y2="54.23" xlink:href="#m"/>
+    <linearGradient id="af" x1="32" y1="46" x2="39" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#464646"/>
+      <stop offset="1" stop-color="#141414"/>
+    </linearGradient>
+  </defs>
+  <g id="i" data-name="Factory">
+    <polygon points="35.5 6.5 35.5 18.5 48.5 28.5 48.5 14.5 35.5 6.5" fill="url(#d)" stroke="#323232" stroke-linejoin="round"/>
+    <path d="M17.5,38.5l-11-12,29-8,13,10-31,10Z" fill="url(#g)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="28.93 10.88 25.5 8.5 19.32 12.62 16.5 10.5 6.5 16.5 6.5 26.5 35.5 18.5 35.5 6.5 28.93 10.88" fill="url(#b)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="43.5 24.4 43.5 27.5 33.5 30.5 33.5 27 43.5 24.4" fill="url(#j)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="31.5 25.5 33.5 27 43.5 24.4 41.5 22.9 31.5 25.5" fill="url(#k)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="31.5 25.5 31.5 28.75 33.5 30.5 33.5 27 31.5 25.5" fill="url(#l)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="28.5 28.5 17.5 31.5 17.5 35.25 28.5 32 28.5 28.5" fill="url(#m)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="26 26.75 15.5 29.5 17.5 31.5 28.5 28.5 26 26.75" fill="url(#n)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="17.5 35.25 17.5 31.5 15.5 29.5 15.5 33 17.5 35.25" fill="url(#o)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="27.5 24.25 36.5 21.75 36.5 18.75 27.5 21.25 27.5 24.25" fill="url(#p)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="22.5 22.5 22.5 25.5 11.5 28.5 11.5 25.5 22.5 22.5" fill="url(#q)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="9.5 23.5 11.5 25.5 22.5 22.5 20 21 9.5 23.5" fill="url(#r)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="11.5 28.5 9.5 26.25 9.5 23.5 11.5 25.5 11.5 28.5" fill="url(#s)" stroke="#003755" stroke-linejoin="round"/>
+    <polygon points="27.5 24.25 25.5 22.5 25.5 19.75 27.5 21.25 27.5 24.25" fill="url(#t)" stroke="#003755" stroke-linejoin="round"/>
+    <path d="M38.5,21.5l-12-9,9-6,13,8-10,7Z" fill="url(#u)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="38.5 17.5 38.5 21.5 35.7 19.4 38.5 17.5" fill="url(#b)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M28.5,24.3l-12-9.8,9-6,13,9-10,6.8Z" fill="url(#v)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="28.5 19.5 28.5 24.3 25.2 21.6 28.5 19.5" fill="url(#b)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M17.5,26.5l-11-10,10-6,12,9-11,7Z" fill="url(#w)" stroke="#787878" stroke-linejoin="round"/>
+    <polygon points="35.5 6.5 28.93 10.88 25.5 8.5 19.32 12.62 16.5 10.5 6.5 16.5 6.5 26.5 17.5 38.5 48.5 28.5 48.5 14.5 35.5 6.5" fill="none" stroke="#323232" stroke-linejoin="round"/>
+  </g>
+  <g id="x" data-name="File">
+    <g opacity=".5">
+      <polygon points="40.5 50 56.5 56 56.5 35 40.5 29 40.5 50" fill="#fff" stroke-width="0"/>
+      <polygon points="40.5 50 56.5 56 56.5 35 40.5 29 40.5 50" fill="url(#y)" stroke="#2d2d2d" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="40.5 50 56.5 56 56.5 35 40.5 29 40.5 50" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g>
+      <polygon points="40.5 50 56.5 56 56.5 35 40.5 29 40.5 50" fill="url(#y)" stroke="#2d2d2d" stroke-linecap="round" stroke-linejoin="round"/>
+      <g opacity=".9">
+        <g>
+          <polygon points="46.5 38.11 46.5 35.19 50.5 36.81 50.5 39.73 46.5 38.11" fill="url(#z)" stroke-width="0"/>
+          <path d="M47,35.93l3,1.21v1.84l-3-1.21v-1.84M46,34.45v4l5,2.02v-4l-5-2.02h0Z" fill="#343434" stroke-width="0"/>
+        </g>
+        <g>
+          <polygon points="42.5 47.5 42.5 44.58 46.5 46.19 46.5 49.11 42.5 47.5" fill="url(#aa)" stroke-width="0"/>
+          <path d="M43,45.32l3,1.21v1.84l-3-1.21v-1.84M42,43.84v4l5,2.02v-4l-5-2.02h0Z" fill="#343434" stroke-width="0"/>
+        </g>
+        <g>
+          <polygon points="50.5 50.73 50.5 47.81 54.5 49.42 54.5 52.35 50.5 50.73" fill="url(#ab)" stroke-width="0"/>
+          <path d="M51,48.55l3,1.21v1.84l-3-1.21v-1.84M50,47.07v4l5,2.02v-4l-5-2.02h0Z" fill="#343434" stroke-width="0"/>
+        </g>
+        <polygon points="52 45.88 49 44.66 49 42.66 51 43.47 51 42.47 50 42.07 50 41.07 49 40.66 49 38.66 48 38.26 48 40.26 47 39.86 47 40.86 46 40.45 46 41.45 48 42.26 48 44.26 45 43.05 44 42.64 44 44.64 45 45.05 45 44.05 52 46.88 52 47.88 53 48.28 53 46.28 52 45.88" fill="#343434" opacity=".7" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+  <g id="ac" data-name="Stimulate">
+    <circle cx="35" cy="46" r="9.5" fill="#fff" opacity=".5" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <circle cx="35" cy="46" r="7.5" fill="url(#ad)" stroke="#787878" stroke-linejoin="round"/>
+    <path d="M35,36.5c-5.25,0-9.5,4.25-9.5,9.5s4.25,9.5,9.5,9.5,9.5-4.25,9.5-9.5-4.25-9.5-9.5-9.5ZM35,53.5c-4.14,0-7.5-3.36-7.5-7.5s3.36-7.5,7.5-7.5,7.5,3.36,7.5,7.5-3.36,7.5-7.5,7.5Z" fill="url(#ae)" stroke="#003755" stroke-linejoin="round"/>
+    <path d="M39.42,40.58c.98,1.21,1.58,2.75,1.58,4.42,0,3.87-3.13,7-7,7-1.68,0-3.22-.59-4.42-1.58,1.28,1.57,3.24,2.58,5.42,2.58,3.87,0,7-3.13,7-7,0-2.19-1-4.14-2.58-5.42Z" fill="#fff" opacity=".25" stroke-width="0"/>
+    <path d="M32,49.05v-6.09c0-.75.85-1.2,1.51-.81l5.03,3.05c.62.37.62,1.24,0,1.62l-5.03,3.05c-.66.4-1.51-.06-1.51-.81Z" fill="url(#af)" stroke-width="0"/>
+  </g>
+</svg>

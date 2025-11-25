@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Сохранить",
+  "NXOpenGroupLabel": "Открыть",
+  "NXToolkitLicenseGroupLabel": "Доступность переводчика MultiCAD STEP",
+  "NXMissingLinksWarningLabel": "Сохранить файл с отсутствующими ссылками",
+  "NXMissingLinksWarningInfo": "Если эта функция включена, при отсутствии дочерних проектов во время операции сохранения в сеансе NX будет отображаться предупреждение. Если эта функция отключена, операция сохранения будет продолжена без предупреждения.",
+  "NXSuppressPatternElementsLabel": "Погасить элементы массива",
+  "NXSuppressPatternElementsInfo": "Если эта функция включена, погашаются элементы массива, поэтому основные детали массива не отображаются в диалоговом окне Сохранить. Если эта функция отключена, деталь сохраняет свое отношение к основной детали массива, создавая связь MakeFrom.",
+  "NXSTEP242LicenseAvailableLabel": "Доступность переводчика MultiCAD STEP",
+  "NXSTEP242LicenseAvailableInfo": "Настройка для указания, используется ли переводчик STEP AP214 или STEP AP242 при открытии проектов MultiCAD в сеансе NX. Значение по умолчанию: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "Атрибут CAD сопоставлен c EIN",
+  "NXCADAttributeMappedToEINInfo": "Если указано значение для этого атрибута, функция будет включена и файл CAD будет содержать этот атрибут, а его значение будет соответствовать номеру EIN физического продукта.",
+  "EnterpriseItemNumberGroupLabel": "Номер позиции организации",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Отфильтруйте элементы проектирования 3DEXPERIENCE без геометрии и дочерних узлов",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Отфильтруйте элементы проектирования 3DEXPERIENCE без геометрии и дочерних узлов."
+}

@@ -1,0 +1,11 @@
+<div id="im-call-invitation-list"
+class="grabbable"
+@mousedown="drag"
+@touchstart="drag"
+>
+  <im-call-invitation-item
+  v-for="(item, index) in rooms_id"
+  :key="item"
+  :room_id="item"
+  ></im-call-invitation-item>
+</div>

@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "保存",
+  "CREOOpenGroupLabel": "開く",
+  "CREOMissingLinksWarningLabel": "リファレンスが欠落したファイルを保存",
+  "CREOMissingLinksWarningInfo": "有効にすると、Creo Parametric セッションでの保存操作中に子設計が欠落している場合に警告が表示されます。無効にすると、保存操作は警告なしで続行されます。",
+  "CREOPartFamilyInstanceHandlingLabel": "Creo Part Family インスタンスの処理",
+  "CREOPartFamilyInstanceHandlingInfo": "保存中に Creo Part Family テーブル インスタンスの処理を、次のように決定します。<br><strong>PartFamilyInstanceLight</strong> - アクティブ インスタンスにのみ XPR ファイルが生成されます。<br><strong> PartFamilyInstanceLoaded</strong> - すべてのインスタンスに XPR ファイルが生成されます。",
+  "CREOCADAttributeMappedToEINLabel": "EIN にマッピングされる CAD 属性",
+  "CREOCADAttributeMappedToEINInfo": "この属性の値を指定すると、機能が有効になり、この属性を持つ CAD ファイルがスタンプされ、その値が物理プロダクトの EIN になります。",
+  "EnterpriseItemNumberGroupLabel": "エンタープライズ項目番号",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "形状なし、子ノードなしの 3DEXPERIENCE エンジニアリング項目をフィルタ アウト",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "形状なし、子ノードなしの 3DEXPERIENCE エンジニアリング項目をフィルタ アウト。"
+}

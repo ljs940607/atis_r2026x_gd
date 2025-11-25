@@ -1,0 +1,11 @@
+{
+"ENONewDrawingHdr.Title":"Новый чертеж",
+"ENONewDrawingHdr.ShortHelp":"Создание нового чертежа.",
+"ENONewDrawingHdr.LongHelp":"В диалоговом окне введите заголовок, атрибуты, если они имеются, и, при необходимости, выберите шаблон, чтобы выбрать главный элемент CAD. Нажмите <uicontrol>Создать и закрыть</uicontrol>, чтобы создать только один чертеж, или <uicontrol>Создать</uicontrol>, чтобы создать еще один.",
+"ENOInsertNewDrawingHdr.Title":"Вставить новый чертеж",
+"ENOInsertNewDrawingHdr.ShortHelp":"Создание нового чертежа и его добавление в качестве дочернего элемента в выбранные объекты.",
+"ENOInsertNewDrawingHdr.LongHelp":"<p>В диалоговом окне введите заголовок и, при необходимости, выберите шаблон, чтобы выбрать главный элемент CAD. Нажмите <uicontrol>Создать и закрыть</uicontrol>, чтобы создать только один чертеж, или <uicontrol>Создать</uicontrol>, чтобы создать еще один.</p>",
+"ENONewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm",
+"ENONewDrawingHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Drawing.htm",
+"ENOInsertNewDrawingHdr.WebHelp":"PsteUserMap/pste-t-create-Drawing.htm"
+}

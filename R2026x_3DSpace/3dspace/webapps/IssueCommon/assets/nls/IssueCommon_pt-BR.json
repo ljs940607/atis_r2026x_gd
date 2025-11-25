@@ -1,0 +1,587 @@
+{
+  "migration": {
+    "upgrade": "Este widget foi atualizado. Atualize a página do navegador para obter a versão mais recente."
+  },
+  "maturity": {
+    "create": "Rascunho",
+    "assign": "Pendente",
+    "active": "Em Trabalho",
+    "review": "Em Aprovação",
+    "closed": "Concluído"
+  },
+  "priorities": {
+    "title": "Prioridade",
+    "low": "Baixo",
+    "medium": "Médio",
+    "high": "Alto",
+    "urgent": "Urgente",
+    "pre-assigned": "Pré-atribuído"
+  },
+  "dates": {
+    "seconds": "{number} segundos",
+    "minutes": "{number} minutos",
+    "hours": "{number} horas",
+    "days": "{number} dias",
+    "months": "{number} meses",
+    "years": "{number} anos"
+  },
+  "skeleton": {
+    "dueDate": "Data de conclusão prevista: {date}",
+    "issueSelection": "{number} problemas selecionados.",
+    "changes": "As alterações serão aplicadas a todos.",
+    "lifecycleNotAvailable": "Somente problemas no mesmo estado podem ser promovidos ou rebaixados.",
+    "deletedIssueInTheSelection": "Pelo menos um dos problemas selecionados foi excluído.",
+    "actions": {
+      "delete": "Exclua os problemas selecionados",
+      "changeOwner": "Alterar Propriedade",
+      "close": "Feche os problemas"
+    },
+    "facets": {
+      "properties": "Propriedades",
+      "relatedObjects": "Objetos Relacionados",
+      "team": "Membros",
+      "attachments": "Anexos",
+      "comments": "Comentários",
+      "history": "Histórico",
+      "documents": "Documentos"
+    }
+  },
+  "lifecycle": {
+    "create": "Defina o estado dos problemas como \"Rascunho\" para indicar que começou a trabalhar neles.",
+    "assign": "Defina o estado dos problemas como \"Pendente\" para permitir que os encarregados trabalhem neles.",
+    "active": "Defina o estado dos problemas como \"Em trabalho\" para indicar que está trabalhando neles.",
+    "review": "Defina o estado dos problemas como \"Em aprovação\" para permitir a revisão da correção.",
+    "closed": "Defina o estado dos problemas como \"Concluído\" se todos eles tiverem sido corrigidos.",
+    "partial": "A operação falhou devido a {number} problemas.",
+    "error": "Ocorreu um erro. Atualize sua página e tente novamente."
+  },
+  "create": {
+    "title": "problema",
+    "titleTemplate": "modelos",
+    "titleActionCreate": "Novo",
+    "titleActionEdit": "Editar",
+    "templateApplySuccess": "O modelo '{name}' foi aplicado com êxito.",
+    "templateApplyError": "Ocorreu um erro ao aplicar o modelo '{name}'.",
+    "issueApplySuccess": "O problema '{title} - {name}' foi aplicado com êxito.",
+    "issueApplyError": "Ocorreu um erro ao aplicar o problema '{title} - {name}'.",
+    "required": "O campo obrigatório não deve estar vazio.",
+    "creationSuccess": "Problema \"{title}\" criado com êxito.",
+    "creationTemplateSuccess": "Template \"{title}\" criado com êxito.",
+    "creationFailed": "Ocorreu um erro durante a criação. Tente novamente.",
+    "validationFailed": "Alguns campos não estão preenchidos corretamente.",
+    "promotionSuccess": "Problema promovido com êxito.",
+    "promotionFailed": "Ocorreu um erro durante a promoção.",
+    "uploadImagesFailed": "Ocorreu um erro ao carregar as imagens.",
+    "createButton": "Criar e Fechar",
+    "createButtonEditMode": "Atualizar",
+    "createAnotherButton": "Criar",
+    "resetButton": "Limpar",
+    "modeToggler": {
+      "multiStep": "Multietapas",
+      "fullView": "Visualização completa",
+      "tooltipMultiStep": "Alternar para a visualização multietapas",
+      "tooltipFullView": "Alternar para a visualização de forma completa"
+    },
+    "start": {
+      "title": "Criar problemas e modelos",
+      "cancelButton": "Cancelar",
+      "actionPage": {
+        "issue": {
+          "title": "Problema",
+          "fromBlank": "Novo",
+          "fromIssue": "Duplicar um problema",
+          "fromTemplate": "A partir de um modelo"
+        },
+        "template": {
+          "title": "Modelo",
+          "fromBlank": "Novo",
+          "fromIssue": "A partir de um problema existente",
+          "edit": "Gerenciar",
+          "cloneSuffix": "[DUP]"
+        }
+      }
+    },
+    "templateChooser": {
+      "title": "Selecionar um modelo",
+      "titleEdit": "Gerenciar modelos",
+      "cancelButton": "Cancelar",
+      "closeButton": "Fechar",
+      "selectButton": "Selecionar",
+      "treeList": {
+        "tree": "Nome",
+        "description": "Descrição",
+        "placeholder": "Nenhum template disponível. Crie um template."
+      },
+      "iconBar": {
+        "title": "Modelos",
+        "create": "Novo",
+        "fromIssue": "Novo a partir de problema",
+        "clone": "Duplicar",
+        "edit": "Editar",
+        "delete": "Excluir"
+      },
+      "lastUsed": {
+        "title": "Usado recentemente"
+      },
+      "preview": {
+        "objectCount": "objetos",
+        "noObject": "Nenhum objeto"
+      },
+      "confirmDelete": {
+        "title": "Remover modelos",
+        "text": "Tem certeza de que deseja excluir os modelos selecionados permanentemente?",
+        "okButton": "Excluir",
+        "cancelButton": "Cancelar"
+      },
+      "clonePrefix": "Duplicar de",
+      "errors": {
+        "get": "Ocorreu um erro ao recuperar modelos. Atualize a página e tente novamente.",
+        "remove": "Ocorreu um erro ao remover modelos. Atualize a página e tente novamente.",
+        "save": "Ocorreu um erro ao salvar modelos. Atualize a página e tente novamente."
+      }
+    },
+    "views": {
+      "properties": "Propriedades",
+      "relatedObjects": "Objetos Relacionados",
+      "team": "Membros",
+      "documents": "Documentos",
+      "moreAttributes": "Mais Atributos",
+      "finalize": "Finalizar"
+    },
+    "properties": {
+      "labels": {
+        "title": "Título",
+        "titlePlaceholder": "Título do novo problema...",
+        "titleHelper": "Um breve resumo de uma linha sobre o problema.",
+        "description": "Descrição",
+        "descriptionPlaceholder": "Escreva uma descrição...",
+        "descriptionHelper": "Uma descrição detalhada do problema. Há um conjunto de recursos em formato rich text pronto para uso.",
+        "resolutionRecommendation": "Recomendação de Resolução",
+        "resolutionRecommendationPlaceholder": "Como pode ser feito?",
+        "resolutionRecommendationHelper": "Uma recomendação que explica como o problema pode ser corrigido.",
+        "priorityHelper": "A importância desse problema em relação a outros problemas.",
+        "priorityHelperUrgent": "Urgente: prioridade mais alta. Indica que esse problema tem precedência sobre os outros.",
+        "priorityHelperHigh": "Alta: indica que esse problema está causando uma dificuldade e requer atenção urgente.",
+        "priorityHelperMedium": "Média: indica que o problema tem uma importância relevante.",
+        "priorityHelperLow": "Baixa: indica que esse problema tem um impacto relativamente pequeno.",
+        "dueDate": "Data de conclusão prevista",
+        "dueDatePlaceholder": "Selecione uma data de conclusão prevista...",
+        "dueDateHelper": "A data em que esse problema deve ser concluído."
+      }
+    },
+    "related": {
+      "labels": {
+        "reportedAgainst": "Itens afetados",
+        "reportedAgainstHelper": "Esse relacionamento é usado para vincular quaisquer objetos a um problema, a fim de classificá-los como 'defeituosos'. Pode ser um objeto 3D, um documento...",
+        "reportedAgainstPlaceholder": "Pesquise, selecione no 3D ou solte um objeto para defini-lo como Item afetado.",
+        "contexts": "Contextos",
+        "contextHelper": "Também chamado de Contexto DMU, é usado para anexar um objeto ao problema e auxiliar em sua compreensão. Pode ser outro objeto 3D com uma estrutura maior que permite a visualização completa do problema.",
+        "contextPlaceholder": "Pesquise ou solte um objeto para defini-lo como Contexto."
+      },
+      "search": "Pesquisar e adicionar um objeto.",
+      "remove": "Remover os objetos selecionados.",
+      "removeErrorNoSelection": "Selecione alguns objetos para remoção.",
+      "addBalloonAvailable": "Escolha o elemento específico no 3D para adicioná-lo ao problema.",
+      "addBalloonNotAvailable": "A seleção de um recurso 3D só está disponível no 'Issue 3D Review'.",
+      "alreadyReportedAgainst": "Este objeto já foi adicionado. Selecione outro.",
+      "dropError": "Alguns objetos soltos não são suportados.",
+      "contextMultiError": "A adição de vários objetos ao contexto não é suportada.",
+      "treelist": {
+        "tree": "Título",
+        "ds6w:type": "Tipo",
+        "ds6w:identifier": "Nome",
+        "ds6wg:revision": "Revisão"
+      }
+    },
+    "team": {
+      "labels": {
+        "assignees": "Encarregados",
+        "assigneesHelper": "Esse relacionamento permite atribuir pessoas ao problema (ou vários). A partir de então, pessoa conseguirá ver o problema na própria lista e poderá começar a trabalhar nele.",
+        "reviewers": "Revisores",
+        "contributors": "Colaboradores",
+        "assignToMe": "Atribuir a Mim"
+      },
+      "alreadyAssigned": "{name} já foi atribuída.",
+      "removeAssignee": "Clique para remover este usuário."
+    },
+    "documents": {
+      "labels": {
+        "images": "Imagens",
+        "imagesHelper": "As imagens podem ser carregadas ou capturadas usando o aplicativo 'Issue 3D Review'.",
+        "imagesPlaceholder": "Carregue uma imagem ou use o botão de captura de tela para criar e adicionar uma nova imagem.",
+        "imagesPlaceholderNotAvailable": "Carregar uma imagem usando o botão Carregar.",
+        "documents": "Documentos"
+      },
+      "uploadImage": "Carregar uma imagem",
+      "screenshotAvailable": "Fazer uma captura de tela",
+      "screenshotNotAvailable": "O recurso de captura de tela só está disponível no 'Issue 3D Review'.",
+      "remove": "Remover os documentos selecionados.",
+      "removeErrorNoSelection": "Selecione alguns documentos para remover."
+    },
+    "finalize": {
+      "labels": {
+        "automation": "Automação",
+        "saveAsTemplate": "Salvar como Modelo",
+        "templateName": "Nome do Modelo",
+        "templateNamePlaceholder": "Um nome exclusivo para o modelo...",
+        "templateDescription": "Descrição do Modelo",
+        "templateOverwrite": "Um modelo existente com o mesmo nome será substituído."
+      },
+      "closeDialogToggle": "Fechar a caixa de diálogo após a criação.",
+      "saveAsTemplateToggle": "Salvar o formulário como um modelo reutilizável."
+    }
+  },
+  "delete": {
+    "preparing": "Preparando a exclusão...",
+    "title": "Excluindo {number} problemas.",
+    "nothing": "Não há problemas a serem excluídos.",
+    "delete": "Excluir",
+    "cancel": "Cancelar",
+    "warning": "Tem certeza de que deseja excluir este conteúdo?",
+    "deletable": "A exclusão dos seguintes problemas os removerá <b>permanentemente</b> e não poderá ser desfeita:",
+    "indelible": "Os seguintes problemas não podem ser excluídos, pois <b>eles devem ser de sua propriedade no estado \"Rascunho\"<b>:",
+    "singleSuccess": "{title} foi excluída.",
+    "multipleSuccess": "{number} problemas foram excluídos.",
+    "error": "Ocorreu um erro durante a exclusão. Tente novamente."
+  },
+  "duplicate": {
+    "title": "Duplicar {number} problemas.",
+    "preparing": "Preparando a duplicação...",
+    "duplicate": "Duplicar",
+    "cancel": "Cancelar",
+    "content": "Os seguintes problemas serão duplicados (<i>os problemas duplicados serão de sua propriedade no estado \"Rascunho\"</i>):",
+    "singleSuccess": "{title} foi duplicada.",
+    "multipleSuccess": "{number} problemas foram duplicados.",
+    "multipleCopiesSuccess": "{number} problemas foram duplicados {multiplication} vezes.",
+    "error": "Você não tem permissão para excluir o problema. Verifique se sua responsabilidade sobre o problema é compatível com esta operação."
+  },
+  "attachments": {
+    "title": "Gerenciador de Anexos - {title}",
+    "holdIssue": "Reter/Liberar problema",
+    "popup": "Pop-up"
+  },
+  "images": {
+    "title": "{count} imagens",
+    "actions": {
+      "download": "Fazer Download",
+      "upload": "Carregar",
+      "delete": "Excluir",
+      "popup": "Pop-up",
+      "annotate": "Anotar"
+    },
+    "noImages": "Nenhuma imagem a ser exibida.",
+    "popup": {
+      "title": "Exibição de Imagem",
+      "holdIssue": "Reter o problema atual",
+      "releaseIssue": "Liberar o problema atual"
+    },
+    "delete": {
+      "cancel": "Cancelar",
+      "confirmDeleteTitle": "Excluir Imagem",
+      "confirmDeleteMessage": "Tem certeza de que deseja excluir esta imagem permanentemente?",
+      "imageDisplayDeleteError": "Erro ao excluir imagens",
+      "okButton": "OK",
+      "pictureDeleted": "Os arquivos de imagem foram excluídos."
+    },
+    "notSupported": "Este formato de arquivo não é suportado. <br>Arquivo: {name}.",
+    "errorUpload": "Não é possível carregar a imagem {name}.",
+    "pictureUploaded": "Os arquivos de imagem foram carregados."
+  },
+  "team": {
+    "title": "{count} membros",
+    "error": {
+      "loadContent": "Não é possível recuperar informações do problema.",
+      "alreadyAdded": "O usuário {name} já foi adicionado a {role} dos problemas selecionados.",
+      "update": "Falha ao atualizar problemas {role}",
+      "notSupportedDrop": "Os objetos soltos não são suportados.",
+      "notFound": "Nenhum resultado encontrado."
+    },
+    "success": {
+      "update": "Os problemas {role} foram atualizados."
+    },
+    "filter": {
+      "title": "Filtrar",
+      "placeholder": "Filtrar membros de equipe"
+    },
+    "owner": {
+      "title": "Responsável",
+      "changeOwnership": "Alterar Propriedade",
+      "addSelf": "Atribuir a Mim"
+    },
+    "confirmRemoveTitle": "Remover '{user}' de '{role}'",
+    "confirmRemoveText": "Tem certeza de que deseja excluir '{user}' de '{role}'?",
+    "removeOkButton": "Remover",
+    "removeCancelButton": "Cancelar",
+    "assignees": {
+      "title": "Encarregados",
+      "add": "Adicionar Encarregados",
+      "save": "Salvar Encarregados",
+      "propagate": "Propagar por todos os problemas selecionados",
+      "discard": "Descartar alterações",
+      "remove": "Remover dos problemas selecionados",
+      "search": {
+        "placeholder": "Pesquisar membro para adicionar como Encarregado..."
+      },
+      "addSelf": "Atribuir a Mim"
+    },
+    "reviewers": {
+      "title": "Revisores",
+      "add": "Adicionar Revisores",
+      "save": "Salvar Revisores",
+      "propagate": "Propagar por todos os problemas selecionados",
+      "discard": "Descartar alterações",
+      "remove": "Remover dos problemas selecionados",
+      "search": {
+        "placeholder": "Pesquisar membro para adicionar como Revisor..."
+      },
+      "addSelf": "Atribuir a Mim"
+    },
+    "contributors": {
+      "title": "Colaboradores",
+      "add": "Adicionar Colaboradores",
+      "save": "Salvar Colaboradores",
+      "propagate": "Propagar por todos os problemas selecionados",
+      "discard": "Descartar alterações",
+      "remove": "Remover dos problemas selecionados",
+      "search": {
+        "placeholder": "Pesquisar membro para adicionar como Colaborador..."
+      },
+      "addSelf": "Atribuir a Mim"
+    },
+    "common": {
+      "tooltip": "Este membro está atribuído a todos os problemas selecionados.",
+      "label": "Está Atribuído",
+      "notLabel": "Varia"
+    },
+    "notSaved": {
+      "tooltip": "Este membro ainda não foi salvo."
+    },
+    "changeLayout": "Alterar Layout da Vista"
+  },
+  "helper": {
+    "states": {
+      "create": "O problema está recebendo detalhes antes de ser atribuído.",
+      "assign": "O problema foi atribuído e está aguardando para ser trabalhado.",
+      "active": "O problema está sendo trabalhado pelos encarregados.",
+      "review": "A solução proposta para o problema está sendo analisada.",
+      "closed": "A solução foi aceita pelo criador e problema foi definido como 'Concluído'."
+    },
+    "dialog": {
+      "title": "Aplicativos do Issue Management - Ajuda",
+      "tabStates": "Estados",
+      "tabShortcuts": "Atalhos",
+      "subtitleShortcuts": "Teclas de atalho",
+      "subtitleMouseOperation": "Operações com o mouse",
+      "states": {
+        "create": "O problema está recebendo detalhes antes de ser atribuído.",
+        "assign": "O problema foi atribuído e está aguardando para ser trabalhado.",
+        "active": "O problema está sendo trabalhado pelos encarregados.",
+        "review": "A solução proposta para o problema está sendo analisada.",
+        "closed": "A solução foi aceita pelo criador e problema foi definido como 'Concluído'."
+      },
+      "shortcut": {
+        "key": {
+          "shortcut": {
+            "delete": "Excluir",
+            "arrowUp": "Subir",
+            "arrowDown": "Descer",
+            "arrowLeft": "Esquerda",
+            "arrowRight": "Direita",
+            "enter": "Enter",
+            "shiftArrow": "Shift + Setas",
+            "ctrlA": "Ctrl + A",
+            "ctrlC": "Ctrl + C",
+            "ctrlEnter": "Ctrl + Enter"
+          },
+          "mouse": {
+            "ctrlClick": "Ctrl + Clique",
+            "shiftClick": "Shift + Clique",
+            "doubleClick": "Clicar duas vezes"
+          }
+        },
+        "detail": {
+          "shortcut": {
+            "delete": "Excluir item",
+            "arrowUp": "Ir para o item anterior",
+            "arrowDown": "Ir para o próximo item",
+            "arrowLeft": "Ir para a coluna anterior",
+            "arrowRight": "Ir para a próxima coluna",
+            "enter": "Abrir o painel de propriedades/Enviar entrada de texto",
+            "shiftArrow": "Selecionar vários itens",
+            "ctrlA": "Selecionar todos os itens",
+            "ctrlC": "Copiar item selecionado",
+            "ctrlEnter": "Enviar entrada de texto para Comentário"
+          },
+          "mouse": {
+            "ctrlClick": "Selecionar vários itens em que clicou/Cancelar a seleção",
+            "shiftClick": "Selecionar todos os itens no trajeto do clique",
+            "doubleClick": "Abrir o painel de propriedades/Expandir ou recolher item"
+          }
+        }
+      }
+    }
+  },
+  "taskManager": {
+    "cancel": "Cancelar",
+    "iconToExit": "Cancelar a seleção de objeto no 'Issue 3D Review'"
+  },
+  "share": {
+    "successMultiple": "O link para os {number} problemas foi copiado com sucesso.",
+    "successSingle": "O link para o problema {name} foi copiado com êxito",
+    "info": "Há um limite de {number} problemas que podem ser compartilhados. O URL foi copiado para a área de transferência."
+  },
+  "move": {
+    "move": "Mover"
+  },
+  "validationNone": "N/A",
+  "validationLoading": "Buscando informações sobre o status de validação...",
+  "validationApproved": "A promoção do problema foi aprovada.",
+  "validationRejected": "A promoção do problema foi rejeitada.",
+  "validationInProgress": "Aguardando a validação.",
+  "validationNotStarted": "O processo de validação está ativo.",
+  "error": {
+    "0": {
+      "title": "Este conteúdo não está mais acessível.",
+      "subtitle": "Atualize o widget.",
+      "message": "O objeto pode ter sido excluído ou você pode não ter mais o acesso necessário."
+    },
+    "1": {
+      "title": "Não é possível realizar esta operação em: problema",
+      "subtitle": "Você não tem a responsabilidade correta para realizar a operação nesses problemas.",
+      "message": "Possível resolução: você precisa ser adicionado como proprietário do problema no painel Membros"
+    },
+    "2": {
+      "title": "Não é possível duplicar este tipo de objeto: problema",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para duplicar esse tipo de objeto."
+    },
+    "4": {
+      "title": "Não é possível criar este tipo de objeto: problema",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para criar esse tipo de objeto."
+    },
+    "5": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "Os campos Ação e Instrução da resolução não estão preenchidos.",
+      "message": "Possível solução: você precisa adicionar informações para Ação Executada e Instrução de Resolução do problema no painel Propriedades."
+    },
+    "6": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O campo Ação Executada não está preenchido.",
+      "message": "Possível solução: você precisa adicionar informações para Ação Executada do problema no painel Propriedades."
+    },
+    "7": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O campo Instrução da resolução não está preenchido.",
+      "message": "Possível solução: você precisa adicionar informações para Instrução de Resolução do problema no painel Propriedades."
+    },
+    "8": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O campo data de conclusão não está preenchido.",
+      "message": "Possível solução: você precisa adicionar informações para a data de conclusão prevista do problema no painel de propriedades."
+    },
+    "2005": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O problema está no estado Concluído.",
+      "message": "Esta operação é proibida."
+    },
+    "1500028": {
+      "title": "Não é possível excluir este tipo de objeto: Problema",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para excluir esse tipo de objeto."
+    },
+    "1004": {
+      "title": "Não foi possível executar a solicitação pelo(s) seguinte(s) motivo(s):",
+      "subtitle": "Esse problema requer aprovação e precisa de pelo menos um designado.",
+      "message": "Possível resolução: atribua pelo menos um designado no painel Membros."
+    },
+    "1004_1": {
+      "title": "Não foi possível executar a solicitação pelo(s) seguinte(s) motivo(s):",
+      "subtitle": "Este problema requer aprovação e precisa de pelo menos um membro correspondente à definição de aprovação.",
+      "message": "Possível resolução: atribua os membros corretos."
+    },
+    "1005": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "Você não tem a responsabilidade apropriada para realizar a operação nesses problemas.",
+      "message": "Possível resolução: você precisa ser adicionado como proprietário ou coordenador do problema no painel de Membros."
+    },
+    "1005_1": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a função de acesso necessária no Espaço colaborativo de destino para realizar essa operação."
+    },
+    "11": {
+      "title": "Não é possível realizar esta operação em: template",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino."
+    },
+    "11_1": {
+      "title": "Não é possível realizar esta operação em: template",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Você pode não ter os direitos necessários ou o Template está no estado de maturidade incorreto"
+    },
+    "12": {
+      "title": "Data inválida",
+      "subtitle": "A data de início planejada não deve ser posterior à data de conclusão prevista.",
+      "message": "Insira datas válidas."
+    },
+    "15": {
+      "title": "Data inválida",
+      "subtitle": "A data de início planejada não deve ser posterior à data de conclusão planejada.",
+      "message": "Insira datas válidas."
+    },
+    "1500028_1": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "Verifique se você está usando as credenciais corretas.",
+      "message": "Talvez você não tenha a responsabilidade necessária no espaço colaborativo de destino para realizar essa operação."
+    },
+    "10": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "Você não tem a responsabilidade correta para realizar a operação nesses problemas.",
+      "message": "Possível resolução: você precisa ser adicionado como proprietário, coordenador ou designado do problema no painel de Membros."
+    },
+    "9": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O objeto do problema não pode ser rebaixado.",
+      "message": "O objeto do problema não pode ser rebaixado, pois pelo menos um item de resolução vinculado ao problema passou do estado Em trabalho."
+    },
+    "13": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O objeto do problema não pode ser promovido.",
+      "message": "O objeto do problema não pode ser promovido, pois pelo menos um item de resolução vinculado ao problema não está Concluído."
+    },
+    "14": {
+      "title": "Não é possível realizar esta operação em: Problema",
+      "subtitle": "O objeto do problema não pode ser rebaixado.",
+      "message": "O objeto do problema não pode ser rebaixado, pois pelo menos uma das alterações de resolução foi iniciada."
+    },
+    "1500167_1": {
+      "title": "Não foi possível executar a solicitação pelo(s) seguinte(s) motivo(s):",
+      "subtitle": "O objeto do problema não pode ser promovido.",
+      "message": "O objeto do problema não pode ser promovido, pois nenhuma das alterações de resolução foi iniciada."
+    },
+    "1500167_2": {
+      "title": "Não foi possível executar a solicitação pelo(s) seguinte(s) motivo(s):",
+      "subtitle": "Você não tem permissão para gerenciar a Organização responsável.",
+      "message": "Verifique se sua responsabilidade e o estado de maturidade do problema são compatíveis com esta operação."
+    },
+    "300": {
+      "title": "Não foi possível carregar mais de 10.000 problemas no 6WTags",
+      "subtitle": "Selecione outras opções de \"Filtrar por\" para exibir menos problemas",
+      "message": ""
+    }
+  },
+  "attachmentsPlaceholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seus anexos.",
+  "commentsPlaceholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seus comentários.",
+  "historyPlaceholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver somente seu histórico.",
+  "relationsPlaceholder": "Esta visualização não suporta seleção múltipla. Selecione apenas um problema para ver suas relações.",
+  "classificationFacetTitle": "Classificações",
+  "maxIssuePlaceholder": "Você selecionou mais do que o número máximo ({number}) de problemas permitido.",
+  "resolvedBy": "Resolvido por",
+  "errorNotSupportedObject": "Este tipo de conteúdo não é suportado. Use o aplicativo apropriado do Compass para abrir esse tipo de conteúdo.",
+  "issueNotDroppable": "Este objeto não é suportado.",
+  "errorSameIssue": "O mesmo objeto de Problema não pode ser adicionado como Resolvido por.",
+  "taskCreationFailed": "Falha na criação da tarefa.",
+  "cannotCreateTask": "Não é possível criar este objeto: tarefa",
+  "attachSuccessResolvedBy": "Você adicionou {count} objetos a {issue} como Resolvido por."
+}

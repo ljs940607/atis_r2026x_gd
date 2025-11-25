@@ -1,0 +1,1 @@
+define("DS/WebDocumentVisualizationUI/WebDocumentVisualizationUI_tr",{});define("DS/WebDocumentVisualizationUI/assets/nls/WebDocumentVisualizationUI",{bookmarksPanel:{title:"Yer İşaretleri",expandOrCollapseAll:"Tümünü Genişletme ve Daraltma Arasında Geçiş Yap"}});

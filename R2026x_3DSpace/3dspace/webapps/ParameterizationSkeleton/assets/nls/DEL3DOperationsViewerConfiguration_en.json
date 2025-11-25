@@ -1,0 +1,30 @@
+{
+  "getAttributesListError" : "Error when retrieving Attributes",
+  "getAttributesListTitle" : "Attributes",
+
+  "modalTitle" :"Attributes",
+  "Add" :"Add Custom Attributes",
+  "Select" : "Select or search",
+  "Info" : "Do your customized attribute selection and click ok. It will save the parameters in the database.",
+  "Loading" : "Loading",
+
+  "product": "Engineering Items",
+  "mfgItem" : "Manufacturing Items",
+  "serviceItem" : "Service Items",
+  "resource" : "Resources",
+  "process" : "Process",
+
+  "corpusType" : "Corpus Type",
+  "corpusTypeTooltip" : "Corpus Type",
+
+  "attribute" : "Attribute Name",
+  "attributeTooltip" : "Name of the attribute",
+
+  "orderParameters" :"Order Updated",
+  "orderParametersTitle" :"Reorder",
+  "orderParametersError" :"Error when reordering",
+  "orderParametersMaskMessage" : "Updating the Order",
+  "orderParametersDeleteError" : "Error when deleting Previous Order",
+  "orderParametersSetError" : "Error when Saving New Order"
+
+}

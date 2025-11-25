@@ -1,0 +1,95 @@
+{
+  "views": {
+    "viewLabel": "Вид",
+    "ENO2D_DEFAULT": "Вид по умолчанию",
+    "ENO2D_CUSTO": "Пользовательский вид",
+    "copyOf": "Копия {viewName}",
+    "addView": "Добавить новый пользовательский вид",
+    "editView": "Редактировать пользовательский вид",
+    "removeView": "Удалить пользовательский вид",
+    "arrowRight": "Добавить атрибут в вид",
+    "arrowLeft": "Удалить атрибут из вида"
+  },
+  "toolbar": {
+    "spacing": "Плотность ",
+    "spacingComfortable": "Удобный",
+    "spacingCompact": "Компактный",
+    "checkbox": "Флажок Выбор объекта",
+    "findInAtt": "Найти атрибут ",
+    "resetDefault": "Восстановить значение по умолчанию"
+  },
+  "columns": {
+    "attName": "Имя атрибута",
+    "attType": "Тип атрибута",
+    "colName": "Имя столбца",
+    "pin": "Закрепить",
+    "hide_show": "Скрыть/показать",
+    "findinctx": "Найти",
+    "thumbnail": "Предварительный просмотр",
+    "thumbnails": "Предварительный просмотр",
+    "matrixtxt": "Матрица положения",
+    "typeName": "Тип",
+    "extName": "Расширение"
+  },
+  "attSelection": {
+    "title": "Доступные атрибуты: ",
+    "REFERENCE": "Ссылка",
+    "INSTANCE": "Экземпляр",
+    "CLASSIFICATION": "Класс",
+    "COMPUTED": "Вычислено",
+    "COMMAND": "Команда",
+    "pinLeft": "Закрепить слева",
+    "pinRight": "Закрепить справа",
+    "unpinned": "Не закреплять",
+    "commonAttributes": "Общие столбцы",
+    "typesAttributes": "Столбцы типов",
+    "extsAttributes": "Столбцы расширений",
+    "classifAttributes": "Столбцы классификации",
+    "otherColumns": "Другие",
+    "findAttributes": "Поиск атрибутов",
+    "addTypesAndExt": "Добавить другие типы и расширения"
+  },
+  "selectedAtt": {
+    "title": "Выбранные атрибуты: ",
+    "moveFirst": "Переместить вверх",
+    "moveUp": "Вниз",
+    "moveDown": "Вверх",
+    "moveLast": "Переместить вниз"
+  },
+  "typeNext": {
+    "title": "Выбор типов и расширений",
+    "okBtn": "Применить",
+    "cancelBtn": "Отмена",
+    "selectionTypeTitle": "Типы",
+    "selectionExtTitle": "Расширения"
+  },
+  "selectionTitle": "Выберите тип или расширение для отображения списка атрибутов",
+  "dialog": {
+    "title": "Настройки таблицы",
+    "okBtn": "Сохранить",
+    "cancelBtn": "Отмена"
+  },
+  "loading": {
+    "gridCusto": "Загрузка настроек таблицы",
+    "baseTypeAndExt": "Загрузка доступных типов и расширений",
+    "gridCustoReset": "Восстановить значения по умолчанию"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Экземпляр физического представления"
+  },
+  "notDisplayedAtt": "Не для отображения в интерфейсе пользователя",
+  "warning": {
+    "tooManySelected": {
+      "title": "Достигнуто максимальное количество столбцов",
+      "msg": "Разрешено не более {maxNumber} столбцов"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "Вид уже существует",
+      "msg": "Шаблон с именем '{viewName}' уже существует"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "Вид уже существует",
+      "msg": "Шаблон с именем '{viewName}' уже существует"
+    }
+  }
+}

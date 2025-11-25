@@ -1,0 +1,1 @@
+define("DS/PPWTreeNodeModel/PPWTreeNodeModel_de",{});define("DS/PPWTreeNodeModel/assets/nls/TreeNodeModel",{"Filter.Boolean.TRUE":"Wahr","Filter.Boolean.FALSE":"Falsch"});

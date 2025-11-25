@@ -1,0 +1,9 @@
+{
+ "CollaborationManagement" : {
+    "MappingManagementText" : "Mapping for EBOM/Product Collaboration",
+    "MappingManagementTooltip" : "Manage type and attribute mapping for collaboration.",
+
+    "TypesNotSyncMappingManagementText" : "Types Not Collaborated for EBOM/Product Collaboration",
+    "TypesNotSyncMappingManagementTooltip" : "Manage types which won't be collaborated."
+  }
+}

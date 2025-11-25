@@ -1,0 +1,21 @@
+{
+  "INST_PROPS_OFF_NONE_AVAILABLE_MSG": "인스턴스 속성 비교는 선택에 적용되지 않습니다.",
+  "INST_PROPS_OFF_TOO_MANY_SELECTED_MSG": "인스턴스 속성은 단일 인스턴스 선택에만 사용할 수 있습니다.",
+  "INST_PROPS_OFF_DURING_LIST_COMPARE_MSG": "목록을 비교할 때 인스턴스 속성을 사용할 수 없습니다.",
+  "REF_PROPS_OFF_NONE_AVAILABLE_MSG": "속성 비교는 선택에 적용되지 않습니다.",
+  "REF_PROPS_OFF_TOO_MANY_SELECTED_MSG": "참조 속성은 단일 참조 선택에만 사용할 수 있습니다.",
+  "EFFECTIVITY_OFF_NONE_AVAILABLE_MSG": "유효성 비교는 선택에 적용되지 않습니다.",
+  "EFFECTIVITY_OFF_TOO_MANY_SELECTED_MSG": "유효성은 단일 선택에만 사용할 수 있음",
+  "EFFECTIVITY_OFF_DURING_LIST_COMPARE_MSG": "목록을 비교할 때 유효성을 사용할 수 없음",
+  "PROPS_UNAVAILABLE_NO_SELECTION": "속성을 볼 항목을 선택합니다.",
+  "NO_DIFFERENCES_FOUND": "차이 없음",
+  "DB_FETCH_FALLBACK": "하나 이상의 요청된 개체가 색인화되지 않았으므로 색인 가속화를 일시적으로 비활성화하는 중",
+  "DROP_1_OBJ_REPLACE": "교체를 위해 개체를 하나만 놓을 수 있습니다.",
+  "HIDDEN_STATUSES_IDENTICAL": "숨겨진 상태 색상은 표시되지 않습니다.",
+  "GROUP_PLACEHOLDER_SELECTED_MSG": "이 그룹에서 속성을 비교할 행 선택",
+  "FETCH_FAIL_DEFAULT": "개체를 로드할 수 없습니다. 연결을 확인하고, 개체가 인덱싱되고 이에 액세스할 수 있는지 확인합니다.",
+  "COMPARE_FAILED": "비교 실패",
+  "NEW_VIEWS_MESSAGE": "새 보기가 추가됨: {newViews}",
+  "CUSTOMIZATION_FAILED": "프로파일 사용자 정의를 적용하지 못했습니다. 기본 사양을 사용합니다.",
+  "CUSTOM_ATTRIBUTE_DELETED": "{msgData}에 대한 속성 정보가 누락되었습니다. 속성이 삭제된 경우 프로파일을 업데이트하여 이에 대한 참조를 제거해야 합니다."
+}

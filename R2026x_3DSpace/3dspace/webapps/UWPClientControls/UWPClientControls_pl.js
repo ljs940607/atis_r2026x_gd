@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_pl",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menu",addTab:"Dodaj kartę",webAppsResizing:"Zmiana rozmiaru aplikacji sieci Web jest trwała tylko dla właścicieli {type}",webAppsResizingProductCockpit:"Zmiana rozmiaru aplikacji internetowych nie została zachowana w tym kokpicie"});

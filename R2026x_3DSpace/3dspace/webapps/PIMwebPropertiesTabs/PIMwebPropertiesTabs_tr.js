@@ -1,0 +1,1 @@
+define("DS/PIMwebPropertiesTabs/PIMwebPropertiesTabs_tr",{});define("DS/PIMwebPropertiesTabs/assets/nls/PIMwebPropertiesTabs",{privLevelSimulationError:"Simülasyon tanımına erişilemiyor",isrInfoRetrievalFailed:"Engelleme Simülasyon bilgileri alınamıyor"});

@@ -1,0 +1,12 @@
+m|MPFModels\MPFInviteModel.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24251|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFInviteModel\MPFInviteModel.js|1725720375|1384
+s|MPFModels\MPFInviteModel.mweb\src\CompanyInviteDataProxy.js|1724871225|659
+u|MPFModels\MPFInviteModel.mweb\src\InviteFactory.js|1724871225|1259
+u|MPFModels\MPFInviteModel.mweb\src\InviteModel.js|1724871225|1035
+u|MPFModels\MPFInviteModel.mweb\src\MPFInviteModel.js|1724871225|0
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

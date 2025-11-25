@@ -1,0 +1,8 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package PRODUCT_QUALIFICATION_PROFILE-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VPMQualificationProfile" ScriptName="ENOAP_PolicyChooser_Qualification_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VPMPrioritizedQualificationProfile" ScriptName="ENOAP_PolicyChooser_Qualification_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VPMEssentialQualificationProfile" ScriptName="ENOAP_PolicyChooser_Qualification_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="VPMFakeQualification" ScriptName="ENOAP_PolicyChooser_Qualification_Definition" />
+</Scripts>

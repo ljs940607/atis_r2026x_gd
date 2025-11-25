@@ -1,0 +1,123 @@
+{
+  "label": {
+    "all": "すべて",
+    "true": "真",
+    "false": "偽",
+    "none": "なし",
+    "name": "名前",
+    "title": "タイトル",
+    "type": "タイプ",
+    "objects": "個のオブジェクト",
+    "declared_in": "宣言済み",
+    "instance_title": "インスタンス タイトル",
+    "copy_attributes": "属性をコピー",
+    "select": "選択",
+    "copy_successful": "正常に貼り付けられました",
+    "information": "情報",
+    "attribute_name": "属性名",
+    "instance": "(インスタンス)",
+    "implementingref": "インプリメント元",
+    "implementedref": "インプリメント先"
+  },
+  "title": {
+    "IPProtection": "IP 保護済み",
+    "summary_paste_attributes": "属性の概要を貼り付け",
+    "search": "項目を選択",
+    "error_details": "以下はエラーの詳細です。"
+  },
+  "ph": {
+    "title": "タイトルを入力"
+  },
+  "action": {
+    "create": "作成",
+    "copy": "コピー",
+    "close": "閉じる",
+    "compare": "比較",
+    "revisions": "リビジョン",
+    "relations": "関係",
+    "maturity": "完成度",
+    "duplicate": "複写",
+    "open_with": "オプションを指定して開く",
+    "move_to": "移動先",
+    "share": "共有",
+    "lock": "ロック",
+    "unlock": "ロック解除",
+    "export": "エクスポート",
+    "reparent": "親を変更",
+    "expand": "展開",
+    "expand_one_level": "1 レベルを展開",
+    "expand_two_level": "2 レベルを展開",
+    "expand_all": "すべてを展開",
+    "collapse_all": "すべてを折りたたむ",
+    "information": "情報",
+    "create_and_open": "作成して開く",
+    "create_and_close": "作成して閉じる",
+    "create_and_replace": "作成して置換",
+    "detach": "切り離し"
+  },
+  "message": {
+    "creating": "作成中...",
+    "loading": "ロード中です...",
+    "processing": "処理しています...",
+    "bulkOperation_limitReached": "この操作で規定されている制限 {limit} を超えるノードを選択したため、処理に時間がかかる場合があります。お待ちください。"
+  },
+  "groupingNode": {
+    "other": "その他"
+  },
+  "info": {
+    "no_match_in_filter": "条件に一致するオブジェクトがありません"
+  },
+  "warning": {
+    "indexed_data_filtered": "インデックス データにフィルタが適用されます",
+    "clear_filter": "項目に適用された既存フィルタは、保存されていなかったためクリアされます。",
+    "filter_only_indexed_mode": "フィルタ機能を使用できるのは、インデックス アクセラレーションが有効であるときのみです",
+    "bulkOperation_limit_reached": "この操作で規定されている制限 {limit} を超えるノードを選択したため、処理に時間がかかる場合があります。お待ちください。",
+    "expand_multiLvl_multiSelect": "複数レベルの展開に対して複数のリファレンスを選択しました。すべてのデータの取得には少し時間がかかる場合があります。お待ちください。",
+    "expand_largeData_warning": "この展開アクションでは、取得する子データが 1000 を超えています。処理に時間がかかる場合があります。お待ちください。 "
+  },
+  "error": {
+    "header": "誤差",
+    "create_item": "項目の作成に失敗しました",
+    "get_customFields": "項目 {title} のカスタム フィールドを取得できませんでした",
+    "req_field_subtitle": "{field} が必要です",
+    "req_field": "必須フィールドが見つかりません",
+    "mandatory_field_title": "タイトル フィールドは必須です。値を入力してください",
+    "no_modification_possible": "変更はできません",
+    "modification_not_allowed": "オブジェクトの完成度、または資格情報とアクセス権が、変更を行うのに十分であることを確認します。",
+    "too_long_field_title": "この編集操作は実行できません。\n\n{fieldName} は {maxLength} 文字より長くすることはできません。",
+    "action_unavailable_in_release": "リリース済み/廃版項目のコンテキストでは利用できないアクション",
+    "get_structure": "関連サービスが利用できないため、論理リファレンス構造を取得できませんでした",
+    "get_structure_media": "サービスが利用できないため、論理リファレンス構造を取得できませんでした。必要なメディアがインストールされていることを管理者に確認してください",
+    "get_logitem": "関連サービスが利用できないため、論理リファレンスの詳細を取得できませんでした。",
+    "get_logitem_media": "サービスが利用できないため、論理リファレンスの詳細を取得できませんでした。必要なメディアがインストールされていることを管理者に確認してください",
+    "invalid_filter": "コンテキスト項目のフィルタが無効です",
+    "filter_colorize_predicate": "選択した述部がカスタマイズされた述部のため、色付けは使用できません。または、選択した述部がコンテンツ ビューにありません。この場合は、属性管理を使用して属性を追加し、色付けを有効にしてください。",
+    "request_timed_out": "要求はタイムアウトになりました!",
+    "generic_get_failed": "必要なデータの取得に失敗しました",
+    "creation": "作成中にエラーが発生しました",
+    "add_item": "項目を追加できませんでした",
+    "copy_all_attributes_failed": "この属性の貼り付けは、貼り付け中に他のエラーが発生したため失敗しました",
+    "copy_attributes_failed": "属性のコピーに失敗しました",
+    "copy_attribute_on_extension_failed": "この属性の貼り付けに失敗しました。対応する拡張子が追加されていない可能性があります。",
+    "copy_attribute_on_type_failed": "この属性は選択したタイプに属していないため、貼り付けに失敗しました。",
+    "copy_attribute_classif_failed": "この属性の貼り付けに失敗しました。宛先論理リファレンスには分類済み属性が割り当てられていることを確認してください。",
+    "copy_attribute_equal_values_failed": "この属性の貼り付けに失敗しました。ソースおよび宛先論理リファレンスの属性値が異なることを確認してください。",
+    "copy_attribute_failed_not_allowed": "この属性の貼り付けに失敗しました。オブジェクトの完成度、または資格情報と権限でコピーが許可されていることを確認してください。",
+    "create_refref_link": "参照間リンクの作成に失敗しました",
+    "inst_detach": "次の親で「論理リファレンスを切り離し」操作は実行できません: ",
+    "error_delete_link": "インプリメント関係を削除できませんでした"
+  },
+  "success": {
+    "add": "追加に成功しました",
+    "replace": "正常に置換されました",
+    "create": "正常に作成されました",
+    "msg_create": " は正常に作成されました",
+    "msg_add": "次のものが正常に追加されました: ",
+    "create_log_ref": "論理リファレンスは正常に作成されました",
+    "copy_attributes": "属性がコピーされました",
+    "msg_create_ref2ref": "参照間のインプリメント関係が正常に作成されました",
+    "msg_delete_link_success": "インプリメント関係が正常に削除されました",
+    "summary_paste_attributes_export": "属性貼り付けのサマリが正常にエクスポートされました",
+    "inst_detach": "次の親のインスタンスが正常に切り離されました: "
+  }
+}

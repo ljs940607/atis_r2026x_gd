@@ -1,0 +1,11 @@
+{
+  "getlistofDELMIATypesError" : "Error when retrieving Delmia Types",
+  "getlistofDELMIATypesTitle" : "DELMIA Types",
+
+  "Info" : "Define the List of Attributes to be used for triggering Changeover Operation",
+  "modalTitle":"Changeover Operation Attributes",
+
+  "attributeName" : "Attributes",
+  "attributeNameTooltip" : "Select Attributes to be used in Changeover Operation Management"
+   
+}

@@ -1,0 +1,15 @@
+.sch-graph-port {
+  box-sizing: border-box;
+}
+.sch-graph-port > .sch-input-data-port {
+  box-sizing: border-box;
+}
+.sch-graph-port > .sch-input-data-port > .sch-reroute-handler {
+  /*transform: translate(11px, -2px); Property not supported in IE11!*/
+}
+.sch-graph-port > .sch-output-data-port {
+  box-sizing: border-box;
+}
+.sch-graph-port > .sch-output-data-port > .sch-reroute-handler {
+  /*transform: translate(5px, -2px); Property not supported in IE11!*/
+}

@@ -1,0 +1,1 @@
+define("DS/ENOXInterWdgCom/ENOXInterWdgCom_zh",{});define("DS/ENOXInterWdgCom/assets/nls/ENOXInterWdgCom",{widgetLinkOptionsPanel:{title:"链接 Web 应用程序选项",subTitle:"选择要在 Web 应用程序之间链接的特征：",all:"全部",content:"内容",viewMode:"视图模式",viewPoint:"视点",contentHelp:"内容描述了在 3D 小组件（Products、PointClouds 等）中加载的任何内容",viewPointHelp:"视点是通过 3D 中的缩放、平移或旋转获得的视图点"}});

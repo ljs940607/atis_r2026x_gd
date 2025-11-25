@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_cs",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"Filtrovat podle:",orderId:"ID objednávky",seller:"Prodejce",buyer:"Kupující",enterOrderId:"Zadejte ID objednávky",enterSeller:"Zadejte prodejce",enterBuyer:"Zadejte kupujícího",search:"Vyhledat"});

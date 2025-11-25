@@ -1,0 +1,22 @@
+{
+  "setParameters": "已儲存參數",
+  "setParametersTitle": "儲存",
+  "setParametersError": "儲存參數時發生錯誤",
+  "deleteParameter": "已刪除參數",
+  "deleteParameterTitle": "刪除",
+  "deleteParameterError": "刪除參數時發生錯誤",
+  "modifyParameter": "已修改參數",
+  "modifyParameterTitle": "修改",
+  "modifyParameterError": "修改參數時發生錯誤",
+  "columnMandatory": "此欄 %1 為必填",
+  "containUnsupportedChars": "%1 包含以下一或多個不支援的字元 \n %2",
+  "confirmDeleteTitle": "確認刪除",
+  "confirmDeleteContent": "是否確定要刪除此列？此動作無法復原。",
+  "Add": "加入新列",
+  "orderParameters": "順序已更新",
+  "orderParametersTitle": "調整順序",
+  "orderParametersError": "重新排序時發生錯誤",
+  "orderParametersMaskMessage": "更新順序",
+  "orderParametersDeleteError": "刪除上一個順序時發生錯誤",
+  "orderParametersSetError": "儲存新順序時發生錯誤"
+}

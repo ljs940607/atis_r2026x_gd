@@ -1,0 +1,43 @@
+{
+     "reqToolbarMenuItem" : [
+        {
+            "id": "leftLegend",
+            "dataElements": {
+                "typeRepresentation": "color",
+                "value": "#ff8a2e",
+                "position": "near",
+                "readOnly": "true"
+            }
+        },
+        {
+            "id": "leftText",
+            "dataElements": {
+                "typeRepresentation": "string",
+                "value": "",
+                "allowResetToUndefinedByUIFlag": "false",
+                "tooltip": "",
+                "readOnly": "true"
+            }
+        },
+        {
+            "id": "rightLegend",
+            "dataElements": {
+                "typeRepresentation": "color",
+                "value": "#009ddb",
+                "readOnly": "true"
+            }
+        },
+        {
+            "id": "rightText",
+            "dataElements": {
+                "typeRepresentation": "string",
+                "value": "",
+                "allowResetToUndefinedByUIFlag": "false",
+                "tooltip": "",
+                "readOnly": "true"
+            }
+        }
+
+    ]
+}
+

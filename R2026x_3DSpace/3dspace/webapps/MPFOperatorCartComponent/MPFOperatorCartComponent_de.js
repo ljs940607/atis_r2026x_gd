@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_de",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"Filtern nach:",orderId:"Bestellungs-ID",seller:"Verkäufer",buyer:"Käufer",enterOrderId:"Geben Sie eine Bestellungs-ID ein",enterSeller:"Geben Sie einen Verkäufer ein",enterBuyer:"Geben Sie einen Käufer ein",search:"Suchen"});

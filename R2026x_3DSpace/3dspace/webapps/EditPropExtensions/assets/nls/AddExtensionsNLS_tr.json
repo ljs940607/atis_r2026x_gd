@@ -1,0 +1,17 @@
+{
+  "failMessage": "başarısız: ",
+  "ok": "Tamam",
+  "cancel": "İptal",
+  "title": "Uzantılar Ekle",
+  "autoCompPlaceHolder": "Uzantı adı girin",
+  "urlNotFound": "Talep hizmetleri için doğru url bulunamıyor",
+  "roleNotAllowed": "Geçerli Erişim Rolünüz bu komutu kullanmanıza izin vermiyor",
+  "noConnection": "İnternet bağlantısı yok.",
+  "webServiceError": "Web hizmetinden bir hata döndürüldü",
+  "webServiceUnauthorized": "Kaynağa erişim yetkiniz yok. Oturum açmak için lütfen web sayfasını yenileyin ve tekrar deneyin",
+  "removeExt": "Bu uzantıyı kaldır",
+  "cancelRemove": "Kaldırmayı iptal et",
+  "attachedExtension": "Ekli Uzantılar",
+  "noChangeTypeMessage": "Kullanıcı bu nesneye uzantı ekleme hakkına sahip değil",
+  "noActionDone": "Herhangi bir işlem yapılmadı"
+}

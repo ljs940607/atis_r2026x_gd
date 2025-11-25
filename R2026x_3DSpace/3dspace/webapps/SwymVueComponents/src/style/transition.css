@@ -1,0 +1,62 @@
+
+/* #region SCALE-X */
+.scale-x-enter-active,
+.scale-x-leave-active {
+  transition-timing-function: linear;
+  transition-duration: .4s;
+  transition-property: width, transform, font-size;
+}
+
+.scale-x-enter-from,
+.scale-x-leave-to {
+  width: 0 !important;
+  min-width: 0 !important;
+  font-size: 0 !important;
+  transform: scale(0) !important;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+  transition: .4s linear;
+  transition-property: width, height, transform, font-size;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+  width: 0 !important;
+  min-width: 0 !important;
+  font-size: 0 !important;
+  height: 0 !important;
+  transform: scale(0) !important;
+}
+/* #endregion */
+
+/* #region FADE */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .4s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+/* #endregion */
+
+/* #region FADE-SCALE-X */
+.fade-scale-x-enter-active,
+.fade-scale-x-leave-active {
+  transition-timing-function: linear;
+  transition-duration: .4s;
+  transition-property: width, transform, font-size, opacity;
+}
+
+.fade-scale-x-enter-from,
+.fade-scale-x-leave-to {
+  opacity: 0;
+  width: 0 !important;
+  min-width: 0 !important;
+  font-size: 0 !important;
+  transform: scale(0) !important;
+}
+/* #endregion */

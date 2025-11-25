@@ -1,0 +1,1 @@
+define("DS/MSFDocumentManagement/MSFDocumentManagement_tr",{});define("DS/MSFDocumentManagement/assets/nls/MSFDocumentManagement",{BlockActionAsWebEditionIsOn:"Belge şu anda diğer kullanıcılar tarafından düzenleniyor. Mevcut eyleminiz, başka değişiklikler yapmalarını engelleyecektir. Web düzenleyici oturumu kapatıldıktan sonra devam edebilirsiniz."});

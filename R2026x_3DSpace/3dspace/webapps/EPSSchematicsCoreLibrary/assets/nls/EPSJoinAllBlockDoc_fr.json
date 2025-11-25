@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "summary": "Active le port de contrôle de sortie si ce bloc n'est plus accessible.",
+  "description": "Lorsque ce bloc est exécuté et qu'aucun flux d'exécution ne parvient à l'atteindre, le port de contrôle de sortie est activé.<br>Sinon, l'exécution du bloc se termine sans que le port de contrôle de sortie ne soit activé.",
+  "controlPorts": {
+    "In": "déclenche l'exécution du bloc.",
+    "Out": "est activé uniquement lorsque le bloc n'est plus accessible."
+  },
+  "example": null
+}

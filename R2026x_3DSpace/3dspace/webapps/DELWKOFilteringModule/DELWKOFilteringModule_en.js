@@ -1,0 +1,1 @@
+define("DS/DELWKOFilteringModule/DELWKOFilteringModule_en",{});define("DS/DELWKOFilteringModule/assets/nls/DELWKOFilteringSetFilterView",{WithAssignedItems:"With assigned items",ExpandAllChildren:"Expand All Children"});

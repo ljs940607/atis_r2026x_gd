@@ -1,0 +1,17 @@
+{
+  "noFileSelected": "Aucun fichier sélectionné",
+  "noValidFileSelected": "Aucun fichier valide sélectionné",
+  "isRequired": "{0} est obligatoire",
+  "isInvalid": "{0} n'est pas valide",
+  "wrongFileType": "Type de fichier incorrect",
+  "fileTooBig": "La taille du fichier dépasse la limite de {0}",
+  "bytes": "octets",
+  "kiloByte": "Ko",
+  "megaByte": "Mo",
+  "gigaByte": "Go",
+  "teraByte": "To",
+  "fileUploadFailed": "Le téléchargement en amont du fichier a échoué. Veuillez réessayer.",
+  "replaceImage": "Remplacer l'image",
+  "loading": "Chargement...",
+  "fileCouldNotBeLoaded": "Le fichier n'a pas pu être chargé"
+}

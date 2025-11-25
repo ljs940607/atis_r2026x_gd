@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "원가 계산",
+  "CostingDomainTooltip": "비용 지표에 대한 전개 프로세스 선택",
+  "CostingDefaultEvolution": "순차",
+  "CostingEvolutionConcurrent": "동시",
+  "deployFailureMsg": "일부 비용 지표가 작업 중 상태를 초과하므로, 전개 프로세스를 동시 상태로 설정할 수 없습니다.",
+  "MetricEvolutionAccordionTitle": "지표 전개 프로세스"
+}

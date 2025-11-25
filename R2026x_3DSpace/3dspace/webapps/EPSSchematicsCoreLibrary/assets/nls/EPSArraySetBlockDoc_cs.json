@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Nastaví danou hodnotu v daném poli pod daným indexem.",
+  "description": "Tento blok poskytne upravené pole jako výstup.<br>Tento blok je dynamický, takže typ pole vstupních dat lze změnit pomocí dialogového okna konfigurace bloku.",
+  "dataPorts": {
+    "ArrayIn": "pole, které chcete upravit.",
+    "Index": "index pole, kde se má hodnota nastavit.",
+    "Value": "požadovaná hodnota.",
+    "ArrayOut": "upravené pole."
+  },
+  "controlPorts": {
+    "In": "vyvolá spuštění bloku.",
+    "Out": "aktivuje se po dokončení procesu."
+  },
+  "example": null
+}

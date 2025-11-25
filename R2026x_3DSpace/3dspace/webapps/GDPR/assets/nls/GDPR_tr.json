@@ -1,0 +1,21 @@
+{
+  "readHeader": "3DS'in hangi çerezleri kullanacağına karar verirsiniz",
+  "readBodyContent": "Dassault Systèmes olarak güvenilir 3DS iş paydaşlarımızla birlikte web sitelerimizde size en iyi deneyimi sunmak için çerezleri şu amaçlarla kullanırız: kitleleri ölçüp performansları artırmak, etkileşimlerinize uygun içerik ve teklifler sunmak, ilgi alanlarınızla alakalı reklamlar sağlamak ve sosyal ağlarda içerik paylaşmanıza izin vermek.",
+  "readBodyPreferences": "Tercihleriniz 6 ay boyunca saklanır ve bunları dilediğiniz zaman değiştirebilirsiniz. Bu sitenin çerezleri nasıl kullandığı hakkında daha fazla bilgi edinmek için lütfen <a href=\"{privacyPolicyLink}\" target=\"_blank\">gizlilik politikamıza</a> göz atın.",
+  "updateHeader": "Çerez Seçimlerinizi kişiselleştirin",
+  "updateBody": "<p>İzninizin gerekli olmadığı ilk kategori hariç, her bir çerez kategorisi için tercihlerinizi buradan kişiselleştirebilirsiniz.</p><p>3DS seçiminizi 6 ay boyunca korur. Bu sürenin sonunda 3DS tekrar izninizi isteyecektir.</p>",
+  "updateBodyNecessaryCookies": "Gerekli çerezler çok önemlidir, size 3DS web siteleri aracılığıyla sunulan hizmetleri sağlamak için kullanılır. Örneğin bu çerezler, 3DS'in çerez tercihleri hakkındaki seçimlerinizi hatırlamasına, web sitesi tarafından kullanılan dil seçimi gibi arayüz özelleştirme izleyicilerinizi kaydetmesine olanak tanır. Web sitelerimizden birini ziyaret ettiğinizde bu çerezleri kabul edip etmeme konusunda bir seçeneğiniz yoktur.<br/></br> Bu amaçla kullanılan çerezlerin listesini görmek için <a href=\"{necessaryCookiesUsedLink}\" target=\"_blank\">buraya tıklayın</a>",
+  "updateBodyFunctionalCookies": "Fonksiyonel çerezler, etkileşimlerinize uygun içerik ve teklifleri size sunmak için kullanılır. Bunlar, cihazınıza girilen veya 3DS web sitelerinde gezinirken kaydedilen bilgilerden oluşabilir. Bu çerezler ayrıca, performansı ölçebilmemiz ve iyileştirebilmemiz için site kullanımını analiz etmemize olanak sağlar. </br></br> Bu amaçla kullanılan çerezlerin listesini görmek için <a href=\"{functionalCookiesUsedLink}\" target=\"_blank\">buraya tıklayın</a>",
+  "updateBodyAdvertisingCookies": "Reklam çerezleri, 3DS ve güvenilir 3DS iş paydaşlarının ilgi alanlarınızla alakalı reklamlar sunmasını sağlamak için kullanılır. Amaç, size uygun reklamlar göstermektir.",
+  "seeListCookiesUsage": "Bu amaçla kullanılan çerezlerin listesini görmek için <a href=\"{cookiesUsedLink}\" target=\"_blank\">buraya tıklayın</a>",
+  "privacyPolicy": "gizlilik politikası",
+  "necessaryCookies": "Gerekli Çerezler",
+  "functionalCookies": "Fonksiyonel Çerezler",
+  "adsCookies": "Hedefli Çerezler ve Reklam Çerezleri",
+  "accept": "Kabul Et",
+  "acceptAll": "Tümünü Kabul Et",
+  "clickHere": "buraya tıklayın",
+  "continueNecessaryCookie": "Yalnızca gerekli çerezlerle devam et",
+  "managePreferences": "Tercihlerimi yönet",
+  "savePreferences": "Tercihlerimi kaydet"
+}

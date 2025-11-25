@@ -1,0 +1,1 @@
+define("DS/WAfrContainer/ContainerComAbstraction",[],(function(){"use strict";var t=function(){};return t.prototype.GetA2XClient=function(){return this._a2xClient},t.prototype.SetA2XClient=function(t){this._a2xClient=t,window&&(window._a2xClient=t)},t}));

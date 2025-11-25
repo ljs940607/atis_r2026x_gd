@@ -1,0 +1,13 @@
+m|DMUExperienceAPIWeb\DMUExperienceAPI.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24286|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DMUExperienceAPI\DMUExperienceAPI.js|1728783012|6873
+s|DMUExperienceAPIWeb\DMUExperienceAPI.mweb\src\DMUExperienceAPI.js|1620400202|83
+u|DMUExperienceAPIWeb\DMUExperienceAPI.mweb\src\DMUExperienceImporterAPI.js|1725893582|7362
+u|DMUExperienceAPIWeb\DMUExperienceAPI.mweb\src\DMUOptionsManager.js|1710147197|2870
+u|DMUExperienceAPIWeb\DMUExperienceAPI.mweb\src\DMUWebDesignReviewMarkerServices.js|1717667494|5599
+u|DMUExperienceAPIWeb\DMUExperienceAPI.mweb\src\DMUWebDesignReviewSlideServices.js|1650893884|3025
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

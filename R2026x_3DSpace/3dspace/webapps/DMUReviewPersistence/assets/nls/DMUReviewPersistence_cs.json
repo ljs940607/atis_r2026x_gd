@@ -1,0 +1,96 @@
+{
+  "unableLoadReview": "Příkaz nelze spustit",
+  "LoadingPanel": "Načítání…",
+  "cmdFailure": "Příkaz nelze spustit",
+  "cmdFailureNls": "Chyba NLS, příkaz nelze spustit",
+  "SavingStep": "Ukládání…",
+  "createReview": {
+    "quickEdition": "Příště nezobrazovat tento dialog",
+    "errorMessage": "Vytvoření kontroly se nezdařilo",
+    "errorShape": "Kontrolu nelze vytvořit na 3D tvaru",
+    "multipleRootsLabel": "Vybrat kontext",
+    "nameLabel": "Název",
+    "defaultReviewName": "Kontrola",
+    "namePlaceholder": "Přidat nadpis",
+    "descriptionLabel": "Popis",
+    "descriptionPlaceholder": "Přidat popis",
+    "restrictedEditionLabel": "Omezená edice",
+    "restrictedEditionActivated": "Aktivováno",
+    "restrictedEditionDeactivated": "Deaktivováno",
+    "panelTitle": "Nová kontrola",
+    "panelValidationTitle": "Nové ověření",
+    "createreviewButton": "Vytvořit",
+    "cancelButton": "Zrušit",
+    "importModel": "Importovat model JSON",
+    "slideTitle": "Snímek",
+    "loadingMessage": "Vytváření nové kontroly...",
+    "warningMessage": "Aktuální kontrola bude v relaci nahrazena novou",
+    "labelReview": "Kontrola",
+    "labelMarkup": "Označení",
+    "labelCheck": "Kontroly",
+    "labelMember": "Prvky",
+    "labelObjects": "Objekty",
+    "saveAsDraftButton": "Uložit jako koncept",
+    "reviewContext": "Kontext",
+    "multiReviewsNaming": "Automaticky",
+    "validatedObjects": "Ověřené objekty",
+    "changeAction": "Akce změny",
+    "chkListTitle": "Kontrolní seznam",
+    "autoCompletePlaceHolder": "přetáhněte sem nebo zadejte hledaný výraz",
+    "setValObjectAsValidatedNotif": "Tento objekt nelze nastavit jako ověřený objekt",
+    "setSomeValObjectAsValidatedNotif": "Některé objekty nelze nastavit jako ověřené objekty",
+    "setDefaultNotif": "Některé přetažené objekty nejsou podporovány",
+    "setDefaultChgActNotif": "Tento objekt nelze nastavit jako akci změny",
+    "setCtxRootNotif": "U kontextů není podporováno přetažení vícenásobného výběru",
+    "setChgActNotif": "U akcí změny není podporováno přetažení vícenásobného výběru",
+    "setChgActCtxNotif": "U tohoto typu kontextu nelze nastavit akci změny",
+    "noCASearchFound": "Nebylo nalezeno žádné vyhledávání NEBO byla změna již přidána"
+  },
+  "createReviewMarkup": {
+    "quickEdition": "Příště nezobrazovat tento dialog",
+    "errorMessage": "Vytvoření označení se nezdařilo",
+    "multipleRootsLabel": "Vybrat kontext",
+    "nameLabel": "Název",
+    "defaultMarkupName": " Označení",
+    "namePlaceholder": "Přidat nadpis",
+    "descriptionLabel": "Popis",
+    "descriptionPlaceholder": "Přidat popis",
+    "panelTitle": "Nové označení",
+    "createMarkupButton": "Vytvořit",
+    "cancelButton": "Zrušit",
+    "importModel": "Importovat model JSON",
+    "slideTitle": "Snímek",
+    "loadingMessage": "Vytváření nového označení...",
+    "warningMessage": "Aktuální označení bude v relaci nahrazeno novým"
+  },
+  "createCheck": {
+    "errorMessage": "Nepodařilo se vytvořit požadavek na kontrolu",
+    "typeToSearch": "přetáhněte sem nebo zadejte hledaný výraz",
+    "noSearchFound": "Nebylo nalezeno žádné vyhledávání NEBO byl požadavek již přidán",
+    "requirement": "Požadavky"
+  },
+  "createHighlight": {
+    "errorMessage": "Vytvoření zvýraznění se nezdařilo",
+    "selectHighlight": "Vyberte neoznačený komentář ve značce"
+  },
+  "valStateChange": {
+    "error": "Stav ověření kontroly nelze změnit."
+  },
+  "updateValidatedListCmd": {
+    "ValidatedExist": "Ověřený objekt již existuje",
+    "SelectMsg": "Vyberte ověřený objekt(y), který chcete přidat",
+    "OkBtn": "OK",
+    "CancelBtn": "Zrušit"
+  },
+  "loadValidationContextError": "Kontroly s tímto typem dat nejsou podporovány.",
+  "loadValidationMarkupError": "Nelze načíst kontrolu.",
+  "page": "Strana",
+  "markComment": {
+    "clearStatusWarningPanel": {
+      "title": "Vymazat stav",
+      "message": "Opravdu chcete vymazat stav vybraných komentářů?",
+      "okLabel": "Vymazat"
+    },
+    "unableToMark": "U některých poznámek nelze změnit stav."
+  }
+}

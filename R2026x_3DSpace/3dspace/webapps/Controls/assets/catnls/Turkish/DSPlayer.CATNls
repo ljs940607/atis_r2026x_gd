@@ -1,0 +1,42 @@
+<meta charset="UTF-8"/>
+//Copy of CATAfrPLMCompassPlayTab that has been moved in BSFTST
+DSPlayer.PauseButton.Tooltip="Duraklat (Ctrl+Boşluk)";
+DSPlayer.PlayButton.Tooltip="İleri Oynat (Ctrl+Boşluk)";
+DSPlayer.BackButton.Tooltip="Geri Atla";
+DSPlayer.NextButton.Tooltip="İleri Atla";
+DSPlayer.OptionsButton.Tooltip="Seçenekler"; // @validatedUsage AJT 13:11:04 Options
+
+DSPlayer.FirstButton.Tooltip="Başlangıca Git";
+DSPlayer.BackwardButton.Tooltip="Hızı Azalt";
+DSPlayer.PlayReverseButton.Tooltip="Geri Oynat";
+DSPlayer.ForwardButton.Tooltip="Hızı Artır";
+DSPlayer.LastButton.Tooltip="Sona Git";
+DSPlayer.Editor.Tooltip="Dize Değeri";
+DSPlayer.LoopRunOnceButton.Tooltip="Tek Sefer";
+DSPlayer.LoopRunContinuouslyButton.Tooltip="Sürekli";
+DSPlayer.LoopRunContinuouslyBackAndForthButton.Tooltip="İleri-Geri";
+DSPlayer.StackButton.Tooltip="Yığın";
+
+DSPlayer.StopButton.Tooltip="Durdur ve Geri Sar (Ctrl+Shift+Boşluk";
+
+DSPlayer.PauseButton.Title="Duraklat";
+DSPlayer.PlayButton.Title="İleri Oynat (Ctrl+Boşluk)";
+DSPlayer.BackButton.Title="Geri Atla";
+DSPlayer.NextButton.Title="İleri Atla";
+DSPlayer.OptionsButton.Title="Seçenekler"; // @validatedUsage AJT 13:11:04 Options
+
+DSPlayer.FirstButton.Title="Başlangıca Git";
+DSPlayer.BackwardButton.Title="Hızı Azalt";
+DSPlayer.PlayReverseButton.Title="Geri Oynat";
+DSPlayer.ForwardButton.Title="Hızı Artır";
+DSPlayer.LastButton.Title="Sona Git";
+DSPlayer.Editor.Title="Dize Değeri";
+DSPlayer.LoopRunOnceButton.Title="Tek Sefer";
+DSPlayer.LoopRunContinuouslyButton.Title="Sürekli";
+DSPlayer.LoopRunContinuouslyBackAndForthButton.Title="İleri-Geri";
+DSPlayer.StackButton.Title="Yığın";
+
+DSPlayer.StopButton.Title="Durdur ve Geri Sar";
+
+
+

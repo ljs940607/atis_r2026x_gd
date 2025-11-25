@@ -1,0 +1,19 @@
+.dragHandle {
+	float: right  !important;
+	width: 20px  !important;
+	cursor: move  !important;
+}
+
+.itemHover {
+    border: 1px dashed #A8DAFF;
+}
+
+.dragElem {
+	background-color: #A8DAFF;
+    opacity: 0.7;
+    padding-left: 26px;
+}
+
+.eventBoundList li span.dragHandle {
+		background: none;
+}

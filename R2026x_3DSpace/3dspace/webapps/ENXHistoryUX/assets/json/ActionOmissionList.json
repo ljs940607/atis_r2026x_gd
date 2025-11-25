@@ -1,0 +1,532 @@
+{
+    "i3dxEntity": {
+        "ANY": {
+            "modifyAttribute": {
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Effectivity Compiled Form",
+                    "Effectivity Expression",
+                    "Effectivity Expression Binary",
+                    "Effectivity Ordered Criteria",
+                    "Effectivity Ordered Criteria Dictionary",
+                    "Effectivity Ordered Impacting Criteria",
+                    "Effectivity Proposed Expression",
+                    "Effectivity Types",
+                    "Effectivity Variable Indexes",
+                    "LPAbstractReference.V_hasInstanciationDefinition",
+                    "LPAbstractReference.V_hasInstanciationValue",
+                    "LPAbstractReference.V_hasPGPRep",
+                    "RepoPrivilege",
+                    "StreamDescriptors",
+                    "PLMReference.V_AuthorityControl",
+                    "PLMCoreReference.V_ChangeHistory",
+                    "PLMReference.V_DerivedFrom",
+                    "PLMInstance.V_EffectivityCompiledForm",
+                    "PLMReference.V_EffectivityKind",
+                    "PLMReference.V_hasConfigContext",
+                    "PLMInstance.V_hasConfigEffectivity",
+                    "PLMInstance.V_hasConfigStaticMapping",
+                    "PLMReference.V_isLastMinorVersion",
+                    "PLMInstance.V_isUptodate",
+                    "PLMReference.V_order",
+                    "PLMReference.V_VersionID",
+                    "PLMInstance.workspaceid",
+                    "PLMEntity.workspaceid",
+                    "PLMEntity.C_updatestamp",
+                    "PLMInstance.C_updatestamp",
+                    "PLMReference.V_isLastVersion",
+                    "PLMReference.V_DerivedFrom",
+                    "Issue Template Json Details",
+                    "Rendition Acro Store",
+                    "Questionnaire Definition",
+                    "Propagate Access",
+                    "Sponsoring Customer",
+                    "Folder Path",
+                    "Folder Classification",
+                    "Notes",
+                    "Change Id",
+                    "Access Type"
+                ]
+            },
+            "moveFilesFrom": {
+                "condition": "NONE"
+            },
+            "addInterface": {
+                "condition": "interface",
+                "list": [
+                    "MSFDocumentInterface"
+                ]
+            },
+            "removeInterface": {
+                "condition": "interface",
+                "list": [
+                    "MSFDocumentInterface"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Latest Version",
+                    "Active Version",
+                    "isVersionOf"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Latest Version",
+                    "Active Version",
+                    "isVersionOf"
+                ]
+            }
+        },
+        "BQMPackageDefinition" : {
+		    "modifyAttribute": {
+		        "condition": "modDesc.attribute",
+		        "list": [
+		            "Access Key"
+		        ]
+		    }
+		},
+        "PerformanceSpec": {
+            "addAccess":{
+                "condition": "NONE"
+                }
+        },
+        "Products": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Child Node Available Index",
+                    "Derivation Level",
+                    "Node Index",
+                    "Filter Compiled Form",
+                    "Node Index Generation Version"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Main Product",
+                    "Company Product",
+                    "Products",
+                    "Product Feature List",
+                    "Child Composition Binary",
+                    "Feature Product Configuration",
+                    "Product Build",
+                    "Effectivity Usage"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Main Product",
+                    "Company Product",
+                    "Products",
+                    "Product Feature List",
+                    "Child Composition Binary",
+                    "Feature Product Configuration",
+                    "Product Build",
+                    "Effectivity Usage"                    
+                ]
+            },
+            "addInterface": {
+                "condition": "interface",
+                "list": [
+                    "PrecomputedCfgFilter"
+                ]
+            }
+        },
+        "Variant": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Subfeature Count"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Variant Value": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Variant Values"
+                ]
+            },
+             "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Variant Values"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Variability Group": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Subfeature Count"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Variability Option": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Grouped Variability Criteria"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Grouped Variability Criteria"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Configuration Rule": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Master Expression",
+                    "Layout Data",
+                    "Compiled Expression"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Rules"
+                ]
+            },
+            "addInterface": {
+                "condition": "interface",
+                "list": [
+                    "Rule Expression"
+                ]
+            },
+            "addPath": {
+                "condition": "NONE"
+            },
+            "removePath": {
+                "condition": "NONE"
+            }
+        },
+        "Product Configuration": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Filter Compiled Form",
+                    "Filter Expression Binary",
+                    "Filter Ordered Criteria",
+                    "Filter Ordered Criteria Dictionary"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Standard Item",
+                    "Product Configuration",
+                    "Feature Product Configuration",
+                    "isVersionOf",
+                    "Selected Options",
+                    "Configuration Model",
+                    "Product Configuration Build"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Standard Item",
+                    "Product Configuration",
+                    "Feature Product Configuration",
+                    "isVersionOf",
+                    "Selected Options",
+                    "Configuration Model",
+                    "Product Configuration Build"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Model Type": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Cfg Synchro Stamp"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Product Model Type",
+                    "isVersionOf",
+                    "Selected Options"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Product Model Type",
+                    "isVersionOf",
+                    "Selected Options"
+                ]
+            }
+        },
+        "Product Specification": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Product Specification",
+                    "Active Version",
+                    "Latest Version"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Product Specification"
+                ]
+            },
+            "promote": {
+                "condition": "NONE"
+            },
+             "demote": {
+                "condition": "NONE"
+            }
+        },
+        "Manufacturing Plan": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Child Node Available Index",
+                    "Derivation Level",
+                    "Node Index",
+                    "Filter Compiled Form",
+                    "Node Index Generation Version"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Managed Root",
+                    "Associated Manufacturing Plans",
+                    "Managed Series",
+                    "Planned Builds"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Planned Builds"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Variant Parameter": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Configuration Features"
+                ]
+            },
+             "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "Builds": {
+            "modifyAttribute":{
+                "condition": "modDesc.attribute",
+                "list": [
+                    "Originator",
+                    "Build Unit Number",
+                    "Prefix",
+                    "Filter Compiled Form"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Model Build"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Model Build"
+                ]
+            },
+            "addInterface": {
+                "condition": "NONE"
+            }
+        },
+        "ENOStrRefinementSpecification": {
+            "addPath": {
+                "condition": "NONE"
+            },
+            "removePath": {
+                "condition": "NONE"
+            },
+            "changeType": {
+                "condition": "NONE"
+            }
+        },
+        "Product Record": {
+            "modifyAttribute": {
+                "condition": "modDesc.attribute",
+                "list": [
+                    "eSignID"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Design Control",
+                    "Product Record Content",
+                    "Manifest"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Design Control",
+                    "Product Record Content",
+                    "Manifest"
+                ]
+            }
+        },
+        "Product Record Template": {
+            "modifyAttribute": {
+                "condition": "modDesc.attribute",
+                "list": [
+                    "eSignID"
+                ]
+            },
+            "connect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Design Control"
+                ]
+            },
+            "disconnect": {
+                "condition": "modDesc.relation",
+                "list": [
+                    "Design Control"
+                ]
+            }
+        },
+        "Drawing": {
+            "checkin": {
+                "condition": "NONE"
+            },
+            "removeFile": {
+                "condition": "NONE"
+            },
+            "remove_file": {
+                "condition": "NONE"
+            },
+            "renameFile": {
+                "condition": "NONE"
+            },
+            "modifyAttribute": {
+                "condition": "modDesc.attribute",
+                "list": [
+                    "XCADRepExtension.V_PSMappingTable",
+					"XCADGenericRepExtension.V_CADVersion",
+					"XCADGenericRepExtension.V_CADFileVersion",
+					"StreamDescriptors"
+                ]
+            }
+        }
+    },
+    "i3dxRelation": {
+        "Specification Structure": {
+            "condition": "NONE"
+        },
+        "Requirement Group Content": {
+            "condition": "NONE"
+        },
+        "Sub Requirement Group": {
+            "condition": "NONE"
+        },
+        "Derived Requirement": {
+            "condition": "NONE"
+        },
+        "Sub Requirement": {
+            "condition": "NONE"
+        }
+    }
+}

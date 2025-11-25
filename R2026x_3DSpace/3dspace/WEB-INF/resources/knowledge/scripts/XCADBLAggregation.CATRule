@@ -1,0 +1,118 @@
+Let Reference (PLMEntity)
+Let CADOriginValueAggregated(STRING)
+Let VUsageValueAggregated(STRING)
+Let CADOriginListAggregating(List)
+Let index(Integer)
+Let ErrorMessageSet(Boolean)
+Let PointedIs3DPart(Boolean)
+Let PointedIsVPMReference(Boolean)
+Let AggregatingIsXCAD(Boolean)
+Let AggregatedIsXCAD(Boolean)
+
+set Reference = Parameters->GetAttributeObject("ReferenceToInstantiate")
+Validation = true
+ErrorMessageSet = false
+PointedIs3DPart = false
+PointedIsVPMReference = false
+
+AggregatingIsXCAD = false
+AggregatedIsXCAD = false
+
+if (Validation == true and ThisObject.IsSupporting("XCADExtension") == true){
+	if ((Reference.IsSupporting("VPMRepReference") == false) and (Reference.IsSupporting("XCADAssemblyRepReference") == false)) {
+		if (Reference.HasAttribute("V_usage") == true) {
+			VUsageValueAggregated = Reference.GetAttributeString("V_usage")
+			if (VUsageValueAggregated == "3DPart") {
+				PointedIs3DPart = true
+			}
+		}
+
+		
+		
+		if (Reference.IsSupporting("VPMReference") == true) {
+		    PointedIsVPMReference = true
+		}
+		
+		if (Reference.IsSupporting("XCADExtension")) {
+			if(ThisObject.HasAttribute("V_CADOrigin") == true){
+				if(Reference.HasAttribute("V_CADOrigin") == true){
+					CADOriginListAggregating = (ThisObject.GetAttributeObject("V_CADOrigin") : List)
+					CADOriginValueAggregated = (Reference.GetAttributeObject("V_CADOrigin") : List).GetItem(1)
+
+					if(CADOriginValueAggregated == "CATIAV5" or CADOriginValueAggregated == "SOLIDWORKS" or CADOriginValueAggregated == "CREO" or CADOriginValueAggregated == "NX" or CADOriginValueAggregated == "SOLIDEDGE" or CADOriginValueAggregated == "INVENTOR") {
+						AggregatedIsXCAD = true
+					}
+					index = 1
+					Validation = false
+					for index while index <= CADOriginListAggregating.Size() {
+						if(CADOriginListAggregating.GetItem(index) == "CATIAV5" or CADOriginListAggregating.GetItem(index) == "SOLIDWORKS" or CADOriginListAggregating.GetItem(index) == "CREO" or CADOriginListAggregating.GetItem(index) == "NX" or CADOriginListAggregating.GetItem(index) == "SOLIDEDGE" or CADOriginListAggregating.GetItem(index) == "INVENTOR") {
+							AggregatingIsXCAD = true
+						}
+						Validation = Validation or (CADOriginListAggregating.GetItem(index) == CADOriginValueAggregated)
+						Validation = Validation or (CADOriginListAggregating.GetItem(index) == "SOLIDWORKS") 
+						Validation = Validation or (AggregatingIsXCAD == true and AggregatedIsXCAD == true and PointedIsVPMReference == true)
+					}
+					
+					if (Validation == false)
+					{
+						Parameters.NLSMessage = BuildDeferredMessageNLS("VPMReferenceBLAggregation", "AggregationDetailed.Title", CADOriginValueAggregated, CADOriginListAggregating.GetItem(1))
+						Parameters.Message=BuildMessageNLS("VPMReferenceBLAggregation", "AggregationDetailed.Title", CADOriginValueAggregated, CADOriginListAggregating.GetItem(1))
+						ErrorMessageSet = true
+					}
+				}
+				else {
+					Validation=false
+				}
+			}
+		}
+		else {
+			if(ThisObject.HasAttribute("V_CADOrigin") == true){
+				CADOriginListAggregating = (ThisObject.GetAttributeObject("V_CADOrigin") : List)
+				
+				index = 1
+				Validation = false
+				for index while index <= CADOriginListAggregating.Size() {
+				
+					if(CADOriginListAggregating.GetItem(index) == "CATIAV5" or CADOriginListAggregating.GetItem(index) == "SOLIDWORKS" or CADOriginListAggregating.GetItem(index) == "CREO" or CADOriginListAggregating.GetItem(index) == "NX" or CADOriginListAggregating.GetItem(index) == "SOLIDEDGE" or CADOriginListAggregating.GetItem(index) == "INVENTOR") {
+							AggregatingIsXCAD = true
+					}
+					Validation = Validation or AggregatingIsXCAD
+					Validation = Validation or (CADOriginListAggregating.GetItem(index) == "ICAD")
+				}
+				
+				if (Validation == false)
+				{
+					Parameters.NLSMessage = BuildDeferredMessageNLS("VPMReferenceBLAggregation", "AggregationDetailed.Title", "3DEXPERIENCE", CADOriginListAggregating.GetItem(1))
+					Parameters.Message=BuildMessageNLS("VPMReferenceBLAggregation", "AggregationDetailed.Title", "3DEXPERIENCE", CADOriginListAggregating.GetItem(1))
+					ErrorMessageSet = true
+				}
+			}
+		}
+	}
+	else if (Reference.IsSupporting("XCADRepExtension") == true)
+	{
+		if (Reference.IsSupporting("Drawing") == true)
+		{
+				Validation = false
+				
+				CADOriginListAggregating = (ThisObject.GetAttributeObject("V_CADOrigin") : List)
+    			
+				index = 1
+				for index while index <= CADOriginListAggregating.Size() {
+								Validation = Validation or (CADOriginListAggregating.GetItem(index) == "SOLIDWORKS")  or (CADOriginListAggregating.GetItem(index) == "CATIAV5")  or (CADOriginListAggregating.GetItem(index) == "INVENTOR") or (CADOriginListAggregating.GetItem(index) == "SOLIDEDGE")
+				}
+		}
+		
+		if (Validation == false)
+		{
+			Parameters.NLSMessage = BuildDeferredMessageNLS("VPMReferenceBLAggregation", "FatherValidationCheck.Title")
+			Parameters.Message=BuildMessageNLS("VPMReferenceBLAggregation","FatherValidationCheck.Title")
+			ErrorMessageSet = true
+		}
+	}
+	
+	if((Validation==false) and (ErrorMessageSet==false)) {
+		Parameters.NLSMessage = BuildDeferredMessageNLS("VPMReferenceBLAggregation", "Aggregation.Title")
+		Parameters.Message=BuildMessageNLS("VPMReferenceBLAggregation","Aggregation.Title")
+	}
+}

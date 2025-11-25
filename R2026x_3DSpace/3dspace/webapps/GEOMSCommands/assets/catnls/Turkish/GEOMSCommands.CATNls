@@ -1,0 +1,55 @@
+<meta charset="UTF-8"/>
+GEOMSCommands.GEOMSAnimateCmdHdr.Title="Oynatıcı";
+GEOMSCommands.GEOMSAnimateCmdHdr.ShortHelp="Oynatıcıyı Göster";
+GEOMSCommands.GEOMSAnimateCmdHdr.Help="Oynatıcıyı Göster";
+GEOMSCommands.GEOMSAnimateCmdHdr.LongHelp="Oynatıcıyı Göster";
+
+GEOMSCommands.GEOMSDisplayTooltipsCmdHdr.Title="Araç İpuçlarını Göster/Gizle";
+GEOMSCommands.GEOMSDisplayTooltipsCmdHdr.ShortHelp="Araç İpuçlarını Göster/Gizle";
+GEOMSCommands.GEOMSDisplayTooltipsCmdHdr.Help="Araç İpuçlarını Göster/Gizle";
+GEOMSCommands.GEOMSDisplayTooltipsCmdHdr.LongHelp="Araç İpuçlarını Göster/Gizle";
+
+GEOMSCommands.GEOMSDisplayActivitiesCmdHdr.Title="Faaliyetleri Göster";
+GEOMSCommands.GEOMSDisplayActivitiesCmdHdr.ShortHelp="Faaliyetleri Göster";
+GEOMSCommands.GEOMSDisplayActivitiesCmdHdr.Help="Faaliyetleri Göster";
+GEOMSCommands.GEOMSDisplayActivitiesCmdHdr.LongHelp="Faaliyetleri Göster";
+
+GEOMSCommands.GEOMSHideActivitiesCmdHdr.Title="Faaliyetleri Gizle";
+GEOMSCommands.GEOMSHideActivitiesCmdHdr.ShortHelp="Faaliyetleri Gizle";
+GEOMSCommands.GEOMSHideActivitiesCmdHdr.Help="Faaliyetleri Gizle";
+GEOMSCommands.GEOMSHideActivitiesCmdHdr.LongHelp="Faaliyetleri Gizle";
+
+GEOMSCommands.GEOMSDisplayStockpilesCmdHdr.Title="Stokları Göster";
+GEOMSCommands.GEOMSDisplayStockpilesCmdHdr.ShortHelp="Stokları Göster";
+GEOMSCommands.GEOMSDisplayStockpilesCmdHdr.Help="Stokları Göster";
+GEOMSCommands.GEOMSDisplayStockpilesCmdHdr.LongHelp="Stokları Göster";
+
+GEOMSCommands.GEOMSHideStockpilesCmdHdr.Title="Stokları Gizle";
+GEOMSCommands.GEOMSHideStockpilesCmdHdr.ShortHelp="Stokları Gizle";
+GEOMSCommands.GEOMSHideStockpilesCmdHdr.Help="Stokları Gizle";
+GEOMSCommands.GEOMSHideStockpilesCmdHdr.LongHelp="Stokları Gizle";
+
+GEOMSCommands.GEOMSAddProductionCmdHdr.Title="Mod Eklendi";
+GEOMSCommands.GEOMSAddProductionCmdHdr.ShortHelp="Mod Eklendi";
+GEOMSCommands.GEOMSAddProductionCmdHdr.Help="Mod Eklendi";
+GEOMSCommands.GEOMSAddProductionCmdHdr.LongHelp="Mod Eklendi";
+
+GEOMSCommands.GEOMSRemoveProductionCmdHdr.Title="Mod Kaldırıldı";
+GEOMSCommands.GEOMSRemoveProductionCmdHdr.ShortHelp="Mod Kaldırıldı";
+GEOMSCommands.GEOMSRemoveProductionCmdHdr.Help="Mod Kaldırıldı";
+GEOMSCommands.GEOMSRemoveProductionCmdHdr.LongHelp="Mod Kaldırıldı";
+
+GEOMSCommands.GEOMSSingleProductionCmdHdr.Title="Tekil Mod";
+GEOMSCommands.GEOMSSingleProductionCmdHdr.ShortHelp="Tekil Mod";
+GEOMSCommands.GEOMSSingleProductionCmdHdr.Help="Tekil Mod";
+GEOMSCommands.GEOMSSingleProductionCmdHdr.LongHelp="Tekil Mod";
+
+GEOMSCommands.GEOMSHideProductionCmdHdr.Title="Gizli Mod";
+GEOMSCommands.GEOMSHideProductionCmdHdr.ShortHelp="Gizli Mod";
+GEOMSCommands.GEOMSHideProductionCmdHdr.Help="Gizli Mod";
+GEOMSCommands.GEOMSHideProductionCmdHdr.LongHelp="Gizli Mod";
+
+GEOMSCommands.GEOMSRestoreParamCmdHdr.Title="Geri Yükle";
+GEOMSCommands.GEOMSRestoreParamCmdHdr.ShortHelp="Geri Yükle";
+GEOMSCommands.GEOMSRestoreParamCmdHdr.Help="Geri Yükle";
+GEOMSCommands.GEOMSRestoreParamCmdHdr.LongHelp="Geri Yükle";

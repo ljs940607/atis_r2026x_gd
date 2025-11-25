@@ -1,0 +1,149 @@
+.me-preference-item {
+  display: flex;
+  align-items: center;
+  min-height: 26px;
+  overflow: hidden;
+}
+
+.me-preference-label-left {
+  display: flex;
+  align-self: center;
+  max-width: 168px;
+  width: min(42%, 168px);
+ /* margin-bottom: 5px;
+  align-items: center;
+  margin-top: 5px;*/
+}
+
+.me_preference_label_right {
+  display: flex;
+  align-self: center;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.me-preference-info-div {
+  align-self: center;
+  margin-left: 6px;
+}
+
+.info-icon {
+  font-size: 0.75em !important;
+  padding-bottom: 3px;
+}
+
+.me-preference-control-right {
+  margin-left: 4px;
+  align-self: center;
+ /* margin-top: 5px; */
+  width: calc(100% - (min(42%, 168px) + 25px));
+}
+
+.me-preference-group-title {
+  font-size: 12px;
+  margin-left: 14px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.itemlockbutton {
+  margin-right: 10px;
+  align-self: center;
+  min-width: 16px;
+  /*max-width: 21px;
+  padding-bottom: 2px;*/
+}
+
+.me-preferences-all-itmes-in-a-group {
+  padding-left: 10px;
+}
+
+.child-div-right {
+  height: 100%;
+  width: auto;
+  overflow: auto;
+}
+
+.child-div-left {
+  position: relative;
+  height: 100%;
+}
+
+.me-preference-main-view {
+  height: calc(100%);
+  width: 100%;
+}
+
+.me-preference-item-container-desc {
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.category-content-div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.global_user_view_div {
+  height: 100%;
+  width: 100%;
+}
+
+.save_close_button_div {
+  display: flex;
+  flex-flow: "row";
+  justify-content: right;
+  padding-top: 10px;
+}
+
+/* .global_view_savebtn_div {
+    padding-right: 10px;
+} */
+
+.me-preference-panel-option-container {
+  border-style: solid;
+  border-width: thin;
+  /*margin: 20px;*/
+  border-color: #e2e4e3;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.me-preference-panel-options-desc-container {
+  padding-top: 10px;
+}
+
+.me-preference-panel-options-container {
+  /*max-width: 500px;*/
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.me-preference-panel-language-container {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.me-preference-panel-language-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.me-preference-json-item-btn {
+  color: #42A2DA !important;
+  text-decoration: underline;
+}
+
+.color-picker-content {
+  align-self: end;
+}    

@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_de",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Menü",addTab:"Registerkarte hinzufügen",webAppsResizing:"Größenänderung von Web-Apps ist nur für {type} Eigentümer dauerhaft",webAppsResizingProductCockpit:"Größenänderung von Web-Apps ist in diesem Cockpit nicht dauerhaft"});

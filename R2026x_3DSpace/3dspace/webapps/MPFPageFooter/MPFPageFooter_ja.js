@@ -1,0 +1,1 @@
+define("DS/MPFPageFooter/MPFPageFooter_ja",{});define("DS/MPFPageFooter/assets/nls/PageFooter",{links:"リンク",contacts:"連絡先",copyright:"© {year} | Dassault Systèmes - All rights reserved",generalTermsAndConfitions:"一般利用規約",privacyPolicy:"プライバシー ポリシー",cookies:"Cookie"});

@@ -1,0 +1,19 @@
+{{#if modelTitle }}
+  <div class="eno-dialog-body-header">
+    <div class="eno-dialog-body-toolbar">
+      <div class="eno-dialog-toolbar eno-context-object">
+        <div class="eno-object-card">
+          <span class="eno-object-icon">
+            <img src={{ modelIcon }}>
+          </span>
+          <span class="eno-object-title">{{ modelTitle }}</span>
+        </div>
+      </div>
+      <div class="eno-dialog-toolbar eno-actions">
+        <!-- one or more .eno-action items can appear here -->
+        <div class="eno-action" id="previousButton"></div>
+        <div class="eno-action" id="nextButton"></div>
+      </div>
+    </div>
+  </div>
+{{/if}}

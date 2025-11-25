@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_ko",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"삭제",confirm:"선택된 개체를 삭제하시겠습니까? 이 작업은 영구적이며 실행을 취소할 수 없습니다."});

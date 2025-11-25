@@ -1,0 +1,1 @@
+define("DS/AfrHomePageV3/AfrHomePageV3_zh-TW",{});define("DS/AfrHomePageV3/assets/nls/afr-home-page",{NLS_DropMessage:"或將您的內容放置於任何位置",NLS_NoContent:"沒有可顯示的內容。",NLS_DnDPlaceholder:"請將您的內容拖放到任何位置以開始。",NLS_Overview:"概觀",NLS_GuidedTour:"導覽",NLS_WhatsNew:"新貼文",NLS_UserAssistance:"文件",NLS_UserCommunity:"用戶社群",NLS_Training:"訓練",NLS_Tutorial:"學習單元"});

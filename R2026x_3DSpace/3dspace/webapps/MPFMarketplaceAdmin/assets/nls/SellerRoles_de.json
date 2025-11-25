@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "Marketplace {rolesText}",
+  "userSearch": "Benutzersuche",
+  "userRoles": "Benutzerrollen",
+  "loginEmail": "Geben Sie die Anmeldedaten oder die E-Mail-Adresse des Benutzers ein, dem Sie Rollen gewähren möchten:",
+  "rolesGranted": "Wählen Sie die Rolle aus, die Sie diesem Benutzer erteilen möchten. Rollen werden dynamisch erteilt:",
+  "noUserSelected": "Kein Benutzer ausgewählt",
+  "noUserFound": "Kein Benutzer gefunden",
+  "userSearchFailed": "Benutzersuche fehlgeschlagen",
+  "unableToSaveRoleModification": "Rollenänderung kann nicht gespeichert werden",
+  "enterEmailOrLogin": "E-Mail-Adresse oder Anmeldedaten hier eingeben...",
+  "makeSeller": "Make Verkäufer",
+  "engineeringSeller": "Engineering Verkäufer",
+  "partSupplySeller": "PartSupply Verkäufer",
+  "innovateSeller": "Innovate Verkäufer"
+}

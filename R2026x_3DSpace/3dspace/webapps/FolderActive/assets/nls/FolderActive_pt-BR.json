@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "Pastas de marcadores",
+  "activeBookmark_cmd": "Trabalhar na pasta de marcadores",
+  "name_Section_FavoriteFolders": "Favoritos",
+  "name_Section_AllFolders": "Pastas de marcadores",
+  "activeBookmark_msg_empty": "Vazio",
+  "activeBookmark_btn_focus": "Foco na pasta de marcadores definida",
+  "activeBookmark_msg_noBookmark": "Nenhuma pasta de marcadores encontrada",
+  "CMDExpandAll": "Expandir Tudo",
+  "CMDCollapseAll": "Recolher Tudo",
+  "InputLabel": "Pasta de marcadores",
+  "loader": {
+    "findingObjects": "Localizando pasta de marcadores"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "Selecionar",
+    "button_Cancel": "Cancelar",
+    "widget_name": "Selecionar em Pastas de marcadores",
+    "PLMNewBookmarkWidgetName": "Selecionar pastas de marcadores",
+    "msg_ClassifyInProgress": "Adicionando...",
+    "msg_ClassifySuccessful": "Adicionado com êxito.",
+    "msg_ClassifyFailed": "Ocorreu um erro ao adicionar. Você não tem o acesso para adicionar OU já foi adicionado às Pastas de marcadores determinadas.",
+    "msg_selectNodeToSeeInfo": "Selecione uma pasta de marcadores para ver seus detalhes."
+  },
+  "multiSelectionNotSupported": "A multisseleção não é compatível.",
+  "favoriteSectionNotSupported": "Este comando não é compatível com a seção de favoritos.",
+  "favoriteNotSupported": "Este comando não é compatível com os favoritos.",
+  "sectionNotSupported": "Este comando não é compatível com as seções.",
+  "noSelectionError": "Uma seleção é necessária para este comando."
+}

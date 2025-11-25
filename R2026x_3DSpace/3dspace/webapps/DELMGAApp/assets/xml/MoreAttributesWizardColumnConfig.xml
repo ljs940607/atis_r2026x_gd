@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2013 -->
+<Config name="MoreAttributes" version="2.0" xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/AuxiliaryColumnConfig.xsd" Title="UI Config" Description="Sample configuration file delivered by DS.">
+    <Label dataIndex="V_Name" entity="reference" dicoType="PLMEntity" displayType="NonEditable"/>
+    <Columns>
+        <Column	dataIndex="MoreAttr_InstOrRef" displayType="MoreAttr"/>
+        <Column	dataIndex="MoreAttr_Type" displayType="MoreAttr"/>
+        <Column dataIndex="MoreAttr_isExtension" displayType="MoreAttr"/>
+        <Column	dataIndex="MoreAttr_Scope" displayType="MoreAttr"/>
+    </Columns>
+</Config>

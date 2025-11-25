@@ -1,0 +1,45 @@
+{
+	"version": "1.0",
+	"typeMappings": [
+		{
+			"mappingId": "assemblyMapping",
+			"label": "assemblyLabel",
+			"info": "assemblyInfo",
+			"cadType": "assembly",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "assemblyInstanceMapping",
+			"label": "assemblyInstanceLabel",
+			"info": "assemblyInstanceInfo",
+			"cadType": "assemblyInstance",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "componentMapping",
+			"label": "componentLabel",
+			"info": "componentInfo",
+			"cadType": "component",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "componentInstanceMapping",
+			"label": "componentInstanceLabel",
+			"info": "componentInstanceInfo",
+			"cadType": "componentInstance",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		},
+		{
+			"mappingId": "drawingMapping",
+			"label": "drawingLabel",
+			"info": "drawingInfo",
+			"cadType": "drawing",
+			"mappingType": "busType",
+			"groupName": "busTypeMapping"
+		}
+	]
+}

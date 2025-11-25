@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_ko",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed 서비스가 중단되었을 수 있음",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" 일부 예측이 로드되지 않았을 수 있음",CUSTOM_ATTR_APPLIED:"사용자 정의 속성 업데이트됨"});

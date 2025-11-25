@@ -1,0 +1,1 @@
+define("DS/CATWebUXCopyLink/CATWebUXCopyLink_cs",{});define("DS/CATWebUXCopyLink/assets/nls/CATWebUXCopyLinkCmdAdapt",{copyLinkSuccess:"Odkaz na objekt „{label}“ byl úspěšně zkopírován.",copyLinkError:"Při kopírování odkazu do schránky došlo k chybě"});

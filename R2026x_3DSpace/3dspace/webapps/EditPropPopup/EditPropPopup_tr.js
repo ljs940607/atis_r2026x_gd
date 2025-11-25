@@ -1,0 +1,1 @@
+define("DS/EditPropPopup/EditPropPopup_tr",{});define("DS/EditPropPopup/assets/nls/editPropPopup",{Properties:"Özellikler",PinWidget:"Pencere öğesini sabitle",Loading:"Yükleniyor...",CloseOverlay:"Açılır pencereyi kapatın"});

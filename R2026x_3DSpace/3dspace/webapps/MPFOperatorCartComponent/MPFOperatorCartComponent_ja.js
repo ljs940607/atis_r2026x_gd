@@ -1,0 +1,1 @@
+define("DS/MPFOperatorCartComponent/MPFOperatorCartComponent_ja",{});define("DS/MPFOperatorCartComponent/assets/nls/MPFOperatorCartComponent",{filterBy:"フィルタ条件:",orderId:"オーダー ID",seller:"販売者",buyer:"バイヤー",enterOrderId:"オーダー ID を入力",enterSeller:"販売者を入力",enterBuyer:"バイヤーを入力",search:"検索"});

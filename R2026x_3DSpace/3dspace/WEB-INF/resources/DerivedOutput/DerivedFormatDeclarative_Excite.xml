@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+	This EXCITE case is targetting only 3DEXP 3DShape, and conversion is available ONLY on windows  
+	documentation at https://help.3ds.com/2025xbet/english/dsdoc/cati4cusermap/cati4c-c-ov.htm?contextscope=cloud&highlight=%22Design+with+Composer%22&id=9c2512cb9aa94bfd858a8420f311e9de&analyticsContext=search-result&analyticsSearch=%22Design%20with%20Composer%22&myapp=false
+-->
+
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="3DEXPERIENCE" synchronous="false" nlsFile="emxDerivedFormatManagementStringResource" comment="NLS in 'main' converter">
+		<datasources>
+			<!-- ***************************************** 3DEXPERIENCE Data **************************************************************** --> 
+			<datasource name="3DEXPERIENCE">
+				<source name="CATPart" type="Part">
+					<target name="SMGZip" inputStreamId="authoring" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="checkin"	type="Trigger" />
+					<event name="promote"	type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+				</events>
+			</datasource>
+		
+ 			<!-- ***************************************** CATIAV5 PowerBy  Data **************************************************************** --> 
+			<datasource name="CATIAV5">
+				<source name="CATPart" type="Part">
+					<target name="SMGZip" inputStreamId="authoring" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote"			type="Trigger"		maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="interactiveUpdate"	 />					
+				</events>
+			</datasource>
+
+			<!-- ***************************************** SOLIDWORKS Data **************************************************************** --> 
+			<datasource name="SOLIDWORKS">
+				<source name="SLDPRT" type="Part">
+					<target name="SMGZip" inputStreamId="linkable" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote" 	type="Trigger" maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="Trigger"  />
+				</events>
+			</datasource>
+
+			<!-- ***************************************** Nx Data **************************************************************** --> 
+			<datasource name="NX">
+				<source name="prt" type="Part">
+					<target name="SMGZip" inputStreamId="linkable" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote"	type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="interactiveUpdate"/>
+				</events>
+			</datasource>
+
+			<!-- ***************************************** CREO Data **************************************************************** --> 
+			<datasource name="CREO">
+				<source name="prt,xpr" type="Part">
+					<target name="SMGZip" inputStreamId="linkable" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="interactiveUpdate"/>
+				</events>
+			</datasource>
+
+			<!-- ***************************************** Inventor Data **************************************************************** --> 
+			<datasource name="INVENTOR">
+				<source name="IPT" type="Part">
+					<target name="SMGZip" inputStreamId="linkable" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote"		type="Trigger"		maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="interactiveUpdate"  />
+				</events>
+			</datasource>
+
+			<!-- ***************************************** SOLIDEDGE Data **************************************************************** --> 
+			<datasource name="SOLIDEDGE">
+				<source name="PAR,PSM" type="SEComponent">
+					<target name="SMGZip" inputStreamId="linkable" outputStreamId="SMGZip" conversionService="false" onPremiseOnly="true" >
+						<parameter name="Extension" values="zip" type="enum" default="zip" description="" mandatory="true"/>
+						<parameter name="MergeFileInOneActor"	 values="true|false" type="enum" default="false" description="Exports parts, including multibody parts, as single actors. To export multibody parts as individual actors, clear this option." />
+						<parameter name="ImportInstanceNames"	 values="true|false" type="enum" default="false" description="Adds the instance names after the part name: #PN# (#IN#). #PN# and #IN# are also added as meta-properties so you can add annotations linked to these meta-properties." />
+						<parameter name="ImportMetaProperties"	 values="true|false" type="enum" default="false" description="Exports attributes such as part number (P/N), designation, and revision number. In Composer, meta-properties appear as user properties in the Properties pane." />
+						<parameter name="ImportAsBodies" 		 values="true|false" type="enum" default="false" description="Exports parts as solid bodies." />
+						<parameter name="AreaVolumeInertaAxes"   values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPoints" 			 values="true|false" type="enum" default="false" description="Exports point geometry." />
+						<parameter name="ImportCurves" 			 values="true|false" type="enum" default="false" description="Exports curve geometry (curves, wires, wireframes)." />
+						<parameter name="ImportFreeFaces" 		 values="true|false" type="enum" default="false" description="Exports surface bodies (construction faces)." />
+						<parameter name="ImportHiddenComponents" values="true|false" type="enum" default="false" description="Exports hidden parts in assemblies and bodies in multibody parts. The hidden components are stored in a selection set." />
+						<parameter name="ImportCoordinateSystems" values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportTextures" 		 values="true|false" type="enum" default="false" description="" />
+						<parameter name="ImportPMIs" 			 values="true|false" type="enum" default="false" description="Exports Product and Manufacturing Information (PMI), also known as 3D tolerancing and annotations." />
+					</target>
+					
+				</source>
+                
+				<events>
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<event name="onXCADSave" type="interactiveUpdate"  />
+				</events>
+			</datasource>
+
+           
+		</datasources>
+	</converter>
+     
+</derivedformatmanagement>

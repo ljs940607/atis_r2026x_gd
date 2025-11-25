@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Ricerca delle terminologia in corso..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "L'oggetto rilasciato non è un oggetto della struttura di navigazione.",
+    "Advice": "Rilascia una struttura o un nodo di navigazione."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Impossibile eseguire l'opzione Cerca nella struttura.",
+    "Advice": "Espandi la struttura sul nodo di navigazione specifico",
+    "Details": "Il nodo di navigazione per la ricerca non è visibile nella struttura."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Impossibile eseguire l'opzione Cerca nella struttura.",
+    "Advice": "Espandi la sezione della struttura di navigazione sul livello uno.",
+    "Details": "Non esistono strutture di navigazione visibili nella sezione della struttura di navigazione."
+  },
+  "msg_info_limit_FindInTree": "Limite raggiunto. Il limite di ricerca è impostato su 100.",
+  "msg_info_limitToFindInRootNode": "Il limite di ricerca nella struttura di navigazione è impostato su 200; verranno considerate le prime 200 strutture di navigazione.",
+  "msg_info_No_Occurrence": "Non sono state trovate occorrenze della struttura di navigazione."
+}

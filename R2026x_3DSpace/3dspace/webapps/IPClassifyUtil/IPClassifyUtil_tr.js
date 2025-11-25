@@ -1,0 +1,1 @@
+define("DS/IPClassifyUtil/IPClassifyUtil_tr",{});define("DS/IPClassifyUtil/assets/nls/IPClassifyUtil",{msg_InfoAction_Timeout:"Başlatılan eylemden zaman aşımı süresi içinde yanıt alınmadı, yürütme işlemi daha uzun sürebilir. Sonuç, manuel yenilemeden bir süre sonra görülebilir.",notAccessibleTenant:"{tenant} kiracısına erişilemiyor. {switchedTenant} kiracısına geçin"});

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Vytvoří nové pole vyplněné výsledky volání zadaného grafu na každém prvku daného pole.",
+  "description": "Tento blok je schopen mapovat libovolný typ pole <doc-idp-name translate=no>Input</doc-idp-name> na libovolný typ výstupního pole.<br>Vnitřní graf je nutné upravit, aby byl k dispozici proces mapování.",
+  "dataPorts": {
+    "Input": "Vstupní pole, které má být namapováno. <br>Tento datový port zpracovává všechny typy polí.",
+    "SharedData": "Data ke sdílení v jednotlivých interních instancích grafu. <br>Tento datový port zpracovává všechny typy. <br>Pokud je třeba sdílet více dat různých typů, doporučuje se vytvořit typ uživatele.",
+    "Success": "Úspěšné výstupní pole.<br>Tento datový port zpracovává všechny typy polí.<br>Velikost tohoto pole bude vždy stejná jako velikost pole <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "State": "Pole prvků <doc-valuetype translate=no>ArrayMapState</doc-valuetype>, které poskytuje <doc-valuetype translate=no>EExecutionState</doc-valuetype> v každém indexu výstupního pole <doc-odp-name translate=no>Success</doc-odp-name>.<br>Velikost tohoto pole bude vždy stejná jako velikost pole <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Progress": "Pole prvků <doc-valuetype translate=no>ArrayMapProgress</doc-valuetype>, které poskytuje <doc-valuetype translate=no>EExecutionState</doc-valuetype> v každém indexu vstupního pole <doc-odp-name translate=no>Input</doc-odp-name>.<br>Toto pole lze během jednoho postupu vyplnit několika daty, protože závisí na distribučním procesu za blokem.<br>Ale velikost tohoto pole nepřekročí velikost pole <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Pole prvků <doc-valuetype translate=no>ArrayMapError</doc-valuetype>, které poskytuje chybový objekt pro index vstupního pole <doc-odp-name translate=no>Input</doc-odp-name>.<br>Velikost tohoto pole nepřekročí velikost pole <doc-idp-name translate=no>Input</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "vyvolá spuštění bloku.",
+    "Success": "aktivuje se po úspěšném dokončení procesu.",
+    "Progress": "aktivuje se pokaždé, když dojde k pokroku.",
+    "Error": "aktivuje se při výskytu chyby."
+  },
+  "example": null
+}

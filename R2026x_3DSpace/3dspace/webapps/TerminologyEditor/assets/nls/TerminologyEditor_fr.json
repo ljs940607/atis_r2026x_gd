@@ -1,0 +1,208 @@
+{
+  "name_Section_AllTerminologies": "Structures de navigation",
+  "name_Widget_Title": "Définition de structure de navigation",
+  "name_Widget_Help": "Aide de la définition de structure de navigation",
+  "name_Term": "Terme",
+  "name_Terminology_type": "Terminologie",
+  "terminology_pref_populateTags": "Activer 6W Tags pour le filtrage des structures de navigation",
+  "terminology_pref_activateRelationsColumns": "Afficher les éléments associés",
+  "useIndexAcceleration_label": "Afficher les données indexées",
+  "terminology_pref_autoSwitch_Label": "Basculement automatique du mode Base de données vers le mode Index",
+  "button_remove": "Enlever",
+  "button_close": "Fermer",
+  "Move_label": "Déplacer",
+  "Copy_label": "Copier",
+  "oneMin_Label": "1 minute",
+  "threeMin_Label": "3 minutes",
+  "fiveMin_Label": "5 minutes",
+  "tenMin_Label": "10 minutes",
+  "Never_Label": "Jamais",
+  "Paste_content_loading": "Coller le contenu",
+  "Remove_content_loading": "Enlever le contenu",
+  "Content_Loading": "Chargement du contenu...",
+  "Widget_Loading": "Chargement du widget...",
+  "Tree_Loading": "Chargement de l'arborescence...",
+  "New_Loading": "Chargement du panneau de création...",
+  "Terminology_Loading": "Sélection de la structure de navigation...",
+  "commands": {
+    "newBrowsingNode": "Nouveau nœud de navigation",
+    "newBrowsingStructure": "Nouvelle structure de navigation"
+  },
+  "msg_success_copyLink_terminology": "Le lien vers la structure de navigation \"{terminologyname}\" a été copié.",
+  "msg_success_copyLink_term": "Le lien vers le nœud de navigation \"{termname}\" a été copié.",
+  "msg_success_createTerminology": "Création de la structure de navigation \"{terminologyName}\" réussie",
+  "msg_success_createTerm": "Création du nœud de navigation \"{termName}\" réussie",
+  "msg_success_createBS": "La structure de navigation a été créée",
+  "msg_success_createBN": "Le nœud de navigation a été créé",
+  "msg_info_terminologycopied": "{number} structure(s) de navigation ajoutée(s) à la structure de navigation \"{terminologyname}\".",
+  "msg_info_rename_bs": "La structure de navigation \"{name1}\" a été renommée \"{name2}\".",
+  "msg_info_rename_bn": "Le nœud de navigation \"{name1}\" a été renommé \"{name2}\".",
+  "msg_info_refresh": "Actualisation effectuée.",
+  "msg_info_SortNonAvailable": "Cette colonne n'est pas disponible pour une opération de tri lors d'une recherche.",
+  "msg_info_treeFilterRemove": "Les filtres appliqués à l'arbre sont enlevés après l'ajout d'une structure de navigation.",
+  "msg_warning_nocurrentterminology": "Aucune structure de navigation actuelle : sélectionnez une structure de navigation.",
+  "msg_warning_noselection": "Au moins un objet doit être sélectionné.",
+  "msg_warning_expandSaveLimitation": {
+    "Title": "Le dernier état de développement ne sera pas enregistré.",
+    "Advice": "Réduisez certaines structures de navigation pour permettre l'enregistrement des états de développement.",
+    "Details": "Trop de structures de navigation sont développées."
+  },
+  "msg_warning_copyLink": "L'objet sélectionné n'est pas une structure de navigation.",
+  "msg_warning_LimitInCtxSearchOnAllTerminologies": "La recherche contextuelle n'est pas prise en charge lorsque le nombre de structures de navigation racines est supérieur à 200.",
+  "msg_error_Addinterminology": "Vous ne pouvez pas ajouter de contenu à cette structure de navigation.",
+  "msg_error_CopyTerminology": "Erreur lors de la copie de la ou des structure(s) de navigation.",
+  "msg_error_MoveInterminology": "Erreur lors du déplacement d'objets.",
+  "msg_error_MoveInSameterminology": {
+    "title": "Sélectionnez une autre structure de navigation. ",
+    "subtitle": "La structure de navigation cible et les structures de navigation source sont identiques."
+  },
+  "msg_error_rename": {
+    "Title": "Vous ne pouvez pas renommer l'élément de navigation : {name}.",
+    "Advice": "Vérifiez que le nom n'est pas déjà utilisé ou que vous utilisez les informations d'identification correctes.",
+    "Details": "Vous ne disposez peut-être pas de la responsabilité requise dans l'espace de collaboration cible pour renommer cet objet."
+  },
+  "msg_error_invalidselection": "La commande ne peut pas être lancée sans sélection",
+  "msg_error_name_maxlength": "Saisissez {maxLength} caractères maximum dans le champ \"{name}\".",
+  "msg_error_name_empty": "Saisissez une valeur pour le nom.",
+  "msg_error_TerminologyActivate": {
+    "title": "Vous ne pouvez pas activer {name1}.",
+    "subtitle": "L'objet a peut-être été supprimé ou vous ne disposez pas des autorisations requises."
+  },
+  "msg_error_NoVisibleRootTerminology": {
+    "title": "Associez une structure de navigation à ce nœud de navigation.",
+    "subtitle": "La structure de navigation n'est peut-être pas visible. Il se peut, par exemple, qu'elle ne soit pas active. "
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Impossible de développer l'arbre.",
+    "subtitle": "Actualisez l'app, puis réessayez, ou contactez votre administrateur pour obtenir de l'aide."
+  },
+  "msg_error_forbiddenChar": {
+    "Title": "Le champ {label} contient des caractères non valides : {badChars}.",
+    "Advice": "Vous ne pouvez pas utiliser les caractères suivants : Message :~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [ ] / \\ < >"
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Le contenu de la structure de navigation n'est plus accessible.",
+    "subtitle": "Actualisez le widget.",
+    "message": "Le contenu a peut-être été supprimé ou vous ne disposez pas des autorisations requises."
+  },
+  "msg_InfoAction_Timeout": "Aucune réponse reçue de l'action lancée dans la limite du délai d'attente. L'exécution peut prendre plus longtemps. Le résultat peut être visible dans un moment après une actualisation manuelle.",
+  "msg_error_timeout": {
+    "title": "La connexion au serveur a expiré.",
+    "subtitle": "Vérifiez votre connexion ou réduisez la quantité de données à envoyer au cours de cette opération."
+  },
+  "msg_error_terminologyPath": {
+    "title": " Cette structure de navigation n'est plus accessible.",
+    "subtitle": "Actualisez le widget.",
+    "message": "La structure de navigation a peut-être été supprimée ou vous ne disposez pas des autorisations requises."
+  },
+  "msg_error_terminologyPath_roles": {
+    "title": " Cette structure de navigation n'est plus accessible.",
+    "subtitle": "Actualisez le widget.",
+    "message": "Vous ne disposez pas des autorisations requises."
+  },
+  "msg_error_copylink": {
+    "title": "Impossible de copier le lien vers le presse-papiers. ",
+    "subtitle": " Réessayez l'opération ou contactez votre administrateur pour obtenir de l'aide. "
+  },
+  "msg_error_createNewFromFramework": "Echec de la création :",
+  "msg_error_createNew": {
+    "Title": "Impossible de créer cet objet : {type}.",
+    "Advice": "Vérifiez que vous utilisez les informations d'identification correctes.",
+    "Details": "Vous ne disposez peut-être pas de la responsabilité requise dans l'espace de collaboration cible pour créer ce type d'objet."
+  },
+  "msg_error_rest": {
+    "title": "Le serveur s'est déconnecté de manière inattendue.",
+    "subtitle": "Contactez votre administrateur pour obtenir de l'aide."
+  },
+  "msg_warning_notProductRoot": "L'objet est introuvable.",
+  "msg_warning_contentnotavailable": "Impossible de récupérer le contenu. Il a peut-être été supprimé ou défini à l'état Privé.",
+  "msg_warning_removeContentFromSearch": {
+    "title": "Impossible d'enlever le contenu.",
+    "advice": "Sélectionnez une sous-terminologie pour affiner les résultats de la recherche.",
+    "details": "Impossible d'enlever le contenu de plus de 20 structures de navigation."
+  },
+  "CMDClearSort": "Annuler le tri",
+  "CMDShareTerminologyLink": "Copier le lien",
+  "CMDShowInTerminologies": "Afficher dans les structures de navigation",
+  "alpha_sorting": "Ordre alphabétique",
+  "alpha_sort_label": "Titre",
+  "date_sorting": "Ordre de date",
+  "date_sort_label": "Date de modification",
+  "fonticon_filter": "Le contenu du panneau est actuellement filtré.",
+  "loadingText": "Chargement...",
+  "SearchEnterMoreThan": "{minNumber} caractères au minimum sont requis pour une recherche.",
+  "confirmation_move_title": "Déplacer un contenu",
+  "confirmation_move_message": "Voulez-vous déplacer le contenu de {source} vers {target} ?",
+  "confirmation_move_message_monosel": "Voulez-vous déplacer {selection} de {source} vers {target} ?",
+  "confirmation_move_message_mono_from_tree": "Voulez-vous déplacer {source} vers {target} ?",
+  "confirmation_move_message_multisel": "Voulez-vous déplacer {nth} éléments de {source} vers {target} ?",
+  "confirmation_move_button": "Déplacer",
+  "confirmation_info": "Les attributs autres que le titre et la description sont perdus lors de la conversion de \n {From} vers {To}. Tous les attributs sont copiés pour les objets enfants.",
+  "authentication_error": {
+    "title": "Impossible de lancer le widget spécifié.",
+    "subtitle": "Vérifiez vos informations d'identification, puis réessayez."
+  },
+  "noPlatform_error": "Cette app n'est disponible sur aucune de vos plateformes.",
+  "placeholder_msg_terminology": "Cette structure de navigation est actuellement vide.",
+  "placeholder_CreateTerminology": "Nouvelle structure de navigation",
+  "placeholder_CreateTerm": "Nouveau nœud de navigation",
+  "column_Thumbnail": "Miniature",
+  "placeholder_msg_section": "Aucune structure de navigation créée.",
+  "placeholder_msg_terms": "Aucun nœud de navigation créé",
+  "placeholder_msg_search": "Aucun résultat trouvé.",
+  "refresh_ongoing": "Actualisation...",
+  "refresh_ok": "Actualisation terminée",
+  "refreshError": {
+    "title": "Impossible d'actualiser le widget.",
+    "subtitle": "Contactez votre administrateur pour obtenir de l'aide."
+  },
+  "success": "Réussite",
+  "warning": "Avertissement",
+  "information": "Informations",
+  "msg_error_objectNoLongerAccessible": {
+    "Title": "Ce contenu n'est plus accessible.",
+    "Advice": "Vous ne disposez peut-être pas de la responsabilité requise dans l'espace de collaboration cible pour créer ce type d'objet.",
+    "Details": "L'objet a peut-être été supprimé ou vous ne disposez pas des autorisations requises."
+  },
+  "msg_error_pasteDestination": {
+    "Title": "Collage impossible.",
+    "InvalidParameters": "Les objets sélectionnés ne peuvent être collés dans cette destination. ",
+    "BNDestination": "Les nœuds de navigation ne peuvent pas être collés sous la section Structures de navigation.",
+    "BSDestination": "La structure de navigation ne peut être collée que sous la section Structures de navigation."
+  },
+  "msg_paste_error": "Collage impossible.",
+  "indexMode": {
+    "Authoring": "Base de données.",
+    "Index": "Index.",
+    "Label": "Index",
+    "seconds": "seconde(s)",
+    "minutes": "minute(s)",
+    "hours": "heure(s)",
+    "msg_Authoring": "Le mode Base de données est activé. Les performances peuvent être affectées.",
+    "activeMode": "Mode actif : {mode}",
+    "lastRefresh": "Dernière actualisation : il y a {timeElapsed}.",
+    "reactIndexMode": "Le mode d'index sera réactivé dans les {autoSwitch} minutes suivant l'opération de création ou l'actualisation.",
+    "info_msg_DataNotUptoDate": "Le mode d'index est actif. Les données peuvent ne pas être à jour."
+  },
+  "msg_warning_TerminologyNotVisibleinTree": "La structure de navigation {name} sélectionnée n'est pas visible dans l'arbre. Faites défiler pour la visualiser et la sélectionner.",
+  "ViewTooltip": {
+    "ds6w:label": "Titre",
+    "ds6w:modified": "Date de modification",
+    "ds6w:responsible": "Propriétaire",
+    "ds6w:type": "Type",
+    "ds6w:status": "Etat de maturité",
+    "ds6w:project": "Espace de collaboration",
+    "ds6w:identifier": "Nom"
+  },
+  "notifications": {
+    "expandTooLarge": "Trop d'objets récupérés.<br> Affinez la navigation avec des filtres ou en réduisant le niveau de développement.",
+    "initialization_error": {
+      "title": " L'app a rencontré une erreur inattendue.",
+      "subtitle": "Contactez votre administrateur pour obtenir de l'aide."
+    },
+    "tooManyResultFound": "La recherche est limitée à {maxResult} résultats. Veuillez affiner la requête."
+  },
+  "generic_service_failure": "Echec de la récupération des informations d'objet. Réessayez dans quelques minutes. Si le problème persiste, contactez votre administrateur",
+  "cannot_insert_branch": "Echec de l'ajout d'objet",
+  "cannot_access_after_changeowner": "Impossible d'accéder à l'objet après un changement de propriété"
+}

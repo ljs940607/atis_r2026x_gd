@@ -1,0 +1,1 @@
+define("DS/DMUPlaySection/DMUPlaySection_ja",{});define("DS/DMUPlaySection/assets/nls/DMUPlaySection",{clippingContextualMenuTitle:"クリッピング"});

@@ -1,0 +1,14 @@
+{
+  "caOK": "Action de changement générée correctement",
+  "caKO": "Echec de la génération de l'action de changement",
+  "taskOK": "Tâche générée avec succès",
+  "taskKO": "Echec de la génération de la tâche",
+  "issueOK": "Sujet généré correctement",
+  "issueKO": "Echec de la génération du sujet",
+  "caAttached": "L'action de changement a été jointe au sujet parent",
+  "caNotAttached": "L'action de changement n'a pas été jointe au sujet parent",
+  "taskAttached": "La tâche a été jointe au sujet parent",
+  "taskNotAttached": "La tâche n'a pas été jointe au sujet parent",
+  "ticSection": "Générer un sujet",
+  "ticTemplateIssue": "Toujours utiliser un modèle pour générer un sujet"
+}

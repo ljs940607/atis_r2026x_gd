@@ -1,0 +1,1 @@
+define("DS/Form/Form_ru",{});define("DS/Form/assets/nls/translation",{requiredTooltip:"Это поле является обязательным"});

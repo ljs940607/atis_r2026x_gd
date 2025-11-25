@@ -1,0 +1,11 @@
+{
+  "createNewProduct": "新規プロダクト",
+  "insertNewProduct": "新規プロダクトを挿入",
+  "newObjectType": "プロダクト",
+  "multiParentInsertProductTitle": "新規プロダクトを挿入",
+  "multiParentInsertProductMsg": "新しいプロダクトを複数の親の下に挿入してよろしいですか?",
+  "multiParentCannotInsert": "エラー: 選択したオブジェクトの下に挿入できません",
+  "CannotInsert.Type": "このオブジェクト タイプは選択したオブジェクトの下に挿入できません: {type}",
+  "okBtn": "OK",
+  "closeBtn": "閉じる"
+}

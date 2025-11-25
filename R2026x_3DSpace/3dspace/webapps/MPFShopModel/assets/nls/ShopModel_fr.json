@@ -1,0 +1,12 @@
+{
+  "isRequired": "{0} est obligatoire",
+  "isInvalid": "{0} n'est pas valide",
+  "email": "adresse électronique",
+  "phoneNumber": "numéro de téléphone",
+  "name": "nom",
+  "serviceName": "Nom du {0}",
+  "emailError": "L'adresse électronique est obligatoire",
+  "emailInvalid": "L'adresse électronique n'est pas valide",
+  "labNameError": "Le nom du lab est obligatoire",
+  "currencyError": "Sélectionnez une devise"
+}

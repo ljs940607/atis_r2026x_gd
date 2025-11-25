@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Stringifies the given object in a JSON.",
+  "description": "This block is dynamic thus the object type of the input data can be changed using the block configuration dialog.",
+  "dataPorts": {
+    "Object": "the object to stringify.",
+    "JSON": "the stringified object."
+  },
+  "controlPorts": {
+    "In": "triggers the block execution.",
+    "Out": "is activated when the process is completed."
+  },
+  "example": null
+}

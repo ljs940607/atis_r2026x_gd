@@ -1,0 +1,14 @@
+{
+  "caOK": "Acción de cambio generada con éxito",
+  "caKO": "Error al generar la acción de cambio",
+  "taskOK": "Tarea generada con éxito",
+  "taskKO": "Error al generar la tarea",
+  "issueOK": "Problema generado con éxito",
+  "issueKO": "Error al generar el problema",
+  "caAttached": "La acción de cambio se ha adjuntado al problema padre",
+  "caNotAttached": "La acción de cambio no se ha adjuntado al problema padre",
+  "taskAttached": "La tarea se ha adjuntado al problema padre",
+  "taskNotAttached": "La tarea no se ha adjuntado al problema padre",
+  "ticSection": "Generar problema",
+  "ticTemplateIssue": "Utilice siempre una plantilla para generar un problema"
+}

@@ -1,0 +1,638 @@
+{
+  "name_Section_Personal": "Mój osobisty folder zakładek",
+  "name_Section_FolderSection_favorite": "Ulubione",
+  "name_Section_FolderSection_AllFolders": "Foldery zakładek",
+  "name_Section_TerminologySection_AllTerminologies": "Przeglądanie struktur",
+  "name_Section_ParentFolders": "{number} Nadrzędne foldery zakładek",
+  "www_multisel_forbidden": "Opcja Multiselection nie jest obsługiwana dla wybranych obiektów",
+  "wwwLinkType": "Łącze URL",
+  "folder_pref_dnd": "Zachowanie funkcji przeciągania i upuszczania",
+  "default_pref_label": "Etykieta preferencji",
+  "cannot_insert_branch": "Nie można pobrać informacji o obiekcie. Spróbuj ponownie za kilka minut. Jeśli problem będzie się powtarzał, skontaktuj się z administratorem",
+  "export_level": "Poziom",
+  "csv_base_file_name_product": "product_structure_",
+  "folder_pref_filter": "Ukryj dodane do zakładek produkty podrzędne",
+  "folder_pref_allow_products_expand": "Włącz rozszerzanie produktów",
+  "folder_pref_subfolder": "Pokaż podrzędne foldery zakładek w widoku zawartości",
+  "folder_pref_populateTags": "Włącz znaczniki 6W do filtrowania folderów zakładek",
+  "useIndexAcceleration_label": "Pokaż indeksowane dane",
+  "folder_pref_autoSwitch_Label": "Automatyczne przełączanie z trybu bazy danych do trybu indeksowania",
+  "button_remove": "Usuń",
+  "button_close": "Zamknij",
+  "button_treeOrder": "Dostosuj kolejność drzewa",
+  "Move_label": "Przenieś",
+  "Copy_label": "Kopiuj",
+  "oneMin_Label": "1 min",
+  "threeMin_Label": "3 min",
+  "fiveMin_Label": "5 min",
+  "tenMin_Label": "10 min",
+  "Never_Label": "Nigdy",
+  "Upload_content_loading": "Prześlij zawartość",
+  "AddExisting_content_loading": "Dodaj istniejącą zawartość",
+  "AddContentError": "Obiekty już połączone.",
+  "Paste_content_loading": "Wklej zawartość",
+  "Remove_content_loading": "Usuń zawartość",
+  "Remove_shortcut_loading": "Usuń skrót",
+  "Replace_revision_loading": "Zastępowanie zawartości najnowszą wersją",
+  "LoadAttributes_Loading": "Ładowanie atrybutów usług krzyżowych...",
+  "Content_Loading": "Ładowanie zawartości...",
+  "LoadingView_Loading": "Wczytywanie widoku...",
+  "CheckingAccess_Loading": "Sprawdzanie dostępu do folderu zakładek...",
+  "Widget_Loading": "Ładowanie widżetu...",
+  "BookmarksTree_Loading": "Ładowanie drzewa...",
+  "FavoriteBkTree_Loading": "Wczytywanie drzewa ulubionych...",
+  "PersonalTree_Loading": "Ładowanie drzewa osobistego...",
+  "ExpandAndSelect_Loading": "Nawigacja do {typeStruct}...",
+  "Bookmark_Loading": "Wybieranie folderu zakładek...",
+  "SetActiveBookmark_Loading": "Ustawianie nowego globalnego domyślnego folderu zakładek...",
+  "UnsetActiveBookmark_Loading": "Anulowanie globalnego domyślnego folderu zakładek...",
+  "EnableActiveBookmark_Loading": "Włączanie globalnego domyślnego folderu zakładek...",
+  "DisableActiveBookmark_Loading": "Wyłączanie globalnego domyślnego folderu zakładek...",
+  "New_Loading": "Wczytywanie panelu tworzenia...",
+  "Shared_label": "Udostępniono",
+  "Personal_label": "Osobiste",
+  "label_ActionBar_AddToFavorites": "Dodaj/usuń ulubione",
+  "label_ActionBar_RemoveFromFavorites": "Usuń z ulubionych",
+  "label_title_NewBookmark": "Nowy folder zakładek",
+  "newBookmark_typeNls": "Folder zakładek",
+  "msg_success_copyLink_content": "Skopiowano powiązanie z dokumentem „{filename}” wewnątrz {typeStruct} „{foldername}”.",
+  "msg_success_copyLink_folder": "Skopiowano powiązanie z {typeStruct} „{foldername}”.",
+  "msg_success_favoriteReordered": "Zmiana kolejności powiodła się.",
+  "msg_info_contentcopied": "Zawartość została skopiowana.",
+  "msg_info_contentcut": "Zawartość została wycięta.",
+  "msg_info_objetremoved": "Obiekty ({number}) usunięto z {typeStruct} „{foldername}”.",
+  "msg_info_LinkRemoved": "Łącza ({number}) usunięto z {typeStruct} „{foldername}”.",
+  "msg_info_objectremovedfromfolders": "Obiekt „{objectname}” został pomyślnie usunięty z {number} obiektów {typeStruct}.",
+  "msg_info_notConnectToBk": "Nie był on dołączony do {number} obiektów {typeStruct}",
+  "msg_info_objetnotremoved": "Obiekty ({number}), które mają zostać usunięte, nie były dołączone do {typeStruct} „{foldername}”.",
+  "msg_info_Addinfolder": "Obiekty ({objectsAdded}) dodane do obiektów {typeStruct} {targetfolder}, obiekty ({objectsAlreadyPresent}) do dodania były już obecne.",
+  "msg_info_Addinfolder_1": "Obiekty ({objectsAdded}) dodane do {typeStruct} {targetfolder}.",
+  "msg_info_Addinfolder_2": "Obecna była już następująca liczba obiektów do dodania: {objectsAlreadyPresent}.",
+  "msg_info_objetadded": "„{filename}” dodano do „{foldername}”.",
+  "msg_info_objetmoved": "Obiekty ({objectsMoved}) przeniesiono do {typeStruct} {targetfolder}, obiekty {objectsAlreadyPresent} do przeniesienia były już obecne.",
+  "msg_info_objetmoved_1": "Obiekty ({objectsMoved})przeniesiono do zakładki {typeStruct} {targetfolder}.",
+  "msg_info_foldercopied": "Obiekty ({number}) {typeNode} dodano do {typeStruct} „{foldername}”.",
+  "msg_info_rootCreated": "Obiekty utworzone: {number} {typeNode}.",
+  "msg_info_foldercopied_2": "Obiekty dodane do „{foldername}”: ({number}) {typeNode}.",
+  "msg_info_objetmoved_2": "Obecna była już następująca liczba obiektów do przeniesienia: {objectsAlreadyPresent}.",
+  "msg_info_foldermoved": "Obiekty ({number}) {typeNode} przeniesiono do {typeStruct} „{foldername}”.",
+  "msg_info_filecheckedout": "Plik został pomyślnie wyrejestrowany.",
+  "msg_info_filecheckedin": "Plik został pomyślnie zarejestrowany.",
+  "msg_info_filecancelcheckout": "Operacja edycji pliku została anulowana pomyślnie.",
+  "msg_info_favoriteadded": "Folder zakładek „{name1}” został dodany do Ulubionych.",
+  "msg_info_favoriteremoved": "Folder zakładek „{name1}” został usunięty z Ulubionych.",
+  "msg_info_favoritesremoved": "„{number}” folderów zakładek usunięto z Ulubionych.",
+  "msg_info_favoriterenamed": "Nazwa elementu ulubionego „{name1}” została zmieniona na „{name2}”.",
+  "msg_info_rename": "Nazwa {typeStruct} „{name1}” zmieniona na „{name2}”.",
+  "msg_info_refresh": "Odświeżanie zakończone.",
+  "msg_info_reorder_NonRootbks": "Wybierz folder zakładek w sekcji Foldery zakładek.",
+  "msg_info_reorder_emptyBks": "Wybierz folder zakładek z 2 lub więcej elementami podrzędnymi.",
+  "tree_ordering_panel_title": "Dostosuj kolejność drzewa - ",
+  "tree_ordering_Reorder_btn": "Zmień kolejność",
+  "find_in_left_tree_btn": "Znajdź",
+  "tree_ordering_reset_btn": "Resetuj kolejność drzewa",
+  "tree_ordering_cancel_btn": "Anuluj",
+  "tree_ordering_moveup_btn": "Przenieś w górę",
+  "tree_ordering_movedown_btn": "Przenieś w dół",
+  "tree_ordering_movetop_btn": "Przenieś na górę",
+  "tree_ordering_movebottom_btn": "Przenieś na dół",
+  "tree_ordering_drop_here": "Upuść tutaj",
+  "reorderSuccess": "Zmiana kolejności powiodła się.",
+  "msg_info_noResultSearch": "Nie znaleziono wyników.",
+  "msg_info_SortNonAvailable": "Ta kolumna nie jest dostępna do sortowania podczas wyszukiwania.",
+  "msg_info_replaceByRevision": "Obiekt został zastąpiony pomyślnie.",
+  "msg_info_replaceByLatestRevision": "Zastąpienie najnowszą wersją zostało wykonane pomyślnie",
+  "msg_info_replaceByLatestRevision_removed": "Usunięto {number} obiekty(-ów), ponieważ ich najnowsza wersja już występuje w zakładce lub kilka wybranych obiektów ma wspólną poprawkę.",
+  "msg_info_treeFilterRemove": "Filtry drzewa są usuwane po dodaniu obiekty głównego",
+  "msg_info_active_successfully": "{folderLabel} został pomyślnie ustawiony jako globalny domyślny folder zakładek.",
+  "msg_info_inactive_successfully": "Globalny domyślny folder zakładek {folderLabel} został pomyślnie anulowany.",
+  "msg_info_enable_successfully": "Globalny domyślny folder zakładek {folderLabel} jest teraz włączony.",
+  "msg_info_disable_successfully": "Globalny domyślny folder zakładek {folderLabel} jest teraz wyłączony.",
+  "msg_info_defaultLocation": "Globalny domyślny folder zakładek to {folderLabel}.",
+  "msg_warning_MultipleSelection": "Wybór wielokrotny nie jest obsługiwany.",
+  "msg_warning_nocontent": "Nie wybrano zawartości: wybierz zawartość.",
+  "msg_warning_nofoldernocontent": "Niczego nie wybrano: wybierz zawartość lub folder zakładek.",
+  "msg_warning_nocurrentfolder": "Brak bieżącego wyboru: wybierz element w drzewie.",
+  "msg_warning_noselection": "Należy wybrać co najmniej jeden obiekt.",
+  "msg_warning_dndnotsupported": "Ta operacja upuszczania nie jest obsługiwana.",
+  "msg_warning_dndnotsupported_external_on_Section_FavoriteFolders": "Upuszczenie obiektów zewnętrznych w sekcji ulubionych nie jest akceptowane.",
+  "msg_warning_dndnotsupported_from_different_tenant": "Upuszczenie obiektów z innej 3DEXPERIENCE platform nie jest akceptowane.",
+  "msg_warning_dndnotsupported_from_different_source": {
+    "title": "Nie można dodać {objectType} obiektów.",
+    "subtitle": "Wybierz obsługiwany typ obiektu."
+  },
+  "msg_warning_addnotsupported_from_different_tenant": "Dodawanie obiektów z innej 3DEXPERIENCE platform nie jest akceptowane.",
+  "msg_warning_webInWinDnD": "Upuszczenie obiektów jest akceptowane tylko w aplikacji 3DDashboard.",
+  "msg_warning_Linked_Or_Shortcut": "Nie można przeciągać skrótu(-ów) folderu zakładek. Usuń zaznaczenie skrótu(-ów) folderu zakładek, aby przeciągnąć inne obiekty.",
+  "msg_warning_FolderAlreadyAmongFavorites": "Obiekt {typeStruct} „{foldername}” znajduje się już w Ulubionych.",
+  "msg_warning_expandSaveLimitation": {
+    "title": "Status ostatniego rozwinięcia nie zostanie zapisany.",
+    "subtitle": "Zwiń niektóre elementy drzewa, aby umożliwić zapisywanie statusu rozwinięcia.",
+    "message": "Rozwinięto zbyt wiele elementów drzewa."
+  },
+  "msg_warning_copyLink": "Wybrany obiekt nie jest folderem zakładek.",
+  "msg_warning_LimitInCtxSearchOnAllBookmarks": "Wyszukiwanie w kontekście nie jest obsługiwane, gdy liczba obiektów głównych jest większa niż 200.",
+  "msg_warning_searchOpen": {
+    "title": "Nie można utworzyć folderu zakładek.",
+    "subtitle": "Nie można utworzyć nowego folderu zakładek, gdy wyszukiwanie jest aktywne.",
+    "message": "Zamknij polecenie wyszukiwania, aby utworzyć nowy folder zakładek."
+  },
+  "msg_error_OnRefreshCmdfailure": "Wystąpił nieoczekiwany błąd.",
+  "msg_error_preferencessnotsaved": "Nie można zapisać preferencji.",
+  "msg_error_nopreferences": "Nie można pobrać Twoich preferencji.",
+  "msg_error_Addinfolder": "Nie można dodać wybranej zawartości.",
+  "msg_error_Addinfolder_obj": "Nie można dodać {object}.",
+  "msg_error_CopyFolder": "Nie można skopiować {typeStruct}.",
+  "msg_error_MoveFolder": "Nie można przenieść {typeStruct}.",
+  "msg_error_MoveFolder_parent": "Docelowy obiekt {typeStruct} jest jednym z elementów nadrzędnych {typeNode} do przeniesienia.",
+  "msg_error_CutPasteToRoot": "Nie można przenieść elementów {typeStruct} do sekcji głównej.",
+  "msg_error_Removefromfolder": "Nie można usunąć obiektów z {typeStruct}.",
+  "msg_error_RemoveLinkfromBookmark": "Nie można usunąć łącza(-y) z folderu zakładek.",
+  "msg_error_MoveInfolder": "Nie można przenieść obiektów.",
+  "msg_error_MoveInSamefolder": {
+    "title": "Wybierz inne element {typeStruct}.",
+    "subtitle": "Źródłowy element {typeStruct} i docelowy element {typeStruct} są takie same."
+  },
+  "msg_error_rename": {
+    "title": "Nie można zmienić nazwy elementu {typeStruct}: {name}.",
+    "subtitle": "Sprawdź, czy używasz prawidłowych danych uwierzytelnienia.",
+    "subtitle_oneName": "Sprawdź, czy nazwa nie jest już używana lub czy używasz prawidłowych poświadczeń.",
+    "message": "Być może nie masz wymaganej odpowiedzialności w docelowym obszarze współpracy, aby zmienić nazwę tego obiektu."
+  },
+  "msg_error_name_maxlength": "Wprowadź nową nazwę z zakresu od 1 do {maxLength} znaków.",
+  "msg_error_name_empty": "Tytuł nie może być pusty.",
+  "msg_error_bookmarkNotFound": {
+    "title": "Nie można uzyskać dostępu do {name1}.",
+    "title2": "Nie można uzyskać dostępu do {typeStruct}.",
+    "subtitle": "Obiekt {typeStruct} nie jest już dostępny lub mógł zostać usunięty.",
+    "message": "Być może nie masz roli z wymaganym dostępem w docelowej przestrzeni współpracy."
+  },
+  "msg_error_TreeExpandCancelledNotReady": {
+    "title": "Nie można rozwinąć drzewa.",
+    "subtitle": "Odśwież aplikację i spróbuj ponownie lub skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_forbiddenChar": {
+    "title": "{label} zawiera niedozwolone znaki: {badChars}.",
+    "subtitle": "Nie można użyć żadnego z następujących znaków:",
+    "message": "~ ! ? @ # $ % ^ & * ( ) , ; : | ` ' \" = [] / \\ < >"
+  },
+  "msg_error_loadIndexAttr": {
+    "title": "Podczas wczytywania atrybutów wystąpił błąd.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Nie można pobrać atrybutów innych usług."
+  },
+  "msg_error_contentnotavailable": {
+    "title": "Ten obiekt {typeStruct} nie jest już dostępny. ",
+    "subtitle": "Odśwież widżet.",
+    "message": "Folder zakładek mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_Linkcontentnotavailable": {
+    "title": "To łącze zewnętrzne nie jest już dostępne."
+  },
+  "msg_error_contentnotavailableInFavorite": {
+    "title": "Obiekt {typeStruct} nie jest już dostępny.",
+    "subtitle": "Usuń {typeStruct} z ulubionych.",
+    "message": "Folder zakładek mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_InfoAction_Timeout": "Operacja trwa dłużej niż oczekiwano. Będzie ona kontynuowana w tle. Odśwież, aby zaktualizować dane.",
+  "msg_error_authorTimeout": {
+    "title": "Operacja trwa dłużej niż oczekiwano.",
+    "message": "Będzie ona kontynuowana w tle."
+  },
+  "msg_error_timeout": {
+    "title": "Nie można pobrać zawartości.",
+    "subtitle": "Przekroczono limit czasu połączenia z serwerem.",
+    "message": "Sprawdź połączenie lub skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_folderPath_roles": {
+    "title": "Obiekt nie jest już dostępny.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Obiekt mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_appWhereUsedNotFound": {
+    "title": "Nie można otworzyć aplikacji Relations.",
+    "subtitle": " Zweryfikuj swoją rolę licencji."
+  },
+  "msg_error_ReplaceBylatestRevision": {
+    "title": "Nie można zastąpić obiektów ich najnowszą wersją.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_MoveOrCopyAcrossSharedAndPersonal": "Nie można {move_copy} folderu zakładek {personal_shared} do folderu zakładek {shared_personal}.",
+  "msg_error_copylink": {
+    "title": "Musisz mieć uprawnienia do kopiowania łącza do schowka.",
+    "subtitle": "Sprawdź dane logowania lub skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_createNew": {
+    "title": "Nie możesz utworzyć tego obiektu.",
+    "subtitle": "Sprawdź, czy używasz prawidłowych poświadczeń.",
+    "message": "Być może nie masz wymaganej odpowiedzialności w docelowym obszarze współpracy, aby utworzyć ten typ obiektu."
+  },
+  "msg_error_rest": {
+    "title": "Wystąpił nieoczekiwany błąd.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_js": {
+    "title": "Wystąpił błąd podczas operacji.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_rest_GetActiveFolder": {
+    "title": "Pobranie domyślnego folderu zakładek nie powiodło się.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc.",
+    "message": "Domyślny folder zakładek nie jest już zdefiniowany."
+  },
+  "msg_warning_replaceByRevision_sameObject": {
+    "title": "Wybierz inną wersję.",
+    "subtitle": "Nie można zastąpić wersji obiektu tą samą wersją."
+  },
+  "msg_warning_replaceByLatestRevision_sameObject": "Obiekt {typeStruct} zawiera już najnowszą wersję wybranych obiektów.",
+  "msg_warning_notProductRootInFilteredContext": {
+    "title": "Nie można wyświetlić tej ścieżki.",
+    "subtitle": "Żaden element nadrzędny nie jest widoczny w folderze zakładek.",
+    "message": "Usuń preferencję „Ukryj dodane do zakładek produkty podrzędne”."
+  },
+  "msg_warning_notProductRoot": "Obiekt nie jest już dostępny lub mógł zostać usunięty.",
+  "msg_warning_replaceByLatestRevision_NotMorethan100Objects": "Wybierz nie więcej niż 100 obiektów.",
+  "msg_warning_contentnotavailable": {
+    "title": "Ta zawartość nie jest już dostępna.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Zawartość mogła zostać usunięta lub nie masz wymaganych uprawnień."
+  },
+  "msg_warning_removeContentFromSearch": {
+    "title": "Nie można usunąć zawartości.",
+    "subtitle": "Wybierz podrzędny obiekt {typeStruct}, aby zawęzić wyniki wyszukiwania.",
+    "message": "Nie można usunąć zawartości z więcej niż 20 elementów {typeStruct}."
+  },
+  "msg_error_settings": {
+    "title": "Nie można pobrać Twoich preferencji.",
+    "subtitle": "Wystąpił nieoczekiwany błąd. Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "msg_error_search_login": "Błąd serwera. Wyszukiwanie federacyjne jest niedostępne.",
+  "CMDInsertNewFolder": "Nowy folder zakładek",
+  "CMDRemoveContent": "Usuń zawartość",
+  "CMDAddFile": "Prześlij dokument",
+  "CMDDownloadFile": "Pobierz",
+  "CMDPreviewFile": "Podgląd",
+  "CMDCheckOutFile": "Wyewidencjonuj",
+  "CMDCheckInFile": "Zarejestruj",
+  "CMDEditFile": "Edytuj",
+  "CMDUndoEditFile": "Cofnij edycję",
+  "CMDFolderUpload": "Przesyłanie folderu",
+  "CMDUpdateFile": "Aktualizuj",
+  "CMDRename": "Zmień nazwę",
+  "CMDCut": "Wytnij",
+  "CMDCopy": "Kopiuj",
+  "CMDPaste": "Wklej",
+  "CMDDelete": "Usuń",
+  "CMDClearSort": "Wyczyścić sortowanie",
+  "CMDHideColumn": "Ukryj kolumnę",
+  "CMDOpenColumnCusto": "Opcje widoku listy drzewa",
+  "CMDAddExistingContent": "Dodaj istniejącą zawartość",
+  "CMDAddExternalLink": "Dodaj łącze zewnętrzne",
+  "CMDExpandAll": "Rozwiń wszystko",
+  "CMDCollapseAll": "Zwiń wszystko",
+  "CMDAccessRightCmd": "Udostępnij",
+  "CMDAddToFavorites": "Dodaj do ulubionych",
+  "CMDProperties": "Właściwości",
+  "CMDSynchronize": "Synchronizuj z dyskiem lokalnym",
+  "CMDActiveFolder": "Globalny domyślny folder zakładek",
+  "CMDOpen": "Otwórz",
+  "CMDOpenWithCV5": "Podłącz CATIA V5",
+  "CMDFindInCtx": "Znajdź w kontekście",
+  "csv_base_file_name": "bookmark_editor_",
+  "alpha_sorting": "Tytuł",
+  "date_sorting": "Data utworzenia",
+  "tree_sorting": "Wyczyść sortowanie",
+  "fonticon_filter": "Filtr",
+  "fonticon_sort": "Sortuj według",
+  "download": "Pobierz",
+  "upload": "Prześlij",
+  "CMDDeleteDefinitively": "Usuń",
+  "CMDShareBookmarkLink": "Kopiuj łącze",
+  "CMDRestore": "Przywróć",
+  "CMDSizeColumnToFit": "Dopasuj rozmiar kolumny",
+  "HeaderThumbnail": "Miniatura",
+  "HeaderDeletionDate": "Usuń datę",
+  "HeaderDeleteBy": "Usunięte przez",
+  "SearchEnterMoreThan": "Do wyszukiwania należy wprowadzić co najmniej {minNumber} znaki(-ów).",
+  "SearchEmptyQuotes": "Puste oferty nie są autoryzowane w zapytaniu w ramach wyszukiwania.",
+  "searchDefaultError": {
+    "title": "Podczas wyszukiwania występuje błąd.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "ShowNavPane": "Wyświetl okienko nawigacji",
+  "HideNavPane": "Ukryj okienko nawigacji",
+  "relations_tab": "Relations",
+  "confirmation_ok": "OK",
+  "confirmation_cancel": "Anuluj",
+  "confirmation_ok_Paste": "Wklej",
+  "confirmation_move_title": "Przenieś zawartość",
+  "confirmation_add_title": "Dodaj zawartość",
+  "confirmation_add_move_title": "Przenoszenie i dodawanie zawartości",
+  "confirmation_move_message": "Czy chcesz przenieść zawartość {source} do {target}?",
+  "confirmation_move_message_monosel": "Czy chcesz przejść {selection} z {source} do {target}?",
+  "confirmation_move_message_mono_from_tree": "Czy chcesz przenieść {source} do {target}?",
+  "confirmation_move_message_multisel": "Czy chcesz przenieść elementy w liczbie {nth} z {source} do {target}?",
+  "details_for_alone_objects": "Elementy, które nie są połączone z {source}, zostaną dodane do {target}.",
+  "confirmation_add_message_multisel": "Czy chcesz przenieść elementy ({nth}) do {target}?",
+  "confirmation_move_add_message_multisel": "Czy chcesz przenieść elementy ({move_nth}) z {source} do {target} i dodać elementy ({add_nth}) do {target}?",
+  "removeChildrenInMove": "Usuń wybrane elementy podrzędne z {source}, jeśli są dołączone.",
+  "confirmation_move_button": "Przenieś",
+  "confirmation_add_button": "Dodaj",
+  "confirmation_add_move_button": "OK",
+  "confirmation_remove_title": "Usuń — {label}",
+  "confirmation_remove_titleX": "Usuń — obiekty {nb}",
+  "confirmation_remove_message": "Czy na pewno chcesz usunąć wybrane treści z {label}?",
+  "confirmation_removeshortcut_title": "Usuń skrót folderu zakładek",
+  "confirmation_removeshortcut_message": "Czy na pewno chcesz usunąć skrót z folderu zakładek?",
+  "confirmation_copyMassive_title": "Utwórz kopię {source} w {target}",
+  "confirmation_copyMassive_message": "Za chwilę skopiujesz dużą liczbę elementów.",
+  "confirmation_copyMassive_checkBox": "Zachowaj elementy dodane do zakładek w skopiowanym folderze zakładek",
+  "PasteCmdTitle": "Wklej {source}",
+  "PasteCmdMultiTitle": "Wklej obiekty {typeStruct}",
+  "confirmation_copy": "Kopiuj",
+  "confirmation_info": "Atrybuty inne niż tytuł i opis zostają utracone podczas konwersji z \n {From} na {To}. Wszystkie atrybuty obiektów podrzędnych są kopiowane.",
+  "authentication_error": "Nie możesz korzystać z tej aplikacji. Sprawdź, czy używasz prawidłowych danych logowania.",
+  "noPlatform_error": "Ta aplikacja nie jest dostępna na Twojej platformie.",
+  "placeholder_msg_folder": "Obiekt {typeStruct} jest obecnie pusty.",
+  "placeholder_CMD_AddExisting": "Dodaj istniejący",
+  "placeholder_CMD_UploadFile": "Prześlij plik",
+  "placeholder_CreateFolder": "Utwórz {typeStruct}",
+  "tooltip_reserved": "Zablokowane",
+  "tooltip_unreserved": "Odblokowane",
+  "tooltip_shortcut": "Skrót",
+  "tooltip_noDefaultLocation": "Brak bieżącego globalnego domyślnego folderu zakładek.",
+  "tooltip_defaultLocation": "Globalny domyślny folder zakładek to {folderLabel}. Kliknij, aby poznać jego zawartość.",
+  "tooltip_enableDefaultLocation": "Globalny domyślny folder zakładek {folderLabel} jest wyłączony. Kliknij, aby włączyć.",
+  "tooltip_disableDefaultLocation": "Kliknij, aby wyłączyć globalny domyślny folder zakładek {folderLabel}.",
+  "BookmarkLocation": "Pokaż w nadrzędnym folderze zakładek",
+  "column_FavoriteTitle": "Tytuł",
+  "column_BookmarkLocation": "Nadrzędny folder zakładek",
+  "column_Thumbnail": "Miniatura",
+  "column_ApprovalStatus": "Status zatwierdzenia",
+  "placeholder_msg_favorite": "Brak ulubionego folderu zakładek.",
+  "placeholder_msg_section": "Nie znaleziono elementu {typeStruct}.",
+  "placeholder_msg_search": "Nie znaleziono wyników.",
+  "refresh_ongoing": "Odświeżanie...",
+  "refresh_ok": "Odświeżanie zakończone",
+  "refreshError": {
+    "title": "Nie można odświeżyć widżetu.",
+    "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "placeholder_findInCtx": "Wyszukaj lub wybierz obiekt",
+  "findInCtxsearchview": {
+    "ftssearch": "Szukaj",
+    "searchBtn": "Szukaj",
+    "check": "Potwierdź wybór",
+    "cannotRetrieveLabel": "Nie można pobrać etykiety wybranego obiektu",
+    "loadingLabel": "Ładowanie..."
+  },
+  "badCredentialChanged": "Ustawiono „{credential}”, ponieważ nie masz dostępu do wstępnie wybranych poświadczeń.",
+  "credentialChanged": "Ustawiono „{credential}”.",
+  "success": "Sukces",
+  "warning": "Ostrzeżenie",
+  "information": "Informacje",
+  "revisionReport": {
+    "reportTitle": "Raport – zastąp najnowszą wersją",
+    "successfullyReplaced": "{prd1} zastąpiono przez {prd2}.",
+    "explicitlyRemoved": "{prd1} został jawnie usunięty.",
+    "isLatestRevison": "{prd1} do zastąpienia jest już najnowszą wersją.",
+    "msgObjectSelected": "Wybrano {object} obiekt(y) do zastąpienia ich najnowszą wersją.",
+    "msgObjectAlreadyLatestRevision": "{object} obiekt(y) są już w najnowszej wersji.",
+    "msgSuccessfullyReplaced": "{object} obiekt(y) zostały pomyślnie zastąpione ich najnowszą wersją.",
+    "msgObjectExplicitlyRemoved": "Usunięto {object} obiekty(-ów), ponieważ ich najnowsza wersja już występuje w zakładce lub kilka wybranych obiektów ma wspólną poprawkę."
+  },
+  "msg_advice_refreshWidget": "Odśwież widżet lub przeglądarkę i sprawdź, czy używasz prawidłowych danych logowania.",
+  "msg_error_objectNoLongerAccessible": {
+    "title": "Obiekt nie jest już dostępny.",
+    "subtitle": "Odśwież widżet.",
+    "message": "Obiekt mógł zostać usunięty lub nie masz wymaganych uprawnień."
+  },
+  "msg_error_NoModifyAccess": "Nie można zmodyfikować dostępu do Relations; nie można wykonać bieżącej operacji.",
+  "Attachments": "Załączniki",
+  "Specification": "Dokumenty specyfikacji",
+  "OpenLocationRemoveTitle": "Usuń zawartość: {label}",
+  "OpenLocationRemoveMessage": "Czy na pewno chcesz usunąć ten obiekt z następujących lokalizacji?",
+  "CMDUnsetGlobalActiveFolder": "Anuluj ustawienie globalnego domyślnego folderu zakładek",
+  "CMDShowInBookmarks": "Pokaż w folderach zakładek",
+  "CMDEnableGlobalActiveBookmark": "Włącz",
+  "CMDDisableGlobalActiveBookmark": "Wyłącz",
+  "indexMode": {
+    "Authoring": "Tworzenie.",
+    "Index": "Indeksowanie.",
+    "Label": "Indeksowanie",
+    "seconds": "s",
+    "minutes": "min",
+    "hours": "godz.",
+    "msg_Authoring": "Tryb tworzenia jest włączony. Może to mieć wpływ na wydajność.",
+    "activeMode": "Tryb aktywny: {mode}",
+    "lastRefresh": "Ostatnie odświeżenie: {timeElapsed} temu.",
+    "reactIndexMode": "Tryb indeksowania zostanie ponownie aktywowany w ciągu {autoSwitch} min od operacji tworzenia lub odświeżania.",
+    "errorMessageBookmarkRoot": {
+      "title": "Nie można pobrać obiektów {typeStruct}.",
+      "subtitle": "Skontaktuj się z administratorem, aby uzyskać pomoc."
+    },
+    "info_msg_DataNotUptoDate": "Aplikacja przełączyła się w tryb indeksu, ponieważ przez {timeElapsed} minut nie dokonano żadnych modyfikacji zawartości.",
+    "title": "Tryb indeksu lub bazy danych",
+    "IndexModeTooltip": "Tryb indeksu aktywny",
+    "AuthoringModeTooltip": "Tryb bazy danych aktywny",
+    "IndexModelongHelp": "Tryb indeksu poprawia wydajność, ale najnowsze modyfikacje nie są dostępne, dopóki nie zostaną zindeksowane.",
+    "AuthoringModelongHelp": "Tryb bazy danych natychmiast wyświetla najnowsze modyfikacje, ale wpływa na wydajność.",
+    "info_msg_DatabaseModeTitle": "Tryb bazy danych jest aktywny",
+    "info_msg_IndexModeTitle": "Tryb indeksu jest aktywny.",
+    "info_msg_DatabaseModeMessage": "Ostatnie modyfikacje są widoczne.",
+    "info_msg_IndexModeMessage": "Modyfikacje i nowa zawartość mogą nie być dostępne do czasu aktualizacji indeksu."
+  },
+  "CMD_Yes": "Tak",
+  "CMD_No": "Nie",
+  "dialog_replaceByLatestRevision": "Zastąp, podstawiając wersję",
+  "msg_warning_DndNotSupported": "Funkcja „przeciągnij i upuść” nie jest obsługiwana w trybie tylko do odczytu.",
+  "ViewTooltip": {
+    "favoriteTitle": "Tytuł ulubionych"
+  },
+  "msg_warning_dndWindowsFoldernotsupported": "Upuszczona zawartość zawiera folder i nie jest obsługiwana",
+  "BookmarkDownload": {
+    "BookmarkDownloadLimit": "Struktura folderu zakładek zawiera ponad 1000 dokumentów. Wybierz strukturę folderu zakładek zawierającą mniejszą liczbę dokumentów.",
+    "BookmarkNo_Documents": "Struktura folderu zakładek nie zawiera żadnego dokumentu. Żadna zawartość nie zostanie pobrana.",
+    "BookmarkDupalicateDOC": "Pobranie struktury zakładek nie powiodło się, ponieważ ta sama hierarchia już istnieje dla dokumentu.",
+    "DownloadStructureFailure": "Nie można pobrać struktury folderu zakładek.",
+    "BookmarkDownloadStarted": "Rozpoczęto pobieranie struktury folderu zakładek.",
+    "BookmarkDownloadMultiFileError": "Wybierz dokument z pojedynczym plikiem. \n",
+    "BookmarkDownloadNoFileError": "\n Wybierz dokument z co najmniej jednym plikiem. \n"
+  },
+  "editLinkTitle": "Edytuj łącze",
+  "msg_NewBookmarkSuccess": {
+    "message": "Utworzenie powiodło się."
+  },
+  "msg_AddShortcutSuccess": {
+    "title": "Dodano nowy skrót.",
+    "message": "Pomyślnie dodano nowy skrót do folderu zakładek."
+  },
+  "msg_AddShortcutsSuccess": {
+    "title": "Dodano nowe skróty.",
+    "message": "Pomyślnie dodano nowe skróty do folderu zakładek."
+  },
+  "msg_AddShortcutFail": {
+    "title": "Tworzenie skrótu nie powiodło się.",
+    "message": "Nie udało się utworzyć skrótu folderu zakładek."
+  },
+  "msg_AddLinkSuccess": {
+    "title": "Dodaj nowe łącze.",
+    "message": "Pomyślnie dodano nowe łącze zewnętrzne do folderu zakładek."
+  },
+  "msg_AddLinkPresent": "Łącza zewnętrzne już obecne: {nbLinks}.",
+  "msg_AddLinkFail": {
+    "title": "Dodawanie łącza zewnętrznego nie powiodło się.",
+    "message": "Nie udało się dodać łącza zewnętrznego do folderu zakładek."
+  },
+  "msg_EditLinkSuccess": {
+    "title": "Edycja łącza powiodła się.",
+    "message": "Edycja łącza zewnętrznego powiodła się."
+  },
+  "msg_EditLinkFail": {
+    "title": "Edycja łącza nie powiodła się.",
+    "message": "Nie można edytować łącza zewnętrznego."
+  },
+  "msg_EditLinknotUpdated": {
+    "message": "Nie wykonano operacji edycji. Wykonaj wymaganą modyfikację."
+  },
+  "msg_error_AddShortcut": "Nie można dodać skrótu(-ów) folderu zakładek.",
+  "msg_info_addShortcut_alreadyPresent": "Skróty do utworzenia już obecne: {shortcutAlreadyPresent}.",
+  "msg_error_RemoveShortcut": "Nie można usunąć skrótu(-ów) folderu zakładek.",
+  "msg_creating_AddShortcut": "Dodawanie skrótu(-ów) folderu zakładek",
+  "msg_error_Rename_Shortcut": "Zmiana nazwy skrótu jest niedozwolona.",
+  "NoPathFound": "Nie znaleziono prawidłowych ścieżek.",
+  "progressPanel_dragDrop": "Przesyłanie elementów {objectsAdded} do {targetfolder}",
+  "progressPanel_add": "Dodawanie elementów {objectsAdded} do {targetfolder}",
+  "progressPanel_move": "Przenoszenie elementów {objectsAdded} do {targetfolder}",
+  "progressPanel_copy": "Kopiowanie elementów {objectsAdded} do {targetfolder}",
+  "progressPanel_copyFolder": "Kopiowanie {objectsAdded} {typeStruct} do {targetfolder}",
+  "progressPanel_moveFolder": "Przenoszenie {objectsAdded} {typeStruct} do {targetfolder}",
+  "progressPanel_remove": "Usuwanie elementów {objectsAdded} z {targetfolder}",
+  "progressPanel_expand": "Rozszerzanie {objectsexpanded} elementów w {targetfolder}",
+  "progressPanel_download": "Pobieranie struktury folderu zakładek z {bookmarkname}",
+  "removeStructuralObject": "Uwzględnij obiekty strukturalne",
+  "msg_info_objetexpanded": "Pomyślnie rozwinięto obiekt",
+  "msg_info_objetexpandedError": {
+    "title": "Nie można rozwinąć obiektów.",
+    "subtitle": "Odśwież aplikację i spróbuj ponownie lub skontaktuj się z administratorem, aby uzyskać pomoc."
+  },
+  "Paste_as_Duplicate": "Wklej jako duplikat",
+  "Paste_as_Shortcut": "Wklej jako skrót",
+  "Paste_to_move": "Wklej do przeniesienia",
+  "Paste_to_Bookmark": "Wklej do zakładki",
+  "CopySettings": "Wklej jako opcje duplikacji",
+  "AddPrefix": "Dodaj przedrostek",
+  "AddSuffix": "Dodaj przyrostek",
+  "prefixPlaceholder": "Wprowadź przedrostek dla tytułu.",
+  "suffixPlaceholder": "Wprowadź przyrostek dla tytułu.",
+  "helpPrefix": {
+    "shortHelp": "Znaki dodawane na początku tytułu zduplikowanego obiektu.",
+    "longHelp": "Na przykład, jeśli dodasz Projekt_ jako przedrostek do obiektu Hamulec, tytuł duplikatu obiektu będzie miał postać „Projekt_Hamulec”."
+  },
+  "helpSuffix": {
+    "shortHelp": "Znaki dodawane na końcu tytułu zduplikowanych obiektów.",
+    "longHelp": "Na przykład, jeśli dodasz _Projekt jako przyrostek do problemu Hamulec, tytuł duplikatu obiektu będzie miał postać „Hamulec_Projekt”."
+  },
+  "PrefixLine": "Przedrostek",
+  "SuffixLine": "Przyrostek",
+  "msg_info_notEnabledExpand": {
+    "title": "Obiekty strukturalne nie są uwzględnione",
+    "subtitle": "Zmiana preferencji „Włącz rozszerzanie produktów”"
+  },
+  "documentCommands": {
+    "notAvailable": "To polecenie nie jest dostępne dla wybranego elementu.",
+    "notReady": {
+      "title": "To polecenie nie jest gotowe do użycia.",
+      "message": "Spróbuj ponownie za kilka sekund."
+    }
+  },
+  "operationNotSupported": {
+    "title": "Ta operacja nie jest obsługiwana.",
+    "message": "Tego rodzaju obiektu nie można dodać za pomocą tego polecenia."
+  },
+  "exportMask": "Eksport CSV.",
+  "attrComputation": "Pobieranie wartości atrybutów.",
+  "tooManyResultFound": "Wyszukiwanie jest ograniczone do {maxResult} wyników. Sprecyzuj zapytanie.",
+  "initialization_error": "Aplikacja napotkała nieoczekiwany błąd. Skontaktuj się z administratorem, aby uzyskać pomoc.",
+  "expandTooLarge": "Pobrano zbyt wiele obiektów.<br> Zawęź nawigację, korzystając z filtrowania lub zmniejszając poziom rozwinięcia.",
+  "loadingText": "Wczytywanie…",
+  "treeExpandTooLarge": {
+    "title": "Nie można rozwinąć {typeStruct}",
+    "message": "Pobrano zbyt wiele obiektów {subType}",
+    "subtitle": "Zwiń wszystko i rozwiń tylko jeden poziom."
+  },
+  "lockStatusTooltip_locked": {
+    "message": "Zablokowane przez",
+    "subtitle": "Kliknij, aby odblokować"
+  },
+  "lockStatusTooltip_unlocked": {
+    "message": "Odblokowane",
+    "subtitle": "Kliknij, aby zablokować"
+  },
+  "Broken link": "Przerwane połączenie",
+  "find_in_context_timeout": "Przekroczenie czasu znajdowania w kontekście",
+  "classificationFacetName": "Klasyfikacje",
+  "classificationFacetText": "Klasyfikacje",
+  "searchLoading": "Wyszukiwanie w {typeStruct}",
+  "msg_error_exceedFavoriteLimit": {
+    "title": "Nie można zadeklarować nowego ulubionego elementu.",
+    "subtitle": "Usuń istniejące ulubione, aby zadeklarować nowe.",
+    "message": "Liczba ulubionych jest ograniczona do {maxLimit}."
+  },
+  "msg_warning_ctxExceed": {
+    "title": "Nie można otworzyć menu kontekstowego.",
+    "subtitle": "Należy wybrać mniej obiektów.",
+    "message": "Liczba wybranych obiektów w przypadku menu kontekstowego CATIA jest ograniczona do 10."
+  },
+  "error_nonIndexedI3dx": {
+    "title": "Nie można dodać wybranych obiektów.",
+    "subtitle": "Spróbuj ponownie za kilka minut, aby wyszukać obiekty.",
+    "message": "Niektóre obiekty nie są jeszcze indeksowane lub nie można ich wyszukiwać: {objects}."
+  },
+  "generic_service_failure": "Nie można pobrać informacji o obiekcie. Spróbuj ponownie za kilka minut. Jeśli problem będzie się powtarzał, skontaktuj się z administratorem",
+  "cannotChangeOwner": "Nie można przenieść {objectname} do {userId}.",
+  "multipleClassificationValue": "Wiele",
+  "searchReasultWarningMsg": "Liczba obiektów może być większa od oczekiwanej",
+  "warn_tb_unavailableRoot": "Nie masz dostępu do nadrzędnego obiektu {typeStruct}.",
+  "err_UnsupportedFavoriteType": "Ta sekcja ulubionych nie obsługuje wybranego typu.",
+  "operation_add": "Dodaj zawartość",
+  "toAdd": "Dodaj",
+  "folderLoader_loading": "Ładowanie",
+  "folderLoader_cancel": "Anuluj",
+  "folderLoader_expanding": "Rozszerzanie",
+  "folderLoader_expanding_products": "Rozszerzanie produktów",
+  "ActionBar_SelectAllCmd": "Wybierz wszystkie",
+  "ActionBar_SelectChildrenCmd": "Wybierz potomki",
+  "ActionBar_SelectInversionCmd": "Wybierz opcję Inwersja",
+  "ActionBar_SelectLeavesCmd": "Wybierz listki",
+  "ActionBar_SelectParentCmd": "Wybierz element nadrzędny",
+  "ActionBar_SelectSiblingCmd": "Wybierz obiekty równorzędne",
+  "Filter_owner": "Należy do mnie",
+  "Filter_tagger": "Filtruj według znaczników",
+  "switchViewImpossible": {
+    "title": "Widok jest niedostępny.",
+    "message": "Odśwież przeglądarkę, aby zaktualizować widoki."
+  },
+  "requestSaveView": {
+    "title": "Bieżący widok nie jest utrzymany.",
+    "message": "Czy chcesz zapisać aktualny widok?",
+    "link": "Zapisz widok"
+  },
+  "loadingAllRoots": "Ładowanie pozostałych elementów głównych.",
+  "loadingRoots": "Ładowanie elementów głównych.",
+  "RefreshingNodes": "Odświeżanie atrybutów obiektu",
+  "docCmd_unavailable": {
+    "title": "Polecenie niedostępne.",
+    "subtitle": "Spróbuj ponownie za kilka sekund."
+  },
+  "unsupported_command_error": {
+    "title": "Polecenie nie jest obsługiwane.",
+    "message": "Bieżący wybór zawiera typy, które nie obsługują tej operacji."
+  },
+  "lookingForObject": "Szukanie obiektu",
+  "openWithTitle": "Otwórz za pomocą",
+  "openWithMessage": "Obiekt istnieje w wielu lokalizacjach, wybierz ścieżkę, którą chcesz otworzyć:",
+  "openWithNotSupported": "{label} nie jest obsługiwany.",
+  "warningNotAssociated": "{label} nie jest powiązany z",
+  "unsupportedAction": "Ta operacja nie jest obsługiwana w bieżącym kontekście."
+}

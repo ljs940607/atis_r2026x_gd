@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_cs",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"OK",lblApply:"Použít",lblClose:"Zavřít",lblPitch:"Stoupání",DirectionLabel:"Směrový štítek",lblDirection1:"První",lblDirection2:"Druhý",lblDirection3:"Třetí",lblScale:"Měřítko jednotky"});

@@ -1,0 +1,26 @@
+{{#if memberObj}}
+  <div class="eno-autocomplete-panel-contents">
+    <div class="eno-autocomplete-item eno-autocomplete-detaileduser">
+      <div class="eno-autocomplete-icon">
+        <span class="eno-object-icon eno-icon-round" style="background-image: url({{memberObj.image}});">
+        </span>
+      </div>
+      <div class="eno-autocomplete-label">
+        <span class="eno-autocomplete-label-string">{{memberObj.label}}</span>
+        {{#if memberObj.login}}
+        <div class="eno-autocomplete-sublabel-string-container">
+          <span class="eno-autocomplete-sublabel-string">({{memberObj.login}})</span>
+            {{/if}}
+        </div>
+      </div>
+    </div>
+    </div>
+    {{else}}
+      <div class="eno-autocomplete-panel-contents">
+    <div class="eno-autocomplete-item eno-autocomplete-detaileduser">
+      <div class="eno-autocomplete-label">
+        <span class="eno-autocomplete-label-string"><span class="eno-autocomplete-sublabel-icon wux-ui-3ds wux-ui-3ds-attention"></span> {{i18n 'E6WCommonApps.Alert.NoResultFound'}}</span>
+      </div>
+    </div>
+    </div>
+    {{/if}}

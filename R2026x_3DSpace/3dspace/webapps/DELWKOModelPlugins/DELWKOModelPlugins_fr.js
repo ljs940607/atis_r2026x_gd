@@ -1,0 +1,1 @@
+define("DS/DELWKOModelPlugins/DELWKOModelPlugins_fr",{});define("DS/DELWKOModelPlugins/assets/nls/DELWKOViewPreferencesUI",{HeaderName:"Nom de l'en-tête",IsVisible:"Est visible",Width:"Largeur",MinWidth:"Largeur min.",IsPinned:"Est attaché"});

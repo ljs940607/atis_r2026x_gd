@@ -1,0 +1,15 @@
+m|ENO6WCollaborativeTasksClient\XTaskApp.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25147|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XTaskApp\XTaskApp.js|1740826074|25457
+s|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\Models\ScopeModelContainer.js|1740779412|20723
+t|win_b64\webapps\XTaskApp\assets\definitions.json|1748377874|7146
+s|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\assets\definitions.json|1748369487|7146
+u|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\Models\XTaskAppTypeDictionary.js|1724871742|882
+u|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\Views\XPlanColumnView.js|1736593906|38881
+u|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\XTaskApp.js|1724871742|16
+u|ENO6WCollaborativeTasksClient\XTaskApp.mweb\src\XTaskAppBootstrap.js|1724871742|7014
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

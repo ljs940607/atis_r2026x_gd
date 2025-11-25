@@ -1,0 +1,251 @@
+.r3mDataGridView .r3mtweaker {
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: normal;
+}
+
+.r3mDataGridView .r3mstatus {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0;
+}
+
+.r3mDataGridView .r3mstatuscolored,
+.r3mReviewStatusColored {
+  border-radius: 5px;
+  color: white;
+  padding: 0.2em 10px 0.2em 10px;
+}
+
+.r3mDataGridView .r3mnotstarted,
+.rvwStatusNotStarted {
+  background-color: rgb(155, 44, 152);
+}
+
+.r3mDataGridView .r3mongoing {
+  background-color: rgb(0, 125, 163);
+}
+
+.r3mDataGridView .r3mcompleted {
+  background-color: rgb(1, 131, 8);
+}
+
+.r3mDataGridView .r3mcomplete {
+    background-color: rgb(1, 131, 8);
+}
+
+.r3mDataGridView .r3mprivate {
+  background-color: rgb(155, 44, 152);
+}
+
+.r3mDataGridView .r3mprepare {
+  background-color: rgb(155, 44, 152);
+}
+
+.r3mDataGridView .r3minwork {
+  background-color: rgb(0, 125, 163);
+}
+
+.r3mDataGridView .r3mfrozen {
+  background-color: rgb(1, 131, 8);
+}
+
+.r3mDataGridView .r3mreleased {
+  background-color: rgb(117, 117, 117);
+}
+
+.r3mDataGridView .r3mcreate {
+  background-color: #9B2C98;
+}
+
+.r3mDataGridView .r3massign {
+  background-color: #E03400;
+}
+
+.r3mDataGridView .r3mactive {
+  background-color: #007DA3;
+}
+
+.r3mDataGridView .r3mreview {
+  background-color: #018308;
+}
+
+.r3mDataGridView .r3mclosed {
+  background-color: #757575;
+}
+
+.r3mDataGridView .r3mIssuePriorityLow {
+  color: #477738;
+}
+
+.r3mDataGridView .r3mIssuePriorityMedium {
+  color: #E87B00;
+}
+
+.r3mDataGridView .r3mIssuePriorityHigh {
+  color: #EA4F37;
+}
+
+.r3mDataGridView .r3mIssuePriorityUrgent {
+  color: #990707;
+}
+
+
+.r3mDataGridView .r3mobsolete {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(180, 182, 186);
+}
+
+.r3mDataGridView .r3mdefault {
+  background-color: rgb(117, 117, 117);
+}
+
+.r3mDataGridView .r3mexists {
+  background-color: rgb(117, 117, 117);
+}
+
+.r3mDataGridView .r3minprogress,
+.rvwStatusInProgress {
+  background-color: rgb(0, 125, 163);
+}
+
+.r3mDataGridView .r3mfailed,
+.rvwStatusFailed {
+  background-color: rgb(204, 9, 47);
+}
+
+.r3mDataGridView .r3mpassed,
+.rvwStatusPassed {
+  background-color: rgb(1, 131, 8);
+}
+
+.r3mDataGridView .r3mdonenoko {
+  background-color: rgb(1, 131, 8);
+}
+
+.r3mDataGridView .r3mstartedwithko {
+  background-color: rgb(232, 123, 0);
+}
+
+.r3mDataGridView .r3mstartednoko {
+  background-color: rgb(0, 125, 163);
+}
+
+.r3mDataGridView .r3mstartedButNotIndexed {
+  background-color: rgb(0, 125, 163);
+}
+
+.r3mDataGridView .r3mcomputed {
+  background-color: rgb(0, 157, 219);
+}
+
+.r3mDataGridView .r3mcomputedButNotIndexed {
+  background-color: rgb(0, 157, 219);
+}
+
+.r3mDataGridView .r3mRunning {
+  background-color: rgb(0, 157, 219);
+}
+
+.r3mDataGridView .r3mdonewithko {
+  background-color: rgb(204, 9, 47);
+}
+
+.r3mDataGridView .r3mnotcomputed,
+.rvwStatusPartial {
+  background-color: rgb(154, 42, 151);
+}
+
+.r3mDataGridView .r3merror {
+    background-color: rgb(0, 0, 0);
+}
+
+.r3mDataGridView .r3mwarningcolor {
+  color: rgb(232, 123, 0);
+}
+
+.r3mCsiCompute .r3mwarningcolor {
+  color: rgb(232, 123, 0);
+}
+
+.r3mCsiCompute .r3mInfocolor {
+  color: rgb(66, 162, 218);
+}
+
+
+.r3mDataGridView .r3miconcolor {
+  color: #77797c;
+}
+
+.r3mDataGridView .r3mwarning {
+  width: 100%;
+  padding-left: 7px;
+}
+
+.r3mDataGridView .r3mwarningtext {
+  padding-left: 7px;
+}
+
+.r3mDataGridView .r3mimg {
+  border-radius: 50%;
+}
+
+.r3mDataGridView .r3mpeople {
+  width: 100%;
+  padding-left: 7px;
+}
+
+.r3mDataGridView .r3mpeopleid {
+  border-radius: 50%;
+  padding-left: 7px;
+}
+
+.r3mPanel .wux-windows-window-header {
+  padding: 0px;
+}
+
+.r3mPanel.wux-windows-window-maincontent {
+  border: 0;
+}
+
+.r3mPanel .r3mInfoColor .wux-ui-3ds-info {
+  color: rgb(66, 162, 218);
+}
+
+.r3mWelcome {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+}
+
+.r3mWelcome .r3mWelcomeText {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.wux-layouts-datagridview .wux-collectionview-statusBar .wux-controls-progressbar {
+  width: 150px;
+}
+
+.r3mFilterPanelDisable {
+  margin-left: 2px;
+  color: #BCBCBC;
+}
+
+.fonticon fonticon-3ds-who {
+  color: #BCBCBC;
+}
+
+.r3mCAStatus {
+  margin-left: 10px;
+}

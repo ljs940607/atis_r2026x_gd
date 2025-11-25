@@ -1,0 +1,32 @@
+.productionPlanDivView {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.woStateDivView {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
+  width: 100%;
+}
+
+.woNoDivView {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
+  width: 100%;
+}
+
+.scheduledDateDivView {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
+  width: 100%;
+}
+
+.footerWOModalDivView {
+  margin-left: 28%;
+}

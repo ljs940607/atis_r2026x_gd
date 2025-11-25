@@ -1,0 +1,16 @@
+{
+  "other": "Andere",
+  "companyName": "Name des Unternehmens",
+  "typeCompanyName": "Geben Sie den Namen Ihres Unternehmens ein",
+  "country": "Land",
+  "selectCountry": "Wählen Sie das Land Ihres Unternehmens aus",
+  "countryNotAvailable": "Für das Land des Kunden können keine Angebote abgegeben werden",
+  "phoneNumber": "Telefonnummer",
+  "enterPhoneNumber": "Telefonnummer eingeben",
+  "phoneNumberInvalid": "Diese Telefonnummer ist ungültig",
+  "addNda": "Vertraulichkeitsvereinbarung hinzufügen",
+  "ndaInfo": "Sie können eine Vertraulichkeitsvereinbarung (Non Disclosure Agreement, NDA) hochladen, die von den ausgewählten Dienstleistern akzeptiert werden muss, bevor Ihre Anfrage angezeigt wird.\n(Maximale Dateigröße: 30 MB | Unterstützte Dateiformate: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "Eine Bilddatei kann nicht als Vertraulichkeitsvereinbarung hochgeladen werden.",
+  "fileFormatNotSupported": "Dateiformat nicht unterstützt",
+  "uploadError": "Ein Fehler ist aufgetreten. Beachten Sie, dass nur PDF- und Textdateien mit einer maximalen Größe von 50 MB akzeptiert werden."
+}

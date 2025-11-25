@@ -1,0 +1,208 @@
+{
+  "properties": [
+    {
+      "name": "Collab.Image.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Text.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Text.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Collab.Text.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Text.Font",
+      "type": "VCXPropertyValueFont",
+      "value": [
+        {
+          "type": "VCXPropertyValueString",
+          "index": 0,
+          "value": "Arial"
+        },
+        {
+          "type": "VCXPropertyValueFloat",
+          "index": 1,
+          "value": 12
+        },
+        {
+          "type": "VCXPropertyValueInt",
+          "index": 2,
+          "value": 400
+        },
+        {
+          "type": "VCXPropertyValueBoolean",
+          "index": 3,
+          "value": false
+        },
+        {
+          "type": "VCXPropertyValueBoolean",
+          "index": 4,
+          "value": true
+        },
+        {
+          "type": "VCXPropertyValueBoolean",
+          "index": 5,
+          "value": true
+        },
+        {
+          "type": "VCXPropertyValueBoolean",
+          "index": 6,
+          "value": true
+        },
+        {
+          "type": "VCXPropertyValueBoolean",
+          "index": 7,
+          "value": true
+        },
+        {
+          "type": "VCXPropertyValueInt",
+          "index": 8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Collab.Body.Shape",
+      "type": "VCXPropertyValueEnum",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.FitToText",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Body.HAlignment",
+      "type": "VCXPropertyValueEnum",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.VAlignment",
+      "type": "VCXPropertyValueEnum",
+      "value": 1
+    },
+    {
+      "name": "Collab.Body.InnerMargin",
+      "type": "VCXPropertyValueFloat",
+      "value": 2
+    },
+    {
+      "name": "Collab.Background.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Background.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Collab.Background.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 0
+    },
+    {
+      "name": "Collab.Border.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Border.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 1.5
+    },
+    {
+      "name": "Collab.Border.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Collab.Border.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Shadow.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Attach.Show",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Attach.LeadType",
+      "type": "VCXPropertyValueEnum",
+      "value": 20
+    },
+    {
+      "name": "Collab.Attach.ExtremityType",
+      "type": "VCXPropertyValueEnum",
+      "value": 1
+    },
+    {
+      "name": "Collab.Attach.BentDot",
+      "type": "VCXPropertyValueBoolean",
+      "value": false
+    },
+    {
+      "name": "Collab.Attach.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0,
+        0,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Attach.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Collab.Attach.Line.Width",
+      "type": "VCXPropertyValueFloat",
+      "value": 1.5
+    },
+    {
+      "name": "Collab.Attach.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Image.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 0
+    }
+  ],
+  "name": "LabelClassicBlack_v2",
+  "objectID": "styleID_LabelClassicBlack_v2",
+  "visible": true
+}

@@ -1,0 +1,12 @@
+m|i3DXFederatedUIServices\FedDictionaryAccess.mweb
+b|j|c,u
+b|c|c,m
+v|6.428.0.25171|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\FedDictionaryAccess\FedDictionaryAccess.js|1750475859|115741
+s|i3DXFederatedUIServices\FedDictionaryAccess.mweb\src\FedDicoUtils.js|1732122057|17110
+u|i3DXFederatedUIServices\FedDictionaryAccess.mweb\src\FedDictionaryAccess3DSpace.js|1747399641|16237
+u|i3DXFederatedUIServices\FedDictionaryAccess.mweb\src\FedDictionaryAccessAPI.js|1750254956|63953
+u|i3DXFederatedUIServices\FedDictionaryAccess.mweb\src\FedDictionaryAccessRDF.js|1734524762|17947
+u|i3DXFederatedUIServices\FedDictionaryAccess.mweb\src\RequestUtils.js|1576577160|484
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

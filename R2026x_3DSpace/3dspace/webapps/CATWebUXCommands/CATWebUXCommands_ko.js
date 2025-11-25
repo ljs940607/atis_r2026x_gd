@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_ko",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"스크린샷이 클립보드에 복사됨"});

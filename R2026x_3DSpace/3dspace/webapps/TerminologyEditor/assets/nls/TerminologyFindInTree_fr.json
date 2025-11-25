@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "findingTerminologies": "Recherche de terminologies..."
+  },
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "L'objet déposé n'est pas un objet de structure de navigation.",
+    "Advice": "Veuillez déposer une structure ou un nœud de navigation."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "Advice": "Développer l'arbre jusqu'à ce nœud de navigation spécifique",
+    "Details": "Le nœud de navigation à rechercher n'est pas visible dans l'arbre."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "L'opération Rechercher dans l'arbre ne peut pas être effectuée.",
+    "Advice": "Développez la section de structure de navigation jusqu'au premier niveau.",
+    "Details": "Il n'y a pas de structure de navigation visible sous la section de structure de navigation."
+  },
+  "msg_info_limit_FindInTree": "La limite est atteinte. La limite de recherche est définie à 100.",
+  "msg_info_limitToFindInRootNode": "La limite de recherche de la structure de navigation est définie sur 200, les 200 premières structures de navigation seront prises en compte.",
+  "msg_info_No_Occurrence": "Aucune occurrence de la structure de navigation n'a été trouvée."
+}

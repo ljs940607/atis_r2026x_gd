@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_cs",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Snímek obrazovky byl zkopírován do schránky"});

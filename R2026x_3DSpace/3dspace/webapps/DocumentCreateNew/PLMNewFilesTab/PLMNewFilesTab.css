@@ -1,0 +1,296 @@
+/* ----------------------------------------------------------------------------- */
+/* Files  Tab css */
+
+.enox-plmNewFilesTab {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100px;
+}
+
+
+.enox-plmNewFilesTab-panes {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+
+.enox-plmNewFilesTab-uploadpane {
+    display: flex;
+    flex: 1;
+}
+
+.enox-plmNewFilesTab-uploadpane-center {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.enox-plmNewFilesTab-uploadpane-center .wux-ui-3ds-drag-drop {
+    color: #77797c;
+}
+
+.enox-plmNewFilesTab-uploadpane-center * {
+    margin: 5px;
+}
+
+
+
+.enox-plmNewFilesTab-uploadpane-center-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enox-plmNewFilesTab-uploadpane-center-buttons>div {
+    width: 150px;
+}
+
+.enox-plmNewFilesTab-uploadpane-center-buttons>div>span>span,
+.enox-plmNewFilesTab-uploadpane-center-buttons>button {
+    margin: 5px;
+    max-width: 300px
+}
+
+
+
+.enox-plmNewFilesTab-gridpane {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-tilepane {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.enox-plmNewFilesTab-drag-over {
+    border: 3px solid #368ec4;
+    background-color: #f9f9f9;
+}
+
+.enox-plmNewFilesTab-drag-over .wux-layouts-collectionview .wux-layouts-gridengine-scroller-container {
+    background-color: #f9f9f9;
+}
+
+
+
+.enox-plmNewFilesTab .NameAndComment {
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span {
+    margin-right: 10px;
+}
+
+.enox-plmNewFilesTab .NameAndComment>:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 22px;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span:last-child {
+    margin-right: unset;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>.userName {
+    color: rgb(119, 121, 124);
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>div {
+    display: inline-flex;
+}
+
+.enox-plmNewFilesTab .NameAndComment .wux-user-icon {
+    margin-left: unset;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description {
+    display: flex;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description :first-child {
+    font-weight: bold;
+    padding-left: unset;
+}
+
+.enox-plmNewFilesTab-tilepane .property-description .wux-tweakers {
+    font-size: 11px;
+}
+
+
+
+
+/* div[tab_name="PLMNewFilesTab"][checked] ~ .ENONew_TabView_MasterContain {
+    background-color: red !important;
+    height: 100%;
+}
+div[tab_name="PLMNewFilesTab"][checked] ~ .IDCardInnerBottomArea {
+    background-color: yellow !important;
+    height: 100%;
+} */
+
+.ENONewInfra .ENONew_TabView_MasterContain{
+    height: 100%;
+}
+.ENONewInfra .IDCardInnerBottomArea{
+    height: 100%;
+}
+
+.ENONew_TabView_MasterContain:has(div[tab_name="filesFacet"][checked]) {
+    .IDCardInnerBottomArea {
+        height: 100%;
+    }
+    height: 100%;
+}
+
+
+/* .ENONew_TabView_MasterContain div [tab_name="PLMNewFilesTab"]:not(:checked) ~ .title {
+    background-color: white !important;
+} */
+
+
+.enox-plmNewFilesTab .NameAndComment {
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span {
+    margin-right: 10px;
+}
+
+.enox-plmNewFilesTab .NameAndComment>:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span:last-child {
+    margin-right: unset;
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>.userName {
+    color: rgb(119, 121, 124);
+}
+
+.enox-plmNewFilesTab .NameAndComment>span>div {
+    display: inline-flex;
+}
+
+.enox-plmNewFilesTab .NameAndComment .wux-user-icon {
+    margin-left: unset;
+}
+
+
+/* Alert inside dialog  */
+.enox-plmNewFilesTab-content .alert{
+    visibility: visible;
+}
+/* File Tab css End */
+/* ----------------------------------------------------------------------------- */
+
+
+
+/*--------  Information pane css ------------------------*/
+
+
+/* .enox-plmNewFilesTab-information-pane{
+
+} */
+
+.enox-plmNewFilesTab-information-pane-container{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-height: 200px;
+    position: relative;
+    padding: 10px 10px 10px 48px;
+    color: #3d3d3d;
+    text-align: left;
+    opacity: 1;
+    font-family: Arial;
+    font-size: 13px;
+    box-sizing: border-box;
+    -webkit-transition: padding 1s ease, margin 1s ease, max-height 1s ease, opacity 1s ease;
+    -moz-transition: padding 1s ease, margin 1s ease, max-height 1s ease, opacity 1s ease;
+    transition: padding 1s ease, margin 1s ease, max-height 1s ease, opacity 1s ease;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.enox-plmNewFilesTab-information-pane-band{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+.enox-plmNewFilesTab-information-pane-band[emphasis="info"]{
+    border-color: #00b8de;
+}
+.enox-plmNewFilesTab-information-pane-band[emphasis="warning"]{
+    border-color: #e87b00;
+}
+
+.enox-plmNewFilesTab-information-pane-iconSpan{
+    position: relative;
+    font-size: 18px;
+}
+.enox-plmNewFilesTab-information-pane-iconSpan[emphasis="info"]{
+    color: #00b8de;
+}
+.enox-plmNewFilesTab-information-pane-iconSpan[emphasis="warning"]{
+    color: #e87b00;
+}
+
+/* .enox-plmNewFilesTab-information-pane-message-container{
+    
+} */
+
+.enox-plmNewFilesTab-information-pane-title{
+    font-size: 14px;
+    font-weight: bold;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.enox-plmNewFilesTab-information-pane-subTitle{
+    font-size: 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    white-space: normal;
+    word-wrap: break-word;
+}

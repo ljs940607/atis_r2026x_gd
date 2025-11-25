@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "summary": "Verilerin bir değişkenden diğerine basitçe kopyalanmasını sağlar.<br>Veri kopyası, kopyanın ne zaman uygulanacağının kontrol edilmesini sağlayan kontrol akışına göre koşullandırılır.",
+  "description": "Bu blok dinamiktir. Bu sayede girdi verisi sayısı, blok konfigürasyonu iletişim kutusu kullanılarak değiştirilebilir.<br>Veri bağlantı noktası, tüm değer tiplerini işler.",
+  "dataPorts": {
+    "ValueIn1": "kopyalanacak girdi verisi değeri.",
+    "ValueOut1": "kopyalanan çıktı verisi değeri."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

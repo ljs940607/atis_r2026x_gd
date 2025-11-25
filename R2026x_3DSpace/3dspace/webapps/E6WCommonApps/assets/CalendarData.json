@@ -1,0 +1,129 @@
+{
+    "data": [{
+        "id": "WorkCalendarId",
+        "type": "Work Calendar",
+        "name": "Default Calendar",
+        "relateddata": {
+            "events": [{
+                "id": "TheOnlyEvent",
+                "relid": "EventRel6",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Non Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "0",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Monday",
+                "relid": "EventRel7",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "1",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "1",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Tuesday",
+                "relid": "EventRel8",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "2",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "2",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Wednesday",
+                "relid": "EventRel9",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "3",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "3",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Thursday",
+                "relid": "EventRel10",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "4",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "4",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Friday",
+                "relid": "EventRel11",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "5",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "5",
+                    "Start Date": ""
+                }
+            }, {
+                "id": "Saturday",
+                "relid": "EventRel12",
+                "type": "Event",
+                "relelements": {
+                    "workingHours": "0800-1600",
+                    "Week Of Month": "",
+                    "Event Type": "Work Week",
+                    "Calendar Exception Type": "Non Working",
+                    "Day Of Month": "0",
+                    "Day Of Week": "6",
+                    "Notes": "",
+                    "End Date": "",
+                    "Frequency": "Weekly",
+                    "Title": "6",
+                    "Start Date": ""
+                }
+            }]
+        }
+    }]
+}

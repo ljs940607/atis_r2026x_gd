@@ -1,0 +1,13 @@
+m|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24319|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CAT3DAnnotationExpController\CAT3DAnnotationExpController.js|1731552971|21347
+s|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\_copyright.js|1480428882|63
+t|win_b64\webapps\CAT3DAnnotationExpController\assets\json\CAT3DAnnotationExpController.json|1723278497|2048
+s|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\assets\json\CAT3DAnnotationExpController.json|1638803205|2048
+u|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\CAT3DAnnotExpControllerInstance.js|1730831623|57619
+u|CAT3DAnnotationInsightWebUX\CAT3DAnnotationExpController.mweb\src\CAT3DAnnotationExpController.js|1620393418|107
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

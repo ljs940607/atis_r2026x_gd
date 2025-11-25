@@ -1,0 +1,30 @@
+{
+  "loader": {
+    "findingObjects": "Wyszukiwanie klas...",
+    "formulatingPaths": "Tworzenie ścieżek..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Wyszukiwanie w drzewie nie może być wykonane przy bieżącym wyborze. Wybierz jedną klasę (inną niż ulubiona) i spróbuj ponownie.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "Title": "Upuszczony obiekt nie jest klasą.",
+    "Advice": "Upuść klasę."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Advice": "Rozwiń drzewo do określonego węzła klasy",
+    "Details": "Poszukiwana klasa nie jest widoczna w drzewie."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Advice": "Rozwiń sekcję Biblioteki do pierwszego poziomu.",
+    "Details": "W sekcji Biblioteki nie ma widocznych bibliotek."
+  },
+  "msg_warning_NoObjectSelected": {
+    "Title": "Nie można wyszukać w drzewie.",
+    "Advice": "Wybierz klasę i spróbuj ponownie.",
+    "Details": "Nie wybrano klasy do wykonania polecenia Znajdź w."
+  },
+  "msg_info_limit_FindInTree": "Osiągnięto limit. Limit wyszukiwania klasy jest ustawiony na 100.",
+  "msg_info_limitToFindInRootNode": "Limit wyszukiwania w Bibliotekach jest ustawiony na 200, zostanie uwzględnione 200 pierwszych bibliotek.",
+  "msg_info_No_Occurrence": "Nie znaleziono żadnych wystąpień klas.",
+  "msg_error_while_formulating_paths": "Błąd podczas formułowania ścieżek: być może nie ma dostępu lub obiekty nie istnieją. Spróbuj ponownie za jakiś czas lub skontaktuj się z administratorem."
+}

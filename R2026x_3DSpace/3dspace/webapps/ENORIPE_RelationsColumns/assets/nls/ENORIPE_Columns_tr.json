@@ -1,0 +1,18 @@
+{
+  "relationsColumnsMgt": {
+    "title": "İlişki Sütunu Seçenekleri",
+    "save": "Kaydet",
+    "reset": "Sıfırla",
+    "cancel": "İptal",
+    "columnAvailable": "AğaçGörünümünde bulunan sütun",
+    "autoAdd": "Görünüme otomatik olarak ekle",
+    "autoAddInfo": "Bu seçeneği ayarladıktan sonra, tüm açık nesneleri kapatın ve yeniden yükleyin."
+  },
+  "ctxCommands": {
+    "showRelated": "İlişkileri Göster",
+    "hideRelated": "İlişkileri Gizle"
+  },
+  "fakeGroupingNode": {
+    "label": "İlişkiler"
+  }
+}

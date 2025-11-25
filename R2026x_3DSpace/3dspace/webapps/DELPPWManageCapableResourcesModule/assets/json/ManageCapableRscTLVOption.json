@@ -1,0 +1,120 @@
+{
+   "ManageCapableResourcesPanel":{
+      "columnConfig":{
+         "Description":"Sample configuration file delivered by DS.",
+         "name":"CapableResources",
+         "Title":"UI Config",
+         "Label":{
+            "displayType":"NonEditable",
+            "dataIndex":"V_Name",
+            "dicoType":"PLMEntity",
+            "entity" :"reference",
+			"isGroupable" : false,
+			"isFilterable" : false
+         },
+         "addDefaultGroupingColumns": false,
+         "Columns":{
+            "Column":[
+               {
+                  "displayType":"MANAGECAPABLERESOURCESMOD",
+                  "dataIndex":"Type",
+                  "isGroupable" : false,
+                  "isFilterable" : false
+               },
+               {
+                  "displayType":"MANAGECAPABLERESOURCESMOD",
+                  "dataIndex":"Preferred",
+                  "isGroupable" : false,
+                  "isFilterable" : false
+               },
+               {
+                  "displayType":"MANAGECAPABLERESOURCESMOD",
+                  "dataIndex":"ResourceUsage",
+                  "isGroupable" : false,
+                  "isFilterable" : false
+               },
+               {
+                 "dataIndex":"V_EstimatedTime",
+                 "dicoType":"DELLmiEstimatedTime",
+                 "entity" :"link",
+                 "isGroupable" : false,
+                 "isFilterable" : false
+               },
+               {
+                 "dataIndex":"V_CapableRscGroupIndex",
+                 "dicoType":"DELAsmProcessCanUseCnx",
+                 "entity" :"link",
+                 "isGroupable" : true,
+                 "isFilterable" : false
+               }
+
+            ]
+         }
+      },
+      "dragDropManager":"WUXManageCapableRscDragDrop",
+      "dataGridViewOptions":{
+         "enableDragAndDrop":true,
+         "setReusablecontent":false,
+         "toolbarOptions":{
+            "items":[
+               {
+                  "id":"MCROpenManageStepOperationsUI",
+                  "icon":"Manage Step Operation Usages",
+                  "category":"insert",
+                  "disabled":true,
+                  "position":"far",
+                  "tooltip":{
+                     "title":"ManageCapableResource.Tooltip.OpenManagStepOperationPanel.Title",
+                     "shortHelp":"ManageCapableResource.Tooltip.OpenManagStepOperationPanel.ShortHelp"
+                  }
+               },
+               {
+                  "id":"MCRReplaceResourceInLink",
+                  "icon":"ReplaceTarget",
+                  "category":"insert",
+                  "disabled":true,
+                  "position":"far",
+                  "tooltip":{
+                     "title":"ManageCapableResource.Tooltip.Replace.Title",
+                     "shortHelp":"ManageCapableResource.Tooltip.Replace.ShortHelp"
+                  }
+               },
+               {
+                  "id":"MCRDeleteLinks",
+                  "icon":"Delete Primary/Secondary Link",
+                  "category":"delete",
+                  "position":"far",
+                  "disabled":true,
+                  "tooltip":{
+                     "title":"ManageCapableResource.Tooltip.DeleteLink.Title",
+                     "shortHelp":"ManageCapableResource.Tooltip.DeleteLink.ShortHelp"
+                  }
+               }
+            ]
+         }
+      }
+   },
+   "ManageStepOperationsUsagePanel":{
+      "columnConfig":{
+         "Description":"Sample configuration file delivered by DS.",
+         "name":"StepOperations",
+         "Title":"UI Config",
+         "Label":{
+            "displayType":"NonEditable",
+            "dataIndex":"V_Name",
+            "dicoType":"PLMEntity",
+            "entity" :"reference",
+            "isGroupable" : false,
+            "isFilterable" : false
+         },
+         "Columns":{
+
+         }
+      },
+      "dragDropManager":"WUXManageCapableRscDragDrop",
+      "dataGridViewOptions":{
+         "enableDragAndDrop":false,
+         "setReusablecontent":false
+      }
+   }
+}

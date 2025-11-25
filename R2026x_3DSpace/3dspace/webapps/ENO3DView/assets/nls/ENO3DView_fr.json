@@ -1,0 +1,34 @@
+{
+  "appDescription": "Parcourir vos modèles 3D facilement et efficacement",
+  "rootFrozen": "La session est bloquée suite à une transition",
+  "transitionRefusedStaticMapping": "Les configurations de produit instanciées ne sont pas prises en charge dans l'app cible",
+  "transitionRefusedFlexibleAssemblies": "Les assemblages flexibles ne sont pas pris en charge dans l'app cible",
+  "pointCloudClassificationLayer": {
+    "title": "Colorisation de classification LAS",
+    "headerTooltip": "La classification LAS est un système de classification prédéfini défini par l'ASPRS (American Society for Photogrammetry and Remote Sensing) pour la catégorie de données souhaitée.",
+    "class0": "0 - jamais classé",
+    "class1": "1 - non classé",
+    "class2": "2 - sol",
+    "class3": "3 - faible végétation",
+    "class4": "4 - végétation moyenne",
+    "class5": "5 - végétation haute",
+    "class6": "6 - bâtiment",
+    "class7": "7 - point bas (bruit)",
+    "class8": "8 - clé de modèle/réservé",
+    "class9": "9 - eau",
+    "class10": "10 - rail",
+    "class11": "11 - surface de route",
+    "class12": "12 - chevauchement/réservé",
+    "class13": "13 - protège-fils (blindage)",
+    "class14": "14 - fil-conducteur (phase)",
+    "class15": "15 - tour de transmission",
+    "class16": "16 - connecteur de structure de fil",
+    "class17": "17 - tablier de pont",
+    "class18": "18 - bruit élevé"
+  },
+  "pointCloudElevationLayer": {
+    "title": "Colorisation des coordonnées",
+    "comboLabel": "Axe : ",
+    "tooltip": "La coordonnée X est mesurée le long de l'axe est-ouest, la coordonnée Y est mesurée le long de l'axe nord-sud et la coordonnée Z mesure la hauteur ou l'élévation."
+  }
+}

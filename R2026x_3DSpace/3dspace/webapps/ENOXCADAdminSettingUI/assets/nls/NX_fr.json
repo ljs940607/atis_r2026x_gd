@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Enregistrer",
+  "NXOpenGroupLabel": "Ouvrir",
+  "NXToolkitLicenseGroupLabel": "Disponibilité de la conversion STEP MultiCAO",
+  "NXMissingLinksWarningLabel": "Enregistrer le fichier avec des références manquantes",
+  "NXMissingLinksWarningInfo": "Lorsque cette option est activée, un avertissement s'affiche si une conception enfant est manquante pendant l'opération d'enregistrement dans la session NX. Lorsque cette option est désactivée, l'opération d'enregistrement se poursuit sans avertissement.",
+  "NXSuppressPatternElementsLabel": "Supprimer les éléments de répétition",
+  "NXSuppressPatternElementsInfo": "Si cette option est activée, les éléments de répétition sont supprimés et les pièces gabarit de répétition ne s'affichent pas dans la boîte de dialogue Enregistrer. Si cette option est désactivée, la pièce conserve sa relation avec la pièce gabarit de répétition, créant ainsi une relation Fabriquer à partir de.",
+  "NXSTEP242LicenseAvailableLabel": "Disponibilité de la conversion STEP MultiCAO",
+  "NXSTEP242LicenseAvailableInfo": "Paramètre permettant de spécifier si le convertisseur STEP AP214 ou STEP AP242 est utilisé lors de l'ouverture de conceptions multiCAO dans une session NX. Valeur par défaut : STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "Attribut CAO mappé à l'EIN",
+  "NXCADAttributeMappedToEINInfo": "Lorsque la valeur de cet attribut est spécifiée, la fonction est activée et nous appliquons au fichier CAO un tampon avec cet attribut, dont la valeur sera l'EIN du produit physique.",
+  "EnterpriseItemNumberGroupLabel": "Numéro d'élément d'entreprise",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Filtrer les éléments d'ingénierie 3DEXPERIENCE sans géométrie ni nœud enfant",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Filtrez les éléments d'ingénierie 3DEXPERIENCE sans géométrie ni nœud enfant."
+}

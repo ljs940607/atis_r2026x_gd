@@ -1,0 +1,14 @@
+{
+  "bsChooserDialog": {
+    "title": "依瀏覽結構分組",
+    "chooserLabel": "選擇瀏覽結構",
+    "organizeButton": "群組",
+    "ungroupButton": "取消群組",
+    "cancelButton": "取消"
+  },
+  "noBSWarning": {
+    "message": "沒有可用的瀏覽結構。",
+    "advice": "請聯絡瀏覽結構管理員以建立瀏覽結構，並將其成熟度設為「已發佈」，以便在此指令中使用。"
+  },
+  "webServiceError": "無法擷取瀏覽結構清單。請再試一次或聯絡您的管理員"
+}

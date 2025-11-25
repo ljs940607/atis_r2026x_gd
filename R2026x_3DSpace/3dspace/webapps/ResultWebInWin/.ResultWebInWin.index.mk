@@ -1,0 +1,13 @@
+m|SNResultUX\ResultWebInWin.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25193|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ResultWebInWin\ResultWebInWin.html|1744748259|21582
+s|SNResultUX\ResultWebInWin.mweb\src\ResultWebInWin.html|1743586072|21582
+t|win_b64\webapps\ResultWebInWin\ResultWebInWin.js|1752300640|30830
+s|SNResultUX\ResultWebInWin.mweb\src\BroadcastWebInWinProxyManager.js|1707465754|1868
+u|SNResultUX\ResultWebInWin.mweb\src\ResultWebInWin.js|1751376942|69001
+u|SNResultUX\ResultWebInWin.mweb\src\ResultWebInWinAction.js|1584615954|4087
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

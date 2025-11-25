@@ -1,0 +1,1 @@
+define("DS/DomFactory/DomFactory_tr",{});define("DS/DomFactory/assets/nls/translation",{close:"Kapat",maximize:"Büyüt",restore:"Öncekine Geri Yükle"});

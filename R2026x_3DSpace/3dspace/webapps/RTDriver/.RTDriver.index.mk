@@ -1,0 +1,15 @@
+m|InstantMessagingInfra\RTDriver.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25253|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\RTDriver\RTDriver.js|1757540522|41858
+s|InstantMessagingInfra\RTDriver.mweb\src\drivers\NODE.js|1757528225|51871
+u|InstantMessagingInfra\RTDriver.mweb\src\RTDetectClient.js|1739301754|1711
+u|InstantMessagingInfra\RTDriver.mweb\src\RTDriver.js|1752267500|19722
+u|InstantMessagingInfra\RTDriver.mweb\src\RTIdleDetector.js|1757528225|6699
+u|InstantMessagingInfra\RTDriver.mweb\src\RTSocketIdentifier.js|1745345383|4697
+u|InstantMessagingInfra\RTDriver.mweb\src\RTUser.js|1724870994|994
+u|InstantMessagingInfra\RTDriver.mweb\src\RTUserStatus.js|1743798358|333
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

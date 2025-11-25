@@ -1,0 +1,19 @@
+{
+	"insertFormAttributeXML": {
+		"path": "DELPPWComponentsFactory/InsertCmdFormAttribute",
+		"type": "insertFormConfiguration",
+		"rootNode": "AttributesDescriptionList"
+	},
+	"indexMappingXML": {
+		"path": "DELPPWComponentsFactory/IndexMapping"
+	},
+	"modelRelationsXML": {
+		"path": "DELPPWComponentsFactory/ModelRelations"
+	},
+	"modelCustomRelationsXML": {
+		"path": "DELPPWComponentsFactory/ModelCustomRelations"
+	},
+	"ItemOOTBFiltering": {
+		"path": "DELPPWApplications/ItemOOTBFiltering"
+	}
+}

@@ -1,0 +1,1 @@
+define("DS/MPFAddressConstraintsModel/MPFAddressConstraintsModel_zh",{});define("DS/MPFAddressConstraintsModel/assets/nls/AddressConstraintsModel",{addressLine1:"地址",addressLine2:"地址",addressLine3:"地址",addressLine4:"地址",city:"城市",county:"区/县",state:"省/直辖市/自治区",postalCode:"邮政编码",phoneNumber:"电话号码",country:"国家/地区",requiredError:"{0} 必填",invalidError:"{0} 无效"});

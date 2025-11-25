@@ -1,0 +1,1 @@
+define("DS/MPFLabHideFromCommunityComponent/MPFLabHideFromCommunityComponent_zh",{});define("DS/MPFLabHideFromCommunityComponent/assets/nls/LabHideFromCommunityComponent",{lab:"实验室",hideFromCommunity:"向社区隐藏",explanation_deactivate:"如果您希望 {0} 对客户可见，请停用切换",explanation_activate:"如果您不希望 {0} 对客户可见，请激活切换"});

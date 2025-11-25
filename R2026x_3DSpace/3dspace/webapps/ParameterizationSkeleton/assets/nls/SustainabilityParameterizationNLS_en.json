@@ -1,0 +1,8 @@
+{ 
+  "CostingDomainTitle": "Costing",
+  "CostingDomainTooltip": "Choose evolution process for cost metrics",
+  "CostingDefaultEvolution":"Sequential",
+  "CostingEvolutionConcurrent":"Concurrent",
+  "deployFailureMsg": "Setting evolution process as Concurrent is not allowed, as there are some Cost metrics beyond In Work state",
+  "MetricEvolutionAccordionTitle":"Metric evolution process"
+}

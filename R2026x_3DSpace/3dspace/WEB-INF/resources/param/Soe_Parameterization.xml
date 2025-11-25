@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="VPLMAdministration">
+  <Domain id="AttributeDef">
+    <Family id="SOESystem" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SOESystem">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMSteelOutfitting"/>
+      <Constant id="type" value="SOESystem"/>
+    </Family> 
+    <Family id="SOESystemPart" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SOESystemPart">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMSteelOutfitting"/>
+      <Constant id="type" value="SOESystemPart"/>
+    </Family> 
+    <Family id="SOEFoundation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SOEFoundation">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMSteelOutfitting"/>
+      <Constant id="type" value="SOEFoundation"/>
+    </Family> 
+    <Family id="SOECoveringPart" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SOECoveringPart">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMSteelOutfitting"/>
+      <Constant id="type" value="SOECoveringPart"/>
+    </Family> 
+  </Domain>
+</OOTBParameterization>

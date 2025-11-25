@@ -1,0 +1,1 @@
+define("DS/DMUReplyAndComments/DMUReplyAndComments_tr",{});define("DS/DMUReplyAndComments/assets/nls/DMUReplyAndComments",{replyTo:"Yanıtla ",commentPrefix:"Yorum"});

@@ -1,0 +1,87 @@
+{
+    "expandV2": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "ProgressiveExpand_For_2D_Structure_Expand",
+                    "root": {
+                        "physical_id": ""
+                    },
+                    "filter": {
+                        "all": 1
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType",
+                "IPML.IconName"
+            ],
+            "select_relation": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType",
+                "ro.SymbolicID.V_SymbolicID"
+            ],
+            "format": "entity_relation_occurrence",
+            "hits": {
+                "predefined_computation": [
+                    "icons"
+                ]
+            }
+        }
+    },
+    "getItemPathsHavingRequirement": {
+        "batch": {
+            "expands": [
+                {
+                    "label": "Expand to fetch items having requirements",
+                    "root": {
+                        "physical_id": ""
+                    },
+                    "filter": {
+                        "all": 1
+                    },
+                    "graph": {
+                        "descending_condition_relation": {
+                            "uql": "((taxonomies:*DELFmiFunctionIdentifiedInstance*) OR ((taxonomies:PLMConnection) AND ([to.type]:*PLMReqSpecifyHowToCnx*)))"
+                        }
+                    },
+                    "aggregation_processors": [
+                        {
+                            "truncate": {
+                                "match_only_refs": 1,
+                                "sequence_filter": {
+                                    "sequence": [
+                                        {
+                                            "uql": "((taxonomies:*PLMReqSpecifyHowToCnx*))"
+                                        },
+                                        {
+                                            "statement": "END"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType"
+            ],
+            "select_relation": [
+                "physicalid",
+                "ds6w:type",
+                "ds6w:globalType"
+            ],
+            "format": "entity_relation_occurrence"
+        }
+    }
+}

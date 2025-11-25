@@ -1,0 +1,1 @@
+define("DS/WidgetServices/WidgetServices_zh-TW",{});define("DS/WidgetServices/assets/nls/SecurityContextNls",{ErrorSecurityContextEmpty:"找不到使用者的認證。請嘗試再次登入，否則請聯絡支援。",ErrorSecurityContext:"找不到使用者的認證。發生非預期的錯誤。請嘗試再次登入，否則請聯絡支援。",ErrorTimeOut:"找不到使用者的認證。發生連線逾時。請嘗試再次登入，否則請聯絡支援。"});

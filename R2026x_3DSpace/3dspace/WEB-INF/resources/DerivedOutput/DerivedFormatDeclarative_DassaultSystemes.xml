@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 25x version -->
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="3DEXPERIENCE" synchronous="false" nlsFile="emxDerivedFormatManagementStringResource" comment="all the conversion managed asynchronously by DS, By DerivedFormatConverter (OnTheEdge DO converter) or Conversion Service" >
+		<datasources>
+			<!-- =============================== Native 3DSEXPERIENCE==============================================================================  -->
+			<datasource name="3DEXPERIENCE">
+				<source name="CATPart" type = "Part">
+					<target name="XCADPivot" inputStreamId="authoring" outputStreamId="XCADPivot" downloadable="false" conversionService="true"/>
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="authoring" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->						
+						<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" values="none|graphic|authoring" type="enum" default="none" description="with PMI. 'authoring' value requires role" />
+						<parameter name="Composites" 			values="true|false" type="enum" default="false" 	description="At least one Composites Design app required" />
+						<parameter name="UserDefinedAttributes" values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" 	description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+					<!-- BELOW MUST be target name=CATPart...but impact to manage   can use conv Service from 23xFD03-->
+					<target name="ExactGeometry" inputStreamId="authoring" outputStreamId="catiav5"  downloadable="false" conversionService="true">
+					<!-- By default - ExactGeometry CXR25 CATPart AsResult this one is for PowerBy CATIAV5 
+					           but one may prefer >=CXR31 to get associativiy (means a downward cATPart with stableId, allowinf rerouteLinks -->
+						<parameter name="AdditionalFeatures"  values="GenericFeature" type="enum" default="GenericFeature" description="adjust the CATIA V5 level according to the needed features" />
+					</target>
+					<!-- CATPart for exchange from 23xFD04    from 24XBeta2, we also support DFC/OP case -->  
+					<target name="CATPart" inputStreamId="authoring" outputStreamId="*"  downloadable="true"  conversionService="true" >
+						<parameter name="level"  values="CATIAV5R19|CATIAV5R20|CATIAV5R21|CATIAV5R22|CATIAV5R23|CATIAV5R24|CATIAV5R25|CATIAV5R26|CATIAV5R27|CATIAV5R28|CATIAV5R29|CATIAV5R30|CATIAV5R31|CATIAV5R32|CATIAV5R33|CATIAV5R34|CATIAV5R35|CATIAV5R36" type="enum" default="CATIAV5R31" description="the CATIA V5 level" mandatory="true" />
+					</target>					
+
+					<!-- V5 CGR DO from 24xFD04    conversion Native 3DEXP to V5 CGR (as a DO, without changing authoringVisu! --> 
+					<target name="CGR" inputStreamId="authoringvisu" outputStreamId="cgrv5" downloadable="false" conversionService="true">
+                    <!-- hardcoded parameter "V5Version"="CGRR19"-->
+					<!-- parameter name="NO_WIREFRAME" values="true|false" type="enum" default="false" description="" / -->
+					</target>
+										
+					
+					<target name="PDF" inputStreamId="authoring" outputStreamId="PDF" downloadable="true" conversionService="true"/>
+					<!-- For Conversion of CATPart with 2DLayout feature - No parameters required for Conversion  managed by CO from 25xFD01, -->
+					<target name="ACIS" inputStreamId="authoring" outputStreamId="acis_powerby" downloadable="false" conversionService="true">
+					    <!-- ACIS version is no longer a parameter for 'internal DS format', it s hard coded as version=26-->
+					</target>
+					<!-- New from 23xFD01 : 3DEXP to SDM (GEOVIA SURPAC) (and forward to CO from 23xFD02)  PowerBy format -->
+					<target name="SurpacSDM" inputStreamId="authoring" outputStreamId="SurpacSDM" downloadable="false" conversionService="true">
+						<parameter name="Extension" values="sdm" type="enum" default="sdm" description="" mandatory="true"/>
+						<parameter name="StreamFormat" values="SurpacSDM" type="enum" default="SurpacSDM" description="" mandatory="true"/>
+						<!-- add new parameters in 25xFD02 -->
+						<parameter name="exportKnowledgeParameter" values="All|None" type="enum" default="All" description="Allows you to export the knowledge parameter of a feature as metadata" mandatory="true"/>
+						<parameter name="exportSurpacObjectMode" values="GeometricalSet|GeometricalFeature" type="enum" default="GeometricalFeature" description="Allows you to export a single String or TriObject to group all the geometrical features aggregated under the same Geometrical Set. When it is not selected, each geometrical feature is exported in a separated String or triObject." mandatory="true"/>
+						<parameter name="exportMagnitudeLength" values="Millimeter|Meter|Kilometer|Inch|Foot|Yard|Mile" type="enum" default="Meter" description="select a specific unit for export of Length magnitude." mandatory="true"/>
+					</target>
+					<!-- to come in some 25X late FD 
+					<target name="OMF" inputStreamId="authoring" outputStreamId="OMF" downloadable="true" conversionService="true">
+						<parameter name="Extension" values="sdm" type="enum" default="sdm" description="" mandatory="true"/>
+					</target>
+					-->
+					
+		            <!-- Need to add XCV   for 23XFD01 -->			
+					<target name="xcvcore_zip" inputStreamId="authoring" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target>
+				</source>
+				
+				<source name="CATDrawing" type = "Drawing">
+					<target name="PDF" inputStreamId="authoring" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- PDF Parameters are coming from CATSettings on Converter Machine -->
+						<!-- PDF parameters from 22xFD03 -->
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<!-- NOT READY IN 22XFD03, reactivated in FD04 --> 
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+					<!-- add 3 target formats for 3DEXP drawing in 22xFD02 -->
+					<target name="TIF" inputStreamId="authoring" outputStreamId="TIF" downloadable="true" conversionService="true">
+						<!-- TIFF parameters from 22xFD03 -->
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the TIF includes" />
+						<!-- NOT READY IN 22XFD03, reactivated in FD04 --> 
+						<parameter name="ExcludeDetailSheet"   values="true|false"                type="enum" default="false"    description="Exclude the details sheets of the drawing in the TIF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"        type="enum" default="RGB"      description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"                type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"                type="enum" default="true"     description="Change the white vector in black to be seen on white background" />
+					</target>
+					<!-- in Conversion service from 24xFD03 --> 
+					<target name="DWG" inputStreamId="authoring" outputStreamId="DWG" downloadable="true" conversionService="true" >
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the DWG includes" mandatory="true" />
+					</target>
+					<target name="DXF" inputStreamId="authoring" outputStreamId="DXF" downloadable="true" conversionService="true" >
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the DXF includes" mandatory="true" />
+					</target>
+
+		            <!-- Need to add XCV   Drawing not yet in  25x		
+					<target name="xcvcore_zip" inputStreamId="authoring" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+					</target>
+					-->	
+
+				</source>
+				<source name="CGR" type = "Part">
+					<target name="xcvcore_zip" inputStreamId="authoring" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+					</target>
+				</source>
+				
+				<events>
+					<event name="checkin"		type="Trigger" />
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+				</events>
+			</datasource>
+			
+			<!-- =============================== CATIA V5 =========================================================================================  -->
+			<datasource name="CATIAV5">
+				<source name="CATPart" type = "Part">					
+					<target name="ACIS" inputStreamId="authoring" outputStreamId="acis_powerby" downloadable="false" conversionService="true">
+					    <!-- ACIS version is no longer a parameter for 'internal DS format', it s hard coded as version=26 -->
+					</target>				
+					<target name="XCADPivot" inputStreamId="authoring" outputStreamId="XCADPivot"  downloadable="false" conversionService="true"/>
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="authoring" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->						
+						<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" values="none|graphic|authoring" type="enum" default="none" description="with PMI. 'authoring' value requires role" />
+						<!-- parameter name="Composites" not yet supported-->
+						<parameter name="UserDefinedAttributes" values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" 	description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+															
+		            <!-- Need to add XCV   for 23XFD01 -->			
+					<target name="xcvcore_zip" inputStreamId="authoring" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target>
+					
+				</source>
+				<source name="CATDrawing" type = "Drawing">					
+					<target name="PDF" inputStreamId="authoringvisu" outputStreamId="*" downloadable="true" conversionService="true">   <!-- this one is a a 2nd step conversion -->
+						<!-- PDF Parameters are coming from CATSettings on Converter Machine -->
+						<!-- PDF parameters from 22xFD03 -->
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+					<!-- 23xFD01, and in Conversion service from 24xFD03 -->
+					<target name="DWG" inputStreamId="authoring" outputStreamId="DWG" downloadable="true" conversionService="true" >
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the DWG includes" mandatory="true" />
+					</target>
+					<target name="DXF" inputStreamId="authoring" outputStreamId="DXF" downloadable="true" conversionService="true" >
+					<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the DXF includes" mandatory="true" />
+					</target>
+
+		            <!-- Need to add XCV   Drawing not yet in 25X	
+					<target name="xcvcore_zip" inputStreamId="authoring" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+					</target>
+                    -->		
+				</source>
+				
+				<events>
+					<event name="promote"			type="Trigger"		maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- from 23XFD01  -->
+					<event name="onXCADSave" type="interactiveUpdate"	 />
+					
+				</events>
+			</datasource>
+			
+			<!-- =============================== SOLIDWORKS =========================================================================================  -->
+			<datasource name="SOLIDWORKS">
+				<source name="SLDPRT" type = "Part">
+				
+					<!-- this is the dedicated usage for 3DEXP PlatForm, for supplemental... may be incompatible with CV5 if mesh/polyhedral -->
+					<target name="ExactGeometry" inputStreamId="authoring" outputStreamId="linkable"  downloadable="false" conversionService="true" >
+						<!-- No parameters required for Conversion - Now this one is for supplemental in 3DEXP/ May contain Polyhedral -->		
+						<parameter name="Polyhedral"
+										values="true"
+										type="enum"
+										default="true"
+										description="Map SLW MESH data as polyhedral in linkable/requires CXR27/ break CV5 compatibility" />
+						<!-- For improving visualization precision from 24xFD02 -->
+						<parameter name="VisualizationPrecision"
+										values="FINE"
+										type="enum"
+										default="FINE"
+										description="Increase the CGR Precision" />			
+					</target>
+					
+					<!-- pure visu generation, without linkable -->
+					<!-- <target name="cgr" inputStreamId="authoring" outputStreamId="authoringvisu"  /> -->
+					
+					<!-- below the dedicated CATPart for PowerBy interop (CV5,SLW)  ... use CXR25 compatibility mode -->  
+					<!-- <target name="CATPart" inputStreamId="authoring" outputStreamId="catiav5" conversionService="true" />   -->
+					<!-- No parameters required for Conversion - CXR25 CATPart AsResult this one is for PowerBy CATIAV5 -->
+					
+					<!-- from 22xFD01 : plugging the generic linkable==>step conversions -->
+					<target name="XCADPivot" inputStreamId="linkable" outputStreamId="XCADPivot"  downloadable="false" conversionService="true"/>
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="linkable" outputStreamId="*" downloadable="true" conversionService="true">												
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->						
+						<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" values="none|graphic|authoring" type="enum" default="none" description="authoring value requires role" />
+						<!-- parameter name="Composites" not yet supported-->
+						<!--parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" 	description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+
+					<target name="STEP_AP203" inputStreamId="authoring" outputStreamId="STEP_AP203" downloadable="true"/>
+					<target name="STEP_AP214" inputStreamId="authoring" outputStreamId="STEP_AP214" downloadable="true"/>
+					<target name="PDF" 		  inputStreamId="authoring" outputStreamId="PDF"        downloadable="true"/>
+					<target name="ACIS"       inputStreamId="authoring" outputStreamId="acis_powerby"  downloadable="false" conversionService="true" >
+					    <!-- ACIS version is no longer a parameter for 'internal DS format', it s hard coded as version=26  -->
+					</target>
+		            <!-- Need to add XCV   for 23XFD02	-->
+					<target name="xcvcore_zip" inputStreamId="linkable" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target>
+				</source>
+				<source name="SLDDRW" type = "Drawing">
+					<target name="UDL"  inputStreamId="authoring"     outputStreamId="authoringvisu" downloadable="false" conversionService="true" /> 
+					<target name="PDF"  inputStreamId="authoringvisu" outputStreamId="*" downloadable="true" conversionService="true" > <!-- this one is a 2nd step conversion -->
+						<!-- PDF Parameters are coming from CATSettings on Converter Machine -->
+						<!-- PDF parameters from 22xFD03 -->
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+					
+					<!-- 24xFD01 new target formats proposed by solidworks CAD-->
+					<target name="DWG" inputStreamId="authoring" outputStreamId="DWG" downloadable="true" >
+					    <parameter name="reader" values="SOLIDWORKS" type="enum" default="SOLIDWORKS" description="conversion done by SLW CAD, wrapped in DFC" mandatory="true"/>
+					</target>
+					<target name="DXF" inputStreamId="authoring" outputStreamId="DXF" downloadable="true" >
+					    <parameter name="reader" values="SOLIDWORKS" type="enum" default="SOLIDWORKS" description="conversion done by SLW CAD, wrapped in DFC" mandatory="true"/>
+					</target>
+				</source>
+				<source name="SLDASM" type="VPMReference" subtype="XCADAssemblyRepReference">
+					<target name="STEP" inputStreamId="authoring" outputStreamId="*" downloadable="true" conversionService="true" cloudOnly="true" >												
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->						
+						<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" values="none|graphic|authoring" type="enum" default="none" description="authoring value requires role" />
+						<!-- parameter name="Composites" not yet supported-->
+						<!--parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" 	description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>	
+				</source>
+				
+				<events>
+					<event name="promote" 	type="Trigger" maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- activation for 22xFD01 : XCAD save event ...
+					     Here we say trigger type, since FAR requested the admin choice is never overloaded by cad user (force mode) -->
+					<event name="onXCADSave" type="Trigger"  />
+				</events>
+			</datasource>
+			
+			<!-- =============================== DRAFTSIGHT =========================================================================================  -->
+			<datasource name="DRAFTSIGHT">
+				<source name="DWG" type="Drawing">					
+					<target name="UDL" inputStreamId="authoring"     outputStreamId="authoringvisu"  downloadable="false" conversionService="true"/>
+				    <target name="PDF" inputStreamId="authoringvisu" outputStreamId="*"              downloadable="true"  conversionService="true">  <!-- from 24xFD03 -->
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+				</source>
+				<!-- DRAFTSIGHT only supports DWG and not DXF -->				
+				
+				<events>
+					<event name="promote"	type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- to be activated in 25XFD02 : XCAD save event, Trigger means we apply the rule found in server without wondering about CAD user ...-->
+					<event name="onXCADSave" type="Trigger"/>
+				</events>
+			</datasource>
+			
+			<!-- =============================== AUTOCAD (only 2D Drawing) =========================================================================================  -->
+			<datasource name="AUTOCAD">
+				<source name="DWG" type="Drawing">					
+					<target name="UDL" inputStreamId="authoring"     outputStreamId="authoringvisu"  downloadable="false" conversionService="true"/>
+					<target name="PDF" inputStreamId="authoringvisu" outputStreamId="*" downloadable="true" conversionService="true"> <!--from 24xFD03 -->		
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+				</source>
+				
+				<!-- from 22x FD04,we support DXF to UDL, even in conversion service-->
+				<source name="DXF" type = "Drawing">					
+					<target name="UDL" inputStreamId="authoring"     outputStreamId="authoringvisu"  downloadable="false" conversionService="true"/>
+					<target name="PDF" inputStreamId="authoringvisu" outputStreamId="*" downloadable="true" conversionService="true"> <!-- from 24xFD03 -->	
+						<parameter name="MultiSheetMode"    values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+				</source>
+			
+				<events>
+					<event name="promote"	type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- WJI/PPN - 23xBeta2 type is trigger because the rule is to be enforced -->
+					<event name="onXCADSave" type="Trigger"  />
+				</events>
+			</datasource>
+						
+			<!-- =============================== NX (from 21xFD07) =========================================================================================  -->
+			<datasource name="NX">
+				<source name="PRT" type="Part">
+					<target name="ExactGeometry" inputStreamId="authoring" outputStreamId="linkable"  downloadable="false" conversionService="true">
+						<!-- For improving visualization precision -->
+						<parameter name="VisualizationPrecision"
+										values="FINE"
+										type="enum"
+										default="FINE"
+										description="Increase the CGR Precision" />			
+					</target>
+					<!--22XFD02 : plugging the generic linkable==>step conversions -->
+					<target name="XCADPivot" inputStreamId="linkable" outputStreamId="XCADPivot"  downloadable="false" conversionService="true"/>
+					<!--  For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="linkable" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 	-->					
+						<parameter name="ApplicationProtocol" values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" values="none|graphic" type="enum" default="none" description="with PMI" />
+						<!--parameter name="Composites" not yet supported -->
+						<!--parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+					<!-- ACIS from 23xFD04    ** tmp activation during FD03 dev period -->
+					<target name="ACIS"       inputStreamId="authoring" outputStreamId="acis_powerby"  downloadable="false" conversionService="true" >
+						<parameter name="StreamFormat" values="NX" type="enum" default="NX" description="" mandatory="true"/>
+					</target>
+		            <!-- Need to add XCV   for 24x 	 -->		
+					<target name="xcvcore_zip" inputStreamId="linkable" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target>
+				</source>
+				
+				<!-- To be activated in 23xFD02  -->
+				<source name="PRT" type = "Drawing">					
+					<target name="UDL" inputStreamId="DWG" outputStreamId="authoringvisu" downloadable="false" conversionService="true" />
+				</source>
+				
+				<events>
+					<event name="promote"	type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- to be activated in 22XFD04 : XCAD save event ...-->
+					<event name="onXCADSave" type="interactiveUpdate"/>
+				</events>
+			</datasource>
+			
+			<!-- =============================== CREO  from 22xFD01  =========================================================================================  -->
+			<datasource name="CREO">
+				<source name="PRT,XPR" type="Part">					
+					<target name="ExactGeometry" inputStreamId="authoring" outputStreamId="linkable"  downloadable="false" conversionService="true">
+						<!-- For improving visualization precision -->
+						<parameter name="VisualizationPrecision"
+										values="FINE"
+										type="enum"
+										default="FINE"
+										description="Increase the CGR Precision" />			
+					</target>
+
+
+					<!-- 22XFD02 : plugging the generic linkable==>step conversions -->
+					<target name="XCADPivot" inputStreamId="linkable" outputStreamId="XCADPivot"  downloadable="false" conversionService="true"/>
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="linkable" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->					
+						<parameter name="ApplicationProtocol" 	values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" 		values="none|graphic" type="enum" default="none" description="with PMI" />
+						<!--parameter name="Composites" not yet supported -->
+						<!--parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+					    <parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />						
+					</target>
+					<!-- ACIS from 23xFD04    ** tmp activation during FD03 dev period -->
+					<target name="ACIS"       inputStreamId="authoring" outputStreamId="acis_powerby"  downloadable="false" conversionService="true" >
+						<parameter name="StreamFormat" values="CREO" type="enum" default="CREO" description="" mandatory="true" />
+					</target>
+		            <!-- Need to add XCV   for 24x 	-->		
+					<target name="xcvcore_zip" inputStreamId="linkable" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target> 
+
+				</source>
+				
+				<!-- To be activated in 23xFD02	 -->		
+				<source name="DRW" type = "Drawing">					
+					<target name="UDL" inputStreamId="DWG" outputStreamId="authoringvisu" downloadable="false" conversionService="true" />
+				</source>
+				
+				<events>
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- from 22xFD04  : XCAD save event ... -->
+					<event name="onXCADSave" type="interactiveUpdate"/>
+				</events>
+			</datasource>
+
+			<!-- =============================== INVENTOR  from 21xFD10 / 22XFD01 =================================================================================  -->
+			<datasource name="INVENTOR">
+				<source name="IPT" type="Part">		
+					<target name="ExactGeometry" inputStreamId="authoring"  outputStreamId="linkable" downloadable="false" conversionService="true">
+						<!-- For improving visualization precision -->
+						<parameter name="VisualizationPrecision"
+										values="FINE"
+										type="enum"
+										default="FINE"
+										description="Increase the CGR Precision" />			
+					</target>
+					<!-- Planned in 24xFD01: plugging the generic linkable==>step conversions -->
+					<target name="XCADPivot" inputStreamId="linkable" outputStreamId="XCADPivot" downloadable="false" conversionService="true" />
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="linkable" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242 -->						
+						<parameter name="ApplicationProtocol" 	values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data" mandatory="true"/>
+						<parameter name="3DAnnotations" 		values="none|graphic" type="enum" default="none" description="with PMI" />
+						<!-- parameter name="Composites" not yet supported -->
+						<!-- parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+		            <!-- Need to add XCV   for 24x  -->
+					<target name="xcvcore_zip" inputStreamId="linkable" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target> 
+				</source>
+
+                <!-- To be activated in 23xFD02 -->
+				<source name="IDW,DWG" type = "Drawing">					
+					<target name="UDL" inputStreamId="DWG" outputStreamId="authoringvisu" downloadable="false" conversionService="true" />
+				</source>
+				
+				<events>
+					<event name="promote"		type="Trigger"		maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!--Here we say interactiveUpdate type, since there is a panel in inventor save -->
+					<event name="onXCADSave" type="interactiveUpdate"  />
+				</events>
+			</datasource>
+
+			
+			
+			<!-- =============================== SOLIDEDGE  == from 22xFD04 =========================================================================================  -->
+			<datasource name="SOLIDEDGE">
+				<source name="PAR,PSM" type = "SEComponent">					
+					<target name="ExactGeometry" inputStreamId="authoring"  outputStreamId="linkable" downloadable="false" conversionService="true" >
+						<!-- For improving visualization precision -->
+						<parameter name="VisualizationPrecision"
+										values="FINE"
+										type="enum"
+										default="FINE"
+										description="Increase the CGR Precision" />			
+					</target>		
+					<!-- Planned in 24xFD01 : plugging the generic linkable==>step conversions  -->
+					<target name="XCADPivot" inputStreamId="linkable" outputStreamId="XCADPivot" downloadable="false" conversionService="true" />
+					<!-- For Step_Pivot, all parameters are hardcoded -->
+					<target name="STEP" inputStreamId="linkable" outputStreamId="*" downloadable="true" conversionService="true">
+						<!-- STEP Parameters are coming from CATSettings on Converter Machine - Default Level AP242E1 -->						
+						<parameter name="ApplicationProtocol" 	values="AP203|AP203E2|AP214|AP214E3|AP242E1|AP242E2|AP242E3"  type="enum" default="AP242E1" description="Specifies the STEP format into which the data will be exported as explained in Dealing with STEP Data"  mandatory="true" />
+						<parameter name="3DAnnotations" 		values="none|graphic" type="enum" default="none" description="" />
+						<!-- parameter name="Composites" not yet supported -->
+						<!-- parameter name="UserDefinedAttributes" not applicable for XCAD -->
+						<parameter name="ValidationProperties"  values="true|false" type="enum" default="false" description="" />
+						<!--  new STEP parameters from 25xFD03 -->
+						<parameter name="Groups"  				values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="Units"  				values="mm|inch" 	type="enum" default="mm" 		description="units : metric or imperial" />
+						<parameter name="GeometricalSets"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExactGeometry"  		values="exact|tessellated|both" type="enum" default="exact" description="" />
+						<parameter name="ExportAlsoEdges"  		values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNoShowEntities"  values="true|false" type="enum" default="false" 	description="" />
+						<parameter name="ExportAlsoNonVisualizedLayers"  values="true|false" type="enum" default="false" 	description="" />
+					</target>
+		            <!-- Need to add XCV for 24x -->	
+					<target name="xcvcore_zip" inputStreamId="linkable" outputStreamId="XCV" downloadable="false" conversionService="true" cloudOnly="true" >
+						<parameter name="XCV_TRACE_LEVEL" values="NONE|LOW|MEDIUM|HIGH"  type="enum" default="NONE" description="traces level for the conversion"/>
+						<parameter name="optimisedBoundingBox" values="true|false" type="enum" default="false" description="Smallest parallelepiped volume that contains the part"/>
+					</target>
+				</source>
+				<!-- From 23xFD03 -->
+				<source name="DFT" type = "Drawing">					
+					<target name="UDL" inputStreamId="DWG" outputStreamId="authoringvisu" downloadable="false" conversionService="true"/>
+				</source> 				
+				
+				<events>
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!--Here we say interactiveUpdate type, since there is a panel in Solidedge Save -->
+					<event name="onXCADSave" type="interactiveUpdate"  />
+				</events>
+			</datasource>
+
+
+			<!-- =============================== GOEVIA SURPAC   ==> in a separated declarative file ===========================================================  -->
+
+			<!-- =============================== AUTODESK REVIT  == DS PowerBy connector from 23xFD01 ===========================================================  -->			
+			<datasource name="REVIT" >
+				<source name="RVT" type = "Part" subtype = "AECType">					
+					<target name="ExactGeometry" inputStreamId="authoring" downloadable="false" outputStreamId="linkable" conversionService="true" cloudOnly="true" >
+						<parameter name="StreamFormat" values="Revit" type="enum" default="Revit" description="" mandatory="true"/>
+						<!-- (string, not boolean, as per Brice's request) from  24xFD04 - moved to 25xFD01 -->
+						<!-- <parameter name="OptimizedUpdate"   values="yes"  type="enum" default="yes"  description="recompute only modified features (keep synchro links as much as possible)" /> -->
+					</target>
+				</source>
+				
+				<!-- import IFC  uses special model, with IFC in DFA, and 'native 3DEXP' instead of linkable'  --> 
+				<!-- Experimental format IFT (only cloud)
+				<source name="IFT" type = "Part">					
+					<target name="ExactGeometry" inputStreamId="IFC" outputStreamId="authoring" conversionService="true" cloudOnly="true"/>
+				</source> -->
+
+               <!-- From 23xFD02 -->
+				<source name="DWG" type = "Drawing">					
+					<target name="UDL" inputStreamId="authoring" outputStreamId="authoringvisu" downloadable="false" conversionService="true" cloudOnly="true"/>
+					<!-- from 25xFD01 -->
+					<target name="PDF" inputStreamId="authoringvisu" outputStreamId="*" downloadable="true" conversionService="true" cloudOnly="true"> 	
+						<parameter name="MultiSheetMode"		values="CURRENT|ALLIN1|ALLCURRENT1st" type="enum" default="CURRENT"  description="Define what sheets will the PDF includes" />
+						<parameter name="ExcludeDetailSheet"   values="true|false"               type="enum" default="false"     description="Exclude the details sheets of the drawing in the PDF" />
+						<parameter name="ColorMode"            values="RGB|GREYSCALE|MONO"       type="enum" default="RGB"     description="Color mode" />
+						<parameter name="TextBlanking"         values="true|false"               type="enum" default="false"    description="Display the text blanking" />
+						<parameter name="WhiteVectorsInBlack"  values="true|false"               type="enum" default="true"    description="Change the white vector in black to be seen on white background" />
+						<!-- same as for STEP, the below mand param allows to compute the 'unified format (refinement from 'PDF'  -->
+						<parameter name="PDFSaveMode"          values="PDF_1_3|PDF_A_1b|PDF_1_6" type="enum" default="PDF_1_3" description="PDF version to use" mandatory="true"/>
+					</target>
+				</source>
+
+				
+				<events>
+					<event name="promote"		type="Trigger"	maturityGraph="lifecycle" />
+					<event name="ondemand" />
+					<!-- Setting up Trigger type after discussion with FNJ -->
+					<event name="onXCADSave" type="Trigger"  />
+				</events>
+			</datasource>	
+			
+		</datasources>
+	</converter>
+</derivedformatmanagement>

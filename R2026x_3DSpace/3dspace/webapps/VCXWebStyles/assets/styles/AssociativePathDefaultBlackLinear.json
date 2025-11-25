@@ -1,0 +1,57 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0,
+        0.2117647058823529,
+        0.5568627450980392,
+        0.7686274509803921
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Color.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },  
+    {
+      "name": "Collab.Body.Line.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Actor.IsAlwaysOnTop",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Collab.Body.Line.Back.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        0.9372549019607843,
+        0.9372549019607843,
+        0.9372549019607843,
+        0.00392156862745098
+      ]
+    },
+    {
+      "name": "Collab.Body.Line.Back.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    },
+    {
+      "name": "Collab.Body.Line.Type",
+      "type": "VCXPropertyValueEnum",
+      "value": 0
+    }
+  ],
+  "name": "AssociativePathDefaultBlackLinear",
+  "objectID": "styleID_AssociativePathDefaultBlackLinear",
+  "visible": true
+}

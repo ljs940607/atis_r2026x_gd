@@ -1,0 +1,20 @@
+{
+  "scheduleAndPrices": "График и цены",
+  "addPhase": "Добавить этап",
+  "phaseNumber": "Этап {number}",
+  "description": "Описание",
+  "price": "Цена",
+  "timeline": "Временная шкала",
+  "total": "Итог",
+  "paymentAreDueAtBeginningOfPhase": "Примечание. Платежи должны осуществляться в начале каждого этапа.",
+  "startDate": "Начало: {date}",
+  "deliveryDate": "Доставка: {date}",
+  "edit": "Редактировать",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "mustContainOnePhase": "График должен содержать хотя бы 1 этап",
+  "noPhaseDefined": "Не определено ни одного этапа",
+  "failedToSaveModifications": "Сбой при сохранении изменений",
+  "failedToLoadPhases": "Сбой при загрузке этапов",
+  "errorOnlyOnePhaseSupported": "В данный момент можно добавить только один этап."
+}

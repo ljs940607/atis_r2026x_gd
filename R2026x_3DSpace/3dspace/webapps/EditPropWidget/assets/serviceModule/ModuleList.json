@@ -1,0 +1,30 @@
+{
+	"list": [
+		{
+			"service" : "3DSpace",
+			"relativePath" : "/webapps",
+			"moduleList": [
+				"DS/EditPropWidget/EditPropWidget",
+				"DS/ClassificationsFacet/ClassificationFacet",
+				"DS/ClassificationProp/utils/ClassifPropControl",
+				"DS/IPClassifyUtil/IPClassifyUtility",
+				"DS/PLMNewFolderActive/PLMNewFolderActiveController",
+				"PLMNewLibraryActive",
+				"PLMNewIPProtectionActive",
+				"LibraryActive",
+				"LibraryEditor",
+				"ENOIPProtectionActive",
+				"ENOIPProtection",
+				"FolderActive",
+				"FolderEditor",
+				"IPClassifyUXUtil",
+				"IPClassifyActive",
+				"IPClassifyUX",
+				"IPClassifyFindInContext",
+				"FolderEditorOpenness",
+				"IPClassifyFindInContext"
+
+			]
+		}
+	]
+}

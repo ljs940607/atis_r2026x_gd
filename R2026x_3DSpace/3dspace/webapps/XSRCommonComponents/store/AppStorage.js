@@ -1,0 +1,1 @@
+define("DS/XSRCommonComponents/store/AppStorage",(function(){const n={};return{set:function(e,t){n[e]=t},get:function(e){return n.hasOwnProperty(e)?n[e]:null},remove:function(e){delete n[e]}}}));

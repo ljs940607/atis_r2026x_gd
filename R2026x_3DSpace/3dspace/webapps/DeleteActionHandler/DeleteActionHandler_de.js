@@ -1,0 +1,1 @@
+define("DS/DeleteActionHandler/DeleteActionHandler_de",{});define("DS/DeleteActionHandler/assets/nls/DeleteActionHandlerNls",{delete_:"Löschen",confirm:"Möchten Sie die ausgewählten Objekte löschen? Dieser Vorgang ist endgültig und kann nicht rückgängig gemacht werden."});

@@ -1,0 +1,57 @@
+.sch-datagridview-watch {
+  box-sizing: border-box;
+  border: 1px solid #d1d4d4;
+  border-top: 4px solid #368ec4;
+  border-radius: 4px 4px 0px 0px;
+}
+.sch-datagridview-watch .wux-tree-treelistview[expander-style=triangle] .wux-layouts-treeview-expander[data-wux-state=noChildren] {
+  margin-right: 0 !important;
+  margin-left: -7px !important;
+  width: 13px;
+  height: 13px;
+}
+.sch-datagridview-watch .sch-dgv-node-root:not([is-preselected]) {
+  background-color: #f4f5f6;
+}
+.sch-datagridview-watch .sch-dgv-node-root .wux-tweakers-string-label {
+  font-weight: bold;
+}
+.sch-datagridview-watch .wux-layouts-datagridview-icon.wux-ui-3ds-home {
+  color: #b4b6ba;
+}
+.sch-datagridview-watch .wux-layouts-datagridview-icon.wux-user-icon {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sch-datagridview-watch .sch-dgv-dataport-input .wux-layouts-datagridview-icon.wux-user-icon {
+  border: 1px solid #d1d4d4;
+  background-color: #d1d4d4 !important;
+  color: white !important;
+  text-transform: lowercase;
+}
+.sch-datagridview-watch .sch-dgv-dataport-input-external .wux-layouts-datagridview-icon.wux-user-icon {
+  border: 1px solid #d1d4d4;
+  background-color: #d1d4d4 !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+.sch-datagridview-watch .sch-dgv-dataport-output .wux-layouts-datagridview-icon.wux-user-icon {
+  border: 1px solid #d1d4d4;
+  background-color: #d1d4d4 !important;
+  color: #b4b6ba !important;
+}
+.sch-datagridview-watch .sch-dgv-dataport-local .wux-layouts-datagridview-icon.wux-user-icon {
+  border: 1px solid #d1d4d4;
+  background-color: white !important;
+  color: #d1d4d4 !important;
+}
+.sch-datagridview-watch .sch-dgv-dataport-input[is-preselected] .wux-layouts-datagridview-icon.wux-user-icon,
+.sch-datagridview-watch .sch-dgv-dataport-output[is-preselected] .wux-layouts-datagridview-icon.wux-user-icon,
+.sch-datagridview-watch .sch-dgv-dataport-local[is-preselected] .wux-layouts-datagridview-icon.wux-user-icon,
+.sch-datagridview-watch .sch-dgv-dataport-input-external[is-preselected] .wux-layouts-datagridview-icon.wux-user-icon {
+  border: 1px solid white;
+}

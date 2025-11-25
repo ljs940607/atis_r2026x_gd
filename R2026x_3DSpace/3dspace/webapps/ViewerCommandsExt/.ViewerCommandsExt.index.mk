@@ -1,0 +1,11 @@
+m|PADUtils\ViewerCommandsExt.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24286|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ViewerCommandsExt\ViewerCommandsExt.js|1728782657|2932
+s|PADUtils\ViewerCommandsExt.mweb\src\A.js|1602684643|43
+u|PADUtils\ViewerCommandsExt.mweb\src\ViewerCommandsExt.js|1602684645|1
+u|PADUtils\ViewerCommandsExt.mweb\src\ViewerScreenshotUtils.js|1726223493|6099
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

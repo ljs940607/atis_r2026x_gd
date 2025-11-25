@@ -1,0 +1,1 @@
+Proj4js.defs["EPSG:6262"] = "+proj=col_urban +lat_0=1.20098951388889 +lon_0=-77.2531256333333 +x_0=980469.695 +y_0=624555.332 +h_0=2530 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs";

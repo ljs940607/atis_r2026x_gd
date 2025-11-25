@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_it",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Fed Services sembrano essere inattivi",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" È possibile che non siano state caricate tutte le previsioni",CUSTOM_ATTR_APPLIED:"Attributi personalizzati aggiornati"});

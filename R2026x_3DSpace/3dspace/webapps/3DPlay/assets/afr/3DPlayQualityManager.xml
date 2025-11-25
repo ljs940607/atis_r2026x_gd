@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  /*
+  * @Fullreview  T9N 18:12:18  IR-652463-3DEXPERIENCER2019x
+  */
+  -->
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="3DSHAREAfrWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface  WkbInterface= "CATI3DSHAREFixedAfrWorkshopConfiguration"/>
+  </Template>
+
+  <Template syp:name="3DSHAREAfrWorkshopHeaders" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <CATCommandHeader ID = "QualityManager" ClassName="DS/3DPlayCommands/CmdQualityManager" HelpResourceFile="3DPlayCommands/3DPlayHelpForCommands3D" ResourceFile="3DPlay/3DPlayExperience3D" />
+    </CATCmdHeadersList>
+  </Template>
+
+  <Template syp:name="3DSHAREAfrWorkshopAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="3DSHAREFixedWorkbench">
+      <CATCmdContainer Name="SectionViews" RepresentationType="AfrActionBarSection">
+        <CATCmdStarter Name = "QualityManager" Command = "QualityManager"/>
+      </CATCmdContainer>
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

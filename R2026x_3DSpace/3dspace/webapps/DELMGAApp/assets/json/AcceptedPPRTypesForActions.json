@@ -1,0 +1,20 @@
+{
+   "REORDER":{
+      "PPRType":[
+         "SYSTEM",
+         "OPERATION",
+         "WORKINSTRUCTION",
+         "RESOURCE",
+         "PRODUCT"
+      ]
+   },
+   "REPARENT":{
+      "PPRType":[
+         "SYSTEM",
+         "OPERATION",
+         "WORKINSTRUCTION",
+         "RESOURCE",
+         "PRODUCT"
+      ]
+   }
+}

@@ -1,0 +1,12 @@
+m|Web3DUX\LevelSelector.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\LevelSelector\LevelSelector.css|1744917730|1402
+s|Web3DUX\LevelSelector.mweb\src\LevelSelector.css|1475050139|1651
+t|win_b64\webapps\LevelSelector\LevelSelector.js|1723278257|12440
+s|Web3DUX\LevelSelector.mweb\src\LevelSelector.js|1615629241|41389
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

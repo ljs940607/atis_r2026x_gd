@@ -1,0 +1,15 @@
+m|ENO6WCollabComponents\CollabComponents.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25255|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CollabComponents\CollabComponents.js|1757729883|14466
+s|ENO6WCollabComponents\CollabComponents.mweb\src\CollabComponents.js|1732337775|71
+t|win_b64\webapps\CollabComponents\CreateTask.html|1756935061|7768
+s|ENO6WCollabComponents\CollabComponents.mweb\src\CreateTask.html|1756923333|7768
+t|win_b64\webapps\CollabComponents\assets\CreateTask.css|1756935055|1135
+s|ENO6WCollabComponents\CollabComponents.mweb\src\assets\CreateTask.css|1756923333|1135
+u|ENO6WCollabComponents\CollabComponents.mweb\src\CreateTask.js|1757708743|23819
+u|ENO6WCollabComponents\CollabComponents.mweb\src\CreateTaskConfig.js|1748369486|8925
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

@@ -1,0 +1,1 @@
+define("DS/DELWebViewerCommon/DELWebViewerCommon_fr",{});define("DS/DELWebViewerCommon/assets/nls/nls",{"Error.InvalidInput.Message":"Entrée non valide fournie."});

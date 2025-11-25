@@ -1,0 +1,40 @@
+{
+  "AdvancedSettings": "高级设置",
+  "MobileMessage": "“视觉质量”命令在移动设备上不可用。",
+  "Elements": {
+    "Low": "快速",
+    "Medium": "平衡",
+    "High": "质量",
+    "Ultra": "超级",
+    "Default": "建议",
+    "Custom": "自定义"
+  },
+  "PostProcessElements": {
+    "NoAA": "NoAA",
+    "FXAA": "FXAA",
+    "SMAA": "SMAA",
+    "Iterative": "迭代",
+    "TAA": "TAA"
+  },
+  "TransparencyElements": {
+    "AlphaBlending": "Alpha 混合处理",
+    "WeightedAverage": "权重平均值",
+    "OrderIndependent": "顺序独立"
+  },
+  "FilteringElements": {
+    "PCFOptimized": "PCF 优化",
+    "ESM": "ESM",
+    "Poisson": "泊松"
+  },
+  "SSAOElements": {
+    "None": "无",
+    "Low": "8 个样本",
+    "Medium": "16 个样本",
+    "High": "32 个样本"
+  },
+  "SectionCappingElements": {
+    "Off": "关",
+    "Auto": "自动",
+    "On": "打开"
+  }
+}

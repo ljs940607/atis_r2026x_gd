@@ -1,0 +1,1 @@
+define("DS/WidgetServices/WidgetServices_zh",{});define("DS/WidgetServices/assets/nls/SecurityContextNls",{ErrorSecurityContextEmpty:"无法找到用户的凭据。尝试再次登录，否则请与支持人员联系。",ErrorSecurityContext:"无法找到用户的凭据。请尝试再次登录，否则请与支持人员联系。",ErrorTimeOut:"无法找到用户的凭据。出现连接超时。尝试再次登录，否则请与支持人员联系。"});

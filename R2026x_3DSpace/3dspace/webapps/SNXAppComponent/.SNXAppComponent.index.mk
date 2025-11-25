@@ -1,0 +1,9 @@
+m|SNResultUX\SNXAppComponent.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SNXAppComponent\SNXAppComponent.js|1723278061|3002
+s|SNResultUX\SNXAppComponent.mweb\src\SNWebAfrXAppComponent.js|1700484326|8357
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

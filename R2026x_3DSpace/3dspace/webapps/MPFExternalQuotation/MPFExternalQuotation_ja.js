@@ -1,0 +1,1 @@
+define("DS/MPFExternalQuotation/MPFExternalQuotation_ja",{});define("DS/MPFExternalQuotation/assets/nls/externalQuotation",{externalQuotationUrl:"外部見積り URL",activateExternalQuotation:"外部見積りを有効にする"});

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Styles xmlns:syp="http://www.3ds.com/xsd/SYP">
+
+  <Template syp:name="GlobeViewerAfrWorkshopInterface" Target="CATCmdInterface">
+    <CATCmdInterface  WkbInterface= "CATIGlobeViewerAfrWorkshopConfiguration"/>
+  </Template>
+
+  <Template syp:name="GlobeViewerAfrWorkshopHeaders" Target="CATCmdHeadersList">
+    <CATCmdHeadersList>
+      <CATCommandHeader ID = "DayAndNight"                  ClassName = "DS/SocialGlobe/CmdTerminatorLine"           SharedLibraryName = "ShareUI" ResourceFile = "SocialGlobe/GlobeViewer" />
+    </CATCmdHeadersList>
+  </Template>
+
+  <Template syp:name="GlobeViewerAfrWorkshopAccess" Target="CATCmdWorkbench">
+    <CATCmdWorkbench Name="GlobeViewerWorkbench">
+
+      <CATCmdContainer Name = "Display Settings"          Visibility = "1" RepresentationType="AfrActionBarSection">
+        <CATCmdStarter Name = "DayAndNight Line"         Command = "DayAndNight" />
+      </CATCmdContainer>
+      
+    </CATCmdWorkbench>
+  </Template>
+</Styles>

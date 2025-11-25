@@ -1,0 +1,38 @@
+{
+	"Actor.Name": "Title",
+	"ProgressNotification.Init" : "Initializing ",
+	"ProgressNotification.ConnectTo" : "Connecting to",
+	"ProgressNotification.Loading" : "Loading ",
+	"ProgressNotification.Opening" : "Opening ",
+	"ProgressNotification.Materials" : "Materials",
+	"ProgressNotification.Recovering" : "Restoring ",
+	"ProgressNotification.Updating1" : "Updating (1/2)",
+	"ProgressNotification.Updating2" : "Updating (2/2)",
+	"ProgressNotification.ProductStructure" : "Product structure",
+	"ProgressNotification.SetComponentAttributes" : "SetComponentAttributes",
+
+
+	"Notification.Error" : "Error",
+    "Notification.EWS.Message" : "Initialization failed.",
+	"Notification.ServerDown.Title" : "The server connection failed",
+	"Notification.ServerDown.SubTitle" : "Reload your page.",
+	"Notification.ExpCreationFailed.Title": "Experience Creation Failed",
+	"Notification.ExpCantOpen.Title": "Experience could not be opened.",
+	"Notification.NewExpCreationFailed.Title": "New Experience Creation Failed",
+	"Notification.InsertFailed.Title" : "Import failed",
+	"Notification.InsertFailed.SubTitle" : "Your file may be unsupported.<br>Please <b>try again</b> or <b>use another .3dxml</b>.",
+	"Notification.InsertOk.Title" : ".3dxml file imported",
+	"Notification.InsertOk.SubTitle" : "The <b>imported file</b> contains:<br> - <b>",
+	"Notification.InsertOk.ProductCount" : "</b> products<br> ",
+	"Notification.InsertOk.AmbienceCount" : "</b> ambiences<br> ",
+	"Notification.InsertOk.MaterialCount" : "</b> materials<br> ",
+	"Notification.InsertOk.PresentationCount" : "</b> presentations ",
+	"Notification.Recovering.Message" : "Recover Experience failed.",
+	"Notification.SessionNotRecovered.Title": "Session could not be recovered",
+	"Notification.CloseExpFailed.Message": "Close experience failed.",
+	"Notification.FailedContent.Message": "Failed to load content.",
+	"Notification.Failed.NotSupported" : "Unsupported product",
+	"VCXPlatformServicesManager.InsertMaterialUnavailable": "Failed to insert Material, select at least a product."
+
+
+}

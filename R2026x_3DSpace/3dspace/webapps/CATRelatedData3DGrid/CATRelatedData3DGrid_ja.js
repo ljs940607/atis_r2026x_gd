@@ -1,0 +1,1 @@
+define("DS/CATRelatedData3DGrid/CATRelatedData3DGrid_ja",{});define("DS/CATRelatedData3DGrid/assets/nls/CATRelatedData3DGrid",{lblOk:"OK",lblApply:"適用",lblClose:"閉じる",lblPitch:"ピッチ",DirectionLabel:"方向ラベル",lblDirection1:"先頭",lblDirection2:"秒",lblDirection3:"3 番目",lblScale:"単位スケール"});

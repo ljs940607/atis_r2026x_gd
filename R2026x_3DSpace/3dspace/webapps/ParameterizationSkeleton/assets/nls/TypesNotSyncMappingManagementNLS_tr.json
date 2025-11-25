@@ -1,0 +1,37 @@
+{
+  "intro": "Hiçbir zaman iş birliği yapılmaması gereken Fiziksel Ürün ve Parça özelleştirme tiplerini tanımlamak için eşlemeyi değiştirin.",
+  "PartName": "Parça",
+  "PartDisplayName": "Parça",
+  "ProductName": "VPM Referansı",
+  "ProductDisplayName": "Fiziksel Ürün",
+  "ProductsName": "Ürünler",
+  "ProductsDisplayName": "Model Sürümü",
+  "TNSMappingHeader": {
+    "Type": "Tip",
+    "SpecTypes": "Özelleştirme Tipleri",
+    "Status": "Durum"
+  },
+  "EmptySpecializationTypeListBegin": "Şunun özelleştirme tipi yok: ",
+  "EmptySpecializationTypeListEnd": " iş birliği yapılmayacak olarak beyan edilir.",
+  "ImmutableTNSMappingLine": "Bu eşleme değiştirilemez.",
+  "SpeTypeSelectorPlaceholder": "Şunun özelleştirme tipini seçin: ",
+  "SpeTypeAddButton": "Tip ekle",
+  "UserMessage": {
+    "DeployFail": "Uygulama talebi başarısız oldu.",
+    "DeploySuccess": "Uygulama talebi başarılı. Yeni eşleme dağıtıldı.",
+    "ResetFail": "Sıfırlama talebi başarısız oldu.",
+    "ResetSuccess": "Sıfırlama talebi başarılı oldu.",
+    "NoActionApply": "Uygulanacak değişiklik yok.",
+    "NoActionReset": "Sıfırlanacak değişiklik yok.",
+    "TNSMappingHasBeenRemovedAdd": "Yeni eşlemenin eklenmesi, gereksizlikleri önlemek amacıyla mevcut eşlemenin kaldırılmasına yol açtı.",
+    "TNSMappingHasBeenRemovedUndelete": "Silinecek eşlemenin geri yüklenmesi, gereksizlikleri önlemek amacıyla eklenen eşlemelerin kaldırılmasına yol açtı."
+  },
+  "Tooltip": {
+    "NotAllowed": "Bu gerekli bir değerdir. Hiçbir eyleme izin verilmez.",
+    "ModifiedStatus": "Değiştirildi. Henüz uygulanmadı.",
+    "DeployedStatus": "Uygulandı.",
+    "DeleteAction": "Özelleştirme tipini silin.",
+    "UndeleteAction": "Silmeyi geri al.",
+    "TNSMappingError": "Bu özelleştirme tipi geçerli değil. Sonraki uygulamada kaldırılacak."
+  }
+}

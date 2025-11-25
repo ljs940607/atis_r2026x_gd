@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<!-- Copyright 2023 , Dassault Systemes. All rights reserved. -->
+  <head>
+    <title>Click And Buy</title>
+    <meta name="description" content="Entry point for click and buy UI" />
+    <meta name="keywords" content="Click And Buy Marketplace" />
+    <script>
+
+      window.viewChangeOptions = null;
+      widget.onViewChange = function (options) {
+          'use strict';
+          window.viewChangeOptions = options;
+          widget.viewChangeOptions = options;
+      };
+      widget.requestView({
+        type: 'maximized'
+      }); 
+      require([
+        'DS/MPFClickAndBuyComponent/ClickAndBuyWidget'
+      ], function (ClickAndBuyWidget) {
+        'use strict';
+
+        const clickAndBuyWidget = new ClickAndBuyWidget(widget);
+        widget.addEvent('onLoad', clickAndBuyWidget.load.bind(clickAndBuyWidget));
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

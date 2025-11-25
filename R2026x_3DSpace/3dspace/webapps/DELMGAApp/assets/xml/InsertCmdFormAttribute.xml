@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2015 -->
+<AttributesDescriptionList version="2.0" Title="Attributes Description List by Types" Description="Sample configuration file delivered by DS." xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/InsertCmdFormAttribute.xsd">
+    <Type name="DELLmiGeneralSystemReference">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+    </Type>
+    <Type name="DELLmiTransformationSystemReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+          </Section>
+    </Type>
+    <Type name="DELLmiWorkPlanSystemReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+          </Section>
+    </Type>
+    <Type name="DELLmiHeaderWorkPlanReference">
+     <Section name="Section.Attributes">
+         <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+         <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+</Type>
+    <Type name="DELLmiQtyControlProcessReference">
+     <Section name="Section.Attributes">
+         <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+         <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+</Type>
+    <Type name="DELLmiTransferSystemReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_ApplicabilityDate" dicoType="DELLmiProductionSystemReference" />
+           <Attribute name="V_QueuingModeIN" dicoType="DELLmiProductionSystemReference" />
+          </Section>
+    </Type>
+    <Type name="SourceSystem">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+          </Section>
+    </Type>
+    <Type name="SinkSystem">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+          </Section>
+    </Type>
+    <Type name="BufferSystem">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+          </Section>
+    </Type>
+    <Type name="DELLmiGeneralOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiPunctualOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiCurveOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiLoadingOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiUnloadingOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiTransferOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiRemoveMaterialOperationReference">
+         <Section name="Section.Attributes">
+           <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+           <Attribute name="V_description" dicoType="PLMEntity" />
+             <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+          </Section>
+    </Type>
+    <Type name="DELLmiHeaderOperationReference">
+     <Section name="Section.Attributes">
+       <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+       <Attribute name="V_description" dicoType="PLMEntity" />
+       <Attribute name="V_EstimatedTime" dicoType="DELLmiOperationReference" defaultValue="10.0" />
+      </Section>
+  </Type>
+    <Type name="Robot">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+        <Section name="Section.Robot">
+            <Attribute name="V_MTBF" dicoType="Robot" />
+            <Attribute name="V_DELRmi_MountingMethod" dicoType="Robot" />
+            <Attribute name="V_DELRmi_NbDOFs" dicoType="Robot" />
+        </Section>
+    </Type>
+    <Type name="CreateAssembly">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+    </Type>
+    <Type name="CreateMaterial">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+    </Type>
+    <Type name="CreateKit">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+    </Type>
+    <Type name="Provide">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_description" dicoType="PLMEntity" />
+        </Section>
+    </Type>
+
+    <!-- Work Instructions Configuration START-->
+    <Type name="DELWkiInstructionReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WIInstruction_Text" dicoType="DELWkiInstructionReference" displayType="richText"/>
+        </Section>
+    </Type>
+    <Type name="DELWkiSignOffReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WISignOff_Text" dicoType="DELWkiSignOffReference" displayType="richText"/>
+            <Attribute name="V_WISignOff_Actors" dicoType="DELWkiSignOffReference" />
+            <Attribute name="V_WISignOff_AllowPartial" dicoType="DELWkiSignOffReference" />
+            <Attribute name="V_WISignOff_NotMandatory" dicoType="DELWkiSignOffReference" />
+        </Section>
+    </Type>
+    <Type name="DELWkiAlertReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" displayType="richText" />
+            <Attribute name="V_WIAlert_ShowMode" dicoType="DELWkiAlertReference" />
+            <Attribute name="V_WIAlert_TrackConfirmation" dicoType="DELWkiAlertReference" />
+        </Section>
+    </Type>
+    <Type name="DELWkiAlertCautionReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" displayType="richText" />
+            <Attribute name="V_WIAlert_ShowMode" dicoType="DELWkiAlertReference" />
+            <Attribute name="V_WIAlert_TrackConfirmation" dicoType="DELWkiAlertReference" />
+        </Section>
+    </Type>
+    <Type name="DELWkiAlertWarningReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" displayType="richText" />
+            <Attribute name="V_WIAlert_ShowMode" dicoType="DELWkiAlertReference" />
+            <Attribute name="V_WIAlert_TrackConfirmation" dicoType="DELWkiAlertReference" />
+        </Section>
+    </Type>
+    <Type name="DELWkiAlertNoteReference" formStyle="Vertical">
+        <Section name="Section.Attributes">
+            <Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+            <Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" displayType="richText" />
+            <Attribute name="V_WIAlert_ShowMode" dicoType="DELWkiAlertReference" />
+            <Attribute name="V_WIAlert_TrackConfirmation" dicoType="DELWkiAlertReference" />
+        </Section>
+    </Type>
+    <!-- Work Instructions Configuration END-->
+</AttributesDescriptionList>

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "summary": "Bir karakter dizesinin alt setini alır.",
+  "description": "",
+  "dataPorts": {
+    "Input String": "karakter referans dizesi.",
+    "Start": "dize referansı için başlangıç konumu.",
+    "Length": "oluşturulacak alt dizenin uzunluğu ( <doc-idp-name translate=no>Length</doc-idp-name> <= 0 olursa alt dizenin uzunluğu dize referansının sonunda biter).",
+    "Output String": "oluşturulan alt dize."
+  },
+  "controlPorts": {
+    "In": "blok yürütmeyi tetikler.",
+    "Out": "işlem tamamlandığında etkinleştirilir."
+  },
+  "example": null
+}

@@ -1,0 +1,70 @@
+{
+  "sectionCutLimitation": "El corte de la sección no puede verse para realizar más secciones",
+  "sectionPrefix": "Sección",
+  "properties": {
+    "computeContour": "Calcular contorno"
+  },
+  "preferences": {
+    "sectionSectionTitle": "Sección",
+    "ComputeContourLbl": "Calcular contorno"
+  },
+  "notifyobjectselection": "Elija un objeto para aplicar la sección selectiva",
+  "ok": "Aceptar",
+  "cancel": "Cancelar",
+  "ValidateSel": "Seleccionar geometría para definir la posición del plano de sección",
+  "firstSelection": "Seleccionar geometría para definir la posición del plano de sección",
+  "secondSelection": "Validar las selecciones o seleccionar una segunda geometría para definir la posición del plano de sección",
+  "thirdSelection": "Seleccionar la tercera geometría para definir la posición del plano de sección",
+  "ValidateSelObj": "Validar objetos seleccionados ",
+  "DMUExitClippingEditionHdr": "Salir de edición de recorte",
+  "DMUHideShowHdr": "Ocultar/Mostrar",
+  "DMUPropertiesHdr": "Propiedades",
+  "DMUContourViewerHdr": "Visor de sección secundario",
+  "DMUClippingPositionHdr": "Posición de recorte...",
+  "DMUAlignViewHdr": "Alinear punto de vista",
+  "DMUCutHdr": "Cortar",
+  "DMUCopyHdr": "Copiar",
+  "DMUDeleteHdr": "Eliminar",
+  "DMUCutUncutHdr": "Cortar/No cortar...",
+  "clippingCutUncutPanel": {
+    "title": "Cortar/No cortar",
+    "okLabel": "Aceptar",
+    "applyLabel": "Aplicar",
+    "closeLabel": "Cancelar",
+    "cutSelectedElemBnt": "Cortar",
+    "uncutSelectedElemBnt": "Sin cortar",
+    "clearAllBnt": "Borrar todo",
+    "selectedElementslbl": "Elementos seleccionados:",
+    "noSelection": "No se ha seleccionado nada"
+  },
+  "clippingPositionPanel": {
+    "title": "Posición de recorte",
+    "position": "Posición",
+    "positionX": "X:",
+    "positionY": "Y:",
+    "positionZ": "Z:",
+    "translation": "Traslación",
+    "planeDirW": "W",
+    "planeDirU": "U",
+    "planeDirV": "V",
+    "orientation": "Orientación",
+    "orientationX": "X:",
+    "orientationY": "Y:",
+    "orientationZ": "Z:",
+    "rotation": "Rotación",
+    "rotationW": "W:",
+    "rotationU": "U:",
+    "rotationV": "V:",
+    "planePosition": "Posición del plano",
+    "offset": "Equidistancia",
+    "okBtn": "Aceptar",
+    "cancelBtn": "Cancelar"
+  },
+  "stepValueContextualMenu": {
+    "title": "Cambiar paso",
+    "stepValue": "Valor de paso",
+    "ApplyAllBnt": "Aplicar a todos los campos",
+    "okBtn": "Aceptar",
+    "cancelBtn": "Cancelar"
+  }
+}

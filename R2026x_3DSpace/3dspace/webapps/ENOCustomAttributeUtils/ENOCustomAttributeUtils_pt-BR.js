@@ -1,0 +1,1 @@
+define("DS/ENOCustomAttributeUtils/ENOCustomAttributeUtils_pt-BR",{});define("DS/ENOCustomAttributeUtils/assets/nls/ENOCustomAttribute",{CUSTOM_ATTR_FED_SERVICE_DOWN:"Os serviços do Fed parecem estar em baixa",CUSTOM_ATTR_COLUMNS_NOT_LOADED:" Todos os Predicados podem não ter sido carregados",CUSTOM_ATTR_APPLIED:"Atributos personalizados atualizados"});

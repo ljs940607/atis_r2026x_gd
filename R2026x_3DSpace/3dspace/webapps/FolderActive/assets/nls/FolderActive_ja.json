@@ -1,0 +1,30 @@
+{
+  "bookmark_defaultTitle": "ブックマーク フォルダ",
+  "activeBookmark_cmd": "ブックマーク フォルダの下で作業",
+  "name_Section_FavoriteFolders": "お気に入り",
+  "name_Section_AllFolders": "ブックマーク フォルダ",
+  "activeBookmark_msg_empty": "空",
+  "activeBookmark_btn_focus": "ブックマーク フォルダにフォーカスを設定",
+  "activeBookmark_msg_noBookmark": "ブックマーク フォルダが見つかりません",
+  "CMDExpandAll": "すべてを展開",
+  "CMDCollapseAll": "すべてを折りたたむ",
+  "InputLabel": "ブックマーク フォルダ",
+  "loader": {
+    "findingObjects": "ブックマーク フォルダを検索"
+  },
+  "multiSelectionComponent": {
+    "button_OK": "選択",
+    "button_Cancel": "キャンセル",
+    "widget_name": "ブックマーク フォルダで選択",
+    "PLMNewBookmarkWidgetName": "ブックマーク フォルダを選択",
+    "msg_ClassifyInProgress": "追加しています...",
+    "msg_ClassifySuccessful": "正常に追加されました。",
+    "msg_ClassifyFailed": "追加中にエラーが発生しました。追加のアクセス権がないか、指定したブックマーク フォルダにすでに追加されています。",
+    "msg_selectNodeToSeeInfo": "詳細を表示するには、ブックマーク フォルダを選択します。"
+  },
+  "multiSelectionNotSupported": "複数選択はサポートされていません。",
+  "favoriteSectionNotSupported": "このコマンドはお気に入りセクションではサポートされていません。",
+  "favoriteNotSupported": "このコマンドはお気に入りではサポートされていません。",
+  "sectionNotSupported": "このコマンドはセクションではサポートされていません。",
+  "noSelectionError": "このコマンドには選択が必要です。"
+}

@@ -1,0 +1,15 @@
+{
+  "confirmUpdateTitle": "更新确认",
+  "confirmUpdateMsg": "是否要继续执行此操作？\n一个或多个对象已在会话中被修改，但尚未保存。",
+  "confirmationMsg": "继续此操作将阻止您稍后保存它们。",
+  "cancelUpdate": "取消",
+  "continueUpdate": "继续",
+  "titleNbObject": "{nb} 个对象",
+  "sessionRefreshNeeded": {
+    "title": "需要刷新",
+    "subtitle": "会话中的某些对象必须刷新。",
+    "message": "刷新的对象将丢失最新修改。"
+  },
+  "refresh": "刷新会话",
+  "checkInSession": "正在检查会话中的当前对象..."
+}

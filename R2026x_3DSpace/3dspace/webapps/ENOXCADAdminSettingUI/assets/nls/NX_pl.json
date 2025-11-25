@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Zapisz",
+  "NXOpenGroupLabel": "Otwórz",
+  "NXToolkitLicenseGroupLabel": "Dostępność translatora MultiCAD STEP",
+  "NXMissingLinksWarningLabel": "Zapisz pliki z brakującymi odniesieniami",
+  "NXMissingLinksWarningInfo": "Po włączeniu tej opcji w trakcie operacji Zapisz w sesji NX pojawi się ostrzeżenie, jeśli brakuje jakichkolwiek projektów podrzędnych. Jeśli ta opcja jest wyłączona, operacja Zapisz będzie kontynuowana bez ostrzeżenia.",
+  "NXSuppressPatternElementsLabel": "Ukryj elementy wzoru",
+  "NXSuppressPatternElementsInfo": "Gdy opcja ta jest włączona, wygasza elementy szyku, więc główne części szyku nie pojawiają się w oknie dialogowym Zapisz. Gdy opcja ta jest wyłączona, część zachowuje swoją relację z częścią główną szyku, tworząc relację MakeFrom.",
+  "NXSTEP242LicenseAvailableLabel": "Dostępność translatora MultiCAD STEP",
+  "NXSTEP242LicenseAvailableInfo": "Ustawienie określające, czy podczas otwierania projektów multiCAD w sesji NX używany jest translator STEP AP214 lub STEP AP242. Wartość domyślna: KROK AP242.",
+  "NXCADAttributeMappedToEINLabel": "Atrybut CAD mapowany do EIN",
+  "NXCADAttributeMappedToEINInfo": "Gdy wartość tego atrybutu zostanie określona, funkcja zostanie włączona, a plik CAD zostanie opatrzony znacznikiem tego atrybutu, którego wartością będzie EIN produktu fizycznego.",
+  "EnterpriseItemNumberGroupLabel": "Numer elementu przedsiębiorstwa",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Odfiltruj elementy inżynieryjne 3DEXPERIENCE bez geometrii i bez węzłów potomnych",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Odfiltruj elementy inżynieryjne 3DEXPERIENCE bez geometrii i bez węzłów potomnych"
+}

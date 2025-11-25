@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "구성 속성"
+  },
+  "construction": {
+    "loading": "로드 구성 속성",
+    "attFromObj": "개체에서 사용 가능한 속성 검색",
+    "objAttr": "개체 속성 값 검색",
+    "attrGlobal": "속성"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "선택된 개체의 도메인이 지원되지 않습니다.",
+    "unknownI3dx": "데이터 소스에서 개체를 찾을 수 없습니다."
+  },
+  "customAttributesDlg": {
+    "title": "구성 속성"
+  },
+  "customAttributes": {
+    "loading": "동적 속성 로드 중",
+    "attFromObj": "개체에서 사용 가능한 외부 속성 검색",
+    "objAttr": "개체 속성 값 검색",
+    "attrGlobal": "속성",
+    "noAttributes": "표시할 속성 없음"
+  }
+}

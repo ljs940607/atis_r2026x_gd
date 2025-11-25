@@ -1,0 +1,16 @@
+{
+  "marketPlaceRoles": "{rolesText} ve službě Marketplace",
+  "userSearch": "Vyhledávání uživatele",
+  "userRoles": "Uživatelské role",
+  "loginEmail": "Zadejte přihlašovací jméno nebo e-mail uživatele, kterému chcete role přidělit:",
+  "rolesGranted": "Vyberte roli, kterou chcete tomuto uživateli přidělit. Role jsou přidělovány dynamicky:",
+  "noUserSelected": "Nebyl vybrán žádný uživatel",
+  "noUserFound": "Nebyl nalezen žádný uživatel",
+  "userSearchFailed": "Vyhledávání uživatele se nezdařilo",
+  "unableToSaveRoleModification": "Úpravu role nelze uložit",
+  "enterEmailOrLogin": "Sem zadejte e-mail nebo se přihlaste...",
+  "makeSeller": "Prodejce Make",
+  "engineeringSeller": "Technický prodejce",
+  "partSupplySeller": "Prodejce PartSupply",
+  "innovateSeller": "Prodejce Innovate"
+}

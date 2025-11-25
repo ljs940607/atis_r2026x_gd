@@ -1,0 +1,9 @@
+m|HybridInfraCoreWeb\HapticFeedbacks.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\HapticFeedbacks\HapticFeedbacks.js|1723277869|1102
+s|HybridInfraCoreWeb\HapticFeedbacks.mweb\src\HapticFeedbacks.js|1552388922|4510
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

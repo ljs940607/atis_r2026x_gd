@@ -1,0 +1,1 @@
+define("DS/CfgApplicabilityUX/CfgApplicabilityUX_zh-TW",{});define("DS/CfgApplicabilityUX/assets/nls/CfgApplicabilityNLS",{CFG_EmptyApplicability_Expression:"此關聯沒有已定義的適用性",CFG_Applicability_Summary:"適用性摘要",Applicability_Title_Edit:"編輯",Edit_Denied:"不允許編輯操作"});

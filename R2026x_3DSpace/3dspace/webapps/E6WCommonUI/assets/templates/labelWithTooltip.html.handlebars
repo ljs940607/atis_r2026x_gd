@@ -1,0 +1,25 @@
+{{#if label}}
+<label class="input-group-label">
+<span class="field-label">
+    <span class="field-label-text">{{label}}</span>
+    {{~#if required~}}
+    <span class="required-field-indicator">*</span>
+    {{~/if~}}
+    {{~#if customTooltips~}}<span id="labelIcons" class="label-icons"></span>{{~/if~}}
+    <span class="field-label-actions">
+        {{#if tooltipTitle}}
+        <span class="fonticon fonticon-info"></span>
+        {{/if}}
+    </span>
+    {{~#if customButtons~}}
+        <span class="actions">
+           {{~#each customButtons~}}
+              <button class="btn custom-button" data-custom-button-index="{{@index}}" title= "{{toolTip}}">
+                  <span class="fonticon {{iconClass}}"></span>
+              </button>
+           {{~/each~}}
+        </span>
+    {{~/if~}}
+</span>
+</label>
+  {{/if}}

@@ -1,0 +1,41 @@
+{{!--
+    template for read-only fields in multi property panel, also used by editable fields by injecting elements into it
+ --}}
+    {{#if label}}
+      <label>{{label}}
+      {{~#if required~}}
+            <span class="required-field-indicator">*</span>
+      {{~/if~}}
+     </label>
+    {{/if}}
+    <div class="field-group multiselcontainer">
+    {{~#if readWrite~}}
+      \{{~#if canEdit~}}
+        <div class="input-group-wrapper">
+          <div class="input-group multi-object-edit-button">
+            <span class="input-element">
+            </span>
+          </div>
+          <div class="input-group">
+            <span class="input-element">
+              {{!--Editable View for the field will be rendered here--}}
+            </span>
+          </div>
+          <div class="input-group multi-object">
+            <span class="input-element">
+            </span>
+          </div>
+        </div>
+      \{{~else~}}
+          <span class="input-element">
+            <span class="read-only" title="\{{~ readOnlyValue labels ~}}">\{{~ readOnlyValue values ~}}</span>
+          </span>
+      \{{~/if~}}
+    {{~else~}}
+          <span class="input-element">
+            <span class="read-only" title="\{{~ readOnlyValue labels ~}}">\{{~ readOnlyValue values ~}}</span>
+          </span>
+    {{~/if~}}
+</div>
+   </div>
+ </div>

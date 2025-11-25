@@ -1,0 +1,153 @@
+{
+  "Essentials.Title": "Temeller",
+  "titles": {
+    "issues": "{number} Sorun",
+    "noIssuesToShow": "Gösterilecek sorun yok.",
+    "issuesNotDisplayed": "Sorunlar görüntülenmez.",
+    "documentation": "Issue 3D Review Yardımı"
+  },
+  "error": {
+    "generic": {
+      "label": "Beklenmeyen bir hata oluştu.",
+      "sub": "Sayfayı yenileyin ve tekrar deneyin."
+    },
+    "licensing": {
+      "label": "{user} için lisans alınamıyor.",
+      "sub": "Lisansınız olduğunu doğrulayın."
+    }
+  },
+  "filter": {
+    "title": "Şuna Göre Filtrele:",
+    "synchronize": {
+      "header": "Filtrelemeyi listeyle paylaş",
+      "title": "Issue Management ile Senkronize Et",
+      "timeout": "Her iki uygulamayı da senkronize etmek için Issue Management'ın açılması gerekir.",
+      "tooltip": "Filtreleri Issue Management ile Issue 3D Review arasında senkronize edin."
+    },
+    "owned": "Bana ait",
+    "assigned": "Bana atanan",
+    "others": {
+      "title": "Diğer",
+      "reported": "Organizasyonlarıma ait",
+      "responsible": "Organizasyonlarıma atanan",
+      "contributed": "Katkıda bulunduğum yerler",
+      "closed": "Tamamlandı"
+    }
+  },
+  "commands": {
+    "inspect": "Kontrol Et",
+    "properties": "Özellikler",
+    "relationalExplorer": "İlişkiler",
+    "collaborativeLifecycle": "Olgunluk",
+    "compare": "Compare",
+    "detach": "Ayır",
+    "attachments": "Ekler",
+    "close": "Tamamlandı Olarak İşaretle",
+    "delete": "Sil",
+    "duplicate": "Çoğalt",
+    "more": "Daha Fazla",
+    "reportedAgainst": "Etkilenen Öğeler",
+    "resolvedBy": "Çözen",
+    "resolvedItems": "Çözümlenmiş Öğeler",
+    "contexts": "Bağlamlar",
+    "open": {
+      "single": "Birlikte aç",
+      "multiple": "Aç",
+      "reportedAgainst": "Etkilenen Öğeler",
+      "resolvedBy": "Çözen",
+      "resolvedItems": "Çözümlenmiş Öğeler",
+      "contexts": "Bağlamlar"
+    },
+    "share": "Bağlantıyı Kopyala"
+  },
+  "tooltips": {
+    "helper": "Issue 3D Review için yardımı görüntülemek adına tıklayın.",
+    "selectedIssues": "{number} sorun seçildi"
+  },
+  "preferences": {
+    "securityContext": "Kimlik Bilgileri",
+    "tenant": "3DEXPERIENCE platform",
+    "name": {
+      "title": "Widget Başlığı",
+      "default": "Sorunlarım"
+    },
+    "defaultFilterForAll": {
+      "title": "Tüm filtrelerin seçimi kaldırılırsa görüntülenen sorunlar geçerli şu öğelerinizle eşleşmelidir:",
+      "organizationAndProject": "Organizasyon ve İş Birliği Alanı",
+      "organization": "Organizasyon",
+      "project": "İş Birliği Alanı",
+      "policy": "Tüm mevcut sorunlar"
+    },
+    "validation": "Bir sorun analiz edildikten veya incelendikten sonra, sorunun yükseltilmesinin onaylanmasını veya reddedilmesini zorunlu kılmak için yeni sorunlara yönelik bir doğrulama işlemi ekleyin.",
+    "tagger": "Etiketleri doldur",
+    "stream": "Varsayılan geometri akışı olarak basitleştirilmiş geometri kullan",
+    "organizationFilter": "Organizasyon filtrelerini göster"
+  },
+  "notifications": {
+    "refreshIssues": "Filtre Uygulama",
+    "clearIssues": "Sorunlar temizleniyor...",
+    "lookingIssues": "Sorunlar aranıyor...",
+    "issuesLoaded": "{label} yüklendi.",
+    "dropPreventedForInspection": "Bir denetleme çalışırken nesneleri bırakamazsınız.",
+    "serverError": "Bir hata oluştu, lütfen sayfanızı yenileyin ve tekrar deneyin.",
+    "serverWarning": "Bu nesneler için sunucu işlemleri devam ediyor. Lütfen daha sonra tekrar deneyin.",
+    "noIssuesInSession": "Oturumda sorun yok.",
+    "commandAlreadyProcessing": "Bu komut halen işleniyor, lütfen bekleyin.",
+    "cannotRelocateBalloon": "Bu balon yeniden konumlandırılamıyor, lütfen sorumluluklarınızı kontrol edin.",
+    "notValidReportedAgainst": "Bu geçerli bir Etkilenen Öğe değil. Lütfen başka bir nesne seçin.",
+    "noFocusedViewWhenColorized": "6WTags'de Renklendir etkinleştirildiğinde Odaklanmış Görünüm görüntülenmez.",
+    "noSupportedReportedAgainstData": "{name} sorununun \"Etkilenen Öğeler\"ine ekli veriler bu uygulamada desteklenmez.",
+    "noReportedAgainstData": "{name} Sorununun \"Etkilenen Öğeler\"ine hiçbir veri eklenmemiştir."
+  },
+  "preview": {
+    "modified": "{date} önce güncellendi",
+    "comments": "{number} yorum",
+    "dueDate": "Bitiş tarihi: {date}",
+    "noAssignees": "Atanan yok",
+    "errorFetch": "Bilgi yok",
+    "close": "Kapat"
+  },
+  "inspect": {
+    "title": "{number} sorun inceleniyor",
+    "withContext": "Bağlam ile",
+    "withContextTooltip": "Kontrol edilen sorunun bağlamını gösterin. Yalnızca bir sorun denetlenmelidir.",
+    "switchRelated": "İçerikleri Değiştirin",
+    "switchRelatedTooltip": "Etkilenen öğeleri çözümlenmiş öğeler ile değiştirin (veya tam tersi). Yalnızca bir sorun denetlenmelidir.",
+    "inspectNotAvailable": "Bağlamı yüklemek için lütfen yalnızca bir sorunu denetleyin.",
+    "noContext": "Yüklenecek DMU Bağlamı yok.",
+    "noResolvedItemsForSwitch": "Yüklenecek Çözümlenmiş Öğe yok.",
+    "objectLoadError": "Nesneler yüklenirken hata oluştu.",
+    "relocate": "Bu işaretçiyi yeniden konumlandırmak istiyor musunuz?",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "tasks": {
+    "cancel": "İptal etmek için sağ tıklayın"
+  },
+  "selectIn3D": {
+    "confirmTitle": "\"Issue 3D Review\"da bir nesne seçin",
+    "confirmBody": "Lütfen seçimi onaylayın.",
+    "confirmOK": "Tamam",
+    "confirmCancel": "İptal",
+    "pickIn3D": "3B olarak seç",
+    "selectAffectedItem": "Etkilenen Öğeyi seç",
+    "pickUpFrom3DApplication": "Uyumlu 3B uygulamadan mevcut 3B nesneyi al",
+    "selectApplicableContext": "Uygulanabilir bağlamı seçin",
+    "pickUpOccurrenceFrom3DApplication": "3B uygulamasında hangi yol sorununun geçerli olması gerektiğini seçin",
+    "cancel": "İptal"
+  },
+  "largeData": "Ekstra büyük veri görselleştirmesi Issue3DReview'da desteklenmez",
+  "templateDndErrorMsg": "Sorun şablonuna izin verilmez",
+  "transitionRejectedInV2": "3DNavigate'te yapılan bir yükseltme nedeniyle geçiş işlemi geçici olarak yapılamamaktadır. Geçici çözüm olarak, oluşturulan yeni widget'ı sabitleyebilir ve widget'ı panodaki diğer widget'lara bağlamak için WidgetLink'i kullanabilirsiniz. WidgetLink hakkında daha fazla bilgi için belgelere bakın.",
+  "close": "Kapat",
+  "reopen": "Yeniden Aç",
+  "WidgetTitle": "Issue 3D Review",
+  "comments": "Yorumlar",
+  "resolveTheIssue": "Sorunu Çöz",
+  "taskAsResolvedBy": "Çözene Göre Yeni Görev",
+  "caAsResolvedBy": "Çözene göre Yeni Değişiklik Eylemi",
+  "addExistingAsResolvedBy": "Mevcut Olanı Ekle",
+  "syncFilterMsg": "Filtreler Issue Management ile başarıyla senkronize edildi.",
+  "syncTitle": "Filtreleri Senkronize Et",
+  "syncShortMsg": "Issue Management uygulamasındaki filtreler henüz uygulanmadı. Bu filtreleri senkronize etmek ve buraya uygulamak için yenileyin."
+}

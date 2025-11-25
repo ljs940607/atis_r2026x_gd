@@ -1,0 +1,20 @@
+{
+  "CREOSaveGroupLabel": "Save",
+  "CREOOpenGroupLabel" : "Open",
+
+  "CREOMissingLinksWarningLabel" : "Save file with missing references",
+  "CREOMissingLinksWarningInfo"  : "When enabled, a warning will appear if any child designs are missing during the Save operation in the Creo Parametric session. When disabled, the Save operation will proceed without the warning.",
+  
+  "CREOPartFamilyInstanceHandlingLabel" : "Creo Part Family Instance Handling",
+  "CREOPartFamilyInstanceHandlingInfo"  : "Determines processing of Creo Part Family Table instances during save: <br><strong>PartFamilyInstanceLight</strong> - XPR files are generated only for active instances. <br><strong> PartFamilyInstanceLoaded</strong> - XPR files are generated for all instancess.",
+  
+  "CREOCADAttributeMappedToEINLabel": "CAD Attribute Mapped To EIN",
+  "CREOCADAttributeMappedToEINInfo" : "When value for this attribute is specified ,then the function will be enabled and we will stamp CAD file with this attribute and its value would be the EIN of the Physical Product.",
+
+  "EnterpriseItemNumberGroupLabel" : "Enterprise Item Number",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  
+  "CreoFilterOutEngItemsDataNotInCADLabel" : "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes",
+  "CreoFilterOutEngItemsDataNotInCADInfo" : "Filter out 3DEXPERIENCE engineering items with no geometry and no child nodes."
+}

@@ -1,0 +1,13 @@
+m|DELWKOApp\DELWKOWorkInstructionsModule.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24299|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELWKOWorkInstructionsModule\DELWKOWorkInstructionsModule.js|1729819542|14943
+s|DELWKOApp\DELWKOWorkInstructionsModule.mweb\src\DataCollect\DELWKODataCollectDialogUI.js|1719407140|34553
+t|win_b64\webapps\DELWKOWorkInstructionsModule\assets\json\DataCollectTLVOptions.json|1729819538|7209
+s|DELWKOApp\DELWKOWorkInstructionsModule.mweb\src\assets\json\DataCollectTLVOptions.json|1719398227|7209
+u|DELWKOApp\DELWKOWorkInstructionsModule.mweb\src\DELWKOWorkInstructionsModule.js|1719564571|7021
+u|DELWKOApp\DELWKOWorkInstructionsModule.mweb\src\DataCollect\DELWKODataCollectMgmtUI.js|1719407339|14718
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

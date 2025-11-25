@@ -1,0 +1,1 @@
+define("DS/ENO3DUtils/ENO3DUtils_ru",{});define("DS/ENO3DUtils/assets/nls/ENO3DUtils",{mePreferenceLoadingFailureTitle:"Не удается извлечь настройки приложения",mePreferenceLoadingFailureSubtitle:"Используются значения настроек по умолчанию.",mePreferenceLoadingFailureDescritption:"Повторите попытку позже. Если проблема не устранена, обратитесь за помощью к администратору."});

@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "Właściwości konstrukcyjne"
+  },
+  "construction": {
+    "loading": "Właściwości konstrukcji obciążenia",
+    "attFromObj": "Pobierz dostępne atrybuty z obiektu",
+    "objAttr": "Pobierz wartość atrybutów obiektu",
+    "attrGlobal": "Atrybuty"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "Nieobsługiwana domena wybranego obiektu.",
+    "unknownI3dx": "Nie można znaleźć obiektu w źródle danych."
+  },
+  "customAttributesDlg": {
+    "title": "Właściwości konstrukcyjne"
+  },
+  "customAttributes": {
+    "loading": "Ładowanie właściwości dynamicznych",
+    "attFromObj": "Pobierz dostępne zewnętrzne atrybuty z obiektu",
+    "objAttr": "Pobierz wartość atrybutów obiektu",
+    "attrGlobal": "Atrybuty",
+    "noAttributes": "Brak atrybutów do wyświetlenia"
+  }
+}

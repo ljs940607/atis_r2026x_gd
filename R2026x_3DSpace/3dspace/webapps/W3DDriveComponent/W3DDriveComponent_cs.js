@@ -1,0 +1,1 @@
+define("DS/W3DDriveComponent/W3DDriveComponent_cs",{});define("DS/W3DDriveComponent/assets/nls/W3DDriveComponent",{select_platform:"Vybrat platformu",myFiles:"Moje soubory",sharedWithMe:"Sdíleno se mnou",createFolder:"Vytvořit složku",enterTitle:"Zadejte název",title:"Název",ok:"OK",cancel:"Zrušit",forbiddenChars:"Toto pole je povinné a tyto znaky jsou zakázány: {chars}"});

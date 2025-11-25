@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="Framework">
+    <Domain id="AttributeDef">
+        <Family id="Raw_Material_SheetMetal" regSuite="Framework" nlsKey="emxFramework.Type.Raw_Material_SheetMetal">
+                <Constant id="appType" value="VPM"/>
+                <Constant id="type" value="Raw_Material_SheetMetal"/>
+                <Constant id="package" value="PLMSheetMetalDesign"/>
+        </Family>
+    </Domain>
+
+    <Domain id="ObjectIdentification" >
+        <Family id="ObjectIdentifier">
+            <Parameter id="SMRawMaterialPrefixSuffix" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ObjectAutonamingFormat">
+                <Argument id="PrefixArg" type="string" default="RM" />
+                <Argument id="SuffixArg" type="string" default="01" />
+                <Constant id="type" value="Raw_Material_SheetMetal" />
+                <Constant id="appType" value="VPM" />
+            </Parameter>
+        </Family>
+    </Domain>
+
+</OOTBParameterization>

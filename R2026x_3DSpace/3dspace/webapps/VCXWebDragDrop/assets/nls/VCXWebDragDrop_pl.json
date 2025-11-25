@@ -1,0 +1,18 @@
+{
+  "Warning.": "",
+  "Notification.DragAndDrop.ActionNotSupported.Title": "Działanie nieobsługiwane",
+  "Notification.DragAndDrop.Loading.Title": "Ładowanie",
+  "Notification.DragAndDrop.Loading.Title.Error": "Błąd ładowania",
+  "Notification.DragAndDrop.Loading.Message.Error": "Nie można załadować zawartości",
+  "Notification.DragAndDrop.ExtensionNotSupported.Title": "Rozszerzenie nieobsługiwane",
+  "Notification.DragAndDrop.Impossible.Title": "Przeciągnij i upuść",
+  "Notification.DragAndDrop.Impossible.SubTitle": "Nie można użyć pliku DND w tym samym widżecie",
+  "Notification.DragAndDrop.NotYet.Title": "Przeciągnij i upuść",
+  "Notification.DragAndDrop.NotYet.SubTitle": "Nie można jeszcze użyć pliku DND! Najpierw otwórz doświadczenie!",
+  "Notification.DragAndDrop.Insert.Failed": "Wstawianie nie powiodło się",
+  "Notification.DragAndDrop.Insert.Before.Experience": "Typ nie może być wstawiony przed utworzeniem prezentacji",
+  "Notification.DragAndDrop.Not.Supported": "Nieobsługiwany typ",
+  "Notification.DragAndDrop.Insert.Materials.Failed": "Wstawianie materiałów nie powiodło się",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed": "Wstawienie wielu elementów nie powiodło się",
+  "Notification.DragAndDrop.Insert.MultipleItems.Failed.SubTitle": "Obsługa wielokrotnego wstawiania jest obsługiwana tylko dla typu Materiał okładzinowy."
+}

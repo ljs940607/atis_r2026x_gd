@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Nomeação automática",
+  "ACADAutoNameInfo": "Ativa a nomeação automática ao salvar arquivos de desenho no 3DEXPERIENCE pela primeira vez. Ele se aplica a todos os aplicativos que estão criando dados do AutoCAD.",
+  "ACADSaveGroupLabel": "Salvar",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Substituir título por novo nome na nomeação automática",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Na seleção do nome automático na caixa de diálogo Salvar, o nome de arquivo existente será substituído pelo nome automático.",
+  "ACADEnablePessimisticLockingLabel": "Bloqueio pessimista",
+  "ACADEnablePessimisticLockingInfo": "A ativação desse recurso garante que os dados não possam ser salvos na plataforma a partir do conector, a menos que sejam reservados pelo usuário atual.",
+  "ACADFileReadOnlyLabel": "Tornar arquivo somente leitura",
+  "ACADFileReadOnlyInfo": "O arquivo será marcado como somente leitura se não for reservado pelo usuário atual. Esse comportamento será ativado somente se o bloqueio pessimista estiver habilitado.",
+  "ACADDelimiterLabel": "Definir delimitador",
+  "ACADDelimiterInfo": "Esse delimitador será usado da seguinte maneira:\n1. Para mesclar valores de atributos com vários valores no 3DEXPERIENCE durante a sincronização no arquivo CAD.\n2. Para dividir o valor do atributo CAD se ele estiver mapeado para o atributo de vários valores no 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "Geral",
+  "InvalidDelimiter": "Não é permitido usar mais de um caractere como delimitador"
+}

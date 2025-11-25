@@ -1,0 +1,11 @@
+{
+  "createNewDrawing": "Novo Desenho",
+  "insertNewDrawing": "Inserir novo desenho",
+  "newObjectType": "Desenho",
+  "multiParentInsertDrawingTitle": "Inserir novo desenho",
+  "multiParentInsertDrawingMsg": "Tem certeza de que deseja inserir um novo desenho sob vários pais?",
+  "multiParentCannotInsert": "Não é possível inserir sob o(s) objeto(s) selecionado(s)",
+  "CannotInsert.Type": "Não é possível inserir esse tipo de objeto sob o objeto selecionado: {type}",
+  "okBtn": "OK",
+  "closeBtn": "Fechar"
+}

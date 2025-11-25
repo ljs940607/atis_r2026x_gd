@@ -1,0 +1,443 @@
+{
+	"fields": {
+		"groupHeader": [
+			{
+				"groupLabel": "label_Details",
+				"isGroupLabelVisible": "true",
+				"fieldsInfo": [
+					{
+						"label": "label_ParameterTemplate",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "ParameterTemplate",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_ParameterTemplate",
+								"disabled": false,
+								"clearButton": true,
+								"type": "singleselect",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_Type",
+						"isFieldMandatory": true,
+						"createField": [
+							{
+								"fieldName": "Type",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Type",
+								"disabled": false,
+								"clearButton": false,
+								"type": "singleselect",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_Title",
+						"isFieldMandatory": true,
+						"createField": [
+							{
+								"fieldName": "Title",
+								"fieldLabel": "",
+								"isMandatory": true,
+								"placeHolder": "placeHolder_Title",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_Description",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "Description",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Description",
+								"disabled": false,
+								"clearButton": false,
+								"type": "textarea",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_UOM",
+						"isFieldMandatory": true,
+						"createField": [
+							{
+								"fieldName": "DisplayUnit",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_DisplayUnit",
+								"disabled": false,
+								"clearButton": false,
+								"type": "singleselect",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_Dimension",
+						"isFieldMandatory": true,
+						"createField": [
+							{
+								"fieldName": "Dimension",
+								"fieldLabel": "",
+								"isMandatory": true,
+								"disabled": true,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "DimensionText",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_SelectDimension",
+								"disabled": true,
+								"clearButton": false,
+								"type": "text",
+								"visible": false
+							}
+						]
+					},
+					{
+						"label": "label_Priority",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "Priority",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Priority",
+								"disabled": false,
+								"clearButton": false,
+								"type": "spinbox",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_TestMethod",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "TestMethod",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_TestMethod",
+								"disabled": false,
+								"clearButton": false,
+								"type": "autocomplete",
+								"visible": true
+							},
+							{
+								"fieldName": "SearchTestMethod",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Search_testMethods",
+								"disabled": false,
+								"clearButton": false,
+								"type": "button",
+								"buttonIcon": "search",
+								"visible": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"groupLabel": "label_AcceptanceLimits",
+				"isGroupLabelVisible": true,
+				"groupName": "AcceptanceCriteria",
+				"fieldsInfo": [
+					{
+						"label": "",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "LowerTarget",
+								"fieldLabel": "label_LowerLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_LowerTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"commonLabel": "label_LowerLimit",
+								"visible": true
+							},
+							{
+								"fieldName": "IncludedLowerTarget",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedLowerTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggleLabel": "",
+								"toggletype": "switch",
+								"commonLabel": "label_LowerLimit",
+								"visible": true
+							},
+							{
+								"fieldName": "UpperTarget",
+								"fieldLabel": "label_UpperLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_UpperTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"commonLabel": "label_UpperLimit",
+								"visible": true
+							},
+							{
+								"fieldName": "IncludedUpperTarget",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedUpperTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggletype": "switch",
+								"toggleLabel": "",
+								"commonLabel": "label_UpperLimit",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_Target",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "Target",
+								"fieldLabel": "label_Target",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Target",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "TargetNew",
+								"fieldLabel": "label_Target",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Target",
+								"disabled": false,
+								"clearButton": false,
+								"type": "textarea",
+								"visible": false
+							},
+							{
+								"fieldName": "TargetNew_Parameter",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_SelectTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "singleselect",
+								"visible": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"groupLabel": "label_RoutineReleaseLimit",
+				"isGroupLabelVisible": true,
+				"groupName": "RoutineReleaseLimit",
+				"fieldsInfo": [
+					{
+						"label": "",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "LowerRoutineReleaseLimit",
+								"fieldLabel": "label_LowerLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_LowerRoutineReleaseLimit",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "LowerRoutineIncluded",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedLowerTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggleLabel": "",
+								"toggletype": "switch",
+								"commonLabel": "label_LowerLimit",
+								"visible": true
+							},
+							{
+								"fieldName": "UpperRoutineReleaseLimit",
+								"fieldLabel": "label_UpperLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_UpperRoutineReleaseLimit",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "UpperRoutineIncluded",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedUpperTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggleLabel": "",
+								"toggletype": "switch",
+								"commonLabel": "label_UpperLimit",
+								"visible": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"groupLabel": "label_SpecificationLimit",
+				"isGroupLabelVisible": true,
+				"groupName": "SpecificationLimit",
+				"fieldsInfo": [
+					{
+						"label": "",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "LowerSpecificationLimit",
+								"fieldLabel": "label_LowerLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_LowerSpecificationLimit",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "LowerSpecificationIncluded",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedLowerTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggleLabel": "",
+								"toggletype": "switch",
+								"commonLabel": "label_LowerLimit",
+								"visible": true
+							},
+							{
+								"fieldName": "UpperSpecificationLimit",
+								"fieldLabel": "label_UpperLimit",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_UpperSpecificationLimit",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "UpperSpecificationIncluded",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_IncludedUpperTarget",
+								"disabled": false,
+								"clearButton": false,
+								"type": "toggle",
+								"toggleLabel": "",
+								"toggletype": "switch",
+								"commonLabel": "label_UpperLimit",
+								"visible": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"groupLabel": "label_TestingInstructions",
+				"isGroupLabelVisible": true,
+				"fieldsInfo": [
+					{
+						"label": "label_Precision",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "PrecisionText",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Precision",
+								"disabled": false,
+								"clearButton": false,
+								"type": "text",
+								"visible": true
+							},
+							{
+								"fieldName": "Precision",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_Precision",
+								"disabled": false,
+								"clearButton": false,
+								"type": "singleselect",
+								"minValue": 0,
+								"maxValue": 5,
+								"stepValue": 1,
+								"value": 0,
+								"visible": false
+							}
+						]
+					},
+					{
+						"label": "label_CharacteristicsNotes",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "CharacteristicsNotes",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_CharacteristicsNotes",
+								"disabled": false,
+								"clearButton": false,
+								"type": "textarea",
+								"visible": true
+							}
+						]
+					},
+					{
+						"label": "label_MissedTargetAction",
+						"isFieldMandatory": false,
+						"createField": [
+							{
+								"fieldName": "MissedTargetAction",
+								"fieldLabel": "",
+								"isMandatory": false,
+								"placeHolder": "placeHolder_MissedTargetAction",
+								"disabled": false,
+								"clearButton": false,
+								"type": "singleselect",
+								"visible": true
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

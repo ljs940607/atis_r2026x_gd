@@ -1,0 +1,38 @@
+<meta charset="UTF-8"/>
+ENOPAD3DViewer.PADNavigation.Title="Gezinti";
+ENOPAD3DViewer.PADTools.Title="Araçlar";
+ENOPAD3DViewer.PADView.Title="Görünüm";
+ENOPAD3DViewer.DMUMarkup.Title="İşaretleme";
+ENOPAD3DViewer.CATC3DComposeSct.Title="Oluştur";
+ENOPAD3DViewer.CATC3DEditSct.Title="Düzenle";
+ENOPAD3DViewer.PLMPIMInteferenceSct.Title="Engelleme";
+
+ENOPAD3DViewer.PAD3DViewerRelationalNavigatorHdr.Title="İlişkiler";
+ENOPAD3DViewer.PAD3DLineLayoutHdr.Title="Çizgi Düzeni";
+ENOPAD3DViewer.SwitchVisuHdr.Title="Basitleştirilmiş Geometriyi Aç/Kapat";
+ENOPAD3DViewer.SwitchVisuOnDemandHdr.Title="Basitleştirilmiş Geometriyi Aç/Kapat";
+ENOPAD3DViewer.LevelSelectorHdr.Title="Seviye Seçici";
+ENOPAD3DViewer.RemoveRootHdr.Title="Kapat";
+ENOPAD3DViewer.ReframeOnHdr.Title="Şuna Göre Yeniden Çerçevele:";
+ENOPAD3DViewer.CenterTreeHdr.Title="Ağacı Merkezle";
+ENOPAD3DViewer.HideShowHdr.Title="Gizle/Göster";
+ENOPAD3DViewer.TransparencyHdr.Title="Şeffaflık";
+ENOPAD3DViewer.FocusOnHdr.Title="Şuna Odaklan:";
+ENOPAD3DViewer.ActionBar_Attributes.Title="Bilgi";
+ENOPAD3DViewer.PAD3DViewerOpenWithSection.Title="Birlikte Aç";
+ENOPAD3DViewer.PAD3DViewerOpenInCV5.Title="CATIA V5";
+ENOPAD3DViewer.PAD3DViewerOpenInPF.Title="Ürün Bulucu";
+ENOPAD3DViewer.PAD3DViewerOpenIn3DMkp.Title="3B İşaretleme";
+ENOPAD3DViewer.PAD3DViewerDisplaySection.Title="Göster";
+ENOPAD3DViewer.PAD3DViewerAmbiencesSection.Title="Ambiyans";
+
+ENOPAD3DViewer.DefineFilterHdr.Title="Filtre";
+ENOPAD3DViewer.PAD3DViewerPrintHdr.Title="Ekran Görüntüsünü Yazdır";
+
+ENOPAD3DViewer.RevealDocuments.Title="Belgeleri Göster";
+
+ENOPAD3DViewer.PAD3DToggleStatusBarHdr.Title="Durum Çubuğu";
+
+ENOPAD3DViewer.PAD3DViewerToggleGeometrySection.Title="Geometri Kalitesi";
+ENOPAD3DViewer.PAD3DToggleSimplifiedHdr.Title="Optimize Edilmiş";
+ENOPAD3DViewer.PAD3DToggleAccurateHdr.Title="Yüksek";

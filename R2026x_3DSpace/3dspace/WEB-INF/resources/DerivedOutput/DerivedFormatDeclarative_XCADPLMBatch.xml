@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+	This DerivedFormatDeclarative_XCADPLMBatch.xml case is targetting only OP case, where XCADD PLMBatch is reusing DFC infra
+-->
+
+<derivedformatmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DerivedFormatDeclarative.xsd">
+	<converter name="XCADPLMBatch" synchronous="false" nlsFile="emxDerivedFormatManagementXCADPLMBatchStringResource">
+		<datasources>
+			<datasource name="CATIAV5">
+				<!-- CATPart case from 25xFD04 (possible from 25xFD01) -->
+				<source name="CATPart" type="Part">
+					<target name="NOConversion" inputStreamId="authoring" outputStreamId="NOConversion" conversionService="false" onPremiseOnly="true" >
+						<parameter name="PostProcessingBatch"
+                       values="CV5PublicationDataPostProcessing|CV5MaterialDataPostProcessing|ApplicativeV5DataPostProcessing"
+                       type="enum" default="CV5MaterialDataPostProcessing" mandatory="true"
+                       description="specify the XCAD postTreatment to do on 3DNode (V5 CATpart): publication or material" />
+					</target>	
+				</source>
+
+				<!-- CATProduct case not yet ready for 25xFD04: may adddress FTArep fro annotations and publications at assembly level 
+ 				<source name="CATProduct" type="VPMReference" subtype="XCADAssemblyRepReference">
+					<target name="NOConversion" inputStreamId="authoring" outputStreamId="NOConversion" conversionService="false" onPremiseOnly="true" >
+						<parameter name="PostProcessingBatch"
+                       values="CV5ProdPMIDataPostProcessing|CV5ProdPubDataPostProcessing|CV5ProdDataPostProcessing"
+                       type="enum" default="CV5ProdPMIDataPostProcessing" mandatory="true"
+                       description="specify the XCAD postTreatment to do on assembly node (V5 CATProduct)" />
+					</target>	
+				</source>
+				end of commented bloc fro CATProduct -->
+               
+				<events>
+					<event name="ondemand" />
+				</events>
+			</datasource>
+			
+            
+		</datasources>
+	</converter>
+     
+</derivedformatmanagement>

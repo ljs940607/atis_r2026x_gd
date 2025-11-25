@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_it",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"Nessun riconoscimento trovato, creare un nuovo riconoscimento e accedervi qui",addWBReco:"Avviare il riconoscimento lavagna"});

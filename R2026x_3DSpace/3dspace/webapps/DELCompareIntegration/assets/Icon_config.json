@@ -1,0 +1,27 @@
+{
+    "DELWkiDataCollectPlanReference":{"IconName":"I_WI_DataCollectPlan", "ModuleName" : "DELMGAApp"},
+    "PLMSpecifyHowToCollectDataCnx.Timestamp": {"IconName": "I_WI_TypeStamp", "ModuleName" : "DELMGAApp"},
+    "PLMSpecifyHowToCollectDataCnx.Integer" : {"IconName": "I_WI_TypeInteger", "ModuleName" : "DELMGAApp"},
+    "PLMSpecifyHowToCollectDataCnx.Boolean" : {"IconName": "I_WI_Type_Boolen", "ModuleName" : "DELMGAApp"},
+    "PLMSpecifyHowToCollectDataCnx.Real" : {"IconName": "I_WI_Type_Real", "ModuleName" : "DELMGAApp"},
+    "PLMSpecifyHowToCollectDataCnx.Text" : {"IconName": "I_WI_Type_Text", "ModuleName" : "DELMGAApp"},
+    "DELWkiDataCollectChecklistReference" : {"IconName": "I_WI_DataCollectChecklist", "ModuleName" : "DELMGAApp"},
+    "DELResourceParameterPlanReference" : {"IconName" : "I_RscPrmPlan", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.AREA" : {"IconName" : "I_WI_Units_Area", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.LENGTH" : {"IconName" : "I_WI_Units_Length", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.VOLUME" : {"IconName" : "I_WI_Units_Volume", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.PREASSURE" : {"IconName" : "I_WI_Units_Pressure", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.TEMPERATURE" : {"IconName" : "I_WI_Units_Temperature", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.ANGLE" : {"IconName" : "I_WI_Units_Angle", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.TIME" : {"IconName" : "I_WI_Units_Time", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanSET.MASS" : {"IconName" : "I_WI_Units_Mass", "ModuleName" : "DELMGAApp"},
+
+    "DELResourcePrmPlanGET.AREA" : {"IconName" : "I_WI_Units_Area", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.LENGTH" : {"IconName" : "I_WI_Units_Length", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.VOLUME" : {"IconName" : "I_WI_Units_Volume", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.PREASSURE" : {"IconName" : "I_WI_Units_Pressure", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.TEMPERATURE" : {"IconName" : "I_WI_Units_Temperature", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.ANGLE" : {"IconName" : "I_WI_Units_Angle", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.TIME" : {"IconName" : "I_WI_Units_Time", "ModuleName" : "DELMGAApp"},
+    "DELResourcePrmPlanGET.MASS" : {"IconName" : "I_WI_Units_Mass", "ModuleName" : "DELMGAApp"}
+}

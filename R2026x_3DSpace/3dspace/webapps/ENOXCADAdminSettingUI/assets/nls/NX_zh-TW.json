@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "儲存",
+  "NXOpenGroupLabel": "開啟",
+  "NXToolkitLicenseGroupLabel": "MultiCAD STEP 轉譯程式可用性",
+  "NXMissingLinksWarningLabel": "儲存有遺失參考的檔案",
+  "NXMissingLinksWarningInfo": "啟用時，如果在 NX 工作階段的儲存操作期間，有任何子項設計遺失，將會出現警告。停用時，則不顯示警告且繼續執行儲存操作。",
+  "NXSuppressPatternElementsLabel": "抑制複製排列元素",
+  "NXSuppressPatternElementsInfo": "啟用時，此設定會抑制複製排列元素，所以複製排列主零件不會出現在「儲存」對話方塊中。停用時，零件會維持與複製排列主零件之間的關係，即建立 MakeFrom 關係。",
+  "NXSTEP242LicenseAvailableLabel": "MultiCAD STEP 轉譯程式可用性",
+  "NXSTEP242LicenseAvailableInfo": "設定可指定在將 multiCAD 設計開啟至 NX 工作階段時，使用 STEP AP214 還是 STEP AP242 轉譯程式。預設值：STEP AP242。",
+  "NXCADAttributeMappedToEINLabel": "對應至 EIN 的 CAD 屬性",
+  "NXCADAttributeMappedToEINInfo": "指定此屬性的數值時，功能即會啟用，我們會使用此屬性標記 CAD 檔案，其數值則會是實體產品的 EIN。",
+  "EnterpriseItemNumberGroupLabel": "企業項目編號",
+  "NXFilterOutEngItemsDataNotInCADLabel": "過濾掉沒有幾何和子節點的 3DEXPERIENCE 工程項目",
+  "NXFilterOutEngItemsDataNotInCADInfo": "過濾掉沒有幾何和子節點的 3DEXPERIENCE 工程項目。"
+}

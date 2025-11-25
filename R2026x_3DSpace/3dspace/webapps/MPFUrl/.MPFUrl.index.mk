@@ -1,0 +1,10 @@
+m|MPFCore\MPFUrl.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24328|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\MPFUrl\MPFUrl.js|1732360481|2079
+s|MPFCore\MPFUrl.mweb\src\MPFUrl.js|1724871223|0
+u|MPFCore\MPFUrl.mweb\src\UrlUtils.js|1732311151|5244
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

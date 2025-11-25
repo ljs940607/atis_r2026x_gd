@@ -1,0 +1,16 @@
+{
+  "other": "기타",
+  "companyName": "회사 이름",
+  "typeCompanyName": "회사 이름을 입력합니다.",
+  "country": "국가",
+  "selectCountry": "회사의 국가를 선택합니다.",
+  "countryNotAvailable": "고객의 국가에서 견적을 발행할 수 없습니다.",
+  "phoneNumber": "전화번호",
+  "enterPhoneNumber": "전화번호 입력",
+  "phoneNumberInvalid": "이 전화 번호는 유효하지 않습니다.",
+  "addNda": "NDA 추가",
+  "ndaInfo": "선택한 서비스 공급업체가 귀사의 요청을 보기 전에 수락해야 하는 NDA(비밀 유지 계약)를 업로드할 수도 있습니다.\n(최대 파일 크기: 30 Mb | 지원되는 파일 포맷: PDF, DOCX, DOC)",
+  "imageCantBeUploadedNDA": "이미지 파일을 NDA로 업로드할 수 없습니다.",
+  "fileFormatNotSupported": "파일 포맷이 지원되지 않음",
+  "uploadError": "오류가 발생했습니다. 최대 크기가 50Mb인 PDF와 텍스트 파일만 허용됩니다."
+}

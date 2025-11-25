@@ -1,0 +1,1 @@
+define("DS/ENOXEngineerCompare/ENOXEngineerCompare_zh",{});define("DS/ENOXEngineerCompare/assets/nls/ENOXEngineerCompare",{makeFromAsRequired:"根据需要",structureView:"结构视图",structureReferenceView:"结构参考视图",listView:"列表视图","unit.m3":"m³","unit.m2":"m²","unit.m":"m","unit.kg":"kg"});

@@ -1,0 +1,20 @@
+{
+  "dialog_header": "分類属性は、テナント内で一意である必要があるグローバル管理オブジェクトであり、数を制限できる場合は常に複数のクラスで再利用する必要があります。すべての分類属性が作成されたら、プラットフォーム管理者にインデックス モデルをリフレッシュしてキャッシュを再読み込みするように依頼し、フィードバックを待ってから使用します。",
+  "type": "タイプ",
+  "internalName": "内部名",
+  "predicate": "6W 述部",
+  "enable6wPredicate": "6W タグで表示",
+  "title": "タイトル",
+  "behavior": "ビヘイビア",
+  "multivalued": "複数値",
+  "multiline": "複数行",
+  "authorizedValues": "許可された値",
+  "hasADefaultValue": "デフォルト値あり",
+  "defaultValue": "デフォルト値",
+  "string": "文字列",
+  "integer": "整数",
+  "real": "実数",
+  "boolean": "ブーリアン",
+  "date": "日付",
+  "double": "次元属性"
+}

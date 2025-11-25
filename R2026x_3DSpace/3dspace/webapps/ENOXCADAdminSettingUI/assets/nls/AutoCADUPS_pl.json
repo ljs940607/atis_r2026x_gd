@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Automatyczne nadawanie nazw",
+  "ACADAutoNameInfo": "Włącza automatyczne nadawanie nazw podczas pierwszego zapisywania plików rysunków w 3DEXPERIENCE. Dotyczy to wszystkich aplikacji do tworzenia danych AutoCAD.",
+  "ACADSaveGroupLabel": "Zapisz",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Zastąp nazwę nową nazwą utworzoną automatycznie",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Po wybraniu automatycznie utworzonej nazwy w oknie dialogowym zapisywania istniejąca nazwa pliku zostanie zastąpiona nazwą utworzoną automatycznie.",
+  "ACADEnablePessimisticLockingLabel": "Blokowanie pesymistyczne",
+  "ACADEnablePessimisticLockingInfo": "Włączenie tej funkcji gwarantuje, że dane nie mogą być zapisywane na platformie ze złącza, chyba że są zarezerwowane przez bieżącego użytkownika.",
+  "ACADFileReadOnlyLabel": "Ustaw plik jako tylko do odczytu",
+  "ACADFileReadOnlyInfo": "Plik zostanie oznaczony jako tylko do odczytu, jeśli nie jest zarezerwowany przez bieżącego użytkownika. Ta funkcja będzie włączona tylko wtedy, gdy włączona jest blokada pesymistyczna.",
+  "ACADDelimiterLabel": "Ustawić separator",
+  "ACADDelimiterInfo": "Separator ten będzie wykorzystywany w następujący sposób:\n1. Do scalania wartości atrybutów wielowartościowych w 3DEXPERIENCE podczas synchronizacji w pliku CAD.\n2. Do dzielenia wartości atrybutu CAD, jeśli jest on mapowany do atrybutu wielowartościowego w 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "Ogólne",
+  "InvalidDelimiter": "Nie można używać więcej niż jednego znaku jako separatora"
+}

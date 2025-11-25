@@ -1,0 +1,19 @@
+{
+  "AddATitle": "제목 추가",
+  "Publish": "게시",
+  "Next": "다음",
+  "Previous": "이전",
+  "Cancel": "취소",
+  "Close": "닫기",
+  "StartWriting": "작성 시작",
+  "AreYouSure": "취소하시겠습니까? 그러면 입력한 내용이 사라집니다.",
+  "InsertMedia": "미디어 삽입",
+  "InsertExternalMedia": "미디어 삽입",
+  "InsertOSMedia": "컴퓨터에서 미디어 업로드",
+  "AddTags": "태그 추가",
+  "editContentMobileTitle": "콘텐츠 편집",
+  "Error_MaxCharLimitReached": "최대 문자 수 한도 도달({n})",
+  "Error_CreationFailed": "생성에 실패했습니다. 나중에 다시 시도하십시오.",
+  "Error_TitleIsRequired": "콘텐츠를 게시하려면 제목이 필요합니다.",
+  "Error_DescriptionIsRequired": "콘텐츠를 게시하려면 설명이 필요합니다."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "標題",
+  "fileType": "檔案類型",
+  "creationDate": "產生日期",
+  "revision": "修訂版",
+  "owner": "擁有者",
+  "menu": "功能表",
+  "download": "下載",
+  "downloadTitle": "下載",
+  "downloadTooltip": "下載選取的檔案/文件",
+  "openWith": "開啟方式",
+  "openWithTitle": "開啟方式",
+  "openWithTooltip": "將檔案/文件開啟至相容的外部應用程式",
+  "noDataGridDisplayed": "沒有可顯示的輸出的文件",
+  "errorWhenFetchingExportedDocuments": "抱歉，擷取輸出的文件時發生錯誤"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2015 -->
+<AttributesDescriptionList version="2.0" Title="Attributes Description List by Types" Description="Sample configuration file delivered by DS." xmlns="DS_DELPPWConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="DS_DELPPWConfiguration ../xsd/EditFormAttributes.xsd">
+
+	<Type name="ProcessImplementLinkOcc">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="MfgProductionPlanning"/>
+
+        <Attribute name="V_DimensionType" dicoType="MfgProductionPlanning"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Area"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Length"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Mass"/>
+        <Attribute name="V_ContQuantity" dicoType="DELFmiContQuantity_Volume"/>
+        <Attribute name="V_UsageQuantityRatio" dicoType="DELLmiUsageQuantity_Ratio"/>
+    </Type>
+	<Type name="DELAsmProcessCanUseCnx">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="PLMEntity"/>
+		<Attribute name="V_EstimatedTime" dicoType="DELLmiEstimatedTime"/>
+	</Type>
+	<Type name="HistorizationLinkRefRef">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="PLMEntity"/>
+	</Type>
+	<Type name="DELLmiProductionSystemOutputCnxToMBOM">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="PLMEntity"/>
+	</Type>
+	<Type name="DELLmiTimeConstraintCnx">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_DelayMode" dicoType="DELLmiTimeConstraintCnx"/>
+		<Attribute name="V_Delay" dicoType="DELLmiTimeConstraintCnx"/>
+		<Attribute name="V_DependencyType" dicoType="DELLmiTimeConstraintCnx"/>
+		<Attribute name="V_MaterialNeed" dicoType="DELLmiTimeConstraintCnx"/>
+		<Attribute name="V_OptionalTimeConstraint" dicoType="DELLmiTimeConstraintCnx"/>
+		<Attribute name="flowType" dicoType="DELLmiTimeConstraintCategoryAbstractCusto"/>
+		<Attribute name="V_ExecutionReturnCode" dicoType="DELLmiTimeConstraintCategoryAbstract" />
+		<Attribute name="V_MaximumRetries" dicoType="DELLmiTimeConstraintFailed"/>
+		<Attribute name="V_TransferQuantity" dicoType="DELLmiTimeConstraintQuantityDistribution"/>
+		<Attribute name="V_Priority" dicoType="DELLmiTimeConstraintQuantityDistribution"/>
+	</Type>
+	<Type name="DELLmiMaterialPathCnxCust">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="PLMEntity"/>
+	</Type>
+
+	<Type name="DELWkiInstructionReference" formStyle="Vertical">
+		<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+		<Attribute name="V_WIInstruction_Text" dicoType="DELWkiInstructionReference" displayType="richText"/>
+	</Type>
+
+	<Type name="DELWkiSignOffReference" formStyle="Vertical">
+		<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+		<Attribute name="V_WISignOff_Text" dicoType="DELWkiSignOffReference" displayType="richText"/>
+		<Attribute name="V_WISignOff_Actors" dicoType="DELWkiSignOffReference"/>
+		<!-- VAA8 - // 2024/01/17 Un Commented SignOff Actors, During edit Actor combo was not getting displayed. On un-commenting above node, Actor combo is displayed -->
+		<Attribute name="V_WISignOff_AllowPartial" dicoType="DELWkiSignOffReference" />
+		<Attribute name="V_WISignOff_NotMandatory" dicoType="DELWkiSignOffReference" />
+	</Type>
+
+	<Type name="DELWkiAlertReference" formStyle="Vertical">
+		<Attribute name="V_Name" dicoType="PLMEntity" mandatory="true" />
+		<Attribute name="V_WIAlert_Message" dicoType="DELWkiAlertReference" displayType="richText" />
+		<Attribute name="V_WIAlert_ShowMode" dicoType="DELWkiAlertReference" />
+		<Attribute name="V_WIAlert_TrackConfirmation" dicoType="DELWkiAlertReference" />
+	</Type>
+
+	<Type name="DELMfgResponsibilityCnx">
+		<Attribute name="V_description" dicoType="PLMEntity"/>
+		<Attribute name="V_usage" dicoType="PLMEntity"/>
+	</Type>
+	<Type name="PLMReqSpecifyHowToCnx">
+		<Attribute name="V_HowToUsage" dicoType = "PLMReqSpecifyHowToCnx" />
+		<Attribute name="V_Ignore" dicoType = "PLMReqSpecifyHowToCnx" />
+		<Attribute name="V_Contextual_Req_Info" dicoType = "PLMReqSpecifyHowToCnx" />
+	</Type>
+</AttributesDescriptionList>

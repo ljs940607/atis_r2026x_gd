@@ -1,0 +1,22 @@
+{
+  "setParameters": "Parametro salvato",
+  "setParametersTitle": "Salva",
+  "setParametersError": "Errore durante il salvataggio dei parametri",
+  "deleteParameter": "Parametro eliminato",
+  "deleteParameterTitle": "Elimina",
+  "deleteParameterError": "Errore durante l'eliminazione dei parametri",
+  "modifyParameter": "Parametro modificato",
+  "modifyParameterTitle": "Modifica",
+  "modifyParameterError": "Errore durante la modifica dei parametri",
+  "columnMandatory": "La colonna %1 è obbligatoria",
+  "containUnsupportedChars": "%1 contiene uno o più caratteri seguenti non supportati \n %2",
+  "confirmDeleteTitle": "Conferma eliminazione",
+  "confirmDeleteContent": "Rimuovere la riga? L'operazione non può essere annullata.",
+  "Add": "Aggiungi nuova riga",
+  "orderParameters": "Ordine aggiornato",
+  "orderParametersTitle": "Riordina",
+  "orderParametersError": "Errore durante il riordino",
+  "orderParametersMaskMessage": "Aggiornamento dell'ordine",
+  "orderParametersDeleteError": "Errore durante l'eliminazione dell'ordine precedente",
+  "orderParametersSetError": "Errore durante il salvataggio del nuovo ordine"
+}

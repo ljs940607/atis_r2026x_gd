@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Dettagli regola di output derivato",
+    "doattributes": "Attributi regola output derivato",
+    "name": "Nome",
+    "connector": "Connettore",
+    "implicitRule": "Regola implicita",
+    "external": "Generazione esterna",
+    "parameters": "Parametri di conversione",
+    "converter": "Convertitore",
+    "origin": "Origine",
+    "forceUpdate": "Forza aggiornamento",
+    "uptodateDO": "Aggiornato",
+    "jobStatus": "Stato del lavoro",
+    "format": "Formato",
+    "alias": "Formato unificato",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "buttons": {
+    "cancel": "Annulla"
+  },
+  "popup": {
+    "option": "Opzione",
+    "value": "Valore",
+    "yesButton": "Sì",
+    "noButton": "No",
+    "cancelButton": "Annulla"
+  },
+  "error": {
+    "title": "Errore",
+    "invalidFrame": "Impossibile eseguire l'operazione. Aggiornare il widget e riprovare.",
+    "invalidParameter": "I parametri non sono definiti correttamente."
+  }
+}

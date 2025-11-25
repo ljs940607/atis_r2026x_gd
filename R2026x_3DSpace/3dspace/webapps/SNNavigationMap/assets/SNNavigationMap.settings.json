@@ -1,0 +1,105 @@
+{
+  "authorizedTypes": [
+    "CATProduct",
+    "CATPart",
+    "CATDrawing",
+    "CATAnalysis",
+    "CATProcess",
+    "CATShape",
+    "CATProcess",
+    "CATIA CGR",
+    "Workspace",
+    "Personal Workspace",
+    "Workspace Vault",
+    "Document",
+    "CATIA Embedded Component",
+    "CATIA Design Table",
+    "VPMReference",
+    "VPMRepReference",
+    "Document",
+    "PLMDmtDocument",
+    "Drawing",
+    "Part",
+    "Drawing Print",
+    "CAD Drawing",
+    "CAD Model",
+    "PLMCoreReference"
+  ],
+
+  "layoutAxis": "x",
+  "layoutDirection": "right",
+  "layoutType": "linearGraph",
+  "countLimit": 10,
+  "showInstancesLimit":10,
+  "listViewPanelWidth":400,
+  "navigatedNodeLimite":50,
+  "nodeHeightWtThumb": 130,
+  "exportLimit": 5000,
+  "nodeHeightWtoutThumb": 65,
+  "nav_history": false,
+  "superCountMode":false,
+  "isInformationPanelVisible": false,
+  "showInstances":false,
+  "showPublications": false,
+  "showGhost":false,
+  "activateOptimizedIndexNavigation": false,
+  "whatsNewDoNotShowAgain": false,
+  "isAlive_Is3DSpaceIUExistingAndTenantAllowed": false,
+  "showopenwith": true,
+  "redirectQueryToSGI": false,
+  "SGINavigation": true,
+  "layoutMode": false,
+  "initWithRootId":false,
+  "typeLayoutView": "tileview",
+  "thumbnails2d": "thumbnailsMode",
+  "displayNameAttributes": [
+    "ds6w:label",
+    "ds6wg:revision"
+  ],
+  "displayNameSeparator": " | ",
+  "detailAttributesLevel1": [
+    "ds6w:responsible",
+    "ds6w:modified"
+  ],
+  "detailAttributesLevel2": [
+    "ds6w:identifier"
+  ],
+  "attributes": [
+    "ds6w:label",
+    "ds6wg:revision",
+    "ds6w:status",
+    "ds6w:type",
+    "ds6w:modified",
+    "ds6w:responsible",
+    "ds6w:project",
+    "ds6w:dataSource",
+    "ds6w:identifier"
+  ],
+  "excludedAttributes": [
+    "v6_structure_roots_from"
+  ],
+  "fetchAttributes": [
+    "preview_url",
+    "type_icon_url",
+    "taxonomies",
+    "owner",
+    "ds6w:i3dx",
+    "type",
+    "resourceid"
+  ],
+  "fedSearchAttributes": [
+    "ds6w:type",
+    "owner",
+    "ds6w:i3dx",
+    "type"
+  ],
+  "attributesForItems":[
+    "id",
+    "ds6w:i3dx",
+    "relTypesTaxonomies",
+    "serviceId",
+    "type",
+    "displayType"
+  ],
+  "timeout" : 60000
+}

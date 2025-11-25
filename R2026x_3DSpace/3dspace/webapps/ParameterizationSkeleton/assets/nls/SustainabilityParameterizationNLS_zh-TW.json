@@ -1,0 +1,8 @@
+{
+  "CostingDomainTitle": "成本",
+  "CostingDomainTooltip": "選擇成本指標的進化程序",
+  "CostingDefaultEvolution": "循序",
+  "CostingEvolutionConcurrent": "並行",
+  "deployFailureMsg": "不允許將進化程序設定為「並行」，因為有些「成本」指標超出「工作中」狀態",
+  "MetricEvolutionAccordionTitle": "指標進化程序"
+}

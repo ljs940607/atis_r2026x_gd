@@ -1,0 +1,14 @@
+{
+"WAFRRedoCmd.Title":"Yinele",
+"WAFRRedoCmd.ShortHelp":"Son eylemi yineler.",
+"WAFRRedoCmd.LongHelp":"Yinele, son eylemlerinizi takip eder. Gerçekleştirdiğiniz eylemleri, her seferinde bir eylem olacak şekilde yineleyebilirsiniz. Yinelenecek bir eylem yoksa Yinele komutunun yerini az önce kullanmış olduğunuz bir komutu yeniden başlatmanızı sağlayan Tekrarla komutu alır.",
+"WAFRUndoCmd.Title":"Geri Al",
+"WAFRUndoCmd.ShortHelp":"Son eylemi geri çevirir.",
+"WAFRUndoCmd.LongHelp":"Geri Al işlemi, son eylemlerinizi takip eder. Gerçekleştirdiğiniz eylemleri, her seferinde bir eylem olacak şekilde geri çevirebilirsiniz.",
+"WAFRURFlushCmd.Title":"Geri Al/Yinele yığınlarını temizle",
+"WAFRURFlushCmd.ShortHelp":"Geri Al/Yinele geçmişini boşaltır.",
+"WAFRURFlushCmd.LongHelp":"Geçerli bağlamda gerçekleştirilen tüm tamamlanmış global eylemleri geçmişten kaldırır.",
+"WAFUROverview.Title":"Geri Al/Yinele Genel Görünümü",
+"WAFUROverview.ShortHelp":"Geri çevrilebilecek veya yinelenebilecek eylemleri listeler.",
+"WAFUROverview.LongHelp":"Üst kısımda geri çevrilecek eylemleri seçin. Alt kısımda yinelenecek eylemleri seçin."
+}

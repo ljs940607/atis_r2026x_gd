@@ -1,0 +1,15 @@
+{
+  "CREOSaveGroupLabel": "Kaydet",
+  "CREOOpenGroupLabel": "Aç",
+  "CREOMissingLinksWarningLabel": "Dosyayı eksik referanslarla kaydet",
+  "CREOMissingLinksWarningInfo": "Etkinken Creo Parametrik oturumunda Kaydet işlemi sırasında herhangi bir alt tasarım eksikse bir uyarı görüntülenir. Devre dışıyken Kaydet işlemi uyarı olmadan devam eder.",
+  "CREOPartFamilyInstanceHandlingLabel": "Creo Parça Ailesi Örnek İşleme",
+  "CREOPartFamilyInstanceHandlingInfo": "Kaydetme sırasında Creo Parça Ailesi Tablosu örneklerinin işlenip işlenmeyeceğini belirler: <br><strong>PartFamilyInstanceLight</strong>: XPR dosyaları, yalnızca etkin örnekler için oluşturulur. <br><strong> PartFamilyInstanceLoaded</strong>: XPR dosyaları tüm örnekler için oluşturulur.",
+  "CREOCADAttributeMappedToEINLabel": "EIN'e eşlenen CAD Özniteliği",
+  "CREOCADAttributeMappedToEINInfo": "Bu öznitelik için değer belirtildiğinde fonksiyon etkinleştirilir ve CAD dosyası bu öznitelikle damgalanır. Özniteliğin değeri Fiziksel Ürünün EIN'i olacaktır.",
+  "EnterpriseItemNumberGroupLabel": "Kuruluş Öğe Numarası",
+  "PartFamilyInstanceLight": "PartFamilyInstanceLight",
+  "PartFamilyInstanceLoaded": "PartFamilyInstanceLoaded",
+  "CreoFilterOutEngItemsDataNotInCADLabel": "Geometri ve alt düğüm içermeyen 3DEXPERIENCE mühendislik öğelerini filtreleyin",
+  "CreoFilterOutEngItemsDataNotInCADInfo": "Geometri ve alt düğüm içermeyen 3DEXPERIENCE mühendislik öğelerini filtreleyin."
+}

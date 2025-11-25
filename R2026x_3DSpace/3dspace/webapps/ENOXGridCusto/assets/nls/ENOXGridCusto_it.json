@@ -1,0 +1,95 @@
+{
+  "views": {
+    "viewLabel": "Visualizza",
+    "ENO2D_DEFAULT": "Vista predefinita",
+    "ENO2D_CUSTO": "Vista personalizzata",
+    "copyOf": "Copia di {viewName}",
+    "addView": "Aggiungi nuova vista personalizzata",
+    "editView": "Modifica vista personalizzata",
+    "removeView": "Rimuovi vista personalizzata",
+    "arrowRight": "Aggiungi attributo nella vista",
+    "arrowLeft": "Rimuovi attributo dalla vista"
+  },
+  "toolbar": {
+    "spacing": "Densità ",
+    "spacingComfortable": "Pratico",
+    "spacingCompact": "Compatto",
+    "checkbox": "Casella di controllo Selezione oggetto",
+    "findInAtt": "Trova attributo",
+    "resetDefault": "Ripristina predefiniti"
+  },
+  "columns": {
+    "attName": "Nome attributo",
+    "attType": "Tipo di attributo",
+    "colName": "Nome colonna",
+    "pin": "Fissa",
+    "hide_show": "Mostra/Nascondi",
+    "findinctx": "Trova",
+    "thumbnail": "Anteprima",
+    "thumbnails": "Anteprima",
+    "matrixtxt": "Matrice posizione",
+    "typeName": "Tipo",
+    "extName": "Estensione"
+  },
+  "attSelection": {
+    "title": "Attributi disponibili: ",
+    "REFERENCE": "Riferimento",
+    "INSTANCE": "Istanza",
+    "CLASSIFICATION": "Classe",
+    "COMPUTED": "Calcolato",
+    "COMMAND": "Comando",
+    "pinLeft": "Fissa a sinistra",
+    "pinRight": "Fissa a destra",
+    "unpinned": "Nessun elemento fissato",
+    "commonAttributes": "Colonne comuni",
+    "typesAttributes": "Colonne di digitazione",
+    "extsAttributes": "Colonne di estensione",
+    "classifAttributes": "Colonne di classificazione",
+    "otherColumns": "Altri",
+    "findAttributes": "Trova attributi",
+    "addTypesAndExt": "Aggiungi altri tipi ed estensioni"
+  },
+  "selectedAtt": {
+    "title": "Attributi selezionati: ",
+    "moveFirst": "Sposta in alto",
+    "moveUp": "Sposta in su",
+    "moveDown": "Sposta in giù",
+    "moveLast": "Sposta in basso"
+  },
+  "typeNext": {
+    "title": "Scelta dei tipi e delle estensioni",
+    "okBtn": "Applica",
+    "cancelBtn": "Annulla",
+    "selectionTypeTitle": "Tipi",
+    "selectionExtTitle": "Estensioni"
+  },
+  "selectionTitle": "Seleziona Tipo o Estensione per elencare gli attributi",
+  "dialog": {
+    "title": "Preferenze tabella",
+    "okBtn": "Salva",
+    "cancelBtn": "Annulla"
+  },
+  "loading": {
+    "gridCusto": "Caricamento delle preferenze della tabella in corso",
+    "baseTypeAndExt": "Caricamento dei tipi e delle estensioni disponibili in corso",
+    "gridCustoReset": "Ripristina predefiniti"
+  },
+  "hcTypes": {
+    "VPMRepInstance": "Istanza di rappresentazione fisica"
+  },
+  "notDisplayedAtt": "Da non visualizzare nella UI",
+  "warning": {
+    "tooManySelected": {
+      "title": "Numero massimo di colonne raggiunto",
+      "msg": "È autorizzato solo un massimo di {maxNumber} colonne"
+    },
+    "viewAlreadyExistsAdd": {
+      "title": "La vista esiste già",
+      "msg": "È presente una vista con il nome '{viewName}'"
+    },
+    "viewAlreadyExistsMod": {
+      "title": "La vista esiste già",
+      "msg": "È presente una vista con il nome '{viewName}'"
+    }
+  }
+}

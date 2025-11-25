@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Cortar";
+DMUSection.DMUSectionNoCutHdr.Title="Sin corte";
+DMUSection.DMUSectionGridHdr.Title="Cuadrícula";
+DMUSection.DMUSectionFlipHdr.Title="Invertir";
+DMUSection.DMUSectionNormalToXHdr.Title="Colocar en X";
+DMUSection.DMUSectionNormalToYHdr.Title="Colocar en Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Colocar en Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Colocar a partir de geometría";
+DMUSection.DMUSectionMoveHdr.Title="Mover punto de vista";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Sección de visor secundario";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Sección selectiva";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Quitar";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Salir de edición de recorte";
+DMUSection.DMUClippingEditionHdr.Title="Editar recorte";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Recorte mediante un elemento de construcción";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Recortar por una sección";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Cambiar el tamaño de los objetos seleccionados";
+DMUSection.DMUResetClippingPlaneHdr.Title="Restablecer recorte";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Recortar por una curva";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Cambiar el tamaño de los objetos seleccionados";
+DMUSection.DMUResetClippingSliceHdr.Title="Restablecer recorte";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Recortar por una caja";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Cambiar el tamaño de los objetos seleccionados";
+DMUSection.DMUResetClippingBoxHdr.Title="Restablecer recorte";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Posición en el eje X";
+DMUSection.DMUClippingNormalToYHdr.Title="Posición en el eje Y";
+DMUSection.DMUClippingNormalToZHdr.Title="Posición en el eje Z";
+DMUSection.DMUClippingNormalUserHdr.Title="Posición desde la geometría seleccionada";
+DMUSection.DMUClippingReverseHdr.Title="Invertir recorte";
+DMUSection.DMUContourViewerHdr.Title="Sección de visor secundario";
+DMUSection.DMUClippingPositionHdr.Title="Posición de recorte...";
+DMUSection.DMUAlignViewHdr.Title="Alinear punto de vista";
+DMUSection.DMUHideShowHdr.Title="Ocultar/Mostrar";
+DMUSection.DMUCutUncutHdr.Title="Corte/Sin cortar...";
+DMUSection.DMUClippingEditStr.Title="Recorte";
+DMUSection.DMUClippingPropertiesHdr.Title="Propiedades";

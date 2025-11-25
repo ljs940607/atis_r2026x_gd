@@ -1,0 +1,731 @@
+{
+    "iconFontToRich": {
+        "filter": {
+            "rich": {
+                "name": "I_CommonIcon_Filter_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "filter-delete": {
+            "rich": {
+                "name": "I_RemoveFilter.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "pin": {
+            "rich": {
+                "name": "I_CommonIcon_Pin_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "table-column-size": {
+            "rich": {
+                "name": "fit_column_size.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "table-column-size-all": {
+            "rich": {
+                "name": "fit_all_columns_size.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "eye": {
+            "rich": {
+                "name": "I_CommonIcon_Show_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "eye-off": {
+            "rich": {
+                "name": "I_CommonIcon_Hide_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "pencil": {
+            "rich": {
+                "name": "I_EditFileCmd.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "lock-open": {
+            "rich": {
+                "name": "I_CommonIcon_Unlock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "update-lock-open": {
+            "rich": {
+                "name": "I_UpdateAndUnlock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        }
+    },
+    "commands": {
+        "RenameCmd_BrowsingNode" : {
+            "icon": "rename",
+            "rich": {
+                "name": "I_RenameFolder.png",
+                "module": "FolderEditor"
+            }
+        },
+        "RenameCmd_BrowsingStructure" : {
+            "icon": "rename",
+            "rich": {
+                "name": "I_RenameFolder.png",
+                "module": "FolderEditor"
+            }
+        },
+        "RenameCmd": {
+            "icon": "rename",
+            "rich": {
+                "name": "I_RenameFolder.png",
+                "module": "FolderEditor"
+            }
+        },
+        "BookmarkLocation": {
+            "icon": "bookmark",
+            "rich": {
+                "name": "I_OpenBookmarkLocation22.png",
+                "module": "FolderEditor"
+            }
+        },
+        "openInV5": {
+            "icon": "open-eye",
+            "rich": {
+                "name": "I_OpenInReadOnly_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "PreviewFile": {
+            "icon": "eye",
+            "rich": {
+                "name": "I_CommonIcon_Show_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "OpenInCADHdr": {
+            "icon": "open",
+            "rich": {
+                "name": "I_OpenInCAD.png",
+                "module": "PADUtils"
+            }
+        },
+        "ActionBar_NewFolderCmd": {
+            "icon": "bkmrk-folder-add",
+            "rich": {
+                "name": "I_PLMAddExistingObjectToFolder.png",
+                "module": "FolderEditor"
+            }
+        },
+        "RemoveContent": {
+            "icon": "remove",
+            "rich": {
+                "name": "I_RemoveItem.png",
+                "module": "FolderEditor"
+            }
+        },
+        "AddFile": {
+            "icon": "upload",
+            "rich": {
+                "name": "I_CommonIcon_Upload_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "DownloadFile": {
+            "icon": "download",
+            "rich": {
+                "name": "I_CommonIcon_Download_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "FolderUpload": {
+            "icon": "folder-upload",
+            "rich": {
+                "name": "I_UploadFolder22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "RemoveShortcut": {
+            "icon": "remove",
+            "rich": {
+                "name": "I_RemoveItem.png",
+                "module": "FolderEditor"
+            }
+        },
+        "FolderDownload": {
+            "icon": "download",
+            "rich": {
+                "name": "I_CommonIcon_Download_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Cut": {
+            "icon": "cut",
+            "rich": {
+                "name": "I_Cut.png",
+                "module": "FolderEditor"
+            }
+        },
+        "Copy": {
+            "icon": "copy",
+            "rich": {
+                "name": "I_CommonIcon_Copy_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Paste": {
+            "icon": "paste",
+            "rich": {
+                "name": "I_CommonIcon_Paste_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "AddExistingContent": {
+            "icon": "plus",
+            "rich": {
+                "name": "I_Plus_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "AddExternalLink": {
+            "icon": "link-add",
+            "rich": {
+                "name": "I_NewLink_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "OpenExternalLink": {
+            "icon": "open",
+            "rich": {
+                "name": "I_OpenWith.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "AddToFavorites": {
+            "icon": "favorite-on",
+            "rich": {
+                "name": "I_CommonIcon_Favorite_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActiveFolder": {
+            "icon": "bookmark-pin",
+            "rich": {
+                "name": "I_BookmarkPin_22.png",
+                "module": "FolderEditor"
+            }
+        },
+        "datagridview": {
+            "icon": "view-list",
+            "rich": {
+                "name": "I_CommonIcon_TableView_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "tileview": {
+            "icon": "view-small-tile",
+            "rich": {
+                "name": "I_TileView_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "thumbnailview": {
+            "icon": "view-small-thb",
+            "rich": {
+                "name": "I_ThumbnailView_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ExpandAll": {
+            "icon": "flow-tree-expand-down",
+            "rich": {
+                "name": "I_ExpandAll.png",
+                "module": "IPClassifyNav"
+            }
+        },
+        "ExpandN": {
+            "icon": "flow-tree-expand-down-cog",
+            "rich": {
+                "name": "I_ExpansionLevel_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "CollapseAll": {
+            "icon": "flow-tree-expand-up",
+            "rich": {
+                "name": "I_CollapseAll.png",
+                "module": "IPClassifyNav"
+            }
+        },
+        "Search": {
+            "icon": "search",
+            "rich": {
+                "name": "I_CommonIcon_Search_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectChildren": {
+            "icon": "tree-view-leaf",
+            "rich": {
+                "name": "I_SelectChildren_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectAll": {
+            "icon": "select-all",
+            "rich": {
+                "name": "I_SelectAll_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectInversion": {
+            "icon": "select-inverted",
+            "rich": {
+                "name": "I_SelectInvert_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectParent": {
+            "icon": "tree-view-root",
+            "rich": {
+                "name": "I_SelectParent_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectSiblings": {
+            "icon": "tree-view-flattened-progress-3",
+            "rich": {
+                "name": "I_SelectSiblings_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SelectLeaves": {
+            "icon": "tree-view-leaf",
+            "rich": {
+                "name": "I_SelectLeaves_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ColumnVisibility": {
+            "icon": "attributes-cog",
+            "rich": {
+                "name": "I_CustomizeView_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ExportCSV": {
+            "icon": "export-to-csv",
+            "rich": {
+                "name": "ExportToCSV.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "UnifiedExportCommand": {
+            "icon": "export",
+            "rich": {
+                "name": "I_CommonIcon_Export_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ImportCSVBookmark": {
+            "icon": "import",
+            "rich": {
+                "name": "I_CommonIcon_Import_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Print": {
+            "icon": "print",
+            "rich": {
+                "name": "I_Print_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "RelationIPExplorer": {
+            "icon": "object-related",
+            "rich": {
+                "name": "I_CommonIcon_Relations_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SubscribeHdr": {
+            "icon": "bell-add",
+            "rich": {
+                "name": "I_ActionSubscribe_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "UnSubscribeHdr": {
+            "icon": "bell-delete",
+            "rich": {
+                "name": "I_ActionUnSubscribe_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "EditSubscribeHdr": {
+            "icon": "bell-pencil",
+            "rich": {
+                "name": "I_ActionEditSubscriptions_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "MySubscriptionsHdr": {
+            "icon": "bell",
+            "rich": {
+                "name": "I_MySubscription_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "PushSubscribeHdr": {
+            "icon": "bell-add",
+            "rich": {
+                "name": "I_SubscribeForOthers_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ViewSubscribeHdr": {
+            "icon": "bell",
+            "rich": {
+                "name": "I_EditSubscriptionForOthers_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_AccessRightCmd": {
+            "icon": "forward",
+            "rich": {
+                "name": "I_CommonIcon_Share_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_Attributes": {
+            "icon": "info-open-in-a-new-window",
+            "rich": {
+                "name": "I_Informationpopup22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "MaturityHdr": {
+            "icon": "collaborative-lifecycle-management",
+            "rich": {
+                "name": "I_Lifecycle22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "RevisionHdr": {
+            "icon": "flow-line-add",
+            "rich": {
+                "name": "I_MajorVersion.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "NewBranchHdr": {
+            "icon": "flow-branch-add",
+            "rich": {
+                "name": "I_Evolution22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ReviseFromHdr": {
+            "icon": "flow-branch-add wux-ui-3ds-flip-vertical",
+            "rich": {
+                "name": "I_NewRevisionFrom22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "DeleteHdr": {
+            "icon": "trash",
+            "rich": {
+                "name": "I_CommonIcon_DeleteRecoverable_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "DuplicateHdr": {
+            "icon": "duplicate",
+            "rich": {
+                "name": "I_CommonIcon_Duplicate_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "CompareHdr": {
+            "icon": "part-compare",
+            "rich": {
+                "name": "I_CommonIcon_Compare_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "HistoryHdr": {
+            "icon": "flow-branch-list",
+            "rich": {
+                "name": "I_ExploreRevisions22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_ChangeOwner": {
+            "icon": "move-to",
+            "rich": {
+                "name": "I_CommonIcon_MoveTo_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_TransferOwnership": {
+            "icon": "user-change",
+            "rich": {
+                "name": "I_CommonIcon_ChangeUser_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_ReserveCmd": {
+            "icon": "lock",
+            "rich": {
+                "name": "I_CommonIcon_Lock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_UnreserveCmd": {
+            "icon": "lock-open",
+            "rich": {
+                "name": "I_CommonIcon_Unlock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "UPSReplaceByLatestRevision": {
+            "icon": "replace-by-revision",
+            "rich": {
+                "name": "I_ReplaceByLatestRevision_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "UPSAuthReplaceByRevision": {
+            "icon": "replace-by-latest-version",
+            "rich": {
+                "name": "I_ReplaceByRevision_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_ShareBookmarkLink": {
+            "icon": "link",
+            "rich": {
+                "name": "I_ShareByLink22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_FindInCtxCmd": {
+            "icon": "find",
+            "rich": {
+                "name": "I_CommonIcon_Find_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "findInTree": {
+            "icon": "find",
+            "rich": {
+                "name": "I_CommonIcon_Find_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Information": {
+            "icon": "info",
+            "rich": {
+                "name": "I_CommonIcon_Information_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "SetThePartNumber": {
+            "icon": "barcode",
+            "rich": {
+                "name": "i_barCode.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "OpenWith": {
+            "icon": "open-menu-dot",
+            "rich": {
+                "name": "I_CommonIcon_OpenWith_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Update": {
+            "icon": "update",
+            "rich": {
+                "name": "I_UpdateFileCmd.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Edit": {
+            "icon": "pencil",
+            "rich": {
+                "name": "I_EditFileCmd.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "UndoEdit": {
+            "icon": "pencil-block",
+            "rich": {
+                "name": "I_CancelEdit_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "LockAndDownload": {
+            "icon": "lock-download",
+            "rich": {
+                "name": "I_LockAndDownload_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "updateAndUnlock": {
+            "icon": "update-lock-open",
+            "rich": {
+                "name": "I_UpdateAndUnlock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "unlockDoc": {
+            "icon": "lock-open",
+            "rich": {
+                "name": "I_CommonIcon_Unlock_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "indexMode": {
+            "icon": "database-refresh",
+            "rich": {
+                "name": "I_IndexMode_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "DBMode": {
+            "icon": "database-hourglass",
+            "rich": {
+                "name": "I_DatabaseMode_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "LockDBMode": {
+            "icon": "database",
+            "rich": {
+                "name": "I_CommonIcon_Database_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_ActiveBookmarkCmd": {
+            "icon": "bookmark-pin",
+            "rich": {
+                "name": "I_Bookmark_Pin_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "TreeOrder": {
+            "icon": "tree-reorder",
+            "rich": {
+                "name": "I_OrderBy_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "alphaSort": {
+            "icon": "alpha-sorting-a-z",
+            "rich": {
+                "name": "I_SortingAlphabetic_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "alphaSortReverse": {
+            "icon": "alpha-sorting-z-a",
+            "rich": {
+                "name": "I_SortingAlphabeticZA_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "dateSort": {
+            "icon": "num-sorting-1-2",
+            "rich": {
+                "name": "I_SortingNumeric_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "dateSortReverse": {
+            "icon": "num-sorting-2-1",
+            "rich": {
+                "name": "I_SortingNumeric91_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "Filter": {
+            "icon": "filter",
+            "rich": {
+                "name": "I_CommonIcon_Filter_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "closeCmd": {
+            "icon": "wrong",
+            "rich": {
+                "name": "I_CommonIcon_Close_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "defaultSort": {
+            "icon": "sorting",
+            "rich": {
+                "name": "I_DefaultSort_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "clearSort": {
+            "icon": "clear",
+            "rich": {
+                "name": "I_CommonIcon_ClearView_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "hideColumn": {
+            "icon": "eye-off",
+            "rich": {
+                "name": "I_CommonIcon_Hide_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_NewBrowsingStructureCmd": {
+            "icon": "plus",
+            "rich": {
+                "name": "I_Plus_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ActionBar_NewBrowsingNodeCmd": {
+            "icon": "plus",
+            "rich": {
+                "name": "I_Plus_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "DownloadPublication": {
+            "icon": "download",
+            "rich": {
+                "name": "I_CommonIcon_Download_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "GeneratePublication": {
+            "icon": "lifecycle-management-3d-object",
+            "rich": {
+                "name": "I_GeneratePublication_22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "CreateRouteHdr": {
+            "icon": "route",
+            "rich": {
+                "name": "I_NewRoute22.png",
+                "module": "IPClassifyUXUtil"
+            }
+        },
+        "ExportV5": {
+            "icon": "export-to-v5",
+            "rich": {
+                "name": "I_ExportV5.png",
+                "module": "IPClassifyUXUtil"
+            }
+        }
+    }
+}

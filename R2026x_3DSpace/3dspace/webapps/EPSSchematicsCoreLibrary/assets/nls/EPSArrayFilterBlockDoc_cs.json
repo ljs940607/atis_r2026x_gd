@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "summary": "Vytvoří kopii části daného pole, která je odfiltrována pouze na prvky, které úspěšně projdou testem provedeném poskytnutým grafem.",
+  "description": "Filtruje dané pole voláním poskytnutého grafu na každém prvku, přičemž zachová pouze prvky, pro které odpovídající graf aktivuje řídicí port <doc-ocp-name translate=no>True</doc-ocp-name>.<br>Tento blok je schopen filtrovat libovolný typ pole <doc-idp-name translate=no>ArrayIn</doc-idp-name> na libovolný typ výstupního pole.<br>Vnitřní graf je třeba upravit, aby bylo možné provést filtrování.",
+  "dataPorts": {
+    "ArrayIn": "Vstupní pole, které má být filtrováno. <br>Tento datový port zpracovává všechny typy polí.",
+    "SharedData": "Data ke sdílení v jednotlivých interních instancích grafu. <br>Tento datový port zpracovává všechny typy. <br>Pokud je třeba sdílet více dat různých typů, doporučuje se vytvořit typ uživatele.",
+    "ArrayOut": "Filtrované výstupní pole.<br>Tento datový port je určen pro všechny typy polí.<br>Velikost tohoto pole nepřekročí velikost pole <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "State": "Pole prvků <doc-valuetype translate=no>ArrayFilterState</doc-valuetype>, které poskytuje <doc-valuetype translate=no>EExecutionState</doc-valuetype> v každém indexu výstupního pole <doc-odp-name translate=no>Success</doc-odp-name>.<br>Velikost tohoto pole bude vždy stejná jako velikost pole <doc-idp-name translate=no>ArrayIn</doc-idp-name>.",
+    "Progress": "Pole prvků <doc-valuetype translate=no>ArrayFilterProgress</doc-valuetype>, které poskytuje <doc-valuetype translate=no>EExecutionState</doc-valuetype> v každém indexu vstupního pole <doc-odp-name translate=no>ArrayIn</doc-odp-name>.<br>Toto pole lze během jednoho postupu vyplnit několika daty, protože závisí na distribučním procesu za blokem.<br>Ale velikost tohoto pole nepřekročí velikost pole <doc-idp-name translate=no>Input</doc-idp-name>.",
+    "Error": "Pole prvků <doc-valuetype translate=no>ArrayFilterError</doc-valuetype>, které poskytuje chybový objekt pro index vstupního pole <doc-odp-name translate=no>ArrayIn</doc-odp-name>.<br>Velikost tohoto pole nepřekročí velikost pole <doc-idp-name translate=no>ArrayIn</doc-idp-name>."
+  },
+  "controlPorts": {
+    "In": "vyvolá spuštění bloku.",
+    "Success": "aktivuje se po úspěšném dokončení procesu.",
+    "Progress": "aktivuje se pokaždé, když dojde k pokroku.",
+    "Error": "aktivuje se při výskytu chyby."
+  },
+  "example": null
+}

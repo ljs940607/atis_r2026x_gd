@@ -1,0 +1,37 @@
+{
+  "properties": [
+    {
+      "name": "Actor.Color",
+      "type": "VCXPropertyValueColor",
+      "value": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Actor.Opacity",
+      "type": "VCXPropertyValueFloat",
+      "value": 1
+    },
+    {
+      "name": "Actor.Color.Defined",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+      "name": "Actor.IsAlwaysOnTop",
+      "type": "VCXPropertyValueBoolean",
+      "value": true
+    },
+    {
+        "name": "Collab.Body.Line.Width",
+        "type": "VCXPropertyValueFloat",
+        "value": 2
+    }
+  ],
+  "name": "RedlineRed",
+  "objectID": "styleID_RedlineRed",
+  "visible": true
+}

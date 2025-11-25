@@ -1,0 +1,16 @@
+{
+  "NXSaveGroupLabel": "Guardar",
+  "NXOpenGroupLabel": "Abrir",
+  "NXToolkitLicenseGroupLabel": "Disponibilidad del traductor de STEP MultiCAD",
+  "NXMissingLinksWarningLabel": "Guardar archivos a los que faltan referencias",
+  "NXMissingLinksWarningInfo": "Si esta opción está activada, aparecerá una advertencia si falta algún diseño secundario durante la operación Guardar en la sesión de NX. Cuando está desactivada, la operación Guardar continuará sin la advertencia.",
+  "NXSuppressPatternElementsLabel": "Suprimir elementos de matriz",
+  "NXSuppressPatternElementsInfo": "Cuando está activada, esta configuración suprime los elementos de matriz, por lo que las piezas maestras de la matriz no aparecen en el cuadro de diálogo Guardar. Cuando está desactivada, la pieza conserva su relación con la pieza maestra de la matriz y crea una relación MakeFrom.",
+  "NXSTEP242LicenseAvailableLabel": "Disponibilidad del traductor de STEP MultiCAD",
+  "NXSTEP242LicenseAvailableInfo": "Configuración para especificar si el traductor de STEP AP214 o STEP AP242 se utiliza cuando se abren diseños multiCAD en una sesión NX. Valor predeterminado: STEP AP242.",
+  "NXCADAttributeMappedToEINLabel": "Atributo CAD asignado a EIN",
+  "NXCADAttributeMappedToEINInfo": "Cuando se especifique un valor para este atributo, la función se activará y el archivo CAD se marcará con este atributo y su valor será el EIN del producto físico.",
+  "EnterpriseItemNumberGroupLabel": "Número de elemento empresarial",
+  "NXFilterOutEngItemsDataNotInCADLabel": "Filtrar elementos de ingeniería de 3DEXPERIENCE sin geometría ni nodos secundarios",
+  "NXFilterOutEngItemsDataNotInCADInfo": "Filtrar elementos de ingeniería de 3DEXPERIENCE sin geometría ni nodos secundarios."
+}

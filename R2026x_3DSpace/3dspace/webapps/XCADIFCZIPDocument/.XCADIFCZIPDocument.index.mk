@@ -1,0 +1,10 @@
+m|XCADParserWeb\XCADIFCZIPDocument.mweb
+b|j|c,m
+b|c|c,m
+v|6.427.0.24222|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\XCADIFCZIPDocument\XCADIFCZIPDocument.js|1723278206|177
+s|XCADParserWeb\XCADIFCZIPDocument.mweb\src\IFCZIPInputDocument.js|1716823392|274
+u|XCADParserWeb\XCADIFCZIPDocument.mweb\src\XCADIFCZIPDocument.js|1491915992|12
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

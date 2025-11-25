@@ -1,0 +1,103 @@
+{
+    "globalInformation": {
+        "text":"Click on a marker & drag to a second one to create a link or fill the information",
+        "emphasize": "info",
+        "icon": "info"
+    },
+    "model": [
+    {
+        "id":"title",
+        "label":"Title",
+        "typeRepresentation":"string"
+    },
+    {
+        "id":"origin",
+        "label":"Origin",
+        "typeRepresentation":"string",
+        "semantics": {
+            "placeholder": "Choose your link's origin"
+        }
+    },
+    {
+        "id":"destination",
+        "label":"Destination",
+        "typeRepresentation":"string",
+        "semantics": {
+            "placeholder": "Choose your link's destination"
+        }
+    },
+    {
+        "id":"desc",
+        "label":"Description",
+        "typeRepresentation":"string",
+        "semantics": {
+            "placeholder": "Enter your link description here"
+        }
+    },
+    {
+        "id":"color",
+        "label":"Color",
+        "typeRepresentation":"color",
+        "value":"#3D3D3D"
+    },
+    {
+        "id":"bidirectional",
+        "label":"Bidirectional",
+        "typeRepresentation":"boolean",
+        "value":false
+    },
+    {
+        "id":"icon",
+        "label":"Icon",
+        "typeRepresentation":"string"
+    },
+    {
+        "id":"pattern",
+        "label":"Pattern",
+        "typeRepresentation":"string",
+        "value":"solid",
+        "semantics": {
+            "possibleValues": ["solid","dotted", "dashed", "dashdotted"]
+        }
+    },
+    {
+        "id":"weight",
+        "label":"Weight",
+        "typeRepresentation":"number",
+        "value":3.5
+    },
+    {
+        "id":"opacity",
+        "label":"Opacity",
+        "typeRepresentation":"opacity",
+        "semantics": {
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "stepValue":0.01
+        },
+        "value":0.9
+    },{
+      "id": "popupFolder",
+      "label": "Popup",
+      "style": "expander",
+      "expandedFlag": true,
+      "children": [
+          {
+              "id":"popupTrigger",
+              "label":"Trigger",
+              "typeRepresentation":"string",
+              "value": "click",
+              "semantics": {
+                  "possibleValues": ["click", "hover", "both"]
+              }               
+          },
+          {
+              "id":"popupContent",
+              "label":"Content",
+              "typeRepresentation":"string"
+          }
+      ]
+  }],
+    "readOnly":false,
+    "buttons": []
+}

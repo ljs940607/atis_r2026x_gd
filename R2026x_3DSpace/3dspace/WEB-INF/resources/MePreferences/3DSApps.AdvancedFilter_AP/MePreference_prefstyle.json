@@ -1,0 +1,24 @@
+  {
+    "version": "1.0",
+    "UIModel":[
+        {
+        "type": "PreferenceSection",
+        "name": "DisplaySection",
+        "repository": "AdvFilterUXRepository",
+        "children":[
+            {
+                "type": "PreferenceGroup",
+                "name": "FilterSelectionGroup",
+                "tweakertype": "header",
+                "children":[
+                    {
+                    "type":"PreferenceItem",
+                    "name":"FilterSelectionMode",
+                    "tweakertype": "radio"
+                    }
+                ]
+            }
+        ]
+        }
+    ]
+}

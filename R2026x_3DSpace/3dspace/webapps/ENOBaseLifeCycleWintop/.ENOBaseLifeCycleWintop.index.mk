@@ -1,0 +1,10 @@
+m|ENOCollaborativeServicesWebUI\ENOBaseLifeCycleWintop.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\ENOBaseLifeCycleWintop\ENOBaseLifeCycleWintop.css|1744917692|360
+s|ENOCollaborativeServicesWebUI\ENOBaseLifeCycleWintop.mweb\src\ENOBaseLifeCycleWintop.css|1572554834|540
+t|win_b64\webapps\ENOBaseLifeCycleWintop\ENOBaseLifeCycleWintop.html|1723277732|14555
+s|ENOCollaborativeServicesWebUI\ENOBaseLifeCycleWintop.mweb\src\ENOBaseLifeCycleWintop.html|1721120812|14555
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38

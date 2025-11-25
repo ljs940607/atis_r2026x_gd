@@ -1,0 +1,1 @@
+define("DS/DELWKOModelPlugins/DELWKOModelPlugins_ja",{});define("DS/DELWKOModelPlugins/assets/nls/DELWKOViewPreferencesUI",{HeaderName:"ヘッダー名",IsVisible:"表示",Width:"幅",MinWidth:"最小幅",IsPinned:"固定されています"});

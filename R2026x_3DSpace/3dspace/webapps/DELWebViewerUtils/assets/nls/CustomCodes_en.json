@@ -1,0 +1,14 @@
+{
+    "Error.InvalidInput.Message": "Invalid Input provided.",
+    "Error.InvalidInput.Title": "Invalid Input",
+    "Error.BuildupFailed.Title": "Dynamic Buildup",
+    "Error.BuildupFailed.Message": "The Buildup computation is currently unable to process this data, which might impact Buildup availability. Ensure process data includes the required links and structure is compliant. Try reloading the session. If the issue persists, contact your administrator.",
+    "Warn.ManufacturingComputeServiceConnectionFailed.Title": "Dynamic Buildup",
+    "Warn.ManufacturingComputeServiceConnectionFailed.Message": "Buildup is currently unavailable due to connection error with the Manufacturing Compute Service. Try reloading the session. If the problem persists, contact your administrator.",
+    "Warn.ManufacturingComputeUnavailable.Title": "Dynamic Buildup",
+    "Warn.ManufacturingComputeUnavailable.Message": "Buildup is currently unavailable as the Manufacturing Compute Service is not accessible. Ensure service is correctly installed. If the problem persists, contact your administrator.",
+    "Warn.PublishedContentNotFound.Title": "Publish Buildup",
+    "Warn.PublishedContentNotFound.Message": "Published content is not available. Ensure process is published using Work Plan Publication Application (PND).",
+    "Error.BuildupFromExternalContentNotValid.Message": "Build up content is not available for the viewer options set, please check the options",
+    "Error.BuildupFromExternalContentNotValid.Title": "Buildup Not Valid"
+}

@@ -1,0 +1,28 @@
+{
+  "intro": "設定 Document Management 體驗",
+  "DownloadRules": "文件下載規則",
+  "rule1": "下載多份文件 ",
+  "option1": "資料夾結構。以「<Document name> <Document revision>」命名的資料夾，例如 DOC-00000001 0",
+  "option2": "沒有資料夾結構的全部檔案平坦式清單。發生衝突的檔案名稱將以序號為後綴",
+  "defaultOption": "OneFileOneDirectory",
+  "Flatlist": "Flatlist",
+  "ApplySuccess": "已成功套用變更",
+  "ApplyError": "無法套用變更",
+  "ResetSuccess": "重設成功",
+  "Enable_Work_Under_Setting": "啟用工作於",
+  "Enable_Mandatory_Comment_Setting": "任何時候上傳、更新或編輯檔案時，都必須設定為強制。",
+  "File_Comment_Label": "檔案註解",
+  "Work_Under_Accordion_Title": "Configuration 下的工作",
+  "Work_Under": "在其下工作",
+  "Comment_As_Mandatory__Accordion_Title": "文件更新",
+  "Failed_Load": "無法載入模型組態。",
+  "DownloadBehaviorTooltip": {
+    "title": "選擇下載多份文件時如何組織檔案：",
+    "subtitle1Heading": "• 資料夾結構： ",
+    "subtitle2Heading": "• 平坦式清單： ",
+    "subtitle1": "為每個文件產生具有子資料夾的 ZIP 資料夾，並維持其原始檔案組織。",
+    "subtitle2": "在單一清單中下載所有檔案，不含子資料夾。相同名稱的檔案會在後面加上序號以避免衝突。"
+  },
+  "WorkUnderRuleTooltip": "選擇使用變更物件以將所有修改記錄為已實現變更。",
+  "CommentMandatoryTooltip": "對 Document Management 中的任何「建立/更新」動作，以及在 Collaboration for Microsoft 中將文件儲存至 3DEXPERIENCE 時，將註解設定為強制。檔案註解對於包含多個檔案的文件特別實用，可提供有關其用途的背景資訊，以及其與文件的關聯性。"
+}

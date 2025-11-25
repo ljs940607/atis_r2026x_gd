@@ -1,0 +1,1 @@
+define("DS/XSRCommonComponents/facets/material/Materialfacet",[],(function(){}));

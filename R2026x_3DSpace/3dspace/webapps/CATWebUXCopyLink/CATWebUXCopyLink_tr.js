@@ -1,0 +1,1 @@
+define("DS/CATWebUXCopyLink/CATWebUXCopyLink_tr",{});define("DS/CATWebUXCopyLink/assets/nls/CATWebUXCopyLinkCmdAdapt",{copyLinkSuccess:"'{label}' nesnesine bağlantı başarıyla kopyalandı",copyLinkError:"Bağlantı panoya kopyalanırken hata oluştu"});

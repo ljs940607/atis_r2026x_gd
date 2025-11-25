@@ -1,0 +1,1 @@
+define("DS/CAT3DAnnotationScenario/CAT3DAnnotationScenario_tr",{});define("DS/CAT3DAnnotationScenario/assets/nls/CAT3DAnnotationScenario",{A3EScenario_Title:"3B Toleranslandırma ve Detaylandırmalar",A3EScenario_Description:"Detaylandırmaları görüntüle ve gözat"});

@@ -1,0 +1,38 @@
+.del-dnd-search-container{
+  position: absolute;
+  top: calc(50% - 70px);
+  left: calc(50% - 50px);
+  text-align: center;
+  color:grey;
+  pointer-events: all;
+}
+
+#searchButton{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+  color:grey;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}

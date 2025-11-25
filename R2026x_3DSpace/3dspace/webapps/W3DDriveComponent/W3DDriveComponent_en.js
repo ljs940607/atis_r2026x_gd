@@ -1,0 +1,1 @@
+define("DS/W3DDriveComponent/W3DDriveComponent_en",{});define("DS/W3DDriveComponent/assets/nls/W3DDriveComponent",{select_platform:"Select a platform",myFiles:"My Files",sharedWithMe:"Shared with me",createFolder:"Create folder",enterTitle:"Enter a title",title:"Title",ok:"OK",cancel:"Cancel",forbiddenChars:"This field is required and these characters are forbidden: {chars}"});

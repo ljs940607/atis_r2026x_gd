@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Asignación automática de nombres",
+  "ACADAutoNameInfo": "Activa la asignación automática de nombres al guardar archivos de dibujos en 3DEXPERIENCE por primera vez. Se aplica a todas las aplicaciones que crean datos de AutoCAD.",
+  "ACADSaveGroupLabel": "Guardar",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Reemplazar título por nuevo nombre en la asignación automática de nombres",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Al seleccionar el nombre automático en el cuadro de diálogo de guardado, el nombre de archivo existente se reemplazará por el nombre automático.",
+  "ACADEnablePessimisticLockingLabel": "Bloqueo pesimista",
+  "ACADEnablePessimisticLockingInfo": "Al activar esta función, se garantiza que los datos no se puedan guardar en la plataforma desde el conector a menos que estén reservados por el usuario actual.",
+  "ACADFileReadOnlyLabel": "Hacer que el archivo sea de solo lectura",
+  "ACADFileReadOnlyInfo": "El archivo se marcará como de solo lectura si no está reservado por el usuario actual. Este comportamiento solo se activará si el bloqueo pesimista está activado.",
+  "ACADDelimiterLabel": "Establecer delimitador",
+  "ACADDelimiterInfo": "Este delimitador se utilizará de la siguiente manera:\n1. Para combinar valores de atributos multivalor en 3DEXPERIENCE al sincronizar en un archivo CAD.\n2. Para dividir el valor del atributo CAD si está asignado a un atributo multivalor en 3DEXPERIENCE.",
+  "ACADOtherGroupLabel": "General",
+  "InvalidDelimiter": "No se permite más de un carácter como delimitador"
+}

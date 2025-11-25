@@ -1,0 +1,1 @@
+define("DS/RunYourApp/RunYourApp_tr",{});define("DS/RunYourApp/assets/nls/RunYourApp",{urlLabel:"Web Uygulaması URL’si",insertUrl:"Lütfen bir URL ekleyin.",submitURLBtn:"Çalıştır"});

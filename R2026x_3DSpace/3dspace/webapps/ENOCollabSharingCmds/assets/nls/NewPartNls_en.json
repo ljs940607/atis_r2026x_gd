@@ -1,0 +1,14 @@
+{
+	"createNewPart": "New Part",
+	"insertNewPart" : "Insert New Part",
+	"newObjectType" : "Part",
+	
+	"multiParentInsertPartTitle" : "Insert new Part",
+	"multiParentInsertPartMsg" : "Are you sure you want to insert a new Part under multiple parents?",
+	"multiParentCannotInsert": "Error :Cannot insert under selected object(s)",
+	
+	"CannotInsert.Type":"You cannot insert this object type under the selected object: {type}",
+	
+	"okBtn" : "OK",
+	"closeBtn" : "Close"
+}

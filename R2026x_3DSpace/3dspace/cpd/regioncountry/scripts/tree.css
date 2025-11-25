@@ -1,0 +1,85 @@
+ul.tree,
+ul.tree ul {
+	list-style: none outside;
+
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+ul.tree ul {
+	margin-left: 12px;
+}
+
+ul.tree li.closed > ul {
+	display: none;
+}
+
+ul.tree li {
+	margin: 1px 0;
+}
+
+ul.tree a.toggler {
+	background: url(../images/LineNodeOpen.gif) no-repeat 0 50%;
+	width: 12px;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+}
+
+ul.tree span, ul.tree a {
+	cursor: pointer;
+}
+
+ul.tree li > div > span {
+	margin-left: 12px;
+	display: inline-block;
+	height: 15px;
+}
+
+ul.tree li.folder {
+	margin-bottom: 4px;
+}
+
+ul.tree li.folder.closed {
+	margin-bottom: 1px;
+}
+
+ul.tree li.folder > div > span {
+	margin-left: 4px;
+}
+
+ul.tree a.toggler.closed {
+	background-image: url(../images/LineNodeClosed.gif);
+}
+
+ul.tree span{
+	padding-left: 19px;
+	background: url(../images/deselected.png) no-repeat;
+	padding-right: 4px;
+}
+
+ul.tree span.selected{
+	color: #DD1144;
+	background-image: url(../images/selected.png);
+}
+
+ul.tree span.part-selected{
+	/*background-color: #FFB27F;*/
+	font-style: italic;
+	background-image: url(../images/partial.png);
+}
+
+/* IR-468969 Fix - Start */
+/* IR-525097-3DEXPERIENCER2018x Fix - Start, Removing the width to not to restrict it for size*/
+ul.tree li > div > span {
+	word-break: break-all;	
+}
+/* IR-525097-3DEXPERIENCER2018x Fix - End */
+
+ul.tree li.folder > div > span {
+	word-break: break-all;	
+}
+/* IR-468969 Fix - End*/

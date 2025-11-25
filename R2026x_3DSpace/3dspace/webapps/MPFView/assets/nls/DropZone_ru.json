@@ -1,0 +1,14 @@
+{
+  "dropFileMessage": "Перетащите содержимое сюда",
+  "orMessage": "или",
+  "upContent": "Загрузить содержимое",
+  "wrongFileType": "Неверный тип файла",
+  "fileTooBig": "Размер файла превышает ограничение: {0}",
+  "bytes": "байт",
+  "kiloByte": "КБ",
+  "megaByte": "МБ",
+  "gigaByte": "ГБ",
+  "teraByte": "ТБ",
+  "filesExceedSizeOf": "Размер файлов {0} / {1}превышает ограничение {2}",
+  "filesHaveWrongFormat": "Файлы {0} / {1} имеют неверный формат"
+}

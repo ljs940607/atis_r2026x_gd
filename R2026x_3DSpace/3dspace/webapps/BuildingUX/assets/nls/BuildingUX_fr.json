@@ -1,0 +1,26 @@
+{
+  "constructionDlg": {
+    "title": "Propriétés de construction"
+  },
+  "construction": {
+    "loading": "Charger les propriétés de construction",
+    "attFromObj": "Récupérer les attributs disponibles dans l'objet",
+    "objAttr": "Récupérer la valeur des attributs d'objet",
+    "attrGlobal": "Attributs"
+  },
+  "attNLS": {},
+  "error": {
+    "wrongDomain": "Domaine de l'objet sélectionné non pris en charge.",
+    "unknownI3dx": "Objet introuvable dans la source de données."
+  },
+  "customAttributesDlg": {
+    "title": "Propriétés de construction"
+  },
+  "customAttributes": {
+    "loading": "Chargement des propriétés dynamiques",
+    "attFromObj": "Récupérer les attributs externes disponibles dans l'objet",
+    "objAttr": "Récupérer la valeur des attributs d'objet",
+    "attrGlobal": "Attributs",
+    "noAttributes": "Aucun attribut à afficher"
+  }
+}

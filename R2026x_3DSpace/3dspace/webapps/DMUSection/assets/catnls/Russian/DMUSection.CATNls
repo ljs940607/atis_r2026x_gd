@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+DMUSection.DMUSectionCutHdr.Title="Вырезать";
+DMUSection.DMUSectionNoCutHdr.Title="Без выреза";
+DMUSection.DMUSectionGridHdr.Title="Сетка";
+DMUSection.DMUSectionFlipHdr.Title="Перевернуть";
+DMUSection.DMUSectionNormalToXHdr.Title="Положение по оси X";
+DMUSection.DMUSectionNormalToYHdr.Title="Положение по оси Y";
+DMUSection.DMUSectionNormalToZHdr.Title="Положение по оси Z";
+DMUSection.DMUSectionPrecisePosHdr.Title="Положение из геометрии";
+DMUSection.DMUSectionMoveHdr.Title="Переместить точку обзора";
+DMUSection.DMUSectionSecondaryViewerHdr.Title="Вспомогательное средство просмотра сечений";
+DMUSection.DMUSelectiveSectionContextCmdHdr.Title="Выборочное сечение";
+DMUSection.DMUSectionDeleteSectionHdr.Title="Исключить";
+
+DMUSection.DMUExitClippingEditionHdr.Title="Выйти из режима редактирования обрезки";
+DMUSection.DMUClippingEditionHdr.Title="Редактировать обрезку";
+
+DMUSection.DMUClippingDisplayModeStoreyHdr.Title="Обрезка по вспомогательному элементу";
+
+DMUSection.DMUClippingDisplayModePlaneHdr.Title="Обрезка по сечению";
+DMUSection.DMUClippinPlaneWithObjectsHdr.Title="Изменение размера выбранных объектов";
+DMUSection.DMUResetClippingPlaneHdr.Title="Сброс обрезки";
+
+DMUSection.DMUClippingDisplayModeSliceHdr.Title="Обрезка по срезу";
+DMUSection.DMUClippinSliceWithObjectsHdr.Title="Изменение размера выбранных объектов";
+DMUSection.DMUResetClippingSliceHdr.Title="Сброс обрезки";
+
+DMUSection.DMUClippingDisplayModeBoxHdr.Title="Обрезка по рамке";
+DMUSection.DMUClippinBoxWithObjectsHdr.Title="Изменение размера выбранных объектов";
+DMUSection.DMUResetClippingBoxHdr.Title="Сброс обрезки";
+
+DMUSection.DMUClippingNormalToXHdr.Title="Расположение вдоль оси X";
+DMUSection.DMUClippingNormalToYHdr.Title="Расположение вдоль оси Y";
+DMUSection.DMUClippingNormalToZHdr.Title="Расположение вдоль оси Z";
+DMUSection.DMUClippingNormalUserHdr.Title="Расположение на основе выбранной геометрии";
+DMUSection.DMUClippingReverseHdr.Title="Инвертировать обрезку";
+DMUSection.DMUContourViewerHdr.Title="Вспомогательное средство просмотра сечений";
+DMUSection.DMUClippingPositionHdr.Title="Расположение обрезки...";
+DMUSection.DMUAlignViewHdr.Title="Выравнивание точки обзора";
+DMUSection.DMUHideShowHdr.Title="Скрыть/показать";
+DMUSection.DMUCutUncutHdr.Title="С вырезом/Без выреза...";
+DMUSection.DMUClippingEditStr.Title="Обрезка";
+DMUSection.DMUClippingPropertiesHdr.Title="Свойства";

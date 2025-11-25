@@ -1,0 +1,1 @@
+define("DS/ControlsEx/ControlsEx_tr",{});define("DS/ControlsEx/assets/nls/translation",{information:"Bilgi",home:"Ana Sayfa",expand:"Genişlet",collapse:"Daralt"});

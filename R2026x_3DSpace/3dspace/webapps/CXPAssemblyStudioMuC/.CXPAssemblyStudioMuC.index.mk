@@ -1,0 +1,10 @@
+m|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuC.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25230|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\CXPAssemblyStudioMuC\CXPAssemblyStudioMuC.js|1755546463|10102
+s|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuC.mweb\src\CXPAssemblyStudioMuCDefine.js|1739973338|201
+u|CATAssemblyStudioIntWeb\CXPAssemblyStudioMuC.mweb\src\StuMoveUnderConstraintsBe.js|1755151348|29891
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

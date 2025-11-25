@@ -1,0 +1,21 @@
+{
+  "label": {},
+  "title": {},
+  "ph": {},
+  "action": {
+    "add_new": "新邏輯參考"
+  },
+  "message": {
+    "confirm_detach_instance": "是否確定要分離所選副本？",
+    "confirm_reparent": "以下參考將重定父項次至 "
+  },
+  "info": {},
+  "warning": {},
+  "error": {
+    "reparent_failed": "重定父項次參考失敗",
+    "reparent_cyclic": "此新父項次已儲存在「重定父項次參考」清單下。請清除現有的選擇項目以避免產生循環結構。"
+  },
+  "success": {
+    "reparent": "重定父項次成功"
+  }
+}

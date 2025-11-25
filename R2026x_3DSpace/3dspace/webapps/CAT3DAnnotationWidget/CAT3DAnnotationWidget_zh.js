@@ -1,0 +1,1 @@
+define("DS/CAT3DAnnotationWidget/CAT3DAnnotationWidget_zh",{});define("DS/CAT3DAnnotationWidget/assets/nls/CAT3DAnnotationWidget",{customApp:"自定义您的应用程序",prefs:"首选项",difAnnotSet:"打开标注集",loadingMessage:"正在加载",contentAndKnowledge:"内容和知识",userAssistance:"用户帮助",userAssistanceURL:"a3iUserMap/a3i-c-ov.htm",whatsNew:"新增内容",whatsNewURL:"WNApps/CATA3I_AP-index.html"});

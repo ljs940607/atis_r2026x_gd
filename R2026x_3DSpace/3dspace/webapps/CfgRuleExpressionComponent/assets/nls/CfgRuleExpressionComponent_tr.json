@@ -1,0 +1,20 @@
+{
+  "cancel": "İptal",
+  "conflict_with_existing_rules": "Mevcut kurallarla çakışma",
+  "conflicting_additional_information": "Çakışan Ek Bilgiler",
+  "invalid_expression_due_to": "Şu nedenle Geçersiz İfade:",
+  "invalid_expression_without_reason": "Geçersiz İfade",
+  "OK": "Tamam",
+  "under_computation": "Hesaplanıyor",
+  "unknown_reason": "Bilinmeyen neden",
+  "save": "Kaydet",
+  "reset": "Sıfırla",
+  "_cancel": "İptal",
+  "_internal_error": "Geçersiz İfade",
+  "_confirmation_save_rule": "Değişiklikleri gerçekten kaydetmek istiyor musunuz?",
+  "_error_confirmation_message": "En az bir hata içeriyor",
+  "_conflict_confirmation_message": "En az bir çakışma içeriyor",
+  "_save_rule": "Kuralı Kaydet",
+  "_rule": "kural",
+  "_error_missing_criteria": "Önceden kaydedilen kuralın bazı kriterleri eksik. Lütfen eksik kriterleri kaldırın ve kuralı kaydedin"
+}

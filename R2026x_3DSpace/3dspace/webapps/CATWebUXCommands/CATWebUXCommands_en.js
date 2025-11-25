@@ -1,0 +1,1 @@
+define("DS/CATWebUXCommands/CATWebUXCommands_en",{});define("DS/CATWebUXCommands/assets/nls/CATWebUXCommands",{copiedToClipboard:"Screenshot copied to the clipboard"});

@@ -1,0 +1,15 @@
+{
+  "ACADAutoNameLabel": "Otomatik Adlandırma",
+  "ACADAutoNameInfo": " 3DEXPERIENCE'da teknik resim dosyalarını ilk kez kaydederken otomatik adlandırmayı etkinleştirir. AutoCAD verilerini oluşturmaya yönelik tüm uygulamalar için geçerlidir.",
+  "ACADSaveGroupLabel": "Kaydet",
+  "ACADReplaceTitleByNewNameOnAutonameLabel": "Başlığı Otomatik Adlandırmadaki Yeni Adla Değiştir",
+  "ACADReplaceTitleByNewNameOnAutonameInfo": "Kaydetme iletişim kutusunda otomatik adlandırma seçildiğinde, mevcut dosya adı otomatik adlandırma ile değiştirilir.",
+  "ACADEnablePessimisticLockingLabel": "En Kötü Senaryo Kilitlemesi",
+  "ACADEnablePessimisticLockingInfo": "Bu unsurun etkinleştirilmesi, geçerli kullanıcı tarafından rezerve edilmediği sürece verilerin bağlantı elemanından platforma kaydedilmemesini sağlar.",
+  "ACADFileReadOnlyLabel": "Dosyayı salt okunur yap",
+  "ACADFileReadOnlyInfo": "Dosya, geçerli kullanıcı tarafından rezerve edilmezse salt okunur olarak işaretlenir. Bu davranış, yalnızca kötümser kilitleme etkinleştirildiğinde etkinleştirilir.",
+  "ACADDelimiterLabel": "Sınırlayıcı Ayarla",
+  "ACADDelimiterInfo": "Bu sınırlayıcı şu şekilde kullanılır:\n1. CAD dosyasında senkronize ederken 3DEXPERIENCE'da çok değerli özniteliklerin değerlerini birleştirmek için.\n2. 3DEXPERIENCE'da çok değerli özniteliğe eşlenmişse CAD öznitelik değerini bölmek için.",
+  "ACADOtherGroupLabel": "Genel",
+  "InvalidDelimiter": "Birden fazla karaktere sınırlayıcı olarak izin verilmez"
+}

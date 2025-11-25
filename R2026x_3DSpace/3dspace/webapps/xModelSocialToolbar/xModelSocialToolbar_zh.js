@@ -1,0 +1,1 @@
+define("DS/xModelSocialToolbar/xModelSocialToolbar_zh",{});define("DS/xModelSocialToolbar/assets/nls/ModelSocialToolbar",{CONTEXT:"上下文",RESOLVED:"已解析",MARK_RESOLVED:"标记为已解析",REOPEN:"重新打开",OPEN:"打开",ALL:"全部",OPENED:"已打开",EDIT:"编辑",DELETE:"删除",LOADING:"正在加载",NOAVAILABLEACTION:"无可用操作",ERRORLOADINGACTIONS:"错误加载操作",COMMENT:"备注",SHARE:"共享",COMMENT_NOT_RESOLVED:"备注未解析",COMMENTS:"备注"});

@@ -1,0 +1,16 @@
+m|WebappsUtils\AmdLoader.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.24299|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\AmdLoader\AmdLoader.js|1729819503|27249
+s|WebappsUtils\AmdLoader.mweb\src\1.preconfigureRequire.js|1724871894|3854
+u|WebappsUtils\AmdLoader.mweb\src\2.require.js|1724871894|83063
+u|WebappsUtils\AmdLoader.mweb\src\3.setupRequire.js|1724871894|17843
+u|WebappsUtils\AmdLoader.mweb\src\4.requireDs.js|1724871894|5544
+u|WebappsUtils\AmdLoader.mweb\src\5.requireCss.js|1724871894|1455
+u|WebappsUtils\AmdLoader.mweb\src\6.requireText.js|1724871894|2732
+u|WebappsUtils\AmdLoader.mweb\src\7.requireI18n.js|1729808888|22740
+u|WebappsUtils\AmdLoader.mweb\src\8.requireWebRecord.js|1724871894|853
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

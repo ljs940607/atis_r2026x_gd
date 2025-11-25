@@ -1,0 +1,1 @@
+define("DS/UWPClientControls/UWPClientControls_cs",{});define("DS/UWPClientControls/assets/nls/tooltips",{menu:"Nabídka",addTab:"Přidat záložku",webAppsResizing:"Změna velikosti webových aplikací je trvalá pouze pro vlastníky {type}",webAppsResizingProductCockpit:"Změna velikosti webových aplikací není v tomto kokpitu trvalá"});

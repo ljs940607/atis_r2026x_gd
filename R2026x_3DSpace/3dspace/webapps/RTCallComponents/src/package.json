@@ -1,0 +1,43 @@
+{
+  "name": "@ds/rtcallcomponents",
+  "version": "0.9.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && npm run copy:dts",
+    "preview": "vite preview",
+    "compile": "npm run build",
+    "prepublish": "npm run compile",
+    "copy:dts": "cp ../src/components.d.ts dist"
+  },
+  "keywords": [
+    "Call History",
+    "Call Starter"
+  ],
+  "files": [
+    "src/",
+    "dist/",
+    "vite.config.js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@3ds/common-request-proxification": "^0.0.9",
+    "@ds/rich-user-tooltip": "1.5.2",
+    "@ds/swymkit": "^1.0.10-1",
+    "@ds/vuekit": "1.9.0",
+    "@vueuse/core": "^10.7.2",
+    "ky": "^1.7.4",
+    "pinia": "^2.1.7",
+    "typescript": "^5.7.3",
+    "vue": "^3.4.15",
+    "vue-country-flag-next": "^2.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.64.2",
+    "vite": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.boba.dsone.3ds.com/repository/npm-private/"
+  }
+}

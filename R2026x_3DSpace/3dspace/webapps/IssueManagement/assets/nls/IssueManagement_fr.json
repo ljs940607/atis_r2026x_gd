@@ -1,0 +1,489 @@
+{
+  "titles": {
+    "issues": "{number} sujets",
+    "placeholder": {
+      "title": "Aucun sujet à afficher.",
+      "label": "Aucun sujet ne correspond à vos filtres.",
+      "sub": "Essayez de modifier vos critères de filtrage {filter} ou de créer un nouveau sujet {create}.",
+      "sub2": "Essayez de modifier vos critères de filtrage {filter}"
+    },
+    "refreshing": "Actualisation des sujets...",
+    "documentation": "Aide relative à Issue Management"
+  },
+  "error": {
+    "generic": {
+      "label": "Oups, un problème est survenu.",
+      "sub": "Il y a eu un problème avec votre demande, veuillez actualiser la page et réessayer."
+    },
+    "licensing": {
+      "label": "Erreur de licence.",
+      "sub": "Le serveur ne parvient pas à obtenir la licence pour l'utilisateur {user}"
+    }
+  },
+  "information": {
+    "toggleTooltip": "Informations",
+    "layoutSwitcherTooltip": "Option d'affichage",
+    "right": "Afficher à droite",
+    "bottom": "Afficher en bas",
+    "views": {
+      "properties": "Propriétés",
+      "relatedObjects": "Contenu",
+      "contexts": "Contextes",
+      "team": "Membres",
+      "attachments": "Pièces jointes",
+      "comments": "Commentaires",
+      "relations": "Relations",
+      "history": "Historique",
+      "documents": "Documents",
+      "noSelection": "Sélectionnez un sujet pour afficher ses informations."
+    },
+    "header": {
+      "summary": "Ouvert depuis {timeSince}. Propriété de {ownerIcon} {owner}.",
+      "multipleSelection": {
+        "title": "{number} sujets sélectionnés.",
+        "summary": "Les modifications seront appliquées sur tout."
+      },
+      "showMenu": "Actions",
+      "goToNext": "Accédez au sujet suivant.",
+      "close": "Fermer",
+      "goToPrevious": "Accédez au sujet précédent.",
+      "Varies": "Varie",
+      "changeResponsibleOrg": "Organisation responsable",
+      "changeReportingOrg": "Organisation concernée",
+      "moveResponsibleOrg": "Déplacer l'organisation responsable",
+      "moveReportingOrg": "Déplacer l'organisation concernée",
+      "moveOrgMsg": "Changement d'organisation responsable terminé.",
+      "moveReportingOrgMsg": "Changement d'organisation concernée terminé.",
+      "move": "Déplacer",
+      "cancel": "Annuler"
+    }
+  },
+  "actions": {
+    "create": {
+      "title": "Nouveau sujet",
+      "more": "Nouveau à partir de...",
+      "placeholder": "Titre du nouveau sujet...",
+      "open": "Ouvrir la boîte de dialogue de création",
+      "clear": "Effacer",
+      "success": "Sujet \"{title}\" créé avec succès",
+      "failure": "Une erreur s'est produite lors de la création, veuillez réessayer.",
+      "issue": {
+        "blank": "Nouveau sujet",
+        "template": "Nouveau sujet issu d'un modèle",
+        "recentTemplate": "Modèles récents",
+        "similarIssues": "{count} sujets similaires trouvés."
+      }
+    },
+    "changeAction": "Ajouter une nouvelle action de modification comme résolu par",
+    "markup3D": "Ajouter un nouveau marquage 3D comme pièce jointe",
+    "templates": "Gérer les modèles",
+    "print": "Imprimer",
+    "export": "Exporter en tant que",
+    "exportCSV": "CSV",
+    "exportPPTX": "PPTX",
+    "exportZIP": "ZIP",
+    "exportBCF": "BCF",
+    "customizeView": "Configurer les vues table",
+    "select": {
+      "title": "Sélectionner un ou plusieurs objets",
+      "selectIssues": "Sélectionner tous les sujets",
+      "selectChildren": "Sélectionner tout le contenu de sujet visible",
+      "unselectAll": "Tout désélectionner"
+    },
+    "find": {
+      "title": "Rechercher",
+      "placeholder": "Rechercher...",
+      "clear": "Effacer",
+      "next": "{number1} / {number2} suivants",
+      "previous": "{number1} / {number2} précédents",
+      "select": "Sélectionner {number} sujets trouvés"
+    },
+    "gridView": "Tableau",
+    "listView": "Vue Liste",
+    "kanbanView": "Kanban",
+    "more": "Actions supplémentaires",
+    "dummy": "Non disponible",
+    "subscription": {
+      "header": "Abonnement",
+      "subscribe": "S'abonner",
+      "unsubscribe": "Se désabonner",
+      "editSubscription": "Modifier les abonnements",
+      "mySubscriptions": "Mes abonnements"
+    }
+  },
+  "kanban": {
+    "resolutionDate": {
+      "overdue": "En retard",
+      "none": "Aucune date",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "week": "Cette semaine",
+      "future": "Futur"
+    },
+    "all": "Tout",
+    "dnd": {
+      "unsupportedPromote": "Impossible de promouvoir les sujets directement de l'état {currState} à {state}.",
+      "unsupportedDemote": "Impossible de rétrograder les sujets directement de l'état {currState} à {state}.",
+      "cannotEditClosedIssues": "Certains sujets sont déjà terminés et ne peuvent pas être mis à jour.",
+      "placeholder": "Déposer ici",
+      "notAllSameStatePromote": "Impossible de promouvoir/rétrograder des sujets qui n'ont pas le même état."
+    },
+    "warning": {
+      "closed": "Le filtre pour afficher les sujets à l'état Terminé n'est pas sélectionné.<br>Vous pouvez l'activer dans vos préférences de filtre."
+    },
+    "tooltips": {
+      "chizu": "Cliquez pour afficher la colonne :<br> {title}",
+      "leftArrow": "Passer à la colonne précédente",
+      "rightArrow": "Aller à la colonne suivante"
+    }
+  },
+  "filter": {
+    "title": "Filtrer par",
+    "session": {
+      "header": "Ma session",
+      "title": "Afficher {number} sujets",
+      "nothing": "Aucune session en cours"
+    },
+    "owned": "Détenu par moi-même",
+    "assigned": "Affecté à moi-même",
+    "filterbyobject": {
+      "title": "Filtrer par objet",
+      "placeholder": "Rechercher un objet à filtrer",
+      "filterMessage": "Aucun résultat trouvé",
+      "search": "Rechercher",
+      "menu": {
+        "title": "Menu",
+        "settings": {
+          "title": "Paramètres",
+          "filterby": "Filtrer par",
+          "affectedItem": "Elément concerné",
+          "resolvedItem": "Elément résolu",
+          "context": "Contexte",
+          "apply": "Appliquer",
+          "cancel": "Annuler",
+          "issueCreation": "Création du sujet",
+          "createSetting": "Ajouter automatiquement l'objet sélectionné lors de la création du sujet"
+        },
+        "information": "Informations",
+        "openwith": "Ouvrir avec"
+      },
+      "dropNotSupported": "Cette opération Glisser-Déposer n'est pas prise en charge."
+    },
+    "others": {
+      "title": "Autres",
+      "reported": "Détenu par ma ou mes organisations",
+      "responsible": "Attribué à ma ou mes organisations",
+      "contributed": "Où je contribue",
+      "closed": "Terminé"
+    }
+  },
+  "columns": {
+    "selection": "",
+    "actionsColumn": "Actions",
+    "titleColumn": "Titre",
+    "nameColumn": "Nom",
+    "occurrenceColumn": "Chemin",
+    "stateColumn": "Etat de maturité",
+    "allColumn": "Tout",
+    "validationColumn": "Etat de validation",
+    "descriptionColumn": "Description",
+    "priorityColumn": "Priorité",
+    "contextsColumn": "Contextes",
+    "reportedAgainstColumn": "Eléments affectés",
+    "resolvedByColumn": "Résolu par",
+    "resolvedItemsColumn": "Eléments résolus",
+    "assigneesColumn": "Personne affectée",
+    "originatorColumn": "Auteur",
+    "ownerColumn": "Propriétaire",
+    "coOwnersColumn": "Coordinateur",
+    "contributorsColumn": "Contributeur",
+    "informedUsersColumn": "Utilisateur informé",
+    "modifiedColumn": "Date de modification",
+    "revisionColumn": "Révision",
+    "isLastRevisionColumn": "Est la dernière révision",
+    "typeColumn": "Type",
+    "organizationColumn": "Organisation",
+    "collaborativeSpaceColumn": "Espace de collaboration",
+    "reportingOrganizationColumn": "Organisation de déclarante",
+    "responsibleOrganizationColumn": "Organisation responsable",
+    "resolutionDateColumn": "Date d'achèvement requise",
+    "actionTakenColumn": "Action effectuée",
+    "resolutionRecommendationColumn": "Recommandation de résolution",
+    "resolutionStatementColumn": "Déclaration d'achèvement",
+    "estimatedStartDateColumn": "Date de début planifiée",
+    "estimatedEndDateColumn": "Date d'achèvement planifiée",
+    "actualStartDateColumn": "Date de début réelle",
+    "actualEndDateColumn": "Date d'achèvement réelle",
+    "createdColumn": "Date de création",
+    "attachmentsColumn": "Pièces jointes",
+    "escalationRequiredColumn": "Escalade requise",
+    "approvalColumn": "Approbations",
+    "libraryColumn": "Bibliothèque",
+    "libraryClassColumn": "Classes de bibliothèques",
+    "completionTypeColumn": "Type d'achèvement"
+  },
+  "list": {
+    "expandOrCollapse": "Développer/Réduire",
+    "hasRelated": "Oui ({number})",
+    "hasRelatedItems": "Oui",
+    "noRelated": "Non"
+  },
+  "related": {
+    "dialogTitle": "Détacher {number} objet(s) de {issues} sujets",
+    "confirmDetach": "Voulez-vous vraiment détacher le ou les objets sélectionnés ?",
+    "detach": "Détacher",
+    "cancel": "Annuler"
+  },
+  "commands": {
+    "properties": "Propriétés",
+    "relationalExplorer": "Relations",
+    "collaborativeLifecycle": "Maturité",
+    "compare": "Comparer",
+    "detach": "Supprimer",
+    "attachments": "Pièces jointes",
+    "close": "Marquer comme Terminé(e)",
+    "delete": "Supprimer",
+    "duplicate": "Dupliquer",
+    "expandAll": "Développer le contenu",
+    "collapseAll": "Réduire le contenu",
+    "more": "Plus",
+    "sizeColumnToFit": "Ajuster auto. largeur colonne",
+    "clearSortOrder": "Effacer les préférences de tri",
+    "share": "Copier le lien",
+    "reopen": "Rouvrir",
+    "move": "Déplacer",
+    "open": {
+      "single": "Ouvrir avec",
+      "multiple": "Ouvrir",
+      "reportedAgainst": "Eléments affectés",
+      "resolvedBy": "Résolu par",
+      "resolvedItems": "Eléments résolus",
+      "contexts": "Contextes"
+    },
+    "preview": "Aperçu",
+    "edit": "Modifier",
+    "undoEdit": "Annuler la modification",
+    "update": "Mise à jour",
+    "information": "Informations",
+    "download": "Télécharger",
+    "approvalOn": "Approbations (activé)",
+    "approvalOff": "Approbations (désactivé)"
+  },
+  "tooltips": {
+    "reportedAgainst": "{number} élément concerné",
+    "resolvedBy": "{number} résolus par",
+    "resolvedItems": "{number} éléments résolus",
+    "contexts": "{number} contexte(s)",
+    "noReportedAgainst": "Aucun élément concerné attaché",
+    "noResolvedBy": "Aucun sujet Résolu par attaché",
+    "noResolvedItems": "Aucun élément résolu attaché",
+    "noContext": "Aucun contexte attaché",
+    "isLastRevision": "Il s'agit de la révision la plus récente",
+    "isNotLastRevision": "Il ne s'agit pas de la révision la plus récente",
+    "noIsLastRevision": "Non applicable",
+    "selectedIssues": "{number} sujets sélectionnés",
+    "helper": "Cliquez pour afficher l'aide relative à Issue Management.",
+    "comments": "{number} commentaires",
+    "attachments": "{number} pièces jointes",
+    "creationDate": "Ouvert le {date}.",
+    "resolutionDate": "Date d'achèvement requise : {date}",
+    "assignees": "{number} personne(s) affectée(s)",
+    "noAssignee": "Aucune personne affectée"
+  },
+  "notifications": {
+    "refresh": "Les sujets ont été actualisés.",
+    "attachSuccess": {
+      "reportedAgainst": "Vous avez ajouté {count} objets à {issue} en tant qu'Eléments affectés.",
+      "resolvedBy": "Vous avez ajouté {count} objets à {issue} en tant que Résolus par.",
+      "resolvedItems": "Vous avez ajouté {count} objets à {issue} en tant qu'Eléments résolus.",
+      "contexts": "Vous avez ajouté {count} objets à {issue} en tant que Contextes.",
+      "attachments": "Vous avez ajouté {count} objets à {issue} en tant que Pièces jointes."
+    },
+    "detachSuccess": "Objet(s) détaché(s) avec succès.",
+    "serverError": "Une erreur s'est produite, veuillez actualiser votre page et réessayer.",
+    "serverWarning": "Des opérations serveur sont en cours pour ces objets. Veuillez réessayer ultérieurement."
+  },
+  "preferences": {
+    "securityContext": "Informations d'identification",
+    "tenant": "3DEXPERIENCE platform",
+    "name": {
+      "title": "Titre du widget",
+      "default": "Mes sujets"
+    },
+    "defaultFilterForAll": {
+      "title": "Si aucun filtre n'est sélectionné, les sujets affichés devraient correspondre à vos identifiants actuels",
+      "organizationAndProject": "Organisation et espace de collaboration",
+      "organization": "Organisation",
+      "project": "Espace de collaboration",
+      "policy": "Tous les sujets disponibles"
+    },
+    "validation": "Ajouter un processus de validation pour les nouveaux sujets pour permettre l'approbation/le rejet de la promotion d'un sujet après analyse ou révision.",
+    "highlights": {
+      "soon": "Nombre de jours restants avant la date d'achèvement requise avant d'afficher un avertissement. La colonne de la date d'achèvement requise doit être visible."
+    },
+    "organizationFilter": "Afficher les filtres de l'organisation",
+    "tagger": "Remplir les mots-clés"
+  },
+  "validation": {
+    "none": "N/A",
+    "loading": "Recherche d'informations sur l'état de validation en cours...",
+    "approved": "La promotion du sujet a été approuvée.",
+    "rejected": "La promotion du sujet a été rejetée.",
+    "inProgress": "En attente de validation.",
+    "notStarted": "Le processus de validation est actif."
+  },
+  "export": {
+    "exporting": "Exportation des sujets, veuillez patienter...",
+    "confirmation": {
+      "confirm": "Confirmer",
+      "cancel": "Annuler"
+    },
+    "csv": {
+      "name": "Exportation_IM_"
+    },
+    "pptx": {
+      "title": "Confirmer l'export au format PPTX",
+      "content": "Cette action exportera {number} sujets et peut prendre un certain temps. Voulez-vous continuer ?",
+      "name": "Exportation_IM_",
+      "exporting": "Exportation du PPTX...",
+      "done": "Le PPTX a été exporté.",
+      "failure": "Impossible d'exporter les sujets au format PPTX"
+    },
+    "zip": {
+      "title": "Confirmer l'export au format ZIP",
+      "content": "Cette action exportera {number} sujets et peut prendre un certain temps. Voulez-vous continuer ?",
+      "name": "Importation_IM_",
+      "primary": "primary-image.png",
+      "exporting": "Exportation du ZIP...",
+      "images": "Images primaires en cours de téléchargement...",
+      "documents": "Documents en cours de téléchargement...",
+      "zipping": "Compression des fichiers...",
+      "done": "Le ZIP a été exporté."
+    },
+    "exportingAll": "Exportation de l'ensemble des {number} sujets. Veuillez patienter...",
+    "nothingToExport": "Aucun sujet à exporter.",
+    "failure": "L'exportation a échoué, veuillez réessayer.",
+    "printTotalLabel": "sujets"
+  },
+  "dnd": {
+    "partiallyNotSupported": "Certains objets ne sont pas pris en charge.",
+    "notSupported": "Ce type de contenu n'est pas pris en charge. Contactez votre administrateur de plate-forme pour plus d'informations.",
+    "onlyIssues": "Opération Déposer disponible sur les sujets uniquement.",
+    "dialogTitle": "Ajouter {number} objets à {issue}",
+    "whereToDrop": "Où voulez-vous ajouter ces objets ?",
+    "alreadyAttached": "Cet objet est déjà joint au sujet.",
+    "attach": "Ajouter",
+    "cancel": "Annuler",
+    "references": "Références",
+    "instances": "Chemins"
+  },
+  "tasks": {
+    "cancel": "Annuler",
+    "cancelLabel": "L'app Issue 3D Review doit être ouverte dans l'onglet pour utiliser cette commande."
+  },
+  "facets": {
+    "attachments": {
+      "placeholder": "Cette vue ne prend pas en charge les sélections multiples, sélectionnez un seul sujet pour afficher ses pièces jointes."
+    },
+    "comments": {
+      "placeholder": "Cette vue ne prend pas en charge les sélections multiples, sélectionnez un seul sujet pour afficher ses commentaires."
+    },
+    "history": {
+      "placeholder": "Cette vue ne prend pas en charge les sélections multiples, sélectionnez un seul sujet pour afficher son historique."
+    },
+    "relations": {
+      "placeholder": "Cette vue ne prend pas en charge les sélections multiples, sélectionnez un seul sujet pour afficher ses relations."
+    }
+  },
+  "tagger": {
+    "waiting": {
+      "title": "Application de balises 6WTags...",
+      "label": "Les sujets seront filtrés en fonction des balises 6WTags précédentes."
+    },
+    "cancel": "Annuler"
+  },
+  "summaryview": "",
+  "multiTenants": {
+    "differentTenant": "Changement de plate-forme",
+    "mismatchTenant": "Vous ne disposez pas du rôle de licence requis pour accéder aux sujets de {tenant} de la plate-forme.",
+    "mismatchTenantSharedTemplate": "Incompatibilité de plate-forme. Ce modèle partagé n'a pas été ajouté à votre liste de modèles."
+  },
+  "approvals": {
+    "approvalEnabled": "Approbation du sujet activée",
+    "approvalDisabled": "Approbation du sujet désactivée",
+    "approvalOn": "ACTIVE",
+    "approvalOff": "DESACTIVE"
+  },
+  "resolvedBy": {
+    "errorSameIssue": "Un objet du sujet identique ne peut pas être ajouté en tant que Résolu par."
+  },
+  "issueManagementAppHeader": "Issue Management",
+  "issueManagementAppIntro": "Utiliser Issue Management pour créer et gérer les sujets",
+  "welcomePanelQuickAccess": "Accès rapide",
+  "welcomePanelIssueManagementHeader": "Démarrer une nouvelle activité",
+  "welcomePanelIssueManagement": "Sujets",
+  "welcomePanelIssueTemplate": "Modèles de sujet",
+  "createNewIssue": "Créer un sujet",
+  "createNewTemplate": "Créer un modèle",
+  "whatsNew": "Nouveautés",
+  "footer": "Section Pied de page",
+  "issueSummaryLoading": "Chargement de vos sujets, veuillez patienter",
+  "templateSummaryLoading": "Chargement de votre modèle en cours. Veuillez patienter.",
+  "templateTitlePlaceholder": "Il n'existe aucun modèle à afficher.",
+  "templatePreferenceName": "Mes modèles",
+  "resetSession": "Réinitialiser la session",
+  "emptyDataGridPlaceHolder": "",
+  "completionType": "Type d'achèvement",
+  "Open": "Ouvrir",
+  "Cancelled": "Annulé",
+  "Resolved": "Résolu",
+  "successPartial": "L'opération a partiellement réussi",
+  "switchView": "Changer de vue",
+  "classificationFacetTitle": "Classification",
+  "classificationFacet": "Cette vue ne prend pas en charge les sélections multiples, sélectionnez un seul sujet pour afficher sa classification.",
+  "propertiesTitle": "Propriétés",
+  "propertiesShortHelp": "Affiche les détails de l'objet. Vous pouvez également modifier les détails du sujet dans l'onglet.",
+  "propertiesLongHelp": "Vous ne pouvez modifier le sujet que si vous êtes le propriétaire, la personne affectée ou le coordinateur.",
+  "classificationTitle": "Classification",
+  "classificationShortHelp": "Affiche tous les signets et les classes appartenant aux classifications et vous permet de classifier ou de déclassifier un signet.",
+  "classificationLongHelp": "Vous pouvez également afficher et modifier les attributs de classification des classes générales. Cependant, vous ne pouvez pas modifier les attributs de classification des classes de sécurité.",
+  "relatedObjectsTitle": "Contenu",
+  "relatedObjectsShortHelp": "Le contenu inclut toutes les données pertinentes directement liées au sujet qui sont nécessaires pour comprendre, analyser et résoudre le sujet efficacement.",
+  "relatedObjectsLongHelp": "Le contenu est catégorisé comme Eléments concernés, Contexte, Eléments résolus et Résolu par.",
+  "attachmentsTitle": "Pièces jointes",
+  "attachmentsShortHelp": "Les pièces jointes sont des fichiers supplémentaires qui fournissent des informations supplémentaires et aident à résoudre un sujet.",
+  "attachmentsLongHelp": "Vous devez avoir la responsabilité Auteur ou Responsable de l'espace de collaboration du sujet pour télécharger du contenu dans l'onglet Pièces jointes.",
+  "teamTitle": "Membres",
+  "teamShortHelp": "Gérez les utilisateurs ou les groupes impliqués dans le sujet ou affectés dans une certaine mesure par celui-ci. Ces membres jouent un rôle dans l'identification, l'évaluation, le traitement ou la résolution du sujet. ",
+  "teamLongHelp": "Vous pouvez ajouter, enlever ou modifier les responsabilités des membres existants.",
+  "commentsTitle": "Commentaires",
+  "commentsShortHelp": "L'onglet Commentaires affiche les commentaires ajoutés à un objet et vous permet de collaborer avec d'autres personnes en ajoutant des commentaires et en y répondant.",
+  "commentsLongHelp": "Vous pouvez collaborer avec d'autres personnes sur un objet en l'appréciant, en ajoutant des commentaires à son sujet et en y répondant.",
+  "relationsTitle": "Relations",
+  "relationsShortHelp": "L'onglet Relations affiche les objets associés de l'objet sélectionné.",
+  "relationsLongHelp": "Vous pouvez sélectionner l'ensemble de relations que vous souhaitez afficher, comme les relations de structure de produit, les relations CATIA V5, toutes les relations, etc.",
+  "historyTitle": "Historique",
+  "historyShortHelp": "L'onglet Historique répertorie les événements qui se sont produits pour un objet sélectionné ou actif dans l'app.",
+  "historyLongHelp": "",
+  "dismiss": "Ignorer",
+  "primaryImageColumnTitle": "Image principale",
+  "totalIssues": " de {number} s'affiche",
+  "loadedIssues": "{number}",
+  "selectedIssues": "Sélectionné : {number}",
+  "totalIssuesWarning": "Certains objets n'ont peut-être pas été indexés.",
+  "loadRemaining": "Charger les sujets restants",
+  "loadAllConfirmation": "Cela peut prendre un certain temps et vous ne pourrez pas utiliser l'application tant que le chargement n'est pas terminé ou que vous n'avez pas annulé le processus",
+  "dialogShowAgain": "Ne plus afficher",
+  "loadIssues": "Charger les sujets",
+  "loadingIssues": "Chargement de tous les sujets",
+  "resolveTheIssue": "Résoudre le sujet",
+  "taskAsResolvedBy": "Nouvelle tâche comme résolue par",
+  "caAsResolvedBy": "Nouvelle action de modification comme résolue par",
+  "addExistingAsResolvedBy": "Ajouter existant",
+  "exportTitle": "Exporter au format CSV",
+  "exportLabel": "Exporter",
+  "exportMessage": "{number} sujets seront exportés dans un fichier CSV. Cette opération peut prendre un certain temps. <br>Voulez-vous continuer ?",
+  "cancel": "Annuler",
+  "printTitle": "Imprimer",
+  "printMessage": "{number} sujets seront imprimés. Cette opération peut prendre un certain temps. Voulez-vous continuer ?"
+}

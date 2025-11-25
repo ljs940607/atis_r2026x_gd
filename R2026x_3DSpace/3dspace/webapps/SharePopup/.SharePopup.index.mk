@@ -1,0 +1,16 @@
+m|ENOCollaborativeServicesWebUI\SharePopup.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25107|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\SharePopup\SharePopup.css|1744917711|317
+s|ENOCollaborativeServicesWebUI\SharePopup.mweb\src\SharePopup.css|1620755983|480
+t|win_b64\webapps\SharePopup\SharePopup.html|1723278025|11486
+s|ENOCollaborativeServicesWebUI\SharePopup.mweb\src\SharePopup.html|1602087864|11486
+t|win_b64\webapps\SharePopup\SharePopup.js|1723278026|2724
+s|ENOCollaborativeServicesWebUI\SharePopup.mweb\src\SharePopup.js|1675884390|9488
+t|win_b64\webapps\SharePopup\SharePopupMultiSel.html|1723278026|7198
+s|ENOCollaborativeServicesWebUI\SharePopup.mweb\src\SharePopupMultiSel.html|1602425411|7198
+u|win_b64\code\toolcmds\csscompressor.bat|1744916593|38
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287

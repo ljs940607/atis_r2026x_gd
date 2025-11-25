@@ -1,0 +1,1 @@
+define("DS/CAT3DWMediaPanel/CAT3DWMediaPanel_ja",{});define("DS/CAT3DWMediaPanel/assets/nls/CAT3DWMediaWBRecognitionView",{noRecoFound:"認識が見つかりません。新しい認識を作成して、ここでアクセスしてください",addWBReco:"ホワイトボード認識を開始"});

@@ -1,0 +1,1 @@
+define("DS/BrowsingStructureAPI/BrowsingStructureAPI_es",{});define("DS/BrowsingStructureAPI/assets/nls/BrowsingStructureAPI",{msg_info_Timeout:"No se ha recibido ninguna respuesta de la acción iniciada dentro del periodo de tiempo de espera, puede llevar más tiempo ejecutarla. Es posible que pueda visualizarse el resultado tras unos instantes al actualizar manualmente."});

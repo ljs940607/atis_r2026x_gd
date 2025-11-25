@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Solo se admite el archivo STEP AP242",
+    "IFC_UNSUPPORT": "Solo se admiten los formatos de archivo IFC2X3, IFC4 e IFC4X3_ADD2",
+    "NO_TESSELLATION": "Solo se admite el archivo STEP con datos teselados",
+    "NO_ZIP": "No se admiten los formatos de archivos comprimidos",
+    "EMPTY_ROOT": "Raíz del documento SIN geometría",
+    "NO_REP": "Documento sin representación admitida (producto o pieza)",
+    "EXT_REF": "No se admiten los documentos con referencia externa. Solo se admiten los archivos monolíticos",
+    "EMPTY_PROD": "Producto de documento SIN geometría triangulada",
+    "NO_STPXZ": "stpxz en el archivo aún no es compatible"
+  },
+  "warning": {
+    "MISSING_PART": "faltan algunos archivos vinculados"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "findingBookmarks": "Yer İşareti Klasörleri bulunuyor..."
+  },
+  "msg_warning_FindInTree_NoLaunchOnFavourite": "Ağaçta bul işlemi, sık kullanılan bölüm ve sık kullanılan Yer İşareti Klasörlerinde gerçekleştirilemez.",
+  "msg_warning_FindInTree_InvalidDrop": {
+    "title": "Bırakılan nesne bir Yer İşareti Klasörü değil.",
+    "subtitle": "Lütfen bir Yer İşareti Kök Klasörü veya Yer İşareti Klasörü bırakın."
+  },
+  "msg_warning_expandTotheFindInNode": {
+    "title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "subtitle": "Ağacı ilgili Yer İşareti Klasörü düğümüne genişlet",
+    "message": "Bulunacak Yer İşareti Klasörü ağaçta görünmez."
+  },
+  "msg_warning_NoObjectsUnderSection": {
+    "title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "subtitle": "Yer İşareti Klasörü bölümünü birinci seviyeye genişletin.",
+    "message": "Yer İşareti Klasörü bölümünün altında görünür Yer İşareti Klasörü yok."
+  },
+  "msg_warning_NoObjectSelected": {
+    "title": "Ağaçta bul işlemi gerçekleştirilemez.",
+    "subtitle": "Lütfen bir Yer İşareti Klasörü seçin ve tekrar deneyin.",
+    "message": "Bulma işlemini gerçekleştirmek için seçili Yer İşareti Klasörü yok."
+  },
+  "msg_info_limitToFindInRootNode": "Tüm arama sonuçları görüntülenemedi. Lütfen farklı anahtar sözcükler deneyin veya alt Yer İşareti Klasörlerinden arama yapın.",
+  "msg_info_searchCompleted": "Arama tamamlandı.",
+  "msg_info_No_Occurrence": "Sonuç bulunamadı."
+}

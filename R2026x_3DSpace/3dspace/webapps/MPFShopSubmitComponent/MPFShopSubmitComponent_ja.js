@@ -1,0 +1,1 @@
+define("DS/MPFShopSubmitComponent/MPFShopSubmitComponent_ja",{});define("DS/MPFShopSubmitComponent/assets/nls/ShopSubmitComponent",{submitShop:"ショップを送信",confirmShopSubmit:"ショップの送信を確定",confirmShopSubmitMessage:"警告! ショップに不足している情報があります。情報によっては後で編集できないものもあります。ラボを送信する準備ができていることを確認してください。"});

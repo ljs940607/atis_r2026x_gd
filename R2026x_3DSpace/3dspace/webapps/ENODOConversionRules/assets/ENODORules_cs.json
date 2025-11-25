@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "doDetails": "Detaily odvozeného pravidla výstupu",
+    "doattributes": "Atributy odvozeného pravidla výstupu",
+    "name": "Název",
+    "connector": "Konektor",
+    "implicitRule": "Implicitní pravidlo",
+    "external": "Externí generování",
+    "parameters": "Parametry převodu",
+    "converter": "Konvertor",
+    "origin": "Počátek",
+    "forceUpdate": "Vynutit aktualizaci",
+    "uptodateDO": "Aktuální",
+    "jobStatus": "Stav úlohy",
+    "format": "Formát",
+    "alias": "Sjednocený formát",
+    "yes": "Ano",
+    "no": "Ne"
+  },
+  "buttons": {
+    "cancel": "Zrušit"
+  },
+  "popup": {
+    "option": "Doplněk",
+    "value": "Hodnota",
+    "yesButton": "Ano",
+    "noButton": "Ne",
+    "cancelButton": "Zrušit"
+  },
+  "error": {
+    "title": "Chyba",
+    "invalidFrame": "Operaci nelze provést. Obnovte widget a zkuste to znovu.",
+    "invalidParameter": "Parametry nejsou správně definovány."
+  }
+}

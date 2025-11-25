@@ -1,0 +1,208 @@
+{
+  "ENUMS": {
+    "ItemSpecification": "dsprcs:ItemSpecification",
+    "MfgOperation": "dsprcs:MfgOperation",
+    "MfgProcess": "dsprcs:MfgProcess",
+    "Instruction": "dsprcs:Instruction",
+    "Alert": "dsprcs:Alert",
+    "SignOff": "dsprcs:SignOff",
+    "DataCollectPlan": "dsprcs:DataCollectPlan",
+    "CheckList": "dsprcs:CheckList",
+    "DataCollect": "dsprcs:DataCollect",
+    "ResourceParameterPlan": "dsprcs:ResourceParameterPlan",
+    "CapableResources": "dsprcs:CapableResources",
+    "PrimaryCapableResource": "dsprcs:PrimaryCapableResource",
+    "SecondaryCapableResource": "dsprcs:SecondaryCapableResource",
+    "Member": "member",
+    "Title": "title",
+    "Type": "type",
+    "MfgOperationInstance": "dsprcs:MfgOperationInstance",
+    "MfgProcessInstance": "dsprcs:MfgProcessInstance",
+    "InstructionInstance": "dsprcs:InstructionInstance",
+    "AlertInstance": "dsprcs:AlertInstance",
+    "SignOffInstance": "dsprcs:SignOffInstance",
+    "DataCollectPlanInstance": "dsprcs:DataCollectPlanInstance",
+    "DataCollectInstance": "dsprcs:DataCollectInstance",
+    "ResourceParameterPlanInstance": "dsprcs:ResourceParameterPlanInstance",
+    "ItemSpecificationOcc": "dsprcs:ItemSpecificationOcc",
+    "MfgOperationOcc": "dsprcs:MfgOperationOcc",
+    "MfgProcessOcc": "dsprcs:MfgProcessOcc",
+    "InstructionOcc": "dsprcs:InstructionOcc",
+    "AlertOcc": "dsprcs:AlertOcc",
+    "SignOffOcc": "dsprcs:SignOffOcc",
+    "DataCollectPlanOcc": "dsprcs:DataCollectPlanOcc",
+    "DataCollectOcc": "dsprcs:DataCollectOcc",
+    "CheckListOcc": "dsprcs:CheckListOcc",
+    "ResourceParameterPlanOcc": "dsprcs:ResourceParameterPlanOcc",
+    "WorkplanType": "DELLmiWorkPlanSystemReference",
+    "Icon": "icon",
+    "Taxonomies": "taxonomies",
+    "SymbolicID": "bo.SymbolicID.V_SymbolicID",
+    "IsPositioningID": "bo.DELLmiIsPositioning.V_IsPositioning"
+  },
+  "references": [
+    "MfgProcess",
+    "MfgOperation",
+    "Instruction",
+    "Alert",
+    "SignOff",
+    "DataCollectPlan",
+    "CheckList",
+    "DataCollect",
+    "ResourceParameterPlan"
+  ],
+  "instances": [
+    "MfgOperationInstance",
+    "MfgProcessInstance",
+    "InstructionInstance",
+    "AlertInstance",
+    "SignOffInstance",
+    "DataCollectPlanInstance",
+    "DataCollectInstance",
+    "ResourceParameterPlanInstance"
+  ],
+  "occurrences": [
+    "MfgProcessOcc",
+    "MfgOperationOcc",
+    "InstructionOcc",
+    "AlertOcc",
+    "SignOffOcc",
+    "DataCollectPlanOcc",
+    "DataCollectOcc",
+    "CheckListOcc",
+    "ResourceParameterPlanOcc"
+  ],
+  "DynamicBuildUpNotRequiredTypes": [
+    "DELWkiInstructionReference",
+    "DELWkiAlertReference",
+    "DELWkiSignOffReference",
+    "DELWkiDataCollectPlanReference",
+    "DELWkiDataCollectChecklistReference",
+    "DELWkiDataCollectReference",
+    "DELResourceParameterPlanReference"
+  ],
+  "PublishedBuildUpNotRequiredTypes": [
+    "DELLmiPPRSystemReference",
+    "DELWkiInstructionReference",
+    "DELWkiAlertReference",
+    "DELWkiSignOffReference",
+    "DELWkiDataCollectPlanReference",
+    "DELWkiDataCollectChecklistReference",
+    "DELWkiDataCollectReference",
+    "DELResourceParameterPlanReference"
+  ],
+  "payload": {
+    "dynamicMask": {
+      "dsprcs:MfgProcess": [
+        "taxonomies"
+      ],
+      "dsprcs:MfgOperation": [
+        "taxonomies"
+      ],
+      "dsprcs:MfgOperationInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:MfgProcessInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:PrimaryCapableResource": [
+        "resource",
+        "taxonomies",
+        "bo.SymbolicID.V_SymbolicID",
+        "bo.DELLmiIsPositioning.V_IsPositioning"
+      ],
+      "dsprcs:SecondaryCapableResource": [
+        "resource",
+        "taxonomies",
+        "bo.SymbolicID.V_SymbolicID",
+        "bo.DELLmiIsPositioning.V_IsPositioning"
+      ],
+      "dsprcs:ItemSpecificationOcc": [
+        "isScope",
+        "id",
+        "type",
+        "itemOcc",
+        "taxonomies",
+        "bo.SymbolicID.V_SymbolicID"
+      ],
+      "dsprcs:ItemSpecification": [
+        "isScope",
+        "id",
+        "type",
+        "itemOcc",
+        "itemRef",
+        "taxonomies",
+        "bo.SymbolicID.V_SymbolicID"
+      ],
+      "dsprcs:WkiDocument": [
+        "id",
+        "type",
+        "usage",
+        "taxonomies"
+      ],
+      "dsprcs:Instruction": [
+        "taxonomies"
+      ],
+      "dsprcs:Alert": [
+        "taxonomies"
+      ],
+      "dsprcs:SignOff": [
+        "taxonomies"
+      ],
+      "dsprcs:DataCollectPlan": [
+        "taxonomies"
+      ],
+      "dsprcs:CheckList": [
+        "taxonomies"
+      ],
+      "dsprcs:DataCollect": [
+        "taxonomies"
+      ],
+      "dsprcs:ResourceParameterPlan": [
+        "taxonomies"
+      ],
+      "dsprcs:InstructionInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:AlertInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:SignOffInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:DataCollectPlanInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:DataCollectInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ],
+      "dsprcs:ResourceParameterPlanInstance": [
+        "from",
+        "to",
+        "taxonomies"
+      ]
+    },
+    "levelExpand": "-1",
+    "expandVersion": 2,
+    "requestedAttributesOnly": true,
+    "compute_select_bo": [
+      "icon"
+    ],
+    "occurrenceWithRef": true,
+    "parameters": {}
+  }
+}

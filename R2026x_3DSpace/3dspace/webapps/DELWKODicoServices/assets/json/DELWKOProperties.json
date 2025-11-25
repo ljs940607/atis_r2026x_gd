@@ -1,0 +1,2558 @@
+[
+	[
+		{
+			"type": "DELLmiEOQuantity_Length",
+			"info": [
+				{
+					"Name": "V_InitialQuantity",
+					"NLS": "Initial Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "LENGTH",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingQuantity",
+					"NLS": "Remaining Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "LENGTH",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CompletedQuantity",
+					"NLS": "Completed Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "LENGTH",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Area",
+			"info": [
+				{
+					"Name": "V_OrderQuantity",
+					"NLS": "Order Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "AREA",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELFmiFunctionIdentifiedInstance",
+			"info": [
+				{
+					"Name": "PLM_ExternalID",
+					"NLS": "Instance Title",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 100,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateUser",
+			"info": [
+				{
+					"Name": "V_MinStartDateUser",
+					"NLS": "Minimum Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DescriptionUser",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "BusinessType",
+			"info": [
+				{
+					"Name": "modified",
+					"NLS": "Modified",
+					"Type": "Date",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "current",
+					"NLS": "Maturity State",
+					"Type": "String",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 128,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "owner",
+					"NLS": "Owner",
+					"Type": "String",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 128,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "organization",
+					"NLS": "Organization",
+					"Type": "String",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 128,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "revision",
+					"NLS": "Revision",
+					"Type": "String",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 128,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "originated",
+					"NLS": "Originated",
+					"Type": "Date",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Each",
+			"info": [
+				{
+					"Name": "V_InitialQuantity",
+					"NLS": "Initial Quantity",
+					"Type": "Integer",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingQuantity",
+					"NLS": "Remaining Quantity",
+					"Type": "Integer",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CompletedQuantity",
+					"NLS": "Completed Quantity",
+					"Type": "Integer",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Volume",
+			"info": [
+				{
+					"Name": "V_QuantityToBeProducedPerTime",
+					"NLS": "V_QuantityToBeProducedPerTime",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "VOLUME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Each",
+			"info": [
+				{
+					"Name": "V_OrderQuantity",
+					"NLS": "Order Quantity",
+					"Type": "Integer",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateAuto",
+			"info": [
+				{
+					"Name": "V_MinStartDateAuto",
+					"NLS": "Minimum Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DescriptionAuto",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiProductionPlanReference",
+			"info": []
+		},
+		{
+			"type": "DELFmiFunctionReference",
+			"info": []
+		},
+		{
+			"type": "DELLmiMinStartDateRawMaterial",
+			"info": [
+				{
+					"Name": "V_MinStartDateRawMaterial",
+					"NLS": "Minimum Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DescriptionRawMaterial",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiProductionSystemReference",
+			"info": [
+				{
+					"Name": "V_ApplicabilityDate",
+					"NLS": "Applicability Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintFailed",
+			"info": [
+				{
+					"Name": "V_MaximumRetries",
+					"NLS": "Maximum number of retries",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Area",
+			"info": [
+				{
+					"Name": "V_InitialQuantity",
+					"NLS": "Initial Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "AREA",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingQuantity",
+					"NLS": "Remaining Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "AREA",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CompletedQuantity",
+					"NLS": "Completed Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "AREA",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "CreateAssembly",
+			"info": [
+				{
+					"Name": "V_NeedDedicatedSystem",
+					"NLS": "Planning Required",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "NO",
+							"NLS": "No"
+						},
+						{
+							"Name": "YES",
+							"NLS": "Yes"
+						}
+					],
+					"DefaultValue": "Yes",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_Outsourced",
+					"NLS": "Outsourced",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "No",
+							"NLS": "No"
+						},
+						{
+							"Name": "Yes",
+							"NLS": "Yes"
+						}
+					],
+					"DefaultValue": "No",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Length",
+			"info": [
+				{
+					"Name": "V_OrderQuantity",
+					"NLS": "Order Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "LENGTH",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWorkPlanSystemReference",
+			"info": []
+		},
+		{
+			"type": "DELLmiTimeConstraintCategoryAbstractCusto",
+			"info": []
+		},
+		{
+			"type": "Builds",
+			"info": []
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Area",
+			"info": [
+				{
+					"Name": "V_QuantityToBeProducedPerTime",
+					"NLS": "V_QuantityToBeProducedPerTime",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "AREA",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateSemiFinished",
+			"info": [
+				{
+					"Name": "V_MinStartDateSemiFinished",
+					"NLS": "Minimum Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DescriptionSemiFinished",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiExecHeaderOperationReference",
+			"info": [
+				{
+					"Name": "V_Interruptible",
+					"NLS": "Interruptible",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "true",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiExecTimeConstraintRelation",
+			"info": [
+				{
+					"Name": "V_Delay",
+					"NLS": "Delay",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DelayMode",
+					"NLS": "Delay mode",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "MaxDelay",
+							"NLS": "MaxDelay"
+						},
+						{
+							"Name": "MinDelay",
+							"NLS": "MinDelay"
+						},
+						{
+							"Name": "Synchro",
+							"NLS": "Synchro"
+						}
+					],
+					"DefaultValue": "MinDelay",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_MaterialNeed",
+					"NLS": "Material Need",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DependencyType",
+					"NLS": "Dependency type",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "FinishToFinish",
+							"NLS": "Finish to Finish"
+						},
+						{
+							"Name": "FinishToStart",
+							"NLS": "Finish to Start"
+						},
+						{
+							"Name": "StartToStart",
+							"NLS": "Start to Start"
+						}
+					],
+					"DefaultValue": "Finish to Start",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_OptionalTimeConstraint",
+					"NLS": "Optional",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ResourceConstraint",
+					"NLS": "Resource constraint",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "DifferentResources",
+							"NLS": "Different resources"
+						},
+						{
+							"Name": "None",
+							"NLS": "None"
+						},
+						{
+							"Name": "SameResources",
+							"NLS": "Same resources"
+						},
+						{
+							"Name": "SameResourcesWithReservation",
+							"NLS": "Same resources with reservation"
+						}
+					],
+					"DefaultValue": "None",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_IsActive",
+					"NLS": "Active",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "TRUE",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_Overlap",
+					"NLS": "Overlap",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiAdditionalTime",
+			"info": [
+				{
+					"Name": "V_TimeOutMachineBefore",
+					"NLS": "Pre-processing Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_TimeOutMachineAfter",
+					"NLS": "Post-processing Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_PreparationTime",
+					"NLS": "Preparation Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Length",
+			"info": [
+				{
+					"Name": "V_QuantityToBeProducedPerTime",
+					"NLS": "V_QuantityToBeProducedPerTime",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "LENGTH",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Volume",
+			"info": [
+				{
+					"Name": "V_InitialQuantity",
+					"NLS": "Initial Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "VOLUME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingQuantity",
+					"NLS": "Remaining Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "VOLUME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CompletedQuantity",
+					"NLS": "Completed Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "VOLUME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "Resource",
+			"info": [
+				{
+					"Name": "V_MTBF",
+					"NLS": "Mean time before failure",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RepairCost",
+					"NLS": "Repair cost",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CycleTime",
+					"NLS": "Cycle Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_MTTR",
+					"NLS": "Mean time to repair",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ConsumableCost",
+					"NLS": "Consumable cost",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CalculatedCycleTime",
+					"NLS": "Calculated Cycle Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_TargetedCycleTime",
+					"NLS": "Targeted Cycle Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_SetUpTime",
+					"NLS": "SetUp Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_TargetCost",
+					"NLS": "Target cost",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Weight",
+			"info": [
+				{
+					"Name": "V_QuantityToBeProducedPerTime",
+					"NLS": "V_QuantityToBeProducedPerTime",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "MASS",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "PLMEntity",
+			"info": [
+				{
+					"Name": "V_description",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 256,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "Yes",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "description",
+					"NLS": "Description",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_Name",
+					"NLS": "Title",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 100,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_usage",
+					"NLS": "Usage",
+					"Type": "String",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 40,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Each",
+			"info": [
+				{
+					"Name": "V_QuantityToBeProducedPerTime",
+					"NLS": "V_QuantityToBeProducedPerTime",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintCategoryAbstract",
+			"info": [
+				{
+					"Name": "V_ExecutionReturnCode",
+					"NLS": "Execution return code",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiUPRSystemReference",
+			"info": [
+				{
+					"Name": "V_Priority",
+					"NLS": "Priority",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DueDate",
+					"NLS": "Due Date",
+					"Type": "Date",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CalculatedDueDate",
+					"NLS": "V_CalculatedDueDate",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_EarliestStartDate",
+					"NLS": "Earliest Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_TargetStartDate",
+					"NLS": "Target Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_TargetEndDate",
+					"NLS": "Target End Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_PlannedStartDate",
+					"NLS": "Planned Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_PlannedEndDate",
+					"NLS": "Planned End Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ScheduledStartDate",
+					"NLS": "Scheduled Start Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ScheduledEndDate",
+					"NLS": "Scheduled End Date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ActualStartDate",
+					"NLS": "Actual Start Date",
+					"Type": "Date",
+					"Protection": 1,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ActualEndDate",
+					"NLS": "Actual End Date",
+					"Type": "Date",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiOperationReference",
+			"info": [
+				{
+					"Name": "V_IsTimeProportionalToQty",
+					"NLS": "Is Time Proportional To Quantity",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "true",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_EstimatedTime",
+					"NLS": "Estimated time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Weight",
+			"info": [
+				{
+					"Name": "V_OrderQuantity",
+					"NLS": "Order Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "MASS",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Weight",
+			"info": [
+				{
+					"Name": "V_InitialQuantity",
+					"NLS": "Initial Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "MASS",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingQuantity",
+					"NLS": "Remaining Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "MASS",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_CompletedQuantity",
+					"NLS": "Completed Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "MASS",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintCnx",
+			"info": [
+				{
+					"Name": "V_DelayMode",
+					"NLS": "Delay mode",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "MinDelay",
+							"NLS": "MinDelay"
+						},
+						{
+							"Name": "MaxDelay",
+							"NLS": "MaxDelay"
+						},
+						{
+							"Name": "Synchro",
+							"NLS": "Synchro"
+						}
+					],
+					"DefaultValue": "MinDelay",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_Delay",
+					"NLS": "Delay",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DependencyType",
+					"NLS": "Dependency type",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "FinishToStart",
+							"NLS": "Finish to Start"
+						},
+						{
+							"Name": "StartToStart",
+							"NLS": "Start to Start"
+						},
+						{
+							"Name": "FinishToFinish",
+							"NLS": "Finish to Finish"
+						},
+						{
+							"Name": "StartToFinish",
+							"NLS": "Start to Finish"
+						},
+						{
+							"Name": "PreviousCycle",
+							"NLS": "Previous Cycle"
+						}
+					],
+					"DefaultValue": "Finish to Start",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_MaterialNeed",
+					"NLS": "Material Need",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "false",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_OptionalTimeConstraint",
+					"NLS": "Optional",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "false",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELFmiFunctionPPRCreateReference",
+			"info": [
+				{
+					"Name": "V_TargetReleaseDate",
+					"NLS": "Target Release date",
+					"Type": "Date",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Volume",
+			"info": [
+				{
+					"Name": "V_OrderQuantity",
+					"NLS": "Order Quantity",
+					"Type": "Double",
+					"Protection": 3,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "1.0",
+					"MaxLength": 0,
+					"Magnitude": "VOLUME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELLmiOperationUPRReference",
+			"info": [
+				{
+					"Name": "V_Priority",
+					"NLS": "Priority",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_Scheduled",
+					"NLS": "Scheduled",
+					"Type": "Boolean",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "false",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_RemainingTime",
+					"NLS": "Remaining Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_ActualTime",
+					"NLS": "Actual Time",
+					"Type": "Double",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0.0",
+					"MaxLength": 0,
+					"Magnitude": "TIME",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "Robot",
+			"info": [
+				{
+					"Name": "V_DELRmi_MountingMethod",
+					"NLS": "Mounting Method",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "Yes",
+					"AuthorizedValues": [
+						{
+							"Name": "Floor",
+							"NLS": "Floor"
+						},
+						{
+							"Name": "Ceiling",
+							"NLS": "Ceiling"
+						},
+						{
+							"Name": "Wall",
+							"NLS": "Wall"
+						},
+						{
+							"Name": "Angle",
+							"NLS": "Angle"
+						},
+						{
+							"Name": "NotDefined",
+							"NLS": "NotDefined"
+						}
+					],
+					"DefaultValue": "NotDefined",
+					"MaxLength": 50,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				},
+				{
+					"Name": "V_DELRmi_NbDOFs",
+					"NLS": "Degrees of Freedom",
+					"Type": "Integer",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "0",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		},
+		{
+			"type": "DELOnHold",
+			"info": [
+				{
+					"Name": "V_OnHoldComment",
+					"NLS": "Comment",
+					"Type": "String",
+					"Protection": 2,
+					"MultiValuated": "No",
+					"HasRangeDefined": "No",
+					"DefaultValue": "",
+					"MaxLength": 0,
+					"Magnitude": "",
+					"ManipulationUnit": "",
+					"MultiLine": "No",
+					"UIAccess": "",
+					"HasDefault": "Yes"
+				}
+			]
+		}
+	],
+	[
+		{
+			"type": "DELLmiExecHeaderOperationReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_Interruptible"
+				}
+			]
+		},
+		{
+			"type": "BusinessType",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "modified"
+				},
+				{
+					"isReadOnly": false,
+					"AuthorizedValues": [
+						{
+							"NLS": "#9B2C98",
+							"Name": "PRIVATE.color.active"
+						},
+						{
+							"NLS": "#80C183",
+							"Name": "FROZEN.color.inactive"
+						},
+						{
+							"NLS": "Private",
+							"Name": "PRIVATE"
+						},
+						{
+							"NLS": "#FFFFFF",
+							"Name": "OBSOLETE.color.inactive"
+						},
+						{
+							"NLS": "#757575",
+							"Name": "RELEASED.color.active"
+						},
+						{
+							"NLS": "Completed",
+							"Name": "COMPLETED"
+						},
+						{
+							"NLS": "#CD95CB",
+							"Name": "PRIVATE.color.inactive"
+						},
+						{
+							"NLS": "#7FBED1",
+							"Name": "IN_WORK.color.inactive"
+						},
+						{
+							"NLS": "#018308",
+							"Name": "FROZEN.color.active"
+						},
+						{
+							"NLS": "Work in Progress",
+							"Name": "WORK_IN_PROGRESS"
+						},
+						{
+							"NLS": "Obsolete",
+							"Name": "OBSOLETE"
+						},
+						{
+							"NLS": "#007DA3",
+							"Name": "IN_WORK.color.active"
+						},
+						{
+							"NLS": "Released",
+							"Name": "RELEASED"
+						},
+						{
+							"NLS": "Ready for Execution",
+							"Name": "READY_FOR_EXECUTION"
+						},
+						{
+							"NLS": "Frozen",
+							"Name": "FROZEN"
+						},
+						{
+							"NLS": "#BABABA",
+							"Name": "RELEASED.color.inactive"
+						},
+						{
+							"NLS": "In Work",
+							"Name": "IN_WORK"
+						},
+						{
+							"NLS": "Firm",
+							"Name": "FIRM"
+						},
+						{
+							"NLS": "Deprecated",
+							"Name": "REMOVED"
+						},
+						{
+							"NLS": "#FFFFFF",
+							"Name": "OBSOLETE.color.active"
+						},
+						{
+							"NLS": "Canceled",
+							"Name": "CANCELED"
+						},
+						{
+							"NLS": "Firm",
+							"Name": "FIRM.tooltip"
+						},
+						{
+							"NLS": "#7FBED1",
+							"Name": "READY_FOR_EXECUTION.color.inactive"
+						},
+						{
+							"NLS": "Ready for execution",
+							"Name": "READY_FOR_EXECUTION.tooltip"
+						},
+						{
+							"NLS": "Completed",
+							"Name": "COMPLETED.tooltip"
+						},
+						{
+							"NLS": "#018308      ",
+							"Name": "WORK_IN_PROGRESS.color.active"
+						},
+						{
+							"NLS": "#757575",
+							"Name": "COMPLETED.color.active"
+						},
+						{
+							"NLS": "#757575",
+							"Name": "CANCELED.color.active"
+						},
+						{
+							"NLS": "Canceled",
+							"Name": "CANCELED.tooltip"
+						},
+						{
+							"NLS": "#BABABA",
+							"Name": "CANCELED.color.inactive"
+						},
+						{
+							"NLS": "#80C183    ",
+							"Name": "WORK_IN_PROGRESS.color.inactive"
+						},
+						{
+							"NLS": "#007DA3",
+							"Name": "READY_FOR_EXECUTION.color.active"
+						},
+						{
+							"NLS": "Work in progress",
+							"Name": "WORK_IN_PROGRESS.tooltip"
+						},
+						{
+							"NLS": "#CD95CB",
+							"Name": "FIRM.color.inactive"
+						},
+						{
+							"NLS": "#BABABA",
+							"Name": "COMPLETED.color.inactive"
+						},
+						{
+							"NLS": "#9B2C98",
+							"Name": "FIRM.color.active"
+						}
+					],
+					"Name": "current"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "owner"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "organization"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "revision"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "originated"
+				}
+			]
+		},
+		{
+			"type": "PLMEntity",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_description"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "description"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_Name"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_usage"
+				}
+			]
+		},
+		{
+			"type": "DELLmiOperationUPRReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_Priority"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_Scheduled"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingTime"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ActualTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiUPRSystemReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_Priority"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DueDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CalculatedDueDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_EarliestStartDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_TargetStartDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_TargetEndDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_PlannedStartDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_PlannedEndDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ScheduledStartDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ScheduledEndDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ActualStartDate"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ActualEndDate"
+				}
+			]
+		},
+		{
+			"type": "DELLmiOperationReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_IsTimeProportionalToQty"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_EstimatedTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Area",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_QuantityToBeProducedPerTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiAdditionalTime",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_TimeOutMachineBefore"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_TimeOutMachineAfter"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_PreparationTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Each",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_QuantityToBeProducedPerTime"
+				}
+			]
+		},
+		{
+			"type": "DELOnHold",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OnHoldComment"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Volume",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_QuantityToBeProducedPerTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Each",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OrderQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Area",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OrderQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Length",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_QuantityToBeProducedPerTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiQtyToBeProducedPerTime_Weight",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_QuantityToBeProducedPerTime"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Weight",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OrderQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Length",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OrderQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWOQuantity_Volume",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_OrderQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Area",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_InitialQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CompletedQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Each",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_InitialQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CompletedQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Weight",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_InitialQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CompletedQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateAuto",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MinStartDateAuto"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DescriptionAuto"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Length",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_InitialQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CompletedQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateUser",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MinStartDateUser"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DescriptionUser"
+				}
+			]
+		},
+		{
+			"type": "DELLmiEOQuantity_Volume",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_InitialQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RemainingQuantity"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CompletedQuantity"
+				}
+			]
+		},
+		{
+			"type": "DELFmiFunctionIdentifiedInstance",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "PLM_ExternalID"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateSemiFinished",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MinStartDateSemiFinished"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DescriptionSemiFinished"
+				}
+			]
+		},
+		{
+			"type": "DELLmiMinStartDateRawMaterial",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MinStartDateRawMaterial"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DescriptionRawMaterial"
+				}
+			]
+		},
+		{
+			"type": "Resource",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MTBF"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_RepairCost"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CycleTime"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_MTTR"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ConsumableCost"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_CalculatedCycleTime"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_TargetedCycleTime"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_SetUpTime"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_TargetCost"
+				}
+			]
+		},
+		{
+			"type": "Robot",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_DELRmi_MountingMethod"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DELRmi_NbDOFs"
+				}
+			]
+		},
+		{
+			"type": "CreateAssembly",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_NeedDedicatedSystem"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_Outsourced"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintCnx",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_DelayMode"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_Delay"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DependencyType"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_MaterialNeed"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_OptionalTimeConstraint"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintCategoryAbstractCusto",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "flowType"
+				}
+			]
+		},
+		{
+			"type": "DELFmiFunctionPPRCreateReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_TargetReleaseDate"
+				}
+			]
+		},
+		{
+			"type": "DELLmiProductionSystemReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_ApplicabilityDate"
+				}
+			]
+		},
+		{
+			"type": "DELLmiProductionPlanReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "ProductionPlan"
+				}
+			]
+		},
+		{
+			"type": "DELLmiWorkPlanSystemReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "MfgProcess"
+				}
+			]
+		},
+		{
+			"type": "DELLmiExecTimeConstraintRelation",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_Delay"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DelayMode"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_MaterialNeed"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_DependencyType"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_OptionalTimeConstraint"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_ResourceConstraint"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_IsActive"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "V_Overlap"
+				},
+				{
+					"isReadOnly": false,
+					"Name": "kind"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintFailed",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_MaximumRetries"
+				}
+			]
+		},
+		{
+			"type": "DELLmiTimeConstraintCategoryAbstract",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "V_ExecutionReturnCode"
+				}
+			]
+		},
+		{
+			"type": "DELFmiFunctionReference",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "MfgItem"
+				}
+			]
+		},
+		{
+			"type": "Builds",
+			"info": [
+				{
+					"isReadOnly": false,
+					"Name": "Builds"
+				}
+			]
+		}
+	]
+]

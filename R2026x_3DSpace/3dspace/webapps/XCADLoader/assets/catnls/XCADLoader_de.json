@@ -1,0 +1,16 @@
+{
+  "error": {
+    "STP_UNSUPPORT": "Es werden nur STEP AP242-Dateien unterstützt",
+    "IFC_UNSUPPORT": "Es werden nur die Dateiformate IFC2X3, IFC4 und IFC4X3_ADD2 unterstützt",
+    "NO_TESSELLATION": "Es werden nur STEP-Dateien mit tessellierten Daten unterstützt",
+    "NO_ZIP": "Komprimierte Formate werden nicht unterstützt",
+    "EMPTY_ROOT": "Dokumentstamm ohne Geometrie",
+    "NO_REP": "Dokument ohne unterstützte Darstellungen (Produkt oder Teil)",
+    "EXT_REF": "Dokumente mit externen Referenzen werden nicht unterstützt. Es werden nur einheitliche Dateien unterstützt.",
+    "EMPTY_PROD": "Dokumentprodukt ohne tesselierte Geometrie",
+    "NO_STPXZ": "STPXZ wird im Archiv noch nicht unterstützt"
+  },
+  "warning": {
+    "MISSING_PART": "Einige verknüpfte Dateien fehlen"
+  }
+}

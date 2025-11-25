@@ -1,0 +1,14 @@
+{
+    "bsChooserDialog": {
+        "title": "Group by Browsing Structure",
+        "chooserLabel": "Select a Browsing Structure",
+        "organizeButton": "Group",
+        "ungroupButton": "Ungroup",
+        "cancelButton": "Cancel"
+    },
+    "noBSWarning": {
+        "message": "There are no browsing structures available.",
+        "advice": "Contact the Browsing Structure manager to create the browsing structures, and set their maturity to \"Released\" to make them available in this command."
+    },
+    "webServiceError": "Unable to retrieve the list of Browsing Structures. Try again or contact your administrator"
+}

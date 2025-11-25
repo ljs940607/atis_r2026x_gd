@@ -1,0 +1,1 @@
+define("DS/MMPrint/MMPrint_ja",{});define("DS/MMPrint/assets/nls/MMPrint",{printErrorTitle:"印刷エラー",printRealSizeError:"実寸大での印刷はサポートされていません",DerivedOutputTitle:"派生出力は使用できません",DerivedOutputMessage:"派生出力は使用できません。ラスタ生成出力に切り替えています。",PrintLaunchedTitle:"印刷コマンドが開始されました",PrintLaunchedMessage:"現在あなたの要求に取り組んでいます。少し時間がかかることがあります..."});

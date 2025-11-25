@@ -1,0 +1,68 @@
+:root{
+	
+    --base-color: #ff0000;
+    --comp-color: #0000ff;
+    
+}
+
+.single-grid-cost-value .wux-tweakers-domleaf {
+    text-align:right   !important; 
+    padding-right: 15px !important;
+}
+
+.sg-not-last-col-in-group  {
+    border: 0px !important;
+}
+.sg-last-col-in-group  {
+    border-right: 1px solid  #b4b6ba !important;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+.sg-tree {
+	border-right: 0px !important;
+}
+
+.wux-layouts-datagridview .wux-layouts-left-header-poolcontainer .wux-layouts-datagridview-column-header-cell[first-column][type-representation="string"]{
+	border-right:0px!important;
+}
+
+#sg-baseline-label-color {
+	width:16px;
+	height:16px;
+	margin: 0px;
+}
+#sg-baseline-label-string{
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+#sg-comp-label-color {
+    width:16px;
+    height:16px;
+    margin: 0px;
+}
+
+#sg-comp-label-string{
+    font-size: 12px;
+}
+
+#compare-display-group-selector {
+	padding-right: 20px !important;
+}
+
+ .wux-layouts-left-header-poolcontainer  .wux-ui-3ds-stop {
+	color: var(--base-color);
+}
+
+.wux-layouts-header-poolcontainer  .wux-ui-3ds-stop {
+    color: var(--comp-color);
+}
+
+.compare_tree_list_view .wux-layouts-treeview-link {
+    visibility: initial !important;
+}
+
+div.compare_tree_list_view .wux-layouts-treeview-expander[data-wux-state=noChildren] {
+    visibility: initial !important;
+}

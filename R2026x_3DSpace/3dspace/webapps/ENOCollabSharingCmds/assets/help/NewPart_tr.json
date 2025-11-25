@@ -1,0 +1,11 @@
+{
+"ENONewPartHdr.Title":"Yeni Parça",
+"ENONewPartHdr.ShortHelp":"Yeni bir parça oluşturur.",
+"ENONewPartHdr.LongHelp":"İletişim kutusunda bir başlık, varsa gerekli öznitelikleri girin ve isteğe bağlı olarak CAD veritabanını seçmek için bir şablon belirleyin. Yalnızca bir parça oluşturmak için <uicontrol>Oluştur ve Kapat</uicontrol>'a veya başka bir parça oluşturmak için <uicontrol>Oluştur</uicontrol>'a tıklayın.",
+"ENOInsertNewPartHdr.Title":"Yeni Parça Ekle",
+"ENOInsertNewPartHdr.ShortHelp":"Yeni bir parça oluşturur ve seçili nesnelere alt parça olarak ekler.",
+"ENOInsertNewPartHdr.LongHelp":"<p>İletişim kutusunda bir başlık girin ve isteğe bağlı olarak CAD veritabanını seçmek için bir şablon belirleyin. Yalnızca bir parça oluşturmak için <uicontrol>Oluştur ve Kapat</uicontrol>'a veya başka bir parça oluşturmak için <uicontrol>Oluştur</uicontrol>'a tıklayın.</p>",
+"ENONewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm",
+"ENONewPartHdr.PanelHelp":"PsteUAPanelMap/pste-t-create-Part.htm",
+"ENOInsertNewPartHdr.WebHelp":"PsteUserMap/pste-t-create-Part.htm"
+}

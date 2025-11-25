@@ -1,0 +1,9 @@
+m|DELPPWProcessPlugins\DELPPWProcessViewPlugins.mweb
+b|j|c,m
+b|c|c,m
+v|6.428.0.25249|3.2
+r|G:\R428\BSF\.
+t|win_b64\webapps\DELPPWProcessViewPlugins\DELPPWProcessViewPlugins.js|1757132691|1654
+s|DELPPWProcessPlugins\DELPPWProcessViewPlugins.mweb\src\Operations3DViewerPlugin.js|1755586022|7384
+u|win_b64\code\toolcmds\mkminifyjs.bat|1723229804|401
+u|win_b64\code\toolcmds\mkwebconcat.bat|1723229804|287
