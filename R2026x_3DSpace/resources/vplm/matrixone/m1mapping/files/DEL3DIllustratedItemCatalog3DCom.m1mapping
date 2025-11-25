@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DEL3DIllustratedItemCatalog3DCom" />
+    <m1.package name="DEL3DIllustratedItemCatalog3DCom" />
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreRepInstance name="3DIllustratedItemCatalog3DComRepInstance" />
+      <m1.relationship name="3DIllustratedItemCatalog3DComRepInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreRepReference name="3DIllustratedItemCatalog3DCom" />
+      <m1.type name="3DIllustratedItemCatalog3DCom" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

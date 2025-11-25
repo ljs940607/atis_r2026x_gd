@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceDistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationInternalMvConnectionCommon_ConductorsPerPhase",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceCount",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

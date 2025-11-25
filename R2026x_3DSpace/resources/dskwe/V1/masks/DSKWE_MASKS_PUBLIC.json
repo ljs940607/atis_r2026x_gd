@@ -1,0 +1,49 @@
+{
+  "dsmvkwe:KnowledgeVPMRepresentation.default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    }
+  ],
+
+  "dsmvkwe:ComponentFamilyMask.default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dsmvkwe:NumberofComponentFamilyItems"
+  ],
+
+  "dsmvkwe:KnowledgeVPMRepresentation.ParentEngItems": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    },
+    "dsmvkwe:parentEngItems"
+  ]
+}
+

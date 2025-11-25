@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "MaterialManagementToPLMMaterial" UseNames = "CATMaterialRef" Uuid = "687ffe6e-195a-4595-bee9-cb2bf00e162b" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "MaterialManagementSrc" ScopeNames = "CATMatReference" Uuid = "87e2089f-abd4-4dae-b173-812ae297bf3c">
+    <Property Name = "KweNew_InstanciationMethod" Value = "MatMngtDelegateExtension"/>
+    <!-- Stores the unique id of the material revision (which keeps track on material content at a specific time on Material Management service -->
+    <Simple Name = "MatMngtMatRevI3dx"        Protection = "ExternalIN" Type = "String" Uuid = "146446ad-e7e5-486c-9ec8-b990d8f36f6a"/>
+    <!-- Stores the material definition payload sent by Material Management service at creation/synchro -->
+    <Simple Name = "MatMngtDefinitionPayload" Protection = "Internal"   Type = "Clob"   Uuid = "6a8dba60-807a-4ff5-a2cf-f02b272e6dea"/>
+  </Extension>
+</Package>
+

@@ -1,0 +1,46 @@
+{
+ 
+ "dsmvengeqt:attribute.equipment.subtype": {
+    "property": "attribute[SharedEquipmentPart.V_Ens_SubType,MountingEquipment.V_Elec_SubType]",
+    "key": "subtype",
+    "example": "My SubType",
+    "description": "Sub type of equipment",
+    "label": "dsengeqt.Label.Attribute.Subtype",
+    "index": "ds6wg:SharedEquipmentPart.V_Ens_SubType,ds6wg:MountingEquipment.V_Elec_SubType"
+  },
+    
+   "dsmvengeqt:attribute.mountingequipment.externalreference": {
+    "property": "attribute[MountingEquipment.V_Elec_External_Reference]",
+    "key": "externalreference",
+    "example": "My External Reference",
+    "description": "External Reference of equipment",
+    "label": "dsengeqt.Label.Attribute.ExternalReference",
+    "index": "ds6wg:MountingEquipment.V_Elec_External_Reference"
+  },
+  
+   "dsmvengeqt:attribute.mountingequipment.numberofpins": {
+    "property": "attribute[MountingEquipment.V_Elec_NumberOfPins]",
+    "key": "numberpins",
+    "example": "NumberOfPins",
+    "description": "Number of Pins of equipment",
+    "label": "dsengeqt.Label.Attribute.NumberOfPins",
+    "index": "ds6wg:MountingEquipment.V_Elec_NumberOfPins"
+  },
+  
+   "dsmvengeqt:attribute.mountingequipment.matingwith": {
+    "property": "attribute[MountingEquipment.V_Elec_MatingWith]",
+    "key": "matingwith",
+    "example": "Mounted Eqt instance",
+    "description": "The device that this mounting equipment is constrained with",
+    "label": "dsengeqt.Label.Attribute.MatingWith",
+    "index": "ds6wg:MountingEquipment.V_Elec_MatingWith"
+  },
+  
+  "dsmvengeqt:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+}

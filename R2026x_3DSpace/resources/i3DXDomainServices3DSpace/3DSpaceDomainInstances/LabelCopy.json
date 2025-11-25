@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "LabelCopy",
+    "description"    : "The domain instance for LabelCopy in 3DSpace",
+    "packages"       : ["Artwork"]
+}

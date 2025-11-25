@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "UIModel": [{
+    "type": "PreferenceSection",
+    "name": "LanguagesSection",
+    "repository": "Languages",
+    "children": [{
+      "type": "PreferenceGroup",
+      "name": "RegionGroup",
+      "tweakertype": "header",
+      "children": [{
+        "type": "PreferenceItem",
+        "name": "RegionalFormatLanguage",
+        "tweakertype": "enum",
+        "description": "true"
+      }, {
+        "type": "PreferenceItem",
+        "name": "UseISO8601ForDateAndTime",
+        "tweakertype": "boolean"
+      }]
+    }]
+  }]
+}

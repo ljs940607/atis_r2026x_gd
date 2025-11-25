@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeFiberTubeSegment_FiberTubeColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeFiberTubeSegment_NumberOfFibers",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,29 @@
+NAVIGATE
+
+     T0.PLM_ExternalID, T1.PLM_ExternalID, T2.PLM_ExternalID, 
+     T0.PLMID, T1.PLMID, T2.PLMID
+
+FROM 
+
+	 SIMObjSimulationCategoryAndProdCnx/SIMObjSimulationCategoryReference T0,
+     SIMObjMDE/MdeDisciplineCnx T1,
+     SIMObjMDE/MdeDisciplineSo  T2
+
+FROM_ROOTS [?1?]
+
+ON ( RELATION(
+
+     FROM=SIMObjSimulationCategoryAndProdCnx/SIMObjSimulationCategoryReference
+     TO=SIMObjMDE/MdeDisciplineCnx
+     THROUGH=POINTEDBY )
+
+     WITH QUALITY_FILTER(CATEGORY=ISOWNEDBY))
+
+THEN (RELATION(
+
+    FROM=SIMObjMDE/MdeDisciplineCnx
+    TO=SIMObjMDE/MdeDisciplineSo
+    THROUGH=POINTSTO))
+
+; 
+

@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="SQL Server の接続パラメーター";
+MSSQL_ConnectUser.Label1="SQL Server 接続ユーザー名:";
+MSSQL_ConnectUser.Resume="SQL Server 接続ユーザー名: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="SQL Server 接続ユーザーのパスワード";
+MSSQL_ConnectPwd.Label1="SQL Server 接続ユーザーのパスワード:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="SQL Server データベース名";
+MSSQL_Instance.Label1="SQL Server データベース名:";
+MSSQL_Instance.Resume="MQL Server データベース名：/p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="SQL Server データベース サーバー";
+MSSQL_Server.Label1="SQL Server サーバー名:";
+MSSQL_Server.Resume="SQL Server サーバー名：/p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="データベース接続エラー";
+ConnectionTestFailed.Text="接続しようとして次のエラーが報告されました:\n\n/P1\nSQL Server 構成マネージャーで次を確認してください:\n-共有メモリと TCP/IP プロトコルが有効にされている\n-SQL Server サービスと SQL Server Browser サービスが実行している";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="新しいデータベースの作成";
+CreateNewMSSQL_DB.Label1="新しいデータベースを作成するには、このチェックボックスを選択します (SQL Server がローカルにインストールされている必要があります):";
+CreateNewMSSQL_DB.CheckButton="新しい SQL Server データベースの作成";
+CreateNewMSSQL_DB.Resume.true="新しい SQL Server データベースの作成: はい";
+CreateNewMSSQL_DB.Resume.false="新しい SQL Server データベースの作成: いいえ";
+
+CreateNewMSSQL_DB_Error.Title="新しいデータベースの作成エラー";
+CreateNewMSSQL_DB_Error.Text="sqlcmd コマンドの使用中に次のエラーが報告されました: \n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="新しいデータベースが正常に作成されました";
+CreateNewMSSQL_DB_Success.Text="新しい SQL Serverデータベースが正常に作成されました";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="MSSQL データ ディレクトリの選択";
+PathMSSQLFiles.Label1="新しいデータベース ファイルの保存先となるディレクトリ (新規データベースのみ):";
+PathMSSQLFiles.Resume="MSSQL ファイルの場所: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="デフォルトおよび管理のデータ ファイル グループ";
+MSSQL_Default_Data_FG.Label1="デフォルトおよび管理のデータ ファイル グループ (空白の場合は無視)";
+MSSQL_Default_Data_FG.Resume="デフォルトおよび管理のデータ ファイル グループ: /P1";
+
+MSSQL_Default_Index_FG.Title="デフォルトおよび管理のインデックス ファイル グループ";
+MSSQL_Default_Index_FG.Label1="デフォルトおよび管理のインデックス ファイル グループ (空白の場合は無視)";
+MSSQL_Default_Index_FG.Resume="デフォルトおよび管理のインデックス ファイル グループ: /P1";

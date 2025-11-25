@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcFacilityPartCommon_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFacilityPartCommon_LongName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFacilityPartCommon_CompositionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFacilityPartCommon_UsageType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFacilityPartCommon_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Engineering Note target scope",
+  "type": "string",
+  "enum": ["GENERAL", "COMPONENTS", "3D"]
+}

@@ -1,0 +1,1 @@
+java -cp <classpath> -DEKLOG_JAVA=<logback> com.dassault_systemes.experience_kernel.EKMessageBusClient <settings> <passport>

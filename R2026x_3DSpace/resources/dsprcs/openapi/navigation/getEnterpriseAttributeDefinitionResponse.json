@@ -1,0 +1,111 @@
+{
+	"properties": {
+		"totalItems": {
+			"type": "integer",
+			"example": 1
+		},
+		"member": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"description": "Name of the enterprise attribute",
+						"type": "string",
+						"example": "testAttr1"
+					},
+					"fullName": {
+						"description": "Full name of the enterprise attribute",
+						"type": "string",
+						"example": "XP_DELLmiWorkPlanSystemReference_Ext.testAttr1"
+					},
+					"nlsName": {
+						"description": "Title of the enterprise attribute",
+						"type": "string",
+						"example": "Test Attribute 1"
+					},
+					"type": {
+						"description": "Type of the enterprise attribute",
+						"type": "string",
+						"example": "String"
+					},
+					"maxLength": {
+						"description": "Max Length of the enterprise attribute (0 - no limit)",
+						"type": "integer",
+						"example": "0"
+					},
+					"defaultValue": {
+						"description": "Default value of the enterprise attribute",
+						"type": "string",
+						"example": "test1"
+					},
+					"multiValuated": {
+						"description": "Boolean value of whether the enterprise attribute is multi-valuated",
+						"type": "boolean",
+						"example": "false"
+					},
+					"multiLine": {
+						"description": "Boolean value of whether the enterprise attribute is multi-line",
+						"type": "boolean",
+						"example": "false"
+					},
+					"hasAuthValues": {
+						"description": "Boolean value of whether the enterprise attribute has authorized values",
+						"type": "boolean",
+						"example": "true"
+					},
+					"listOfAuthValues": {
+						"description": "List of authorized values in strings",
+						"type": "string",
+						"example": "test1,test2,test3"
+					},
+					"resetWhenDuplicate": {
+						"description": "Boolean value of whether the enterprise attribute is reset when duplicated",
+						"type": "boolean",
+						"example": "true"
+					},
+					"resetWhenRevision": {
+						"description": "Boolean value of whether the enterprise attribute is reset when revisioned",
+						"type": "boolean",
+						"example": "true"
+					},
+					"dimension": {
+						"description": "Dimension of the enterprise attribute",
+						"type": "string",
+						"example": "MASS"
+					},
+					"preferredUnit": {
+						"description": "Preferred unit of the enterprise attribute",
+						"type": "string",
+						"example": "KILOGRAM"
+					},
+					"indexed": {
+						"description": "Boolean value of whether the enterprise attribute is indexed",
+						"type": "boolean",
+						"example": "true"
+					},
+					"mandatory": {
+						"description": "Boolean value of whether the enterprise attribute is mandatory",
+						"type": "boolean",
+						"example": "false"
+					},
+					"readOnly": {
+						"description": "Boolean value of whether the enterprise attribute is read-only",
+						"type": "boolean",
+						"example": "false"
+					},
+					"sixWTag": {
+						"description": "6WTag of the enterprise attribute",
+						"type": "string",
+						"example": "ds6w:example"
+					},
+					"exportIn3DXML": {
+						"description": "Boolean value of whether the enterprise attribute is exported in 3DMXL",
+						"type": "boolean",
+						"example": "true"
+					}
+				}
+			}
+		}
+	}
+}

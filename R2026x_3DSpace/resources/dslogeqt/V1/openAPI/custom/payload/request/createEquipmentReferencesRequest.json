@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "example":  "Logical Equipment"
+        },
+        "description": {
+            "type": "string",
+            "example": "description of first Equipment"
+        },
+        "predefinedpartnumber": {
+            "type": "string",
+            "example": "PartNB1"
+        },
+        "predefinedparttype": {
+            "type": "string",
+            "example": "PartType1"
+        },
+        "subtype": {
+            "type": "string",
+            "example": "PowerEqt"
+        },
+        "cestamp": {
+            "type": "string",
+            "example": "08248256E616220064204D08000E77BE"
+        }
+    }
+}

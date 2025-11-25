@@ -1,0 +1,303 @@
+{
+  "dsmvfst:attribute.SpotFastener.diameter": {
+    "property": "attribute[SpotFastener.V_Diameter]",
+    "key": "diameter",
+    "example": "",
+    "index": "ds6wg:SpotFastener.V_Diameter",
+    "description": "Diameter code"
+  },
+  "dsmvfst:attribute.BeadFastener.thickness": {
+    "property": "attribute[BeadFastener.V_Thickness]",
+    "key": "thickness",
+    "example": "",
+    "index": "ds6wg:BeadFastener.V_Thickness",
+    "description": "Thickness"
+  },
+  "dsmvfst:stacking": {
+    "property": "computed",
+    "key": "stacking",
+    "example": "",
+    "index": null,
+    "description": "Bundle Stackings"
+  },
+  "dsmvfst:attribute.Fastener.fastenerType": {
+    "property": "attribute[Fastener.V_FastenerType]",
+    "key": "fastenerType",
+    "example": "",
+    "index": "ds6wg:Fastener.V_FastenerType",
+    "description": "Fastener Type"
+  },
+  "dsmvfst:attribute.BeadInstance.length": {
+    "property": "attribute[BeadInstance.V_Length]",
+    "key": "length",
+    "example": "",
+    "index": "ds6wg:BeadInstance.V_Length",
+    "description": "Length"
+  },
+  "dsmvfst:attribute.SpotInstanceFlexible.fastenerLength": {
+    "property": "attribute[PLMFst_FlexibleFastenerInstance.V_FastenerLength]",
+    "key": "fastenerLength",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleFastenerInstance.V_FastenerLength",
+    "description": "Overriden length of the Fastener"
+  },
+  "dsmvfst:attribute.PLMFstSpotFastener.fastenerType": {
+    "property": "attribute[PLMFst_SpotFastener.V_FastenerType]",
+    "key": "fastenerType",
+    "example": "",
+    "index": "ds6wg:PLMFst_SpotFastener.V_FastenerType",
+    "description": "Spot Fastener Type"
+  },
+  "dsmvfst:attribute.PLMFstSpotFastener.diameter": {
+    "property": "attribute[PLMFst_SpotFastener.V_Diameter]",
+    "key": "diameter",
+    "example": "",
+    "index": "ds6wg:PLMFst_SpotFastener.V_Diameter",
+    "description": "Diameter"
+  },
+  "dsmvfst:attribute.PLMFstBeadFastener.fastenerType": {
+    "property": "attribute[PLMFst_BeadFastener.V_FastenerType]",
+    "key": "fastenerType",
+    "example": "",
+    "index": "ds6wg:PLMFst_BeadFastener.V_FastenerType",
+    "description": "Bead Fastener Type"
+  },
+  "dsmvfst:attribute.PLMFstBeadFastener.thickness": {
+    "property": "attribute[PLMFst_BeadFastener.V_Thickness]",
+    "key": "thickness",
+    "example": "",
+    "index": "ds6wg:PLMFst_BeadFastener.V_Thickness",
+    "description": "Thickness"
+  },
+  "dsmvfst:attribute.PLMFstBeadFastenerInstance.length": {
+    "property": "attribute[PLMFst_BeadFastenerInstance.V_Length]",
+    "key": "length",
+    "example": "",
+    "index": "ds6wg:PLMFst_BeadFastenerInstance.V_Length",
+    "description": "Length"
+  },
+  "dsmvfst:attribute.DTPFExt.tightness": {
+    "property": "attribute[Fsx_DTPFExt.V_Tightness]",
+    "key": "tightness",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_Tightness",
+    "description": "Assembly clearance"
+  },
+  "dsmvfst:attribute.DTPFExt.boringCode": {
+    "property": "attribute[Fsx_DTPFExt.V_BoringCode]",
+    "key": "boringCode",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_BoringCode",
+    "description": "Boring code"
+  },
+  "dsmvfst:attribute.DTPFExt.drillDiametersNominal": {
+    "property": "attribute[Fsx_DTPFExt.V_DrillDiametersNominal]",
+    "key": "drillDiametersNominal",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_DrillDiametersNominal",
+    "description": "Nominal drilling diameter"
+  },
+  "dsmvfst:attribute.DTPFExt.drillDiametersDeltaMin": {
+    "property": "attribute[Fsx_DTPFExt.V_DrillDiametersDeltaMin]",
+    "key": "drillDiametersDeltaMin",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_DrillDiametersDeltaMin",
+    "description": "Drilling diameter maximum lower deviation"
+  },
+  "dsmvfst:attribute.DTPFExt.drillDiametersDeltaMax": {
+    "property": "attribute[Fsx_DTPFExt.V_DrillDiametersDeltaMax]",
+    "key": "drillDiametersDeltaMax",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_DrillDiametersDeltaMax",
+    "description": "Drilling diameter maximum upper deviation"
+  },
+  "dsmvfst:attribute.DTPFExt.drillingStandard": {
+    "property": "attribute[Fsx_DTPFExt.V_DrillingStandard]",
+    "key": "drillingStandard",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_DrillingStandard",
+    "description": "Drilling standard"
+  },
+  "dsmvfst:attribute.DTPFExt.chamferAngle": {
+    "property": "attribute[Fsx_DTPFExt.V_ChamferAngle]",
+    "key": "chamferAngle",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_ChamferAngle",
+    "description": "Chamfer angle"
+  },
+  "dsmvfst:attribute.DTPFExt.chamferLength": {
+    "property": "attribute[Fsx_DTPFExt.V_ChamferLength]",
+    "key": "chamferLength",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_ChamferLength",
+    "description": "Chamfer length"
+  },
+  "dsmvfst:attribute.DTPFExt.filletRadius": {
+    "property": "attribute[Fsx_DTPFExt.V_FilletRadius]",
+    "key": "filletRadius",
+    "example": "",
+    "index": "ds6wg:Fsx_DTPFExt.V_FilletRadius",
+    "description": "Fillet radius"
+  },
+  "dsmvfst:attribute.EntryHoleExt.entryHoleDepth": {
+    "property": "attribute[Fsx_EntryHoleExt.V_EntryHoleDepth]",
+    "key": "entryHoleDepth",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_EntryHoleDepth",
+    "description": "Entry hole depth"
+  },
+  "dsmvfst:attribute.EntryHoleExt.entryHoleCountersunkAngle": {
+    "property": "attribute[Fsx_EntryHoleExt.V_EntryHoleCountersunkAngle]",
+    "key": "entryHoleCountersunkAngle",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_EntryHoleCountersunkAngle",
+    "description": "Entry hole countersunk angle"
+  },
+  "dsmvfst:attribute.EntryHoleExt.entryHoleType": {
+    "property": "attribute[Fsx_EntryHoleExt.V_EntryHoleType]",
+    "key": "entryHoleType",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_EntryHoleType",
+    "description": "Entry hole type"
+  },
+  "dsmvfst:attribute.EntryHoleExt.entryHoleCounterboreDiameter": {
+    "property": "attribute[Fsx_EntryHoleExt.V_EntryHoleCounterboreDiameter]",
+    "key": "entryHoleCounterboreDiameter",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_EntryHoleCounterboreDiameter",
+    "description": "Entry hole counterbore diameter"
+  },
+  "dsmvfst:attribute.EntryHoleExt.subFlush": {
+    "property": "attribute[Fsx_EntryHoleExt.V_SubFlush]",
+    "key": "subFlush",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_SubFlush",
+    "description": "Subflush correction length"
+  },
+  "dsmvfst:attribute.EntryHoleExt.counterDrillDepth": {
+    "property": "attribute[Fsx_EntryHoleExt.V_CounterDrillDepth]",
+    "key": "counterDrillDepth",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_CounterDrillDepth",
+    "description": "Counterdrill depth"
+  },
+  "dsmvfst:attribute.EntryHoleExt.counterDrillDiameter": {
+    "property": "attribute[Fsx_EntryHoleExt.V_CounterDrillDiameter]",
+    "key": "counterDrillDiameter",
+    "example": "",
+    "index": "ds6wg:Fsx_EntryHoleExt.V_CounterDrillDiameter",
+    "description": "Counterdrill diameter"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueCode": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueCode]",
+    "key": "torqueCode",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueCode",
+    "description": "Torque code"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueNominal": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueNominal]",
+    "key": "torqueNominal",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueNominal",
+    "description": "Nominal fastening torque on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueDeltaMin": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueDeltaMin]",
+    "key": "torqueDeltaMin",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueDeltaMin",
+    "description": "Torque maximum lower deviation on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueDeltaMax": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueDeltaMax]",
+    "key": "torqueDeltaMax",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueDeltaMax",
+    "description": "Torque maximum upper deviation on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueNominalTail": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueNominalTail]",
+    "key": "torqueNominalTail",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueNominalTail",
+    "description": "Nominal fastening torque on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueDeltaMinTail": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueDeltaMinTail]",
+    "key": "torqueDeltaMinTail",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueDeltaMinTail",
+    "description": "Torque maximum lower deviation on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueDeltaMaxTail": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueDeltaMaxTail]",
+    "key": "torqueDeltaMaxTail",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueDeltaMaxTail",
+    "description": "Torque maximum upper deviation on tail side"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueStandard": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueStandard]",
+    "key": "torqueStandard",
+    "example": "",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueStandard",
+    "description": "Torque standard"
+  },
+  "dsmvfst:attribute.TorqueExt.torqueApplicationSide": {
+    "property": "attribute[Fsx_TorqueExt.V_TorqueApplicationSide]",
+    "key": "torqueApplicationSide",
+    "example": "Tail",
+    "index": "ds6wg:Fsx_TorqueExt.V_TorqueApplicationSide",
+    "description": "Torque application side"
+  },
+  "dsmvfst:attribute.InstallationOrientationConstraintExt.headOrientation": {
+    "property": "attribute[Fsx_InstallationOrientationConstraintExt.V_HeadOrientation]",
+    "key": "headOrientation",
+    "example": "AsDesigned",
+    "index": "ds6wg:Fsx_InstallationOrientationConstraintExt.V_HeadOrientation",
+    "description": "Head orientation"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleFastenerReferenceThicknessExt.fastenerLength": {
+    "property": "attribute[PLMFst_FlexibleFastenerReferenceThicknessExt.V_FastenerLength]",
+    "key": "fastenerLength",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleFastenerReferenceThicknessExt.V_FastenerLength",
+    "description": "Fastener Length"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.tolerance": {
+    "property": "attribute[PLMFst_FlexibleReferenceToleranceExt.V_Tolerance]",
+    "key": "tolerance",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleReferenceToleranceExt.V_Tolerance",
+    "description": "Tolerance"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.range_Inf": {
+    "property": "attribute[PLMFst_FlexibleReferenceToleranceExt.V_Range_Inf]",
+    "key": "range_Inf",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleReferenceToleranceExt.V_Range_Inf",
+    "description": "Lower Bound"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.range_Sup": {
+    "property": "attribute[PLMFst_FlexibleReferenceToleranceExt.V_Range_Sup]",
+    "key": "range_Sup",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleReferenceToleranceExt.V_Range_Sup",
+    "description": "Higher Bound"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleReferenceExtension.flexRangeMin": {
+    "property": "attribute[PLMFst_FlexibleReferenceExtension.V_FlexRangeMin]",
+    "key": "flexRangeMin",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleReferenceExtension.V_FlexRangeMin",
+    "description": "Lower Bound"
+  },
+  "dsmvfst:attribute.PLMFstFlexibleReferenceExtension.flexRangeMax": {
+    "property": "attribute[PLMFst_FlexibleReferenceExtension.V_FlexRangeMax]",
+    "key": "flexRangeMax",
+    "example": "",
+    "index": "ds6wg:PLMFst_FlexibleReferenceExtension.V_FlexRangeMax",
+    "description": "Higher Bound"
+  }
+}

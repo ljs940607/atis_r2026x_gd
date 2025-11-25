@@ -1,0 +1,142 @@
+{
+    "relations": [
+        {
+            "name": "Characteristics_Test_Method_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceSpecOf"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceChar"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceTest"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Characteristics_Test_Method_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceTest"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceChar"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceSpecOf"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Performance_Specification_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceTest"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceChar"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Performance_Specification_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceChar"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceTest"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Performance_Spec_Of_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceSpecOf"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Performance_Spec_Of_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PerformanceSpecOf"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

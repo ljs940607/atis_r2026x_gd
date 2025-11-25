@@ -1,0 +1,57 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ThermalLoad_OccupancyDiversity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_LightingDiversity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_ApplianceDiversity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_OutsideAirPerPerson",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_ReceptacleLoadIntensity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_AppliancePercentLoadToRadiant",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_LightingLoadIntensity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_LightingPercentLoadToReturnAir",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_TotalCoolingLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_TotalHeatingLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_InfiltrationDiversitySummer",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_InfiltrationDiversityWinter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ThermalLoad_LoadSafetyFactor",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

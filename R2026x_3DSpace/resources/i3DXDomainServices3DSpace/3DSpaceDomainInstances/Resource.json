@@ -1,0 +1,22 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Resource",
+    "description": "The domain instance for Resource in 3DSpace",
+    "packages": [
+        "DELLinkOnPlant",
+        "DELMachiningResourceModel",
+        "DELResourceWarehouse",
+        "DELRmiAcceptedPackagingCnx",
+        "DELRmiFlow",
+        "DELRmiParameterModel",
+        "DELRmiResourceModel",
+        "DELRmiResourceModelCnx",
+        "DELRmiResourceModelDisciplines",
+        "DELRmiResourceModellmpICnx",
+        "DELRmiResourceModelProdSysImplCnx",
+        "DELRmiResourceSignalModel",
+        "DELRmiShiftModel",
+        "DELRmiShiftRelationsModel",
+        "DELRmiResourceModelImplCnx"
+    ]
+}

@@ -1,0 +1,25 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"Corpus": [
+			{
+				"version": "2.0",
+				"ArchiCompatiableVersions": [
+					"VERSION_1",
+					"VERSION_2",
+					"VERSION_3",
+					"VERSION_4"
+				],
+				"DeclarativeTypeResources": [
+					"DELPPRCRUDBaseTypes.json",
+					"DELPPRCRUDResourceRefTypes.json",
+					"DELPPRCRUDResourceInstTypes.json",
+					"DELPPRCRUDResourceConnTypes.json",
+					"DELPPRCRUDResourceParamTypes.json",
+					"DELPPRCRUDResourceWarehouseTypes.json"
+				],
+				"DeclarativeTypes": []
+			}
+		]
+	}
+]

@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_SecurityLockVault",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_SecurityLockChamber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_ConstructionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_CommissioningDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_SpliceGroupCount",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundChamberOrVault_DewateringSystem",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

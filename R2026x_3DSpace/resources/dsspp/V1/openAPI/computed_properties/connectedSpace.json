@@ -1,0 +1,24 @@
+{
+	"properties": {
+		"source": {
+		  "type": "string",
+		  "example": "3DSpace",
+		  "description": "source."
+		},
+		"type": {
+			"type": "string",
+			"example": "SSM_DesignSpaceRef",
+			"description": "type."
+		},
+		"identifier": {
+			"type": "string",
+			"example": "649F032E0000355C6542F4480000EDEF",
+			"description": "The Physical ID of the dsspp:SpaceReference."
+		},
+		"relativePath": {
+		  "type": "string",
+		  "example": "/resources/v1/modeler/dsspp/dsspp:SpaceReference/649F032E0000355C6542F4480000EE05",
+		  "description": "relativePath."
+		}
+	}
+}

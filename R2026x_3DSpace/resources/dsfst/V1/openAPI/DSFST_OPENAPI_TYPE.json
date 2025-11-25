@@ -1,0 +1,191 @@
+{
+  "dsfst:SpotFastenerSingle": {
+    "summary": "SpotFastenerSingle",
+    "description": "SpotFastenerSingle",
+    "PUBLICMasks": [
+      "dsmvfst:SpotFastenerSingleMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "GETAll",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:SimpleBeadFastener": {
+    "summary": "SimpleBeadFastener",
+    "description": "SimpleBeadFastener",
+    "PUBLICMasks": [
+      "dsmvfst:SimpleBeadFastenerMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "GETAll",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:UnifiedBeadFastener": {
+    "summary": "UnifiedBeadFastener",
+    "description": "UnifiedBeadFastener",
+    "PUBLICMasks": [
+      "dsmvfst:UnifiedBeadFastenerMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "GETAll",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:BundleFastener": {
+    "summary": "BundleFastener",
+    "description": "BundleFastener",
+    "PUBLICMasks": [
+      "dsmvfst:BundleFastenerMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "GETAll",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:SpotFastenerFlexible": {
+    "summary": "PLMFst_FlexibleFastenerReference",
+    "description": "PLMFst_FlexibleFastenerReference",
+    "PUBLICMasks": [
+      "dsmvfst:PLMFstFlexibleFastenerReferenceMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "GETAll",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:SpotInstance": {
+    "summary": "SpotInstance",
+    "description": "SpotInstance",
+    "PUBLICMasks": [
+      "dsmvfst:SpotInstanceMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:BeadInstance": {
+    "summary": "BeadInstance",
+    "description": "BeadInstance",
+    "PUBLICMasks": [
+      "dsmvfst:BeadInstanceMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  },
+  "dsfst:SpotInstanceFlexible": {
+    "summary": "SpotInstanceFlexible",
+    "description": "SpotInstanceFlexible",
+    "PUBLICMasks": [
+      "dsmvfst:SpotInstanceFlexibleMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+    "PUBLICExcludedURIs": [
+      "getItems",
+      "DELETEBulk",
+      "bulkfetch",
+      "BULKUPDATE",
+      "PATCH",
+      "POST"
+    ]
+  }
+}

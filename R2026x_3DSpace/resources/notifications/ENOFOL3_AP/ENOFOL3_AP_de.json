@@ -1,0 +1,21 @@
+{
+  "enoBoookmarkNotif.sharing": "Lesezeichenordner, der für mich freigegeben wurde",
+  "enoBoookmarkNotif.subscriptions": "Lesezeichenordner für abonnierte Ereignisse",
+  "enoBoookmarkNotif.ContentAdded.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###OBJECT_DISPLAY_NAME###</strong> im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.ContentAdded.mail.subject": "###FROM_USER_NAME### hat Inhalt hinzugefügt",
+  "Merge.enoBoookmarkNotif.ContentAdded.message": "<strong>###MERGE_COUNT###</strong> Inhalte wurden im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.ContentRemoved.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###OBJECT_DISPLAY_NAME###</strong> aus dem Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.ContentRemoved.mail.subject": "###FROM_USER_NAME### hat Inhalt entfernt",
+  "Merge.enoBoookmarkNotif.ContentRemoved.message": "<strong>###MERGE_COUNT###</strong> Inhalte wurden im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.FolderCreated.message": "<strong>###FROM_USER_NAME###</strong> hat den Lesezeichenordner <strong>###OBJECT_DISPLAY_NAME###</strong> im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.FolderCreated.mail.subject": "###FROM_USER_NAME### hat ein Lesezeichen erstellt",
+  "Merge.enoBoookmarkNotif.FolderCreated.message": "<strong>###MERGE_COUNT###</strong> Lesezeichenordner wurden im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.FolderDeleted.message": "<strong>###FROM_USER_NAME###</strong> hat den Lesezeichenordner <strong>###OBJECT_DISPLAY_NAME###</strong> aus <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.FolderDeleted.mail.subject": "###FROM_USER_NAME### hat ein Lesezeichen entfernt",
+  "Merge.enoBoookmarkNotif.FolderDeleted.message": "<strong>###MERGE_COUNT###</strong> Lesezeichenordner wurden im Lesezeichenordner <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.ContentAddedCount.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###NUMBER_OBJECT###</strong> Objekte in <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.ContentRemovedCount.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###NUMBER_OBJECT###</strong> Objekte in <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.FolderCreatedCount.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###NUMBER_OBJECT###</strong> Lesezeichenordner in <strong>###BOOKMARK_DISPLAY_NAME###</strong> hinzugefügt.",
+  "enoBoookmarkNotif.FolderDeletedCount.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###NUMBER_OBJECT###</strong> Lesezeichenordner in <strong>###BOOKMARK_DISPLAY_NAME###</strong> entfernt.",
+  "enoBoookmarkNotif.GrantAccess.message": "<strong>###FROM_USER_NAME###</strong> hat <strong>###OBJECT_DISPLAY_NAME###</strong> für Sie freigegeben."
+}

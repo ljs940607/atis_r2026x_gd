@@ -1,0 +1,58 @@
+{
+  "dsengisl:Insulation": {
+    "kindOf": "root",  
+    "beType": "type_Insulation",
+    "indexClassesWhere": "flattenedtaxonomies:types/Insulation",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": [],
+    "defaultMask": "dsmvengisl:InsulationMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": [
+      "dslc:changeControl"
+     ,"dscfg:Configured" 
+     ,"dseno:EnterpriseAttributes"
+     ,"dseng:EnterpriseReference", "dskpi:metric"
+    ],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengisl.V1.dictionaries.ENOXdsengislDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dsengisl:InsulationInst": {
+    "kindOf": "content",
+    "beType": "relationship_Insulation_Inst",
+    "extensionLinks": [
+      "dscfg:Filterable"
+    ],
+    "parentType": "dseng:EngInstance",
+    "rootLinks": [
+      "dseng:EngItem",
+      "dsenghvac:Spool",
+      "dsengpip:Spool"
+    ],
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengisl:InsulationInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengisl.V%1.dictionaries.ENOXdsengislInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+}

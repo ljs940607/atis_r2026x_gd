@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "3DSpaceCommonInfra",
+    "description": "BPS resources that serve multiple domains",
+    "packages": [
+        "CommonComponents"
+    ]
+}

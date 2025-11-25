@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:tns="DS_DELPPWConfiguration" targetNamespace="DS_DELPPWConfiguration" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Config">
+    <xs:annotation>
+      <xs:documentation> Copyright DASSAULT SYSTEMES 2013 </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Action" maxOccurs="unbounded" minOccurs="0" type="tns:Action" />  
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="name"/>
+      <xs:attribute type="xs:string" name="Title"/>
+      <xs:attribute type="xs:string" name="Description"/>
+    </xs:complexType>
+  </xs:element>
+  
+<xs:complexType name="Action" mixed="true">
+  <xs:sequence>
+    <xs:element name="Options" maxOccurs="unbounded" minOccurs="0" type="tns:Options" />
+  </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="required"/>
+    <xs:attribute type="xs:string" name="type" use="required"/>
+    <xs:attribute type="xs:string" name="icon" use="optional"/>
+</xs:complexType>
+  
+<xs:complexType  name="Options" >
+  <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attribute type="xs:string" name="name" use="required"/>
+      <xs:attribute type="xs:string" name="value" use="required"/>
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+</xs:schema>

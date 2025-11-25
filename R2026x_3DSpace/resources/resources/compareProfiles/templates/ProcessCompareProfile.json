@@ -1,0 +1,57 @@
+{
+  "templates": [
+    {
+      "Name": "Process/Recipe Compare Profile",
+      "NLSPath": "i18n!DS/CompareCommon/assets/nls/CompareCustomization",
+      "Facets": [
+        {
+          "Name": "Process_Types",
+          "ObjectTypes": [
+              "DELLmiPPRSystemReference",
+              "DELLmiGeneralSystemReference",
+              "DELLmiWorkPlanSystemReference",
+              "DELLmiHeaderWorkPlanReference",
+              "DELLmiHeaderOperationReference",
+              "DELLmiGeneralOperationReference",
+              "DELLmiPunctualOperationReference", 
+              "DELLmiCurveOperationReference", 
+              "DELLmiTransferOperationReference", 
+              "DELLmiLoadingOperationReference", 
+              "DELLmiUnloadingOperationReference", 
+              "DELLmiRemoveMaterialOperationReference",
+              "DELLmiQtyControlProcessReference",
+              "DELWkiDataCollectPlanReference",
+              "DELResourceParameterPlanReference",
+              "DELWkiDataCollectChecklistReference",
+              "DELWkiSignOffReference",
+              "DELWkiAlertReference",
+              "DELWkiAlertWarningReference",
+              "DELWkiAlertCautionReference",
+              "DELWkiAlertNoteReference",
+              "DELWkiInstructionReference",
+              "DELLmiProductionSystemReference"
+
+          ],
+          "Interfaces": [],
+          "Icon": "Recipe"
+        },
+        {
+          "Name": "Recipe_Instances",
+          "ObjectTypes": [
+              "DELLmiWorkPlanSystemInstance",
+              "DELLmiHeaderOperationInstance",
+              "DELLmiGeneralOperationInstance",
+              "DELWkiDataCollectPlanInstance",
+              "DELResourceParameterPlanInstance",
+              "DELWkiSignOffInstance",
+              "DELWkiAlertInstance",
+              "DELWkiInstructionInstance"
+          ],
+          "Interfaces": [],
+          "Icon": "flow-cascade"
+        }
+      ],
+      "AllowCustomMatchingRules": true
+    }
+  ]
+}

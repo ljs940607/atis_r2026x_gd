@@ -1,0 +1,49 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_EnvironmentalCondition_ReferenceAirRelativeHumidity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_ReferenceEnvironmentTemperature",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_MaximumAtmosphericPressure",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_StorageTemperatureRange",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_MaximumWindSpeed",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_OperationalTemperatureRange",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_MaximumRainIntensity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_SaltMistLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_SeismicResistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_SmokeLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalCondition_MaximumSolarRadiation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

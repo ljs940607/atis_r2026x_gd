@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ProvisionForVoid_VoidShape",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProvisionForVoid_Width",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProvisionForVoid_Height",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProvisionForVoid_Diameter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProvisionForVoid_Depth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProvisionForVoid_System",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

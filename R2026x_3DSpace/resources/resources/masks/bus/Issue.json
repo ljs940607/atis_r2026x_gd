@@ -1,0 +1,144 @@
+{
+    "Create": {
+        "attributes": [
+        {
+            "name": "Title",
+            "status": "RW"
+        },
+        {
+            "name": "name",
+            "status": "RO"
+        },
+        {
+            "name": "description",
+            "status": "RW"
+        },
+        {
+            "name": "Resolution Recommendation",
+            "status": "RW"
+        },
+        {
+            "name": "Priority",
+            "status": "RW"
+        },
+        {
+            "name": "Due Completion Date",
+            "status": "RW"
+        },
+        {
+            "name": "Escalation Required",
+            "status": "RW"
+        }
+    ]},
+
+    "Write": {
+        "attributes": [
+            {
+                "name": "type",
+				"status": "RO"
+            },
+            {
+                "name": "Title",
+                "status": "RW"
+            },
+            {
+                "name": "name"
+            },
+            {
+                "name": "created"
+            },
+            
+            {
+                "name": "description",
+                "status": "RW"
+            },
+            {
+                "name": "Priority",
+                "status": "RW"
+            },
+            {
+                "name": "Change.Start Date Actual"
+            },
+            {
+                "name": "Change.Completion Date Actual"
+            },
+            {
+                "name": "Change.Start Date Estimated",
+                "status": "RW"
+            },
+            {
+                "name": "Change.Completion Date Estimated",
+                "status": "RW"
+            },
+            {
+                "name": "Escalation Required",
+                "status": "RW"
+            },
+            {
+                "name": "Internal Priority",
+                "status": "RW"
+            },
+            {
+                "name": "Change.Completion Date Due",
+                "status": "RW"
+            },
+            {
+                "name": "Resolution Recommendation",
+                "status": "RW"
+            },
+            {
+                "name": "Action Taken",
+                "status": "RW"
+            },
+            {
+                "name": "ResolutionStatement",
+                "status": "RW"
+            },
+            {
+                "name": "Problem Type",
+                "status": "RW"
+            },
+            {
+                "name": "Steps To Reproduce",
+                "status": "RW"
+            },
+            {
+                "name": "Wait On Date",
+                "status": "RW"
+            },
+            {
+                "name": "Waiting On",
+                "status": "RW"
+            },
+            {
+                "name": "owner"
+            },
+            {
+                "name": "current"
+            },
+			{
+                "name": "Originator"
+            },
+            {
+                "name": "originated"
+            },
+            {
+                "name": "modified"
+            },
+            {
+                "name": "organization"
+            },
+            {
+                "name": "project"
+            }
+        ]
+    },
+    "details": {
+        "attributes": {
+            "Title": {
+                "mandatory": true
+            }
+        }
+    },
+    "revision" : "2" 
+}

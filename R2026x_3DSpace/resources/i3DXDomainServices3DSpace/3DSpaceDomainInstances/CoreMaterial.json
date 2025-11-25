@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "CoreMaterial",
+    "description": "The Material packages for 3DSpace",
+    "packages": [
+        "MaterialUnified"
+    ]
+}

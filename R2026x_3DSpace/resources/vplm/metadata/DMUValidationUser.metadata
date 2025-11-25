@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Validation Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" ModelerType="Top" Name="DMUValidationUser" Uuid="1f5ed895-c17b-441e-b53d-0e290f916660" UseNames="PLMCORE" BelongsToModeler="DMUValidationAbstract" CustomerExposition="Programmer">
+  <Property Name="FormerTypingLegacy" Value="Yes"/>
+  <CAAComment>
+		<ShortRole>Validation User Modeler Package</ShortRole>
+		<Role>This package describes the Validation user objects of the Validation inside Validation modeler</Role>
+	</CAAComment>
+	<Comment>Creation 2024-07-08 YRX</Comment>
+
+	<Class Name="DMUValidationUser"
+         Uuid="e2e91130-14b5-4d4a-916a-84e0012ef675"
+         Abstract="No"
+         SuperName="PLMConnection"
+         CustomerExposition="Programmer"
+         OwnerTypes="DMUValidationValidation">
+		<!-- OwnerTypes="DMUValidationValidation"  Integrate this line if you want to declare the aggregation constraint -->
+
+		<Property Name="Searchable" Value="No"/>
+
+		<Simple Name="V_ValidationUser_Contribution" Uuid="86fde894-f967-4bbb-afa8-8a7f101f9446" Type="String" DefaultValue="Undefined" Protection="Free">
+			<Range>
+				<Equal>Undefined</Equal>
+				<Equal>NotStarted</Equal>
+				<Equal>OnGoing</Equal>
+				<Equal>Completed</Equal>
+			</Range>
+		</Simple>
+
+		<Simple Name="V_ValidationUser_Assessment" Uuid="a6f33d2a-5808-4aff-9295-8391a5d110ca" Type="String" DefaultValue="Undefined" Protection="Free">
+			<Range>
+				<Equal>Undefined</Equal>
+				<Equal>Passed</Equal>
+				<Equal>Failed</Equal>
+				<Equal>NotApplicable</Equal>
+			</Range>
+		</Simple>
+
+		<Simple Name="V_ValidationUser_AssessmentComment" Uuid="bd803813-220f-46a3-9960-df4f2ac9ca66" Type="String" MultiValuated="Yes" Protection="Internal"/>
+
+		<Path Name="V_Validation_Coordinator"
+			  Uuid="991d8c43-90f3-491f-be9a-90457068ec9a"
+			  MultiValuated="No"
+			  RoleName="DMU_Member_Coordinator"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="None"
+			  RerouteOnEffectivityChange="No"
+			  Semantics="Reference"/>
+
+		<Path Name="V_Validation_Assignee"
+			  Uuid="ce14b88e-b799-4deb-9460-3556499c677f"
+			  MultiValuated="No"
+			  RoleName="DMU_Member_Assignee"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="None"
+			  RerouteOnEffectivityChange="No"
+			  Semantics="Reference"/>
+
+		<Path Name="V_Validation_Contributor"
+			  Uuid="bda91667-67ca-4a32-a40b-f864d29075f8"
+			  MultiValuated="No"
+			  RoleName="DMU_Member_Contributor"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="None"
+			  RerouteOnEffectivityChange="No"
+			  Semantics="Reference"/>
+
+		<Path Name="V_Validation_InformedUser"
+			  Uuid="f7ea7f2e-6f78-482d-a49d-4a4f525b1278"
+			  MultiValuated="No"
+			  RoleName="DMU_Member_InformedUser"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="None"
+			  RerouteOnEffectivityChange="No"
+			  Semantics="Reference"/>
+
+		<Path Name="V_Validation_AssignedScope"
+			  Uuid="294f8c54-b36c-493b-a87e-08f7d432934a"
+			  MultiValuated="No"
+			  RoleName="DMU_Member_AssignedScope"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="None"
+			  RerouteOnEffectivityChange="No"
+			  Semantics="Reference"/>
+
+		<Path Name="V_Validation_AdvisorConcern"
+			  Uuid="7aba50b1-bab8-41c4-8abc-abd2091619fd"
+			  MultiValuated="Yes"
+			  RoleName="DMU_Validation_AdvisorConcern"
+			  Type="SemanticRelation"
+			  AdaptativeToMinor="No"
+			  SynchroSensitivity="PathAndLast"
+			  RerouteOnEffectivityChange="No"
+			  Orientation="In"
+			  Semantics="Reference3"/>
+
+		<Path Name="V_ValidationUser_ValidatedAssignment"
+			Uuid="ff70b558-30bb-4fc5-96ef-205403e362dc"
+			MultiValuated="Yes"
+			RoleName="DMU_Validated_Assignment"
+			Type="SemanticRelation"
+			AdaptativeToMinor="No"
+			SynchroSensitivity="None"
+			RerouteOnEffectivityChange="No"
+			Semantics="Reference"/>
+
+		<Method ImplementationType="None">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</Class>
+	
+</Package>

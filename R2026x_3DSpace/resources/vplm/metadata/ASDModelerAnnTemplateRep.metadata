@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2019, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="ASDModelerAnnTemplateRep"
+         Uuid="A48F0FE8-E514-4C95-85E4-1BE888C778A1"
+         UseNames="DIFModelerDetailTemplateRep;DIFModelerTextTemplateRep"
+         BelongsToModeler="DIFModeler2DTemplate"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>ASD modeler Template Rep (part 4)</ShortRole>
+    <Role>This package describes the ASD Template Rep model built on top of PLM Core2</Role>
+  </CAAComment>
+
+
+  <!-- ******************************************* -->
+  <!-- *  ASDDetailTemplate                      * -->
+  <!-- ******************************************* -->
+  <Class Name="ASDPLMAnnotationTemplate" Discipline = "Yes"
+          Uuid="F5E45DD2-34F9-4F2F-80A2-1448FB237938"
+          Abstract="No"
+          SuperName="DIFDetailTemplate"
+          Abbreviation="sannt"
+          CustomerExposition="Programmer"
+          Specializable="No"
+          DeleteAvailability="Yes">
+
+    <Property Name="Newable" Value="New"/>
+    <Property Name="KweNew_InstanciationMethod" Value="AITKBEDelegateInstanciationASDPLMAnnotationTemplate"/>
+    <Property Name="IconName" Value="I_VPMASD2DComp"/>
+    <Property Name="GroupingType" Value="ASDPLMAnnotationTemplate"/>
+
+    <Simple Name="Discipline" Uuid="60E3FEB8-6452-42C3-932F-C30B28B01BCE" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="All">
+      <Range>
+        <Equal>All</Equal>
+        <Equal>Civil</Equal>
+        <Equal>Mechanical</Equal>
+        <Equal>Structure</Equal>
+      </Range>
+    </Simple>
+    <Simple Name="ASDPLMTemplate" Uuid="DBB5B4CF-5DCD-4D7C-8B85-F61D84D9C068" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="ASDPLMAnnotationTemplate">
+      <Range>
+        <Equal>ASDPLMAnnotationTemplate</Equal>
+      </Range>
+    </Simple>
+    <Simple Name="ASDPLMTemplateSubType" Uuid="5019B242-91A0-40E3-9E5B-C2A1A9BBBD5E" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="Parametric">
+      <Range>
+        <Equal>Compass</Equal>
+        <Equal>Coordinate</Equal>
+        <Equal>Elevation</Equal>
+        <Equal>Fluildic</Equal>
+        <Equal>Grid</Equal>
+        <Equal>MultiObject</Equal>
+        <Equal>Parametric</Equal>
+        <Equal>Slope</Equal>
+        <Equal>SpotElevation</Equal>
+        <Equal>ViewTitle</Equal>
+      </Range>
+    </Simple>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+
+
+  <!-- ******************************************* -->
+  <!-- *  text Template                          * -->
+  <!-- ******************************************* -->
+  <Class Name="ASDPLMTextTemplate" Discipline = "Yes"
+          Uuid="99C68A8B-A6AB-4FA9-B602-983A97932626"
+          Abstract="No"
+          SuperName="DIFTextTemplate"
+          Abbreviation="stxtt"
+          CustomerExposition="Programmer"
+          Specializable="No"
+          DeleteAvailability="Yes">
+
+    <Property Name="Newable" Value="New"/>
+    <Property Name="KweNew_InstanciationMethod" Value="AITKBEDelegateInstanciationASDPLMAnnotationTemplate"/>
+    <Property Name="IconName" Value="I_VPMASDTxt"/>
+
+    <Simple Name="Discipline" Uuid="13551739-F78E-4FB4-8064-EC98FC970D31" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="All">
+      <Range>
+        <Equal>All</Equal>
+        <Equal>Civil</Equal>
+        <Equal>Mechanical</Equal>
+        <Equal>Structure</Equal>
+      </Range>
+    </Simple>
+    <Simple Name="ASDPLMTemplate" Uuid="9E1A12DF-A07C-4B0D-BCC8-623E885989B3" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="ASDPLMAnnotationTemplate">
+      <Range>
+        <Equal>ASDPLMAnnotationTemplate</Equal>
+      </Range>
+    </Simple>
+    <Simple Name="ASDPLMTemplateSubType" Uuid="0897CBCC-C705-410E-9F89-49CFAE309C1A" Type="String" MaxLength="255" Protection="Free" CAAExposition="L0" DefaultValue="Text">
+      <Range>
+        <Equal>Text</Equal>
+      </Range>
+    </Simple>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+</Package>

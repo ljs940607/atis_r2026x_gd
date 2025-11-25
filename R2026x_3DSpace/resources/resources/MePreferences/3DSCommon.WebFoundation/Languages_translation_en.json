@@ -1,0 +1,70 @@
+{
+  "LanguagesSection.Title": "Formats",
+  "LanguagesSection.RegionGroup.Title": "Region",
+  "LanguagesSection.RegionGroup.RegionalFormatLanguage.Label": "Select Region",
+  "LanguagesSection.RegionGroup.RegionalFormatLanguage.Description": "The date and time display will be modified by these preferences.",
+
+  "Languages.RegionalFormatLanguage.auto.Label": "(Automatic)",
+  "Languages.RegionalFormatLanguage.en.Label": "English",
+  "Languages.RegionalFormatLanguage.en-AU.Label": "English (Australia)",
+  "Languages.RegionalFormatLanguage.en-CA.Label": "English (Canada)",
+  "Languages.RegionalFormatLanguage.en-IN.Label": "English (India)",
+  "Languages.RegionalFormatLanguage.en-IE.Label": "English (Ireland)",
+  "Languages.RegionalFormatLanguage.en-NZ.Label": "English (New Zealand)",
+  "Languages.RegionalFormatLanguage.en-ZA.Label": "English (South Africa)",
+  "Languages.RegionalFormatLanguage.en-GB.Label": "English (United Kingdom)",
+  "Languages.RegionalFormatLanguage.en-US.Label": "English (United States)",
+
+  "Languages.RegionalFormatLanguage.fr.Label": "French",
+  "Languages.RegionalFormatLanguage.fr-CA.Label": "French (Canada)",
+  "Languages.RegionalFormatLanguage.fr-FR.Label": "French (France)",
+  "Languages.RegionalFormatLanguage.fr-CH.Label": "French (Switzerland)",
+
+  "Languages.RegionalFormatLanguage.de.Label": "German",
+  "Languages.RegionalFormatLanguage.de-AT.Label": "German (Austria)",
+  "Languages.RegionalFormatLanguage.de-DE.Label": "German (Germany)",
+  "Languages.RegionalFormatLanguage.de-LI.Label": "German (Liechtenstein)",
+  "Languages.RegionalFormatLanguage.de-CH.Label": "German (Switzerland)",
+
+  "Languages.RegionalFormatLanguage.es.Label": "Spanish",
+  "Languages.RegionalFormatLanguage.es-AR.Label": "Spanish (Argentina)",
+  "Languages.RegionalFormatLanguage.es-CL.Label": "Spanish (Chile)",
+  "Languages.RegionalFormatLanguage.es-CO.Label": "Spanish (Colombia)",
+  "Languages.RegionalFormatLanguage.es-CR.Label": "Spanish (Costa Rica)",  
+  "Languages.RegionalFormatLanguage.es-HN.Label": "Spanish (Honduras)",
+  "Languages.RegionalFormatLanguage.es-419.Label": "Spanish (Latin America)",
+  "Languages.RegionalFormatLanguage.es-MX.Label": "Spanish (Mexico)",
+  "Languages.RegionalFormatLanguage.es-PE.Label": "Spanish (Peru)",
+  "Languages.RegionalFormatLanguage.es-ES.Label": "Spanish (Spain)",  
+  "Languages.RegionalFormatLanguage.es-US.Label": "Spanish (United States)",
+  "Languages.RegionalFormatLanguage.es-UY.Label": "Spanish (Uruguay)",
+  "Languages.RegionalFormatLanguage.es-VE.Label": "Spanish (Venezuela)",
+
+  "Languages.RegionalFormatLanguage.cs.Label": "Czech",
+
+  "Languages.RegionalFormatLanguage.it.Label": "Italian",
+  "Languages.RegionalFormatLanguage.it-IT.Label": "Italian (Italy)",
+  "Languages.RegionalFormatLanguage.it-CH.Label": "Italian (Switzerland)",
+
+  "Languages.RegionalFormatLanguage.ja.Label": "Japanese",
+
+  "Languages.RegionalFormatLanguage.ko.Label": "Korean",
+  
+  "Languages.RegionalFormatLanguage.pl.Label": "Polish",
+
+  "Languages.RegionalFormatLanguage.pt.Label": "Portuguese",
+  "Languages.RegionalFormatLanguage.pt-BR.Label": "Portuguese (Brazil)",
+  "Languages.RegionalFormatLanguage.pt-PT.Label": "Portuguese (Portugal)",
+
+  "Languages.RegionalFormatLanguage.ru.Label": "Russian",
+
+  "Languages.RegionalFormatLanguage.zh.Label": "Chinese",
+  "Languages.RegionalFormatLanguage.zh-HK.Label": "Chinese (Hong Kong)",
+  "Languages.RegionalFormatLanguage.zh-CN.Label": "Chinese (Simplified)",
+  "Languages.RegionalFormatLanguage.zh-TW.Label": "Chinese (Traditional)",
+
+  "Languages.RegionalFormatLanguage.tr.Label": "Turkish",
+
+
+  "LanguagesSection.RegionGroup.UseISO8601ForDateAndTime.Label": "Use ISO8601 date and time display standard"
+}

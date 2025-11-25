@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Production System Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELSmartInstruction"
+         BelongsToModeler="DELLmiProductionSystem"
+	       Uuid="4D1CA857-6B71-4509-9710-28040B4DA322"
+	       UseNames="DELWkiAlert;DELWkiInstruction;DELWkiSignOff"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>PLM DELMIA Smart Instruction </ShortRole>
+    <Role>This package describes the PLM DELMIA Smart Instruction model</Role>
+  </CAAComment>
+
+  <Comment>last update 2024-08-06</Comment>
+
+	<Extension Name="DELSmartInstructionExt"
+		Abstract="No"
+		CustomerExposition="Programmer"
+		Uuid="498941E6-21F8-4AE9-A04D-286F99ABD1ED"
+		ScopeNames="DELWkiSignOffReference DELWkiInstructionReference DELWkiAlertReference">
+		<Simple Name="V_Entries"
+			Uuid="55FC3AD9-3975-4BFD-A16F-17AE7FEB4AD7"
+			Type="Clob"
+			Protection="Internal"
+			MultiValuated="No">
+		</Simple>
+	</Extension>
+
+	<Extension Name="DELSmartInstructionMappingTableExt"
+		Abstract="No"
+		CustomerExposition="Programmer"
+		Uuid="858A5B73-7487-47C0-B134-3DA5354A4A45"
+		ScopeNames="DELWkiSignOffInstance DELWkiInstructionInstance DELWkiAlertInstance">
+		<Simple Name="V_MappingTable"
+			Uuid="83DEFA9A-20D3-4177-9918-7035CDFA8B55"
+			Type="Clob"
+			Protection="Internal"
+			MultiValuated="No">
+		</Simple>
+	</Extension>
+
+</Package>

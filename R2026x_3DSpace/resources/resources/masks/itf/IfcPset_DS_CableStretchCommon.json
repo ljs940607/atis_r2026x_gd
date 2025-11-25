@@ -1,0 +1,41 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_CableStretchCommon_TransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_DiameterOverInsulation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_DiameterOverConductor",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_DiameterOverSheat",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_AcquisitionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_CableLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableStretchCommon_GroundingSystem",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_MinimumHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_MinimumWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_ConstructionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_MaxDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_MinDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_UndergroundDuctCommon_PhaseSeparation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

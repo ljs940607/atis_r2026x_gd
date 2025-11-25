@@ -1,0 +1,19 @@
+{
+	"type": "array",
+	"items": {
+		"properties": {
+			"title": {
+				"type": "string",
+				"example": "LogPin_A"
+			},
+			"description": {
+				"type": "string",
+				"example": "Log Pin A"
+			},
+			"cestamp": {
+				"type": "string",
+				"example": "08248256E616220064204D08000E77BE"
+			}
+		}
+	}
+}

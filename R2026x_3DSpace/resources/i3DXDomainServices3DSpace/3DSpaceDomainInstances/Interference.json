@@ -1,0 +1,13 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Interference",
+    "description": "Interference",
+    "packages": [
+        "PLMPIMInterfere",
+        "PLMPIMInterfereBis",
+        "PLMPIMInterfereTierce",
+        "SIMItfInterfere",
+        "SIMItfInterference",
+        "SIMItfInterferenceGroup"
+    ]
+}

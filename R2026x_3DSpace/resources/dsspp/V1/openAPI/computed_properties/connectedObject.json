@@ -1,0 +1,24 @@
+{
+	"properties": {
+		"source": {
+		  "type": "string",
+		  "example": "3DSpace",
+		  "description": "source."
+		},
+		"type": {
+			"type": "string",
+			"example": "VPMReference",
+			"description": "type."
+		},
+		"identifier": {
+			"type": "string",
+			"example": "649F032E0000355C6542F4480000ED8C",
+			"description": "The Physical ID of the dseng:EngItem."
+		},
+		 "relativePath": {
+		  "type": "string",
+		  "example": "/resources/v1/modeler/dseng/dseng:EngItem/649F032E0000355C6542F4480000ED8C",
+		  "description": "relativePath."
+		}
+	}
+}

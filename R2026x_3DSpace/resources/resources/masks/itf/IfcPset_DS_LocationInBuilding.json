@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_LocationInBuilding_Building",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LocationInBuilding_Storey",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LocationInBuilding_Space",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LocationInBuilding_Facade",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

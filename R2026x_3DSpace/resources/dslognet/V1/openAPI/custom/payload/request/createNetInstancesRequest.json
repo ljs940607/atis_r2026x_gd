@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "instances": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "referencedObject": {
+                        "type": "object",
+                        "properties": {
+                            "identifier": {
+                                "type": "string",
+                                "example": "08248256BCB0180064219E6F00149DC7"
+                            },
+                            "source": {
+                                "type": "string",
+                                "example": "https:/server.name.dsone.3ds.com:443/3DSpace"
+                            }
+                        }
+                    },
+                    "attributes": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "example": "The New Instance"
+                            },
+                            "description": {
+                                "type": "string",
+                                "example": "This Instance created by web services"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

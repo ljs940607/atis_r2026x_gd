@@ -1,0 +1,29 @@
+{
+  "description": "Array of affected instances",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "source": {
+        "description": "source",
+        "type": "string",
+        "example": "$3DSpace"
+      },
+      "type": {
+        "description": "type",
+        "type": "string",
+        "example": "VPMInstance"
+      },
+      "id": {
+        "description": "identifier in database",
+        "type": "string",
+        "example": "195AF17B00005F206836D30100013CC6"
+      },
+      "relativePath": {
+        "description": "relative path of affected instance object",
+        "type": "string",
+        "example": "/resources/v1/modeler/dseng/dseng:EngItem/195AF17B0001104068243B1E00012F44/dseng:EngInstance/195AF17B00005F206836D30100013CC6"
+      }
+    }
+  }
+}

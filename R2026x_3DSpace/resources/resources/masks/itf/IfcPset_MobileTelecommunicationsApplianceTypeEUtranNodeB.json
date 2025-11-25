@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeEUtranNodeB_DownlinkRadioBand",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeEUtranNodeB_NumberOfCarriers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeEUtranNodeB_NumberOfAntennas",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeEUtranNodeB_UplinkRadioBand",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

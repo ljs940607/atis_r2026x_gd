@@ -1,0 +1,55 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "LinkOnTranslation",
+				"ParentType": "RelationType",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "LinkOnTranslation",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "LinkOnTranslation",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "parent",
+						"ModelerMapping": [
+							{
+								"Modeler": "_Index",
+								"Mapping": "from.physicalid"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeDefaultChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "reference",
+						"ModelerMapping": [
+							{
+								"Modeler": "_Index",
+								"Mapping": "to.physicalid"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeDefaultChecker"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

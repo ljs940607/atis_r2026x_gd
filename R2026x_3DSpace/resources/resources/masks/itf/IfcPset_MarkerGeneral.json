@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MarkerGeneral_ApproachSpeed",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkerGeneral_MarkerType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkerGeneral_NominalHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkerGeneral_Symbol",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkerGeneral_NominalWidth",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

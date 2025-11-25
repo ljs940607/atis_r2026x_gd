@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_Pipeline_Support_DS_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Support_DS_Count",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Support_DS_NetVolume",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Support_DS_GrossVolume",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Support_DS_GrossWeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

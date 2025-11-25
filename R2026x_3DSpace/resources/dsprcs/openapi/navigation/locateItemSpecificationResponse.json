@@ -1,0 +1,164 @@
+{
+	"properties": {
+		"totalItems": {
+			"type": "integer",
+			"example": 1
+		},
+		"member": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "ID of the connection object",
+						"type": "string",
+						"example": "EE562168015FFCF14F940A513C63AA77"
+					},
+					"isScope": {
+						"description": "Indication of whether this is item act as scope or not. If false, then means this is implement link.",
+						"type": "boolean",
+						"example": true
+					},
+					"operationOcc": {
+						"description": "Occurrence path for the related process operation instance.",
+						"type": "array",
+						"items": {
+							"properties": {
+								"instancePosition": {
+									"$ref": "#/components/schemas/instancePosition"
+								},
+								"instanceObject": {
+									"properties": {
+										"source": {
+											"description": "Full path to the source, including the server hostname.",
+											"type": "string",
+											"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+										},
+										"type": {
+											"description": "Type of the object.",
+											"type": "string",
+											"example": "DELLmiHeaderOperationInstance"
+										},
+										"identifier": {
+											"description": "Physical ID of the object.",
+											"type": "string",
+											"example": "5C0779CEF11C472C9537094C2FA82388"
+										},
+										"relativePath": {
+											"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+											"type": "string",
+											"example": "/resources/v1/modeler/dsprcs:MfgProcess/5C0779CEF11C472C9537094C2FA82377/dsprcs:MfgOperationInstance/5C0779CEF11C472C9537094C2FA82388"
+										}
+									}
+								}
+							}
+						}
+					},
+					"itemOcc": {
+						"description": "Occurrence path for the related manufacturing item instance that the operation is acting upon.",
+						"type": "array",
+						"items": {
+							"properties": {
+								"instancePosition": {
+									"$ref": "#/components/schemas/instancePosition"
+								},
+								"instanceObject": {
+									"properties": {
+										"source": {
+											"description": "Full path to the source, including the server hostname.",
+											"type": "string",
+											"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+										},
+										"type": {
+											"description": "Type of the object.",
+											"type": "string",
+											"example": "DELFmiFunctionInstance"
+										},
+										"identifier": {
+											"description": "Physical ID of the object.",
+											"type": "string",
+											"example": "5C0779CEF11C472C9537094C2FA82344"
+										},
+										"relativePath": {
+											"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+											"type": "string",
+											"example": "/resources/v1/modeler/dsmfg:MfgItem/5C0889CEF11C472C9537094C2FA82355/dsmfg:MfgItemInstance/5C0779CEF11C472C9537094C2FA82344"
+										}
+									}
+								}
+							}
+						}
+					},
+					"itemRef": {
+						"description": "Reference to the scope manufacturing item.",
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname.",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "Type of the object.",
+								"type": "string",
+								"example": "CreateAssembly"
+							},
+							"identifier": {
+								"description": "Physical ID of the object.",
+								"type": "string",
+								"example": "5C0779CEF11C472C9537094C2FA82333"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/5C0779CEF11C472C9537094C2FA82333"
+							}
+						}
+					},
+					"scopeContext": {
+						"description": "The manufacturing item instance that act as the context for the scope item.",
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname.",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "Type of the object.",
+								"type": "string",
+								"example": "CreateAssemblyInstance"
+							},
+							"identifier": {
+								"description": "Physical ID of the object.",
+								"type": "string",
+								"example": "5C0779CEF11C472C9537094C2FA82355"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/5C0779CEF11C472C9537094C2FA82344/dsmfg:MfgItemInstance/5C0779CEF11C472C9537094C2FA82355"
+							}
+						}
+					},
+					"usage": {
+						"description": "Object usage value",
+						"type": "string",
+						"example": "Add"
+					},
+					"overlap": {
+						"description": "Object overlap value",
+						"type": "boolean",
+						"example": "true or false"
+					},
+					"sendAheadQuantity": {
+						"$ref": "#/components/schemas/dsprcs_MagExtnValue"
+					},
+					"cestamp": {
+						"description": "Object cestamp value",
+						"type": "string",
+						"example": "2D70169432D84866A200F907881AC9B1"
+					}
+				}
+			}
+		}
+	}
+}

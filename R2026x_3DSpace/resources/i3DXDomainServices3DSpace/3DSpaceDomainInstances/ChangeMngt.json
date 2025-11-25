@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "ChangeMngt",
+	"description"    : "Change Management: Change Investigation, Change Request, Change Order, Change Action",
+	"packages"       : ["ChangeManagement"]
+}
+

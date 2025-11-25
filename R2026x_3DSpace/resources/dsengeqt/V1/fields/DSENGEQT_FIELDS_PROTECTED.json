@@ -1,0 +1,9 @@
+{
+    "dsmvengeqt:attribute.entity.apptype": {
+    "property": "type",
+    "key": "apptype",
+    "description": "Applicative Type",
+    "label": "dsengeqt.Label.Attribute.ApplicativeType",
+    "index": "type"
+  }
+}

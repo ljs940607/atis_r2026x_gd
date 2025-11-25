@@ -1,0 +1,62 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "owner",
+				"status": "RW"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			}
+		]
+	},
+    "Create": {
+        "attributes" : [
+            {
+				"name": "V_Name",
+				"status": "RW"
+			},      
+            {
+				"name": "V_description",
+				"status": "RW"
+			}
+        ]
+    },
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"V_Name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]",
+				"mandatory": true
+			}
+		}
+	}
+}

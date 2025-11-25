@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="PLMSurpacPowerBy" />
+    <m1.package name="PLMSurpacPowerBy" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="GEOSurpacEditabilityExtension" />
+      <m1.interface name="GEOSurpacEditabilityExtension" />
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreRepReference name="GEOSurpacNonPSBaseRepReference" />
+      <m1.type name="GEOSurpacNonPSBaseRepReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="GEOSurpac3DPart" />
+      <m1.type name="GEOSurpac3DPart" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_SDM_MD5HashOpt" />
+        <m1.attribute name="GEOSurpac3DPart.V_SDM_MD5HashOpt" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

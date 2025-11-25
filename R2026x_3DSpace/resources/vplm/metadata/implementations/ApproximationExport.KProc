@@ -1,0 +1,9 @@
+#Prog ApproximationExport( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+
+  let InputApproximationSet(PLMIDSet)
+ 
+  InputApproximationSet = Restrict(iPLMIDSet,"Class/Approximation")
+
+ oPLMIDSet = InputApproximationSet
+}

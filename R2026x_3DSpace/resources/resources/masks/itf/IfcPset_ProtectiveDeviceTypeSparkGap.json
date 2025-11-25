@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_BreakdownVoltageTolerance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_Capacitance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_CurrentRMS",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_PowerDissipation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_SparkGapType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeSparkGap_Resistivity",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

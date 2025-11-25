@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "CollaborationPackage",
+	"description"    : "The domain instance to create and manage collaboration package and publication in 3DSpace",
+	"packages"       : ["TDP_Package"]
+}

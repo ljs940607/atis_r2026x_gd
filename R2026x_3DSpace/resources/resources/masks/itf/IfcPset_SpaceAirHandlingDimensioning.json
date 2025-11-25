@@ -1,0 +1,57 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_CoolingDesignAirFlow",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_HeatingDesignAirFlow",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_SensibleHeatGain",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_TotalHeatGain",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_TotalHeatLoss",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_CoolingDryBulb",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_CoolingRelativeHumidity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_HeatingDryBulb",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_HeatingRelativeHumidity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_VentilationDesignAirFlow",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_DesignAirFlow",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_CeilingRAPlenum",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceAirHandlingDimensioning_BoundaryAreaHeatLoss",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_TicketProcessing_TicketProcessingTime",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketProcessing_TicketStuckRatio",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

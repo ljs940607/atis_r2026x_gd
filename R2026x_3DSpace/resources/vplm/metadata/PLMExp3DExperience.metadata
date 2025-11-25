@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by DASSAULT SYSTEMES (DASSAULT SYSTEMES) -->
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2008, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" ModelerType="Top" BelongsToModeler="PLMExp3DExperience" Name="PLMExp3DExperience" Uuid="2A4365A4-4305-4996-A566-DB666530907B" UseNames="PLMCORE;PLMExpAbstract3DExperience" CustomerExposition="Programmer">
+  <Property Name="FormerTypingLegacy" Value="Yes"/>
+  <Class Name="3DExperience" Uuid="030A62DC-2C1C-4fd2-8F9B-BE948E22E160" Abstract="No" SuperName="Abstract3DExperienceObject" CustomerExposition="Programmer" Abbreviation="3dx">
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATE3DExperience_PLMNew"/>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+	<!-- ***************************************** -->
+	<!-- * PLMExp3DExperienceSRExt extension   * -->
+	<!-- ***************************************** -->
+	<Extension Name="PLMExp3DExperienceSRExt"
+		   Uuid="3fa9562c-f181-42fe-a8fb98db88308c9c"
+		   ScopeNames="SemanticRelation"
+		   CAAExposition="L0"
+		   CustomerExposition="Programmer"
+		   Specializable="No">
+		<CAAComment>
+			<ShortRole>Extension on SR of a 3DExperience object</ShortRole>
+		</CAAComment>
+		<Simple Name="V_SR_Identifier"
+				Uuid="7c74e220-155a-47cf-92cb6c857d926f23"
+				MaxLength="50"
+				Type="String"
+				Protection="Internal">
+			<CAAComment>
+				<ShortRole>Storage of identifier of SR to manage reconciliation use cases.</ShortRole>
+			</CAAComment>
+		</Simple>
+		<Simple Name="V_SR_ActorType"
+			  Uuid="80848D7C-8B70-4B2C-817C-1611DAEC1BD3"
+			  MaxLength="50"
+			  Type="String"
+			  Protection="Internal">
+			<CAAComment>
+				<ShortRole>Type of the Actor holding the SR.</ShortRole>
+			</CAAComment>
+		</Simple>
+	<!-- Matrix with mathematical convention: row-major ordered
+	[a0, a1, a2,
+    a3, a4, a5,
+    a6, a7, a8,
+    a9, a10, a11]
+    
+    with a0 through a8 being the rotation matrix
+    and (a9, a10, a11) being the translation vector.
+    -->
+		<Simple Name="V_SR_PositionMatrix"
+		  Uuid="EEDBC509-44E2-4714-8A11-122FDB0D3104"
+		  Type="Double"
+		  Protection="Internal"
+		  MultiValuated="Yes">
+		</Simple>
+	</Extension>
+</Package>

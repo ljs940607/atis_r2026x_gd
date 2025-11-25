@@ -1,0 +1,2725 @@
+{
+    "version": "1.0",
+    "viewSetSelectorArray": [
+        {
+            "viewSetMod": "DS/CATCivilCompareRulesIntegration/viewdef/CivilViewDefinition",
+            "viewSetName": "IFC_STANDARD_VIEW",
+            "UseCases": [
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecChimney",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecCovering",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecCurtainWall",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecDoor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecOtherArchitecturalElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecRailing",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecRamp",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecRampFlight",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecRoof",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecShadingDevice",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecStair",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecStairFlight",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecWindow",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecFoundation",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecSite",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecTerrain",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecBuildingElementPart",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecDiscreteAccessory",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecImpactProtectionDevice",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecMechanicalFastener",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecMechanicalFastenerAnchor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecMechanicalFastenerCoupler",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecReinforcingBar",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecReinforcingMesh",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecSign",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecTendon",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecTendonAnchor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecTendonConduit",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecFurnishingElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecElementAssembly",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecSpatialZone",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "ConstructionDriver",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecBeam",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecBearing",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecCable",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecCaissonFoundation",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecColumn",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecCuttingElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecFooting",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecMember",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecOpeningElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecOtherStructuralElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecPile",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecPlate",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecSlab",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecStiffener",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecWall",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecTransportElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecVirtualElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeOtherArchitecturalElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Bridge",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeAbutment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeAnchorBlock",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeArch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeDeck",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeHangerBelt",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgePier",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeSpan",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeStayBelt",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeSuspensionSystem",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeTower",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeArchSegment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeCrosshead",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeDeckSegment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeHangerCable",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeOtherStructuralElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgePierSegment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeStayCable",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeSuspensionCable",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeTowerSegment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BridgeWay",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Building",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BuildingShellAndCore",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BuildingSpace",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BuildingStorey",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "BuildingStructure",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "DamOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Dam",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "DamOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSDistributionLine",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSDistributionSpan",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSElectricPole",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSElectricPowerSystem",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSHighVoltagePylon",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSHighVoltageSpan",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSHighVoltageTransmissionLine",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSOutputPosition",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSPowerPlant",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSubstation",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSwitchPosition",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSwitchYard",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSTransformerCell",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSTransformerCenter",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSAuxiliarTransformer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSBattery",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSBusbar",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCable",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCableAssembly",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCableDevice",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCapacitor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCapacitorBank",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSCoil",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSControlBox",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSControlEquipment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSConversionSF6",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSConverter",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSDisconnector",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSDisconnectorToEarth",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSDivider",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSEarthingGrid",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSEarthingPoints",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSEquipment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSEquipmentAssembly",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSEquipmentPole",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSInterface",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSMeasureProtection",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSMeasureTransformer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSMobileLink",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSMVSupply",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSOpFlexEquipment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSPanel",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSPhaseShiftingTransformer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSPowerTransformer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSProtection",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSProtectionAssembly",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSPylonDevice",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSReactance",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSRectifier",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSResistor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSAXPLC",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSShieldBox",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSShuntReactor",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSignalCoil",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSplice",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSStabilizerTransformer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSStringInsulator",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSubstationConnection",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSurgeArrester",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "EPSSwitch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "MarineFacility",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "MarineOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NatureLake",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NatureOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NaturePlant",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NaturePlantCover",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NatureRiver",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "NatureSea",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayTrackPanel",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayTrackRail",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayTrackSleeper",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayTrackTurnout",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Railway",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwayStretch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RailwaySwitch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "AecKerb",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Road",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadInterchange",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadIntersection",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadRamp",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "RoadStretch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignageArmCantilever",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignageHighMast",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignageMarker",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignageOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignageOverheadStructure",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignagePictorial",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SignagePole",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeExcavationWorks",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeFillingWorks",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeGroundReinforcementElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeLayer",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeReinforcedSoilElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeRetainingElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeStockpile",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Subgrade",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "SubgradeRetainingStructure",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelRingSegment",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundExcavationworks",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundLining",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundSupport",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundWaterproofing",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "CutCoverTunnel",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Tunnel",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelBay",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelFullTunnelSpace",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelInterchange",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelOtherSpace",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelRing",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "TunnelStretch",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundAccessPortal",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundAdit",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundCavern",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundConnection",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundCrossPassage",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundEnlargement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundGallery",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundIncline",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundProfileTransition",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundShaft",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "UndergroundSpace",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSDistributionLine",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSTransmissionLine",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSWaterStorage",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSWaterSupplySystem",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSWaterTreatmentPlant",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSOtherElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSSupport",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "WSSThrustBlock",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "Drainage",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "DrainageCulvert",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "DrainageOtherSpatialStructureElement",
+                            "service": "3DSpace"
+                        }
+                    ]
+                },
+                {
+                    "app": "COMPARE",
+                    "roles": [
+                        "IFC"
+                    ],
+                    "typeInfoArray": [
+                        {
+                            "type": "DrainageTrench",
+                            "service": "3DSpace"
+                        }
+                    ]
+                }
+            ],
+            "MainToolbarConfig": [
+                {
+                    "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+                    "DoNotInclude": [
+                        "compareSettings.includeFacets.externalRelations"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+

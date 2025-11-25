@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "ImageManager",
+    "description"    : "The domain instance for ImageManager in 3DSpace",
+    "packages"       : ["ImageManager","ImageHolderER"]
+}

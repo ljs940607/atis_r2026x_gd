@@ -1,0 +1,59 @@
+[
+	{
+		"experience": "ECM_Disposition_ForbiddenAccess",
+		"accessTree": {
+			
+		},
+		"columns": [
+			{
+				"id": 1,
+				"values": [
+					"CREATE",
+					"DELETE",
+					"EDIT",
+					"EDIT_PROPERTIES",
+					"RESOLVED_BY_MANAGEMENT",
+					"IMPACTED_BY_MANAGEMENT",
+					"PROMOTE",
+					"DEMOTE",
+					"CANCEL",
+					"MOVE",
+					"SEARCH",
+					"COMMENT",
+					"ATTACHMENT",
+					"ASSIGNEE_MANAGEMENT",
+					"REVIEWER_MANAGEMENT",
+					"FOLLOWER_MANAGEMENT",
+					"REFINE_MANAGEMENT",
+					"TRANSFER_OWNERSHIP",
+					"REPLACE",
+					"REMOVE"
+				]
+			},
+			{
+				"id": 2,
+				"values": [
+					"STATE_OPEN",
+					"STATE_IN_WORK",
+					"STATE_FROZEN",
+					"STATE_APPROVED",
+					"STATE_COMPLETE"
+				]
+			},
+			{
+				"id": 3,
+				"values": [
+					"ADMIN",
+					"OWNER",
+					"ASSIGNEE",
+					"FOLLOWER",
+					"INVESTIGATION_OWNER",
+					"INVESTIGATION_COORDINATOR",
+					"SCOPE_OWNER",
+					"SCOPE_COORDINATOR",
+					"NA"
+				]
+			}
+		]
+	}
+]

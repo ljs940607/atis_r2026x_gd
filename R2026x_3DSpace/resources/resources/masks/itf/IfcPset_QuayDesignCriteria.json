@@ -1,0 +1,41 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_QuayDesignCriteria_HighWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_LowWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_ExtremeHighWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_ExtremeLowWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_ShipLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_WaveLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_FlowLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_UniformlyDistributedLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayDesignCriteria_EquipmentLoading",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

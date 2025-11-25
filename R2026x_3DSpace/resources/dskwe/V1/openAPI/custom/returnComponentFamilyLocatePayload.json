@@ -1,0 +1,35 @@
+{
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"id": {
+						"type": "string",
+						"example": "7FE982569CE620006544826E000676E9",
+						"description": "The Physical ID of the Generic Model or the Component Family Item for which locate is called"							
+			},
+			"relativePath": {
+						"type": "string",
+						"example": "/resources/v1/modeler/dseng/dseng:EngItem/7FE982569CE620006544826E000676E9",
+						"description": "Uri of the item"
+			},				
+			"type": {
+						"type": "string",
+						"example": "VPMReference",
+						"description": "Entity type"
+			},				
+			"Source": {
+						"type": "string",
+						"example": "https://vdevpril881dsy.com/3DSpace",
+						"description": "Source of the item"
+			
+			},
+			"InputType": {
+						"type": "string",
+						"example": "GenericModel",
+						"description": "Optional Input : 1) GenericModel, 2) ComponentFamilyItem. The type of Input object to help optimize  the search. If not set, the locate API navigates to Component Family ID, first by GenericModel connection and then by Component Family Item connection."
+			}
+		}
+	}
+}
+

@@ -1,0 +1,10 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "BackgroundJob",
+    "description"    : "The domain instance for BackgroundJob in 3DSpace",
+    "packages"       : [
+		"BackgroundJob",
+		"XCADJob",
+		"DerivedOutputJob"
+	]
+}

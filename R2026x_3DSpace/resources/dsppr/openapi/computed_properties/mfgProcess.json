@@ -1,0 +1,62 @@
+{
+	"type": "object",
+	"properties": {
+		"totalItems": {
+			"type": "integer",
+			"example": 1
+		},
+		"member": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"source": {
+						"description": "source",
+						"type": "string",
+						"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+					},
+					"type": {
+						"description": "type",
+						"type": "string",
+						"example": "DELLmiWorkPlanSystemReference"
+					},
+					"identifier": {
+						"description": "Entity physical id dsprcs:MfgProcess",
+						"type": "string",
+						"example": "MfgProcessID"
+					},
+					"relativePath": {
+						"description": "relativePath",
+						"type": "string",
+						"example": "/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{MfgProcessID}"
+					},
+					"dsadvfilter:AdvFilter": {
+						"type": "object",
+						"properties": {
+							"source": {
+								"description": "source",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "type",
+								"type": "string",
+								"example": "ENOStrRefinementSpecification"
+							},
+							"identifier": {
+								"description": "Entity physical id dsadvfilter:AdvFilter",
+								"type": "string",
+								"example": "FilterID"
+							},
+							"relativePath": {
+								"description": "relativePath",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsadvfilter/dsadvfilter:AdvFilter/{FilterID}"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

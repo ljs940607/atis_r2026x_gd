@@ -1,0 +1,21 @@
+{
+	"dsgeoloc:CoordinateReferenceSystem": {
+		"kindOf": "root",
+		"beType": "type_GeolocationCoordinateReferenceSystem",
+		"search": true,
+		"defaultMask": "dsmvgeoloc:CRSMask.Default",
+		"optionCheck": {
+			"navigate": false
+		}
+	},
+	"dsgeoloc:Geolocation": {
+		"kindOf": "extension",
+		"beType": "virtual_Geolocation",
+		"isPublic": true,
+		"patchCSRF": true,
+		"defaultMask": "dsmvgeoloc:GeolocMask.Default",
+		"implementationClass": "com.dassault_systemes.catia.geolocation.dsgeoloc.V1.implementations.ENOXExtensionGeolocation",
+		"attributeMappingClass": "com.dassault_systemes.catia.geolocation.dsgeoloc.V1.dictionaries.dsgeolocGeolocationAttributeDictionary",
+		"cestamp": true
+	}
+}

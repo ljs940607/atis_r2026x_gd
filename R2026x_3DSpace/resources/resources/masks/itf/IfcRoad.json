@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcRoad_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcRoad_LongName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcRoad_CompositionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcRoad_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

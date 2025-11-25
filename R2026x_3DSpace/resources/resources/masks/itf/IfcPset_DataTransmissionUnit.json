@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DataTransmissionUnit_WorkingState",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DataTransmissionUnit_SerialInterfaceType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DataTransmissionUnit_DataTransmissionUnitUsage",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

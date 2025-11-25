@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "WSSSpatialStructureElement" UseNames = "CivilEngineeringSpatialStructureElement" Uuid = "94FEF58A-0BBB-4D7C-A971-1066916E9265" xmlns = "PLMDictionaryUnified">
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSDistributionLine" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSPart" Uuid = "3a0c882e-9c6b-4b1d-b930-f3b587a6ddf7">
+    <Property Name = "IconName" Value = "I_WSSDistributionLine"/>
+    <Property Name = "3DIconName" Value = "I_WSSDistributionLine.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;WSSDistributionLine;WSSPart;Drainage;AecOtherSpatialStructureElement"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSDistributionLineType" SuperName = "WSSPartType" Uuid = "1052a2f6-ff57-466d-bca3-d9c0193cc294">
+    <Property Name = "IconName" Value = "I_WSSDistributionLineType"/>
+    <Property Name = "3DIconName" Value = "I_WSSDistributionLineType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSOtherSpatialStructureElement" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSPart" Uuid = "9b31ac4a-5fe2-4b95-a658-a30778d5ae08">
+    <Property Name = "IconName" Value = "I_WSSOtherSpatialStructureElement"/>
+    <Property Name = "3DIconName" Value = "I_WSSOtherSpatialStructureElement.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;AecOtherSpatialStructureElement;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;WSSDistributionLine;WSSTransmissionLine;WSSWaterStorage;WSSWaterTreatmentPlant;WSSPart;Drainage"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSOtherSpatialStructureElementType" SuperName = "WSSPartType" Uuid = "f9c7d5ac-9b69-4781-8312-0981b930fb0e">
+    <Property Name = "IconName" Value = "I_WSSOtherSpatialStructureElementType"/>
+    <Property Name = "3DIconName" Value = "I_WSSOtherSpatialStructureElementType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSPart" SuperName = "WSSSpatialStructureElement" Uuid = "bdc73b59-c359-461f-a34f-3cb808dd5603"/>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSPartType" SuperName = "WSSWaterSupplySystemType" Uuid = "3b975d78-c3ff-483e-b864-c21a167fbde0"/>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSSpatialStructureElement" SuperName = "CivilEngineeringSpatialStructureElement" Uuid = "03fd66b1-67c9-4324-9495-924eed8fbb43">
+    <Property Name = "GroupingType" Value = "WSSSpatialStructureElement"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSSpatialStructureElementType" SuperName = "CivilEngineeringSpatialStructureElementType" Uuid = "ab88af98-fe48-4632-813a-0a22e60d97a8">
+    <Property Name = "GroupingType" Value = "WSSSpatialStructureElementType"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSTransmissionLine" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSPart" Uuid = "d55d4dbf-3432-4dda-b6b7-95e9aba34156">
+    <Property Name = "IconName" Value = "I_WSSTransmissionLine"/>
+    <Property Name = "3DIconName" Value = "I_WSSTransmissionLine.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;WSSTransmissionLine;WSSPart;Drainage;AecOtherSpatialStructureElement"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSTransmissionLineType" SuperName = "WSSPartType" Uuid = "5776cda3-2119-4ec3-a5f5-d55bb84a4a41">
+    <Property Name = "IconName" Value = "I_WSSTransmissionLineType"/>
+    <Property Name = "3DIconName" Value = "I_WSSTransmissionLineType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterStorage" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSPart" Uuid = "d0f398e9-98a0-40bc-a2c6-4c77ff968dd9">
+    <Property Name = "IconName" Value = "I_WSSWaterStorage"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterStorage.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;WSSWaterStorage;WSSPart;Drainage;AecOtherSpatialStructureElement"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterStorageType" SuperName = "WSSPartType" Uuid = "d383cd90-530b-4842-99dc-e2ccd62beff4">
+    <Property Name = "IconName" Value = "I_WSSWaterStorageType"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterStorageType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class Abbreviation = "wss" CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterSupplySystem" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSSpatialStructureElement" Uuid = "5f803eb6-181b-422f-81ad-e3e783c0093a">
+    <Property Name = "IconName" Value = "I_WSSWaterSupplySystem"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterSupplySystem.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;AecOtherSpatialStructureElement;AecSite;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;Drainage"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterSupplySystemType" SuperName = "WSSSpatialStructureElementType" Uuid = "b7c922ec-5758-4964-8641-bbd73f8b38ab">
+    <Property Name = "IconName" Value = "I_WSSWaterSupplySystemType"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterSupplySystemType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterTreatmentPlant" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "WSSPart" Uuid = "4b30d6a6-1ba8-47f7-954e-3d2f743e8e78">
+    <Property Name = "IconName" Value = "I_WSSWaterTreatmentPlant"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterTreatmentPlant.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;WSSWaterSupplySystem;WSSOtherSpatialStructureElement;WSSWaterTreatmentPlant;WSSPart;Drainage;AecOtherSpatialStructureElement"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "WSSWaterTreatmentPlantType" SuperName = "WSSPartType" Uuid = "23ef107c-67cf-4632-bdf9-fe20d21b7478">
+    <Property Name = "IconName" Value = "I_WSSWaterTreatmentPlantType"/>
+    <Property Name = "3DIconName" Value = "I_WSSWaterTreatmentPlantType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+</Package>

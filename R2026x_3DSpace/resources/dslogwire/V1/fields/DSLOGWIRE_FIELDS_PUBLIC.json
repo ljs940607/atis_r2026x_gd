@@ -1,0 +1,1505 @@
+{
+"dsmvlogwire:attribute.instancedetails.referencedObject":{
+        "property": "computed",
+        "key": "referencedObject",
+       "fetchOnce":true,
+    	"example": "com.dassault_systemes.enovia.xapps.dsxcad.implementations.dsxcadOpenAPIImpl.getPointedInfo",
+         "description": "Referenced object informations"
+    },
+    
+"dsmvlogwire:attribute.busbar.predefinedpartnumber": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.busbar.subtype": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.busbar.tagnumber": {
+		"property": "attribute[EleLogicalBusbar.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalBusbar.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.busbar.predefinedparttype": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.busbar.nbconductors": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_NbConductors]",
+		"key": "nbconductors",
+		"label": "dslogwire.Label.Attribute.NbConductors",
+		"example": "",
+		"description": "Nb Conductors",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_NbConductors"
+	},
+	"dsmvlogwire:attribute.busbar.nominalcurrent": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_NominalCurrent]",
+		"key": "nominalcurrent",
+		"label": "dslogwire.Label.Attribute.NominalCurrent",
+		"example": "",
+		"description": "Nominal Current",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_NominalCurrent"
+	},
+	"dsmvlogwire:attribute.busbar.nominalvoltage": {
+		"property": "attribute[EleLogicalBusbar.V_Elec_NominalVoltage]",
+		"key": "nominalvoltage",
+		"label": "dslogwire.Label.Attribute.NominalVoltage",
+		"example": "",
+		"description": "Nominal Voltage",
+  "index": "ds6wg:EleLogicalBusbar.V_Elec_NominalVoltage"
+	},
+	"dsmvlogwire:attribute.cable.cablefamily": {
+		"property": "attribute[EleLogicalCable.V_Elec_CableFamily]",
+		"key": "cablefamily",
+		"label": "dslogwire.Label.Attribute.CableFamily",
+		"example": "",
+		"description": "Cable Family",
+  "index": "ds6wg:EleLogicalCable.V_Elec_CableFamily"
+	},
+		"dsmvlogwire:attribute.cable.gauge": {
+		"property": "attribute[EleLogicalCable.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslogwire.Label.Attribute.Gauge",
+		"example": "",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalCable.V_Elec_Gauge"
+	},
+	"dsmvlogwire:attribute.cable.predefinedpartnumber": {
+		"property": "attribute[EleLogicalCable.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalCable.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.cable.subtype": {
+		"property": "attribute[EleLogicalCable.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalCable.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.cable.segregation": {
+		"property": "attribute[EleLogicalCable.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalCable.V_ElecRef_Segregation"
+	},
+	"dsmvlogwire:attribute.cable.userlength": {
+		"property": "attribute[EleLogicalCable.V_ElecRef_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalCable.V_ElecRef_UserLength"
+	},
+	"dsmvlogwire:attribute.cable.tagnumber": {
+		"property": "attribute[EleLogicalCable.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalCable.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.cable.predefinedparttype": {
+		"property": "attribute[EleLogicalCable.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalCable.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.cable.color": {
+		"property": "attribute[EleLogicalCable.V_Elec_Color]",
+		"key": "color",
+		"label": "dslogwire.Label.Attribute.Color",
+		"example": "",
+		"description": "Color",
+  "index": "ds6wg:EleLogicalCable.V_Elec_Color"
+	},
+	"dsmvlogwire:attribute.cable.externaldiameter": {
+		"property": "attribute[EleLogicalCable.V_Elec_ExternalDiameter]",
+		"key": "externaldiameter",
+		"label": "dslogwire.Label.Attribute.ExternalDiameter",
+		"example": "",
+		"description": "External Diameter",
+  "index": "ds6wg:EleLogicalCable.V_Elec_ExternalDiameter"
+	},
+	"dsmvlogwire:attribute.cable.linearmass": {
+		"property": "attribute[EleLogicalCable.V_Elec_LinearMass]",
+		"key": "linearmass",
+		"label": "dslogwire.Label.Attribute.LinearMass",
+		"example": "",
+		"description": "Linear Mass",
+  "index": "ds6wg:EleLogicalCable.V_Elec_LinearMass"
+	},
+	"dsmvlogwire:attribute.cable.routingpriority": {
+		"property": "attribute[EleLogicalCable.V_Elec_RoutingPriority]",
+		"key": "routingpriority",
+		"label": "dslogwire.Label.Attribute.RoutingPriority",
+		"example": "",
+		"description": "Routing Priority",
+  "index": "ds6wg:EleLogicalCable.V_Elec_RoutingPriority"
+	},
+	"dsmvlogwire:attribute.cable.section": {
+		"property": "attribute[EleLogicalCable.V_Elec_Section]",
+		"key": "section",
+		"label": "dslogwire.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalCable.V_Elec_Section"
+	},
+	
+	"dsmvlogwire:attribute.coaxcable.cablefamily": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_CableFamily]",
+		"key": "cablefamily",
+		"label": "dslogwire.Label.Attribute.CableFamily",
+		"example": "",
+		"description": "Cable Family",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_CableFamily"
+	},
+		"dsmvlogwire:attribute.coaxcable.gauge": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslogwire.Label.Attribute.Gauge",
+		"example": "",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_Gauge"
+	},
+	"dsmvlogwire:attribute.coaxcable.predefinedpartnumber": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.coaxcable.subtype": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.coaxcable.segregation": {
+		"property": "attribute[EleLogicalCoaxCable.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalCoaxCable.V_ElecRef_Segregation"
+	},
+	"dsmvlogwire:attribute.coaxcable.userlength": {
+		"property": "attribute[EleLogicalCoaxCable.V_ElecRef_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalCoaxCable.V_ElecRef_UserLength"
+	},
+	"dsmvlogwire:attribute.coaxcable.tagnumber": {
+		"property": "attribute[EleLogicalCoaxCable.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalCoaxCable.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.coaxcable.predefinedparttype": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.coaxcable.color": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_Color]",
+		"key": "color",
+		"label": "dslogwire.Label.Attribute.Color",
+		"example": "",
+		"description": "Color",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_Color"
+	},
+	"dsmvlogwire:attribute.coaxcable.externaldiameter": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_ExternalDiameter]",
+		"key": "externaldiameter",
+		"label": "dslogwire.Label.Attribute.ExternalDiameter",
+		"example": "",
+		"description": "External Diameter",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_ExternalDiameter"
+	},
+	"dsmvlogwire:attribute.coaxcable.linearmass": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_LinearMass]",
+		"key": "linearmass",
+		"label": "dslogwire.Label.Attribute.LinearMass",
+		"example": "",
+		"description": "Linear Mass",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_LinearMass"
+	},
+	"dsmvlogwire:attribute.coaxcable.routingpriority": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_RoutingPriority]",
+		"key": "routingpriority",
+		"label": "dslogwire.Label.Attribute.RoutingPriority",
+		"example": "",
+		"description": "Routing Priority",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_RoutingPriority"
+	},
+	"dsmvlogwire:attribute.coaxcable.section": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_Section]",
+		"key": "section",
+		"label": "dslogwire.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_Section"
+	},
+	"dsmvlogwire:attribute.coaxcable.bendradius": {
+		"property": "attribute[EleLogicalCoaxCable.V_Elec_BendRadius]",
+		"key": "bendradius",
+		"label": "dslogwire.Label.Attribute.BendRadius",
+		"example": "",
+		"description": "BendRadius",
+  "index": "ds6wg:EleLogicalCoaxCable.V_Elec_BendRadius"
+	},
+	
+	"dsmvlogwire:attribute.powercable.cablefamily": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_CableFamily]",
+		"key": "cablefamily",
+		"label": "dslogwire.Label.Attribute.CableFamily",
+		"example": "",
+		"description": "Cable Family",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_CableFamily"
+	},
+		"dsmvlogwire:attribute.powercable.gauge": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslogwire.Label.Attribute.Gauge",
+		"example": "",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_Gauge"
+	},
+	"dsmvlogwire:attribute.powercable.predefinedpartnumber": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.powercable.subtype": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.powercable.segregation": {
+		"property": "attribute[EleLogicalPowerCable.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalPowerCable.V_ElecRef_Segregation"
+	},
+	"dsmvlogwire:attribute.powercable.userlength": {
+		"property": "attribute[EleLogicalPowerCable.V_ElecRef_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalPowerCable.V_ElecRef_UserLength"
+	},
+	"dsmvlogwire:attribute.powercable.tagnumber": {
+		"property": "attribute[EleLogicalPowerCable.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalPowerCable.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.powercable.predefinedparttype": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.powercable.color": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_Color]",
+		"key": "color",
+		"label": "dslogwire.Label.Attribute.Color",
+		"example": "",
+		"description": "Color",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_Color"
+	},
+	"dsmvlogwire:attribute.powercable.externaldiameter": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_ExternalDiameter]",
+		"key": "externaldiameter",
+		"label": "dslogwire.Label.Attribute.ExternalDiameter",
+		"example": "",
+		"description": "External Diameter",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_ExternalDiameter"
+	},
+	"dsmvlogwire:attribute.powercable.linearmass": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_LinearMass]",
+		"key": "linearmass",
+		"label": "dslogwire.Label.Attribute.LinearMass",
+		"example": "",
+		"description": "Linear Mass",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_LinearMass"
+	},
+	"dsmvlogwire:attribute.powercable.routingpriority": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_RoutingPriority]",
+		"key": "routingpriority",
+		"label": "dslogwire.Label.Attribute.RoutingPriority",
+		"example": "",
+		"description": "Routing Priority",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_RoutingPriority"
+	},
+	"dsmvlogwire:attribute.powercable.section": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_Section]",
+		"key": "section",
+		"label": "dslogwire.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_Section"
+	},
+	"dsmvlogwire:attribute.powercable.bendradius": {
+		"property": "attribute[EleLogicalPowerCable.V_Elec_BendRadius]",
+		"key": "bendradius",
+		"label": "dslogwire.Label.Attribute.BendRadius",
+		"example": "",
+		"description": "Bend Radius",
+  "index": "ds6wg:EleLogicalPowerCable.V_Elec_BendRadius"
+	},
+		"dsmvlogwire:attribute.wire.additionalconductorsection": {
+		"property": "attribute[EleLogicalWire.V_Elec_AdditionalConductorSection]",
+		"key": "additionalconductorsection",
+		"label": "dslogwire.Label.Attribute.AdditionalConductorSection",
+		"example": "",
+		"description": "Additional Conductor Section",
+  "index": "ds6wg:EleLogicalWire.V_Elec_AdditionalConductorSection"
+	},
+	"dsmvlogwire:attribute.wire.gauge": {
+		"property": "attribute[EleLogicalWire.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslogwire.Label.Attribute.Gauge",
+		"example": "",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalWire.V_Elec_Gauge"
+	},
+	"dsmvlogwire:attribute.wire.predefinedpartnumber": {
+		"property": "attribute[EleLogicalWire.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalWire.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.wire.subtype": {
+		"property": "attribute[EleLogicalWire.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalWire.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.wire.segregation": {
+		"property": "attribute[EleLogicalWire.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalWire.V_ElecRef_Segregation"
+	},
+	"dsmvlogwire:attribute.wire.userlength": {
+		"property": "attribute[EleLogicalWire.V_ElecRef_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalWire.V_ElecRef_UserLength"
+	},
+	"dsmvlogwire:attribute.wire.tagnumber": {
+		"property": "attribute[EleLogicalWire.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalWire.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.wire.predefinedparttype": {
+		"property": "attribute[EleLogicalWire.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalWire.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.wire.color": {
+		"property": "attribute[EleLogicalWire.V_Elec_Color]",
+		"key": "color",
+		"label": "dslogwire.Label.Attribute.Color",
+		"example": "",
+		"description": "Color",
+  "index": "ds6wg:EleLogicalWire.V_Elec_Color"
+	},
+	"dsmvlogwire:attribute.wire.externaldiameter": {
+		"property": "attribute[EleLogicalWire.V_Elec_ExternalDiameter]",
+		"key": "externaldiameter",
+		"label": "dslogwire.Label.Attribute.ExternalDiameter",
+		"example": "",
+		"description": "External Diameter",
+  "index": "ds6wg:EleLogicalWire.V_Elec_ExternalDiameter"
+	},
+	"dsmvlogwire:attribute.wire.linearmass": {
+		"property": "attribute[EleLogicalWire.V_Elec_LinearMass]",
+		"key": "linearmass",
+		"label": "dslogwire.Label.Attribute.LinearMass",
+		"example": "",
+		"description": "Linear Mass",
+  "index": "ds6wg:EleLogicalWire.V_Elec_LinearMass"
+	},
+	"dsmvlogwire:attribute.wire.routingpriority": {
+		"property": "attribute[EleLogicalWire.V_Elec_RoutingPriority]",
+		"key": "routingpriority",
+		"label": "dslogwire.Label.Attribute.RoutingPriority",
+		"example": "",
+		"description": "Routing Priority",
+  "index": "ds6wg:EleLogicalWire.V_Elec_RoutingPriority"
+	},
+	"dsmvlogwire:attribute.wire.section": {
+		"property": "attribute[EleLogicalWire.V_Elec_Section]",
+		"key": "section",
+		"label": "dslogwire.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalWire.V_Elec_Section"
+	},
+	"dsmvlogwire:attribute.wire.bendradius": {
+		"property": "attribute[EleLogicalWire.V_Elec_BendRadius]",
+		"key": "bendradius",
+		"label": "dslogwire.Label.Attribute.BendRadius",
+		"example": "",
+		"description": "Bend Radius",
+  "index": "ds6wg:EleLogicalWire.V_Elec_BendRadius"
+	},
+
+	"dsmvlogwire:attribute.wireshield.gauge": {
+		"property": "attribute[EleLogicalWireShield.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslogwire.Label.Attribute.Gauge",
+		"example": "",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalWireShield.V_Elec_Gauge"
+	},
+	"dsmvlogwire:attribute.wireshield.predefinedpartnumber": {
+		"property": "attribute[EleLogicalWireShield.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalWireShield.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.wireshield.subtype": {
+		"property": "attribute[EleLogicalWireShield.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalWireShield.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.wireshield.segregation": {
+		"property": "attribute[EleLogicalWireShield.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalWireShield.V_ElecRef_Segregation"
+	},
+	"dsmvlogwire:attribute.wireshield.userlength": {
+		"property": "attribute[EleLogicalWireShield.V_ElecRef_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalWireShield.V_ElecRef_UserLength"
+	},
+	"dsmvlogwire:attribute.wireshield.tagnumber": {
+		"property": "attribute[EleLogicalWireShield.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalWireShield.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.wireshield.predefinedparttype": {
+		"property": "attribute[EleLogicalWireShield.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalWireShield.V_Elec_PredefinedPartType"
+	},
+	
+	"dsmvlogwire:attribute.wireshield.section": {
+		"property": "attribute[EleLogicalWireShield.V_Elec_Section]",
+		"key": "section",
+		"label": "dslogwire.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalWireShield.V_Elec_Section"
+	},
+	
+	
+	"dsmvlogwire:attribute.shellconnector.contacttype": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.shellconnector.series": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.shellconnector.predefinedpartnumber": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.shellconnector.subtype": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.shellconnector.tagnumber": {
+		"property": "attribute[EleLogicalShellConnector.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalShellConnector.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.shellconnector.predefinedparttype": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_PredefinedPartType"
+	},
+	
+	"dsmvlogwire:attribute.shellconnector.style": {
+		"property": "attribute[EleLogicalShellConnector.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalShellConnector.V_Elec_Style"
+	},
+	
+	
+	"dsmvlogwire:attribute.harnessconnector.contacttype": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.harnessconnector.series": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.harnessconnector.predefinedpartnumber": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.harnessconnector.subtype": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.harnessconnector.tagnumber": {
+		"property": "attribute[EleLogicalSingleConnector.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalSingleConnector.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.harnessconnector.predefinedparttype": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_PredefinedPartType"
+	},
+	
+	"dsmvlogwire:attribute.harnessconnector.style": {
+		"property": "attribute[EleLogicalSingleConnector.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalSingleConnector.V_Elec_Style"
+	},
+	
+	
+	"dsmvlogwire:attribute.terminalblock.contacttype": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.terminalblock.series": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.terminalblock.predefinedpartnumber": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.terminalblock.subtype": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.terminalblock.tagnumber": {
+		"property": "attribute[EleLogicalTerminalBoard.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.terminalblock.predefinedparttype": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.terminalblock.style": {
+		"property": "attribute[EleLogicalTerminalBoard.V_Elec_Style]",
+		"key": "Style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalTerminalBoard.V_Elec_Style"
+	},
+	
+
+	"dsmvlogwire:attribute.splice.predefinedpartnumber": {
+		"property": "attribute[EleLogicalSplice.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalSplice.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.splice.subtype": {
+		"property": "attribute[EleLogicalSplice.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalSplice.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.splice.tagnumber": {
+		"property": "attribute[EleLogicalSplice.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalSplice.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.splice.predefinedparttype": {
+		"property": "attribute[EleLogicalSplice.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalSplice.V_Elec_PredefinedPartType"
+	},
+	
+	"dsmvlogwire:attribute.harness.predefinedpartnumber": {
+		"property": "attribute[EleLogicalHarness.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalHarness.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.harness.subtype": {
+		"property": "attribute[EleLogicalHarness.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalHarness.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.harness.tagnumber": {
+		"property": "attribute[EleLogicalHarness.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalHarness.V_ElecRef_TagNumber"
+	},
+	"dsmvlogwire:attribute.harness.predefinedparttype": {
+		"property": "attribute[EleLogicalHarness.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalHarness.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.harness.weight": {
+		"property": "attribute[EleLogicalHarness.V_Elec_Weight]",
+		"key": "weight",
+		"label": "dslogwire.Label.Attribute.Weight",
+		"example": "",
+		"description": "Weight",
+  "index": "ds6wg:EleLogicalHarness.V_Elec_Weight"
+	},
+	
+	"dsmvlogwire:attribute.connector.contacttype": {
+		"property": "attribute[EleLogicalSingleConnectorPort.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalSingleConnectorPort.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.connector.series": {
+		"property": "attribute[EleLogicalSingleConnectorPort.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalSingleConnectorPort.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.connector.predefinedpartnumber": {
+		"property": "attribute[EleLogicalSingleConnectorPort.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalSingleConnectorPort.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.connector.subtype": {
+		"property": "attribute[EleLogicalSingleConnectorPort.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalSingleConnectorPort.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.connector.style": {
+		"property": "attribute[EleLogicalSingleConnectorPort.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalSingleConnectorPort.V_Elec_Style"
+	},
+	
+	
+	"dsmvlogwire:attribute.cavity.contactgauge": {
+		"property": "attribute[EleLogicalPin.V_Elec_ContactGauge]",
+		"key": "contactgauge",
+		"label": "dslogwire.Label.Attribute.ContactGauge",
+		"example": "#10",
+		"description": "Contact Gauge",
+  "index": "ds6wg:EleLogicalPin.V_Elec_ContactGauge"
+	},
+	
+	"dsmvlogwire:attribute.cavity.contacttype": {
+		"property": "attribute[EleLogicalPin.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalPin.V_Elec_ContactType"
+	},
+	
+	"dsmvlogwire:attribute.cavity.rolename": {
+		"property": "attribute[EleLogicalPin.V_Elec_RoleName]",
+		"key": "rolename",
+		"label": "dslogwire.Label.Attribute.RoleName",
+		"example": "",
+		"description": "Role Name",
+  "index": "ds6wg:EleLogicalPin.V_Elec_RoleName"
+	},
+	"dsmvlogwire:attribute.cavity.RoleType": {
+		"property": "attribute[EleLogicalPin.V_Elec_RoleType]",
+		"key": "RoleType",
+		"label": "dslogwire.Label.Attribute.RoleType",
+		"example": "",
+		"description": "Role Type",
+  "index": "ds6wg:EleLogicalPin.V_Elec_RoleType"
+	},
+	"dsmvlogwire:attribute.cavity.sepcode": {
+		"property": "attribute[EleLogicalPin.V_Elec_SepCode]",
+		"key": "sepcode",
+		"label": "dslogwire.Label.Attribute.SepCode",
+		"example": "AAA",
+		"description": "Separation Code",
+  "index": "ds6wg:EleLogicalPin.V_Elec_SepCode"
+	},
+	
+	
+	"dsmvlogwire:attribute.cavity.signal": {
+		"property": "attribute[EleLogicalPin.V_Elec_Signal]",
+		"key": "signal",
+		"label": "dslogwire.Label.Attribute.Signal",
+		"example": "",
+		"description": "Signal",
+  "index": "ds6wg:EleLogicalPin.V_Elec_Signal"
+	},
+	"dsmvlogwire:attribute.cavity.subtype": {
+		"property": "attribute[EleLogicalPin.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type"
+	},
+	"dsmvlogwire:attribute.cavity.nominalcurrent": {
+		"property": "attribute[EleLogicalPin.V_Elec_NominalCurrent]",
+		"key": "nominalcurrent",
+		"label": "dslogwire.Label.Attribute.NominalCurrent",
+		"example": "5mA",
+		"description": "Nominal Current",
+  "index": "ds6wg:EleLogicalPin.V_Elec_NominalCurrent"
+	},
+	"dsmvlogwire:attribute.cavity.nominalsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_NominalSection]",
+		"key": "nominalsection",
+		"label": "dslogwire.Label.Attribute.NominalSection",
+		"example": "",
+		"description": "Nominal Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_NominalSection"
+	},
+	"dsmvlogwire:attribute.cavity.maxsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_MaxSection]",
+		"key": "maxsection",
+		"label": "dslogwire.Label.Attribute.MaxSection",
+		"example": "",
+		"description": "Max Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_MaxSection"
+	},
+	"dsmvlogwire:attribute.cavity.minsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_MinSection]",
+		"key": "minsection",
+		"label": "dslogwire.Label.Attribute.MinSection",
+		"example": "",
+		"description": "Min Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_MinSection"
+	},
+	"dsmvlogwire:attribute.groundpin.contactgauge": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_ContactGauge]",
+		"key": "contactgauge",
+		"label": "dslogwire.Label.Attribute.ContactGauge",
+		"example": "#10",
+		"description": "Contact Gauge",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_ContactGauge"
+	},
+	
+	"dsmvlogwire:attribute.groundpin.contacttype": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.groundpin.nominalsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_NominalSection]",
+		"key": "nominalsection",
+		"label": "dslogwire.Label.Attribute.NominalSection",
+		"example": "",
+		"description": "Nominal Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_NominalSection"
+	},
+	"dsmvlogwire:attribute.groundpin.subtype": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_SubType"
+	},
+	"dsmvlogwire:attribute.groundpin.maxsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_MaxSection]",
+		"key": "maxsection",
+		"label": "dslogwire.Label.Attribute.MaxSection",
+		"example": "",
+		"description": "Max Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_MaxSection"
+	},
+	"dsmvlogwire:attribute.groundpin.minsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_MinSection]",
+		"key": "minsection",
+		"label": "dslogwire.Label.Attribute.MinSection",
+		"example": "",
+		"description": "Min Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_MinSection"
+	},
+	
+	
+	"dsmvlogwire:attribute.terminal.contacttype": {
+		"property": "attribute[EleLogicalTerminal.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalTerminal.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.terminal.series": {
+		"property": "attribute[EleLogicalTerminal.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalTerminal.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.terminal.predefinedpartnumber": {
+		"property": "attribute[EleLogicalTerminal.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalTerminal.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.terminal.style": {
+		"property": "attribute[EleLogicalTerminal.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalTerminal.V_Elec_Style"
+	},
+	
+"dsmvlogwire:attribute.terminal.subtype": {
+		"property": "attribute[EleLogicalTerminal.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslogwire.Label.Attribute.SubType",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalTerminal.V_Elec_SubType"
+	},
+	
+"dsmvlogwire:attribute.terminal.listpins": {
+		"property": "computed",
+	    "key" : "ListPins",
+	    "description":"Get the list of pins inside terminal",
+	    "fetchOnce":true,
+	    "mask":"dsmvlogwire:TerminalDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	
+	"dsmvlogwire:attribute.instance.reference": {
+		"property": "to.physicalid",
+		"key": "reference"
+	},
+ "dsmvlogwire:attribute.cavity.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the cavity.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlogwire:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlogwire:attribute.groundpin.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the pin.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlogwire:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlogwire:attribute.connector.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the connector.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlogwire:ConnectorMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlogwire:attribute.connector.listpins": {
+		"property": "computed",
+	    "key" : "ListPins",
+	    "description":"Get the list of pins inside connector port",
+	    "fetchOnce":true,
+	    "mask":"dsmvlogwire:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.predefinedparttype": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.tagnumber": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.contacttype": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.series": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.shellconnectorinst.style": {
+		"property": "attribute[EleLogicalShellConnectorInst.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalShellConnectorInst.V_Elec_Style"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.predefinedparttype": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.tagnumber": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.contacttype": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.series": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.harnessconnectorinst.style": {
+		"property": "attribute[EleLogicalSingleConnectorInst.V_Elec_Style]",
+		"key": "style",
+		"label": "dslogwire.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalSingleConnectorInst.V_Elec_Style"
+	},
+	"dsmvlogwire:attribute.terminalblockinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalTerminalBoardInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalTerminalBoardInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.terminalblockinst.predefinedparttype": {
+		"property": "attribute[EleLogicalTerminalBoardInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalTerminalBoardInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.terminalblockinst.tagnumber": {
+		"property": "attribute[EleLogicalTerminalBoardInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalTerminalBoardInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.terminalblockinst.contacttype": {
+		"property": "attribute[EleLogicalTerminalBoardInst.V_Elec_ContactType]",
+		"key": "contacttype",
+		"label": "dslogwire.Label.Attribute.ContactType",
+		"example": "",
+		"description": "Contact Type",
+  "index": "ds6wg:EleLogicalTerminalBoardInst.V_Elec_ContactType"
+	},
+	"dsmvlogwire:attribute.terminalblockinst.series": {
+		"property": "attribute[EleLogicalTerminalBoardInst.V_Elec_Series]",
+		"key": "series",
+		"label": "dslogwire.Label.Attribute.Series",
+		"example": "",
+		"description": "Series",
+  "index": "ds6wg:EleLogicalTerminalBoardInst.V_Elec_Series"
+	},
+	"dsmvlogwire:attribute.spliceinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalSpliceInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalSpliceInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.spliceinst.predefinedparttype": {
+		"property": "attribute[EleLogicalSpliceInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalSpliceInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.spliceinst.tagnumber": {
+		"property": "attribute[EleLogicalSpliceInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalSpliceInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.harnessinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalHarnessInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalHarnessInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.harnessinst.predefinedparttype": {
+		"property": "attribute[EleLogicalHarnessInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalHarnessInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.harnessinst.tagnumber": {
+		"property": "attribute[EleLogicalHarnessInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalHarnessInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.busbarinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalBusbarInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalBusbarInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.busbarinst.predefinedparttype": {
+		"property": "attribute[EleLogicalBusbarInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalBusbarInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.busbarinst.tagnumber": {
+		"property": "attribute[EleLogicalBusbarInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalBusbarInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.cableinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalCableInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalCableInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.cableinst.predefinedparttype": {
+		"property": "attribute[EleLogicalCableInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalCableInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.cableinst.tagnumber": {
+		"property": "attribute[EleLogicalCableInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalCableInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.cableinst.segregation": {
+		"property": "attribute[EleLogicalCableInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalCableInst.V_Elec_Segregation"
+	},
+	"dsmvlogwire:attribute.cableinst.userlength": {
+		"property": "attribute[EleLogicalCableInst.V_Elec_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalCableInst.V_Elec_UserLength"
+	},
+	"dsmvlogwire:attribute.coaxcableinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalCoaxCableInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalCoaxCableInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.coaxcableinst.predefinedparttype": {
+		"property": "attribute[EleLogicalCoaxCableInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalCoaxCableInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.coaxcableinst.tagnumber": {
+		"property": "attribute[EleLogicalCoaxCableInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalCoaxCableInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.coaxcableinst.segregation": {
+		"property": "attribute[EleLogicalCoaxCableInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalCoaxCableInst.V_Elec_Segregation"
+	},
+	"dsmvlogwire:attribute.coaxcableinst.userlength": {
+		"property": "attribute[EleLogicalCoaxCableInst.V_Elec_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalCoaxCableInst.V_Elec_UserLength"
+	},
+	"dsmvlogwire:attribute.powercableinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalPowerCableInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalPowerCableInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.powercableinst.predefinedparttype": {
+		"property": "attribute[EleLogicalPowerCableInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalPowerCableInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.powercableinst.tagnumber": {
+		"property": "attribute[EleLogicalPowerCableInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalPowerCableInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.powercableinst.segregation": {
+		"property": "attribute[EleLogicalPowerCableInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalPowerCableInst.V_Elec_Segregation"
+	},
+	"dsmvlogwire:attribute.powercableinst.userlength": {
+		"property": "attribute[EleLogicalPowerCableInst.V_Elec_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalPowerCableInst.V_Elec_UserLength"
+	},
+	"dsmvlogwire:attribute.wireinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalWireInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalWireInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.wireinst.predefinedparttype": {
+		"property": "attribute[EleLogicalWireInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalWireInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.wireinst.tagnumber": {
+		"property": "attribute[EleLogicalWireInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalWireInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.wireinst.segregation": {
+		"property": "attribute[EleLogicalWireInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalWireInst.V_Elec_Segregation"
+	},
+	"dsmvlogwire:attribute.wireinst.userlength": {
+		"property": "attribute[EleLogicalWireInst.V_Elec_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalWireInst.V_Elec_UserLength"
+	},
+	"dsmvlogwire:attribute.wireshieldinst.predefinedpartnumber": {
+		"property": "attribute[EleLogicalWireShieldInst.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslogwire.Label.Attribute.PredefinedPartNumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalWireShieldInst.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlogwire:attribute.wireshieldinst.predefinedparttype": {
+		"property": "attribute[EleLogicalWireShieldInst.V_Elec_PredefinedPartType]",
+		"key": "predefinedparttype",
+		"label": "dslogwire.Label.Attribute.PredefinedPartType",
+		"example": "",
+		"description": "Predefined Part Type",
+  "index": "ds6wg:EleLogicalWireShieldInst.V_Elec_PredefinedPartType"
+	},
+	"dsmvlogwire:attribute.wireshieldinst.tagnumber": {
+		"property": "attribute[EleLogicalWireShieldInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslogwire.Label.Attribute.TagNumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalWireShieldInst.V_Elec_TagNumber"
+	},
+	"dsmvlogwire:attribute.wireshieldinst.segregation": {
+		"property": "attribute[EleLogicalWireShieldInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslogwire.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalWireShieldInst.V_Elec_Segregation"
+	},
+	"dsmvlogwire:attribute.wireshieldinst.userlength": {
+		"property": "attribute[EleLogicalWireShieldInst.V_Elec_UserLength]",
+		"key": "userlength",
+		"label": "dslogwire.Label.Attribute.UserLength",
+		"example": "",
+		"description": "User Length",
+  "index": "ds6wg:EleLogicalWireShieldInst.V_Elec_UserLength"
+	}
+}

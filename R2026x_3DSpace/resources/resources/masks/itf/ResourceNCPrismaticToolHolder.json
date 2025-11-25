@@ -1,0 +1,47 @@
+{
+  "Write": {
+    "attributes": [
+      {
+        "name": "V_SubType",
+        "status": "RW"
+      },
+      {
+        "name": "V_Category",
+        "status": "RW"
+      },
+      {
+        "name": "V_Manufacturer",
+        "status": "RW"
+      },
+      {
+        "name": "V_PurchaseCost",
+        "status": "RW"
+      },
+      {
+        "name": "V_Comment",
+        "status": "RO"
+      },
+      {
+        "name": "V_Component_ID",
+        "status": "RO"
+      },
+      {
+        "name": "V_Import_From_ISO",
+        "status": "RO"
+      },
+      {
+        "name": "V_Holder_Max_Gage",
+        "status": "RO"
+      },
+      {
+        "name": "V_Top_Attachment",
+        "status": "RO"
+      },
+      {
+        "name": "V_Bottom_Attachment",
+        "status": "RO"
+      }
+    ]
+  },
+  "revision": "0"
+}

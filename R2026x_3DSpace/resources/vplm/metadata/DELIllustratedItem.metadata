@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Production System Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2008, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELIllustratedItem"
+         BelongsToModeler="DELLmiProductionSystem"
+	       Uuid="2A258625-43E3-4E2C-9A69-2F3231D47817"
+	       UseNames="DELLmiProductionSystemAbstract PLMCORE"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>Illustrated Item Package </ShortRole>
+    <Role>This package describes the Illustrated Item Model</Role>
+  </CAAComment>
+
+  <Comment>creation 2024-04-18</Comment>
+
+	<Class Name="DELIllustratedItemGenericReference"
+		   Uuid="3907F4B4-2A5A-4722-821C-7E5864CCF260"
+		   Abstract="No"
+		   CustomerExposition="ProgrammerOnly"
+		   SuperName="DELLmiAbstractProductionEntity"
+		   Discipline="No"
+		   Specializable="No"
+		   CustomerExtensible="No"
+		   CreateInstName="DELIllustratedItemGenericInstance">
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Illustrated Item Generic Reference</ShortRole>
+			<Role>PLM DELMIA Illustrated Item Generic Reference</Role>
+		</CAAComment>
+
+		<Property Name="KweNew_InstanciationMethod" Value="NoMethod"/>
+		<Property Name="Newable" Value="No"/>
+		<Property Name="Searchable" Value="No"/>
+		<Property Name="Configurable" Value="No"/>
+		<Property Name="ChangeMaturityAvailability" Value="No"/>
+		<Property Name="DuplicateAvailability" Value="No"/>
+		<Property Name="EditPropertiesAvailability" Value="No"/>
+		<Property Name="EvolutionAvailability" Value="No"/>
+		<Property Name="LockUnlockAvailability" Value="No"/>
+		<Property Name="NewMajorRevisionAvailability" Value="No"/>
+		<Property Name="NewMinorRevisionAvailability" Value="No"/>
+		<Property Name="SaveAsNewAvailability" Value="No"/>
+		<Property Name="TransferOwnershipAvailability" Value="No"/>
+		<Property Name="ManageAccessAvailability" Value="No"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="No"/>
+		<Property Name="ChangeCollaborativeSpaceAvailability" Value="No"/>
+		<Property Name="InterchangeableMinors" Value="No"/>
+		<Property Name="IterationsAvailability" Value="No"/>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		
+	</Class>
+
+	<Class Name="DELIllustratedItemHeaderReference"
+		   Uuid="0C943CC2-A1D5-481E-B0BC-CB04EF0A67FF"
+		   Abstract="No"
+		   CustomerExposition="Programmer"
+		   SuperName="DELIllustratedItemGenericReference"
+		   Discipline="Yes"
+		   Specializable="Yes"
+		   CustomerExtensible="Yes"
+		   Abbreviation="ilih"
+		   DeleteAvailability="Yes">
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Illustrated Item Header Reference</ShortRole>
+			<Role>PLM DELMIA Illustrated Item Header Reference</Role>
+		</CAAComment>
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELCatalogDelegation"/>
+		<Property Name="IconName" Value="I_PPRIllustratedItemClgHeader"/>
+		<Property Name="3DIconName" Value="I_PPRIllustratedItemClgHeader.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="ChangeMaturityAvailability" Value="Yes"/>
+		<Property Name="DuplicateAvailability" Value="Yes"/>
+		<Property Name="EditPropertiesAvailability" Value="Yes"/>
+		<Property Name="EvolutionAvailability" Value="Yes"/>
+		<Property Name="LockUnlockAvailability" Value="Yes"/>
+		<Property Name="NewMajorRevisionAvailability" Value="Yes"/>
+		<Property Name="NewMinorRevisionAvailability" Value="No"/>
+		<Property Name="SaveAsNewAvailability" Value="Yes"/>
+		<Property Name="TransferOwnershipAvailability" Value="Yes"/>
+		<Property Name="ManageAccessAvailability" Value="Yes"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="No"/>
+		<Property Name="ChangeCollaborativeSpaceAvailability" Value="Yes"/>
+		<Property Name="InterchangeableMinors" Value="No"/>
+		<Property Name="IterationsAvailability" Value="No"/>
+		
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+
+	</Class>
+
+	<Class Name="DELIllustratedItemReference"
+		   Uuid="E42B37E3-FF89-4E21-8A86-6F02088F2680"
+		   Abstract="No"
+		   CustomerExposition="Programmer"
+		   SuperName="DELIllustratedItemGenericReference"
+		   Discipline="Yes"
+		   Specializable="Yes"
+		   CustomerExtensible="Yes"
+		   CreateInstName="DELIllustratedItemInstance"
+		   InstantiationOwnerTypes="DELIllustratedItemHeaderReference"
+		   Abbreviation="ili"
+	       DeleteAvailability="Yes">
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Illustrated Item Reference</ShortRole>
+			<Role>PLM DELMIA Illustrated Item Reference</Role>
+		</CAAComment>
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELCatalogDelegation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELIllustratedItemInstance"/>
+		<Property Name="IconName" Value="I_PPRIllustratedItemCatalog"/>
+		<Property Name="3DIconName" Value="I_PPRIllustratedItemCatalog.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="ChangeMaturityAvailability" Value="Yes"/>
+		<Property Name="DuplicateAvailability" Value="Yes"/>
+		<Property Name="EditPropertiesAvailability" Value="Yes"/>
+		<Property Name="EvolutionAvailability" Value="Yes"/>
+		<Property Name="LockUnlockAvailability" Value="Yes"/>
+		<Property Name="NewMajorRevisionAvailability" Value="Yes"/>
+		<Property Name="NewMinorRevisionAvailability" Value="No"/>
+		<Property Name="SaveAsNewAvailability" Value="Yes"/>
+		<Property Name="TransferOwnershipAvailability" Value="Yes"/>
+		<Property Name="ManageAccessAvailability" Value="Yes"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="No"/>
+		<Property Name="ChangeCollaborativeSpaceAvailability" Value="Yes"/>
+		<Property Name="InterchangeableMinors" Value="No"/>
+		<Property Name="IterationsAvailability" Value="No"/>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+
+	</Class>
+
+	<Class Name="DELIllustratedItemFigureReference"
+		   Uuid="2B1DA83A-7B45-43C7-A2D6-8D4A833D9912"
+		   Abstract="No"
+		   CustomerExposition="Programmer"
+		   SuperName="DELIllustratedItemGenericReference"
+		   Discipline="Yes"
+		   Specializable="Yes"
+		   CustomerExtensible="Yes"
+		   CreateInstName="DELIllustratedItemFigureInstance"
+		   InstantiationOwnerTypes="DELIllustratedItemReference"
+	       Abbreviation="ilif"
+	       DeleteAvailability="Yes">
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Illustrated Item Figure Reference</ShortRole>
+			<Role>PLM DELMIA Illustrated Item Figure Reference</Role>
+		</CAAComment>
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELCatalogDelegation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELIllustratedItemFigureInstance"/>
+		<Property Name="IconName" Value="I_PPRIllustratedItemFigure"/>
+		<Property Name="3DIconName" Value="I_PPRIllustratedItemFigure.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="ChangeMaturityAvailability" Value="Yes"/>
+		<Property Name="DuplicateAvailability" Value="Yes"/>
+		<Property Name="EditPropertiesAvailability" Value="Yes"/>
+		<Property Name="EvolutionAvailability" Value="Yes"/>
+		<Property Name="LockUnlockAvailability" Value="Yes"/>
+		<Property Name="NewMajorRevisionAvailability" Value="Yes"/>
+		<Property Name="NewMinorRevisionAvailability" Value="No"/>
+		<Property Name="SaveAsNewAvailability" Value="Yes"/>
+		<Property Name="TransferOwnershipAvailability" Value="Yes"/>
+		<Property Name="ManageAccessAvailability" Value="Yes"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="No"/>
+		<Property Name="ChangeCollaborativeSpaceAvailability" Value="Yes"/>
+		<Property Name="InterchangeableMinors" Value="No"/>
+		<Property Name="IterationsAvailability" Value="No"/>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+
+	</Class>
+
+	<RelationClass Name="DELIllustratedItemGenericInstance"
+				   Uuid="4A5D661E-D869-48FE-BBEF-8E429B17E57A"
+				   Abstract="No"
+				   CustomerExposition="ProgrammerOnly"
+				   SuperName="PLMCoreInstance"
+				   Discipline="No"
+				   Specializable="No"
+				   CustomerExtensible="No">
+
+		<Property Name="EditPropertiesAvailability" Value="No"/>
+		<Property Name="LockUnlockAvailability" Value="No"/>
+		<Property Name="TransferOwnershipAvailability" Value="No"/>
+		<Property Name="ManageAccessAvailability" Value="No"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="No"/>
+
+		<Method ImplementationType="None">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</RelationClass>
+
+	<RelationClass Name="DELIllustratedItemInstance"
+				   Uuid="E0C36A03-C712-43CF-99B6-55FF30BD37E1"
+				   Abstract="No"
+				   CustomerExposition="Programmer"
+				   SuperName="DELIllustratedItemGenericInstance"
+				   Discipline="Yes"
+				   Specializable="No"
+				   CustomerExtensible="Yes">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELCatalogDelegation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELIllustratedItemInstance"/>
+		<Property Name="EditPropertiesAvailability" Value="Yes"/>
+		<Property Name="LockUnlockAvailability" Value="Yes"/>
+		<Property Name="TransferOwnershipAvailability" Value="Yes"/>
+		<Property Name="ManageAccessAvailability" Value="Yes"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="Yes"/>
+	</RelationClass>
+
+	<RelationClass Name="DELIllustratedItemFigureInstance"
+				   Uuid="48AEBC4E-1341-4757-AF88-8FD1B762A573"
+				   Abstract="No"
+				   CustomerExposition="Programmer"
+				   SuperName="DELIllustratedItemGenericInstance"
+				   Discipline="Yes"
+				   Specializable="No"
+				   CustomerExtensible="Yes">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELCatalogDelegation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELIllustratedItemFigureInstance"/>
+		<Property Name="EditPropertiesAvailability" Value="Yes"/>
+		<Property Name="LockUnlockAvailability" Value="Yes"/>
+		<Property Name="TransferOwnershipAvailability" Value="Yes"/>
+		<Property Name="ManageAccessAvailability" Value="Yes"/>
+		<Property Name="ShareBetweenProjectsAvailability" Value="Yes"/>
+	</RelationClass>
+
+</Package>

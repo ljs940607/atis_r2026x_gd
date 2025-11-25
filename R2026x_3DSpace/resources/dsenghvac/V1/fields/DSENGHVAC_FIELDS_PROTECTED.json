@@ -1,0 +1,12 @@
+{
+  
+  "dsmvenghvac:attribute.entity.apptype": {
+    "property": "type",
+    "key": "apptype",
+    "label": "dsenghvac.Label.Attribute.ApplicativeType",
+    "example": "",
+    "index": "type",
+    "description": "Applicative Type"
+  }
+
+}

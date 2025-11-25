@@ -1,0 +1,144 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsprcs:MfgChangeoverOperation",
+				"ParentType": "DELLmiAbstractProductionEntity",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiChangeOverOperationReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiChangeOverOperationReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+                        "ConceptualName": "changeoverRules",
+                        "ModelerMapping": [
+                            {
+                                "Modeler": "_Index",
+                                "Mapping": "bo.DELLmiChangeOverOperationReference.V_ChangeOverRules"
+                            },
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Mapping": "DELLmiChangeOverOperationReference.V_ChangeOverRules"
+                            }
+                        ],
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+                            }
+                        ],                        
+                        "Setters": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.ChangeoverRulesSetter"
+                            }
+                        ]
+                    },
+					{
+						"ConceptualName": "_mapResourceIDToListOfOperation",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.NavigateToGetChangeoverOperationFromListOfResources"
+							}
+						]
+					},
+                    {
+                        "ConceptualName": "_listResourceIds",
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+                            }
+                        ]
+                    }						                    
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:ApplicableResource",
+				"ParentType": "DELLmiCandidateResourcesCnx",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELChangeOverOpeLink",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDChangeoverOperLink"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELChangeOverOpeLink",
+						"Behavior": "REFERENCE"
+					}
+				],
+
+                "Dependencies": [
+                    [
+                        {
+                            "ConceptualName": "dsprcs:MfgChangeoverOperation",
+                            "DependentAttributes": [
+                                "From_IDs"
+                            ]
+                        },
+                        {
+                            "ConceptualName": "dsrsc:Resource",
+                            "DependentAttributes": [
+                                "TO_IDs"
+                            ]
+                        }
+                    ]
+                  
+                ],				
+				"Attributes": [
+                    {
+                        "ConceptualName": "From_IDs",
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+                            }
+                        ]
+                    },
+                    {
+                        "ConceptualName": "TO_IDs",
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+                            }
+                        ]
+                    },				
+                    {
+                        "ConceptualName": "resource",
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+                            }
+                        ],
+                        "Transforms": [
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.transforms.DELMIACRUDIndexProcAttrTransformToPathSRWithSymbolicID"
+                            }
+                        ],
+                        "Getters": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.CapableResourceCustomGetter"
+                            }
+                        ]
+                    }
+				]
+			}
+		]
+	}
+]

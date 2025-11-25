@@ -1,0 +1,12 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "PPRContext",
+    "description": "The domain instance for PPR Context in 3DSpace",
+    "packages": [
+        "DELPPRContextModel",
+        "DELPPRContextModelDisciplines",
+        "DELPPRContextModelProcessCnx",
+        "DELPPRContextModelSystemCnx",
+        "DELPPRContextRelationShip"
+    ]
+}

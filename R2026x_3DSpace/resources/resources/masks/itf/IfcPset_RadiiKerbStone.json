@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RadiiKerbStone_CurveShape",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RadiiKerbStone_Radius",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

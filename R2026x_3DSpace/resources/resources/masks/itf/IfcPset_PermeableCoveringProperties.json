@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_PermeableCoveringProperties_OperationType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_PermeableCoveringProperties_PanelPosition",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_PermeableCoveringProperties_FrameDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_PermeableCoveringProperties_FrameThickness",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

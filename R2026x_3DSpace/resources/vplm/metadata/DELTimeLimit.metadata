@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2025, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELTimeLimit"
+	     Uuid="AC69FA64-6AC2-4CE9-8A4D-6DC57D3EC1E4"
+  	     BelongsToModeler="DELLmiProductionSystem"
+	     UseNames="PLMCORE"
+	     CustomerExposition="Programmer">
+	       
+  <CAAComment>
+    <ShortRole>Time Limit Model Package</ShortRole>
+    <Role>This package describes the Time Limit Model</Role>
+  </CAAComment>
+  
+    <Class Name="DELTimeLimitReferenceAbstract"
+         Uuid="0A8501DF-4D5E-4430-87B2-4C62190995AB"
+         Abstract="Yes"
+         SuperName="PLMCoreReference"
+         Discipline="No"
+         CustomerExposition="Programmer"
+         Specializable="No"
+         CustomerExtensible="No"
+         >
+         
+     <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+     </Method>	
+         
+   </Class>
+  
+   <!-- Discrete Time Limit Ref -->
+   <Class Name="DELDiscreteTimeLimitReference"
+		     Uuid="7CEC8563-5DF2-42EF-B8C1-9A715EE77B95"
+		     Abstract="No"
+		     Discipline="No"
+		     SuperName="DELTimeLimitReferenceAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+             Abbreviation = "sdtl">
+             
+             <Property Name="Configurable" Value="No"/>
+             <Property Name="Newable" Value="All_CAA"/>
+             <Property Name="IconName" Value="I_DiscreteTimeLimitReference"/>
+    		 <Property Name="3DIconName" Value="I_DiscreteTimeLimitReference.cgr"/>
+    		 <Property Name="ChangeManagementRealized" Value="Yes"/>
+    		 <Property Name="ChangeManagementSupport" Value="Yes"/>
+             <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+             <Property Name="DuplicateAvailability" Value="Yes"/>
+             <Property Name="EditPropertiesAvailability" Value="Yes"/>
+             <Property Name="EvolutionAvailability"    Value="Yes"/>
+    		 <Property Name="LockUnlockAvailability" Value="Yes"/>
+    		 <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    		 <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+    		 <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    		 <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    		 <Property Name="ManageAccessAvailability"    Value="Yes"/>
+    		 <Property Name="ShareBetweenProjectsAvailability"    Value="Yes"/>
+    		 <Property Name="ChangeCollaborativeSpaceAvailability"    Value="Yes"/>
+    		 <Property Name="InterchangeableMinors"    Value="No"/>
+    		 <Property Name="IterationAvailability"    Value="No"/>
+    		 <Property Name="Searchable"    Value="Yes"/>
+    		 <Property Name="KweNew_InstanciationMethod"    Value="DELStandardProcessReferenceDelegateInstanciation"/>	
+      		 
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>	
+    		 	          
+   </Class>
+   
+   <!-- Periodic Time Limit Ref -->
+   <Class Name="DELPeriodicTimeLimitReference"
+		     Uuid="CB579F5B-27BE-4946-B799-3637912C609B"
+		     Abstract="No"
+		     Discipline="No"
+		     SuperName="DELTimeLimitReferenceAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+             Abbreviation = "sptl">
+             
+             <Property Name="Configurable" Value="No"/>
+             <Property Name="Newable" Value="All_CAA"/>
+             <Property Name="IconName" Value="I_PeriodicTimeLimitReference"/>
+    		 <Property Name="3DIconName" Value="I_PeriodicTimeLimitReference.cgr"/>
+    		 <Property Name="ChangeManagementRealized" Value="Yes"/>
+    		 <Property Name="ChangeManagementSupport" Value="Yes"/>
+             <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+             <Property Name="DuplicateAvailability" Value="Yes"/>
+             <Property Name="EditPropertiesAvailability" Value="Yes"/>
+             <Property Name="EvolutionAvailability"    Value="Yes"/>
+    		 <Property Name="LockUnlockAvailability" Value="Yes"/>
+    		 <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    		 <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+    		 <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    		 <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    		 <Property Name="ManageAccessAvailability"    Value="Yes"/>
+    		 <Property Name="ShareBetweenProjectsAvailability"    Value="Yes"/>
+    		 <Property Name="ChangeCollaborativeSpaceAvailability"    Value="Yes"/>
+    		 <Property Name="InterchangeableMinors"    Value="No"/>
+    		 <Property Name="IterationAvailability"    Value="No"/>
+    		 <Property Name="Searchable"    Value="Yes"/>
+    		 <Property Name="KweNew_InstanciationMethod"    Value="DELStandardProcessReferenceDelegateInstanciation"/>	
+      		 
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>	
+    		 	          
+   </Class>
+   
+   <!-- Abstract Time Limit connection -->
+   <Class Name="DELTimeLimitParameterAbstract"
+		     Uuid="EFDB6FD2-ED1F-4627-9A27-728D9A845D0A"
+		     Abstract="Yes"
+		     Discipline="No"
+		     SuperName="PLMConnection"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="No">	
+			 
+	<Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>	
+    
+   </Class>
+   
+   <Class Name="DELTimeLimitThresholdParameter"
+		     Uuid="5F191E49-E13F-4CF7-84B6-162803CACD1C"
+		     Abstract="No"
+		     Discipline="No"
+		     SuperName="DELTimeLimitParameterAbstract"
+		     Specializable="No"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="No">
+             
+             <Property Name="Configurable" Value="No"/>
+             <Property Name="Newable" Value="All_CAA"/>
+             
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    	
+   </Class>
+   
+   <Class Name="DELTimeLimitTriggerParameter"
+		     Uuid="A3160637-0698-4688-A0B2-B4577EDEC283"
+		     Abstract="No"
+		     Discipline="No"
+		     SuperName="DELTimeLimitParameterAbstract"
+		     Specializable="No"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="No">
+             
+             <Property Name="Configurable" Value="No"/>
+             <Property Name="Newable" Value="All_CAA"/>
+             
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>	          
+   </Class>
+   
+   <Extension Name="DELTimeLimitStageExt"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="CF819748-30F6-4C05-BD7E-13055044D143"
+               ScopeNames="DELTimeLimitParameterAbstract"
+               Specializable="No"
+               Searchable="No">
+               
+             <Simple Name="V_TLStage"
+				Uuid="674C3713-F702-40CB-8CE0-6A794F4BE1E8"
+				Type="Integer"
+				Protection="External"
+				MultiValuated="No"
+				DefaultValue="1">
+			 </Simple>
+               
+   </Extension>
+      
+   <Extension Name="DELTimeLimitAbstract"
+		Abstract="Yes"
+		CustomerExposition="Programmer"
+		Uuid="DF72E996-88A9-4BB3-9FF3-D7B7A44C8361"
+		ScopeNames="DELTimeLimitParameterAbstract"
+		Specializable="No"
+		Searchable="No">
+   </Extension>
+   
+   <Extension Name="DELTimeLimitEventExt"
+               SuperName="DELTimeLimitAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="5A4A2A18-8FB1-470B-81FD-8ABE9C5A625A"
+               Specializable="No"
+               Searchable="No">
+			   		   
+		<Simple Name="V_TLEventCode"
+			Uuid="9F127455-9182-402F-B64A-8C12D9FD0BAB"
+			Type="String"
+			MaxLength="50"
+			MultiValuated="No"
+			ResetOnCloning="No"
+			ResetOnNewVersion="No"
+			Protection="External"
+			DefaultValue="NotDefined">
+		</Simple>
+		
+		<Simple Name="V_TLNbOccurrence"
+			Uuid="F56ED375-D434-48A3-8090-71EDCE22FBF9"
+			Type="Integer"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="1"
+			PLMImpacting="No">
+		</Simple>
+    </Extension>
+    
+    <Extension Name="DELTimeLimitDistanceExt"
+               SuperName="DELTimeLimitAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="57A96ED0-0560-4F6E-B763-A4A0D84D8CE4"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLValue"
+			Uuid="9BD46113-154D-4E31-9240-87A3103FCA97"
+			Type="Double"
+			Magnitude="LENGTH"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+    </Extension>
+	
+	<Extension Name="DELTimeLimitDurationExt"
+               SuperName="DELTimeLimitAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="2F0CE71C-EC0F-49AC-8686-552D8182F036"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLValue"
+			Uuid="6170B671-49BB-4CD4-BE96-E315B68AE504"
+			Type="Double"
+			Magnitude="TIME"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+    </Extension>
+	
+	<Extension Name="DELTimeLimitArbitraryUnitExt"
+               SuperName="DELTimeLimitAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="8E22BD5F-833C-4E66-BC28-C0930925BD9C"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLValue"
+			Uuid="5DB07CF9-6202-47C5-9C11-A6BA266D7D21"
+			Type="Double"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+        
+        
+        <Simple Name="V_TLMArbitraryUnit"
+			Uuid="0001B916-E1C4-442F-BD25-2C00DAA674B6"
+			Type="String"
+			MaxLength="300"
+			MultiValuated="No"
+			ResetOnCloning="No"
+			ResetOnNewVersion="No"
+			Protection="Internal"
+			DefaultValue="NotDefined">
+		</Simple>
+   </Extension>
+	
+   <Extension Name="DELTimeLimitMarginAbstract"
+		Abstract="Yes"
+		CustomerExposition="Programmer"
+		Uuid="56CEF39B-B95A-4981-8C81-94225C8E347D"
+		ScopeNames="DELTimeLimitParameterAbstract"
+		Specializable="No"
+		Searchable="No">
+   </Extension>
+   
+   <Extension Name="DELTimeLimitDistanceMarginExt"
+               SuperName="DELTimeLimitMarginAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="BBAB6562-F344-45BA-BC77-5AAA872E71BD"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLMargin"
+			Uuid="18D6C9B2-2DE2-40F3-9BFE-64311245401A"
+			Type="Double"
+			Magnitude="LENGTH"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+    </Extension>
+	
+	<Extension Name="DELTimeLimitDurationMarginExt"
+               SuperName="DELTimeLimitMarginAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="5E55437B-0FB9-44BE-8820-A107EFD98797"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLMargin"
+			Uuid="330A8F5E-A831-40D8-BB8C-BC11A95E3FA7"
+			Type="Double"
+			Magnitude="TIME"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+    </Extension>
+	
+	<Extension Name="DELTimeLimitArbitraryUnitMarginExt"
+               SuperName="DELTimeLimitMarginAbstract"
+               Abstract="No"
+               CustomerExposition="Programmer"
+               Uuid="5378805B-AB24-448A-B966-371F9B1A7E39"
+               Specializable="No"
+               Searchable="No">
+			   
+		<Simple Name="V_TLMargin"
+			Uuid="E2E24CB3-BE4A-4493-B551-941CE17FF3DA"
+			Type="Double"
+			Protection="External"
+			MultiValuated="No"
+			DefaultValue="0.0">
+        </Simple>
+        
+        <Simple Name="V_TLMArbitraryUnit"
+			Uuid="B650A7C7-C3FA-4757-B3CD-C9D52045A8A4"
+			Type="String"
+			MaxLength="300"
+			MultiValuated="No"
+			ResetOnCloning="No"
+			ResetOnNewVersion="No"
+			Protection="Internal"
+			DefaultValue="NotDefined">
+		</Simple>
+        
+   </Extension>
+</Package>

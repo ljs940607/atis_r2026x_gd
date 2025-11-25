@@ -1,0 +1,44 @@
+{
+	"relations": [	
+	{
+		"name": "tdp_packagecontent_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageContent"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "tdp_packagecontent_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageContent"}, "direction" : "from"}]}]
+	},
+	{
+		"name": "tdp_packagepublication_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackagePublication"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "tdp_packagepublication_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackagePublication"}, "direction" : "from"}]}]
+	},
+	{
+		"name": "tdp_packageworksheet_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageWorksheet"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "tdp_packageworksheet_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageWorksheet"}, "direction" : "from"}]}]
+	},
+	{
+		"name": "tdp_packagedisclaimer_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageDisclaimer"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "tdp_packagedisclaimer_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageDisclaimer"}, "direction" : "from"}]}]
+	},
+	{
+		"name": "tdp_packagecontext_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageContext"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "tdp_packagecontext_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "TDP_PackageContext"}, "direction" : "from"}]}]
+	}
+	]
+}

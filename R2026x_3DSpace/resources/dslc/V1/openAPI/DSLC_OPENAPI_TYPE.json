@@ -1,0 +1,18 @@
+{
+    "dslc:changeControl": {
+        "summary": "Change Control",
+        "description": "Change Control",
+        "PUBLICMasks": ["dsmvlc:ChangeControlMask.Status"],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": []
+    },
+    "dslc:changeImpact": {
+        "summary": "Change Impact",
+        "description": "Items impacted by the change",
+        "PUBLICMasks": ["dsmvlc:ChangeImpactMask"],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": []
+    }
+}

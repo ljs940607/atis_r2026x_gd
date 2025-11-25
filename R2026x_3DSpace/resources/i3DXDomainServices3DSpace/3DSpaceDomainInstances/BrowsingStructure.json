@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "BrowsingStructure",
+	"description"    : "The domain instance to create and manage browsing structures for product assemblies.",
+	"packages"       : ["Terminology"]
+}

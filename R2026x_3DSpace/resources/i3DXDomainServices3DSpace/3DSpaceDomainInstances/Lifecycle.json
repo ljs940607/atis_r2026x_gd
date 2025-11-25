@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Lifecycle",
+	"description"    : "lifecycle data model elements (revision family)",
+	"packages"       : ["NonLinearVersioning"]
+}
+

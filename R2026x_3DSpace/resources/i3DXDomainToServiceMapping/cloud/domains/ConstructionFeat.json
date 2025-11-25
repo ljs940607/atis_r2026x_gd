@@ -1,0 +1,8 @@
+{
+	"owner" : "VMC2",
+	"description" : "ToDo",
+    "service": "3DSpace",
+    "urls": {
+		"fetch" : "/resources/ConstructionFeat/v1/i3dx/fetch"
+	}
+}

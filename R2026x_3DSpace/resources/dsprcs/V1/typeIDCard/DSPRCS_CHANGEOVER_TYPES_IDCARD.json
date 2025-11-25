@@ -1,0 +1,34 @@
+{
+    "dsprcs:MfgChangeoverOperation": {
+        "kindOf": "root",
+        "beType": "type_DELLmiChangeOverOperationReference",
+		"contentLinks": ["dsprcs:ApplicableResource"],
+        "patchCSRF":true,
+        "search":true,
+        "cestamp":true,
+        "defaultMask":"dsprcs:MfgChangeoverOperationMask.Default",
+    	"isPublic": false,
+        "customerAttribute":true,
+    	"customizationSupport": true, 
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        },
+        "publicResourceURI": "/resources/v1/modeler/dsprcs/dsprcs:MfgChangeoverOperation/{pid}"
+    },
+    "dsprcs:ApplicableResource": {
+        "kindOf": "content",
+        "beType": "virtual_DELChangeOverOpeLink",
+        "patchCSRF":true,
+        "cestamp":true,
+        "defaultMask":"dsprcs:ApplicableResourceMask.Default",
+    	"isPublic": false,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        }
+
+    }
+}

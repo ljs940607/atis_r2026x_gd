@@ -1,0 +1,68 @@
+{
+  "dsmveehw:EEHWItemMask.Reference.Common": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    "dsmveno:basic.id",
+    "dsmveno:basic.type",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask"
+    },
+    {
+      "property": "attribute[PLMEntity.V_usage]",
+      "key": "usage",
+      "example": "3DShape"
+    },
+    "dsmveehw:basic.typeDB",
+    "dsmveehw:basic.typeNLS",
+    "dsmveehw:attribute.reference.partNumber"
+  ],
+
+  "dsmveehw:EEHWItemMask.Reference.EEECU": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveehw:EEHWItemMask.Reference.Common"
+    },
+    "dsmveehw:attribute.reference.ecu.wakeUpOverBusSupported"
+  ],
+  "dsmveehw:EEHWItemMask.Reference.Rack": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveehw:EEHWItemMask.Reference.Common"
+    },
+    "dsmveehw:attribute.reference.rack.nbOfColumns",
+    "dsmveehw:attribute.reference.rack.nbOfRows",
+    "dsmveehw:attribute.reference.rack.nbOfSlotsPerUnit"
+  ],
+
+  "dsmveehw:EEHwConnectorType.Mask":[
+    {
+      "property": "reuseMask",
+      "mask":"dsmvlog:TypeItem.Mask.Reference.Details"
+    },
+    "dsmveehw:attribute.itf.technology",
+    "dsmveehw:attribute.itf.subTechnology"
+  ],
+
+  "dsmveehw:EEHwConnectorType.MaskDetails":[
+    {
+      "property": "reuseMask",
+      "mask":"dsmvlog:TypeItem.Mask.Reference.Details"
+    },
+    "dsmveehw:attribute.itf.linkTechnology",
+    "dsmveehw:attribute.itf.subTechnology",
+    "dsmveehw:attribute.itf.multiplexed",
+    "dsmveehw:attribute.itf.extLinkTechnology"
+  ],
+  "dsmveehw:EEHwGenericConnectorType.Mask":[
+    {
+      "property": "reuseMask",
+      "mask":"dsmvlog:TypeItem.Mask.Reference.Details"
+    },
+    "dsmveehw:attribute.itf.subTechnology"
+  ]
+}

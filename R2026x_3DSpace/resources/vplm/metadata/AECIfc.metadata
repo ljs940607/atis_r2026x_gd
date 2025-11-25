@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "AECIfc" UseNames = "AECKernel SignageElement PRODUCTCFG" Uuid = "b6f61974-2893-4c2e-8747-4017952f5109" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcAlignment" ScopeNames = "AecAlignmentType" Uuid = "DF02763D-4AF4-46A7-8966-4354CAD87881">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcAlignment_ObjectType" Protection = "Free" Type = "String" Uuid = "DF02763D-4AF4-46A7-8966-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" DefaultValue = "3" Name = "IfcAlignment_PredefinedType" Protection = "Free" Type = "Integer" Uuid = "3D2E9F72-0B63-4F0F-B45F-D56EC06C3109">
+      <Property Name = "RangeAsEnumName" Value = "IfcAlignmentTypeEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "ABSOLUTE;USERDEFINED;NOTDEFINED"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcAlignment_LinearRefMethod" Protection = "Free" Type = "String" Uuid = "25E750E4-F8BE-49C2-BDF5-C92F3A254EE6"/>
+  </Extension>
+  <Comment>IfcBuildingElement is not generated since abstract</Comment>
+  <Comment>IfcBuildingElementType is not generated since abstract</Comment>
+  <Extension CustomerExposition = "Programmer" Name = "IfcBuiltElement" ScopeNames = "AecElement" Uuid = "1d02f2ae-88ad-4e08-b059-492a853c7fb2">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcBuiltElement_ObjectType" Protection = "Free" Type = "String" Uuid = "1d02f2ae-88ad-4e08-b059-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcBuiltElement_Tag" Protection = "Free" Type = "String" Uuid = "1d02f2ae-88ad-4e08-b059-ed12431a92f4"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcBuiltElementType" ScopeNames = "AecElementType" Uuid = "46340755-2b6a-4fb3-b08e-991813688e92">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcBuiltElementType_Tag" Protection = "Free" Type = "String" Uuid = "46340755-2b6a-4fb3-b08e-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcBuiltElementType_ElementType" Protection = "Free" Type = "String" Uuid = "46340755-2b6a-4fb3-b08e-4fccfb51960c"/>
+  </Extension>
+  <Comment>IfcContext is not generated since abstract</Comment>
+  <Comment>IfcElement is not generated since abstract</Comment>
+  <Extension CustomerExposition = "Programmer" Name = "IfcElementAssembly" ScopeNames = "AecElementAssembly SignageArmCantilever SignageHighMast SignageOtherElement SignageOverheadStructure SignagePole" Uuid = "ff808dc1-04d8-408d-b5c3-1c4bd95da69b">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcElementAssembly_ObjectType" Protection = "Free" Type = "String" Uuid = "ff808dc1-04d8-408d-b5c3-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcElementAssembly_Tag" Protection = "Free" Type = "String" Uuid = "ff808dc1-04d8-408d-b5c3-ed12431a92f4"/>
+    <Simple CAAExposition = "L0" DefaultValue = "3" Name = "IfcElementAssembly_AssemblyPlace" Protection = "Free" Type = "Integer" Uuid = "767c88c4-9313-4eee-a860-d051a97a2017">
+      <Property Name = "RangeAsEnumName" Value = "IfcAssemblyPlaceEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "SITE;FACTORY;NOTDEFINED"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "11" Name = "IfcElementAssembly_PredefinedType" Protection = "Free" Type = "Integer" Uuid = "6c9e4c3c-cd11-4622-a33b-c5f295818358">
+      <Property Name = "RangeAsEnumName" Value = "IfcElementAssemblyTypeEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "ACCESSORY_ASSEMBLY;ARCH;BEAM_GRID;BRACED_FRAME;GIRDER;REINFORCEMENT_UNIT;RIGID_FRAME;SLAB_FIELD;TRUSS;USERDEFINED;NOTDEFINED;ABUTMENT;PIER;PYLON;CROSS_BRACING;DECK;MAST;SIGNALASSEMBLY;GRID;SHELTER;SUPPORTINGASSEMBLY;SUSPENSIONASSEMBLY;TRACTION_SWITCHING_ASSEMBLY;TRACKPANEL;TURNOUTPANEL;DILATATIONPANEL;RAIL_MECHANICAL_EQUIPMENT_ASSEMBLY;ENTRANCEWORKS;SUMPBUSTER;TRAFFIC_CALMING_DEVICE;DUCTBANK;UMBRELLAVAULT"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+        <Equal>4</Equal>
+        <Equal>5</Equal>
+        <Equal>6</Equal>
+        <Equal>7</Equal>
+        <Equal>8</Equal>
+        <Equal>9</Equal>
+        <Equal>10</Equal>
+        <Equal>11</Equal>
+        <Equal>12</Equal>
+        <Equal>13</Equal>
+        <Equal>14</Equal>
+        <Equal>15</Equal>
+        <Equal>16</Equal>
+        <Equal>17</Equal>
+        <Equal>18</Equal>
+        <Equal>19</Equal>
+        <Equal>20</Equal>
+        <Equal>21</Equal>
+        <Equal>22</Equal>
+        <Equal>23</Equal>
+        <Equal>24</Equal>
+        <Equal>25</Equal>
+        <Equal>26</Equal>
+        <Equal>27</Equal>
+        <Equal>28</Equal>
+        <Equal>29</Equal>
+        <Equal>30</Equal>
+        <Equal>31</Equal>
+        <Equal>32</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcElementAssemblyType" ScopeNames = "AecElementAssemblyType SignageArmCantileverType SignageHighMastType SignageOtherElementType SignageOverheadStructureType SignagePoleType" Uuid = "192c2951-73c0-4ebc-895b-604242835050">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcElementAssemblyType_Tag" Protection = "Free" Type = "String" Uuid = "192c2951-73c0-4ebc-895b-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcElementAssemblyType_ElementType" Protection = "Free" Type = "String" Uuid = "192c2951-73c0-4ebc-895b-4fccfb51960c"/>
+    <Simple CAAExposition = "L0" DefaultValue = "11" Name = "IfcElementAssemblyType_PredefinedType" Protection = "Free" Type = "Integer" Uuid = "5fb5e4cf-f72d-45ac-b6de-71e332f287d5">
+      <Property Name = "RangeAsEnumName" Value = "IfcElementAssemblyTypeEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "ACCESSORY_ASSEMBLY;ARCH;BEAM_GRID;BRACED_FRAME;GIRDER;REINFORCEMENT_UNIT;RIGID_FRAME;SLAB_FIELD;TRUSS;USERDEFINED;NOTDEFINED;ABUTMENT;PIER;PYLON;CROSS_BRACING;DECK;MAST;SIGNALASSEMBLY;GRID;SHELTER;SUPPORTINGASSEMBLY;SUSPENSIONASSEMBLY;TRACTION_SWITCHING_ASSEMBLY;TRACKPANEL;TURNOUTPANEL;DILATATIONPANEL;RAIL_MECHANICAL_EQUIPMENT_ASSEMBLY;ENTRANCEWORKS;SUMPBUSTER;TRAFFIC_CALMING_DEVICE;DUCTBANK;UMBRELLAVAULT"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+        <Equal>4</Equal>
+        <Equal>5</Equal>
+        <Equal>6</Equal>
+        <Equal>7</Equal>
+        <Equal>8</Equal>
+        <Equal>9</Equal>
+        <Equal>10</Equal>
+        <Equal>11</Equal>
+        <Equal>12</Equal>
+        <Equal>13</Equal>
+        <Equal>14</Equal>
+        <Equal>15</Equal>
+        <Equal>16</Equal>
+        <Equal>17</Equal>
+        <Equal>18</Equal>
+        <Equal>19</Equal>
+        <Equal>20</Equal>
+        <Equal>21</Equal>
+        <Equal>22</Equal>
+        <Equal>23</Equal>
+        <Equal>24</Equal>
+        <Equal>25</Equal>
+        <Equal>26</Equal>
+        <Equal>27</Equal>
+        <Equal>28</Equal>
+        <Equal>29</Equal>
+        <Equal>30</Equal>
+        <Equal>31</Equal>
+        <Equal>32</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Comment>IfcElementQuantity is not generated since abstract</Comment>
+  <Comment>IfcElementType is not generated since abstract</Comment>
+  <Comment>IfcGroup is not generated since abstract</Comment>
+  <Comment>IfcObject is not generated since abstract</Comment>
+  <Comment>IfcObjectDefinition is not generated since abstract</Comment>
+  <Comment>IfcPositioningElement is not generated since abstract</Comment>
+  <Comment>IfcProduct is not generated since abstract</Comment>
+  <Extension CustomerExposition = "Programmer" Name = "IfcProject" ScopeNames = "AecProject" Uuid = "db8c4401-b847-4024-90bd-b45d886ecbb2">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcProject_ObjectType" Protection = "Free" Type = "String" Uuid = "db8c4401-b847-4024-90bd-39c71eb830fb"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcProject_LongName" Protection = "Free" Type = "String" Uuid = "db8c4401-b847-4024-90bd-52b927c633d5"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcProject_Phase" Protection = "Free" Type = "String" Uuid = "db8c4401-b847-4024-90bd-9b43732155e1"/>
+  </Extension>
+  <Comment>IfcPropertyDefinition is not generated since abstract</Comment>
+  <Comment>IfcPropertySet is not generated since abstract</Comment>
+  <Comment>IfcPropertySetDefinition is not generated since abstract</Comment>
+  <Comment>IfcQuantitySet is not generated since abstract</Comment>
+  <Comment>IfcRoot is not generated since abstract</Comment>
+  <Comment>IfcSpatialElement is not generated since abstract</Comment>
+  <Comment>IfcSpatialElementType is not generated since abstract</Comment>
+  <Extension CustomerExposition = "Programmer" Name = "IfcSpatialZone" ScopeNames = "AecSpatialZone" Uuid = "09297EC7-E2F1-4E0E-AFFD-5AD491D8D930">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcSpatialZone_ObjectType" Protection = "Free" Type = "String" Uuid = "09297EC7-E2F1-4E0E-AFFD-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcSpatialZone_LongName" Protection = "Free" Type = "String" Uuid = "09297EC7-E2F1-4E0E-AFFD-47d2c9dc49ee"/>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcSpatialZone_PredefinedType" Protection = "Free" Type = "String" Uuid = "A957A8AE-582C-4B88-9ECC-08B4B360F5B7">
+      <Range>
+        <Equal>CONSTRUCTION</Equal>
+        <Equal>FIRESAFETY</Equal>
+        <Equal>LIGHTING</Equal>
+        <Equal>OCCUPANCY</Equal>
+        <Equal>SECURITY</Equal>
+        <Equal>THERMAL</Equal>
+        <Equal>TRANSPORT</Equal>
+        <Equal>VENTILATION</Equal>
+        <Equal>RESERVATION</Equal>
+        <Equal>INTERFERENCE</Equal>
+        <Equal>MAPPEDZONE</Equal>
+        <Equal>TESTEDZONE</Equal>
+        <Equal>COMPARTMENT</Equal>
+        <Equal>ANNULARGAP</Equal>
+        <Equal>CLEARANCE</Equal>
+        <Equal>INSTALLATION</Equal>
+        <Equal>INTERIOR</Equal>
+        <Equal>INVERT</Equal>
+        <Equal>LINING</Equal>
+        <Equal>SERVICE</Equal>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcSpatialZoneType" ScopeNames = "AecSpatialZoneType" Uuid = "477E4AC4-7D90-4EC6-8E1E-6EF164D7D8C1">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcSpatialZoneType_Tag" Protection = "Free" Type = "String" Uuid = "477E4AC4-7D90-4EC6-8E1E-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcSpatialZoneType_ElementType" Protection = "Free" Type = "String" Uuid = "477E4AC4-7D90-4EC6-8E1E-d84421a52c4a"/>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcSpatialZoneType_PredefinedType" Protection = "Free" Type = "String" Uuid = "C19D8186-E037-4B60-88A8-E90F3587EA9E">
+      <Range>
+        <Equal>CONSTRUCTION</Equal>
+        <Equal>FIRESAFETY</Equal>
+        <Equal>LIGHTING</Equal>
+        <Equal>OCCUPANCY</Equal>
+        <Equal>SECURITY</Equal>
+        <Equal>THERMAL</Equal>
+        <Equal>TRANSPORT</Equal>
+        <Equal>VENTILATION</Equal>
+        <Equal>RESERVATION</Equal>
+        <Equal>INTERFERENCE</Equal>
+        <Equal>MAPPEDZONE</Equal>
+        <Equal>TESTEDZONE</Equal>
+        <Equal>COMPARTMENT</Equal>
+        <Equal>ANNULARGAP</Equal>
+        <Equal>CLEARANCE</Equal>
+        <Equal>INSTALLATION</Equal>
+        <Equal>INTERIOR</Equal>
+        <Equal>INVERT</Equal>
+        <Equal>LINING</Equal>
+        <Equal>SERVICE</Equal>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcSpatialZoneType_LongName" Protection = "Free" Type = "String" Uuid = "1913D7B8-C32B-48D7-B178-185AF6C6561F"/>
+  </Extension>
+  <Comment>IfcSystem is not generated since abstract</Comment>
+  <Comment>IfcTypeObject is not generated since abstract</Comment>
+  <Comment>IfcTypeProduct is not generated since abstract</Comment>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_LinearPlacementInformation" ScopeNames = "VPMReference" Uuid = "b7bb22a3-fae4-4721-837e-1fcd96244387">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_LinearPlacementInformation_DistanceAlong" Protection = "Free" Type = "Double" Uuid = "3067f369-e65f-4200-bf6b-4aab4dfda13d"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_LinearPlacementInformation_OffsetLateral" Protection = "Free" Type = "Double" Uuid = "5682ac75-6910-47dc-8713-f3b120a2afd6"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_LinearPlacementInformation_OffsetVertical" Protection = "Free" Type = "Double" Uuid = "549bc676-f7ac-4438-be77-22966e3d4261"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_LinearPlacementInformation_OffsetLongitudinal" Protection = "Free" Type = "Double" Uuid = "a38781cc-225d-4237-acae-5a0db28994e5"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_LocationInBuilding" ScopeNames = "AecElement AecElementType VPMReference" Uuid = "4f093ba4-f93c-47f5-8d05-6f6d9a6218a9" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_LocationInBuilding_Building" Protection = "Free" Type = "String" Uuid = "9ea6180a-bf63-4811-bed2-4fdbbdd3acf5"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_LocationInBuilding_Storey" Protection = "Free" Type = "String" Uuid = "a9a2a474-fe33-4747-b8d9-ca7017697007"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_LocationInBuilding_Space" Protection = "Free" Type = "String" Uuid = "f4d88ee1-8999-4eb0-91ad-7c064c75940e"/>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcPset_DS_LocationInBuilding_Facade" Protection = "Free" Type = "String" Uuid = "99ab4d8b-a12b-4ae7-a894-b47696c17c64">
+      <Range>
+        <Equal>NOTDEFINED</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NORTH</Equal>
+        <Equal>NORTH_EAST</Equal>
+        <Equal>NORTH_WEST</Equal>
+        <Equal>SOUTH</Equal>
+        <Equal>SOUTH_EAST</Equal>
+        <Equal>SOUTH_WEST</Equal>
+        <Equal>EAST</Equal>
+        <Equal>WEST</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_ElementAssemblyCommon" ScopeNames = "AecElementAssembly AecElementAssemblyType" Uuid = "69ABEEAA-67A2-428F-B2D2-07A0B323B06E">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_ElementAssemblyCommon_Reference" Protection = "Free" Type = "String" Uuid = "30186C37-287A-4163-8B21-420751E608D4"/>
+    <Simple CAAExposition = "L0" DefaultValue = "UNSET" MaxLength = "255" Name = "IfcPset_ElementAssemblyCommon_Status" Protection = "Free" Type = "String" Uuid = "D78814B4-7075-4852-95CA-4837F2D2CD92">
+      <Range>
+        <Equal>NEW</Equal>
+        <Equal>EXISTING</Equal>
+        <Equal>DEMOLISH</Equal>
+        <Equal>TEMPORARY</Equal>
+        <Equal>OTHER</Equal>
+        <Equal>NOTKNOWN</Equal>
+        <Equal>UNSET</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_SpatialZoneCommon" ScopeNames = "AecSpatialZone" Uuid = "1606df53-4c35-448a-932d-cd73e9151f67">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_SpatialZoneCommon_Reference" Protection = "Free" Type = "String" Uuid = "8519a78f-59b7-4e0d-8634-ce85a78ba87c"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_SpatialZoneCommon_IsExternal" Protection = "Free" Type = "String" Uuid = "a9d07195-5b07-4243-992e-402b14b80d67"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_DS_Quantity" ScopeNames = "VPMReference" Uuid = "8a235766-f0a7-438b-b7eb-337b663a6cbb">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_DS_Quantity_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "8a235766-f0a7-438b-b7eb-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_DS_Quantity_Quantity" Protection = "Free" Type = "String" Uuid = "aa0b7674-0c08-4eed-bf69-b6d993a93d04"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_DS_SpatialZoneBaseQuantities" ScopeNames = "AecSpatialZone AecSpatialZoneType" Uuid = "F12E1958-F71C-49DE-BA5E-7D5C31F1DA42">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_DS_SpatialZoneBaseQuantities_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "F12E1958-F71C-49DE-BA5E-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Magnitude = "AREA" Name = "IfcQto_DS_SpatialZoneBaseQuantities_FootPrintArea" Protection = "Free" Type = "Double" Uuid = "F04FE51D-AB9A-4192-9FFD-F380405DD717"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_SpatialZoneBaseQuantities" ScopeNames = "AecSpatialZone" Uuid = "8c903d72-c38d-4c87-adad-e874603eed35">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_SpatialZoneBaseQuantities_Length" Protection = "Free" Type = "Double" Uuid = "85e734aa-40a6-498a-adde-5faa3e39419a"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_SpatialZoneBaseQuantities_Width" Protection = "Free" Type = "Double" Uuid = "c9a066d5-62d5-4af3-adaf-f5ca8d501dec"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_SpatialZoneBaseQuantities_Height" Protection = "Free" Type = "Double" Uuid = "9107cd31-4bf8-441a-a5d4-a80779e0efdd"/>
+  </Extension>
+</Package>

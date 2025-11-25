@@ -1,0 +1,208 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsrsc:Warehouse",
+				"ParentType": "PLMReference",
+				"IsAbstract": false,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "ResourceWarehouseReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "ResourceWarehouseReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:WarehouseLocation",
+				"ParentType": "PLMReference",
+				"IsAbstract": false,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "ResourceWarehouseLocationReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "ResourceWarehouseLocationReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+				{
+                        "ConceptualName": "estimatedVolume",
+                        "Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.WarehouseLocationAttributeEstimatedVolumeTransform"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.WarehouseLocationAttributeEstimatedVolumeTransform"
+                            }
+                        ],
+                        "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.checkers.ResourceWarehouseLocationEstimatedVolumeChecker"
+                            }
+                        ]
+                 	},
+                 	{
+                        "ConceptualName": "volume",
+                        "State": "FORBIDDEN",
+                        "Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.WarehouseLocationAttributeVolumeTransform"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.WarehouseLocationAttributeVolumeTransform"
+                            }
+                        ]
+                 	},
+                 	{
+                        "ConceptualName": "aisle",
+                        "ModelerMapping": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Mapping": "ResourceWarehouseLocationReference.V_Aisle"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Mapping": "bo.ResourceWarehouseLocationReference.V_Aisle"
+                            }
+                        ]
+                    },
+                    {
+                        "ConceptualName": "row",
+                        "ModelerMapping": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Mapping": "ResourceWarehouseLocationReference.V_Row"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Mapping": "bo.ResourceWarehouseLocationReference.V_Row"
+                            }
+                        ]
+                    },
+                    {
+                        "ConceptualName": "tier",
+                        "ModelerMapping": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Mapping": "ResourceWarehouseLocationReference.V_Tier"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Mapping": "bo.ResourceWarehouseLocationReference.V_Tier"
+                            }
+                        ]
+                    },
+                    {
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+               ]
+			},
+			{
+				"ConceptualName": "dsrsc:WarehouseInstance",
+				"ParentType": "PLMInstance",
+				"IsAbstract": false,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "VPMInstance",
+						"Behavior": "INSTANCE"
+						
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "VPMInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:WarehouseLocationInstance",
+				"ParentType": "PLMInstance",
+				"IsAbstract": false,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "SPP_SpaceInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "SPP_SpaceInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

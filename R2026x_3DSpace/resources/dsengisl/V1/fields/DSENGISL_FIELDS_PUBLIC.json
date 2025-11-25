@@ -1,0 +1,164 @@
+{
+  
+  "dsmvengisl:attribute.insulation.insulationtype": {
+    "property": "attribute[Insulation.V_InsulationType]",
+    "key": "insulationtype",
+    "label": "dsengisl.Label.Attribute.InsulationType",
+    "example": "",
+    "description": "Insulation type",
+    "index": "ds6wg:Insulation.V_InsulationType"
+  },
+ 
+  "dsmvengisl:attribute.insulation.insulationthickness": {
+    "property": "attribute[Insulation.V_InsulationThickness]",
+    "key": "insulationthickness",
+    "label": "dsengisl.Label.Attribute.InsulationThickness",
+    "example": "",
+    "description": "Insulation thickness",
+    "index": "ds6wg:Insulation.V_InsulationThickness"
+  },
+ 
+  "dsmvengisl:attribute.insulation.length": {
+    "property": "attribute[Insulation.V_Length]",
+    "key": "length",
+    "label": "dsengisl.Label.Attribute.Length",
+    "example": "",
+    "description": "Length",
+    "index": "ds6wg:Insulation.V_Length"
+  },
+
+  "dsmvengisl:attribute.insulation.linearweight": {
+    "property": "attribute[Insulation.V_Linearweight]",
+    "key": "linearweight",
+    "label": "dsengisl.Label.Attribute.LinearWeight",
+    "example": "",
+    "description": "Linear weight",
+    "index": "ds6wg:Insulation.V_Linearweight"
+  },
+
+  "dsmvengisl:attribute.insulation.mintemperature": {
+    "property": "attribute[Insulation.V_MinTemperature]",
+    "key": "mintemperature",
+    "label": "dsengisl.Label.Attribute.MinTemperature",
+    "example": "",
+    "description": "Minimum temperature",
+    "index": "ds6wg:Insulation.V_MinTemperature"
+  },
+ 
+  "dsmvengisl:attribute.insulation.maxtemperature": {
+    "property": "attribute[Insulation.V_MaxTemperature]",
+    "key": "maxtemperature",
+    "label": "dsengisl.Label.Attribute.MaxTemperature",
+    "example": "",
+    "description": "Maximum temperature",
+    "index": "ds6wg:Insulation.V_MaxTemperature"
+  },
+  
+  "dsmvengisl:attribute.insulation.materialname": {
+    "property": "attribute[Insulation.V_MaterialName]",
+    "key": "materialname",
+    "label": "dsengisl.Label.Attribute.MaterialName",
+    "example": "",
+    "description": "Material name",
+    "index": "ds6wg:Insulation.V_MaterialName"
+  },
+  
+  "dsmvengisl:attribute.insulation.instanciationrule": {
+    "property": "attribute[Insulation.V_InstanciationRule]",
+    "key": "instanciationrule",
+    "label": "dsengisl.Label.Attribute.InstanciationRule",
+    "example": "",
+    "description": "Instanciation rule",
+    "index": "ds6wg:Insulation.V_InstanciationRule"
+  },
+  
+  "dsmvengisl:attribute.insulation.realizationtype": {
+    "property": "attribute[Insulation.V_RealizationType]",
+    "key": "realizationtype",
+    "label": "dsengisl.Label.Attribute.RealizationType",
+    "example": "",
+    "description": "Realization type",
+    "index": "ds6wg:Insulation.V_RealizationType"
+  },
+
+  "dsmvengisl:attribute.insulation.equivalentsize": {
+    "property": "attribute[Insulation.V_EquivalentSize]",
+    "key": "equivalentsize",
+    "label": "dsengisl.Label.Attribute.EquivalentSize",
+    "example": "",
+    "description": "Equivalent size",
+    "index": "ds6wg:Insulation.V_EquivalentSize"
+  },
+ 
+  "dsmvengisl:attribute.insulation.equivalentdimension": {
+    "property": "attribute[Insulation.V_EquivalentDimension]",
+    "key": "equivalentdimension",
+    "label": "dsengisl.Label.Attribute.EquivalentDimension",
+    "example": "",
+    "description": "Equivalent dimension",
+    "index": "ds6wg:Insulation.V_EquivalentDimension"
+  },
+
+  "dsmvengisl:attribute.insulation.categories": {
+    "property": "attribute[Insulation.V_Categories]",
+    "key": "categories",
+    "label": "dsengisl.Label.Attribute.Categories",
+    "example": "",
+    "description": "Categories",
+    "index": "ds6wg:Insulation.V_Categories"
+  },
+
+  "dsmvengisl:attribute.insulation.thermalconductivity": {
+    "property": "attribute[Insulation.V_ThermalConductivity]",
+    "key": "thermalconductivity",
+    "label": "dsengisl.Label.Attribute.ThermalConductivity",
+    "example": "",
+    "description": "Thermal conductivity",
+    "index": "ds6wg:Insulation.V_ThermalConductivity"
+  },
+
+  "dsmvengisl:attribute.insulation.natualfrequency": {
+    "property": "attribute[Insulation.V_NatualFrequency]",
+    "key": "natualfrequency",
+    "label": "dsengisl.Label.Attribute.NatualFrequency",
+    "example": "",
+    "description": "Natual frequency",
+    "index": "ds6wg:Insulation.V_NatualFrequency"
+  },
+  
+  "dsmvengisl:attribute.insulation.minbendradius": {
+    "property": "attribute[Insulation.V_MinBendRadius]",
+    "key": "minbendradius",
+    "label": "dsengisl.Label.Attribute.MinBendRadius",
+    "example": "",
+    "description": "Minimum bend radius",
+    "index": "ds6wg:Insulation.V_MinBendRadius"
+  },
+
+  "dsmvengisl:attribute.insulation.flexibility": {
+    "property": "attribute[Insulation.V_Flexibility]",
+    "key": "flexibility",
+    "label": "dsengisl.Label.Attribute.Flexibility",
+    "example": "",
+    "description": "Flexibility",
+    "index": "ds6wg:Insulation.V_Flexibility"
+  },  
+ 
+ "dsmvengisl:attribute.insulation.size": {
+    "property": "attribute[Piping_Insulation.V_NominalSize,HVAC_Insulation.V_EquivalentDiameter]",
+    "key": "size",
+    "example": "",
+    "description": "Nominal size or equivalent diameter",
+    "label": "dsengisl.Label.Attribute.Size",
+    "index": "ds6wg:Piping_Insulation.V_NominalSize,ds6wg:HVAC_Insulation.V_EquivalentDiameter"
+  },
+  
+  "dsmvengisl:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+  
+}

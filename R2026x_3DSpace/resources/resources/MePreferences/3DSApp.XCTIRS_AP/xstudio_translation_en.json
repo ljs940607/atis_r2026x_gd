@@ -1,0 +1,14 @@
+{
+  "General.Title": "Preview Rendering",
+  "General.autoLPR.Label": "Enable automatically",
+  "Camera.Title": "Canvas",
+  "Camera.aspectRatioPreset.Label": "Default preset",
+  "xStudioApp.aspectRatioPreset.Web.Label": "Standard Web",
+  "xStudioApp.aspectRatioPreset.Ecommerce.Label": "E-Commerce",
+  "xStudioApp.aspectRatioPreset.SocialMedia.Label": "Social Media",
+  "xStudioApp.aspectRatioPreset.AutoFit.Label": "Auto-Fit",
+  "xStudioApp.aspectRatioPreset.Custom.Label": "User Defined",
+  "Camera.customRatio.Title": "Default User Defined Resolution",
+  "Camera.customRatio.customRatioWidth.Label": "Width",
+  "Camera.customRatio.customRatioHeight.Label": "Height"
+}

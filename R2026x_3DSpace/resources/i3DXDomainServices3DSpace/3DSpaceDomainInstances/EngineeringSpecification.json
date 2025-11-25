@@ -1,0 +1,24 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "EngineeringSpecification",
+  "description": "The domain instance for Engineering Specification in 3DSpace",
+  "packages": [
+    "PLMElectrical_EngSpecification",
+    "PLMEngSpecBasicObjects",
+    "PLMEnsEngSpecification",
+    "PLMEnsSpecCnxFilterBuiltFrom",
+    "PLMEnsSpecCnxFilterExtensionDef",
+    "PLMEnsSpecCnxLogicalToSpec",
+    "PLMEnsSpecCnxTableBuiltFrom",
+    "PLMEnsSpecCnxTableThroughFilter",
+    "PLMEnsSpecPartsFilter",
+    "PLMEnsSpecSpecification",
+    "PLMEnsSpecTechnoTable",
+    "PLMEnsSpecTechnoTableFilter",
+    "PLMEquipment_EngSpecification",
+    "PLMFastening_EngSpecification",
+    "PLMHangerSupport_EngSpecification",
+    "PLMHVAC_EngSpecification",
+    "PLMSpaceAllocation_EngSpecification"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "attributes": {
+                        "type": "object",
+                        "properties": {
+                            "subtype": {
+                                "type": "string",
+                                "example": "SubType_A"
+                            },
+                            "predefinedpartnumber": {
+                                "type": "string",
+                                "example": "3DEqtShellCnctPt"
+                                },
+                            "direction": {
+                                "type": "integer",
+                                "example": 1
+                                }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

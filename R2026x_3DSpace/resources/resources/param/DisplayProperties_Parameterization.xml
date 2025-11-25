@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DisplayProperties" regSuite="DisplayPropertiesParams">
+		<Family id="DisplayUnits">
+			<Parameter id="DisplayUnitsParam" implementation= "com.dassault_systemes.displayproperties.parameterization.handler.DisplayPropertiesParamXPHandler">
+			</Parameter>
+		</Family>
+		<Family id="NLSValuesTypesAndAttributes">
+			<Parameter id="NLSValuesTypesAndAttriutesParam" implementation= "com.dassault_systemes.displayproperties.parameterization.handler.DisplayPropertiesParamXPHandler">
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

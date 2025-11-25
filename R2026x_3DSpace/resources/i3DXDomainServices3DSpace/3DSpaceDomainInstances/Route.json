@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "Route",
+    "description"    : "The domain instance for Route in 3DSpace",
+    "packages"       : ["Route"]
+}

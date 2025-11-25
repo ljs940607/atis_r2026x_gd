@@ -1,0 +1,15 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Knowledgeware",
+    "description": "Knowledgeware",
+    "packages": [
+        "PLMKbaAppliComponent",
+        "PLMKbaAppliConfig",
+        "PLMKbaAppliElement",
+        "PLMKbaAppliResourcesZip",
+        "PLMKbaApplication",
+        "PLMKnowledgeReplay",
+        "PLMKnowledgeTemplate",
+        "PLMKnowledgewareDiscipline"
+    ]
+}

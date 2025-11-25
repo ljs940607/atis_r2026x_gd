@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2015, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+    ModelerType="Top" 
+    BelongsToModeler="PRODUCT" 
+    Name="CAATechAbstractRep"
+    Uuid="58b99427-4873-4688-8d9b-5b985b81bac1"
+    UseNames="PRODUCTDiscipline"
+    CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>CAATechAbstractRep Package</ShortRole>
+    <Role>Abstract types for testing only do not,use internal usage.</Role>
+  </CAAComment>
+
+  <Class Name="CAATechnologicalAbstractRepresentation"
+      Uuid="775793f4-cd19-436b-b0f8-f74b97b15753"
+      Abstract="Yes"
+      SuperName="CAATechnologicalRepresentation"
+      Discipline="Yes"
+      CustomerExposition="ProgrammerOnly"
+      Searchable="No"
+	  ObjectNature="MayBeAggregated">
+    <Property Name="IsRepCompositionActivated"            Value="Yes"/>         <!-- Activate Rep Composition STEP1                                   -->
+
+	  <!-- PROCEDURES Declaration  -->
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    
+  </Class>
+
+  <!-- ********************************************************* -->
+  
+</Package>
+

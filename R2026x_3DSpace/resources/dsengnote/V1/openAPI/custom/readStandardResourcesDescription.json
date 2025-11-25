@@ -1,0 +1,40 @@
+{
+  "description": "Standard resources referenced by this Engineering Note Template",
+  "type": "object",
+  "properties": {
+    "totalItems": {
+      "description": "number of referenced standard resource",
+      "type": "integer",
+      "example": 1
+    },
+    "referencedObjects": {
+      "description": "properties describing one standard resource",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "description": "source",
+            "type": "string",
+            "example": "$3DSpace"
+          },
+          "type": {
+            "description": "type",
+            "type": "string",
+            "example": "Raw_Material"
+          },
+          "id": {
+            "description": "identifier in database",
+            "type": "string",
+            "example": "EE562168015FFCF14F940A513C63AA77"
+          },
+          "relativePath": {
+            "description": "relative path of standard resource object",
+            "type": "string",
+            "example": "resource/v1/dsrm/dsrm:RawMaterial/EE562168015FFCF14F940A513C63AA77"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "relations": [
+    {
+      "name": "Artwork_Packet_Content_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Artwork Packet Content"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artwork_Packet_Content_from",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Artwork Packet Content"
+              },
+              "direction": "from"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final_Art_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Final Art"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final_Art_from",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Final Art"
+              },
+              "direction": "from"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Print_Ready_Artwork_File_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Print_Ready_Artwork_File"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Print_Ready_Artwork_File_from",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Print_Ready_Artwork_File"
+              },
+              "direction": "from"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HasLanguage_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "HasLanguage"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ApplicableForCountry_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "ApplicableForCountry"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

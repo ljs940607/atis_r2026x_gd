@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY for E/E Editor -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, all rights reserved -->
+
+<Package Name="SoftwareArchitecture3"
+	Uuid="68191042-E622-4c66-817B-3E1FB498B9A9"
+	xmlns="PLMDictionaryUnified"
+	ModelerType="Top"
+	BelongsToModeler="SoftwareArchitecture"
+	CustomerExposition="Programmer"
+	UseNames="RFLVPMLogical RFLVPMLogicalServices RFLVPMLogicalInterfaceRep RFLVPMSystemType SoftwareArchitecture1">
+	
+	<CAAComment>
+        <ShortRole>Software Architecture Package</ShortRole>
+        <Role>This package describes the PLM Software Architecture package on top of RFLVPMLogical Modeler.</Role>
+	</CAAComment>
+	<Comment>Initial creation: A58 Feb 2012</Comment>
+	<Property Name="OptionalInstallation" Value="Yes" /> 
+<!-- ************************** -->
+<!-- EEClientServerInterface : RFLVPMServicesReference  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEClientServerInterface"
+		Uuid="ACFAFE2D-FD81-4fc7-957C-AF2013AF63CF"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="RFLVPMServicesReference"
+		CreateInstName="EEClientServerPortPrototype"
+		Abbreviation="eecsi">
+		<Property Name="IconName" Value="EEClientServerInterface"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEClientServerPortPrototype"/>
+		<Property Name="AggregatableTypes" Value="EEOperationType,EEApplicationErrorType"/>
+
+		<Simple Name="queueLength"
+			Uuid="3937F12E-4479-4ef7-B948-81944CCACCF9"
+			Type="Integer"
+			DefaultValue="0"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple Name="isSynchronous"
+			Uuid="18B6D23C-C7A9-4813-8784-04D652737D83"
+			Type="Boolean"
+			DefaultValue="true"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple
+			Name="V_EE_MessageSizeMax"
+			Uuid="3258b36e-04e1-4e15-80ac-8cd9854e4938"
+			Type="Integer"
+			DefaultValue="0"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple
+			Name="V_EE_MessageNbMax"
+			Uuid="d1b5fea5-bfb6-46a0-b5cc-c709db0f728a"
+			Type="Integer"
+			DefaultValue="0"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+	</Class>
+<!-- **************************************************** -->
+<!-- *  EEClientServerInterfaceRep :  RFLVPMLogicalInterfaceRepReference  * -->
+<!-- **************************************************** -->
+	<Class Name="EEClientServerInterfaceRep" 
+		Uuid="266A5591-76C0-4305-A246-DED8EDB6F9B8" 
+		SuperName="RFLVPMLogicalInterfaceRepReference" 
+		CreateInstName="RFLVPMLogicalInterfaceRepInstance"
+		CustomerExposition="Programmer"
+		Specializable="Yes"
+		InstantiationOwnerTypes="EEClientServerInterface"
+		Discipline="Yes">
+		<CAAComment>
+			<ShortRole>ClientServer Rep Reference Object</ShortRole>
+			<Role>ClientServer Rep Reference Object</Role>
+		</CAAComment>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+	   	<Property Name="KweNew_ReturnedType" Value="RFLVPMLogicalInterfaceRepInstance"/>
+	</Class>
+  <!-- **************************************************** -->
+  <!-- *  EEClientServerPortPrototype :  RFLVPMServicesExpositionInstance  * -->
+  <!-- **************************************************** -->
+  <RelationClass
+		Name="EEClientServerPortPrototype"
+		Uuid="3A6011F2-0868-459c-90FF-0F5C6983EED7"
+		SuperName="RFLVPMServicesExpositionInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEClientServerPortPrototype"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEClientServerPortPrototype"/>
+	<Simple Name="V_EE_SWInterfaceModeEnum"
+			Uuid="9e384fb0-ba2c-4aa7-a224-28a8aadce595" 
+			Protection="Free"
+			Type="String" 
+			DefaultValue="None">
+		<Range>
+			<Equal>Queuing</Equal>
+			<Equal>Sampling</Equal>
+			<Equal>None</Equal>
+		</Range>
+	</Simple>
+	<Simple
+		Name="V_EE_MessageSizeMax"
+		Uuid="70ef03e3-9663-4714-a02c-ebb510926afd"
+		Type="Integer"
+		DefaultValue="0"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+	<Simple
+		Name="V_EE_MessageNbMax"
+		Uuid="c0924440-3dc1-402e-8ef2-d8bb76b8eab4"
+		Type="Integer"
+		DefaultValue="0"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+  </RelationClass>
+<!-- ************************** -->
+<!-- EEExecutableEntity : RFLVPMLogicalReference -->
+<!-- ************************** -->
+	<Class 
+		Name="EEExecutableEntity"
+		Uuid="0C5E17ED-143E-4bfc-8224-B92C37210603"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="RFLVPMLogicalReference"
+		InstantiationOwnerTypes="EEAtomicComponentType"
+		CreateInstName="RFLVPMLogicalInstance"
+		Abbreviation="eexen">
+		<Property Name="IconName" Value="EEExecutableEntity"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+	   	<Property Name="KweNew_ReturnedType" Value="RFLVPMLogicalInstance"/>
+		<Simple Name="WCET"
+			Uuid="645EE5EC-0616-45fc-9221-7B9831502A3C"
+			Type="Double"
+			DefaultValue="0"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple Name="minimalIntervalStart"
+			Uuid="9DF73443-5155-4cfa-94AB-B890132B2415"
+			Type="Double"
+			DefaultValue="0"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+	</Class>
+<!-- ************************** -->
+<!-- EEOperationType : RFLVPMSystemTypeReference  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEOperationType"
+		Uuid="F2838D10-3115-464A-909C-FD1478B4F378"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="RFLVPMSystemTypeReference"
+		CreateInstName="EEOperationPrototype"
+		Abbreviation="eeope">
+		<Property Name="IconName" Value="EEOperationType"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEOperationPrototype"/>
+	</Class>
+  <!-- **************************************************** -->
+  <!-- *  EEOperationPrototype : RFLVPMSystemTypeInstance * -->
+  <!-- **************************************************** -->
+  <RelationClass
+		Name="EEOperationPrototype"
+		Uuid="51DA5EE3-B6C5-44FF-8468-D21812D3CC28"
+		SuperName="RFLVPMSystemTypeInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEOperationPrototype"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEOperationPrototype"/>
+	<Simple Name="V_EE_MethodId"
+			Uuid="BC4EAE28-3AC9-41C4-A1A1-3C3EE1F2929C" 
+			Protection="Free"
+			Type="Integer" 
+			DefaultValue="0"
+			MultiValuated="No">
+	</Simple>
+  </RelationClass>
+<!-- ************************** -->
+<!-- EEApplicationErrorType : RFLVPMSystemTypeReference  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEApplicationErrorType"
+		Uuid="2A8B5FFF-0B2D-4C12-82F7-05D9B5FAB714"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="RFLVPMSystemTypeReference"
+		CreateInstName="EEOperationPrototype"
+		Abbreviation="eeerr">
+		<Property Name="IconName" Value="EEApplicationErrorType"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEApplicationErrorPrototype"/>
+		<Simple Name="V_EE_ErrorCode"
+				Uuid="2A2DF9F5-37A9-47D2-AB88-81B235D3B845" 
+				Protection="Free"
+				Type="Integer" 
+				DefaultValue="0"
+				MultiValuated="No">
+		</Simple>
+	</Class>
+<!-- **************************************************** -->
+<!-- *  EEApplicationErrorPrototype : RFLVPMSystemTypeInstance * -->
+<!-- **************************************************** -->
+  <RelationClass
+		Name="EEApplicationErrorPrototype"
+		Uuid="EF0CD23B-D26C-49A9-BC05-0DFCEBF6A3A1"
+		SuperName="RFLVPMSystemTypeInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEApplicationErrorPrototype"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEApplicationErrorPrototype"/>
+  </RelationClass>
+<!-- ************************** -->
+<!-- EEServiceInterface : RFLVPMSystemTypeReference  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEServiceInterface"
+		Uuid="7D922A05-0064-483F-8FF1-92AD1CCF67DF"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="RFLVPMSystemTypeReference"
+		CreateInstName="EEServicePortPrototype"
+		Abbreviation="eeser">
+		<Property Name="IconName" Value="EEClientServerInterface"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEServicePortPrototype"/>
+
+		<Simple Name="V_EE_ServiceInterfaceId"
+			Uuid="6F794586-49C0-44E8-84D9-1D53C76770CF"
+			Type="String"
+			DefaultValue=""
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple Name="V_EE_ServiceVersion"
+			Uuid="5592037D-95CD-40FE-8E61-61871A098F98"
+			Type="String"
+			DefaultValue=""
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple
+			Name="V_EE_TransportProtocol"
+			Uuid="C6ED6CCC-FB8A-475A-B22D-1183D5FF1AD7"
+			Type="String"
+			DefaultValue="Udp"
+			MultiValuated="No"
+			Protection="Free">
+			<Range>
+				<Equal>Udp</Equal>
+				<Equal>Tcp</Equal>
+			</Range>
+		</Simple>
+		<Simple
+			Name="V_EE_VLANId"
+			Uuid="6AF78794-83AE-4FC3-9394-1706E9A121E7"
+			Type="Integer"
+			DefaultValue="-1"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+		<Simple
+			Name="V_EE_VirtualLinkId"
+			Uuid="7521F2B0-F616-4557-BF78-93AE43DB2B82"
+			Type="Integer"
+			DefaultValue="-1"
+			MultiValuated="No"
+			Protection="Free">
+		</Simple>
+	</Class>
+<!-- **************************************************** -->
+<!-- *  EEServicePortPrototype :  RFLVPMServicesExpositionInstance  * -->
+<!-- **************************************************** -->
+  <RelationClass
+		Name="EEServicePortPrototype"
+		Uuid="28226E88-40E1-45FD-90A5-A75E6E6ECF17"
+		SuperName="RFLVPMServicesExpositionInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEServicePortPrototype"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEServicePortPrototype"/>
+	<Simple
+		Name="V_EE_PortNumber"
+		Uuid="DD7D6A4F-E70B-4035-9333-51FA98D7B286"
+		Type="Integer"
+		DefaultValue="0"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+	<Simple Name="V_EE_ServiceInstanceId"
+		Uuid="497DF2EB-2C55-430E-BE65-CE45B84872B2"
+		Type="String"
+		DefaultValue=""
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+  </RelationClass>
+<!-- ************************** -->
+<!-- EEArgument : EEVariableDataPrototype  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEArgument"
+		Uuid="2D96AFFF-21A7-486F-927A-6AD4AE8BE97D"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="EEVariableDataPrototype"
+		CreateInstName="EEArgumentPrototype"
+		Abbreviation="eearg">
+		<Property Name="IconName" Value="EEArgument"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEArgumentPrototype"/>
+	</Class>
+<!-- **************************************************** -->
+<!-- *  EEArgumentPrototype : EEVariableDataPrototypeInstance * -->
+<!-- **************************************************** -->
+  <RelationClass
+		Name="EEArgumentPrototype"
+		Uuid="A8C28B83-65E2-4DD0-B0CE-AB97F2C70F52"
+		SuperName="EEVariableDataPrototypeInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEArgumentPrototype"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEArgumentPrototype"/>
+	<Simple Name="V_EE_ArgDirection"
+		Uuid="50BB0210-4518-47B1-BA29-ABFB0B172F60" 
+		Protection="Free"
+		Type="String" 
+		DefaultValue="IN">
+		<Range>
+			<Equal>IN</Equal>
+			<Equal>INOUT</Equal>
+			<Equal>OUT</Equal>
+		</Range>
+	</Simple>
+  </RelationClass>
+  <!-- ************************** -->
+<!-- EEField : EEVariableDataPrototype  -->
+<!-- ************************** -->
+	<Class 
+		Name="EEField"
+		Uuid="708F5917-4972-4A45-A879-DF16261F8D0F"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes"
+		SuperName="EEVariableDataPrototype"
+		CreateInstName="EEFieldInstance"
+		Abbreviation="eearg">
+		<Property Name="IconName" Value="EEField"/>
+		<Property Name="Newable" Value="All"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Configurable" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="EEFieldInstance"/>
+	</Class>
+<!-- **************************************************** -->
+<!-- *  EEFieldInstance : EEVariableDataPrototypeInstance * -->
+<!-- **************************************************** -->
+  <RelationClass
+		Name="EEFieldInstance"
+		Uuid="DC1AE01C-D0B0-469A-A82B-0945C7EA5CAE"
+		SuperName="EEVariableDataPrototypeInstance"
+		Abstract="No"
+		Specializable="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Discipline="Yes">
+    <Property Name="IconName" Value="EEFieldInstance"/>
+    <Property Name="Newable" Value="Insert"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Filtrable" Value="Yes"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATELogDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="EEFieldInstance"/>
+	<Simple
+		Name="V_EE_HasGetter"
+		Uuid="CEF6B77F-4466-4AB5-927A-CB814DB09B39"
+		Type="Boolean"
+		DefaultValue="false"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+	<Simple
+		Name="V_EE_HasSetter"
+		Uuid="1221ED65-FFF4-4714-A6B2-6780E66A0DC5"
+		Type="Boolean"
+		DefaultValue="false"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+		<Simple
+		Name="V_EE_HasNotifier"
+		Uuid="C68B5863-95DD-4BDB-9EA9-4D5FAAA0D054"
+		Type="Boolean"
+		DefaultValue="false"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+		<Simple
+		Name="V_EE_GetterId"
+		Uuid="1151AD69-7F39-454D-972D-3AFA1ECAD937"
+		Type="Integer"
+		DefaultValue="-1"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+	<Simple
+		Name="V_EE_SetterId"
+		Uuid="9E943501-4068-4338-9CCE-A5EFEEEECF78"
+		Type="Integer"
+		DefaultValue="-1"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+		<Simple
+		Name="V_EE_NotifierId"
+		Uuid="D1CB3D1A-4C71-488A-9C9B-CDDED2B67685"
+		Type="Integer"
+		DefaultValue="-1"
+		MultiValuated="No"
+		Protection="Free">
+	</Simple>
+  </RelationClass>
+</Package>

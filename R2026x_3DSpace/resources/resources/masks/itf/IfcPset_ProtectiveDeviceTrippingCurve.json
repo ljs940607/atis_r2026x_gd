@@ -1,0 +1,9 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ProtectiveDeviceTrippingCurve_TrippingCurveType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "Traceability",
+    "description"    : "The domain instance for Traceability in 3DSpace",
+    "packages"       : ["RFLPLMImplementConnection","CatiaSystemsTraceability"]
+}

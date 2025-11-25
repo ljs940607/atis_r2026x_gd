@@ -1,0 +1,8 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "SystemModel",
+  "description": "The domain instance for System Models in 3DSpace",
+  "packages": [
+    "SystemModeler"
+  ]
+}

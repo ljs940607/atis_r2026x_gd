@@ -1,0 +1,570 @@
+{
+  "dsfst:SpotFastenerSingle": {
+    "attributeEditCheck": null,
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_SpotFastenerSingle",
+    "metaType": "SpotFastenerSingle",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstSpotFastenerSingleAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:SpotFastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:SimpleBeadFastener": {
+    "attributeEditCheck": null,
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_SimpleBeadFastener",
+    "metaType": "SimpleBeadFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstSimpleBeadFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:BeadFastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:UnifiedBeadFastener": {
+    "attributeEditCheck": null,
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_UnifiedBeadFastener",
+    "metaType": "UnifiedBeadFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstUnifiedBeadFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:BeadFastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:BundleFastener": {
+    "attributeEditCheck": null,
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_BundleFastener",
+    "metaType": "BundleFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBundleFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dsfst:BundleFastenerAbstract",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [
+      "dsfst:SpotInstance",
+      "dsfst:BeadInstance",
+      "dsfst:SpotInstanceFlexible"
+    ],
+    "extensionLinks": []
+  },
+  "dsfst:BundleFastenerSecondary": {
+    "attributeEditCheck": null,
+    "isPublic": false,
+    "kindOf": "root",
+    "beType": "type_BundleFastenerSecondary",
+    "metaType": "BundleFastenerSecondary",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBundleFastenerSecondaryAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dsfst:BundleFastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:SpotFastenerFlexible": {
+    "attributeEditCheck": null,
+    "isPublic": true,
+    "kindOf": "root",
+    "beType": "type_PLMFst_FlexibleFastenerReference",
+    "metaType": "PLMFst_FlexibleFastenerReference",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_FlexibleFastenerReferenceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:SpotFastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dsfst:PLMFst_FlexibleFastenerReferenceThicknessExt",
+      "dsfst:PLMFst_FlexibleReferenceToleranceExt",
+      "dsfst:PLMFst_FlexibleReferenceExtension"
+    ]
+  },
+  "dsfst:SpotFastener": {
+    "attributeEditCheck": null,
+    "isPublic": false,
+    "kindOf": "root",
+    "beType": "type_SpotFastener",
+    "metaType": "SpotFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstSpotFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:Fastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dsfst:PLMFst_SpotFastener"
+    ]
+  },
+  "dsfst:BeadFastener": {
+    "attributeEditCheck": null,
+    "isPublic": false,
+    "kindOf": "root",
+    "beType": "type_BeadFastener",
+    "metaType": "BeadFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBeadFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dsfst:Fastener",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dsfst:PLMFst_BeadFastener"
+    ]
+  },
+  "dsfst:BundleFastenerAbstract": {
+    "attributeEditCheck": null,
+    "isPublic": false,
+    "kindOf": "root",
+    "beType": "type_BundleFastenerAbstract",
+    "metaType": "BundleFastenerAbstract",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBundleFastenerAbstractAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dseng:EngItem",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:Fastener": {
+    "attributeEditCheck": null,
+    "isPublic": false,
+    "kindOf": "root",
+    "beType": "type_Fastener",
+    "metaType": "Fastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": true,
+    "parentType": "dseng:EngItem",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:FastenerInstance": {
+    "isPublic": false,
+    "kindOf": "content",
+    "beType": "relationship_FastenerInstance",
+    "metaType": "FastenerInstance",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstFastenerInstanceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dseng:EngInstance",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dscfg:Filterable",
+      "dscfg:ConfiguredInstance",
+      "dslc:changeControl"
+    ]
+  },
+  "dsfst:SpotInstance": {
+    "isPublic": true,
+    "kindOf": "content",
+    "beType": "relationship_SpotInstance",
+    "metaType": "SpotInstance",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstSpotInstanceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dsfst:FastenerInstance",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dsfst:DTPFExt",
+      "dsfst:EntryHoleExt",
+      "dsfst:TorqueExt",
+      "dsfst:InstallationOrientationConstraintExt"
+    ]
+  },
+  "dsfst:BeadInstance": {
+    "isPublic": true,
+    "kindOf": "content",
+    "beType": "relationship_BeadInstance",
+    "metaType": "BeadInstance",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBeadInstanceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dsfst:FastenerInstance",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": [
+      "dsfst:PLMFst_BeadFastenerInstance"
+    ]
+  },
+  "dsfst:BundleFastenerInstance": {
+    "isPublic": false,
+    "kindOf": "content",
+    "beType": "relationship_BundleFastenerInstance",
+    "metaType": "BundleFastenerInstance",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstBundleFastenerInstanceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dseng:EngInstance",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:SpotInstanceFlexible": {
+    "isPublic": true,
+    "kindOf": "content",
+    "beType": "relationship_PLMFst_FlexibleFastenerInstance",
+    "metaType": "SpotInstanceFlexible",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstSpotInstanceFlexibleAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": "dsfst:SpotInstance",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_SpotFastener": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_SpotFastener",
+    "metaType": "PLMFst_SpotFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_SpotFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_BeadFastener": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_BeadFastener",
+    "metaType": "PLMFst_BeadFastener",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_BeadFastenerAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_BeadFastenerInstance": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_BeadFastenerInstance",
+    "metaType": "PLMFst_BeadFastenerInstance",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_BeadFastenerInstanceAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:DTPFExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_Fsx_DTPFExt",
+    "metaType": "DTPFExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstDTPFExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:EntryHoleExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_Fsx_EntryHoleExt",
+    "metaType": "EntryHoleExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstEntryHoleExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:TorqueExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_Fsx_TorqueExt",
+    "metaType": "TorqueExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstTorqueExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:InstallationOrientationConstraintExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_Fsx_InstallationOrientationConstraintExt",
+    "metaType": "InstallationOrientationConstraintExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstInstallationOrientationConstraintExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_FlexibleFastenerReferenceThicknessExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_FlexibleFastenerReferenceThicknessExt",
+    "metaType": "PLMFst_FlexibleFastenerReferenceThicknessExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_FlexibleFastenerReferenceThicknessExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_FlexibleReferenceToleranceExt": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_FlexibleReferenceToleranceExt",
+    "metaType": "PLMFst_FlexibleReferenceToleranceExt",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_FlexibleReferenceToleranceExtAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  },
+  "dsfst:PLMFst_FlexibleReferenceExtension": {
+    "implementationClass": null,
+    "isPublic": false,
+    "kindOf": "extension",
+    "beType": "interface_PLMFst_FlexibleReferenceExtension",
+    "metaType": "PLMFst_FlexibleReferenceExtension",
+    "patchCSRF": true,
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsfst.V1.dictionaries.dsfstPLMFst_FlexibleReferenceExtensionAttributeDictionary",
+    "patchChangeLog": true,
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "parentType": null,
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false,
+      "defaultMask": null
+    },
+    "contentLinks": [],
+    "extensionLinks": []
+  }
+}

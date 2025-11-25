@@ -1,0 +1,9 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeCapacitor_NumberOfPhases",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

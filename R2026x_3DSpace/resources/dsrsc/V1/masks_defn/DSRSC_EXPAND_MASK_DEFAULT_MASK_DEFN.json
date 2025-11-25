@@ -1,0 +1,37 @@
+{
+	"rootMetaType"				: "dsrsc:Resource",
+	"addPathsToResponse"		: true,
+	"useConceptualNames"		: true,
+	"dsrsc:Resource": {
+		"mask"					: "dsmveno:DefaultBusMask.public",
+		"cestamp"				: true,
+		"fields"				: [ "dsmvrsc:program.getResourceType"
+									]
+	},
+	"dsrsc:ResourceInstance": {
+		"mask"					: "dsmvrsc:ResourceInstanceMask.Common",
+		"cestamp"				: true,
+		"fields"				: [ "dsrsc:instance.parent",
+							"dsrsc:instance.reference" ]
+	},
+	"dsrsc:Warehouse": {
+		"mask"			: "dsrsc:WarehouseMask.Default",
+		"cestamp"		: true
+	},
+	"dsrsc:WarehouseInstance": {
+		"mask"			: "dsrsc:WarehouseInstanceMask.Default",
+		"cestamp"		: true,
+		"fields"				: [ "dsrsc:instance.parent",
+							"dsrsc:instance.reference" ]
+	},
+	"dsrsc:WarehouseLocation": {
+		"mask"			: "dsrsc:WarehouseLocationMask.Default",
+		"cestamp"		: true
+	},
+	"dsrsc:WarehouseLocationInstance": {
+		"mask"			: "dsrsc:WarehouseLocationInstanceMask.Default",
+		"cestamp"		: true,
+		"fields"		: [ "dsrsc:instance.parent",
+							"dsrsc:instance.reference" ]
+	}
+}

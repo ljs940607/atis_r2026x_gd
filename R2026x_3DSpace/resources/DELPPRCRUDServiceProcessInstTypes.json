@@ -1,0 +1,104 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELLmiServiceWorkPlanSystemInstance",
+				"ParentType": "dsprcs:MfgProcessInstance",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiServiceWorkPlanSystemInstance",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDPPRSystemInstanceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiServiceWorkPlanSystemInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "serviceProcessRole",
+						"State": "FORBIDDEN",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceProcessRoleExt.V_OOTBRole"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.DELServiceProcessRoleExt.V_OOTBRole"
+							}
+						]
+					},
+					{
+						"ConceptualName": "custoServiceProcessRole",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceProcessRoleExt.V_CustoRole"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.DELServiceProcessRoleExt.V_CustoRole"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.DELServiceProcessRoleExtAttributeChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.DELServiceProcessRoleExtAttributeSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.index.tools.transform.DELCRUDCustomerAttributesIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maintenanceLevel",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.DELServiceMaintenanceLevelExt.V_MaintenanceLevel"
+							}
+						],
+						"Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ],
+                        "Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDExtensionAttribute3DSpaceTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

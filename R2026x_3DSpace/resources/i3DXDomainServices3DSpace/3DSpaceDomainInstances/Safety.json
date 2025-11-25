@@ -1,0 +1,13 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "Safety",
+  "description": "The domain instance for Safety in 3DSpace",
+  "packages": [
+    "CATSafety",
+    "CATSafetyFailureModesEffectsAnalysis",
+    "CATSafetyFaultTreeAnalysis",
+    "CATSafetySafetyCase",
+    "CATSafetyTestability",
+    "RAMSRequirement"
+  ]
+}

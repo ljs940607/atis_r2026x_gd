@@ -1,0 +1,59 @@
+{
+  "dsmvspp:DefaultBusMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvspp:BaseMask.utc"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    }
+  ],
+
+  "dsmvspp:BaseMask.utc": [
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc"
+  ],
+
+  "dsmvspp:SpaceConceptRootMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvspp:DefaultBusMask.utc"
+    }
+  ],
+
+  "dsmvspp:SpaceConceptRootMask.Children": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvspp:SpaceConceptRootMask.Default"
+    },
+    "dsmvspp:childrenSpaceReferences"
+  ],
+
+  "dsmvspp:SpaceReferenceMask.Default": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvspp:DefaultBusMask.utc"
+    }
+  ],
+
+  "dsmvspp:SpaceReferenceMask.Children": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvspp:SpaceReferenceMask.Default"
+    },
+    "dsmvspp:childrenSpaceReferences"
+  ],
+
+  "dsmvspp:SpaceAssignmentMask.Default": [
+    "dsmveno:basic.id",
+    "dsmvspp:spaceAssignment.connectedObject",
+    "dsmvspp:spaceAssignment.connectedSpace"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"properties": {
+		"expandDepth": {
+			"type": "integer",
+			"default": 1,
+			"example": 1,
+			"description": "Number of levels to be expanded. By default only first level is expanded. If -1 then expands all levels"
+		},
+		"withPath": {
+			"type": "boolean",
+			"example": true,
+			"default": true,
+			"description": "If set return the occurence path of its children"
+		}
+	}
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+    ModelerType="Top" 
+    Name="SWWeldmentModeler"
+    Uuid="1f809dfa-6937-4892-ac22-fafc14d55dc3"
+    UseNames="PRODUCTCFG"
+    CustomerExposition="Programmer"
+    Architecture="All"
+    BelongsToModeler="XCADModeler"
+>
+
+  <CAAComment>
+    <ShortRole>SOLIDWORKS PowerBy Weldment CutList Package</ShortRole>
+    <Role>This package includes entities to support SOLIDWORKS Weldment Part and CutList items into 3DEXPERIENCE.</Role>
+  </CAAComment>
+  
+  <Class Name="SWAbstractCutListMember"
+         Uuid="0e3d40f2-3190-495e-9439-f44ba62305cf"
+         Abstract="Yes"
+         CustomerExposition="Programmer"
+         SuperName="VPMReference"
+         Discipline="Yes">
+    <Simple
+      Name="V_IsShareable"
+      Type="Boolean"
+      DefaultValue="false"
+      UIAccess="ReadOnly"
+      Uuid="609d4fe5-1e8f-4d11-b212-f26cceebb723"
+      Protection="Free"
+    >
+    </Simple>
+    <Simple
+      Name="V_CutListID"
+      Type="String"
+      UIAccess="ReadOnly"
+      Uuid="f311bb83-91d6-4ff7-97d3-7664e5e42747"
+      Protection="Free"
+    >
+    </Simple>
+  </Class>
+
+  <Class
+    Name="SWGenericMember"
+    SuperName="SWAbstractCutListMember"
+    Abstract="No"
+    CustomerExposition="Programmer"
+    Uuid="8b768495-eaaf-4639-afd9-9d69b81c2137"
+    Discipline="Yes"
+    CustomerExtensible="Yes"
+    Searchable="Yes">
+  </Class>
+
+  <Class
+    Name="SWSheetMetalMember"
+    SuperName="SWAbstractCutListMember"
+    Abstract="No"
+    CustomerExposition="Programmer"
+    Uuid="d1ecc9ec-6bed-4d46-9fa4-fcd9ff7334c6"
+    Discipline="Yes"
+    CustomerExtensible="Yes"
+    Searchable="Yes">
+  </Class>
+
+  <Class
+    Name="SWStructuralMember"
+    SuperName="SWAbstractCutListMember"
+    Abstract="No"
+    CustomerExposition="Programmer"
+    Uuid="ed9b732b-a612-4137-aeea-07ec690140ad"
+    Discipline="Yes"
+    CustomerExtensible="Yes"
+    Searchable="Yes">
+  </Class>
+
+  <Extension
+    Name="SWWeldmentPart"
+    Abstract="No"
+    ScopeNames="VPMReference"
+    Uuid="b2184401-0d5e-41f4-98cd-21c9f92ba9b5"
+    CustomerExposition="Programmer">
+    <Simple
+      Name="V_CutListPublished"
+      Type="Boolean"
+      DefaultValue="true"
+      UIAccess="ReadOnly"
+      Uuid="94644ea7-c427-4b5d-93e5-a0fdb5a6fc13"
+      Protection="Free">
+    </Simple>
+  </Extension>
+
+</Package>

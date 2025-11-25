@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_OpticalPigtail_JacketColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_OpticalPigtail_FiberType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_OpticalPigtail_ConnectorType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

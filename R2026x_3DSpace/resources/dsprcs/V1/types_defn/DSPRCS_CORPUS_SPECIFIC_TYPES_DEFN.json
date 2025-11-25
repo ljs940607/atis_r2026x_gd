@@ -1,0 +1,665 @@
+{
+	"dsprcs:MfgProcess":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsprcs:MfgProcess.ExpandMask.Default.V1",
+			"deprecatedMask":"dsprcs:MfgProcess.ExpandMask.Default"
+		}
+	},
+	"dsprcs:MfgProcessInstance": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:MfgProcessInstanceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent process reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child process reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		},
+		"create": {}
+	},
+	"dsprcs:MfgOperationInstance": {
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:MfgOperationInstanceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent process or operation reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child operation reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		}
+	},
+	"dsprcs:ItemSpecification": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:ItemSpecificationLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "mfgitem or operation",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"52",
+									"51"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:AssignedRequirement": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"requirement",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:AssignedRequirementLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target requirement",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"323"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source Operation Ref",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"324"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsprcs:ScopeRequirementSpec": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:ScopeRequirementSpecLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target requirement",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"323"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source MfgOperation",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"324"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsprcs:PreAssignedWorkCenter": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		}
+	},
+	"dsprcs:TimeConstraint": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:TimeConstraintLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "operation/process instance",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"248",
+									"249"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "operation/process reference",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						},
+						{
+							"navigateFromSR": {
+								"roles": [
+									"248",
+									"249"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {
+			"onCloudLimit": 1,
+			"onPremiseLimit": 10,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"fromOperationOcc",
+						"payloadType": "linkableOccurence"
+					},
+					{
+						"payloadKey":"toOperationOcc",
+						"payloadType": "linkableOccurence"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		}
+	},
+	"dsprcs:ResourceParameterRow": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10,
+			"returnResponse": true
+		},
+		"create": {
+			"onCloudLimit": 1,
+			"onPremiseLimit": 10,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"operationObject",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"resourceParameterObject",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey":"From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			],
+			"returnResponse": true
+		}
+	},
+	"dsprcs:PrimaryCapableResource": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:PrimaryCapableResourceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "resource or mfgprocess/operation",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"204",
+									"203"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "secondary capable link",
+					"pathToNavigate": [
+						{
+							"navigateToSR": {
+								"roles": [
+									"461"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:SecondaryCapableResource": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:SecondaryCapableResourceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "resource or primary capable link",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"247",
+									"461"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "mfgoperation",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"boTypes": [
+									"SecondaryCandidateResourceLink"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"create": {}
+	},
+	"dsprcs:ResourceParameterPlan": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:ResourceParameterPlanInstance": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		}
+	},
+	"dsprcs:Origin": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"originItem",
+						"payloadType": "linkableObject"
+					},
+					{
+						"crudKey": "From_IDs",
+						"payloadKey":"URI_RootId",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:OriginLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target mfgProcess or mfgOperation",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"307"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source mfgProcess or mfgOperation",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"308"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsprcs:MfgItemOutput": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"targetRef",
+						"payloadType": "linkableObject"
+					},
+					{
+						"crudKey": "From_IDs",
+						"payloadKey":"URI_RootId",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:MfgItemOutputLinkLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target mfgItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"363"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source MfgProcess or MfgOperation",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"boTypes": [
+									"DELLmiProductionSystemOutputCnxToMBOM"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsprcs:ProductOutput": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"targetRef",
+						"payloadType": "linkableObject"
+					},
+					{
+						"crudKey": "From_IDs",
+						"payloadKey":"URI_RootId",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:ProductOutputLinkLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target resource/engItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"362"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source MfgProcess or MfgOperation",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"boTypes": [
+									"DELLmiProductionSystemOutputCnxToProduct"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsprcs:NoteTemplateAnswer": {
+		"attach": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		},
+		"detach": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsprcs:NoteTemplateAnswerLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from note template",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"609"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,637 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsrsc:Resource",
+				"IsAbstract": true,
+				"ParentType": "PLMReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_Index",
+						"Mapping": "VPMReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "designRange",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "LPAbstractReference.V_Scale"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.LPAbstractReference.V_Scale"
+							}
+						]
+					},
+					{
+						"ConceptualName": "category",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_Category"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_Category"
+							}
+						]
+					},
+					{
+						"ConceptualName": "manufacturer",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_Manufacturer"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_Manufacturer"
+							}
+						]
+					},
+					{
+						"ConceptualName": "subType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_SubType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_SubType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "modelIdentifier",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_SubType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_SubType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "calculatedCycleTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_CalculatedCycleTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_CalculatedCycleTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "consumableCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_ConsumableCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_ConsumableCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "cycleTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_CycleTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_CycleTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "energyCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_EnergyCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_EnergyCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "meanTimeToRepair",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_MTTR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_MTTR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "meanTimeBeforeFailure",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_MTBF"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_MTBF"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maintenanceCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_MaintenanceCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_MaintenanceCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "purchaseCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_PurchaseCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_PurchaseCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_RepairCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_RepairCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "setUpTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_SetUpTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_SetUpTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "setUpTimeReduced",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_SetUpTimeReduced"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_SetUpTimeReduced"
+							}
+						]
+					},
+					{
+						"ConceptualName": "targetCost",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_TargetCost"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_TargetCost"
+							}
+						]
+					},
+					{
+						"ConceptualName": "targetedCycleTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Resource.V_TargetedCycleTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Resource.V_TargetedCycleTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "isAsset",
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.AttributeIsAssetIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "resourceType",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.AttributeResourceTypeTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.AttributeResourceTypeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dseno:EnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceEnterpriseAttributeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:Worker",
+				"ParentType": "dsrsc:Resource",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "ErgoHuman",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDResourceReference"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "ErgoHuman",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "serialNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSerialNumber.V_SerialNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSerialNumber.V_SerialNumber"
+							}
+						]
+					},
+					{
+						"ConceptualName": "gender",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "ErgoHuman.V_Gender"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.ErgoHuman.V_Gender"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.AttributeErgoHumanTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.setters.AttributeErgoHumanGenderSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "population",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "ErgoHuman.V_Population"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.ErgoHuman.V_Population"
+							}
+						]
+					},
+					{
+						"ConceptualName": "stature",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "ErgoHuman.V_Stature"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.ErgoHuman.V_Stature"
+							}
+						]
+					},
+					{
+						"ConceptualName": "weight",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "ErgoHuman.V_Weight"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.ErgoHuman.V_Weight"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:OrganizationalResource",
+				"ParentType": "dsrsc:Resource",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "VPMReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDResourceReference"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "serialNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSerialNumber.V_SerialNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSerialNumber.V_SerialNumber"
+							}
+						]
+					},
+					{
+						"ConceptualName": "followupType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "WorkCenter.V_FollowupType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.WorkCenter.V_FollowupType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "sequenceBackward",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "WorkCenter.V_SequenceBackward"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.WorkCenter.V_SequenceBackward"
+							}
+						]
+					},
+					{
+						"ConceptualName": "isFiniteCapacity",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "WorkCenter.V_IsFiniteCapacity"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.WorkCenter.V_IsFiniteCapacity"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:ResourceItem",
+				"ParentType": "dsrsc:Resource",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "VPMReference",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDResourceReference"
+					}
+				],
+				"Attributes": [
+					
+					{
+						"ConceptualName": "serialNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELSerialNumber.V_SerialNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELSerialNumber.V_SerialNumber"
+							}
+						]
+					},
+					{
+						"ConceptualName": "approachReach",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_ApproachReach"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_ApproachReach"
+							}
+						]
+					},
+					{
+						"ConceptualName": "controllerVersion",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_ControllerVersion"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_ControllerVersion"
+							}
+						]
+					},
+					{
+						"ConceptualName": "industrialApplications",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_IndustrialApplications"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_IndustrialApplications"
+							}
+						]
+					},
+					{
+						"ConceptualName": "kinematicClass",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_KinematicClass"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_KinematicClass"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maxPayload",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_MaxPayload"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_MaxPayload"
+							}
+						]
+					},
+					{
+						"ConceptualName": "mountingMethod",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_MountingMethod"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_MountingMethod"
+							}
+						]
+					},
+					{
+						"ConceptualName": "nbDOFs",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_NbDOFs"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_NbDOFs"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repeatability",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_Repeatability"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_Repeatability"
+							}
+						]
+					},
+					{
+						"ConceptualName": "robotmodelIDAliases",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Robot.V_DELRmi_RobotModelIDAliases"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Robot.V_DELRmi_RobotModelIDAliases"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsehm:ErgoHuman",
+				"ParentType": "PLMReference",
+				"IsAbstract": false,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "ErgoHuman",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "ErgoHuman",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": []
+			}
+		]
+	}
+]

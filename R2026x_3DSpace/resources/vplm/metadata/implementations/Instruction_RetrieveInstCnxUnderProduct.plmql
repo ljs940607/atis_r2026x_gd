@@ -1,0 +1,6 @@
+EXPAND 
+	T0.PLMID
+FROM 
+	EngineeringInstructions/CATInstruction T0		 
+FROM_ROOTS  [?1?]
+DEPTH=1;

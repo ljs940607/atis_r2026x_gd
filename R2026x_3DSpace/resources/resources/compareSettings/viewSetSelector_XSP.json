@@ -1,0 +1,21 @@
+{
+    "version": "2.0",
+    "viewSetSelectorArray": [{
+        "viewSetMod": "DS/SourcingMEICompare/MEIQualViewDef",
+        "viewSetName": "MEI_STRUCT_PROPS",
+        "UseCases": [{
+            "app": "COMPARE",
+            "roles": ["*"],
+            "typeInfoArray": [{
+                "type": "VPMReference",
+                "service": "3DSpace",
+                "requiredInterfaces": ["ManufacturerEquivalentItemExtension"]
+            }]
+        }],
+        "MainToolbarConfig": [{
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [              
+            ]
+        }]
+    }]
+}

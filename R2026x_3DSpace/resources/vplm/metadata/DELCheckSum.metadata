@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELCheckSum"
+         Uuid="AA1A2FE1-BE66-404c-BCC3-16F25C7EE08E"
+         BelongsToModeler="DELCheckSum"
+         UseNames="DELFmiFunctionalModel;DELLmiProductionOperationPPR"
+         UseProcedures=""
+         CustomerExposition="Programmer">
+
+
+	<Extension Name="DELVariantEffectivityCheckSumExt"
+		   Uuid="96D02CDB-3DE0-4239-BF80-D61D95272C2E"
+		   ScopeNames="DELFmiFunctionInstance;DELLmiOperationPPRInstance"
+		   CustomerExposition="ProgrammerOnly">
+		<Simple Name="V_VECheckSum"
+				Uuid="F542B10D-280A-4320-AC94-A9FBE94D39D9"
+				Type="Clob"
+				MaxLength="100"
+				MultiValuated="No"
+				Protection="Internal"
+				ResetOnCloning="No"
+				ResetOnNewVersion="No">
+			<CAAComment>
+				<ShortRole>Defines the cheksum effectivity on instance.</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Instance cheksum effectivity Extension.</ShortRole>
+			<Role>Specifies attributes for instance cheksum effectivity.</Role>
+		</CAAComment>
+	</Extension>
+
+</Package>

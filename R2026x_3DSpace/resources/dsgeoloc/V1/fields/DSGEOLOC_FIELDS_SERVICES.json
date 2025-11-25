@@ -1,0 +1,77 @@
+{
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ReferencedCRSIdentifier": {
+        "property": "attribute[GeolocationCoordinate.V_GL_ReferencedCRSIdentifier]",
+        "key": "crsId",
+    	"index": [{"index": "ds6wg:GeolocationCoordinate.GeolocationCoordinate_V_GL_ReferencedCRSIdentifier", "key":"crsId"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_Azimuth" : {
+        "property": "attribute[GeolocationCoordinate.V_GL_Azimuth]",
+        "key": "azimuth",
+    	"format": "s_double",
+    	"index": [{"index": "ds6wg:GeolocationCoordinate.GeolocationCoordinate_V_GL_ReferencedCRSIdentifier", "key":"azimuth"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ActiveGeolocation": {
+        "property": "attribute[GeolocationCoordinate.V_GL_ActiveGeolocation]",
+        "key": "activate",
+    	"format": "boolean",
+    	"index": [{"index": "ds6wg:GeolocationCoordinate.GeolocationCoordinate_V_GL_ActiveGeolocation", "key":"activate"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCartesian1D.V_GL_FirstAxisCoordinate": {
+        "property": "attribute[GeolocationCartesian1D.V_GL_FirstAxisCoordinate]",
+        "key": "axis1",
+    	"format": "s_double",
+    	"index": [{"index": "ds6wg:GeolocationCartesian1D.GeolocationCartesian1D_V_GL_FirstAxisCoordinate", "key":"axis1"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCartesian2D.V_GL_SecondAxisCoordinate": {
+        "property": "attribute[GeolocationCartesian2D.V_GL_SecondAxisCoordinate]",
+        "key": "axis2",
+    	"format": "s_double",
+    	"index": [{"index": "ds6wg:GeolocationCartesian2D.GeolocationCartesian2D_V_GL_SecondAxisCoordinate", "key":"axis2"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCartesian3D.V_GL_ThirdAxisCoordinate": {
+        "property": "attribute[GeolocationCartesian3D.V_GL_ThirdAxisCoordinate]",
+        "key": "axis3",
+    	"format": "s_double",
+    	"index": [{"index": "ds6wg:GeolocationCartesian3D.GeolocationCartesian3D_V_GL_ThirdAxisCoordinate", "key":"axis3"}]
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Name": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Name]",
+        "key": "crsName",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Name"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Authority": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Authority]",
+        "key": "crsAuthority",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Authority"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Version": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Version]",
+        "key": "crsVersion",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Version"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Code": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Code]",
+        "key": "crsCode",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Code"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Type": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Type]",
+        "key": "crsType",
+    	"format": "s_integer",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Type"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_AreaDescription": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_AreaDescription]",
+        "key": "crsAreaDescription",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_AreaDescription"
+    },
+    "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Remarks": {
+        "property": "attribute[GeolocationCoordinateReferenceSystem.V_GL_Remarks]",
+        "key": "crsRemarks",
+    	"index": "ds6wg:GeolocationCoordinateReferenceSystem.V_GL_Remarks"
+    },
+    "dsmvgeoloc:geolocation.getCrsOtherAttributes": {
+        "property":"computed",
+        "key": "crsOtherAttributes"
+    }
+}

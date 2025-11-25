@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY for Fastening Ens Specifications -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, all rights reserved -->
+
+<!-- 
+   =========
+    Package
+   =========
+ -->
+
+<Package xmlns="PLMDictionaryUnified" 
+		CustomerExposition="Programmer" 
+		ModelerType="Top" 
+		BelongsToModeler="PLMFst_Fasteners" 
+		Name="PLMFastening_EngSpecification" 
+		Uuid="F5A68FB6-53C9-4243-8B7C-5A21234BBB04" 
+		UseNames="PLMEnsSpecTechnoTable;PLMEnsSpecPartsFilter;PLMEnsSpecSpecification" >
+
+  <CAAComment>
+    <ShortRole>Fastening Engineering Specification Package</ShortRole>
+    <Role>This package describes the Engineering Specification objects for Fastening Application.</Role>
+  </CAAComment>
+  <Comment>[V6R2024x]Initial creation: NPR1 GKI2 Apr 2023</Comment>
+
+  <!-- START : ENG SPECS -->
+  <Class Name="Fst_StandardSpecification" Uuid="B2774E67-EAA4-4C8B-AA0C-0256C24B8523" Abbreviation="fststandspec" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsSpecification" Discipline="Yes" CustomerExtensible="Yes">
+    <Property Name="IconName"                    Value="I_Fst_Engineering_Spec_Standard"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="New"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="ProposedInDataSetup"         Value="Yes"/>
+  </Class>
+  
+  <Class Name="Fst_ComponentSelectionSpecification" Uuid="14CC5519-C700-47C1-8B45-C58689B347C1" Abbreviation="fstcompselspec" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsSpecification" Discipline="Yes" CustomerExtensible="Yes">
+    <Property Name="IconName"                    Value="I_Fst_Engineering_Spec_CompositionAssistant"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="New"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="ProposedInDataSetup"         Value="Yes"/>
+  </Class>
+  <!-- END : ENG SPECS -->
+  
+  <!-- START : ENG TABLE -->
+  <Class Name="Fst_Base_Table" Uuid="064B6DF0-4715-4F89-855A-6CED290AF622" CustomerExposition="Programmer" Abstract="Yes"
+         SuperName="EnsTechnologicalTable" Discipline="Yes">
+    <CAAComment>
+      <ShortRole>Fastener Base Table</ShortRole>
+      <Role>Fastener Base Table</Role>
+    </CAAComment>
+    <Simple Name="V_FstTableID" Uuid="8255C1D0-6B11-4D44-9E3E-6C381233E263" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0"></Simple>
+  </Class>
+  
+  <Class Name="Fst_All_Diameters" Uuid="063AEDB7-D7DA-4C81-BA8F-51284478016F" Abbreviation="fstalldia" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener All Diameter Table</ShortRole>
+      <Role>Fastener All Diameter Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_All_Fastener_Component_Attributes" Uuid="25D30698-F843-404A-BCC7-E6A0B9FE4F08" Abbreviation="fstallcompattr" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>All Fastener Component Attributes Table</ShortRole>
+      <Role>All Fastener Component Attributes Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_All_ProcessCategory_ProcessTypes" Uuid="665F43F8-3B09-4AC6-93BF-94418275FE2F" Abbreviation="fstallpcatptype" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener All Process Category Process Type Table</ShortRole>
+      <Role>Fastener All Process Category Process Type Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_LogicalFamilyIdentification" Uuid="A60503F6-B982-4647-AD0C-AB8E6F648571" Abbreviation="fstlogifamid" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Logical Family Identification Table</ShortRole>
+      <Role>Fastener Logical Family Identification Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_ComponentLogicalFamily" Uuid="BBDC31EC-BD76-48C8-88DB-1822200B2BFF" Abbreviation="fstcomplogifam" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Component Logical Family Table</ShortRole>
+      <Role>Fastener Component Logical Family Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_SpotFastenerShapeDefinitionDependency" Uuid="27780273-3D3A-4DF6-A342-2565C2636DC0" Abbreviation="fstspotshapedef" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Spot Fastener Shape Definition Table</ShortRole>
+      <Role>Spot Fastener Shape Definition Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Diameters_Available" Uuid="BBE3E34D-1D7D-42B5-A493-C3B47397630D" Abbreviation="fstdiaavail" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Available Diameteres Table</ShortRole>
+      <Role>Fastener Available Diameteres Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_ComponentConfigurationDependency" Uuid="00D2036A-DFAE-4855-A466-1F3E3F813DF8" Abbreviation="fstcompconfdep" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Component Configuration Table</ShortRole>
+      <Role>Fastener Component Configuration Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Component_Compatibility_Attr_Mapping" Uuid="3C53C0F7-1CE7-414F-8AF0-D5B79F753409" Abbreviation="fstcompcomptAttr" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_CompositionAssistant_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Component Compatibility Attributes Mapping Table</ShortRole>
+      <Role>Fastener Component Compatibility Attributes Mapping Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Component_Compatibility" Uuid="287E1D4F-7DC8-4334-800D-02B52DB6A02F" Abbreviation="fstcompcompt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_CompositionAssistant_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Component Compatibility Table</ShortRole>
+      <Role>Fastener Component Compatibility Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Washer_Applicability_Mapping" Uuid="96189AFD-1B51-4978-91AC-EACCC61D2478" Abbreviation="fstwashapplmap" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_CompositionAssistant_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Washer Applicability Mapping Table</ShortRole>
+      <Role>Fastener Washer Applicability Mapping Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Washer_Applicability" Uuid="F554D0A2-4657-400B-BCDC-2EEA3A45AB64" Abbreviation="fstwashappl" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_CompositionAssistant_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Washer Applicability Table</ShortRole>
+      <Role>Fastener Washer Applicability Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_Available_ProcessCategory_ProcessTypes" Uuid="CC389B2E-F157-45EF-9654-0D70005D5C19" Abbreviation="fstavailpcatptype" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_CompositionAssistant_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Available Process Category Process Types Table</ShortRole>
+      <Role>Fastener Available Process Category Process Types Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_All_ComponentTypes" Uuid="3E067DEC-027C-4898-981A-4B061FE20220" Abbreviation="fstallcomptype" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener All Component Types Table</ShortRole>
+      <Role>Fastener All Component Types Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_ManufacturingStandardsDefinitionTable" Uuid="9E586879-2AF6-43F1-91C5-DE9A3D4FEBC4" Abbreviation="fstmanustd" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Manufacturing Standards Definition Table</ShortRole>
+      <Role>Fastener Manufacturing Standards Definition Table</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_TorqueCodeDefinition" Uuid="963fe3bc-eeee-4888-aba0-553710281229" Abbreviation="fsttorquecode" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Torque Codes Table</ShortRole>
+      <Role>Fastener Torque Codes Table</Role>
+    </CAAComment>
+    <Simple Name="V_FstEngStandard" Uuid="802B5544-6427-406D-85DC-956D2F65F0B6" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+  </Class>
+  
+  <Class Name="Fst_TorqueValuesDefinition" Uuid="838e83cb-37d1-4d23-b401-b9c803a5ff3a" Abbreviation="fsttorquevalue" CustomerExposition="Programmer" Abstract="No"
+         SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+    <Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+    <CAAComment>
+      <ShortRole>Fastener Torque Values Table</ShortRole>
+      <Role>Fastener Torque Values Table</Role>
+    </CAAComment>
+    <Simple Name="V_FstEngStandard" Uuid="76A12A14-2972-4BFD-8D3C-4D86E486D70D" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+  </Class>
+	
+	<Class Name="Fst_CompHeadGeometry_ClassificationAttr_Mapping" Uuid="E0DC6C99-20D9-4414-9E8A-577A3EC38B1B" Abbreviation="fstgeomclasattrmap" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Component Head Geometry and Classification Attributes Mapping Table</ShortRole>
+			<Role>Fastener Component Head Geometry and Classification Attributes Mapping Table</Role>
+		</CAAComment>
+	</Class>
+
+	<Class Name="Fst_EntryHoleGeometryValues" Uuid="CEBDA605-B0F4-4F9B-AC9A-527368D102A1" Abbreviation="fstheadgeomdefine" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Component Head Geometry Definition Table</ShortRole>
+			<Role>Fastener Component Head Geometry Definition Table</Role>
+		</CAAComment>
+	</Class>
+
+	<Class Name="Fst_HoleToleranceCode" Uuid="1314CBDF-48A7-4352-B833-5B50FFA4654F" Abbreviation="fsttolcodes" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Hole Tolerance Codes Table</ShortRole>
+			<Role>Fastener Hole Tolerance Codes Table</Role>
+		</CAAComment>
+		<Simple Name="V_FstEngStandard" Uuid="8A85DE35-B855-47B9-B7B3-7D311C076AC8" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+	</Class>
+
+	<Class Name="Fst_HoleToleranceValues" Uuid="C4E42787-F21A-46B8-9899-6043C5084A1F" Abbreviation="fsttolcodesval" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Hole Tolerance Codes and Values Table</ShortRole>
+			<Role>Fastener Hole Tolerance Codes and Values Table</Role>
+		</CAAComment>
+		<Simple Name="V_FstEngStandard" Uuid="064B7E81-9FB3-4F78-8888-0C1942D96C48" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+	</Class>
+
+	<Class Name="Fst_HoleGeometryCode" Uuid="DFB55CB0-F059-4AFE-8400-7F6F6F9AD4A2" Abbreviation="fsttrangeomcodes" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Entry Hole Transition Geometry Codes Table</ShortRole>
+			<Role>Fastener Entry Hole Transition Geometry Codes Table</Role>
+		</CAAComment>
+		<Simple Name="V_FstEngStandard" Uuid="02259783-BD8C-476C-95A3-E8BBFAC56F14" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+	</Class>
+
+	<Class Name="Fst_Hole_Geometry_Code_Values" Uuid="8E6D6F20-6830-4E20-9026-37F0272E1B7A" Abbreviation="fsttrangeomcodeval" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastening Entry Hole Transition Geometry Codes and Values Table</ShortRole>
+			<Role>Fastening Entry Hole Transition Geometry Codes and Values Table</Role>
+		</CAAComment>
+		<Simple Name="V_FstEngStandard" Uuid="D2BC66DF-70E3-4F25-9588-BB61BBC1A9D4" Type="String" MultiValuated="Yes" Protection="Free" CAAExposition="L0"></Simple>
+	</Class>
+
+	<Class Name="Fst_AssemblyFits" Uuid="790BD744-59A7-4740-8AF1-5A0B055271EF" Abbreviation="fstasmfits" CustomerExposition="Programmer" Abstract="No"
+            SuperName="Fst_Base_Table" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_Fst_Standard_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<CAAComment>
+			<ShortRole>Fastener Assembly Fits Table</ShortRole>
+			<Role>Fastener Assembly Fits Table</Role>
+		</CAAComment>
+	</Class>
+  
+  <!-- END : ENG TABLE -->
+  
+  <!-- START : ENG FILTER -->
+  <Class Name="Fst_ScrewPartFilter" Uuid="8CFB0B2A-E89B-40B2-8FE0-1A7B32CDFAD4" Abbreviation="fstscrewfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_Screw_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Screw Part Filter</ShortRole>
+      <Role>Screw Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_NutPartFilter" Uuid="A5155CCD-A9EE-4510-8C6D-4D8CC711DF0C" Abbreviation="fstnutfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_Nut_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Nut Part Filter</ShortRole>
+      <Role>Nut Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_WasherPartFilter" Uuid="3FFBA522-C4EA-4B42-B7E2-CA221D55F0CA" Abbreviation="fstwasherfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_Washer_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Washer Part Filter</ShortRole>
+      <Role>Washer Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_AnchorNutPartFilter" Uuid="28498356-BB64-46AC-8C77-327B2F11A8F1" Abbreviation="fstachornutfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_AnchorNut_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Anchor nut Part Filter</ShortRole>
+      <Role>Anchor nut Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_RivetPartFilter" Uuid="D28B2982-8D1D-4AA4-9FEB-C1B1B6D5B078" Abbreviation="fstrivetfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_Rivet_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Rivet Part Filter</ShortRole>
+      <Role>Rivet Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <Class Name="Fst_RivetTailPartFilter" Uuid="237B757D-E6EF-4818-A1F7-89692E42DE42" Abbreviation="fstrivettailfilt" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+    <Property Name="IconName"                    Value="I_Fst_Rivet_Filter"/>
+    <Property Name="Searchable"                  Value="Yes"/>
+    <Property Name="Newable"                     Value="All"/>
+    <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+    <Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+    <CAAComment>
+      <ShortRole>Rivet Tail Part Filter</ShortRole>
+      <Role>Rivet Tail Part Filter</Role>
+    </CAAComment>
+  </Class>
+  
+  <!-- END : ENG FILTER -->
+
+</Package>

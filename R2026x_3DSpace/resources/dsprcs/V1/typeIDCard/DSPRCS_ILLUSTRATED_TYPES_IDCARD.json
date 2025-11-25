@@ -1,0 +1,45 @@
+{
+    "dsprcs:IllustratedItem": {
+        "kindOf": "root",
+        "beType": "type_DELIllustratedItemGenericReference",
+        "classesTypes": "type_DELIllustratedItemHeaderReference,type_DELIllustratedItemReference,type_DELIllustratedItemFigureReference",
+        "patchCSRF": true,
+        "search": true,
+        "contentLinks": [
+            "dsprcs:IllustratedItemInstance",
+            "dsprcs:ItemSpecification"
+        ],
+        "extensionLinks": [
+            "dsprcs:PartialScope"
+        ],
+        "cestamp": true,
+        "defaultMask": "dsprcs:DefaultIllustratedItemMask.Default",
+        "customerAttribute": true,
+        "customizationSupport": true,
+        "isPublic": false,
+        "changeSupport": true,
+        "optionCheck": {
+            "modify": false,
+            "produce": false,
+            "navigate": false
+        },
+        "publicResourceURI": "/resources/v1/modeler/dsprcs/dsprcs:IllustratedItem/{pid}"
+    },
+    "dsprcs:IllustratedItemInstance": {
+        "kindOf": "content",
+        "beType": "relationship_DELIllustratedItemGenericInstance",
+        "classesTypes": "relationship_DELIllustratedItemInstance,relationship_DELIllustratedItemFigureInstance",
+        "extensionLinks": [],
+        "cestamp": true,
+        "isPublic": false,
+        "changeSupport": true,
+        "defaultMask": "dsprcs:DefaultIllustratedItemRelMask.Default",
+        "customerAttribute": true,
+        "customizationSupport": true,
+        "optionCheck": {
+            "modify": false,
+            "produce": false,
+            "navigate": false
+        }
+    }
+}

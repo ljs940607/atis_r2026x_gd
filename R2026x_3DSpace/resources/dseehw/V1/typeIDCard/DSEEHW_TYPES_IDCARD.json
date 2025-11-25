@@ -1,0 +1,110 @@
+{
+  "dseehw:EEHwItem": {
+    "kindOf": "root",
+    "beType": "type_RFLVPMLogicalReference",
+    "contentLinks": [
+      "dseehw:EEHwInstance",
+      "dseehw:EEHwCommunicationConnector"
+    ],
+	"extensionLinks": ["dskpi:metric"],
+    "classesTypes": "type_EETopology,type_EERack,type_EEECU,type_EEActuator,type_EESensor,type_EESwitch,type_EEDevice,type_EEElectricalDevice",
+    "parentType": "dslog:LogItem",
+    "inheritanceType": "explicit",
+    "patchCSRF": true,
+    "search": false,
+    "implementationClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.implementations_classes.dseehwAuthoringImpl",
+    "customerAttribute": true,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.dictionaries.ENOXdseehwDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dseehw/dseehw:EEHwItem/{pid}"
+  },
+  "dseehw:EEHwInstance": {
+    "kindOf": "content",
+    "beType": "relationship_RFLVPMLogicalInstance",
+    "classesTypes": "relationship_EESubSystem,relationship_EERackInstance,relationship_EEECUInstance,relationship_EEActuatorInstance,relationship_EESensorInstance,relationship_EESwitchInstance,relationship_EEDeviceInstance,relationship_EEElectricalDeviceInstance",
+    "parentType": "dslog:LogInstance",
+    "rootLinks": [
+      "dseehw:EEHwItem"
+    ],
+    "inheritanceType": "explicit",
+    "patchCSRF": true,
+    "search": false,
+    "implementationClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.implementations_classes.dseehwAuthoringImpl",
+    "customerAttribute": true,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.dictionaries.ENOXdseehwInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dseehw:EEHwItemExtension": {
+    "isPublic": true,
+    "kindOf": "extension",
+    "beType": "interface_EERackPosition",
+    "rootLinks": [
+      "dseehw:EEHwInstance"
+    ],
+    "patchCSRF": true,
+    "defaultMask": "dsmveehw:EEHwItemExtension",
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.dictionaries.ENOXdseehwDictionary",
+    "optionCheck": {
+      "modify": true,
+      "produce": true,
+      "navigate": false
+    }
+  },
+  "dseehw:EEHwConnectorType": {
+    "kindOf": "root",
+    "beType": "type_RFLVPMSystemTypeReference",
+    "contentLinks": [
+      "dseehw:EEHwCommunicationConnector"
+    ],
+    "classesTypes": "type_EEConnectorType,type_EEGenericConnectorType",
+    "parentType": "dslog:TypeItem",
+    "inheritanceType": "explicit",
+    "patchCSRF": true,
+    "search": false,
+    "implementationClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.implementations_classes.dseehwAuthoringImpl",
+    "customerAttribute": true,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.dictionaries.ENOXdseehwConnectorTypeAttributeDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dseehw/dseehw:EEHwConnectorType/{pid}"
+  },
+  "dseehw:EEHwCommunicationConnector": {
+    "kindOf": "content",
+    "beType": "relationship_RFLVPMSystemTypeExpositionInstance",
+    "classesTypes": "relationship_EECommunicationConnector",
+    "parentType": "dslog:Interface",
+    "rootLinks": [
+      "dseehw:EEHwItem"
+    ],
+    "inheritanceType": "explicit",
+    "patchCSRF": true,
+    "search": false,
+    "implementationClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.implementations_classes.dseehwAuthoringImpl",
+    "customerAttribute": true,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dseehw.V%1.dictionaries.ENOXdseehwPortAttributeDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+}

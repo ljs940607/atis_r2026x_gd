@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeComputer_StorageCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeComputer_UserInterfaceType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MarinePartChamberCommon_EffectiveChamberSize",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarinePartChamberCommon_StructuralType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

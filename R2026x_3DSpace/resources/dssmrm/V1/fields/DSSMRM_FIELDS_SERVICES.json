@@ -1,0 +1,113 @@
+{
+    "dssmrm:basic.id": {
+        "property": "physicalid",
+        "key": "id",
+        "label": "CRS.common.Label.Attribute.Id",
+        "example": "EE562168015FFCF14F940A513C63AA77",
+        "description": "Entity physical id"
+    },
+     "dssmrm:basic.identifier": {
+        "property": "physicalid",
+        "key": "identifier",
+        "label": "CRS.common.Label.Attribute.Id",
+        "example": "EE562168015FFCF14F940A513C63AA77",
+        "description": "Entity physical id"
+    },
+    "dssmrm:basic.revision": {
+        "property": "revision",
+        "key": "revision",
+        "label": "CRS.common.Label.Attribute.Revision",
+        "example": "A.1",
+        "description": "Object revision value"
+    },
+     "dssmrm:basic.organization": {
+        "property": "organization",
+        "key": "organization"
+    },
+    "dssmrm:basic.collabspace": {
+        "property": "project",
+        "key": "collabspace",
+        "example": "Default",
+        "description": "Object collabspace value"
+    },
+    "dssmrm:attribute.reference.name": {
+        "property": "attribute[PLMEntity.PLM_ExternalID]",
+        "key": "name",
+        "example": "My name",
+        "description": "Reference name"
+    },
+     "dssmrm:attribute.reference.title": {
+        "property": "attribute[PLMEntity.V_Name]",
+        "key": "title",
+        "example": "My title",
+        "description": "Reference object title value"
+    },
+    "dssmrm:attribute.reference.description": {
+        "property": "attribute[PLMEntity.V_description]",
+        "key": "description",
+        "example": "My description",
+        "description": "Reference description value"
+    },
+    "dssmrm:attribute.dimensionType": {
+        "property": "attribute[Raw_Material.V_DimensionType]",
+		"key": "dimensionType"
+    },
+     "dssmrm:attribute.thickness": {
+        "property": "attribute[Raw_Material_SheetMetal.V_SHM_RM_Thickness]",
+		"key": "thickness",
+		"index":"bo.Raw_Material_SheetMetal.V_SHM_RM_Thickness"
+    },
+     "dssmrm:attribute.bendradius": {
+        "property": "attribute[Raw_Material_SheetMetal.V_SHM_RM_BendRadius]",
+		"key": "bendradius",
+		"index":"bo.Raw_Material_SheetMetal.V_SHM_RM_BendRadius"
+    },
+     "dssmrm:attribute.kfactor": {
+        "property": "attribute[Raw_Material_SheetMetal.V_SHM_RM_KFactor]",
+		"key": "kfactor",
+		"index":"bo.Raw_Material_SheetMetal.V_SHM_RM_KFactor"
+    },
+    "dssmrm:basic.modified.utc": {
+		"property": "modified.generic",
+		"key": "modified",
+		"label": "CRS.common.Label.Attribute.Modified",
+		"format": "datetimeutc",
+        "example": "2022-01-31T09:48:10Z",
+        "description": "Basic modified value"
+	},
+	"dssmrm:basic.created.utc": {
+		"property": "originated.generic",
+		"key": "created",
+		"label": "CRS.common.Label.Attribute.Created",
+		"format": "datetimeutc",
+		"example": "2022-01-31T09:48:10Z",
+        "description": "Object created value"
+	},
+     "dssmrm:basic.type.public": {
+        "property": "type",
+        "key": "type",
+        "label": "CRS.common.Label.Attribute.Type",
+        "example": "DBType",
+        "description": "Basic type value"
+    },
+    "dssmrm:basic.state.public": {
+        "property": "current",
+        "key": "state",
+        "label": "CRS.common.Label.Attribute.State",
+        "example": "IN_WORK",
+        "description": "Object current state value"
+    },
+    "dssmrm:basic.owner.public": {
+        "property": "owner",
+        "key": "owner",
+        "label": "CRS.common.Label.Attribute.Owner",
+        "example": "DB Owner",
+        "description": "Object owner value"
+    },
+    "dsmvsmrm:EnterpriseAttributes": {
+        "property": "computed",
+        "key": "dssmrm:EnterpriseAttributes",
+        "description": "To get parametric attributes of an object",
+        "example": "com.dassault_systemes.enovia.xapps.dseno.implementations.dsenoOpenAPIImpl.getParametricAttributes"
+    }
+}

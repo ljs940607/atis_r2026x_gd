@@ -1,0 +1,16 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "Functional",
+  "description": "The domain instance for Functional in 3DSpace",
+  "packages": [
+    "RFLPLMFlow",
+    "RFLPLMFlowExposition",
+    "RFLPLMFunctional",
+    "RFLPLMFunctionalActivation",
+    "RFLPLMFunctionalCommunication",
+    "RFLPLMFunctionalConnectorMapping",
+    "RFLPLMFunctionalContract",
+    "RFLPLMFunctionalMission",
+    "RFLPLMFunctionalService"
+  ]
+}

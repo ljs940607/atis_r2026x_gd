@@ -1,0 +1,56 @@
+{
+	"properties": {
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"isScope"
+				],
+				"properties": {
+					"isScope": {
+						"description": "Pass true for Scope link creation and false for Implement link.",
+						"type": "boolean",
+						"example": true
+					},
+					"itemRef": {
+						"description": "Reference to the scope manufacturing item.",
+						"required": [
+							"identifier"
+						],
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname.",
+								"type": "string",
+								"example": "$3DSpace"
+							},
+							"type": {
+								"description": "Type of the object.",
+								"type": "string",
+								"example": "CreateAssembly"
+							},
+							"identifier": {
+								"description": "Physical ID of the object.",
+								"type": "string",
+								"example": "5C0779CEF11C472C9537094C2FA82333"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/5C0779CEF11C472C9537094C2FA82333"
+							}
+						}
+					},
+					"attributes": {
+						"properties": {
+							"usage": {
+								"type": "string",
+								"example": "ADD/REMOVE"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

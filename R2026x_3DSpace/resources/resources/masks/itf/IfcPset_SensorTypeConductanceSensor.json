@@ -1,0 +1,9 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SensorTypeConductanceSensor_SetPointConductance",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Knowledgeware semantics extension declaration -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" 
+         ModelerType="Top"  
+         Name="CATKweSemantics" 
+         Uuid="3a1f607d-6370-4c6a-8f7a-31b063de3332" 
+         CustomerExposition="Programmer" 
+         UseNames="PLMCORE" >
+  
+  <CAAComment>
+    <ShortRole>Knowledgeware extension package</ShortRole>
+    <Role>This package contains meta datas of extension dedicated to expose semantics at DB level</Role>
+  </CAAComment>
+  <Comment>Creation 2024-07-16</Comment>
+
+  
+
+  <!-- *************************************** -->
+  <!-- * Semantics Extension * -->
+  <!-- *************************************** -->
+  <Extension
+    Name="CATKweSemanticsExtension"
+    Uuid="48d209ae-319f-4243-b490-7395ae2a76d9"
+    CustomerExposition="Programmer"
+    ScopeNames="PLMCoreRepReference"
+   ><CAAComment>
+      <ShortRole>Knowledgeware extension dedicated to expose some knowledgeware semantics at DB level</ShortRole>
+      <Role>Knowledgeware extension dedicated to expose some knowledgeware semantics at DB level</Role>
+    </CAAComment>
+    <Simple
+      Name="V_JsonStream"
+      Uuid="94c7481b-464f-4568-841b-1224e2cdbbf7"
+      Protection="External"
+      Type="String"
+  CAAExposition="L0" />
+
+  </Extension>
+</Package>
+
+

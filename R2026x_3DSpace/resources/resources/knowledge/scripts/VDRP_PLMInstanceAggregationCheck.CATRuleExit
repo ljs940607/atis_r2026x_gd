@@ -1,0 +1,5 @@
+<Scripts>
+	<Script OpeningID="PLMInstanceAggregationCheck" Type="VPMReferenceExtPos" 		ScriptName="VPMReferenceExtPosAggrCheckRule" />
+	<Script OpeningID="PLMInstanceAggregationCheck" Type="AxisSystemReference"      ScriptName="AxisSystemReferenceAggrCheckRule" />
+	<Script OpeningID="PLMInstanceAggregationCheck" Type="ShellAxisSystemReference" ScriptName="ShellAxisSystemReferenceAggrCheckRule" />
+</Scripts>

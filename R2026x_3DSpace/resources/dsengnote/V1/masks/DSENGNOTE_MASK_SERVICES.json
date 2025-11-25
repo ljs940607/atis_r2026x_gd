@@ -1,0 +1,69 @@
+{
+"dsmvengnote:EngNoteTemplateMask.Default":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmveno:CustomerAttributes",
+    "dsmvengnote:forceUppercase",
+    "dsmvengnote:noteTemplateText"
+],
+"dsmvengnote:EngNoteTemplateMask.StandardResources":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmveno:CustomerAttributes",
+    "dsmvengnote:forceUppercase",
+    "dsmvengnote:noteTemplateText",
+    "dsmvengnote:standardResources"
+],
+"dsmvengnote:EngNoteTemplateMask.Entries":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmveno:CustomerAttributes",
+    "dsmvengnote:forceUppercase",
+    "dsmvengnote:noteTemplateText",
+    "dsmvengnote:templateEntries"
+],
+"dsmvengnote:EngNoteMask.Default":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmvengnote:noteOwner",
+    "dsmvengnote:noteText", 
+    "dsmvengnote:noteScope",
+    "dsmvengnote:noteDownstreamUsage",
+    "dsmvengnote:sourceTemplate"
+],
+"dsmvengnote:EngNoteMask.Entries":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmvengnote:noteOwner",
+    "dsmvengnote:noteText",
+    "dsmvengnote:noteScope",
+    "dsmvengnote:noteDownstreamUsage",
+    "dsmvengnote:sourceTemplate",
+    "dsmvengnote:entries"
+],
+"dsmvengnote:EngNoteMask.AffectedInstances":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmvengnote:noteOwner",
+    "dsmvengnote:noteText",
+    "dsmvengnote:noteScope",
+    "dsmvengnote:noteDownstreamUsage",
+    "dsmvengnote:sourceTemplate",
+    "dsmvengnote:affectedInstances"
+],
+"dsmvengnote:EngNoteMask.CountNotes":[
+    "dsmvengnote:count"
+]
+}

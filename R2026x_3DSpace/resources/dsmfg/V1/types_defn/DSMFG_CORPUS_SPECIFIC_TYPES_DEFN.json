@@ -1,0 +1,460 @@
+{
+	"dsmfg:MfgItem":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsmfg:MfgItem.ExpandMask.Default.V1",
+			"deprecatedMask":"dsmfg:MfgItem.ExpandMask.Default"
+		}
+	},
+	"dsmfg:MfgItemInstance": {
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:MfgItemInstanceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent MfgItem reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child MfgItem reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"PLMInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100,
+			"returnResponse": true
+		},
+		"create": {}
+	},	
+	"dsmfg:ResultingEngItem": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		}
+	},
+	"dsmfg:Origin": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"originItem",
+						"payloadType": "linkableObject"
+					},
+					{
+						"crudKey": "From_IDs",
+						"payloadKey":"URI_RootId",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:OriginLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target mfgitem",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"307"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source mfgitem",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"308"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:Substitute": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"instanceObject",
+						"payloadType": "linkableObject"
+					}
+				]
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:SubstituteLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from target mfgitem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"419"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source mfgitemInstance",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"418"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from source mfgitemRefernce",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"DELFmiFunctionIdentifiedInstance"
+								],
+								"mode": "stop_at_rel"
+							}
+						},
+						{
+							"navigateFromSR": {
+								"roles": [
+									"418"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:Alternate": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"alternateItem",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "sourceItem",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:AlternateLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from parent MfgItem reference",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromRel": {
+								"relTypes": [
+									"MfgProcessAlternate"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from child MfgItem Reference",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateToRel": {
+								"relTypes": [
+									"MfgProcessAlternate"
+								],
+								"mode": "stop_at_rel"
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:MfgResponsibility": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"organizationRef",
+						"payloadType": "linkableObject",
+						"crudKey": "TO_IDs"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:MfgResponsibilityLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "from source mfgitem",
+					"filterKey": "source",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"416"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "from target plant",
+					"filterKey": "target",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"417"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		}
+	},
+	"dsmfg:ScopeEngItem":{
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:ScopeEngItemLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "EngItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"51"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "MfgItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"52"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:PartialScopeEngItem":{
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:PartialScopeEngItemLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "EngItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"51"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:AssignmentFilter":{
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:AssignmentFilterIndexLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "EngItemInstance",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"448",
+									"447"
+								]
+							}
+						}
+					]
+				},
+				{
+					"navigateFrom": "MfgItem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"447",
+									"448"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:ImplementedEngOccurrence":{
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:ImplementedEngOccurrenceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "EngItemInstance",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"51"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"dsmfg:PrimaryCapableResource": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"locate": {
+			"indexLocateMaxLimit": 1000,
+			"defaultMask": "dsmfg:PrimaryCapableResourceLocateMask",
+			"navigateRules": [
+				{
+					"navigateFrom": "resource or mfgitem",
+					"pathToNavigate": [
+						{
+							"navigateFromSR": {
+								"roles": [
+									"204",
+									"203"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"resource",
+						"payloadType": "linkableObject"
+					},
+					{
+						"crudKey": "From_IDs",
+						"payloadKey":"URI_RootId",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		}
+	}
+}

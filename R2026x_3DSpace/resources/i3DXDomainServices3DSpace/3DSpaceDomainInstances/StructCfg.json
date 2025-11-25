@@ -1,0 +1,8 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "StructCfg",
+	"description"    : "data model to configure a structure: config context, effectivity, statix mapping, predefined configuration",
+        "packages"       : ["VPMCfgConfiguration","VPMCfgContext","VPMCfgEffectivity","VPMCfgInstanceConfiguration"],
+        "types" : ["xRevisionElement"],
+        "relationships"  : ["xRevisionContext","xRevisionPrimaryContext","Effectivity Usage","Configuration Context","UnifiedEffectivityInfo","EffectivityExprCriteria","EffectivityImpactingCriteria"]
+}

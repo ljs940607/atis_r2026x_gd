@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="VPLMAdministration">
+  <Domain id="AttributeDef">
+    <Family id="SptSupportAssembly" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SptSupportAssembly">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMHangerSupport"/>
+      <Constant id="type" value="SptSupportAssembly"/>
+    </Family>
+    <Family id="SptPrimarySupport" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.SptPrimarySupport">
+      <Constant id="appType" value="VPM"/>
+      <Constant id="package" value="PLMHangerSupport"/>
+      <Constant id="type" value="SptPrimarySupport"/>
+    </Family>
+  </Domain>
+</OOTBParameterization>

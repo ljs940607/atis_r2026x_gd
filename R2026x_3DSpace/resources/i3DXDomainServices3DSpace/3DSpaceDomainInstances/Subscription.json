@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "Subscription",
+    "description"    : "The domain instance for Subscription in 3DSpace",
+    "packages"       : ["Subscriptions"]
+}

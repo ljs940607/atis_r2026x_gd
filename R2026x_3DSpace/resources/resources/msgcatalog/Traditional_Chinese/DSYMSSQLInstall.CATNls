@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="SQL Server 連線參數";
+MSSQL_ConnectUser.Label1="SQL Server 連線使用者名稱：";
+MSSQL_ConnectUser.Resume="SQL Server 連線使用者名稱：/p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="SQL Server 連線使用者密碼";
+MSSQL_ConnectPwd.Label1="SQL Server 連線使用者密碼：";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="SQL Server 資料庫名稱";
+MSSQL_Instance.Label1="SQL Server 資料庫名稱：";
+MSSQL_Instance.Resume="SQL Server 資料庫名稱：/p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="SQL Server 資料庫伺服器";
+MSSQL_Server.Label1="SQL Server 伺服器名稱：";
+MSSQL_Server.Resume="SQL Server 伺服器名稱：/p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="資料庫連線錯誤";
+ConnectionTestFailed.Text="嘗試連線時回報下列錯誤：\n\n/P1\n請以「SQL Server Configuration Manager」檢查以下：\n-「共用記憶體」與「TCP/IP」通訊協定已啟用\n-「SQL Server 」與「SQL Server 瀏覽器」服務正在執行。";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="新資料庫建立";
+CreateNewMSSQL_DB.Label1="選擇核取方塊以建立新資料庫 (SQL Server 必須於本機安裝)：";
+CreateNewMSSQL_DB.CheckButton="建立新的 SQL Server 資料庫";
+CreateNewMSSQL_DB.Resume.true="建立新的 SQL Server 資料庫：是";
+CreateNewMSSQL_DB.Resume.false="建立新的 SQL Server 資料庫：否";
+
+CreateNewMSSQL_DB_Error.Title="新資料庫建立錯誤";
+CreateNewMSSQL_DB_Error.Text="使用「sqlcmd」命令時回報下列錯誤：\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="新資料庫建立成功";
+CreateNewMSSQL_DB_Success.Text="已成功建立新的 SQL Server 資料庫";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="MSSQL 資料目錄選擇";
+PathMSSQLFiles.Label1="用來儲存新資料庫檔案的目錄 (僅限新資料庫)：";
+PathMSSQLFiles.Resume="MSSQL 檔案位置：/p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="預設和管理資料檔案群組";
+MSSQL_Default_Data_FG.Label1="預設和管理資料檔案群組 (若為空白請忽略)";
+MSSQL_Default_Data_FG.Resume="預設和管理資料檔案群組：/P1";
+
+MSSQL_Default_Index_FG.Title="預設和管理索引檔案群組";
+MSSQL_Default_Index_FG.Label1="預設與管理索引檔案群組 (若為空白請忽略)";
+MSSQL_Default_Index_FG.Resume="預設和管理索引檔案群組：/P1";

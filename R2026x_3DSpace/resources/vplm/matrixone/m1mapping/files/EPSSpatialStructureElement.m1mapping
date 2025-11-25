@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="EPSSpatialStructureElement" />
+    <m1.package name="EPSSpatialStructureElement" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSpatialStructureElementType" />
+      <m1.type name="EPSSpatialStructureElementType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSElectricPowerSystemType" />
+      <m1.type name="EPSElectricPowerSystemType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSPartType" />
+      <m1.type name="EPSPartType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSpatialStructureElement" />
+      <m1.type name="EPSSpatialStructureElement" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSDistributionLineType" />
+      <m1.type name="EPSDistributionLineType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSDistributionSpanType" />
+      <m1.type name="EPSDistributionSpanType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSElectricPoleType" />
+      <m1.type name="EPSElectricPoleType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSElectricPowerSystem" />
+      <m1.type name="EPSElectricPowerSystem" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltagePylonType" />
+      <m1.type name="EPSHighVoltagePylonType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltageSpanType" />
+      <m1.type name="EPSHighVoltageSpanType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltageTransmissionLineType" />
+      <m1.type name="EPSHighVoltageTransmissionLineType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSOtherSpatialStructureElementType" />
+      <m1.type name="EPSOtherSpatialStructureElementType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSOutputPositionType" />
+      <m1.type name="EPSOutputPositionType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSPart" />
+      <m1.type name="EPSPart" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSPowerPlantType" />
+      <m1.type name="EPSPowerPlantType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSubstationType" />
+      <m1.type name="EPSSubstationType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSwitchPositionType" />
+      <m1.type name="EPSSwitchPositionType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSwitchYardType" />
+      <m1.type name="EPSSwitchYardType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSTransformerCellType" />
+      <m1.type name="EPSTransformerCellType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSTransformerCenterType" />
+      <m1.type name="EPSTransformerCenterType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSDistributionLine" />
+      <m1.type name="EPSDistributionLine" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSDistributionSpan" />
+      <m1.type name="EPSDistributionSpan" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSElectricPole" />
+      <m1.type name="EPSElectricPole" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltagePylon" />
+      <m1.type name="EPSHighVoltagePylon" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltageSpan" />
+      <m1.type name="EPSHighVoltageSpan" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSHighVoltageTransmissionLine" />
+      <m1.type name="EPSHighVoltageTransmissionLine" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSOtherSpatialStructureElement" />
+      <m1.type name="EPSOtherSpatialStructureElement" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSOutputPosition" />
+      <m1.type name="EPSOutputPosition" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSPowerPlant" />
+      <m1.type name="EPSPowerPlant" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSubstation" />
+      <m1.type name="EPSSubstation" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSwitchPosition" />
+      <m1.type name="EPSSwitchPosition" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSSwitchYard" />
+      <m1.type name="EPSSwitchYard" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSTransformerCell" />
+      <m1.type name="EPSTransformerCell" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="EPSTransformerCenter" />
+      <m1.type name="EPSTransformerCenter" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

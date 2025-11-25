@@ -1,0 +1,151 @@
+{
+	"DisplayUnitsFamily": {
+		"corpusTypeList": [
+			{
+				"corpusName": "dsprcs",
+				"authorizedTypes": [
+					{
+						"type": "DELLmiAbstractProductionEntity",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				],
+				"authorizedInterfaces": [],
+				"authorizedRelationships": [
+					{
+						"type": "DELLmiOperationInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELLmiProductionSystemInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				]
+			},
+			{
+				"corpusName": "dsmfg",
+				"authorizedTypes": [
+					{
+						"type": "DELFmiFunctionReference",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				],
+				"authorizedInterfaces": [],
+				"authorizedRelationships": [
+					{
+						"type": "DELFmiFunctionInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				]
+			}
+		]
+	},
+	"NLSValuesFamily": {
+		"corpusTypeList": [
+			{
+				"corpusName": "dsprcs",
+				"authorizedTypes": [
+					{
+						"type": "DELLmiAbstractProductionEntity",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					},
+					{
+						"type": "PLMSpecifyHowToCollectDataCnx",
+						"addSelf": false,
+						"addchildren": false,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELResourcePrmPlanAbstract",
+						"addSelf": false,
+						"addchildren": false,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELResourcePrmPlanSET",
+						"addSelf": true,
+						"addchildren": false,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELResourcePrmPlanGET",
+						"addSelf": true,
+						"addchildren": false,
+						"addInterfaces": true
+					}
+				],
+				"authorizedInterfaces": [],
+				"authorizedRelationships": [
+					{
+						"type": "DELLmiOperationInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELLmiProductionSystemInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				]
+			},
+			{
+				"corpusName": "dsmfg",
+				"authorizedTypes": [
+					{
+						"type": "DELFmiFunctionReference",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				],
+				"authorizedInterfaces": [],
+				"authorizedRelationships": [
+					{
+						"type": "DELFmiFunctionInstance",
+						"addSelf": true,
+						"addchildren": true,
+						"addInterfaces": true
+					}
+				]
+			},
+			{
+				"corpusName": "dsrsc",
+				"authorizedTypes": [
+					{
+						"type": "DELResourcePrmAbstract",
+						"addSelf": false,
+						"addchildren": false,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELResourcePrmINPUT",
+						"addSelf": true,
+						"addchildren": false,
+						"addInterfaces": true
+					},
+					{
+						"type": "DELResourcePrmOUTPUT",
+						"addSelf": true,
+						"addchildren": false,
+						"addInterfaces": true
+					}
+				],
+				"authorizedInterfaces": [],
+				"authorizedRelationships": []
+			}
+		]
+	}
+}

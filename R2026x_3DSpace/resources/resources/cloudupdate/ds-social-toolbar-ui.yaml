@@ -1,0 +1,10 @@
+author:     q61
+date:       2024-06-13
+version:    1.0
+services:
+  - name: 3DCOMMENT
+    vms:
+        - name:       COMMENT_FrontEnd
+          files:          
+          - file:   /usr/local/x3ds/X3D_CMNT/linux_a64/webapps/
+            source: linux_a64/webapps/*      

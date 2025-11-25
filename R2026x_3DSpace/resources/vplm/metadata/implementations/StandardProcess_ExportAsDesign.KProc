@@ -1,0 +1,12 @@
+#Prog StandardProcess_ExportAsDesign (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+  {
+let PLMIDSetStandardProcessRef (PLMIDSet)
+let PLMIDSetDocuments (PLMIDSet)
+
+PLMIDSetStandardProcessRef = Restrict(iPLMIDSet, "DELStandardProcess/DELStandardProcessReference")
+
+PLMIDSetDocuments = ExecutePLMProcedure("DocumentCompletion_allDocumentCompletion", PLMIDSetStandardProcessRef)
+
+oPLMIDSet = PLMIDSetStandardProcessRef + PLMIDSetDocuments
+
+}

@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MarkingLinesCommon_DashedLine",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkingLinesCommon_DashedLinePattern",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarkingLinesCommon_NominalWidth",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

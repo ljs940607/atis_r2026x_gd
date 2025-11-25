@@ -1,0 +1,4 @@
+<Scripts>
+  <Script OpeningID="PLMIdentificationInitialization" Type="ENOStrRefinementSpecification"  ScriptName="AdvancedFilterBLInitialization" />
+  <Script OpeningID="PLMIdentificationInitialization" Type="ENOStrRefinementVDRPSpec"  ScriptName="VDRPFilterBLInitialization" />
+</Scripts>

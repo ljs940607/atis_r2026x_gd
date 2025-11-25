@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELCheckSum" />
+    <m1.package name="DELCheckSum" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELVariantEffectivityCheckSumExt" />
+      <m1.interface name="DELVariantEffectivityCheckSumExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_VECheckSum" />
+        <m1.attribute name="DELVariantEffectivityCheckSumExt.V_VECheckSum" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

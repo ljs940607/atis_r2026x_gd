@@ -1,0 +1,1091 @@
+[
+	{
+		"experience": "ECM_Issue_OOTB_AccessTable",
+		"accessTree": {
+			"nodes": [
+				{
+					"id": 1,
+					"name": "CLOSE_CANCEL",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "CLOSE_RESOLUTION",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "REOPEN_CANCEL",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CLOSED",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "REOPEN_RESOLUTION",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CLOSED",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "MOVE",
+					"nodes": [
+						{
+							"id": 3,
+							"name": "OWNER"
+						},
+						{
+							"id": 3,
+							"name": "ADMIN"
+						},
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "DELETE",
+					"nodes": [
+						{
+							"id": 3,
+							"name": "ADMIN"
+						},
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "PROMOTE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "DEMOTE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "EDIT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "RESOLVED_BY_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "ATTACHMENT_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								},
+								{
+									"id": 3,
+									"name": "CONTRIBUTOR"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								},
+								{
+									"id": 3,
+									"name": "CONTRIBUTOR"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "CONTEXT_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "AFFECTED_ITEM_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "RESOLUTION_ITEM_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "COOWNER_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_CLOSED",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "ASSIGNEE_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "CONTRIBUTOR_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								},
+								{
+									"id": 3,
+									"name": "CONTRIBUTOR"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								},
+								{
+									"id": 3,
+									"name": "CONTRIBUTOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "FOLLOWER_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 3,
+							"name": "OWNER"
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_CLOSED",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "APPROVAL_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ACTIVE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_REVIEW",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "REPORTING_ORGANIZATION_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "RESPONSIBLE_ORGANIZATION_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_CREATE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_ASSIGN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COOWNER"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"columns": [
+			{
+				"id": 1,
+				"values": [	
+					"EDIT",
+					"PROMOTE",
+					"DEMOTE",
+					"DELETE",
+					"MOVE",
+					"COOWNER_MANAGEMENT",
+					"ASSIGNEE_MANAGEMENT",
+					"CONTRIBUTOR_MANAGEMENT",
+					"FOLLOWER_MANAGEMENT",
+					"APPROVAL_MANAGEMENT",
+					"REPORTING_ORGANIZATION_MANAGEMENT",
+					"RESPONSIBLE_ORGANIZATION_MANAGEMENT",
+					"ATTACHMENT_MANAGEMENT",
+					"CONTEXT_MANAGEMENT",
+					"AFFECTED_ITEM_MANAGEMENT",
+					"RESOLUTION_ITEM_MANAGEMENT",
+					"RESOLVED_BY_MANAGEMENT",
+					"CLOSE_CANCEL",
+					"CLOSE_RESOLUTION",
+					"REOPEN_CANCEL",
+					"REOPEN_RESOLUTION"
+				]
+			},
+			{
+				"id": 2,
+				"values": [
+					"STATE_CREATE",
+					"STATE_ASSIGN",
+					"STATE_ACTIVE",
+					"STATE_REVIEW",
+					"STATE_CLOSED"
+				]
+			},
+			{
+				"id": 3,
+				"values": [
+					"OWNER",
+					"COOWNER",
+					"ASSIGNEE",
+					"CONTRIBUTOR",
+					"FOLLOWER",
+					"ADMIN",
+					"NA"
+				]
+			}
+		]
+	}
+]

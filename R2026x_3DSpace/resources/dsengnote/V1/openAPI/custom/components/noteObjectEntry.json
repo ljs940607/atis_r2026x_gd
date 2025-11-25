@@ -1,0 +1,36 @@
+{
+  "description": "Object entry specifying a referenced Standard Resource",
+  "type": "object",
+  "properties": {
+    "type_entry": {
+      "description": "Type of this entry",
+      "type": "string",
+      "example": "object"
+    },
+    "key": {
+      "description": "User name of the entry (no unicity enforced)",
+      "type": "string",
+      "example": "StdProcess.1"
+    },
+    "text": {
+      "description": "Text shown in Note Text for this object (name of the referenced object)",
+      "type": "string",
+      "example": "Standard Process ABC"
+    },
+    "prefix": {
+      "description": "String to prepend before text in computed Note Text",
+      "type": "string",
+      "example": "my prefix"
+    },
+    "suffix": {
+      "description": "String to append to text in computed Note Text",
+      "type": "string",
+      "example": "my suffix"
+    },
+    "placeholder": {
+      "description": "If set to true, object is not linked in the database, and entry only specifies it by its name in the text attribute.",
+      "type": "boolean",
+      "example": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_WaterPump_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_WaterPump_SerialNumber",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

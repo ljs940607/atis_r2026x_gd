@@ -1,0 +1,25 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package PLMElectrical_EngSpecification-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecSpecification" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecSeriesTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecFamilyTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecGaugeTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecEndDimensionTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPartPortCompatibilityTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPortInPartCompatibilityTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPortToPartMappingTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPortTypesInPartCompatibilityTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecCableCoreResourceTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecSegmentResourceTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecBranchResourceTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPortResourceTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecCircuitMappingTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecPartFilter" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecProtectionFilter" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecCableFilter" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecCableContactCompatibilityTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecCableSubtypeMappingTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="ElecMinGaugeForNomCurrentTable" ScriptName="ENOAP_PolicyChooser_Resource" />
+</Scripts>
+

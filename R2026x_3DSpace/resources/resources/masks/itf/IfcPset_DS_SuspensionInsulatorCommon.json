@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_SuspensionInsulatorCommon_SubtypeDescription",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SuspensionInsulatorCommon_InsulatorsPerBranch",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SuspensionInsulatorCommon_BranchesNumber",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

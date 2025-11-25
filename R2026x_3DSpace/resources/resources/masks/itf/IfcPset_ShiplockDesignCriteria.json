@@ -1,0 +1,37 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_MaximumUpstreamNavigableWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_MinimumUpstreamNavigableWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_MaximumDownstreamNavigableWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_MinimumDownstreamNavigableWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_UpstreamMaintenanceWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_DownstreamMaintenanceWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_UpstreamFloodWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockDesignCriteria_DownstreamFloodWaterLevel",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

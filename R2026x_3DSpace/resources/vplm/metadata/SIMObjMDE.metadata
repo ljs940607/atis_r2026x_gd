@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2022, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+			Name="SIMObjMDE" 
+			Uuid="F4D599FE-02C2-4E5E-8F8B-5EDAE8ADD5CD" 
+			BelongsToModeler="SIMObjSimulation" 
+			ModelerType="Top" 
+			UseNames="SIMObjSimulation;SIMObjSimulationGeneric" 
+			UseProcedures="SIM_Procedures"
+			CustomerExposition="Programmer">
+
+    <CAAComment>
+      <ShortRole>Multi-Discipline Design Exploration types.</ShortRole>
+      <Role>Simulation types for Multi-Discipline Design Exploration</Role>
+    </CAAComment>
+
+
+    <Class Name="MdeDisciplineSo" Uuid="CAA39919-73F3-4B24-88DE-E27C6BA057F5"
+                   SuperName="SIMObjSimulationObjectGeneric"  Abstract="No"  Discipline="Yes"
+                   CustomerExposition="Programmer" Specializable="Yes" CustomerExtensible="Yes"  Abbreviation="dedis">
+      <!--<Property Name="KweNew_InstanciationMethod" Value="MdeDisciplineSoPLMNew"/>-->
+      <Property Name="KweNew_InstanciationMethod" Value="SMADisciplineSimulationPLMNew"/>
+      <Property Name="Searchable" Value="Yes"/>
+      <Property Name="Newable" Value="New_Offline"/>
+      <Property Name="IconName" Value="I_MdeDisciplineSo"/>
+      <Property Name="3DIconName" Value="MdeDisciplineSo.cgr"/>
+      <Property Name="Configurable" Value="No"/>
+      <Property Name="Filtrable" Value="No"/> 
+    </Class>
+
+
+
+    <!-- Exploration - - - - -->
+
+    <Class Name="MdeExplorationSo" Uuid="B080E8A3-1EF4-45FC-B3C0-A555B7213A66" 
+                   SuperName="SIMObjSimulationObjectGeneric"  Abstract="No"  Discipline="Yes"
+                   CustomerExposition="Programmer"  Specializable="Yes"  CustomerExtensible="Yes"  Abbreviation="deexp">
+      <Property Name="KweNew_InstanciationMethod" Value="MdeExplorationSoPLMNew"/>
+      <Property Name="Searchable" Value="Yes"/>
+      <Property Name="Newable" Value="New"/>
+      <Property Name="IconName" Value="I_MdeExplorationSo"/>
+      <Property Name="3DIconName" Value="MdeExplorationSo.cgr"/>
+      <Property Name="Configurable" Value="No"/>
+      <Property Name="Filtrable" Value="No"/>
+
+      <Method ImplementationType="Self">
+        <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+        <ProcedureForUsage>
+          <Usage href="ExportScope.meth#Design"/>
+          <UsedProcedure href="SIM_Procedures.proc#MdeExplorationSoExport"/>
+        </ProcedureForUsage>
+      </Method>
+    </Class>
+
+
+    <Class Name="MdeDisciplineCnx" Uuid="D8E15776-F34B-4067-B271-3D14B61A19B0" 
+           SuperName="SIMObjSimulationConnection"  Abstract="No"
+           CustomerExposition="Programmer" Specializable="No" CustomerExtensible="No" >
+
+        <Comment>Points to the MDE Disciplines that an MDE Exploration uses.</Comment>
+
+        <Property Name="Searchable" Value="No"/>
+        <Property Name="Configurable" Value="No" />
+        <Property Name="Filtrable" Value="No" />
+
+        <Path Name="MdeDisciplines"  Uuid="6DA077D6-39E3-4DFC-B3C0-0FC9F1CD4885"  Type="SemanticRelation" 
+              RoleName="SIM_LinkedMdeDiscipline"  Semantics="Reference3" 
+              MultiValuated="Yes"
+              AdaptativeToMinor="No"  SynchroSensitivity="Last"  RerouteOnEffectivityChange="No"  Orientation="In" >
+            <Comment>Points to the MDE Discipline(s).</Comment>
+        </Path>
+
+        <!--
+        <Path Name="MdeByPassImpact"  Uuid="B52B2A3A-67FE-44C9-831A-A5CF0CA7BDCB"  Type="SemanticRelation"
+              RoleName="SIM_MdeOwner"  Semantics="Reference5" 
+              MultiValuated="No"  
+              AdaptativeToMinor="No"  SynchroSensitivity="Last"  RerouteOnEffectivityChange="No"  Orientation="Out" >
+            <Comment>Points to the owning MDE Exploratoin (grandparent).</Comment>
+        </Path>
+        -->
+
+        <Method ImplementationType="None">
+            <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+        </Method>
+    </Class>
+
+	<Signature id="MdeFunctionSignature">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" Direction="in" MultiValuated="No" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" Direction="out" MultiValuated="No" DataType="PLMRouteSet"/>
+	</Signature>
+
+	<Function Name="sim_addMdeDiscipline">
+		<Implementation Name="sim_addMdeDiscipline" FileLocation="sim_addMdeDiscipline.plmql" Language="PLMQL"/>
+		<Signature href="MdeFunctionSignature"/>
+	</Function>
+
+
+</Package>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="MarineSpatialStructureElementIfc" />
+    <m1.package name="MarineSpatialStructureElementIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcMarineFacility" />
+      <m1.interface name="IfcMarineFacility" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarineFacility_CompositionType" />
+        <m1.attribute name="IfcMarineFacility.IfcMarineFacility_CompositionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarineFacility_LongName" />
+        <m1.attribute name="IfcMarineFacility.IfcMarineFacility_LongName" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarineFacility_ObjectType" />
+        <m1.attribute name="IfcMarineFacility.IfcMarineFacility_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarineFacility_PredefinedType" />
+        <m1.attribute name="IfcMarineFacility.IfcMarineFacility_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcMarinePart" />
+      <m1.interface name="IfcMarinePart" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarinePart_CompositionType" />
+        <m1.attribute name="IfcMarinePart.IfcMarinePart_CompositionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarinePart_LongName" />
+        <m1.attribute name="IfcMarinePart.IfcMarinePart_LongName" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarinePart_ObjectType" />
+        <m1.attribute name="IfcMarinePart.IfcMarinePart_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarinePart_PredefinedType" />
+        <m1.attribute name="IfcMarinePart.IfcMarinePart_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcMarinePart_UsageType" />
+        <m1.attribute name="IfcMarinePart.IfcMarinePart_UsageType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_BreakwaterCommon" />
+      <m1.interface name="IfcPset_BreakwaterCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_BreakwaterCommon_Elevation" />
+        <m1.attribute name="IfcPset_BreakwaterCommon.IfcPset_BreakwaterCommon_Elevation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_BreakwaterCommon_StructuralStyle" />
+        <m1.attribute name="IfcPset_BreakwaterCommon.IfcPset_BreakwaterCommon_StructuralStyle" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_GateHeadCommon" />
+      <m1.interface name="IfcPset_GateHeadCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_GateHeadCommon_StructuralType" />
+        <m1.attribute name="IfcPset_GateHeadCommon.IfcPset_GateHeadCommon_StructuralType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_JettyCommon" />
+      <m1.interface name="IfcPset_JettyCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyCommon_BentSpacing" />
+        <m1.attribute name="IfcPset_JettyCommon.IfcPset_JettyCommon_BentSpacing" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyCommon_Elevation" />
+        <m1.attribute name="IfcPset_JettyCommon.IfcPset_JettyCommon_Elevation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyCommon_PierSectionType" />
+        <m1.attribute name="IfcPset_JettyCommon.IfcPset_JettyCommon_PierSectionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyCommon_StructuralType" />
+        <m1.attribute name="IfcPset_JettyCommon.IfcPset_JettyCommon_StructuralType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_JettyDesignCriteria" />
+      <m1.interface name="IfcPset_JettyDesignCriteria" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_EquipmentLoading" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_EquipmentLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_ExtremeHighWaterLevel" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_ExtremeHighWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_ExtremeLowWaterLevel" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_ExtremeLowWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_FlowLoading" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_FlowLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_HighWaterLevel" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_HighWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_LowWaterLevel" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_LowWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_ShipLoading" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_ShipLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_UniformlyDistributedLoad" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_UniformlyDistributedLoad" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_JettyDesignCriteria_WaveLoading" />
+        <m1.attribute name="IfcPset_JettyDesignCriteria.IfcPset_JettyDesignCriteria_WaveLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_MarineFacilityTransportation" />
+      <m1.interface name="IfcPset_MarineFacilityTransportation" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_MarineFacilityTransportation_BerthCargoWeight" />
+        <m1.attribute name="IfcPset_MarineFacilityTransportation.IfcPset_MarineFacilityTransportation_BerthCargoWeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_MarineFacilityTransportation_BerthGrade" />
+        <m1.attribute name="IfcPset_MarineFacilityTransportation.IfcPset_MarineFacilityTransportation_BerthGrade" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_MarineFacilityTransportation_Berths" />
+        <m1.attribute name="IfcPset_MarineFacilityTransportation.IfcPset_MarineFacilityTransportation_Berths" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_MarinePartChamberCommon" />
+      <m1.interface name="IfcPset_MarinePartChamberCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_MarinePartChamberCommon_EffectiveChamberSize" />
+        <m1.attribute name="IfcPset_MarinePartChamberCommon.IfcPset_MarinePartChamberCommon_EffectiveChamberSize" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_MarinePartChamberCommon_StructuralType" />
+        <m1.attribute name="IfcPset_MarinePartChamberCommon.IfcPset_MarinePartChamberCommon_StructuralType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_QuayCommon" />
+      <m1.interface name="IfcPset_QuayCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayCommon_BentSpacing" />
+        <m1.attribute name="IfcPset_QuayCommon.IfcPset_QuayCommon_BentSpacing" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayCommon_Elevation" />
+        <m1.attribute name="IfcPset_QuayCommon.IfcPset_QuayCommon_Elevation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayCommon_QuaySectionType" />
+        <m1.attribute name="IfcPset_QuayCommon.IfcPset_QuayCommon_QuaySectionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayCommon_StructuralType" />
+        <m1.attribute name="IfcPset_QuayCommon.IfcPset_QuayCommon_StructuralType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_QuayDesignCriteria" />
+      <m1.interface name="IfcPset_QuayDesignCriteria" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_EquipmentLoading" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_EquipmentLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_ExtremeHighWaterLevel" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_ExtremeHighWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_ExtremeLowWaterLevel" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_ExtremeLowWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_FlowLoading" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_FlowLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_HighWaterLevel" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_HighWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_LowWaterLevel" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_LowWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_ShipLoading" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_ShipLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_UniformlyDistributedLoad" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_UniformlyDistributedLoad" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_QuayDesignCriteria_WaveLoading" />
+        <m1.attribute name="IfcPset_QuayDesignCriteria.IfcPset_QuayDesignCriteria_WaveLoading" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_RevetmentCommon" />
+      <m1.interface name="IfcPset_RevetmentCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_RevetmentCommon_Elevation" />
+        <m1.attribute name="IfcPset_RevetmentCommon.IfcPset_RevetmentCommon_Elevation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_RevetmentCommon_StructuralType" />
+        <m1.attribute name="IfcPset_RevetmentCommon.IfcPset_RevetmentCommon_StructuralType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_ShipLockCommon" />
+      <m1.interface name="IfcPset_ShipLockCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShipLockCommon_CillLevelLowerHead" />
+        <m1.attribute name="IfcPset_ShipLockCommon.IfcPset_ShipLockCommon_CillLevelLowerHead" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShipLockCommon_CillLevelUpperHead" />
+        <m1.attribute name="IfcPset_ShipLockCommon.IfcPset_ShipLockCommon_CillLevelUpperHead" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShipLockCommon_WaterDeliverySystemType" />
+        <m1.attribute name="IfcPset_ShipLockCommon.IfcPset_ShipLockCommon_WaterDeliverySystemType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShipLockCommon_WaterDeliveryValveType" />
+        <m1.attribute name="IfcPset_ShipLockCommon.IfcPset_ShipLockCommon_WaterDeliveryValveType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_ShiplockComplex" />
+      <m1.interface name="IfcPset_ShiplockComplex" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockComplex_LockChamberLevels" />
+        <m1.attribute name="IfcPset_ShiplockComplex.IfcPset_ShiplockComplex_LockChamberLevels" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockComplex_LockGrade" />
+        <m1.attribute name="IfcPset_ShiplockComplex.IfcPset_ShiplockComplex_LockGrade" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockComplex_LockLines" />
+        <m1.attribute name="IfcPset_ShiplockComplex.IfcPset_ShiplockComplex_LockLines" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockComplex_LockMode" />
+        <m1.attribute name="IfcPset_ShiplockComplex.IfcPset_ShiplockComplex_LockMode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_ShiplockDesignCriteria" />
+      <m1.interface name="IfcPset_ShiplockDesignCriteria" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_DownstreamFloodWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_DownstreamFloodWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_DownstreamMaintenanceWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_DownstreamMaintenanceWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_MaximumDownstreamNavigableWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_MaximumDownstreamNavigableWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_MaximumUpstreamNavigableWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_MaximumUpstreamNavigableWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_MinimumDownstreamNavigableWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_MinimumDownstreamNavigableWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_MinimumUpstreamNavigableWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_MinimumUpstreamNavigableWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_UpstreamFloodWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_UpstreamFloodWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShiplockDesignCriteria_UpstreamMaintenanceWaterLevel" />
+        <m1.attribute name="IfcPset_ShiplockDesignCriteria.IfcPset_ShiplockDesignCriteria_UpstreamMaintenanceWaterLevel" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_ShipyardCommon" />
+      <m1.interface name="IfcPset_ShipyardCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ShipyardCommon_PrimaryProductionType" />
+        <m1.attribute name="IfcPset_ShipyardCommon.IfcPset_ShipyardCommon_PrimaryProductionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

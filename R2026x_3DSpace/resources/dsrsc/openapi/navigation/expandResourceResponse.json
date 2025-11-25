@@ -1,0 +1,71 @@
+{
+	"properties": {
+		"totalItems": {
+			"type": "integer",
+			"example": 1
+		},
+		"member": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "Entity physical id",
+						"type": "string",
+						"example": "RRR57EA400003D265621266D00017RRR"
+					},
+					"type": {
+						"description": "Basic type value",
+						"type": "string",
+						"example": "My Type"
+					},
+					"modified": {
+						"description": "Basic modified value",
+						"type": "string",
+						"example": "2022-01-31T09:48:10Z"
+					},
+					"created": {
+						"description": "Object created value",
+						"type": "string",
+						"example": "2022-01-31T09:48:10Z"
+					},
+					"name": {
+						"description": "Entity name",
+						"type": "string",
+						"example": "My name"
+					},
+					"description": {
+						"description": "Entity description vlaue",
+						"type": "string",
+						"example": "My description"
+					},
+					"owner": {
+						"description": "Object owner value",
+						"type": "string",
+						"example": "John Doe"
+					},
+					"organization": {
+						"description": "Object organization value",
+						"type": "string",
+						"example": "MyCompany"
+					},
+					"collabspace": {
+						"description": "Object collabspace value",
+						"type": "string",
+						"example": "Default"
+					},
+					"resourceType": {
+						"description": "Object resourceType value",
+						"type": "string",
+						"example": "Organizational"
+					},
+					"cestamp": {
+						"description": "Object cestamp value",
+						"type": "string",
+						"example": "2D70169432D84866A200F907881AC9B1"
+					}
+				}
+			}
+		}
+	}
+}

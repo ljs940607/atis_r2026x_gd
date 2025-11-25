@@ -1,0 +1,342 @@
+{
+  "dsengelec:Device":{
+    "kindOf":"root",
+    "beType":"type_VPMReference",
+    "classesWhere":"(type== VPMReference && attribute[PLMEntity.V_discipline] == ElecPart)",
+    "indexClassesWhere":"flattenedtaxonomies:interfaces/ElecPart",
+    "contentLinks":["dsengelec:DeviceInst", "dseng:EngInstance"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:AllDevicesMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":false,
+        "navigate":false,
+        "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dsengelec/dsengelec:Device/{pid}"
+  },
+  
+   "dsengelec:HarnessGeom":{
+    "kindOf":"root",
+    "beType":"type_ElectricalGeometry",
+    "contentLinks":["dsengelec:DeviceInst", "dsengelec:BranchGeomInst", "dsengspt:SupportInst", "dsengeqt:EquipmentInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:HarnessGeomMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:BranchGeom":{
+    "kindOf":"root",
+    "beType":"type_ElectricalBranchGeometry",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:BranchGeomMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElectricalBranchGeometryDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:Cable":{
+    "kindOf":"root",
+    "beType":"type_Elec3DCable",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:CableMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DCableDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:Conductor":{
+    "kindOf":"root",
+    "beType":"type_Elec3DConductor",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:ConductorMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dseno:EnterpriseAttributes", "dseng:EnterpriseReference"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DConductorDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+
+  "dsengelec:ConductorGroup":{
+    "kindOf":"root",
+    "beType":"type_Elec3DConductorGroup",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:ConductorGroupMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dseno:EnterpriseAttributes", "dseng:EnterpriseReference"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DConductorGroupDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:System":{
+    "kindOf":"root",
+    "beType":"type_Electrical3DSystem",
+    "contentLinks":["dsengelec:CableInst", "dsengelec:ConductorInst", "dsengelec:ConductorGroupInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:SystemMask",
+    "patchCSRF":true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElectrical3DSystemDictionary",
+    "isPublic": true, 
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:DeviceInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == ElecPart)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "rootLinks": [ "dseng:EngItem", "dsengelec:Device", "dsengelec:HarnessGeom" ],
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengelec:DeviceInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  } ,
+  
+    "dsengelec:HarnessGeomInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == ElectricalGeometry)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "rootLinks": ["dseng:EngItem"],
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengelec:HarnessGeomInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  } ,
+  
+    "dsengelec:BranchGeomInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == ElectricalBranchGeometry)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "rootLinks": ["dsengelec:HarnessGeom"],
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengelec:BranchGeomInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  } ,
+  
+    "dsengelec:SystemInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == Electrical3DSystem)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "rootLinks": ["dseng:EngItem"],
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengelec:SystemInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsengelec:CableInst":{
+    "kindOf":"content",
+    "beType":"relationship_Elec3DCable_Inst",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType":"dseng:EngInstance",
+    "rootLinks":["dsengelec:System"],
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:CableInstMask",
+    "patchCSRF":true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck":{
+        "modify":true,
+        "navigate":false,
+        "produce": true
+    }
+  },
+
+  "dsengelec:ConductorInst":{
+    "kindOf":"content",
+    "beType":"relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.type == Elec3DConductor)",
+    "parentType":"dseng:EngInstance",
+    "rootLinks":["dsengelec:System"],
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:ConductorInstMask",
+    "patchCSRF":true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck":{
+        "modify":false,
+        "navigate":false,
+        "produce": true
+    }
+  },
+
+  "dsengelec:ConductorGroupInst":{
+    "kindOf":"content",
+    "beType":"relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.type == Elec3DConductorGroup)",
+    "parentType":"dseng:EngInstance",
+    "rootLinks":["dsengelec:System"],
+    "inheritanceType": "explicit",
+    "defaultMask":"dsmvengelec:ConductorGroupInstMask",
+    "patchCSRF":true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecInstDictionary",
+    "isPublic": true,
+    "optionCheck":{
+        "modify":false,
+        "navigate":false,
+        "produce": true
+    }
+  },
+  
+  "dsengelec:Properties": {
+        "isPublic":true,
+        "kindOf": "extension",
+        "beType": "interface_PLMEnsElectricalProperties",
+        "rootLinks":["dseng:EngItem", "dsengeqt:Equipment", "dsenghvac:Part", "dsengpip:Part"],
+        "patchCSRF":true,
+        "defaultMask": "dsmvengelec:PropertiesMask",
+        "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecPropertiesDictionary",       
+        "optionCheck" : {
+          "modify"      : true,
+          "produce"     : true,
+          "navigate"    : false
+        }
+    }
+
+}

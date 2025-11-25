@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parâmetros de conexão do SQL Server";
+MSSQL_ConnectUser.Label1="Nome de usuário da conexão do SQL Server:";
+MSSQL_ConnectUser.Resume="Nome de usuário da conexão do SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Senha de usuário da conexão do SQL Server";
+MSSQL_ConnectPwd.Label1="Senha de usuário da conexão do SQL Server:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Nome do banco de dados do SQL Server";
+MSSQL_Instance.Label1="Nome do banco de dados do SQL Server:";
+MSSQL_Instance.Resume="Nome do banco de dados do SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Servidor de banco de dados do SQL Server";
+MSSQL_Server.Label1="Nome do servidor do SQL Server:";
+MSSQL_Server.Resume="Nome do servidor do SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Erro de conexão com o banco de dados";
+ConnectionTestFailed.Text="O seguinte erro foi relatado ao tentar conexão:/P1\nVerifique no “SQL Server Configuration Manager” se:\nOs protocolos “Memória compartilhada” e “TCP/IP” estão ativados\n- Os serviços “SQL Server” e “SQL Server Browser” estão em execução.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Criação de novo banco de dados";
+CreateNewMSSQL_DB.Label1="Marque a caixa de seleção para criar um novo banco de dados (o SQL Server deve ser instalado localmente):";
+CreateNewMSSQL_DB.CheckButton="Criar um novo banco de dados do SQL Server";
+CreateNewMSSQL_DB.Resume.true="Criar um novo banco de dados do SQL Server: Sim";
+CreateNewMSSQL_DB.Resume.false="Criar um novo banco de dados do SQL Server: Não";
+
+CreateNewMSSQL_DB_Error.Title="Erro ao criar novo banco de dados";
+CreateNewMSSQL_DB_Error.Text="O seguinte erro foi relatado ao usar o comando 'sqlcmd':/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="Criação bem-sucedida do novo banco de dados";
+CreateNewMSSQL_DB_Success.Text="O novo banco de dados do SQL Server foi criado com êxito";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Seleção de diretório de dados MSSQL";
+PathMSSQLFiles.Label1="Diretório usado para armazenar os novos arquivos de banco de dados (somente novo banco de dados):";
+PathMSSQLFiles.Resume="Local dos arquivos MSSQL: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Filegroup de dados padrão e de administração";
+MSSQL_Default_Data_FG.Label1="Filegroup de dados padrão e de administração (ignorado se estiver em branco)";
+MSSQL_Default_Data_FG.Resume="Filegroup de dados padrão e de administração: /P1";
+
+MSSQL_Default_Index_FG.Title="Filegroup de índice padrão e de administração";
+MSSQL_Default_Index_FG.Label1="Filegroup de índice padrão e de administração (ignorado se estiver em branco)";
+MSSQL_Default_Index_FG.Resume="Filegroup de índice padrão e de administração: /P1";

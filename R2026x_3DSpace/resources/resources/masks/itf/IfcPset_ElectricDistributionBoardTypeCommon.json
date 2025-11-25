@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricDistributionBoardTypeCommon_Reference",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricDistributionBoardTypeCommon_Status",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

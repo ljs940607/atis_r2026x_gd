@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_EnvironmentalEmissions_CarbonDioxideEmissions",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalEmissions_SulphurDioxideEmissions",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalEmissions_NitrogenOxidesEmissions",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalEmissions_ParticulateMatterEmissions",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_EnvironmentalEmissions_NoiseEmissions",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,41 @@
+{
+    "dsppr:PPRContext": {
+        "kindOf": "root",
+        "beType": "type_PPRContext",
+        "search":true,
+        "cestamp":true,
+        "defaultMask":"dsppr:PPRContextMask.Default",
+    	"isPublic": true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        },
+        "extensionLinks": ["dsppr:PPRItemObject", "dsppr:PPRItemFilter"],
+        "publicResourceURI": "/resources/v1/modeler/dsppr/dsppr:PPRContext/{pid}"
+    },
+    
+    "dsppr:PPRItemObject": {
+        "kindOf":"extension",
+        "beType":"virtual_PPRContext",
+        "defaultMask":"dsppr:PPRContextMask.Default",
+        "isPublic": true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        }
+    },
+    
+    "dsppr:PPRItemFilter": {
+        "kindOf":"extension",
+        "beType":"virtual_PPRContext",
+        "defaultMask":"dsppr:PPRContextMask.Default",
+        "isPublic": true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        }
+    }	
+}

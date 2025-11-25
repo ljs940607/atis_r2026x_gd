@@ -1,0 +1,8 @@
+{
+   "owner" :       "rbt6",
+   "description" : "globe dataset",
+   "service" :     "globe",
+   "urls" : {
+               "fetch" : "/resources/v1/globe/i3dx/fetch"
+    }
+}

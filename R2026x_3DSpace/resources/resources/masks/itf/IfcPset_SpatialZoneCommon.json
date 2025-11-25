@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SpatialZoneCommon_Reference",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpatialZoneCommon_IsExternal",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

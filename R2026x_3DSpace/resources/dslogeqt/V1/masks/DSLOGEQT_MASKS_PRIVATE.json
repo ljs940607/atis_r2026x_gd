@@ -1,0 +1,24 @@
+{
+  "dsmvlogeqt:DefaultBusMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BusBasicPropertiesMask.public"
+    }
+  ],
+  "dsmvlogeqt:DefaultRelMask.utc": [
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc",
+    "dsmveno:attribute.instance.name",
+    "dsmveno:attribute.instance.description"
+  ]
+}

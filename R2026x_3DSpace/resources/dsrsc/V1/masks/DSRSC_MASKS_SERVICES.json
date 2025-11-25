@@ -1,0 +1,308 @@
+{
+	"dsrsc:DefaultBusMask.utc": [
+		{
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        }
+	],
+	"dsrsc:DefaultRelMask.utc": [
+		"dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+        "dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        "dsmveno:attribute.instance.name",
+        "dsmveno:attribute.instance.description"
+	],
+	"dsmvrsc:ResourceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultBusMask.public"
+	    },
+		"dsmvrsc:program.getIsAsset",
+		"dsmvrsc:program.serialNumber",
+		"dsmvrsc:program.getResourceType"
+	],
+	"dsmvrsc:ResourceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Common"
+	    },
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:attribute.reference.createdFrom",
+		"dsmveno:attribute.reference.versionComment",
+		"dsmvrsc:attribute.extension.resourceCategory",
+		"dsmvrsc:attribute.extension.resourceManufacturer",
+		"dsmvrsc:attribute.extension.resourceSubType",
+		"dsmvrsc:attribute.extension.resourceModelIdentifier",
+		"dsmvrsc:attribute.extension.resourceCalculatedCycleTime",
+		"dsmvrsc:attribute.extension.resourceConsumableCost",
+		"dsmvrsc:attribute.extension.resourceCycleTime",
+		"dsmvrsc:attribute.extension.resourceEnergyCost",
+		"dsmvrsc:attribute.extension.resourceMeanTimeBeforeFailure",
+		"dsmvrsc:attribute.extension.resourceMeanTimeToRepair",
+		"dsmvrsc:attribute.extension.resourceMaintenanceCost",
+		"dsmvrsc:attribute.extension.resourcePurchaseCost",
+		"dsmvrsc:attribute.extension.resourceRepairCost",
+		"dsmvrsc:attribute.extension.resourceSetUpTime",
+		"dsmvrsc:attribute.extension.resourceSetUpTimeReduced",
+		"dsmvrsc:attribute.extension.resourceTargetCost",
+		"dsmvrsc:attribute.extension.resourceTargetedCycleTime",
+		"dsmvrsc:attribute.extension.robotApproachReach",
+		"dsmvrsc:attribute.extension.robotControllerVersion",
+		"dsmvrsc:attribute.extension.robotIndustrialApplications",
+		"dsmvrsc:attribute.extension.robotKinematicClass",
+		"dsmvrsc:attribute.extension.robotMaxPayload",
+		"dsmvrsc:attribute.extension.robotMountingMethod",
+		"dsmvrsc:attribute.extension.robotNbDOFs",
+		"dsmvrsc:attribute.extension.robotRepeatability",
+		"dsmvrsc:attribute.extension.robotmodelIDAliases",
+		"dsmvrsc:program.CP.EnterpriseAttributes",
+		"dsmveno:CustomerAttributes"
+	],
+	
+	"dsmvrsc:ResourceMask.AllDetails": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    },
+	    "dsmvrsc:attribute.extension.workCenterFollowupType",
+		"dsmvrsc:attribute.extension.workCenterSequenceBackward",
+		"dsmvrsc:attribute.extension.workCenterIsFiniteCapacity",
+		"dsmvrsc:program.workerGender",
+		"dsmvrsc:attribute.extension.workerPopulation",
+		"dsmvrsc:attribute.extension.workerStature",
+		"dsmvrsc:attribute.extension.workerWeight"
+		
+	],
+	"dsmvrsc:ResourceAssetMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Common"
+	    },
+		"dsmvrsc:program.serialNumber",
+		"dsmvrsc:program.genericObjectReference"
+	],
+	"dsmvrsc:ResourceAssetMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    },
+	    "dsmvrsc:program.serialNumber",
+	    "dsmvrsc:program.genericObjectReference"
+	],
+	"dsmvrsc:ResourceInstanceMask.Common" : [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    }
+	],
+	"dsmvrsc:ResourceItemInstanceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    },
+	    "dsmvrsc:program.getReferencedObject"
+	],
+	"dsmvrsc:ResourceItemInstanceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceItemInstanceMask.Common"
+	    },
+	    "dsmveno:basic.instance.reservedByUserId"
+    ],
+	"dsmvrsc:ResourceAssetInstanceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceItemInstanceMask.Details"
+	    },
+	    "dsmvrsc:program.resourceFlows"	    
+	],
+	"dsmvrsc:ResourceAssetInstanceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceAssetInstanceMask.Common"
+	    }
+    ],
+    "dsmvrsc:OrganizationalResourceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Common"
+	    }
+	],
+	"dsmvrsc:OrganizationalResourceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    },
+	    "dsmvrsc:attribute.extension.workCenterFollowupType",
+		"dsmvrsc:attribute.extension.workCenterSequenceBackward",
+		"dsmvrsc:attribute.extension.workCenterIsFiniteCapacity"
+	],
+    "dsmvrsc:OrganizationalResourceInstanceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceItemInstanceMask.Details"
+	    }
+	],
+	"dsmvrsc:OrganizationalResourceInstanceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:OrganizationalResourceInstanceMask.Common"
+	    },
+	    "dsmveno:basic.instance.reservedByUserId"
+	],
+	 "dsmvrsc:PoolResourceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Common"
+	    }
+	],
+	"dsmvrsc:PoolResourceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    }
+	],
+	"dsmvrsc:PoolInstanceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceItemInstanceMask.Details"
+	    }
+	],
+	"dsmvrsc:PoolInstanceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:WorkerInstanceMask.Common"
+	    },
+	    "dsmveno:basic.instance.reservedByUserId"
+	],
+	 "dsmvrsc:WorkerResourceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Common"
+	    }
+	],
+	"dsmvrsc:WorkerResourceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    },
+    	"dsmvrsc:program.workerGender",
+		"dsmvrsc:attribute.extension.workerPopulation",
+		"dsmvrsc:attribute.extension.workerStature",
+		"dsmvrsc:attribute.extension.workerWeight"
+	],
+	"dsmvrsc:WorkerInstanceMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceItemInstanceMask.Details"
+	    }
+	],
+	"dsmvrsc:WorkerInstanceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:WorkerInstanceMask.Common"
+	    },
+	    "dsmveno:basic.instance.reservedByUserId"
+	],
+	"dsmvrsc:OriginItemMask.Common": [
+	    "dsmvrsc:program.genericObjectReference"
+	],
+	"dsmvrsc:OriginItemMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:OriginItemMask.Common"
+	    }
+	],
+	"dsmvrsc:ResourceFlowMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    }
+	],
+	"dsmvrsc:InternalResourceMask.Common": [
+		{
+	        "property": "reuseMask",
+	       "mask": "dsmvrsc:ResourceMask.Common"
+	    }
+	],
+	"dsmvrsc:InternalResourceMask.Details": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmvrsc:ResourceMask.Details"
+	    },
+	    "dsmvrsc:program.discipline",
+		"dsmveng:programe.CP.EnterpriseReference.Details"
+	],
+	"dsmvrsc:ScopeLinkMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultBusMask.public"
+	    },
+	    "dsmvrsc:program.scopeLink"
+	],
+	"dsmvrsc:ImplementLinkMask.Common": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsmveno:DefaultRelMask.public"
+	    },
+		"dsmvrsc:program.getWithResourceFromImplementLink",
+		"dsmvrsc:program.getWhoResourceFromImplementLink",
+		"dsmvrsc:program.getWhereResourceFromImplementLink",
+		"dsmvrsc:program.getOperationOccFromImplementLink"
+	],
+	"dsrsc:ResourceParamListMask.Default": [
+		{
+	        "property": "reuseMask",
+	        "mask": "dsrsc:DefaultBusMask.utc"
+	    }
+	],
+	"dsrsc:ResourceParamListMask.Details": [
+	    {
+	        "property": "reuseMask",
+	        "mask": "dsrsc:ResourceParamListMask.Default"
+	    },
+	    "dsmveno:basic.reference.reservedByUserId",
+	    "dsmveno:attribute.reference.createdFrom",
+	    "dsmveno:attribute.reference.versionComment"
+	],
+	"dsrsc:ApplicableResourceParamListMask.Default": [
+		"dsrsc:ApplicableResourceParamList.referencedObjects"
+	],
+	"dsrsc:ResourceParamMask.Default": [
+		"dsmveno:attribute.reference.title",
+        "dsmveno:attribute.reference.description",
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        "dsmveno:basic.state.public",
+        "dsmveno:basic.owner.public",
+        "dsmveno:basic.organization",
+        "dsmveno:basic.collabspace",
+	    "dsmvrsc:program.dsrsc:ResourceParam:paramType",
+	    "dsmvrsc:program.dsrsc:ResourceParam.parameterLabel",
+	    "dsmvrsc:program.dsrsc:ResourceParam.arbitraryUnitName",
+	    "dsmvrsc:program.dsrsc:ResourceParam:possibleValues",
+	    "dsmvrsc:program.dsrsc:ResourceParam:minLimit",
+	    "dsmvrsc:program.dsrsc:ResourceParam:maxLimit",
+	    "dsmvrsc:program.dsrsc:ResourceParam:minValue",
+	    "dsmvrsc:program.dsrsc:ResourceParam:maxValue",
+	    "dsmvrsc:program.dsrsc:symbolicResourceParamID",
+	    "dsrsc:symbolicID"
+	],
+	"dsrsc:ResourceParameterLocateMask":[
+		{
+	        "property": "reuseMask",
+	        "mask": "dsrsc:ResourceParamMask.Default"
+	    }
+	]
+}

@@ -1,0 +1,157 @@
+{
+  "dsengpip:Part": {
+    "summary": "Part",
+    "description": "Part",
+    "PUBLICMasks": ["dsmvengpip:AllPartsMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengpip:PartMask",
+      "dsmvengpip:ElbowMask",
+      "dsmvengpip:OletMask",
+      "dsmvengpip:TeeMask",
+      "dsmvengpip:DefaultBusMask.utc",
+      "dsmvengpip:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengpip:attribute.elbow.bendangle",
+      "dsmvengpip:attribute.elbow.bendradius",
+      "dsmvengpip:attribute.entity.endstyle",
+      "dsmvengpip:attribute.entity.materialname",
+      "dsmvengpip:attribute.entity.nominalsize",
+      "dsmvengpip:attribute.entity.rating",
+      "dsmvengpip:attribute.entity.standard",
+      "dsmvengpip:attribute.part.referencebendangle",
+      "dsmvengpip:attribute.part.subparttype",
+      "dsmvengpip:attribute.entity.apptype",
+      "dsmvengpip:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dsengelec:Properties", "dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dscfg:Configured", "dseno:EnterpriseAttributes", "dslc:changeControl"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengpip:Routable": {
+    "summary": "Routable",
+    "description": "Routable",
+    "PUBLICMasks": ["dsmvengpip:AllRoutablesMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengpip:RoutableMask",
+      "dsmvengpip:RigidRouteMask",
+      "dsmvengpip:FlexibleRouteMask",
+      "dsmvengpip:DefaultBusMask.utc",
+      "dsmvengpip:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengpip:attribute.entity.endstyle",
+      "dsmvengpip:attribute.entity.instanciationrule",
+      "dsmvengpip:attribute.entity.materialname",
+      "dsmvengpip:attribute.entity.nominalsize",
+      "dsmvengpip:attribute.entity.rating",
+      "dsmvengpip:attribute.entity.standard",
+      "dsmvengpip:attribute.pipe.length",
+      "dsmvengpip:attribute.pipe.linearweight",
+      "dsmvengpip:attribute.pipe.outsidediameter",
+      "dsmvengpip:attribute.pipe.wallthickness",
+      "dsmvengpip:attribute.entity.apptype",
+      "dsmvengpip:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dscfg:Configured", "dseno:EnterpriseAttributes", "dslc:changeControl"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengpip:Spool": {
+    "summary": "Spool",
+    "description": "Spool",
+    
+    "PUBLICMasks": ["dsmvengpip:SpoolMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengpip:DefaultBusMask.utc",
+      "dsmvengpip:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": ["dsmvengpip:basic.owner"],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dscfg:Configured", "dseno:EnterpriseAttributes", "dslc:changeControl"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengpip:PartInst": {
+    "summary": "Part instance",
+    "description": "instance of an Part",
+    
+    "PUBLICMasks": ["dsmvengpip:PartInstMask", "dsmvengpip:PartInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengpip:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+  "dsengpip:RoutableInst": {
+    "summary": "Routable instance",
+    "description": "instance of an Routable",
+    
+    "PUBLICMasks": ["dsmvengpip:RoutableInstMask", "dsmvengpip:RoutableInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengpip:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+  "dsengpip:SpoolInst": {
+    "summary": "Spool instance",
+    "description": "instance of an Spool",
+    
+    "PUBLICMasks": ["dsmvengpip:SpoolInstMask", "dsmvengpip:SpoolInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengpip:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  }
+}

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "RoadSpatialStructureElementIfc" UseNames = "AECCommonSpatialStructureElementIfc;RoadSpatialStructureElement" Uuid = "C8F11DA4-4A1D-4554-AC30-E9EE9C7EC888" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcRoad" ScopeNames = "Road" Uuid = "714ACF45-B086-4F3A-8F07-6C6954895662">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoad_ObjectType" Protection = "Free" Type = "String" Uuid = "714ACF45-B086-4F3A-8F07-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoad_LongName" Protection = "Free" Type = "String" Uuid = "714ACF45-B086-4F3A-8F07-47d2c9dc49ee"/>
+    <Simple CAAExposition = "L0" DefaultValue = "2" Name = "IfcRoad_CompositionType" Protection = "Free" Type = "Integer" Uuid = "714ACF45-B086-4F3A-8F07-f65bd56122dd">
+      <Property Name = "RangeAsEnumName" Value = "AECCommonSpatialStructureElementIfc.IfcElementCompositionEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "COMPLEX;ELEMENT;PARTIAL"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcRoad_PredefinedType" Protection = "Free" Type = "String" Uuid = "a3afe7ce-31d0-41bd-af20-d9c8d66613ea">
+      <Range>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcRoadPart" ScopeNames = "RoadPart" Uuid = "88FC0D69-C556-4420-996F-438F32EEA1B2">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadPart_ObjectType" Protection = "Free" Type = "String" Uuid = "88FC0D69-C556-4420-996F-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadPart_LongName" Protection = "Free" Type = "String" Uuid = "88FC0D69-C556-4420-996F-47d2c9dc49ee"/>
+    <Simple CAAExposition = "L0" DefaultValue = "2" Name = "IfcRoadPart_CompositionType" Protection = "Free" Type = "Integer" Uuid = "88FC0D69-C556-4420-996F-f65bd56122dd">
+      <Property Name = "RangeAsEnumName" Value = "AECCommonSpatialStructureElementIfc.IfcElementCompositionEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "COMPLEX;ELEMENT;PARTIAL"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "99" Name = "IfcRoadPart_PredefinedType" Protection = "Free" Type = "Integer" Uuid = "ADFB1289-3B26-4435-9BC1-A46F5FB382E9">
+      <Property Name = "RangeAsEnumName" Value = "IfcRoadPartTypeEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "INTERCHANGE;RAMP;STRETCH;INTERSECTION;BICYCLECROSSING;BUS_STOP;CARRIAGEWAY;CENTRALISLAND;CENTRALRESERVE;HARDSHOULDER;LAYBY;PARKINGBAY;PASSINGBAY;PEDESTRIAN_CROSSING;RAILWAYCROSSING;REFUGEISLAND;ROADSEGMENT;ROADSIDE;ROADSIDEPART;ROADWAYPLATEAU;ROUNDABOUT;SHOULDER;SIDEWALK;SOFTSHOULDER;TOLLPLAZA;TRAFFICISLAND;TRAFFICLANE;USERDEFINED;NOTDEFINED"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+        <Equal>4</Equal>
+        <Equal>5</Equal>
+        <Equal>6</Equal>
+        <Equal>7</Equal>
+        <Equal>8</Equal>
+        <Equal>9</Equal>
+        <Equal>10</Equal>
+        <Equal>11</Equal>
+        <Equal>12</Equal>
+        <Equal>13</Equal>
+        <Equal>14</Equal>
+        <Equal>15</Equal>
+        <Equal>16</Equal>
+        <Equal>17</Equal>
+        <Equal>18</Equal>
+        <Equal>19</Equal>
+        <Equal>20</Equal>
+        <Equal>21</Equal>
+        <Equal>22</Equal>
+        <Equal>23</Equal>
+        <Equal>24</Equal>
+        <Equal>25</Equal>
+        <Equal>26</Equal>
+        <Equal>27</Equal>
+        <Equal>98</Equal>
+        <Equal>99</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcRoadPart_UsageType" Protection = "Free" Type = "String" Uuid = "d0b5d80e-ab05-4218-a27c-07b5587b4194">
+      <Range>
+        <Equal>LATERAL</Equal>
+        <Equal>LONGITUDINAL</Equal>
+        <Equal>REGION</Equal>
+        <Equal>VERTICAL</Equal>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcRoadPartType" ScopeNames = "RoadPartType" Uuid = "7F0C2B07-5275-4264-AB76-581BDB39CDFA">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadPartType_Tag" Protection = "Free" Type = "String" Uuid = "7F0C2B07-5275-4264-AB76-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadPartType_ElementType" Protection = "Free" Type = "String" Uuid = "7F0C2B07-5275-4264-AB76-d84421a52c4a"/>
+    <Simple CAAExposition = "L0" DefaultValue = "99" Name = "IfcRoadPartType_PredefinedType" Protection = "Free" Type = "Integer" Uuid = "FD4A5FF1-1A13-44F6-93C6-23B135F358BF">
+      <Property Name = "RangeAsEnumName" Value = "IfcRoadPartTypeEnum"/>
+      <Property Name = "RangeAsEnumAuthorizedValues" Value = "INTERCHANGE;RAMP;STRETCH;INTERSECTION;BICYCLECROSSING;BUS_STOP;CARRIAGEWAY;CENTRALISLAND;CENTRALRESERVE;HARDSHOULDER;LAYBY;PARKINGBAY;PASSINGBAY;PEDESTRIAN_CROSSING;RAILWAYCROSSING;REFUGEISLAND;ROADSEGMENT;ROADSIDE;ROADSIDEPART;ROADWAYPLATEAU;ROUNDABOUT;SHOULDER;SIDEWALK;SOFTSHOULDER;TOLLPLAZA;TRAFFICISLAND;TRAFFICLANE;USERDEFINED;NOTDEFINED"/>
+      <Range>
+        <Equal>1</Equal>
+        <Equal>2</Equal>
+        <Equal>3</Equal>
+        <Equal>4</Equal>
+        <Equal>5</Equal>
+        <Equal>6</Equal>
+        <Equal>7</Equal>
+        <Equal>8</Equal>
+        <Equal>9</Equal>
+        <Equal>10</Equal>
+        <Equal>11</Equal>
+        <Equal>12</Equal>
+        <Equal>13</Equal>
+        <Equal>14</Equal>
+        <Equal>15</Equal>
+        <Equal>16</Equal>
+        <Equal>17</Equal>
+        <Equal>18</Equal>
+        <Equal>19</Equal>
+        <Equal>20</Equal>
+        <Equal>21</Equal>
+        <Equal>22</Equal>
+        <Equal>23</Equal>
+        <Equal>24</Equal>
+        <Equal>25</Equal>
+        <Equal>26</Equal>
+        <Equal>27</Equal>
+        <Equal>98</Equal>
+        <Equal>99</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcRoadPartType_UsageType" Protection = "Free" Type = "String" Uuid = "ed3b6ca6-552c-432f-94cd-8aa9e182b930">
+      <Range>
+        <Equal>LATERAL</Equal>
+        <Equal>LONGITUDINAL</Equal>
+        <Equal>REGION</Equal>
+        <Equal>VERTICAL</Equal>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcRoadType" ScopeNames = "RoadType" Uuid = "A73F26EE-3E12-412F-9CAE-102A777A8105">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadType_Tag" Protection = "Free" Type = "String" Uuid = "A73F26EE-3E12-412F-9CAE-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcRoadType_ElementType" Protection = "Free" Type = "String" Uuid = "A73F26EE-3E12-412F-9CAE-d84421a52c4a"/>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcRoadType_PredefinedType" Protection = "Free" Type = "String" Uuid = "2dd8543a-e826-48fd-b3b1-3ccdf73e54f6">
+      <Range>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_RoadDesignCriteriaCommon" ScopeNames = "Road RoadPart" Uuid = "46f60dff-4e92-4a24-815b-9cc995793a4e">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "Ratio" Name = "IfcPset_RoadDesignCriteriaCommon_Crossfall" Protection = "Free" Type = "Double" Uuid = "ee084ec7-5315-4476-9161-5f567b764e87"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_RoadDesignCriteriaCommon_DesignSpeed" Protection = "Free" Type = "Double" Uuid = "3d6c7a9c-9dc4-4e7b-88c0-a0b8a99c534e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_RoadDesignCriteriaCommon_DesignTrafficVolume" Protection = "Free" Type = "Integer" Uuid = "9d0ca754-bcbb-486c-8094-470e0f1c12f9"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_RoadDesignCriteriaCommon_DesignVehicleClass" Protection = "Free" Type = "String" Uuid = "db774d0d-c59d-4eab-bc17-264e31584d58"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_RoadDesignCriteriaCommon_LaneWidth" Protection = "Free" Type = "Double" Uuid = "d1b97756-8b77-4fc5-8a02-b4dc3d9fb38e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_RoadDesignCriteriaCommon_NumberOfThroughLanes" Protection = "Free" Type = "Integer" Uuid = "74fc1397-8505-44b7-9793-e5092d143b32"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_RoadDesignCriteriaCommon_RoadDesignClass" Protection = "Free" Type = "String" Uuid = "ad204dab-4656-4c2a-b34f-bd3a8a1221ad"/>
+  </Extension>
+</Package>

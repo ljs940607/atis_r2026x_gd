@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_Tiling_Permeability",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tiling_TileLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tiling_TileWidth",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

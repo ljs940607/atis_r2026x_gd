@@ -1,0 +1,41 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_ACResistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_ThermalExpansionCoefficient",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_CurrentCarryingCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_DCResistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_MassPerLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_YoungModulus",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_CrossSectionalArea",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_TorsionalStrength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeContactWire_TensileStrength",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

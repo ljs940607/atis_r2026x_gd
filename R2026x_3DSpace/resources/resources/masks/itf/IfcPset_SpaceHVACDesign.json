@@ -1,0 +1,85 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureSetPoint",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureMax",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureMin",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureSummerMax",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureSummerMin",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureWinterMax",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_TemperatureWinterMin",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_HumiditySetPoint",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_HumidityMax",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_HumidityMin",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_HumiditySummer",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_HumidityWinter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_DiscontinuedHeating",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_NaturalVentilation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_NaturalVentilationRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_MechanicalVentilation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_MechanicalVentilationRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_AirConditioning",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_AirConditioningCentral",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceHVACDesign_AirHandlingName",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

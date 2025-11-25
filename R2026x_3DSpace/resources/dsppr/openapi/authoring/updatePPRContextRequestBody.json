@@ -1,0 +1,30 @@
+{
+	"properties": {
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"type"
+				],
+				"properties": {
+				    "identifier": {
+				      "type": "string",
+				      "example": "4C58429C00003E7C6023064C0000B8CB",
+				      "description": "The physical id of a engineering item (dseng:EngItem) or Manufacturing item (dsmfg:MfgItem) or Manufacturing Process (dsprcs:MfgProcess) or Resource (dsrsc:Resource)."
+				    },
+				    "source": {
+				      "description": "source",
+				      "type": "string",
+				      "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+				    },
+				    "relativePath": {
+				      "type": "string",
+				      "example": "/resources/v1/modeler/dseng/dseng:EngItem/4C58429C00003E7C6023064C0000B8CB",
+				      "description": "relativePath."
+				    }
+				}
+			}
+		}
+	}
+}

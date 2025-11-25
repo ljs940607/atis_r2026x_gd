@@ -1,0 +1,14 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "CorePPR",
+    "description": "The domain instance for Core PPR in 3DSpace",
+    "packages": [
+        "DELAsmAssemblyModelCnx",
+        "DELMfgResponsibility",
+		"PLMHistorizationCnx",
+        "PLMHistorizationDisciplines",
+        "PLMPrototypeCnx",
+        "PLMRequirementGlobalSpecifyHowToCnx",
+        "PLMRequirementSpecifyHowToCnx"
+    ]
+}

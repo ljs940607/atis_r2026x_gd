@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_TransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_AcquisitionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_DesignTemperature",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ElectricalSpanCommon_PhaseTransposition",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

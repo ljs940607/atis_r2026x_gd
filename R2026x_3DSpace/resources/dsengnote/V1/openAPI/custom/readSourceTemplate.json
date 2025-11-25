@@ -1,0 +1,28 @@
+{
+  "description": "properties for source Engineering Note Template identification",
+  "type": "object",
+  "properties": {
+    "source": {
+      "description": "source",
+      "type": "string",
+      "example": "$3DSpace"
+    },
+    "type": {
+      "description": "type",
+      "type": "string",
+      "example": "CATInstructionTemplate"
+    },
+    "identifier": {
+      "description": "identifier in database",
+      "type": "string",
+      "example": "EE562168015FFCF14F940A513C63AA77"
+    },
+    "relativePath": {
+      "description": "relative path of Engineering Note Template",
+      "type": "string",
+      "example": "resource/v1/dsengnote/dsengnote:EngNoteTemplate/EE562168015FFCF14F940A513C63AA77"
+    }
+  }
+}
+
+

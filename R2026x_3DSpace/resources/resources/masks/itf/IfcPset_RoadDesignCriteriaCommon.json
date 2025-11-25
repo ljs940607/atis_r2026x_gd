@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_Crossfall",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_DesignSpeed",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_DesignTrafficVolume",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_DesignVehicleClass",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_LaneWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_NumberOfThroughLanes",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadDesignCriteriaCommon_RoadDesignClass",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

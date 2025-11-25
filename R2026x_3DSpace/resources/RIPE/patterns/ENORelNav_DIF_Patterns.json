@@ -1,0 +1,65 @@
+{
+	"relations": [
+        {
+            "name": "dif_annotated_product_to",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "to"},
+                    {"navigationType": "SR", "qualityFilter": { "role": "505", "semantics": "5"}, "direction": "to"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dif_annotated_product_from",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "SR", "qualityFilter": { "role": "505", "semantics": "5"}, "direction": "from"},
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "from"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dif_presentation_of_to",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "to"},
+                    {"navigationType": "SR", "qualityFilter": { "role": "326", "semantics": "5"}, "direction": "to"}
+                    ]
+                }
+                ]
+        },
+        {
+            "name": "dif_presentation_of_from",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "SR", "qualityFilter": { "role": "326", "semantics": "5"}, "direction": "from"},
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "from"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dif_attached_presentation_to",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "to"},
+                    {"navigationType": "SR", "qualityFilter": { "role": "325", "semantics": "1"}, "direction": "to"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dif_attached_presentation_from",
+            "queries": [
+                { "definition": [
+                    {"navigationType": "SR", "qualityFilter": { "role": "325", "semantics": "1"}, "direction": "from"},
+                    {"navigationType": "relation", "qualityFilter": {"rel_type": "VPLMrel/PLMConnection/V_Owner"},"direction": "from"}
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

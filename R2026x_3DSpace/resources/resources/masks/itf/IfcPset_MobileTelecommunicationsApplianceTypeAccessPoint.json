@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeAccessPoint_BandWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeAccessPoint_DataEncryptionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeAccessPoint_DataExchangeRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeAccessPoint_NumberOfAntennas",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeAccessPoint_UserCapacity",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

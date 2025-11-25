@@ -1,0 +1,5 @@
+#Prog Config_GetModelFromxRevisionContext( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+/* from GenericPLMItem (BO) retrieve model referenced by path graphScopePath */
+oPLMIDSet = ExecuteJavaProcedure("com.dassault_systemes.plm.xrevisiongraph.completion.xRevisionGetModelCompletion", iPLMIDSet)
+}

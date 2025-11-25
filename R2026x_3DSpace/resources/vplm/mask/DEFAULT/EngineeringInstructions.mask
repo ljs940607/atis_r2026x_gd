@@ -1,0 +1,182 @@
+// ==============================================================================
+// Syntax: 
+//   MASK DEFAULT
+//   ENTITY <entity>
+//   ATTR   <attr>;<required>;<are_values_authorized_values>;<def_val>
+//   VALUE  <value>
+//   FUNC   <method>
+//   FATTR  <attr>;<modif>
+// with: <entity>   = entity name
+//       <attr>     = atribute name
+//       <required> = required attr logical flag (Y or N)
+//       <are_values_authorized_values>
+//                  = authorized values logical flag (Y or N):
+//                    N -> help values / Y -> authorized values
+//       <def_val>  = default value
+//       <value>    = a string value (can have blanks)
+//                    When <are_values_authorized_values> equals:
+//                    N -> an help value / Y -> an authorized value
+//       <method>   = one of the following operations:
+//                    Create         : attr appears in creation panels
+//                    Read/List/Tree : attr appears in browse/query result panels
+//                    Write          : attr appears in properties panels
+//                    Query/EZQuery  : attr appears in query condition panels
+//       <modif>    = writable field logical flag (Y or N):
+//                    N -> NOT modifiable / Y -> modifiable
+// ==============================================================================
+MASK DEFAULT
+// --------------------------------------------------
+ENTITY CATInstructionTemplate
+// --------------------------------------------------
+ATTR PLM_ExternalID;Y;N;$
+ATTR V_ForceUpperCase;N;N;false
+ATTR V_Name;Y;N;$
+ATTR V_Text;N;N;$
+ATTR V_description;N;N;$
+ATTR V_fromExternalID;N;N;$
+ATTR V_versionComment;N;N;$
+ATTR current;N;N;$
+ATTR majorrevision;N;N;$
+ATTR minorrevision;N;N;$
+ATTR modified;N;N;$
+ATTR organization;N;N;$
+ATTR originated;N;N;$
+ATTR owner;Y;N;$
+ATTR policy;N;N;$
+ATTR project;N;N;$
+ATTR reservedby;N;N;$
+ATTR revision;N;N;$
+FUNC Create
+FATTR V_Name;Y
+FATTR PLM_ExternalID;N
+FATTR V_description;Y
+FATTR policy;N
+FATTR V_ForceUpperCase;N
+FATTR V_Text;N
+FUNC EZQuery
+FATTR V_Name;Y
+FATTR PLM_ExternalID;Y
+FATTR revision;Y
+FATTR modified;Y
+FATTR project;Y
+FATTR V_ForceUpperCase;Y
+FATTR V_Text;Y
+FUNC List
+FATTR V_ForceUpperCase;N
+FATTR V_Text;N
+FUNC Query
+FATTR V_Name;Y
+FATTR PLM_ExternalID;Y
+FATTR revision;Y
+FATTR V_description;Y
+FATTR V_versionComment;Y
+FATTR originated;Y
+FATTR V_fromExternalID;Y
+FATTR modified;Y
+FATTR current;Y
+FATTR reservedby;Y
+FATTR policy;Y
+FATTR owner;Y
+FATTR organization;Y
+FATTR project;Y
+FATTR V_ForceUpperCase;Y
+FATTR V_Text;Y
+FUNC Read
+FATTR V_Name;N
+FATTR PLM_ExternalID;N
+FATTR revision;N
+FATTR V_description;N
+FATTR V_versionComment;N
+FATTR originated;N
+FATTR V_fromExternalID;N
+FATTR modified;N
+FATTR current;N
+FATTR reservedby;N
+FATTR policy;N
+FATTR owner;N
+FATTR organization;N
+FATTR project;N
+FATTR V_ForceUpperCase;N
+FATTR V_Text;N
+FUNC Tree
+FATTR V_Name;N
+FATTR revision;N
+FUNC Write
+FATTR V_Name;Y
+FATTR PLM_ExternalID;N
+FATTR revision;N
+FATTR V_description;Y
+FATTR V_versionComment;Y
+FATTR originated;N
+FATTR V_fromExternalID;N
+FATTR modified;N
+FATTR current;N
+FATTR policy;N
+FATTR owner;N
+FATTR organization;N
+FATTR project;N
+FATTR V_ForceUpperCase;N
+FATTR V_Text;N
+// --------------------------------------------------
+ENTITY CATInstruction
+// --------------------------------------------------
+ATTR PLM_ExternalID;N;N;$
+ATTR V_IgnoreForDownstreamUsage;N;Y;NO
+// note: uncomment VALUEs below ONLY if you need to restrict the list of metadata enumerated values
+//VALUE YES
+//VALUE NO
+ATTR V_TargetScopeMode;N;Y;GENERAL_NOTE
+// note: uncomment VALUEs below ONLY if you need to restrict the list of metadata enumerated values
+//VALUE GENERAL_NOTE
+//VALUE COMPONENTS_NOTE
+//VALUE 3D_NOTE
+ATTR V_Text;N;N;$
+ATTR V_description;N;N;$
+ATTR V_discipline;N;N;$
+ATTR modified;N;N;$
+ATTR organization;Y;N;$
+ATTR originated;N;N;$
+ATTR owner;Y;N;$
+ATTR project;N;N;$
+ATTR reserved;N;N;$
+ATTR reservedby;N;N;$
+FUNC Create
+FATTR PLM_ExternalID;Y
+FATTR V_TargetScopeMode;N
+FATTR V_Text;N
+FATTR V_IgnoreForDownstreamUsage;N
+FUNC EZQuery
+FATTR V_TargetScopeMode;Y
+FATTR V_Text;Y
+FATTR V_IgnoreForDownstreamUsage;Y
+FUNC List
+FATTR V_TargetScopeMode;N
+FATTR V_Text;N
+FATTR V_IgnoreForDownstreamUsage;N
+FUNC Query
+FATTR V_TargetScopeMode;Y
+FATTR V_Text;Y
+FATTR V_IgnoreForDownstreamUsage;Y
+FUNC Read
+FATTR PLM_ExternalID;N
+FATTR originated;N
+FATTR modified;N
+FATTR owner;N
+FATTR organization;N
+FATTR project;N
+FATTR V_TargetScopeMode;N
+FATTR V_Text;N
+FATTR V_IgnoreForDownstreamUsage;N
+FUNC Tree
+FATTR V_Name;N
+FUNC Write
+FATTR PLM_ExternalID;Y
+FATTR V_description;Y
+FATTR originated;N
+FATTR modified;N
+FATTR owner;N
+FATTR organization;N
+FATTR project;N
+FATTR V_TargetScopeMode;N
+FATTR V_Text;N
+FATTR V_IgnoreForDownstreamUsage;N

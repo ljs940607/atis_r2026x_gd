@@ -1,0 +1,45 @@
+{
+	"expandDef": {
+		"Bookmark": {
+			"content": {
+				"rels": ["Vaulted Objects"],
+				"relsV2": [["Linked Folders"],["Data Vaults", "Sub Vaults"]],
+				"search": ["Data Vaults", "Sub Vaults","Vaulted Objects"],
+				"links": ["VaultedObjectsLink"]
+			},
+			"sub": {
+				"rels": ["Data Vaults", "Sub Vaults"],
+				"types": ["Workspace Vault"]
+			}	
+		},
+		"BrowsingStruct": {
+			"content": {
+				"relsV2": [["Sub Term"]]
+			},
+			"sub": {
+				"rels": ["Sub Term"],
+				"types": ["Term"]
+			}			
+		}
+	},
+	"sections": {	
+		"Personal":{
+			"type": "Personal Workspace",
+			"expandDef": "Bookmark"
+		},
+		"FolderSection_AllFolders": {
+			"roots": ["Workspace"],
+			"expandDef": "Bookmark"
+		},
+		"FolderSection_favorite": {
+			"label":"Favorite",
+			"favorite": true,
+			"accept": ["Workspace", "Workspace Vault"],
+			"expandDef": "Bookmark"
+		}, 
+		"TerminologySection_AllTerminologies": {
+			"roots": ["Terminology"],
+			"expandDef": "BrowsingStruct"
+		}
+	}		
+}

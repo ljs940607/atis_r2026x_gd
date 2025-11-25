@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcGroundReinforcementElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcGroundReinforcementElement_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcGroundReinforcementElement_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

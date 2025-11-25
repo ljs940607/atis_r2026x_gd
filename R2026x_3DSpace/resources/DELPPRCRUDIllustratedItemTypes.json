@@ -1,0 +1,44 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsprcs:IllustratedItem",
+				"ParentType": "DELLmiAbstractProductionEntity",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELIllustratedItemGenericReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELIllustratedItemGenericReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:IllustratedItemInstance",
+				"ParentType": "PLMInstance",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELIllustratedItemGenericInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELIllustratedItemGenericInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": []
+			}
+		]
+	}
+]

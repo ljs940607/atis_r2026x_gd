@@ -1,0 +1,131 @@
+{
+    "dsfct:FctItem":{
+        "isPublic" : true,
+        "kindOf":"root",
+        "beType":"type_RFLPLMFunctionalReference",
+        "classesTypes": "type_RFLPLMFunctionalReference,type_RFLPLMFunctionalMissionReference,type_RFLPLMFunctionalServiceReference",
+        "rootLinks":[],
+        "contentLinks":["dsfct:FctInstance","dsfct:Interface"],
+        "extensionLinks":[
+            "dsfct:FctItemEnterpriseAttributes",
+            "dsfct:FctMissionEnterpriseAttributes",
+            "dsfct:FctServiceEnterpriseAttributes",
+            "dscfg:Configured",
+            "dslc:changeControl"
+        ],
+        "search":true,
+        "customizationSupport":true,
+        "cestamp":true,
+        "patchCSRF":true,
+        "attributeMappingClass":"com.dassault_systemes.enovia.xapps.dseno.V%1.dictionaries.ENOXReferenceAttributeDictionary",
+        "optionCheck":{
+            "modify":true,
+            "produce":true,
+            "navigate":false
+        }
+    },
+    "dsfct:FctInstance":{
+        "isPublic" : true,
+        "kindOf":"content",
+        "beType":"relationship_RFLPLMFunctionalInstance",
+        "classesTypes": "relationship_RFLPLMFunctionalInstance,relationship_RFLPLMFunctionalMissionInstance,relationship_RFLPLMFunctionalServiceInstance",
+        "extensionLinks": [
+            "dscfg:Filterable"
+        ],
+        "rootLinks":["dsfct:FctItem"],
+        "customizationSupport":true,
+        "cestamp":true,
+        "patchCSRF":true,
+        "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsfct.V%1.dictionaries.dsfctInstanceAttributeDictionary",
+        "optionCheck":{
+            "modify":true,
+            "produce":true,
+            "navigate":false
+        }
+    },
+    "dsfct:FlowItem":{
+        "isPublic" : true,
+        "kindOf":"root",
+        "beType":"type_RFLPLMFlowReference",
+        "rootLinks":[],
+        "contentLinks":["dsfct:FlowInstance"],
+        "extensionLinks":[
+            "dsfct:FlowItemEnterpriseAttributes",
+            "dslc:changeControl"
+        ],
+        "search":true,
+        "customizationSupport":true,
+        "cestamp":true,
+        "patchCSRF":true,
+        "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsfct.V%1.dictionaries.FlowReferenceAttributeDictionary",
+        "optionCheck":{
+            "modify":true,
+            "produce":true,
+            "navigate":false
+        }
+    },
+    "dsfct:FlowInstance":{
+        "isPublic" : true,
+        "kindOf":"content",
+        "beType":"relationship_RFLPLMFlowInstance",
+        "extensionLinks": [
+        ],
+        "rootLinks":["dsfct:FlowItem"],
+        "customizationSupport":true,
+        "cestamp":true,
+        "patchCSRF":true,
+        "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsfct.V%1.dictionaries.FlowInstanceAttributeDictionary",
+        "optionCheck":{
+            "modify":true,
+            "produce":true,
+            "navigate":false
+        }
+    },
+    "dsfct:Interface":{
+        "isPublic" : true,
+        "kindOf":"content",
+        "beType":"relationship_RFLPLMFlowExpositionInstance",
+        "extensionLinks": [
+            "dscfg:Filterable"
+        ],
+        "rootLinks":["dsfct:FctItem"],
+        "customizationSupport":true,
+        "cestamp":true,
+        "patchCSRF":true,
+        "attributeMappingClass":"com.dassault_systemes.catia.xapps.dsfct.V%1.dictionaries.InterfaceAttributeDictionary",
+        "optionCheck":{
+            "modify":true,
+            "produce":true,
+            "navigate":false
+        }
+    },
+    "dsfct:FctItemEnterpriseAttributes": {
+        "isPublic" : true,
+        "kindOf":"extension",
+        "rootLinks":["dsfct:FctItem"],    
+        "beType": "XP_RFLPLMFunctionalReference_Ext",
+        "customerAttribute":true
+    },
+    "dsfct:FctMissionEnterpriseAttributes": {
+        "isPublic" : false,
+        "kindOf":"extension",
+        "rootLinks":["dsfct:FctItem"],    
+        "beType": "XP_RFLPLMFunctionalMissionReference_Ext",
+        "customerAttribute":true
+    },
+    "dsfct:FctServiceEnterpriseAttributes": {
+        "isPublic" : false,
+        "kindOf":"extension",
+        "rootLinks":["dsfct:FctItem"],    
+        "beType": "XP_RFLPLMFunctionalServiceReference_Ext",
+        "customerAttribute":true
+    },
+    "dsfct:FlowItemEnterpriseAttributes": {
+        "isPublic" : true,
+        "kindOf":"extension",
+        "rootLinks":["dsfct:FlowItem"],    
+        "beType": "XP_RFLPLMFlowReference_Ext",
+        "customerAttribute":true
+    }
+}
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELLmiProductionServiceWorkplanSystem" />
+    <m1.package name="DELLmiProductionServiceWorkplanSystem" />
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELLmiServiceWorkPlanSystemInstance" />
+      <m1.relationship name="DELLmiServiceWorkPlanSystemInstance" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_UsagePointApplicability" />
+        <m1.attribute name="DELLmiServiceWorkPlanSystemInstance.V_UsagePointApplicability" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELLmiServiceWorkPlanSystemReference" />
+      <m1.type name="DELLmiServiceWorkPlanSystemReference" />
+
+      <!-- Basic Concat -->
+      <pattern.VPLM_BASIC_CONCAT>
+        <vplm.Simple name="PLM_ExternalID" />
+        <m1.basic name="name" />
+      </pattern.VPLM_BASIC_CONCAT>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CodeInfo" />
+        <m1.attribute name="DELLmiServiceWorkPlanSystemReference.V_CodeInfo" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELLmiServiceWorkPlanOperationalReference" />
+      <m1.type name="DELLmiServiceWorkPlanOperationalReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELLmiServiceWorkPlanRectifyingReference" />
+      <m1.type name="DELLmiServiceWorkPlanRectifyingReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELLmiServiceWorkPlanSupportingTaskReference" />
+      <m1.type name="DELLmiServiceWorkPlanSupportingTaskReference" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

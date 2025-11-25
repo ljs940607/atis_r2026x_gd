@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<ProcedurePackage 
+	xmlns="PLMDictionaryProcedure"
+	Name="ComposedRepCompletion_AllComposedReps">
+	
+	<Procedure Name="ComposedRepCompletion_getAllComposedReps">
+		<Implementation Name="ComposedRepCompletion_getAllComposedReps" FileLocation="ComposedRepCompletion_getAllComposedReps.KProc" Language="EKL"/>
+		<Signature href="ComposedRepCompletion_getAllComposedReps_sign"/>
+	</Procedure>
+	
+	<Signature id="ComposedRepCompletion_getAllComposedReps_sign">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="in" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="out" DataType="PLMId"/>
+	</Signature>
+	
+	
+	
+		<Procedure Name="ComposedRepCompletion_getComposerRef">
+		<Implementation Name="ComposedRepCompletion_getComposerRef" FileLocation="ComposedRepCompletion_getComposerRef.KProc" Language="EKL"/>
+		<Signature href="ComposedRepCompletion_getComposerRef_sign"/>
+	</Procedure>
+	
+	<Signature id="ComposedRepCompletion_getComposerRef_sign">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="in" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="out" DataType="PLMId"/>
+	</Signature>
+		
+</ProcedurePackage>

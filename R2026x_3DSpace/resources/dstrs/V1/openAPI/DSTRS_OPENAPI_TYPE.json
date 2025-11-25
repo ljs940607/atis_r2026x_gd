@@ -1,0 +1,26 @@
+{
+    "dstrs:Translation": {
+        "summary": "Translation Reference",
+        "description": "Translation Reference",
+        "PUBLICMasks": ["dstrs:TranslationMask.Default", "dstrs:TranslationMask.Details"],
+        "PROTECTEDMasks": [],
+    	"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PUBLICExcludedURIs": ["search", "bulkUpdate", "getItems", "GETAll"]
+    },
+    "dstrs:Language": {
+        "summary": "Language Reference",
+        "description": "Language Reference",
+        "PUBLICMasks": ["dstrs:LanguageMask.Default"],
+        "PROTECTEDMasks": [],
+    	"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PUBLICExcludedURIs": ["GETAll"]
+    }    
+}

@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_QuayCommon_StructuralType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayCommon_BentSpacing",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayCommon_QuaySectionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_QuayCommon_Elevation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,516 @@
+﻿<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2006, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+         ModelerType="Top" 
+         BelongsToModeler="DELFmiFunctionalModel" 
+         Name="DELFmiFunctionalModelQuantity" 
+         CustomerExposition="Programmer" 
+         Uuid="7111923E-7F9A-4e86-8D6E-89372F9B9946" 
+         UseNames="DELFmiFunctionalModel;PLMDELMIASystemDisciplines"
+>
+
+  <!-- ***************************************************** -->
+  <!-- **************  ProcessInstanceSet ****************** -->
+  <!-- ***************************************************** -->
+
+  <RelationClass Name="ProcessInstanceSet"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="6C443933-ADB3-4bb3-8FEB-AA2F90EC93E9"
+              Discipline="Yes"
+              SuperName="DELFmiFunctionInstance"
+              Specializable="No">
+
+    <Property Name="MergedExtensionType" Value="ProcessInstanceSet_Ext"/>
+
+    <Simple Name="V_DiscreteQuantity"
+        Uuid="A226E41C-9010-44ca-8C59-C0DAF612ED0B"
+        Type="Integer"
+        MultiValuated="No"
+        Protection="External"
+        CAAExposition="L1"
+        DefaultValue="1"
+            >
+      <CAAComment>
+        <ShortRole>Defines unidentified discrete quantity</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </RelationClass>
+
+  <RelationClass Name="DELFmiFunctionIdentifiedInstance"
+            Abstract="No"
+            CustomerExposition="Programmer"
+            CustomerExtensible="Yes"
+            Uuid="3FF17B15-6C96-4c94-89B1-FF164B0D6C6D"
+            Discipline="Yes"
+            SuperName="ProcessInstanceSet"
+            Specializable="No"
+			PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}/dsmfg:MfgItemInstance/{pid}">
+	
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </RelationClass>
+
+  <!-- ***************************************************** -->
+  <!-- ************  ProcessInstanceContinuous ************* -->
+  <!-- ***************************************************** -->
+
+  <RelationClass Name="ProcessInstanceContinuous"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="0D9D593C-0729-4f77-A86B-59B248807D6F"
+              Discipline="Yes"
+              SuperName="DELFmiFunctionInstance"
+              Specializable="No"
+			  PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}/dsmfg:MfgItemInstance/{pid}">
+
+    <Property Name="MergedExtensionType" Value="ProcessInstanceContinuous_Ext"/>
+
+    <Simple Name="V_UsageContCoeff"
+        Uuid="8EC915EE-B13B-4780-B217-EFA356D3181F"
+        Type="Double"
+        MultiValuated="No"
+        Protection="External"
+        CAAExposition="L1"
+        DefaultValue="1.0"
+            >
+      <CAAComment>
+        <ShortRole>Defines usage continuous coefficient</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	    <Simple Name="V_IsConstQuantity"
+        Uuid="2D841F0D-01DC-43ED-8E86-B32F387B240C"
+        Type="Boolean"
+        MultiValuated="No"
+        Protection="Free"
+        CAAExposition="L1"
+        DefaultValue="false"
+            >
+      <CAAComment>
+        <ShortRole>Defines if the quantity is constant</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </RelationClass>
+
+  <Class Name="DELFmiDiscreteFunctionReference"
+         Uuid="CD55B48F-7D64-464c-8D65-04C45615E757"
+         CustomerExposition="Programmer"
+         CustomerExtensible="No"
+         Specializable="Yes"
+         Abstract="No"
+         SuperName="DELFmiFunctionReference"
+         Discipline="Yes"
+         CreateInstName="DELFmiFunctionIdentifiedInstance"
+		     >
+
+    <CAAComment>
+      <ShortRole>Defines Discrete quantity reference</ShortRole>
+    </CAAComment>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+  <Class Name="DELFmiContinuousFunctionReference"
+         Uuid="BC563D3B-A7D0-4cfb-A36F-3F3EFC4CF5C3"
+         CustomerExposition="Programmer"
+         CustomerExtensible="No"
+         Specializable="Yes"
+         Abstract="No"
+         SuperName="DELFmiFunctionReference"
+         Discipline="Yes"
+         CreateInstName="ProcessInstanceContinuous"
+		     >
+
+    <CAAComment>
+      <ShortRole>Defines Continuous quantity reference</ShortRole>
+    </CAAComment>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+  
+  <Extension Name="DELFmiLossQuantityAbstract"
+           Uuid="EA302F90-6D48-4BD2-8533-2DE614414D65"
+           ScopeNames="ProcessInstanceContinuous"
+           Discipline="No"
+           Abstract="Yes"
+           Specializable="No"
+           CAAExposition="L0"     
+           CustomerExposition="Programmer">
+
+    <CAAComment>
+      <ShortRole>Abstract Loss Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiLossQuantity_Ratio"
+             Uuid="7D705614-EEB1-447B-8153-5B5E36D18779"
+			 SuperName="DELFmiLossQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+    <Simple Name="V_LossQuantity"
+            Uuid="5A175E6A-A2A1-4663-9F3A-11BECC0A71B2"
+            Type="Double"
+            Magnitude="Ratio"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+            >
+      <CAAComment>
+        <ShortRole>Defines Ratio Loss Quantity</ShortRole>
+      </CAAComment>
+    </Simple>
+    <CAAComment>
+      <ShortRole>Loss Ratio Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiLimitQuantityAbstract"
+           Uuid="CEF85071-82E0-466A-BFFC-38C1BDD7F0DF"
+           ScopeNames="ProcessInstanceContinuous"
+           Discipline="No"
+           Abstract="Yes"
+           Specializable="No"
+           CAAExposition="L0"     
+           CustomerExposition="Programmer">
+
+	  <Simple Name="V_LowerBoundary"
+		  Uuid="43E813D6-8A65-467C-A3DE-482DBF13C789"
+		  Type="String"
+		  MaxLength="50"
+		  MultiValuated="No"
+		  Protection="Free"
+		  CAAExposition="L0"
+		  DefaultValue="Included">
+		  <Range>
+			  <Equal>Included</Equal>
+			  <Equal>Excluded</Equal>
+		  </Range>
+		  <CAAComment>
+			  <ShortRole>Defines the lower boundary.</ShortRole>
+		  </CAAComment>
+	  </Simple>
+
+	  <Simple Name="V_UpperBoundary"
+	  Uuid="7861A14F-C133-4377-94F1-AD2EAFD4989E"
+	  Type="String"
+	  MaxLength="50"
+	  MultiValuated="No"
+	  Protection="Free"
+	  CAAExposition="L0"
+	  DefaultValue="Included">
+		  <Range>
+			  <Equal>Included</Equal>
+			  <Equal>Excluded</Equal>
+		  </Range>
+		  <CAAComment>
+			  <ShortRole>Defines the upper boundary.</ShortRole>
+		  </CAAComment>
+	  </Simple>
+	  
+	  <CAAComment>
+      <ShortRole>Abstract Limit Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+
+  <Extension Name="DELFmiLimitQuantity_Volume"
+             Uuid="69DCDC1E-FF6F-4CC7-AB98-7FDA063CE44D"
+			 SuperName="DELFmiLimitQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+    <Simple Name="V_LowerTolerance"
+            Uuid="3A40D9C9-2AF2-4AE0-BDCA-AACDF9BCFA87"
+            Type="Double"
+            Magnitude="VOLUME"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Lower Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+	    <Simple Name="V_UpperTolerance"
+            Uuid="8C1DC464-34DF-4E8B-A24E-EBF727EDAE33"
+            Type="Double"
+            Magnitude="VOLUME"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Upper Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+    <CAAComment>
+      <ShortRole>Limit Volume Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiLimitQuantity_Area"
+             Uuid="81AFD893-7B11-4E76-AD03-94BA0E77B686"
+			 SuperName="DELFmiLimitQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+    <Simple Name="V_LowerTolerance"
+            Uuid="7D056B1A-C827-40E9-B1A3-45141A5337C6"
+            Type="Double"
+            Magnitude="AREA"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Lower Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+	    <Simple Name="V_UpperTolerance"
+            Uuid="9DCFF2A9-47A7-486D-BCF3-41CE0063BC5F"
+            Type="Double"
+            Magnitude="AREA"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Upper Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+    <CAAComment>
+      <ShortRole>Limit Area Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiLimitQuantity_Length"
+             Uuid="C564B502-DA33-44A6-B5F3-319669F64F66"
+			 SuperName="DELFmiLimitQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+    <Simple Name="V_LowerTolerance"
+            Uuid="D324A9DC-9A39-4388-BFE5-151CA746D651"
+            Type="Double"
+            Magnitude="LENGTH"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Lower Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+	    <Simple Name="V_UpperTolerance"
+            Uuid="043A9E2B-674D-4AD2-BAAE-6BA63672E452"
+            Type="Double"
+            Magnitude="LENGTH"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Upper Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+    <CAAComment>
+      <ShortRole>Limit Length Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiLimitQuantity_Mass"
+             Uuid="A1A7A601-A11E-43C0-B98E-6E67966DD905"
+			 SuperName="DELFmiLimitQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+    <Simple Name="V_LowerTolerance"
+            Uuid="FC880900-AC24-407A-9A7E-9E73C3D91C82"
+            Type="Double"
+            Magnitude="MASS"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Lower Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+	    <Simple Name="V_UpperTolerance"
+            Uuid="C36FAC37-53F3-43AE-ACF4-836A2408D2E2"
+            Type="Double"
+            Magnitude="MASS"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+      <CAAComment>
+        <ShortRole>Defines Upper Tolerance</ShortRole>
+      </CAAComment>
+    </Simple>
+    <CAAComment>
+      <ShortRole>Limit Mass Quantity Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+
+	<Extension Name="DELFmiLimitQuantity_PartPerHundredIngredient"
+             Uuid="91C44F14-CF2F-45C7-BCE7-53B84756B5EE"
+			 SuperName="DELFmiLimitQuantityAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_LowerTolerance"
+				Uuid="6EC5AEFD-A331-4A6D-8DBB-C363E0C5194C"
+				Type="Double"
+				MultiValuated="No"
+				Protection="Free"
+				CAAExposition="L1"
+				DefaultValue="1.0"
+				KeepFormat="Yes"
+            >
+			<CAAComment>
+				<ShortRole>Defines Lower Tolerance</ShortRole>
+			</CAAComment>
+		</Simple>
+		<Simple Name="V_UpperTolerance"
+            Uuid="86FA70CF-F208-4020-AFB8-CA640571E04D"
+            Type="Double"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+			KeepFormat="Yes"
+            >
+			<CAAComment>
+				<ShortRole>Defines Upper Tolerance</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Limit PHI Quantity Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+	<Extension Name="DELFmiContQuantity_PartPerHundredIngredient"
+		   Uuid="B683A01C-907F-4FF1-BBCF-FA921FFB5604"
+		   ScopeNames="ProcessInstanceContinuous;MfgProductionPlanning"
+		   CAAExposition="L1"
+		   Specializable="No"
+		   CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_PHIQuantity"
+				Uuid="88462C5C-6259-4411-8545-D2098B11AADE"
+				Type="Double"
+				MultiValuated="No"
+				Protection="External"
+				CAAExposition="L1"
+				DefaultValue="0.0"
+				KeepFormat="Yes"
+            >
+			<CAAComment>
+				<ShortRole>Defines PHI Quantity</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>PHI Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+  <RelationClass Name="MBOMContinuousPhaseInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="FD71B6C1-ECEF-4D78-ADB0-9B2965578288"
+              Discipline="Yes"
+              SuperName="DELFmiFunctionInstance"
+              Specializable="No"
+			  PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}/dsmfg:MfgItemInstance/{pid}">
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+  </RelationClass>
+
+	<Extension Name="DELFmiRatioOfDiscreteQuantity"
+             Uuid="D533713B-2B96-4F3B-A655-74C165C53742"
+			 ScopeNames="DELFmiFunctionIdentifiedInstance;MfgProductionPlanning"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+		<Simple Name="V_ContQuantity"
+				Uuid="A1812A40-1524-42C2-A837-C0F7D38B6122"
+				Type="Double"
+				Magnitude="Ratio"
+				MultiValuated="No"
+				Protection="Free"
+				CAAExposition="L1"
+				DefaultValue="1.0"
+            >
+			<CAAComment>
+				<ShortRole>Defines Ratio of Discrete Quantity</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Ratio of Discrete Quantity Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+</Package>

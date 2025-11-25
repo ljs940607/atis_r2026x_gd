@@ -1,0 +1,45 @@
+NAVIGATE
+	T0.logicalid,T1.logicalid,T2.logicalid,T3.logicalid,T4.logicalid,
+	T0.physicalid,T1.physicalid,T2.physicalid,T3.physicalid,T4.physicalid,
+   	T0.type,T1.type,T2.type,T3.type,T4.type
+FROM
+	"Class/Analytics Case" T0,
+	"RelationClass/Analytics Alternative Generator" T1,
+	"Class/Simulation Template" T2,
+	"RelationClass/Analytics Approximation" T3,
+	"Class/Approximation" T4
+FROM_ROOTS
+	[?1?]
+ON
+(
+	(RELATION
+		(FROM="Class/Analytics Case"
+		 TO="RelationClass/Analytics Alternative Generator"
+		 THROUGH=POINTEDBY
+		 )
+		 WITH QUALITY_FILTER (CATEGORY=ISOWNEDBY)
+    THEN
+	RELATION
+		(FROM="RelationClass/Analytics Alternative Generator"
+		 TO="Class/Simulation Template"
+		 THROUGH=POINTSTO
+		 )
+		 WITH QUALITY_FILTER (CATEGORY=ISINSTANCEOF)
+	)
+
+OR 
+    (RELATION 
+		(FROM="Class/Analytics Case"
+		 TO="RelationClass/Analytics Approximation"
+		 THROUGH=POINTEDBY
+		 )
+		 WITH QUALITY_FILTER (CATEGORY=ISOWNEDBY)
+	THEN
+	RELATION
+		(FROM="RelationClass/Analytics Approximation"
+		 TO="Class/Approximation"
+		 THROUGH=POINTSTO
+		 )
+		 WITH QUALITY_FILTER (CATEGORY=ISINSTANCEOF)
+	)
+);

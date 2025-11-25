@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "EPSElement" UseNames = "CivilEngineeringElement" Uuid = "77689304-AADA-407A-BF55-E86D66492810" xmlns = "PLMDictionaryUnified">
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSAuxiliarTransformer" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "685AE731-6517-4819-A87A-35ACC6BD44A1">
+    <Property Name = "IconName" Value = "I_EPSAuxiliarTransformer"/>
+    <Property Name = "3DIconName" Value = "I_EPSAuxiliarTransformer.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSAuxiliarTransformerType" SuperName = "EPSElementType" Uuid = "BC88805C-E0DB-4019-B612-E001AFD4C887">
+    <Property Name = "IconName" Value = "I_EPSAuxiliarTransformerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSAuxiliarTransformerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSBattery" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "DACECAFA-609A-4E48-920B-79511947C7E7">
+    <Property Name = "IconName" Value = "I_EPSBattery"/>
+    <Property Name = "3DIconName" Value = "I_EPSBattery.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSBatteryType" SuperName = "EPSElementType" Uuid = "A38B21CF-C2C9-40FB-8D01-A4FACCF7EAC4">
+    <Property Name = "IconName" Value = "I_EPSBatteryType"/>
+    <Property Name = "3DIconName" Value = "I_EPSBatteryType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSBusbar" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "CCEB188B-8ABA-4B2D-9EE7-E49AF2F8D3FC">
+    <Property Name = "IconName" Value = "I_EPSBusbar"/>
+    <Property Name = "3DIconName" Value = "I_EPSBusbar.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSBusbarType" SuperName = "EPSElementType" Uuid = "E0919F8D-2A5D-40CF-97C6-6F5CCD67CF79">
+    <Property Name = "IconName" Value = "I_EPSBusbarType"/>
+    <Property Name = "3DIconName" Value = "I_EPSBusbarType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCable" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "F55825F1-913D-445F-9A47-8E14AE22B2D3">
+    <Property Name = "IconName" Value = "I_EPSCable"/>
+    <Property Name = "3DIconName" Value = "I_EPSCable.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCableAssembly" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "A3C7D470-E344-4646-854A-C0B78EA89F6D">
+    <Property Name = "IconName" Value = "I_EPSCableAssembly"/>
+    <Property Name = "3DIconName" Value = "I_EPSCableAssembly.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCableAssemblyType" SuperName = "EPSElementType" Uuid = "48F401DD-7B9A-4090-8B14-B2B98CC699EB">
+    <Property Name = "IconName" Value = "I_EPSCableAssemblyType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCableAssemblyType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCableDevice" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "74CA4EDE-52CA-4F6B-8E0E-E6B0502B461D">
+    <Property Name = "IconName" Value = "I_EPSCableDevice"/>
+    <Property Name = "3DIconName" Value = "I_EPSCableDevice.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCableDeviceType" SuperName = "EPSElementType" Uuid = "BEA7B36E-F318-4444-A710-EB731CB875CA">
+    <Property Name = "IconName" Value = "I_EPSCableDeviceType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCableDeviceType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCableType" SuperName = "EPSElementType" Uuid = "984A4574-1BB8-402B-BD85-F4F2F9D42B2E">
+    <Property Name = "IconName" Value = "I_EPSCableType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCableType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCapacitor" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "2B837DF4-AFE4-4526-97EB-FC862C94E6B4">
+    <Property Name = "IconName" Value = "I_EPSCapacitor"/>
+    <Property Name = "3DIconName" Value = "I_EPSCapacitor.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCapacitorBank" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "2D13BE22-3B75-4181-90EE-D6479BB6650F">
+    <Property Name = "IconName" Value = "I_EPSCapacitorBank"/>
+    <Property Name = "3DIconName" Value = "I_EPSCapacitorBank.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCapacitorBankType" SuperName = "EPSElementType" Uuid = "F9228944-E690-475B-B10A-E560C37C72C4">
+    <Property Name = "IconName" Value = "I_EPSCapacitorBankType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCapacitorBankType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCapacitorType" SuperName = "EPSElementType" Uuid = "D65875F4-DEA7-4D53-BEA2-C231B42B7AA8">
+    <Property Name = "IconName" Value = "I_EPSCapacitorType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCapacitorType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCoil" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "519E7A90-6354-46BC-B3D1-BAAD4BA1E89D">
+    <Property Name = "IconName" Value = "I_EPSCoil"/>
+    <Property Name = "3DIconName" Value = "I_EPSCoil.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSCoilType" SuperName = "EPSElementType" Uuid = "B15656CF-94FA-475A-914F-487F4898EB6C">
+    <Property Name = "IconName" Value = "I_EPSCoilType"/>
+    <Property Name = "3DIconName" Value = "I_EPSCoilType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSControlBox" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "CAFC4299-A148-4FD9-A7A9-C62251D195E5">
+    <Property Name = "IconName" Value = "I_EPSControlBox"/>
+    <Property Name = "3DIconName" Value = "I_EPSControlBox.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSControlBoxType" SuperName = "EPSElementType" Uuid = "FED671CD-3C31-4818-94CE-221776B9A56E">
+    <Property Name = "IconName" Value = "I_EPSControlBoxType"/>
+    <Property Name = "3DIconName" Value = "I_EPSControlBoxType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSControlEquipment" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "A1516B8E-6AB4-4EED-9C83-B962ADB41C19">
+    <Property Name = "IconName" Value = "I_EPSControlEquipment"/>
+    <Property Name = "3DIconName" Value = "I_EPSControlEquipment.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSControlEquipmentType" SuperName = "EPSElementType" Uuid = "DEBF5CC2-2CD4-411A-87DA-E9F41ECAB29C">
+    <Property Name = "IconName" Value = "I_EPSControlEquipmentType"/>
+    <Property Name = "3DIconName" Value = "I_EPSControlEquipmentType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSConversionSF6" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "101AD811-C9C8-4601-A7F0-B15C49A9DA0E">
+    <Property Name = "IconName" Value = "I_EPSConversionSF6"/>
+    <Property Name = "3DIconName" Value = "I_EPSConversionSF6.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSConversionSF6Type" SuperName = "EPSElementType" Uuid = "283418AF-5D92-4F62-AF07-2997F9E96EC9">
+    <Property Name = "IconName" Value = "I_EPSConversionSF6Type"/>
+    <Property Name = "3DIconName" Value = "I_EPSConversionSF6Type.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSConverter" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "02E694F1-73ED-464D-BE45-34B211C42F32">
+    <Property Name = "IconName" Value = "I_EPSConverter"/>
+    <Property Name = "3DIconName" Value = "I_EPSConverter.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSConverterType" SuperName = "EPSElementType" Uuid = "91375A3D-6502-48C2-B607-729B619FEDFC">
+    <Property Name = "IconName" Value = "I_EPSConverterType"/>
+    <Property Name = "3DIconName" Value = "I_EPSConverterType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDisconnector" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "8C4E1163-6E47-4425-A4B1-4C0B61CC4433">
+    <Property Name = "IconName" Value = "I_EPSDisconnector"/>
+    <Property Name = "3DIconName" Value = "I_EPSDisconnector.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDisconnectorToEarth" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "3C071883-688E-4CFA-9AA2-92DB5C4AC76A">
+    <Property Name = "IconName" Value = "I_EPSDisconnectorToEarth"/>
+    <Property Name = "3DIconName" Value = "I_EPSDisconnectorToEarth.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDisconnectorToEarthType" SuperName = "EPSElementType" Uuid = "580C029D-4970-4F02-ABB2-E047E937B060">
+    <Property Name = "IconName" Value = "I_EPSDisconnectorToEarthType"/>
+    <Property Name = "3DIconName" Value = "I_EPSDisconnectorToEarthType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDisconnectorType" SuperName = "EPSElementType" Uuid = "25419153-346E-4D62-9678-D804DCC086AF">
+    <Property Name = "IconName" Value = "I_EPSDisconnectorType"/>
+    <Property Name = "3DIconName" Value = "I_EPSDisconnectorType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDivider" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "46FD5BB3-C408-448D-98A8-E89E9C071B20">
+    <Property Name = "IconName" Value = "I_EPSDivider"/>
+    <Property Name = "3DIconName" Value = "I_EPSDivider.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSDividerType" SuperName = "EPSElementType" Uuid = "CD1A2A3E-1C15-4085-9992-E2BF0F1976D5">
+    <Property Name = "IconName" Value = "I_EPSDividerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSDividerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEarthingGrid" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "4F5620A4-2629-4258-9EC5-2840C8DE6A73">
+    <Property Name = "IconName" Value = "I_EPSEarthingGrid"/>
+    <Property Name = "3DIconName" Value = "I_EPSEarthingGrid.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEarthingGridType" SuperName = "EPSElementType" Uuid = "1DAE2C13-774F-47D6-94CA-E217E944ADC6">
+    <Property Name = "IconName" Value = "I_EPSEarthingGridType"/>
+    <Property Name = "3DIconName" Value = "I_EPSEarthingGridType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEarthingPoints" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "5B0C6566-8550-4A65-A173-27D128C60A52">
+    <Property Name = "IconName" Value = "I_EPSEarthingPoints"/>
+    <Property Name = "3DIconName" Value = "I_EPSEarthingPoints.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEarthingPointsType" SuperName = "EPSElementType" Uuid = "19B8C432-A35A-402B-B970-2F8C88B2849D">
+    <Property Name = "IconName" Value = "I_EPSEarthingPointsType"/>
+    <Property Name = "3DIconName" Value = "I_EPSEarthingPointsType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSElement" SuperName = "CivilEngineeringElement" Uuid = "0464F0D2-3733-44B2-B479-BCA2BEA0ECDF">
+    <Property Name = "GroupingType" Value = "EPSElement"/>
+    <Property Name = "InstantiationOwnerTypes" Value = "PPRContext;EPSSpatialStructureElement;AecElementAssembly;EPSElement;BuildingSpace;TunnelSpace;TunnelPart;AecOtherSpatialStructureElement"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSElementType" SuperName = "CivilEngineeringElementType" Uuid = "A5986363-9294-4B21-9F3B-CB2A062A3EB1">
+    <Property Name = "GroupingType" Value = "EPSElementType"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipment" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "350799BD-D2DB-4FEB-9E42-40BC1E7B0C82">
+    <Property Name = "IconName" Value = "I_EPSEquipment"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipment.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipmentAssembly" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "C2DC345B-8C08-4451-9925-6980B495965E">
+    <Property Name = "IconName" Value = "I_EPSEquipmentAssembly"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipmentAssembly.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipmentAssemblyType" SuperName = "EPSElementType" Uuid = "508637AC-EF57-4624-B005-01A471D55B8B">
+    <Property Name = "IconName" Value = "I_EPSEquipmentAssemblyType"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipmentAssemblyType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipmentPole" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "1E9672C7-D4A8-4A82-B611-6560A375C524">
+    <Property Name = "IconName" Value = "I_EPSEquipmentPole"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipmentPole.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipmentPoleType" SuperName = "EPSElementType" Uuid = "2800FE84-FC87-4751-970A-DD6718CFE4D1">
+    <Property Name = "IconName" Value = "I_EPSEquipmentPoleType"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipmentPoleType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSEquipmentType" SuperName = "EPSElementType" Uuid = "90EC9494-AF29-49DF-9294-D013ADF077A2">
+    <Property Name = "IconName" Value = "I_EPSEquipmentType"/>
+    <Property Name = "3DIconName" Value = "I_EPSEquipmentType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSInterface" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "49471C69-7409-4EBB-B7F3-934ADCDCAA53">
+    <Property Name = "IconName" Value = "I_EPSInterface"/>
+    <Property Name = "3DIconName" Value = "I_EPSInterface.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSInterfaceType" SuperName = "EPSElementType" Uuid = "4E83F46E-898A-4A0E-AA0C-53DB55862080">
+    <Property Name = "IconName" Value = "I_EPSInterfaceType"/>
+    <Property Name = "3DIconName" Value = "I_EPSInterfaceType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMeasureProtection" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "21D5F24B-E63F-4F5E-89C2-FBEB10FCEA60">
+    <Property Name = "IconName" Value = "I_EPSMeasureProtection"/>
+    <Property Name = "3DIconName" Value = "I_EPSMeasureProtection.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMeasureProtectionType" SuperName = "EPSElementType" Uuid = "37DDC3C2-E956-4707-9E48-20E567493214">
+    <Property Name = "IconName" Value = "I_EPSMeasureProtectionType"/>
+    <Property Name = "3DIconName" Value = "I_EPSMeasureProtectionType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMeasureTransformer" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "8000EA09-8795-4FD4-A2DD-4FEE28068CDF">
+    <Property Name = "IconName" Value = "I_EPSMeasureTransformer"/>
+    <Property Name = "3DIconName" Value = "I_EPSMeasureTransformer.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMeasureTransformerType" SuperName = "EPSElementType" Uuid = "28806674-1571-4E05-BB0F-0DD3A280F9DC">
+    <Property Name = "IconName" Value = "I_EPSMeasureTransformerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSMeasureTransformerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMobileLink" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "7CC64688-7171-4CBD-AA30-FAB87DB2025E">
+    <Property Name = "IconName" Value = "I_EPSMobileLink"/>
+    <Property Name = "3DIconName" Value = "I_EPSMobileLink.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMobileLinkType" SuperName = "EPSElementType" Uuid = "002A2FBE-2D53-4BD1-A1CB-61D5AAE04CA2">
+    <Property Name = "IconName" Value = "I_EPSMobileLinkType"/>
+    <Property Name = "3DIconName" Value = "I_EPSMobileLinkType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMVSupply" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "97FA48AC-26E0-4F7E-9E16-3BADE7EE9F5E">
+    <Property Name = "IconName" Value = "I_EPSMVSupply"/>
+    <Property Name = "3DIconName" Value = "I_EPSMVSupply.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSMVSupplyType" SuperName = "EPSElementType" Uuid = "681A01A1-9045-4C49-B70A-1460FB4605A4">
+    <Property Name = "IconName" Value = "I_EPSMVSupplyType"/>
+    <Property Name = "3DIconName" Value = "I_EPSMVSupplyType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSOpFlexEquipment" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "87F7A62A-214B-4AD8-A46B-B6CEF710078A">
+    <Property Name = "IconName" Value = "I_EPSOpFlexEquipment"/>
+    <Property Name = "3DIconName" Value = "I_EPSOpFlexEquipment.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSOpFlexEquipmentType" SuperName = "EPSElementType" Uuid = "1FA32561-BA8E-45E2-BD9D-C0289A69BF51">
+    <Property Name = "IconName" Value = "I_EPSOpFlexEquipmentType"/>
+    <Property Name = "3DIconName" Value = "I_EPSOpFlexEquipmentType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSOtherElement" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" Specializable = "Yes" SuperName = "EPSElement" Uuid = "8267E43E-FB00-44E9-88CA-E2532D72DB31">
+    <Property Name = "IconName" Value = "I_EPSOtherElement"/>
+    <Property Name = "3DIconName" Value = "I_EPSOtherElement.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSOtherElementType" Specializable = "Yes" SuperName = "EPSElementType" Uuid = "9A753485-64B2-47EA-B0CB-6748E240117C">
+    <Property Name = "IconName" Value = "I_EPSOtherElementType"/>
+    <Property Name = "3DIconName" Value = "I_EPSOtherElementType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPanel" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "E11D67B3-8F84-410D-98E5-7DAC6724E005">
+    <Property Name = "IconName" Value = "I_EPSPanel"/>
+    <Property Name = "3DIconName" Value = "I_EPSPanel.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPanelType" SuperName = "EPSElementType" Uuid = "D23899C7-3E63-4DA7-997F-739BBF9E645D">
+    <Property Name = "IconName" Value = "I_EPSPanelType"/>
+    <Property Name = "3DIconName" Value = "I_EPSPanelType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPhaseShiftingTransformer" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "105C63F4-6722-48F3-8176-9B97446E4A6A">
+    <Property Name = "IconName" Value = "I_EPSPhaseShiftingTransformer"/>
+    <Property Name = "3DIconName" Value = "I_EPSPhaseShiftingTransformer.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPhaseShiftingTransformerType" SuperName = "EPSElementType" Uuid = "26EC72D0-66AF-4935-9874-5B83C02D8FD3">
+    <Property Name = "IconName" Value = "I_EPSPhaseShiftingTransformerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSPhaseShiftingTransformerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPowerTransformer" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "FCB747D9-BC4B-40B8-A674-1D26EC44AAB5">
+    <Property Name = "IconName" Value = "I_EPSPowerTransformer"/>
+    <Property Name = "3DIconName" Value = "I_EPSPowerTransformer.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPowerTransformerType" SuperName = "EPSElementType" Uuid = "F4DAC1A0-AE12-45BA-8644-CBF2D4ACD89C">
+    <Property Name = "IconName" Value = "I_EPSPowerTransformerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSPowerTransformerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSProtection" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "8EFE57D8-BAD2-41B0-8852-C63BE075FCB0">
+    <Property Name = "IconName" Value = "I_EPSProtection"/>
+    <Property Name = "3DIconName" Value = "I_EPSProtection.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSProtectionAssembly" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "35E69FF3-C7A3-4274-A3D6-3DDF1920570D">
+    <Property Name = "IconName" Value = "I_EPSProtectionAssembly"/>
+    <Property Name = "3DIconName" Value = "I_EPSProtectionAssembly.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSProtectionAssemblyType" SuperName = "EPSElementType" Uuid = "145F13E7-79AE-48CA-928F-0E20E7220AEB">
+    <Property Name = "IconName" Value = "I_EPSProtectionAssemblyType"/>
+    <Property Name = "3DIconName" Value = "I_EPSProtectionAssemblyType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSProtectionType" SuperName = "EPSElementType" Uuid = "E123CDC1-3485-4F02-A7E3-C71B9506122C">
+    <Property Name = "IconName" Value = "I_EPSProtectionType"/>
+    <Property Name = "3DIconName" Value = "I_EPSProtectionType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPylonDevice" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "46814411-8B4F-4455-A5D8-C8FA15039BC7">
+    <Property Name = "IconName" Value = "I_EPSPylonDevice"/>
+    <Property Name = "3DIconName" Value = "I_EPSPylonDevice.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSPylonDeviceType" SuperName = "EPSElementType" Uuid = "0E3FF7B3-2F16-496F-92DD-E889C4F19E37">
+    <Property Name = "IconName" Value = "I_EPSPylonDeviceType"/>
+    <Property Name = "3DIconName" Value = "I_EPSPylonDeviceType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSReactance" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "132CFCF5-3462-4BA2-9A30-C206F113F055">
+    <Property Name = "IconName" Value = "I_EPSReactance"/>
+    <Property Name = "3DIconName" Value = "I_EPSReactance.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSReactanceType" SuperName = "EPSElementType" Uuid = "B41C02B0-9EE6-4E35-85D0-ECCDEDC3EAE5">
+    <Property Name = "IconName" Value = "I_EPSReactanceType"/>
+    <Property Name = "3DIconName" Value = "I_EPSReactanceType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSRectifier" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "A9DCE190-2029-4146-A2BE-47E4972ADAA2">
+    <Property Name = "IconName" Value = "I_EPSRectifier"/>
+    <Property Name = "3DIconName" Value = "I_EPSRectifier.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSRectifierType" SuperName = "EPSElementType" Uuid = "E75354F8-A9CE-4575-8BA1-89E302A8E7C3">
+    <Property Name = "IconName" Value = "I_EPSRectifierType"/>
+    <Property Name = "3DIconName" Value = "I_EPSRectifierType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSResistor" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "A3AA37A1-8411-4F22-A99A-212E0838CB2F">
+    <Property Name = "IconName" Value = "I_EPSResistor"/>
+    <Property Name = "3DIconName" Value = "I_EPSResistor.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSResistorType" SuperName = "EPSElementType" Uuid = "33BBB160-F48A-4B40-85A5-1F1E122E1ADC">
+    <Property Name = "IconName" Value = "I_EPSResistorType"/>
+    <Property Name = "3DIconName" Value = "I_EPSResistorType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSAXPLC" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "1D9E0F6D-0C5E-4452-87A5-4CA9C2C49F68">
+    <Property Name = "IconName" Value = "I_EPSSAXPLC"/>
+    <Property Name = "3DIconName" Value = "I_EPSSAXPLC.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSAXPLCType" SuperName = "EPSElementType" Uuid = "4E022F43-7A0A-4B98-975D-C476D4785C6A">
+    <Property Name = "IconName" Value = "I_EPSSAXPLCType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSAXPLCType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSShieldBox" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "128CE364-9979-44D4-A95E-1016B2E5F971">
+    <Property Name = "IconName" Value = "I_EPSShieldBox"/>
+    <Property Name = "3DIconName" Value = "I_EPSShieldBox.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSShieldBoxType" SuperName = "EPSElementType" Uuid = "2C07D14A-7EB7-4F14-8A98-73E6C98CD536">
+    <Property Name = "IconName" Value = "I_EPSShieldBoxType"/>
+    <Property Name = "3DIconName" Value = "I_EPSShieldBoxType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSShuntReactor" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "A56FC189-E710-49BE-9CFE-B9F9A69716EA">
+    <Property Name = "IconName" Value = "I_EPSShuntReactor"/>
+    <Property Name = "3DIconName" Value = "I_EPSShuntReactor.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSShuntReactorType" SuperName = "EPSElementType" Uuid = "1A872CE3-2D84-4B10-9AC9-DEF89AD7A69A">
+    <Property Name = "IconName" Value = "I_EPSShuntReactorType"/>
+    <Property Name = "3DIconName" Value = "I_EPSShuntReactorType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSignalCoil" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "C63E6BC6-A5D1-4266-A390-2097798D58C6">
+    <Property Name = "IconName" Value = "I_EPSSignalCoil"/>
+    <Property Name = "3DIconName" Value = "I_EPSSignalCoil.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSignalCoilType" SuperName = "EPSElementType" Uuid = "C000EC54-D84E-4117-87F3-89E473D60BFE">
+    <Property Name = "IconName" Value = "I_EPSSignalCoilType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSignalCoilType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSplice" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "8171EF69-5643-4314-9A5F-8423DCF84699">
+    <Property Name = "IconName" Value = "I_EPSSplice"/>
+    <Property Name = "3DIconName" Value = "I_EPSSplice.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSpliceType" SuperName = "EPSElementType" Uuid = "F5BC9F0E-7C64-459E-A18C-E135231A437A">
+    <Property Name = "IconName" Value = "I_EPSSpliceType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSpliceType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSStabilizerTransformer" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "FA06E90C-9D85-4D5D-9ABC-B4F39AEF5C9F">
+    <Property Name = "IconName" Value = "I_EPSStabilizerTransformer"/>
+    <Property Name = "3DIconName" Value = "I_EPSStabilizerTransformer.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSStabilizerTransformerType" SuperName = "EPSElementType" Uuid = "0B9DF102-478D-4A08-AED2-82AC05E20E69">
+    <Property Name = "IconName" Value = "I_EPSStabilizerTransformerType"/>
+    <Property Name = "3DIconName" Value = "I_EPSStabilizerTransformerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSStringInsulator" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "9672F3EE-EBBB-447A-9A88-DEC92B425A36">
+    <Property Name = "IconName" Value = "I_EPSStringInsulator"/>
+    <Property Name = "3DIconName" Value = "I_EPSStringInsulator.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSStringInsulatorType" SuperName = "EPSElementType" Uuid = "06A38D1A-9C56-40CF-AE8B-A084BCE1AA89">
+    <Property Name = "IconName" Value = "I_EPSStringInsulatorType"/>
+    <Property Name = "3DIconName" Value = "I_EPSStringInsulatorType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSubstationConnection" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "BC5F1B78-186B-4035-81E2-5239AA58545C">
+    <Property Name = "IconName" Value = "I_EPSSubstationConnection"/>
+    <Property Name = "3DIconName" Value = "I_EPSSubstationConnection.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSubstationConnectionType" SuperName = "EPSElementType" Uuid = "64638433-26F7-40C3-A3EA-337578979C85">
+    <Property Name = "IconName" Value = "I_EPSSubstationConnectionType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSubstationConnectionType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSurgeArrester" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "0AEEAD5A-C39C-401D-850C-3EED0999DCAE">
+    <Property Name = "IconName" Value = "I_EPSSurgeArrester"/>
+    <Property Name = "3DIconName" Value = "I_EPSSurgeArrester.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSurgeArresterType" SuperName = "EPSElementType" Uuid = "A87EBF67-D6B4-4718-BD41-529F152B4D05">
+    <Property Name = "IconName" Value = "I_EPSSurgeArresterType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSurgeArresterType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSwitch" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "EPSElement" Uuid = "D7B036ED-D016-400F-BF8A-C29BEB8496F1">
+    <Property Name = "IconName" Value = "I_EPSSwitch"/>
+    <Property Name = "3DIconName" Value = "I_EPSSwitch.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "EPSSwitchType" SuperName = "EPSElementType" Uuid = "B9AC7B30-0B81-4472-B725-628F2605A61B">
+    <Property Name = "IconName" Value = "I_EPSSwitchType"/>
+    <Property Name = "3DIconName" Value = "I_EPSSwitchType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+</Package>

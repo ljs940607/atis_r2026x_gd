@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "OrganizationStructure",
+    "description"    : "The domain instance for OrganizationStructure in 3DSpace",
+    "packages"       : ["PeopleAndOrganization"]
+}

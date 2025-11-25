@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_Pipeline_Connector_DS_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Connector_DS_Count",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Connector_DS_GrossWeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

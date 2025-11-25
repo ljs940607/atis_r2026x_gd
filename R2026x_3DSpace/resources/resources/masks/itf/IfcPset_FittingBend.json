@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_FittingBend_BendAngle",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingBend_BendRadius",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

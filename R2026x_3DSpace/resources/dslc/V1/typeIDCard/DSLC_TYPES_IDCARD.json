@@ -1,0 +1,17 @@
+{
+    "dslc:changeControl": {
+        "kindOf":"extension",
+        "beType":"virtual_ChangeControl",
+        "isPublic":true,
+        "implementationClass": "com.dassault_systemes.enovia.xapps.dslc.implementations.ENOXExtensionChangeControl",
+        "defaultMask":"dsmvlc:ChangeControlMask.Status"
+    },
+    
+    "dslc:changeImpact": {
+        "kindOf":"extension",
+        "beType":"virtual_ChangeImpact",
+        "isPublic":true,
+        "implementationClass": "NO USE",
+        "defaultMask":"dsmvlc:ChangeImpactMask"
+    }
+}

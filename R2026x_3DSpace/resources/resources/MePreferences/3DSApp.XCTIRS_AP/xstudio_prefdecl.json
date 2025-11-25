@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "name": "xStudioApp",
+      "preferences": [
+        {
+          "name": "autoLPR",
+          "datatype": "boolean",
+          "default": true,
+          "deprecated": false
+        },
+        {
+          "name": "aspectRatioPreset",
+          "datatype": "enum",
+          "values": ["Web", "Ecommerce", "SocialMedia", "AutoFit", "Custom"],
+          "default": 1,
+          "deprecated": false
+        },
+        {
+          "name": "customRatioWidth",
+          "datatype": "integer",
+          "default": 1920,
+          "deprecated": false
+        },
+        {
+          "name": "customRatioHeight",
+          "datatype": "integer",
+          "default": 1080,
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}

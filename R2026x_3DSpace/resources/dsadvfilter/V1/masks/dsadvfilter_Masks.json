@@ -1,0 +1,29 @@
+{
+  "dsadvfilter:AdvFilterMask.Default": [{
+    "property": "reuseMask",
+    "mask": "dsmveno:DefaultErBusMask"
+  }],
+  "dsadvfilter:AdvFilterMask.FilterSpec": [
+    "dsadvfilter:attribute.title",
+    "dsmveno:basic.description",
+    "dsmvadvfilter:program.filteredObject",
+    "dsmvadvfilter:program.filterSpecification"
+  ],
+  "dsadvfilter:VDRPFilterMask.Default": [{
+    "property": "reuseMask",
+    "mask": "dsmveno:DefaultErBusMask"
+  }],
+  "dsadvfilter:VDRPFilterMask.VDRPFilterSpecComputed": [
+    "dsmvadvfilter:program.VDRPFilteredObjects",
+    "dsmvadvfilter:program.filterVDRPSpec"
+  ],
+  "dsadvfilter:VDRPFilterMask.VDRPFilterSpec": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultErBusMask"
+    },
+    {
+      "property":"reuseMask",
+      "mask":"dsadvfilter:VDRPFilterMask.VDRPFilterSpecComputed"
+    }]
+}

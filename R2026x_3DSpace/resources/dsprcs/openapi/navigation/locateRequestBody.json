@@ -1,0 +1,29 @@
+{
+	"properties": {
+		"input_objects": {
+			"type": "array",
+			"description": "List of input objects to locate the target object",
+			"items": {
+				"type": "object",
+				"properties": {
+					"source": {
+						"type": "string",
+						"example": "$3DSpace"
+					},
+					"type": {
+						"type": "string",
+						"example": "My Type"
+					},
+					"identifier": {
+						"type": "string",
+						"example": "RefConnOrInstID1"
+					},
+					"relativePath": {
+						"type": "string",
+						"example": "resource/v1/corpus/metatype/RefConnOrInstID1"
+					}
+				}
+			}
+		}
+	}
+}

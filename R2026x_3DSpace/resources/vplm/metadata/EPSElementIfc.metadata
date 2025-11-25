@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "EPSElementIfc" UseNames = "EPSElement;PRODUCTCFG" Uuid = "F6091189-B6C7-47B9-BFF7-E08AA52B130E" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_ArtificialNestCommon" ScopeNames = "EPSPylonDevice" Uuid = "d8653ac4-a98b-4183-812c-3d7b6bcba6f2" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_ArtificialNestCommon_Species" Protection = "Free" Type = "String" Uuid = "c0f9ef74-b78c-42e3-ac9d-75543073a0d6"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_BirdDeterrentCommon" ScopeNames = "EPSPylonDevice" Uuid = "a5839934-b25e-4222-b9d0-4770fffeaae5" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_BirdDeterrentCommon_Reference" Protection = "Free" Type = "String" Uuid = "641d1abc-fc69-4f79-8d17-31bf3e86c3e6"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_BirdDiverterCommon" ScopeNames = "EPSCableDevice" Uuid = "e2f82cfc-6a28-4d3f-93f9-c3a8d9d70ad9" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_BirdDiverterCommon_Quantity" Protection = "Free" Type = "Integer" Uuid = "c87ce5d8-eb3e-4d8e-9bc1-5cdc4c502bbc"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_BushingCommon" ScopeNames = "EPSInterface" Uuid = "cadc5026-4989-4f7c-b717-5d4709f2d51c" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_BushingCommon_SerialNumber" Protection = "Free" Type = "String" Uuid = "d0e6bb93-9514-439f-ac0e-9efe8521bddd"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_CableHardwareCommon" ScopeNames = "EPSCableDevice" Uuid = "ce42ea47-c997-4cfa-8db8-d851ef22e674" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_CableHardwareCommon_SpanIdentification" Protection = "Free" Type = "String" Uuid = "33cb45b0-b832-4d29-ac51-ae2fb2ea5721"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CableHardwareCommon_HardwareCount" Protection = "Free" Type = "Integer" Uuid = "35f12e5c-c53e-4873-b2f4-97bc964020d9"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_CableStretchCommon" ScopeNames = "EPSCableAssembly" Uuid = "241e5e33-1217-4d36-a310-3d632820fb49" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CableStretchCommon_TransportCapacity" Protection = "Free" Type = "Double" Uuid = "2ea06662-a727-4576-95b0-d68abfb42a21"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CableStretchCommon_DiameterOverInsulation" Protection = "Free" Type = "Double" Uuid = "e2f34982-8525-4603-a7a1-b60bc1505046"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CableStretchCommon_DiameterOverConductor" Protection = "Free" Type = "Double" Uuid = "b44208d9-bb47-4d65-9ca7-5e06044101ed"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CableStretchCommon_DiameterOverSheat" Protection = "Free" Type = "Double" Uuid = "af981251-05fc-4a25-af2e-980bf7fa54a8"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CableStretchCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "169cb898-158c-47c8-bd54-74a54e3a8ade"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CableStretchCommon_AcquisitionDate" Protection = "Free" Type = "Date" Uuid = "1db61521-b21b-4ee7-8ed8-abc5f47df27d"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CableStretchCommon_CableLength" Protection = "Free" Type = "Double" Uuid = "4e27ce6f-189d-48f3-9486-6b4e51cb8874"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_CableStretchCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "f1fc61ce-fc78-43b2-9bd2-1d1bbd6174da"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_CableStretchCommon_GroundingSystem" Protection = "Free" Type = "String" Uuid = "5b8d30aa-00b5-4e95-8970-0e0e0a73f657">
+      <Range>
+        <Equal>CROSSBONDINGENDSECTION</Equal>
+        <Equal>CROSSBONDINGINITIALSECTION</Equal>
+        <Equal>CROSSBONDINGINTERMEDIATESECTION</Equal>
+        <Equal>SINGLEPOINTBONDING</Equal>
+        <Equal>SOLIDBONDING</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_CapacitorBankCommon" ScopeNames = "EPSCapacitorBank" Uuid = "45bf33b9-87b8-4b7b-b790-8988980e609d" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CapacitorBankCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "716117a6-b766-4a18-b642-56bf8d0b2f7e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CapacitorBankCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "8069d63a-bfe3-4b59-ad0a-890bf4aed7dd"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_CapacitorBankCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "984bfe78-d431-4bc2-9b99-5a5963c684eb"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_CapacitorBankCommon_SerialNumber" Protection = "Free" Type = "String" Uuid = "5e82d5f8-496c-4929-a641-91f1198ffdea"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_CapacitorBankCommon_TotalLosses" Protection = "Free" Type = "Double" Uuid = "25089bb3-2cda-4281-82f1-0a7f0acad3fe"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CapacitorBankCommon_NominalPower" Protection = "Free" Type = "Double" Uuid = "0269e347-fc4f-460d-875b-15d1464a4e7c"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_CapacitorBankCommon_RatedVoltage" Protection = "Free" Type = "Double" Uuid = "6db219e8-f7c9-470b-9463-71b2e84d423f"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_CapacitorBankCommon_ConnectionType" Protection = "Free" Type = "String" Uuid = "a0230db6-479e-4c38-92ac-82ea4a669957">
+      <Range>
+        <Equal>HCONNECTION</Equal>
+        <Equal>STARCONNECTION</Equal>
+        <Equal>DELTACONNECTION</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_CircuitPhaseCommon" ScopeNames = "EPSCableAssembly" Uuid = "763c6e7d-f09c-451a-a28d-27923be31697" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_CircuitPhaseCommon_Reference" Protection = "Free" Type = "String" Uuid = "9afac4b6-8b50-4801-9411-c80693810aa1"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_EarthingCableAssemblyCommon" ScopeNames = "EPSPylonDevice" Uuid = "3bfb4856-d5e5-4235-a526-4e7f27f43288" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_EarthingCableAssemblyCommon_Reference" Protection = "Free" Type = "String" Uuid = "53d55a5f-9754-4a25-8f1b-ce47e7cdc30a"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PhaseBundleCommon" ScopeNames = "EPSCableAssembly" Uuid = "5b8b8735-5f48-4057-ada8-bc9d3b78ab3e" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PhaseBundleCommon_Reference" Protection = "Free" Type = "String" Uuid = "842fe665-f966-42f0-9310-98543af69da3"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PhaseCableStretchCommon" ScopeNames = "EPSCableAssembly" Uuid = "5f1bcafe-07ee-4709-bcce-1dbf23a2080c" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PhaseCableStretchCommon_Reference" Protection = "Free" Type = "String" Uuid = "002eab9e-6374-465b-9e24-41e3cc24736a"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PhaseShiftingTransformerCommon" ScopeNames = "EPSPhaseShiftingTransformer" Uuid = "971adfb6-609a-4fc8-aaad-cd29c44c0db6" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_RefrigerationMachineOil" Protection = "Free" Type = "Double" Uuid = "16160e26-ab66-41b5-9c69-97b4ace04dd9"/>
+    <Simple CAAExposition = "L0" Magnitude = "ANGLE" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_MaximumPhaseAngleNoLoad" Protection = "Free" Type = "Double" Uuid = "19c2353b-c36c-46ab-9734-44828999d6d5"/>
+    <Simple CAAExposition = "L0" MaxLength = "80" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_EICCode" Protection = "Free" Type = "String" Uuid = "78ade5ba-4758-491d-9ce3-7f3dcfd75ab3"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_SwitchArrangement" Protection = "Free" Type = "String" Uuid = "f594dd2a-91b7-46dd-8ddd-a3349b142abd">
+      <Range>
+        <Equal>INSERIES</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "e1df6af3-394a-442d-8d8c-1c0a260ea0bc"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "c9cf4eaf-7069-4e7f-bc25-8de6cad270af"/>
+    <Simple CAAExposition = "L0" Magnitude = "COURANT" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitCurrent" Protection = "Free" Type = "Double" Uuid = "2bed963a-f39b-4d96-8d48-2149ff915c50"/>
+    <Simple CAAExposition = "L0" Magnitude = "COURANT" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_RatedCurrent" Protection = "Free" Type = "Double" Uuid = "fe37f813-aa27-4a71-bc35-0c7292b577f5"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "ad0bdaa9-cefe-47df-becc-63be7969e218"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_Voltage" Protection = "Free" Type = "Double" Uuid = "66159617-876f-46a2-a0a8-41e40116c2bc"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_TapNumber" Protection = "Free" Type = "Integer" Uuid = "1b71355d-7f6a-43fc-af34-45e42a44eb0e"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_StepNominalPower" Protection = "Free" Type = "Double" Uuid = "388fb885-33b3-41e9-8ec1-f4f10aa61bee"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_Symmetry" Protection = "Free" Type = "String" Uuid = "dd89e9d6-1837-4083-896d-9f26ba8607ed">
+      <Range>
+        <Equal>SYMMETRIC</Equal>
+        <Equal>ASYMETRIC</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNegativePhaseShiftTerminal" Protection = "Free" Type = "Double" Uuid = "a507a6b2-ad1a-4f88-b97c-405e6f617d15"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltagePositivePhaseShiftTerminal" Protection = "Free" Type = "Double" Uuid = "c0ed5abc-8a90-4952-8bf8-b952139967bc"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNeutralTerminal" Protection = "Free" Type = "Double" Uuid = "69f7cf2e-e54c-4aac-8320-4384c0a08ab3"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_PhaseShiftingTransformerCommon_DesignType" Protection = "Free" Type = "String" Uuid = "0b5db839-9b03-4630-985d-d8061fdff210">
+      <Range>
+        <Equal>CORETYPE</Equal>
+        <Equal>SHELLTYPE</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PowerTransformerCommon" ScopeNames = "EPSPowerTransformer" Uuid = "fc7df712-ec64-4e2f-b92c-b7cbc65938ee" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcPset_DS_PowerTransformerCommon_RefrigerationMachineOil" Protection = "Free" Type = "Double" Uuid = "a857ad60-c15b-4c81-afc0-5a39e2102cab"/>
+    <Simple CAAExposition = "L0" MaxLength = "80" Name = "IfcPset_DS_PowerTransformerCommon_EICCode" Protection = "Free" Type = "String" Uuid = "24afbbfb-5493-4ecd-9f57-49f51cead76a"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "ba7d9e85-9da9-48c8-9606-d5a435ecf974"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "25f9f240-7b12-4bb4-956a-5c9a8cf298ad"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumPrimaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "405bf00c-d54b-4c32-9723-93cb51588abb"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumPrimaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "e93fcabb-d7b6-408c-a04b-9651dd3f3d94"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AveragePrimaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "24d61720-3bf8-423a-b3f5-a50613670717"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "d784dc40-aea7-4b0a-949d-274cc76c8245"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumSecondaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "783b72c3-4ed7-40b5-956e-55291153ca5f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AverageSecondaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "9bee63de-64cd-42e5-b362-3374a50c4527"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumTertiaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "da991ed1-68b9-49a3-bdcd-ff24110d7a91"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AverageTertiaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "49de3ad1-4150-4041-aa69-6aac5e2536ef"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumTertiaryHomopolarImpedance" Protection = "Free" Type = "Double" Uuid = "37cd1e91-65be-4082-bbc7-1deada121123"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PowerTransformerCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "9a2edec9-8b31-49f6-9c5c-a55688417622"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_TapsNumber" Protection = "Free" Type = "Integer" Uuid = "099796c2-efa4-4d78-95d4-ad358c4a6975"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_SecondaryRegulationTapNumber" Protection = "Free" Type = "Integer" Uuid = "e15aa38f-0a8c-42e0-8384-36904bb9b808"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumTapNumber" Protection = "Free" Type = "Integer" Uuid = "07d0e90d-4f00-4d53-961f-2a061e97b929"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryRegulationTapNumber" Protection = "Free" Type = "Integer" Uuid = "2d531a15-b15c-438f-80b1-6f1e0dd0ba92"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MainTapNumber" Protection = "Free" Type = "Integer" Uuid = "c3b0a453-e5c9-4625-b761-043fc20aa337"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MainSecondaryRegulationTapNumber" Protection = "Free" Type = "Integer" Uuid = "a968c489-b4ce-43de-b70e-658221bd8eda"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PowerTransformerCommon_SerialNumber" Protection = "Free" Type = "String" Uuid = "79dd9995-6997-40b5-89ed-d79c8da613f4"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_TapStep" Protection = "Free" Type = "Double" Uuid = "a3cbad21-a423-4794-ac11-b1825baf4cf8"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_SecondRegulationTapStep" Protection = "Free" Type = "Double" Uuid = "15fa4334-b6cf-4cd6-bfc9-a47c0c76fdb1"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_PrimarySecondaryCopperLosses" Protection = "Free" Type = "Double" Uuid = "34b77d90-2da4-4a32-8360-9411e97fc58b"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_PrimaryTertiaryCopperLosses" Protection = "Free" Type = "Double" Uuid = "9bb96734-412d-4c69-af8c-d93a48a223cf"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_SecondaryTertiaryCopperLosses" Protection = "Free" Type = "Double" Uuid = "30c076f8-e145-47c2-b524-c383a4bbc2c4"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_IronLosses" Protection = "Free" Type = "Double" Uuid = "a0eda7e7-105b-4517-ae2d-93959f78e4ec"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_AuxiliaryServicesLosses" Protection = "Free" Type = "Double" Uuid = "13fb4ff9-681c-4efb-a3c9-b17219e5421f"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_PowerTransformerCommon_TotalLosses" Protection = "Free" Type = "Double" Uuid = "d2bbd9f0-5f06-4ef9-ba0c-38ad2a68d48e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MultiPurpose" Protection = "Free" Type = "Boolean" Uuid = "62131a7e-8287-49c7-af84-32751a0908ab"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AutomaticRegulation" Protection = "Free" Type = "Boolean" Uuid = "d96150e4-71b2-4747-951b-28d1b32e8c41"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_SecondRegulationAutomaticRegulation" Protection = "Free" Type = "Boolean" Uuid = "fba4224c-0200-4ef8-bd57-5d0a49d7b174"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PowerTransformerCommon_HighestVoltageOutputPosition" Protection = "Free" Type = "String" Uuid = "916264da-4070-4b35-96a8-7c5fc050315e"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PowerTransformerCommon_LowestVoltageOutputPosition" Protection = "Free" Type = "String" Uuid = "e7b721c8-c593-4281-b78f-a5fa761799fc"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_PowerTransformerCommon_NominalPower" Protection = "Free" Type = "Double" Uuid = "d3da748b-80ee-459c-902b-848d8ab6bc8d"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_PowerTransformerCommon_PrimaryPower" Protection = "Free" Type = "Double" Uuid = "019fcd06-2f67-4dac-817a-885006c048d0"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_PowerTransformerCommon_SecondaryPower" Protection = "Free" Type = "Double" Uuid = "a1c4ca04-4688-4a7e-8431-106c57798e71"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_PowerTransformerCommon_TertiaryPower" Protection = "Free" Type = "Double" Uuid = "ad86034f-abb0-48db-a883-341d39360fd6"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_Regulation" Protection = "Free" Type = "Boolean" Uuid = "42be7f4c-e055-431a-a6cb-42466c2dd083"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_AdjustedTertiaryVoltage" Protection = "Free" Type = "Double" Uuid = "e72f46b0-476e-4522-b3ed-1caf5e38ae34"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_HighVoltage" Protection = "Free" Type = "Double" Uuid = "868d4b4a-8851-40fe-ba87-4e8a84f614be"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_LowVoltage" Protection = "Free" Type = "Double" Uuid = "5c783715-8cbb-4835-84bc-9a1bf5aba36c"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_HighConnectionVoltage" Protection = "Free" Type = "Double" Uuid = "2e1a5631-fcc4-415d-bd76-4559e2a40c0d"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_LowConnectionVoltage" Protection = "Free" Type = "Double" Uuid = "6e6815d6-4b1f-4f50-801a-399ebd060cb2"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumPrimarySecondaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "17ac6069-2d87-464f-9ce7-ddbc2491db1b"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumPrimarySecondaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "c5ec7778-d12a-4396-b25a-67de67f9bb49"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AveragePrimarySecondaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "b436eec3-3fdb-46c5-bad6-686b76b3377a"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AveragePrimaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "abe60255-706b-45bb-a660-ffb126d2a2e0"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumPrimaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "9d056599-9887-49a6-8081-8e04e606dc6c"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumPrimaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "ec149b78-78ca-49c4-bc4f-2b3fc0078a62"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MinimumSecondaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "158c7939-edb8-4e8f-a951-cf402b7a7586"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "204748c6-b196-48a3-a214-8fd87ae1c5e0"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_AverageSecondaryTertiaryShortCircuitVoltage" Protection = "Free" Type = "Double" Uuid = "af3be438-f9d3-4dab-b552-6dbd5bcefa9f"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_PowerTransformerCommon_AvailableTertiaryVoltages" Protection = "Free" Type = "Double" Uuid = "ddf9bc48-8a78-4b6c-8f7a-d8544cd13e34"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_PowerTransformerCommon_DesignType" Protection = "Free" Type = "String" Uuid = "d933679a-45a3-4dc7-9749-ee1aa0749157">
+      <Range>
+        <Equal>CORETYPE</Equal>
+        <Equal>SHELLTYPE</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PowerTransformerCommon_Mobile" Protection = "Free" Type = "Boolean" Uuid = "8ddd8eb3-016d-40ce-8f27-1f4af993d4a3"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PylonAccessoriesCommon" ScopeNames = "EPSPylonDevice" Uuid = "bca55786-caac-47ee-b49f-e3c37371e84b" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PylonAccessoriesCommon_Quantity" Protection = "Free" Type = "Integer" Uuid = "095d3d36-bf7f-4e11-93a6-811c7c575dbe"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_ReactorCommon" ScopeNames = "EPSShuntReactor" Uuid = "a7307e97-1557-4a29-b71a-c2d6ab9bd005" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcPset_DS_ReactorCommon_RefrigerationMachineOil" Protection = "Free" Type = "Double" Uuid = "c33d6f9b-6eef-40dc-856c-ff56236a930b"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ReactorCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "a6a2269b-4d9e-42b2-9369-b55e1defcf3f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ReactorCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "c4863b35-6536-4b1d-99ab-242ddb50a7bf"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_ReactorCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "a0c29827-b5e0-4f57-ba94-491617656512"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_ReactorCommon_CoreType" Protection = "Free" Type = "String" Uuid = "5b9ef5f5-f003-489c-ae42-80bf1eaff520">
+      <Range>
+        <Equal>AERIAL</Equal>
+        <Equal>MAGNETIC</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_ReactorCommon_SerialNumber" Protection = "Free" Type = "String" Uuid = "ead3e6e3-8a95-402f-91e4-ea4512734246"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_ReactorCommon_CopperLosses" Protection = "Free" Type = "Double" Uuid = "5314ad10-20b4-4d05-882f-5bca24af3250"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_ReactorCommon_IronLosses" Protection = "Free" Type = "Double" Uuid = "290aa9a4-e0a0-4eab-8dea-9ea28b0c16ac"/>
+    <Simple CAAExposition = "L0" Magnitude = "POWER" Name = "IfcPset_DS_ReactorCommon_TotalLosses" Protection = "Free" Type = "Double" Uuid = "b8f4b420-1b41-413c-af76-d2f1a51a7fb5"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_ReactorCommon_NominalPower" Protection = "Free" Type = "Double" Uuid = "c1ce1b51-57b3-4542-8a93-daed5706e9fc"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_ReactorCommon_RatedVoltage" Protection = "Free" Type = "Double" Uuid = "3624ab16-3060-4caa-9859-6a5b49f4b239"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_ReactorCommon_DesignType" Protection = "Free" Type = "String" Uuid = "7ed255d0-8c79-4415-ac34-d4ea6f8ea369">
+      <Range>
+        <Equal>CORETYPE</Equal>
+        <Equal>SHELLTYPE</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_ReactorCommon_ConnectionType" Protection = "Free" Type = "String" Uuid = "67b69a0a-b7ef-45fa-8c79-da26b35be875">
+      <Range>
+        <Equal>HCONNECTION</Equal>
+        <Equal>STARCONNECTION</Equal>
+        <Equal>DELTACONNECTION</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_ShieldConnectionBoxCommon" ScopeNames = "EPSShieldBox" Uuid = "931dda69-752a-4763-9ef3-cec9f88ecfc4" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_ShieldConnectionBoxCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "7e98014b-63b4-4bad-ad81-b790d005f405"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SpliceCommon" ScopeNames = "EPSSplice" Uuid = "697f22eb-80f5-4489-92db-828cf5b40f4c" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SpliceCommon_ExpansionTank" Protection = "Free" Type = "Boolean" Uuid = "8f23ef65-10f1-4071-a5f4-9c90f4a4ab6f"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SubstationInternalMvConnectionCommon" ScopeNames = "EPSSubstationConnection" Uuid = "e68a7f5f-f1d0-45bc-84d3-a7292d2429d3" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceDistance" Protection = "Free" Type = "Double" Uuid = "97ac2402-4715-4157-8e52-7f4f5c88f2ea"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SubstationInternalMvConnectionCommon_ConductorsPerPhase" Protection = "Free" Type = "Integer" Uuid = "920d36c0-2efa-4b5b-bd4c-ae97b365445f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceCount" Protection = "Free" Type = "Integer" Uuid = "bd80b222-a0fb-4695-b703-19cb85ab31db"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SurgeArresterCommon" ScopeNames = "EPSSurgeArrester" Uuid = "198206e6-b63a-4ab4-a14e-b9b5506a19fb" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_SurgeArresterCommon_SerialNumber" Protection = "Free" Type = "String" Uuid = "a69018f0-3a7a-453c-b17a-78b95f3ec3d2"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SuspensionInsulatorCommon" ScopeNames = "EPSStringInsulator" Uuid = "71cd2374-b1cd-4e70-8bde-02e9fe4735c3" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_SuspensionInsulatorCommon_SubtypeDescription" Protection = "Free" Type = "String" Uuid = "c64e61a3-3c20-4981-8bf2-325509fa58ae"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SuspensionInsulatorCommon_InsulatorsPerBranch" Protection = "Free" Type = "Integer" Uuid = "ee8f23e2-1ba2-4a55-8a3a-a4a9d0a96c35"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SuspensionInsulatorCommon_BranchesNumber" Protection = "Free" Type = "Integer" Uuid = "f65a1a08-4648-45a7-a26e-6b9949f850c7"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_WaterPump" ScopeNames = "VPMReference" Uuid = "783bcb83-6abb-4bd6-820a-c07d5726d208" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_WaterPump_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "447343f5-367b-4390-beb4-a52539eb3f7e"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_WaterPump_SerialNumber" Protection = "Free" Type = "String" Uuid = "fa17f26e-77ec-4fdb-82c7-2ca144d2f460"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_DS_EarthingCableBaseQuantities" ScopeNames = "EPSCable" Uuid = "896cf0a7-3a99-43f0-a2cf-101a74d7aba4" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcIfcQto_DS_EarthingCableBaseQuantities_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "896cf0a7-3a99-43f0-a2cf-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_DS_EarthingCableBaseQuantities_Length" Protection = "Free" Type = "Double" Uuid = "df48f163-f09c-4fa0-a571-cc1752f918c1"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_DS_MediumVoltageExternalFeedBaseQuantities" ScopeNames = "EPSMVSupply" Uuid = "c8b1907d-ccad-46b7-85f3-1a0adbee90e3" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcIfcQto_DS_MediumVoltageExternalFeedBaseQuantities_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "c8b1907d-ccad-46b7-85f3-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_DS_MediumVoltageExternalFeedBaseQuantities_CalculatedProjectLength" Protection = "Free" Type = "Double" Uuid = "f9f456a1-d069-43a8-a628-8171bbf275a2"/>
+  </Extension>
+</Package>

@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="SQL Server 연결 파라미터";
+MSSQL_ConnectUser.Label1="SQL Server 연결 사용자 이름:";
+MSSQL_ConnectUser.Resume="SQL Server 연결 사용자 이름: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="SQL Server 연결 사용자 암호";
+MSSQL_ConnectPwd.Label1="SQL Server 연결 사용자 암호:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="SQL Server 데이터베이스 이름";
+MSSQL_Instance.Label1="SQL Server 데이터베이스 이름:";
+MSSQL_Instance.Resume="SQL Server 데이터베이스 이름: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="SQL Server 데이터베이스 서버";
+MSSQL_Server.Label1="SQL Server 서버 이름:";
+MSSQL_Server.Resume="SQL Server 서버 이름: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="데이터베이스 연결 오류";
+ConnectionTestFailed.Text="연결을 시도하는 동안 다음 오류가 보고되었습니다.\n\n/P1\n'SQL Server 사양 관리자'에서 다음을 확인하십시오.\n- '공유 메모리'와 'TCP/IP' 프로토콜이 활성화되어 있습니다.\n- 'SQL Server'와 'SQL Server Browser' 서비스가 실행되고 있습니다.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="새 데이터베이스 생성";
+CreateNewMSSQL_DB.Label1="확인란을 선택하여 새 데이터베이스를 생성합니다(SQL Server는 로컬에 설치해야 함).";
+CreateNewMSSQL_DB.CheckButton="새 SQL Server 데이터베이스 생성";
+CreateNewMSSQL_DB.Resume.true="새 SQL Server 데이터베이스 생성: 예";
+CreateNewMSSQL_DB.Resume.false="새 SQL Server 데이터베이스 생성: 아니요";
+
+CreateNewMSSQL_DB_Error.Title="새 데이터베이스 생성 오류";
+CreateNewMSSQL_DB_Error.Text="'sqlcmd' 명령을 사용하는 동안 다음 오류가 보고되었습니다.\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="새 데이터베이스 생성 성공";
+CreateNewMSSQL_DB_Success.Text="새 SQL Server 데이터베이스가 생성되었습니다.";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="MSSQL 데이터 디렉터리 선택";
+PathMSSQLFiles.Label1="새 데이터베이스 파일을 저장하는 데 사용되는 디렉터리(새 데이터베이스만 해당):";
+PathMSSQLFiles.Resume="MSSQL 파일 위치: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="기본 및 관리 데이터 파일 그룹";
+MSSQL_Default_Data_FG.Label1="기본 및 관리 데이터 파일 그룹(비어 있는 경우 무시됨)";
+MSSQL_Default_Data_FG.Resume="기본 및 관리 데이터 파일 그룹: /P1";
+
+MSSQL_Default_Index_FG.Title="기본 및 관리 인덱스 파일 그룹";
+MSSQL_Default_Index_FG.Label1="기본 및 관리 인덱스 파일 그룹(비어 있는 경우 무시됨)";
+MSSQL_Default_Index_FG.Resume="기본 및 관리 인덱스 파일 그룹: /P1";

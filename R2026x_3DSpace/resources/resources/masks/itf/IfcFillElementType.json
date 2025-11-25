@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcFillElementType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFillElementType_ElementType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFillElementType_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

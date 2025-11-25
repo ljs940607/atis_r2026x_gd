@@ -1,0 +1,8 @@
+{
+	"owner" : "NOH",
+	"description" : "ToDo",
+    "service": "3danalytics",
+    "urls": {
+		"fetch" : "/api/resources/dataperspective/v1/i3dx/fetch"
+	}
+}

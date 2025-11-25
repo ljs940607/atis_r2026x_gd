@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAntenna_AntennaGain",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAntenna_PolarizationMode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAntenna_RadiationPattern",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAntenna_AntennaType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

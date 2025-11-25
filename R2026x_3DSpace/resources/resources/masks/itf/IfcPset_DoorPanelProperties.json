@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DoorPanelProperties_PanelDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorPanelProperties_PanelOperation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorPanelProperties_PanelWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorPanelProperties_PanelPosition",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

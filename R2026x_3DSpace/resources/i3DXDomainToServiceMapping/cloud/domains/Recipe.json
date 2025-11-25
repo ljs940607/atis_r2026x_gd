@@ -1,0 +1,8 @@
+{
+	"owner" : "KW3",
+	"description" : "ToDo",
+    "service": "bioexperiment",
+    "urls": {
+		"fetch" : "/resources/Recipe/v1/i3dx/fetch"
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_WindowPanelProperties_OperationType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowPanelProperties_PanelPosition",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowPanelProperties_FrameDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowPanelProperties_FrameThickness",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

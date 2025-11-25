@@ -1,0 +1,148 @@
+{
+  "dsmveehw:attribute.reference.partNumber": {
+    "property": "computed",
+    "key": "PartNumber",
+    "label": "dseehw.Label.Attribute.PartNumber",
+    "example": "1.2.4",
+    "description": "PART Number"
+  },
+  "dsmveehw:attribute.reference.ecu.wakeUpOverBusSupported": {
+    "property": "attribute[EEECU.wakeUpOverBusSupported]",
+    "key": "WakeUpOverBus",
+    "label": "dseehw.Label.Attribute.wakeUpOverBus",
+    "format":"boolean",
+    "example": true,
+    "description": "Sets if the WakeUp Over Bus is supported"
+  },
+  "dsmveehw:attribute.reference.rack.nbOfColumns": {
+    "property": "attribute[EERack.nbOfColumns]",
+    "key": "NumberOfColumns",
+    "label": "dseehw.Label.Attribute.Rack.nbOfCols",
+    "example": 4,
+    "format":"integer",
+    "description": "The number of columns in a EERack"
+  },
+  "dsmveehw:attribute.reference.rack.nbOfRows": {
+    "property": "attribute[EERack.nbOfRows]",
+    "key": "NumberOfRows",
+    "label": "dseehw.Label.Attribute.Rack.nbOfRows",
+    "example": 4,
+    "format":"integer",
+    "description": "The number of rows in a EERack"
+  },
+  "dsmveehw:attribute.reference.rack.nbOfSlotsPerUnit": {
+    "property": "attribute[EERack.nbOfSlotsPerUnit]",
+    "key": "SlotsPerUnit",
+    "label": "dseehw.Label.Attribute.Rack.slotsPerUnit",
+    "example": 4,
+    "format":"integer",
+    "description": "The number of slots per unit in a EERack"
+  },
+  "dsmveehw:attribute.instance.eeecus.comConfigurationGwTimeBase": {
+    "property": "computed",
+    "key": "comConfigurationGwTimeBase",
+    "label": "dseehw.Label.Attribute.EEECUInstance.comConfigurationGwTimeBase",
+    "example": 0.005,
+    "format":"double",
+    "description": "The period between successive calls to Frame forwarding task. Unit: seconds"
+  },
+  "dsmveehw:attribute.instance.eeecus.comConfigurationRxTimeBase": {
+    "property": "computed",
+    "key": "comConfigurationRxTimeBase",
+    "label": "dseehw.Label.Attribute.EEECUInstance.comConfigurationRxTimeBase",
+    "example": 0.005,
+    "format":"double",
+    "description": "The period between successive calls to Frame receiving task. Unit: seconds"
+  },
+  "dsmveehw:attribute.instance.eeecus.comConfigurationTxTimeBase": {
+    "property": "computed",
+    "key": "comConfigurationTxTimeBase",
+    "label": "dseehw.Label.Attribute.EEECUInstance.comConfigurationTxTimeBase",
+    "example": 0.005,
+    "format":"double",
+    "description": "The period between successive calls to Frame sending task. Unit: seconds"
+  },
+  
+   "dsmveehw:attribute.properties.row": {
+    "property": "attribute[EERackPosition.row]",
+    "key": "row",
+    "label": "dseehw.Label.Attribute.Rack.row.position",
+    "example": 1,
+    "format":"integer",
+    "description": "Row"
+  },
+  
+   "dsmveehw:attribute.properties.column": {
+    "property": "attribute[EERackPosition.column]",
+    "key": "column",
+    "label": "dseehw.Label.Attribute.Rack.column.position",
+    "example": 2,
+    "format":"integer",
+    "description": "Column"
+  },
+   "dsmveehw:attribute.properties.slot": {
+    "property": "attribute[EERackPosition.slot]",
+    "key": "slot",
+    "label": "dseehw.Label.Attribute.Rack.slot",
+    "example": 1,
+    "format":"integer",
+    "description": "Slot"
+  },  
+  "dsmveehw:attribute.itf.technology":{
+    "property":"computed",
+    "key":"technology",
+    "label":"dseehw.Label.Attribute.Interface.technology",
+    "example":"CAN J1939",
+    "format":"string",
+    "description":"the type of link technology: "
+  },
+  "dsmveehw:attribute.itf.subTechnology":{
+    "property":"computed",
+    "key":"subTechnology",
+    "label":"dseehw.Label.Attribute.Interface.subTechnology",
+    "example":"CANJ1939",
+    "format":"string",
+    "description":"A sub type of link technology "
+  },
+  "dsmveehw:attribute.port.direction": {
+		"property": "attribute[RFLVPMSystemTypeExpositionInstance.V_Direction]",
+		"key": "direction",
+		"format":"integer",
+		"description": "1 for In or 2 for Out, 3 for InOut, 4 for NoDirection, default value is 2",
+		"example": "1"
+	},
+  "dsmveehw:attribute.port.flexRayLatestTx":{
+    "property":"attribute[EECommunicationConnector.flexRayLatestTx]",
+    "key":"flexRayLatestTx",
+    "label":"dseehw.Label.Attribute.Port.flexRayLatestTx",
+    "example":0,
+    "format":"integer",
+    "description":"Number of the last minislot in which a frame transmission can start in the dynamic segment(Specific to FLEX RAY technology) "
+  },
+  "dsmveehw:attribute.port.isLinMasterController":{
+    "property":"attribute[EECommunicationConnector.isLinMasterController]",
+    "key":"isLinMasterController",
+    "label":"dseehw.Label.Attribute.Port.isLinMasterController",
+    "example":true,
+    "format":"boolean",
+    "description":"Boolean to set the LIN Controller to Master or Slave ( Specific to LIN )"
+
+  },
+  "dsmveehw:attribute.port.linProtocolVersion":{
+    "property":"attribute[EECommunicationConnector.linProtocolVersion]",
+    "key":"linProtocolVersion",
+    "label":"dseehw.Label.Attribute.Port.linProtocolVersion",
+    "example":"1.3",
+    "format":"string",
+    "description":"the protocol version of the LIN controller (Specific to LIN )"
+
+  },
+  "dsmveehw:attribute.port.timeBase":{
+    "property":"attribute[EECommunicationConnector.timeBase]",
+    "key":"timeBase",
+    "label":"dseehw.Label.Attribute.Port.timeBase",
+    "example":5.0,
+    "format":"double",
+    "description":"a LIN cluster time unit, in milliseconds (Specific to LIN )"
+  }
+}

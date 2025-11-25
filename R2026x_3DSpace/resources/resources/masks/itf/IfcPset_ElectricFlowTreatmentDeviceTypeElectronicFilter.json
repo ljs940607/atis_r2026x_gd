@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_NominalPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_ElectronicFilterType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_NominalCurrent",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_PrimaryFrequency",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_SecondaryFrequency",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowTreatmentDeviceTypeElectronicFilter_RatedVoltage",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

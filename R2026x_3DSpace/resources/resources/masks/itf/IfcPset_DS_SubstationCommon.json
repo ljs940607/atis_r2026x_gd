@@ -1,0 +1,45 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_SubstationCommon_Corrosivity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_ExternalEnvironmentalRisk",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_InternalEnvironmentalRisk",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_FloodRisk",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_EnvironmentalSensitivity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_HazardousArea",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_AquiferVulnerability",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SubstationCommon_LightProtectionZone",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

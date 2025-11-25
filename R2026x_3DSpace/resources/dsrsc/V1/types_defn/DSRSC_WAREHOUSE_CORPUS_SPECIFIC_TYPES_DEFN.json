@@ -1,0 +1,70 @@
+{
+	"dsrsc:Warehouse":{
+		"create":{
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1		
+		}
+	},
+	"dsrsc:WarehouseLocation":{
+		"create":{
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1		
+		}
+	},
+	"dsrsc:WarehouseInstance":{
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create":{
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey":"instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]	
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		}
+	},
+	"dsrsc:WarehouseLocationInstance":{
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create":{
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey":"instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]	
+		},
+		"delete": {
+			"deleteMaxLimit": 1
+		}
+	}
+}

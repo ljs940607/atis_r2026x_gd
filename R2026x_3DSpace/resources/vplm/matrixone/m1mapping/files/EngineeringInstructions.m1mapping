@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="EngineeringInstructions" />
+    <m1.package name="EngineeringInstructions" />
+
+    <!-- UniqueKey -->
+    <pattern.VPLM_UNIQUEKEY>
+      <vplm.UniqueKey name="Instruction_UK" />
+      <m1.uniquekey name="Instruction_UK" />
+    </pattern.VPLM_UNIQUEKEY>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMConnection name="CATInstruction" />
+      <m1.type name="CATInstruction" mxtnr_submitted="no" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_3DInstructionLabels" />
+        <m1.attribute name="CATInstruction.V_3DInstructionLabels" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Entries" />
+        <m1.attribute name="CATInstruction.V_Entries" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IgnoreForDownstreamUsage" />
+        <m1.attribute name="CATInstruction.V_IgnoreForDownstreamUsage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TargetScopeMode" />
+        <m1.attribute name="CATInstruction.V_TargetScopeMode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Text" />
+        <m1.attribute name="CATInstruction.V_Text" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_UUID" />
+        <m1.attribute name="CATInstruction.V_UUID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="CATInstructionTemplate" />
+      <m1.type name="CATInstructionTemplate" />
+
+      <!-- Basic Concat -->
+      <pattern.VPLM_BASIC_CONCAT>
+        <vplm.Simple name="PLM_ExternalID" />
+        <m1.basic name="name" />
+      </pattern.VPLM_BASIC_CONCAT>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Entries" />
+        <m1.attribute name="CATInstructionTemplate.V_Entries" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ForceUpperCase" />
+        <m1.attribute name="CATInstructionTemplate.V_ForceUpperCase" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Text" />
+        <m1.attribute name="CATInstructionTemplate.V_Text" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="CATCustomInstructionTemplate" />
+      <m1.type name="CATCustomInstructionTemplate" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

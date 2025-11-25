@@ -1,0 +1,95 @@
+{
+	"dsmfg:workElementQuantity": {
+        "property": "computed",
+        "key": "workElementQuantity",
+        "fetchOnce": true,
+        "description": "Defines Area or Length Quantity on respective WorkElement objects",
+        "example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.quantityResponse"
+	},
+	"dsmfg:hazard": {
+        "property": "attribute[DELFmiInputForUnitTimeComputationAbstract.V_Hazard]",
+        "key": "hazard",
+        "example": "1.3",
+        "description": "Defines Hazard Ratio. Applicable only on Construction WorkPackage objects",
+        "index": "bo.DELFmiInputForUnitTimeComputationAbstract.V_Hazard",
+        "format": "s_double"
+    },
+    "dsmfg:timePerDay": {
+        "property": "attribute[DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay]",
+        "key": "timePerDay",
+        "example": "1.3",
+        "description": "Defines Time per Day. Applicable only on Construction WorkPackage objects",
+        "index": "bo.DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay",
+        "format": "s_double"
+    },
+	"dsmfg:workerNumber": {
+        "property": "attribute[DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber]",
+        "key": "workerNumber",
+        "example": "1.3",
+        "description": "Defines Time per Day. Applicable only on Construction WorkPackage objects",
+        "index": "bo.DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay",
+        "format": "s_double"
+    },
+    "dsmfg:manualUnitTime": {
+        "property": "attribute[DELFmiManualUnitTime.V_UnitTime]",
+        "key": "manualUnitTime",
+        "example": "27895.66",
+        "description": "Defines Manual Unit Time. Applicable only on Construction WorkPackage objects",
+        "index": "bo.DELFmiManualUnitTime.V_UnitTime",
+        "format": "s_double"
+    },
+    "dsmfg:quantityPerDay": {
+       "property": "computed",
+        "key": "quantityPerDay",
+        "fetchOnce": true,
+        "description": "Defines Quantity per Day. Applicable only on Construction WorkPackage objects",
+        "example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.quantityResponse"
+    },
+    "dsmfg:sharedDatesInformation": {
+        "property": "computed",
+        "key": "sharedDatesInformation",
+        "fetchOnce": true,
+        "description": "Defines Shared Dates Information. Defines the objective dates and maturity state of a Construction object.",
+        "example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.quantityResponse"
+    },
+    "dsmfg:ConstructionStructureEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionStructureEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkElementEachEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkElementEachEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkElementAreaEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkElementAreaEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkElementLengthEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkElementLengthEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkPackageEachEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkPackageEachEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkPackageAreaEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkPackageAreaEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkPackageGroupEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkPackageGroupEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsmfg:ConstructionWorkPackageLengthEnterpriseAttributes": {
+		"property": "computed",
+        "key": "dsmfg:ConstructionWorkPackageLengthEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsmfg.implementations.dsmfgOpenAPIImpl.getEnterpriseAttributesDetails"
+	}
+}

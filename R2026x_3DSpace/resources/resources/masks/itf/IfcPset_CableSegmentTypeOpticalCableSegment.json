@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_NumberOfFibers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_OpticalCableStructure",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_NumberOfMultiModeFibers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_NumberOfSingleModeFibers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_NumberOfTubes",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeOpticalCableSegment_FiberMode",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

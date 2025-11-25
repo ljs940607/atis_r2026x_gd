@@ -1,0 +1,42 @@
+{
+    "Write": {"attributes": [
+        {"name": "type"},
+        {"name": "Title"},
+        {"name": "name"},
+		{"name": "revision"},
+		{"name": "V_versionComment"},
+        {"name": "description"},
+        {"name": "originated"},
+        {"name": "modified"},
+		{"name": "owner"},
+        {"name": "organization"},
+        {"name": "project"},
+        {"name": "current"}
+    ]},
+    "Create": {"attributes": [
+        {
+            "name": "Title",
+            "status": "RW"
+        },
+        {
+            "name": "name",
+            "status": "RO"
+        },
+        {
+            "name": "description",
+            "status": "RW"
+        },
+        {
+            "name": "policy",
+            "status": "RO"
+        }
+    ]},
+    "details": {"attributes": {
+        "owner": {"mandatory": true},
+        "V_Name": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"},
+        "PLM_ExternalID": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"},
+        "name": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"},
+        "Title": {"mandatory": true}
+    }},
+    "revision": "0"
+}

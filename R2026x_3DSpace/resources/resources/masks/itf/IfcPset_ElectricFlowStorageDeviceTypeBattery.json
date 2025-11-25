@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_CurrentRegulationRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_NominalSupplyCurrent",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_VoltageRegulationRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_AssemblyInstruction",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_BatteryChargingType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_EncapsulationTechnologyCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeBattery_OpenCircuitVoltage",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

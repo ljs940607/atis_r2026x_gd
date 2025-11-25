@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parámetros de conexión de SQL Server";
+MSSQL_ConnectUser.Label1="Nombre de usuario de conexión de SQL Server:";
+MSSQL_ConnectUser.Resume="Nombre de usuario de conexión de SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Contraseña de usuario de conexión de SQL Server";
+MSSQL_ConnectPwd.Label1="Contraseña de usuario de conexión de SQL Server:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Nombre de la base de datos de SQL Server";
+MSSQL_Instance.Label1="Nombre de la base de datos de SQL Server:";
+MSSQL_Instance.Resume="Nombre de la base de datos de SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Servidor de la base de datos de SQL Server";
+MSSQL_Server.Label1="Nombre de servidor SQL Server:";
+MSSQL_Server.Resume="Nombre de servidor SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Error de conexión a la base de datos";
+ConnectionTestFailed.Text="Se ha notificado el siguiente error al intentar realizar la conexión:\n\n/P1\nCompruebe con el \"Administrador de configuración de SQL Server\" que:\n-los protocolos de \"Memoria compartida\" y \"TCP/IP\" estén activados\n-los servicios \"SQL Server\" y \"SQL Server Browser\" se estén ejecutando.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Creación de nueva base de datos";
+CreateNewMSSQL_DB.Label1="Seleccione la casilla de verificación para crear una nueva base de datos (SQL Server debe estar instalado localmente):";
+CreateNewMSSQL_DB.CheckButton="Crear una nueva base de datos de SQL Server";
+CreateNewMSSQL_DB.Resume.true="Crear una nueva base de datos de SQL Server: Sí";
+CreateNewMSSQL_DB.Resume.false="Crear una nueva base de datos de SQL Server: No";
+
+CreateNewMSSQL_DB_Error.Title="Error de creación de nueva base de datos";
+CreateNewMSSQL_DB_Error.Text="Se ha notificado el siguiente error al utilizar el comando \"sqlcmd\":\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="La nueva base de datos se ha creado correctamente";
+CreateNewMSSQL_DB_Success.Text="La nueva base de datos de SQL Server se ha creado correctamente";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Selección de directorio de datos MSSQL";
+PathMSSQLFiles.Label1="Directorio usado para almacenar archivos de la nueva base de datos (solo nueva base de datos):";
+PathMSSQLFiles.Resume="Ubicación de los archivos MSSQL: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Grupo de archivos de datos de administración y predeterminados";
+MSSQL_Default_Data_FG.Label1="Grupo de archivos de datos de administración y predeterminados (se ignora si está en blanco)";
+MSSQL_Default_Data_FG.Resume="Grupo de archivos de datos de administración y predeterminados: /P1";
+
+MSSQL_Default_Index_FG.Title="Grupo de archivos de índices de administración y predeterminados";
+MSSQL_Default_Index_FG.Label1="Grupo de archivos de índices de administración y predeterminados (se ignora si está en blanco)";
+MSSQL_Default_Index_FG.Resume="Grupo de archivos de índices de administración y predeterminados: /P1";

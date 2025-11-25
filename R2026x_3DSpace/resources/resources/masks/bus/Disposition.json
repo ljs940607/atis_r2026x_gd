@@ -1,0 +1,61 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "current"
+			}
+		]
+	},
+	"Create": {
+		"attributes": [			
+			{
+				"name": "name",
+				"status": "RO"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "policy",
+				"status": "RO"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			}
+		}
+	}
+}
+

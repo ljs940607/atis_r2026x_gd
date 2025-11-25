@@ -1,0 +1,10 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "3DSpacePlatformAdmin",
+    "description": "Admin resources mainly used for internal purposes",
+    "packages": [
+        "PlatformAdmin",
+        "OntologyModeler",
+        "Otb3DSpaceContentConfiguration"
+    ]
+}

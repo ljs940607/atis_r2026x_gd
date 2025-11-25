@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElementSize_NominalLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElementSize_NominalWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElementSize_NominalHeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

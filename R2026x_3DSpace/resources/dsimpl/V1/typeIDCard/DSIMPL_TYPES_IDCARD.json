@@ -1,0 +1,22 @@
+{
+	"dsimpl:ImplLink": {
+		"isPublic": false,
+		"kindOf": "root",
+		"beType": "type_RFLPLMImplementConnection",
+		"rootLinks": [],
+		"contentLinks": [],
+		"extensionLinks": [],
+		"changeSupport": true,
+		"customizationSupport": true,
+		"cestamp": true,
+		"patchCSRF": true,
+        "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsimpl.V%1.dictionaries.dsimplImplLinkAttributeDictionary",
+		"publicResourceURI": "/resources/v1/modeler/dsimpl/dsimpl:ImplLink/{pid}",
+		"defaultMask":"dsmvimpl:ImplLink.Base",
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": false
+		}
+	}
+}

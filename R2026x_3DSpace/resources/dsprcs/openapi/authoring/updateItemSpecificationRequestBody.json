@@ -1,0 +1,15 @@
+{
+	"required": [
+		"cestamp"
+	],
+	"properties": {
+		"usage": {
+			"type": "string",
+			"example": "ADD/REMOVE"
+		},
+		"cestamp": {
+			"type": "string",
+			"example": "Object cestamp value"
+		}
+	}
+}

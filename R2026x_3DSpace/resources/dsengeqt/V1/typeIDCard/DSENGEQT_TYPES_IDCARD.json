@@ -1,0 +1,102 @@
+{
+  "dsengeqt:Equipment": {
+    "kindOf": "root",
+    "beType": "type_VPMReference",
+    "classesWhere":"(type== VPMReference && attribute[PLMEntity.V_discipline] == SharedEquipmentPart)",
+    "indexClassesWhere":"flattenedtaxonomies:interfaces/SharedEquipmentPart",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": ["dseng:EngInstance", "dsengpip:PartInst", "dsenghvac:PartInst", "dsengeqt:EquipmentInst", "dsengelec:DeviceInst"],
+    "defaultMask": "dsmvengeqt:EquipmentMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengeqt.V1.dictionaries.ENOXdsengeqtDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dsengeqt/dsengeqt:Equipment/{pid}"
+  },
+
+  "dsengeqt:EquipmentInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == SharedEquipmentPart)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dseng:EngItem", "dsengeqt:MountingEquipment" ],
+    "defaultMask": "dsmvengeqt:EquipmentInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengeqt.V1.dictionaries.ENOXdsengeqtInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsengeqt:MountingEquipment": {
+    "kindOf": "root",
+    "beType": "type_VPMReference",
+    "classesWhere":"(type== VPMReference && attribute[PLMEntity.V_discipline] == MountingEquipment)",
+    "indexClassesWhere":"flattenedtaxonomies:interfaces/MountingEquipment",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": ["dseng:EngInstance", "dsengeqt:EquipmentInst", "dsengeqt:MountingEquipmentInst"],
+    "defaultMask": "dsmvengeqt:MountingEquipmentMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengeqt.V1.dictionaries.ENOXdsengeqtDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dsengeqt/dsengeqt:MountingEquipment/{pid}"
+  },
+
+  "dsengeqt:MountingEquipmentInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+  "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == MountingEquipment)",
+    "extensionLinks": [ "dscfg:Filterable" ],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dseng:EngItem", "dsengeqt:MountingEquipment" ],
+    "defaultMask": "dsmvengeqt:MountingEquipmentInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengeqt.V1.dictionaries.ENOXdsengeqtInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

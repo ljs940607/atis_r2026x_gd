@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_TractionPowerSystem_PowerSupplyMode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TractionPowerSystem_ElectrificationType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TractionPowerSystem_RatedFrequency",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TractionPowerSystem_NominalVoltage",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

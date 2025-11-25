@@ -1,0 +1,41 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_JettyDesignCriteria_HighWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_LowWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_ExtremeHighWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_ExtremeLowWaterLevel",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_ShipLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_WaveLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_FlowLoading",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_UniformlyDistributedLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyDesignCriteria_EquipmentLoading",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

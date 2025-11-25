@@ -1,0 +1,17 @@
+{
+	"dsprcs:MfgChangeoverOperation.changeoverRules": {
+        "property": "attribute[DELLmiChangeOverOperationReference.V_ChangeOverRules]",
+        "key": "changeoverRules",
+        "example": "Changeover Rule",
+        "description": "Changeover Rule",
+        "index": "bo.DELLmiChangeOverOperationReference.V_ChangeOverRules"
+	},
+	"dsprcs:ApplicableResource.resource": {
+        "property": "computed",
+        "key": "resource",
+        "example": "resource ID",
+        "fetchOnce": true,
+        "description": "Get Applicable resource liked to changeover operation through  Changeover operation link."
+	}
+
+}

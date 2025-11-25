@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2025, All rights reserved -->
+<Package
+    xmlns="PLMDictionaryUnified"
+    Name="XCTAppearance"
+    Uuid="1A419AE1-31D1-41B9-9D5E-68ECCE26ABC1"
+    BelongsToModeler="CATMaterialDisciplines"
+	UseNames="PLMCORE"
+    CustomerExposition="Programmer"
+    ModelerType="Top"
+    Architecture="All"
+	UseProcedures="APC_Procedures">
+  <Class Name="AppearanceRep" Uuid="41CDA036-0819-4187-9F13-8AE0949F1DBF" SuperName="PLMCoreRepReference" CarryStreams="Yes" Discipline="No" Abstract="No" CustomerExposition="Programmer" Specializable="Yes" CustomerExtensible="Yes" Abbreviation="apc" DeleteAvailability="Yes">
+    <Property Name="NewMajorRevisionAvailability" Value="Yes"/>
+    <Property Name="NewMinorRevisionAvailability" Value="No"/>
+    <Property Name="EvolutionAvailability" Value="Yes"/>
+    <Property Name="IterationAvailability" Value="No"/>
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="DuplicateAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnershipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="SaveAsNewAvailability" Value="Yes"/>
+    <Property Name="IconName" Value="XCTAppearanceRepIcon" />
+    <Property Name="3DIconName" Value="XCTAppearanceRep.cgr" />
+    <Property Name="Newable" Value="New_Offline"/>
+    <Property Name="Searchable" Value="Yes"/>
+	<Property Name="KweNew_InstanciationMethod" Value="AppearanceRep_PLMNew"/>
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#Design"/>
+        <UsedProcedure href="APC_Procedures.proc#AppearanceRepExport"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#Channel"/>
+        <UsedProcedure href="APC_Procedures.proc#AppearanceRepExport"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+        <UsedProcedure href="APC_Procedures.proc#AppearanceRepExport"/>
+      </ProcedureForUsage>
+    </Method>
+  </Class>
+</Package>

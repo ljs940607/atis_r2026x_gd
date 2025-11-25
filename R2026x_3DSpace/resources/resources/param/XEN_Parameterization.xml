@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="XEngineer">
+
+    <Domain id="XENManagement">
+        <Family id="PartNumberMapping">
+            <Parameter id="XENManagement" implementation="com.dassault_systemes.content.parameterization.handler.PartNumberXPHandler">
+            </Parameter>
+        </Family>
+    </Domain>
+    <Domain id="ENGDefinationManagement">
+        <Family id="PartNumberAdminConfigurations">
+            <Parameter id="UniquenessCheckRequired" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+            <Parameter id="AllRevisionsPartNumberSameCheckRequired" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+            <Parameter id="AllowBranchedItemsToHaveSamePartNumber" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+            <Parameter id="CopyEINToObjectTitle" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+            <Parameter id="AllowManualInput" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+			<Parameter id="CreatePanelEnforceEIN" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+            <Parameter id="PrefferedEINGenerator" implementation="com.dassault_systemes.content.parameterization.impl.partnumbermanagement.PartNumberIOtbParameterizationImpl">
+                <Argument id="GenerationOfEnterpriseItemNumber" type="string" input="combobox" default="Automatic" maxLength="123">
+                            <Value id = "None"/>
+                            <Value id = "Formula"/>
+                            <Value id = "BusinessLogicScript"/>
+                            <Value id = "ExternalSystem"/>
+                            <Value id = "Automatic"/>
+                </Argument>
+            </Parameter>
+        </Family>
+        <Family id="AlternateSubstituteManagement">
+            <Parameter id="AlternateMgtWorkUnderChange" implementation="com.dassault_systemes.content.parameterization.impl.alternatesubstitutemanagement.AltSubIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+
+            <Parameter id="AlternateForbidParentRevision" implementation="com.dassault_systemes.content.parameterization.impl.alternatesubstitutemanagement.AltSubIOtbParameterizationImpl">
+                <Argument id="Argument" type="string" input="checkbox" default="Disabled"/>
+            </Parameter>
+        </Family>
+    </Domain>
+    <Domain id="AttributeDef">
+        <Family id="Alternate Reference" regSuite="Framework" nlsKey="emxFramework.Type.Alternate_Reference">
+            <Constant id="appType" value="CBP"/>
+            <Constant id="package" value="Interchangeabilty"/>
+            <Constant id="type" value="Alternate Reference"/>
+        </Family>
+    </Domain>
+    <Domain id="LifecycleTopology">
+        <Family id="Alternate_Reference">
+            <Constant id="policyID" value="Alternate Reference"/>
+            <Constant id="modifyTopology" value="false"/>
+            <Constant id="renameStates" value="false"/>
+            <Constant id="appType" value="CBP"/>
+            <Constant id="NLSStateFileName" value="emxFrameworkStringResource.properties"/>
+            <Constant id="lang" value="en,fr,de,es,it,ja,zh"/>
+            <GovernedType id="Alternate_Reference">
+                <Constant id="typeId" value="Alternate Reference"/>
+                <Constant id="supportedRules" value="InconditionalReject,ChangeMaturityUnderCA,RejectOnExperimenter,RejectOnCreator,RejectIfAttributeNotValuated,RejectIfAlternateItemAndPrimaryItemIsNotOnTargetState"/>
+            </GovernedType>
+            <State id="Proposed">
+                <Constant id="sysName" value="Proposed"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.Alternate_Reference.Proposed"/>
+                <Constant id="complementaryNLSKeys" value="current.Proposed"/>
+            </State>
+            <State id="Frozen">
+                <Constant id="sysName" value="Frozen"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.Alternate_Reference.Frozen"/>
+                <Constant id="complementaryNLSKeys" value="current.Frozen"/>
+            </State>
+            <State id="Qualified">
+                <Constant id="sysName" value="Qualified"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.Alternate_Reference.Qualified"/>
+                <Constant id="complementaryNLSKeys" value="current.Qualified"/>
+            </State>
+            <State id="Obsolete">
+                <Constant id="sysName" value="Obsolete"/>
+                <Constant id="isRemovable" value="false"/>
+                <Constant id="NLSKey" value="emxFramework.State.Alternate_Reference.Obsolete"/>
+                <Constant id="complementaryNLSKeys" value="current.Obsolete"/>
+            </State>
+            <Transition id="ProposedtoFrozen">
+                <Constant id="transName" value="Freeze"/>
+                <Constant id="sourceState" value="Proposed"/>
+                <Constant id="targetState" value="Frozen"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="FrozentoQualified">
+                <Constant id="transName" value="Qualify"/>
+                <Constant id="sourceState" value="Frozen"/>
+                <Constant id="targetState" value="Qualified"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+            <Transition id="QualifiedtoObsolete">
+                <Constant id="transName" value="Obsolete"/>
+                <Constant id="sourceState" value="Qualified"/>
+                <Constant id="targetState" value="Obsolete"/>
+                <Constant id="removal" value="false"/>
+            </Transition>
+        </Family>
+    </Domain>
+</OOTBParameterization>
+

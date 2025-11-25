@@ -1,0 +1,9 @@
+{
+	"properties": {
+		"operationPID": {
+			"type": "string",
+			"description": "Reference ID of an operation.",
+			"example": "5697398700006374663CD9D50000F4A6"
+		}
+	}
+}

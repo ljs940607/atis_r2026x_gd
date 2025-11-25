@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "WSSElementIfc" UseNames = "PRODUCTCFG" Uuid = "047B6068-6FA9-88F3-B85F-A7920F261291" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_Pipeline_Bend_DS" ScopeNames = "VPMReference" Uuid = "0a2658eb-e8cb-4b6c-b6cc-8b3fabe2a364">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Bend_DS_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "0a2658eb-e8cb-4b6c-b6cc-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Name = "IfcQto_Pipeline_Bend_DS_Count" Protection = "Free" Type = "Integer" Uuid = "5df02651-5035-439c-be5c-dd1409386533"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcQto_Pipeline_Bend_DS_GrossWeight" Protection = "Free" Type = "Double" Uuid = "d74f4249-6c96-4fd4-bcf9-caf4b134c266"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_Pipeline_Connector_DS" ScopeNames = "VPMReference" Uuid = "beb69c8a-c71a-48d1-b6ca-a2cc2e4c25be">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Connector_DS_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "beb69c8a-c71a-48d1-b6ca-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Name = "IfcQto_Pipeline_Connector_DS_Count" Protection = "Free" Type = "Integer" Uuid = "2406ba7d-64af-4d62-95e7-6ea66eb34e78"/>
+    <Simple CAAExposition = "L0" Name = "IfcQto_Pipeline_Connector_DS_GrossWeight" Protection = "Free" Type = "Double" Uuid = "9786c736-0bec-44bb-8567-074fb2e01aa9"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_Pipeline_DS" ScopeNames = "VPMReference" Uuid = "e15d7c7c-b591-4aef-b706-c3c13504d5ef">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_DS_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "e15d7c7c-b591-4aef-b706-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcQto_Pipeline_DS_GrossLength" Protection = "Free" Type = "Double" Uuid = "de6dd011-11b4-4b65-9ce7-ef91403c67b8"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLUME" Name = "IfcQto_Pipeline_DS_GrossVolume" Protection = "Free" Type = "Double" Uuid = "b88c9965-f02a-4981-bfcf-b49c3caea5fc"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcQto_Pipeline_DS_GrossWeight" Protection = "Free" Type = "Double" Uuid = "1cd3c75a-1c2d-439b-b488-54803b14cd9e"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_Pipeline_Support_DS" ScopeNames = "VPMReference" Uuid = "3229d189-92fe-466b-8734-64f04097181c">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Support_DS_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "3229d189-92fe-466b-8734-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Support_DS_Count" Protection = "Free" Type = "String" Uuid = "6d7781b8-43e7-4925-9e44-4c5647f695cd"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLUME" Name = "IfcQto_Pipeline_Support_DS_NetVolume" Protection = "Free" Type = "Double" Uuid = "ab4ab3df-067f-4ee4-888c-aca391a33ace"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Support_DS_GrossVolume" Protection = "Free" Type = "String" Uuid = "d6891bc1-4272-47c4-b244-91b46fab495b"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcQto_Pipeline_Support_DS_GrossWeight" Protection = "Free" Type = "Double" Uuid = "3b3db586-fae5-4f29-9313-85d8e0d144cf"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_Pipeline_Thrustblock_DS" ScopeNames = "VPMReference" Uuid = "457f496e-589e-40d2-9b91-3077067e14d3">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Thrustblock_DS_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "457f496e-589e-40d2-9b91-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Name = "IfcQto_Pipeline_Thrustblock_DS_Count" Protection = "Free" Type = "Integer" Uuid = "ab1b4e9d-8145-4919-a105-835a84f99186"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLUME" Name = "IfcQto_Pipeline_Thrustblock_DS_NetVolume" Protection = "Free" Type = "Double" Uuid = "3710459a-7d28-4772-aa65-5ee0acdcee1f"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_Pipeline_Thrustblock_DS_GrossVolume" Protection = "Free" Type = "String" Uuid = "09d2cc92-27d9-44a1-823e-e51432bc096c"/>
+  </Extension>
+</Package>

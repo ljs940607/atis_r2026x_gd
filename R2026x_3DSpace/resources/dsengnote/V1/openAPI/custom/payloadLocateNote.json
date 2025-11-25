@@ -1,0 +1,37 @@
+ {
+  "description": "Payload for Engineering Note locate",
+  "type": "object",
+  "properties": {
+    "references": {
+      "description": "References from where Engineering Notes will be retrieved",
+      "type": "array",
+      "items": {
+        "description": "Reference definition",
+        "type": "object",
+        "properties": {
+          "source": {
+            "description": "source",
+            "type": "string",
+            "example": "$3DSpace"
+          },
+          "type": {
+            "description": "type",
+            "type": "string",
+            "example": "VPMReference"
+          },
+          "identifier": {
+            "description": "identifier in database",
+            "type": "string",
+            "example": "EE562168015FFCF14F940A513C63AA77"
+          },
+          "relativePath": {
+            "description": "relative path of parent reference",
+            "type": "string",
+            "example": "resource/v1/dseng/dseng:EngItem/EE562168015FFCF14F940A513C63AA77"
+          }
+        }
+      }
+    }
+  }
+}
+

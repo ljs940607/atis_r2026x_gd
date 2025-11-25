@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELResourceWarehouse" />
+    <m1.package name="DELResourceWarehouse" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="ResourceWareHouseWalkPathExt" />
+      <m1.interface name="ResourceWareHouseWalkPathExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_WalkPath" />
+        <m1.attribute name="ResourceWareHouseWalkPathExt.V_WalkPath" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ResourceWarehouseLocationReference" />
+      <m1.type name="ResourceWarehouseLocationReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Aisle" />
+        <m1.attribute name="ResourceWarehouseLocationReference.V_Aisle" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_LocationType" />
+        <m1.attribute name="ResourceWarehouseLocationReference.V_LocationType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Row" />
+        <m1.attribute name="ResourceWarehouseLocationReference.V_Row" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Tier" />
+        <m1.attribute name="ResourceWarehouseLocationReference.V_Tier" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ResourceWarehouseReference" />
+      <m1.type name="ResourceWarehouseReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ResourceWarehouseZoneReference" />
+      <m1.type name="ResourceWarehouseZoneReference" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

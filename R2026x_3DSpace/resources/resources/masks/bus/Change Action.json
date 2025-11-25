@@ -1,0 +1,113 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "Title"
+			},
+			{
+				"name": "Synopsis",
+				"status": "RW"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "Severity",
+				"status": "RW"
+			},
+			{
+				"name": "Start Date Estimated",
+				"status": "RW"
+			},
+			{
+				"name": "Completion Date Estimated",
+				"status": "RW"
+			},
+			{
+				"name": "Completion Date Due",
+				"status": "RW"
+			},
+			{
+				"name": "Completion Date Actual"
+			},
+			{
+				"name": "Start Date Actual"
+			},
+			{
+				"name": "Reason For Cancel"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "Originator"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			}
+			
+		]
+	},
+	"Create": {
+		"attributes": [
+			{
+				"name": "type"
+			},		
+			{
+				"name": "Synopsis",
+				"status": "RW"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "Severity",
+				"status": "RW"
+			},
+			{
+				"name": "Start Date Estimated",
+				"status": "RW"
+			},
+			{
+				"name": "Completion Date Estimated",
+				"status": "RW"
+			},
+			{
+				"name": "Completion Date Due",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},				
+			"Synopsis": {
+				"mandatory": true
+			}
+		}
+	},
+    "revision": "1"
+    
+}

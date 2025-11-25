@@ -1,0 +1,10 @@
+{ 
+  "dsmvengeqt:basic.owner": {
+    "property": "owner",
+    "key": "owner",
+    "label": "dsengeqt.Label.Attribute.Owner",
+    "example": "DB owner",
+    "description": "Object owner",
+    "index": "owner"
+  }
+}

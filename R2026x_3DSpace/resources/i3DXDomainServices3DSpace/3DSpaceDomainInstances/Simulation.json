@@ -1,0 +1,21 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Simulation",
+    "description": "General purpose simulation.",
+    "packages": [
+        "SIMObjMDE",
+        "SIMObjSimulation",
+        "SIMObjGenerativeStressMigrationExtension",
+        "SIMObjSimulationCategoryAndProdCnx",
+        "SIMObjSimulationCategoryAndProdCnxSpec",
+        "SIMObjSimulationGeneric",
+        "SIMObjSimulationGenericSpecialization",
+        "SIMObjSimulationModelRepCnx",
+        "SIMObjSimulationPublishedResultCnx",
+        "SIMObjSimulationV5Generic",
+        "SIMObjSimulationV5GenericSpecialization",
+        "SMADesignSightModelER",
+        "SMAPowerByModel2",
+        "SMAPowerByModel"
+    ]
+}

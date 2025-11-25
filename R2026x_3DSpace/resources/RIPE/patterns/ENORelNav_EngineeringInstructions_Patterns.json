@@ -1,0 +1,47 @@
+{
+    "relations": [
+      {
+        "name": "InstructionTemplate_Ref_Resource_from",
+        "queries": [
+          {
+            "definition": [
+              {"navigationType": "SR","qualityFilter": {"role": "593","semantics": "1"},"direction": "from"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "InstructionTemplate_Ref_Resource_to",
+        "queries": [
+          {
+            "definition": [
+              {"navigationType": "SR","qualityFilter": {"role": "593","semantics": "1"},"direction": "to"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "InstructionTemplate_Product_to",
+        "queries": [
+          {
+            "definition": [
+              {"navigationType": "SR","qualityFilter": {"role": "594","semantics": "6"},"direction": "from"},
+              {"navigationType" : "relation","qualityFilter":{"rel_type":"VPLMrel/PLMConnection/V_Owner"}, "direction":"from"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "InstructionTemplate_Product_from",
+        "queries": [
+          {
+            "definition": [
+              {"navigationType" : "relation","qualityFilter":{"rel_type":"VPLMrel/PLMConnection/V_Owner"}, "direction":"to"},
+              {"navigationType": "SR","qualityFilter": {"role": "594","semantics": "6"},"direction": "to"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

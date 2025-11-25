@@ -1,0 +1,12 @@
+{
+  "expandDepth": 1,
+  "withPath": true,
+  "type_filter_bo": [
+    "VPMReference",
+    "VPMRepReference"
+  ],
+  "type_filter_rel": [
+    "VPMInstance",
+    "VPMRepInstance"
+  ]
+}

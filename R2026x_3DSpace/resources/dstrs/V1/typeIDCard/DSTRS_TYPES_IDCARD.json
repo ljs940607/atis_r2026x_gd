@@ -1,0 +1,32 @@
+{
+    "dstrs:Translation": {
+        "kindOf": "root",
+        "beType": "type_PLMTranslation",
+        "patchCSRF":true,
+        "search":true,
+        "cestamp":true,
+        "defaultMask":"dstrs:TranslationMask.Default",
+    	"isPublic": true, 
+    	"changeSupport": true,
+        "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : true
+        },
+        "publicResourceURI": "/resources/v1/modeler/dstrs/dstrs:Translation/{pid}"
+    },
+    "dstrs:Language": {
+        "kindOf": "root",
+        "beType": "virtual_PLMTranslation",
+        "patchCSRF":true,
+        "search":true,
+        "cestamp":true,
+        "defaultMask":"dstrs:LanguageMask.Default",
+    	"isPublic": false, 
+        "optionCheck" : {
+        	"modify"      : false,
+        	"produce"     : false,
+        	"navigate"    : false
+        }
+    }      
+}

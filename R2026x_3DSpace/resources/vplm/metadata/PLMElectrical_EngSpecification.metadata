@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY for Ens Specifications Editor -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, all rights reserved -->
+
+<!-- 
+   =========
+    Package
+   =========
+ -->
+<Package xmlns="PLMDictionaryUnified" ModelerType="Top"
+    CustomerExposition="Programmer"
+    Name="PLMElectrical_EngSpecification"
+    Uuid="E1523DE9-E470-4E78-8312-957F4F41D5F0"
+    UseNames="PLMEnsSpecTechnoTable PLMEnsSpecPartsFilter PLMEnsSpecSpecification PLMEnsEngSpecification" >
+    <!-- Preqreqs: ERCoreModeler;PLMABSTRACT;PLMCORE;PLMEnsSpecSpecification;PLMEnsSpecTechnoTable;PLMEnsSpecPartsFilter;PLMEnsEngSpecification -->
+  <Property Name="IconName" Value="I_PLMElectrical_EngSpecification"/>  
+  <CAAComment>
+    <ShortRole>Electrical Engineering Specification Package</ShortRole>
+    <Role>This package describes the Engineering Specification objects for Electrical Application.</Role>
+  </CAAComment>
+
+  <Comment>[V6R024x] 2023-05-08 Initial creation</Comment>
+
+	
+	
+
+  <!-- SPECIFICATION -->
+	
+	<Class Name="ElecSpecification" Uuid="acb17134-ee0a-468a-807b-f6eab9e726fc" Abbreviation="elespec" CustomerExposition="Programmer" Abstract="No"
+         SuperName="EnsSpecification" Discipline="Yes" CustomerExtensible="Yes">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Spec"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="New"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Specification</ShortRole>
+			<Role>Electrical Specification</Role>
+		</CAAComment>
+
+		<Simple Name="V_Standard"       Uuid="8f563e90-dc24-4211-b8cc-091ca441b84a" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0">
+			<Property Name="Controller" Value="CATElecEngAttController"/>
+		</Simple>
+		<Simple Name="V_SignalType"       Uuid="e7e82d55-aa10-44c6-a9f5-f7706654207b" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0">
+			<Property Name="Controller" Value="CATElecEngAttController"/>
+		</Simple>
+	</Class>
+	
+	
+  <!-- TABLES -->
+
+	<Class Name="ElecAbstractFinitionRuleTable"
+  Uuid="EC36D6CE-A2AF-4C64-81E6-1D6A9982C59E"
+  Abbreviation="eleabftab"
+  CustomerExposition="Programmer"
+  Abstract="Yes"
+  SuperName="Ens_TechnoTable3"
+  Discipline="Yes"
+  CustomerExtensible="No"
+  Specializable="No"
+  CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+
+	</Class>
+	
+	
+	<Class Name="ElecCavityWireFinitionRuleTable"
+  Uuid="9B2868DF-40AB-439C-90CA-645E4E62FB6F"
+  Abbreviation="elecwft"
+  CustomerExposition="Programmer"
+  Abstract="No"
+  SuperName="ElecAbstractFinitionRuleTable"
+  Discipline="Yes"
+  CustomerExtensible="Yes"
+  CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Cavity Wire Finition Rule Table</ShortRole>
+			<Role>Electrical Cavity Wire Finition Rule Table</Role>
+		</CAAComment>
+	</Class>
+
+
+	<Class Name="ElecPartPartFinitionRuleTable"
+  Uuid="16D1A6C1-3431-4245-A16A-26368D0C687C"
+  Abbreviation="eleppft"
+  CustomerExposition="Programmer"
+  Abstract="No"
+  SuperName="ElecAbstractFinitionRuleTable"
+  Discipline="Yes"
+  CustomerExtensible="Yes"
+  CreateInstName="EnsTechnologicalTableInstance">
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Part Part Finition Rule Table</ShortRole>
+			<Role>Electrical Part Part Finition Rule Table</Role>
+		</CAAComment>
+	</Class>
+
+
+
+	<Class Name="ElecSeriesTable"
+      Uuid="d46fcd68-dd88-4059-83d3-3d98c3a4b37c"
+      Abbreviation="elesert"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable3"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+	  <CAAComment>
+		<ShortRole>Electrical Series Table</ShortRole>
+		<Role>Electrical Series Table</Role>
+	  </CAAComment>
+		
+	  <Simple Name="V_TableCriteria" Uuid="d1029233-7832-45e7-a088-e0971d7cce83" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0"/>
+	</Class>
+
+	<Class Name="ElecFamilyTable"
+      Uuid="bdea437b-dc69-4637-86e0-0772e39f29f8"
+      Abbreviation="elefamt"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable3"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Family Table</ShortRole>
+			<Role>Electrical Family Table</Role>
+		</CAAComment>
+		
+		<Simple Name="V_TableCriteria" Uuid="907af142-f538-4282-9d04-17870689b369" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0"/>
+	</Class>
+
+	<Class Name="ElecGaugeTable"
+      Uuid="4b4c3588-ae10-4f1a-9de9-d418a7d7f83f"
+      Abbreviation="elegaut"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable2"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Gauge Table</ShortRole>
+			<Role>Electrical Gauge Table</Role>
+		</CAAComment>
+		
+		
+	</Class>
+
+	<Class Name="ElecEndDimensionTable"
+      Uuid="37c478ed-5e09-4fa0-8289-9b54c782092c"
+      Abbreviation="eleedimt"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable2"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical End Dimension Table</ShortRole>
+			<Role>Electrical End Dimension Table</Role>
+		</CAAComment>		
+		
+	</Class>
+
+	<Class Name="ElecCableSubTypeTable"
+      Uuid="813a5933-3254-4a8a-acea-05119a93b855"
+      Abbreviation="elecstt"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable2"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Cable Subtype Table</ShortRole>
+			<Role>Electrical Cable Subtype Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	<Class Name="ElecBranchSubTypeTable"
+      Uuid="7366900b-6c39-4b29-9766-1b6c3ad80355"
+      Abbreviation="elebstt"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="Ens_TechnoTable2"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Branch Subtype Table</ShortRole>
+			<Role>Electrical Branch Subtype Table</Role>
+		</CAAComment>
+
+	</Class>
+	
+	<Class Name="ElecAbstractCompatibilityTable"
+      Uuid="0278f87f-0f22-49b9-b757-0341285ffd61"
+      Abbreviation="eleabctab"
+      CustomerExposition="Programmer"
+      Abstract="Yes"
+      SuperName="Ens_TechnoTable3"
+      Discipline="Yes"
+      CustomerExtensible="No"
+      Specializable="No"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+
+	</Class>
+			
+	
+	<Class Name="ElecPartPortCompatibilityTable"
+      Uuid="24a006b5-57f9-4acd-bba7-c1fa57831d91"
+      Abbreviation="elepartct"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Part Port Compatiblility Table</ShortRole>
+			<Role>Electrical Part Port Compatiblility Table</Role>
+		</CAAComment>
+
+	</Class>
+	
+	<Class Name="ElecPortInPartCompatibilityTable"
+      Uuid="0929834b-e68e-4aaf-bbf9-5db06595b2c1"
+      Abbreviation="elepoinpact"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Port in Part Compatiblility Table</ShortRole>
+			<Role>Electrical Port in Part Compatiblility Table</Role>
+		</CAAComment>
+
+	</Class>
+
+
+	<Class Name="ElecPortToPartMappingTable"
+      Uuid="f2beb124-f6a0-4844-95d2-2fa50c20fb98"
+      Abbreviation="elepotopamt"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Port Type to Part Type Mapping Table</ShortRole>
+			<Role>Electrical Port Type to Part Type Mapping Table</Role>
+		</CAAComment>
+
+	</Class>
+	
+	<Class Name="ElecPortTypesInPartCompatibilityTable"
+      Uuid="b904cc3f-545b-4849-af2e-038ae34fb470"
+      Abbreviation="elepotpact"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Port Type in Part Compatiblility Table</ShortRole>
+			<Role>Electrical Port Type in Part Compatiblility Table</Role>
+		</CAAComment>
+
+	</Class>
+
+
+	<Class Name="ElecCableContactCompatibilityTable"
+      Uuid="ae761046-5ab3-4a18-add2-cfb6a2cc8c79"
+      Abbreviation="eleccct"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Cable Contact Compatiblility Table</ShortRole>
+			<Role>Electrical Cable Contact Compatiblility Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	<Class Name="ElecBranchPartCompatibilityTable"
+      Uuid="13c3fc8b-6266-41f2-8ee3-603d2723a8c5"
+      Abbreviation="elebpct"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractCompatibilityTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Branch Part Compatiblility Table</ShortRole>
+			<Role>Electrical Branch Part Compatiblility Table</Role>
+		</CAAComment>
+
+	</Class>
+	
+	<Class Name="ElecAbstractResourceTable"
+      Uuid="dfb2ed88-9ab8-4a2a-b431-1b7f96e1fbff"
+      Abbreviation="eleabrtab"
+      CustomerExposition="Programmer"
+      Abstract="Yes"
+      SuperName="Ens_TechnoTable3"
+      Discipline="Yes"
+      CustomerExtensible="No"
+      Specializable="No"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+
+	</Class>
+
+
+	<Class Name="ElecCableCoreResourceTable"
+      Uuid="33810467-a685-4e54-9aaa-9d4fababf096"
+      Abbreviation="eleccrest"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractResourceTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Cable Core Resource Table</ShortRole>
+			<Role>Electrical Cable Core Resource Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	<Class Name="ElecSegmentResourceTable"
+      Uuid="2cadf6bd-65e5-42c6-91c7-6ae28d6bf4f1"
+      Abbreviation="elesrest"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractResourceTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+      <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Segment Definition (Resource) Table</ShortRole>
+			<Role>Electrical Segment Definition (Resource) Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	<Class Name="ElecBranchResourceTable"
+      Uuid="88a3b6fc-db31-43f8-9560-53610e1fe882"
+      Abbreviation="elebrest"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractResourceTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Branch Definition (Resource) Table</ShortRole>
+			<Role>Electrical Branch Definition (Resource) Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	
+	<Class Name="ElecPortResourceTable"
+      Uuid="ded7ed99-85c1-4156-8ac0-e1e2280ce326"
+      Abbreviation="eleprest"
+      CustomerExposition="Programmer"
+      Abstract="No"
+      SuperName="ElecAbstractResourceTable"
+      Discipline="Yes"
+      CustomerExtensible="Yes"
+      CreateInstName="EnsTechnologicalTableInstance">
+
+	  <Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+	  <Property Name="Searchable"                  Value="Yes"/>
+	  <Property Name="Newable"                     Value="All"/>
+	  <Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+	  <Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+	  <Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Port Definition Table</ShortRole>
+			<Role>Electrical Port Definition Table</Role>
+		</CAAComment>
+
+	</Class>
+
+
+	<Class Name="ElecCircuitResourceTable"
+		  Uuid="21d33906-0c69-439a-8101-fe0b0dad11c5"
+		  Abbreviation="elecirest"
+		  CustomerExposition="Programmer"
+		  Abstract="No"
+		  SuperName="ElecAbstractResourceTable"
+		  Discipline="Yes"
+		  CustomerExtensible="Yes"
+		  CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Circuit Definition (Resource) Table</ShortRole>
+			<Role>Electrical Circuit Definition (Resource) Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	
+	<Class Name="ElecCableSubtypeMappingTable"
+	  Uuid="1c8b94a0-d76a-4f16-b7be-303d4039824c"
+	  Abbreviation="elecstmt"
+	  CustomerExposition="Programmer"
+	  Abstract="No"
+	  SuperName="Ens_TechnoTable2"
+	  Discipline="Yes"
+	  CustomerExtensible="Yes"
+	  CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Cable Subtype Mapping Table</ShortRole>
+			<Role>Electrical Cable Subtype Mapping Table</Role>
+		</CAAComment>
+
+	</Class>
+
+
+	<Class Name="ElecMinGaugeForNomCurrentTable"
+	  Uuid="1591d8fc-682b-484b-ba10-80c3b6b38419"
+	  Abbreviation="elegaunct"
+	  CustomerExposition="Programmer"
+	  Abstract="No"
+	  SuperName="Ens_TechnoTable2"
+	  Discipline="Yes"
+	  CustomerExtensible="Yes"
+	  CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Minimum Gauge for Nominal Current Table</ShortRole>
+			<Role>Electrical Minimum Gauge for Nominal Current Table</Role>
+		</CAAComment>
+
+	</Class>
+
+	<Class Name="ElecLogicalTwinFromPhysicalTable"
+	  Uuid="3afacda4-d2f7-4880-8fa4-cf63eea7324d"
+	  Abbreviation="elelotwpt"
+	  CustomerExposition="Programmer"
+	  Abstract="No"
+	  SuperName="Ens_TechnoTable2"
+	  Discipline="Yes"
+	  CustomerExtensible="Yes"
+	  CreateInstName="EnsTechnologicalTableInstance">
+
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Table"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsTechnologicalTableInstance"/>
+		<Property Name="ProposedInDataSetup"         Value="Yes"/>
+		<CAAComment>
+			<ShortRole>Electrical Logical Twin from Physical Table</ShortRole>
+			<Role>Electrical Logical Twin from Physical Table</Role>
+		</CAAComment>
+
+	</Class>
+
+
+
+	<!-- FILTERS -->
+
+	<Class Name="ElecEntityFilter" Uuid="3b25111d-c417-4eb2-9914-acd454ed0f32" CustomerExposition="Programmer" Abstract="Yes"
+         SuperName="EnsFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Filter"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+
+		<Simple Name="V_Standard"        Uuid="91c24296-1f39-46b8-92db-642412f46214" Type="String" MultiValuated="No" MaxLength="100" Protection="Free" CAAExposition="L0">
+			<Property Name="Controller" Value="CATElecEngAttController"/>
+		</Simple>
+		
+	</Class>
+
+	<Class Name="ElecPartFilter" Uuid="94c2c20a-bf76-4c69-803e-f2b74bed1d8e" Abbreviation="eleprtf" CustomerExposition="Programmer" Abstract="No"
+		SuperName="ElecEntityFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+		
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Filter"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+		<CAAComment>
+			<ShortRole>Electrical Part Filter</ShortRole>
+			<Role>Electrical Part Filter</Role>
+		</CAAComment>
+	</Class>
+
+	<Class Name="ElecProtectionFilter" Uuid="e9bd9a11-c1f1-4c63-a111-0f0d8990ed0e" Abbreviation="eleprotf" CustomerExposition="Programmer" Abstract="No"
+		SuperName="ElecEntityFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+		
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Filter"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+		<CAAComment>
+			<ShortRole>Electrical Protection Filter</ShortRole>
+			<Role>Electrical Protection Filter</Role>
+		</CAAComment>
+	</Class>
+
+	<Class Name="ElecCableFilter" Uuid="e3d32008-ea56-4202-b9d7-2aa822032e53" Abbreviation="elecabf" CustomerExposition="Programmer" Abstract="No"
+		SuperName="ElecEntityFilter" Discipline="Yes" CustomerExtensible="Yes" CreateInstName="EnsFilterInstance">
+		
+		<Property Name="IconName"                    Value="I_ElecEngSpec_Filter"/>
+		<Property Name="Searchable"                  Value="Yes"/>
+		<Property Name="Newable"                     Value="All"/>
+		<Property Name="KweNew_InstanciationMethod"  Value="CATEnsCompanyStdsInstanciation"/>
+		<Property Name="KweNew_ReturnedType"         Value="EnsFilterInstance"/>
+		<CAAComment>
+			<ShortRole>Electrical Cable Filter</ShortRole>
+			<Role>Electrical Cable Filter</Role>
+		</CAAComment>
+	</Class>
+	
+	
+</Package>

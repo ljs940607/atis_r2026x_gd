@@ -1,0 +1,20 @@
+{
+    "dssmrm:SheetMetalRawMaterial": {
+        "summary":"Sheet Metal Raw Material",
+        "description": "Sheet Metal Raw Material",
+        "PUBLICMasks": [
+        "dssmrm:SheetMetalRawMaterialMask.Common", "dssmrm:SheetMetalRawMaterialMask.Details"
+        ],
+        "PUBLICExtensions": ["dssmrm:EnterpriseAttributes", "dslc:changeControl", "dseng:EnterpriseReference"],
+		"PROTECTEDExtensions": [],
+        "PROTECTEDMasks": [],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExcludedURIs":["GETAll", "getItems", "DELETEBulk", "BULKUPDATE", "BulkFetch"]
+    },
+    "dssmrm:EnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dssmrm:EnterpriseAttributes",
+        "PUBLICFields": ["dsmvsmrm:EnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    }
+}

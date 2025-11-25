@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcBuiltElementType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBuiltElementType_ElementType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

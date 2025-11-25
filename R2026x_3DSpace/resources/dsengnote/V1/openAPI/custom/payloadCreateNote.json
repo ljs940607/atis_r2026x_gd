@@ -1,0 +1,50 @@
+{
+  "description": "Payload for Engineering Note creation",
+  "type": "object",
+  "properties": {
+    "references": {
+      "description": "References where Engineering Notes will be aggregated",
+      "type": "array",
+      "items": {
+        "description": "Reference definition, and Engineering Notes specifications",
+        "type": "object",
+        "properties": {
+          "source": {
+            "description": "source",
+            "type": "string",
+            "example": "$3DSpace"
+          },
+          "type": {
+            "description": "type",
+            "type": "string",
+            "example": "VPMReference"
+          },
+          "identifier": {
+            "description": "identifier in database",
+            "type": "string",
+            "example": "EE562168015FFCF14F940A513C63AA77"
+          },
+          "relativePath": {
+            "description": "relative path of parent reference",
+            "type": "string",
+            "example": "resource/v1/dseng/dseng:EngItem/EE562168015FFCF14F940A513C63AA77"
+          },
+          "items": {
+            "description": "Source Engineering Note Templates",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "template_id": {
+                  "description": "Engineering Note Template identifier",
+                  "type": "string",
+                  "example": "195AF17B0000E0B8681E1B6500014944"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

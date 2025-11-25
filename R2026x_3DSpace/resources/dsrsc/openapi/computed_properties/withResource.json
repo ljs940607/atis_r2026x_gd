@@ -1,0 +1,44 @@
+{
+	"properties": {
+		"totalItems": {
+			"type": "integer",
+			"example": 1
+		},
+		"member": {
+			"type": "array",
+			"items": {
+				"properties": {
+					"instancePosition": {
+						"description": "Position of the instance in the occurrence path.",
+						"type": "integer",
+						"example": 0
+					},
+					"instanceObject": {
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname.",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "Type of the object.",
+								"type": "string",
+								"example": "VPMInstance"
+							},
+							"identifier": {
+								"description": "Physical ID of the object.",
+								"type": "string",
+								"example": "Object ID"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object.",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsrsc/dsrsc:OrganizationalResource/{PID}/dsrsc:ResourceInstance/{ID}"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

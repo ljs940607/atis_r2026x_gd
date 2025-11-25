@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Knowledgeware semantics extension declaration -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" 
+         ModelerType="Top"  
+         Name="CATKweFunctionalData" 
+         Uuid="5cb86607-33f0-4aa6-8925-8120df2d1464" 
+         CustomerExposition="Programmer" 
+         UseNames="PLMCORE" >
+  
+  <CAAComment>
+    <ShortRole>Knowledgeware extension package for functional data management</ShortRole>
+    <Role>This package contains meta datas of extension dedicated to expose functional data semantics at DB level</Role>
+  </CAAComment>
+  <Comment>Creation 2024-07-16</Comment>
+
+  
+
+  <!-- *************************************** -->
+  <!-- * Functional Data Extension (PLMExtension) * -->
+  <!-- *************************************** -->
+  <Extension
+    Name="CATKweFunctionalDataExtension"
+    Uuid="228c65aa-43ee-4dca-bebd-7edd4dcfe004"
+    CustomerExposition="Programmer"
+    ScopeNames="PLMCoreRepReference">
+   <CAAComment>
+      <ShortRole>Knowledgeware extension dedicated to expose functional data at DB level</ShortRole>
+      <Role>Knowledgeware extension dedicated to expose functional data at DB level</Role>
+    </CAAComment>
+
+    <Simple
+      Name="V_JsonStream"
+      Uuid="b08d9c05-d67d-4d03-8a6a-472b8c55ecba"
+      Protection="External"
+      Type="String"
+  CAAExposition="L0" />
+
+  </Extension>
+</Package>
+
+

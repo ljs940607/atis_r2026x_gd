@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SignalFrame_BackboardType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignalFrame_SignalFrameType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignalFrame_NominalWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignalFrame_SignalIndicatorType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignalFrame_SignalFrameBackboardHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignalFrame_SignalFrameBackboardDiameter",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

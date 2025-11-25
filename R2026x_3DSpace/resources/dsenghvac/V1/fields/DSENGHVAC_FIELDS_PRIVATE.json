@@ -1,0 +1,10 @@
+{ 
+  "dsmvenghvac:basic.owner": {
+    "property": "owner",
+    "key": "owner",
+    "label": "dsenghvac.Label.Attribute.Owner",
+    "example": "DB owner",
+    "description": "Object owner",
+    "index": "owner"
+  }
+}

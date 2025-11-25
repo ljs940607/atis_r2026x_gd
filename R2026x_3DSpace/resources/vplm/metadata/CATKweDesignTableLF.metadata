@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Knowledgeware semantics extension declaration -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="CATKweDesignTableLF"
+         Uuid="55c45eba-dae6-447b-9a91-8984b12b012a"
+         CustomerExposition="Programmer"
+         UseNames="PLMCORE" >
+
+  <CAAComment>
+    <ShortRole>Knowledgeware extension package for designtable document lifecycle management</ShortRole>
+    <Role>This package contains meta datas of extension dedicated to manage lifecycle of documents</Role>
+  </CAAComment>
+  <Comment>Creation 2024-07-16</Comment>
+
+
+
+  <!-- *************************************** -->
+  <!-- * Functional Data Extension (PLMExtension) * -->
+  <!-- *************************************** -->
+  <Extension
+    Name="CATKweDesignTableLFExtension"
+    Uuid="aeee4527-d6ff-49bb-bf32-14525e2fc405"
+    CustomerExposition="Programmer"
+    ScopeNames="PLMCoreRepReference">
+    <CAAComment>
+      <ShortRole>Knowledgeware extension dedicated to tell that pointed documents by design table need to have a coupled life cycle</ShortRole>
+      <Role>Knowledgeware extension dedicated to tell that pointed documents by design table need to have a coupled life cycle</Role>
+    </CAAComment>
+  </Extension>
+</Package>
+
+

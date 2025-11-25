@@ -1,0 +1,116 @@
+{
+    "relations": [
+        {
+            "name": "Product_Master_Copy_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Product Master Copy"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Product_Master_Copy_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Product Master Copy"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Translated_Copy_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Translated Copy"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Translated_Copy_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Translated Copy"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Applicable_Language_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Applicable Language"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Base_Copy_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Base Copy"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Base_Copy_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "Base Copy"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{ 
+  "dsmvengisl:basic.owner": {
+    "property": "owner",
+    "key": "owner",
+    "label": "dsengisl.Label.Attribute.Owner",
+    "example": "DB owner",
+    "description": "Object owner",
+    "index": "owner"
+  }
+}

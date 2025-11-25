@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "PointCloud",
+    "description": "The domain instance for PointCloud in 3DSpace",
+    "packages": [
+        "VPMPointCloud"
+    ]
+}

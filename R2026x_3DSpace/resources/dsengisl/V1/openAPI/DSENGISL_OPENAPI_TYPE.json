@@ -1,0 +1,61 @@
+{
+  "dsengisl:Insulation": {
+    "summary": "Insulation",
+    "description": "Insulation",
+    "PUBLICMasks": ["dsmvengisl:InsulationMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengisl:DefaultBusMask.utc",
+      "dsmvengisl:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengisl:attribute.insulation.categories",
+      "dsmvengisl:attribute.insulation.equivalentdimension",
+      "dsmvengisl:attribute.insulation.equivalentsize",
+      "dsmvengisl:attribute.insulation.flexibility",
+      "dsmvengisl:attribute.insulation.instanciationrule",
+      "dsmvengisl:attribute.insulation.insulationthickness",
+      "dsmvengisl:attribute.insulation.insulationtype",
+      "dsmvengisl:attribute.insulation.length",
+      "dsmvengisl:attribute.insulation.linearweight",
+      "dsmvengisl:attribute.insulation.maxtemperature",
+      "dsmvengisl:attribute.insulation.minbendradius",
+      "dsmvengisl:attribute.insulation.mintemperature",
+      "dsmvengisl:attribute.insulation.natualfrequency",
+      "dsmvengisl:attribute.insulation.realizationtype",
+      "dsmvengisl:attribute.insulation.size",
+      "dsmvengisl:attribute.insulation.thermalconductivity",
+      "dsmvengisl:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dscfg:Configured", "dseno:EnterpriseAttributes", "dslc:changeControl"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengisl:InsulationInst": {
+    "summary": "Insulation instance",
+    "description": "instance of an Insulation",
+    
+    "PUBLICMasks": ["dsmvengisl:InsulationInstMask", "dsmvengisl:InsulationInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvenghvac:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  }
+  
+}

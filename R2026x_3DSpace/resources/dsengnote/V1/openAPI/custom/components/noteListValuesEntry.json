@@ -1,0 +1,44 @@
+{
+  "description": "List of values entry",
+  "type": "object",
+  "properties": {
+    "type_entry": {
+      "description": "Type of this entry",
+      "type": "string",
+      "example": "listValues"
+    },
+    "key": {
+      "description": "User name of the entry (no unicity enforced)",
+      "type": "string",
+      "example": "Choice.1"
+    },
+    "text": {
+      "description": "Text used in Note Text in Engineering Note Template, or when no choice is made for this list of values entry in an Engineering Note",
+      "type": "string",
+      "example": "#UNIT CHOICE#"
+    },
+    "prefix": {
+      "description": "String to prepend before text in computed Note Text",
+      "type": "string",
+      "example": "my prefix"
+    },
+    "suffix": {
+      "description": "String to append to text in computed Note Text",
+      "type": "string",
+      "example": "my suffix"
+    },
+    "values": {
+      "description": "List of possible values defined at Engineering Note Template level. If a choice is made among those values, corresponding string will replace text in Engineering Note Text.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "example": ["MM", "IN"]
+    },
+    "choice": {
+      "description": "Index of chosen value, must be between 0 (no choice) and values array length (included)",
+      "type": "integer",
+      "example": 1
+    }
+  }
+}

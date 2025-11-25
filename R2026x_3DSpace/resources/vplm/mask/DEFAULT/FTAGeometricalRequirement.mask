@@ -1,0 +1,359 @@
+// ===========================================================
+// PACKAGE   : FTAGeometricalRequirement
+// ===========================================================
+// -----------------------------------------------------------
+// Syntax: 
+//   MASK DEFAULT
+//   ENTITY <entity>
+//   ATTR   <attr>;<required>;<are_values_authorized_values>;<def_val>
+//   VALUE  <value>
+//   FUNC   <method>
+//   FATTR  <attr>;<modif>
+// with: <entity>   = entity name
+//       <attr>     = atribute name
+//       <required> = requires attr logical flag (Y or N)
+//       <are_values_authorized_values>
+//                  = authorized values logical flag (Y or N):
+//                    N -> help values
+//                    Y -> authorized values
+//       <def_val>  = default value
+//       <value>    = a string value (can have blanks)
+//                    When <are_values_authorized_values> equals:
+//                    N -> an help value
+//                    Y -> an authorized value
+//       <method>   = one of the following operations:
+//                    Create        : attr appears in creation panels
+//                    Read/List/Tree: attr appears in browse/query result panels
+//                    Write         : attr appears in properties panels
+//                    Query/EZQuery : attr appears in query condition panels
+//       <modif>    = writable field logical flag (Y or N):
+//                    N -> NOT modifiable
+//                    Y -> modifiable
+// ===========================================================
+MASK DEFAULT
+
+// 2 entities :
+// - GeometricalRequirement (Requirement)
+// - GeometricalRequirement_Inst  (Requirement)
+
+
+ENTITY GeometricalRequirement @Inherits
+//-------------------------------------
+ATTR DS_REQ_FTA_Discipline;N;N;$
+ATTR DS_REQ_FTA_IsActive;N;N;$
+ATTR DS_REQ_FTA_LocalArea;N;N;$
+ATTR DS_REQ_FTA_Function;N;N;$
+ATTR DS_REQ_FTA_GeomtricalRequirementType;N;N;$
+ATTR DS_REQ_FTA_GPSStandardType;N;N;$
+ATTR DS_REQ_FTA_Interchangeabilityconstraint;N;N;$
+ATTR DS_REQ_FTA_Nominalvaluespecification;N;N;$
+ATTR DS_REQ_FTA_Unit;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue2specification;N;N;$
+ATTR DS_REQ_FTA_Unit2;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue2;N;N;$
+ATTR DS_REQ_FTA_Toleranceminspecification;N;N;$
+ATTR DS_REQ_FTA_Toleranceminvalue;N;N;$
+ATTR DS_REQ_FTA_Tolerancemaxspecification;N;N;$
+ATTR DS_REQ_FTA_Tolerancemaxvalue;N;N;$
+ATTR DS_REQ_FTA_Statisticaltolerancespecification;N;N;$
+ATTR DS_REQ_FTA_Statisticalpopulation;N;N;$
+ATTR DS_REQ_FTA_WorstCasecalculation;N;N;$
+ATTR DS_REQ_FTA_ComputedWCvariationmin;N;N;$
+ATTR DS_REQ_FTA_ComputedWCvariationmax;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticaldistribution;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticalminvariation;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticalmaxvariation;N;N;$
+ATTR DS_REQ_FTA_Statisticalrejectionrate;N;N;$
+ATTR DS_REQ_FTA_Statisticalcalculationmethod;N;N;$
+ATTR DS_REQ_FTA_Retainedcalculationresult;N;N;$
+
+
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+
+ENTITY GeometricalRequirement_Inst @Inherits
+//-------------------------------------
+ATTR DS_REQ_FTA_Discipline;N;N;$
+ATTR DS_REQ_FTA_IsActive;N;N;$
+ATTR DS_REQ_FTA_LocalArea;N;N;$
+ATTR DS_REQ_FTA_Function;N;N;$
+ATTR DS_REQ_FTA_GeomtricalRequirementType;N;N;$
+ATTR DS_REQ_FTA_GPSStandardType;N;N;$
+ATTR DS_REQ_FTA_Interchangeabilityconstraint;N;N;$
+ATTR DS_REQ_FTA_Nominalvaluespecification;N;N;$
+ATTR DS_REQ_FTA_Unit;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue2specification;N;N;$
+ATTR DS_REQ_FTA_Unit2;N;N;$
+ATTR DS_REQ_FTA_Nominalvalue2;N;N;$
+ATTR DS_REQ_FTA_Toleranceminspecification;N;N;$
+ATTR DS_REQ_FTA_Toleranceminvalue;N;N;$
+ATTR DS_REQ_FTA_Tolerancemaxspecification;N;N;$
+ATTR DS_REQ_FTA_Tolerancemaxvalue;N;N;$
+ATTR DS_REQ_FTA_Statisticaltolerancespecification;N;N;$
+ATTR DS_REQ_FTA_Statisticalpopulation;N;N;$
+ATTR DS_REQ_FTA_WorstCasecalculation;N;N;$
+ATTR DS_REQ_FTA_ComputedWCvariationmin;N;N;$
+ATTR DS_REQ_FTA_ComputedWCvariationmax;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticaldistribution;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticalminvariation;N;N;$
+ATTR DS_REQ_FTA_Computedstatisticalmaxvariation;N;N;$
+ATTR DS_REQ_FTA_Statisticalrejectionrate;N;N;$
+ATTR DS_REQ_FTA_Statisticalcalculationmethod;N;N;$
+ATTR DS_REQ_FTA_Retainedcalculationresult;N;N;$
+
+
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y
+
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR DS_REQ_FTA_Discipline;Y
+FATTR DS_REQ_FTA_IsActive;Y
+FATTR DS_REQ_FTA_LocalArea;Y
+FATTR DS_REQ_FTA_Function;Y
+FATTR DS_REQ_FTA_GeomtricalRequirementType;Y
+FATTR DS_REQ_FTA_GPSStandardType;Y
+FATTR DS_REQ_FTA_Interchangeabilityconstraint;Y
+FATTR DS_REQ_FTA_Nominalvaluespecification;Y
+FATTR DS_REQ_FTA_Unit;Y
+FATTR DS_REQ_FTA_Nominalvalue;Y
+FATTR DS_REQ_FTA_Nominalvalue2specification;Y
+FATTR DS_REQ_FTA_Unit2;Y
+FATTR DS_REQ_FTA_Nominalvalue2;Y
+FATTR DS_REQ_FTA_Toleranceminspecification;Y
+FATTR DS_REQ_FTA_Toleranceminvalue;Y
+FATTR DS_REQ_FTA_Tolerancemaxspecification;Y
+FATTR DS_REQ_FTA_Tolerancemaxvalue;Y
+FATTR DS_REQ_FTA_Statisticaltolerancespecification;Y
+FATTR DS_REQ_FTA_Statisticalpopulation;Y
+FATTR DS_REQ_FTA_WorstCasecalculation;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmin;Y
+FATTR DS_REQ_FTA_ComputedWCvariationmax;Y
+FATTR DS_REQ_FTA_Computedstatisticaldistribution;Y
+FATTR DS_REQ_FTA_Computedstatisticalminvariation;Y
+FATTR DS_REQ_FTA_Computedstatisticalmaxvariation;Y
+FATTR DS_REQ_FTA_Statisticalrejectionrate;Y
+FATTR DS_REQ_FTA_Statisticalcalculationmethod;Y
+FATTR DS_REQ_FTA_Retainedcalculationresult;Y

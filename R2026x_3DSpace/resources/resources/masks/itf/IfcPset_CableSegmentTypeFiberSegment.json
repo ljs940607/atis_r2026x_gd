@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeFiberSegment_FiberColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeFiberSegment_HasTightJacket",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeFiberSegment_FiberType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

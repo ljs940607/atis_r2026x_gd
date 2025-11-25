@@ -1,0 +1,33 @@
+{
+	"dssrc:ManufacturerEquivalentItem": {
+		"kindOf": "root",
+        "beType": "type_VPMReference",
+		"patchCSRF":true,
+		"search":true,
+		"defaultMask": "dsmvsrc:ManufacturerEquivalentItem.Details",
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dssrc.V1.dictionaries.dssrcMEIReferenceAttributeDictionary",
+		"classesWhere":"interface[ManufacturerEquivalentItemExtension] == true",
+		"indexClassesWhere":"flattenedtaxonomies:\"interfaces/ManufacturerEquivalentItemExtension\"",
+		"cestamp":true,
+		"publicResourceURI": "/resources/v1/modeler/dssrc/dssrc:ManufacturerEquivalentItems/{pid}"
+    },
+    "dssrc:ManufacturerEquivalentItems": {
+		"kindOf": "root",
+        "beType": "type_VPMReference",
+		"patchCSRF":true,
+		"search": true,
+		"defaultMask": "dssrc:ManufacturerEquivalentItems.Basic",
+		"rootLinks": ["dseng:EngItem"],
+        "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dssrc.V%1.dictionaries.dssrcMEIPublicReferenceAttrDictionary",
+        "implementationClass": "com.dassault_systemes.enovia.xapps.dssrc.V%1.implementations.dssrcMEIImplementation",
+		"cestamp":true,
+		"classesWhere": "interface[ManufacturerEquivalentItemExtension] == true",
+		"indexClassesWhere": "flattenedtaxonomies:\"interfaces/ManufacturerEquivalentItemExtension\"",
+		"publicResourceURI": "/resources/v1/modeler/dssrc/dssrc:ManufacturerEquivalentItems/{pid}",
+		"optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : false
+        }
+    }
+}

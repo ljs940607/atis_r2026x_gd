@@ -1,0 +1,452 @@
+ {
+  "dsmvengelec:attribute.device.externalreference": {
+    "property": "attribute[ElecPart.V_Elec_External_Reference]",
+    "key": "externalreference",
+    "label": "dsengelec.Label.Attribute.ExternalReference",
+    "example": "",
+    "description": "External Reference",
+    "index":"ds6wg:ElecPart.V_Elec_External_Reference"
+  },
+   "dsmvengelec:attribute.series": {
+    "property": "attribute[ElecPart.V_Elec_Series,ElecRoutable.V_Elec_Series]",
+    "key": "series",
+    "label": "dsengelec.Label.Attribute.Series",
+    "example": "",
+    "description": "Series",
+    "index": "ds6wg:ElecPart.V_Elec_Series,ds6wg:ElecRoutable.V_Elec_Series"
+  },
+  "dsmvengelec:attribute.subtype": {
+    "property": "attribute[ElecPart.V_Elec_SubType,Electrical3DSystem.V_Elec_SubType,ElectricalBranchGeometry.V_Elec_SubType,ElecRoutable.V_Elec_SubType,ElecConductor.V_Elec_SubType]",
+    "key": "subtype",
+    "label": "dsengelec.Label.Attribute.SubType",
+    "example": "",
+    "description": "Sub Type",
+    "index": "ds6wg:ElecPart.V_Elec_SubType,ds6wg:Electrical3DSystem.V_Elec_SubType,ds6wg:ElectricalBranchGeometry.V_Elec_SubType,ds6wg:ElecRoutable.V_Elec_SubType,ds6wg:ElecConductor.V_Elec_SubType"
+  },
+  
+  "dsmvengelec:attribute.subdevice.matingwith": {
+    "property": "attribute[Elec3DBackShell.V_Elec_MatingWith,Elec3DContact.V_Elec_MatingWith,Elec3DTerminalAccessory.V_Elec_MatingWith,Elec3DTerminalBlock.V_Elec_MatingWith,Elec3DTerminalStrip.V_Elec_MatingWith,ds6wg:Elec3DStud.V_Elec_MatingWith,Elec3DFillerPlug.V_Elec_MatingWith,Elec3DModule.V_Elec_MatingWith,Elec3DMultiInsertConnector.V_Elec_MatingWith,Elec3DPLC.V_Elec_MatingWith,Elec3DSeal.V_Elec_MatingWith,Elec3DShell.V_Elec_MatingWith,Elec3DSingleInsertConnector.V_Elec_MatingWith]",
+    "key": "matingwith",
+    "label": "dsengelec.Label.Attribute.MatingWith",
+    "example": "",
+    "description": "Mating With",
+    "index": "ds6wg:Elec3DBackShell.V_Elec_MatingWith,ds6wg:Elec3DContact.V_Elec_MatingWith,ds6wg:Elec3DTerminalAccessory.V_Elec_MatingWith,ds6wg:Elec3DTerminalBlock.V_Elec_MatingWithds6wg:Elec3DTerminalStrip.V_Elec_MatingWith,ds6wg:Elec3DStud.V_Elec_MatingWith,s6wg:Elec3DFillerPlug.V_Elec_MatingWith,ds6wg:Elec3DModule.V_Elec_MatingWith,ds6wg:Elec3DMultiInsertConnector.V_Elec_MatingWith,ds6wg:Elec3DPLC.V_Elec_MatingWith,ds6wg:Elec3DSeal.V_Elec_MatingWith,ds6wg:Elec3DShell.V_Elec_MatingWith,ds6wg:Elec3DSingleInsertConnector.V_Elec_MatingWith"
+  },
+
+
+  "dsmvengelec:attribute.backshell.extralength": {
+    "property": "attribute[Elec3DBackShell.V_Elec_Extra_Length]",
+    "key": "extralength",
+    "label": "dsengelec.Label.Attribute.ExtraLength",
+    "example": "",
+    "description": "Extra Length",
+    "index": "ds6wg:Elec3DBackShell.V_Elec_Extra_Length"
+  },
+
+  "dsmvengelec:attribute.contact.outsidediameter": {
+    "property": "attribute[Elec3DContact.V_Elec_OutsideDiameter]",
+    "key": "outsidediameter",
+    "label": "dsengelec.Label.Attribute.OutsideDiameter",
+    "example": "",
+    "description": "Outside Diameter",
+    "index": "ds6wg:Elec3DContact.V_Elec_OutsideDiameter"
+  },
+  "dsmvengelec:attribute.sectionarea": {
+    "property": "attribute[Elec3DContact.V_Elec_SectionArea,ElecRoutable.V_Elec_Section_Area,Elec3DConductor.V_Elec_SectionArea]",
+    "key": "sectionarea",
+    "label": "dsengelec.Label.Attribute.SectionArea",
+    "example": "",
+    "description": "Section Area",
+    "index": "ds6wg:Elec3DContact.V_Elec_SectionArea,ds6wg:ElecRoutable.V_Elec_Section_Area,ds6wg:Elec3DConductor.V_Elec_SectionArea"
+  },
+  "dsmvengelec:attribute.contact.contactsize": {
+    "property": "attribute[Elec3DContact.V_Elec_ContactSize]",
+    "key": "contactsize",
+    "label": "dsengelec.Label.Attribute.ContactSize",
+    "example": "",
+    "description": "Contact Size",
+    "index": "ds6wg:Elec3DContact.V_Elec_ContactSize"
+  },
+   "dsmvengelec:attribute.subdevice.contacttype": {
+    "property": "attribute[Elec3DContact.V_Elec_ContactType,Elec3DMultiInsertConnector.V_Elec_ContactType,Elec3DSingleInsertConnector.V_Elec_ContactType]",
+    "key": "contacttype",
+    "label": "dsengelec.Label.Attribute.ContactType",
+    "example": "",
+    "description": "Contact Type",
+    "index": "ds6wg:Elec3DContact.V_Elec_ContactType,ds6wg:Elec3DMultiInsertConnector.V_Elec_ContactType,ds6wg:Elec3DSingleInsertConnector.V_Elec_ContactType"
+  },
+    "dsmvengelec:attribute.contact.endfitting": {
+    "property": "attribute[Elec3DContact.V_Elec_EndFitting]",
+    "key": "endfitting",
+    "label": "dsengelec.Label.Attribute.EndFitting",
+    "example": "",
+    "description": "End Fitting",
+    "index": "ds6wg:Elec3DContact.V_Elec_EndFitting"
+  },
+   "dsmvengelec:attribute.contact.authorizedwiregauge": {
+    "property": "attribute[Elec3DContact.V_Elec_AuthorizedWireGauge]",
+    "key": "authorizedwiregauge",
+    "label": "dsengelec.Label.Attribute.AuthorizedWireGauge",
+    "example": "",
+    "description": "Authorized Wire Gauge",
+    "multiValued" : true,
+    "index": "ds6wg:Elec3DContact.V_Elec_AuthorizedWireGauge"
+  },
+   
+  "dsmvengelec:attribute.subdevice.numberofpins": {
+    "property": "attribute[Elec3DModule.V_Elec_NumberOfPins,Elec3DSingleInsertConnector.V_Elec_NumberOfPins,Elec3DSplice.V_Elec_NumberOfPins,Elec3DStud.V_Elec_NumberOfPins,Elec3DTerminalBlock.V_Elec_NumberOfPins,Elec3DTerminalStrip.V_Elec_NumberOfPins]",
+    "key": "numberofpins",
+    "label": "dsengelec.Label.Attribute.NumberOfPins",
+    "example": "",
+    "description": "Number Of Pins",
+    "index": "ds6wg:Elec3DModule.V_Elec_NumberOfPins,ds6wg:Elec3DSingleInsertConnector.V_Elec_NumberOfPins,ds6wg:Elec3DSplice.V_Elec_NumberOfPins,ds6wg:Elec3DStud.V_Elec_NumberOfPins,ds6wg:Elec3DTerminalBlock.V_Elec_NumberOfPins,ds6wg:Elec3DTerminalStrip.V_Elec_NumberOfPins"
+  },
+   "dsmvengelec:attribute.multiinsertconnector.insertlayout": {
+    "property": "attribute[Elec3DMultiInsertConnector.V_Elec_InsertLayout]",
+    "key": "insertlayout",
+    "label": "dsengelec.Label.Attribute.InsertLayout",
+    "example": "",
+    "description": "Insert Layout",
+    "index": "ds6wg:Elec3DMultiInsertConnector.V_Elec_InsertLayout"
+  },
+  "dsmvengelec:attribute.subdevice.shelltype": {
+    "property": "attribute[Elec3DMultiInsertConnector.V_Elec_ShellType,Elec3DSingleInsertConnector.V_Elec_ShellType]",
+    "key": "shelltype",
+    "label": "dsengelec.Label.Attribute.ShellType",
+    "example": "",
+    "description": "Shell Type",
+    "index": "ds6wg:Elec3DMultiInsertConnector.V_Elec_ShellType,ds6wg:Elec3DSingleInsertConnector.V_Elec_ShellType"
+  },
+   "dsmvengelec:attribute.subdevice.shellsize": {
+    "property": "attribute[Elec3DMultiInsertConnector.V_Elec_ShellSize,Elec3DSingleInsertConnector.V_Elec_ShellSize]",
+    "key": "shellsize",
+    "label": "dsengelec.Label.Attribute.ShellSize",
+    "example": "",
+    "description": "Shell Size",
+    "index": "ds6wg:Elec3DMultiInsertConnector.V_Elec_ShellSize,ds6wg:Elec3DSingleInsertConnector.V_Elec_ShellSize"
+  },
+  
+   "dsmvengelec:attribute.subdevice.polarizedkey": {
+    "property": "attribute[Elec3DMultiInsertConnector.V_Elec_PolarizedKey,Elec3DSingleInsertConnector.V_Elec_PolarizedKey]",
+    "key": "polarizedkey",
+    "label": "dsengelec.Label.Attribute.PolarizedKey",
+    "example": "",
+    "description": "Polarized Key",
+    "index": "ds6wg:Elec3DMultiInsertConnector.V_Elec_PolarizedKey,ds6wg:Elec3DSingleInsertConnector.V_Elec_PolarizedKey"
+  },
+  "dsmvengelec:attribute.singleinsertconnector.contactlayout": {
+    "property": "attribute[Elec3DSingleInsertConnector.V_Elec_ContactLayout]",
+    "key": "contactlayout",
+    "label": "dsengelec.Label.Attribute.ContactLayout",
+    "example": "",
+    "description": "Contact Layout",
+    "index": "ds6wg:Elec3DSingleInsertConnector.V_Elec_ContactLayout"
+  },
+
+   
+   "dsmvengelec:attribute.length": {
+    "property": "attribute[Elec3DSplice.V_Elec_Length,Elec3DCable.V_Elec_Length]",
+    "key": "length",
+    "label": "dsengelec.Label.Attribute.Length",
+    "example": "",
+    "description": "Length",
+    "index": "ds6wg:Elec3DSplice.V_Elec_Length,ds6wg:Elec3DCable.V_Elec_Length"
+  },
+    "dsmvengelec:attribute.splice.equivalentthicknes": {
+    "property": "attribute[Elec3DSplice.V_Elec_Equivalent_Thickness]",
+    "key": "equivalentthicknes",
+    "label": "dsengelec.Label.Attribute.EquivalentThicknes",
+    "example": "",
+    "description": "Equivalent Thicknes",
+    "index": "ds6wg:Elec3DSplice.V_Elec_Equivalent_Thickness"
+  },
+  
+ 
+   "dsmvengelec:attribute.terminalblock.shuntcavitylayout": {
+    "property": "attribute[Elec3DTerminalBlock.V_Elec_ShuntCavityLayout]",
+    "key": "shuntcavitylayout",
+    "label": "dsengelec.Label.Attribute.ShuntCavityLayout",
+    "example": "",
+    "description": "ShuntCavityLayout",
+    "index": "ds6wg:Elec3DTerminalBlock.V_Elec_ShuntCavityLayout"
+  },
+ 
+   "dsmvengelec:attribute.branchgeom.suggestedsegregation": {
+    "property": "attribute[ElectricalBranchGeometry.V_Elec_Suggested_Segregation]",
+    "key": "suggestedsegregation",
+    "label": "dsengelec.Label.Attribute.SuggestedSegregation",
+    "example": "",
+    "description": "Suggested Segregation",
+    "index": "ds6wg:ElectricalBranchGeometry.V_Elec_Suggested_Segregation"
+  },
+  
+   "dsmvengelec:attribute.cable.bendradius": {
+    "property": "attribute[ElecRoutable.V_Elec_Bend_Radius]",
+    "key": "bendradius",
+    "label": "dsengelec.Label.Attribute.BendRadius",
+    "example": "",
+    "description": "Bend Radius",
+    "index": "ds6wg:ElecRoutable.V_Elec_Bend_Radius"
+  },
+   "dsmvengelec:attribute.cable.diameter": {
+    "property": "attribute[ElecRoutable.V_Elec_Diameter]",
+    "key": "diameter",
+    "label": "dsengelec.Label.Attribute.Diameter",
+    "example": "",
+    "description": "Diameter",
+    "index": "ds6wg:ElecRoutable.V_Elec_Diameter"
+  },
+   "dsmvengelec:attribute.cable.color": {
+    "property": "attribute[ElecRoutable.V_Elec_Color]",
+    "key": "color",
+    "label": "dsengelec.Label.Attribute.Color",
+    "example": "",
+    "description": "Color",
+    "index": "ds6wg:ElecRoutable.V_Elec_Color"
+  },
+   "dsmvengelec:attribute.cable.linemass": {
+    "property": "attribute[ElecRoutable.V_Elec_Line_Mass]",
+    "key": "linemass",
+    "label": "dsengelec.Label.Attribute.LineMass",
+    "example": "",
+    "description": "Line Mass",
+    "index": "ds6wg:ElecRoutable.V_Elec_Line_Mass"
+  },
+  
+   "dsmvengelec:attribute.cable.family": {
+    "property": "attribute[ElecRoutable.V_Elec_Family]",
+    "key": "family",
+    "label": "dsengelec.Label.Attribute.Family",
+    "example": "",
+    "description": "Family",
+    "index": "ds6wg:ElecRoutable.V_Elec_Family"
+  },
+  
+   "dsmvengelec:attribute.cable.gauge": {
+    "property": "attribute[ElecRoutable.V_Elec_Gauge]",
+    "key": "gauge",
+    "label": "dsengelec.Label.Attribute.Gauge",
+    "example": "",
+    "description": "Gauge",
+    "index": "ds6wg:ElecRoutable.V_Elec_Gauge"
+  },
+   "dsmvengelec:attribute.cable.nbcores": {
+    "property": "attribute[ElecRoutable.V_Elec_nbCores]",
+    "key": "nbcores",
+    "label": "dsengelec.Label.Attribute.nbCores",
+    "example": "",
+    "description": "Nb Cores",
+    "index": "ds6wg:ElecRoutable.V_Elec_nbCores"
+  },
+   "dsmvengelec:attribute.cable.segregation": {
+    "property": "attribute[Elec3DCable.V_Elec_Segregation]",
+    "key": "segregation",
+    "label": "dsengelec.Label.Attribute.Segregation",
+    "example": "",
+    "description": "Segregation",
+    "index": "ds6wg:Elec3DCable.V_Elec_Segregation"
+  },
+   "dsmvengelec:attribute.cable.boundarylengthfrom": {
+    "property": "attribute[Elec3DCable.V_Elec_BoundaryLength_From]",
+    "key": "boundarylengthfrom",
+    "label": "dsengelec.Label.Attribute.BoundaryLengthFrom",
+    "example": "",
+    "description": "Boundary Length From",
+    "index": "ds6wg:Elec3DCable.V_Elec_BoundaryLength_From"
+  },
+   "dsmvengelec:attribute.cable.boundarylengthto": {
+    "property": "attribute[Elec3DCable.V_Elec_BoundaryLength_To]",
+    "key": "boundarylengthto",
+    "label": "dsengelec.Label.Attribute.BoundaryLengthTo",
+    "example": "",
+    "description": "Boundary Length To",
+    "index": "ds6wg:Elec3DCable.V_Elec_BoundaryLength_To"
+  },
+   "dsmvengelec:attribute.cable.status": {
+    "property": "attribute[Elec3DCable.V_Elec_Status]",
+    "key": "status",
+    "label": "dsengelec.Label.Attribute.Status",
+    "example": "",
+    "description": "Status",
+    "index": "ds6wg:Elec3DCable.V_Elec_Status"
+  },
+   "dsmvengelec:attribute.cable.validation": {
+    "property": "attribute[Elec3DCable.V_Elec_Validation]",
+    "key": "validation",
+    "label": "dsengelec.Label.Attribute.Validation",
+    "example": "",
+    "description": "Validation",
+    "index": "ds6wg:Elec3DCable.V_Elec_Validation"
+  },
+  
+   "dsmvengelec:attribute.cable.itinerarysnap": {
+    "property": "attribute[Elec3DCable.V_Elec_Itinerary_Snap]",
+    "key": "itinerarysnap",
+    "label": "dsengelec.Label.Attribute.ItinerarySnap",
+    "example": "",
+    "description": "Itinerary Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_Itinerary_Snap"
+  },
+   "dsmvengelec:attribute.cable.itinerarylengthsnap": {
+    "property": "attribute[Elec3DCable.V_Elec_ItineraryLength_Snap]",
+    "key": "itinerarylengthsnap",
+    "label": "dsengelec.Label.Attribute.ItineraryLengthSnap",
+    "example": "",
+    "description": "Itinerary Length Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_ItineraryLength_Snap"
+  },
+   "dsmvengelec:attribute.cable.listroutestatussnap": {
+    "property": "attribute[Elec3DCable.V_Elec_ListRouteStatus_Snap]",
+    "key": "listroutestatussnap",
+    "label": "dsengelec.Label.Attribute.ListRouteStatusSnap",
+    "example": "",
+    "description": "List Route Status Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_ListRouteStatus_Snap"
+  },
+   "dsmvengelec:attribute.cable.listroutevalidationsnap": {
+    "property": "attribute[Elec3DCable.V_Elec_ListRouteValidation_Snap]",
+    "key": "listroutevalidationsnap",
+    "label": "dsengelec.Label.Attribute.ListRouteValidationSnap",
+    "example": "",
+    "description": "List Route Validation Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_ListRouteValidation_Snap"
+  },
+   "dsmvengelec:attribute.cable.listroutelengthsnap": {
+    "property": "attribute[Elec3DCable.V_Elec_ListRouteLength_Snap]",
+    "key": "listroutelengthsnap",
+    "label": "dsengelec.Label.Attribute.ListRouteLengthSnap",
+    "example": "",
+    "description": "List Route Length Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_ListRouteLength_Snap"
+  },
+
+   "dsmvengelec:attribute.cable.cuttinglengthtolerance": {
+    "property": "attribute[Elec3DCable.V_Elec_CuttingLength_Tolerance]",
+    "key": "cuttinglengthtolerance",
+    "label": "dsengelec.Label.Attribute.CuttingLengthTolerance",
+    "example": "",
+    "description": "Cutting Length To lerance",
+    "index": "ds6wg:Elec3DCable.V_Elec_CuttingLength_Tolerance"
+  },
+   "dsmvengelec:attribute.cable.cuttinglength": {
+    "property": "attribute[Elec3DCable.V_Elec_CuttingLength]",
+    "key": "cuttinglength",
+    "label": "dsengelec.Label.Attribute.CuttingLength",
+    "example": "",
+    "description": "Cutting Length",
+    "index": "ds6wg:Elec3DCable.V_Elec_CuttingLength"
+  }
+  ,
+   "dsmvengelec:attribute.cable.extralengthfrom": {
+    "property": "attribute[Elec3DCable.V_Elec_ExtraLength_From]",
+    "key": "extralengthfrom",
+    "label": "dsengelec.Label.Attribute.ExtraLengthFrom",
+    "example": "",
+    "description": "Extra Length From",
+    "index": "ds6wg:Elec3DCable.V_Elec_ExtraLength_From"
+  },
+   "dsmvengelec:attribute.cable.extralengthto": {
+    "property": "attribute[Elec3DCable.V_Elec_ExtraLength_To]",
+    "key": "extralengthto",
+    "label": "dsengelec.Label.Attribute.ExtraLengthTo",
+    "example": "",
+    "description": "Extra Length To",
+    "index": "ds6wg:Elec3DCable.V_Elec_ExtraLength_To"
+  },
+   "dsmvengelec:attribute.cable.itinerarycuttinglengthsnap": {
+    "property": "attribute[Elec3DCable.V_Elec_ItineraryCuttingLength_Snap]",
+    "key": "itinerarycuttinglengthsnap",
+    "label": "dsengelec.Label.Attribute.ItineraryCuttingLengthSnap",
+    "example": "",
+    "description": "Itinerary Cutting Length Snap",
+    "index": "ds6wg:Elec3DCable.V_Elec_ItineraryCuttingLength_Snap"
+  },
+   "dsmvengelec:attribute.cable.cuttinglengthmode": {
+    "property": "attribute[Elec3DCable.V_Elec_CuttingLength_Mode]",
+    "key": "cuttinglengthmode",
+    "label": "dsengelec.Label.Attribute.CuttingLengthMode",
+    "example": "",
+    "description": "Cutting Length Mode",
+    "index": "ds6wg:Elec3DCable.V_Elec_CuttingLength_Mode"
+  },
+   "dsmvengelec:attribute.cable.signalid": {
+    "property": "attribute[Elec3DCable.V_Elec_SignalId]",
+    "key": "signalid",
+    "label": "dsengelec.Label.Attribute.SignalId",
+    "example": "",
+    "description": "Signal Id",
+    "index": "ds6wg:Elec3DCable.V_Elec_SignalId"
+  },
+  
+  "dsmvengelec:attribute.conductor.bendradius": {
+    "property": "attribute[ElecConductor.V_Elec_Bend_Radius]",
+    "key": "bendradius",
+    "label": "dsengelec.Label.Attribute.BendRadius",
+    "example": "",
+    "description": "Bend Radius",
+    "index": "ds6wg:ElecConductor.V_Elec_Bend_Radius"
+  },
+
+  "dsmvengelec:attribute.conductor.diameter": {
+    "property": "attribute[ElecConductor.V_Elec_Diameter]",
+    "key": "diameter",
+    "label": "dsengelec.Label.Attribute.Diameter",
+    "example": "",
+    "description": "Diameter",
+    "index": "ds6wg:ElecConductor.V_Elec_Diameter"
+  },
+
+  "dsmvengelec:attribute.conductor.color": {
+    "property": "attribute[ElecConductor.V_Elec_Color]",
+    "key": "color",
+    "label": "dsengelec.Label.Attribute.Color",
+    "example": "",
+    "description": "Color",
+    "index": "ds6wg:ElecConductor.V_Elec_Color"
+  },
+
+  "dsmvengelec:attribute.conductor.lineweight": {
+    "property": "attribute[ElecConductor.V_Elec_Line_Weight]",
+    "key": "lineweight",
+    "label": "dsengelec.Label.Attribute.LineWeight",
+    "example": "", 
+    "description": "lineweight",
+    "index": "ds6wg:ElecConductor.V_Elec_Line_Weight"
+  },
+
+  "dsmvengelec:attribute.conductorgroup.lengthcoefficient": {
+    "property": "attribute[Elec3DConductorGroup.V_Elec_Wire_Length_Coeff]",
+    "key": "lengthcoefficient",
+    "label": "dsengelec.Label.Attribute.LengthCoefficient",
+    "example": "",
+    "description": "Length Coefficient",
+    "index": "ds6wg:Elec3DConductorGroup.V_Elec_Wire_Length_Coeff"
+  },
+
+  "dsmvengelec:attribute.conductorgroup.wiregrouptype": {
+    "property": "attribute[Elec3DConductorGroup.V_Elec_WireGroup_Type]",
+    "key": "wiregrouptype",
+    "label": "dsengelec.Label.Attribute.WireGroupType",
+    "example": "",
+    "description": "Length Coefficient",
+    "index": "ds6wg:Elec3DConductorGroup.V_Elec_WireGroup_Type"
+  },
+
+   "dsmvengelec:attribute.properties.nominalpower": {
+    "property": "attribute[PLMEnsElectricalProperties.V_Ens_NominalPower]",
+    "key": "nominalpower",
+    "label": "dsengelec.Label.Attribute.NominalPower",
+    "example": "",
+    "description": "Nominal Power",
+    "index": "ds6wg:PLMEnsElectricalProperties.V_Ens_NominalPower"
+  },
+  
+  "dsmvengelec:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+
+}

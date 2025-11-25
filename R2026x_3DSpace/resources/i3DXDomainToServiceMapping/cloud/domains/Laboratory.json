@@ -1,0 +1,8 @@
+{
+	"owner" : "KDE14",
+	"description" : "ToDo",
+    "service": "laboratory",
+    "urls": {
+		"fetch" : "/resources/Laboratory/v1/i3dx/fetch"
+	}
+}

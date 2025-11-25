@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="Piping3D">
+	<Domain id="AttributeDef">
+        <Family id="Piping_Cap" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Cap">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Cap"/>
+		</Family>
+		<Family id="Piping_Coupling" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Coupling">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Coupling"/>
+        </Family>
+		<Family id="Piping_Cross" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Cross">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Cross"/>
+        </Family>
+		<Family id="Piping_Elbow" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Elbow">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Elbow"/>
+        </Family>
+		<Family id="Piping_Flange" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Flange">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Flange"/>
+        </Family>
+		<Family id="Piping_Flexible_Pipe" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Flexible_Pipe">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Flexible_Pipe"/>
+        </Family>
+		<Family id="Piping_Gasket" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Gasket">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Gasket"/>
+        </Family>
+		<Family id="Piping_Instrument" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Instrument">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Instrument"/>
+        </Family>
+		<Family id="Piping_Olet" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Olet">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Olet"/>
+        </Family>
+		<Family id="Piping_PipeXPort" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_PipeXPort">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_PipeXPort"/>
+        </Family>
+		<Family id="Piping_Port" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Port">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Port"/>
+        </Family>
+		<Family id="Piping_Reducer" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Reducer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Reducer"/>
+        </Family>
+		<Family id="Piping_Rigid_Pipe" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Rigid_Pipe">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Rigid_Pipe"/>
+        </Family>
+		<Family id="Piping_Spool" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Spool">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Spool"/>
+        </Family>
+		<Family id="Piping_Tee" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Tee">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Tee"/>
+        </Family>
+		<Family id="Piping_Union" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Union">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Union"/>
+        </Family>
+		<Family id="Piping_Valve" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Valve">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Valve"/>
+        </Family>	
+		<Family id="Piping_Miscellaneous" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Miscellaneous">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Miscellaneous"/>
+        </Family>
+		<Family id="Piping_Nozzle" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Nozzle">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMPiping"/>
+            <Constant id="type" value="Piping_Nozzle"/>
+        </Family>		
+		<Family id="Raw_Material_PipeTube" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raw_Material_PipeTube">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLM3DFluidicRaw"/>
+            <Constant id="type" value="Raw_Material_PipeTube"/>
+        </Family>
+		<Family id="Piping_Insulation" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Piping_Insulation">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMEnsPhysical"/>
+            <Constant id="type" value="Piping_Insulation"/>
+        </Family>
+	</Domain>
+</OOTBParameterization>
+

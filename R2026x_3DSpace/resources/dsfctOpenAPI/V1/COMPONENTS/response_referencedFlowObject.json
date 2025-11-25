@@ -1,0 +1,21 @@
+{
+	"type": "object",
+	"properties": {
+		"source": {
+			"type": "string",
+			"example": "https://ServerName/3DSpace"
+		},
+		"type": {
+			"type": "string",
+			"example": "dsfct:FlowItem"
+		},
+		"identifier": {
+			"type": "string",
+			"example": "EE562168015FFCF14F940A513C63AA77"
+		},
+		"relativePath": {
+			"type": "string",
+			"example": "/resources/v1/modeler/dsfct/dsfct:FlowItem/EE562168015FFCF14F940A513C63AA77"
+		}
+	}
+}

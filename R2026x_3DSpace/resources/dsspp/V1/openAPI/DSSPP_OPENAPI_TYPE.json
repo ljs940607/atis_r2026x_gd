@@ -1,0 +1,27 @@
+{
+    "dsspp:SpaceConceptRoot": {
+        "summary": "Space concept root",
+        "description": "Space concept root",
+        "PUBLICMasks": ["dsmvspp:SpaceConceptRootMask.Default", "dsmvspp:SpaceConceptRootMask.Children"],
+        "PUBLICFields": [],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs": ["getItems", "PATCH", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk", "attach", "detach", "POSTSearch", "DELETE"]
+    },
+    "dsspp:SpaceReference": {
+        "summary": "Space reference",
+        "description": "Space reference",
+        "PUBLICMasks": ["dsmvspp:SpaceReferenceMask.Default", "dsmvspp:SpaceReferenceMask.Children"],
+        "PUBLICFields": [],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs": ["getItems", "PATCH", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk", "attach", "detach", "POSTSearch", "DELETE"]
+    },
+    "dsspp:SpaceAssignment": {
+        "summary": "Space assignment",
+        "description": "Space assignment",
+        "PUBLICMasks": ["dsmvspp:SpaceAssignmentMask.Default"],
+        "PUBLICFields": [],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs": ["getItems", "PATCH", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk", "attach", "detach", "POSTSearch", "bulkfetch"]
+    }
+}
+

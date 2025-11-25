@@ -1,0 +1,33 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "ManufacturingItem",
+    "description": "The domain instance for ManufacturingItem in 3DSpace",
+    "packages": [
+        "DELAsmAssemblyModelDisciplines",
+        "DELConstructionItemModel",
+        "DELFmiFunctionalModel",
+        "DELFmiFunctionalModelExpositionCnx",
+        "DELFmiFunctionalModelExpositionCnx1",
+        "DELFmiFunctionalModellmplementCnx",
+        "DELFmiFunctionalModelOutPrereqMatCnx",
+        "DELFmiFunctionalModelPrecedenceCnx",
+        "DELFmiFunctionalModelPrecedenceCnx1",
+        "DELFmiFunctionalModelPrecedencePort",
+        "DELFmiFunctionalModelPrereqMCnx",
+        "DELFmiFunctionalModelPrerequisiteCnx",
+        "DELFmiFunctionalModelPrerequisiteCnx1",
+        "DELFmiFunctionalModelPrerequisitePort",
+        "DELFmiFunctionalModelQuantity",
+        "DELFmiFunctionalModelSubRep",
+        "DELFmiMfgSubstitute",
+        "DELHeavyIndustryModelDisciplines",
+        "DELMBOMDisassemblingReAssembling",
+        "DELMBOMTransformation",
+        "DELProcessModelDisciplines",
+        "DELServiceItemModel",
+        "PLMGroupOfInstancesModel",
+        "PPRAlternate",
+        "DELFmiFunctionalModelImplementCnx",
+        "DELFmiFunctionalModelPrereqMatCnx"
+    ]
+}

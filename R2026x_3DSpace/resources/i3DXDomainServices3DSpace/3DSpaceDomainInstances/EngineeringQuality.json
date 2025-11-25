@@ -1,0 +1,15 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "EngineeringQuality",
+    "description": "EngineeringQuality",
+    "packages": [
+        "PLMAssessmentResult",
+        "PLMKnowHowCheck",
+        "PLMKnowHowFilteringCheck",
+        "PLMKnowHowLibrary",
+        "PLMKnowHowPreCondCheck",
+        "PLMKnowHowRule",
+        "PLMKnowHowRuleSet",
+        "PLMProfile"
+    ]
+}

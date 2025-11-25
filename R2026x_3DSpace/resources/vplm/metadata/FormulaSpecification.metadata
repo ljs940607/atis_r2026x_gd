@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2021, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+    ModelerType="Top"
+    BelongsToModeler="PRODUCT"
+    Name="FormulaSpecification"
+    UseNames="PRODUCTCFG"
+	Architecture="All" 
+    Uuid="05d8dea7-7f21-408c-bf6f-26b629a78b3b"
+    CustomerExposition="Programmer">
+	
+	<Class Name="Formulated_Product"
+		Uuid="d5dc8ef6-f469-4499-9413-4c1a388233f7"
+		Abstract="No"
+		CustomerExposition="Programmer"
+		SuperName="VPMReference"
+		Discipline="Yes"
+		AggregatableTypes="Formulated_Product,Raw_Material"
+		Specializable="Yes"
+		Abbreviation="frm"
+		Searchable="Yes"
+		Newable="All"
+		PublicResourceURI="/resources/v1/modeler/dsfrm/dsfrm:FormulatedProduct/{pid}"
+		>
+		
+		<Property Name = "IconName" Value = "I_FormulatedProduct"/>
+		<Property Name="eventClass" Value="Formulated_Product"/> 
+	
+		<Simple Name="V_DimensionType"
+		  Uuid="80c9e2ca-f538-422e-a82a-285c416650ad"
+		  Type="String"
+		  Protection="External"
+		  MaxLength="256"
+		  ResetOnCloning="No"
+		  DefaultValue="Mass"
+		  ResetOnNewVersion="No">
+			<Range><Equal>Area</Equal>
+				<Equal>Length</Equal>
+				<Equal>Mass</Equal>
+				<Equal>Volume</Equal>
+			</Range>
+			<Property Name="CustoUserAccess" Value="ReadWrite"/>
+		</Simple>
+	</Class>
+	
+	
+	
+
+</Package>

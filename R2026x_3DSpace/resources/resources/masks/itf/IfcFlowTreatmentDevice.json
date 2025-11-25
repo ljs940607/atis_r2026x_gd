@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcFlowTreatmentDevice_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFlowTreatmentDevice_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

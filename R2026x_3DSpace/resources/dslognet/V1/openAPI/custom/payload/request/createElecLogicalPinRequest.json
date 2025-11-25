@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "parent": {
+                        "type": "object",
+                        "properties": {
+                            "identifier": {
+                                "type": "string",
+                                "example": "08248256754330006405ADE900104FC5"
+                            },
+                            "source": {
+                                "type": "string",
+                                "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+                            },
+                            "relativePath": {
+                                "type": "string",
+                                "example": "/resources/v1/modeler/ dslogeqt/ dslogeqt:Equipment/B8760F130000749464049BE80000F8AD/dslognet:Connector/08248256754330006405ADE900104FC5"
+                            }
+                        }
+                    },
+                    "attributes": {
+                        "type": "object",
+                        "properties": {
+                            "contactgauge": {
+                                "type": "string",
+                                "example": "5"
+                            },
+                            "sepcode": {
+                                "type": "string",
+                                "example": "pinA"
+                            },
+                            "direction": {
+                                "type": "integer",
+                                "example": 3
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"oneOf": [{
+			"$ref": "#/components/schemas/createFunctionalInterfaces_referencedObject"
+		},
+		{
+			"$ref": "#/components/schemas/createFunctionalInterfaces_referencedItem"
+		}
+	]
+}

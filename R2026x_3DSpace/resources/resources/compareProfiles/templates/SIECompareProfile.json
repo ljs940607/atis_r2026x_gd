@@ -1,0 +1,32 @@
+{
+    "templates": [
+    {
+        "Name": "Service Items Compare Profile",
+        "NLSPath": "i18n!DS/CompareCommon/assets/nls/CompareCustomization",
+        "Facets": [
+        {
+            "Name": "Service_Items_Types",
+            "ObjectTypes": [
+                "DELServiceAssemblyReference",
+                "DELServiceKitReference",
+                "DELServicePartReference",
+                "DELServiceAttachingItemReference",
+                "DELServiceSpareItemReference",      
+                "DELContinuousServicePartReference" 
+            ],
+            "Interfaces":  [],
+            "Icon": "service"
+        },
+        { 
+            "Name": "Service_Items_Instances",
+            "ObjectTypes": [
+                "DELFmiFunctionIdentifiedInstance"
+            ],
+            "Interfaces":  [],
+            "Icon": "flow-cascade"
+          }
+        ],
+        "AllowCustomMatchingRules": true
+      }
+    ]
+}

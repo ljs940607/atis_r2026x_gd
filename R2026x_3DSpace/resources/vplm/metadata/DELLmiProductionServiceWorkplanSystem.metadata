@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Production System Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2019, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELLmiProductionServiceWorkplanSystem"
+	     Uuid="CAD0105F-EF8D-4F94-9C61-247C7C049626"
+         BelongsToModeler="DELLmiProductionSystem"
+         UseNames="DELLmiProductionSystemPPR"
+         UseProcedures="ENOPsm_Procedures"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>PLM DELMIA Service Workplan System </ShortRole>
+    <Role>This package describes the PLM DELMIA Service Workplan System model on top of DELLmiProductionSystemPPR</Role>
+  </CAAComment>
+
+  <Comment>creation 2019-06-18</Comment>
+
+  <Class Name="DELLmiServiceWorkPlanSystemReference"
+         Uuid="FFA15E84-96B9-441D-BED3-C3B5D2F6B73E"
+         Abstract="No"
+         SuperName="DELLmiPPRSystemReference"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         CreateInstName="DELLmiServiceWorkPlanSystemInstance"
+         Abbreviation="srvwpl"
+		 PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+         InstantiationOwnerTypes="DELLmiServiceWorkPlanSystemReference;DELLmiServiceHeaderWorkPlanReference;DELLmiQtyControlProcessReference">
+
+    <Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="DELLmiServiceWorkPlanSystemInstance"/>
+    <Property Name="IconName" Value="I_PPRServiceWorkplanSystem"/>
+    <Property Name="3DIconName" Value="I_PPRServiceWorkplanSystem.cgr"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="Searchable" Value="Yes"/>
+		
+
+    <CAAComment>
+      <ShortRole>PLM DELMIA Service Workplan System Reference</ShortRole>
+      <Role>PLM DELMIA Service Workplan System Reference</Role>
+    </CAAComment>
+
+	  <Simple Name="V_CodeInfo"
+            Uuid="EBB21317-3525-475B-B0AA-EAEEA638454D"
+            Type="String"
+            MaxLength="300"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L0">
+	  </Simple>
+	
+    <!-- Path declaration for Workplan System Reference -->
+    <Path Name="DELContextForPreassignment"
+		Uuid="89CA237E-AEE5-4479-8E5C-818047D9673D"
+		MultiValuated="No"
+		RoleName="DEL_ContextForPreassignment"
+		Type="SemanticRelation" 
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+		Semantics="Reference"/>
+
+	  <Path Name="DELExistingReferentialForResourcePositioning"
+		Uuid="D95D3BC1-3493-43A1-B1D1-5204F96746ED"
+		MultiValuated="No"
+		RoleName="DEL_ExistingContextForResourcePositioning"
+		Type="SemanticRelation"
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+		Semantics="Reference"/>
+	  
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#XPDM"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_GetAllEntities"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#StandAlone"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_StandAlone"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#AllLevelNoRsc"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_AllLevelNoRsc"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#SupplyChainSourcing"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_SupplyChainSourcing"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#GetAllEntitiesWithRootRscScope"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_GetAllEntitiesWithRootRscScope"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#XPDM2"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_XPDM2"/>
+      </ProcedureForUsage>
+      <ProcedureForUsage>
+        <Usage href="ExchangeScope.meth#Execution"/>
+        <UsedProcedure href="ENOPsm_Procedures.proc#ProductionSystem_ExchangeXPDM_Execution"/>
+      </ProcedureForUsage>
+    </Method>
+
+    <Path Name="DELReferentialForResourcePositioning"
+          Uuid="1234316E-7E6D-4AD1-A2AD-2E22210957F4"
+          RoleName="DEL_ContextForResourcePositioning"
+          MultiValuated="No"
+          Type="SemanticRelation" AdaptativeToMinor="No"
+          SynchroSensitivity="None"
+          RerouteOnEffectivityChange="No"
+          Orientation="In"
+          Protection="External"
+          Semantics="Reference"/>
+
+    
+  </Class>
+
+  <RelationClass Name="DELLmiServiceWorkPlanSystemInstance"
+         Uuid="BF0C2B26-52A3-4D62-B851-1AD16A9AAB9E"
+         Abstract="No"
+         SuperName="DELLmiPPRSystemInstance"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         >
+
+    <Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="DELLmiServiceWorkPlanSystemInstance"/>
+
+    <CAAComment>
+      <ShortRole>PLM DELMIA Service Workplan System Instance. Specialization is not supported yet.</ShortRole>
+      <Role>PLM DELMIA Service Workplan System Instance</Role>
+    </CAAComment>
+
+    <Volatile Name="Reference"
+              Uuid="0B1969AC-A74C-45EB-94D8-EC00923F71A1"
+              Accessor="PLMModelerReferenceKweAttribute"
+              TypeName="DELLmiServiceWorkPlanSystemReference"
+              AccessMode="ReadOnly" />
+
+	<!--<SubClause Name="from" TargetName="DELLmiProductionSystemReference"/>
+	<SubClause Name="from" TargetName="DELLmiPPRHeaderProcessReferenceAbstract"/>-->
+    <SubClause Name="to"   TargetName="DELLmiServiceWorkPlanSystemReference"/>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+    
+    <Path Name="DELLinkOnTimeLimit"
+          Uuid="524EA9AC-2397-4BAB-8E92-7A1043B36AE3"
+          RoleName="LinkOnTimeLimit"
+          MultiValuated="Yes"
+          Type="SemanticRelation" 
+          AdaptativeToMinor="No"
+          SynchroSensitivity="None"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Protection="External"
+          Semantics="Reference"/>
+
+	  <Simple Name="V_UsagePointApplicability"
+			  Uuid="E6D4428C-CCE2-4345-8EF9-388C23046ABF"
+			  Type="Clob"
+			  MaxLength="128000"
+			  MultiValuated="No"
+			  Protection="Internal"/>
+
+  </RelationClass>
+
+	<Class Name="DELLmiServiceWorkPlanSupportingTaskReference"
+         Uuid="7FEC2CBC-7295-4ECA-A91A-FF10C823F2F9"
+         Abstract="No"
+		 Discipline="Yes"
+         SuperName="DELLmiServiceWorkPlanSystemReference"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         CreateInstName="DELLmiServiceWorkPlanSystemInstance"
+         Abbreviation="srvwplst"
+		 PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+         InstantiationOwnerTypes="DELLmiServiceWorkPlanSystemReference;DELLmiServiceHeaderWorkPlanReference;DELLmiQtyControlProcessReference">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELLmiServiceWorkPlanSystemInstance"/>
+		<Property Name="IconName" Value="I_PPRServiceWorkplanSupportingTask"/>
+		<Property Name="3DIconName" Value="I_PPRServiceWorkplanSupportingTask.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="KweDisciplineAttributeValue" Value="ServiceWorkPlanSupportingTaskReference"/>
+	</Class>
+
+	<Class Name="DELLmiServiceWorkPlanRectifyingReference"
+         Uuid="9F47F4F8-9675-4DE9-8DBF-E966B12C86E1"
+	     Abstract="No"
+	     Discipline="Yes"
+         SuperName="DELLmiServiceWorkPlanSystemReference"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         CreateInstName="DELLmiServiceWorkPlanSystemInstance"
+         Abbreviation="srvwplr"
+		 PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+         InstantiationOwnerTypes="DELLmiServiceWorkPlanSystemReference;DELLmiServiceHeaderWorkPlanReference;DELLmiQtyControlProcessReference">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELLmiServiceWorkPlanSystemInstance"/>
+		<Property Name="IconName" Value="I_PPRServiceWorkplanRectifying"/>
+		<Property Name="3DIconName" Value="I_PPRServiceWorkplanRectifying.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="KweDisciplineAttributeValue" Value="ServiceWorkPlanRectifyingReference"/>
+	</Class>
+
+	<Class Name="DELLmiServiceWorkPlanOperationalReference"
+         Uuid="CECCDC97-1C51-41DE-8381-F084458018D9"
+	     Abstract="No"
+	     Discipline="Yes"
+         SuperName="DELLmiServiceWorkPlanSystemReference"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         CreateInstName="DELLmiServiceWorkPlanSystemInstance"
+         Abbreviation="srvwplo"
+		 PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+         InstantiationOwnerTypes="DELLmiServiceWorkPlanSystemReference;DELLmiServiceHeaderWorkPlanReference;DELLmiQtyControlProcessReference">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELLmiServiceWorkPlanSystemInstance"/>
+		<Property Name="IconName" Value="I_PPRServiceWorkplanOperational"/>
+		<Property Name="3DIconName" Value="I_PPRServiceWorkplanOperational.cgr"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="KweDisciplineAttributeValue" Value="ServiceWorkPlanOperationalReference"/>
+	</Class>
+
+	</Package>

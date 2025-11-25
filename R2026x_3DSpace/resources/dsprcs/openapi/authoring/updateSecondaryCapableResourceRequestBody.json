@@ -1,0 +1,46 @@
+{
+	"required": [
+		"cestamp"
+	],
+	"properties": {
+		"resourcesQuantity": {
+			"type": "number",
+			"format": "double",
+			"example": 10.5
+		},
+		"isPreferred": {
+			"type": "boolean",
+			"example": true
+		},
+		"priority": {
+			"type": "integer",
+			"example": 1
+		},
+		"manuallyScheduled": {
+			"type": "boolean",
+			"example": true
+		},
+		"toolChangeoverTime": {
+			"type": "number",
+			"format": "double",
+			"example": 20.5
+		},
+		"isReservedFromFirstStep": {
+			"type": "boolean",
+			"example": true
+		},
+		"capableRscGroupIndex": {
+			"type": "integer",
+			"example": 1
+		},
+		"estimatedTime": {
+			"type": "number",
+			"format": "double",
+			"example": 20.5
+		},
+		"cestamp": {
+			"type": "string",
+			"example": "Object cestamp value"
+		}
+	}
+}

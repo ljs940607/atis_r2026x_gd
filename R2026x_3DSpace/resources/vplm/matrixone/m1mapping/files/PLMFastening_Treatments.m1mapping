@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="PLMFastening_Treatments" />
+    <m1.package name="PLMFastening_Treatments" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="Fsx_BondingTreatmentExt" />
+      <m1.interface name="Fsx_BondingTreatmentExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingAppliedLocation" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingAppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingComponentInstanceID" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingIsCustom" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingIsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingIsPreTreatment" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingIsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingMaterialID" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingMaterialID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingMaterialQuantity" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingMaterialQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingProcessDescription" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingProcessID" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingTreatmentDescription" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingTreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingTreatmentID" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingTreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_BondingTreatmentStandard" />
+        <m1.attribute name="Fsx_BondingTreatmentExt.V_BondingTreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="Fsx_CleaningTreatmentExt" />
+      <m1.interface name="Fsx_CleaningTreatmentExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningAppliedLocation" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningAppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningComponentInstanceID" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningIsCustom" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningIsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningIsPreTreatment" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningIsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningMaterialID" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningMaterialID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningMaterialQuantity" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningMaterialQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningProcessDescription" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningProcessID" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningTreatmentDescription" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningTreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningTreatmentID" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningTreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_CleaningTreatmentStandard" />
+        <m1.attribute name="Fsx_CleaningTreatmentExt.V_CleaningTreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="Fsx_InstallationTreatmentExt" />
+      <m1.interface name="Fsx_InstallationTreatmentExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationAppliedLocation" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationAppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationComponentInstanceID" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationIsCustom" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationIsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationIsPreTreatment" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationIsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationMaterialID" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationMaterialID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationMaterialQuantity" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationMaterialQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationProcessDescription" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationProcessID" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationTreatmentDescription" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationTreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationTreatmentID" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationTreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InstallationTreatmentStandard" />
+        <m1.attribute name="Fsx_InstallationTreatmentExt.V_InstallationTreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="Fsx_ProtectionTreatmentExt" />
+      <m1.interface name="Fsx_ProtectionTreatmentExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionAppliedLocation" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionAppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionComponentInstanceID" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionIsCustom" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionIsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionIsPreTreatment" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionIsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionMaterialID" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionMaterialID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionMaterialQuantity" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionMaterialQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionProcessDescription" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionProcessID" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionTreatmentDescription" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionTreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionTreatmentID" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionTreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProtectionTreatmentStandard" />
+        <m1.attribute name="Fsx_ProtectionTreatmentExt.V_ProtectionTreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="Fsx_StrippingTreatmentExt" />
+      <m1.interface name="Fsx_StrippingTreatmentExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingAppliedLocation" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingAppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingComponentInstanceID" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingDiameter" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingDiameter" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingIsCustom" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingIsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingIsPreTreatment" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingIsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingMaterialID" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingMaterialID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingMaterialQuantity" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingMaterialQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingProcessDescription" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingProcessID" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingTreatmentDescription" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingTreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingTreatmentID" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingTreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingTreatmentStandard" />
+        <m1.attribute name="Fsx_StrippingTreatmentExt.V_StrippingTreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerTreatmentInstance" />
+      <m1.relationship name="FastenerTreatmentInstance" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_AppliedLocation" />
+        <m1.attribute name="FastenerTreatmentInstance.V_AppliedLocation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ComponentInstanceID" />
+        <m1.attribute name="FastenerTreatmentInstance.V_ComponentInstanceID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IsCustom" />
+        <m1.attribute name="FastenerTreatmentInstance.V_IsCustom" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TreatmentStandard" />
+        <m1.attribute name="FastenerTreatmentInstance.V_TreatmentStandard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerTreatmentReference" />
+      <m1.type name="FastenerTreatmentReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IsPreTreatment" />
+        <m1.attribute name="FastenerTreatmentReference.V_IsPreTreatment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProcessDescription" />
+        <m1.attribute name="FastenerTreatmentReference.V_ProcessDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ProcessID" />
+        <m1.attribute name="FastenerTreatmentReference.V_ProcessID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TreatmentDescription" />
+        <m1.attribute name="FastenerTreatmentReference.V_TreatmentDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TreatmentID" />
+        <m1.attribute name="FastenerTreatmentReference.V_TreatmentID" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TreatmentVersion" />
+        <m1.attribute name="FastenerTreatmentReference.V_TreatmentVersion" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerBondingTreatmentInstance" />
+      <m1.relationship name="FastenerBondingTreatmentInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerCleaningTreatmentInstance" />
+      <m1.relationship name="FastenerCleaningTreatmentInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerInstallationTreatmentInstance" />
+      <m1.relationship name="FastenerInstallationTreatmentInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerProtectionTreatmentInstance" />
+      <m1.relationship name="FastenerProtectionTreatmentInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="FastenerStrippingTreatmentInstance" />
+      <m1.relationship name="FastenerStrippingTreatmentInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerBondingTreatmentReference" />
+      <m1.type name="FastenerBondingTreatmentReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerCleaningTreatmentReference" />
+      <m1.type name="FastenerCleaningTreatmentReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerInstallationTreatmentReference" />
+      <m1.type name="FastenerInstallationTreatmentReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerProtectionTreatmentReference" />
+      <m1.type name="FastenerProtectionTreatmentReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="FastenerStrippingTreatmentReference" />
+      <m1.type name="FastenerStrippingTreatmentReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_StrippingDiameter" />
+        <m1.attribute name="FastenerStrippingTreatmentReference.V_StrippingDiameter" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

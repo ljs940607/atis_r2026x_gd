@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_TicketVendingMachine_TicketStuckRatio",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketVendingMachine_MoneyStuckRatio",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketVendingMachine_PaymentMethod",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketVendingMachine_TicketProductionSpeed",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketVendingMachine_TicketVendingMachineType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TicketVendingMachine_VendingMachineUserInterface",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

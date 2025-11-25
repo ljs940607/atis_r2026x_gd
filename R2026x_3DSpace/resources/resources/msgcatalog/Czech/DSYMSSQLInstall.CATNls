@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parametry připojení k SQL serveru";
+MSSQL_ConnectUser.Label1="Uživatelské jméno pro připojení k SQL serveru:";
+MSSQL_ConnectUser.Resume="Uživatelské jméno pro připojení k SQL serveru: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Uživatelské heslo pro připojení k SQL serveru";
+MSSQL_ConnectPwd.Label1="Uživatelské heslo pro připojení k SQL serveru:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Název databáze serveru SQL";
+MSSQL_Instance.Label1="Název databáze serveru SQL:";
+MSSQL_Instance.Resume="Název databáze serveru SQL: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Databázový server SQL serveru";
+MSSQL_Server.Label1="Název SQL serveru:";
+MSSQL_Server.Resume="Název SQL serveru: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Chyba připojení k databázi";
+ConnectionTestFailed.Text="Při pokusu o připojení byla nahlášena následující chyba:\n\n/P1\nZkontrolujte pomocí nástroje „Správce konfigurace SQL serveru“ zkontrolujte následující:\n– Jsou povoleny protokoly „Shared Memory“ a „TCP/IP“\n– Jsou spuštěné služby „SQL Server“ a „SQL Server Browser“.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Vytvoření nové databáze";
+CreateNewMSSQL_DB.Label1="Zaškrtnutím tohoto políčka vytvoříte novou databázi (SQL server musí být instalován lokálně):";
+CreateNewMSSQL_DB.CheckButton="Vytvořit novou databázi SQL serveru";
+CreateNewMSSQL_DB.Resume.true="Vytvořit novou databázi SQL serveru: ano";
+CreateNewMSSQL_DB.Resume.false="Vytvořit novou databázi SQL serveru: ne";
+
+CreateNewMSSQL_DB_Error.Title="Chyba při vytváření nové databáze";
+CreateNewMSSQL_DB_Error.Text="Při použití příkazu „sqlcmd“ byla nahlášena následující chyba:\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="Nová databáze byla úspěšně vytvořena";
+CreateNewMSSQL_DB_Success.Text="Nová databáze SQL serveru byla úspěšně vytvořena";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Výběr datového adresáře MSSQL";
+PathMSSQLFiles.Label1="Adresář používaný k ukládání nových databázových souborů (pouze v případě nové databáze):";
+PathMSSQLFiles.Resume="Umístění souborů MSSQL: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Skupina souborů výchozích dat a dat pro správu";
+MSSQL_Default_Data_FG.Label1="Skupina souborů výchozích dat a dat pro správu (ignorováno, pokud je prázdné)";
+MSSQL_Default_Data_FG.Resume="Skupina souborů výchozích dat a dat pro správu: /P1";
+
+MSSQL_Default_Index_FG.Title="Skupina souborů výchozích indexů a indexů pro správu";
+MSSQL_Default_Index_FG.Label1="Skupina souborů výchozích indexů a indexů pro správu (ignorováno, pokud je prázdné)";
+MSSQL_Default_Index_FG.Resume="Skupina souborů výchozích indexů a indexů pro správu: /P1";

@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Model",
+	"description"    : "Model (portfolio)",
+	"packages"       : ["Product","Configuration","ManufacturingPlan","Build"]
+}

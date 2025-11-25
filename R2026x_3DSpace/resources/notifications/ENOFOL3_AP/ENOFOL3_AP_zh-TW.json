@@ -1,0 +1,21 @@
+{
+  "enoBoookmarkNotif.sharing": "與我共用的書籤資料夾",
+  "enoBoookmarkNotif.subscriptions": "書籤資料夾訂閱的事件",
+  "enoBoookmarkNotif.ContentAdded.message": "<strong>###FROM_USER_NAME###</strong> 已將 <strong>###OBJECT_DISPLAY_NAME###</strong> 加入書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.ContentAdded.mail.subject": "###FROM_USER_NAME### 已加入內容",
+  "Merge.enoBoookmarkNotif.ContentAdded.message": "<strong>###MERGE_COUNT###</strong> 內容已加入至書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.ContentRemoved.message": "<strong>###FROM_USER_NAME###</strong> 已從書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 中移除 <strong>###OBJECT_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.ContentRemoved.mail.subject": "###FROM_USER_NAME### 已移除內容",
+  "Merge.enoBoookmarkNotif.ContentRemoved.message": "已移除書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 中的 <strong>###MERGE_COUNT###</strong> 個內容。",
+  "enoBoookmarkNotif.FolderCreated.message": "<strong>###FROM_USER_NAME###</strong> 已將書籤資料夾 <strong>###OBJECT_DISPLAY_NAME###</strong> 加入書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.FolderCreated.mail.subject": "###FROM_USER_NAME### 已產生書籤",
+  "Merge.enoBoookmarkNotif.FolderCreated.message": "已將 <strong>###MERGE_COUNT###</strong> 個書籤資料夾加入書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.FolderDeleted.message": "<strong>###FROM_USER_NAME###</strong> 已將書籤資料夾 <strong>###OBJECT_DISPLAY_NAME###</strong> 從 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 移除。",
+  "enoBoookmarkNotif.FolderDeleted.mail.subject": "###FROM_USER_NAME### 已移除書籤",
+  "Merge.enoBoookmarkNotif.FolderDeleted.message": "已移除書籤資料夾 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 中的 <strong>###MERGE_COUNT###</strong> 個書籤資料夾。",
+  "enoBoookmarkNotif.ContentAddedCount.message": "<strong>###FROM_USER_NAME###</strong> 將 <strong>###NUMBER_OBJECT###</strong> 個物件加入至 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.ContentRemovedCount.message": "<strong>###FROM_USER_NAME###</strong> 將 <strong>###NUMBER_OBJECT###</strong> 個物件從 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 移除。",
+  "enoBoookmarkNotif.FolderCreatedCount.message": "<strong>###FROM_USER_NAME###</strong> 已將 <strong>###NUMBER_OBJECT###</strong> 個書籤資料夾加入 <strong>###BOOKMARK_DISPLAY_NAME###</strong>。",
+  "enoBoookmarkNotif.FolderDeletedCount.message": "<strong>###FROM_USER_NAME###</strong> 已移除 <strong>###BOOKMARK_DISPLAY_NAME###</strong> 中的 <strong>###NUMBER_OBJECT###</strong> 個書籤資料夾。",
+  "enoBoookmarkNotif.GrantAccess.message": "<strong>###FROM_USER_NAME###</strong> 與您共用了 <strong>###OBJECT_DISPLAY_NAME###</strong>。"
+}

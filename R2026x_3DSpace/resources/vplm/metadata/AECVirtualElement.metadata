@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "AECVirtualElement" UseNames = "AECKernel" Uuid = "d8efef0a-b58d-4afe-8003-3348155d312d" xmlns = "PLMDictionaryUnified">
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "AecVirtualElement" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "AecElement" Uuid = "F36FFEEC-A139-4DB5-8372-7B5E926B0135">
+    <Property Name = "GroupingType" Value = "AecVirtualElement"/>
+    <Property Name = "IconName" Value = "I_AecVirtualElement"/>
+    <Property Name = "3DIconName" Value = "I_AecVirtualElement.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "AecVirtualElementType" SuperName = "AecElementType" Uuid = "BB705516-6EEE-4C6E-90D6-C87D0F5C24EF">
+    <Property Name = "GroupingType" Value = "AecVirtualElementType"/>
+    <Property Name = "IconName" Value = "I_AecVirtualElementType"/>
+    <Property Name = "3DIconName" Value = "I_AecVirtualElementType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+</Package>

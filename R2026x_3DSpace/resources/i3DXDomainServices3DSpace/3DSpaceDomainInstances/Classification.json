@@ -1,0 +1,10 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Classification",
+	"description"    : "IP Classification",
+	"packages"       : [
+        "Classification",
+        "LibraryFeature"
+    ]
+}
+

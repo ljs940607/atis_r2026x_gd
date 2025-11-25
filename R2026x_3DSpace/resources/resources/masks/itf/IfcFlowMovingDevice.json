@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcFlowMovingDevice_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFlowMovingDevice_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

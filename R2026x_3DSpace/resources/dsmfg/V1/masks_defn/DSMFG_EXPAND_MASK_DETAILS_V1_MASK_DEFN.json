@@ -1,0 +1,50 @@
+{
+	"rootMetaType"				: "dsmfg:MfgItem",
+	"sequenceExclude"			: "flattenedtaxonomies:\"reltypes/MfgProcessAlternate\"",
+	"addPathsToResponse"		: true,
+	"dsmfg:MfgItem": {
+		"mask"					: "dsmfg:MfgItemMask.Default",
+		"cestamp"				: true
+	},
+	"dsmfg:MfgItemInstance": {
+		"mask"			: "dsmfg:MfgItemInstanceMask.Default",
+		"fields"		: [ "dsmfg:instance.parent",
+							"dsmfg:instance.reference" ],
+		"cestamp"		: true
+	},
+	"dsmfg:Alternate": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:ResultingEngItem": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:Origin": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:Substitute": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:MfgResponsibility": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:AssignedRequirement": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	},
+	"dsmfg:ScopeRequirementSpec": {
+		"mask"			: "dsmfg:DefaultContentMask.utc",
+		"cestamp"		: true,
+		"composer"		: true
+	}
+}

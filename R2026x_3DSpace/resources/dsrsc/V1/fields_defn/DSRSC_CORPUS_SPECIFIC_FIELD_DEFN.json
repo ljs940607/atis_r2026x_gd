@@ -1,0 +1,41 @@
+{
+	"dsrsc:instanceDetails.referencedObject": {
+		"isReferencedObject": true
+	},
+	"dsmvrsc:attribute.extension.resourceSetUpTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceSetUpTimeReduced": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceCycleTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceMeanTimeBeforeFailure": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceTargetedCycleTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceCalculatedCycleTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.resourceMeanTimeToRepair": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.workerWeight": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.workerStature": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.robotMaxPayload": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.robotRepeatability": {
+		"restrictQuantityFormat": true
+	},
+	"dsmvrsc:attribute.extension.robotApproachReach": {
+		"restrictQuantityFormat": true
+	}
+}

@@ -1,0 +1,522 @@
+{
+   "dsmfg:DefaultBusMask.utc": [
+		{
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        }
+	],
+	"dsmfg:DefaultRelMask.utc": [
+		"dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+        "dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+        "dsmveno:attribute.instance.name",
+        "dsmveno:attribute.instance.description"
+	],
+	"dsmfg:DefaultContentMask.utc": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",		
+		"dsmveno:basic.organization"
+	],
+	"dsmfg:MfgItemMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		}
+	],
+	"dsmfg:MfgItemMask.Default.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:DefaultBusMask.utc"
+		}		
+	],	
+	"dsmfg:MfgItemMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:attribute.reference.createdFrom",
+		"dsmveno:attribute.reference.versionComment",
+    	"dsmfg:outsourced",
+    	"dsmfg:planningRequired",
+    	"dsmfg:estimatedTime",
+    	"dsmfg:isLotNumberRequired",
+    	"dsmfg:isSerialNumberRequired",
+    	"dsmfg:depthOfFeature",
+    	"dsmfg:diameterOfFeature",
+    	"dsmfg:estimatedCost",
+    	"dsmfg:estimatedCostCurrency",
+		"dsmfg:estimatedLeadTimeDescription",
+		"dsmfg:estimatedWeight",
+		"dsmfg:manufacturedItemClassification",
+		"dsmfg:materialCategory",
+		"dsmfg:spareManufacturedItem",
+		"dsmfg:targetReleaseDate",
+		"dsmfg:mfgFastenerStrategy",
+		"dsmfg:magnitude",
+		"dsmfg:refQuantity",
+		"dsmfg:numberOfMfgAssembly",
+		"dsmfg:ServiceItem.essentiality",
+		"dsmfg:ServiceItem.estimatedMTBF",
+		"dsmfg:ServiceItem.estimatedMTBUR",
+		"dsmfg:ServiceItem.estimatedMTTR",
+		"dsmfg:ServiceItem.lifeLimit",
+		"dsmfg:ServiceItem.repairable",
+		"dsmfg:ServiceItem.replaceable",
+		"dsmfg:ServiceItem.replacementType",
+		"dsmfg:ServiceItem.spareCandidate",
+		"dsmfg:ServiceItem.maintenanceCandidate",
+		"dsmfg:ServiceItem.repairType",
+		"dsmfg:EnterpriseReference.Details",
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemMask.ConstructionTypes"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemMask.DrillTypes"
+		},
+    	"dsmfg:MfgItemEnterpriseAttributes",
+    	"dsmfg:CreateAssemblyEnterpriseAttributes",
+    	"dsmfg:CreateKitEnterpriseAttributes",
+    	"dsmfg:CreateMaterialEnterpriseAttributes",
+    	"dsmfg:ProvideEnterpriseAttributes",
+    	"dsmfg:ElementaryEndItemEnterpriseAttributes",
+    	"dsmfg:InstallationEnterpriseAttributes",
+    	"dsmfg:ProcessContinuousCreateMaterialEnterpriseAttributes",
+    	"dsmfg:ProcessContinuousProvideEnterpriseAttributes",
+    	"dsmfg:MarkingEnterpriseAttributes",
+		"dsmfg:AnnotationEnterpriseAttributes",
+		"dsmfg:TransformEnterpriseAttributes",
+		"dsmfg:MachineEnterpriseAttributes",
+		"dsmfg:BevelingEnterpriseAttributes",
+		"dsmfg:CuttingEnterpriseAttributes",
+		"dsmfg:GrindingEnterpriseAttributes",
+		"dsmfg:NoDrillEnterpriseAttributes",
+		"dsmfg:DrillEnterpriseAttributes",
+		"dsmfg:PreDrillEnterpriseAttributes",
+		"dsmfg:FastenEnterpriseAttributes",
+        "dsmfg:DetailedFastenEnterpriseAttributes",
+		"dsmfg:UnfastenEnterpriseAttributes",
+		"dsmfg:SplitProcessEnterpriseAttributes",
+		"dsmfg:ServiceItemEnterpriseAttributes",
+		"dsmfg:ServiceAssemblyEnterpriseAttributes",
+		"dsmfg:ServicePartEnterpriseAttributes",
+		"dsmfg:ServiceKitEnterpriseAttributes",
+		"dsmfg:ContinuousServiceItemEnterpriseAttributes",
+		"dsmfg:ContinuousServicePartEnterpriseAttributes",
+		"dsmfg:ConstructionStructureEnterpriseAttributes",
+		"dsmfg:ConstructionWorkElementEachEnterpriseAttributes",
+		"dsmfg:ConstructionWorkElementAreaEnterpriseAttributes",
+		"dsmfg:ConstructionWorkElementLengthEnterpriseAttributes",
+		"dsmfg:ConstructionWorkPackageEachEnterpriseAttributes",
+		"dsmfg:ConstructionWorkPackageAreaEnterpriseAttributes",
+		"dsmfg:ConstructionWorkPackageGroupEnterpriseAttributes",
+		"dsmfg:ConstructionWorkPackageLengthEnterpriseAttributes"
+	],
+	"dsmfg:MfgItem.LocateMask.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Default"
+		}
+	],	
+	"dsmfg:MfgItem.NavigateMask.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemMask.Default"
+		}
+	],		
+	"dsmfg:MfgItemInstance.NavigateMask.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Default"
+		}
+	],
+	"dsmfg:MfgItemMask.ConstructionTypes": [
+		"dsmfg:hazard",
+		"dsmfg:timePerDay",
+		"dsmfg:workerNumber",
+		"dsmfg:manualUnitTime",
+		"dsmfg:quantityPerDay",
+		"dsmfg:workElementQuantity",
+		"dsmfg:sharedDatesInformation"
+	],	
+	"dsmfg:MfgItemMask.DrillTypes": [
+		"dsmfg:drillFitTolerenceInfo",
+		"dsmfg:drillThreadInfo",
+		"dsmfg:drillCategoryInfo",
+		"dsmfg:drillVBottomInfo",
+		"dsmfg:drillHoleExtraFeatureInfo"
+	],		
+	"dsmfg:MfgItemMask.Config": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemMask.Details"
+		},
+		"dsmvcfg:attribute.configurationCtxt"
+	],
+	"dsmfg:MfgItemInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmfg:instance.reference"
+		
+	],
+	"dsmfg:MfgItemInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Default"
+		},
+		"dsmveno:basic.instance.reservedByUserId",
+		"dsmfg:instanceDetails.referencedObject",
+		"dsmfg:MfgItemInstance.quantity",
+		"dsmfg:MfgItemInstance.moveLocked",
+		"dsmfg:MfgItemInstance.fastenerClassification",
+		"dsmfg:MfgItemInstance.lossQuantity",
+		"dsmfg:MfgItemInstance.useCase",
+		"dsmfg:MfgItemInstance.isConstQty",
+		"dsmfg:MfgItemInstance.contQuantity"		
+	],
+	"dsmfg:MfgItemInstanceMask.Details.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Details"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.FastenTypes"
+		}		
+	],
+	"dsmfg:MfgItemInstanceMask.FastenTypes": [
+		"dsmfg:DTPFExt",
+		"dsmfg:TorqueExt",
+		"dsmfg:EntryHoleExt",
+		"dsmfg:InstallationOrientationConstraintExt"
+	],
+	"dsmfg:MfgItemInstanceMask.Filterable": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Default"
+		},
+		"dsmvcfg:attribute.hasEffectivity"
+	],
+	"dsmfg:MfgItemInstanceLocateMask":[
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgItemInstanceMask.Details"
+		},
+		"dsmfg:parentObject"
+	],
+	"dsmfg:ScopeEngItemMask.Default": [
+		"dsmveno:basic.id",
+		"dsmfg:ScopeEngItem.referencedObject"
+    ],
+	"dsmfg:ScopeEngItemMask.Default.utc": [
+		"dsmveno:basic.id",
+		"dsmfg:ScopeEngItem.referencedObject.v1"
+    ],  
+    "dsmfg:ScopeEngItemLocateMask":[
+		"dsmfg:itemRef",
+		"dsmfg:specifiedOccurrence",
+		"dsmfg:engRef"
+	],
+    "dsmfg:PartialScopeEngItemMask.Default": [
+		"dsmveno:basic.id",
+		"dsmfg:PartialScopeEngItem.referencedObject"
+    ],
+    "dsmfg:PartialScopeEngItemMask.Default.utc": [
+		"dsmveno:basic.id",
+		"dsmfg:PartialScopeEngItem.referencedObject.v1"
+    ],  
+    "dsmfg:PartialScopeEngItemLocateMask": [	
+    	"dsmfg:itemRef",	
+    	"dsmfg:engRef"
+    ],
+    "dsmfg:ImplementedEngOccurrenceLocateMask": [
+    	"dsmfg:instanceObject",
+    	"dsmfg:specifiedOccurrence"
+    ],
+	"dsmfg:ResultingEngItemMask.Default": [
+	    "dsmveno:basic.id",
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmfg:ResultingEngItem.usage",
+		"dsmfg:ResultingEngItem.computed",
+		"dsmfg:ResultingEngItem.referencedObject"
+	],
+	"dsmfg:ResultingEngItemMask.Default.utc": [
+	    "dsmveno:basic.id",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmfg:ResultingEngItem.usage",
+		"dsmfg:ResultingEngItem.computed",
+		"dsmfg:ResultingEngItem.referencedObject.v1",
+		"dsmfg:ResultingEngItem.ProductConfiguration.referencedObject"
+	],	
+    "dsmfg:AssignmentFilterMask.Default": [
+		"dsmveno:basic.id",
+		"dsmfg:AssignmentFilter.referencedObjects"
+	],
+	"dsmfg:AssignmentFilter.LocateMask.utc": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:AssignmentFilterMask.Default"
+		}
+	],
+	"dsmfg:AssignmentFilterIndexLocateMask":[
+		"dsmfg:itemRef",
+		"dsmfg:AssignmentFilter.referencedObjects"
+	],
+	"dsmfg:ImplementedEngOccurrenceMask.Default": [
+	    "dsmveno:basic.id",
+		"dsmfg:ImplementedEngOccurrence.referencedObjects"
+    ],
+	"dsmfg:AssignedRequirementMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+		"dsmfg:program.getAssignedRequirement",
+		"dsmfg:AssignedRequirement.contextualReqInfo",
+		"dsmfg:AssignedRequirement.isIgnored",
+		"dsmfg:AssignedRequirement.usage"
+	],
+	"dsmfg:ScopeRequirementSpecMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+		"dsmfg:program.getScopeRequirementSpec"
+	],
+	"dsmfg:OriginMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+		"dsmfg:Origin.originItem"
+	],
+	"dsmfg:OriginLocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:OriginMask.Default"
+		},
+		"dsmfg:parentObject"
+	],
+	"dsmfg:SubstituteMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+		"dsmfg:Substitute.referencedObject",
+		"dsmfg:Substitute.instanceObject"
+	],	
+	"dsmfg:SubstituteLocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:SubstituteMask.Default"
+		}
+	],
+	"dsmfg:AlternateMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+		"dsmfg:Alternate.alternateItem"
+	],	
+	"dsmfg:AlternateLocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:AlternateMask.Default"
+		},
+		"dsmfg:parentObject"
+	],
+	"dsmfg:Mask.MfgItemEnterpriseAttributes.Default": [
+		"dsmfg:MfgItemEnterpriseAttributes"
+	],
+	"dsmfg:Mask.CreateAssemblyEnterpriseAttributes.Default":[
+		"dsmfg:CreateAssemblyEnterpriseAttributes"
+	],
+	"dsmfg:Mask.CreateKitEnterpriseAttributes.Default":[
+		"dsmfg:CreateKitEnterpriseAttributes"
+	],
+	"dsmfg:Mask.CreateMaterialEnterpriseAttributes.Default":[
+		"dsmfg:CreateMaterialEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ProvideEnterpriseAttributes.Default":[
+		"dsmfg:ProvideEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ElementaryEndItemEnterpriseAttributes.Default":[
+		"dsmfg:ElementaryEndItemEnterpriseAttributes"
+	],
+	"dsmfg:Mask.InstallationEnterpriseAttributes.Default":[
+		"dsmfg:InstallationEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ProcessContinuousCreateMaterialEnterpriseAttributes.Default":[
+		"dsmfg:ProcessContinuousCreateMaterialEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ProcessContinuousProvideEnterpriseAttributes.Default":[
+		"dsmfg:ProcessContinuousProvideEnterpriseAttributes"
+	],
+	"dsmfg:Mask.MarkingEnterpriseAttributes.Default":[
+		"dsmfg:MarkingEnterpriseAttributes"
+	],
+	"dsmfg:Mask.AnnotationEnterpriseAttributes.Default":[
+		"dsmfg:AnnotationEnterpriseAttributes"
+	],	
+	"dsmfg:Mask.TransformEnterpriseAttributes.Default":[
+		"dsmfg:TransformEnterpriseAttributes"
+	],
+	"dsmfg:Mask.MachineEnterpriseAttributes.Default":[
+		"dsmfg:MachineEnterpriseAttributes"
+	],	
+	"dsmfg:Mask.BevelingEnterpriseAttributes.Default":[
+		"dsmfg:BevelingEnterpriseAttributes"
+	],
+	"dsmfg:Mask.CuttingEnterpriseAttributes.Default":[
+		"dsmfg:CuttingEnterpriseAttributes"
+	],	
+	"dsmfg:Mask.GrindingEnterpriseAttributes.Default":[
+		"dsmfg:GrindingEnterpriseAttributes"
+	],
+	"dsmfg:Mask.NoDrillEnterpriseAttributes.Default":[
+		"dsmfg:NoDrillEnterpriseAttributes"
+	],
+	"dsmfg:Mask.DrillEnterpriseAttributes.Default":[
+		"dsmfg:DrillEnterpriseAttributes"
+	],	
+	"dsmfg:Mask.PreDrillEnterpriseAttributes.Default":[
+		"dsmfg:PreDrillEnterpriseAttributes"
+	],
+	"dsmfg:Mask.FastenEnterpriseAttributes.Default":[
+		"dsmfg:FastenEnterpriseAttributes"
+	],
+	"dsmfg:Mask.DetailedFastenEnterpriseAttributes.Default":[
+		"dsmfg:DetailedFastenEnterpriseAttributes"
+	],	
+	"dsmfg:Mask.UnfastenEnterpriseAttributes.Default":[
+		"dsmfg:UnfastenEnterpriseAttributes"
+	],
+	"dsmfg:Mask.SplitProcessEnterpriseAttributes.Default":[
+		"dsmfg:SplitProcessEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionStructureEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionStructureEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkElementEachEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkElementEachEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkElementAreaEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkElementAreaEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkElementLengthEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkElementLengthEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkPackageEachEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkPackageEachEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkPackageAreaEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkPackageAreaEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkPackageGroupEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkPackageGroupEnterpriseAttributes"
+	],
+	"dsmfg:Mask.ConstructionWorkPackageLengthEnterpriseAttributes.Default":[
+		"dsmfg:ConstructionWorkPackageLengthEnterpriseAttributes"
+	],
+	"dsmfg:AssignedOrganizationMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified",
+		"dsmveno:basic.created",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",		
+		"dsmfg:MfgResponsibility.usage",
+	    "dsmfg:AssignedOrganization.organizationRef"
+	],
+	"dsmfg:MfgResponsibilityMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.collabspace",		
+		"dsmveno:basic.organization",
+	    "dsmfg:MfgResponsibility.organizationRef"
+	],
+	"dsmfg:MfgResponsibilityMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgResponsibilityMask.Default"
+		},
+	    "dsmfg:MfgResponsibility.makeOrBuy",
+		"dsmfg:MfgResponsibilityEnterpriseAttributes"
+	],
+	"dsmfg:MfgResponsibilityLocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:MfgResponsibilityMask.Default"
+		},
+		"dsmfg:MfgResponsibility.makeOrBuy",
+		"dsmfg:parentObject"
+	],
+	"dsmfg:DependencyMask.Default": [
+		"dsmfg:dependencies"
+	],
+	"dsmfg:PrimaryCapableResourceMask.Default": [
+		"dsmveno:basic.id",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:attribute.reference.description",
+		"dsmfg:PLMEntity.usage",
+		"dsmfg:program.getPrimaryCapableResource"	
+	],
+	"dsmfg:PrimaryCapableResourceLocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmfg:PrimaryCapableResourceMask.Default"
+		},
+		"dsmfg:parentObject"
+	],
+	"dsmfg:Mask.MfgResponsibilityEnterpriseAttributes.Default":[
+		"dsmfg:MfgResponsibilityEnterpriseAttributes"
+	]
+}
+

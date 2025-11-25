@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricDistributionBoardOccurrence_IsMain",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricDistributionBoardOccurrence_IsSkilledOperator",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

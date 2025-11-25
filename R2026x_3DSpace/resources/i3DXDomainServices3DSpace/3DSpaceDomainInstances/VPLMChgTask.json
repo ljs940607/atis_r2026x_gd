@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "VPLMChgTask",
+	"description"    : "Legacy VPLM change and task",
+	"packages"       : ["PLMChgActionBase","PLMChgAttachment","PLMChgDesignAction","PLMChgDocumentationAction","PLMChgFamilyInput","PLMChgMaintenanceAction","PLMChgManufacturingAction","PLMChgMAO","PLMChgPeer","PLMChgProductInput","PLMChgSignoffAction","PLMChgTaskAction","PLMChgTaskInput","VPMCfgApplicability","VPMCfgApplicabilityDisciplines"]
+}

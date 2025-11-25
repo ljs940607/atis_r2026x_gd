@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcVoidingFeature_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcVoidingFeature_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcVoidingFeature_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

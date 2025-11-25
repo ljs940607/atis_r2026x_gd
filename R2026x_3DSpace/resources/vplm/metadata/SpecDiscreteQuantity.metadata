@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2021, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+    ModelerType="Top"
+    BelongsToModeler="PRODUCT"
+    Name="SpecDiscreteQuantity"
+    UseNames="MustBeMadeFromSpecification;PRODUCTCFG"
+	Architecture="All" 
+    Uuid="bdc8f53b-a655-47f4-86a4-502b9076a798"
+    CustomerExposition="Programmer">
+	
+   <Extension Name="VPMInstanceQuantity_Discrete"
+             Uuid="3fb980c2-52fa-40ab-8afa-ac0a5c913d35"
+			 ScopeNames="MustBeMadeFrom VPMInstance"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+		<Simple Name="V_discQuantity"
+				Uuid="9ece8a53-54f9-4437-9e36-0c7b8edd857b"
+				Type="Double"
+				MultiValuated="No"
+				Protection="Free"
+				DefaultValue="0"
+				KeepFormat="Yes"
+            >
+            
+			<CAAComment>
+				<ShortRole>Discrete Quantity of Produts usage in an instance or make form</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Discrete Quantity of Produts usage in an instance or make form</ShortRole>
+		</CAAComment>
+	</Extension>
+
+</Package>
+
+
+
+

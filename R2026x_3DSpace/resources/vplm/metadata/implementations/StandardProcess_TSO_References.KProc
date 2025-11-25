@@ -1,0 +1,9 @@
+#Prog StandardProcess_TSO_References (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+  {
+let PLMIDSetStandardProcessRef (PLMIDSet)
+
+PLMIDSetStandardProcessRef = Restrict(iPLMIDSet, "DELStandardProcess/DELStandardProcessReference")
+
+oPLMIDSet = PLMIDSetStandardProcessRef
+
+}

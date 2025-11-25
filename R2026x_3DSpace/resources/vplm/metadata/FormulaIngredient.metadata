@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2021, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+    ModelerType="Top"
+    BelongsToModeler="PRODUCT"
+    Name="FormulaIngredient"
+    UseNames="ERCoreModeler;PRODUCTCFG"
+	Architecture="All" 
+    Uuid="22826210-4280-4891-bfd7-64214cfce532"
+    CustomerExposition="Programmer">
+	
+	
+	
+	<RelationClass
+		Name="Formula_Ingredient"
+		Uuid="2d607a6d-b668-42d0-8b3e-5b302b83fd36"
+		SuperName="RelationType"
+		Abstract="No"
+		CustomerExposition="Programmer"
+		CustomerExtensible ="Yes"
+		Specializable ="No">
+    
+    
+ 	    <Simple Name="V_TreeOrder"
+				Uuid="c5d92594-005d-4a31-9c94-45bfd7cee4f2"
+				Type="Double"
+				MultiValuated="No"
+				Protection="External"
+				KeepFormat="Yes"
+				DefaultValue="0">
+		</Simple>
+		
+		<Simple Name="V_Name"
+				Uuid="ea0a117d-da6e-4edf-a162-135e33abe268"
+				Type="String"
+				MultiValuated="No"
+				Protection="External">
+				
+		</Simple>
+		
+		<Simple Name="V_Function"
+				Uuid="0755f2fd-2230-467b-a58c-8e30232b0f8e"
+				Type="String"
+				MultiValuated="No"
+				Protection="External">
+				
+		</Simple>
+  
+		<SubClause Name="from" TargetName="Formulated_Product"
+		  minorrevision="replicate" clone="replicate"/>
+		<SubClause Name="to" TargetName="Formulated_Product"/>
+		<SubClause Name="to" TargetName="Raw_Material"/>
+		
+		<Method ImplementationType="None">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+  </RelationClass>
+	
+	<!-- Continuous Quantity and Make From extensions start -->
+  
+	<!-- FormulaIngredientPercent Start-->
+	
+    <Extension Name="FormulaIngredientPercent"
+      Uuid="4d35c6fe-455c-4a75-9909-f19d9f253aff"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+	 <Simple Name="Target"
+            Uuid="86cca23b-a76e-4bc9-bee7-b0a11566f40e"
+            Type="Double"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External">
+	  <Property Name="SIXW" Value="ds6w:requests"/> 
+	 </Simple>
+	 
+	 <Simple Name="Min"
+            Uuid="155a4a4d-a8f5-4d0a-a966-944e91ffb512"
+            Type="Double"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 
+	 <Simple Name="Max"
+            Uuid="a48d5687-51a5-4c16-a0d4-1b7e6af1157b"
+            Type="Double"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 
+	 <Simple Name="Loss"
+            Uuid="c2afc074-5412-4b86-9bd3-e8599db14442"
+            Type="Double"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 
+    </Extension>
+	
+	<!-- FormulaIngredientPercent End-->
+	
+	<!-- FormulaIngredientQuantityRange Start-->
+	
+	<Extension Name="FormulaIngredientQuantityRange_Area"
+      Uuid="be3dc900-4425-4763-b5ce-364f324a8fd7"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+	 <Simple Name="Min"
+            Uuid="51f1c80b-dea9-4a31-8cb8-2c86ef9e898b"
+            Type="Double"
+			Magnitude="AREA"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 <Simple Name="Max"
+            Uuid="459111d2-c705-4859-a795-e632035047aa"
+            Type="Double"
+			Magnitude="AREA"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+    </Extension>
+	
+	
+	<Extension Name="FormulaIngredientQuantityRange_Length"
+      Uuid="b7374320-1f72-49ef-8ed5-7f00eb8dd2f8"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+	 <Simple Name="Min"
+            Uuid="97b29987-932a-4cf0-b5f1-85db0b92c7de"
+            Type="Double"
+			Magnitude="LENGTH"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 <Simple Name="Max"
+            Uuid="5a1a76b8-2c87-4241-aa30-75047ea7f43c"
+            Type="Double"
+			Magnitude="LENGTH"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+    </Extension>
+	
+	
+	<Extension Name="FormulaIngredientQuantityRange_Mass"
+      Uuid="9a14d2d0-c2cb-4a50-bd9c-116f5c1e7a82"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+	 <Simple Name="Min"
+            Uuid="c691c981-b24c-44a9-b3e9-25e890c7a427"
+            Type="Double"
+			Magnitude="MASS"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 <Simple Name="Max"
+            Uuid="f7d529c7-1965-433e-b036-4feb211726fe"
+            Type="Double"
+			Magnitude="MASS"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+    </Extension>
+	
+	
+	<Extension Name="FormulaIngredientQuantityRange_Volume"
+      Uuid="815e5291-4fb9-455a-858a-4b57afb4eddc"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+	 <Simple Name="Min"
+            Uuid="ff422321-798a-4a40-b4bb-98bcff64b936"
+            Type="Double"
+			Magnitude="VOLUME"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+	 <Simple Name="Max"
+            Uuid="d98428b6-b0cc-4a59-8ba1-e2add04602e0"
+            Type="Double"
+			Magnitude="VOLUME"
+            MultiValuated="No"
+			KeepFormat="Yes"
+            Protection="External"> 
+	 </Simple>
+    </Extension>
+	<!-- FormulaIngredientQuantityRange End-->
+	
+	<!-- FormulaIngredientFunction Start-->
+	
+	<Extension Name="IngredientFunction"
+      Uuid="109d65ae-a4ba-44c2-a7ad-16900c5122a6"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="VPMInstance Formula_Ingredient"
+      Abstract="No"
+      Specializable="No">
+		 <Simple Name="V_IngredientRole"
+            Uuid="30b65823-09c7-40d9-b065-cd6448314da1"
+            Type="String"
+            MultiValuated="No"
+            Protection="External"> 
+		</Simple>
+    </Extension>
+	
+	<!-- FormulaIngredientQS End-->
+	
+	<!-- Continuous Quantity and Make From extensions end -->
+	
+
+</Package>
+

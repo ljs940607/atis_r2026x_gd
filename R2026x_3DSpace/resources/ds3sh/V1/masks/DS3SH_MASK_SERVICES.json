@@ -1,0 +1,15 @@
+{
+"dsmv3sh:3DShapeMask.Default":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    }    
+],
+"dsmv3sh:3DShapeMask.ParentEngItems":[
+    {
+        "property": "reuseMask",
+        "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmv3sh:parentEngItems"
+]
+}

@@ -1,0 +1,105 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "PLMHistoLinkCnx",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "PLMHistoLinkCnx",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDHistoLinkCnx"
+					}
+				],
+				"Dependencies": [
+					[
+						{
+							"ConceptualName": "dsrsc:ResourceItem",
+							"DependentAttributes": [
+								"From_IDs"
+							]
+						},
+						{
+							"ConceptualName": "dsrsc:ResourceItem",
+							"DependentAttributes": [
+								"TO_IDs"
+							]
+						}
+					]
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "TO_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELRmiFlowCnx",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELRmiFlowCnx",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDFlowCnx"
+					}
+				],
+				"Dependencies": [
+					[
+						{
+							"ConceptualName": "dsrsc:ResourceItemInstance",
+							"DependentAttributes": [
+								"From_IDs"
+							]
+						},
+						{
+							"ConceptualName": "dsrsc:ResourceItemInstance",
+							"DependentAttributes": [
+								"TO_IDs"
+							]
+						}
+					]
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "TO_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

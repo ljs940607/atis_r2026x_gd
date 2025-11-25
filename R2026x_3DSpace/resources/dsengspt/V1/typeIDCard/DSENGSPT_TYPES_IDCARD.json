@@ -1,0 +1,52 @@
+{
+  "dsengspt:Support": {
+    "kindOf": "root",
+    "beType": "type_VPMReference",
+    "classesWhere": "(type == VPMReference && attribute[PLMEntity.V_discipline] == SharedSupportPart)",
+    "indexClassesWhere":"flattenedtaxonomies:interfaces/SharedSupportPart",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": [ ],
+    "defaultMask": "dsmvengspt:SupportMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": [ "dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric" ],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengspt.V1.dictionaries.ENOXdsengsptDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    },
+    "publicResourceURI": "/resources/v1/modeler/dsengspt/dsengspt:Support/{pid}"
+  },
+
+  "dsengspt:SupportInst": {
+    "kindOf": "content",
+    "beType": "relationship_VPMInstance",
+    "classesWhere": "(type == VPMInstance && to.attribute[PLMEntity.V_discipline] == SharedSupportPart)",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dseng:EngItem", "dsengelec:HarnessGeom", "dsenghvac:Spool", "dsengpip:Spool"],
+    "defaultMask": "dsmvengspt:SupportInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengspt.V1.dictionaries.ENOXdsengsptInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": false,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

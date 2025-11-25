@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DMUValidationUser" />
+    <m1.package name="DMUValidationUser" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMConnection name="DMUValidationUser" />
+      <m1.type name="DMUValidationUser" mxtnr_submitted="no" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ValidationUser_Assessment" />
+        <m1.attribute name="DMUValidationUser.V_ValidationUser_Assessment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ValidationUser_AssessmentComment" />
+        <m1.attribute name="DMUValidationUser.V_ValidationUser_AssessmentComment" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ValidationUser_Contribution" />
+        <m1.attribute name="DMUValidationUser.V_ValidationUser_Contribution" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

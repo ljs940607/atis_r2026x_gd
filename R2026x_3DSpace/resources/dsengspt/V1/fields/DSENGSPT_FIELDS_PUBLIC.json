@@ -1,0 +1,29 @@
+{
+ 
+  "dsmvengspt:attribute.reference.subtype": {
+    "property": "attribute[SharedSupportPart.V_Ens_SubType]",
+    "key": "subtype",
+    "label": "dsengspt.Label.Attribute.Subtype",
+    "example": "Main Support",
+    "description": "Support Sub Type",
+    "index": "ds6wg:SharedSupportPart.V_Ens_SubType"
+  },
+  
+  "dsmvengspt:attribute.reference.supporttype": {
+    "property": "attribute[SharedSupportPart.V_Ens_SupportType]",
+    "key": "supporttype",
+    "label": "dsengspt.Label.Attribute.Supporttype",
+    "example": "Hanger",
+    "description": "Support Type",
+    "index": "ds6wg:SharedSupportPart.V_Ens_SupportType"
+  },
+  
+  "dsmvengspt:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+  
+}

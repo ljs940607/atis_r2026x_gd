@@ -1,0 +1,139 @@
+{
+  "dsengpip:Part": {
+    "kindOf": "root",
+    "beType": "type_Piping_Part",
+    "contentLinks": ["dseng:EngInstance", "dsengpip:PartInst", "dsengpip:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengpip:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipPartDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+
+  "dsengpip:Routable": {
+    "kindOf": "root",
+    "beType": "type_Piping_Pipe",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengpip:AllRoutablesMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipRoutableDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsengpip:Spool": {
+    "kindOf": "root",
+    "beType": "type_Piping_Spool",
+    "contentLinks": ["dseng:EngInstance", "dsengpip:PartInst", "dsengpip:RoutableInst", "dsengisl:InsulationInst", "dsengspt:SupportInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvengpip:SpoolMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipSpoolDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+
+  "dsengpip:PartInst": {
+    "kindOf": "content",
+    "beType": "relationship_Piping_Part_Inst",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": ["dseng:EngItem", "dsengpip:Spool", "dsengpip:Part"],
+    "defaultMask": "dsmvengpip:PartInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipPartInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsengpip:RoutableInst": {
+    "kindOf": "content",
+    "beType": "relationship_Piping_Pipe_Inst",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": ["dseng:EngItem", "dsengpip:Spool", "dsengpip:Part"],
+    "defaultMask": "dsmvengpip:RoutableInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipRoutableInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsengpip:SpoolInst": {
+    "kindOf": "content",
+    "beType": "relationship_Piping_Spool_Inst",
+    "extensionLinks": ["dscfg:Filterable"],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": ["dseng:EngItem"],
+    "defaultMask": "dsmvengpip:SpoolInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengpip.V%1.dictionaries.ENOXdsengpipSpoolInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

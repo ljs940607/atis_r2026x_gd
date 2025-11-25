@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DEL3DWorkbook" regSuite="DEL3DWorkbookParams">
+		<Family id="DEL3DWorkbookAttributesDisplayFamily">
+			<Parameter id="DEL3DWorkbookAttributesListParam">
+				<Argument id="DEL3DWorkbookAttributesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		 
+		<Family id="DEL3DWorkbookOrientationViewerFamily">
+			<Parameter id="ViewerPositionCombobox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="ViewerPositionArg" type="string" input="combobox" default="TOP_LEFT">
+						<Value id="TOP_LEFT"/>
+						<Value id="TOP_RIGHT"/>
+						<Value id="BOTTOM_LEFT"/>
+						<Value id="BOTTOM_RIGHT"/>
+				</Argument>	
+			</Parameter>
+			<Parameter id="ViewerRatio" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="ViewerRatioArg" type="real" input="textfield" default="1.0"/>
+			</Parameter>
+			<!-- Changes to address IR-1351356 - Remove 2D Orientation Viewer Settings in CSCC for 3DWorkbook. -->
+			<!-- <Parameter id="2DViewerHeight" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="2DViewerHeightArg" type="integer" input="textfield" default="100"/>
+			</Parameter>
+			<Parameter id="2DViewerWidth" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="2DViewerWidthArg" type="integer" input="textfield" default="150"/>
+			</Parameter>
+			<Parameter id="2DViewerXPosition" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="2DViewerXPositionArg" type="integer" input="textfield" default="300"/>
+			</Parameter>
+			<Parameter id="2DViewerYPosition" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="2DViewerYPositionArg" type="integer" input="textfield" default="100"/>
+			</Parameter> -->
+			<Parameter id="ModelDocument" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="ModelDocumentArg" type="string" input="textfield" default=""/>
+			</Parameter>
+		</Family>
+		 
+		 <Family id="DEL3DWorkbookWebServiceRequestTimeoutFamily">
+			<Parameter id="WebServiceRequestTimeout" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="WebServiceRequestTimeoutArg" type="integer" input="textfield"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

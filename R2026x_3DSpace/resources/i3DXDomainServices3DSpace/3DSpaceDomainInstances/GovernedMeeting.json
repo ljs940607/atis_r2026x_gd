@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "GovernedMeeting",
+    "description"    : "The domain instance for GovernedMeeting in 3DSpace",
+    "packages"       : ["Meeting"]
+}

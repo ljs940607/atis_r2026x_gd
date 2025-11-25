@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="EPSElementIfc" />
+    <m1.package name="EPSElementIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_ArtificialNestCommon" />
+      <m1.interface name="IfcPset_DS_ArtificialNestCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ArtificialNestCommon_Species" />
+        <m1.attribute name="IfcPset_DS_ArtificialNestCommon.IfcPset_DS_ArtificialNestCommon_Species" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_BirdDeterrentCommon" />
+      <m1.interface name="IfcPset_DS_BirdDeterrentCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_BirdDeterrentCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_BirdDeterrentCommon.IfcPset_DS_BirdDeterrentCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_BirdDiverterCommon" />
+      <m1.interface name="IfcPset_DS_BirdDiverterCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_BirdDiverterCommon_Quantity" />
+        <m1.attribute name="IfcPset_DS_BirdDiverterCommon.IfcPset_DS_BirdDiverterCommon_Quantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_BushingCommon" />
+      <m1.interface name="IfcPset_DS_BushingCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_BushingCommon_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_BushingCommon.IfcPset_DS_BushingCommon_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_CableHardwareCommon" />
+      <m1.interface name="IfcPset_DS_CableHardwareCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableHardwareCommon_HardwareCount" />
+        <m1.attribute name="IfcPset_DS_CableHardwareCommon.IfcPset_DS_CableHardwareCommon_HardwareCount" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableHardwareCommon_SpanIdentification" />
+        <m1.attribute name="IfcPset_DS_CableHardwareCommon.IfcPset_DS_CableHardwareCommon_SpanIdentification" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_CableStretchCommon" />
+      <m1.interface name="IfcPset_DS_CableStretchCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_AcquisitionDate" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_AcquisitionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_CableLength" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_CableLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_DiameterOverConductor" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_DiameterOverConductor" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_DiameterOverInsulation" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_DiameterOverInsulation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_DiameterOverSheat" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_DiameterOverSheat" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_GroundingSystem" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_GroundingSystem" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CableStretchCommon_TransportCapacity" />
+        <m1.attribute name="IfcPset_DS_CableStretchCommon.IfcPset_DS_CableStretchCommon_TransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_CapacitorBankCommon" />
+      <m1.interface name="IfcPset_DS_CapacitorBankCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_ConnectionType" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_ConnectionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_NominalPower" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_NominalPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_RatedVoltage" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_RatedVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CapacitorBankCommon_TotalLosses" />
+        <m1.attribute name="IfcPset_DS_CapacitorBankCommon.IfcPset_DS_CapacitorBankCommon_TotalLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_CircuitPhaseCommon" />
+      <m1.interface name="IfcPset_DS_CircuitPhaseCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitPhaseCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_CircuitPhaseCommon.IfcPset_DS_CircuitPhaseCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_EarthingCableAssemblyCommon" />
+      <m1.interface name="IfcPset_DS_EarthingCableAssemblyCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_EarthingCableAssemblyCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_EarthingCableAssemblyCommon.IfcPset_DS_EarthingCableAssemblyCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PhaseBundleCommon" />
+      <m1.interface name="IfcPset_DS_PhaseBundleCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseBundleCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_PhaseBundleCommon.IfcPset_DS_PhaseBundleCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PhaseCableStretchCommon" />
+      <m1.interface name="IfcPset_DS_PhaseCableStretchCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseCableStretchCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_PhaseCableStretchCommon.IfcPset_DS_PhaseCableStretchCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PhaseShiftingTransformerCommon" />
+      <m1.interface name="IfcPset_DS_PhaseShiftingTransformerCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_DesignType" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_DesignType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_EICCode" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_EICCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_MaximumPhaseAngleNoLoad" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_MaximumPhaseAngleNoLoad" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_RatedCurrent" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_RatedCurrent" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_RefrigerationMachineOil" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_RefrigerationMachineOil" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitCurrent" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitCurrent" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNegativePhaseShiftTerminal" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNegativePhaseShiftTerminal" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNeutralTerminal" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNeutralTerminal" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltagePositivePhaseShiftTerminal" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltagePositivePhaseShiftTerminal" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_StepNominalPower" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_StepNominalPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_SwitchArrangement" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_SwitchArrangement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_Symmetry" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_Symmetry" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_TapNumber" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_TapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhaseShiftingTransformerCommon_Voltage" />
+        <m1.attribute name="IfcPset_DS_PhaseShiftingTransformerCommon.IfcPset_DS_PhaseShiftingTransformerCommon_Voltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PowerTransformerCommon" />
+      <m1.interface name="IfcPset_DS_PowerTransformerCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AdjustedTertiaryVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AdjustedTertiaryVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AutomaticRegulation" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AutomaticRegulation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AuxiliaryServicesLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AuxiliaryServicesLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AvailableTertiaryVoltages" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AvailableTertiaryVoltages" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AveragePrimaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AveragePrimaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AveragePrimarySecondaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AveragePrimarySecondaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AveragePrimaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AveragePrimaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AverageSecondaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AverageSecondaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AverageSecondaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AverageSecondaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_AverageTertiaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_AverageTertiaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_DesignType" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_DesignType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_EICCode" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_EICCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_HighConnectionVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_HighConnectionVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_HighVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_HighVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_HighestVoltageOutputPosition" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_HighestVoltageOutputPosition" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_IronLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_IronLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_LowConnectionVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_LowConnectionVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_LowVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_LowVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_LowestVoltageOutputPosition" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_LowestVoltageOutputPosition" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MainSecondaryRegulationTapNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MainSecondaryRegulationTapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MainTapNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MainTapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumPrimaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumPrimaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumPrimarySecondaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumPrimarySecondaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumPrimaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumPrimaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumSecondaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumSecondaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumSecondaryRegulationTapNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumSecondaryRegulationTapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumSecondaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumSecondaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumTapNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumTapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MaximumTertiaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MaximumTertiaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumPrimaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumPrimaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumPrimarySecondaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumPrimarySecondaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumPrimaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumPrimaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumSecondaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumSecondaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumSecondaryTertiaryShortCircuitVoltage" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumSecondaryTertiaryShortCircuitVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MinimumTertiaryHomopolarImpedance" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MinimumTertiaryHomopolarImpedance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_Mobile" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_Mobile" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_MultiPurpose" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_MultiPurpose" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_NominalPower" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_NominalPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_PrimaryPower" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_PrimaryPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_PrimarySecondaryCopperLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_PrimarySecondaryCopperLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_PrimaryTertiaryCopperLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_PrimaryTertiaryCopperLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_RefrigerationMachineOil" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_RefrigerationMachineOil" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_Regulation" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_Regulation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SecondRegulationAutomaticRegulation" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SecondRegulationAutomaticRegulation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SecondRegulationTapStep" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SecondRegulationTapStep" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SecondaryPower" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SecondaryPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SecondaryRegulationTapNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SecondaryRegulationTapNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SecondaryTertiaryCopperLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SecondaryTertiaryCopperLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_TapStep" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_TapStep" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_TapsNumber" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_TapsNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_TertiaryPower" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_TertiaryPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PowerTransformerCommon_TotalLosses" />
+        <m1.attribute name="IfcPset_DS_PowerTransformerCommon.IfcPset_DS_PowerTransformerCommon_TotalLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PylonAccessoriesCommon" />
+      <m1.interface name="IfcPset_DS_PylonAccessoriesCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonAccessoriesCommon_Quantity" />
+        <m1.attribute name="IfcPset_DS_PylonAccessoriesCommon.IfcPset_DS_PylonAccessoriesCommon_Quantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_ReactorCommon" />
+      <m1.interface name="IfcPset_DS_ReactorCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_ConnectionType" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_ConnectionType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_CopperLosses" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_CopperLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_CoreType" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_CoreType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_DesignType" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_DesignType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_IronLosses" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_IronLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_NominalPower" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_NominalPower" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_RatedVoltage" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_RatedVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_RefrigerationMachineOil" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_RefrigerationMachineOil" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ReactorCommon_TotalLosses" />
+        <m1.attribute name="IfcPset_DS_ReactorCommon.IfcPset_DS_ReactorCommon_TotalLosses" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_ShieldConnectionBoxCommon" />
+      <m1.interface name="IfcPset_DS_ShieldConnectionBoxCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ShieldConnectionBoxCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_ShieldConnectionBoxCommon.IfcPset_DS_ShieldConnectionBoxCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SpliceCommon" />
+      <m1.interface name="IfcPset_DS_SpliceCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SpliceCommon_ExpansionTank" />
+        <m1.attribute name="IfcPset_DS_SpliceCommon.IfcPset_DS_SpliceCommon_ExpansionTank" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SubstationInternalMvConnectionCommon" />
+      <m1.interface name="IfcPset_DS_SubstationInternalMvConnectionCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationInternalMvConnectionCommon_ConductorsPerPhase" />
+        <m1.attribute name="IfcPset_DS_SubstationInternalMvConnectionCommon.IfcPset_DS_SubstationInternalMvConnectionCommon_ConductorsPerPhase" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceCount" />
+        <m1.attribute name="IfcPset_DS_SubstationInternalMvConnectionCommon.IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceCount" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceDistance" />
+        <m1.attribute name="IfcPset_DS_SubstationInternalMvConnectionCommon.IfcPset_DS_SubstationInternalMvConnectionCommon_SpliceDistance" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SurgeArresterCommon" />
+      <m1.interface name="IfcPset_DS_SurgeArresterCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SurgeArresterCommon_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_SurgeArresterCommon.IfcPset_DS_SurgeArresterCommon_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SuspensionInsulatorCommon" />
+      <m1.interface name="IfcPset_DS_SuspensionInsulatorCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SuspensionInsulatorCommon_BranchesNumber" />
+        <m1.attribute name="IfcPset_DS_SuspensionInsulatorCommon.IfcPset_DS_SuspensionInsulatorCommon_BranchesNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SuspensionInsulatorCommon_InsulatorsPerBranch" />
+        <m1.attribute name="IfcPset_DS_SuspensionInsulatorCommon.IfcPset_DS_SuspensionInsulatorCommon_InsulatorsPerBranch" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SuspensionInsulatorCommon_SubtypeDescription" />
+        <m1.attribute name="IfcPset_DS_SuspensionInsulatorCommon.IfcPset_DS_SuspensionInsulatorCommon_SubtypeDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_WaterPump" />
+      <m1.interface name="IfcPset_DS_WaterPump" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_WaterPump_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_WaterPump.IfcPset_DS_WaterPump_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_WaterPump_SerialNumber" />
+        <m1.attribute name="IfcPset_DS_WaterPump.IfcPset_DS_WaterPump_SerialNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_DS_EarthingCableBaseQuantities" />
+      <m1.interface name="IfcQto_DS_EarthingCableBaseQuantities" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcIfcQto_DS_EarthingCableBaseQuantities_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_DS_EarthingCableBaseQuantities.IfcIfcQto_DS_EarthingCableBaseQuantities_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_EarthingCableBaseQuantities_Length" />
+        <m1.attribute name="IfcQto_DS_EarthingCableBaseQuantities.IfcQto_DS_EarthingCableBaseQuantities_Length" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_DS_MediumVoltageExternalFeedBaseQuantities" />
+      <m1.interface name="IfcQto_DS_MediumVoltageExternalFeedBaseQuantities" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcIfcQto_DS_MediumVoltageExternalFeedBaseQuantities_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_DS_MediumVoltageExternalFeedBaseQuantities.IfcIfcQto_DS_MediumVoltageExternalFeedBaseQuantities_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_MediumVoltageExternalFeedBaseQuantities_CalculatedProjectLength" />
+        <m1.attribute name="IfcQto_DS_MediumVoltageExternalFeedBaseQuantities.IfcQto_DS_MediumVoltageExternalFeedBaseQuantities_CalculatedProjectLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

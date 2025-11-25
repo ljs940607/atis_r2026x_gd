@@ -1,0 +1,73 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_RefrigerationMachineOil",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_MaximumPhaseAngleNoLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_EICCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_SwitchArrangement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitCurrent",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_RatedCurrent",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_Voltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_TapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_StepNominalPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_Symmetry",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNegativePhaseShiftTerminal",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltagePositivePhaseShiftTerminal",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_ShortCircuitVoltageNeutralTerminal",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PhaseShiftingTransformerCommon_DesignType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

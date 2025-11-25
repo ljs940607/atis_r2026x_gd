@@ -1,0 +1,24 @@
+{
+	"dsmvimpl:ImplLink.Base": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:VPMNameDescriptionMask"
+		},
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc"
+	],
+	"dsmvimpl:ImplLink.ReferencedObjects": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:VPMNameDescriptionMask"
+		},
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmvimpl:program.ReferencedObjects"
+	]
+}

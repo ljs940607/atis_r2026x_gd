@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "SignageElement" UseNames = "CivilEngineeringElement" Uuid = "6E2F26CD-BC3C-4424-BA5E-C6093BDDBF8C" xmlns = "PLMDictionaryUnified">
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageArmCantilever" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f60">
+    <Property Name = "IconName" Value = "I_SignageArmCantilever"/>
+    <Property Name = "3DIconName" Value = "I_SignageArmCantilever.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageArmCantileverType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f57">
+    <Property Name = "IconName" Value = "I_SignageArmCantileverType"/>
+    <Property Name = "3DIconName" Value = "I_SignageArmCantileverType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageElement" SuperName = "CivilEngineeringElement" Uuid = "8b4bb622-caf3-4d50-8f06-d125fb96dd8f">
+    <Property Name = "GroupingType" Value = "SignageElement"/>
+  </Class>
+  <Class Abstract = "Yes" CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageElementType" SuperName = "CivilEngineeringElementType" Uuid = "a5bbd2b9-f23b-4f86-af20-917f5be8bf1c">
+    <Property Name = "GroupingType" Value = "SignageElementType"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageHighMast" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "8612ecd1-75be-44e0-a2e8-61a012d71b36">
+    <Property Name = "IconName" Value = "I_SignageHighMast"/>
+    <Property Name = "3DIconName" Value = "I_SignageHighMast.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageHighMastType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f55">
+    <Property Name = "IconName" Value = "I_SignageHighMastType"/>
+    <Property Name = "3DIconName" Value = "I_SignageHighMastType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageMarker" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "8612ecd1-75be-44e0-a2e8-61a012d71b37">
+    <Property Name = "IconName" Value = "I_SignageMarker"/>
+    <Property Name = "3DIconName" Value = "I_SignageMarker.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageMarkerType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f54">
+    <Property Name = "IconName" Value = "I_SignageMarkerType"/>
+    <Property Name = "3DIconName" Value = "I_SignageMarkerType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageOtherElement" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f63">
+    <Property Name = "IconName" Value = "I_SignageOtherElement"/>
+    <Property Name = "3DIconName" Value = "I_SignageOtherElement.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageOtherElementType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f53">
+    <Property Name = "IconName" Value = "I_SignageOtherElementType"/>
+    <Property Name = "3DIconName" Value = "I_SignageOtherElementType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageOverheadStructure" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "8612ecd1-75be-44e0-a2e8-61a012d71b38">
+    <Property Name = "IconName" Value = "I_SignageOverheadStructure"/>
+    <Property Name = "3DIconName" Value = "I_SignageOverheadStructure.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignageOverheadStructureType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f52">
+    <Property Name = "IconName" Value = "I_SignageOverheadStructureType"/>
+    <Property Name = "3DIconName" Value = "I_SignageOverheadStructureType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignagePictorial" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "8612ecd1-75be-44e0-a2e8-61a012d71b39">
+    <Property Name = "IconName" Value = "I_SignagePictorial"/>
+    <Property Name = "3DIconName" Value = "I_SignagePictorial.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignagePictorialType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f50">
+    <Property Name = "IconName" Value = "I_SignagePictorialType"/>
+    <Property Name = "3DIconName" Value = "I_SignagePictorialType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignagePole" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "SignageElement" Uuid = "8612ecd1-75be-44e0-a2e8-61a012d71b40">
+    <Property Name = "IconName" Value = "I_SignagePole"/>
+    <Property Name = "3DIconName" Value = "I_SignagePole.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATEAECDelegateInstanciation"/>
+    <Property Name = "KweNew_ReturnedType" Value = "VPMInstance"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+  </Class>
+  <Class CustomerExposition = "Programmer" Discipline = "Yes" Name = "SignagePoleType" SuperName = "SignageElementType" Uuid = "4bbf4b31-faac-4587-a890-3ec189860f59">
+    <Property Name = "IconName" Value = "I_SignagePoleType"/>
+    <Property Name = "3DIconName" Value = "I_SignagePoleType.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATCbaObjectTypeDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "3DPartAvailability" Value = "ReferenceOnly"/>
+  </Class>
+</Package>

@@ -1,0 +1,47 @@
+{
+  "dsengspt:Support": {
+    "summary": "Support",
+    "description": "Support",
+    
+    "PUBLICMasks": ["dsmvengspt:SupportMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+    "dsmvengspt:DefaultBusMask.utc",
+    "dsmvengspt:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengspt:attribute.reference.subtype",
+      "dsmvengspt:attribute.reference.supporttype",
+      "dsmvengspt:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengspt:SupportInst": {
+    "summary": "Support instance",
+    "description": "instance of an Support",
+    
+    "PUBLICMasks": ["dsmvengspt:SupportInstMask", "dsmvengspt:SupportInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengspt:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  }
+}

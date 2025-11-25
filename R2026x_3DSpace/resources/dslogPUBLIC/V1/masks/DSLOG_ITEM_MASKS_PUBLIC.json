@@ -1,0 +1,47 @@
+{
+	"dsmvlog:LogItem.Mask.Reference.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmvlog:LogItemEnterpriseAttributes"
+	],
+	"dsmvlog:TypeItem.Mask.Reference.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmvlog:TypeItemEnterpriseAttributes"
+	],
+	"dsmvlog:Connection.Mask.Default": [
+		"dsmveno:attribute.reference.name",
+		"dsmveno:attribute.reference.description",
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:BaseMask.public"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:BusBasicPropertiesMask.public"
+		}
+	],
+	"dsmvlog:Connection.Mask.Details": [
+		"dsmveno:attribute.reference.name",
+		"dsmveno:attribute.reference.description",
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:BaseMask.public"
+		},
+		{
+			"property": "reuseMask",
+			"mask": "dsmveno:BusBasicPropertiesMask.public"
+		},
+		{
+			"property": "computed",
+			"key": "extremities",
+			"description": "Get a json generic object for extremities of a Connection.",
+			"example": "com.dassault_systemes.catia.xapps.dslog.V1.openapi.custom.PUBLIC.extremities",
+			"fetchOnce": true
+		}
+	]
+}

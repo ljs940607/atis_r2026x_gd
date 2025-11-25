@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright DASSAULT SYSTEMES 2021 -->
+<ExpandNodeConfig		xmlns				= "DS_DELPPWConfiguration" 
+						xmlns:xsi			= "http://www.w3.org/2001/XMLSchema-instance"
+						xsi:schemaLocation	= "DS_DELPPWConfiguration DELWebMfgAssetsExpandNodeConfig.xsd"
+						Title				= "Scoped SubAssembly Expand Config" 
+						Description			= "Sample configuration file delivered by DS.">
+	<!--
+	<Condition>
+		<Validation>
+			<Attribute name="V_Name.reference" value= "DEL(.*)"/>
+		</Validation>
+		<Validation>
+			<Attribute name="V_description.reference" value= "(.*)Expand(.*)"/>
+		</Validation>
+	</Condition>
+	-->
+	
+	<!--  Expand only those nodes having "Expand" in their value for V_description attribute --> 
+	<!--
+	<Condition>
+		<Validation>
+			<Attribute name="V_description.reference" value= "(.*)Expand(.*)"/>
+		</Validation>
+	</Condition>
+	-->
+
+	<!--  Don't expand the nodes having "Ignore" in their value for V_description attribute --> 
+	<!--
+	<Condition>
+		<Validation>
+			<Attribute name="V_description.reference" value= "^((?!Ignore).)*$"/>
+		</Validation>
+	</Condition>
+	-->	
+	
+</ExpandNodeConfig>

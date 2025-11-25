@@ -1,0 +1,22 @@
+{
+    "dsmvspp:childrenSpaceReferences": {
+    "property": "computed",
+    "key": "children",
+    "label": "dsmvspp.Label.ChildrenSpaceReferences",
+    "example": "com.dassault_systemes.catia.xapps.dsspp.implementations.dssppOpenAPIImpl.childrenSpaces"
+  },
+
+  "dsmvspp:spaceAssignment.connectedObject": {
+    "property": "computed",
+    "key": "object",
+    "label": "dsmvspp.Label.SpaceAssignment.ConnectedObject",
+    "example": "com.dassault_systemes.catia.xapps.dsspp.implementations.dssppOpenAPIImpl.connectedObject"
+  },
+
+  "dsmvspp:spaceAssignment.connectedSpace": {
+    "property": "computed",
+    "key": "space",
+    "label": "dsmvspp.Label.SpaceAssignment.ConnectedSpace",
+    "example": "com.dassault_systemes.catia.xapps.dsspp.implementations.dssppOpenAPIImpl.connectedSpace"
+  }
+}

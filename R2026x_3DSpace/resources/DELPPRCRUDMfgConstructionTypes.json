@@ -1,0 +1,673 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELFmiFunctionPPRConstructionCreateReference",
+				"ParentType": "DELFmiFunctionPPRDiscreteReference",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELFmiFunctionPPRConstructionCreateReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELFmiFunctionPPRConstructionCreateReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionStructure",
+				"ParentType": "DELFmiFunctionPPRConstructionCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionStructure",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionStructure",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:ConstructionStructureEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkElementAbstract",
+				"IsAbstract": true,
+				"ParentType": "DELFmiFunctionPPRConstructionCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkElementAbstract",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkElementAbstract",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkElementArea",
+				"ParentType": "DELConstructionWorkElementAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkElementArea",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkElementArea",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "workElementQuantity",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELCRUDConstructionWorkElementQuantityChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionWorkElementQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionWorkElementQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkElementAreaEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkElementEach",
+				"ParentType": "DELConstructionWorkElementAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkElementEach",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkElementEach",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkElementEachEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkElementLength",
+				"ParentType": "DELConstructionWorkElementAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkElementLength",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkElementLength",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "workElementQuantity",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELCRUDConstructionWorkElementQuantityChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionWorkElementQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionWorkElementQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkElementLengthEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkPackageAbstract",
+				"IsAbstract": true,
+				"ParentType": "DELFmiFunctionPPRConstructionCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkPackageAbstract",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkPackageAbstract",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "manualUnitTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiManualUnitTime.V_UnitTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiManualUnitTime.V_UnitTime"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkPackageArea",
+				"ParentType": "DELConstructionWorkPackageAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkPackageArea",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkPackageArea",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "hazard",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "timePerDay",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "workerNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "quantityPerDay",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELCRUDConstructionWorkPackageQtyPerDayChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkPackageAreaEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkPackageEach",
+				"ParentType": "DELConstructionWorkPackageAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkPackageEach",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkPackageEach",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "hazard",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "timePerDay",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "workerNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "quantityPerDay",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELCRUDConstructionWorkPackageQtyPerDayChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkPackageEachEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkPackageGroup",
+				"ParentType": "DELConstructionWorkPackageAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkPackageGroup",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkPackageGroup",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkPackageGroupEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELConstructionWorkPackageLength",
+				"ParentType": "DELConstructionWorkPackageAbstract",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELConstructionWorkPackageLength",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELConstructionWorkPackageLength",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "hazard",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_Hazard"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "timePerDay",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "workerNumber",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiConstructionWorkPackageAttrsChecker"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "quantityPerDay",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELCRUDConstructionWorkPackageQtyPerDayChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDConstructionQuantityPerDayTransform"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.setters.DELFmiConstructionWorkPackageAttrsSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ConstructionWorkPackageLengthEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

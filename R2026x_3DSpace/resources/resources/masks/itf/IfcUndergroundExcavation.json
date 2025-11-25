@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcUndergroundExcavation_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcUndergroundExcavation_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcUndergroundExcavation_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

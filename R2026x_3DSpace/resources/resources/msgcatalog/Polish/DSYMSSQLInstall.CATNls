@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parametry połączenia z SQL Server";
+MSSQL_ConnectUser.Label1="Nazwa użytkownika połączenia z SQL Server:";
+MSSQL_ConnectUser.Resume="Nazwa użytkownika połączenia z SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Hasło użytkownika połączenia z SQL Server";
+MSSQL_ConnectPwd.Label1="Hasło użytkownika połączenia z SQL Server:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Nazwa bazy danych SQL Server";
+MSSQL_Instance.Label1="Nazwa bazy danych SQL Server:";
+MSSQL_Instance.Resume="Nazwa bazy danych SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Serwer bazy danych SQL Server";
+MSSQL_Server.Label1="Nazwa serwera SQL Server:";
+MSSQL_Server.Resume="Nazwa serwera SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Błąd połączenia z bazą danych";
+ConnectionTestFailed.Text="Podczas próby nawiązania połączenia został zgłoszony następujący błąd:\n\n/P1\nSprawdź w programie QL Server Configuration Manager', czy:\n-protokoły „Shared Memory” i „TCP/IP” są włączone\n-usługi „SQL Server” i „QL Server Browser” są uruchomione.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Tworzenie nowej bazy danych";
+CreateNewMSSQL_DB.Label1="Zaznacz pole wyboru, aby utworzyć nową bazę danych (serwer SQL Server musi być zainstalowany lokalnie):";
+CreateNewMSSQL_DB.CheckButton="Utwórz nową bazę danych SQL Server";
+CreateNewMSSQL_DB.Resume.true="Utwórz nową bazę danych SQL Server: Tak";
+CreateNewMSSQL_DB.Resume.false="Utwórz nową bazę danych SQL Server: Nie";
+
+CreateNewMSSQL_DB_Error.Title="Błąd tworzenia nowej bazy danych";
+CreateNewMSSQL_DB_Error.Text="Podczas używania polecenia „sqlcmd” został zgłoszony następujący błąd:\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="Tworzenie nowej bazy danych powiodło się";
+CreateNewMSSQL_DB_Success.Text="Nowa baza danych SQL Server została pomyślnie utworzona";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Wybór katalogu danych MSSQL";
+PathMSSQLFiles.Label1="Katalog używany do przechowywania nowych plików bazy danych (tylko nowa baza danych):";
+PathMSSQLFiles.Resume="Lokalizacja plików MSSQL: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Grupa plików danych domyślnych i administracyjnych";
+MSSQL_Default_Data_FG.Label1="Grupa plików danych domyślnych i administracyjnych (ignorowana, jeśli jest pusta)";
+MSSQL_Default_Data_FG.Resume="Grupa plików danych domyślnych i administracyjnych: /P1";
+
+MSSQL_Default_Index_FG.Title="Grupa plików indeksu domyślnego i administracyjnego";
+MSSQL_Default_Index_FG.Label1="Grupa plików indeksu domyślnego i administracyjnego (ignorowana, jeśli pusta)";
+MSSQL_Default_Index_FG.Resume="Grupa plików indeksu domyślnego i administracyjnego: /P1";

@@ -1,0 +1,78 @@
+{
+  "dsmvengnote:forceUppercase": {
+    "property": "attribute[CATInstructionTemplate.V_ForceUpperCase]",
+    "key": "force_uppercase",
+    "format": "boolean",
+    "example": "false",
+    "description": "Attribute specifying whether Note Text should be forced to be uppercase",
+    "index": "ds6wg:CATInstructionTemplate.V_ForceUpperCase"
+  },
+  "dsmvengnote:noteTemplateText": {
+    "property": "attribute[CATInstructionTemplate.V_Text]",
+    "key": "note_text",
+    "example": "ALL DIMENSIONS ARE IN #UNIT#",
+    "description": "Note Text for this Engineering Note Template",
+    "index": "ds6wg:CATInstructionTemplate.V_Text"
+  },
+  "dsmvengnote:standardResources":{
+    "property": "computed",
+    "key": "standard_resources",
+    "description": "Retrieve standard resources pointed by Engineering Note Template",
+    "example":"com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getStandardResourcesDescription"
+  },
+  "dsmvengnote:noteOwner": {
+      "property": "computed",
+      "key": "note_parent",
+      "description": "Reference object that owns this Engineering Note",
+      "example":"com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getNoteOwnerDescription"
+  },
+  "dsmvengnote:noteText": {
+    "property": "attribute[CATInstruction.V_Text]",
+    "key": "note_text",
+    "example": "ALL DIMENSIONS ARE IN MM.",
+    "description": "Note Text for this Engineering Note",
+    "index": "ds6wg:CATInstruction.V_Text"
+  },
+  "dsmvengnote:noteScope": {
+    "property": "computed",
+    "key": "scope",
+    "example": "COMPONENTS",
+    "description": "Engineering Note target scope (GENERAL, COMPONENTS, or 3D)"
+  },
+  "dsmvengnote:noteDownstreamUsage": {
+    "property": "computed",
+    "key": "downstream_usage",
+    "example": "KEEP",
+    "description": "KEEP/IGNORE: if set to IGNORE, Engineering Note will be ignored in downstream usage (MBOM or Process definition)"
+  },
+  "dsmvengnote:sourceTemplate":{
+    "property": "computed",
+    "key": "template",
+    "description": "Retrieve source Engineering Note Template",
+    "example": "com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getSourceTemplate"
+  },
+  "dsmvengnote:entries":{
+    "property": "computed",
+    "key": "entries",
+    "description": "Retrieve list of entries defining Engineering Note Text",
+    "example": "com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getNoteEntriesDescription"
+  },
+  "dsmvengnote:count":{
+    "property": "computed",
+    "key": "count",
+    "description": "Retrieve number of Engineering Notes for this reference item",
+    "example" : "3"
+  },
+  "dsmvengnote:templateEntries":{
+    "property": "computed",
+    "key": "entries",
+    "description": "Retrieve list of entries defining Engineering Note Template Text",
+    "example": "com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getTemplateEntriesDescription"
+  },
+  "dsmvengnote:affectedInstances":{
+    "property": "computed",
+    "key": "affected_instances",
+    "description": "Retrieve list of affected instances for Components/3D Notes",
+    "example": "com.dassault_systemes.enovia.xapps.dsengnote.implementations.dsengnoteOpenAPIImpl.getNoteAffectedInstances"
+  }
+}

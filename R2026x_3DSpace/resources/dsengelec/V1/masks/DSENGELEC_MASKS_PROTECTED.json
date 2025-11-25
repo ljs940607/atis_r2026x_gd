@@ -1,0 +1,155 @@
+{ 
+  "dsmvengelec:BackShellMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.backshell.extralength",
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:ContactMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.contact.authorizedwiregauge",
+    "dsmvengelec:attribute.contact.contactsize",
+    "dsmvengelec:attribute.contact.endfitting",
+    "dsmvengelec:attribute.subdevice.contacttype",
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:FillerPlugMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:ModuleMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith",
+    "dsmvengelec:attribute.subdevice.numberofpins"
+    ],
+    
+  "dsmvengelec:MultiInsertConnectorMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.multiinsertconnector.insertlayout",
+    "dsmvengelec:attribute.subdevice.contacttype",
+    "dsmvengelec:attribute.subdevice.matingwith",
+    "dsmvengelec:attribute.subdevice.polarizedkey",
+    "dsmvengelec:attribute.subdevice.shellsize",
+    "dsmvengelec:attribute.subdevice.shelltype"
+    ],
+    
+  "dsmvengelec:PLCMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:SealMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:ShellMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:SingleInsertConnectorMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DeviceMask"
+    }
+    , "dsmvengelec:attribute.singleinsertconnector.contactlayout"
+    , "dsmvengelec:attribute.subdevice.contacttype"
+    , "dsmvengelec:attribute.subdevice.matingwith"
+    , "dsmvengelec:attribute.subdevice.numberofpins"
+    , "dsmvengelec:attribute.subdevice.polarizedkey"
+    , "dsmvengelec:attribute.subdevice.shellsize"
+    , "dsmvengelec:attribute.subdevice.shelltype"
+  ],
+
+  "dsmvengelec:SpliceMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.length"
+    ],
+
+  "dsmvengelec:StudMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith",
+    "dsmvengelec:attribute.subdevice.numberofpins"
+    ],
+    
+  "dsmvengelec:TerminalAccessoryMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith"
+    ],
+    
+  "dsmvengelec:TerminalBlockMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith",
+    "dsmvengelec:attribute.subdevice.numberofpins",
+    "dsmvengelec:attribute.terminalblock.shuntcavitylayout"
+    ],
+    
+  "dsmvengelec:TerminalStripMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DeviceMask"
+        },
+    "dsmvengelec:attribute.subdevice.matingwith",
+    "dsmvengelec:attribute.subdevice.numberofpins"
+    ],
+  
+  "dsmvengelec:CableMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:DefaultBusMask.utc"
+        },
+    "dsmvengelec:attribute.cable.family",
+    "dsmvengelec:attribute.cable.gauge",
+    "dsmvengelec:attribute.length",
+    "dsmvengelec:attribute.cable.nbcores",
+    "dsmvengelec:attribute.series",
+    "dsmvengelec:attribute.subtype"
+    ],
+        
+  "dsmvengelec:ExtendedCableMask": [{
+            "property": "reuseMask",
+            "mask": "dsmvengelec:CableMask"
+        },
+    "dsmvengelec:attribute.cable.boundarylengthfrom",
+    "dsmvengelec:attribute.cable.boundarylengthto",
+    "dsmvengelec:attribute.cable.cuttinglength",
+    "dsmvengelec:attribute.cable.cuttinglengthmode",
+    "dsmvengelec:attribute.cable.cuttinglengthtolerance",
+    "dsmvengelec:attribute.cable.extralengthfrom",
+    "dsmvengelec:attribute.cable.extralengthto",
+    "dsmvengelec:attribute.cable.itinerarycuttinglengthsnap",
+    "dsmvengelec:attribute.cable.itinerarylengthsnap",
+    "dsmvengelec:attribute.cable.itinerarysnap",
+    "dsmvengelec:attribute.cable.listroutelengthsnap",
+    "dsmvengelec:attribute.cable.listroutestatussnap",
+    "dsmvengelec:attribute.cable.listroutevalidationsnap",
+    "dsmvengelec:attribute.cable.segregation",
+    "dsmvengelec:attribute.cable.status",
+    "dsmvengelec:attribute.cable.validation"
+    ]
+        
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_CableHardwareCommon_SpanIdentification",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CableHardwareCommon_HardwareCount",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

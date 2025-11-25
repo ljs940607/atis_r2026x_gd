@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Production System Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2019, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELLmiProductionHeaderWorkplan"
+         BelongsToModeler="DELLmiProductionSystem"
+         Uuid="BC86E711-5B59-4647-AE94-D6BEE1CF4B09"
+         UseNames="DELLmiProductionHeaderProcessAbstract PLMCORE"
+		 UseProcedures="PPR_Procedures"
+         CustomerExposition="Programmer">
+
+
+  <CAAComment>
+    <ShortRole>PLM DELMIA Header Workplan</ShortRole>
+    <Role>This package describes the PLM DELMIA Header Workplan model on top of DELLmiProductionHeaderProcessAbstract</Role>
+  </CAAComment>
+
+  <Class Name="DELLmiHeaderWorkPlanReference"
+        Uuid="1DCDF7F3-2E5F-4E42-A0C4-7AB876A64FCC"
+        Abstract="No"
+        SuperName="DELLmiPPRHeaderProcessReferenceAbstract"
+        CustomerExposition="Programmer"
+        Specializable="Yes"
+        CustomerExtensible="Yes"
+		CreateInstName="DELLmiHeaderWorkPlanInstance"
+        Abbreviation="hwpl"
+		PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+        InstantiationOwnerTypes="DELLmiHeaderWorkPlanReference">
+
+    <Property Name="KweNew_InstanciationMethod" Value="DELLmiHeaderWorkPlanDelegateInstanciation"/>
+	<Property Name="KweNew_ReturnedType" Value="DELLmiHeaderWorkPlanInstance"/>
+    <Property Name="IconName" Value="I_PPRHeaderWorkplan"/>
+    <Property Name="3DIconName" Value="I_PPRHeaderWorkplan.cgr"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="Searchable" Value="Yes"/>
+	
+	<Path Name="DELContextForPreassignment"
+		Uuid="316C317E-C4FE-4EF8-8C3D-8BAE0D9F2A21"
+		MultiValuated="No"
+		RoleName="DEL_ContextForPreassignment"
+		Type="SemanticRelation" 
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+		Semantics="Reference"/>
+
+	  <Path Name="DELReferentialForResourcePositioning"
+		Uuid="78A2C179-7024-4AE4-BEC4-F75091064A9A"
+		MultiValuated="No"
+		RoleName="DEL_ContextForResourcePositioning"
+		Type="SemanticRelation"
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+		Semantics="Reference"/>
+
+	  <Path Name="DELExistingReferentialForResourcePositioning"
+	   Uuid="C3F8C333-F0C5-4922-B15A-AE57DB64D999"
+	   MultiValuated="No"
+	   RoleName="DEL_ExistingContextForResourcePositioning"
+	   Type="SemanticRelation"
+	   AdaptativeToMinor="No"
+	   SynchroSensitivity="None"
+	   RerouteOnEffectivityChange="No"
+	   Semantics="Reference"/>
+	  
+    <CAAComment>
+      <ShortRole>PLM DELMIA Header Workplan Reference</ShortRole>
+      <Role>PLM DELMIA Header Workplan Reference</Role>
+    </CAAComment>
+
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Method ImplementationType="AsFather">
+      <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+    </Method>
+
+	  <Simple Name="V_BalancingMode"
+				  Uuid="7A52FFFD-C2E9-4B2C-BC56-F8DD30AA70D0"
+				  Type="String"
+				  MaxLength="50"
+				  MultiValuated="No"
+				  Protection="ExternalIN"
+				  CAAExposition="L0"
+				  DefaultValue="None">
+		  <Range>
+			  <Equal>DetailedScheduling</Equal>
+			  <Equal>None</Equal>
+		  </Range>
+		  <CAAComment>
+			  <ShortRole>Defines a balancing mode on a header work plan reference.</ShortRole>
+		  </CAAComment>
+	  </Simple>
+
+
+  </Class>
+
+	<RelationClass Name="DELLmiHeaderWorkPlanInstance"
+		Uuid="40485444-9FDB-4D32-A8F3-6D632A2227AF"
+		Abstract="No"
+		SuperName="PLMCoreInstance"
+		Specializable="Yes"
+		CustomerExtensible="Yes"
+		CustomerExposition="Programmer">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELMPProdSystemAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELLmiHeaderWorkPlanInstance"/>
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Header Workplan Instance</ShortRole>
+			<Role>PLM DELMIA Header Workplan Instance</Role>
+		</CAAComment>
+
+		<SubClause Name="from" TargetName="DELLmiHeaderWorkPlanReference"/>
+		<SubClause Name="to"   TargetName="DELLmiHeaderWorkPlanReference"/>
+
+		<Method ImplementationType="Self">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+			<ProcedureForUsage>
+				<Usage href="ExportScope.meth#TransferSiteOwnership"/>
+				<UsedProcedure href="PPR_Procedures.proc#PPR_TSO_StandAlone"/>
+			</ProcedureForUsage>
+		</Method>
+		<Method ImplementationType="None">
+			<RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		</Method>
+	</RelationClass>
+
+
+</Package>

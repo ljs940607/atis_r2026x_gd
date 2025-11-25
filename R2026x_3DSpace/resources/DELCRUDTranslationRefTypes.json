@@ -1,0 +1,95 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dstrs:Translation",
+				"ParentType": "BusinessType",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "PLMTranslation",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.translation.bytype.threed_space.DELCRUDTranslation3DSpaceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "PLMTranslation",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+                        "ConceptualName": "From_IDs",
+                        "State": "MANDATORY",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.translation.bytype.getters.DELCRUDAttributeFromIDs3DSpaceGetter"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.translation.attributes.transforms.DELCRUDAttrFromIDsIndexTransform"
+							}
+						]
+                    },
+					{
+						"ConceptualName": "languageId",
+                        "State": "MANDATORY",
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.translation.attributes.transforms.DELCRUDAttrLanguageIdIndexTransform"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.translation.bytype.getters.DELCRUDAttributeLanguageId3DSpaceGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "translationIdToBeReplaced"
+					},
+					{
+						"ConceptualName": "translationDetails",
+                        "State": "MANDATORY",
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.translation.attributes.transforms.DELCRUDAttrTranslationDetailsIndexTransform"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.translation.bytype.getters.DELCRUDAttributeTranslationDetails3DSpaceGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "mapReferenceToListOfTranslationIDs",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.translation.bytype.getters.DELCRUDAttributeTranslationIDsOfReferenceIDsGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "mapLanguageCodeWithPropeties",
+						"Getters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.translation.bytype.getters.DELCRUDAttributeLanguagePropertiesGetter"
+							}
+						]
+					}					
+				]
+			}
+		]
+	}
+]

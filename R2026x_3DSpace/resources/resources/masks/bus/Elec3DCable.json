@@ -1,0 +1,271 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "PLM_ExternalID"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "V_versionComment",
+				"status": "RW"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "V_fromExternalID"
+			},
+			{
+				"name": "V_Scale"
+			},
+			{
+				"name": "policy"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "owner",
+				"status": "RW"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			},
+			{
+				"name": "reservedby"
+			},
+			{
+				"name": "V_IsManufacturable",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_SubType",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Bend_Radius",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Diameter",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Color",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Line_Mass",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Section_Area",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Family",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Series",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_Gauge",
+				"status": "RW"
+			},
+			{
+				"name": "ElecRoutable.V_Elec_nbCores",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_Segregation",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_BoundaryLength_From",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_BoundaryLength_To",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_Status",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_Validation",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_Length",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_Itinerary_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ItineraryLength_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ListRouteStatus_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ListRouteValidation_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ListRouteLength_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_SynchronizeConfig",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_CuttingLength_Tolerance",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_CuttingLength",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ExtraLength_From",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ExtraLength_To",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_ItineraryCuttingLength_Snap",
+				"status": "RO"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_CuttingLength_Mode",
+				"status": "RW"
+			},
+			{
+				"name": "Elec3DCable.V_Elec_SignalId",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreName",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreColor",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreGauge",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreOutsideDiameter",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreSectionArea",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreBendRadius",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreLinearMass",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresDefinition.V_Elec_CoreLengthCoeff",
+				"status": "RW"
+			},
+			{
+				"name": "ElecDesignedCableCoresDefinition.V_Elec_CoreSignalId",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_StrippingLengthFrom",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_StrippingLengthTo",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingFrom",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingTo",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_CoreStrippingLengthFrom",
+				"status": "RW"
+			},
+			{
+				"name": "ElecCableCoresLength.V_Elec_CoreStrippingLengthTo",
+				"status": "RW"
+			}
+		]
+	},
+	"Create": {
+		"attributes": [
+			{
+				"name": "V_Name",
+				"status": "RW"
+			},
+			{
+				"name": "PLM_ExternalID",
+				"status": "RO"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			},
+			{
+				"name": "policy",
+				"status": "RO"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"V_Name": {
+				"mandatory": true
+			},
+			"PLM_ExternalID": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			}
+		}
+	}
+}

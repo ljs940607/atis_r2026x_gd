@@ -1,0 +1,27 @@
+{
+	"dsmvlog:LogInstance.Mask.Instance.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultRelMask.public"
+		},
+		{
+			"property": "computed",
+			"key": "referencedObject",
+			"description": "Get a json generic object for each public related objects provided in argument.",
+			"example": "com.dassault_systemes.catia.xapps.dslog.V1.openapi.custom.PUBLIC.referencedObject",
+			"fetchOnce": true
+		}
+	],
+	"dsmvlog:TypeInstance.Mask.Instance.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmvlog:LogInstance.Mask.Instance.Details"
+		},
+		"dsmvlog:attribute.instance.identifier"
+	],
+	"dsmvlog:Interface.Mask.Interface.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmvlog:LogInstance.Mask.Instance.Details"
+		},
+		"dsmvlog:attribute.interface.direction",
+		"dsmvlog:attribute.instance.identifier"
+	]	
+}

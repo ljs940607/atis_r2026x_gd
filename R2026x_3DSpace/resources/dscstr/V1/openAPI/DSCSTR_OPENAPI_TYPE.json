@@ -1,0 +1,21 @@
+{
+    "dscstr:CstrItem": {
+        "summary": "Construction Item",
+        "description": "Construction Item",
+        "PUBLICMasks": ["dsmvcstr:CstrItemMask.Common"],
+        "PROTECTEDMasks": ["dsmvcstr:CstrItemMask.3DPart"],
+        "PUBLICExtensions": ["dslc:changeControl","dsifc:IfcSite","dsgeoloc:Geolocation"],
+		"PROTECTEDExtensions": ["dseno:EnterpriseAttributes"],
+        "PRIVATEExtensions": [],
+        "PUBLICFields": [],
+        "PUBLICExcludedURIs" : ["getItems" , "DELETEBulk", "BULKUPDATE", "GETAll"]
+    },
+    "dscstr:CstrInstance": {
+        "summary": "Construction Item Instance",
+        "description": "Construction Item Instance",
+        "PUBLICMasks": ["dsmvcstr:CstrItemMask.Instance.Basic"],
+        "PROTECTEDMasks": ["dsmvcstr:CstrItemMask.Instance"],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs" : ["getItems" , "BULKUPDATE", "DELETEBulk"]
+    }
+}

@@ -1,0 +1,395 @@
+{
+	"Write": {
+		"attributes": [
+			{ "name": "type" },
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{ "name": "name" },
+			{ "name": "revision" },
+			{
+				"name": "Priority",
+				"status": "RW"
+			},
+			{
+				"name": "Difficulty",
+				"status": "RW"
+			},
+			{
+				"name": "Requirement Classification",
+				"status": "RW"
+			},
+			{
+				"name": "Requirement Category",
+				"status": "RW"
+			},
+			{ "name": "owner" },
+			{ "name": "current" },
+			{ "name": "originated" },
+			{ "name": "modified" },
+			{ "name": "organization" },
+			{ "name": "project" },
+			{
+				"name": "DS_REQ_FTA_Discipline",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_IsActive",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_LocalArea",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Function",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_GeomtricalRequirementType",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_GPSStandardType",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Interchangeabilityconstraint",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvaluespecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2specification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit2",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminspecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxspecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticaltolerancespecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalpopulation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_WorstCasecalculation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmin",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmax",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticaldistribution",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalminvariation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalmaxvariation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalrejectionrate",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalcalculationmethod",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Retainedcalculationresult",
+				"status": "RW"
+			}
+		]
+			},
+	"Create": {
+		"attributes": [
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{
+				"name": "name",
+				"status": "RO"
+			},
+			{
+				"name": "policy",
+				"status": "RO"
+			},
+			{
+				"name": "Priority",
+				"status": "RW"
+			},
+			{
+				"name": "Difficulty",
+				"status": "RW"
+			},
+			{
+				"name": "Requirement Classification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Discipline",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_IsActive",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_LocalArea",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Function",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_GeomtricalRequirementType",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_GPSStandardType",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Interchangeabilityconstraint",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvaluespecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2specification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit2",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminspecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxspecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxvalue",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticaltolerancespecification",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalpopulation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_WorstCasecalculation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmin",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmax",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticaldistribution",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalminvariation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalmaxvariation",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalrejectionrate",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalcalculationmethod",
+				"status": "RW"
+			},
+			{
+				"name": "DS_REQ_FTA_Retainedcalculationresult",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"name": { "forbiddenChar": "\\/:*?\"<>|#$@%,[]" },
+			"Title": { "mandatory": true },
+			"DS_REQ_FTA_Discipline": {
+				"mandatory": true,
+				"authorized_required": true,
+				"authorizedValues": [ "Engineering", "Manufacturing" ]
+			},
+			"DS_REQ_FTA_GPSStandardType": {
+				"mandatory": true,
+				"authorized_required": true,
+				"authorizedValues": [
+					"Size",
+					"Distance",
+					"Angle",
+					"Surface_form",
+					"Line_form",
+					"Datum_feature",
+					"Datum_target",
+					"Datum_or_Datum_system",
+					"Surface_orientation",
+					"Line_orientation",
+					"Surface_location",
+					"Line_location",
+					"Circular_runout",
+					"Total_runout",
+					"Transition_surface_radius_dimension",
+					"Transition_surface_chamfer_dimension",
+					"Transition_specification_circular_edge",
+					"Transition_specification_chamfer_edge",
+					"Transition_specification_elliptical_edge",
+					"Transition_specification_CAD_defined_edge",
+					"Transition_line",
+					"Surface_texture_Pt",
+					"Surface_texture_Ra",
+					"Surface_texture_Rp",
+					"Surface_texture_Rq",
+					"Surface_texture_Rt",
+					"Surface_texture_Rv",
+					"Surface_texture_Rz",
+					"Surface_texture_Rzx",
+					"Not_defined"
+				]
+			},
+			"DS_REQ_FTA_Unit": {
+				"mandatory": true,
+				"authorized_required": true,
+				"authorizedValues": [
+					"MM",
+					"METER",
+					"CM",
+					"KM",
+					"INCH",
+					"FOOT",
+					"micron",
+					"YARD",
+					"MILE",
+					"NANOMETER",
+					"HECTOMETER",
+					"NAUTICAL_MILE",
+					"DECIMETER",
+					"ANGSTROM",
+					"CENTIMILLIMETER",
+					"DEGREE",
+					"RADIAN",
+					"GRADE",
+					"turn",
+					"MRAD",
+					"INCH_PER_FOOT",
+					"ANGLE_PERCENT",
+					"U_IN_V",
+					"V_IN_U"
+				]
+			},
+			"DS_REQ_FTA_Unit2": {
+				"mandatory": true,
+				"authorized_required": true,
+				"authorizedValues": [
+					"MM",
+					"METER",
+					"CM",
+					"KM",
+					"INCH",
+					"FOOT",
+					"micron",
+					"YARD",
+					"MILE",
+					"NANOMETER",
+					"HECTOMETER",
+					"NAUTICAL_MILE",
+					"DECIMETER",
+					"ANGSTROM",
+					"CENTIMILLIMETER",
+					"DEGREE",
+					"RADIAN",
+					"GRADE",
+					"turn",
+					"MRAD",
+					"INCH_PER_FOOT",
+					"ANGLE_PERCENT",
+					"U_IN_V",
+					"V_IN_U"
+				]
+			}
+		}
+	},
+	"revision":"1"
+}

@@ -1,0 +1,64 @@
+{
+	"200": {
+		"schema":{
+			"type": "object",
+			"properties": {
+				"totalItems": {
+					"type": "integer",
+					"example": 1
+				},
+				"member": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"id": {
+							  "type": "string",
+							  "example": "7FE982569CE620006544826E000676E9",
+							  "description": "The Physical ID of the Generic Model or Component Family Item for which locate is called."
+							},
+							"ComponentFamily": {
+								"type": "object",
+								"properties": {
+									"identifier": {
+										"type": "string",
+										"example": "649F032E0000355C6542F4480000ED8C",
+										"description": "The Physical ID of the Component Family."
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"400": {
+		"schema": {
+			"properties": {
+				"status": {
+					"type": "integer",
+					"example": 400
+				},
+				"message": {
+					"type": "string",
+					"example": "My message"
+				}
+			}
+		}
+	},
+	"500": {
+		"schema": {
+			"properties": {
+				"status": {
+					"type": "integer",
+					"example": 500
+				},
+				"message": {
+					"type": "string",
+					"example": "My message"
+				}
+			}
+		}
+	}
+}

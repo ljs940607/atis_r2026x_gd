@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parameter für die SQL-Server-Verbindung";
+MSSQL_ConnectUser.Label1="Benutzername für die SQL-Server-Verbindung:";
+MSSQL_ConnectUser.Resume="Benutzername für die SQL-Server-Verbindung: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Benutzerkennwort für die SQL-Server-Verbindung";
+MSSQL_ConnectPwd.Label1="Benutzerkennwort für die SQL-Server-Verbindung:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Name der SQL-Server-Datenbank";
+MSSQL_Instance.Label1="Name der SQL-Server-Datenbank:";
+MSSQL_Instance.Resume="Name der SQL-Server-Datenbank: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Datenbankserver des SQL-Servers";
+MSSQL_Server.Label1="Name des SQL-Servers:";
+MSSQL_Server.Resume="Name des SQL-Servers: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Datenbankverbindungsfehler";
+ConnectionTestFailed.Text="Der folgende Fehler wurde beim Herstellen der Verbindung berichtet:\n\n/P1\nPrüfen Sie mit dem 'SQL-Server-Konfigurationsmanager', dass:\n- der 'Gemeinsame Speicher' und die 'TCP/IP'-Protokolle aktiviert sind\n- der 'SQL-Server'- und der 'SQL-Server-Browser'-Service ausgeführt werden.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Erzeugung einer neuen Datenbank";
+CreateNewMSSQL_DB.Label1="Markieren Sie das Kontrollkästchen, um eine neue Datenbank zu erstellen (Der SQL-Server muss lokal installiert sein):";
+CreateNewMSSQL_DB.CheckButton="Neue SQL-Server-Datenbank erstellen";
+CreateNewMSSQL_DB.Resume.true="Neue SQL-Server-Datenbank erstellen: Ja";
+CreateNewMSSQL_DB.Resume.false="Neue SQL-Server-Datenbank erstellen: Nein";
+
+CreateNewMSSQL_DB_Error.Title="Fehler beim Erstellen einer neuen Datenbank";
+CreateNewMSSQL_DB_Error.Text="Der folgende Fehler wurde bei Verwendung des Befehls 'sqlcmd' gemeldet:\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="Neue Datenbank wurde erfolgreich erstellt.";
+CreateNewMSSQL_DB_Success.Text="Neue SQL-Server-Datenbank wurde erfolgreich erstellt.";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Auswahl des MSSQL-Datenverzeichnisses";
+PathMSSQLFiles.Label1="Verzeichnis zum Speichern der neuen Datenbankdateien (nur neue Datenbank):";
+PathMSSQLFiles.Resume="Speicherort der MSSQL-Dateien: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Dateigruppe für Standard- und Verwaltungsdaten";
+MSSQL_Default_Data_FG.Label1="Dateigruppe für Standard- und Verwaltungsdaten (wird ignoriert, falls leer)";
+MSSQL_Default_Data_FG.Resume="Dateigruppe für Standard- und Verwaltungsdaten: /P1";
+
+MSSQL_Default_Index_FG.Title="Dateigruppe für Standard- und Verwaltungsindex";
+MSSQL_Default_Index_FG.Label1="Dateigruppe für Standard- und Verwaltungsindex (wird ignoriert, falls leer)";
+MSSQL_Default_Index_FG.Resume="Dateigruppe für Standard- und Verwaltungsindex: /P1";

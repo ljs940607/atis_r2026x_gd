@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcCivilElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcCivilElement_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

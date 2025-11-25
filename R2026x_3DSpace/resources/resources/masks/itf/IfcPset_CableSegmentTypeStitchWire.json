@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeStitchWire_AssemblyInstruction",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeStitchWire_NominalLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeStitchWire_MechanicalTension",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeStitchWire_UltimateTensileStrength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeStitchWire_TensileStrength",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

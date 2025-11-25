@@ -1,0 +1,45 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_DesignName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_DuctSizingMethod",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_PressureClass",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_LeakageClass",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_FrictionLoss",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_ScrapFactor",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_MaximumVelocity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_AspectRatio",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_MinimumHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DistributionSystemTypeVentilation_MinimumWidth",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

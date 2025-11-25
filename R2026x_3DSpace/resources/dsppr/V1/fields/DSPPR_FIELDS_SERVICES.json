@@ -1,0 +1,22 @@
+{
+	"dsppr:EngItem.referencedObject": {
+        "property": "computed",
+        "key": "dseng:EngItem",
+        "example": "com.dassault_systemes.enovia.xapps.dsppr.implementations.dspprOpenAPIImpl.getAllEngItemReferenceObject"
+	},
+		"dsppr:MfgItem.referencedObject": {
+        "property": "computed",
+        "key": "dsmfg:MfgItem",
+        "example": "com.dassault_systemes.enovia.xapps.dsppr.implementations.dspprOpenAPIImpl.getAllMfgItemReferenceObject"
+	},
+		"dsppr:MfgPrcs.referencedObject": {
+        "property": "computed",
+        "key": "dsprcs:MfgProcess",
+        "example": "com.dassault_systemes.enovia.xapps.dsppr.implementations.dspprOpenAPIImpl.getAllMfgProcessReferenceObject"
+	},
+		"dsppr:Resource.referencedObject": {
+        "property": "computed",
+        "key": "dsrsc:Resource",
+        "example": "com.dassault_systemes.enovia.xapps.dsppr.implementations.dspprOpenAPIImpl.getAllRscItemReferenceObject"
+	}
+}

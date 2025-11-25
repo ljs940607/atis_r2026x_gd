@@ -1,0 +1,190 @@
+{
+  "dsmvenghvac:attribute.entity.endstyle": {
+    "property": "attribute[HVAC_Entity.V_EndStyle]",
+    "key": "endstyle",
+    "label": "dsenghvac.Label.Attribute.EndStyle",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_EndStyle",
+    "description": "End Style"
+  },
+  
+  "dsmvenghvac:attribute.entity.equivalentdiameter": {
+    "property": "attribute[HVAC_Entity.V_EquivalentDiameter]",
+    "key": "equivalentdiameter",
+    "label": "dsenghvac.Label.Attribute.EquivalentDiameter",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_EquivalentDiameter",
+    "description": "Equivalent Diameter"
+  },
+  
+  "dsmvenghvac:attribute.entity.instanciationrule": {
+    "property": "attribute[HVAC_Entity.V_InstanciationRule]",
+    "key": "instanciationrule",
+    "label": "dsenghvac.Label.Attribute.InstanciationRule",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_InstanciationRule",
+    "description": "Instanciation Rule"
+  },
+  
+  "dsmvenghvac:attribute.entity.materialname": {
+    "property": "attribute[HVAC_Entity.V_MaterialName]",
+    "key": "materialname",
+    "label": "dsenghvac.Label.Attribute.MaterialName",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_MaterialName",
+    "description": "Material Name"
+  },
+  
+  "dsmvenghvac:attribute.entity.nominalsize": {
+    "property": "attribute[HVAC_Entity.V_NominalSize]",
+    "key": "nominalsize",
+    "label": "dsenghvac.Label.Attribute.NominalSize",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_NominalSize",
+    "description": "Nominal Size"
+  },
+  
+  "dsmvenghvac:attribute.entity.shape": {
+    "property": "attribute[HVAC_Entity.V_Shape]",
+    "key": "shape",
+    "label": "dsenghvac.Label.Attribute.Shape",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_Shape",
+    "description": "Shape"
+  },
+  
+  "dsmvenghvac:attribute.entity.standard": {
+    "property": "attribute[HVAC_Entity.V_Standard]",
+    "key": "standard",
+    "label": "dsenghvac.Label.Attribute.Standard",
+    "example": "",
+    "index": "ds6wg:HVAC_Entity.V_Standard",
+    "description": "Standard"
+  },
+  
+  "dsmvenghvac:attribute.part.losscoefficientk": {
+    "property": "attribute[HVAC_Part.V_LossCoefficientK]",
+    "key": "losscoefficientk",
+    "label": "dsenghvac.Label.Attribute.LossCoefficientK",
+    "example": "",
+    "index": "ds6wg:HVAC_Part.V_LossCoefficientK",
+    "description": "Loss CoefficientK"
+  },
+  
+  "dsmvenghvac:attribute.part.subparttype": {
+    "property": "attribute[HVAC_PartV1.V_SubPartType,HVAC_PartV2.V_SubPartType]",
+    "key": "subparttype",
+    "example": "",
+    "label": "dsenghvac.Label.Attribute.SubPartType",
+    "index": "ds6wg:HVAC_PartV1.V_SubPartType,ds6wg:HVAC_PartV2.V_SubPartType",
+    "description": "Part Sub Type"
+  },
+  
+    "dsmvenghvac:attribute.part.referencebendangle": {
+    "property": "attribute[HVAC_Elbow.V_ReferenceBendAngle,HVAC_Saddle.V_ReferenceBendAngle,HVAC_Tee.V_ReferenceBendAngle]",
+    "key": "referencebendangle",
+    "example": "",
+    "label": "dsenghvac.Label.Attribute.ReferenceBendAngle",
+    "index": "ds6wg:HVAC_Elbow.V_ReferenceBendAngle,ds6wg:HVAC_Saddle.V_ReferenceBendAngle,ds6wg:HVAC_Tee.V_ReferenceBendAngle",
+    "description": "Reference Bend Angle"
+  },
+  
+  "dsmvenghvac:attribute.elbow.bendangle": {
+    "property": "attribute[HVAC_Elbow.V_BendAngle]",
+    "key": "bendangle",
+    "label": "dsenghvac.Label.Attribute.BendAngle",
+    "example": "",
+    "index": "ds6wg:HVAC_Elbow.V_BendAngle",
+    "description": "Bend Angle"
+  },
+  
+  "dsmvenghvac:attribute.elbow.bendradius": {
+    "property": "attribute[HVAC_Elbow.V_BendRadius]",
+    "key": "bendradius",
+    "label": "dsenghvac.Label.Attribute.BendRadius",
+    "example": "",
+    "index": "ds6wg:HVAC_Elbow.V_BendRadius",
+    "description": "Bend Radius"
+  },
+  
+  "dsmvenghvac:attribute.elbow.guidance": {
+    "property": "attribute[HVAC_Elbow.V_Guidance]",
+    "key": "guidance",
+    "label": "dsenghvac.Label.Attribute.Guidance",
+    "example": "",
+    "index": "ds6wg:HVAC_Elbow.V_Guidance",
+    "description": "Guidance"
+  },
+  
+  "dsmvenghvac:attribute.duct.cornerradius": {
+    "property": "attribute[HVAC_Duct.V_CornerRadius]",
+    "key": "cornerradius",
+    "label": "dsenghvac.Label.Attribute.CornerRadius",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_CornerRadius",
+    "description": "Corner Radius"
+  },
+  
+  "dsmvenghvac:attribute.duct.height": {
+    "property": "attribute[HVAC_Duct.V_Height]",
+    "key": "height",
+    "label": "dsenghvac.Label.Attribute.Height",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_Height",
+    "description": "Height"
+  },
+  
+  "dsmvenghvac:attribute.duct.length": {
+    "property": "attribute[HVAC_Duct.V_Length]",
+    "key": "length",
+    "label": "dsenghvac.Label.Attribute.Length",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_Length",
+    "description": "Length"
+  },
+  
+  "dsmvenghvac:attribute.duct.linearweight": {
+    "property": "attribute[HVAC_Duct.V_LinearWeight]",
+    "key": "linearweight",
+    "label": "dsenghvac.Label.Attribute.LinearWeight",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_LinearWeight",
+    "description": "Linear Weight"
+  },
+  
+  "dsmvenghvac:attribute.duct.wallthickness": {
+    "property": "attribute[HVAC_Duct.V_WallThickness]",
+    "key": "wallthickness",
+    "label": "dsenghvac.Label.Attribute.WallThickness",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_WallThickness",
+    "description": "Wall Thickness"
+  },
+  
+  "dsmvenghvac:attribute.duct.width": {
+    "property": "attribute[HVAC_Duct.V_Width]",
+    "key": "width",
+    "label": "dsenghvac.Label.Attribute.Width",
+    "example": "",
+    "index": "ds6wg:HVAC_Duct.V_Width",
+    "description": "Width"
+  },
+  
+  "dsmvenghvac:attribute.flexibleduct.referencebendradius": {
+    "property": "attribute[HVAC_Flexible_Duct.V_ReferenceBendRadius]",
+    "key": "referencebendradius",
+    "label": "dsenghvac.Label.Attribute.ReferenceBendRadius",
+    "example": "",
+    "index": "ds6wg:HVAC_Flexible_Duct.V_ReferenceBendRadius",
+    "description": "Reference Bend Radius"
+  },
+  
+  "dsmvenghvac:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+  
+}

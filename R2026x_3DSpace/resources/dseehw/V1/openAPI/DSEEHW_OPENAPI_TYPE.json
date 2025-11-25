@@ -1,0 +1,72 @@
+{
+  "dseehw:EEHwItem": {
+    "summary": "EE Hardware reference",
+    "description": "Electrical and Electronics hardware reference :EETopology, EEECU, EEActuator, EESensor, EEDevice,EEElectricalDevice,EERack",
+    "PUBLICMasks": ["dsmveehw:EEHWItemMask.Reference.Common","dsmveehw:EEHWItemMask.Reference.EEECU","dsmveehw:EEHWItemMask.Reference.Rack"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+
+    "PUBLICFields": ["dsmveehw:attribute.reference.partNumber","dsmveehw:attribute.reference.ecu.wakeUpOverBusSupported","dsmveehw:attribute.reference.rack.nbOfColumns","dsmveehw:attribute.reference.rack.nbOfRows","dsmveehw:attribute.reference.rack.nbOfSlotsPerUnit"],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [ ],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "GETAll","bulkfetch", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  "dseehw:EEHwInstance": {
+    "summary": "EE Hardware instance",
+    "description": "instance of an EE Hardware reference: EEECUInstance, EEActuatorInstance,EESensorInstance,EEDeviceInstance,EEElectricalDeviceInstance,EESubSystem",
+    "PUBLICMasks": ["dsmveehw:EEHWInstanceMask.Instance.Basic","dsmveehw:EEHWInstanceMask.Instance.EEInstanceCommon"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+
+    "PUBLICFields": ["dsmveehw:attribute.instance.eeecus.comConfigurationGwTimeBase","dsmveehw:attribute.instance.eeecus.comConfigurationTxTimeBase","dsmveehw:attribute.instance.eeecus.comConfigurationRxTimeBase"],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems","bulkfetch", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  "dseehw:EEHwConnectorType": {
+    "summary": "EE Hardware Connector Type",
+    "description": "Electrical and Electronics hardware Connector Types (or Connector Interfaces).they are identified by a `\"Link Technology\" such as LIN, CAN, FlexRay, etc...",
+    "PUBLICMasks": ["dsmveehw:EEHwConnectorType.Mask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+
+    "PUBLICFields": ["dsmveehw:attribute.itf.technology","dsmveehw:attribute.itf.linkTechnology","dsmveehw:attribute.itf.subTechnology","dsmveehw:attribute.itf.extLinkTechnology","dsmveehw:attribute.itf.multiplexed"],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [ ],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "GETAll","bulkfetch", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  "dseehw:EEHwCommunicationConnector": {
+    "summary": "EE Communication Connector",
+    "description": "instance of an EE Hardware Connector Type ( Port ), to be linked to EE Hardware references",
+    "PUBLICMasks": ["dsmveehw:EEHwCommunicationConnector.Mask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+
+    "PUBLICFields": ["dsmveehw:attribute.port.flexRayLatestTx","dsmveehw:attribute.port.isLinMasterController","dsmveehw:attribute.port.linProtocolVersion","dsmveehw:attribute.port.timeBase"],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems","bulkfetch", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_SwitchYardCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_SwitchYardCommon_InstallationDate",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

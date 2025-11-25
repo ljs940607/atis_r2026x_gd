@@ -1,0 +1,85 @@
+{
+    "dsmvlog:ConfigMask.Details": [
+        {
+            "property": "physicalid",
+            "key": "physicalid"
+        },
+        {
+            "property": "id",
+            "key": "objectid"
+        },
+        {
+            "property": "type",
+            "key": "type"
+        },
+        {
+            "property": "name",
+            "key": "name"
+        },
+        {
+            "property": "revision",
+            "key": "revision"
+        },
+        {
+            "property": "current",
+            "key": "current"
+        },
+        {
+            "property": "attribute[Marketing Name]",
+            "key": "title"
+        },
+        {
+            "property": "attribute[Filter Compiled Form]",
+            "key": "filterCompiledForm"
+        },
+        "dsmvlog:basic.typeDB",
+    	"dsmvlog:basic.typeNLS"
+    ],
+    "dsmvlog:BusMask": [
+        "dsmvlog:attribute.name",
+        "dsmvlog:attribute.title",
+        "dsmvlog:attribute.descripton",
+        "dsmveno:basic.id",
+        "dsmveno:basic.type",
+    	"dsmveno:basic.modified.utc",
+    	"dsmveno:basic.created.utc",
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask"
+        },
+        "dsmvlog:basic.stateDB",
+        "dsmvlog:basic.stateNLS",
+        "dsmvlog:basic.typeDB",        
+    	"dsmvlog:basic.typeNLS",
+        "dsmvlog:kindOfRFLP",
+        "dsmvlog:Extension.ArchitectureExtension.ArchitectureNumber",
+        "dsmveno:attribute.reference.isLastVersion"
+    ],
+    "dsmvlog:DocumentMask": [
+        "dsmvlog:attribute.name",
+        "dsmvlog:attribute.title",
+        "dsmvlog:attribute.descripton",
+        "dsmveno:basic.id",
+        "dsmveno:basic.type",
+    	"dsmveno:basic.modified.utc",
+    	"dsmveno:basic.created.utc",
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask"
+        },
+        "dsmvlog:basic.stateDB",
+        "dsmvlog:basic.stateNLS",
+        "dsmveno:attribute.reference.isLastVersion",
+        "dsmveno:basic.image",
+        "dsmveno:basic.thumbnails",
+        "dsmvlog:basic.typeDB",
+    	"dsmvlog:basic.typeNLS"
+    ],
+
+    "dsmvlog:LogItemMask.Reference.SPPConnection": [{
+            "property": "reuseMask",
+            "mask": "dsmvlog:BusMask"
+        },
+        "dsmvlog:Reference.SPPConnection.Details"
+    ]
+}

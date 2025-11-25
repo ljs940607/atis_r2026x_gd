@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeCommon_Reference",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeCommon_Status",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

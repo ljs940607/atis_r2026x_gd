@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+
+<Package Name="CATCnTZoning" ModelerType="Top" CustomerExposition="Programmer" UseNames="PLMCORE"
+  Architecture = "All" xmlns="PLMDictionaryUnified" BelongsToModeler ="CATCnTZoning" Uuid="87157d8a-a3aa-491e-ac29-a7e3e8c0c805" >
+
+  <Class Name="CATCnTAppearanceZone" SuperName="PLMCoreReference" CustomerExposition="ProgrammerOnly"
+    Uuid="d7755902-6263-46dd-8796-2da8fe46e08d" Specializable="No" Abstract="No" Searchable="No" Abbreviation="apczone">
+    
+    <Property Name="IconName" Value="I_CATCnTAppearanceZone"/>
+    
+    <Property Name="SaveAsNewAvailability" Value="No"/>
+    <Property Name="DuplicateAvailability" Value="No"/>
+    <Property Name="EvolutionAvailability" Value="No"/>
+    <Property Name="DeleteAvailability" Value="Yes"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <!--
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+          <Usage href="ExportScope.meth#Design"/>
+          <UsedProcedure href="CATCnTZoning_Procedures.proc#CATCnTAppearanceZoneExport"/>
+        </ProcedureForUsage>
+    </Method>
+   -->
+
+    <Simple Name="V_DefaultColorRGBA"
+        Uuid="3d93d353-15e2-4ebf-8fc0-b375f40f733e"
+        Type="String"
+        MaxLength="9"
+        Protection="Internal"
+        MultiValuated="No">
+    </Simple>
+
+    <Path Name="Context"
+          Uuid="abe36872-230e-426c-b383-c41ed30f8a08"
+          MultiValuated="Yes"
+          TargetNames="VPMReference"
+          RoleName="CATCnTZoneContext"
+          Semantics="Reference"
+          Type="SemanticRelation"
+          Orientation="Neutral"
+          AdaptativeToMinor="No"
+          SynchroSensitivity="None"
+          RerouteOnEffectivityChange="No"/>
+    
+    <Path Name="Support"
+          Uuid="d340e04e-40ea-4b00-acb6-ff43ed3ded5f"
+          MultiValuated="Yes"
+          TargetNames="VPMInstance"
+          RoleName="CATCnTZoneSupport"
+          Semantics="Reference"
+          Orientation="Neutral"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          SynchroSensitivity="None"
+          RerouteOnEffectivityChange="No"/>
+
+    <Path Name="Appearance"
+          Uuid="284799d9-46f8-4041-b960-2878f191020c"
+          MultiValuated="Yes"
+          TargetNames="AppearanceRep"
+          RoleName="CATCnTZoneAppearance"
+          Semantics="Reference"
+          Type="SemanticRelation"
+          Orientation="Neutral"
+          AdaptativeToMinor="No"
+          SynchroSensitivity="None"
+          RerouteOnEffectivityChange="No"/>
+
+  </Class>
+  
+    <Extension Name="CATCnTZoneToSupportExt"
+        Uuid="670ed5d0-765c-4866-a75e-daa505240660"
+        CustomerExposition="ProgrammerOnly"
+        ScopeNames="SemanticRelation">
+    <Simple Name="V_MappingOpe" Uuid="bda76a20-04d6-462a-9392-24c3b6262596" Type="Clob" Protection="Internal"/>
+    <Simple Name="V_FamilyId" Uuid="32659505-58b2-4be7-b105-697eaca3b3e0" Type="String" Protection="Internal"/>
+  </Extension>
+
+  <Extension Name="CATCnTZoneToAppearanceExt"
+        Uuid="4c0d3b51-985f-4cc6-a4c8-efebbd868bed"
+        CustomerExposition="ProgrammerOnly"
+        ScopeNames="SemanticRelation">
+    <Simple Name="V_IsActiveAppearance" Uuid="bd4c9822-b116-4751-b444-a824125b0868" Type="Boolean" Protection="Internal" DefaultValue="False"/>
+  </Extension>
+
+<!-- 
+<Function Name="CATCnTAppearanceZone_NavigToAppearance">
+		<Implementation Name="CATCnTAppearanceZone_NavigToAppearance" FileLocation="CATCnTAppearanceZone_NavigToAppearance.plmql" Language="PLMQL"/>
+		<Signature href="CATCnTFunctionSignature"/>
+	</Function>
+	<Signature id="CATCnTFunctionSignature">
+		<Parameter Name="InputIds " Lower="0" Upper="-1" Direction="in" MultiValuated="Yes" DataType="PLMId"/>
+		<Parameter Name="OutputIds " Lower="0" Upper="-1" Direction="out" MultiValuated="No" DataType="PLMRouteSet"/>
+	</Signature>
+  -->
+  
+</Package>

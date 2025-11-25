@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAutomaton_InputSignalType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeAutomaton_OutputSignalType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

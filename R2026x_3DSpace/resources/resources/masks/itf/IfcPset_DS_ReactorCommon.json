@@ -1,0 +1,57 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_ReactorCommon_RefrigerationMachineOil",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_CoreType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_SerialNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_CopperLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_IronLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_TotalLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_NominalPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_RatedVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_DesignType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_ReactorCommon_ConnectionType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<ProcedurePackage
+    xmlns="PLMDictionaryProcedure"
+    Name="Config_xRev_Procedures">
+
+        <Procedure Name="Config_GetxRevisionContext">
+		<Implementation Name="Config_GetxRevisionContext" FileLocation="Config_GetxRevisionContext.KProc" Language="EKL"/>
+		<Signature href="Config_xRev_ProcedureSignatureExport"/>
+	</Procedure>
+
+	<Procedure Name="Config_GetModelFromxRevisionContext">
+		<Implementation Name="Config_GetModelFromxRevisionContext" FileLocation="Config_GetModelFromxRevisionContext.KProc" Language="EKL"/>
+		<Signature href="Config_xRev_ProcedureSignatureExport"/>
+	</Procedure>
+	
+	<Signature id="Config_xRev_ProcedureSignatureExport">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="in" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="out" DataType="PLMId"/>
+	</Signature>
+</ProcedurePackage>

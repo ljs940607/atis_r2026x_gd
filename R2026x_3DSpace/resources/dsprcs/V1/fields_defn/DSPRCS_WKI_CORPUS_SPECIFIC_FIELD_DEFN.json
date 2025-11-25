@@ -1,0 +1,38 @@
+{
+	"dsprcs:SignOff.actors": {
+		"isMultiValuated": true
+	},
+	"dsprcs:DataCollect.possibleValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:DataCollectRow.possibleValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:CheckListRow.possibleValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:DataCollectRow.unconformValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:CheckListRow.unconformValues": {
+		"isMultiValuated": true
+	},
+	"dsprcs:Alert.text": {
+		"isRestrictedInExpand": true
+	},
+	"dsprcs:Instruction.text": {
+		"isRestrictedInExpand": true
+	},
+	"dsprcs:SignOff.text": {
+		"isRestrictedInExpand": true
+	},
+	"dsprcs:DataCollect.text": {
+		"isRestrictedInExpand": true
+	},
+	"dsprcs:DataCollectRow.text": {
+		"isRestrictedInExpand": true
+	},
+	"dsprcs:CheckListRow.text": {
+		"isRestrictedInExpand": true
+	}
+}

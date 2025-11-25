@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY for Fastening treatment specifications -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2025, all rights reserved -->
+
+<!-- 
+   =========
+    Package
+   =========
+ -->
+
+<Package xmlns="PLMDictionaryUnified"
+    Name="PLMFastening_Treatments"
+		Uuid="D9D9D923-9515-49E8-BBF7-0840D5F5DC0B"
+		CustomerExposition="Programmer"
+		ModelerType="Top"
+		BelongsToModeler="PLMFst_Fasteners" 
+		UseNames="PLMFst_Fasteners;PRODUCTCFG" >
+
+  <CAAComment>
+    <ShortRole>Fastening treatment specification package</ShortRole>
+    <Role>This package describes the Fastener treatment objects for the Fastening Application.</Role>
+  </CAAComment>
+  <Comment>[V6R2026x]Initial creation: NPR1 GKI2 June 2025</Comment>
+
+  <!-- START : TREATMENT REFERENCE -->
+  <Class Name = "FastenerTreatmentReference"
+         Uuid = "61144778-4681-4A66-8975-702F3DC27338"
+         Abbreviation = "ftr"
+         Abstract = "Yes"
+         SuperName = "VPMReference"
+         Discipline = "Yes"
+         Specializable = "No"
+         CustomerExposition = "Programmer"
+         CustomerExtensible = "Yes">
+
+    <Property Name = "3DPartAvailability" Value = "UserChoiceReferenceDefault"/>
+    <Property Name = "IconName" Value = "I_Fst_Treatment"/>
+    <Property Name = "3DIconName" Value = "I_Fst_Treatment.cgr"/>
+    <Property Name = "XPGApplyDisciplineOnInstance"  Value = "Yes"/>
+    <Property Name = "OccurrenceType" Value = "FastenerTreatmentOccurrence"/>
+
+    <Simple Name = "V_TreatmentID"
+            Uuid = "2CDD6212-7C30-414E-AD18-606D1D192596"
+            Type = "String"
+            MaxLength = "50"
+            Protection = "External"
+            CAAExposition = "L1">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name = "V_TreatmentDescription"
+            Uuid = "2B586C39-A3B4-4A70-B96E-BF872BF85978"
+            Type = "String"
+            Protection = "External"
+            CAAExposition = "L1">
+      <CAAComment>
+        <ShortRole>Treatment description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name = "V_ProcessID"
+            Uuid = "8523872E-18E6-4984-914C-5218C5B0CB72"
+            Type = "String"
+            MaxLength = "50"
+            Protection = "External"
+            CAAExposition = "L1">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name = "V_ProcessDescription"
+            Uuid = "4CDF774C-1FBD-4BAC-8ED1-FE313B253C70"
+            Type = "String"
+            Protection = "External"
+            CAAExposition = "L1">
+      <CAAComment>
+        <ShortRole>Process description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_TreatmentVersion"
+            Uuid="DC14096E-3B1C-465A-93D6-F8049612C39A"
+            DefaultValue="0"
+            Type="Integer"
+            MultiValuated="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>Treatment reference version</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_IsPreTreatment"
+            Uuid="7385E0A7-3211-4FF9-A164-40FA151A130C"
+            DefaultValue="false"
+            Type="Boolean"
+            MultiValuated="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+
+  </Class>
+
+  <!-- START : INSTALLATION TREATMENT REFERENCE -->
+  <Class Name="FastenerInstallationTreatmentReference"
+         Abstract="No"
+         Uuid="8B2851C1-3388-4C3F-9F22-ED5E9D57A262"
+         Abbreviation="fitr"
+         SuperName="FastenerTreatmentReference"
+         Discipline="Yes"
+         Specializable="Yes"
+         CustomerExposition="Programmer"
+         CustomerExtensible="Yes"
+         CreateInstName="FastenerInstallationTreatmentInstance"
+         CAAExposition="L1">
+
+    <Property Name="IconName" Value="I_Fst_InstallationTreatment"/>
+    <Property Name="3DIconName" Value="I_Fst_InstallationTreatment.cgr"/>
+    <Property Name="TypeForDisciplineValuation" Value="FastenerTreatmentReference"/>
+    <Property Name="GroupingType" Value="FastenerTreatmentReference"/>
+    <Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+    <Property Name="ChangeManagementRealized" Value="No"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATFstInstallationTreatDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="FastenerInstallationTreatmentInstance"/>
+    <Property Name="Newable" Value="All"/>
+    <Property Name="OccurrenceType" Value="FastenerInstallationTreatmentOccurrence"/>
+
+  </Class>
+  <!-- END : INSTALLATION TREATMENT REFERENCE -->
+
+  <!-- START : PROTECTION TREATMENT REFERENCE -->
+  <Class Name="FastenerProtectionTreatmentReference"
+         Abstract="No"
+         Uuid="6F65BC07-663E-4779-B150-436BA45CD7D5"
+         Abbreviation="fptr"
+         SuperName="FastenerTreatmentReference"
+         Discipline="Yes"
+         Specializable="Yes"
+         CustomerExposition="Programmer"
+         CustomerExtensible="Yes"
+         CreateInstName="FastenerProtectionTreatmentInstance"
+         CAAExposition="L1">
+
+    <Property Name="IconName" Value="I_Fst_ProtectionTreatment"/>
+    <Property Name="3DIconName" Value="I_Fst_ProtectionTreatment.cgr"/>
+    <Property Name="TypeForDisciplineValuation" Value="FastenerTreatmentReference"/>
+    <Property Name="GroupingType" Value="FastenerTreatmentReference"/>
+    <Property Name="XPGApplyDisciplineOnInstance"  Value="Yes"/>
+    <Property Name="ChangeManagementRealized" Value="No"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATFstProtectionTreatDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="FastenerProtectionTreatmentInstance"/>
+    <Property Name="Newable" Value="All"/>
+    <Property Name="OccurrenceType" Value="FastenerProtectionTreatmentOccurrence"/>
+
+  </Class>
+  <!-- END : PROTECTION TREATMENT REFERENCE -->
+
+  <!-- START : BONDING TREATMENT REFERENCE -->
+  <Class Name="FastenerBondingTreatmentReference"
+	       Uuid="589DE5EA-C91F-4B6B-B055-C722D24024BA"
+	       Abbreviation="fbtr"
+	       SuperName="FastenerTreatmentReference"
+	       Discipline="Yes"
+	       Specializable="Yes"
+	       CustomerExposition="Programmer"
+	       CustomerExtensible="Yes"
+	       CreateInstName="FastenerBondingTreatmentInstance"
+         Abstract="No"
+	       CAAExposition="L1">
+
+    <Property Name="IconName" Value="I_Fst_BondingTreatment"/>
+    <Property Name="3DIconName" Value="I_Fst_BondingTreatment.cgr"/>
+    <Property Name="TypeForDisciplineValuation" Value="FastenerTreatmentReference"/>
+    <Property Name="GroupingType" Value="FastenerTreatmentReference"/>
+    <Property Name="XPGApplyDisciplineOnInstance"  Value="Yes"/>
+    <Property Name="ChangeManagementRealized" Value="No"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATFstBondingTreatDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="FastenerBondingTreatmentInstance"/>
+    <Property Name="Newable" Value="All"/>
+    <Property Name="OccurrenceType" Value="FastenerBondingTreatmentOccurrence"/>
+
+  </Class>
+  <!-- END : BONDING TREATMENT REFERENCE -->
+  
+  <!-- START : STRIPPING TREATMENT REFERENCE -->
+  <Class Name="FastenerStrippingTreatmentReference"
+	       Uuid="6176C106-E96D-429F-AF17-EF427029DD71"
+	       Abbreviation="fstr"
+	       SuperName="FastenerTreatmentReference"
+	       Discipline="Yes"
+	       Specializable="Yes"
+	       CustomerExposition="Programmer"
+	       CustomerExtensible="Yes"
+	       CreateInstName="FastenerStrippingTreatmentInstance"
+		   Abstract="No"
+	       CAAExposition="L1">
+
+    <Property Name="IconName" Value="I_Fst_StrippingTreatment"/>
+    <Property Name="3DIconName" Value="I_Fst_StrippingTreatment.cgr"/>
+    <Property Name="TypeForDisciplineValuation" Value="FastenerTreatmentReference"/>
+    <Property Name="GroupingType" Value="FastenerTreatmentReference"/>
+    <Property Name="XPGApplyDisciplineOnInstance"  Value="Yes"/>
+    <Property Name="ChangeManagementRealized" Value="No"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATFstStrippingTreatDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="FastenerStrippingTreatmentInstance"/>
+    <Property Name="Newable" Value="All"/>
+    <Property Name="OccurrenceType" Value="FastenerStrippingTreatmentOccurrence"/>
+
+	<Simple Name="V_StrippingDiameter" Uuid="39B508C1-BC02-48C9-93A8-A141FDB30075" Type="Double" Magnitude="LENGTH" Protection="External" CAAExposition="L1">
+		<CAAComment>
+			<ShortRole>Stripping Diameter</ShortRole>
+		</CAAComment>
+	</Simple>
+  </Class>
+  <!-- END : STRIPPING TREATMENT REFERENCE -->
+  
+  <!-- START : CLEANING TREATMENT REFERENCE -->
+  <Class Name="FastenerCleaningTreatmentReference"
+	       Uuid="4EAEF2CF-3E76-48B4-B5E6-9EFE8D13D2BC"
+	       Abbreviation="fctr"
+	       SuperName="FastenerTreatmentReference"
+	       Discipline="Yes"
+	       Specializable="Yes"
+	       CustomerExposition="Programmer"
+	       CustomerExtensible="Yes"
+	       CreateInstName="FastenerCleaningTreatmentInstance"
+		   Abstract="No"
+	       CAAExposition="L1">
+
+    <Property Name="IconName" Value="I_Fst_CleaningTreatment"/>
+    <Property Name="3DIconName" Value="I_Fst_CleaningTreatment.cgr"/>
+    <Property Name="TypeForDisciplineValuation" Value="FastenerTreatmentReference"/>
+    <Property Name="GroupingType" Value="FastenerTreatmentReference"/>
+    <Property Name="XPGApplyDisciplineOnInstance"  Value="Yes"/>
+    <Property Name="ChangeManagementRealized" Value="No"/>
+    <Property Name="KweNew_InstanciationMethod" Value="CATFstCleaningTreatDelegateInstanciation"/>
+    <Property Name="KweNew_ReturnedType" Value="FastenerCleaningTreatmentInstance"/>
+    <Property Name="Newable" Value="All"/>
+    <Property Name="OccurrenceType" Value="FastenerCleaningTreatmentOccurrence"/>
+
+  </Class>
+  <!-- END : CLEANING TREATMENT REFERENCE -->
+
+  <!-- END : TREATMENT REFERENCE -->
+
+  <!-- START : TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerTreatmentInstance"
+                 Uuid="372AE911-827C-4D6A-8063-BCEBA718D6E7"
+      		       CustomerExposition="Programmer"
+	               SuperName="VPMInstance"
+	               Abstract="Yes"
+	               Discipline="Yes"
+	               Specializable="No"
+	               CAAExposition="L1">
+
+    <Simple Name="V_AppliedLocation"
+            Uuid="7537208B-5256-4F49-9861-C6444BC9E115"
+            Type="String"
+            MaxLength="50"
+            Protection="External">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_IsCustom"
+            Uuid="76190B0C-0109-46F6-8F53-2ACA94BCA6FE"
+            Type="Boolean"
+            DefaultValue="true"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_TreatmentStandard"
+            Uuid="5944227C-CFBF-485A-BC73-0F90224F6237"
+            Type="String"
+            Protection="External"
+            CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_ComponentInstanceID"
+            Uuid="311463B0-A3D4-41F2-BCEF-F0AAABE1B5ED"
+            Type="String"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+  </RelationClass>
+
+  <!-- START : INSTALLATION TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerInstallationTreatmentInstance"
+	               Uuid="FE374B93-EAA3-404F-959E-9E981F3DD5A3"
+                 CustomerExposition="Programmer"
+                 SuperName="FastenerTreatmentInstance"
+                 Abstract="No"
+                 Discipline="Yes"
+                 Specializable="No"
+                 CustomerExtensible="Yes"
+                 CAAExposition="L1">
+
+    <SubClause Name="to"   TargetName="FastenerInstallationTreatmentReference"/>
+    <SubClause Name="from"   TargetName="Fastener"/>
+
+  </RelationClass>
+  <!-- END : INSTALLATION TREATMENT INSTANCE -->
+
+  <!-- START : INSTALLATION TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerProtectionTreatmentInstance"
+	               Uuid="A16FC856-B4E4-4EC3-9E28-83F6C0020199"
+                 CustomerExposition="Programmer"
+                 SuperName="FastenerTreatmentInstance"
+                 Abstract="No"
+                 Discipline="Yes"
+                 Specializable="No"
+                 CustomerExtensible="Yes"
+                 CAAExposition="L1">
+
+    <SubClause Name="to"   TargetName="FastenerProtectionTreatmentReference"/>
+    <SubClause Name="from"   TargetName="Fastener"/>
+
+  </RelationClass>
+  <!-- END : INSTALLATION TREATMENT INSTANCE -->
+
+  <!-- START : BONDING TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerBondingTreatmentInstance"
+	               Uuid="07ECBFFB-F9BA-4C6C-B5FA-41A6838D023E"
+                 CustomerExposition="Programmer"
+		             SuperName="FastenerTreatmentInstance"
+		             Abstract="No"
+		             Discipline="Yes"
+		             Specializable="No"
+		             CustomerExtensible="Yes"
+		             CAAExposition="L1">
+
+    <SubClause Name="to"   TargetName="FastenerBondingTreatmentReference"/>
+    <SubClause Name="from"   TargetName="Fastener"/>
+
+  </RelationClass>
+  <!-- END : BONDING TREATMENT INSTANCE -->
+  
+  <!-- START : STRIPPING TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerStrippingTreatmentInstance"
+	               Uuid="FB24C1A8-3E20-41DD-B12D-2A254B63CF18"
+					 CustomerExposition="Programmer"
+		             SuperName="FastenerTreatmentInstance"
+		             Abstract="No"
+		             Discipline="Yes"
+		             Specializable="No"
+		             CustomerExtensible="Yes"
+		             CAAExposition="L1">
+
+    <SubClause Name="to"   TargetName="FastenerStrippingTreatmentReference"/>
+    <SubClause Name="from"   TargetName="Fastener"/>
+
+  </RelationClass>
+  <!-- END : STRIPPING TREATMENT INSTANCE -->
+  
+  <!-- START : CLEANING TREATMENT INSTANCE -->
+  <RelationClass Name="FastenerCleaningTreatmentInstance"
+	               Uuid="2D616B04-22C8-422A-8734-5EECF8639B02"
+                 CustomerExposition="Programmer"
+		             SuperName="FastenerTreatmentInstance"
+		             Abstract="No"
+		             Discipline="Yes"
+		             Specializable="No"
+		             CustomerExtensible="Yes"
+		             CAAExposition="L1">
+
+    <SubClause Name="to"   TargetName="FastenerCleaningTreatmentReference"/>
+    <SubClause Name="from"   TargetName="Fastener"/>
+
+  </RelationClass>
+  <!-- END : CLEANING TREATMENT INSTANCE -->
+
+  <!-- END : TREATMENT INSTANCE -->
+
+  <!-- START : TREATMENT EXTENSION -->
+
+  <!-- START : INSTALLATION TREATMENT EXTENSION -->
+  <Extension Name="Fsx_InstallationTreatmentExt" Uuid="C6A5ED74-D56D-4839-8547-9184ED986544" Abstract="No" CustomerExposition="Programmer" ScopeNames="FastenerInstance;ConceptFastenerInstance;VPMInstance">
+    <CAAComment>
+      <ShortRole>Fastener installation treatment extension for draft mode</ShortRole>
+      <Role>This PLM entity defines the installation  treatment information on the fastener instance</Role>
+    </CAAComment>
+
+    <Simple Name="V_InstallationTreatmentID" Uuid="B2C82CDC-78EE-4F76-B435-956679E42BFE" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationTreatmentDescription" Uuid="CFEAE28D-8016-45D3-84B9-1477528B2803" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Treatment Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationProcessID" Uuid="9C0C9D2B-CEFC-4A48-9982-849911239819" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationProcessDescription" Uuid="F2291CB6-B18A-4A2C-96AB-D0A0AC7D3A9A" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Process Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationAppliedLocation" Uuid="FBB4F8E4-E19A-4E11-AC60-3C544746015E" Type="String" MaxLength="50" MultiValuated="Yes" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationIsCustom" Uuid="DC8383C6-01F0-4223-ACF3-D80A721142FF" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationMaterialQuantity" Uuid="DC8C1002-4C79-4AC4-90A2-2B7A04519A99" Type="Double" MultiValuated="Yes" Protection="Internal" Magnitude="VOLUME" >
+      <CAAComment>
+        <ShortRole>Material quantity on treatment instance</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationMaterialID" Uuid="1BDBD4B8-70CD-4592-8C7A-A9C0BFABDFEB" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Material ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_InstallationTreatmentStandard" Uuid="518A81FE-2FB4-4169-B579-80E7341C2849" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_InstallationIsPreTreatment" Uuid="BD02005C-1DC8-4FB8-A6D7-AE9BFB1DE864" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_InstallationComponentInstanceID" Uuid="DFC5255C-3E75-4ED1-B261-AB6120DD9835" Type="String" MultiValuated="Yes" MaxLength="300" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+  </Extension>
+  <!-- END : INSTALLATION TREATMENT EXTENSION -->
+
+  <!-- START : PROTECTION TREATMENT EXTENSION -->
+  <Extension Name="Fsx_ProtectionTreatmentExt" Uuid="EB3EAC52-198A-4AA2-8AFA-2FE9CD2CECA4" Abstract="No" CustomerExposition="Programmer" ScopeNames="FastenerInstance;ConceptFastenerInstance;VPMInstance">
+    <CAAComment>
+      <ShortRole>Fastener protection treatment extension for draft mode</ShortRole>
+      <Role>This PLM entity defines the protection treatment information on the fastener instance</Role>
+    </CAAComment>
+
+    <Simple Name="V_ProtectionTreatmentID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="91DC60A4-D60C-4448-9F55-494849285C82">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionTreatmentDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="1B1578E7-B8A9-417C-862E-D2934A10D9D4">
+      <CAAComment>
+        <ShortRole>Treatment Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionProcessID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="D02E5023-2F06-483F-9181-B5AEA98BB263">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionProcessDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="66AC38B7-CD81-4896-95F1-1C7ECA69BEE3">
+      <CAAComment>
+        <ShortRole>Process Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionAppliedLocation" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="F3D2FB25-3D03-42BC-9FD9-F3FA6C52267D">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionIsCustom" Type="Boolean" MultiValuated="Yes" Protection="Internal" Uuid="8C381882-29CE-4C3B-96A0-15D1F2E4AF79">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionMaterialQuantity" Type="Double" MultiValuated="Yes" Protection="Internal" Magnitude="VOLUME" Uuid="42CF72D3-0B4E-4167-8E29-424EC9C88A4F">
+      <CAAComment>
+        <ShortRole>Material quantity on treatment instance</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionMaterialID" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="4F63123A-5483-4356-B0B6-968280403686">
+      <CAAComment>
+        <ShortRole>Material ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_ProtectionTreatmentStandard" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="D2DA20CE-D4CA-4DBD-9653-86F6B5CDE3A8">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_ProtectionIsPreTreatment" Uuid="4E086551-B720-406C-8E63-E2D3F95C3F06" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_ProtectionComponentInstanceID" Uuid="41AA0E58-B9C0-4FC6-8B15-0FAB31A05B13" Type="String" MultiValuated="Yes" MaxLength="300" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+  </Extension>
+  <!-- END : PROTECTION TREATMENT EXTENSION -->
+
+  <!-- START : BONDING TREATMENT EXTENSION -->
+  <Extension Name="Fsx_BondingTreatmentExt" Uuid="74CE46F2-5BC9-48E7-A123-AD07147D35A9" Abstract="No" CustomerExposition="Programmer" ScopeNames="FastenerInstance;ConceptFastenerInstance;VPMInstance">
+    <CAAComment>
+      <ShortRole>Fastener bonding treatment extension for draft mode</ShortRole>
+      <Role>This PLM entity defines the bonding treatment information on the fastener instance</Role>
+    </CAAComment>
+
+    <Simple Name="V_BondingTreatmentID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="6BEB93CD-BFBC-425D-88C8-CA7A7CA76689">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingTreatmentDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="00D3F18A-4971-4259-ACA1-0BC5A4FFEAE4">
+      <CAAComment>
+        <ShortRole>Treatment Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingProcessID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="71EF4619-4ACA-47CB-ADF1-0E8BF35E9CD3">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingProcessDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="F65344B2-6590-430D-B64B-904862C90489">
+      <CAAComment>
+        <ShortRole>Process Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingAppliedLocation" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="F6017F7F-3E05-4053-A493-8CED5FF592D1">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingIsCustom" Type="Boolean" MultiValuated="Yes" Protection="Internal" Uuid="BE072B7F-7049-4857-B5C8-473252BB0650">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingMaterialQuantity" Type="Double" MultiValuated="Yes" Protection="Internal" Magnitude="VOLUME" Uuid="953D3B19-4A92-4D81-9702-F0E027389B53">
+      <CAAComment>
+        <ShortRole>Material quantity on treatment instance</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingMaterialID" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="E0196003-EC5D-4CD9-A8BE-38CA0A60BA41">
+      <CAAComment>
+        <ShortRole>Material ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_BondingTreatmentStandard" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="24A3131A-52EC-43AF-8BC5-A097E289A871">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_BondingIsPreTreatment" Uuid="C60B90E0-5E0A-40E7-A8E1-D4DCDF2B0E96" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_BondingComponentInstanceID" Uuid="D856D2AA-15AA-414E-9AFD-BDA8A56431D4" Type="String" MultiValuated="Yes" MaxLength="300" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+  </Extension>
+  <!-- END : BONDING TREATMENT EXTENSION -->
+  
+  <!-- START : STRIPPING TREATMENT EXTENSION -->
+  <Extension Name="Fsx_StrippingTreatmentExt" Uuid="5F759E9D-24E7-48E6-BC2E-AA477BD27A31" Abstract="No" CustomerExposition="Programmer" ScopeNames="FastenerInstance;ConceptFastenerInstance;VPMInstance">
+    <CAAComment>
+      <ShortRole>Fastener stripping treatment extension for draft mode</ShortRole>
+      <Role>This PLM entity defines the stripping treatment information on the fastener instance</Role>
+    </CAAComment>
+
+    <Simple Name="V_StrippingTreatmentID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="B2A5A251-7D74-4D6D-983A-97D97B175F64">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingTreatmentDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="9B47FDCA-4DE8-4D4D-9AC2-7759A46231D0">
+      <CAAComment>
+        <ShortRole>Treatment Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingProcessID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="26ABDE52-F2E0-44EE-B8C8-406106E7FC36">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingProcessDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="3127A219-2305-4844-9459-AD9A0AC88AD3">
+      <CAAComment>
+        <ShortRole>Process Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingAppliedLocation" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="B82435C1-9BD7-41AE-82E5-EFF4A3C044FD">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingIsCustom" Type="Boolean" MultiValuated="Yes" Protection="Internal" Uuid="5A4CE51A-D368-42FA-8757-81E52279818E">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingMaterialQuantity" Type="Double" MultiValuated="Yes" Protection="Internal" Magnitude="VOLUME" Uuid="D4E68774-1EF0-499F-A390-E849C4082DF1">
+      <CAAComment>
+        <ShortRole>Material quantity on treatment instance</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingMaterialID" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="509C8712-15F1-4259-895C-33758FEA2055">
+      <CAAComment>
+        <ShortRole>Material ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_StrippingTreatmentStandard" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="DF0447BC-2A01-474D-9F1F-5B38011F87A4">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_StrippingIsPreTreatment" Uuid="2CD26736-9044-4A0B-9169-21B7F4704821" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_StrippingComponentInstanceID" Uuid="964DBEE3-C8B1-4906-8D24-39D8F111C1D8" Type="String" MultiValuated="Yes" MaxLength="300" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_StrippingDiameter" Uuid="F009C5A8-38F4-4F02-A5FB-1EFB48E35651" Type="Double" MultiValuated="Yes" Magnitude="LENGTH" Protection="External" CAAExposition="L1">
+		<CAAComment>
+			<ShortRole>Stripping Diameter</ShortRole>
+		</CAAComment>
+	</Simple>
+	
+  </Extension>
+  <!-- END : STRIPPING TREATMENT EXTENSION -->
+  
+  <!-- START : CLEANING TREATMENT EXTENSION -->
+  <Extension Name="Fsx_CleaningTreatmentExt" Uuid="C87FF882-0728-4A8F-A559-46B63A6C2C8B" Abstract="No" CustomerExposition="Programmer" ScopeNames="FastenerInstance;ConceptFastenerInstance;VPMInstance">
+    <CAAComment>
+      <ShortRole>Fastener cleaning treatment extension for draft mode</ShortRole>
+      <Role>This PLM entity defines the cleaning treatment information on the fastener instance</Role>
+    </CAAComment>
+
+    <Simple Name="V_CleaningTreatmentID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="BB340D9D-C025-4DFD-8F56-FD5FE55E5ECD">
+      <CAAComment>
+        <ShortRole>Treatment ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningTreatmentDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="AEABC9EF-6198-4379-95C8-6E4194C5D57B">
+      <CAAComment>
+        <ShortRole>Treatment Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningProcessID" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="867C2DFE-224F-4CCA-A1DA-E712DF16237D">
+      <CAAComment>
+        <ShortRole>Process ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningProcessDescription" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="C612E73C-9D31-46DC-A5A5-B5239A88EFFE">
+      <CAAComment>
+        <ShortRole>Process Description</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningAppliedLocation" Type="String" MultiValuated="Yes" MaxLength="50" Protection="External" CAAExposition="L1" Uuid="0E1547BA-A43B-47EF-8A20-CBF19FB2A4A8">
+      <CAAComment>
+        <ShortRole>Treatment applied location</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningIsCustom" Type="Boolean" MultiValuated="Yes" Protection="Internal" Uuid="52DE88E7-E6C4-4788-9566-D042851943FE">
+      <CAAComment>
+        <ShortRole>Is custom treatment</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningMaterialQuantity" Type="Double" MultiValuated="Yes" Protection="Internal" Magnitude="VOLUME" Uuid="1956A3E7-DFAF-4778-9246-8A3B7DF3E250">
+      <CAAComment>
+        <ShortRole>Material quantity on treatment instance</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningMaterialID" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="F9006448-4811-49B7-BD52-35296DAE9D11">
+      <CAAComment>
+        <ShortRole>Material ID</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Simple Name="V_CleaningTreatmentStandard" Type="String" MultiValuated="Yes" MaxLength="300" Protection="External" CAAExposition="L1" Uuid="41314F52-8C95-4BB7-8DCD-39ABADB501D0">
+      <CAAComment>
+        <ShortRole>Treatment standard</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_CleaningIsPreTreatment" Uuid="89427686-7419-4DD1-9484-A6DB0CE1021E" Type="Boolean" MultiValuated="Yes" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Pretreatment flag</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+	<Simple Name="V_CleaningComponentInstanceID" Uuid="C7FD8123-7C1D-49B1-A26E-F121A7CF81E0" Type="String" MultiValuated="Yes" MaxLength="300" Protection="Internal">
+      <CAAComment>
+        <ShortRole>Component instance PLM ID</ShortRole>
+      </CAAComment>
+    </Simple>
+	
+  </Extension>
+  <!-- END : CLEANING TREATMENT EXTENSION -->
+
+  <!-- END : TREATMENT EXTENSION -->
+
+</Package>

@@ -1,0 +1,148 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Create Issue",
+    "type": "object",
+    "properties": {
+    
+        "description": {
+            "description": "The description of the Issue",
+            "type": "string"
+        },
+        "type": {
+            "description": "The type or subtype of the Issue",
+            "type": "string"
+        },
+        "title": {
+            "description": "The Title of the Issue",
+            "type": "string"
+        },
+        "name": {
+            "description": "The Name of the Issue",
+            "type": "string"
+        },
+        "priority": {
+            "description": "The priority of the Issue",
+            "type": "string",
+            "enum": [
+                "Low",
+                "Medium",
+                "High",
+                "Urgent"
+            ]
+        },
+        "Estimated Start Date": {
+            "description": "The estimated start date of the Issue - deprecated",
+            "type": "string",
+            "format": "date"
+        },
+        "Planned Start Date": {
+            "description": "The estimated start date of the Issue",
+            "type": "string",
+            "format": "date"
+        },
+        "Estimated End Date": {
+            "description": "The estimated end date of the Issue - deprecated",
+            "type": "string",
+            "format": "date"
+        },
+        "Planned Completion Date": {
+            "description": "The estimated completion date of the Issue",
+            "type": "string",
+            "format": "date"
+        },
+        "Due Completion Date": {
+            "description": "The due completion date of the Issue",
+            "type": "string",
+            "format": "date"
+        },
+        "withApproval": {
+            "description": "option withApproval true or false",
+            "type": "string",
+            "enum": [
+                "true",
+                "false"
+            ]
+        },
+        "members":
+        {
+            "type":"object",
+            "description": "The description of the members",
+             "coowners": {
+                "description": "People to be added as coordinator",
+                "type": "array",
+                "items": [
+                    {
+                    "type": "string"
+                    }
+                ]
+            },
+            "assignees": {
+                "description": "The description of the assignee",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            },
+            "contributors": {
+                "description": "People to be added as contributor",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            },
+            "informed": {
+             "description": "People to be added as informed users",
+                "type": "array",
+                "items": [
+                    {
+                    "type": "string"
+                    }
+                ]
+            },
+            "groupCoordinators": {
+                "description": "Groups to be added as coordinator",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            },
+            "groupAssignees": {
+                "description": "Groups to be added as assignee",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            },
+            "groupContributors": {
+                "description": "Groups to be added as contributor",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            },
+            "groupInformed": {
+                "description": "Groups to be added as informed users",
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    },
+    "required": [
+    ],
+    "additionalProperties": false
+}
+

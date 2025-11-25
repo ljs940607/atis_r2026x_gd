@@ -1,0 +1,21 @@
+{
+	"type": "array",
+	"items": {
+		"properties": {
+			"title": {
+				"description": "Title",
+				"type": "string",
+				"example": "LogSingleCntr_A"
+			},
+			"description": {
+				"description": "Description",
+				"type": "string",
+				"example": "Log Single Cntr A"
+			},
+			"cestamp": {
+				"type": "string",
+				"example": "08248256E616220064204D08000E77BE"
+			}
+		}
+	}
+}

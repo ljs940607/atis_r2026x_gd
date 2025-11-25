@@ -1,0 +1,755 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELFmiFunctionPPRServiceCreateReference",
+				"ParentType": "dsmfg:MfgItem",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELFmiFunctionPPRServiceCreateReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELFmiFunctionPPRServiceCreateReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "dsmfg:ServiceItemEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "spareCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_SpareCandidate"
+							}
+						],
+						 "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ],
+                        "Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDExtensionAttribute3DSpaceTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "maintenanceCandidate",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceMBOMCandidateInfoExt.V_MaintenanceCandidate"
+							}
+						],
+						 "Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ],
+                         "Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDExtensionAttribute3DSpaceTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELServiceAssemblyReference",
+				"ParentType": "DELFmiFunctionPPRServiceCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELServiceAssemblyReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELServiceAssemblyReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "essentiality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_Essentiality"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_Essentiality"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBF",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_EstimatedMTBF"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_EstimatedMTBF"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBUR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_EstimatedMTBUR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_EstimatedMTBUR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTTR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_EstimatedMTTR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_EstimatedMTTR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "lifeLimit",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_LifeLimit"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_LifeLimit"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_Repairable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_Repairable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replaceable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_Replaceable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_Replaceable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_RepairType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_RepairType"
+							}
+						],
+						"Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAssemblyReference.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_ReplacementType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "planningRequired",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "V_NeedDedicatedSystem"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAssemblyReference.V_NeedDedicatedSystem"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.AttributeMfgItemPlanningRequiredIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ServiceAssemblyEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELServiceAttachingItemReference",
+				"ParentType": "DELFmiFunctionPPRServiceCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELServiceAttachingItemReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELServiceAttachingItemReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "essentiality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_Essentiality"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_Essentiality"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBF",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_EstimatedMTBF"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_EstimatedMTBF"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBUR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_EstimatedMTBUR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_EstimatedMTBUR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTTR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_EstimatedMTTR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_EstimatedMTTR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "lifeLimit",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_LifeLimit"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_LifeLimit"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_Repairable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_Repairable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replaceable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_Replaceable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_Replaceable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_ReplacementType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServiceAttachingItemReference.V_RepairType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceAttachingItemReference.V_RepairType"
+							}
+						],
+						"Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ]
+					}
+				]
+			},			
+			{
+				"ConceptualName": "DELServiceSpareItemReference",
+				"ParentType": "DELFmiFunctionPPRServiceCreateReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELServiceSpareItemReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELServiceSpareItemReference",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},			
+			{
+				"ConceptualName": "DELServiceKitReference",
+				"ParentType": "dsmfg:MfgItem",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELServiceKitReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELServiceKitReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "planningRequired",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "V_NeedDedicatedSystem"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServiceKitReference.V_NeedDedicatedSystem"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.AttributeMfgItemPlanningRequiredIndexTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ServiceKitEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELServicePartReference",
+				"ParentType": "dsmfg:MfgItem",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELServicePartReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELServicePartReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "essentiality",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_Essentiality"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_Essentiality"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBF",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_EstimatedMTBF"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_EstimatedMTBF"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTBUR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_EstimatedMTBUR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_EstimatedMTBUR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "estimatedMTTR",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_EstimatedMTTR"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_EstimatedMTTR"
+							}
+						]
+					},
+					{
+						"ConceptualName": "lifeLimit",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_LifeLimit"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_LifeLimit"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_Repairable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_Repairable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replaceable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_Replaceable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_Replaceable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_ReplacementType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "repairType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELServicePartReference.V_RepairType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELServicePartReference.V_RepairType"
+							}
+						],
+						"Checkers": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.checker.DELAttrCustoValueChecker"
+                            }
+                        ]
+					},
+					{
+						"ConceptualName": "dsmfg:ServicePartEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELFmiFunctionServiceContinuousReference",
+				"ParentType": "DELFmiContinuousFunctionReference",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELFmiFunctionServiceContinuousReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELFmiFunctionServiceContinuousReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "magnitude",
+						"State": "MANDATORY",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiMagnitudeExt.V_DimensionType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELFmiMagnitudeExt.V_DimensionType"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.PPRContinuousReferenceAttributeMagnitudeChecker"
+							}
+						],
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.AttributePPRContinuousReferenceMagnitudeTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.AttributePPRContinuousReferenceMagnitudeTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ContinuousServiceItemEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELContinuousServicePartReference",
+				"ParentType": "DELFmiFunctionServiceContinuousReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELContinuousServicePartReference",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELContinuousServicePartReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "lifeLimit",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELContinuousServicePartReference.V_LifeLimit"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELContinuousServicePartReference.V_LifeLimit"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replaceable",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELContinuousServicePartReference.V_Replaceable"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELContinuousServicePartReference.V_Replaceable"
+							}
+						]
+					},
+					{
+						"ConceptualName": "replacementType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELContinuousServicePartReference.V_ReplacementType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELContinuousServicePartReference.V_ReplacementType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:ContinuousServicePartEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

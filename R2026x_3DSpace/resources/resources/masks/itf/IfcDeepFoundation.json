@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcDeepFoundation_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcDeepFoundation_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

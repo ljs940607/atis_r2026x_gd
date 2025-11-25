@@ -1,0 +1,188 @@
+{
+    "relations": [
+        {
+            "name": "report_input_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "328"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_input_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "328"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_template_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "330"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_template_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "330"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_output_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "329"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_output_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "329"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_document_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "to"
+                        },
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "332"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "report_document_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "332"
+                            },
+                            "direction": "from"
+                        },
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

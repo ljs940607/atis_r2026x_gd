@@ -1,0 +1,21 @@
+{
+    "version": "2.0",
+    "viewSetSelectorArray": [{
+        "viewSetMod": "DS/ENOXEngineerCompare/compare/ViewDefs",
+        "viewSetName": "XEN_QUANTITY_VIEW",
+        "UseCases": [{
+            "app": "XEN_COMPARE",
+            "roles": ["XEN", "XSR", "UWA", "UWD", "UWE", "UWG", "UWR", "UWS", "UWT", "UWU"],
+            "typeInfoArray": [{
+                "type": "VPMReference",
+                "service": "3DSpace"
+            }]
+        }],
+        "MainToolbarConfig": [{
+            "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+            "DoNotInclude": [
+                "compareSettings.includeFacets.externalRelations"
+            ]
+        }]
+    }]
+}

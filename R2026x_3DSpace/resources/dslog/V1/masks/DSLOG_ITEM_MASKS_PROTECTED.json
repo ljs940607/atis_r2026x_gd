@@ -1,0 +1,38 @@
+{
+    "dsmvlog:LogItemMask.Reference.Common": [
+    	{
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },		
+        "dsmveno:basic.id",
+        "dsmveno:basic.type",    
+    	"dsmveno:basic.modified.utc",
+    	"dsmveno:basic.created.utc",    
+    	{
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask"
+        },
+        {
+            "property": "attribute[PLMEntity.V_usage]",
+            "key": "usage",
+            "example": "3DShape"
+        },
+        "dsmvlog:basic.typeDB",
+    	"dsmvlog:basic.typeNLS"
+    ],
+
+    "dsmvlog:LogItemMask.Reference.ProposedSolution": [{
+            "property": "reuseMask",
+            "mask": "dsmvlog:BusMask"
+        },
+        "dsmvlog:Reference.ProposedSolution.Details"
+    ],
+
+    "dsmvlog:LogItemMask.Reference.ImplementLink": [{
+            "property": "reuseMask",
+            "mask": "dsmvlog:BusMask"
+        },
+        "dsmvlog:Reference.ImplementLink.Implementing.Details",
+        "dsmvlog:Reference.ImplementLink.ImplementedBy.Details"
+    ]
+}

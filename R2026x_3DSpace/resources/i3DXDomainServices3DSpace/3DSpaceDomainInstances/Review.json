@@ -1,0 +1,18 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Review",
+    "description": "Review",
+    "packages": [
+        "CAT3DInsightRep",
+        "DMUMarkup",
+        "DMUReviewDisciplines",
+        "DMUVALReviewDisciplines",
+        "DMUValidationBase",
+        "DMUValidationContext",
+        "DMUValidationParticipants",
+        "DMUValidationReview",
+        "DMUValidationTemplate",
+        "DMUValidationUser",
+        "DMUValidationValidated"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+  "dsmvfst:SpotFastenerSingleMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:SpotFastenerMask"
+    }
+  ],
+  "dsmvfst:SimpleBeadFastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:BeadFastenerMask"
+    }
+  ],
+  "dsmvfst:UnifiedBeadFastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:BeadFastenerMask"
+    }
+  ],
+  "dsmvfst:BundleFastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:BundleFastenerAbstractMask"
+    }
+  ],
+  "dsmvfst:BundleFastenerSecondaryMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:BundleFastenerMask"
+    }
+  ],
+  "dsmvfst:PLMFstFlexibleFastenerReferenceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:SpotFastenerMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstFlexibleFastenerReferenceThicknessExtMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstFlexibleReferenceToleranceExtMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstFlexibleReferenceExtensionMask"
+    }
+  ],
+  "dsmvfst:SpotFastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:FastenerMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstSpotFastenerMask"
+    },
+    "dsmvfst:attribute.SpotFastener.diameter"
+  ],
+  "dsmvfst:BeadFastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:FastenerMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstBeadFastenerMask"
+    },
+    "dsmvfst:attribute.BeadFastener.thickness"
+  ],
+  "dsmvfst:BundleFastenerAbstractMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmvfst:stacking"
+  ],
+  "dsmvfst:FastenerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultBusMask.public"
+    },
+    "dsmvfst:attribute.Fastener.fastenerType"
+  ],
+  "dsmvfst:FastenerInstanceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BaseMask.public"
+    }
+  ],
+  "dsmvfst:SpotInstanceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:FastenerInstanceMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:DTPFExtMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:EntryHoleExtMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:TorqueExtMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:InstallationOrientationConstraintExtMask"
+    }
+  ],
+  "dsmvfst:BeadInstanceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:FastenerInstanceMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:PLMFstBeadFastenerInstanceMask"
+    },
+    "dsmvfst:attribute.BeadInstance.length"
+  ],
+  "dsmvfst:BundleFastenerInstanceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:BaseMask.public"
+    }
+  ],
+  "dsmvfst:SpotInstanceFlexibleMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvfst:SpotInstanceMask"
+    },
+    "dsmvfst:attribute.SpotInstanceFlexible.fastenerLength"
+  ],
+  "dsmvfst:PLMFstSpotFastenerMask": [
+    "dsmvfst:attribute.PLMFstSpotFastener.fastenerType",
+    "dsmvfst:attribute.PLMFstSpotFastener.diameter"
+  ],
+  "dsmvfst:PLMFstBeadFastenerMask": [
+    "dsmvfst:attribute.PLMFstBeadFastener.fastenerType",
+    "dsmvfst:attribute.PLMFstBeadFastener.thickness"
+  ],
+  "dsmvfst:PLMFstBeadFastenerInstanceMask": [
+    "dsmvfst:attribute.PLMFstBeadFastenerInstance.length"
+  ],
+  "dsmvfst:DTPFExtMask": [
+    "dsmvfst:attribute.DTPFExt.tightness",
+    "dsmvfst:attribute.DTPFExt.boringCode",
+    "dsmvfst:attribute.DTPFExt.drillDiametersNominal",
+    "dsmvfst:attribute.DTPFExt.drillDiametersDeltaMin",
+    "dsmvfst:attribute.DTPFExt.drillDiametersDeltaMax",
+    "dsmvfst:attribute.DTPFExt.drillingStandard",
+    "dsmvfst:attribute.DTPFExt.chamferAngle",
+    "dsmvfst:attribute.DTPFExt.chamferLength",
+    "dsmvfst:attribute.DTPFExt.filletRadius"
+  ],
+  "dsmvfst:EntryHoleExtMask": [
+    "dsmvfst:attribute.EntryHoleExt.entryHoleDepth",
+    "dsmvfst:attribute.EntryHoleExt.entryHoleCountersunkAngle",
+    "dsmvfst:attribute.EntryHoleExt.entryHoleType",
+    "dsmvfst:attribute.EntryHoleExt.entryHoleCounterboreDiameter",
+    "dsmvfst:attribute.EntryHoleExt.subFlush",
+    "dsmvfst:attribute.EntryHoleExt.counterDrillDepth",
+    "dsmvfst:attribute.EntryHoleExt.counterDrillDiameter"
+  ],
+  "dsmvfst:TorqueExtMask": [
+    "dsmvfst:attribute.TorqueExt.torqueCode",
+    "dsmvfst:attribute.TorqueExt.torqueNominal",
+    "dsmvfst:attribute.TorqueExt.torqueDeltaMin",
+    "dsmvfst:attribute.TorqueExt.torqueDeltaMax",
+    "dsmvfst:attribute.TorqueExt.torqueNominalTail",
+    "dsmvfst:attribute.TorqueExt.torqueDeltaMinTail",
+    "dsmvfst:attribute.TorqueExt.torqueDeltaMaxTail",
+    "dsmvfst:attribute.TorqueExt.torqueStandard",
+    "dsmvfst:attribute.TorqueExt.torqueApplicationSide"
+  ],
+  "dsmvfst:InstallationOrientationConstraintExtMask": [
+    "dsmvfst:attribute.InstallationOrientationConstraintExt.headOrientation"
+  ],
+  "dsmvfst:PLMFstFlexibleFastenerReferenceThicknessExtMask": [
+    "dsmvfst:attribute.PLMFstFlexibleFastenerReferenceThicknessExt.fastenerLength"
+  ],
+  "dsmvfst:PLMFstFlexibleReferenceToleranceExtMask": [
+    "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.tolerance",
+    "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.range_Inf",
+    "dsmvfst:attribute.PLMFstFlexibleReferenceToleranceExt.range_Sup"
+  ],
+  "dsmvfst:PLMFstFlexibleReferenceExtensionMask": [
+    "dsmvfst:attribute.PLMFstFlexibleReferenceExtension.flexRangeMin",
+    "dsmvfst:attribute.PLMFstFlexibleReferenceExtension.flexRangeMax"
+  ]
+}

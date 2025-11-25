@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2010, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         Name="DEL3DWorkInstruction3DCom"
+         UseNames="PLMCORE PLMExp3DExperience"
+		 BelongsToModeler="DEL3DWorkInstruction3DCom"
+         Uuid="F3729DC3-1F6E-4793-AFCE-70DDE81A523A"
+         ModelerType="Top"
+         CustomerExposition="Programmer"
+		 UseProcedures="PPR_Procedures">
+
+  <Class Name="3DWorkInstruction3DCom"
+  CustomerExposition="Programmer"
+      Uuid="FE098F9F-8CC4-42C7-969B-BB197FFBDB13"
+      Abstract="No"
+      Discipline="No"
+  CreateInstName="3DWorkInstruction3DComRepInstance"
+      SuperName="3DExperience"
+      Specializable="No"
+      CustomerExtensible="No"
+      Abbreviation="xwi3d"
+      InstantiationOwnerTypes="DELLmiOperationPPRReference;DELIllustratedItemFigureReference">
+    <Property Name="Newable" Value="No"/>
+    <Property Name="Searchable" Value="No"/>
+
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+        <UsedProcedure href="PPR_Procedures.proc#PPR_TSO_StandAlone"/>
+      </ProcedureForUsage>
+    </Method>
+  </Class>
+
+  <RelationClass Name="3DWorkInstruction3DComRepInstance"
+  CustomerExposition="Programmer"
+  Uuid="2A936E59-EB50-4808-AB1C-0CE8A9DF22EA"
+  Abstract="No"
+  Discipline="No"
+  SuperName="PLMCoreRepInstance"
+  Specializable="No"
+  CustomerExtensible="No">
+
+    <SubClause Name="from" TargetName="DELLmiAbstractProductionEntity"/>
+    <SubClause Name="to"   TargetName="3DWorkInstruction3DCom"/>
+
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+        <UsedProcedure href="PPR_Procedures.proc#PPR_TSO_StandAlone"/>
+      </ProcedureForUsage>
+    </Method>
+  </RelationClass>
+</Package>
+
+

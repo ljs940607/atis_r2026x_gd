@@ -1,0 +1,13 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "CADCollaboration",
+    "description": "The CAD Collaboration domain that might contain a mix of physical and logical",
+    "packages": [
+		"XCADComposition",
+		"XCADDependencyLink",
+		"XCADIsItemOf",
+		"XCADModelAndItemsModeler",
+		"XCADModeler",
+		"CADGlobalConfig"
+    ]
+}

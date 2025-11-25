@@ -1,0 +1,214 @@
+{
+    "relations": [
+        {
+            "name": "v6_cad_esx_elecproject_3d_layout_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "3D Layout"
+                                    }
+                                ]
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_elecproject_3d_layout_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "3D Layout"
+                                    }
+                                ]
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_elecproject_sw_3d_layout_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "esx_sw_3d_layout"
+                                    }
+                                ]
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_elecproject_sw_3d_layout_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "esx_sw_3d_layout"
+                                    }
+                                ]
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_physical_product_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "Physical Product"
+                                    }
+                                ]
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_physical_product_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "Physical Product"
+                                    }
+                                ]
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_sw_physical_product_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "esx_sw_physical_product"
+                                    }
+                                ]
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_sw_physical_product_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "esx_sw_physical_product"
+                                    }
+                                ]
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_electrical_assembly_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "Manufacturer part"
+                                    }
+                                ]
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "v6_cad_esx_manufacturer_part_electrical_assembly_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "XCADBaseDependency",
+                                "rel_attributes": [
+                                    {
+                                        "ro.xcadbasedependency.v_cadlinktype": "Manufacturer part"
+                                    }
+                                ]
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

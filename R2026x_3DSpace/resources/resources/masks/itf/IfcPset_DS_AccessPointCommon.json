@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_AccessPointCommon_AccessCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_AccessPointCommon_RegistrationNumber",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

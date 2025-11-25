@@ -1,0 +1,21 @@
+{
+	"required": [
+		"cestamp"
+	],
+	"properties": {
+		"rscTimeConst": {
+			"type": "number",
+			"format": "double",
+			"example": 10.5
+		},
+		"rscTimePerQtyToProducedPerTime": {
+			"type": "number",
+			"format": "double",
+			"example": 20.5
+		},
+		"cestamp": {
+			"type": "string",
+			"example": "Object cestamp value"
+		}
+	}
+}

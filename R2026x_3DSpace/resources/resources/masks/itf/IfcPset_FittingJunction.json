@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_FittingJunction_JunctionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingJunction_JunctionLeftAngle",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingJunction_JunctionLeftRadius",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingJunction_JunctionRightAngle",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingJunction_JunctionRightRadius",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

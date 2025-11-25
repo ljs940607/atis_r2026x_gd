@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcMarinePart_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcMarinePart_LongName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcMarinePart_CompositionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcMarinePart_UsageType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcMarinePart_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "example":  "Logical Equipment Instance"
+        },
+        "description": {
+            "type": "string",
+            "example": "modified description of the Equipment Instance"
+        },
+        "predefinedpartnumber": {
+            "type": "string",
+            "example": "modified PartNB1"
+        },
+        "predefinedparttype": {
+            "type": "string",
+            "example": "modified PartType1"
+        },
+        "cestamp": {
+            "type": "string",
+            "example": "06248256E516520064204D08000E77BD"
+        }
+    }
+}

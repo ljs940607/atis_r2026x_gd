@@ -1,0 +1,27 @@
+{
+  "description": "Owner of this Engineering Note",
+  "type": "object",
+  "properties": {
+    "source": {
+        "description": "source",
+        "type": "string",
+        "example": "$3DSpace"
+    },
+    "type": {
+        "description": "type (can be a VPMReference or a DELFmiFunctionReference)",
+        "type": "string",
+        "example": "VPMReference"
+    },
+    "id": {
+        "description": "identifier in database",
+        "type": "string",
+        "example": "EE562168015FFCF14F940A513C63AA77"
+    },
+    "relativePath": {
+        "description": "relative path of this reference",
+        "type": "string",
+        "example": "resource/v1/dseng/dseng:EngItem/EE562168015FFCF14F940A513C63AA77"
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_DS_StoreyBaseQuantities_SlabThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_DS_StoreyBaseQuantities_CeilingHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_DS_StoreyBaseQuantities_FloorHeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

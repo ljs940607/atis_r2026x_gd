@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_Length",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_Width",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_Height",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_Area",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_FacilityPartBaseQuantities_Volume",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

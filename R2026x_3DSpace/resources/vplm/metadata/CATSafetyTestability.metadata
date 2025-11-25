@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+<Package
+	xmlns="PLMDictionaryUnified"
+	Name="CATSafetyTestability"
+	Uuid="16ec2d70-e276-441a-9add-19e766a6bff2"
+	UseNames="PLMCORE CATSafetyFailureModesEffectsAnalysis"
+	BelongsToModeler="CATSafety"
+	CustomerExposition="Programmer"
+	ModelerType="Top"
+	Architecture="Web">
+
+  <Class
+		Name="FailureSymptom"
+		Uuid="c5961c25-e68a-4692-b70a-85200b4ceb86"
+		Abstract="Yes"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Specializable="Yes"
+		Abbreviation="sypt"
+		Searchable="Yes"
+		PublicResourceURI="/resources/v1/modeler/dsrams/dsrams:FailureSymptom/{pid}"
+		IconName="FailureSymptom"
+		SuperName="PLMCoreReference">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope" />
+    </Method>
+  </Class>
+    <Class
+		Name="FailureMessage"
+		Uuid="b4d253a4-5f84-4380-b4b2-593347e51540"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Specializable="Yes"
+		Searchable="Yes"
+		SuperName="FailureSymptom">
+		<Simple
+			Name="code"
+			Uuid="81c2399f-6a1f-403f-ba98-29c227f67792"
+			Type="String"
+			Protection="Free"
+			PLMImpacting="Yes"
+			DefaultValue=""
+			MultiValuated="No"
+			CAAExposition="L0">
+    </Simple>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope" />
+    </Method>
+  </Class>
+    <Class
+		Name="FailureObservation"
+		Uuid="5e6f8b1f-689c-4e0d-85b4-bf727d2fe3a6"
+		CustomerExposition="Programmer"
+		CustomerExtensible="Yes"
+		Specializable="Yes"
+		Searchable="Yes"
+		SuperName="FailureSymptom">
+		<Simple
+			Name="observer"
+			Uuid="5026fe48-49dd-4bff-b90a-f36c1804290f"
+			Type="String"
+			Protection="Free"
+			PLMImpacting="Yes"
+			DefaultValue=""
+			MultiValuated="No"
+			CAAExposition="L0">
+    </Simple>
+		<Simple
+			Name="localization"
+			Uuid="4b8276c6-a742-464c-838f-0b38f22d6320"
+			Type="String"
+			Protection="Free"
+			PLMImpacting="Yes"
+			DefaultValue=""
+			MultiValuated="No"
+			CAAExposition="L0">
+    </Simple>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope" />
+    </Method>
+  </Class>
+  <Extension
+  	Name="FailureAmbiguity"
+  	Uuid="2fe4137a-6aa9-42bd-881f-e0c34fffd07b" 
+  	CustomerExposition="Programmer"
+  	ScopeNames="FailureModesEffectsAnalysisCausalityRelationship"
+  	Specializable="Yes"
+  	Searchable="Yes">
+  	<Simple
+			Name="AmbiguityGroup"
+			Uuid="0e587e71-0c4a-41a6-bb5e-87f3c2c46329"
+			Type="String"
+			Protection="ExternalIN"
+			PLMImpacting="Yes"
+			MultiValuated="Yes"
+			CAAExposition="L0">
+    </Simple>
+  	<Simple
+			Name="FailureSet"
+			Uuid="3b7c3e8e-324d-4ceb-b811-d0916e1efc2f"
+			Type="String"
+			Protection="ExternalIN"
+			PLMImpacting="Yes"
+			MultiValuated="Yes"
+			CAAExposition="L0">
+    </Simple>
+  </Extension>
+
+</Package>

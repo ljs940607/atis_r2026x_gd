@@ -1,0 +1,206 @@
+{
+    "mfgExpand": {
+        "batch": {
+            "expands": [{
+                    "label": "MFGExpand",
+                    "root": {
+                        "physical_id": "mfgData.id"
+                    },
+                    "graph": {
+                        "descending_condition_relation": {
+                            "uql": "((flattenedtaxonomies:reltypes/DELFmiFunctionInstance)) OR ((flattenedtaxonomies:types/DELFmiProcessImplementCnx)) OR ((flattenedtaxonomies:types/DELFmiProcessOutputPrereqMaterializationCnx)) OR ((flattenedtaxonomies:reltypes/VPMInstance)) OR ((flattenedtaxonomies:reltypes/VPMRepInstance))"
+                        }
+                    },
+                    "aggregation_processors": [{
+                            "truncate": {
+                                "match_only_refs": 1,
+                                "sequence_filter": {
+                                    "sequence": [{
+                                            "uql": "((taxonomies:*DELFmiFunctionReference*))"
+                                        }, {
+                                            "statement": "END"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "filter": {
+                        "all": 1
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:label",
+                "ds6w:type"
+            ],
+            "select_relation": [
+                "physicalid",
+                "matrixtxt",
+                "ds6w:type",
+                "ro.plminstance.plm_externalid",
+                "to.physicalid"
+            ],
+            "format": "entity_relation_occurrence"
+        }
+    },
+    "resourceExpand": {
+        "batch": {
+            "expands": [{
+                    "label": "ResourceExpand",
+                    "root": {
+                        "physical_id": "prdData.id"
+                    },
+                    "graph": {
+                        "descending_condition_relation": {
+                            "uql": "((taxonomies:*VPMInstance*))"
+                        }
+                    },
+                    "filter": {
+                        "all": 1
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "select_object": [
+                "physicalid",
+                "ds6w:label",
+                "ds6w:type"
+            ],
+            "select_relation": [
+                "physicalid",
+                "matrixtxt",
+                "ds6w:type",
+                "ro.plminstance.plm_externalid",
+                "to.physicalid",
+                "ro.SymbolicID.V_SymbolicID"
+            ],
+            "format": "entity_relation_occurrence"
+        }
+    },
+    "processExpand": {
+        "id": "process.id",
+        "dynamicMask": {
+            "dsprcs:ItemSpecification": [
+                "isScope",
+                "id",
+                "type",
+                "itemOcc",
+                "itemRef",
+                "usage",
+                "implLinkUsage",
+            	"operationOcc",
+            	"processRef",
+                "bo.DELLmiPartPositionMngt.V_PartPositioningSpec"
+            ],
+            "dsprcs:MfgProcess": [
+                "id",
+                "title",
+                "type",
+                "sequencingMode"
+            ],
+            "dsprcs:MfgProcessInstance":[
+            	"id",
+                "parent",
+                "reference",
+                "name",
+                "treeOrder"
+            ],
+            "dsprcs:TimeConstraint": [
+                "id",
+                "toOperationOcc",
+                "fromOperationOcc",
+                "isProductFlow"
+            ],
+            "dsprcs:MfgOperation": [
+                "id",
+                "type",
+                "title",
+                "sequencingMode",
+                "partialScope"
+            ],
+            "dsprcs:MfgOperationInstance": [
+                "id",
+                "parent",
+                "reference",
+                "name",
+                "treeOrder"
+            ],
+            "dsprcs:ItemSpecificationOcc": [
+                "isScope",
+                "id",
+                "type",
+                "itemOcc"
+            ],
+            "dsprcs:PrimaryCapableResource": [
+                "id",
+                "resource",
+                "availabilityMode",
+                "isReservedFromFirstStep",
+                "bo.DELLmiPositionMngt.V_PositioningSpec",
+                "bo.DELLmiIsPositioning.V_IsPositioning",
+                "bo.DELLmiReferencePosition.V_ReferencePosition",
+                "bo.SymbolicID.V_SymbolicID",
+                "refPositionSubRscForBuildUpPos",
+                "refPositionSubRscForRscPos"
+            ],
+            "dsprcs:SecondaryCapableResource": [
+                "id",
+                "resource",
+                "availabilityMode",
+                "bo.DELLmiPositionMngt.V_PositioningSpec",
+                "bo.DELLmiIsPositioning.V_IsPositioning",
+                "bo.DELLmiReferencePosition.V_ReferencePosition",
+                "bo.SymbolicID.V_SymbolicID",
+                "refPositionSubRscForBuildUpPos",
+                "refPositionSubRscForRscPos"
+            ],
+            "dsprcs:PrimaryResourceLinkDetail": [
+                "id",
+                "capableResourceId",
+                "availabilityMode",
+                "bo.DELLmiPositionMngt.V_PositioningSpec",
+                "bo.DELLmiIsPositioning.V_IsPositioning",
+                "bo.DELLmiReferencePosition.V_ReferencePosition",
+                "refPositionSubRscForBuildUpPos",
+                "refPositionSubRscForRscPos"
+            ],
+            "dsprcs:SecondaryResourceLinkDetail": [
+                "id",
+                "capableResourceId",
+                "availabilityMode",
+                "bo.DELLmiPositionMngt.V_PositioningSpec",
+                "bo.DELLmiIsPositioning.V_IsPositioning",
+                "bo.DELLmiReferencePosition.V_ReferencePosition",
+                "refPositionSubRscForBuildUpPos",
+                "refPositionSubRscForRscPos"
+            ]
+        },
+        "levelExpand": "-1",
+        "expandVersion": 2,
+        "requestedAttributesOnly": true,
+        "parameters": {
+            "computeTransientFlows_sequenceMode": true
+        }
+    },
+    "getMfgItemInstallDependencies": {
+        "assemblyid": "",
+        "installinstids": [
+        ],
+        "predecessor": true,
+        "successor": false,
+        "nodependency": false,
+        "graphconstraint": false
+    },
+    "getAttributes": {
+        "label": "",
+        "physicalid": "",
+        "locale": "en",
+        "select_predicate": [],
+        "select_file": []
+    }
+}

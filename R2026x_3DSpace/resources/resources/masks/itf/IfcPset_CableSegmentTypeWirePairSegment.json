@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_CharacteristicImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_ConductorDiameter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_CoreConductorDiameter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_JacketColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_ShieldConductorDiameter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentTypeWirePairSegment_WirePairType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

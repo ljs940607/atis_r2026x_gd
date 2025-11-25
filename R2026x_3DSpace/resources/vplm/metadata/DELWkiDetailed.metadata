@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Work Instruction Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELWkiDetailed"
+	       Uuid="6069FE56-A730-49F3-B67A-6B6E6723605B"
+  	     BelongsToModeler="DELWkiWorkInstructionPPR"
+	       UseNames="DELWkiAlert"
+	       CustomerExposition="Programmer"  >
+
+  <CAAComment>
+    <ShortRole>PLM DELMIA Work Instruction Alert Detailed</ShortRole>
+    <Role>This package describes the PLM DELMIA Work Instruction Alert subtypes</Role>
+  </CAAComment>
+
+  <Comment>last update 2023-06-29</Comment>
+
+	<Class Name="DELWkiAlertCautionReference"
+           Uuid="8ab7eecb-c792-469e-ba3d-474eff84892e"
+           Abstract="No"
+   		   SuperName="DELWkiAlertReference"
+		   Discipline="Yes"
+           Specializable="No"
+           CustomerExtensible="Yes"
+           CreateInstName="DELWkiAlertInstance"
+		   CustomerExposition="Programmer"
+           Abbreviation="wic"
+		   PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:Alert/{pid}">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELWorkInstructionDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELWkiAlertInstance"/>
+		<Property Name="IconName" Value="I_WI_Caution"/>
+		<Property Name="3DIconName" Value="I_WI_Caution.cgr"/>
+		<Property Name="Newable" Value="No"/>
+		<Property Name="Searchable" Value="Yes"/>
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Work Instruction Alert Caution Reference</ShortRole>
+			<Role>PLM DELMIA Work Instruction Alert Caution Reference</Role>
+		</CAAComment>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		</Method>
+
+	</Class>
+
+	<Class Name="DELWkiAlertNoteReference"
+	   Uuid="51055e86-9cda-4fdd-b3f1-8ad5f4d9505c"
+	   Abstract="No"
+	   SuperName="DELWkiAlertReference"
+	   Discipline="Yes"
+	   Specializable="No"
+	   CustomerExtensible="Yes"
+	   CreateInstName="DELWkiAlertInstance"
+	   CustomerExposition="Programmer"
+	   Abbreviation="win"
+	   PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:Alert/{pid}">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELWorkInstructionDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELWkiAlertInstance"/>
+		<Property Name="IconName" Value="I_WI_Note"/>
+		<Property Name="3DIconName" Value="I_WI_Note.cgr"/>
+		<Property Name="Newable" Value="No"/>
+		<Property Name="Searchable" Value="Yes"/>
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Work Instruction Alert Note Reference</ShortRole>
+			<Role>PLM DELMIA Work Instruction Alert Note Reference</Role>
+		</CAAComment>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		</Method>
+
+	</Class>
+
+	<Class Name="DELWkiAlertWarningReference"
+	   Uuid="30369efc-0dd2-4ce9-bec9-67c177998288"
+	   Abstract="No"
+	   SuperName="DELWkiAlertReference"
+	   Discipline="Yes"
+	   Specializable="No"
+	   CustomerExtensible="Yes"
+	   CreateInstName="DELWkiAlertInstance"
+	   CustomerExposition="Programmer"
+	   Abbreviation="wiw"
+	   PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:Alert/{pid}">
+
+		<Property Name="KweNew_InstanciationMethod" Value="DELWorkInstructionDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELWkiAlertInstance"/>
+		<Property Name="IconName" Value="I_WI_Warning"/>
+		<Property Name="3DIconName" Value="I_WI_Warning.cgr"/>
+		<Property Name="Newable" Value="No"/>
+		<Property Name="Searchable" Value="Yes"/>
+
+		<CAAComment>
+			<ShortRole>PLM DELMIA Work Instruction Alert Warning Reference</ShortRole>
+			<Role>PLM DELMIA Work Instruction Alert Warning Reference</Role>
+		</CAAComment>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		</Method>
+
+	</Class>
+
+</Package>

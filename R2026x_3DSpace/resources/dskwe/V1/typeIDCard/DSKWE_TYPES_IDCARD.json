@@ -1,0 +1,33 @@
+{
+  "dskwe:ComponentFamily": {
+    "kindOf": "root",
+    "isPublic": true,
+    "beType": "type_CATComponentsFamilyExplicit",
+    "defaultMask": "dsmvkwe:ComponentFamilyMask.default",
+    "cestamp": true,
+    "search": true,
+    "changeSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dskwe:KnowledgeVPMRepresentation": {
+    "kindOf": "root",
+    "isPublic": true,
+    "beType": "type_Knowledgeware",
+    "defaultMask": "dsmvkwe:KnowledgeVPMRepresentation.default",
+    "customizationSupport": false,
+    "cestamp": true,
+    "search": false,
+    "changeSupport": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+}
+
+

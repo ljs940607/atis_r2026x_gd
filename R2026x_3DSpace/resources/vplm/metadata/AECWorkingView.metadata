@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "AECWorkingView" UseNames = "DIFModelerAnnotationSet" Uuid = "3D64C4BF-AFB3-4828-91F0-8970BE3362AD" xmlns = "PLMDictionaryUnified">
+  <Class Abbreviation = "WVset" CustomerExposition = "Programmer" Abstract="No" Name = "AECWorkingViewSet" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "DIFAnnotationSet" Uuid = "11f29c1c-7e42-46c7-9acd-14d5dad1ac2c" Discipline="Yes" Searchable="Yes" CustomerExtensible="No" Specializable="Yes">
+    <!--Property Name = "KweNew_InstanciationMethod" Value = "CATAECWorkingViewDelegateInstanciation"/-->
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATECivilWorkingViewDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "All_Offline_CAA"/>
+  </Class>
+
+  <Class Abbreviation = "WV" CustomerExposition = "Programmer" Abstract="No" Name = "AECWorkingView" PublicResourceURI = "/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}" SuperName = "DIFCapture" Uuid = "222c72fc-ebd8-44cc-a963-044462d680a2" Discipline="Yes" Searchable="Yes" CustomerExtensible="No" Specializable="Yes">
+    <!--Property Name = "KweNew_InstanciationMethod" Value = "CATAECWorkingViewDelegateInstanciation"/-->
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATECivilWorkingViewDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "Insert_Offline_CAA"/>
+    <Property Name = "InstantiationOwnerTypes" Value="AECWorkingViewSet"/>
+  </Class>
+
+  <RelationClass Abbreviation = "WVInst" CustomerExposition = "Programmer" Abstract="No" Name = "AECWorkingViewInst" SuperName = "DIFCaptureInstance" Uuid = "0a2f5e52-e45e-4582-9b62-a40c1a932226" Discipline="Yes" CustomerExtensible="No" Specializable="Yes">
+    <!--Property Name = "KweNew_InstanciationMethod" Value = "CATAECWorkingViewDelegateInstanciation"/-->
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATDIFFTAKBEDelegateInstanciation"/>
+    <Property Name = "InstantiationOwnerTypes" Value="AECWorkingViewSet"/>
+  </RelationClass>
+</Package>

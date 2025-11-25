@@ -1,0 +1,113 @@
+{
+
+  "dsmvengpip:AllPartsMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:PartMask"
+    },
+    "dsmvengpip:attribute.elbow.bendangle",
+    "dsmvengpip:attribute.elbow.bendradius",
+    "dsmvengpip:attribute.part.referencebendangle"
+  ],
+
+  "dsmvengpip:PartMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:DefaultBusMask.utc"
+    },
+    "dsmvengpip:attribute.entity.endstyle",
+    "dsmvengpip:attribute.entity.materialname",
+    "dsmvengpip:attribute.entity.nominalsize",
+    "dsmvengpip:attribute.entity.rating",
+    "dsmvengpip:attribute.entity.standard",
+    "dsmvengpip:attribute.part.subparttype"
+  ],
+
+  "dsmvengpip:CapMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:CouplingMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:CrossMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:ElbowMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:PartMask"
+    },
+    "dsmvengpip:attribute.elbow.bendangle",
+    "dsmvengpip:attribute.elbow.bendradius",
+    "dsmvengpip:attribute.part.referencebendangle"
+  ],
+
+  "dsmvengpip:FlangeMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:GasketMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:InstrumentMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:PartV1Mask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:OletMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:PartMask"
+    },
+    "dsmvengpip:attribute.part.referencebendangle"
+  ],
+
+  "dsmvengpip:ReducerMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:TeeMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:PartMask"
+    },
+    "dsmvengpip:attribute.part.referencebendangle"
+  ],
+
+  "dsmvengpip:UnionMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+
+  "dsmvengpip:ValveMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengpip:PartMask"
+  }],
+  
+  "dsmvengpip:RigidRouteMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:RoutableMask"
+    },
+    "dsmvengpip:attribute.rigidpipe.nominalbendradius"
+  ],
+
+  "dsmvengpip:FlexibleRouteMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengpip:RoutableMask"
+    },
+    "dsmvengpip:attribute.flexiblepipe.operatingtemperature",
+    "dsmvengpip:attribute.flexiblepipe.operatingpressure",
+    "dsmvengpip:attribute.flexiblepipe.referencebendradius"
+  ]
+  
+}

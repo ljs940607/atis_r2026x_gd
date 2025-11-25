@@ -1,0 +1,6 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "SCMRepository",
+  "description": "The domain instance for SCMRespotiroy in 3DSpace",
+  "packages": ["ConnectedSoftware"]
+}

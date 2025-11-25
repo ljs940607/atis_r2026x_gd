@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Validation Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" 
+		 ModelerType="Top" 
+		 Name="DMUValidationTemplate" 
+		 Uuid="2ecd18bc-61be-4d06-94a6-fcce775ee4a3" 
+		 UseNames="DMUValidationBase"
+		 CustomerExposition="Programmer">
+	
+	<CAAComment>
+		<ShortRole>Validation Template Modeler Package</ShortRole>
+		<Role>This package describes the Validation Template modeler</Role>
+	</CAAComment>
+	
+	<Comment>Creation 2024-08-08 YRX</Comment>
+
+	<Class Name="DMUValidationValidationTemplate" 
+		   Uuid="0ac59427-8b9d-46a9-8701-f8475b22bf0f" 
+		   SuperName="DMUValidationValidation"  
+		   CustomerExposition="Programmer"
+		   Abbreviation="rvwt">
+		
+		<CAAComment>
+			<ShortRole>Validation Template Object</ShortRole>
+			<Role>Validation Template Object</Role>
+		</CAAComment>
+
+		<Property Name="IconName" Value="I_VALValidationTemplate"/>
+
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</Class>
+
+</Package>

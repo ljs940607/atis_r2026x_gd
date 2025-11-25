@@ -1,0 +1,28 @@
+{
+    "indexmode_write": {
+		"attributes": [
+			{
+				"name": "ds6w:type"
+			},
+			{
+				"name": "ds6w:label"
+			},
+			{
+				"name": "ds6w:identifier"
+			},
+			{
+				"name": "ds6w:description"
+			},
+			{
+				"name": "ds6w:created"
+			},			
+			{
+				"name": "ds6w:modified"
+			},
+			{
+				"name": "ds6w:responsible"
+			}
+		]
+	},
+    "revision": "0"
+}

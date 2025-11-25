@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="ASDModelerAnnTemplateRep" />
+    <m1.package name="ASDModelerAnnTemplateRep" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreRepReference name="ASDPLMAnnotationTemplate" />
+      <m1.type name="ASDPLMAnnotationTemplate" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="ASDPLMTemplate" />
+        <m1.attribute name="ASDPLMAnnotationTemplate.ASDPLMTemplate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="ASDPLMTemplateSubType" />
+        <m1.attribute name="ASDPLMAnnotationTemplate.ASDPLMTemplateSubType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Discipline" />
+        <m1.attribute name="ASDPLMAnnotationTemplate.Discipline" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreRepReference name="ASDPLMTextTemplate" />
+      <m1.type name="ASDPLMTextTemplate" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="ASDPLMTemplate" />
+        <m1.attribute name="ASDPLMTextTemplate.ASDPLMTemplate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="ASDPLMTemplateSubType" />
+        <m1.attribute name="ASDPLMTextTemplate.ASDPLMTemplateSubType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Discipline" />
+        <m1.attribute name="ASDPLMTextTemplate.Discipline" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

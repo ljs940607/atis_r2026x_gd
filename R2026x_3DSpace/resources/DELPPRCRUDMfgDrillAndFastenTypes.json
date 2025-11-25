@@ -1,0 +1,653 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "Drill",
+				"ParentType": "DELFmiFunctionPPRDiscreteReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "Drill",
+						"Behavior": "REFERENCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "Drill",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "depthOfFeature",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Drill.V_DepthOfFeature"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Drill.V_DepthOfFeature"
+							}
+						]
+					},
+					{
+						"ConceptualName": "diameterOfFeature",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Drill.V_DiameterOfFeature"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.Drill.V_DiameterOfFeature"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillFitTolerenceInfo.diameterDeltaMax",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillTolerenceInfoExtnAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillTolerenceInfoExtnAttributeQuantityTransform"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.checkers.DELFmiDrillTolerenceInfoExtnAttributeChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillFitTolerenceInfo.diameterDeltaMin",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillTolerenceInfoMinExtnAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillTolerenceInfoMinExtnAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillThreadInfo.depth",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnDepthAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnDepthAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillThreadInfo.diameter",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnDiameterAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnDiameterAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillThreadInfo.pitch",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnPitchAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillThreadInfoExtnPitchAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillThreadInfo.side",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELThreadInfo.V_THSide"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELThreadInfo.V_THSide"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillHoleExtraFeatureInfo.entryHoleExtraFeatureDimension",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillHoleExtraFeatureInfoExtnEntryHoleDimensionAttrQtyTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillHoleExtraFeatureInfoExtnEntryHoleDimensionAttrQtyTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillHoleExtraFeatureInfo.entryHoleExtraFeatureType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELHoleExtraFeatureInfo.V_EntryHoleExtraFeatureType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELHoleExtraFeatureInfo.V_EntryHoleExtraFeatureType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillVBottomInfo.angle",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillVBottomInfoExtnAngleAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillVBottomInfoExtnAngleAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.depth",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDepthAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDepthAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.angle",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnAngleAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnAngleAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.anchorPoint",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnAnchorPointAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnAnchorPointAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.diameter",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDiameterAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDiameterAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.sunkDiameter",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnSunkDiameterAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnSunkDiameterAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.mode",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnModeAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnModeAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "drillCategoryInfo.drillCategory",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDrillCategoryAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomdrill.transforms.DELFmiDrillCategoryInfoExtnDrillCategoryAttributeQuantityTransform"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsmfg:DrillEnterpriseAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELCRUDMBOMEnterpriseAttributeIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELFmiFunctionIdentifiedInstance",
+				"ParentType": "ProcessInstanceSet",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELFmiFunctionIdentifiedInstance",
+						"Behavior": "INSTANCE"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELFmiFunctionIdentifiedInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "contQuantity",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELFmiRatioOfDiscreteQuantity.V_ContQuantity"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.DELFmiRatioOfDiscreteQuantity.V_ContQuantity"
+							}
+						],
+						"Transforms": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Class": "com.dassault_systemes.delmia.crud.mbom.attributes.transforms.DELFmiRatioOfDiscreteQuantityAttributeContQuantityTransform"
+                            }
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:InstallationOrientationConstraintExt.headOrientation",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_InstallationOrientationConstraintExt.V_HeadOrientation"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_InstallationOrientationConstraintExt.V_HeadOrientation"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.boringCode",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_DTPFExt.V_BoringCode"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_DTPFExt.V_BoringCode"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.drillDiametersDeltaMax",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterMaxAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterMaxAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.drillDiametersDeltaMin",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterMinAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterMinAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.drillDiametersNominal",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterNominalAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnDrillDiameterNominalAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.chamferAngle",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnChamferAngleQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnChamferAngleQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.chamferLength",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnChamferLengthAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnChamferLengthAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.filletRadius",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnFilletRadiusAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiDTPFExtnFilletRadiusAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.tightness",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_DTPFExt.V_Tightness"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_DTPFExt.V_Tightness"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:DTPFExt.drillingStandard",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_DTPFExt.V_DrillingStandard"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_DTPFExt.V_DrillingStandard"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueApplicationSide",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_TorqueExt.V_TorqueApplicationSide"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_TorqueExt.V_TorqueApplicationSide"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueCode",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_TorqueExt.V_TorqueCode"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_TorqueExt.V_TorqueCode"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueStandard",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_TorqueExt.V_TorqueStandard"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_TorqueExt.V_TorqueStandard"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueDeltaMax",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMaxAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMaxAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueDeltaMaxTail",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMaxTailAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMaxTailAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueDeltaMin",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMinAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMinAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueDeltaMinTail",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMinTailAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueDeltaMinTailAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueNominal",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueNominalAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueNominalAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:TorqueExt.torqueNominalTail",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueNominalTailAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiTorqueExtnTorqueNominalTailAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.entryHoleType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "Fsx_EntryHoleExt.V_EntryHoleType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "ro.Fsx_EntryHoleExt.V_EntryHoleType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.counterDrillDepth",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnCounterDrillDepthAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnCounterDrillDepthAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.counterDrillDiameter",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnCounterDrillDiameterAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnCounterDrillDiameterAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.subFlush",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnSubflushAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnSubflushAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.entryHoleCounterboreDiameter",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleCounterBoreDiameterAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleCounterBoreDiameterAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.entryHoleCountersunkAngle",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleCounterSunkAngleAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleCounterSunkAngleAttributeQuantityTransform"
+							}
+                        ]
+					},
+					{
+						"ConceptualName": "dsfst:EntryHoleExt.entryHoleDepth",
+						"Transforms": [
+                            {
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleDepthAttributeQuantityTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.mbomfasten.transforms.DELFmiEntryHoleExtnEntryHoleDepthAttributeQuantityTransform"
+							}
+                        ]
+					}
+				]
+			}
+		]
+	}
+]

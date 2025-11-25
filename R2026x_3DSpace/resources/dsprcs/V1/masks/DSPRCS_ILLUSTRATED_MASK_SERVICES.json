@@ -1,0 +1,14 @@
+{
+    "dsprcs:DefaultIllustratedItemMask.Default": [
+        {
+            "property": "reuseMask",
+            "mask": "dsprcs:DefaultBusMask.utc"
+        }
+    ],
+    "dsprcs:DefaultIllustratedItemRelMask.Default": [
+        {
+            "property": "reuseMask",
+            "mask": "dsprcs:DefaultRelMask.utc"
+        }
+    ]
+}

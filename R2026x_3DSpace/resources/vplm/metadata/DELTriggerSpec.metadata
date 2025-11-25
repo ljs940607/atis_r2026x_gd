@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2010, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         Name="DELTriggerSpec"
+         BelongsToModeler="DELLmiProductionSystem"
+         UseNames="PLMCORE"
+         Uuid="36C7DB63-87EA-4976-80FD-B9CA98C4B78C"
+         ModelerType="Top"
+         CustomerExposition="Programmer">
+
+    <Class Name="DELTriggerSpecification"
+         Uuid="397FC868-F359-42D5-9D6C-BB81FAFD8DC7"
+         Abstract="No"
+         Discipline="No"
+         SuperName="PLMConnection"
+	       CustomerExposition="Programmer"
+         Specializable="No"
+         CustomerExtensible="Yes"
+         >
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+	  
+  </Class>
+
+</Package>

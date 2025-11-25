@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_Pipeline_Thrustblock_DS_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Thrustblock_DS_Count",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Thrustblock_DS_NetVolume",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_Pipeline_Thrustblock_DS_GrossVolume",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

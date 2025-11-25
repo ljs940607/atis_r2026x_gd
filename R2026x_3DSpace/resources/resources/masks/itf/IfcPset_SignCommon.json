@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SignCommon_Reference",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignCommon_IsExternal",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignCommon_Category",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SignCommon_TactileMarking",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

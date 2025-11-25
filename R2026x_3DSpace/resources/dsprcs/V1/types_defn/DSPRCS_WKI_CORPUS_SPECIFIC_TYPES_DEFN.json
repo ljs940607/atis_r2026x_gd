@@ -1,0 +1,312 @@
+{
+	"dsprcs:DataCollectRow": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10,
+			"returnResponse": true
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"dcType",
+						"crudKey": "dcType",
+						"payloadType": "Integer"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"arbitraryUnitName",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$AllowEmptyValue"
+					},
+					{
+						"payloadKey":"parameterLabel",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$AllowEmptyValue"
+					}
+				]
+			]
+		}
+	},
+	"dsprcs:Alert": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:Instruction": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:SignOff": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:DataCollectPlan": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:CheckList": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1
+		}
+	},
+	"dsprcs:InstructionInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		}
+	},
+	"dsprcs:AlertInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		}
+	},
+	"dsprcs:SignOffInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		}
+	},
+	"dsprcs:DataCollectPlanInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"replace": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"URI_ContentId",
+						"crudKey": "ID",
+						"payloadType": "URI_ContentId"
+					},
+					{
+						"payloadKey": "referencedObject",
+						"crudKey": "Type",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$FindInstanceTypeName"
+					}
+				]
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		}
+	},
+	"dsprcs:DataCollectInstance": {
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"payloadEntryKey": "instances",
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"referencedObject",
+						"crudKey": "TO_IDs",
+						"payloadType": "linkableObject"
+					},
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					}
+				]
+			]
+		},
+		"fetchall": {
+			"onPremiseLimit": 100,
+			"onCloudLimit": 100
+		}
+	}
+}

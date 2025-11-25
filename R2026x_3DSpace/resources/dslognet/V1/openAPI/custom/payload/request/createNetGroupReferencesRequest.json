@@ -1,0 +1,30 @@
+{
+	"type": "object",
+	"properties": {
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"attributes": {
+						"type": "object",
+						"properties": {
+							"title": {
+								"type": "string",
+								"example": "LogNetGroupReference"
+							},
+							"description": {
+								"type": "string",
+								"examples": "A Logical Net Group Reference created by REST Services"
+							},
+							"Predefined Part Number": {
+								"type": "string",
+								"examples": "The3DNetGroupReference"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

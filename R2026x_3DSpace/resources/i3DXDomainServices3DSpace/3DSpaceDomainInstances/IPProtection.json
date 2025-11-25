@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "IPProtection",
+	"description"    : "IP Protection and Export Control",
+	"packages"       : ["IPProtection"]
+}

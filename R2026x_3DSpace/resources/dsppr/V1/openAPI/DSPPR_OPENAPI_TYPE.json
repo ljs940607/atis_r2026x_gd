@@ -1,0 +1,14 @@
+{
+    "dsppr:PPRContext": {
+        "summary": "PPRContext Reference",
+        "description": "PPRContext Reference",
+        "PUBLICMasks": ["dsppr:PPRContextMask.Default", "dsppr:PPRContextMask.Details"],
+        "PROTECTEDMasks": [],
+    	"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [],
+        "PRIVATEExtensions": [],
+        "PUBLICFields": [],
+        "PROTECTEDFields": [],
+        "PUBLICExcludedURIs": []
+    }
+}

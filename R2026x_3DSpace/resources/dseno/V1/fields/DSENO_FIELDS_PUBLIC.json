@@ -1,0 +1,98 @@
+{
+    "dsmveno:basic.type.public": {
+        "property": "type",
+        "key": "type",
+        "label": "CRS.common.Label.Attribute.Type",
+        "example": "DBType",
+        "description": "Basic type value",
+        "index": "ds6w:type,ds6w:what/ds6w:type"
+    },
+    "dsmveno:basic.instance.to.type.public": {
+        "property": "to.type",
+        "key": "type",
+        "example": "DBType",
+        "description": "Instance to side object type"
+    },
+    "dsmveno:basic.modified.public": {
+        "property": "modified",
+        "key": "modified",
+        "label": "CRS.common.Label.Attribute.Modified",
+        "example": "10/19/2021 10:58:01 PM",
+        "description": "Basic modified value",
+        "index": "MODIFIED"
+    },
+    "dsmveno:basic.instance.to.modified.public": {
+        "property": "to.modified",
+        "key": "modified",
+        "example": "10/19/2021 10:58:01 PM",
+        "description": "Instance to side object modified value"
+    },
+    "dsmveno:basic.created.public": {
+        "property": "originated",
+        "key": "created",
+        "label": "CRS.common.Label.Attribute.Created",
+        "example": "10/19/2021 10:58:01 PM",
+        "description": "Object created value",
+        "index": "ORIGINATED"
+    },
+    "dsmveno:basic.instance.to.created.public": {
+        "property": "to.originated",
+        "key": "created",
+        "example": "10/19/2021 10:58:01 PM",
+        "description": "Instance to side object creation value"
+    },
+    "dsmveno:basic.state.public": {
+        "property": "current",
+        "key": "state",
+        "label": "CRS.common.Label.Attribute.State",
+        "example": "IN_WORK",
+        "description": "Object current state value",
+        "index": "current"
+    },
+    "dsmveno:basic.owner.public": {
+        "property": "owner",
+        "key": "owner",
+        "label": "CRS.common.Label.Attribute.Owner",
+        "example": "DB Owner",
+        "description": "Object owner value",
+        "index": "owner"
+    },
+    "dsmveno:basic.instance.to.owner.public": {
+        "property": "to.owner",
+        "key": "owner",
+        "example": "DB Owner",
+        "description": "Instance to side object owner value"
+    },
+    "dsmveno:attribute.reference.versionComment": {
+        "property": "attribute[PLMReference.V_versionComment]",
+        "key": "versionComment",
+        "label": "CRS.common.Label.Attribute.PLMReference.V_versionComment",
+        "index": "ds6wg:PLMReference.V_versionComment",
+        "example": "versionComment",
+        "description": "reference version comment value"
+    },
+    "dsmveno:basic.reference.reservedByUserId":{
+		"property":"reservedby",
+		"key":"reservedby",
+		"label": "CRS.common.Label.Attribute.Reference.reservedby",
+		"index": "ds6wg:reservedByUserId",
+		"example":"Locked By User",
+		"description": "Reference Locked By UserId"
+	},
+    "dsmveno:basic.instance.reservedByUserId":{
+		"property":"reservedby",
+		"key":"reservedby",
+		"label": "CRS.common.Label.Attribute.Instance.reservedby",
+		"index": "ds6wg:reservedByUserId",
+		"example":"Locked By User",
+		"description": "Instance Locked By UserId"
+    },
+    "dsmveno:attribute.reference.createdFrom": {
+        "property": "attribute[PLMReference.V_fromExternalID]",
+        "key": "createdFrom",
+        "label": "CRS.common.Label.Attribute.PLMReference.V_fromExternalID",
+        "index": "ds6wg:PLMReference.V_fromExternalID",
+        "example": "My name",
+        "description": "Created From value"
+    }
+}

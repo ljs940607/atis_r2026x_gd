@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="SIMItfInterfereExt" />
+    <m1.package name="SIMItfInterfereExt" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="SIMItfContextOfInterferenceIFC" />
+      <m1.interface name="SIMItfContextOfInterferenceIFC" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Source" />
+        <m1.attribute name="SIMItfContextOfInterferenceIFC.Source" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Itf_IFC_Names" />
+        <m1.attribute name="SIMItfContextOfInterferenceIFC.V_Itf_IFC_Names" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Itf_IFC_TimeStamps" />
+        <m1.attribute name="SIMItfContextOfInterferenceIFC.V_Itf_IFC_TimeStamps" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Itf_IFC_UUIDs" />
+        <m1.attribute name="SIMItfContextOfInterferenceIFC.V_Itf_IFC_UUIDs" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

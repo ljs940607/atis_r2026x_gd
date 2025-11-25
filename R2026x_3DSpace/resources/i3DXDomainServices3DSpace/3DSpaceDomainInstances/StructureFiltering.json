@@ -1,0 +1,9 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "StructureFiltering",
+	"description"    : "The domain instance for structure filtering in 3DSpace, this includes Advanced filter & native PVS filter",
+	"packages"       : [
+		"ENOStrRefinement",
+		"PLMWspFilter"
+	]
+}

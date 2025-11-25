@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeInductor_Inductance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeInductor_NumberOfPhases",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

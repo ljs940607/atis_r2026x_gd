@@ -1,0 +1,24 @@
+{
+  "dsadvfilter:AdvFilter": {
+    "summary": "Advanced Filter",
+    "description": "Advanced Filter",
+    "PUBLICMasks": ["dsadvfilter:AdvFilterMask.Default", "dsadvfilter:AdvFilterMask.FilterSpec"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": ["dsmvadvfilter:program.filteredObject"],
+    "PUBLICExcludedURIs": ["DELETE", "BULKUPDATE", "GETAll", "getItems"]
+  },
+  "dsadvfilter:VDRPFilter": {
+    "summary": "VDRP Filter",
+    "description": "VDRP Filter",
+    "PUBLICMasks": ["dsadvfilter:VDRPFilterMask.Default", "dsadvfilter:VDRPFilterMask.VDRPFilterSpec"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": ["dsmvadvfilter:program.VDRPFilteredObjects"],
+    "PUBLICExcludedURIs": ["BULKUPDATE", "GETAll", "getItems"]
+  }
+}

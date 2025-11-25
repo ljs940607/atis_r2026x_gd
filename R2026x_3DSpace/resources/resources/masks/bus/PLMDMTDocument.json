@@ -1,0 +1,88 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "V_Name"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "V_versionComment"
+			},
+			{
+				"name": "V_description"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "V_fromExternalID"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "policy"
+		  	},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			}
+			,
+			{
+				"name": "V_PrimaryMimetype"
+			}
+			,
+			{
+				"name": "V_PrimaryFileName"
+			}
+			,
+			{
+				"name": "V_IsCheckedOut"
+			}
+			,
+			{
+				"name": "V_CheckedOutUser"
+			}
+			,
+			{
+				"name": "V_CheckedOutPath"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"V_Name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"PLM_ExternalID": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"name": {
+				"forbiddenChar": "\\/:*?\"<>|#$@%,[]"
+			},
+			"Title": {
+				"mandatory": true
+			}
+		}
+	},
+	"revision": "0"
+}

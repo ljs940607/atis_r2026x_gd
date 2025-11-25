@@ -1,0 +1,15 @@
+{
+	"dsmvfct:FctItem.Mask.Reference.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmvfct:FctItemEnterpriseAttributes"
+	],
+	"dsmvfct:FlowItem.Mask.Reference.Details": [{
+			"property": "reuseMask",
+			"mask": "dsmveno:DefaultBusMask.public"
+		},
+		"dsmvfct:attribute.FlowReference.category",
+		"dsmvfct:FlowItemEnterpriseAttributes"
+	]
+}

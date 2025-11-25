@@ -1,0 +1,53 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DoorLiningProperties_LiningDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_LiningThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_ThresholdDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_ThresholdThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_TransomThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_TransomOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_LiningOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_ThresholdOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_CasingThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_CasingDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_LiningToPanelOffsetX",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DoorLiningProperties_LiningToPanelOffsetY",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

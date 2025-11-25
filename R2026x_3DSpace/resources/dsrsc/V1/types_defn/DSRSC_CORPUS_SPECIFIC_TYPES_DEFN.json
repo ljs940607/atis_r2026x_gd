@@ -1,0 +1,45 @@
+{
+	"dsrsc:Resource":{
+		"expand":{
+			"maxPathCount":10000,
+			"defaultMask":"dsrsc:Resource.ExpandMask.Default"
+		}
+	},
+	"dsrsc:ResourceParameter": {
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		},
+		"create": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1,
+			"mandKeys": [
+				[
+					{
+						"payloadKey":"URI_RootId",
+						"crudKey": "From_IDs",
+						"payloadType": "URI_RootId"
+					},
+					{
+						"payloadKey":"paramType",
+						"payloadType": "String"
+					},
+					{
+						"payloadKey":"arbitraryUnitName",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$AllowEmptyValue"
+					},
+					{
+						"payloadKey":"parameterLabel",
+						"payloadType": "Custom",
+						"implementationClass": "com.dassault_systemes.delmia.ppr.nav.procedures.corpus_decl.PayloadParser$AllowEmptyValue"
+					}
+				]
+			]
+		},
+		"locate": {
+			"indexLocateMaxLimit": 500,
+			"defaultMask": "dsrsc:ResourceParameterLocateMask"
+		}
+	}
+}

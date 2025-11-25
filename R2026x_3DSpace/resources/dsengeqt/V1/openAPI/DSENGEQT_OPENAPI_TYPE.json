@@ -1,0 +1,77 @@
+{
+  "dsengeqt:Equipment": {
+    "summary": "Equipment",
+    "description": "Equipment reference",
+    "PUBLICMasks": ["dsmvengeqt:EquipmentMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengeqt:DefaultBusMask.utc",
+      "dsmvengeqt:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": ["dsmvengeqt:basic.owner"],
+
+    "PUBLICExtensions": [ "dsengelec:Properties", "dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": [ "dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dskpi:metric" ],    
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  "dsengeqt:EquipmentInst": {
+    "summary": "Equipment instance",
+    "description": "instance of an Equipment",
+    "PUBLICMasks": ["dsmvengeqt:EquipmentInstMask", "dsmvengeqt:EquipmentInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengeqt:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+    "dsengeqt:MountingEquipment": {
+    "summary": "Mounting Equipment",
+    "description": "Mounting Equipment reference",
+    "PUBLICMasks": ["dsmvengeqt:MountingEquipmentMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengeqt:DefaultBusMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": [ "dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl" ],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengeqt:MountingEquipmentInst": {
+    "summary": "Mounting Equipment instance",
+    "description": "instance of a Mounting Equipment",
+    "PUBLICMasks": ["dsmvengeqt:MountingEquipmentInstMask", "dsmvengeqt:MountingEquipmentInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengeqt:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  }
+}

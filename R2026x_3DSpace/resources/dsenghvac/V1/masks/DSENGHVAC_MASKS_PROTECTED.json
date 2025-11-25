@@ -1,0 +1,129 @@
+{
+  "dsmvenghvac:AccessCoverMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:CapMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:CrossMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:DamperMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:DiffuserMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:ElbowMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    },
+    "dsmvenghvac:attribute.elbow.bendangle",
+    "dsmvenghvac:attribute.elbow.bendradius",
+    "dsmvenghvac:attribute.elbow.guidance",
+    "dsmvenghvac:attribute.part.referencebendangle"
+  ],
+  
+  "dsmvenghvac:FlangeMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:GasketMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:InstrumentMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:ReducerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:SaddleMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    },
+    "dsmvenghvac:attribute.part.referencebendangle"
+  ],
+  
+  "dsmvenghvac:SilencerMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:TeeMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    },
+    "dsmvenghvac:attribute.part.referencebendangle"
+  ],
+  
+  "dsmvenghvac:TransitionMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:UnionMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    }
+  ],
+  
+  "dsmvenghvac:RigidDuctMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:RoutableMask"
+    }
+  ],
+  
+  "dsmvenghvac:FlexibleDuctMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:RoutableMask"
+    },
+    "dsmvenghvac:attribute.flexibleduct.referencebendradius"
+  ]
+
+  
+}

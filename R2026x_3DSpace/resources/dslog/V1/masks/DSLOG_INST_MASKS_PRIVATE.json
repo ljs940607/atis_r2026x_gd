@@ -1,0 +1,10 @@
+{
+	"dsmvlog:DefaultRelMask": [	
+        "dsmveno:basic.id",
+        "dsmveno:basic.type",
+    	"dsmveno:basic.modified.utc",
+    	"dsmveno:basic.created.utc",
+        "dsmveno:attribute.instance.name",
+        "dsmveno:attribute.instance.description"
+    ]
+}

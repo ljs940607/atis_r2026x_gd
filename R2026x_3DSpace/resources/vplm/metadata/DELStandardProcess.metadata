@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR DELMIA Production System Application -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2008, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELStandardProcess"
+         BelongsToModeler="DELLmiProductionSystem"
+	       Uuid="53575E45-27F8-4904-9719-A31A86152FD2"
+	       UseNames="DELLmiProductionSystemAbstract"
+		   UseProcedures="ENOPsm_Procedures"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>PLM DELMIA Standard Process </ShortRole>
+    <Role>This package describes the PLM DELMIA Standard Process model on top of DELLmiProductionSystemAbstract</Role>
+  </CAAComment>
+
+  <Comment>creation 2024-03-25</Comment>
+
+  <Class Name="DELStandardProcessReference"
+		     Uuid="AA461D66-97A4-4564-B93D-07891C6A7254"
+		     Abstract="No"
+		 Discipline="No"
+         SuperName="DELLmiAbstractProductionEntity"
+         CustomerExposition="Programmer"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+		 Abbreviation="stdprcs"
+		 DeleteAvailability="Yes"
+		 PublicResourceURI="/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{pid}"
+         >
+
+    <CAAComment>
+      <ShortRole>PLM DELMIA Standard Process Reference</ShortRole>
+      <Role>PLM DELMIA Standard Process Reference</Role>
+    </CAAComment>
+
+	  <Property Name="KweNew_InstanciationMethod" Value="DELStandardProcessReferenceDelegateInstanciation"/>
+	  <Property Name="IconName" Value="I_PPRStandardProcess"/>
+	  <Property Name="3DIconName" Value="I_PPRStandardProcess.cgr"/>
+	  <Property Name="Newable" Value="All_CAA"/>
+	  <Property Name="Searchable" Value="Yes"/>
+	  <Property Name="Configurable" Value="No"/>
+	  <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+	  <Property Name="DuplicateAvailability" Value="Yes"/>
+	  <Property Name="EditPropertiesAvailability" Value="Yes"/>
+	  <Property Name="EvolutionAvailability" Value="Yes"/>
+	  <Property Name="LockUnlockAvailability" Value="Yes"/>
+	  <Property Name="NewMajorRevisionAvailability" Value="Yes"/>
+	  <Property Name="NewMinorRevisionAvailability" Value="No"/>
+	  <Property Name="SaveAsNewAvailability" Value="Yes"/>
+	  <Property Name="TransferOwnershipAvailability" Value="Yes"/>
+	  <Property Name="ManageAccessAvailability" Value="Yes"/>
+	  <Property Name="ShareBetweenProjectsAvailability" Value="Yes"/>
+	  <Property Name="ChangeCollaborativeSpaceAvailability" Value="Yes"/>
+	  <Property Name="InterchangeableMinors" Value="No"/>
+	  <Property Name="IterationsAvailability" Value="No"/>
+
+	  <Method ImplementationType="Self">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		  <ProcedureForUsage>
+			  <Usage href="ExportScope.meth#Design"/>
+			  <UsedProcedure href="ENOPsm_Procedures.proc#StandardProcess_ExportAsDesign"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			  <Usage href="ExportScope.meth#Channel"/>
+			  <UsedProcedure href="ENOPsm_Procedures.proc#StandardProcess_ExportAsDesign"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			  <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+			  <UsedProcedure href="ENOPsm_Procedures.proc#StandardProcess_TSO_References"/>
+		  </ProcedureForUsage>
+	  </Method>
+
+
+  </Class>	
+
+</Package>

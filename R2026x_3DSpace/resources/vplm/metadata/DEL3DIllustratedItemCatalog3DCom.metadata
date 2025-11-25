@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2010, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         Name="DEL3DIllustratedItemCatalog3DCom"
+         UseNames="PLMCORE PLMExp3DExperience"
+		 BelongsToModeler="DEL3DIllustratedItemCatalog3DCom"
+         Uuid="56eed206-a36b-4cce-a378-15eb5e6c74e1"
+         ModelerType="Top"
+         CustomerExposition="Programmer"
+		 UseProcedures="PPR_Procedures">
+
+  <Class Name="3DIllustratedItemCatalog3DCom"
+  CustomerExposition="Programmer"
+      Uuid="8d2ceaff-1f29-4001-b74c-34eb80455bbc"
+      Abstract="No"
+      Discipline="No"
+  CreateInstName="3DIllustratedItemCatalog3DComRepInstance"
+      SuperName="3DExperience"
+      Specializable="No"
+      CustomerExtensible="No"
+      Abbreviation="xic3d"
+      InstantiationOwnerTypes="DELIllustratedItemFigureReference">
+    <Property Name="Newable" Value="No"/>
+    <Property Name="Searchable" Value="No"/>
+
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+        <UsedProcedure href="PPR_Procedures.proc#PPR_TSO_StandAlone"/>
+      </ProcedureForUsage>
+    </Method>
+  </Class>
+
+  <RelationClass Name="3DIllustratedItemCatalog3DComRepInstance"
+  CustomerExposition="Programmer"
+  Uuid="25b3748e-4854-4131-967f-708c9aa01b57"
+  Abstract="No"
+  Discipline="No"
+  SuperName="PLMCoreRepInstance"
+  Specializable="No"
+  CustomerExtensible="No">
+
+    <SubClause Name="from" TargetName="DELIllustratedItemFigureReference"/>
+    <SubClause Name="to"   TargetName="3DIllustratedItemCatalog3DCom"/>
+
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#TransferSiteOwnership"/>
+        <UsedProcedure href="PPR_Procedures.proc#PPR_TSO_StandAlone"/>
+      </ProcedureForUsage>
+    </Method>
+  </RelationClass>
+</Package>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<OOTBParameterization>
+	<Domain id="DELUserExperience" regSuite="DELUserExperienceParams">
+	
+		<Family id="DELWebAppsPreferences">
+			<Parameter id="DELWebAppsCustomizationListParam">
+				<Argument id="DELWebAppsCustomizationListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+		
+		
+		<Family id="DELProcessFlowDiagram">
+			<Parameter id="DELProcessFlowDiagramColorListParam">
+				<Argument id="DELProcessFlowDiagramColorsListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+			<Parameter id="DELProcessFlowDiagramAttriutesListParam">
+				<Argument id="DELProcessFlowDiagramAttriutesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+			<Parameter id="DisplayIconCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="DisplayIconArg" type="string" input="checkbox" default="Enabled"/>
+			</Parameter>
+			<Parameter id="DisplayIconforItemCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="DisplayIconforItemArg" type="string" input="checkbox" default="Enabled"/>
+			</Parameter>
+			<Parameter id="DisplayIconforResourceCheckbox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="DisplayIconforResourceArg" type="string" input="checkbox" default="Enabled"/>
+			</Parameter>
+			<Parameter id="DisplayInformationOnFlowCombobox" implementation="com.dassault_systemes.delmia.param.implementation.DELConfigCommonIOtbParameter">
+				<Argument id="DisplayInformationOnFlowArg" type="string" input="combobox" default="Disp_Info_None">
+					<Value id="Disp_Info_None"/>
+					<Value id="Disp_Info_Description"/>
+					<Value id="Disp_Info_ReasonCode"/>
+				</Argument>
+			</Parameter>
+			<Parameter id="DELProcessFlowDiagramAspectRatiosListParam">
+				<Argument id="DELProcessFlowDiagramAspectRatiosListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+
+		<Family id="DELProcessTranslation">
+			<Parameter id="DELProcessTranslationLanguagesListParam">
+				<Argument id="DELProcessTranslationLanguagesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+			<Parameter id="DELProcessTranslationAttributesListParam">
+				<Argument id="DELProcessTranslationAttributesListArg" default="DELConfigurationTreeListView"/>
+			</Parameter>
+		</Family>
+
+	</Domain>
+</OOTBParameterization>

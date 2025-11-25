@@ -1,0 +1,44 @@
+/* Rule ENONT_VPMQualification_BLInitialization                                                                   */
+/* NOT CONTRACTUAL and PROPERTY OF TE (TEAM ENVIRONMENT) DEFINITION, ANY CHANGE MAY HAPPEN WITHOUT NOTICE         */
+/* Parameters contains many information such as name, user, security ... depending on Operation                   */
+/* Notice this BL operates for Several OpeningID and Many OperationId (New, Cloning, ImportAsNew, ...)            */
+/* PLMIdentificationInitialization,PLMTemplateCloning,PLMImportExportAttributesValuation,ComponentsFamilyNaming   */
+/* Notice this BL sometimes operates only for updating an existing object,mentioned IsCreatingNewObject==false    */
+
+Let PrimaryModelingType(Type)
+Let PrimaryModelingName(String)
+
+Let NamingTypePrefix(STRING)
+Let SiteAffix(STRING)
+Let NamingTypeSuffix(STRING)
+Let Separator(String) 
+Let AbbreviatedBaseTypeName(String)
+
+Let NumberAlignment(INTEGER)
+Let IDNumber(STRING)
+Let IDVNumber(STRING)
+Let CompleteName=""
+
+
+/* PrimaryModelingType is the custom type of a DS Modeling type */
+PrimaryModelingType = ThisObject.ModelerType
+if (PrimaryModelingType <> NULL) {
+  PrimaryModelingName = PrimaryModelingType.Name 
+}
+
+/* new V6R2014x services for typing V2: requires Apps to deliver the property Abbreviation in the metadata */ 
+RetrieveNamingParametersWithSeparator(PrimaryModelingName, NamingTypePrefix, SiteAffix, NamingTypeSuffix, Separator, AbbreviatedBaseTypeName)
+if ((AbbreviatedBaseTypeName == "") or (AbbreviatedBaseTypeName == NULL)) {
+  AbbreviatedBaseTypeName = PrimaryModelingName
+}
+
+/* Numbering on AbbreviatedBaseType */
+NumberAlignment = 8
+STAutoNumbers(AbbreviatedBaseTypeName, NumberAlignment, IDNumber, IDVNumber)
+Trace (1, "ENONT_VPMQualification_BLInitialization, Allocated Numbers for type ", AbbreviatedBaseTypeName, " are ID=", IDNumber,", VN=", IDVNumber )
+
+/* title valuation for VPMQualificationProfile only */
+CompleteName = AbbreviatedBaseTypeName + Separator + IDNumber
+if (ThisObject->HasAttribute("Title")) {
+  ThisObject->SetAttributeString("Title",CompleteName)
+}

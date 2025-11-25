@@ -1,0 +1,71 @@
+{
+    "dssmrm:BaseMask.public": [
+        "dssmrm:basic.identifier",    
+        "dsmveno:basic.id",
+        "dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+        "dsmveno:basic.created.utc",    
+        {
+			"property": "computed",
+			"key": "source",
+            "format": "string",
+            "example":"$3DSpace"
+		},
+		{
+			"property": "computed",
+			"key": "relativePath",
+            "format": "string",
+            "example": "/resources/v1/modeler/dssmrm/dssmrm:SheetMetalRawMaterial/C9AD8256....."
+		}
+    ],
+    "dssmrm:BusBasicPropertiesMask.public": [
+        "dssmrm:basic.revision",
+        "dssmrm:basic.state.public",
+        "dssmrm:basic.owner.public",
+        "dssmrm:basic.organization",
+        "dssmrm:basic.collabspace"
+    ],
+    "dssmrm:VPMNameDescriptionMask": [
+        "dssmrm:attribute.reference.name",
+        "dssmrm:attribute.reference.title",
+        "dssmrm:attribute.reference.description"
+    ],
+	"dssmrm:SheetMetalRawMaterialMask.Details": [	
+		{
+        	"property": "reuseMask",
+        	"mask": "dssmrm:BaseMask.public"
+    	},
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        },
+    	"dssmrm:attribute.dimensionType",
+    	"dssmrm:attribute.thickness",
+    	"dssmrm:attribute.bendradius",
+    	"dssmrm:attribute.kfactor",
+        "dsmveng:programe.CP.EnterpriseReference.Details",
+        "dsmvsmrm:EnterpriseAttributes"
+	],
+    "dssmrm:SheetMetalRawMaterialMask.Common": [
+		{
+        	"property": "reuseMask",
+        	"mask": "dssmrm:BaseMask.public"
+    	},
+    	{
+            "property": "reuseMask",
+            "mask": "dsmveno:VPMNameDescriptionMask"
+        },
+        {
+            "property": "reuseMask",
+            "mask": "dsmveno:BusBasicPropertiesMask.public"
+        },
+        "dssmrm:attribute.dimensionType",
+        "dssmrm:attribute.thickness",
+        "dssmrm:attribute.bendradius",
+        "dssmrm:attribute.kfactor"
+	]
+}

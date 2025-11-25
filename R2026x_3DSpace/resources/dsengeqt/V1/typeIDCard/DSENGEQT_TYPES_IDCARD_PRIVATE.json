@@ -1,0 +1,12 @@
+{
+  "dsengeqt:SharedEquipmentPartExt": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengeqt.V%1.dictionaries.ENOXdsengeqtSharedEqtDictionary",
+		"beType": "interface_SharedEquipmentPart"
+	},
+	"dsengeqt:MountingEquipmentExt": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengeqt.V%1.dictionaries.ENOXdsengeqtMountingEqtDictionary",
+		"beType": "interface_MountingEquipment"
+	}
+}

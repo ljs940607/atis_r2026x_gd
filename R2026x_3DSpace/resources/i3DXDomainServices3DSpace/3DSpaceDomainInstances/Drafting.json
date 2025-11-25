@@ -1,0 +1,26 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Drafting",
+    "description": "Drafting",
+    "packages": [
+        "ASDModelerAnnTemplateRep",
+        "DFTResultView",
+        "DFTSheet",
+        "DIFModeler01",
+        "DIFModeler02",
+        "DIFModeler03",
+        "DIFModeler04",
+        "DIFModeler05",
+        "DIFModeler06",
+        "DIFModeler07",
+        "DIFModelerAbstractSheet",
+        "DIFModelerAnnotationSet",
+        "DIFModelerDetailTemplateRep",
+        "DIFModelerLabelTemplateRep",
+        "DIFModelerTableTemplateRep",
+        "DIFModelerTextTemplateRep",
+        "DIFNoteView",
+        "DIFStandard",
+        "MBDView"
+    ]
+}

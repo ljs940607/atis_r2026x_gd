@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "UIModel": [
+    {
+      "type": "PreferenceSection",
+      "name": "General",
+      "repository": "xStudioApp",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "autoLPR",
+          "tweakertype": "boolean"
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "Camera",
+      "repository": "xStudioApp",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "aspectRatioPreset",
+          "tweakertype": "enum"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "customRatio",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "customRatioWidth",
+              "tweakertype": "Integer",
+              "stepsize": "1"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "customRatioHeight",
+              "tweakertype": "Integer",
+              "stepsize": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

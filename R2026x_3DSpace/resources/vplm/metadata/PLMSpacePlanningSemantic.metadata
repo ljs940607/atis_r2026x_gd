@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2017, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         CustomerExposition="Programmer"
+         Name="PLMSpacePlanningSemantic"
+         UseNames="ERCoreModeler"
+         Uuid="91e6e993-71da-43d4-9754-385398f3edbf"
+         BelongsToModeler="PLMSpacePlanning">
+  <CAAComment>
+    <ShortRole>Space Planning Package</ShortRole>
+    <Role>This package describes Space Planning data.</Role>
+  </CAAComment>
+
+  <RelationClass Name="SPPEnsSpecRelation"
+                 Uuid="1301f926-5710-4084-a110-ca7704dc8f13"
+                 Abstract="No"
+                 CustomerExposition="Programmer"
+                 SuperName="RelationType"
+                 Discipline="No"
+                 Specializable="No">
+    <Property Name="RelationNature" Value="Pointer"/>
+    <SubClause Name="from"  TargetName="SPP_SpaceRef"/>
+    <SubClause Name="to"    TargetName="EnsSpecification"/>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+</Package>

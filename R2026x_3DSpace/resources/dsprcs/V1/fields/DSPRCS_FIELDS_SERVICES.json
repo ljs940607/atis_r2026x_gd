@@ -1,0 +1,1262 @@
+{
+	"dsprcs:instanceDetails.referencedObject": {
+		"property": "computed",
+		"key": "referencedObject"
+	},
+	"dsprcs:parentObject": {
+        "property": "computed",
+        "key": "parentObject",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.parentObject"
+	},	
+	"dsprcs:sequencingMode": {
+		"property": "attribute[DELLmiPPRSystemReference.V_SequencingMode,DELLmiPPRHeaderProcessReferenceAbstract.V_SequencingMode]",
+		"key": "sequencingMode",
+		"example": "Advanced",
+		"description": "sequencingMode value",
+		"index": "bo.DELLmiPPRSystemReference.V_SequencingMode,bo.DELLmiPPRHeaderProcessReferenceAbstract.V_SequencingMode" 
+	},
+	"dsprcs:MfgProcessEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:MfgProcessEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:MfgProcessEnterpriseAttributes"
+		]
+	},
+	"dsprcs:AllWorkPlansEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:AllWorkPlansEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:AllWorkPlansEnterpriseAttributes"
+		]
+	},
+	"dsprcs:WorkPlanEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:WorkPlanEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:WorkPlanEnterpriseAttributes"
+		]
+	},
+	"dsprcs:HeaderWorkPlanEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:HeaderWorkPlanEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:HeaderWorkPlanEnterpriseAttributes"
+		]
+	},
+	"dsprcs:MfgOperationEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:MfgOperationEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:AllHeaderOperationsEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:AllHeaderOperationsEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:HeaderOperationEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:HeaderOperationEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:uiAttributes": {
+		"property": "computed",
+		"key": "uiAttributes",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getUIAttributesDetails"
+	},
+	"dsprcs:instance.parent": {
+		"property": "from.physicalid",
+		"key": "parent",
+		"example": "9FF50FB000008BF0614199720000DE53",
+		"description": "Physical ID of the object to which the instance is aggregated"
+	},
+	"dsprcs:instance.reference": {
+		"property": "to.physicalid",
+		"key": "reference",
+		"example": "EE562168015FFCF14F940A513C63AA77",
+		"description": "Instance to side object physical id"
+	},
+	"dsprcs:estimatedTime": {
+		"property": "attribute[DELLmiOperationReference.V_EstimatedTime]",
+		"key": "estimatedTime",
+		"example": "double value",
+		"description": "estimatedTime value",
+		"format": "s_double"
+	},
+	"dsprcs:estimatedTime_AddedValueRatio": {
+		"property": "attribute[DELLmiOperationReference.V_EstimatedTime_AddedValueRatio]",
+		"key": "estimatedTime_AddedValueRatio",
+		"example": "double value",
+		"description": "estimatedTime_AddedValueRatio value",
+		"format": "s_double"
+	},
+	"dsprcs:executionTemplate": {
+		"property": "attribute[DELLmiOperationPPRReference.V_Execution_template_name]",
+		"key": "executionTemplate",
+		"example": "String value",
+		"description": "executionTemplate value"
+	},
+	"dsprcs:interruptible": {
+		"property": "attribute[DELLmiHeaderOperationReference.V_Interruptible]",
+		"key": "interruptible",
+		"example": "true or false value",
+		"description": "interruptible value",
+		"format": "boolean"
+	},
+	"dsprcs:isTimeProportionalToQty": {
+		"property": "attribute[DELLmiOperationReference.V_IsTimeProportionalToQty]",
+		"key": "isTimeProportionalToQty",
+		"example": "true or false value",
+		"description": "isTimeProportionalToQty value",
+		"format": "boolean"
+	},
+	"dsprcs:manageVariant": {
+		"property": "attribute[DELLmiHeaderOperationReference.V_ManageVariant, DELLmiGeneralOperationReference.V_ManageVariant]",
+		"key": "manageVariant",
+		"example": "true or false value",
+		"description": "manageVariant value",
+		"format": "boolean"
+	},
+	"dsprcs:measuredTime": {
+		"property": "attribute[DELLmiOperationReference.V_MeasuredTime]",
+		"key": "measuredTime",
+		"example": "Double value",
+		"description": "measuredTime value",
+		"format": "s_double"
+	},
+	"dsprcs:sequencingModeForOperation": {
+		"property": "attribute[DELLmiHeaderOperationReference.V_SequencingMode, DELLmiGeneralOperationReference.V_SequencingMode]",
+		"key": "sequencingMode",
+		"example": "Advanced",
+		"description": "sequencingMode value"
+	},
+	"dsprcs:timeMode": {
+		"property": "attribute[DELLmiOperationReference.V_TimeMode]",
+		"key": "timeMode",
+		"example": "Integer value",
+		"description": "timeMode value"
+	},
+	"dsprcs:trackTime": {
+		"property": "attribute[DELLmiOperationReference.V_TrackTime]",
+		"key": "trackTime",
+		"example": "Double value",
+		"description": "trackTime value",
+		"format": "s_double"
+	},
+	"dsprcs:rollup": {
+		"property": "attribute[DELLmiHeaderOperationReference.V_UseGanttTimeSolver, DELLmiGeneralOperationReference.V_UseGanttTimeSolver]",
+		"key": "rollup",
+		"example": "true or false value",
+		"description": "useGanttTimeSolver value",
+		"format": "boolean"
+	},
+	"dsprcs:symbolicID": {
+		"property": "attribute[SymbolicID.V_SymbolicID]",
+		"key": "symbolicID",
+		"example": "String value",
+		"description": "symbolicID value"
+	},
+	"dsprcs:serviceProcessRole": {
+		"property": "attribute[DELServiceProcessRoleExt.V_OOTBRole]",
+		"key": "serviceProcessRole",
+		"example": "Set-Up/Close-Up/Procedure",
+		"description": "Service Process OOTB Role"
+	},
+	"dsprcs:custoServiceProcessRole": {
+		"property": "attribute[DELServiceProcessRoleExt.V_CustoRole]",
+		"key": "custoServiceProcessRole",
+		"example": "Custom_Procedure",
+		"description": "Service Process Custo Role"
+	},
+	"dsprcs:richText": {
+		"property": "computed",
+		"key": "richText",
+		"example": "My Rich Text",
+		"fetchOnce": true,
+		"description": "Rich Text extension attribute value"
+	},
+	"dsprcs:richTextUrl":{
+		"property": "computed",
+		"key": "richTextUrl",
+		"description": "URL pointing to the richText in the DB.",
+		"fetchOnce": true,
+		"example": "URL pointing to the richText in the DB"
+	},
+	"dsprcs:DocRepReference":{
+		"property": "computed",
+		"key": "dsprcs:DocRepReference",
+		"description": "DocRepReference.",
+		"fetchOnce": true,
+		"example": "Referenced object for DocRepReference"
+	},
+	"dsprcs:program.getTimeConstraintFromOperationOcc": {
+		"property": "computed",
+		"key": "fromOperationOcc",
+		"description": "Get the list of occurrences of constraining operation instances.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getOperationOccurrenceReferencedObject"
+	},
+	"dsprcs:program.getTimeConstraintToOperationOcc": {
+		"property": "computed",
+		"key": "toOperationOcc",
+		"description": "Get the list of occurrences of constrained operation instances.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getOperationOccurrenceReferencedObject"
+	},
+	"dsprcs:TimeConstraint.dependencyType": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_DependencyType]",
+		"key": "dependencyType",
+		"example": "1",
+		"description": "Indicates FinishToStart(1), StartToStart(2) or FinishToFinish(3) value."
+	},
+	"dsprcs:TimeConstraint.isProductFlow": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_MaterialNeed]",
+		"key": "isProductFlow",
+		"example": "true",
+		"description": "Boolean value whether time constraint is product flow.",
+		"format": "boolean"
+	},
+	"dsprcs:TimeConstraint.delayMode": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_DelayMode]",
+		"key": "delayMode",
+		"example": "MinDelay",
+		"description": "Delay mode value from enum: [MaxDelay, MinDelay, Synchro]."
+	},
+	"dsprcs:TimeConstraint.isOptional": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_OptionalTimeConstraint]",
+		"key": "isOptional",
+		"example": "false",
+		"description": "Boolean value whether time constraint is optional.",
+		"format": "boolean"
+	},
+	"dsprcs:TimeConstraint.resourceConstraint": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_ResourceConstraint]",
+		"key": "resourceConstraint",
+		"example": "None",
+		"description": "Resource constraint value from enum: [DifferentResources, None, SameResources, SameResourcesWithReservation]."
+	},
+	"dsprcs:TimeConstraint.delay": {
+		"property": "attribute[DELLmiTimeConstraintCnx.V_Delay]",
+		"key": "delay",
+		"example": "10.0",
+		"description": "Delay real value.",
+		"format": "double"
+	},
+	"dsprcs:program.getTimeConstraintFlowType": {
+		"property": "computed",
+		"key": "flowType",
+		"description": "Product flow type value from enum: [Alternative, Failed, Good, Scrapped].",
+		"fetchOnce": true,
+		"example": "Good"
+	},
+	"dsprcs:TimeConstraint.returnCode": {
+		"property": "attribute[DELLmiTimeConstraintCategoryAbstract.V_ExecutionReturnCode]",
+		"key": "returnCode",
+		"example": "RCFail203",
+		"description": "Product flow return code value."
+	},
+	"dsprcs:TimeConstraint.maximumRetries": {
+		"property": "attribute[DELLmiTimeConstraintFailed.V_MaximumRetries]",
+		"key": "maximumRetries",
+		"example": "1",
+		"description": "Failed product flow maximum retries value.",
+		"format": "integer"
+	},
+	"dsprcs:TimeConstraint.transferQuantity": {
+		"property": "attribute[DELLmiTimeConstraintQuantityDistribution.V_TransferQuantity]",
+		"key": "transferQuantity",
+		"example": "10.0",
+		"description": "transferQuantity real value.",
+		"format": "double"
+	},		
+	"dsprcs:TimeConstraint.priority": {
+		"property": "attribute[DELLmiTimeConstraintQuantityDistribution.V_Priority]",
+		"key": "priority",
+		"example": "1",
+		"description": "Priority object value.",
+		"format": "integer"
+	},	
+	"dsprcs:TimeConstraint.overlapQuantity": {
+		"property": "computed",
+		"key": "overlapQuantity",
+		"fetchOnce": true,
+		"example": "Json Object"
+	},		
+	"dsprcs:TimeConstraint.overlapQuantityMode": {
+		"property": "attribute[DELLmiTCOverlapQty_Abstract.V_OverlapQuantityMode]",
+		"key": "overlapQuantityMode",
+		"example": "MinQuantity",
+		"description": "overlapQuantityMode object value."
+	},	
+	"dsprcs:program.getPrimaryCapableResource": {
+		"property": "computed",
+		"key": "resource",
+		"description": "Get the referenced object of resource.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getResourceReferencedObject"
+	},
+	"dsprcs:PrimaryCapableResource.resourcesQuantity": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_ResourcesQuantity]",
+		"key": "resourcesQuantity",
+		"example": "1.0",
+		"description": "Resource quantity real value.",
+		"format": "double"
+	},
+	"dsprcs:PrimaryCapableResource.isPreferred": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_IsPreferred]",
+		"key": "isPreferred",
+		"example": "true",
+		"description": "Boolean value whether primary capable resource is preferred.",
+		"format": "boolean"
+	},
+	"dsprcs:PrimaryCapableResource.manuallyScheduled": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_ManuallyScheduled]",
+		"key": "manuallyScheduled",
+		"example": "false",
+		"description": "Boolean value whether primary capable resource is manually scheduled.",
+		"format": "boolean"
+	},
+	"dsprcs:PrimaryCapableResource.priority": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_Priority]",
+		"key": "priority",
+		"example": "1",
+		"description": "Priority integer value.",
+		"format": "integer"
+	},
+	"dsprcs:PrimaryCapableResource.toolChangeoverTime": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_ToolChangeoverTime]",
+		"key": "toolChangeoverTime",
+		"example": "0.0",
+		"description": "Tool changeover time real value.",
+		"format": "double"
+	},
+	"dsprcs:PrimaryCapableResource.estimatedTime": {
+		"property": "attribute[DELLmiEstimatedTime.V_EstimatedTime]",
+		"key": "estimatedTime",
+		"example": "0.0",
+		"description": "Estimated time real value.",
+		"format": "double"
+	},
+	"dsprcs:PrimaryCapableResource.isReservedFromFirstStep": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_IsReservedFromFirstStep]",
+		"key": "isReservedFromFirstStep",
+		"example": "true",
+		"description": "Boolean value whether the primary capable resource is reserved from first step.",
+		"format": "boolean"
+	},
+	"dsprcs:PrimaryCapableResource.capableRscGroupIndex": {
+		"property": "attribute[DELAsmProcessCanUseCnx.V_CapableRscGroupIndex]",
+		"key": "capableRscGroupIndex",
+		"example": "1",
+		"description": "Capable resource group index integer value.",
+		"format": "integer"
+	},
+	"dsprcs:program.getSecondaryCapableResource": {
+		"property": "computed",
+		"key": "resource",
+		"description": "Get the referenced object of resource.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getResourceReferencedObject"
+	},
+	"dsprcs:program.getSecondaryCapableResourceDependsOn": {
+		"property": "computed",
+		"key": "dependsOn",
+		"description": "Get the referenced object of primary capable resource where the secondary is depending on.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getPrimaryCapableResourceReferencedObject"
+	},
+	"dsprcs:SecondaryCapableResource.rscTimeConst": {
+		"property": "attribute[SecondaryCandidateResourceLink.V_RscTimeConst]",
+		"key": "rscTimeConst",
+		"example": "0.0",
+		"description": "Resource time const real value.",
+		"format": "double"
+	},
+	"dsprcs:SecondaryCapableResource.rscTimePerQtyToProducedPerTime": {
+		"property": "attribute[SecondaryCandidateResourceLink.V_RscTimePerQtyToProducedPerTime]",
+		"key": "rscTimePerQtyToProducedPerTime",
+		"example": "0.0",
+		"description": "Resource time per quantity to produced per time real value.",
+		"format": "double"
+	},
+	"dsprcs:program.getItemSpecificationIsScope": {
+		"property": "computed",
+		"key": "isScope",
+		"example": true,
+		"fetchOnce": true,
+		"description": "Indication of whether this is item act as scope or not. If false, then means this is implement link."
+	},
+	"dsprcs:program.getItemSpecificationItemRef": {
+		"property": "computed",
+		"key": "itemRef",
+		"example": "",
+		"fetchOnce": true,
+		"description": "Reference to the scope manufacturing item."
+	},
+	"dsprcs:program.getItemSpecificationProcessRef": {
+		"property": "computed",
+		"key": "processRef",
+		"example": "",
+		"fetchOnce": true,
+		"description": "Reference to the scoped process."
+	},
+	"dsprcs:program.getItemSpecificationScopeContext": {
+		"property": "computed",
+		"key": "scopeContext",
+		"example": "",
+		"fetchOnce": true,
+		"description": "The manufacturing item instance that act as the context for the scope item."
+	},
+	"dsprcs:program.getItemSpecificationOperationOcc": {
+		"property": "computed",
+		"key": "operationOcc",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getOperationOccurrenceReferencedObject",
+		"fetchOnce": true,
+		"description": "Occurrence path for the related process operation instance."
+	},
+	"dsprcs:program.getItemSpecificationItemOcc": {
+		"property": "computed",
+		"key": "itemOcc",
+		"example": "",
+		"fetchOnce": true,
+		"description": "Occurrence path for the related manufacturing item instance that the operation is acting upon."
+	},
+	"dsprcs:ItemSpecification.usage": {
+		"property": "computed",
+		"key": "usage",
+		"example": "Add",
+		"fetchOnce": true,
+		"description": "String value of the usage(Add/Checkin/..)."
+	},
+	"dsprcs:ItemSpecification.computedUsage": {
+		"property": "computed",
+		"key": "computedUsage",
+		"example": "true",
+		"format": "boolean",
+		"fetchOnce": true,
+		"description": "Indicates whether the usage value is computed or from the DB"
+	},
+	"dsprcs:program.getPreAssignedWorkCenterResource": {
+		"property": "computed",
+		"key": "resource",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getResourceReferencedObject",
+		"fetchOnce": true,
+		"description": "Reference to the preassigned work center."
+	},
+	"dsprcs:program.getPreAssignedWorkCenterOperationOcc": {
+		"property": "computed",
+		"key": "operationOcc",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getOperationOccurrenceReferencedObject",
+		"fetchOnce": true,
+		"description": "Occurrence path for the related process operation."
+	},
+	"dsprcs:program.getProcessAssetContext": {
+		"property": "computed",
+		"key": "assetContext",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getAssetContextReferencedObject",
+		"fetchOnce": true,
+		"description": "Reference to the context resource."
+	},
+	"dsprcs:MfgOperation.partialScope": {
+		"property": "computed",
+		"key": "partialScope",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getAssetContextReferencedObject",
+		"fetchOnce": true,
+		"description": "Partial Scope Linked MBOM Object."
+	},
+	"dsprcs:program.getScopeRequirementSpec": {
+		"property": "computed",
+		"key": "requirement",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getScopeRequirementSpecObject",
+		"fetchOnce": true,
+		"description": "Reference to the Requirement Specification."
+	},
+	"dsprcs:program.getAssignedRequirement": {
+		"property": "computed",
+		"key": "requirement",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getAssignedRequirementObject",
+		"fetchOnce": true,
+		"description": "Reference to the requirement."
+	},
+	"dsprcs:contextualReqInfo": {
+		"property": "attribute[PLMReqSpecifyHowToCnx.V_Contextual_Req_Info]",
+		"key": "contextualReqInfo",
+		"example": "String value",
+		"description": "contextualReqInfo value"
+	},
+	"dsprcs:isIgnored": {
+		"property": "attribute[PLMReqSpecifyHowToCnx.V_Ignore]",
+		"key": "isIgnored",
+		"example": "true or false value",
+		"description": "isIgnored value",
+		"format": "boolean"
+	},
+	"dsprcs:usage": {
+		"property": "attribute[PLMReqSpecifyHowToCnx.V_HowToUsage]",
+		"key": "usage",
+		"example": "String value",
+		"description": "usage value"
+	},
+	"dsprcs:PrimaryResourceLinkDetail.availabilityMode": {
+		"property": "attribute[PrimaryResourceLinkDetail.V_AvailabilityMode]",
+		"key": "availabilityMode",
+		"example": "StepOnly",
+		"description": ""
+	},
+	"dsprcs:PrimaryResourceLinkDetail.capableResourceId": {
+		"property": "attribute[DELLmiIsPositioning.V_IsPositioning]",
+		"key": "capableResourceId",
+		"description": "ID of the primary candidate resource link"
+	},
+	"dsprcs:PrimaryResourceLinkDetail.document": {
+		"property": "attribute[DEL_LinkToDocument]",
+		"key": "document",
+		"example": "9FF50FB0000045606274CEAD0004D077",
+		"fetchOnce": true,
+		"description": "Linked document"
+	},
+	"dsprcs:SecondaryResourceLinkDetail.availabilityMode": {
+		"property": "attribute[SecondaryResourceLinkDetail.V_AvailabilityMode]",
+		"key": "availabilityMode",
+		"example": "StepOnly",
+		"description": ""
+	},
+	"dsprcs:SecondaryResourceLinkDetail.capableResourceId": {
+		"property": "attribute[DELLmiIsPositioning.V_IsPositioning]",
+		"key": "capableResourceId",
+		"description": "ID of the secondary candidate resource link"
+	},
+	"dsprcs:SecondaryResourceLinkDetail.document": {
+		"property": "attribute[DEL_LinkToDocument]",
+		"key": "document",
+		"example": "9FF50FB0000045606274CEAD0004D077",
+		"fetchOnce": true,
+		"description": "Linked document"
+	},
+	"dsprcs:AssignedOrganization.usage": {
+		"property": "attribute[PLMEntity.V_usage]",
+		"key": "usage",
+		"example": "EIN",
+		"description": "Usage value"
+	},
+	"dsprcs:AssignedOrganization.organizationRef": {
+		"property": "computed",
+		"key": "organizationRef",
+		"description": "Get the referenced object of organization.",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getResourceReferencedObject"
+	},
+	"dsprcs:capacity": {
+		"property": "attribute[DELLmiProductionSystemReference.V_Capacity]",
+		"key": "capacity",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_Capacity",
+		"format": "integer"
+	},
+	"dsprcs:capacityForOperation": {
+		"property": "attribute[DELLmiTransferOperationReference.V_Capacity,DELLmiBufferOperationReference.V_Capacity]",
+		"key": "capacity",
+		"example": "1",
+		"index": "bo.DELLmiTransferOperationReference.V_Capacity, bo.DELLmiBufferOperationReference.V_Capacity",
+		"format": "integer"
+	},
+	"dsprcs:cycleTime": {
+		"property": "attribute[DELLmiProductionSystemReference.V_CycleTime, DELLmiPPRHeaderProcessReferenceAbstract.V_CycleTime]",
+		"key": "cycleTime",
+		"example": "1.0",
+		"index": "bo.DELLmiProductionSystemReference.V_CycleTime, bo.DELLmiPPRHeaderProcessReferenceAbstract.V_CycleTime",
+		"format": "s_double"
+	},
+	"dsprcs:flowModeIN": {
+		"property": "attribute[DELLmiProductionSystemReference.V_FlowModeIN]",
+		"key": "flowModeIN",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_FlowModeIN",
+		"format": "integer"
+	},
+	"dsprcs:flowModeOUT": {
+		"property": "attribute[DELLmiProductionSystemReference.V_FlowModeOUT]",
+		"key": "flowModeOUT",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_FlowModeOUT",
+		"format": "integer"
+	},
+	"dsprcs:meanTimeBetweenFailure": {
+		"property": "attribute[DELLmiProductionSystemReference.V_MeanTimeBetweenFailure]",
+		"key": "meanTimeBetweenFailure",
+		"example": "1.0",
+		"index": "bo.DELLmiProductionSystemReference.V_MeanTimeBetweenFailure",
+		"format": "s_double"
+	},
+	"dsprcs:meanTimeToRepair": {
+		"property": "attribute[DELLmiProductionSystemReference.V_MeanTimeToRepair]",
+		"key": "meanTimeToRepair",
+		"example": "1.0",
+		"index": "bo.DELLmiProductionSystemReference.V_MeanTimeToRepair",
+		"format": "s_double"
+	},
+	"dsprcs:operationMode": {
+		"property": "attribute[DELLmiProductionSystemReference.V_OperationMode]",
+		"key": "operationMode",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_OperationMode",
+		"format": "integer"
+	},
+	"dsprcs:queuingModeIN": {
+		"property": "attribute[DELLmiProductionSystemReference.V_QueuingModeIN]",
+		"key": "queuingModeIN",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_QueuingModeIN",
+		"format": "integer"
+	},
+	"dsprcs:queuingModeOUT": {
+		"property": "attribute[DELLmiProductionSystemReference.V_QueuingModeOUT]",
+		"key": "queuingModeOUT",
+		"example": "1",
+		"index": "bo.DELLmiProductionSystemReference.V_QueuingModeOUT",
+		"format": "integer"
+	},
+	"dsprcs:totalProductionTime": {
+		"property": "attribute[DELLmiProductionSystemReference.V_TotalProductionTime]",
+		"key": "totalProductionTime",
+		"example": "1.0",
+		"index": "bo.DELLmiProductionSystemReference.V_TotalProductionTime",
+		"format": "s_double"
+	},
+	"dsprcs:estimatedDistance": {
+		"property": "attribute[DELLmiTransferSystemReference.V_EstimatedDistance]",
+		"key": "estimatedDistance",
+		"example": "1.0",
+		"index": "bo.DELLmiTransferSystemReference.V_EstimatedDistance",
+		"format": "s_double"
+	},
+	"dsprcs:transferMode": {
+		"property": "attribute[DELLmiTransferSystemReference.V_TransferMode]",
+		"key": "transferMode",
+		"example": "1",
+		"index": "bo.DELLmiTransferSystemReference.V_TransferMode",
+		"format": "integer"
+	},
+	"dsprcs:arrivalMode": {
+		"property": "attribute[DELLmiStorageSystemReference.V_ArrivalMode]",
+		"key": "arrivalMode",
+		"example": "1",
+		"index": "bo.DELLmiStorageSystemReference.V_ArrivalMode",
+		"format": "integer"
+	},
+	"dsprcs:initialDelay": {
+		"property": "attribute[DELLmiStorageSystemReference.V_InitialDelay]",
+		"key": "initialDelay",
+		"example": "1.0",
+		"index": "bo.DELLmiStorageSystemReference.V_InitialDelay",
+		"format": "s_double"
+	},
+	"dsprcs:preparationTime": {
+		"property": "attribute[DELLmiAdditionalTime.V_PreparationTime]",
+		"key": "preparationTime",
+		"example": "1.0",
+		"index": "bo.DELLmiAdditionalTime.V_PreparationTime",
+		"format": "s_double"
+	},
+	"dsprcs:preProcessingTime": {
+		"property": "attribute[DELLmiAdditionalTime.V_TimeOutMachineBefore]",
+		"key": "preProcessingTime",
+		"example": "1.0",
+		"index": "bo.DELLmiAdditionalTime.V_TimeOutMachineBefore",
+		"format": "s_double"
+	},
+	"dsprcs:postProcessingTime": {
+		"property": "attribute[DELLmiAdditionalTime.V_TimeOutMachineAfter]",
+		"key": "postProcessingTime",
+		"example": "1.0",
+		"index": "bo.DELLmiAdditionalTime.V_TimeOutMachineAfter",
+		"format": "s_double"
+	},
+	"dsprcs:quantityToBeProducedPerTime": {
+		"property": "computed",
+		"key": "quantityToBeProducedPerTime",
+		"fetchOnce": true
+	},
+	"dsprcs:timePerFastening": {
+		"property": "attribute[DELLmiPunctualOperationReference.V_TimePerFastening]",
+		"key": "timePerFastening",
+		"example": "double value",
+		"index": "bo.DELLmiPunctualOperationReference.V_TimePerFastening",
+		"format": "s_double"
+	},
+	"dsprcs:fasteningRate": {
+		"property": "attribute[DELLmiCurveOperationReference.V_FasteningRate]",
+		"key": "fasteningRate",
+		"example": "double value",
+		"index": "bo.DELLmiCurveOperationReference.V_FasteningRate",
+		"format": "s_double"
+	},
+	"dsprcs:inputResources": {
+		"property": "attribute[DELLmiInterruptOperationReference.V_InputResources]",
+		"key": "inputResources",
+		"example": "1",
+		"index": "bo.DELLmiInterruptOperationReference.V_InputResources"
+	},
+	"dsprcs:occurrenceTime": {
+		"property": "attribute[DELLmiInterruptOperationReference.V_OccurrenceTime]",
+		"key": "occurrenceTime",
+		"example": "1.0",
+		"index": "bo.DELLmiInterruptOperationReference.V_OccurrenceTime",
+		"format": "s_double"
+	},
+	"dsprcs:occurrenceTimeMode": {
+		"property": "attribute[DELLmiInterruptOperationReference.V_OccurrenceTimeMode]",
+		"key": "occurrenceTimeMode",
+		"example": "1",
+		"index": "bo.DELLmiInterruptOperationReference.V_OccurrenceTimeMode"
+	},
+	"dsprcs:restart": {
+		"property": "attribute[DELLmiInterruptOperationReference.V_Restart]",
+		"key": "restart",
+		"example": "1",
+		"index": "bo.DELLmiInterruptOperationReference.V_Restart",
+		"format": "integer"
+	},
+	"dsprcs:stopingOnGoingOp": {
+		"property": "attribute[DELLmiInterruptOperationReference.V_StopingOnGoingOp]",
+		"key": "stopingOnGoingOp",
+		"example": "1",
+		"index": "bo.DELLmiInterruptOperationReference.V_StopingOnGoingOp",
+		"format": "integer"
+	},
+	"dsprcs:recorderLevel": {
+		"property": "attribute[DELLmiBufferOperationReference.V_RecorderLevel]",
+		"key": "recorderLevel",
+		"example": "1",
+		"index": "bo.DELLmiBufferOperationReference.V_RecorderLevel",
+		"format": "integer"
+	},
+	"dsprcs:lot": {
+		"property": "attribute[DELLmiSinkOperationReference.V_Lot, DELLmiSourceOperationReference.V_Lot]",
+		"key": "lot",
+		"example": "1",
+		"index": "bo.DELLmiSinkOperationReference.V_Lot, bo.DELLmiSourceOperationReference.V_Lot",
+		"format": "integer"
+	},
+	"dsprcs:proportion": {
+		"property": "attribute[DELLmiSinkOperationReference.V_Proportion, DELLmiSourceOperationReference.V_Proportion]",
+		"key": "proportion",
+		"example": "1",
+		"index": "bo.DELLmiSinkOperationReference.V_Proportion, bo.DELLmiSourceOperationReference.V_Proportion",
+		"format": "s_double"
+	},
+	"dsprcs:materialScrap": {
+		"property": "attribute[DELLmiGeneralOperationReference.V_MaterialScrap, DELLmiLoadingOperationReference.V_MaterialScrap]",
+		"key": "materialScrap",
+		"example": "1.0",
+		"index": "bo.DELLmiGeneralOperationReference.V_MaterialScrap, bo.DELLmiLoadingOperationReference.V_MaterialScrap",
+		"format": "s_double"
+	},
+	"dsprcs:totalItems": {
+		"property": "computed",
+		"key": "totalItems",
+		"format": "integer"
+	},
+	"dsprcs:DELLmiGeneralOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiGeneralOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiLoadingOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiLoadingOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiUnLoadingOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiUnLoadingOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiRemoveMaterialOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiRemoveMaterialOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiTransferOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiTransferOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiPunctualOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiPunctualOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiCurveOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiCurveOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiInterruptOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiInterruptOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiBufferOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiBufferOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiSinkOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiSinkOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiSourceOperationReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiSourceOperationReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails"
+	},
+	"dsprcs:DELLmiQtyControlProcessReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiQtyControlProcessReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DELLmiQtyControlProcessReferenceEnterpriseAttributes"
+		]
+	},
+	"dsprcs:DELLmiGeneralSystemReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiGeneralSystemReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DELLmiGeneralSystemReferenceEnterpriseAttributes"
+		]
+	},
+	"dsprcs:DELLmiTransformationSystemReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiTransformationSystemReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DELLmiTransformationSystemReferenceEnterpriseAttributes"
+		]
+	},
+	"dsprcs:DELLmiTransferSystemReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiTransferSystemReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DELLmiTransferSystemReferenceEnterpriseAttributes"
+		]
+	},
+	"dsprcs:DELLmiStorageSystemReferenceEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:DELLmiStorageSystemReferenceEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:DELLmiStorageSystemReferenceEnterpriseAttributes"
+		]
+	},
+	"dsprcs:BufferSystemEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:BufferSystemEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:BufferSystemEnterpriseAttributes"
+		]
+	},
+	"dsprcs:SinkSystemEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:SinkSystemEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:SinkSystemEnterpriseAttributes"
+		]
+	},
+	"dsprcs:SourceSystemEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:SourceSystemEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:SourceSystemEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:ServiceHeaderWorkPlanEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ServiceWorkPlanEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:ServiceWorkPlanEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:ServiceWorkPlanEnterpriseAttributes"
+		]
+	},
+	"dsprcs:StandardProcessEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:StandardProcessEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:StandardProcessEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ServiceWorkPlanRectifyingEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:ServiceWorkPlanRectifyingEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:ServiceWorkPlanRectifyingEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ServiceWorkPlanSupportingTaskEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:ServiceWorkPlanSupportingTaskEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:ServiceWorkPlanSupportingTaskEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ServiceWorkPlanOperationalEnterpriseAttributes": {
+		"property": "computed",
+		"key": "dsprcs:ServiceWorkPlanOperationalEnterpriseAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getEnterpriseAttributesDetails",
+		"metaTypes": [
+			"dsprcs:ServiceWorkPlanOperationalEnterpriseAttributes"
+		]
+	},
+	"dsprcs:ItemSpecification.sendAheadQuantity": {
+		"property": "computed",
+		"key": "sendAheadQuantity",
+		"example": "{magnitude:\"MASS\",value:\"1000\",unit:\"gm\"}",
+		"fetchOnce": true,
+		"description": "RefQuantity value on ProcessContinuousCreateMaterial"
+	},
+	"dsprcs:ItemSpecification.overlap": {
+		"property": "attribute[MfgProductionPlanning.V_Overlap]",
+		"key": "overlap",
+		"format": "boolean",
+		"example": "true or false",
+		"description": "overlap value"
+	},
+	"dsprcs:ItemSpecification.usageQuantityRatio": {
+		"property": "attribute[DELLmiUsageQuantity_Ratio.V_UsageQuantityRatio]",
+		"key": "usageQuantityRatio",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:MfgOperationInstance.scrapQuantityRatio": {
+		"property": "attribute[DELLmiScrapQuantity_Ratio.V_ScrapQuantityRatio]",
+		"key": "scrapQuantityRatio",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:MfgOperationInstance.wipQuantityRatio": {
+		"property": "attribute[DELLmiWIPQuantity_Ratio.V_WIPQuantityRatio]",
+		"key": "wipQuantityRatio",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:MfgOperationInstance.distributionRule": {
+		"property": "attribute[DELLmiHeaderOperationInstance.V_DistributionRule]",
+		"key": "distributionRule",
+		"example": "DistributionRule object possible values value NotDefined,Cyclic,CyclicNoBlock,Priority,FirstAllowed,PriorityNoBlock"
+	},	
+	"dsprcs:ResourceParameterRow.text": {
+		"property": "computed",
+		"key": "text",
+		"fetchOnce": true,
+		"example": "Any text",
+		"description": "The message to tell the Shop Floor worker what task needs to perform.",
+		"index": "bo.DELResourcePrmPlanAbstract.V_PSRichText"
+	},
+	"dsprcs:ResourceParameterRow.paramType": {
+		"property": "computed",
+		"key": "paramType",
+		"fetchOnce": true,
+		"example": "MASS/Integer/Text",
+		"description": "Object magnitude value."
+	},
+	"dsprcs:ResourceParameterRow.paramValue": {
+		"property": "computed",
+		"key": "paramValue",
+		"fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getQuantityResponse",
+		"description": "Object paramValue value."
+	},
+	"dsprcs:ResourceParameterRow.nominalValue": {
+		"property": "computed",
+		"key": "nominalValue",
+		"fetchOnce": true,
+		"example": "Json object",
+		"description": "Object nominalValue value."
+	},
+	"dsprcs:composer": {
+		"property": "relationship.from.physicalid",
+		"key": "composer"
+	},
+	"dsprcs:CustomerAttributes": {
+		"property": "computed",
+		"key": "customerAttributes",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getCustomerAttributes"
+	},
+	"dsprcs:ResourceParameterRow.maxValue": {
+		"property": "computed",
+		"key": "maxValue",
+		"fetchOnce": true,
+		"example": "Json Object"
+	},
+	"dsprcs:ResourceParameterRow.minValue": {
+		"property": "computed",
+		"key": "minValue",
+		"fetchOnce": true,
+		"example": "Json Object"
+	},
+	"dsprcs:ResourceParameterRow.controlMaxValue": {
+		"property": "computed",
+		"key": "controlMaxValue",
+		"fetchOnce": true,
+		"example": "Json Object"
+	},
+	"dsprcs:ResourceParameterRow.controlMinValue": {
+		"property": "computed",
+		"key": "controlMinValue",
+		"fetchOnce": true,
+		"example": "Json Object"
+	},
+	"dsprcs:ResourceParameterRow.minLimit": {
+		"property": "computed",
+		"key": "minLimit",
+		"fetchOnce": true,
+		"description": "Object minLimit value"
+	},
+	"dsprcs:ResourceParameterRow.maxLimit": {
+		"property": "computed",
+		"key": "maxLimit",
+		"fetchOnce": true,
+		"description": "Object maxLimit value"
+	},
+	"dsprcs:ResourceParameterRow.controlMinLimit": {
+		"property": "computed",
+		"key": "controlMinLimit",
+		"fetchOnce": true,
+		"description": "Object controlMinLimit value"
+	},
+	"dsprcs:ResourceParameterRow.controlMaxLimit": {
+		"property": "computed",
+		"key": "controlMaxLimit",
+		"fetchOnce": true,
+		"description": "Object controlMaxLimit value"
+	},
+	"dsprcs:ResourceParameterRow.isValueSet": {
+		"property": "computed",
+		"key": "isValueSet",
+		"fetchOnce": true,
+		"example": "To indicate whether the nominalValue is set or not"
+	},
+	"dsprcs:ResourceParameterRow.symbolicResourceParamID": {
+		"property": "computed",
+		"key": "symbolicResourceParamID",
+		"fetchOnce": true,
+		"description": "String symbolicResourceParamID value"
+	},
+	"dsprcs:ResourceParameterRow.symbolicCapableResourceID": {
+		"property": "computed",
+		"key": "symbolicCapableResourceID",
+		"fetchOnce": true,
+		"description": "String symbolicCapableResourceID value"
+	},
+	"dsprcs:ResourceParameterRow.possibleValues": {
+		"property": "computed",
+		"key": "possibleValues",
+		"fetchOnce": true,
+		"description": "String possibleValues value"
+	},
+	"dsprcs:ResourceParameterRow.eofMaxValue": {
+		"property": "computed",
+        "key": "eofMaxValue",
+        "fetchOnce": true,
+        "description": "Object eofMax value"
+	},
+	"dsprcs:ResourceParameterRow.eofMinValue": {
+		"property": "computed",
+        "key": "eofMinValue",
+        "fetchOnce": true,
+        "description": "Object eofMin value"
+	},
+	"dsprcs:ResourceParameterRow.eofMaxLimit": {
+		"property": "computed",
+        "key": "eofMaxLimit",
+        "fetchOnce": true,
+        "description": "Object eofMaxLimit value"
+	},
+	"dsprcs:ResourceParameterRow.eofMinLimit": {
+		"property": "computed",
+        "key": "eofMinLimit",
+        "fetchOnce": true,
+        "description": "Object eofMinLimit value"
+	},
+	"dsprcs:ResourceParameterRow.criticality": {
+		"property": "attribute[DELPrmCriticalityExt.V_Criticality]",
+        "key": "criticality",
+        "fetchOnce": true,
+        "description": "Object criticality value"
+	},
+	"dsprcs:x2DPosition": {
+		"property": "attribute[DELLmiOperationInstance.V_X2DPos]",
+		"key": "x2DPosition",
+		"example": "x2DPosition value",
+		"format": "s_double"
+	},
+	"dsprcs:y2DPosition": {
+		"property": "attribute[DELLmiOperationInstance.V_Y2DPos]",
+		"key": "y2DPosition",
+		"example": "y2DPosition value",
+		"format": "s_double"
+	},
+	"dsprcs:ItemSpecification.quantity":{
+		"property": "computed",
+		"key": "quantity",
+		"example": "{magnitude:\"MASS\",value:\"1000\",unit:\"gm\"}",
+		"fetchOnce": true,
+		"description": "quantity value on ItemSpecification"
+	},	
+	"dsprcs:Origin.originItem": {
+        "property": "computed",
+        "key": "originItem",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.originItem"
+	},
+	"dsprcs:TimeAnalysis.analysisType": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_AnalysisType]",
+		"key": "analysisType",
+		"example": "1",
+		"format": "integer"
+	},
+	"dsprcs:TimeAnalysis.humanTime": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_HumanTime]",
+		"key": "humanTime",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:TimeAnalysis.longDescription": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_LongDescription]",
+		"key": "longDescription",
+		"example": "string value",
+		"format": "string"
+	},
+	"dsprcs:TimeAnalysis.machineTime": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_MachineTime]",
+		"key": "machineTime",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:TimeAnalysis.setupTime": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_SetupTime]",
+		"key": "setupTime",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:TimeAnalysis.subsystem": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_Subsystem]",
+		"key": "subsystem",
+		"example": "2",
+		"format": "integer"
+	},
+	"dsprcs:TimeAnalysis.timeType": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_TimeType]",
+		"key": "timeType",
+		"example": "integer value",
+		"format": "integer"
+	},
+	"dsprcs:TimeAnalysis.totalTime": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_TotalTime]",
+		"key": "totalTime",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:TimeAnalysis.valueAdded": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_ValueAdded]",
+		"key": "valueAdded",
+		"example": "string value",
+		"format": "string"
+	},
+	"dsprcs:TimeAnalysis.waitingTime": {
+		"property": "attribute[DELTimeAnalysisRepReference.V_WaitingTime]",
+		"key": "waitingTime",
+		"example": "double value",
+		"format": "s_double"
+	},
+	"dsprcs:sharedDatesInformation": {
+		"property": "computed",
+		"key": "sharedDatesInformation",
+		"fetchOnce": true,
+		"description": "Defines Shared Dates Information. Defines the objective dates and maturity state of a Process Plan object.",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getQuantityResponse"
+	},
+	"dsprcs:ServiceWorkPlanCodeInfo": {
+		"property": "attribute[DELLmiServiceWorkPlanSystemReference.V_CodeInfo]",
+		"key": "codeInfo",
+		"example": "String value",
+		"description": "Service Process code info"
+	},
+	"dsprcs:ServiceWorkPlanInstMaintanenceLevel": {
+		"property": "attribute[DELServiceMaintenanceLevelExt.V_MaintenanceLevel]",
+		"key": "maintenanceLevel",
+		"example": "String value",
+		"description": "Service Process maintanenceLevel"
+	},
+	"dsprcs:sourceRef": {
+        "property": "computed",
+        "key": "sourceRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.sourceRef"
+	},
+	"dsprcs:MfgItemOutputLink.sourceRef": {
+        "property": "computed",
+        "key": "sourceRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.sourceRef"
+	},
+	"dsprcs:MfgItemOutputLink.targetRef": {
+        "property": "computed",
+        "key": "targetRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.targetRef"
+	},
+	"dsprcs:ProductOutputLink.sourceRef": {
+        "property": "computed",
+        "key": "sourceRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.sourceRef"
+	},
+	"dsprcs:ProductOutputLink.targetRef": {
+        "property": "computed",
+        "key": "targetRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.targetRef"
+	},
+	"dsprcs:AssignedRequirement.sourceRef": {
+        "property": "computed",
+        "key": "sourceRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.sourceRef"
+	},
+	"dsprcs:ScopeRequirementSpec.sourceRef": {
+        "property": "computed",
+        "key": "sourceRef",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.sourceRef"
+	},
+	"dsprcs:getNoteTemplateAnswer": {
+		"property": "computed",
+		"key": "attachedNoteTemplates",
+		"example": "com.dassault_systemes.enovia.xapps.dsprcs.implementations.dsprcsOpenAPIImpl.getNoteTemplateAnswer",
+		"fetchOnce": true,
+		"description": "Reference to the NoteTemplateAnswer."
+	}
+}

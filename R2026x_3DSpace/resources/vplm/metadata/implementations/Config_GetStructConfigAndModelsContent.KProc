@@ -1,0 +1,42 @@
+#Prog Config_GetStructConfigAndModelsContent( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+let PLMRouteSetContext (PLMRouteSet)
+let PLMRouteSetModel (PLMRouteSet)
+let PLMRouteSetModelContent (PLMRouteSet)
+
+let PLMIDSetInputRef (PLMIDSet)
+let PLMIDSetInputGPI (PLMIDSet)
+
+let PLMIDSetContext (PLMIDSet)
+let PLMIDSetModel (PLMIDSet)
+let PLMIDSetModelxRev (PLMIDSet)
+let PLMIDSetModelContent (PLMIDSet)
+
+let PLMIDSetInputProdConf (PLMIDSet)
+let PLMIDSetNLVContent (PLMIDSet)
+
+
+/* Starting R2015x only complete with dictionary (and its content). Contexts, Effectivities, Configurations and SMAPs are retrieved by host modelers completion. */
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Completes with Models associated to the Context */
+PLMIDSetContext = Restrict(iPLMIDSet, "VPMCfgContext/VPMCfgContext")
+PLMIDSetModel = ExecuteJavaProcedure("com.dassault_systemes.plm.config.entity.completion.ConfigContextCompletion", PLMIDSetContext)
+
+/* Completes with Models associated to effectivity based data */
+PLMIDSetInputGPI = Restrict(iPLMIDSet, "Class/GenericPLMItem")
+PLMIDSetModelxRev = ExecutePLMProcedure("Config_GetModelFromxRevisionContext", PLMIDSetInputGPI)
+PLMIDSetModel = PLMIDSetModel + PLMIDSetModelxRev
+
+/* Completes with the full content of the Model */
+PLMRouteSetModelContent = ExecutePLMFunction("Product", "Product_AddCriteriaFromModel", PLMIDSetModel)
+PLMIDSetModelContent = Ids(PLMRouteSetModelContent)
+
+/* Completes with NLV content */
+PLMIDSetInputProdConf = Restrict(Ids(PLMRouteSetModelContent), "Class/Product Configuration") 
+PLMIDSetNLVContent = ExecutePLMProcedure("NLV_GetItem", PLMIDSetInputProdConf)
+
+/* Fill output ID set */
+oPLMIDSet = iPLMIDSet + PLMIDSetModel + PLMIDSetModelContent + PLMIDSetNLVContent
+}
+

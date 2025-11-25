@@ -1,0 +1,15 @@
+{
+	"dsmvlog:attribute.instance.identifier": {
+		"property": "attribute[LogicalAbstractSystemTypeInstance.V_Identifier]",
+		"key": "identifier",
+		"example": "My identifier",
+		"description": "Instance Identifier (set only once, at creation)"
+	},
+	"dsmvlog:attribute.interface.direction": {
+		"property": "attribute[RFLVPMSystemTypeExpositionInstance.V_Direction]",
+		"key": "direction",
+		"format":"integer",
+		"description": "1 for In or 2 for Out, 3 for InOut, 4 for NoDirection (set only once, at creation)",
+		"example": "1"
+	}
+}

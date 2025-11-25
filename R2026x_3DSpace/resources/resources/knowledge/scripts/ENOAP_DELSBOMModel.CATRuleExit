@@ -1,0 +1,14 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package DELSBOMModel -->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMHardwareUsageReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMHardwareComponentReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMHardwareItemReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMAggregatedComponentReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMAggregatedUsageReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMZoneReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMZoneUsageReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMSoftwareItemReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMSoftwareUsageReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELSBOMSoftwareComponentReference" ScriptName="ENOAP_PolicyChooser_Definition" />
+</Scripts>

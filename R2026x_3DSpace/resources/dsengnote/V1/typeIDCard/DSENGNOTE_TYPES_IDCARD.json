@@ -1,0 +1,41 @@
+{
+  "dsengnote:EngNoteTemplate": {
+    "kindOf":"root",
+    "beType": "type_CATInstructionTemplate",
+    "rootLinks":["dseng:EngItem", "dsrm:RawMaterial", "dsprcs:MfgProcess"],
+    "classesTypes":"type_CATInstructionTemplate, type_CATCustomInstructionTemplate",
+    "defaultMask": "dsmvengnote:EngNoteTemplateMask.Default",
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsengnote.V1.dictionaries.dsengnoteEngNoteTemplateAttributeDictionary",
+    "customizationSupport": true,
+    "customerAttribute": true,
+    "cestamp": true,
+    "patchCSRF":true,
+    "patchChangeLog": true,
+    "changeSupport": true,
+    "search": true,
+    "optionCheck": {
+      "modify"      : true,
+      "produce"     : true,
+      "navigate"    : false
+    }
+  },
+  "dsengnote:EngNote": {
+    "kindOf":"root",
+    "beType": "type_CATInstruction",
+    "rootLinks":["dsengnote:EngNoteTemplate", "dseng:EngInstance", "dsmfg:MfgItemInstance"],
+    "defaultMask": "dsmvengnote:EngNoteMask.Default",
+    "attributeMappingClass": "com.dassault_systemes.enovia.xapps.dsengnote.V1.dictionaries.dsengnoteEngNoteAttributeDictionary",
+    "customizationSupport": false,
+    "customerAttribute": false,
+    "cestamp": true,
+    "patchChangeLog": true,
+    "patchCSRF":true,
+    "changeSupport": true,
+    "search": true,
+    "optionCheck": {
+      "modify"      : true,
+      "produce"     : true,
+      "navigate"    : false
+    }
+  }
+}

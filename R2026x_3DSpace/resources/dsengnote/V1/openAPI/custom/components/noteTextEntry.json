@@ -1,0 +1,36 @@
+{
+  "description": "Text entry",
+  "type": "object",
+  "properties": {
+    "type_entry": {
+      "description": "Type of this entry",
+      "type": "string",
+      "example": "text"
+    },
+    "key": {
+      "description": "User name of the entry (no unicity enforced)",
+      "type": "string",
+      "example": "Text.1"
+    },
+    "text": {
+      "description": "Text specified in Engineering Note Templates",
+      "type": "string",
+      "example": "Install"
+    },
+    "modifiable": {
+      "description": "Text can be modified on the Engineering Note or not",
+      "type": "boolean",
+      "example": true
+    },
+    "mandatory": {
+      "description": "Designer has to modify this text value when applying Engineering Note",
+      "type": "boolean",
+      "example": false
+    },
+    "redefinedText": {
+      "description": "Text redefined on this Engineering Note",
+      "type": "string",
+      "example": "My modified text content"
+    }
+  }
+}

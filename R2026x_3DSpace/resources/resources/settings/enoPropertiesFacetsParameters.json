@@ -1,0 +1,238 @@
+{
+	"postErrorAnalysis": {
+		"class": "com.dassault_systemes.postErrorAnalysis.facetImplementation.ENOPostErrorAnalysisFacetsOperationsAdapter"
+	},
+	"_substitution": {
+		"_relationship": "to"
+	},
+	"Files": {
+		"authorizedTypes": [ "Document", "CONTROLLED DOCUMENTS", "Requirement Specification" ]
+	},
+	"EBOMPart": {
+		"class": "com.dassault_systemes.attributesmngt.EBOM.EBOMAttributesBase"
+	},
+	"IPProtection": {
+		"authorizedTypes": [ "VPMReference", "VPMRepReference", "RFLVPMLogicalReference", "Requirement", "Requirement Specification", "Document" ]
+	},
+	"views": {
+		"forbiddenTypes": [ "PnOProject", "Folder", "Workspace", "Workspace Vault", "Personal Folder", "Personal Workspace", "Requirement Proxy", "Change Proxy", "SystemModel", "Change Request", "Change Order", "Change Action", "Change Analysis", "Investigation Request", "Disposition", "Scope Analysis", "PerformanceSpec", "PerformanceChar", "Issue" ]
+	},
+	"activity": {
+
+	},
+	"history": {
+		"forbiddenTypes": [ "PnOProject", "SystemModel", "RFLVPMLogicalReference","RFLPLMFunctionalReference", "RFLVPMSystemTypeReference", "RFLPLMFlowReference" ],
+		"authorizedApps": [ "ENOLCMI_AP", "ENORERE_AP", "ENOSPEC_AP", "ENOPSTE_AP", "DELMFNS_AP", "DELMFN_AP", "DELSIEC_AP", "DELSIE_AP", "DELMGAS_AP", "DELMGA_AP", "DELRMEC_AP", "DELRME_AP", "DELSVRC_AP", "DELSVR_AP", "ENXENG_AP", "ENOR3D_AP", "ENOR3R_AP", "ENOR3V_AP", "ENOR3M_AP", "CATA3I_AP", "CATC3D_AP", "ENOI3D_AP", "ENOI3S_AP", "SIMVVLP_AP", "SIMVVSP_AP", "SIMTRCP_AP", "CATRTW_AP", "CATRGW_AP", "ENXCDOC_AP", "ENXWDOC_AP", "ENOWCHA_AP", "ENOWCHG_AP", "ENONCHA_AP", "ENOFOL3_AP", "X3DCSMA_AP", "CATFME_AP", "CATPRA_AP", "CATFTT_AP", "ENOFOL4_AP", "DELOER_AP", "DELOERC_AP", "ENOSC2D_AP", "ENXDISC_AP", "ENOSCEN_AP","ENXLBYM_AP", "DELMSM_AP", "ENORIPE_AP", "ENOREFS_AP", "ENXTERM_AP" ,"CATEEW_AP" , "CATEEWC_AP", "DELSRI_AP", "DELSRIC_AP"]
+	},
+	"derivedoutputs": {
+		"authorizedTypes": [ "VPMReference", "3DShape", "Drawing", "SIMShape", "XCADNonPSBaseRepReference", "Document", "CONTROLLED DOCUMENTS" ]
+	},
+	"revisions": {
+		"authorizedTypes": [ "VV_Test_Specification", "VV_Test_Case", "VV_Test_Script", "VV_Test_Result", "SystemModel", "Document", "VPMReference", "Drawing", "3DShape", "Part", "Requirement Group", "Requirement Specification", "Chapter", "Requirement", "Comment", "ConfiguredBaseline", "RFLPLMFunctionalReference", "RFLVPMLogicalReference", "Test Method Specification", "Technical Specification", "SIMObjSimulationObjectGeneric", "dsc_Model_Category_Ref", "dsc_Scenario_Category_Ref", "dsc_Result_Category_Ref", "dsc_matref_ref_Core", "dsc_Scenario_Rep", "dsc_Result_Rep", "dsc_matref_rep_SmaOptions", "dsc_matref_ref_Core", "dsc_matref_rep_Analysis", "dsc_matref_rep_Rendering", "dsc_matref_rep_Drafting", "CONTROLLED DOCUMENTS", "Audit", "Audit Finding", "Questionnaire", "FailureModesEffectsAnalysis", "FallibleReference", "FailureModesEffectsAnalysisTemplate", "FaultTreeElement" ]
+	},
+	"social": {
+		"forbiddenTypes": [ "PnOProject", "SystemModel" ]
+	},
+	"properties": {
+		"forbiddenTypes": []
+	},
+	"relations": {
+		"forbiddenTypes": [ "PnOProject", "xRevisionElement", "PerformanceChar" ]
+	},
+	"attachments": {
+		"authorizedTypes": [ "Libraries", "Classification" ]
+	},
+	"Effectivity": {
+		"notSubstitute": true,
+		"forbiddenTypes": [ "3DShape", "PerformanceChar" ]
+	},
+	"Specifications": {
+		"authorizedTypes": [ "ConfiguredBaseline" ]
+	},
+	"Variability": {
+		"authorizedTypes": [ "xRevisionElement" ]
+	},
+	"physicssimulation": {
+		"authorizedTypes": [ "DesignSight" ]
+	},
+	"Change": {
+		"authorizedTypes": [ "VPMReference", "Drawing", "3DShape", "Part", "Requirement Group", "Requirement Specification", "Chapter", "Requirement", "Comment", "RFLPLMFunctionalReference", "RFLVPMLogicalReference", "Test Method Specification", "Technical Specification", "Alternate Reference", "Document", "DELFmiFunctionReference", "DELLmiAbstractProductionEntity", "PerformanceSpec", "Quality System Document", "Technical Document", "VV_Test_Script", "VV_Test_Specification", "VV_Test_Case" ]
+	},
+	"iChange": {
+		"notSubstitute": true,
+		"forbiddenTypes": []
+	},
+	"Classification": {
+		"class": "com.dassault_systemes.apps.classificationCommon.ClassificationsFacet.ClassificationsFacetAvailabilityAdapter",
+		"forbiddenTypes": ["Classification", "Libraries", "IP Export Classification Documents"]
+	},
+	"proxyFacet": {
+		"authorizedTypes": [ "Requirement Proxy", "Change Proxy" ]
+	},
+	"Alternate": {
+		"authorizedTypes": [ "Alternate Reference" ]
+	},
+	"Rich Content Attr": {
+		"authorizedTypes": [ "Requirement", "Comment" ]
+	},
+	"Coverage Links": {
+		"authorizedTypes": [ "Requirement" ]
+	},
+	"documents": {
+		"authorizedTypes": [ "Requirement Specification", "Requirement", "Comment", "FailureModesEffectsAnalysis", "FallibleReference", "FailureModesEffectsAnalysisTemplate", "FaultTreeElement" ]
+	},
+	"export_documents_tab": {
+		"authorizedTypes": [ "DMUMarkupRepReference", "DMUValidationValidation" ]
+	},
+	"instance": {
+		"notSubstitute": true,
+		"forbiddenTypes": [ "CONFIGURATION STRUCTURES", "Configuration Rules", "PerformanceChar" ]
+	},
+	"sharing": {
+		"class": "com.dassault_systemes.sharing.facetImplementation.ENOSharingFacetsOperationsAdapter",
+		"forbiddenTypes": [ "PnOProject", "Change Request", "Change Order", "Change Action", "Change Analysis", "Investigation Request", "Disposition", "Scope Analysis", "IP Export Classification Documents", "PerformanceSpec", "PerformanceChar" ]
+	},
+	"doc_attachments": {
+		"authorizedTypes": [ "VPMReference", "Document" ]
+	},
+	"doc_specifications": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"interference_context": {
+		"authorizedTypes": [
+			"SIMItfSimulation"
+		]
+	},
+	"interference_specification": {
+		"authorizedTypes": [
+			"SIMItfSimulation"
+		]
+	},
+	"review_check": {
+		"authorizedTypes": [
+			"DMUValidationCheck",
+			"DMUValidationValidation"
+		]
+	},
+	"review_highlight": {
+		"authorizedTypes": [
+			"DMUValidationExposedPresentation",
+			"DMUValidationValidation"
+		]
+	},
+	"review_members": {
+		"authorizedTypes": [
+			"DMUValidationValidation"
+		]
+	},
+	"product_configuration_content": {
+		"authorizedTypes": [ "Product Configuration" ]
+	},
+	"catfl_specification_document": {
+		"authorizedTypes": [ "RFLPLMFunctionalReference", "RFLVPMLogicalReference", "RFLPLMFlowReference", "RFLVPMSystemTypeReference" ]
+	},
+	"catfl_attachement": {
+		"authorizedTypes": [ "RFLPLMFunctionalReference", "RFLVPMLogicalReference", "RFLPLMFlowReference", "RFLVPMSystemTypeReference" ]
+	},
+	"exception-attachments": {
+		"authorizedTypes": [ "IP Export Classification Documents" ]
+	},
+	"exception-Authorizations": {
+		"authorizedTypes": [
+			"IP Export Classification Documents"
+		]
+	},
+	"exception-Items": {
+		"authorizedTypes": [
+			"IP Export Classification Documents"
+		]
+	},
+	"rule-classes": {
+		"authorizedTypes": [
+			"Security Rule"
+		]
+	},
+	"rule-expression": {
+		"authorizedTypes": [
+			"Security Rule"
+		]
+	},
+	"work_instructions": {
+		"authorizedTypes": [ "DELWkiPPRReference" ]
+	},
+	"referencedocuments": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"specificationdocuments": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"SecurityRulesOnClass": {
+		"class": "com.dassault_systemes.enovia.ipprotection.FacetAvailabilityAdapter",
+		"authorizedTypes": [ "Classification" ]
+	},
+	"ExceptionsOnClass": {
+		"class": "com.dassault_systemes.enovia.ipprotection.FacetAvailabilityAdapter",
+		"authorizedTypes": [ "Classification" ]
+	},
+	"AuthorizedPeopleByRules": {
+		"class": "com.dassault_systemes.enovia.ipprotection.FacetAvailabilityAdapterBasedOnUser",
+		"authorizedTypes": [
+			"Security Rule"
+		]
+	},
+	"AuthorizedPeopleByException": {
+		"class": "com.dassault_systemes.enovia.ipprotection.FacetAvailabilityAdapterBasedOnUser",
+		"authorizedTypes": [
+			"IP Export Classification Documents"
+		]
+	},
+	"AuthorizedPeopleByClass": {
+		"class": "com.dassault_systemes.enovia.ipprotection.FacetAvailabilityAdapterBasedOnUser",
+		"authorizedTypes": [
+			"Classification"
+		]
+	},
+	"members": {
+		"authorizedTypes": [
+			"Issue"
+		]
+	},
+	"contents": {
+		"authorizedTypes": [
+			"Issue"
+		]
+	},
+	"attachment": {
+		"authorizedTypes": [
+			"Issue"
+		]
+	},
+	"TimeAnalysisProperties": {
+		"authorizedTypes": [ "DELLmiHeaderOperationReference", "DELLmiGeneralOperationReference", "DELLmiPunctualOperationReference", "DELLmiCurveOperationReference", "DELLmiLoadingOperationReference", "DELLmiUnloadingOperationReference", "DELLmiTransferOperationReference", "DELLmiRemoveMaterialOperationReference" ]
+	},
+	"alternateFacet": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"specsMadeFromFacet": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"MaterialFacet": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"EquivalentItems": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"ManufactureIntent": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"Deformability": {
+		"authorizedTypes": [ "VPMReference" ]
+	},
+	"catmbse-usedmodel": {
+		"authorizedTypes": [ "SystemModel" ]
+	},
+	"catmbse-usingmodel": {
+		"authorizedTypes": [ "SystemModel" ]
+	}
+
+}

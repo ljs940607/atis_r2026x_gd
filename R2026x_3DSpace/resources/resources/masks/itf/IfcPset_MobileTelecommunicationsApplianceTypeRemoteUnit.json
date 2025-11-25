@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeRemoteUnit_NumberOfAntennas",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeRemoteUnit_RUConnectionType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

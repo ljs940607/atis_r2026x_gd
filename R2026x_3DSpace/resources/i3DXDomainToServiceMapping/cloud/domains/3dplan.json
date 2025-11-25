@@ -1,0 +1,8 @@
+{
+	"owner" : "BCC",
+	"description" : "ToDo",
+    "service": "3dplan",
+    "urls": {
+		"fetch" : "/resources/3dplan/v1/i3dx/fetch"
+	}
+}

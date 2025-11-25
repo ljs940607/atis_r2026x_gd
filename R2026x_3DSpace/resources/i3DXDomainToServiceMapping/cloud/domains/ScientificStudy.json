@@ -1,0 +1,8 @@
+{
+	"owner" : "TBS1",
+	"description" : "ToDo",
+    "service": "bioexperiment",
+    "urls": {
+		"fetch" : "/resources/Study/v1/i3dx/fetch"
+	}
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+ <Package xmlns="PLMDictionaryUnified" 
+	       Name="CATMIAssemblySurfaces"
+		   UseNames="PRODUCTDiscipline"  
+           Uuid="5E655581-C898-4D56-8121-6C069A32C87A"
+           BelongsToModeler="PRODUCT"
+	       CustomerExposition="Programmer" 
+	       ModelerType="Top">
+      <Property Name="FormerTypingLegacy" Value="Yes"/>
+
+	 <!--     UseProcedures="ENOVpe_Procedures"  -->
+	 
+  <!-- =================================================================== -->
+  <!-- Assemblyfunctionalsurfaces :             -->
+  <!-- =================================================================== -->
+  <!--  ============  -->
+		<Class Name="Assemblyfunctionalsurfaces"
+         Uuid="0C65DDA3-0E73-4578-B319-9F49EAFD9FF5"
+		 Discipline="Yes"
+         Abstract="No"
+         CustomerExposition="Programmer"
+         SuperName="3DShape"
+         Specializable="Yes"
+         CustomerExtensible="Yes"
+         Abbreviation="Afs"
+	     lowobjectcount = "Yes">
+			
+	  <Property Name="KweNew_InstanciationMethod" Value="CATMIAssSurfacesInstanciate"/>
+	  <Property Name="KweNew_ReturnedType" Value="VPMRepInstance"/>
+	  
+	  <Property Name="XPGExchangeMode" Value="Bidirectional"/>
+	  <Property Name="Newable" Value="All_Offline_CAA"/>
+	  
+	  <Property Name="IconName" Value="I_AssFuncSurfacesRep"/>
+	  <Property Name="3DIconName" Value="I_AssFuncSurfacesRep"/>
+
+	  <Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+	  </Method>
+        
+  </Class>
+
+</Package>

@@ -1,0 +1,42 @@
+{
+  "dsadvfilter:attribute.title": {
+      "property": "attribute[Title]",
+      "key": "title",
+      "label": "CRS.common.Label.Attribute.Title",
+      "example": "My title",
+      "description": "Object Title value",
+      "index": "ds6w:label"
+  },
+  "dsmvadvfilter:program.filterSpecification": {
+    "property": "computed",
+    "fetchOnce": false,
+    "key": "filter",
+    "label": "dsadvfilter.specification",
+    "example": "{External Filter Speciifcation}",
+    "description": "Filter specification"
+  },
+  "dsmvadvfilter:program.filteredObject": {
+    "property": "computed",
+    "fetchOnce": false,
+    "key": "referencedObject",
+    "label": "dsadvfilter.filtered",
+    "example": "{source: ..., type: ..., id: ..., relativePath: ...}",
+    "description": "Filtered Product"
+  },
+  "dsmvadvfilter:program.filterVDRPSpec": {
+    "property": "computed",
+    "fetchOnce": false,
+    "key": "filter",
+    "label": "dsadvfilter.VDRPSpec",
+    "example": "{External Filter Specification}",
+    "description": "Filter specification"
+  },
+  "dsmvadvfilter:program.VDRPFilteredObjects": {
+    "property": "computed",
+    "fetchOnce": false,
+    "key": "referencedObjects",
+    "label": "dsadvfilter.VDRPfilteredObjects",
+    "example": "com.dassault_systemes.enovia.xapps.dsadvfilter.implementations.dsadvfilterOpenAPIImpl.createVDRPFilter",
+    "description": "Filtered Products"
+  }
+}

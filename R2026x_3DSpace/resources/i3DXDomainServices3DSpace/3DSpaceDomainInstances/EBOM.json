@@ -1,0 +1,6 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "LegacyEBOM",
+	"description"    : "The domain instance for EBOM in 3DSpace",
+	"packages"       : ["EBOM"]
+}

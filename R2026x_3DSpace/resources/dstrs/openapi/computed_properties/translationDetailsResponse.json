@@ -1,0 +1,65 @@
+{
+	"type": "object",
+	"properties": {
+		"objectReferences": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"source": {
+						"type": "string",
+						"example": "$3DSpace"
+					},
+					"type": {
+						"type": "string",
+						"example": "DELWkiInstructionReference"
+					},
+					"identifier": {
+						"type": "string",
+						"example": "RAAA79CEF11C472C9537094C2FA8RAAA"
+					},
+					"relativePath": {
+						"type": "string",
+						"example": "/resources/v1/modeler/dsprcs/dsprcs:Instruction/RAAA79CEF11C472C9537094C2FA8RAAA"
+					},
+					"attributes": {
+						"type": "object",
+						"description": "Translated attributes for the object reference.",
+						"properties": {
+							"PLMAttribute_1": {
+								"type": "object",
+								"properties": {
+									"origin": {
+										"type": "string",
+										"description": "The original attribute value.",
+										"example": "attribute value"
+									},
+									"translation": {
+										"type": "string",
+										"description": "The translated attribute value.",
+										"example": "Translated attribute value"
+									}
+								}
+							},
+							"PLMAttribute_N": {
+								"type": "object",
+								"properties": {
+									"origin": {
+										"type": "string",
+										"description": "The original attribute value.",
+										"example": "attribute value"
+									},
+									"translation": {
+										"type": "string",
+										"description": "The translated attribute value.",
+										"example": "Translated attribute value"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

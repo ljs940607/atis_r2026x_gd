@@ -1,0 +1,80 @@
+<Scripts>
+  <!--Attribute initialization when Creating Knowledge applications-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMResourceSetRepReference" ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMResourceSetRepReference" ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMBusinessRule" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMBusinessRule" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+
+
+  <!--Attribute initialization when Creating Knowledge applications-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaBusinessApplication"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaBusinessApplication"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaAppliComponent"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaAppliComponent"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaAppliConfiguration"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="PLMKbaAppliConfiguration"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="KnowledgeBasedApplicativeResources"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="KnowledgeBasedApplicativeResources"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <!-- VB Macro are now managed as either resource or management depending on what role create it 
+  TVQ : Copy from ENONTCustomization\CNext\resources\knowledge\scripts\ENONT_Knowledge.CATRuleExit 
+  in order to have it working server side (incident 1277598) -->
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBScript"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Management" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Management" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVSTA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Management" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBScript"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBScript"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVBA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVSTA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource" />
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="MacroLibraryVSTA"    ScriptName="ENONT_PLMReference_BLInitialization" >
+    <Condition Attribute="Policy" Value="VPLM_SMB_Resource_MajorRev" />
+  </Script>
+</Scripts>

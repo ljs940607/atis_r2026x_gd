@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "AECVirtualElementIfc" UseNames = "AECVirtualElement" Uuid = "2E0CABE9-8006-461E-B3F9-BAF45FF92089" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcVirtualElement" ScopeNames = "AecVirtualElement" Uuid = "103ca56a-22ae-485b-92a8-0bfd8d8041f0">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcVirtualElement_ObjectType" Protection = "Free" Type = "String" Uuid = "103ca56a-22ae-485b-92a8-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcVirtualElement_Tag" Protection = "Free" Type = "String" Uuid = "103ca56a-22ae-485b-92a8-ed12431a92f4"/>
+    <Simple CAAExposition = "L0" DefaultValue = "NOTDEFINED" MaxLength = "255" Name = "IfcVirtualElement_PredefinedType" Protection = "Free" Type = "String" Uuid = "c0757bbf-5458-4a58-80a8-652d7cbfd224">
+      <Range>
+        <Equal>BOUNDARY</Equal>
+        <Equal>CLEARANCE</Equal>
+        <Equal>PROVISIONFORVOID</Equal>
+        <Equal>USERDEFINED</Equal>
+        <Equal>NOTDEFINED</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+</Package>

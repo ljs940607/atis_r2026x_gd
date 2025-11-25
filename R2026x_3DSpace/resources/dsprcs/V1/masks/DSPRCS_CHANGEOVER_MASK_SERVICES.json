@@ -1,0 +1,29 @@
+{
+	"dsprcs:MfgChangeoverOperationMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		}	
+	],
+	"dsprcs:MfgChangeoverOperationMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		},
+		"dsprcs:MfgChangeoverOperation.changeoverRules"
+	],
+	"dsprcs:ApplicableResourceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		},
+	    "dsprcs:ApplicableResource.resource"
+	],
+	"dsprcs:MfgChangeoverLocateMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsprcs:DefaultBusMask.utc"
+		}	
+	]
+	
+}

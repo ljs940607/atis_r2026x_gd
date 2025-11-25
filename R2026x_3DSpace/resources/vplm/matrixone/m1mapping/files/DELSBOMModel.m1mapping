@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELSBOMModel" />
+    <m1.package name="DELSBOMModel" />
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMAggregatedUsageInstance" />
+      <m1.relationship name="DELSBOMAggregatedUsageInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMDiscreteInstanceAbst" />
+      <m1.relationship name="DELSBOMDiscreteInstanceAbst" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMZoneUsageInstance" />
+      <m1.relationship name="DELSBOMZoneUsageInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMHardwareInstanceAbst" />
+      <m1.relationship name="DELSBOMHardwareInstanceAbst" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMSoftwareInstanceAbst" />
+      <m1.relationship name="DELSBOMSoftwareInstanceAbst" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMHardwareItemInstance" />
+      <m1.relationship name="DELSBOMHardwareItemInstance" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_SpareValidation" />
+        <m1.attribute name="DELSBOMHardwareItemInstance.V_SpareValidation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMHardwareUsageInstance" />
+      <m1.relationship name="DELSBOMHardwareUsageInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMSoftwareItemInstance" />
+      <m1.relationship name="DELSBOMSoftwareItemInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- RelationClass -->
+    <pattern.VPLM_RELATIONCLASS>
+      <vplm.PLMCoreInstance name="DELSBOMSoftwareUsageInstance" />
+      <m1.relationship name="DELSBOMSoftwareUsageInstance" />
+
+    </pattern.VPLM_RELATIONCLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMDiscreteReferenceAbst" />
+      <m1.type name="DELSBOMDiscreteReferenceAbst" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMAggregatedReferenceAbst" />
+      <m1.type name="DELSBOMAggregatedReferenceAbst" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMHardwareReferenceAbst" />
+      <m1.type name="DELSBOMHardwareReferenceAbst" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMSoftwareReferenceAbst" />
+      <m1.type name="DELSBOMSoftwareReferenceAbst" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMZonalReferenceAbst" />
+      <m1.type name="DELSBOMZonalReferenceAbst" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMAggregatedComponentReference" />
+      <m1.type name="DELSBOMAggregatedComponentReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMAggregatedUsageReference" />
+      <m1.type name="DELSBOMAggregatedUsageReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMAggregatedUsageReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMHardwareItemReference" />
+      <m1.type name="DELSBOMHardwareItemReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ConsumptionRate" />
+        <m1.attribute name="DELSBOMHardwareItemReference.V_ConsumptionRate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMHardwareItemReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ScrapRate" />
+        <m1.attribute name="DELSBOMHardwareItemReference.V_ScrapRate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Spare" />
+        <m1.attribute name="DELSBOMHardwareItemReference.V_Spare" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMHardwareUAndCAbst" />
+      <m1.type name="DELSBOMHardwareUAndCAbst" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Access" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_Access" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Essentiality" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_Essentiality" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_EstimatedMTBF" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_EstimatedMTBF" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_EstimatedMTBUR" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_EstimatedMTBUR" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_EstimatedMTTR" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_EstimatedMTTR" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_LifeLimit" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_LifeLimit" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_RepairType" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_RepairType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Repairable" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_Repairable" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Replaceable" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_Replaceable" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ReplacementType" />
+        <m1.attribute name="DELSBOMHardwareUAndCAbst.V_ReplacementType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMSofttwareUAndCAbst" />
+      <m1.type name="DELSBOMSofttwareUAndCAbst" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Essentiality" />
+        <m1.attribute name="DELSBOMSofttwareUAndCAbst.V_Essentiality" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ReplacementType" />
+        <m1.attribute name="DELSBOMSofttwareUAndCAbst.V_ReplacementType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMSoftwareItemReference" />
+      <m1.type name="DELSBOMSoftwareItemReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_SoftwareSize" />
+        <m1.attribute name="DELSBOMSoftwareItemReference.V_SoftwareSize" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMZoneReference" />
+      <m1.type name="DELSBOMZoneReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMZoneUsageReference" />
+      <m1.type name="DELSBOMZoneUsageReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMZoneUsageReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMHardwareComponentReference" />
+      <m1.type name="DELSBOMHardwareComponentReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMHardwareComponentReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMHardwareUsageReference" />
+      <m1.type name="DELSBOMHardwareUsageReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMHardwareUsageReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMSoftwareComponentReference" />
+      <m1.type name="DELSBOMSoftwareComponentReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMSoftwareComponentReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELSBOMSoftwareUsageReference" />
+      <m1.type name="DELSBOMSoftwareUsageReference" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELSBOMSoftwareUsageReference.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

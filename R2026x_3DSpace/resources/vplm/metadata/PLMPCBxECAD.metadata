@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+   Name="PLMPCBxECAD" 
+   UseNames="PRODUCTCFG"
+   ModelerType="Top" 
+   CustomerExposition="Programmer"
+   Uuid="2e6d620c-1650-4d1b-94f5-aed524ffa279">
+   <Comment>2024-04-01. initial creation</Comment>  
+
+  <Class Name="ECADRepresentation"
+      Uuid="98c78014-7fa2-4e06-ab15-b11fc806f706"
+      Discipline="Yes"
+      SuperName="VPMRepReference"
+	  CustomerExposition="Programmer"	  
+	  CustomerExtensible="No"
+	  Specializable="No"
+      Abbreviation="ecad"     
+  >
+     <Property Name="Searchable" Value="No"/>
+     <Property Name="Newable" Value="No"/>
+    <!-- <Property Name="IconName" Value=""/>-->
+    <!-- <Property Name="3DIconName" Value=""/> -->
+	 <Method ImplementationType="AsFather">
+		<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+     </Method>
+  </Class>
+</Package>

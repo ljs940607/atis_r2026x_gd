@@ -1,0 +1,21 @@
+{
+  "enoBoookmarkNotif.sharing": "Dossiers de signets partagés avec moi",
+  "enoBoookmarkNotif.subscriptions": "Dossier de signets Evénements souscrits",
+  "enoBoookmarkNotif.ContentAdded.message": "<strong>###FROM_USER_NAME###</strong> a ajouté <strong>###OBJECT_DISPLAY_NAME###</strong> dans le dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.ContentAdded.mail.subject": "###FROM_USER_NAME### a ajouté du contenu",
+  "Merge.enoBoookmarkNotif.ContentAdded.message": "Le contenu <strong>###MERGE_COUNT###</strong> a été ajouté dans le dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.ContentRemoved.message": "<strong>###FROM_USER_NAME###</strong> a enlevé <strong>###OBJECT_DISPLAY_NAME###</strong> du dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.ContentRemoved.mail.subject": "###FROM_USER_NAME### a supprimé du contenu",
+  "Merge.enoBoookmarkNotif.ContentRemoved.message": "Le contenu <strong>###MERGE_COUNT###</strong> a été enlevé du dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderCreated.message": "<strong>###FROM_USER_NAME###</strong> a ajouté le dossier de signets <strong>###OBJECT_DISPLAY_NAME###</strong> dans le dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderCreated.mail.subject": "###FROM_USER_NAME### a créé un signet",
+  "Merge.enoBoookmarkNotif.FolderCreated.message": "Les dossiers de signets <strong>###MERGE_COUNT###</strong> ont été ajoutés dans le dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderDeleted.message": "<strong>###FROM_USER_NAME###</strong> a enlevé le dossier de signets <strong>###OBJECT_DISPLAY_NAME###</strong> de <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderDeleted.mail.subject": "###FROM_USER_NAME### a supprimé un signet",
+  "Merge.enoBoookmarkNotif.FolderDeleted.message": "Les dossiers de signets <strong>###MERGE_COUNT###</strong> ont été enlevés du dossier de signets <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.ContentAddedCount.message": "<strong>###FROM_USER_NAME###</strong> a ajouté <strong>###NUMBER_OBJECT###</strong> objets dans <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.ContentRemovedCount.message": "<strong>###FROM_USER_NAME###</strong> a supprimé <strong>###NUMBER_OBJECT###</strong> objets dans <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderCreatedCount.message": "<strong>###FROM_USER_NAME###</strong> a ajouté <strong>###NUMBER_OBJECT###</strong> dossiers de signets dans <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.FolderDeletedCount.message": "<strong>###FROM_USER_NAME###</strong> a enlevé <strong>###NUMBER_OBJECT###</strong> dossiers de signets dans <strong>###BOOKMARK_DISPLAY_NAME###</strong>.",
+  "enoBoookmarkNotif.GrantAccess.message": "<strong>###FROM_USER_NAME###</strong> a partagé <strong>###OBJECT_DISPLAY_NAME###</strong> avec vous."
+}

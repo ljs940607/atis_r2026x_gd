@@ -1,0 +1,98 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "Title",
+				"status": "RW"
+			},
+			{
+				"name": "name",
+				"status": "R"
+			},
+			{
+				"name": "revision"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "Stop Comments",
+				"status": "R"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "Route Base Purpose",
+				"status": "R"
+			},
+			{
+				"name": "organization",
+				"status": "R"
+			},
+			{
+				"name": "project",
+				"status": "R"
+			},
+			{
+				"name": "Auto Stop On Rejection",
+				"status": "RW"
+			},
+			{
+				"name": "Route Completion Action",
+				"status": "RW"
+			},
+			{
+				"name": "Demote On Rejection",
+				"status": "RW"
+			},
+			{
+				"name": "Preserve Task Owner",
+				"status": "RW"
+			},
+			{
+				"name": "Task Edit Setting",
+				"status": "R"
+			},
+			{
+				"name": "Sub Route Visibility",
+				"status": "RW"
+			}
+			
+		]
+	},	
+	"details": {
+		"attributes": {
+			"Title": {
+				"mandatory": true
+			},
+			"Route Base Purpose": {
+				"mandatory": true
+			},
+			"Auto Stop On Rejection": {
+				"mandatory": true
+			},
+			"Route Completion Action": {
+				"mandatory": true
+			},
+			"Preserve Task Owner": {
+				"mandatory": true
+			}
+		}
+	},
+	"revision":"2"
+}
+

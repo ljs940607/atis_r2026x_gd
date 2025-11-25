@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_ProjectionElementBaseQuantities_Area",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_ProjectionElementBaseQuantities_Volume",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_DS_MediumVoltageExternalFeedBaseQuantities_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_DS_MediumVoltageExternalFeedBaseQuantities_CalculatedProjectLength",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

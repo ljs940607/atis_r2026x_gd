@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcRailwayType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcRailwayType_ElementType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcRailwayType_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

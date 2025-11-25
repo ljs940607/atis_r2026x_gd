@@ -1,0 +1,132 @@
+[
+	{
+		"objectType" : "PLMReference",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"PLMInstance"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":
+		[
+			{
+				"relType":
+				[
+					"PLMInstance"
+				]
+			}
+		]
+	},
+	{
+		"objectType" : "Requirement Group",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"Sub Requirement Group"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":
+		[
+			{
+				"relType":
+				[
+					"Sub Requirement Group","Requirement Group Content","Specification Structure","Sub Requirement"
+				]
+			}
+		]
+	},
+	{
+		"objectType" : "Requirement Specification",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"Requirement Group Content"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":
+		[
+			{
+				"relType":
+				[
+					"Specification Structure","Sub Requirement"
+				]
+			}
+		]
+	},
+	{
+		"objectType" : "Chapter",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"Specification Structure"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":
+		[
+			{
+				"relType":
+				[
+					"Specification Structure","Sub Requirement"
+				]
+			}
+		]
+	},
+	{
+		"objectType" : "Requirement",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"Specification Structure","Sub Requirement"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":
+		[
+			{
+				"relType":
+				[
+					"Specification Structure","Sub Requirement"
+				]
+			}
+		]
+	},
+	{
+		"objectType" : "Comment",
+		"navigate" : 
+		[
+			{
+				"relType":
+				[
+					"Specification Structure"
+				],
+				"toDirection": false,
+				"iterNb" : 1
+			}
+		],
+		"expand":[]
+	}
+]

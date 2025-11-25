@@ -1,0 +1,26 @@
+#Prog SimulationOpen_retrievePointedDisciplines (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+{
+let IdsCategoriesAndSo(PLMIDSet)
+let IdsSimuRep(PLMIDSet)
+let IdsSetModel (PLMIDSet) 
+
+let RouteSetCategoriesAndSo (PLMRouteSet)
+let RouteSetModel (PLMRouteSet)
+let RouteSimuRep (PLMRouteSet)
+ 
+
+/* getting categories + so */
+RouteSetCategoriesAndSo = ExecutePLMFunction("SIMObjSimulationGeneric", "sim_retrieveCategories", iPLMIDSet)
+IdsCategoriesAndSo = Ids( RouteSetCategoriesAndSo)
+
+/* getting system connection + product */
+RouteSetModel = ExecutePLMFunction("SIMObjSimulationGeneric", "sim_addSimulatedModel", Restrict(IdsCategoriesAndSo, "SIMObjSimulationCategoryAndProdCnx/SIMObjSimulationCategoryReference"))
+IdsSetModel =   Ids(RouteSetModel)
+
+/* getting simu rep under category Scenario*/
+RouteSimuRep = ExecutePLMFunction("SIMObjSimulationGeneric", "sim_retrieveSimuRep", Restrict(IdsCategoriesAndSo, "SIMObjSimulationCategoryAndProdCnx/SIMObjSimulationCategoryReference"))
+IdsSimuRep = Ids(RouteSimuRep)
+
+oPLMIDSet = IdsCategoriesAndSo + IdsSetModel + IdsSimuRep
+
+}

@@ -1,0 +1,42 @@
+{
+	"properties": {
+		"spaceAssignments": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"object": {
+						"type": "object",
+						"properties": {
+							"type": {
+								"type": "string",
+								"example": "VPMReference",
+								"description": "type."
+							},
+							"id": {
+								"type": "string",
+								"example": "649F032E0000355C6542F4480000ED8C",
+								"description": "The Physical ID of the object to be connected."
+							}
+						}
+					},
+					"space": {
+						"type": "object",
+						"properties": {
+							"type": {
+								"type": "string",
+								"example": "SSM_DesignSpaceRef",
+								"description": "type."
+							},
+							"id": {
+								"type": "string",
+								"example": "649F032E0000355C6542F4480000EDEF",
+								"description": "The Physical ID of the space to be connected."
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

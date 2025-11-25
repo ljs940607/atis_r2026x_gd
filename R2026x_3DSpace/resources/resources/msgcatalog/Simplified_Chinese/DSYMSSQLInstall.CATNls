@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="SQL 服务器连接参数";
+MSSQL_ConnectUser.Label1="SQL 服务器选择用户名：";
+MSSQL_ConnectUser.Resume="SQL 服务器连接用户名：/p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="SQL 服务器连接用户密码";
+MSSQL_ConnectPwd.Label1="SQL 服务器连接用户密码：";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="SQL 服务器数据库名称";
+MSSQL_Instance.Label1="SQL 服务器数据库名称：";
+MSSQL_Instance.Resume="SQL 服务器数据库名称：/p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="SQL 服务器数据库服务器";
+MSSQL_Server.Label1="SQL 服务器的服务器名称：";
+MSSQL_Server.Resume="SQL 服务器的服务器名称：/p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="数据库连接错误";
+ConnectionTestFailed.Text="尝试连接时报告以下错误：\n\n/P1\n通过“SQL 服务器配置管理器”检查：\n-是否启用“共享内存”和“TCP/IP”协议\n-“SQL 服务器”和“SQL 服务器浏览器”服务是否正在运行。";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="新数据库创建";
+CreateNewMSSQL_DB.Label1="选中复选框以新建数据库（必须本地安装 SQL 服务器）：";
+CreateNewMSSQL_DB.CheckButton="新建 SQL 服务器数据库";
+CreateNewMSSQL_DB.Resume.true="新建 SQL 服务器数据库：是";
+CreateNewMSSQL_DB.Resume.false="新建 SQL 服务器数据库：否";
+
+CreateNewMSSQL_DB_Error.Title="新数据库创建错误";
+CreateNewMSSQL_DB_Error.Text="使用 'sqlcmd' 命令时报告以下错误：\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="新数据库创建成功";
+CreateNewMSSQL_DB_Success.Text="已成功创建新的 SQL 服务器数据库";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="MSSQL 数据目录选择";
+PathMSSQLFiles.Label1="直接用于储存新数据库文件（仅限新数据库）：";
+PathMSSQLFiles.Resume="MSSQL 文件位置：/p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="默认和管理数据文件组";
+MSSQL_Default_Data_FG.Label1="默认和管理数据文件组（如为空，则忽略）";
+MSSQL_Default_Data_FG.Resume="默认和管理数据文件组：/P1";
+
+MSSQL_Default_Index_FG.Title="默认和管理索引文件组";
+MSSQL_Default_Index_FG.Label1="默认和管理索引文件组（如为空，则忽略）";
+MSSQL_Default_Index_FG.Resume="默认和管理索引文件组：/P1";

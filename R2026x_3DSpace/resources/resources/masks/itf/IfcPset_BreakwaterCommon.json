@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_BreakwaterCommon_StructuralStyle",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_BreakwaterCommon_Elevation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

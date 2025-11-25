@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcProject_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcProject_LongName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcProject_Phase",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

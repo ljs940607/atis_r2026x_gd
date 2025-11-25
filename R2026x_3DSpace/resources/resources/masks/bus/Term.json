@@ -1,0 +1,58 @@
+{
+	"Write": {
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "Title"
+			},
+			{
+				"name": "owner"
+			},
+			{
+				"name": "current"
+			},
+			{
+				"name": "originated"
+			},
+			{
+				"name": "modified"
+			},
+			{
+				"name": "description",
+				"status": "RW"
+			},
+			{
+				"name": "organization"
+			},
+			{
+				"name": "project"
+			}
+		]
+	},
+    "Create": {
+        "attributes" : [
+            {
+                "name":"Title",
+                "status":"RW"
+            },  
+            {
+                "name":"name",
+                "hidden":true
+            },   
+            {
+                "name":"description",
+                "status":"RW"
+            }
+        ]
+    },
+	"details": {
+		"attributes": {
+			"Title": {
+				"mandatory": true
+			}	
+		}
+	},
+	"revision": "1"
+}

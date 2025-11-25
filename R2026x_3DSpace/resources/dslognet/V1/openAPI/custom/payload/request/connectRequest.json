@@ -1,0 +1,236 @@
+{
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"object1": {
+				"type": "object",
+				"properties": {
+					"specifiedOccurrence": {
+						"type": "array",
+						"items":{ "anyOf":[{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											0
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC36000052186411CEF30001BD17"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslog:LogInstance/6DD2EC36000052186411CEF30001BD17"
+										
+									}
+								}
+
+							},
+							{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											1
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC36000052186411CF3B0001BF94"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslog:LogInstance/6DD2EC36000052186411CF3B0001BF94"
+										
+									}
+								}
+
+							},
+							{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											2
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC3600000CB863EF914800017212"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslognet:NetInst/6DD2EC3600000CB863EF914800017212"
+										
+									}
+								}
+
+							}
+						]}
+
+					}
+				}
+
+			},
+			"object2": {
+				"type": "object",
+				"properties": {
+					"specifiedOccurrence": {
+						"type": "array",
+						"items":{"anyOf": [{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											0
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC36000035D463F3777D00022505"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslog:LogInstance/6DD2EC36000035D463F3777D00022505"
+										
+									}
+								}
+
+							},
+							{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											1
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC36000066B463E4C3E300016E04"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslog:LogInstance/6DD2EC36000066B463E4C3E300016E04"
+										
+									}
+								}
+
+							},
+							{
+								"type": "object",
+								"properties": {
+									"instancePosition": {
+										"type": "integer",
+										"example": 
+											2
+										
+									},
+									"identifier": {
+										"type": "string",
+										"example": 
+											"6DD2EC36000066B463E4C3F600016F86"
+										
+									},
+									"source": {
+										"type": "string",
+										"example": 
+											"https://server_name.dsone.3ds.com:443/3DSpace"
+										
+									},
+									"relativePath": {
+										"type": "string",
+										"example": 
+											"/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslogeqt:EquipmentInst/6DD2EC36000066B463E4C3F600016F86"
+										
+									}
+								}
+
+							}
+						]}
+
+					},
+					"target": {
+						"type": "object",
+						"properties": {
+							"identifier": {
+								"type": "string",
+								"example": 
+									"6DD2EC36000007D464132D5C000226B4"
+								
+							},
+							"source": {
+								"type": "string",
+								"example": 
+									"https://server_name.dsone.3ds.com:443/3DSpace"
+								
+							},
+							"relativePath": {
+								"type": "string",
+								"example": 
+									"/resources/v1/modeler/dslog/dslogeqt:Equipment/6DD2EC3600003CA0639068AB00019535/dslognet:Pin/6DD2EC36000007D464132D5C000226B4"
+								
+							}
+						}
+
+					}
+				}
+
+			}
+		}
+
+	}
+
+}

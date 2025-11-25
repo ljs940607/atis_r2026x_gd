@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" ModelerType="Top" Name="ElectricalManufacturingPreparation" Uuid="df8b4f84-09ec-4081-95f8-b582c4b9de58" Architecture="All" UseNames="ERCoreModeler" CustomerExposition="Programmer">
+
+	<RelationClass Name="ElecMfgPreparationRelation"
+	               Uuid="746074d3-7752-47ad-a2c0-d57fc879517f"
+	               Abstract="No"
+	               CustomerExposition="Programmer"
+	               CustomerExtensible="No"
+	               Specializable="No"
+	               SuperName="RelationType" >
+		<SubClause Name="from"
+               TargetName="VPMReference"
+               minorrevision="replicate"
+               clone="replicate"/>
+		<SubClause Name="to"
+               TargetName="VPMReference"/>
+		<Method ImplementationType="None">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+        </Method>
+	</RelationClass>
+	<Function Name="ElecMfgPreparation_addAllRelatedElements">
+		<Implementation Name="ElecMfgPreparation_addAllRelatedElements" FileLocation="ElecMfgPreparation_addAllRelatedElements.plmql" Language="PLMQL"/>
+		<Signature href="EMPRelSignature"/>
+	</Function>
+	<Signature id="EMPRelSignature">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" Direction="in" MultiValuated="No" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" Direction="out" MultiValuated="No" DataType="PLMRouteSet"/>
+	</Signature>
+</Package>

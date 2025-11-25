@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "ElectronicSignature",
+    "description"    : "The domain instance for ElectronicSignature in 3DSpace",
+    "packages"       : ["ESignature"]
+}

@@ -1,0 +1,8 @@
+{
+	"dsprcs:ApplicableResource":{
+		"fetchall": {
+			"onPremiseLimit": 10,
+			"onCloudLimit": 10
+		}
+	}
+}

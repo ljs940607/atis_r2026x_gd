@@ -1,0 +1,229 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_RefrigerationMachineOil",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_EICCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumPrimaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumPrimaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AveragePrimaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumSecondaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AverageSecondaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumTertiaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AverageTertiaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumTertiaryHomopolarImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_TapsNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SecondaryRegulationTapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumTapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryRegulationTapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MainTapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MainSecondaryRegulationTapNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SerialNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_TapStep",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SecondRegulationTapStep",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_PrimarySecondaryCopperLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_PrimaryTertiaryCopperLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SecondaryTertiaryCopperLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_IronLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AuxiliaryServicesLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_TotalLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MultiPurpose",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AutomaticRegulation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SecondRegulationAutomaticRegulation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_HighestVoltageOutputPosition",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_LowestVoltageOutputPosition",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_NominalPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_PrimaryPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_SecondaryPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_TertiaryPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_Regulation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AdjustedTertiaryVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_HighVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_LowVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_HighConnectionVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_LowConnectionVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumPrimarySecondaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumPrimarySecondaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AveragePrimarySecondaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AveragePrimaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumPrimaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumPrimaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MinimumSecondaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_MaximumSecondaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AverageSecondaryTertiaryShortCircuitVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_AvailableTertiaryVoltages",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_DesignType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PowerTransformerCommon_Mobile",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,12 @@
+{
+  "dsmvlognet:NetGroupExtMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvlognet:BaseMask.utc"
+    },
+    "dsmveno:basic.state.public",
+    "dsmveno:basic.owner.public",
+    "dsmveno:basic.organization",
+    "dsmveno:basic.collabspace"
+  ]
+}

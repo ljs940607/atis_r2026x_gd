@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcFlowStorageDevice_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcFlowStorageDevice_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

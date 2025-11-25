@@ -1,0 +1,13 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "CollabSpace",
+    "description"    : "The domain instance for CollabSpace in 3DSpace",
+    "packages"       : [
+    	"PLMPosAbstractTable",
+    	"PLMPosAdminTable",
+    	"PLMPosProjectResourceMngt",
+    	"PLMPosResource",
+    	"PLMPosSettings",
+    	"PLMPosSettingsEnvironment"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+	"dsengelec:Elec3DSingleInsertConnector": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DSingleInsertConnectorDictionary",
+		"beType": "interface_Elec3DSingleInsertConnector"
+	},
+	"dsengelec:ElecPart": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElecPartDictionary",
+		"beType": "interface_ElecPart"
+	},
+	"dsengelec:Elec3DBackShell": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DBackShellDictionary",
+		"beType": "interface_Elec3DBackShell"
+	},
+	"dsengelec:Elec3DContact": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DContactDictionary",
+		"beType": "interface_Elec3DContact"
+	},
+	"dsengelec:Elec3DCable": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DCableDictionary",
+		"beType": "interface_Elec3DCable"
+	},
+	"dsengelec:Elec3DFillerPlug": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DFillerPlugDictionary",
+		"beType": "interface_Elec3DFillerPlug"
+	},
+
+	"dsengelec:Elec3DModule": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DModuleDictionary",
+		"beType": "interface_Elec3DModule"
+	},
+
+	"dsengelec:Elec3DMultiInsertConnector": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DMultiInsertConnectorDictionary",
+		"beType": "interface_Elec3DMultiInsertConnector"
+	},
+
+	"dsengelec:Elec3DPLC": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DPLCDictionary",
+		"beType": "interface_Elec3DPLC"
+	},
+	"dsengelec:Elec3DSeal": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DSealDictionary",
+		"beType": "interface_Elec3DSeal"
+	},
+	"dsengelec:Elec3DShell": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DShellDictionary",
+		"beType": "interface_Elec3DShell"
+	},
+
+	"dsengelec:Elec3DSplice": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DSpliceDictionary",
+		"beType": "interface_Elec3DSplice"
+	},
+	"dsengelec:Elec3DStud": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DStudDictionary",
+		"beType": "interface_Elec3DStud"
+	},
+	"dsengelec:Elec3DTerminalAccessory": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DTerminalAccessoryDictionary",
+		"beType": "interface_Elec3DTerminalAccessory"
+	},	
+
+	"dsengelec:Elec3DTerminalBlock": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DTerminalBlockDictionary",
+		"beType": "interface_Elec3DTerminalBlock"
+	},
+		"dsengelec:Elec3DTerminalStrip": {
+		"kindOf": "extension",
+		"attributeMappingClass":"com.dassault_systemes.catia.xapps.dsengelec.V%1.dictionaries.ENOXdsengelecElec3DTerminalStripDictionary",
+		"beType": "interface_Elec3DTerminalStrip"
+	}
+
+}

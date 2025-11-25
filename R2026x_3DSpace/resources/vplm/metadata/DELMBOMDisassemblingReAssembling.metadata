@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2006, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+    	 Name="DELMBOMDisassemblingReAssembling"
+         BelongsToModeler="DELFmiFunctionalModel"
+    	 Uuid="25687315-DC66-4cb2-8300-7AE5C35C6B0E"
+    	 UseNames="PLMCORE"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>DELMBOMDisassemblingReAssembling Package</ShortRole>
+    <Role>This package describes MBOM Disassembling ReAssembling Packaging Connection</Role>
+  </CAAComment>
+
+  <Class Name="DELMBOMDisassemblingCnx"
+         Uuid="05AD4EA2-1B58-4091-BCE2-4CC6D086A790"
+         SuperName="PLMConnection"
+         Abstract="No"
+      	 Specializable="No"
+		 CustomerExtensible="Yes"
+		 OwnerTypes="DELFmiFunctionReference"
+         CustomerExposition="Programmer">
+
+     <Path Name="DELDisassembling_PositionedCurrentMBOM_SR"
+        Uuid="AD21632C-DCA2-4804-A886-8139B27E2BF1"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELDisassembling_PositionedCurrentMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="Yes"
+		SynchroSensitivity="Last"
+		RerouteOnEffectivityChange="No"
+		Orientation="Out"
+        Semantics="Reference7"/>
+
+     <Path Name="DELDisassembling_PositionedOriginMBOM_SR"
+        Uuid="1FCD9033-4198-45f9-811C-9284687CE558"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELDisassembling_PositionedOriginMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="Yes"
+		SynchroSensitivity="PathAndLast"
+		RerouteOnEffectivityChange="No"
+		Orientation="In"
+        Semantics="Reference4"/>
+
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+  <Class Name="DELMBOMReAssemblingCnx"
+         Uuid="14ABC5FE-496D-4cf9-AAE1-BF414029D3EA"
+         SuperName="PLMConnection"
+         Abstract="No"
+      	 Specializable="No"
+		 CustomerExtensible="Yes"
+		 OwnerTypes="DELFmiFunctionReference"
+         CustomerExposition="Programmer">
+
+     <Path Name="DELReAssembling_PositionedCurrentMBOM_SR"
+        Uuid="8CA9EADD-3F74-4e90-9BD0-4F381EE666F8"
+        MultiValuated="No"
+        RoleName="DELReAssembling_PositionedCurrentMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="Yes"
+		SynchroSensitivity="Last"
+		RerouteOnEffectivityChange="No"
+		Orientation="Out"
+        Semantics="Reference7"/>
+
+     <Path Name="DELReAssembling_PositionedOriginMBOM_SR"
+        Uuid="FE0CBEF7-21AC-40bc-803E-BB4D4F9F2857"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELReAssembling_PositionedOriginMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="Yes"
+		SynchroSensitivity="PathAndLast"
+		RerouteOnEffectivityChange="No"
+		Orientation="In"
+        Semantics="Reference4"/>
+
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+</Package>

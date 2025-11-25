@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Knowledgeware semantics extension declaration -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" 
+         ModelerType="Top"  
+         Name="CATKweConfigurationBridge" 
+         Uuid="f822d34b-1c88-4d4b-8dd9-dcd7112e1053"
+         CustomerExposition="Programmer" 
+         UseNames="PLMCORE" >
+  
+  <CAAComment>
+    <ShortRole>Knowledgeware extension package</ShortRole>
+    <Role>This package contains meta data of extension dedicated to expose the presence of configuration bridge in a representation</Role>
+  </CAAComment>
+  <Comment>Creation 2024-08-26</Comment>
+
+  
+
+  <!-- *************************************** -->
+  <!-- * Semantics Extension * -->
+  <!-- *************************************** -->
+  <Extension
+    Name="CATKweConfigurationBridgeExtension"
+    Uuid="03dc5f27-83a3-4c36-aad8-00c743c72c75"
+    CustomerExposition="Programmer"
+    ScopeNames="PLMCoreRepReference"
+   ><CAAComment>
+      <ShortRole>Knowledgeware extension dedicated to indicate the presence of a configuration bridge feature in the representationat DB level</ShortRole>
+      <Role>Knowledgeware extension dedicated to indicate the presence of a configuration bridge feature in the representationat DB level</Role>
+    </CAAComment>
+  </Extension>
+</Package>
+
+

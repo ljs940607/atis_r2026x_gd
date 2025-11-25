@@ -1,0 +1,18 @@
+{
+  "description": "Entries defined on an Engineering Note Template",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "oneOf": [
+      {
+        "$ref": "#/components/schemas/noteTemplateTextEntry"
+      },
+      {
+        "$ref": "#/components/schemas/noteTemplateListValuesEntry"
+      },
+      {
+        "$ref": "#/components/schemas/noteTemplateObjectEntry"
+      }
+    ]
+  }
+}

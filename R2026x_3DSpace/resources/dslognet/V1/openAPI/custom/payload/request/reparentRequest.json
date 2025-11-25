@@ -1,0 +1,66 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "Source": {
+                "type": "object",
+                "properties": {
+                    "instancePosition": {
+                        "type": "integer",
+                        "example": 
+                            0
+                        
+                    },
+                    "identifier": {
+                        "type": "string",
+                        "example": 
+                            "2308B05601443D0063E124820012BC3D"
+                        
+                    },
+                    "source": {
+                        "type": "string",
+                        "example": 
+                            "https://server_name.dsone.3ds.com:443/3DSpace"
+                        
+                    },
+                    "relativePath": {
+                        "type": "string",
+                        "example": 
+                            "/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslognet:NetInst/2308B05601443D0063E124820012BC3D"
+                        
+                    }
+                }
+            },
+            "Target": {
+                "type": "object",
+                "properties": {
+                    "instancePosition": {
+                        "type": "integer",
+                        "example": 
+                            0
+                        
+                    },
+                    "identifier": {
+                        "type": "string",
+                        "example": 
+                            "2308B0568386120063DB7BC4001310D7"
+                        
+                    },
+                    "source": {
+                        "type": "string",
+                        "example": 
+                            "https://server_name.dsone.3ds.com:443/3DSpace"
+                        
+                    },
+                    "relativePath": {
+                        "type": "string",
+                        "example": 
+                            "/resources/v1/modeler/dslog/dslog:LogItem/6DD2EC3600003CA0639068AB00019535/dslognet:NetGroupInst/2308B0568386120063DB7BC4001310D7"
+                        
+                    }
+                }
+            }
+        }
+    }
+}

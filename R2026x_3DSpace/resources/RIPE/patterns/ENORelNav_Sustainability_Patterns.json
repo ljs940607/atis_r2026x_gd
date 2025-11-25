@@ -1,0 +1,90 @@
+{
+	"relations": [
+		{
+			"name": "KeyIndicatorAggregation_from",
+			"queries": [
+				{
+					"definition": [
+						{
+							"navigationType": "relation",
+							"qualityFilter": {
+								"rel_type": "KeyIndicatorAggregation"
+							},
+							"direction": "from"
+						}
+					]
+				},
+				{
+					"definition": [
+						{
+							"navigationType": "csl",
+							"qualityFilter": {
+								"csl_type": "KeyIndicatorContextLink"
+							},
+							"direction": "from"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "KeyIndicatorAggregation_to",
+			"queries": [
+				{
+					"definition": [
+						{
+							"navigationType": "relation",
+							"qualityFilter": {
+								"rel_type": "KeyIndicatorAggregation"
+							},
+							"direction": "to"
+						}
+					]
+				},
+				{
+					"definition": [
+						{
+							"navigationType": "csl",
+							"qualityFilter": {
+								"csl_type": "KeyIndicatorContextLink"
+							},
+							"direction": "to"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "KeyIndicatorContext_from",
+			"queries": [
+				{
+					"definition": [
+						{
+							"navigationType": "relation",
+							"qualityFilter": {
+								"rel_type": "KeyIndicatorContext"
+							},
+							"direction": "from"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "KeyIndicatorContext_to",
+			"queries": [
+				{
+					"definition": [
+						{
+							"navigationType": "relation",
+							"qualityFilter": {
+								"rel_type": "KeyIndicatorContext"
+							},
+							"direction": "to"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RailwayTrackStructurePart_HasBallastTrack",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayTrackStructurePart_HasCWR",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayTrackStructurePart_IsSunExposed",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayTrackStructurePart_TrackSupportingStructure",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

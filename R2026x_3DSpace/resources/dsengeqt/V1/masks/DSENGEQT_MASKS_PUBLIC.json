@@ -1,0 +1,43 @@
+{
+  "dsmvengeqt:EquipmentMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:DefaultBusMask.utc"
+    },
+    "dsmvengeqt:attribute.equipment.subtype"
+  ],
+
+  "dsmvengeqt:EquipmentInstMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengeqt:EquipmentInstMask.Details": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:EquipmentInstMask"
+    },
+    "dsmvengeqt:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengeqt:MountingEquipmentMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:DefaultBusMask.utc"
+    },
+    "dsmvengeqt:attribute.equipment.subtype",
+    "dsmvengeqt:attribute.mountingequipment.externalreference",
+    "dsmvengeqt:attribute.mountingequipment.numberofpins",
+    "dsmvengeqt:attribute.mountingequipment.matingwith"
+  ],
+
+  "dsmvengeqt:MountingEquipmentInstMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengeqt:MountingEquipmentInstMask.Details": [{
+      "property": "reuseMask",
+      "mask": "dsmvengeqt:MountingEquipmentInstMask"
+    },
+    "dsmvengeqt:attribute.instanceDetails.referencedObject"
+  ]
+  
+}

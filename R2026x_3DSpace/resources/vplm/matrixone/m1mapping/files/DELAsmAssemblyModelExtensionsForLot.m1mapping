@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELAsmAssemblyModelExtensionsForLot" />
+    <m1.package name="DELAsmAssemblyModelExtensionsForLot" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtAbstractContinuous" />
+      <m1.interface name="DELMBOMLotQuantityMgtAbstractContinuous" />
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtAbstractDiscrete" />
+      <m1.interface name="DELMBOMLotQuantityMgtAbstractDiscrete" />
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtArea" />
+      <m1.interface name="DELMBOMLotQuantityMgtArea" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IncrementQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtArea.V_IncrementQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MaxLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtArea.V_MaxLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MinLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtArea.V_MinLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtEach" />
+      <m1.interface name="DELMBOMLotQuantityMgtEach" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IncrementQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtEach.V_IncrementQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MaxLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtEach.V_MaxLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MinLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtEach.V_MinLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtLength" />
+      <m1.interface name="DELMBOMLotQuantityMgtLength" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IncrementQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtLength.V_IncrementQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MaxLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtLength.V_MaxLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MinLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtLength.V_MinLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtMass" />
+      <m1.interface name="DELMBOMLotQuantityMgtMass" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IncrementQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtMass.V_IncrementQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MaxLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtMass.V_MaxLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MinLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtMass.V_MinLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELMBOMLotQuantityMgtVolume" />
+      <m1.interface name="DELMBOMLotQuantityMgtVolume" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_IncrementQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtVolume.V_IncrementQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MaxLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtVolume.V_MaxLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_MinLotQuantity" />
+        <m1.attribute name="DELMBOMLotQuantityMgtVolume.V_MinLotQuantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

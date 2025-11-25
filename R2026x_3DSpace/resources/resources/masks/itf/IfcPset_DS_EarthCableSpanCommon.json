@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_EarthCableSpanCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_EarthCableSpanCommon_AcquisitionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_EarthCableSpanCommon_InstallationDate",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

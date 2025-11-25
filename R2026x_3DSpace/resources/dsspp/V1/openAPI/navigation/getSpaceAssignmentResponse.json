@@ -1,0 +1,104 @@
+{
+	"200": {
+		"schema":{
+			"type": "object",
+			"properties": {
+				"totalItems": {
+					"type": "integer",
+					"example": 1
+				},
+				"member": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"id": {
+							  "type": "string",
+							  "example": "7FE982569CE620006544826E000676E9",
+							  "description": "The Physical ID of the dsspp:SpaceAssignment."
+							},
+							"object": {
+								"type": "object",
+								"properties": {
+									"source": {
+									  "type": "string",
+									  "example": "3DSpace",
+									  "description": "source."
+									},
+									"type": {
+										"type": "string",
+										"example": "VPMReference",
+										"description": "type."
+									},
+									"identifier": {
+										"type": "string",
+										"example": "649F032E0000355C6542F4480000ED8C",
+										"description": "The Physical ID of the connected object."
+									},
+									 "relativePath": {
+									  "type": "string",
+									  "example": "/resources/v1/modeler/dseng/dseng:EngItem/649F032E0000355C6542F4480000ED8C",
+									  "description": "relativePath."
+									}
+								}
+							},
+							"space": {
+								"type": "object",
+								"properties": {
+									"source": {
+									  "type": "string",
+									  "example": "3DSpace",
+									  "description": "source."
+									},
+									"type": {
+										"type": "string",
+										"example": "SSM_DesignSpaceRef",
+										"description": "type."
+									},
+									"identifier": {
+										"type": "string",
+										"example": "649F032E0000355C6542F4480000EDEF",
+										"description": "The Physical ID of the connected space."
+									},
+									"relativePath": {
+									  "type": "string",
+									  "example": "/resources/v1/modeler/dsspp/dsspp:SpaceReference/649F032E0000355C6542F4480000EE05",
+									  "description": "relativePath."
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"400": {
+		"schema": {
+			"properties": {
+				"status": {
+					"type": "integer",
+					"example": 400
+				},
+				"message": {
+					"type": "string",
+					"example": "My message"
+				}
+			}
+		}
+	},
+	"500": {
+		"schema": {
+			"properties": {
+				"status": {
+					"type": "integer",
+					"example": 500
+				},
+				"message": {
+					"type": "string",
+					"example": "My message"
+				}
+			}
+		}
+	}
+}

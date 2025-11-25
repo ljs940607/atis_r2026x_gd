@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<included>
+
+<!-- ENORelNav loggers  -->
+<if condition='isDefined("catalina.base")'>
+<then>
+<appender name="ENORelNavMonitoring" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${catalina.base}/logs/ENORelNav.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+       <fileNamePattern>${catalina.base}/logs/ENORelNav.%i.log.zip</fileNamePattern>
+       <minIndex>1</minIndex>
+       <maxIndex>9</maxIndex>
+    </rollingPolicy>
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <maxFileSize>50MB</maxFileSize>
+    </triggeringPolicy>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <pattern>%date{ISO8601} [%X{user}][%X{label}][%thread] %-5level - [%logger{0}] %msg%n</pattern>
+    </layout>
+</appender>
+
+<logger name="com.dassault_systemes.enorelnav.restv2" level="INFO" additivity="false">
+  <appender-ref ref="ENORelNavMonitoring"/>
+</logger>
+
+<logger name="com.dassault_systemes.enorelnav.servicesv2" level="INFO" additivity="false">
+  <appender-ref ref="ENORelNavMonitoring"/>
+</logger>
+
+<logger name="com.dassault_systemes.enorelnav.utilv2.ENORelNavDebugLogger" level="TRACE" additivity="false">
+  <appender-ref ref="ENORelNavMonitoring"/>
+</logger>
+
+</then>
+</if>
+</included>

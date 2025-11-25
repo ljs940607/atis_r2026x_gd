@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="ManufacturingInstructions" />
+    <m1.package name="ManufacturingInstructions" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELILLinkOnAppliedNote" />
+      <m1.interface name="DELILLinkOnAppliedNote" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_LinkOnAppliedNote" />
+        <m1.attribute name="DELILLinkOnAppliedNote.V_LinkOnAppliedNote" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELILLinkOnAppliedNoteList" />
+      <m1.interface name="DELILLinkOnAppliedNoteList" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_LinkOnAppliedNoteList" />
+        <m1.attribute name="DELILLinkOnAppliedNoteList.V_LinkOnAppliedNoteList" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELInfoForInstructionSynchroExt" />
+      <m1.interface name="DELInfoForInstructionSynchroExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InfoForInstructionSynchro" />
+        <m1.attribute name="DELInfoForInstructionSynchroExt.V_InfoForInstructionSynchro" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELInfoForInstructionSynchroMBOMInstExt" />
+      <m1.interface name="DELInfoForInstructionSynchroMBOMInstExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_InfoForInstructionSynchro" />
+        <m1.attribute name="DELInfoForInstructionSynchroMBOMInstExt.V_InfoForInstructionSynchro" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

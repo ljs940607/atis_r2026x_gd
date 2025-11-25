@@ -1,0 +1,9 @@
+{
+	"oneOf": [{
+			"$ref": "#/components/schemas/createFlowInstances_referencedObject"
+		},
+		{
+			"$ref": "#/components/schemas/createFlowInstances_referencedItem"
+		}
+	]
+}

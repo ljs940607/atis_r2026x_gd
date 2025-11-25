@@ -1,0 +1,37 @@
+#Prog XCAD_CompleteNonPS_XPDM2 (iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet) : VoidType
+{
+  /* Variables */
+  let PLMIDSet_Rep (PLMIDSet)
+  let PLMIDSet_Repb (PLMIDSet)
+  let PLMIDSet_RefIn (PLMIDSet)
+  let PLMIDSet_RepIn (PLMIDSet)
+  let PLMIDSet_Ref1 (PLMIDSet)
+  let PLMIDSet_Ref1b (PLMIDSet)
+  let PLMIDSet_Ref2 (PLMIDSet)
+
+  /* filter input */
+  PLMIDSet_RefIn = Restrict (iPLMIDSet, "PLMCORE/PLMCoreReference")
+
+  /* filter input */
+  PLMIDSet_RepIn = Restrict (iPLMIDSet, "PLMCORE/PLMCoreRepReference")
+
+  /* retrieve dependencies from NonPS */
+  PLMIDSet_Repb = Ids (ExecutePLMFunction ("XCADModeler", "XCAD_GetDependenciesRefToRep",PLMIDSet_RefIn))
+
+  /* filter output. XPDM don't care about links */
+  PLMIDSet_Rep = Restrict (PLMIDSet_Repb,"PLMCORE/PLMCoreRepReference")
+
+  /* retrieve dependencies from NonPS */
+  PLMIDSet_Ref1b = Ids (ExecutePLMFunction ("XCADModeler", "XCAD_GetDependenciesRefToRef_XPDM2",PLMIDSet_RefIn))
+
+  /* filter output. XPDM don't care about links */
+  PLMIDSet_Ref1 = Restrict (PLMIDSet_Ref1b, "PLMCORE/PLMCoreReference")
+
+
+  /* retrieve dependencies from NonPS */
+  PLMIDSet_Ref2 = Ids (ExecutePLMFunction ("XCADModeler", "XCAD_GetDependenciesRepToRef",PLMIDSet_RepIn))
+
+  /* build output */
+  oPLMIDSet = iPLMIDSet + PLMIDSet_Rep + PLMIDSet_Ref1 + PLMIDSet_Ref2
+
+}

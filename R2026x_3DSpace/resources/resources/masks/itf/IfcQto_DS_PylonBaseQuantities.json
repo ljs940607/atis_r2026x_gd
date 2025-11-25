@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_DS_PylonBaseQuantities_MethodOfMeasurement",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_DS_PylonBaseQuantities_Weight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_DS_PylonBaseQuantities_PaintingSurfaceArea",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

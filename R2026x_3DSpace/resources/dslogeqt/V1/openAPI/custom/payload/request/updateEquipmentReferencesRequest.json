@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "example":  "Logical Equipment"
+        },
+        "description": {
+            "type": "string",
+            "example": "description of first Equipment"
+        },
+        "predefinedpartnumber": {
+            "type": "string",
+            "example": "New PartNB1"
+        },
+        "predefinedparttype": {
+            "type": "string",
+            "example": "New PartType1"
+        },
+        "subtype": {
+            "type": "string",
+            "example": "MidPowerEqt"
+        },
+        "cestamp": {
+            "type": "string",
+            "example": "04437456E616220064204D08000E77CF"
+        }
+    }
+}

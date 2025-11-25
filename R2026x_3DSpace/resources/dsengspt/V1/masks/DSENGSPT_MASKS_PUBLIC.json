@@ -1,0 +1,22 @@
+{
+  "dsmvengspt:SupportMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengspt:DefaultBusMask.utc"
+    },
+    "dsmvengspt:attribute.reference.subtype",
+    "dsmvengspt:attribute.reference.supporttype"
+  ],
+
+  "dsmvengspt:SupportInstMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengspt:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengspt:SupportInstMask.Details": [{
+      "property": "reuseMask",
+      "mask": "dsmvengspt:SupportInstMask"
+    },
+    "dsmvengspt:attribute.instanceDetails.referencedObject"
+  ]
+  
+}

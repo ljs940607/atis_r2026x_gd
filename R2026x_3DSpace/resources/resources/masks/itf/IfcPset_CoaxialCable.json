@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CoaxialCable_CharacteristicImpedance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_CouplingLoss",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_MaximumTransmissionAttenuation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_NumberOfCoaxialPairs",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_PropagationSpeedCoefficient",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_TransmissionLoss",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CoaxialCable_RadiantFrequency",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

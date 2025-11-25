@@ -1,0 +1,102 @@
+{
+  "dsmvenghvac:PartMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultBusMask.utc"
+    },
+    "dsmvenghvac:attribute.entity.endstyle",
+    "dsmvenghvac:attribute.entity.equivalentdiameter",
+    "dsmvenghvac:attribute.entity.materialname",
+    "dsmvenghvac:attribute.entity.nominalsize",
+    "dsmvenghvac:attribute.entity.shape",
+    "dsmvenghvac:attribute.entity.standard",
+    "dsmvenghvac:attribute.part.subparttype"
+  ],
+
+  "dsmvenghvac:AllPartsMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartMask"
+    },
+    "dsmvenghvac:attribute.elbow.bendangle",
+    "dsmvenghvac:attribute.elbow.bendradius",
+    "dsmvenghvac:attribute.elbow.guidance",
+    "dsmvenghvac:attribute.part.referencebendangle"
+  ],
+
+  "dsmvenghvac:RoutableMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultBusMask.utc"
+    },
+    "dsmvenghvac:attribute.duct.cornerradius",
+    "dsmvenghvac:attribute.duct.height",
+    "dsmvenghvac:attribute.duct.length",
+    "dsmvenghvac:attribute.duct.linearweight",
+    "dsmvenghvac:attribute.duct.wallthickness",
+    "dsmvenghvac:attribute.duct.width",
+    "dsmvenghvac:attribute.entity.endstyle",
+    "dsmvenghvac:attribute.entity.instanciationrule",
+    "dsmvenghvac:attribute.entity.materialname",
+    "dsmvenghvac:attribute.entity.nominalsize",
+    "dsmvenghvac:attribute.entity.shape",
+    "dsmvenghvac:attribute.entity.standard"
+  ],
+  
+  "dsmvenghvac:AllRoutablesMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:RoutableMask"
+    },
+    "dsmvenghvac:attribute.flexibleduct.referencebendradius"
+  ],
+
+  "dsmvenghvac:SpoolMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultBusMask.utc"
+    }
+  ],
+
+  "dsmvenghvac:PartInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvenghvac:PartInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:PartInstMask"
+    },
+    "dsmvenghvac:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvenghvac:RoutableInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvenghvac:RoutableInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:RoutableInstMask"
+    },
+    "dsmvenghvac:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvenghvac:SpoolInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvenghvac:SpoolInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvenghvac:SpoolInstMask"
+    },
+    "dsmvenghvac:attribute.instanceDetails.referencedObject"
+  ]
+}

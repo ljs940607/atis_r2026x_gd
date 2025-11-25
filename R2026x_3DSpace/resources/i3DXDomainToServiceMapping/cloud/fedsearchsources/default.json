@@ -1,0 +1,86 @@
+[
+    {
+        "service": "3dgeoscisurvey",
+        "fedsearchsource": "3dgeoscisurvey"
+    },
+    {
+        "service": "3dplan",
+        "fedsearchsource": "3dplan"
+    },
+    {
+        "service": "3DPortfolio",
+        "fedsearchsource": "3dportfolio"
+    },
+    {
+        "service": "3DSpace",
+        "fedsearchsource": "3dspace"
+    },
+    {
+        "service": "3dstructureddocument",
+        "fedsearchsource": "3dstructureddocument"
+    },
+    {
+        "service": "bioexperiment",
+        "fedsearchsource": "bioexperiment"
+    },
+    {
+        "service": "3DDashboard",
+        "fedsearchsource": "dashboard"
+    },
+    {
+        "service": "3DDrive",
+        "fedsearchsource": "drive"
+    },
+    {
+        "service": "3DDrive",
+        "fedsearchsource": "dropbox"
+    },
+    {
+        "service": "geoservice",
+        "fedsearchsource": "geovia"
+    },
+    {
+        "service": "globe",
+        "fedsearchsource": "globe"
+    },
+    {
+        "service": "3DDrive",
+        "fedsearchsource": "googledrive"
+    },
+    {
+        "service": "materials",
+        "fedsearchsource": "materials"
+    },
+    {
+        "service": "molecularsimulation",
+        "fedsearchsource": "molecularsimulation"
+    },
+    {
+        "service": "3DDrive",
+        "fedsearchsource": "onedrive"
+    },
+    {
+        "service": "r2vsurvey",
+        "fedsearchsource": "r2vsurvey"
+    },
+    {
+        "service": "sourcing",
+        "fedsearchsource": "sourcing"
+    },
+    {
+        "service": "3DSwym",
+        "fedsearchsource": "swym"
+    },
+    {
+        "service": "usersgroup",
+        "fedsearchsource": "usersgroup"
+    },
+    {
+        "service": "mbseapps",
+        "fedsearchsource": "mbseapps"
+    },
+    {
+        "service": "laboratory",
+        "fedsearchsource": "laboratory"
+    }
+]

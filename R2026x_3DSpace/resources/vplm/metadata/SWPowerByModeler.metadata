@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+    ModelerType="Top" 
+    Name="SWPowerByModeler"
+    Uuid="945c8208-e03b-4d5b-8d2a-27eb936685f6"
+    UseNames="PRODUCTCFG"
+    CustomerExposition="Programmer"
+    Architecture="All"
+    BelongsToModeler="XCADModeler"
+>
+
+  <CAAComment>
+    <ShortRole>SOLIDWORKS PowerBy Package</ShortRole>
+    <Role>This package includes entities to support SOLIDWORKS data into 3DEXPERIENCE.</Role>
+  </CAAComment>
+
+  <!-- Extension on VPMRepReference  -->
+  <Extension 
+    Name="SWGenericRepExtension" 
+    Uuid="b6371c2f-bfca-4048-8e1b-bf9fec804564"
+    ScopeNames="VPMRepReference"
+    Specializable="No"
+    CustomerExposition="ProgrammerOnly">              
+    <Simple 
+      Name="V_SWStreamInfo"  
+      Uuid="87f39e22-005b-4f46-9842-5c26d330e6c7" 
+      MultiValuated="No"
+      Type="String" 
+      MaxLength="255" 
+      ResetOnCloning="No" 
+      ResetOnNewVersion="No" 
+      Protection="Internal">  
+    </Simple>
+  </Extension>
+
+</Package>

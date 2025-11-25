@@ -1,0 +1,13 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package DELConstructionItemModel -->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionStructure" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkElementArea" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkElementEach" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkElementLength" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkPackageArea" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkPackageEach" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkPackageGroup" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="DELConstructionWorkPackageLength" ScriptName="ENOAP_PolicyChooser_Definition" />
+</Scripts>
+

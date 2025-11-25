@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="WSSElementIfc" />
+    <m1.package name="WSSElementIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_Pipeline_Bend_DS" />
+      <m1.interface name="IfcQto_Pipeline_Bend_DS" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Bend_DS_Count" />
+        <m1.attribute name="IfcQto_Pipeline_Bend_DS.IfcQto_Pipeline_Bend_DS_Count" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Bend_DS_GrossWeight" />
+        <m1.attribute name="IfcQto_Pipeline_Bend_DS.IfcQto_Pipeline_Bend_DS_GrossWeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Bend_DS_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_Pipeline_Bend_DS.IfcQto_Pipeline_Bend_DS_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_Pipeline_Connector_DS" />
+      <m1.interface name="IfcQto_Pipeline_Connector_DS" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Connector_DS_Count" />
+        <m1.attribute name="IfcQto_Pipeline_Connector_DS.IfcQto_Pipeline_Connector_DS_Count" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Connector_DS_GrossWeight" />
+        <m1.attribute name="IfcQto_Pipeline_Connector_DS.IfcQto_Pipeline_Connector_DS_GrossWeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Connector_DS_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_Pipeline_Connector_DS.IfcQto_Pipeline_Connector_DS_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_Pipeline_DS" />
+      <m1.interface name="IfcQto_Pipeline_DS" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_DS_GrossLength" />
+        <m1.attribute name="IfcQto_Pipeline_DS.IfcQto_Pipeline_DS_GrossLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_DS_GrossVolume" />
+        <m1.attribute name="IfcQto_Pipeline_DS.IfcQto_Pipeline_DS_GrossVolume" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_DS_GrossWeight" />
+        <m1.attribute name="IfcQto_Pipeline_DS.IfcQto_Pipeline_DS_GrossWeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_DS_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_Pipeline_DS.IfcQto_Pipeline_DS_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_Pipeline_Support_DS" />
+      <m1.interface name="IfcQto_Pipeline_Support_DS" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Support_DS_Count" />
+        <m1.attribute name="IfcQto_Pipeline_Support_DS.IfcQto_Pipeline_Support_DS_Count" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Support_DS_GrossVolume" />
+        <m1.attribute name="IfcQto_Pipeline_Support_DS.IfcQto_Pipeline_Support_DS_GrossVolume" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Support_DS_GrossWeight" />
+        <m1.attribute name="IfcQto_Pipeline_Support_DS.IfcQto_Pipeline_Support_DS_GrossWeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Support_DS_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_Pipeline_Support_DS.IfcQto_Pipeline_Support_DS_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Support_DS_NetVolume" />
+        <m1.attribute name="IfcQto_Pipeline_Support_DS.IfcQto_Pipeline_Support_DS_NetVolume" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_Pipeline_Thrustblock_DS" />
+      <m1.interface name="IfcQto_Pipeline_Thrustblock_DS" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Thrustblock_DS_Count" />
+        <m1.attribute name="IfcQto_Pipeline_Thrustblock_DS.IfcQto_Pipeline_Thrustblock_DS_Count" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Thrustblock_DS_GrossVolume" />
+        <m1.attribute name="IfcQto_Pipeline_Thrustblock_DS.IfcQto_Pipeline_Thrustblock_DS_GrossVolume" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Thrustblock_DS_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_Pipeline_Thrustblock_DS.IfcQto_Pipeline_Thrustblock_DS_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_Pipeline_Thrustblock_DS_NetVolume" />
+        <m1.attribute name="IfcQto_Pipeline_Thrustblock_DS.IfcQto_Pipeline_Thrustblock_DS_NetVolume" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

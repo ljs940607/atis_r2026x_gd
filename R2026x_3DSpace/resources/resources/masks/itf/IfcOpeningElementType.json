@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcOpeningElementType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcOpeningElementType_ElementType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcOpeningElementType_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

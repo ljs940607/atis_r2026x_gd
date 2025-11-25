@@ -1,0 +1,15 @@
+{
+  "dsmvkwe:parentEngItems": {
+    "property": "computed",
+    "key": "Parent",
+    "description": "To get the product aggregating the Knowledgeware Representation",
+    "example": "com.dassault_systemes.catia.xapps.dskwe.implementations.dskweOpenAPIImpl.getparentEngItems"
+  },
+  
+  "dsmvkwe:NumberofComponentFamilyItems": {
+    "property": "attribute[CATComponentsFamilyReference.V_NumberOfElements].value",
+    "key": "NumberOfComponentFamilyItems",
+    "description": "To get the number of Items of Component Family",
+    "index":"bo.CATComponentsFamilyReference.V_NumberOfElements"
+  }
+}

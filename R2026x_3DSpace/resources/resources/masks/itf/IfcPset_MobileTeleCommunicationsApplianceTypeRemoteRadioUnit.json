@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit_DownlinkRadioBand",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit_NumberOfCarriers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit_UplinkRadioBand",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit_AntennaType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTeleCommunicationsApplianceTypeRemoteRadioUnit_RRUConnectionType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

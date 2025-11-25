@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeUPS_AssemblyInstruction",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeUPS_CurrentRegulationRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeUPS_NominalSupplyCurrent",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricFlowStorageDeviceTypeUPS_VoltageRegulationRate",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="MaterialManagementToPLMMaterial" />
+    <m1.package name="MaterialManagementToPLMMaterial" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="MaterialManagementSrc" />
+      <m1.interface name="MaterialManagementSrc" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="MatMngtDefinitionPayload" />
+        <m1.attribute name="MaterialManagementSrc.MatMngtDefinitionPayload" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="MatMngtMatRevI3dx" />
+        <m1.attribute name="MaterialManagementSrc.MatMngtMatRevI3dx" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

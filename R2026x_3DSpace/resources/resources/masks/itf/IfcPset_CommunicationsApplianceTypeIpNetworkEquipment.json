@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeIpNetworkEquipment_NumberOfSlots",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeIpNetworkEquipment_EquipmentCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeIpNetworkEquipment_NumberOfCoolingFans",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeIpNetworkEquipment_SupportedProtocol",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeIpNetworkEquipment_ManagingSoftware",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

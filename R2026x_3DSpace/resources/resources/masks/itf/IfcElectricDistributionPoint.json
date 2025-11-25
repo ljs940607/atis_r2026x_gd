@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcElectricDistributionPoint_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcElectricDistributionPoint_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcElectricDistributionPoint_DistributionPointFunction",
+            "status": "RW"
+        },
+        {
+            "name": "IfcElectricDistributionPoint_UserDefinedFunction",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

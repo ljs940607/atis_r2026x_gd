@@ -1,0 +1,78 @@
+{
+	"properties": {
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"resource": {
+						"description": "Referenced object of resource",
+						"type": "object",
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "Type of the object",
+								"type": "string",
+								"example": "VPMReference"
+							},
+							"identifier": {
+								"description": "Physical ID of the object",
+								"type": "string",
+								"example": "5C0779CEF11C472C9537094C2FA82333"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsrsc/dsrsc:Resource/5C0779CEF11C472C9537094C2FA82333"
+							}
+						}
+					},
+					"dependsOn": {
+						"description": "Referenced object of primary capable resource",
+						"type": "object",
+						"properties": {
+							"source": {
+								"description": "Full path to the source, including the server hostname",
+								"type": "string",
+								"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+							},
+							"type": {
+								"description": "Type of the object",
+								"type": "string",
+								"example": "DELAsmProcessCanUseCnx"
+							},
+							"identifier": {
+								"description": "Physical ID of the object",
+								"type": "string",
+								"example": "5C0779CEF11C472C9537094C2FA82333"
+							},
+							"relativePath": {
+								"description": "Relative path from the source to get the details of the object, including the ID of the object",
+								"type": "string",
+								"example": "/resources/v1/modeler/dsprcs/dsprcs:MfgOperation/5C0779CEF11C472C9537094C2FA82355/dsprcs:PrimaryCapableResource/5C0779CEF11C472C9537094C2FA82333"
+							}
+						}
+					},
+					"attributes": {
+						"properties": {
+							"rscTimeConst": {
+								"type": "number",
+								"format": "double",
+								"example": 10.5
+							},
+							"rscTimePerQtyToProducedPerTime": {
+								"type": "number",
+								"format": "double",
+								"example": 20.5
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

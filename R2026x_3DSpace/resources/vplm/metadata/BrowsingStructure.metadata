@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="BrowsingStructure"
+         Uuid="d7c57622-dfb4-11ed-b5ea-0242ac120002"
+         UseNames="PRODUCTCFG"
+         CustomerExposition="None">
+	<CAAComment>
+		<ShortRole>BrowsingStructure Package</ShortRole>
+		<Role>BrowsingStructure Package</Role>
+	</CAAComment>
+	<!--	Extension	on	Reference	-->
+	<Extension Name="BrowsingStructure"
+	           Uuid="e7b6545c-dfb4-11ed-b5ea-0242ac120002"
+	           CustomerExposition="None"
+			   Searchable="No"
+			   Abstract="No"
+			   Specializable="No"
+	           ScopeNames="VPMInstance">
+		<Simple Name="BrowsingNodes"
+		        Uuid="ed285bc4-dfb4-11ed-b5ea-0242ac120002"
+		        Type="String"
+                MultiValuated="Yes"
+		        Protection="ExternalIN"/>
+	</Extension>
+</Package>

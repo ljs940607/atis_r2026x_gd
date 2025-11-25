@@ -1,0 +1,19 @@
+{
+  "dskwe:ComponentFamily": {
+    "summary": "Component family root",
+    "description": "Component family root",
+    "PUBLICMasks": [ "dsmvkwe:ComponentFamilyMask.default" ],
+    "PUBLICFields": [],
+    "PUBLICExtensions": [],
+    "PUBLICExcludedURIs": [ "getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk","bulkfetch" ]
+  },
+  "dskwe:KnowledgeVPMRepresentation": {
+    "summary": "Knowledgware Representation Reference",
+    "description": "Knowledgware Representation Reference model",
+    "PUBLICMasks": [ "dsmvkwe:KnowledgeVPMRepresentation.default", "dsmvkwe:KnowledgeVPMRepresentation.ParentEngItems" ],
+    "PUBLICFields": [],
+    "PUBLICExtensions": [],
+    "PUBLICExcludedURIs": [ "getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk","bulkfetch" ]
+  }
+}
+

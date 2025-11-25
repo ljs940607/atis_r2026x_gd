@@ -1,0 +1,37 @@
+{
+  "dsmvengisl:InsulationMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengisl:DefaultBusMask.utc"
+    },
+    "dsmvengisl:attribute.insulation.categories",
+    "dsmvengisl:attribute.insulation.equivalentdimension",
+    "dsmvengisl:attribute.insulation.equivalentsize",
+    "dsmvengisl:attribute.insulation.flexibility",
+    "dsmvengisl:attribute.insulation.instanciationrule",
+    "dsmvengisl:attribute.insulation.insulationthickness",
+    "dsmvengisl:attribute.insulation.insulationtype",
+    "dsmvengisl:attribute.insulation.length",
+    "dsmvengisl:attribute.insulation.linearweight",
+    "dsmvengisl:attribute.insulation.materialname",
+    "dsmvengisl:attribute.insulation.maxtemperature",
+    "dsmvengisl:attribute.insulation.minbendradius",
+    "dsmvengisl:attribute.insulation.mintemperature",
+    "dsmvengisl:attribute.insulation.natualfrequency",
+    "dsmvengisl:attribute.insulation.realizationtype",
+    "dsmvengisl:attribute.insulation.size",
+    "dsmvengisl:attribute.insulation.thermalconductivity"
+  ],
+
+  "dsmvengisl:InsulationInstMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengisl:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengisl:InsulationInstMask.Details": [{
+      "property": "reuseMask",
+      "mask": "dsmvengisl:InsulationInstMask"
+    },
+    "dsmvengisl:attribute.instanceDetails.referencedObject"
+  ]
+  
+}

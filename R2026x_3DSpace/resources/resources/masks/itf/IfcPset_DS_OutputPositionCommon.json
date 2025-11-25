@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_OutputPositionCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_OutputPositionCommon_AcquisitionDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_OutputPositionCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_OutputPositionCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_OutputPositionCommon_Mobile",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

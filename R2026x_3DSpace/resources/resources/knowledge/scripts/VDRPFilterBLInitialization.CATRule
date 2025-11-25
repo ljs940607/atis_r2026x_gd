@@ -1,0 +1,99 @@
+Let Operation(string)
+Let TitleString(String)
+Let UserPrefix(String)
+Let UName(string)
+
+let NumberAlignment(INTEGER)
+let AbbreviatedBaseTypeName (string)
+Let IDNumber(STRING)
+Let IDVNumber(STRING)
+
+Let ModelingType(Type)
+Let ModelingTypeName(String)
+let NamingTypePrefix(STRING)
+Let Separator(String) 
+Let SiteAffix(STRING)
+Let NamingTypeSuffix(STRING)
+
+NumberAlignment=8
+AbbreviatedBaseTypeName="ENOStrRefinementVDRPSpec" 
+Separator="-"
+SiteAffix=""
+
+if ((ThisObject->IsSupporting("ENOStrRefinementVDRPSpec") == false)) {
+    Trace (1, "VDRPFilterBLInitialization: ERROR, Called on an Invalid Object type" )    
+    Parameters.Message="wrong usage of rule VDRPFilterBLInitialization"
+    Parameters.Severity=3 
+	  Report("Error",Parameters.Message, Parameters.Message)     
+} else {
+    if (Parameters->HasAttribute("OperationId") == true) {
+      Trace (1, "VDRPFilterBLInitialization, Operation: ", Parameters->GetAttributeString("OperationId")   )
+    }      
+    Parameters.Severity=0 
+}
+
+if ((ThisObject->IsSupporting("ENOStrRefinementVDRPSpec") == false)) {
+    Trace (1, "VDRPFilterBLInitialization: ERROR, called on non Advanced Filter type" )    
+} 
+
+/* ---------- */
+/* User input */
+/* ---------- */
+ 
+UserPrefix=""
+if ( Parameters->HasAttribute("IdCloningString") == true ) { /* Cloning/SaveAsNew */
+    UserPrefix = Parameters->GetAttributeString("IdCloningString")
+    if (UserPrefix == NULL) UserPrefix = ""
+}
+if ( UserPrefix == "" and Parameters->HasAttribute("IdString") == true ) {
+    UserPrefix = Parameters->GetAttributeString("IdString")
+    if (UserPrefix == NULL) UserPrefix = ""
+}
+ Trace (1, "VDRPFilterBLInitialization, UserPrefix =",UserPrefix)  
+
+/* -------------------------------------------------------------------- */
+/* Name  - always Unique according to collab Space configuration center */
+/* -------------------------------------------------------------------- */
+
+ModelingType = ThisObject.ModelerType
+if (ModelingType<>NULL){
+   ModelingTypeName=ModelingType.Name 
+}
+
+NamingTypePrefix="Filter for Positioned Product"
+STAutoNumbers(AbbreviatedBaseTypeName, NumberAlignment, IDNumber, IDVNumber)
+
+UName = NamingTypePrefix
+UName=UName+IDNumber
+
+Trace (1, "VDRPFilterBLInitialization: Name = ", UName)
+ThisObject.name = UName
+
+/* -------------------------------------------- */
+/* Title - based on existing Title & User Input */
+/* -------------------------------------------- */
+
+Operation=Parameters->GetAttributeString("OperationId")
+
+If(Operation=="Cloning")
+{
+    Trace (1, "VDRPFilterBLInitialization Cloning: UserPrefix = ", UserPrefix ) 
+
+    if ( ThisObject->HasAttribute("Title") == true ) {
+      TitleString = ThisObject.GetAttributeString("Title")
+      ThisObject->SetAttributeString("Title",UserPrefix + TitleString )
+    }else{
+      Trace (1, "VDRPFilterBLInitialization: ERROR, no title on ThisObject" )    
+    }
+    Trace (1, "VDRPFilterBLInitialization Cloning: Title = ", UserPrefix + TitleString ) 
+
+}else if (Operation=="New")
+{
+   /* nothing more to do, Title is managed thru NGF Save mecanism*/
+   /* BL with New just needed to valuate name */
+}else{
+/* ( Operation=="Implicit" or Operation=="Default")*/ 	
+    Trace (1, "VDRPFilterBLInitialization NON SUPPORTED OPERATION = ", Operation ) 
+}
+
+

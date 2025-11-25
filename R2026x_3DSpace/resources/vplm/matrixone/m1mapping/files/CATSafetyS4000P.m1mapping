@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="CATSafetyS4000P" />
+    <m1.package name="CATSafetyS4000P" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="S4000PCauseAnalysis" />
+      <m1.interface name="S4000PCauseAnalysis" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionA" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionA" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionASupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionASupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionB" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionB" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionBSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionBSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionC" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionC" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionCSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionCSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionD" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionD" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionDSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionDSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionE" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionE" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionESupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionESupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionF" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionF" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionFSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionFSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionG" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionG" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionGSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionGSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionH" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionH" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionHSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionHSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionI" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionI" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionISupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionISupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionJ" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionJ" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionJSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionJSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionK" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionK" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="DecisionKSupportingMaterial" />
+        <m1.attribute name="S4000PCauseAnalysis.DecisionKSupportingMaterial" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="S4000PFunctionalFailureCategorization" />
+      <m1.interface name="S4000PFunctionalFailureCategorization" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision1" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision1" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision1Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision1Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision2" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision2" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision2Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision2Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision3" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision3" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision3Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision3Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision4" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision4" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision4Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision4Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision5" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision5" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision5Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision5Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision6" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision6" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision6Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision6Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision7" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision7" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision7Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision7Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision8" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision8" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="Decision8Rationale" />
+        <m1.attribute name="S4000PFunctionalFailureCategorization.Decision8Rationale" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="S4000PFunctionalFailureEffectCriticality" />
+      <m1.interface name="S4000PFunctionalFailureEffectCriticality" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="FunctionalFailureEffectCriticality" />
+        <m1.attribute name="S4000PFunctionalFailureEffectCriticality.FunctionalFailureEffectCriticality" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

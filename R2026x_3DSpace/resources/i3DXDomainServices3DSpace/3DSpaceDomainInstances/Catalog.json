@@ -1,0 +1,10 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Catalog",
+    "description": "Catalog",
+    "packages": [
+        "ENOCLG_CLASS",
+        "ENOCLG_KEYWORD",
+        "ENOCLG_LIBRARY"
+    ]
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2008, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+    ModelerType="Top"
+    Name="DELMIAProcessEngineering"
+    Uuid="a2fcdfd0-3741-419c-9621-5aa33378f33a"
+    BelongsToModeler="DELMIAProcessEngineering"
+    UseNames="DELLmiProductionHeaderProcessAbstract;DELLmiProductionOperationPPR;DELLmiProductionSystemPPR;DELLmiProductionTimeConstraintCnx;DELWkiDataCollectPlan;DELResourceParameterPlan;DELRmiParameterModel"
+    CustomerExposition="Programmer">
+
+    <CAAComment>
+        <ShortRole>DELMIA Applicative Process Model</ShortRole>
+        <Role>This package describe the Applicative enhancements of the model for Process data</Role>
+    </CAAComment>
+
+    <Comment>last update 2024-08-05</Comment>
+
+    <Extension Name="DELArrowDisplayExt"
+        Uuid="36ff58bf-d315-4795-b936-263e583b16b3"
+        ScopeNames="DELLmiTimeConstraintCnx"
+        CAAExposition="L0"
+        CustomerExposition="Programmer"
+        Specializable="No">
+        <Simple Name="V_ArrowStartPosition"
+            Uuid="5f86f7b6-4393-4977-a633-244ca00a919f"
+            Type="String"
+            DefaultValue="Default"
+            MultiValuated="No"
+            Protection="Free"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+            <Range>
+                <Equal>Default</Equal>
+                <Equal>North</Equal>
+                <Equal>South</Equal>
+                <Equal>East</Equal>
+                <Equal>West</Equal>
+            </Range>
+        </Simple>
+        <Simple Name="V_ArrowEndPosition"
+            Uuid="9c24f72d-cb2d-4a55-b3a7-c68dc8af96b5"
+            Type="String"
+            DefaultValue="Default"
+            MultiValuated="No"
+            Protection="Free"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+            <Range>
+                <Equal>Default</Equal>
+                <Equal>North</Equal>
+                <Equal>South</Equal>
+                <Equal>East</Equal>
+                <Equal>West</Equal>
+            </Range>
+        </Simple>
+        <Simple Name="V_ArrowInternalData"
+            Uuid="9eb29695-7e29-4763-9e8e-80ef9b826077"
+            Type="Clob"
+            MultiValuated="No"
+            Protection="Internal"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+        </Simple>
+    </Extension>
+
+    <Extension Name="DELGraphEditorDataExt"
+        Uuid="62279B63-78B1-4590-BB5E-60B2E5C5C66B"
+        ScopeNames="DELLmiPPRHeaderProcessReferenceAbstract;DELLmiPPRSystemReference;DELLmiOperationPPRReference"
+        Discipline="No"
+        Abstract="No"
+        Specializable="No"
+        CAAExposition="L0"
+        CustomerExposition="Programmer">
+        <CAAComment>
+            <ShortRole>Extension used to store the layout information of the Graph Editor for the display of the children objects</ShortRole>
+            <Role>Extension used to store the layout information of the Graph Editor for the display of the children objects</Role>
+        </CAAComment>
+        <Simple Name="V_GraphEditorLayout"
+            Uuid="CC5B8AF7-BF8A-4220-A4D6-8E14BD3FA90E"
+            Type="Clob"
+            MultiValuated="No"
+            Protection="Internal"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+        </Simple>
+    </Extension>
+
+    <Extension Name="DELDistributionTimeExt"
+        Uuid="0b5446f2-e49b-4d0f-a98c-4aa7e3008c87"
+        ScopeNames="DELLmiOperationPPRReference"
+        CAAExposition="L0"
+        CustomerExposition="Programmer"
+        Specializable="No">
+        <Simple Name="V_DistributionMode"
+            Uuid="7747cdcc-e2e2-48eb-a4f6-cb6000f61780"
+            Type="String"
+            DefaultValue="Normal"
+            MultiValuated="No"
+            Protection="ExternalIN"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+            <Range>
+                <Equal>Normal</Equal>
+                <Equal>Uniform</Equal>
+                <Equal>Triangular</Equal>
+                <Equal>Exponential</Equal>
+                <Equal>Lognormal</Equal>
+                <Equal>Gamma</Equal>
+                <Equal>Beta</Equal>
+                <Equal>Erlang</Equal>
+                <Equal>Weibull</Equal>
+            </Range>
+        </Simple>
+        <Simple Name="V_DistributionParameters"
+            Uuid="c03ebff7-69da-4d15-9a49-ee61fec4c80f"
+            Type="Clob"
+            MultiValuated="No"
+            Protection="Internal"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+        </Simple>
+    </Extension>
+
+    <Extension Name="DELParameterIdentifierExt"
+        Uuid="65AA7C8F-62BE-40cf-A699-A7A242B286CE"
+        ScopeNames="PLMSpecifyHowToCollectDataCnx;DELResourcePrmPlanAbstract;DELResourcePrmAbstract"
+        Discipline="No"
+        Abstract="No"
+        Specializable="No"
+        CAAExposition="L0"
+        CustomerExposition="Programmer">
+        <CAAComment>
+            <ShortRole>Extension used to store the identification of the Parameter Ontology used to create the DCP, RPP or RP</ShortRole>
+            <Role>Extension used to store the identification of the Parameter Ontology used to create the DCP, RPP or RP</Role>
+        </CAAComment>
+        <Simple Name="V_ParameterIdentifier"
+            Uuid="19BB7BB7-4680-4fc6-9D92-BBDB36DAA92B"
+            Type="Clob"
+            MultiValuated="No"
+            Protection="Internal"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No">
+        </Simple>
+    </Extension>
+</Package>

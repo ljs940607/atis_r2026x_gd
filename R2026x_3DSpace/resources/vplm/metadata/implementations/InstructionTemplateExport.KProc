@@ -1,0 +1,25 @@
+#Prog InstructionTemplateExport (iPLMIDSet :  #In PLMIDSet,oPLMIDSet :  #Out PLMIDSet) : VoidType
+{
+  let InstTemplateRefResourcesIDSet(PLMIDSet)
+
+  let InstTemplateRefProductsIDSet(PLMIDSet)
+
+  let PLMIDSetProductStructure(PLMIDSet)
+
+  /* Navigate on input to standard resources */
+  InstTemplateRefResourcesIDSet  =  ExecuteJavaProcedure("com.dassault_systemes.catia.istmodel.completion.EKLProcedure_InstructionTemplate_Expand", "InstructionTemplateExport_AddStandardResources", iPLMIDSet)
+
+  /* separate the std resources between process and products (using Restrict on PLMIDSet)  */
+  InstTemplateRefProductsIDSet = Restrict(InstTemplateRefResourcesIDSet,"PRODUCTCFG/VPMReference")
+
+  /* execute completion on products */
+   PLMIDSetProductStructure = ExecutePLMProcedure("VPMEditor_GetAllRepresentations", InstTemplateRefProductsIDSet)
+  
+  /* 
+    Assemble all ids together :
+      - all Instruction Templates
+      - all pointed resources
+      - completion for products on representations
+  */
+  oPLMIDSet = iPLMIDSet + InstTemplateRefResourcesIDSet  + PLMIDSetProductStructure
+}

@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcSignalType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcSignalType_ElementType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcSignalType_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

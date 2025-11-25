@@ -1,0 +1,114 @@
+{
+  "dsenghvac:PartV1": {
+    "kindOf": "root",
+    "beType": "type_HVAC_PartV1",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V%1.dictionaries.ENOXdsenghvacPartV1Dictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+
+ "dsenghvac:PartV2": {
+    "kindOf": "root",
+    "beType": "type_HVAC_PartV2",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V%1.dictionaries.ENOXdsenghvacPartV2Dictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dsenghvac:Elbow": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Elbow",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V%1.dictionaries.ENOXdsenghvacPartElbowDictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dsenghvac:Saddle": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Saddle",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V%1.dictionaries.ENOXdsenghvacPartSaddleDictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  "dsenghvac:Tee": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Tee",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst"],
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V%1.dictionaries.ENOXdsenghvacPartTeeDictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

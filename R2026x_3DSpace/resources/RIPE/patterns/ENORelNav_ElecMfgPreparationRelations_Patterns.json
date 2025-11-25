@@ -1,0 +1,36 @@
+{
+    "relations": [
+        {
+            "name": "ElecMfgPreparationRelation_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "ElecMfgPreparationRelation"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ElecMfgPreparationRelation_from",
+            "queries": [
+                {
+                    "definition": [                        
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "ElecMfgPreparationRelation"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

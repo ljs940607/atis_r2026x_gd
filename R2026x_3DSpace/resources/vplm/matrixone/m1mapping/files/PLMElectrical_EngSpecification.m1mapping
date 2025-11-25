@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="PLMElectrical_EngSpecification" />
+    <m1.package name="PLMElectrical_EngSpecification" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecEntityFilter" />
+      <m1.type name="ElecEntityFilter" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Standard" />
+        <m1.attribute name="ElecEntityFilter.V_Standard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecSpecification" />
+      <m1.type name="ElecSpecification" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_SignalType" />
+        <m1.attribute name="ElecSpecification.V_SignalType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Standard" />
+        <m1.attribute name="ElecSpecification.V_Standard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecBranchSubTypeTable" />
+      <m1.type name="ElecBranchSubTypeTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCableFilter" />
+      <m1.type name="ElecCableFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCableSubTypeTable" />
+      <m1.type name="ElecCableSubTypeTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCableSubtypeMappingTable" />
+      <m1.type name="ElecCableSubtypeMappingTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecEndDimensionTable" />
+      <m1.type name="ElecEndDimensionTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecGaugeTable" />
+      <m1.type name="ElecGaugeTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecLogicalTwinFromPhysicalTable" />
+      <m1.type name="ElecLogicalTwinFromPhysicalTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecMinGaugeForNomCurrentTable" />
+      <m1.type name="ElecMinGaugeForNomCurrentTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPartFilter" />
+      <m1.type name="ElecPartFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecProtectionFilter" />
+      <m1.type name="ElecProtectionFilter" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecAbstractCompatibilityTable" />
+      <m1.type name="ElecAbstractCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecAbstractFinitionRuleTable" />
+      <m1.type name="ElecAbstractFinitionRuleTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecAbstractResourceTable" />
+      <m1.type name="ElecAbstractResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecFamilyTable" />
+      <m1.type name="ElecFamilyTable" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TableCriteria" />
+        <m1.attribute name="ElecFamilyTable.V_TableCriteria" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecSeriesTable" />
+      <m1.type name="ElecSeriesTable" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TableCriteria" />
+        <m1.attribute name="ElecSeriesTable.V_TableCriteria" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecBranchPartCompatibilityTable" />
+      <m1.type name="ElecBranchPartCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecBranchResourceTable" />
+      <m1.type name="ElecBranchResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCableContactCompatibilityTable" />
+      <m1.type name="ElecCableContactCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCableCoreResourceTable" />
+      <m1.type name="ElecCableCoreResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCavityWireFinitionRuleTable" />
+      <m1.type name="ElecCavityWireFinitionRuleTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecCircuitResourceTable" />
+      <m1.type name="ElecCircuitResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPartPartFinitionRuleTable" />
+      <m1.type name="ElecPartPartFinitionRuleTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPartPortCompatibilityTable" />
+      <m1.type name="ElecPartPortCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPortInPartCompatibilityTable" />
+      <m1.type name="ElecPortInPartCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPortResourceTable" />
+      <m1.type name="ElecPortResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPortToPartMappingTable" />
+      <m1.type name="ElecPortToPartMappingTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecPortTypesInPartCompatibilityTable" />
+      <m1.type name="ElecPortTypesInPartCompatibilityTable" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="ElecSegmentResourceTable" />
+      <m1.type name="ElecSegmentResourceTable" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

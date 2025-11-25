@@ -1,0 +1,36 @@
+{
+  "relations": [
+    {
+      "name": "Formula_Ingredient_from",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Formula_Ingredient"
+              },
+              "direction": "from"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Formula_Ingredient_to",
+      "queries": [
+        {
+          "definition": [
+            {
+              "navigationType": "relation",
+              "qualityFilter": {
+                "rel_type": "Formula_Ingredient"
+              },
+              "direction": "to"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

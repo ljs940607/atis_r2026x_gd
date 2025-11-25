@@ -1,0 +1,15 @@
+{
+  "repositories": [
+    {
+      "name": "VisualizationRepository",
+      "preferences": [
+        {
+          "name": "PreSelection",
+          "datatype": "boolean",
+          "default": true,
+          "IsDeprecated": false
+        }
+      ]
+    }
+  ]
+}

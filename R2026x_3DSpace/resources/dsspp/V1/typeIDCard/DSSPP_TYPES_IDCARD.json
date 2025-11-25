@@ -1,0 +1,52 @@
+{
+    "dsspp:SpaceConceptRoot":{
+        "kindOf":"root",
+        "isPublic": true,
+        "beType":"type_SPP_SpaceConceptRoot",
+        "patchCSRF":true,
+        "search":true,
+        "extensionLinks": [ "dskpi:metric" ],
+        "defaultMask":"dsmvspp:SpaceConceptRootMask.Default",
+        "cestamp":true,
+        "indexBulkFetchMaxLimit":500,
+        "optionCheck":{
+            "modify":true,
+            "navigate":false,
+            "produce":true
+            },
+        "publicResourceURI": "/resources/v1/modeler/dsspp/dsspp:SpaceConceptRoot/{pid}"
+    },
+    "dsspp:SpaceReference":{
+        "kindOf":"root",
+        "isPublic": true,
+        "beType":"type_SPP_SpaceRef",
+        "classesTypes": "type_SPP_SpaceRef,type_SSM_DesignSpaceRef,type_SSM_ManufacturingSpaceRef",
+        "patchCSRF":true,
+        "search":true,
+        "extensionLinks": [ "dskpi:metric" ],
+        "defaultMask":"dsmvspp:SpaceReferenceMask.Default",
+        "cestamp":true,
+        "indexBulkFetchMaxLimit":500,
+        "optionCheck":{
+            "modify":true,
+            "navigate":false,
+            "produce":true
+            },
+        "publicResourceURI": "/resources/v1/modeler/dsspp/dsspp:SpaceReference/{pid}"
+    },
+    "dsspp:SpaceAssignment":{
+        "kindOf":"root",
+        "isPublic": true,
+        "beType":"type_SPPConnection",
+        "defaultMask":"dsmvspp:SpaceAssignmentMask.Default",
+        "patchCSRF":true,
+        "search":false,
+        "optionCheck":{
+            "modify":true,
+            "navigate":false,
+            "produce": true
+            }
+    }
+    
+}
+

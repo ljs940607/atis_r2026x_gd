@@ -1,0 +1,13 @@
+{
+"dsmv3sh:mql.parentEngItems":{
+	     "property": "computed",
+	     "key": "dsmv3sh:mql.parentEngItems",
+	     "description": "To get the product(s) aggregating the 3D Shape"
+},
+"dsmv3sh:parentEngItems":{
+	     "property": "computed",
+	     "key": "dsmv3sh:parentEngItems",
+	     "description": "To get the product(s) aggregating the 3D Shape",
+	     "example":"com.dassault_systemes.enovia.xapps.ds3sh.implementations.ds3shOpenAPIImpl.getparentEngItems"
+}
+}

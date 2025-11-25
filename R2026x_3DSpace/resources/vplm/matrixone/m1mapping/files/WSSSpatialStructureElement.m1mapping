@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="WSSSpatialStructureElement" />
+    <m1.package name="WSSSpatialStructureElement" />
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSSpatialStructureElementType" />
+      <m1.type name="WSSSpatialStructureElementType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSSpatialStructureElement" />
+      <m1.type name="WSSSpatialStructureElement" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterSupplySystemType" />
+      <m1.type name="WSSWaterSupplySystemType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSPart" />
+      <m1.type name="WSSPart" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSPartType" />
+      <m1.type name="WSSPartType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterSupplySystem" />
+      <m1.type name="WSSWaterSupplySystem" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSDistributionLine" />
+      <m1.type name="WSSDistributionLine" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSDistributionLineType" />
+      <m1.type name="WSSDistributionLineType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSOtherSpatialStructureElement" />
+      <m1.type name="WSSOtherSpatialStructureElement" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSOtherSpatialStructureElementType" />
+      <m1.type name="WSSOtherSpatialStructureElementType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSTransmissionLine" />
+      <m1.type name="WSSTransmissionLine" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSTransmissionLineType" />
+      <m1.type name="WSSTransmissionLineType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterStorage" />
+      <m1.type name="WSSWaterStorage" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterStorageType" />
+      <m1.type name="WSSWaterStorageType" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterTreatmentPlant" />
+      <m1.type name="WSSWaterTreatmentPlant" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="WSSWaterTreatmentPlantType" />
+      <m1.type name="WSSWaterTreatmentPlantType" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

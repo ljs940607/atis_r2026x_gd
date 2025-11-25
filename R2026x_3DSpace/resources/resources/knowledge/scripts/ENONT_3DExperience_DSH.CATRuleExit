@@ -1,0 +1,8 @@
+<Scripts>
+  <Script OpeningID="PLMIdentificationInitialization"
+          Type="3DExperience"
+          ScriptName="ENONT_PLMReference_BLInitialization"/>
+  <Script OpeningID="PLMFinalizationForOffline"           
+          Type="3DExperience"
+          ScriptName="ENONT_Reconnect" />
+</Scripts>

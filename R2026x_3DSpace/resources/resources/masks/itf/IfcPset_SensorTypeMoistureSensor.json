@@ -1,0 +1,9 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SensorTypeMoistureSensor_SetPointMoisture",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

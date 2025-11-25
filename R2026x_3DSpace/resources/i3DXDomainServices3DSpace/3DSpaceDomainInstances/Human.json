@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Human",
+    "description": "Representations of 3D human manikins.",
+    "packages": [
+        "CATHumanModel"
+    ]
+}

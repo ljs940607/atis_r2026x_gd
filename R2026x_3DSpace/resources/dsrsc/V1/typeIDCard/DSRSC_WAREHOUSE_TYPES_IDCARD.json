@@ -1,0 +1,75 @@
+{
+	"dsrsc:Warehouse": {
+		"kindOf": "root",
+		"beType": "type_ResourceWarehouseReference",
+		"defaultMask": "dsrsc:WarehouseMask.Default",
+		"restrictedChangeSupport": true,
+		"search":true,
+		"contentLinks": [
+			"dsrsc:WarehouseInstance",
+			"dsrsc:WarehouseLocationInstance"
+		],
+		"extensionLinks": [],
+		"customerAttribute": true,
+		"cestamp": true,
+		"isPublic": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		},
+		"publicResourceURI": "/resources/v1/modeler/dsrsc/dsrsc:Warehouse/{pid}"
+	},
+	"dsrsc:WarehouseInstance": {
+		"kindOf": "content",
+		"beType": "virtual_VPMInstance",
+		"customerAttribute": true,
+		"restrictedChangeSupport": true,
+		"rootLinks": [],
+		"extensionLinks": [],
+		"cestamp": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		},
+		"defaultMask": "dsrsc:WarehouseInstanceMask.Default",
+		"isPublic": true
+	},
+	"dsrsc:WarehouseLocationInstance": {
+		"kindOf": "content",
+		"beType": "virtual_SPP_SpaceInstance",
+		"customerAttribute": true,
+		"restrictedChangeSupport": true,
+		"rootLinks": [],
+		"extensionLinks": [],
+		"cestamp": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		},
+		"defaultMask": "dsrsc:WarehouseLocationInstanceMask.Default",
+		"isPublic": true
+	},
+	"dsrsc:WarehouseLocation": {
+		"kindOf": "root",
+		"beType": "type_ResourceWarehouseLocationReference",
+		"customerAttribute": true,
+		"restrictedChangeSupport": true,
+		"search":true,
+		"defaultMask": "dsrsc:WarehouseLocationMask.Default",
+		"contentLinks": [
+			"dsrsc:WarehouseLocationInstance"
+		],
+		"extensionLinks": [],
+		"cestamp": true,
+		"isPublic": true,
+		"optionCheck": {
+			"modify": true,
+			"produce": true,
+			"navigate": true
+		},
+		"publicResourceURI": "/resources/v1/modeler/dsrsc/dsrsc:WarehouseLocation/{pid}"
+	}
+}

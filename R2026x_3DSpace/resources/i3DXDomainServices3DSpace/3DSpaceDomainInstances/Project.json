@@ -1,0 +1,7 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Project",
+	"description"    : "The domain instance for Project in 3DSpace",
+	"packages"       : ["Task"]
+}
+

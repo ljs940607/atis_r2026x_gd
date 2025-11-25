@@ -1,0 +1,63 @@
+{
+   "dsmvengelec:DefaultBusMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:BaseMask.utc"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:BusBasicPropertiesMask"
+    }
+  ],
+  "dsmvengelec:DefaultRelMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:BaseMask.utc"
+    },
+    "dsmveno:attribute.instance.name",
+    "dsmveno:attribute.instance.description"
+  ],
+  "dsmvengelec:BaseMask.utc": [
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc"
+  ],
+  
+  "dsmvengelec:BusBasicPropertiesMask":[
+    "dsmveno:basic.revision",
+    "dsmveno:basic.state.public",
+    "dsmvengelec:basic.owner",
+    "dsmveno:basic.organization",
+    "dsmveno:basic.collabspace"
+  ],
+  
+  "dsmvengelec:MiltiCoreMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengelec:CableMask"
+    },
+    "dsmvengelec:attribute.cable.corebendradius",
+    "dsmvengelec:attribute.cable.corecolor",
+    "dsmvengelec:attribute.cable.coregauge",
+    "dsmvengelec:attribute.cable.corelinearmass",
+    "dsmvengelec:attribute.cable.corename",
+    "dsmvengelec:attribute.cable.coreoutsidediameter",
+    "dsmvengelec:attribute.cable.coresectionarea"
+  ],
+  "dsmvengelec:DetaildedMiltiCoreMask": [{
+      "property": "reuseMask",
+      "mask": "dsmvengelec:CableMask"
+    },
+    "dsmvengelec:attribute.cable.corelengthaftercablestrippingfrom",
+    "dsmvengelec:attribute.cable.corelengthaftercablestrippingto",
+    "dsmvengelec:attribute.cable.corestrippinglengthfrom",
+    "dsmvengelec:attribute.cable.corestrippinglengthto",
+    "dsmvengelec:attribute.cable.strippinglengthfrom",
+    "dsmvengelec:attribute.cable.strippinglengthto"
+  ]
+
+}

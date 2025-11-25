@@ -1,0 +1,34 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package EPSSpatialStructureElement-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSElectricPowerSystem" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSPowerPlant" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSubstation" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltageTransmissionLine" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltageSpan" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltagePylon" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSDistributionLine" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSDistributionSpan" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSElectricPole" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSOtherSpatialStructureElement" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSElectricPowerSystemType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSPowerPlantType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSubstationType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltageTransmissionLineType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltageSpanType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSHighVoltagePylonType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSDistributionLineType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSDistributionSpanType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSElectricPoleType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSOtherSpatialStructureElementType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSOutputPosition" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSOutputPositionType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSwitchPosition" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSwitchPositionType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSwitchYard" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSSwitchYardType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSTransformerCell" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSTransformerCellType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSTransformerCenter" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="EPSTransformerCenterType" ScriptName="ENOAP_PolicyChooser_Resource" />
+</Scripts>

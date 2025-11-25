@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2021, All rights reserved -->
+
+<Package
+    Name = "GEOGeoscienceDataset"
+    Uuid = "32A15673-2D19-4CDF-B282-2C0BF9D8DBC1"
+    CustomerExposition = "Programmer"
+    UseNames="AECCommonSpatialStructureElement;GeoscienceElement"
+    xmlns = "PLMDictionaryUnified"
+    ModelerType = "Top"
+    Architecture = "All">
+
+  <Extension Name = "GEOGeoscienceDatasetReferrer"
+      CustomerExposition = "Programmer"
+      Uuid = "E7FB423F-8E00-4799-9A75-0530FA6ED821"
+      ScopeNames = "AecSite;GeologyModel;GeoscienceDataset;GeoscienceDatasetSnapshot">
+
+    <Simple Name = "GDSName"
+        Uuid="bfd70a9f-49d9-4221-b10b-4d05dcf50028"
+        MaxLength = "255"
+        Protection = "Free"
+        Type = "String"
+        UIAccess ="ReadOnly"/>
+
+    <Simple Name = "GDSRevision"
+        Uuid="21662a18-f629-402b-b0c3-51763b3c1788"
+        MaxLength = "255"
+        Protection = "Free"
+        Type = "String"
+        UIAccess ="ReadOnly"/>
+
+    <Simple Name = "GDSIterationID"
+        Uuid="94b6e172-e15e-43a5-828d-6b6c60a14db1"
+        MaxLength = "255"
+        Protection = "Internal"
+        Type = "String"
+        UIAccess ="ReadOnly"/>
+
+  </Extension>
+
+  <Class Name = "GeoscienceDataset"
+    CustomerExposition = "Programmer"
+    Discipline = "Yes"
+    SuperName = "GeologicAssembly"
+    Uuid = "f379dbeb-6f2f-4c6c-bf53-c340aed1b3b8"
+    Abbreviation="gds">
+
+    <Property Name = "IconName"                          Value = "I_GeoscienceDataset"/>
+    <Property Name = "3DIconName"                        Value = "I_GeoscienceDataset.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod"        Value = "GEOGeoscienceDatasetDelegateInstanciation"/>
+    <Property Name = "3DPartAvailability"                Value = "3DPartOnly"/>
+    <Property Name = "Newable"                           Value = "Insert"/>
+    <Property Name = "Searchable"                        Value = "Yes"/>
+    <Property Name = "InstantiationOwnerTypes"           Value = "AecSite;GeologyModel;EarthModel"/>
+  </Class>
+
+  <Class Name = "GeoscienceDatasetSnapshot"
+    CustomerExposition = "Programmer"
+    Discipline = "Yes"
+    SuperName = "GeologicAssembly"
+    Uuid = "ba1bf874-43d1-45b2-b033-fc5c3ec68a89"
+    Abbreviation="gds_snap">
+
+    <Property Name = "IconName"                          Value = "I_GeoscienceDatasetSnapshot"/>
+    <Property Name = "3DIconName"                        Value = "I_GeoscienceDatasetSnapshot.cgr"/>
+    <Property Name = "KweNew_InstanciationMethod"        Value = "GEOGeoscienceDatasetDelegateInstanciation"/>
+    <Property Name = "3DPartAvailability"                Value = "3DPartOnly"/>
+    <Property Name = "Newable"                           Value = "No"/>
+    <Property Name = "Searchable"                        Value = "Yes"/>
+    <Property Name = "InstantiationOwnerTypes"           Value = "None"/>
+  </Class>
+
+</Package>

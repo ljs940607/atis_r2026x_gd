@@ -1,0 +1,54 @@
+{
+    "Write": {"attributes": [
+        {"name": "type"},
+        {
+            "name": "V_Name",
+            "status": "RW"
+        },
+        {"name": "PLM_ExternalID"},
+		{
+			"name": "V_Group",
+			"status": "RW"
+		},
+        {
+            "name": "V_description",
+            "status": "RW"
+        },
+        {"name": "originated"},
+        {"name": "V_fromExternalID"},
+        {"name": "policy"},
+        {"name": "modified"},
+        {"name": "current"},
+        {"name": "owner"},
+        {"name": "organization"},
+        {"name": "project"},
+		{
+			"name": "V_Density",
+			"status": "RW"
+		}
+    ]},
+    "Create": {"attributes": [
+        {
+            "name": "V_Name",
+            "status": "RW"
+        },
+        {
+            "name": "PLM_ExternalID",
+            "status": "RO"
+        },
+        {
+            "name": "V_description",
+            "status": "RW"
+        },
+        {
+            "name": "policy",
+            "status": "RO"
+        }
+    ]},
+    "details": {"attributes": {
+        "owner": {"mandatory": true},
+        "V_Name": {"mandatory": true},
+        "PLM_ExternalID": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"}
+    }},
+    "revision": "0"
+}

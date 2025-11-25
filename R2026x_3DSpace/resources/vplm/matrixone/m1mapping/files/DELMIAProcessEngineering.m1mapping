@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELMIAProcessEngineering" />
+    <m1.package name="DELMIAProcessEngineering" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELArrowDisplayExt" />
+      <m1.interface name="DELArrowDisplayExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ArrowEndPosition" />
+        <m1.attribute name="DELArrowDisplayExt.V_ArrowEndPosition" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ArrowInternalData" />
+        <m1.attribute name="DELArrowDisplayExt.V_ArrowInternalData" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ArrowStartPosition" />
+        <m1.attribute name="DELArrowDisplayExt.V_ArrowStartPosition" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELDistributionTimeExt" />
+      <m1.interface name="DELDistributionTimeExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_DistributionMode" />
+        <m1.attribute name="DELDistributionTimeExt.V_DistributionMode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_DistributionParameters" />
+        <m1.attribute name="DELDistributionTimeExt.V_DistributionParameters" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELGraphEditorDataExt" />
+      <m1.interface name="DELGraphEditorDataExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_GraphEditorLayout" />
+        <m1.attribute name="DELGraphEditorDataExt.V_GraphEditorLayout" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELParameterIdentifierExt" />
+      <m1.interface name="DELParameterIdentifierExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ParameterIdentifier" />
+        <m1.attribute name="DELParameterIdentifierExt.V_ParameterIdentifier" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_ElectricDistributionBoardBaseQuantities_GrossWeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_ElectricDistributionBoardBaseQuantities_NumberOfCircuits",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

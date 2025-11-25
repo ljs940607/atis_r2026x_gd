@@ -1,0 +1,28 @@
+{
+	"expandDef": {
+		[expandDef]: {
+			"sub" : {
+				"rel": [],
+				//AND
+				"type": []
+			},
+			"content": [{
+				"rel": [],
+				"relV2": [[]], //Rel used in expand v2 (no infinite scrolling). It is in multiple array to have different navigation (and avoid useless expand)
+				//AND
+				"type": [],
+
+				"links": [], //link relations 
+				"search": [] //Rel used for the search within
+			}]
+		}
+	},
+	"[section] !!Template!!": {  
+		"label": "<label for the display of the section>",
+		"type": "<define the type used for the section itselve>",
+		"accept": "< only for favorites - To declare the type of object that can be included >"
+		"roots": [],
+		"expandDef": "<expandDefName>"
+
+	}	
+}

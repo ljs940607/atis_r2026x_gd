@@ -1,0 +1,6 @@
+{
+    "service"        : "3DSpace",
+    "domainInstance" : "Decision",
+    "description"    : "The domain instance for Decision in 3DSpace",
+    "packages"       : ["Decisions"]
+}

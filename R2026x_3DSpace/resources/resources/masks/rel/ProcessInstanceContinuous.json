@@ -1,0 +1,53 @@
+{
+	"Write": {
+		"attributes": [
+        	{
+				"name": "type"
+			},
+			{
+				"name": "PLM_ExternalID",
+				"status": "RW"
+			},
+			{
+				"name": "V_description",
+				"status": "RW"
+			},
+            {
+				"name": "originated",
+				"status": "RO"
+			},
+			{
+				"name": "modified",
+				"status": "RO"
+			},
+			{
+				"name": "owner",
+				"status": "RO"
+			},
+			{
+				"name": "organization",
+				"status": "RO"
+			},
+			{
+				"name": "project",
+				"status": "RO"
+			},
+			{
+				"name": "V_ContQuantity",
+				"status": "RW"
+			}
+		]
+	},
+	"details": {
+		"attributes": {
+			"owner": {
+				"mandatory": true
+			},
+			"PLM_ExternalID": {
+				"mandatory": true
+			}
+		}
+	},
+    "revision": "0"
+}
+

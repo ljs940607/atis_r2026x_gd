@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeAntiArcingDevice_RatedVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProtectiveDeviceTypeAntiArcingDevice_GroundingType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

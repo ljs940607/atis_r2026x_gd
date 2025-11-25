@@ -1,0 +1,8 @@
+{
+	"owner" : "NDF",
+	"description" : "ToDo",
+    "service": "mbseapps",
+    "urls": {
+		"fetch" : "/resources/v1/modeler/mbse/i3dx/fetch"
+	}
+}

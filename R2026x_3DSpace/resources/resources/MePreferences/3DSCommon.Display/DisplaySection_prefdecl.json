@@ -1,0 +1,47 @@
+{
+  "repositories": [
+    {
+      "name": "VisualizationRepository",
+      "preferences": [
+		{
+          "name": "Gravity",
+          "datatype": "boolean",
+          "default": false,
+          "IsDeprecated": false
+        },
+        {
+          "name": "Invert360LookAroundNavigation",
+          "datatype": "boolean",
+          "default": false,
+          "IsDeprecated": false
+        },
+        {
+          "name": "Background",
+          "datatype": "color",
+          "default": "#EAEBE9",
+          "IsDeprecated": false
+        },
+        {
+          "name": "DefaultViews",
+          "datatype": "json",
+          "default": "{\"front\":{\"sight\":{\"x\":-1,\"y\":0,\"z\":0},\"right\":{\"x\":0,\"y\":1,\"z\":0}},\"back\":{\"sight\":{\"x\":1,\"y\":0,\"z\":0},\"right\":{\"x\":0,\"y\":-1,\"z\":0}},\"left\":{\"sight\":{\"x\":0,\"y\":1,\"z\":0},\"right\":{\"x\":1,\"y\":0,\"z\":0}},\"right\":{\"sight\":{\"x\":0,\"y\":-1,\"z\":0},\"right\":{\"x\":-1,\"y\":0,\"z\":0}},\"top\":{\"sight\":{\"x\":0,\"y\":0,\"z\":-1},\"right\":{\"x\":0,\"y\":1,\"z\":0}},\"bottom\":{\"sight\":{\"x\":0,\"y\":0,\"z\":1},\"right\":{\"x\":0,\"y\":1,\"z\":0}},\"iso\":{\"sight\":{\"x\":-0.6300367553350504,\"y\":-0.6300367553350503,\"z\":-0.45399049973954697},\"right\":{\"x\":-1,\"y\":1,\"z\":0}}}"
+        }
+      ]
+    },
+	{
+      "name": "FrameGeneral",
+      "preferences": [
+        {
+          "name": "ProjectionType",
+          "datatype": "enum",
+          "values": [
+            "Parallel",
+            "Perspective"
+          ],
+          "default": 2,
+          "IsDeprecated": false
+        }
+      ]
+    }
+  ]
+}

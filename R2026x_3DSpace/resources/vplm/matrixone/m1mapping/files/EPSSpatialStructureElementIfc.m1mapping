@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="EPSSpatialStructureElementIfc" />
+    <m1.package name="EPSSpatialStructureElementIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_AccessPointCommon" />
+      <m1.interface name="IfcPset_DS_AccessPointCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_AccessPointCommon_AccessCode" />
+        <m1.attribute name="IfcPset_DS_AccessPointCommon.IfcPset_DS_AccessPointCommon_AccessCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_AccessPointCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_AccessPointCommon.IfcPset_DS_AccessPointCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_CircuitCommon" />
+      <m1.interface name="IfcPset_DS_CircuitCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_AerialProjectLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_AerialProjectLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_AutumnTransportCapacity" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_AutumnTransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_DesignTemperature" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_DesignTemperature" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_DesignVoltage" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_DesignVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_EICCode" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_EICCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_InternationalCode" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_InternationalCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_InternationalConnection" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_InternationalConnection" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_MaximumVoltage" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_MaximumVoltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_ProtectionAdjustmentCapacity" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_ProtectionAdjustmentCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_SpringTransportCapacity" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_SpringTransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_SubmarineProjectLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_SubmarineProjectLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_SummerTransportCapacity" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_SummerTransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_TotalAerialLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_TotalAerialLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_TotalCalculatedLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_TotalCalculatedLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_TotalProjectLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_TotalProjectLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_TypeofCircuit" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_TypeofCircuit" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_TypeofCurrent" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_TypeofCurrent" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_UndergroundProjectLength" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_UndergroundProjectLength" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_Voltage" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_Voltage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_CircuitCommon_WinterTransportCapacity" />
+        <m1.attribute name="IfcPset_DS_CircuitCommon.IfcPset_DS_CircuitCommon_WinterTransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_EarthCableSpanCommon" />
+      <m1.interface name="IfcPset_DS_EarthCableSpanCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_EarthCableSpanCommon_AcquisitionDate" />
+        <m1.attribute name="IfcPset_DS_EarthCableSpanCommon.IfcPset_DS_EarthCableSpanCommon_AcquisitionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_EarthCableSpanCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_EarthCableSpanCommon.IfcPset_DS_EarthCableSpanCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_EarthCableSpanCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_EarthCableSpanCommon.IfcPset_DS_EarthCableSpanCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_ElectricalSpanCommon" />
+      <m1.interface name="IfcPset_DS_ElectricalSpanCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_AcquisitionDate" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_AcquisitionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_DesignTemperature" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_DesignTemperature" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_PhaseTransposition" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_PhaseTransposition" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_ElectricalSpanCommon_TransportCapacity" />
+        <m1.attribute name="IfcPset_DS_ElectricalSpanCommon.IfcPset_DS_ElectricalSpanCommon_TransportCapacity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_LandPlot" />
+      <m1.interface name="IfcPset_DS_LandPlot" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LandPlot_AreaDescription" />
+        <m1.attribute name="IfcPset_DS_LandPlot.IfcPset_DS_LandPlot_AreaDescription" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_OutputPositionCommon" />
+      <m1.interface name="IfcPset_DS_OutputPositionCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_OutputPositionCommon_AcquisitionDate" />
+        <m1.attribute name="IfcPset_DS_OutputPositionCommon.IfcPset_DS_OutputPositionCommon_AcquisitionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_OutputPositionCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_OutputPositionCommon.IfcPset_DS_OutputPositionCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_OutputPositionCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_OutputPositionCommon.IfcPset_DS_OutputPositionCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_OutputPositionCommon_Mobile" />
+        <m1.attribute name="IfcPset_DS_OutputPositionCommon.IfcPset_DS_OutputPositionCommon_Mobile" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_OutputPositionCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_OutputPositionCommon.IfcPset_DS_OutputPositionCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PhysicalSpanCommon" />
+      <m1.interface name="IfcPset_DS_PhysicalSpanCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PhysicalSpanCommon_VegetationManagement" />
+        <m1.attribute name="IfcPset_DS_PhysicalSpanCommon.IfcPset_DS_PhysicalSpanCommon_VegetationManagement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PortalCommon" />
+      <m1.interface name="IfcPset_DS_PortalCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PortalCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_PortalCommon.IfcPset_DS_PortalCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PortalCommon_Corrosivity" />
+        <m1.attribute name="IfcPset_DS_PortalCommon.IfcPset_DS_PortalCommon_Corrosivity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PortalCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_PortalCommon.IfcPset_DS_PortalCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_PylonCommon" />
+      <m1.interface name="IfcPset_DS_PylonCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_PylonCommon.IfcPset_DS_PylonCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonCommon_Corrosivity" />
+        <m1.attribute name="IfcPset_DS_PylonCommon.IfcPset_DS_PylonCommon_Corrosivity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_PylonCommon.IfcPset_DS_PylonCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_PylonCommon.IfcPset_DS_PylonCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_PylonCommon_SupplementaryHeight" />
+        <m1.attribute name="IfcPset_DS_PylonCommon.IfcPset_DS_PylonCommon_SupplementaryHeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SubstationBuildingCommon" />
+      <m1.interface name="IfcPset_DS_SubstationBuildingCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationBuildingCommon_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_SubstationBuildingCommon.IfcPset_DS_SubstationBuildingCommon_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SubstationCommon" />
+      <m1.interface name="IfcPset_DS_SubstationCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_AquiferVulnerability" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_AquiferVulnerability" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_Corrosivity" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_Corrosivity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_EnvironmentalSensitivity" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_EnvironmentalSensitivity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_ExternalEnvironmentalRisk" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_ExternalEnvironmentalRisk" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_FloodRisk" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_FloodRisk" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_HazardousArea" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_HazardousArea" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_InternalEnvironmentalRisk" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_InternalEnvironmentalRisk" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SubstationCommon_LightProtectionZone" />
+        <m1.attribute name="IfcPset_DS_SubstationCommon.IfcPset_DS_SubstationCommon_LightProtectionZone" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_SwitchYardCommon" />
+      <m1.interface name="IfcPset_DS_SwitchYardCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SwitchYardCommon_CommissioningCertificateDate" />
+        <m1.attribute name="IfcPset_DS_SwitchYardCommon.IfcPset_DS_SwitchYardCommon_CommissioningCertificateDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_SwitchYardCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_SwitchYardCommon.IfcPset_DS_SwitchYardCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_UndergroundChamberOrVault" />
+      <m1.interface name="IfcPset_DS_UndergroundChamberOrVault" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_CommissioningDate" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_CommissioningDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_ConstructionDate" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_ConstructionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_DewateringSystem" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_DewateringSystem" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_RegistrationNumber" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_RegistrationNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_SecurityLockChamber" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_SecurityLockChamber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_SecurityLockVault" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_SecurityLockVault" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundChamberOrVault_SpliceGroupCount" />
+        <m1.attribute name="IfcPset_DS_UndergroundChamberOrVault.IfcPset_DS_UndergroundChamberOrVault_SpliceGroupCount" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_UndergroundDuctCommon" />
+      <m1.interface name="IfcPset_DS_UndergroundDuctCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_ConstructionDate" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_ConstructionDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_InstallationDate" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_InstallationDate" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_MaxDepth" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_MaxDepth" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_MinDepth" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_MinDepth" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_MinimumHeight" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_MinimumHeight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_MinimumWidth" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_MinimumWidth" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctCommon_PhaseSeparation" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctCommon.IfcPset_DS_UndergroundDuctCommon_PhaseSeparation" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_UndergroundDuctStretchCommon" />
+      <m1.interface name="IfcPset_DS_UndergroundDuctStretchCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_UndergroundDuctStretchCommon_Reference" />
+        <m1.attribute name="IfcPset_DS_UndergroundDuctStretchCommon.IfcPset_DS_UndergroundDuctStretchCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_DS_PylonBaseQuantities" />
+      <m1.interface name="IfcQto_DS_PylonBaseQuantities" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_PylonBaseQuantities_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_DS_PylonBaseQuantities.IfcQto_DS_PylonBaseQuantities_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_PylonBaseQuantities_PaintingSurfaceArea" />
+        <m1.attribute name="IfcQto_DS_PylonBaseQuantities.IfcQto_DS_PylonBaseQuantities_PaintingSurfaceArea" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_PylonBaseQuantities_Weight" />
+        <m1.attribute name="IfcQto_DS_PylonBaseQuantities.IfcQto_DS_PylonBaseQuantities_Weight" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

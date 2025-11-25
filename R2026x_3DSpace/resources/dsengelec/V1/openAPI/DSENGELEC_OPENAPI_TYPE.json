@@ -1,0 +1,421 @@
+{
+  "dsengelec:Device": {
+    "summary": "Device",
+    "description": "Device",
+
+    "PUBLICMasks": ["dsmvengelec:AllDevicesMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:BackShellMask",
+      "dsmvengelec:ContactMask",
+      "dsmvengelec:DeviceMask",
+      "dsmvengelec:FillerPlugMask",
+      "dsmvengelec:ModuleMask",
+      "dsmvengelec:MultiInsertConnectorMask",
+      "dsmvengelec:PLCMask",
+      "dsmvengelec:SealMask",
+      "dsmvengelec:ShellMask",
+      "dsmvengelec:SingleInsertConnectorMask",
+      "dsmvengelec:SpliceMask",
+      "dsmvengelec:StudMask",
+      "dsmvengelec:TerminalAccessoryMask",
+      "dsmvengelec:TerminalBlockMask",
+      "dsmvengelec:TerminalStripMask",      
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.backshell.extralength",
+      "dsmvengelec:attribute.contact.authorizedwiregauge",
+      "dsmvengelec:attribute.contact.contactsize",
+      "dsmvengelec:attribute.contact.endfitting",
+      "dsmvengelec:attribute.device.externalreference",
+      "dsmvengelec:attribute.length",
+      "dsmvengelec:attribute.multiinsertconnector.insertlayout",
+      "dsmvengelec:attribute.series",
+      "dsmvengelec:attribute.singleinsertconnector.contactlayout",
+      "dsmvengelec:attribute.subdevice.contacttype",
+      "dsmvengelec:attribute.subdevice.matingwith",
+      "dsmvengelec:attribute.subdevice.numberofpins",
+      "dsmvengelec:attribute.subdevice.polarizedkey",
+      "dsmvengelec:attribute.subdevice.shellsize",
+      "dsmvengelec:attribute.subdevice.shelltype",
+      "dsmvengelec:attribute.subtype",
+      "dsmvengelec:attribute.terminalblock.shuntcavitylayout",
+      "dsmvengelec:attribute.entity.apptype",
+      "dsmvengelec:basic.owner"
+    ],
+        
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:HarnessGeom": {
+    "summary": "Harness Geometry",
+    "description": "Harness Geometry",
+
+    "PUBLICMasks": ["dsmvengelec:HarnessGeomMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.entity.apptype",
+      "dsmvengelec:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dscfg:Configured", "dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": [ "dseno:EnterpriseAttributes", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:BranchGeom": {
+    "summary": "Branch Geometry",
+    "description": "Branch Geometry",
+
+    "PUBLICMasks": [
+      "dsmvengelec:BranchGeomMask"
+    ],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+    
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.subtype",
+      "dsmvengelec:attribute.branchgeom.suggestedsegregation",
+      "dsmvengelec:attribute.entity.apptype",
+      "dsmvengelec:basic.owner"
+    ],
+    
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:Cable": {
+    "summary": "Cable",
+    "description": "Cable",
+
+    "PUBLICMasks": [
+      "dsmvengelec:CableMask",
+      "dsmvengelec:DetailedCableMask",
+      "dsmvengelec:ExtendedCableMask"
+    ],
+
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.cable.bendradius",
+      "dsmvengelec:attribute.cable.boundarylengthfrom",
+      "dsmvengelec:attribute.cable.boundarylengthto",
+      "dsmvengelec:attribute.cable.color",
+      "dsmvengelec:attribute.cable.cuttinglength",
+      "dsmvengelec:attribute.cable.cuttinglengthmode",
+      "dsmvengelec:attribute.cable.cuttinglengthtolerance",
+      "dsmvengelec:attribute.cable.diameter",
+      "dsmvengelec:attribute.cable.extralengthfrom",
+      "dsmvengelec:attribute.cable.extralengthto",
+      "dsmvengelec:attribute.cable.family",
+      "dsmvengelec:attribute.cable.gauge",
+      "dsmvengelec:attribute.cable.itinerarycuttinglengthsnap",
+      "dsmvengelec:attribute.cable.itinerarylengthsnap",
+      "dsmvengelec:attribute.cable.itinerarysnap",
+      "dsmvengelec:attribute.cable.linemass",
+      "dsmvengelec:attribute.cable.listroutelengthsnap",
+      "dsmvengelec:attribute.cable.listroutestatussnap",
+      "dsmvengelec:attribute.cable.listroutevalidationsnap",
+      "dsmvengelec:attribute.cable.nbcores",
+      "dsmvengelec:attribute.cable.segregation",
+      "dsmvengelec:attribute.cable.status",
+      "dsmvengelec:attribute.cable.validation",
+      "dsmvengelec:attribute.length",
+      "dsmvengelec:attribute.sectionarea",
+      "dsmvengelec:attribute.series",
+      "dsmvengelec:attribute.subtype",
+      "dsmvengelec:attribute.entity.apptype",
+      "dsmvengelec:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:Conductor": {
+    "summary": "Conductor",
+    "description": "Conductor",
+
+    "PUBLICMasks": [
+      "dsmvengelec:ConductorMask"
+    ],
+
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.conductor.subtype",
+      "dsmvengelec:attribute.conductor.sectionarea",
+      "dsmvengelec:attribute.conductor.bendradius",
+      "dsmvengelec:attribute.conductor.diamter",
+      "dsmvengelec:attribute.conductor.color",
+      "dsmvengelec:attribute.conductor.lineweight"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:ConductorGroup": {
+    "summary": "Conductor Group",
+    "description": "Conductor Group",
+
+    "PUBLICMasks": [
+      "dsmvengelec:ConductorGroupMask"
+    ],
+
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.conductorgroup.lengthcoefficient",
+      "dsmvengelec:attribute.conductorgroup.wiregrouptype",
+      "dsmvengelec:attribute.conductorgroup.subtype",
+      "dsmvengelec:attribute.conductorgroup.bendradius",
+      "dsmvengelec:attribute.conductorgroup.diamter",
+      "dsmvengelec:attribute.conductorgroup.color",
+      "dsmvengelec:attribute.conductorgroup.lineweight"
+    ],
+
+    "PUBLICExtensions": ["dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+
+  "dsengelec:System": {
+    "summary": "System",
+    "description": "System",
+
+    "PUBLICMasks": ["dsmvengelec:SystemMask"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [
+      "dsmvengelec:DefaultBusMask.utc",
+      "dsmvengelec:BusBasicPropertiesMask"
+    ],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [
+      "dsmvengelec:attribute.subtype",
+      "dsmvengelec:attribute.entity.apptype",
+      "dsmvengelec:basic.owner"
+    ],
+
+    "PUBLICExtensions": ["dscfg:Configured", "dseng:EnterpriseReference"],
+    "PROTECTEDExtensions": ["dseno:EnterpriseAttributes", "dslc:changeControl", "dskpi:metric"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "GETAll", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:DeviceInst": {
+    "summary": "Device Instance",
+    "description": "instance of a Device",
+
+    "PUBLICMasks": ["dsmvengelec:DeviceInstMask", "dsmvengelec:DeviceInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+    
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+
+  },
+  
+  "dsengelec:HarnessGeomInst": {
+    "summary": "Harness Geometry instance",
+    "description": "instance of an Harness Geometry",
+
+    "PUBLICMasks": ["dsmvengelec:HarnessGeomInstMask", "dsmvengelec:HarnessGeomInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+  "dsengelec:BranchGeomInst": {
+    "summary": "Branch Geometry instance",
+    "description": "instance of an Branch Geometry",
+
+    "PUBLICMasks": ["dsmvengelec:BranchGeomInstMask", "dsmvengelec:BranchGeomInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+  "dsengelec:SystemInst": {
+    "summary": "System instance",
+    "description": "instance of an System",
+
+    "PUBLICMasks": ["dsmvengelec:SystemInstMask", "dsmvengelec:SystemInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+  
+  "dsengelec:CableInst": {
+    "summary": "Cable instance",
+    "description": "instance of an Cable",
+
+    "PUBLICMasks": ["dsmvengelec:CableInstMask", "dsmvengelec:CableInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": ["dscfg:Filterable"],
+    "PROTECTEDExtensions": ["dscfg:ConfiguredInstance"],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+
+  "dsengelec:ConductorInst": {
+    "summary": "Conductor instance",
+    "description": "instance of an Conductor",
+
+    "PUBLICMasks": ["dsmvengelec:ConductorInstMask", "dsmvengelec:ConductorInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+
+  "dsengelec:ConductorGroupInst": {
+    "summary": "ConductorGroup instance",
+    "description": "instance of an ConductorGroup",
+
+    "PUBLICMasks": ["dsmvengelec:ConductorGroupInstMask", "dsmvengelec:ConductorGroupInstMask.Details"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": ["dsmvengelec:DefaultRelMask.utc"],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": [],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": ["getItems", "DELETE", "BULKUPDATE", "PATCHBulk", "DELETEBulk"]
+  },
+
+  "dsengelec:Properties": {
+    "summary": "Properties extension",
+    "description": "Properties extension",
+
+    "PUBLICMasks": ["dsmvengelec:PropertiesMask"],
+
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+
+    "PUBLICFields": [],
+    "PROTECTEDFields": ["dsmvengelec:attribute.properties.nominalpower"],
+    "PRIVATEFields": [],
+
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+
+    "PUBLICExcludedURIs": []
+  }
+}

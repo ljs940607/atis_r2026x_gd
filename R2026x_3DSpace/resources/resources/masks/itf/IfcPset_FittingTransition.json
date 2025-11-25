@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_FittingTransition_NominalLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingTransition_EccentricityInY",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_FittingTransition_EccentricityInZ",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,496 @@
+{
+  "version": "2.0",
+
+  "isDefault" :  true,
+
+  "description2": [
+    "Each entry in 'viewSetSelectorArray' gives:",
+    "     the path of a view definition set (AMD) module file,",
+    "     the name of a view def set (within that file),",
+    "     optionally, a description of the case",
+    "     the conditions (UseCases) under which this viewSet is to be used which is an array",
+    " ",
+    " Conditions will likely evolve over time.  For now we use:",
+    "     app                     -- the name of the application we want to use (COMPARE, MERGE,...)",
+    "     roles                   -- (can be ['*'] which is default for CSV) the roles applicable",
+    "     minNumberOfObjects      -- Minimum Number of objects for comparison. DEFAULT is 2",
+    "     maxNumberOfObjects      -- Minimum Number of objects for comparison. DEFAULT is 2. For no limit put -1",
+    "     defaultPropertiesOnly   -- For default internal compare only. DO NOT USE. The view set is the default properties only comparison for unsupported types",
+    "     typeInfoArray           -- array containing the type info for comparison [{ ",
+    "                                             type -- the type of object. DEFAULT is *",
+    "                                          service -- the service of the object. DEFAULT is * ",
+    "                     requiredInterfacesinterfaces -- array of required interfaces. DEFAULT null. When match considered only when all interfaces match input",
+    "                        optionalAllowedInterfaces -- DEFAULT * i.e. any interface is allowed. For specific ones allowed supply a list",
+    "       }] ",
+    "",
+    " *NOTES*",
+    " 1. For matching a type to itself only one entry required in the typeInfoArray",
+    " 2. For the same type and two different set of requiredInterfaces, or two different types separate entries required in the typeInfoArray",
+    " 3. For no interfaces put empty arrays for both required and optional interfaces i.e. []",
+    " 4. Interface matching only applicable for 3DSpace as of now"
+  ],
+
+  "viewSetSelectorArray": [
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/DefaultProps_ViewDef",
+      "viewSetName": "PROPS_ONLY",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "minNumberOfObjects": 3,
+          "maxNumberOfObjects": 5,
+          "typeInfoArray": [
+            {
+              "type": "*",
+              "service": "*"
+            }
+          ],
+          "defaultPropertiesOnly": true
+        }
+      ],
+
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "mainToolbarDisplayViews",
+            "mainToolbarSwap",
+            "mainToolbarExport",
+            "mainToolbarLeftObjectColor",
+            "mainToolbarLeftObjectString",
+            "mainToolbarRightObjectColor",
+            "mainToolbarRightObjectString",
+            "mainToolbarCustomizationProfile",
+            "mainToolbarEditCustomization",
+            "compareSettings.includeFacets.externalRelations",
+            "mainToolbarRestoreLayout"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/VPMRef_ViewDefs",
+      "viewSetName": "STRUCT_PROPS_INST_EFF_PAD3D",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMRepReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMReference",
+              "service": "3DSpace"
+            },
+            {
+              "type": "VPMRepReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "POE" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMReferenceExtPos",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": []
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/DefaultViewDefs_V2",
+      "viewSetName": "PROPS_AND_STRUCT",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Workspace",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Workspace Vault",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/DefaultViewDefs_V2",
+      "viewSetName": "STRUCT_PROPS_EFF",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "RFLPLMFunctionalReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "RFLVPMLogicalReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "DELLmiAbstractProductionEntity",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/CreateAssembly_ViewDefs",
+      "viewSetName": "STRUCT_PROPS_INST_EFF",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "CreateAssembly",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json"
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/AxisSystemRef_ViewDefs",
+      "viewSetName": "STRUCT_PROPS_INST_EFF",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "POE" ],
+          "typeInfoArray": [
+            {
+              "type": "AxisSystemReference",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json"
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/CATProductViewDefs",
+      "viewSetName": "STANDARD",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "CATProduct",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "CATPart",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/RequirementSpecViewDef",
+      "viewSetName": "STANDARD_REQ",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Requirement Specification",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Requirement",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/ProductsViewDefs_V2",
+      "viewSetName": "PRODUCTS_PROPS_AND_STRUCT",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Products",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/PartViewDefs_V2",
+      "viewSetName": "STANDARD",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Part",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/DocumentViewDefs_V2",
+      "viewSetName": "STANDARD",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "Document",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/PortfolioViewDefs_V2",
+      "viewSetName": "PORTFOLIO_STANDARD",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "dsxpfl:PortfolioVersion",
+              "service": "3dportfolio"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "dscpfl:SellableItem",
+              "service": "3dportfolio"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+    {
+      "viewSetMod": "DS/CompareWidget2/ViewDefModules/DefaultProps_ViewDef",
+      "viewSetName": "PROPS_ONLY",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "*",
+              "service": "*"
+            }
+          ],
+          "defaultPropertiesOnly": true
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMReferenceExtPos",
+              "service": "3DSpace"
+            },
+            {
+              "type": "*",
+              "service": "*"
+            }
+          ]
+        },
+        {
+          "app": "COMPARE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "AxisSystemReference",
+              "service": "3DSpace"
+            },
+            {
+              "type": "*",
+              "service": "*"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "mainToolbarCustomizationProfile",
+            "mainToolbarEditCustomization",
+            "mainToolbarDisplayViews",
+            "mainToolbarExport",
+            "compareSettings.includeFacets.externalRelations",
+            "mainToolbarRestoreLayout"
+          ]
+        }
+      ]
+    }
+  ]
+}

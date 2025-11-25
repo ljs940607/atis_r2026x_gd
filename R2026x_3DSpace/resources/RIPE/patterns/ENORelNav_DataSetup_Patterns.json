@@ -1,0 +1,28 @@
+{
+	"relations": [
+		{
+			"name": "datasetup_resource_to",
+			"computepath": "to",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "relation", "qualityFilter": {"rel_type": "PLMResourceSet2SubItem"}, "direction": "to"},
+					{"navigationType": "relation", "qualityFilter": {"rel_type": "PLMResourceSetSubItemResource"}, "direction": "to"}]},
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "233", "semantics": "1"}, "direction": "to"}]}
+			]
+		},
+		{
+			"name": "datasetup_resource_from",
+			"computepath": "from",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "relation", "qualityFilter": {"rel_type": "PLMResourceSetSubItemResource"}, "direction": "from"},
+					{"navigationType": "relation", "qualityFilter": {"rel_type": "PLMResourceSet2SubItem"}, "direction": "from"}],
+				"keepTypes": ["PLMResourceSetRepReference"]},
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "233", "semantics": "1"}, "direction": "from"}],
+			  		"keepTypes": ["PLMResourceSetRepReference"]}
+			]
+        }
+	]
+}

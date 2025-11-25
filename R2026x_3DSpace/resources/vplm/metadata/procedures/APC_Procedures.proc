@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProcedurePackage xmlns="PLMDictionaryProcedure" Name="APC_Procedures">
+	<Procedure Name="AppearanceRepExport">
+		<Implementation Name="AppearanceRepExport" FileLocation="AppearanceRepExport.KProc" Language="EKL"/>
+		<Signature href="APC_ProcedureSignatureExport"/>
+	</Procedure>
+
+	<Signature id="APC_ProcedureSignatureExport">
+		<Parameter Name="InputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="in" DataType="PLMId"/>
+		<Parameter Name="OutputIds" Lower="0" Upper="-1" MultiValuated="Yes" Direction="out" DataType="PLMId"/>
+	</Signature>
+</ProcedurePackage>

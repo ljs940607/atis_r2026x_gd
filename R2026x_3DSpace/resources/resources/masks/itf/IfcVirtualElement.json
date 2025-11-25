@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcVirtualElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcVirtualElement_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcVirtualElement_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "CivilEngineeringElementIfc" UseNames = "CivilEngineeringElement" Uuid = "D69F56C7-B3D9-4B01-86DB-16B58B5E466B" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcCivilElement" ScopeNames = "CivilEngineeringElement" Uuid = "8E937470-40D1-4230-8963-02B4686D50AB">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcCivilElement_ObjectType" Protection = "Free" Type = "String" Uuid = "8E937470-40D1-4230-8963-1ad52eb2ea5e"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcCivilElement_Tag" Protection = "Free" Type = "String" Uuid = "8E937470-40D1-4230-8963-ed12431a92f4"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcCivilElementType" ScopeNames = "CivilEngineeringElementType" Uuid = "CB5445A6-A59A-4DFB-8371-9ABD219DB572">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcCivilElementType_Tag" Protection = "Free" Type = "String" Uuid = "CB5445A6-A59A-4DFB-8371-cc2a36316812"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcCivilElementType_ElementType" Protection = "Free" Type = "String" Uuid = "CB5445A6-A59A-4DFB-8371-4fccfb51960c"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_CivilElementCommon" ScopeNames = "CivilEngineeringElement CivilEngineeringElementType" Uuid = "A0B46081-2266-4543-9795-BF53BE3F10FA">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_CivilElementCommon_Reference" Protection = "Free" Type = "String" Uuid = "C7C643D5-1ED6-4AF9-9253-F8CAE2DA6DA3"/>
+    <Simple CAAExposition = "L0" DefaultValue = "UNSET" MaxLength = "255" Name = "IfcPset_CivilElementCommon_Status" Protection = "Free" Type = "String" Uuid = "DE6AA8F0-D639-4839-8D97-D6BD67E1DA30">
+      <Range>
+        <Equal>NEW</Equal>
+        <Equal>EXISTING</Equal>
+        <Equal>DEMOLISH</Equal>
+        <Equal>TEMPORARY</Equal>
+        <Equal>OTHER</Equal>
+        <Equal>NOTKNOWN</Equal>
+        <Equal>UNSET</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+</Package>

@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_MaximumNumberOfConnectedRUs",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_TransmissionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_TransmittedBandwidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_TransmittedFrequency",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_TransmittedSignal",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMasterUnit_MasterUnitType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_LinearPlacementInformation_DistanceAlong",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LinearPlacementInformation_OffsetLateral",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LinearPlacementInformation_OffsetVertical",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_LinearPlacementInformation_OffsetLongitudinal",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

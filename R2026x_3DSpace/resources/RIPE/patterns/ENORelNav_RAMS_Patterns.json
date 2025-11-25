@@ -1,0 +1,559 @@
+{
+    "relations": [{
+            "name": "core_reference_fallible_reference_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "410",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }, {
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        },
+        {
+            "name": "core_reference_fallible_reference_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "to"
+                }, {
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "410",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "fallible_reference_failure_mode_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "to"
+                }],
+                "keepTypes": ["FailureMode"]
+            }]
+        }, {
+            "name": "fallible_reference_failure_mode_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        },
+        {
+            "name": "fallible_reference_rate_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "to"
+                }, {
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "409",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "fallible_reference_rate_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "409",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }, {
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "failure_mode_rate_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "408",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "failure_mode_rate_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "408",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "analyzed_item_fmea_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "426",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }, {
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "analyzed_item_fmea_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "to"
+                }, {
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "426",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "fmea_causality_relationship_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "to"
+                }],
+                "keepTypes": ["FailureModesEffectsAnalysisCausalityRelationship"]
+            }]
+        }, {
+            "name": "fmea_causality_relationship_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_cause_failure_mode_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "422",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_cause_failure_mode_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "422",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_cause_occurrence_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "423",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_cause_occurrence_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "423",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_effect_without_barrier_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "424",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_effect_without_barrier_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "424",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_effect_without_barrier_occurrence_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "441",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_effect_without_barrier_occurrence_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "441",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_prevention_control_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "444",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_prevention_control_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "444",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_detection_control_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "443",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_detection_control_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "443",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_recommended_action_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "523",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_recommended_action_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "523",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_higher_level_effect_without_barrier_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "582",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_proof_of_prevention_effectiveness_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "584",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_proof_of_prevention_implementation_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "585",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_proof_of_detection_implementation_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "587",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_proof_of_detection_effectiveness_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "586",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_prevention_opimization_action_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "588",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_detection_opimization_action_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "589",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_has_baseline_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "640",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }, {
+            "name": "causality_relationship_has_baseline_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "640",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        }, {
+            "name": "failure_mode_fault_tree_element_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "to"
+                }, {
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "411",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        },
+        {
+            "name": "failure_mode_fault_tree_element_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "411",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }, {
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMPort/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        },
+        {
+            "name": "fault_tree_element_child_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "PLMCoreInstance"
+                    },
+                    "direction": "to"
+                }],
+                "keepTypes": ["FaultTreeElementChild"]
+            }]
+        }, {
+            "name": "fault_tree_element_child_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "PLMCoreInstance"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        },
+        {
+            "name": "generic_fmea_fmea_to",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "555",
+                        "semantics": "5"
+                    },
+                    "direction": "from"
+                }, {
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "from"
+                }]
+            }]
+        },
+        {
+            "name": "generic_fmea_fmea_from",
+            "queries": [{
+                "definition": [{
+                    "navigationType": "relation",
+                    "qualityFilter": {
+                        "rel_type": "VPLMrel/PLMConnection/V_Owner"
+                    },
+                    "direction": "to"
+                }, {
+                    "navigationType": "SR",
+                    "qualityFilter": {
+                        "role": "555",
+                        "semantics": "5"
+                    },
+                    "direction": "to"
+                }]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+
+<Package
+	xmlns="PLMDictionaryUnified"
+	Name="PLMCompositesProductUnified"
+	Uuid="4D62907A-61D5-4D5F-B7E7-86052001804D"
+	UseNames="ERCoreModeler;PRODUCTCFG"
+	BelongsToModeler="PLMCompositesProduct"
+	CustomerExposition="Programmer"
+	ModelerType="Top"
+	Architecture="All">
+	
+  <RelationClass
+	Name="ExplodedCompositesEntities"
+	Uuid="283905EE-FA9A-4F0A-84B3-A66BCFC1F0AB"
+	SuperName="RelationType">
+
+	<Simple Name="V_Sync_Status" Uuid="B96BAC5E-9EEA-4BFC-BB18-D0CD1849C623" Type="Integer"  Protection="External">
+		<Range>
+			<Equal>0</Equal>
+			<Equal>1</Equal>
+		</Range>
+	</Simple>	
+	<SubClause Name="from" TargetName="VPMReference" />	
+	<SubClause Name="to" TargetName="VPMReference" minorrevision="replicate" clone="replicate"/>		
+  </RelationClass>
+  
+</Package>

@@ -1,0 +1,11 @@
+{
+    "Write": {
+        "attributes": [
+            {
+                "name": "V_ContQuantity",
+                "status": "RW"
+            }
+        ]
+    },
+    "revision": "0"
+}

@@ -1,0 +1,50 @@
+{
+	"type": "object",
+	"properties": {
+		"items": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"translationIdToBeReplaced": {
+						"type": "string",
+						"example": "T1XXX79CEF11C472C9537094C2FA8T1XX"
+					},
+					"translationDetails": {
+						"type": "object",
+						"properties": {
+							"objectReferences": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"source": {
+											"type": "string",
+											"example": "$3DSpace"
+										},
+										"type": {
+											"type": "string",
+											"example": "DELWkiInstructionReference"
+										},
+										"identifier": {
+											"type": "string",
+											"example": "RAAA79CEF11C472C9537094C2FA8RAAA"
+										},
+										"relativePath": {
+											"type": "string",
+											"example": "/resources/v1/modeler/dsprcs/dsprcs:Instruction/RAAA79CEF11C472C9537094C2FA8RAAA"
+										},
+										"revision": {
+											"type": "string",
+											"example": "A"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

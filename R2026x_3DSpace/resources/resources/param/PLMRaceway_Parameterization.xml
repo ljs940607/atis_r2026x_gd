@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="Raceway3D">
+	<Domain id="AttributeDef">
+        <Family id="Raceway_Branch" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Branch">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Branch"/>
+        </Family>
+        <Family id="Raceway_Cross" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Cross">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Cross"/>
+        </Family>
+		<Family id="Raceway_Elbow" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Elbow">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Elbow"/>
+        </Family>
+		<Family id="Raceway_Port" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Port">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Port"/>
+        </Family>
+		<Family id="Raceway_Reducer" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Reducer">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Reducer"/>
+        </Family>
+		<Family id="Raceway_Spool" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Spool">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Spool"/>
+        </Family>
+		<Family id="Raceway_Tee" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Tee">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Tee"/>
+        </Family>
+		<Family id="Raceway_Tray" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Tray">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Tray"/>
+        </Family>
+		<Family id="Raceway_TrayXPort" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_TrayXPort">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_TrayXPort"/>
+        </Family>
+		<Family id="Raceway_Miscellaneous" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raceway_Miscellaneous">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLMRaceway"/>
+            <Constant id="type" value="Raceway_Miscellaneous"/>
+        </Family>
+		<Family id="Raw_Material_Tray" regSuite="Framework" collabApps="GlobalDesign" nlsKey="emxFramework.Type.Raw_Material_Tray">
+            <Constant id="appType" value="VPM"/>
+            <Constant id="package" value="PLM3DFluidicRaw"/>
+            <Constant id="type" value="Raw_Material_Tray"/>
+		</Family>
+  </Domain>
+</OOTBParameterization>
+
+
+

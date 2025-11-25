@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ProcessCapacity_ProcessItem",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProcessCapacity_ProcessCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProcessCapacity_ProcessPerformance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProcessCapacity_DownstreamConnections",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ProcessCapacity_UpstreamConnections",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

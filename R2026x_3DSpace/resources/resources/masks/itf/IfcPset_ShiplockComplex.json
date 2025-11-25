@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ShiplockComplex_LockGrade",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockComplex_LockLines",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockComplex_LockChamberLevels",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShiplockComplex_LockMode",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

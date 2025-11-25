@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<!-- ENOVIA DICTIONARY FOR Knowledgeware Shape Duplication extension declaration -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified" 
+         ModelerType="Top"  
+         Name="CATKweShapeDuplication" 
+         Uuid="4fd36c9d-7ac7-4ef2-9567-72281C340ecc" 
+         CustomerExposition="Programmer" 
+         UseNames="PLMCORE" >
+  
+  <CAAComment>
+    <ShortRole>Knowledgeware extension package</ShortRole>
+    <Role>This package contains meta datas of extension dedicated to expose Shape duplicated during Part comparison command at DB level</Role>
+  </CAAComment>
+  <Comment>Creation 2025-07-21</Comment>
+
+  
+
+  <!-- *************************************** -->
+  <!-- *  Extension * -->
+  <!-- *************************************** -->
+  <Extension
+    Name="CATKweShapeComparisonExtension"
+    Uuid="9a200f59-d979-4088-a20e-b8de51e814c7"
+    CustomerExposition="None"
+    ScopeNames="PLMCoreRepReference"
+   ><CAAComment>
+      <ShortRole>Knowledgeware extension dedicated to expose Shape duplicated during Part Comparison command at DB level</ShortRole>
+      <Role>Knowledgeware extension dedicated to expose Shape duplicated during Part Comparison command at DB level</Role>
+    </CAAComment>
+    <Simple
+      Name="V_ReferenceShapeId"
+      Uuid="9692d3d3-6b96-4C30-baaa-71aa6d9ef7d8"
+      Protection="Internal"
+      Type="String"/>
+  </Extension>
+</Package>
+
+

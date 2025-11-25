@@ -1,0 +1,44 @@
+{
+	"properties": {
+		"operationPID": {
+			"type": "string",
+			"description": "Reference ID of an operation.",
+			"example": "5697398700006374663CD9D50000F4A6"
+		},
+		"experience": {
+			"type": "object",
+			"properties": {
+				"reference": {
+					"type": "object",
+					"properties": {
+						"PID": {
+							"type": "string",
+							"description": "Reference id of experience",
+							"example": "BB52965670CA0A006643BEF200001C84"
+						},
+						"type": {
+							"type": "string",
+							"description": "Reference type of experience",
+							"example": "3DWorkInstruction3DCom"
+						}
+					}
+				},
+				"instance": {
+					"type": "object",
+					"properties": {
+						"PID": {
+							"type": "string",
+							"description": "Reference id of experience connection",
+							"example": "BB52965670CA0A006643BEF200001C92"
+						},
+						"type": {
+							"type": "string",
+							"description": "Reference type of experience connection",
+							"example": "3DWorkInstruction3DComRepInstance"
+						}
+					}
+				}
+			}
+		}
+	}
+}

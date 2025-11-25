@@ -1,0 +1,8 @@
+{
+    "owner": "LQ2",
+    "description": "Real representation of things",
+    "service": "r2vsurvey",
+    "urls": {
+        "fetch": "/enovia/resources/r2v/modeler/v2/i3dx/fetch"
+    }
+}

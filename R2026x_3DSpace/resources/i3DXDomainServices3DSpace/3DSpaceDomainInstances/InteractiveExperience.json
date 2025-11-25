@@ -1,0 +1,13 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "InteractiveExperience",
+    "description": "Authoring representations of realtime and interactive experiences.",
+    "packages": [
+        "PLMExp3DExperience",
+        "PLMExpActor3DExperience",
+        "PLMExpBehavior3DExperience",
+        "PLMExpCommercialTwin",
+        "RealtimeExperience",
+        "InteractiveExperience"
+    ]
+}

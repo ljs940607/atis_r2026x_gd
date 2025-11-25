@@ -1,0 +1,27 @@
+{	
+	"dssmrm:SheetMetalRawMaterial": {
+        "isPublic": true,
+	    "kindOf": "root",
+        "beType": "type_Raw_Material_SheetMetal",
+		"patchCSRF" : true,
+        "attributeMappingClass": "com.dassault_systemes.catia.xapps.dssmrm.V1.dictionaries.dssmrmAttributeDictionary",
+        "extensionLinks": ["dssmrm:EnterpriseAttributes", "dseng:EnterpriseReference", "dslc:changeControl"],
+	    "cestamp": true,
+        "patchChangeLog": true,
+        "changeSupport": true,
+        "customizationSupport":true,
+	    "optionCheck" : {
+        	"modify"      : true,
+        	"produce"     : true,
+        	"navigate"    : false
+        },
+        "search":true,
+        "defaultMask": "dssmrm:SheetMetalRawMaterialMask.Common"
+    },
+    "dssmrm:EnterpriseAttributes": {
+        "isPublic" : true,
+        "kindOf":"extension",   
+        "beType": "XP_Raw_Material_SheetMetal_Ext",
+        "customerAttribute":true
+    }
+}

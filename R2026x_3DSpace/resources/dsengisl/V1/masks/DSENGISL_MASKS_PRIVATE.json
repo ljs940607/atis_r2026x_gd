@@ -1,0 +1,38 @@
+{
+  "dsmvengisl:DefaultBusMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:VPMNameDescriptionMask"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengisl:BaseMask.utc"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengisl:BusBasicPropertiesMask"
+    }
+  ],
+  "dsmvengisl:DefaultRelMask.utc": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengisl:BaseMask.utc"
+    },
+    "dsmveno:attribute.instance.name",
+    "dsmveno:attribute.instance.description"
+  ],
+  "dsmvengisl:BaseMask.utc": [
+    "dsmveno:basic.id",
+    "dsmveno:basic.type.public",
+    "dsmveno:basic.modified.utc",
+    "dsmveno:basic.created.utc"
+  ],
+  
+  "dsmvengisl:BusBasicPropertiesMask":[
+    "dsmveno:basic.revision",
+    "dsmveno:basic.state.public",
+    "dsmvengisl:basic.owner",
+    "dsmveno:basic.organization",
+    "dsmveno:basic.collabspace"
+  ]
+}

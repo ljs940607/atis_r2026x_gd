@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcGeoScienceFeature_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcGeoScienceFeature_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcGeoScienceFeature_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

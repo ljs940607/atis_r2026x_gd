@@ -1,0 +1,33 @@
+{
+	"dsppr:PPRContextMask.Common":[
+		"dsmveno:attribute.reference.name",
+		"dsmveno:attribute.reference.title",
+		"dsmveno:attribute.reference.description",
+		"dsmveno:basic.id",
+		"dsmveno:basic.type.public",
+		"dsmveno:basic.modified.utc",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.revision",
+		"dsmveno:basic.state.public",
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace"
+	],
+	"dsppr:PPRContextMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsppr:PPRContextMask.Common"
+		}
+	],
+	"dsppr:PPRContextMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsppr:PPRContextMask.Common"
+		},
+		"dsppr:EngItem.referencedObject",
+		"dsppr:MfgItem.referencedObject",
+		"dsppr:MfgPrcs.referencedObject",
+		"dsppr:Resource.referencedObject"	
+	]
+}
+

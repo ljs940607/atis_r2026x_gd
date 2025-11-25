@@ -1,0 +1,44 @@
+{
+	"dsrsc:WarehouseLocationReference.estimatedVolume": {
+		"property": "computed",
+		"key": "estimatedVolume",
+		"example": "{magnitude:\"VOLUME\",value:\"1000\",unit:\"m3\"}",
+		"fetchOnce": true,
+		"description": "EstimatedVolume for a Warehouse Location"
+	},
+	"dsrsc:WarehouseLocationReference.volume": {
+		"property": "computed",
+		"key": "volume",
+		"example": "{magnitude:\"VOLUME\",value:\"1000\",unit:\"m3\"}",
+		"fetchOnce": true,
+		"description": "Volume for a Warehouse Location"
+	},
+	"dsrsc:WarehouseLocationReference.aisle": {
+		"property": "attribute[ResourceWarehouseLocationReference.V_Aisle]",
+		"key": "aisle",
+		"example": "String value",
+		"index": "bo.ResourceWarehouseLocationReference.V_Aisle",
+		"description": "Aisle in a Warehouse Location"
+	},
+	"dsrsc:WarehouseLocationReference.row": {
+		"property": "attribute[ResourceWarehouseLocationReference.V_Row]",
+		"key": "row",
+		"example": "String value",
+		"index": "bo.ResourceWarehouseLocationReference.V_Row",
+		"description": "Row in a Warehouse Location"
+	},
+	"dsrsc:WarehouseLocationReference.tier": {
+		"property": "attribute[ResourceWarehouseLocationReference.V_Tier]",
+		"key": "tier",
+		"example": "String value",
+		"index": "bo.ResourceWarehouseLocationReference.V_Tier",
+		"description": "Tier in a Warehouse Location"
+	},
+	 "dsrsc:instanceDetails.referencedObject": {
+    	"property": "computed",
+        "key": "referencedObject",
+        "fetchOnce": true,
+        "example": "com.dassault_systemes.enovia.xapps.dsrsc.implementations.dsrscOpenAPIImpl.getGenericReferenceObject",
+        "description": "Object referenced by the instance"
+	}
+}

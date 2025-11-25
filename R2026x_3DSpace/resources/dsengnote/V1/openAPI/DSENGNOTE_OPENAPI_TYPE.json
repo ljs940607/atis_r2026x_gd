@@ -1,0 +1,31 @@
+{
+  "dsengnote:EngNoteTemplate": {
+    "summary": "Engineering Note Template",
+    "description": "Engineering Note Template",
+    "PUBLICMasks": [],
+    "PROTECTEDMasks": ["dsmvengnote:EngNoteTemplateMask.Default",
+                    "dsmvengnote:EngNoteTemplateMask.StandardResources", 
+                    "dsmvengnote:EngNoteTemplateMask.Entries"],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PRIVATEFields" : [],
+    "PUBLICExcludedURIs":["getItems","bulkfetch", "bulkUpdate", "GETAll","DELETEBulk"]
+  },
+  "dsengnote:EngNote": {
+    "summary": "Engineering Note",
+    "description": "Engineering Note",
+    "PUBLICMasks": [],
+    "PROTECTEDMasks": ["dsmvengnote:EngNoteMask.Default",
+                    "dsmvengnote:EngNoteMask.Entries",
+                    "dsmvengnote:EngNoteMask.AffectedInstances"],
+    "PRIVATEMasks": [],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": [],
+    "PRIVATEFields" : [],
+    "PUBLICExcludedURIs":["getItems","bulkfetch", "bulkUpdate", "GETAll","DELETEBulk"]
+  }
+}

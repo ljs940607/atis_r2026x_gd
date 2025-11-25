@@ -1,0 +1,45 @@
+{
+	"properties": {
+		"referencedObject": {
+			"type": "object",
+			"required": [
+				"identifier"
+			],
+			"properties": {
+				"source": {
+					"description": "source",
+					"type": "string",
+					"example": "https://server_name.dsone.3ds.com:443/3DSpace"
+				},
+				"type": {
+					"description": "Type name",
+					"type": "string",
+					"example": "DELLmiWorkPlanSystemReference"
+				},
+				"identifier": {
+					"description": "Physical Id of  Reference",
+					"type": "string",
+					"example": "physicalIdChildRef"
+				},
+				"relativePath": {
+					"description": "relativePath",
+					"type": "string",
+					"example": "resource/v1/dsprcs/dsprcs:MfgProcess/physicalIdChildRef"
+				}
+			}
+		},
+		"attributes": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string",
+					"example": "My name"
+				},
+				"description": {
+					"type": "string",
+					"example": "My description"
+				}
+			}
+		}
+	}
+}

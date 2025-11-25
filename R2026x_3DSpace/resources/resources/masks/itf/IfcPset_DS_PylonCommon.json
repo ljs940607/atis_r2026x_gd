@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_PylonCommon_Corrosivity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PylonCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PylonCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PylonCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_PylonCommon_SupplementaryHeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

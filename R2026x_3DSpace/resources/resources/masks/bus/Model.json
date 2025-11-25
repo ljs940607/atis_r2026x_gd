@@ -1,0 +1,22 @@
+{
+    "Write": {"attributes": [
+        {"name": "type"},
+        {"name": "name"},
+        {"name": "Marketing Name","status":"RW"},		
+        {"name": "description","status":"RW"},
+        {"name": "revision"},
+        {"name": "PLM_ExternalID"},
+        {"name": "owner"},
+        {"name": "originated"},
+        {"name": "modified"},
+        {"name": "organization"},
+        {"name": "project"},
+        {"name": "current"}
+    ]},
+    "details": {"attributes": {
+        "owner": {"mandatory": true},
+        "PLM_ExternalID": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"},
+        "name": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"}
+    }},
+    "revision": "1"
+}

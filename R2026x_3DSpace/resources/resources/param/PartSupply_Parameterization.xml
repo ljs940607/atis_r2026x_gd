@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<OOTBParameterization regSuite="PartSupplyPlatformParam">
+	<Domain id="PartSupplyParameterization" regSuite="PartSupplyPlatformParam">
+		<Family id="PartSupply3DSpaceIndexingManagement">
+			<Parameter id="NotConfigurableNodesOnly" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+				<Constant id="expression" value="NotConfigurableNodesOnlyValue" />
+			</Parameter>
+			<Parameter id="ManufacturableItemsOnly" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+				<Constant id="expression" value="ManufacturableItemsOnlyValue" />
+			</Parameter>
+			<Parameter id="PartsOnly" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+				<Constant id="expression" value="PartsOnlyValue" />
+			</Parameter>
+			<Parameter id="IndexedMaturityStates" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="string" input="comboboxmultiselect" default="FROZEN,RELEASED">
+				</Argument>
+				<Constant id="expression" value="IndexedMaturityStatesValue"/>
+			</Parameter>
+			<Parameter id="LatestRevisionOnly" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="boolean" input="checkbox" default="Disabled"/>
+				<Constant id="expression" value="LatestRevisionOnlyValue" />
+			</Parameter>
+			<Parameter id="FromStandardCollabSpacesOnly" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="boolean" input="checkbox" default="Enabled"/>
+				<Constant id="expression" value="FromStandardCollabSpacesOnlyValue" />
+			</Parameter>
+			<Parameter id="CollabSpacesWhiteList" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="string" input="textfield" default="[]"/>
+				<Constant id="expression" value="CollabSpacesWhiteListValue" />
+			</Parameter>
+		</Family>
+		<Family id="PartSupply3DSpaceCustomIndexingManagement">
+			<Parameter id="Preferred3DShapeAggregationRule" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="string" input="textfield" default="">
+				</Argument>
+				<Constant id="expression" value="Preferred3DShapeAggregationRuleValue"/>
+			</Parameter>
+		</Family>
+		<Family id="PartSupply3DSpaceIndexingManagementExclusionRules">
+			<Parameter id="ConcatenatedExclusionRules" processes="EPA,EPU" implementation="com.dassault_systemes.ootbConfiguration.deployment.impl.ParameterizationExpressionImpl" regSuite="PartSupplyPlatformParam">
+				<Argument id="Argument" type="string" input="textfield" default="">
+				</Argument>
+				<Constant id="expression" value="ConcatenatedExclusionRulesValue"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

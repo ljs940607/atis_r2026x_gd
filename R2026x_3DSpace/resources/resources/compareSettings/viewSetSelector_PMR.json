@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "viewSetSelectorArray": [
+    {
+      "viewSetMod": "DS/DELCompareIntegration/viewdefs/DELGeneralSystemViewDef",
+      "viewSetName": "WI_VIEW",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "MFN", "SIE", "MGA", "RME", "COSUC", "SVR", "PMR"],
+          "typeInfoArray": [
+            {
+              "type": "DELLmiAbstractProductionEntity",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+    {
+      "viewSetMod": "DS/DELCompareIntegration/viewdefs/DELCreateAssemblyViewDef",
+      "viewSetName": "MFN_STRUCT_PROPS_INST_EFF_CHAR",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "MFN", "SIE", "MGA", "RME", "COSUC", "SVR", "PMR" ],
+          "typeInfoArray": [
+            {
+              "type" : "CreateAssembly",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+    {
+      "viewSetMod": "DS/DELCompareIntegration/viewdefs/DELCreateAssemblyViewDef",
+      "viewSetName": "MFN_STRUCT_PROPS_INST_EFF_CHAR",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "MFN", "SIE", "MGA", "RME", "COSUC", "SVR", "PMR" ],
+          "typeInfoArray": [
+            {
+              "type" : "DELFmiFunctionReference",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    },
+    {
+      "viewSetMod": "DS/DELCompareIntegration/viewdefs/DELServiceAssemblyViewDef",
+      "viewSetName": "STRUCT_PROPS_INST_EFF",
+      "UseCases": [
+        {
+          "app": "COMPARE",
+          "roles": [ "MFN", "SIE", "MGA", "RME", "COSUC", "SVR", "PMR" ],
+          "typeInfoArray": [
+            {
+              "type": "DELServiceAssemblyReference",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareWidget2/assets/config/MainToolBarConfig.json",
+          "DoNotInclude": [
+            "compareSettings.includeFacets.externalRelations"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+

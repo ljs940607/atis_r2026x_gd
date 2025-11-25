@@ -1,0 +1,140 @@
+{
+  "version": "2.0",
+
+  "isDefault" :  true,
+
+  "description2": [
+    "Each entry in 'viewSetSelectorArray' gives:",
+    "     the path of a view definition set (AMD) module file,",
+    "     the name of a view def set (within that file),",
+    "     optionally, a description of the case",
+    "     the conditions (UseCases) under which this viewSet is to be used ",
+    " ",
+    " Conditions will likely evolve over time.  For now we use:",
+    "     app                     -- the name of the application we want to use (COMPARE, MERGE,...)",
+    "     roles                   -- (can be ['*'] which is default for CSV) the roles applicable",
+    "     preferredRole           -- preferred role for this use case. This will move the view set selector to the top of the list",
+    "     minNumberOfObjects      -- Minimum Number of objects for comparison. DEFAULT is 2",
+    "     maxNumberOfObjects      -- Minimum Number of objects for comparison. DEFAULT is 2. For no limit put -1",
+    "     defaultPropertiesOnly   -- For default internal compare only. DO NOT USE. The view set is the default properties only comparison for unsupported types",
+    "     typeInfoArray           -- array containing the type info for comparison { ",
+    "                                             type -- the type of object. DEFAULT is *",
+    "                                          service -- the service of the object. DEFAULT is * ",
+    "                     requiredInterfacesinterfaces -- array of required interfaces. DEFAULT null. When match considered only when all interfaces match input",
+    "                        optionalAllowedInterfaces -- DEFAULT * i.e. any interface is allowed. For specific ones allowed supply a list",
+    "       } ",
+    "",
+    " *NOTES*",
+    " 1. For matching a type to itself only one entry required in the typeInfoArray",
+    " 2. For the same type and two different set of requiredInterfaces, or two different types separate entries required in the typeInfoArray",
+    " 3. For no interfaces put empty arrays for both required and optional interfaces i.e. []",
+    " 4. Interface matching only applicable for 3DSpace as of now"
+  ],
+
+  "viewSetSelectorArray": [
+
+    {
+      "viewSetMod": "DS/CompareMergePlugin/ViewDefModules/MergeViewDefs",
+      "viewSetName": "MERGE_STANDARD",
+      "UseCases": [
+        {
+          "app": "MERGE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "VPMReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "MERGE",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "3DShape",
+              "service": "3DSpace"
+            }
+          ]
+        }
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareMergePlugin/assets/config/MainToolBarMergeConfig.json",
+          "DoNotInclude": [
+            "mainToolbarSwap",
+            "mainToolbarExport"
+          ]
+        }
+      ]
+    },
+
+    {
+      "viewSetMod": "DS/CompareMergePlugin/ViewDefModules/MergeRFLViewDefs",
+      "viewSetName": "MERGE_AND_PROPS_HORIZ",
+      "UseCases": [
+        {
+          "app": "NRF",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "RFLVPMLogicalReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "NRF",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "RFLPLMFunctionalReference",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "NRF",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "DIFLayout",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "NRF",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "DIFSheet",
+              "service": "3DSpace"
+            }
+          ]
+        },
+        {
+          "app": "NRF",
+          "roles": [ "*" ],
+          "typeInfoArray": [
+            {
+              "type": "DIFView",
+              "service": "3DSpace"
+            }
+          ]
+        }
+
+      ],
+      "MainToolbarConfig": [
+        {
+          "Location": "DS/CompareMergePlugin/assets/config/MainToolBarMergeConfig.json",
+          "DoNotInclude": [
+            "mainToolbarSwap",
+            "mainToolbarExport"
+          ]
+        }
+      ],
+      "userSettingsModule": "DS/CompareMergePlugin/userSettings/Merge"
+    }
+  ]
+}

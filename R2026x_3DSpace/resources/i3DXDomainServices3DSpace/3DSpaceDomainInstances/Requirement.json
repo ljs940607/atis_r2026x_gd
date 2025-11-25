@@ -1,0 +1,10 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "Requirement",
+    "description": "The domain instance for requirement objects in 3DSpace",
+    "packages": [
+        "Requirement",
+        "FTAGeometricalRequirement",
+        "FTARequirementExtention"
+    ]
+}

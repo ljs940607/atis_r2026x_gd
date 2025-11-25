@@ -1,0 +1,8 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "IllustratedItemCatalog",
+    "description": "The domain instance for Illustrated Item Catalog in 3DSpace",
+    "packages": [
+        "DELIllustratedItem"
+    ]
+}

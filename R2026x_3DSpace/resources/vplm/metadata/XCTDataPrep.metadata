@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2015, All rights reserved -->
+<Package
+    xmlns="PLMDictionaryUnified"
+    Name="XCTDataPrep"
+	Uuid="A7B5146C-4827-40A1-8533-AE4F2BC7337B"
+    UseNames="ERCoreModeler"
+    BelongsToModeler="XCTDataPrep"
+    CustomerExposition="Programmer"
+    ModelerType="Top"
+    Architecture="All">
+	<RelationClass
+	  Name="XCTIsPreparationOf"
+	  Uuid="6CEA8E02-A94A-472D-8AC9-CDCA704bE65F"
+	  CustomerExposition="Programmer"
+	  SuperName="RelationType"
+  >
+		<SubClause Name="from" TargetName="VPMReference"
+			cardinality="One"
+			clone="none"
+			minorrevision="none"
+			propagatemodify="No"
+			propagateconnection="No"/>
+		<SubClause Name="to" TargetName="VPMReference"
+			cardinality="One"
+			clone="none"
+			minorrevision="none"
+			propagatemodify="No"
+			propagateconnection="No"/>
+		<Method ImplementationType="None">
+			<RealizeMethodType href="ExportScope.meth#ExportScope" />
+		</Method>
+	</RelationClass>
+</Package>

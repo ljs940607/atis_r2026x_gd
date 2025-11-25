@@ -1,0 +1,49 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_WindowLiningProperties_LiningDepth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_LiningThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_TransomThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_MullionThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_FirstTransomOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_SecondTransomOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_FirstMullionOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_SecondMullionOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_LiningOffset",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_LiningToPanelOffsetX",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_WindowLiningProperties_LiningToPanelOffsetY",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

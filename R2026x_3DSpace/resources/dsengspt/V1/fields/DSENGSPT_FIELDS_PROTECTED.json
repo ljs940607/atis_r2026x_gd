@@ -1,0 +1,10 @@
+{
+  "dsmvengspt:attribute.entity.apptype": {
+    "property": "type",
+    "key": "apptype",
+    "description": "Applicative Type",
+    "label": "dsengspt.Label.Attribute.ApplicativeType",
+    "index": "type"
+  }
+  
+}

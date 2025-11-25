@@ -1,0 +1,12 @@
+{
+  "description": "Payload for Engineering Note modification",
+  "type": "object",
+  "properties": {
+    "title": { "$ref": "#/components/schemas/title" },
+    "description": {"$ref": "#/components/schemas/description"},
+    "entries":{"$ref": "#/components/schemas/noteEntries"},
+    "scope": {"$ref": "#/components/schemas/noteScope"},
+    "affectedInstances": {"$ref": "#/components/schemas/noteAffectedInstances" },
+    "cestamp": { "$ref": "#/components/schemas/cestamp" }
+  }
+}

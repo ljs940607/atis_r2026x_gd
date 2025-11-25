@@ -1,0 +1,21 @@
+{
+	"dsehm:ErgoHuman": {
+		"kindOf": "root",
+		"beType": "type_ErgoHuman",
+		"patchCSRF": false,
+		"search": true,
+		"extensionLinks": [
+		],
+		"contentLinks": [
+		],
+		"cestamp": true,
+		"optionCheck": {
+			"modify": false,
+			"produce": false,
+			"navigate": true
+		},
+		"defaultMask": "dsehm:ErgoHumanMask.Default",
+		"isPublic": false,
+		"publicResourceURI": "/resources/v1/modeler/dsehm/dsehm:ErgoHuman/{pid}"
+	}
+}

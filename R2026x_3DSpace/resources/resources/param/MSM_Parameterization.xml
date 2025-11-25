@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<OOTBParameterization>
+	<Domain id="MfgSessionManagementParameterization" regSuite="MfgSessionManagement">
+		<Family id="MSMSettings" icon="">
+			<Parameter id="MSM_Default_Classification"	implementation="com.dassault_systemes.content.parameterization.impl.msmparamsmanagement.MSMIOtbParameterizationImpl" regSuite="MfgSessionManagement">
+				<Argument id="Argument" type="string" input="textfield" default="" maxLength="123"/>
+				<Constant id="expression" value="MSM_Default_Classification"/>
+			</Parameter>
+		</Family>
+	</Domain>
+</OOTBParameterization>

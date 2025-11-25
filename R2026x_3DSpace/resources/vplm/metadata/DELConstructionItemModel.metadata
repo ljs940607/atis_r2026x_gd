@@ -1,0 +1,752 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELConstructionItemModel"
+         Uuid="60A65428-E6BC-42C0-AD5E-8DB9415F3549"
+         BelongsToModeler="DELFmiFunctionalModel"
+         UseNames="DELAsmAssemblyModelDisciplines"
+         UseProcedures="ENOFPrcs_Procedures"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>DELConstructionItemModel Package</ShortRole>
+    <Role>This package describes Construction Item Modeler</Role>
+  </CAAComment>
+  
+    <Class Name="DELFmiFunctionPPRConstructionCreateReference"
+		  Uuid="ACFA65F7-83C1-44AA-B1D4-EFC869671327"
+		  Abstract="Yes"
+		  Discipline="Yes"
+		  SuperName="DELFmiFunctionPPRDiscreteReference"
+		  Specializable="No"
+		  CustomerExtensible="No"
+		  CustomerExposition="Programmer"
+		  DeleteAvailability="Yes">
+	    
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkPackageAbstract"
+		  Uuid="D45035CE-BE0B-4E1B-928D-BBAF2984BA9F"
+		  Abstract="Yes"
+		  Discipline="Yes"
+		  SuperName="DELFmiFunctionPPRConstructionCreateReference"
+		  Specializable="No"
+		  CustomerExtensible="No"
+		  CustomerExposition="Programmer"
+		  DeleteAvailability="Yes">
+		  
+		<Simple Name="V_ContextualImplementLink"
+            Uuid="72421A0B-D98A-4A53-8B1B-4AFB16F68C1F"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+		  <CAAComment>
+			<ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+		  </CAAComment>
+		</Simple>
+	    
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkElementAbstract"
+		  Uuid="7F63125B-23C6-4FDE-BD17-7AF38AB37FE9"
+		  Abstract="Yes"
+		  Discipline="Yes"
+		  SuperName="DELFmiFunctionPPRConstructionCreateReference"
+		  Specializable="No"
+		  CustomerExtensible="No"
+		  CustomerExposition="Programmer"
+		  DeleteAvailability="Yes">
+		  
+		<Simple Name="V_ContextualImplementLink"
+            Uuid="8D0750E2-330B-4129-8EFD-52ECCC732469"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+		  <CAAComment>
+			<ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+		  </CAAComment>
+		</Simple>
+	    
+		<Method ImplementationType="AsFather">
+			<RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionStructure"
+			 Uuid="67F7B3B4-0C1E-47A1-A238-5BE140A359AA"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELFmiFunctionPPRConstructionCreateReference"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cstr"
+             InstantiationOwnerTypes="DELConstructionStructure"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionStructure"/>
+		<Property Name="3DIconName" Value="I_ConstructionStructure.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+		
+		<Simple Name="V_ContextualImplementLink"
+            Uuid="9FB9ABC7-2D7F-42B2-873D-894047C9F547"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+		  <CAAComment>
+			<ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+		  </CAAComment>
+		</Simple>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkPackageEach"
+			 Uuid="E1DBD57F-C46C-4B85-A21C-C70D85BC0356"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkPackageAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwpe"
+             InstantiationOwnerTypes="DELConstructionStructure"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkPackage"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkPackage.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkPackageGroup"
+			 Uuid="D9FC251C-0D45-4B85-BD38-955AC9E2E09F"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkPackageAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwpg"
+             InstantiationOwnerTypes="DELConstructionStructure"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkPackageGroup"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkPackageGroup.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkPackageLength"
+			 Uuid="D45B9AB6-0D30-44D4-81CB-704851841E50"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkPackageAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwpl"
+             InstantiationOwnerTypes="DELConstructionStructure"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkPackageLength"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkPackageLength.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkPackageArea"
+			 Uuid="A811DD45-9F78-433A-966B-EB9DFEB355DF"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkPackageAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwpa"
+             InstantiationOwnerTypes="DELConstructionStructure"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkPackageArea"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkPackageArea.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkElementEach"
+			 Uuid="C5902CB8-45F0-4CF5-8F0D-6E7840EFD552"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkElementAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwee"
+             InstantiationOwnerTypes="DELConstructionWorkPackageEach"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkElement"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkElement.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkElementArea"
+			 Uuid="A5C398A2-44AF-4D19-BD71-9D7D47F17958"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkElementAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwea"
+             InstantiationOwnerTypes="DELConstructionWorkPackageArea"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkElementArea"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkElementArea.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+		
+		<Simple Name="V_Quantity"
+            Uuid="AB41927B-1C44-4A0D-A923-325B123449EF"
+            Type="Double"
+            Magnitude="AREA"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Area Quantity</ShortRole>
+		  </CAAComment>
+		</Simple>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Class Name="DELConstructionWorkElementLength"
+			 Uuid="5CE9FCB1-C0B8-45A6-A2D2-B60FF4F6C46C"
+		     Abstract="No"
+			 Discipline="Yes"
+			 SuperName="DELConstructionWorkElementAbstract"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+		     CreateInstName="DELFmiFunctionIdentifiedInstance"
+             Abbreviation="cwel"
+             InstantiationOwnerTypes="DELConstructionWorkPackageLength"
+			 PublicResourceURI="/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{pid}">
+
+		<Property Name="XPGApplyDisciplineOnInstance" Value="Yes"/>
+		<Property Name="KweNew_InstanciationMethod" Value="DELPLMFProcessAdvDelegateInstanciation"/>
+		<Property Name="KweNew_ReturnedType" Value="DELFmiFunctionIdentifiedInstance"/>
+		<Property Name="IconName" Value="I_ConstructionWorkElementLength"/>
+		<Property Name="3DIconName" Value="I_ConstructionWorkElementLength.cgr"/>
+		<Property Name="Searchable" Value="Yes"/>
+		<Property Name="Newable" Value="All_CAA"/>
+		<Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+		
+		<Simple Name="V_Quantity"
+            Uuid="179076D0-4346-42ED-9AE9-54C72271346E"
+            Type="Double"
+            Magnitude="LENGTH"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Length Quantity</ShortRole>
+		  </CAAComment>
+		</Simple>
+
+		<Method ImplementationType="AsFather">
+		  <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+		</Method>
+		<Method ImplementationType="Self">
+		  <RealizeMethodType href="ExchangeScope.meth#ExchangeScope"/>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_GetAllEntities"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductOneLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductOneLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#ManufacturedProductAllLevel"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_ManufacturedProductAllLevel"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcess"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcess"/>
+		  </ProcedureForUsage>
+		  <ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProduct"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProduct"/>
+		  </ProcedureForUsage>
+		<ProcedureForUsage>
+			<Usage href="ExchangeScope.meth#XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+			<UsedProcedure href="ENOFPrcs_Procedures.proc#Process_ExchangeXPDM_XPDM2_MBOMWithoutProcessAndWithImplementEBOMOnly"/>
+		</ProcedureForUsage>
+		</Method>
+	</Class>
+	
+	<Extension Name="DELFmiInputForUnitTimeComputationAbstract"
+           Uuid="C6149709-190A-408F-932C-3F9E304E74A5"
+		   ScopeNames="DELConstructionWorkPackageEach;DELConstructionWorkPackageLength;DELConstructionWorkPackageArea"
+           Discipline="No"
+           Abstract="Yes"
+           Specializable="No"
+           CAAExposition="L0"     
+           CustomerExposition="Programmer">
+		   
+		<Simple Name="V_WorkerNumber"
+            Uuid="A0192F47-32B2-4684-90D3-743F5C787525"
+            Type="Double"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Number of workers</ShortRole>
+		  </CAAComment>
+		</Simple>
+		
+		<Simple Name="V_TimePerDay"
+            Uuid="A5899AE7-5F12-4A71-B66F-DDF8DE14B35D"
+            Type="Double"
+            Magnitude="TIME"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="27000"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Time per Day</ShortRole>
+		  </CAAComment>
+		</Simple>
+		
+		<Simple Name="V_Hazard"
+            Uuid="642478F4-A718-41D9-B3CF-197DDFF98F90"
+            Type="Double"
+            Magnitude="Ratio"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="0.0"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Hazard Ratio</ShortRole>
+		  </CAAComment>
+		</Simple>
+
+		<CAAComment>
+		  <ShortRole>Abstract Input for Unit Time Computation Abstract Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+	
+	<Extension Name="DELFmiInputForUnitTimeComputation"
+             Uuid="98C3A977-32DA-4C81-827A-A734F50D5B44"
+			 SuperName="DELFmiInputForUnitTimeComputationAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_QuantityPerDay"
+            Uuid="9A9F8517-91E2-426E-949F-9221F72A31B9"
+            Type="Double"
+            MultiValuated="No"
+            Protection="Free"
+            CAAExposition="L1"
+            DefaultValue="1.0"
+            >
+		  <CAAComment>
+			<ShortRole>Defines Quantity per Day</ShortRole>
+		  </CAAComment>
+		</Simple>
+    <CAAComment>
+      <ShortRole>Input for Unit Time Computation Extension</ShortRole>
+    </CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiInputForUnitTimeComputationLENGTH"
+             Uuid="4B891154-054B-4E02-98FD-0D402FE00352"
+			 SuperName="DELFmiInputForUnitTimeComputationAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_QuantityPerDay"
+				Uuid="3FB62F90-57C3-4DB6-A0A2-4082ABDB8EA0"
+				Type="Double"
+				Magnitude="LENGTH"
+				MultiValuated="No"
+				Protection="Free"
+				CAAExposition="L1"
+				DefaultValue="1.0"
+				>
+		  <CAAComment>
+			<ShortRole>Defines Quantity per Day Length</ShortRole>
+		  </CAAComment>
+		</Simple>
+		<CAAComment>
+		  <ShortRole>Input for Unit Time Computation Length Extension</ShortRole>
+		</CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiInputForUnitTimeComputationAREA"
+             Uuid="24B1FA23-B159-42B5-BF79-2EB8490707C4"
+			 SuperName="DELFmiInputForUnitTimeComputationAbstract"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_QuantityPerDay"
+				Uuid="857AC625-C423-44AF-8FCB-CE194D9B450C"
+				Type="Double"
+				Magnitude="AREA"
+				MultiValuated="No"
+				Protection="Free"
+				CAAExposition="L1"
+				DefaultValue="1.0"
+				>
+		  <CAAComment>
+			<ShortRole>Defines Quantity per Day Area</ShortRole>
+		  </CAAComment>
+		</Simple>
+		<CAAComment>
+		  <ShortRole>Input for Unit Time Computation Area Extension</ShortRole>
+		</CAAComment>
+  </Extension>
+  
+  <Extension Name="DELFmiManualUnitTime"
+             Uuid="8A89ED63-34B1-438D-832A-AC620684AD74"
+			 ScopeNames="DELConstructionWorkPackageArea;DELConstructionWorkPackageLength;DELConstructionWorkPackageEach;DELConstructionWorkPackageGroup"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="Programmer"
+             >
+
+		<Simple Name="V_UnitTime"
+				Uuid="83757D79-32E3-4994-90B2-F03F1DDBCF3A"
+				Type="Double"
+				Magnitude="TIME"
+				MultiValuated="No"
+				Protection="Free"
+				CAAExposition="L1"
+				DefaultValue="0.0"
+				>
+		  <CAAComment>
+			<ShortRole>Defines Unit Time</ShortRole>
+		  </CAAComment>
+		</Simple>
+		<CAAComment>
+		  <ShortRole>Manual Unit Time Extension</ShortRole>
+		</CAAComment>
+  </Extension>
+
+</Package>

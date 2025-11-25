@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcImprovedGround_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcImprovedGround_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcImprovedGround_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

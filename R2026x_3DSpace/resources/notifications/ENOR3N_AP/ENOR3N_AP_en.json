@@ -1,0 +1,146 @@
+{
+	"review.mentionned.setting": "Mention added",
+	"review.mentionned.new": "<strong>###FROM_USER###</strong> mentioned you in a review comment about <strong>###OBJECT_TITLE###</strong>",
+	"review.mentionned.new.mail.subject": "<strong>###FROM_USER###</strong> mentioned you in a review comment about <strong>###OBJECT_TITLE###</strong>",
+	"review.mentionned.new.mail.content": "<strong>###FROM_USER###</strong> mentioned you in a review comment about <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.mentionned.new.mail.title": "Someone mentioned you in a review",
+
+	"review.maturity.setting": "Maturity state changed",
+	"review.maturity.change": "<strong>###FROM_USER###</strong> changed the maturity state of review <strong>###OBJECT_TITLE###</strong> to ###MATURITY_STATE###",
+	"review.maturity.change.mail.subject": "<strong>###FROM_USER###</strong> changed the maturity state of review <strong>###OBJECT_TITLE###</strong> to ###MATURITY_STATE###",
+	"review.maturity.change.mail.content": "<strong>###FROM_USER###</strong> changed the maturity state of review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> to ###MATURITY_STATE###",
+	"review.maturity.change.mail.title": "Someone changed the maturity state in a review",
+	"review.maturity.draft": "Draft",	
+	"review.maturity.inwork": "In Work",	
+	"review.maturity.frozen": "Frozen",	
+	"review.maturity.released": "Released",	
+	"review.maturity.obsolete": "Obsolete",	
+
+	"review.validation.setting": "Validation state changed",
+	"review.validation.change": "<strong>###FROM_USER###</strong> changed the validation state of review <strong>###OBJECT_TITLE###</strong> to ###VALIDATION_STATE###",
+	"review.validation.change.mail.subject": "<strong>###FROM_USER###</strong> changed the validation state of review <strong>###OBJECT_TITLE###</strong> to ###VALIDATION_STATE###",
+	"review.validation.change.mail.content": "<strong>###FROM_USER###</strong> changed the validation state of review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> to ###VALIDATION_STATE###",
+	"review.validation.change.mail.title": "Someone changed the validation state in a review",
+	"review.validation.passed": "Passed",	
+	"review.validation.inprogress": "In Progress",	
+	"review.validation.failed": "Failed",
+
+	"review.reply.setting": "Reply added",
+	"review.slide.reply.new": "<strong>###FROM_USER###</strong> replied to the slide ###SLIDE_TITLE### of the review <strong>###OBJECT_TITLE###</strong>",
+	"review.slide.reply.new.mail.subject": "<strong>###FROM_USER###</strong> replied to the slide ###SLIDE_TITLE### of the review <strong>###OBJECT_TITLE###</strong>",
+	"review.slide.reply.new.mail.content": "<strong>###FROM_USER###</strong> replied to the slide ###SLIDE_TITLE### of the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.slide.reply.new.mail.title": "Someone replied to a slide in a review",
+	
+	"review.comment.reply.new": "<strong>###FROM_USER###</strong> replied to the comment ###COMMENT_SNIPPET### of the review <strong>###OBJECT_TITLE###</strong>",
+	"review.comment.reply.new.mail.subject": "<strong>###FROM_USER###</strong> replied to the comment ###COMMENT_SNIPPET### of the review <strong>###OBJECT_TITLE###</strong>",
+	"review.comment.reply.new.mail.content": "<strong>###FROM_USER###</strong> replied to the comment ###COMMENT_SNIPPET### of the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.comment.reply.new.mail.title": "Someone replied to a comment in a review",
+
+	"review.contribution.setting": "Individual contributions completed",
+	"review.contribution.change": "The contribution of <strong>###USER_TITLE###</strong> to the review <strong>###OBJECT_TITLE###</strong> has been completed",
+	"review.contribution.change.mail.subject": "The contribution of <strong>###USER_TITLE###</strong> to the review <strong>###OBJECT_TITLE###</strong> has been completed",
+	"review.contribution.change.mail.content": "The contribution of <strong>###USER_TITLE###</strong> to the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> has been completed",
+	"review.contribution.change.mail.title": "Someone completed their contribution",
+	
+	"review.contribution.all.setting": "All contributions completed",
+	"review.contribution.all.change": "All contributions to the review <strong>###OBJECT_TITLE###</strong> have been completed",
+	"review.contribution.all.change.mail.subject": "All contributions to the review <strong>###OBJECT_TITLE###</strong> have been completed",
+	"review.contribution.all.change.mail.content": "All contributions to the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> have been completed",
+	"review.contribution.all.change.mail.title": "All contributions have been completed",
+	
+	"review.highlight.setting": "Highlight created or processed",
+	"review.highlight.new": "<strong>###FROM_USER###</strong> created a highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <strong>###OBJECT_TITLE###</strong>",
+	"review.highlight.new.mail.subject": "<strong>###FROM_USER###</strong> created a highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <strong>###OBJECT_TITLE###</strong>",
+	"review.highlight.new.mail.content": "<strong>###FROM_USER###</strong> created a highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.highlight.new.mail.title": "Someone created a highlight in a review",
+
+	"review.highlight.process.new": "<strong>###FROM_USER###</strong> has processed the highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <strong>###OBJECT_TITLE###</strong>",
+	"review.highlight.process.new.mail.subject": "<strong>###FROM_USER###</strong> has processed the highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <strong>###OBJECT_TITLE###</strong>",
+	"review.highlight.process.new.mail.content": "<strong>###FROM_USER###</strong> has processed the highlight <strong>###HIGHLIGHT_TITLE###</strong> for the review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.highlight.process.new.mail.title": "Someone processed a highlight in a review",
+
+	"review.members.setting": "Member role granted or revoked",
+	"review.members.contributors.add.mail.subject": "<strong>###FROM_USER###</strong> added you to Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+	"review.members.contributors.add.mail.content": "<strong>###FROM_USER###</strong> added you to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Contributor",
+	"review.members.contributors.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+
+	"review.members.assignees.add.mail.subject": "<strong>###FROM_USER###</strong> assigned you to Review <strong>###OBJECT_TITLE###</strong>",
+	"review.members.assignees.add.mail.content": "<strong>###FROM_USER###</strong> assigned you to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.members.assignees.add.mail.title": "Assigned to review <strong>###OBJECT_TITLE###</strong>",
+
+	"review.members.coordinators.add.mail.subject": "<strong>###FROM_USER###</strong> added you to Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+	"review.members.coordinators.add.mail.content": "<strong>###FROM_USER###</strong> added you to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Coordinator",
+	"review.members.coordinators.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+
+	"review.members.informedusers.add.mail.subject": "<strong>###FROM_USER###</strong> added you to Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+	"review.members.informedusers.add.mail.content": "<strong>###FROM_USER###</strong> added you to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Informed User",
+	"review.members.informedusers.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+
+	"review.members.contributors.remove.mail.subject": "<strong>###FROM_USER###</strong> removed you as Contributor from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.members.contributors.remove.mail.content": "<strong>###FROM_USER###</strong> removed you as Contributor from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.members.contributors.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+
+	"review.members.assignees.remove.mail.subject": "<strong>###FROM_USER###</strong> unassigned you from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.members.assignees.remove.mail.content": "<strong>###FROM_USER###</strong> unassigned you from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.members.assignees.remove.mail.title": "Unassigned from review <strong>###OBJECT_TITLE###</strong>",
+
+	"review.members.coordinators.remove.mail.subject": "<strong>###FROM_USER###</strong> removed you as Coordinator from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.members.coordinators.remove.mail.content": "<strong>###FROM_USER###</strong> removed you as Coordinator from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.members.coordinators.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+
+	"review.members.informedusers.remove.mail.subject": "<strong>###FROM_USER###</strong> removed you as Informed User from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.members.informedusers.remove.mail.content": "<strong>###FROM_USER###</strong> removed you as Informed User from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.members.informedusers.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+
+	"review.untargeted.members.contributors.add.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been added to Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+	"review.untargeted.members.contributors.add.mail.content": "<strong>###TARGET_MEMBER###</strong> has been added to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Contributor",
+	"review.untargeted.members.contributors.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+
+	"review.untargeted.members.assignees.add.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been assigned to Review <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.assignees.add.mail.content": "<strong>###TARGET_MEMBER###</strong> has been assigned to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.untargeted.members.assignees.add.mail.title": "Assigned to review <strong>###OBJECT_TITLE###</strong>",
+
+	"review.untargeted.members.coordinators.add.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been added to Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+	"review.untargeted.members.coordinators.add.mail.content": "<strong>###TARGET_MEMBER###</strong> has been added to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Coordinator",
+	"review.untargeted.members.coordinators.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+
+	"review.untargeted.members.informedusers.add.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been added to Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+	"review.untargeted.members.informedusers.add.mail.content": "<strong>###TARGET_MEMBER###</strong> has been added to Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a> as Informed User",
+	"review.untargeted.members.informedusers.add.mail.title": "Added to Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+
+	"review.untargeted.members.contributors.remove.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been removed as Contributor from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.contributors.remove.mail.content": "<strong>###TARGET_MEMBER###</strong> has been removed as Contributor from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.untargeted.members.contributors.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Contributor",
+
+	"review.untargeted.members.assignees.remove.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been unassigned from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.assignees.remove.mail.content": "<strong>###TARGET_MEMBER###</strong> has been unassigned from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.untargeted.members.assignees.remove.mail.title": "Unassigned from review <strong>###OBJECT_TITLE###</strong>",
+
+	"review.untargeted.members.coordinators.remove.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been removed as Coordinator from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.coordinators.remove.mail.content": "<strong>###TARGET_MEMBER###</strong> has been removed as Coordinator from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.untargeted.members.coordinators.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Coordinator",
+
+	"review.untargeted.members.informedusers.remove.mail.subject": "<strong>###TARGET_MEMBER###</strong> has been removed as Informed User from Review <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.informedusers.remove.mail.content": "<strong>###TARGET_MEMBER###</strong> has been removed as Informed User from Review <a ###REVIEW_URL###>###OBJECT_TITLE###</a>",
+	"review.untargeted.members.informedusers.remove.mail.title": "Removed from Review <strong>###OBJECT_TITLE###</strong> as Informed User",
+
+	"review.members.contributors.add": "<strong>###FROM_USER###</strong> added you to <strong>###OBJECT_TITLE###</strong> as Contributor",
+	"review.untargeted.members.contributors.add": "<strong>###TARGET_MEMBER###</strong>has been added to <strong>###OBJECT_TITLE###</strong> as Contributor",
+	"review.members.contributors.remove": "<strong>###FROM_USER###</strong> removed you as Contributor from <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.contributors.remove": "<strong>###TARGET_MEMBER###</strong> has been removed from <strong>###OBJECT_TITLE###</strong> as Contributor",
+
+	"review.members.assignees.add":"<strong>###FROM_USER###</strong> assigned you to <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.assignees.add":"<strong>###TARGET_MEMBER###</strong> has been assigned to <strong>###OBJECT_TITLE###</strong>",
+	"review.members.assignees.remove":"<strong>###FROM_USER###</strong> unassigned you from <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.assignees.remove":"<strong>###TARGET_MEMBER###</strong> has been unassigned from <strong>###OBJECT_TITLE###</strong>",
+	
+	"review.members.coordinators.add": "<strong>###FROM_USER###</strong> added you to <strong>###OBJECT_TITLE###</strong> as Coordinator",
+	"review.untargeted.members.coordinators.add": "<strong>###TARGET_MEMBER###</strong>has been added to <strong>###OBJECT_TITLE###</strong> as Coordinator",
+	"review.members.coordinators.remove": "<strong>###FROM_USER###</strong> removed you as Coordinator from <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.coordinators.remove": "<strong>###TARGET_MEMBER###</strong> has been removed from <strong>###OBJECT_TITLE###</strong> as Coordinator",
+	
+	"review.members.informedusers.add": "<strong>###FROM_USER###</strong> added you to <strong>###OBJECT_TITLE###</strong> as Informed user",
+	"review.untargeted.members.informedusers.add": "<strong>###TARGET_MEMBER###</strong>has been added to <strong>###OBJECT_TITLE###</strong> as Informed user",
+	"review.members.informedusers.remove": "<strong>###FROM_USER###</strong> removed you as Informed user from <strong>###OBJECT_TITLE###</strong>",
+	"review.untargeted.members.informedusers.remove": "<strong>###TARGET_MEMBER###</strong> has been removed from <strong>###OBJECT_TITLE###</strong> as Informed user"
+}

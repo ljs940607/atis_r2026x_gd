@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RailwaySignalAspect_SignalAspectSymbol",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalAspect_AppliesToTrainCategory",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalAspect_SignalAspectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalAspect_SignLegend",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

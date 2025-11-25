@@ -1,0 +1,18 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "Schematics",
+  "description": "The domain instance for Schematics in 3DSpace",
+  "packages": [
+    "CATSnapshot",
+    "DIFActivityDiagram",
+    "DIFAllocationDiagram",
+    "DIFContextDiagram",
+    "DIFExecutionFunctionalChain",
+    "DIFLocationPlanView",
+    "DIFSequenceDiagram",
+    "DIFStateMachineDiagram",
+    "DIFUseCaseDiagram",
+    "GphViewModel",
+    "PLMCATIASystemsDisciplines"
+  ]
+}

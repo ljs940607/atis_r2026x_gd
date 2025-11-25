@@ -1,0 +1,30 @@
+{
+    "relations": [{
+            "name": "model_usage_from",
+            "queries": [{
+                    "definition": [{
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "SystemModelDirectUsage"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "model_usage_to",
+            "queries": [{
+                    "definition": [{
+                            "navigationType": "relation",
+                            "direction": "to",
+                            "qualityFilter": {
+                                "rel_type": "SystemModelDirectUsage"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

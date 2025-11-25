@@ -1,0 +1,18 @@
+{
+    "dsmvlc:changecontrol.status":{
+        "property":"computed",
+        "key":"Change Control Status",
+        "example": "[NONE, ANY, ID OR MANY]"
+    },
+    "dsmvlc:controlling.changes":{
+        "property":"computed",
+        "key":"Controlling Changes",
+        "example": "com.dassault_systemes.enovia.xapps.dslc.implementations.dslcOpenAPIImpl.getControllingChanges"
+    },
+    
+    "dsmvlc:changeimpact":{
+        "property":"computed",
+        "key":"Impacting Objects",
+        "example": "com.dassault_systemes.enovia.xapps.dslc.implementations.dslcOpenAPIImpl.getControllingChanges"
+    }
+}

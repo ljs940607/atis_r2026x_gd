@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<!--
+@SVN1 24:03:19 Added IFC attributs
+-->
+
+<Package  xmlns="PLMDictionaryUnified"
+          ModelerType="Top"
+          Name="SIMItfInterfereExt"
+          Uuid="9a7f2a87-52f3-4259-88c4-e556efb21036"
+          UseNames="SIMItfInterfere"
+          CustomerExposition="Programmer">
+
+  <!-- _______________________________________________________________________________________ -->
+  <!--      SIMItfContextOfInterferenceIFC (extension of SIMItfContextOfInterference)  - IFC   -->
+  <!-- _______________________________________________________________________________________ -->
+  <Extension  Name="SIMItfContextOfInterferenceIFC"
+              Uuid="FC44C202-484E-4E32-8D65-DAC3DB634A26"
+              ScopeNames="SIMItfContextOfInterference"
+              Abstract="No"
+              CustomerExposition="Programmer">
+
+    <!-- ________________________________________________________________________________ -->
+    <!--      Source                                                                      -->
+    <!-- ________________________________________________________________________________ -->
+    <Simple Name="Source"
+            Uuid="B77CC13C-B90E-400C-A776-C35CD05627BF"
+            Type="String"
+            MaxLength="255"
+            Protection="Internal"
+            DefaultValue="IFC">
+      <Range>
+        <Equal>IFC</Equal>
+      </Range>
+    </Simple>
+
+    <!-- ________________________________________________________________________________ -->
+    <!--      V_Itf_IFC_UUIDs                                                             -->
+    <!-- ________________________________________________________________________________ -->
+    <Simple Name="V_Itf_IFC_UUIDs"
+            Uuid="9E48B035-80BB-42C3-9608-09A8C159D780"
+            Protection="Internal"
+            Type="String"
+            MultiValuated="Yes"
+            Faceted="No">
+      <Comment>Path of IFC contextual UUIDs involved in this interference</Comment>
+    </Simple>
+
+    <!-- ________________________________________________________________________________ -->
+    <!--      V_Itf_IFC_Names                                                             -->
+    <!-- ________________________________________________________________________________ -->
+    <Simple Name="V_Itf_IFC_Names"
+            Uuid="73AAB3D6-63D7-492C-B7E4-BC4C226AB747"
+            Protection="Internal"
+            Type="String"
+            MultiValuated="Yes"
+            Faceted="No">
+      <Comment>Names of the IFC contextual path involved in this interference</Comment>
+    </Simple>
+
+    <!-- ________________________________________________________________________________ -->
+    <!--      V_Itf_IFC_TimeStamps                                                        -->
+    <!-- ________________________________________________________________________________ -->
+    <Simple Name="V_Itf_IFC_TimeStamps"
+            Uuid="B6C2418E-9357-4C6F-848C-9DAA58497F5E"
+            Protection="Internal"
+            Type="Date"
+            MultiValuated="Yes"
+            Faceted="No">
+      <Comment>Timestamps of the IFC contextual path involved involved in this interference</Comment>
+    </Simple>
+
+  </Extension>
+  
+</Package>

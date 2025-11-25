@@ -1,0 +1,15 @@
+{
+  "ds3sh:3DShape": {
+    "summary": "3D Shape",
+    "description": "3D Shape",
+    "PUBLICMasks": ["dsmv3sh:3DShapeMask.Default","dsmv3sh:3DShapeMask.ParentEngItems"],
+    "PROTECTEDMasks": [],
+    "PRIVATEMasks": [],
+    "PUBLICExtensions": ["dslc:changeControl"],
+    "PROTECTEDExtensions": [],
+    "PRIVATEExtensions": [],
+    "PUBLICFields": ["dsmveno:SupportedTypes", "dsmveno:CustomerAttributes"],
+    "PRIVATEFields" : [],
+    "PUBLICExcludedURIs":["getItems","GETAll","DELETEBulk"]
+  }
+}

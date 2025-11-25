@@ -1,0 +1,53 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RailwaySignalType_SignalIndicatorType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_LensDiffuserType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_HasConductorRailGuardBoard",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_MaximumDisplayDistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_RequiredDisplayDistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_IsHighType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_SignalHoodLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_HotStripOrientation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_LensDiffuserOrientation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_NumberOfLamps",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_SignalMessage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwaySignalType_RailwaySignalType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

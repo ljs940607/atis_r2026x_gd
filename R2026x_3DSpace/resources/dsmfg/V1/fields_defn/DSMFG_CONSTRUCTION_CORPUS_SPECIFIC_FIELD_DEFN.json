@@ -1,0 +1,11 @@
+{
+	"dsmfg:manualUnitTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:hazard": {
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:timePerDay": {
+		"restrictQuantityFormat": true
+	}
+}

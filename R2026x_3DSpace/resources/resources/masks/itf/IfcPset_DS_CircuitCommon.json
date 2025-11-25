@@ -1,0 +1,85 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_CircuitCommon_WinterTransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_AutumnTransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_SpringTransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_SummerTransportCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_ProtectionAdjustmentCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_EICCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_InternationalCode",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_InternationalConnection",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_TotalAerialLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_TotalCalculatedLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_AerialProjectLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_SubmarineProjectLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_UndergroundProjectLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_TotalProjectLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_DesignTemperature",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_Voltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_DesignVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_MaximumVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_TypeofCircuit",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CircuitCommon_TypeofCurrent",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

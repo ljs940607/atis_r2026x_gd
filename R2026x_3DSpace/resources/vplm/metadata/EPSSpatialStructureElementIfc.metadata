@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2012, All rights reserved -->
+
+<Package CustomerExposition = "Programmer" ModelerType = "Top" Name = "EPSSpatialStructureElementIfc" UseNames = "BuildingSpatialStructureElement;EPSSpatialStructureElement;TunnelSpatialStructureElement;AECCommonSpatialStructureElement" Uuid = "CDDE3217-DE11-4D3E-8FAC-67EAFE4AD748" xmlns = "PLMDictionaryUnified">
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_AccessPointCommon" ScopeNames = "UndergroundAccessPortal" Uuid = "25e16aa2-b8e0-4d8f-a815-27c5bfc17aa3" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_AccessPointCommon_AccessCode" Protection = "Free" Type = "String" Uuid = "23e8a98e-6688-43e3-9dd6-aa55f9b5c1d9"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_AccessPointCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "51390739-616a-4c79-ad65-884ebad35dce"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_CircuitCommon" ScopeNames = "EPSHighVoltageTransmissionLine" Uuid = "2f8d2045-c952-4ccd-90e1-fa8e7e478b52" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CircuitCommon_WinterTransportCapacity" Protection = "Free" Type = "Double" Uuid = "d877985c-6b8f-41f0-8686-9acb0dc4a21f"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CircuitCommon_AutumnTransportCapacity" Protection = "Free" Type = "Double" Uuid = "c4b7127f-800f-4ccb-b2a4-dddc59dee98a"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CircuitCommon_SpringTransportCapacity" Protection = "Free" Type = "Double" Uuid = "958011f4-558b-4b05-b459-4a26ad56f830"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_CircuitCommon_SummerTransportCapacity" Protection = "Free" Type = "Double" Uuid = "339ddb7a-85c5-4aba-8724-c44f5f77b8ac"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CircuitCommon_ProtectionAdjustmentCapacity" Protection = "Free" Type = "Integer" Uuid = "a056dc86-7d32-4daa-8023-d4ae06d5d130"/>
+    <Simple CAAExposition = "L0" MaxLength = "80" Name = "IfcPset_DS_CircuitCommon_EICCode" Protection = "Free" Type = "String" Uuid = "30159637-cf4b-4bb5-93fd-c455fcd16ef2"/>
+    <Simple CAAExposition = "L0" MaxLength = "80" Name = "IfcPset_DS_CircuitCommon_InternationalCode" Protection = "Free" Type = "String" Uuid = "a1ae2aa4-9828-42ca-88f3-290e00e4c6bb"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_CircuitCommon_InternationalConnection" Protection = "Free" Type = "Boolean" Uuid = "b69aab28-9445-4d6a-9b65-777e67d32052"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_TotalAerialLength" Protection = "Free" Type = "Double" Uuid = "57ffaaf7-03ca-4213-96ed-af2205079e47"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_TotalCalculatedLength" Protection = "Free" Type = "Double" Uuid = "cdab69e3-4d04-47d8-ac1d-af70eab6b078"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_AerialProjectLength" Protection = "Free" Type = "Double" Uuid = "e1fb0a52-4544-4149-89a8-4f2ecb125d9a"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_SubmarineProjectLength" Protection = "Free" Type = "Double" Uuid = "f389a3bf-9b4e-4e26-959f-db9fb5797a55"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_UndergroundProjectLength" Protection = "Free" Type = "Double" Uuid = "8b4febaa-9b33-48b9-b6a4-852185685c24"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_CircuitCommon_TotalProjectLength" Protection = "Free" Type = "Double" Uuid = "8f774b4f-373d-4f87-8f2b-a3c788d7f9a7"/>
+    <Simple CAAExposition = "L0" Magnitude = "TEMPRTRE" Name = "IfcPset_DS_CircuitCommon_DesignTemperature" Protection = "Free" Type = "Double" Uuid = "d74a2a99-a8bc-425e-89d7-28d77c95e435"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_CircuitCommon_Voltage" Protection = "Free" Type = "Double" Uuid = "bad87e2c-4c1a-4897-b1d8-aa616a71b048"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_CircuitCommon_DesignVoltage" Protection = "Free" Type = "Double" Uuid = "1d61de67-bc5b-4c7c-88c8-8a39cd3742c8"/>
+    <Simple CAAExposition = "L0" Magnitude = "VOLTAGE" Name = "IfcPset_DS_CircuitCommon_MaximumVoltage" Protection = "Free" Type = "Double" Uuid = "22385764-84e9-4fad-b9e3-8d2411645bdb"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_CircuitCommon_TypeofCircuit" Protection = "Free" Type = "String" Uuid = "572b8cfc-2325-4613-9b49-19c95aeff73b">
+      <Range>
+        <Equal>AERIAL</Equal>
+        <Equal>UNDERGROUND</Equal>
+        <Equal>SUBMARINE</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_CircuitCommon_TypeofCurrent" Protection = "Free" Type = "String" Uuid = "c3d99f1b-1e67-43df-88f9-7f839fd4f0a7">
+      <Range>
+        <Equal>ALTERNATINGCURRENT</Equal>
+        <Equal>DIRECTCURRENT</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_EarthCableSpanCommon" ScopeNames = "EPSHighVoltageSpan" Uuid = "3f71a762-cc5a-44bd-b53f-b19885b1ccd5" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_EarthCableSpanCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "587888d3-db65-4bb6-9c5e-05eb25ccab99"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_EarthCableSpanCommon_AcquisitionDate" Protection = "Free" Type = "Date" Uuid = "9237f822-5dba-4074-8dc7-e8e635c16c29"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_EarthCableSpanCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "d3657b54-ce29-410b-981f-511f35a76aef"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_ElectricalSpanCommon" ScopeNames = "EPSHighVoltageSpan" Uuid = "be65a7dd-6899-4b20-8ffa-4382c9b146af" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "APPARENTPOWER" Name = "IfcPset_DS_ElectricalSpanCommon_TransportCapacity" Protection = "Free" Type = "Double" Uuid = "105efbca-1579-4a25-a8bf-2c25cb87786d"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ElectricalSpanCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "f091fa22-d435-4b60-af2e-ee316e76d022"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ElectricalSpanCommon_AcquisitionDate" Protection = "Free" Type = "Date" Uuid = "b7c083b7-5519-470f-bac1-9a7368fe8d7f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ElectricalSpanCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "84b93720-a70b-4aa4-a9ab-c28ae76efb28"/>
+    <Simple CAAExposition = "L0" Magnitude = "TEMPRTRE" Name = "IfcPset_DS_ElectricalSpanCommon_DesignTemperature" Protection = "Free" Type = "Double" Uuid = "5f6ea3a3-9cbe-4544-96c7-bf707850dceb"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_ElectricalSpanCommon_PhaseTransposition" Protection = "Free" Type = "Boolean" Uuid = "c8527e4e-fdee-4c07-8c1b-0fe48e88cb52"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_LandPlot" ScopeNames = "AecTerrain" Uuid = "70211c53-3e33-4665-a9d8-5b6c9ed02bc6" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcPset_DS_LandPlot_AreaDescription" Protection = "Free" Type = "String" Uuid = "2d58992c-1d2a-49f2-b34e-1d3c53178d00"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_OutputPositionCommon" ScopeNames = "EPSOutputPosition" Uuid = "a04f0be1-f7fd-4250-936f-ee8c86fac6b3" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_OutputPositionCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "b689a411-bac8-48aa-8b63-2e065f39233f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_OutputPositionCommon_AcquisitionDate" Protection = "Free" Type = "Date" Uuid = "f2cdb099-ace7-4b99-bf5d-48ea489a2e2c"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_OutputPositionCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "312bbe4e-f980-423f-8e34-aa09d7531c09"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_OutputPositionCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "60dc0f3c-0f13-469d-b1a3-bb75ee845866"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_OutputPositionCommon_Mobile" Protection = "Free" Type = "Boolean" Uuid = "735ec661-b430-4cc2-a330-5bd1b9e1b79e"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PhysicalSpanCommon" ScopeNames = "EPSHighVoltageSpan" Uuid = "234ee9c6-0b9d-43af-90b2-8b894c4d7e97" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PhysicalSpanCommon_VegetationManagement" Protection = "Free" Type = "String" Uuid = "4dfbf6ee-91d1-483e-b239-1c42628ab684"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PortalCommon" ScopeNames = "EPSHighVoltagePylon" Uuid = "a05eacbd-ca2a-45d4-ada7-0702dad44b6c" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" DefaultValue = "CX" MaxLength = "255" Name = "IfcPset_DS_PortalCommon_Corrosivity" Protection = "Free" Type = "String" Uuid = "01d52824-9b66-4cb2-a7b6-7e018d43e7b4">
+      <Range>
+        <Equal>C1</Equal>
+        <Equal>C2</Equal>
+        <Equal>C3</Equal>
+        <Equal>C4</Equal>
+        <Equal>C5</Equal>
+        <Equal>CX</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PortalCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "698fefa7-1cca-4aca-a81a-c0a7e25f320f"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PortalCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "65ea5400-21f0-412d-981c-7c52c436517e"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_PylonCommon" ScopeNames = "EPSHighVoltagePylon" Uuid = "ce7d5c1d-94f1-446c-b01a-86a650548fdc" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" DefaultValue = "CX" MaxLength = "255" Name = "IfcPset_DS_PylonCommon_Corrosivity" Protection = "Free" Type = "String" Uuid = "4edfe01c-5be8-4a00-9294-40c1f8af59b3">
+      <Range>
+        <Equal>C1</Equal>
+        <Equal>C2</Equal>
+        <Equal>C3</Equal>
+        <Equal>C4</Equal>
+        <Equal>C5</Equal>
+        <Equal>CX</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PylonCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "be9edaac-4a91-4262-b074-62e934f19dea"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_PylonCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "5d25e504-5945-4ee2-9466-7dc733497667"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_PylonCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "f9c06994-9c47-490a-8a4f-fe78a5dbfe60"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_PylonCommon_SupplementaryHeight" Protection = "Free" Type = "Double" Uuid = "0a420243-163e-4431-8adf-c0804ac0bd48"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SubstationBuildingCommon" ScopeNames = "Building" Uuid = "b9626ed5-0af4-4ba1-a944-87b4ee5a2481" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_SubstationBuildingCommon_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "b1c1fe24-cd80-4958-a07c-92cb96778fb1"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SubstationCommon" ScopeNames = "EPSSubstation" Uuid = "cdb02c9c-4f6d-40b2-b71d-f9a581b9d62d" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" DefaultValue = "CX" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_Corrosivity" Protection = "Free" Type = "String" Uuid = "1f55f1b0-c1d7-4b5f-a540-c31bed485bf6">
+      <Range>
+        <Equal>C1</Equal>
+        <Equal>C2</Equal>
+        <Equal>C3</Equal>
+        <Equal>C4</Equal>
+        <Equal>C5</Equal>
+        <Equal>CX</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SubstationCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "f662e1c3-35be-478a-a456-79366d97633b"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SubstationCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "9eb1c3d2-c65b-4c5c-8924-bf31d77ad3fe"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_ExternalEnvironmentalRisk" Protection = "Free" Type = "String" Uuid = "0dc82502-0c0a-4e54-9c07-9faebdfbbd8f">
+      <Range>
+        <Equal>HIGH</Equal>
+        <Equal>LOW</Equal>
+        <Equal>MEDIUM</Equal>
+        <Equal>VERYHIGH</Equal>
+        <Equal>VERYLOW</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NOTEVALUATED</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_InternalEnvironmentalRisk" Protection = "Free" Type = "String" Uuid = "4eb75ae6-8d9b-4a5d-baa2-767a807181ae">
+      <Range>
+        <Equal>HIGH</Equal>
+        <Equal>LOW</Equal>
+        <Equal>MEDIUM</Equal>
+        <Equal>VERYHIGH</Equal>
+        <Equal>VERYLOW</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NOTEVALUATED</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_FloodRisk" Protection = "Free" Type = "String" Uuid = "9db950a1-ebd8-4983-a346-df1dec6407ca">
+      <Range>
+        <Equal>HIGH</Equal>
+        <Equal>LOW</Equal>
+        <Equal>MEDIUM</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NOTEVALUATED</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_EnvironmentalSensitivity" Protection = "Free" Type = "String" Uuid = "1eda8e43-008f-4b62-8bc4-ea3d0bdc66d4">
+      <Range>
+        <Equal>HIGH</Equal>
+        <Equal>LOW</Equal>
+        <Equal>MEDIUM</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NOTEVALUATED</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SubstationCommon_HazardousArea" Protection = "Free" Type = "Boolean" Uuid = "f24a86c0-0495-4353-bedb-08526b1aa509"/>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_AquiferVulnerability" Protection = "Free" Type = "String" Uuid = "e54f48c2-b88b-4576-b951-3bee55f296ab">
+      <Range>
+        <Equal>HIGH</Equal>
+        <Equal>LOW</Equal>
+        <Equal>MEDIUM</Equal>
+        <Equal>NOTAPPLICABLE</Equal>
+        <Equal>NOTEVALUATED</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+    <Simple CAAExposition = "L0" DefaultValue = "OTHER" MaxLength = "255" Name = "IfcPset_DS_SubstationCommon_LightProtectionZone" Protection = "Free" Type = "String" Uuid = "e46ca8b4-6c75-4112-a1a1-cb5749f8d7a7">
+      <Range>
+        <Equal>DARKENVIRONMENT</Equal>
+        <Equal>HIGHLUMINOSITY</Equal>
+        <Equal>MEDIUMLUMINOSITY</Equal>
+        <Equal>LOWLUMINOSITY</Equal>
+        <Equal>OTHER</Equal>
+      </Range>
+    </Simple>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_SwitchYardCommon" ScopeNames = "EPSSwitchYard" Uuid = "2e29cbd2-c61e-41d8-aed5-9f16c29293a7" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SwitchYardCommon_CommissioningCertificateDate" Protection = "Free" Type = "Date" Uuid = "79fbf7b4-eb90-497c-bd29-eb2b6006f5b1"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_SwitchYardCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "816367b4-0bf5-4bfb-a8ff-1543636abb47"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_UndergroundChamberOrVault" ScopeNames = "TunnelBay" Uuid = "5f251a82-1abb-400a-9b2c-a7fda94fa462" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_SecurityLockVault" Protection = "Free" Type = "Boolean" Uuid = "e44bc3c1-776d-4dee-b807-f66551977b75"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_SecurityLockChamber" Protection = "Free" Type = "Boolean" Uuid = "e12e320e-b634-441c-b7bc-bdea96585304"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_ConstructionDate" Protection = "Free" Type = "Date" Uuid = "a0e95791-da3e-41dc-a132-9a9736e04f9b"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_CommissioningDate" Protection = "Free" Type = "Date" Uuid = "d26aa664-7273-41e5-b021-e00375ebe0a8"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_UndergroundChamberOrVault_RegistrationNumber" Protection = "Free" Type = "String" Uuid = "c78fc7de-6961-4939-90e8-8103810c512e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_SpliceGroupCount" Protection = "Free" Type = "Integer" Uuid = "e39fc8d3-ec33-400a-9e35-d640b16cd21e"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundChamberOrVault_DewateringSystem" Protection = "Free" Type = "Boolean" Uuid = "2854f106-0e7e-47e4-9f17-8d2e5db61be2"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_UndergroundDuctCommon" ScopeNames = "Tunnel" Uuid = "2f443d68-f774-4369-b6de-a9e4201b1bc9" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_UndergroundDuctCommon_MinimumHeight" Protection = "Free" Type = "Double" Uuid = "d187aad1-f45e-4c43-aed0-9ea5f8646a31"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_UndergroundDuctCommon_MinimumWidth" Protection = "Free" Type = "Double" Uuid = "407564ec-6339-4dc1-817f-3da8b8f17212"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundDuctCommon_ConstructionDate" Protection = "Free" Type = "Date" Uuid = "42d9d8ff-4b75-43c4-8dcd-f80eaca33cf4"/>
+    <Simple CAAExposition = "L0" Name = "IfcPset_DS_UndergroundDuctCommon_InstallationDate" Protection = "Free" Type = "Date" Uuid = "f7639870-308e-441a-bb30-5b277772625d"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_UndergroundDuctCommon_MaxDepth" Protection = "Free" Type = "Double" Uuid = "2dbd7400-bff1-4c23-b7d2-cddf851b0ef4"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_UndergroundDuctCommon_MinDepth" Protection = "Free" Type = "Double" Uuid = "c8b1fd27-d0a3-48d5-93ea-493db340acc6"/>
+    <Simple CAAExposition = "L0" Magnitude = "LENGTH" Name = "IfcPset_DS_UndergroundDuctCommon_PhaseSeparation" Protection = "Free" Type = "Double" Uuid = "2ba46673-62b1-4a24-ba9d-8009cebf8b64"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcPset_DS_UndergroundDuctStretchCommon" ScopeNames = "TunnelSpace" Uuid = "1bd759f6-60d7-4d66-aa60-3e6dd4dc51e0" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "40" Name = "IfcPset_DS_UndergroundDuctStretchCommon_Reference" Protection = "Free" Type = "String" Uuid = "47cb32d0-c551-47f1-afe6-1c2e7906344b"/>
+  </Extension>
+  <Extension CustomerExposition = "Programmer" Name = "IfcQto_DS_PylonBaseQuantities" ScopeNames = "EPSHighVoltagePylon" Uuid = "4d15a26c-1fdd-4dd2-984d-04f738398202" V6Exportable = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATAECDelegateExtension"/>
+    <Simple CAAExposition = "L0" MaxLength = "255" Name = "IfcQto_DS_PylonBaseQuantities_MethodOfMeasurement" Protection = "Free" Type = "String" Uuid = "4d15a26c-1fdd-4dd2-984d-14b1550b5f09"/>
+    <Simple CAAExposition = "L0" Magnitude = "MASS" Name = "IfcQto_DS_PylonBaseQuantities_Weight" Protection = "Free" Type = "Double" Uuid = "42637911-4252-45e0-88d7-7af10b58d209"/>
+    <Simple CAAExposition = "L0" Magnitude = "AREA" Name = "IfcQto_DS_PylonBaseQuantities_PaintingSurfaceArea" Protection = "Free" Type = "Double" Uuid = "e51c6d07-1792-4e45-bfba-6f3800e938a7"/>
+  </Extension>
+</Package>

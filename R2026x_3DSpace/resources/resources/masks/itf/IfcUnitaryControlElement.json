@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcUnitaryControlElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcUnitaryControlElement_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcUnitaryControlElement_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

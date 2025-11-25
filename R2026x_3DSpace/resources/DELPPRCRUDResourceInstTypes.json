@@ -1,0 +1,112 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+		{
+				"ConceptualName": "dsrsc:ResourceInstance",
+				"ParentType": "PLMInstance",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "VPMInstance",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.V2.bytype.impl.DELMIACRUDResourceInstance"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "VPMInstance",
+						"Behavior": "INSTANCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "From_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+					{
+						"ConceptualName": "TO_IDs",
+						"State": "MANDATORY",
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.tools.checkers.AttributeNotNullAndUniqueValueChecker"
+							}
+						]
+					},
+                    {
+                        "ConceptualName": "symbolicID",
+                        "ModelerMapping": [
+                            {
+                                "Modeler": "_3DSpaceDB",
+                                "Mapping": "SymbolicID.V_SymbolicID"
+                            },
+                            {
+                                "Modeler": "_Index",
+                                "Mapping": "ro.SymbolicID.V_SymbolicID"
+                            }
+                        ]
+                    },
+					{
+						"ConceptualName": "customerAttributes",
+						"Transforms": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.corpus.threed_space.tools.transform.DELCRUDCustomerAttrs3DSpaceTransform"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.V2.bytype.attributes.transforms.DELCRUDResourceCustoAttrsIndexTransform"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:ResourceItemInstance",
+				"ParentType": "dsrsc:ResourceInstance",
+				"ModelerMapping": [
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:ResourceAssetInstance",
+				"ParentType": "dsrsc:ResourceInstance",
+				"ModelerMapping": [
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:WorkerInstance",
+				"ParentType": "dsrsc:ResourceInstance",
+				"ModelerMapping": [
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:PoolInstance",
+				"ParentType": "dsrsc:ResourceInstance",
+				"ModelerMapping": [
+				],
+				"Attributes": [
+				]
+			},
+			{
+				"ConceptualName": "dsrsc:OrganizationalResourceInstance",
+				"ParentType": "dsrsc:ResourceInstance",
+				"ModelerMapping": [
+				],
+				"Attributes": [
+				]
+			}
+		]
+	}
+]

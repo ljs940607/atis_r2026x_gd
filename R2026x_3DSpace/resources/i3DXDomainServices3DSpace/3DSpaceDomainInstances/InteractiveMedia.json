@@ -1,0 +1,11 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "InteractiveMedia",
+    "description": "Deployable representation of realtime and interactive experiences.",
+    "packages": [
+        "PLMExpMedia3DExperience",
+        "PLMExpMediaToExperience",
+        "PLMExpPublishingMediaImage",
+        "PLMExpPublishingMediaVideo"
+    ]
+}

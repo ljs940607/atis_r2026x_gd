@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELConstructionItemModel" />
+    <m1.package name="DELConstructionItemModel" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELFmiInputForUnitTimeComputationAbstract" />
+      <m1.interface name="DELFmiInputForUnitTimeComputationAbstract" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Hazard" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputationAbstract.V_Hazard" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TimePerDay" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputationAbstract.V_TimePerDay" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_WorkerNumber" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputationAbstract.V_WorkerNumber" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELFmiManualUnitTime" />
+      <m1.interface name="DELFmiManualUnitTime" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_UnitTime" />
+        <m1.attribute name="DELFmiManualUnitTime.V_UnitTime" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELFmiInputForUnitTimeComputation" />
+      <m1.interface name="DELFmiInputForUnitTimeComputation" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_QuantityPerDay" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputation.V_QuantityPerDay" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELFmiInputForUnitTimeComputationAREA" />
+      <m1.interface name="DELFmiInputForUnitTimeComputationAREA" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_QuantityPerDay" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputationAREA.V_QuantityPerDay" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELFmiInputForUnitTimeComputationLENGTH" />
+      <m1.interface name="DELFmiInputForUnitTimeComputationLENGTH" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_QuantityPerDay" />
+        <m1.attribute name="DELFmiInputForUnitTimeComputationLENGTH.V_QuantityPerDay" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELFmiFunctionPPRConstructionCreateReference" />
+      <m1.type name="DELFmiFunctionPPRConstructionCreateReference" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionStructure" />
+      <m1.type name="DELConstructionStructure" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELConstructionStructure.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkElementAbstract" />
+      <m1.type name="DELConstructionWorkElementAbstract" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELConstructionWorkElementAbstract.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkPackageAbstract" />
+      <m1.type name="DELConstructionWorkPackageAbstract" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_ContextualImplementLink" />
+        <m1.attribute name="DELConstructionWorkPackageAbstract.V_ContextualImplementLink" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkElementArea" />
+      <m1.type name="DELConstructionWorkElementArea" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Quantity" />
+        <m1.attribute name="DELConstructionWorkElementArea.V_Quantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkElementEach" />
+      <m1.type name="DELConstructionWorkElementEach" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkElementLength" />
+      <m1.type name="DELConstructionWorkElementLength" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_Quantity" />
+        <m1.attribute name="DELConstructionWorkElementLength.V_Quantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkPackageArea" />
+      <m1.type name="DELConstructionWorkPackageArea" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkPackageEach" />
+      <m1.type name="DELConstructionWorkPackageEach" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkPackageGroup" />
+      <m1.type name="DELConstructionWorkPackageGroup" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELConstructionWorkPackageLength" />
+      <m1.type name="DELConstructionWorkPackageLength" />
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

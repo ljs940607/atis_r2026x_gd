@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcQto_SurfaceFeatureBaseQuantities_Area",
+            "status": "RW"
+        },
+        {
+            "name": "IfcQto_SurfaceFeatureBaseQuantities_Length",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

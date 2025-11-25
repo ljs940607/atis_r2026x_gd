@@ -1,0 +1,145 @@
+{
+  "dsmvengelec:attribute.entity.apptype": {
+    "property": "type,interface",
+    "key": "apptype",
+    "label": "dsengelec.Label.Attribute.AppType",
+    "example": "",
+    "description": "Applicative Type",
+    "index":"type,interface"
+  },
+  
+  "dsmvengelec:attribute.cable.corename": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreName]",
+    "key": "corename",
+    "label": "dsengelec.Label.Attribute.CoreName",
+    "example": "",
+    "description": "Core Name",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreName"
+  },
+  
+  "dsmvengelec:attribute.cable.corecolor": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreColor]",
+    "key": "corecolor",
+    "label": "dsengelec.Label.Attribute.CoreColor",
+    "example": "",
+    "description": "Core Color",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreColor"
+  },
+  
+  "dsmvengelec:attribute.cable.coregauge": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreGauge]",
+    "key": "coregauge",
+    "label": "dsengelec.Label.Attribute.CoreGauge",
+    "example": "",
+    "description": "Core Gauge",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreGauge"
+  },
+  
+  "dsmvengelec:attribute.cable.coreoutsidediameter": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreOutsideDiameter]",
+    "key": "coreoutsidediameter",
+    "label": "dsengelec.Label.Attribute.CoreOutsideDiameter",
+    "example": "",
+    "description": "Core Outside Diameter",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreOutsideDiameter"
+  },
+  
+  "dsmvengelec:attribute.cable.coresectionarea": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreSectionArea]",
+    "key": "coresectionarea",
+    "label": "dsengelec.Label.Attribute.CoreSectionArea",
+    "example": "",
+    "description": "Core Section Area",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreSectionArea"
+  },
+  
+  "dsmvengelec:attribute.cable.corebendradius": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreBendRadius]",
+    "key": "corebendradius",
+    "label": "dsengelec.Label.Attribute.CoreBendRadius",
+    "example": "",
+    "description": "Core Bend Radius",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreBendRadius"
+  },
+  
+  "dsmvengelec:attribute.cable.corelinearmass": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreLinearMass]",
+    "key": "corelinearmass",
+    "label": "dsengelec.Label.Attribute.CoreLinearMass",
+    "example": "",
+    "description": "Core Linear Mass",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreLinearMass"
+  },
+  
+  "dsmvengelec:attribute.cable.corelengthcoeff": {
+    "property": "attribute[ElecCableCoresDefinition.V_Elec_CoreLengthCoeff]",
+    "key": "corelengthcoeff",
+    "label": "dsengelec.Label.Attribute.CoreLengthCoeff",
+    "example": "",
+    "description": "Core Length Coeff",
+    "index": "ds6wg:ElecCableCoresDefinition.V_Elec_CoreLengthCoeff"
+  },
+  
+  "dsmvengelec:attribute.cable.strippinglengthfrom": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_StrippingLengthFrom]",
+    "key": "strippinglengthfrom",
+    "label": "dsengelec.Label.Attribute.StrippingLengthFrom",
+    "example": "",
+    "description": "Stripping Length From",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_StrippingLengthFrom"
+  },
+  
+  "dsmvengelec:attribute.cable.strippinglengthto": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_StrippingLengthTo]",
+    "key": "strippinglengthto",
+    "label": "dsengelec.Label.Attribute.StrippingLengthTo",
+    "example": "",
+    "description": "Stripping Length To",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_StrippingLengthTo"
+  },
+  
+  "dsmvengelec:attribute.cable.corelengthaftercablestrippingfrom": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingFrom]",
+    "key": "corelengthaftercablestrippingfrom",
+    "label": "dsengelec.Label.Attribute.CoreLengthAfterCableStrippingFrom",
+    "example": "",
+    "description": "Core Length After Cable Stripping From",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingFrom"
+  },
+  
+  "dsmvengelec:attribute.cable.corelengthaftercablestrippingto": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingTo]",
+    "key": "corelengthaftercablestrippingto",
+    "label": "dsengelec.Label.Attribute.CoreLengthAfterCableStrippingTo",
+    "example": "",
+    "description": "Core Length After Cable Stripping To",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_CoreLengthAfterCableStrippingTo"
+  },
+  
+  "dsmvengelec:attribute.cable.corestrippinglengthfrom": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_CoreStrippingLengthFrom]",
+    "key": "corestrippinglengthfrom",
+    "label": "dsengelec.Label.Attribute.CoreStrippingLengthFrom",
+    "example": "",
+    "description": "Core Stripping Length From",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_CoreStrippingLengthFrom"
+  },
+  
+  "dsmvengelec:attribute.cable.corestrippinglengthto": {
+    "property": "attribute[ElecCableCoresLength.V_Elec_CoreStrippingLengthTo]",
+    "key": "corestrippinglengthto",
+    "label": "dsengelec.Label.Attribute.CoreStrippingLengthTo",
+    "example": "",
+    "description": "Core Stripping Length To",
+    "index": "ds6wg:ElecCableCoresLength.V_Elec_CoreStrippingLengthTo"
+  },
+  
+  "dsmvengelec:basic.owner": {
+    "property": "owner",
+    "key": "owner",
+    "label": "dsengelec.Label.Attribute.Owner",
+    "example": "DB owner",
+    "description": "Object owner",
+    "index": "owner"
+  }
+}

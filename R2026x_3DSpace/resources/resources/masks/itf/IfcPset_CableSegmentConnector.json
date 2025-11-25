@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorAColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorBColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorAType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorBType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorAGender",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CableSegmentConnector_ConnectorBGender",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,86 @@
+#Prog Rmt_Requirement_ExportCompletion(iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+let IdsReqs                          (PLMIDSet)
+
+let RsSub                            (PLMRouteSet)
+let IdsAllSubReqsAndRels             (PLMIDSet)
+let IdsSubReqs                       (PLMIDSet)
+
+let IdsInputAndSubReq                (PLMIDSet)
+
+let RsDownstream                     (PLMRouteSet)
+let IdsAllDownstreamReqsAndRels      (PLMIDSet)
+let IdsDownstreamReqs                (PLMIDSet)
+
+let RsSubOfDownstream                (PLMRouteSet)
+let IdsAllSubOfDownstreamReqsAndRels (PLMIDSet)
+let IdsSubOfDownstreamReqs           (PLMIDSet)
+
+let IdsAllReqs                       (PLMIDSet)
+
+let IdsParams                        (PLMIDSet)
+
+let RsTestCases                      (PLMRouteSet)
+let IdsTestCases                     (PLMIDSet)
+let IdsOnlyTestCases                 (PLMIDSet)
+let IdsTestCasesAndScope             (PLMIDSet)
+
+let RsDocs                           (PLMRouteSet)
+let IdsDocs                          (PLMIDSet)
+let IdsOnlyDocs                      (PLMIDSet)
+let IdsDocsAndScope                  (PLMIDSet)
+let IdsNLVCompletion       		     (PLMIDSet)
+
+IdsReqs = Restrict(iPLMIDSet , "Class/Requirement")
+
+/* Get the subreqs */
+RsSub = ExecutePLMFunction("Requirement", "rmt_nav_req_subs", IdsReqs)
+IdsAllSubReqsAndRels = Ids(RsSub)
+IdsSubReqs = Restrict(IdsAllSubReqsAndRels, "Class/Requirement")
+
+IdsInputAndSubReq = IdsReqs + IdsSubReqs
+
+/* Get the downstream reqs of the input reqs and subreqs */
+RsDownstream = ExecutePLMFunction("Requirement", "rmt_nav_req_downstream", IdsInputAndSubReq)
+IdsAllDownstreamReqsAndRels = Ids(RsDownstream)
+IdsDownstreamReqs = Restrict(IdsAllDownstreamReqsAndRels, "Class/Requirement")
+
+/* Get the subreqs of the downstream reqs */
+RsSubOfDownstream = ExecutePLMFunction("Requirement", "rmt_nav_req_subs", IdsDownstreamReqs)
+IdsAllSubOfDownstreamReqsAndRels = Ids(RsSubOfDownstream)
+IdsSubOfDownstreamReqs = Restrict(IdsAllSubOfDownstreamReqsAndRels, "Class/Requirement")
+
+IdsAllReqs = IdsReqs + IdsSubReqs + IdsDownstreamReqs + IdsSubOfDownstreamReqs
+
+/* Get the parameters of the all reqs */
+IdsParams = ExecuteJavaProcedure("com.dassault_systemes.parameter_modeler.procedures.PlmParameterProcedure_AllParams", IdsAllReqs)
+
+/* Get the test cases of the all reqs */
+RsTestCases = ExecutePLMFunction("Requirement", "rmt_nav_req_testcase", IdsAllReqs )
+IdsTestCases = Ids(RsTestCases)
+IdsOnlyTestCases = Restrict(IdsTestCases , "Class/Test Case" )
+IdsTestCasesAndScope = ExecutePLMProcedure("Plc_TestCase_ExportCompletion", IdsOnlyTestCases )
+
+/* Get the reference documents of the all reqs (subreqs included) */
+RsDocs = ExecutePLMFunction("Requirement", "rmt_nav_req_docs", IdsAllReqs )
+IdsDocs = Ids(RsDocs)
+IdsOnlyDocs = Restrict(IdsDocs, "Class/DOCUMENTS" )
+IdsDocsAndScope = ExecutePLMProcedure("DocumentCompletion", IdsOnlyDocs )
+
+/* ------------------------------------------------------------- */
+/* Items completion for version graph consistency with NLV stack */
+IdsNLVCompletion = ExecuteJavaProcedure("com.dassault_systemes.enovia.versioning.core.completion.NLVCompletion", IdsAllReqs)
+/* ------------------------------------------------------------- */
+
+/* Provide back all that stuff */
+oPLMIDSet = iPLMIDSet
++ IdsAllSubReqsAndRels
++ IdsAllDownstreamReqsAndRels
++ IdsAllSubOfDownstreamReqsAndRels
++ IdsParams
++ IdsTestCases
++ IdsTestCasesAndScope
++ IdsDocs
++ IdsDocsAndScope
++ IdsNLVCompletion
+}

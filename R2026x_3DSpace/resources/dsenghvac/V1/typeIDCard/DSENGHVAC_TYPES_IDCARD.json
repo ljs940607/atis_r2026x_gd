@@ -1,0 +1,141 @@
+{
+  "dsenghvac:Part": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Part",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": [ "dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst" ],
+    "defaultMask": "dsmvenghvac:AllPartsMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": [ "dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dsengelec:Properties", "dseng:EnterpriseReference", "dskpi:metric" ],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+
+  "dsenghvac:Routable": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Duct",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "defaultMask": "dsmvenghvac:AllRoutablesMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsenghvac:Spool": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Spool",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": ["dseng:EngInstance", "dsenghvac:PartInst", "dsenghvac:RoutableInst", "dsengisl:InsulationInst", "dsengspt:SupportInst"],
+    "defaultMask": "dsmvenghvac:SpoolMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": ["dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric"],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+
+  "dsenghvac:PartInst": {
+    "kindOf": "content",
+    "beType": "relationship_HVAC_Part_Inst",
+    "classesTypes": "relationship_HVAC_AccessCover_Inst,relationship_HVAC_Cap_Inst,relationship_HVAC_Cross_Inst,relationship_HVAC_Damper_Inst,relationship_HVAC_Diffuser_Inst,relationship_HVAC_Elbow_Inst,relationship_HVAC_Flange_Inst,relationship_HVAC_Gasket_Inst,relationship_HVAC_Instrument_Inst,relationship_HVAC_Reducer_Inst,relationship_HVAC_Saddle_Inst,relationship_HVAC_Silencer_Inst,relationship_HVAC_Tee_Inst,relationship_HVAC_Transition_Inst,relationship_HVAC_Union_Inst,relationship_HVAC_Valve_Inst",
+    "extensionLinks": [ "dscfg:Filterable" ],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dseng:EngItem", "dsenghvac:Spool", "dsenghvac:Part"],
+    "defaultMask": "dsmvenghvac:PartInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsenghvac:RoutableInst": {
+    "kindOf": "content",
+    "beType": "relationship_HVAC_Duct_Inst",
+    "classesTypes": "relationship_HVAC_Flexible_Duct_Inst,relationship_HVAC_Rigid_Duct_Inst",
+    "extensionLinks": [ "dscfg:Filterable" ],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dsenghvac:Part", "dseng:EngItem", "dsenghvac:Spool" ],
+    "defaultMask": "dsmvenghvac:RoutableInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+  
+  "dsenghvac:SpoolInst": {
+    "kindOf": "content",
+    "beType": "relationship_HVAC_Spool_Inst",
+    "extensionLinks": [ "dscfg:Filterable" ],
+    "parentType": "dseng:EngInstance",
+    "inheritanceType": "explicit",
+    "rootLinks": [ "dseng:EngItem" ],
+    "defaultMask": "dsmvenghvac:SpoolInstMask",
+    "patchCSRF": true,
+    "search": false,
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsenghvac.V1.dictionaries.ENOXdsenghvacInstDictionary",
+    "isPublic": true,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

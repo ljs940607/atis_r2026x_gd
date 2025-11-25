@@ -1,0 +1,9 @@
+{
+	"properties": {
+		"MyDBAttr1": {
+			"description": "Attribute DB Value",
+			"type": "string",
+			"example": "Attribute DB Value"
+		}
+	}
+}

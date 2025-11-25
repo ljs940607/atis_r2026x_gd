@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_DownlinkRadioBand",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_NumberOfCarriers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_UplinkRadioBand",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_ExchangeCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_NumberOfEmergencyTransceivers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBaseTransceiverStation_NumberOfTransceiversPerAntenna",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

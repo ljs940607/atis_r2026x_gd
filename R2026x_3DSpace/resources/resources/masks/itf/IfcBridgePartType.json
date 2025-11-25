@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcBridgePartType_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBridgePartType_ElementType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBridgePartType_PredefinedType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBridgePartType_UsageType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

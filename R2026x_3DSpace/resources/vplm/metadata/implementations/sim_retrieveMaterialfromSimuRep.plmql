@@ -1,0 +1,18 @@
+NAVIGATE   
+    T0.PLM_ExternalID, T1.PLM_ExternalID , T2.PLM_ExternalID, T3.PLM_ExternalID , T4.PLM_ExternalID,
+    T0.PLMID, T1.PLMID, T2.PLMID, T3.PLMID, T4.PLMID
+
+FROM 
+    SIMObjSimulationV5Generic/SIMObjSimulationV5RepReferenceGeneric T0,
+	CATMaterialRef/CATMatReference T1,
+	CATMaterialRef/MaterialDomainInstance T2,
+    CATMaterialRef/MaterialDomain T3,
+	CATMaterialRefElement/CATMatRefElemConnection T4
+
+FROM_ROOTS[?1?]
+ON 
+    (RELATION (FROM=SIMObjSimulationV5Generic/SIMObjSimulationV5RepReferenceGeneric TO=CATMaterialRefElement/CATMatRefElemConnection	THROUGH=POINTSTO)
+		WITH QUALITY_FILTER (ROLE=SIM_FemUsedMaterial))
+	THEN (RELATION(FROM=CATMaterialRefElement/CATMatRefElemConnection TO=CATMaterialRef/CATMatReference THROUGH=POINTSTO) 
+    WITH QUALITY_FILTER(CATEGORY=ISOWNEDBY))
+; 

@@ -1,0 +1,46 @@
+{
+  "dsmvgeoloc:GeolocMask.Default":[
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ReferencedCRSIdentifier",
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_Azimuth",
+	"dsmvgeoloc:programe.CP.GeolocationCoordinate.V_GL_ActiveGeolocation",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian1D.V_GL_FirstAxisCoordinate",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian2D.V_GL_SecondAxisCoordinate",
+	"dsmvgeoloc:programe.CP.GeolocationCartesian3D.V_GL_ThirdAxisCoordinate"
+  ],
+  "dsmvgeoloc:GeolocMask.Details":[
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultBusMask.public"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvgeoloc:GeolocMask.Default"
+    }
+  ],
+  "dsmvgeoloc:GeolocMaskCRS.Default":[
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Name",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Authority",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Version",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Code",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Type",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_AreaDescription",
+	  "dsmvgeoloc:programe.CP.GeolocationCoordinateReferenceSystem.V_GL_Remarks"
+  ],
+  "dsmvgeoloc:DefaultCRSMask.private":[
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultBusMask.public"
+    },
+    {
+      "property": "reuseMask",
+      "mask": "dsmvgeoloc:GeolocMaskCRS.Default"
+    }
+  ],
+  "dsmvgeoloc:AdvancedCRSMask.private":[
+    {
+      "property": "reuseMask",
+      "mask": "dsmvgeoloc:DefaultCRSMask.private"
+    },
+    "dsmvgeoloc:geolocation.getCrsOtherAttributes"
+  ]
+}

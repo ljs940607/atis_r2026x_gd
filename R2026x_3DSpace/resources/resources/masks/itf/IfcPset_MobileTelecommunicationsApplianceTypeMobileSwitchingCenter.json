@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter_UserCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeMobileSwitchingCenter_MaximumNumberOfManagedBSCs",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,9 @@
+{
+    "service": "3DSpace",
+    "domainInstance": "SimulationModel",
+    "description": "Simulation model related.",
+    "packages": [
+        "CATMechanism",
+        "PLMSIMULIADisciplines2"
+    ]
+}

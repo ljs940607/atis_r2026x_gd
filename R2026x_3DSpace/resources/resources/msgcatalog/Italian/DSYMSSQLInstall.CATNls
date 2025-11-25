@@ -1,0 +1,66 @@
+<meta charset="UTF-8"/>
+//---------------------------------------------------------------------------
+// MSSQL_ConnectUser
+//---------------------------------------------------------------------------
+MSSQL_ConnectUser.Title="Parametri di connessione SQL Server";
+MSSQL_ConnectUser.Label1="Nome utente connessione SQL Server:";
+MSSQL_ConnectUser.Resume="Nome utente connessione SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_ConnectPwd
+//---------------------------------------------------------------------------
+MSSQL_ConnectPwd.Title="Password utente connessione SQL Server";
+MSSQL_ConnectPwd.Label1="Password utente connessione SQL Server:";
+
+//---------------------------------------------------------------------------
+// MSSQL_Instance
+//---------------------------------------------------------------------------
+MSSQL_Instance.Title="Nome database SQL Server";
+MSSQL_Instance.Label1="Nome database SQL Server:";
+MSSQL_Instance.Resume="Nome database SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// MSSQL_Server
+//---------------------------------------------------------------------------
+MSSQL_Server.Title="Server database SQL Server";
+MSSQL_Server.Label1="Nome server SQL Server:";
+MSSQL_Server.Resume="Nome server SQL Server: /p1";
+
+//---------------------------------------------------------------------------
+// Connection Error Handling
+//---------------------------------------------------------------------------
+ConnectionTestFailed.Title="Errore di connessione database";
+ConnectionTestFailed.Text="Durante il tentativo di connessione è stato rilevato il seguente errore:\n\n/P1\nVerificare con il 'responsabile della configurazione di SQL Server' che:\n-i protocolli 'Memoria condivisa' e 'TCP/IP' siano attivati\n-i servizi 'SQL Server' e 'SQL Server Browser' siano in esecuzione.";
+
+//---------------------------------------------------------------------------
+// MSSQL Database Creation
+//---------------------------------------------------------------------------
+CreateNewMSSQL_DB.Title="Creazione nuovo database";
+CreateNewMSSQL_DB.Label1="Selezionare la casella di controllo per creare un nuovo database (SQL Server deve essere installato in locale):";
+CreateNewMSSQL_DB.CheckButton="Crea un nuovo database SQL Server";
+CreateNewMSSQL_DB.Resume.true="Creare un nuovo database SQL Server: Sì";
+CreateNewMSSQL_DB.Resume.false="Creare un nuovo database SQL Server: No";
+
+CreateNewMSSQL_DB_Error.Title="Errore di creazione del nuovo database";
+CreateNewMSSQL_DB_Error.Text="Durante l'esecuzione del comando 'sqlcmd' è stato rilevato il seguente errore:\n\n/P1\n";
+
+CreateNewMSSQL_DB_Success.Title="Creazione del nuovo database completata";
+CreateNewMSSQL_DB_Success.Text="Il nuovo database SQL Server è stato creato correttamente";
+
+//---------------------------------------------------------------------------
+// Data target path
+//---------------------------------------------------------------------------
+PathMSSQLFiles.Title="Selezione directory dati MSSQL";
+PathMSSQLFiles.Label1="La directory utilizzata per l'archiviazione dei file del nuovo database (solo del nuovo database):";
+PathMSSQLFiles.Resume="Posizione dei file MSSQL: /p1";
+
+//---------------------------------------------------------------------------
+// File groups
+//---------------------------------------------------------------------------
+MSSQL_Default_Data_FG.Title="Filegroup dati predefiniti e di amministrazione";
+MSSQL_Default_Data_FG.Label1="Filegroup dati predefiniti e di amministrazione (ignorato se vuoto)";
+MSSQL_Default_Data_FG.Resume="Filegroup dati predefiniti e di amministrazione: /P1";
+
+MSSQL_Default_Index_FG.Title="Filegroup indici predefiniti e di amministrazione";
+MSSQL_Default_Index_FG.Label1="Filegroup indici predefiniti e di amministrazione (ignorato se vuoto)";
+MSSQL_Default_Index_FG.Resume="Filegroup indici predefiniti e di amministrazione: /P1";

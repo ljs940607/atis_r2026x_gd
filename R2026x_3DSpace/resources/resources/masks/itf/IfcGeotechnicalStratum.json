@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcGeotechnicalStratum_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcGeotechnicalStratum_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

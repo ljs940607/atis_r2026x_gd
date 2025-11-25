@@ -1,0 +1,25 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTransportEquipment_IsUpgradable",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTransportEquipment_ElectricalCrossCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTransportEquipment_NumberOfSlots",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTransportEquipment_TransportEquipmentType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTransportEquipment_TransportEquipmentAssemblyType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

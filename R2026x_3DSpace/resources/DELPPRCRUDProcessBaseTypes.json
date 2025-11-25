@@ -1,0 +1,264 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "DELLmiAbstractProductionEntity",
+				"ParentType": "PLMReference",
+				"IsAbstract": true,
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "DELLmiAbstractProductionEntity",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.threed_space.impl.DELMIACRUDPPRSysOpReferenceExecutionImpl"
+					},
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiAbstractProductionEntity",
+						"Behavior": "CUSTOM",
+						"Class": "com.dassault_systemes.delmia.crud.process.bytype.index.DELProcReferenceIndexExpandExecutionImpl"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "richText",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELLmiRichText.V_RichText"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELLmiRichText.V_RichText"
+							}
+						],
+						"Checkers": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.checkers.RichTextAttributeSizeLimitChecker"
+							}
+						],
+						"Getters": [
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiRichTextIndexGetter"
+							},
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiRichText3DSpaceGetter"
+							}
+						],
+						"Setters": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.setters.DELLmiRichTextExtnAttrRichTextSetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "richTextInternal",
+						"Getters" : [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiInternalRichTextExtnAttrRichTextGetter"
+							}
+						]
+
+					},
+					{
+						"ConceptualName": "richTextUrl",
+						"Getters" : [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiRichText3DSpaceGetter"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiRichTextIndexGetter"
+							}
+						]
+					},
+					{
+						"ConceptualName": "dsprcs:DocRepReference",
+						"Getters" : [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiDocRepReference3DSpaceGetter"
+							},
+							{
+								"Modeler": "_Index",
+								"Class": "com.dassault_systemes.delmia.crud.process.attributes.getters.DELLmiDocRepReferenceIndexGetter"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "DELLmiProdSystemIOPort",
+				"ParentType": "PLMEntity",
+				"ModelerMapping": [
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELLmiProdSystemIOPort",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:TimeAnalysis",
+				"ParentType": "PLMCoreRepReference",
+				"ModelerMapping": [
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeAnalysisRepReference",
+						"Behavior": "REFERENCE"
+					}
+				],
+				"Attributes": [
+					{
+						"ConceptualName": "analysisType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_AnalysisType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_AnalysisType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "humanTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_HumanTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_HumanTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "longDescription",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_LongDescription"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_LongDescription"
+							}
+						]
+					},
+					{
+						"ConceptualName": "machineTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_MachineTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_MachineTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "setupTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_SetupTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_SetupTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "subsystem",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_Subsystem"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_Subsystem"
+							}
+						]
+					},
+					{
+						"ConceptualName": "timeType",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_TimeType"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_TimeType"
+							}
+						]
+					},
+					{
+						"ConceptualName": "totalTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_TotalTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_TotalTime"
+							}
+						]
+					},
+					{
+						"ConceptualName": "valueAdded",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_ValueAdded"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_ValueAdded"
+							}
+						]
+					},
+					{
+						"ConceptualName": "waitingTime",
+						"ModelerMapping": [
+							{
+								"Modeler": "_3DSpaceDB",
+								"Mapping": "DELTimeAnalysisRepReference.V_WaitingTime"
+							},
+							{
+								"Modeler": "_Index",
+								"Mapping": "bo.DELTimeAnalysisRepReference.V_WaitingTime"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsprcs:TimeAnalysisInstance",
+				"ParentType": "PLMCoreRepInstance",
+				"ModelerMapping": [
+					{
+						"Modeler": "_Index",
+						"Mapping": "DELTimeAnalysisRepInstance",
+						"Behavior": "INSTANCE"
+					}
+				]
+			}
+		]
+	}
+]

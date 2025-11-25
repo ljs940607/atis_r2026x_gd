@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "cestamp": {
+            "type": "string",
+            "example": "08248256E616220064204D08000E77BE"
+        },
+        "title": {
+            "type": "string",
+            "example": "LogicalNetGroupReferenceProduct"
+        },
+        "description": {
+            "type": "string",
+            "example": "The Logical Net Group Reference to be modified "
+        }
+    }
+}

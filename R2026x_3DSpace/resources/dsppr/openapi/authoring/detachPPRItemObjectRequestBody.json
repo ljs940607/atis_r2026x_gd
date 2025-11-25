@@ -1,0 +1,135 @@
+{
+	"properties": {
+      "dseng:EngItem": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "description": "source",
+                  "type": "string",
+                  "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+                },
+                "type": {
+                  "description": "type",
+                  "type": "string",
+                  "example": "VPMReference"
+                },
+                "identifier": {
+                  "description": "Entity physical id dseng:EngItem",
+                  "type": "string",
+                  "example": "VPMRegerenceRefID"
+                },
+                "relativePath": {
+                  "description": "relativePath",
+                  "type": "string",
+                  "example": "/resources/v1/modeler/dseng/dseng:EngItem/{VPMRegerenceRefID}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "dsmfg:MfgItem": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "description": "source",
+                  "type": "string",
+                  "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+                },
+                "type": {
+                  "description": "type",
+                  "type": "string",
+                  "example": "DELFmiFunctionReference"
+                },
+                "identifier": {
+                  "description": "Entity physical id dsmfg:MfgItem",
+                  "type": "string",
+                  "example": "MfgItemID"
+                },
+                "relativePath": {
+                  "description": "relativePath",
+                  "type": "string",
+                  "example": "/resources/v1/modeler/dsmfg/dsmfg:MfgItem/{MfgItemID}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "dsprcs:MfgProcess": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "description": "source",
+                  "type": "string",
+                  "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+                },
+                "type": {
+                  "description": "type",
+                  "type": "string",
+                  "example": "DELLmiWorkPlanSystemReference"
+                },
+                "identifier": {
+                  "description": "Entity physical id dsprcs:MfgProcess",
+                  "type": "string",
+                  "example": "MfgProcessID"
+                },
+                "relativePath": {
+                  "description": "relativePath",
+                  "type": "string",
+                  "example": "/resources/v1/modeler/dsprcs/dsprcs:MfgProcess/{MfgProcessID}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "dsrsc:Resource": {
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "description": "source",
+                  "type": "string",
+                  "example": "https://server_name.dsone.3ds.com:443/3DSpace"
+                },
+                "type": {
+                  "description": "type",
+                  "type": "string",
+                  "example": "VPMReference"
+                },
+                "identifier": {
+                  "description": "Entity physical id dsrsc:Resource",
+                  "type": "string",
+                  "example": "ResourceID"
+                },
+                "relativePath": {
+                  "description": "relativePath",
+                  "type": "string",
+                  "example": "/resources/v1/modeler/dsrsc/dsrsc:Resource/{ResourceID}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}

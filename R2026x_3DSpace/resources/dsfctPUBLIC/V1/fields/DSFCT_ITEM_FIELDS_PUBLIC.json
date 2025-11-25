@@ -1,0 +1,21 @@
+{	
+    "dsmvfct:FctItemEnterpriseAttributes": {
+        "property": "computed",
+        "key": "dsfct:FctItemEnterpriseAttributes",
+        "description": "To get parametric attributes of an object",
+        "example": "com.dassault_systemes.catia.xapps.dsfct.V1.openapi.custom.PUBLIC.fctItemEnterpriseAttributes"
+    },
+    "dsmvfct:FlowItemEnterpriseAttributes": {
+        "property": "computed",
+        "key": "dsfct:FlowItemEnterpriseAttributes",
+        "description": "To get parametric attributes of an object",
+        "example": "com.dassault_systemes.catia.xapps.dsfct.V1.openapi.custom.PUBLIC.flowItemEnterpriseAttributes"
+    },
+	"dsmvfct:attribute.FlowReference.category": {
+		"property": "attribute[RFLPLMFlowReference.V_Category]",
+		"key": "category",
+		"format":"integer",
+		"description": "1 for Data or 2 for Control, default value is 1",
+		"example": "1"
+	}
+}

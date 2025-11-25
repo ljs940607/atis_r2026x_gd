@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RailwayLevelCrossing_IsAccessibleByVehicle",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayLevelCrossing_HasRailDrainage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayLevelCrossing_IsPrivateOwner",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayLevelCrossing_PermissiblePavementLoad",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayLevelCrossing_IsSecuredBySignalingSystem",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RailwayLevelCrossing_IsExceptionalTransportRoute",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

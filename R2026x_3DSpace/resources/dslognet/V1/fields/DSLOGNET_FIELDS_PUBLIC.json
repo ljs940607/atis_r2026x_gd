@@ -1,0 +1,325 @@
+{
+"dsmvlognet:attribute.instancedetails.referencedObject":{
+        "property": "computed",
+        "key": "referencedObject",
+       "fetchOnce":true,
+    	"example": "com.dassault_systemes.enovia.xapps.dsxcad.implementations.dsxcadOpenAPIImpl.getPointedInfo",
+         "description": "Referenced object informations"
+    },
+	"dsmvlognet:attribute.shellconnector.predefinedpartnumber": {
+		"property": "attribute[EleLogicalShellConnectorPort.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslognet.Label.Attribute.Predefinedpartnumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalShellConnectorPort.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlognet:attribute.shellconnector.subtype": {
+		"property": "attribute[EleLogicalShellConnectorPort.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalShellConnectorPort.V_Elec_SubType"
+	},
+	"dsmvlognet:attribute.connector.predefinedpartnumber": {
+		"property": "attribute[EleLogicalConnectorPort.V_Elec_PredefinedPartNumber]",
+		"key": "predefinedpartnumber",
+		"label": "dslognet.Label.Attribute.Predefinedpartnumber",
+		"example": "",
+		"description": "Predefined Part Number",
+  "index": "ds6wg:EleLogicalConnectorPort.V_Elec_PredefinedPartNumber"
+	},
+	"dsmvlognet:attribute.port.direction": {
+    "property": "attribute[LPAbstractPort.V_Direction]",
+    "key": "direction",
+    "label": "dslognet.Label.Attribute.Direction",
+    "example": "",
+    "description": "Direction",
+  "index": "ds6wg:LPAbstractPort.V_Direction"
+  	},
+	"dsmvlognet:attribute.connector.subtype": {
+		"property": "attribute[EleLogicalConnectorPort.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalConnectorPort.V_Elec_SubType"
+	},
+  "dsmvlognet:attribute.connector.style": {
+		"property": "attribute[EleLogicalConnectorPort.V_Elec_Style]",
+		"key": "style",
+		"label": "dslognet.Label.Attribute.Style",
+		"example": "",
+		"description": "Style",
+  "index": "ds6wg:EleLogicalConnectorPort.V_Elec_Style"
+	},
+
+	"dsmvlognet:attribute.pin.contactgauge": {
+		"property": "attribute[EleLogicalPin.V_Elec_ContactGauge]",
+		"key": "contactgauge",
+		"label": "dslognet.Label.Attribute.Contactgauge",
+		"example": "#10",
+		"description": "Contact Gauge",
+  "index": "ds6wg:EleLogicalPin.V_Elec_ContactGauge"
+	},
+	"dsmvlognet:attribute.pin.maxsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_MaxSection]",
+		"key": "maxsection",
+		"label": "dslognet.Label.Attribute.Maxsection",
+		"example": "",
+		"description": "Max Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_MaxSection"
+	},
+	"dsmvlognet:attribute.pin.minsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_MinSection]",
+		"key": "minsection",
+		"label": "dslognet.Label.Attribute.Minsection",
+		"example": "",
+		"description": "Min Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_MinSection"
+	},
+	"dsmvlognet:attribute.pin.nominalcurrent": {
+		"property": "attribute[EleLogicalPin.V_Elec_NominalCurrent]",
+		"key": "nominalcurrent",
+		"label": "dslognet.Label.Attribute.Nominalcurrent",
+		"example": "5mA",
+		"description": "Nominal Current",
+  "index": "ds6wg:EleLogicalPin.V_Elec_NominalCurrent"
+	},
+	"dsmvlognet:attribute.pin.nominalsection": {
+		"property": "attribute[EleLogicalPin.V_Elec_NominalSection]",
+		"key": "nominalsection",
+		"label": "dslognet.Label.Attribute.Nominalsection",
+		"example": "",
+		"description": "Nominal Section",
+  "index": "ds6wg:EleLogicalPin.V_Elec_NominalSection"
+	},
+	"dsmvlognet:attribute.pin.sepcode": {
+		"property": "attribute[EleLogicalPin.V_Elec_SepCode]",
+		"key": "sepcode",
+		"label": "dslognet.Label.Attribute.Sepcode",
+		"example": "AAA",
+		"description": "Separation Code",
+  "index": "ds6wg:EleLogicalPin.V_Elec_SepCode"
+	},
+	"dsmvlognet:attribute.pin.signal": {
+		"property": "attribute[EleLogicalPin.V_Elec_Signal]",
+		"key": "signal",
+		"label": "dslognet.Label.Attribute.Signal",
+		"example": "",
+		"description": "Signal",
+  "index": "ds6wg:EleLogicalPin.V_Elec_Signal"
+	},
+	"dsmvlognet:attribute.pin.subtype": {
+		"property": "attribute[EleLogicalPin.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalPin.V_Elec_SubType"
+	},
+
+	"dsmvlognet:attribute.groundpin.maxsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_MaxSection]",
+		"key": "maxsection",
+		"label": "dslognet.Label.Attribute.Maxsection",
+		"example": "",
+		"description": "Max Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_MaxSection"
+	},
+	"dsmvlognet:attribute.groundpin.minsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_MinSection]",
+		"key": "minsection",
+		"label": "dslognet.Label.Attribute.Minsection",
+		"example": "",
+		"description": "Min Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_MinSection"
+	},
+	"dsmvlognet:attribute.groundpin.nominalsection": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_NominalSection]",
+		"key": "nominalsection",
+		"label": "dslognet.Label.Attribute.Nominalsection",
+		"example": "",
+		"description": "Nominal Section",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_NominalSection"
+	},
+	"dsmvlognet:attribute.groundpin.subtype": {
+		"property": "attribute[EleLogicalGroundPin.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalGroundPin.V_Elec_SubType"
+	},
+
+	"dsmvlognet:attribute.netgroup.color": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_Color]",
+		"key": "color",
+		"label": "dslognet.Label.Attribute.Color",
+		"example": "Red",
+		"description": "color",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_Color"
+	},
+	"dsmvlognet:attribute.netgroup.externaldiameter": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_ExternalDiameter]",
+		"key": "externaldiameter",
+		"label": "dslognet.Label.Attribute.Externaldiameter",
+		"example": "",
+		"description": "External Diameter",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_ExternalDiameter"
+	},
+	"dsmvlognet:attribute.netgroup.gauge": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslognet.Label.Attribute.Gauge",
+		"example": "#10",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_Gauge"
+	},
+	"dsmvlognet:attribute.netgroup.routingpriority": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_RoutingPriority]",
+		"key": "routingpriority",
+		"label": "dslognet.Label.Attribute.Routingpriority",
+		"example": "",
+		"description": "Routing Priority",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_RoutingPriority"
+	},
+	"dsmvlognet:attribute.netgroup.section": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_Section]",
+		"key": "section",
+		"label": "dslognet.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_Section"
+	},
+	"dsmvlognet:attribute.netgroup.subtype": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_SubType"
+	},
+	"dsmvlognet:attribute.netgroup.type": {
+		"property": "attribute[EleLogicalNetGroup.V_Elec_Type]",
+		"key": "type",
+		"label": "dslognet.Label.Attribute.Type",
+		"example": "",
+		"description": "Type",
+  "index": "ds6wg:EleLogicalNetGroup.V_Elec_Type"
+	},
+	"dsmvlognet:attribute.netgroup.segregation": {
+		"property": "attribute[EleLogicalNetGroup.V_ElecRef_Segregation]",
+		"key": "segregation",
+		"label": "dslognet.Label.Attribute.Segregation",
+		"example": "segregation",
+		"description": "Segregation",
+  "index": "ds6wg:EleLogicalNetGroup.V_ElecRef_Segregation"
+	},
+	"dsmvlognet:attribute.netgroup.tagnumber": {
+		"property": "attribute[EleLogicalNetGroup.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslognet.Label.Attribute.Tagnumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalNetGroup.V_ElecRef_TagNumber"
+	},
+
+	"dsmvlognet:attribute.netgroupinst.segregation": {
+		"property": "attribute[EleLogicalNetGroupInst.V_Elec_Segregation]",
+		"key": "segregation",
+		"label": "dslognet.Label.Attribute.Segregation",
+		"example": "",
+		"description": "Segragation",
+  "index": "ds6wg:EleLogicalNetGroupInst.V_Elec_Segregation"
+	},
+	"dsmvlognet:attribute.netgroupinst.tagnumber": {
+		"property": "attribute[EleLogicalNetGroupInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslognet.Label.Attribute.Tagnumber",
+		"example": "",
+		"description": "TagNumber",
+  "index": "ds6wg:EleLogicalNetGroupInst.V_Elec_TagNumber"
+	},
+
+	"dsmvlognet:attribute.net.color": {
+		"property": "attribute[EleLogicalNet.V_Elec_Color]",
+		"key": "color",
+		"label": "dslognet.Label.Attribute.Color",
+		"example": "red",
+		"description": "Color",
+  "index": "ds6wg:EleLogicalNet.V_Elec_Color"
+	},
+	"dsmvlognet:attribute.net.gauge": {
+		"property": "attribute[EleLogicalNet.V_Elec_Gauge]",
+		"key": "gauge",
+		"label": "dslognet.Label.Attribute.Gauge",
+		"example": "#10",
+		"description": "Gauge",
+  "index": "ds6wg:EleLogicalNet.V_Elec_Gauge"
+	},
+	"dsmvlognet:attribute.net.section": {
+		"property": "attribute[EleLogicalNet.V_Elec_Section]",
+		"key": "section",
+		"label": "dslognet.Label.Attribute.Section",
+		"example": "",
+		"description": "Section",
+  "index": "ds6wg:EleLogicalNet.V_Elec_Section"
+	},
+	"dsmvlognet:attribute.net.subtype": {
+		"property": "attribute[EleLogicalNet.V_Elec_SubType]",
+		"key": "subtype",
+		"label": "dslognet.Label.Attribute.Subtype",
+		"example": "subtype",
+		"description": "Sub Type",
+  "index": "ds6wg:EleLogicalNet.V_Elec_SubType"
+	},
+	"dsmvlognet:attribute.net.tagnumber": {
+		"property": "attribute[EleLogicalNet.V_ElecRef_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslognet.Label.Attribute.Tagnumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalNet.V_ElecRef_TagNumber"
+	},
+
+	"dsmvlognet:attribute.netinst.tagnumber": {
+		"property": "attribute[EleLogicalNetInst.V_Elec_TagNumber]",
+		"key": "tagnumber",
+		"label": "dslognet.Label.Attribute.Tagnumber",
+		"example": "",
+		"description": "Tag Number",
+  "index": "ds6wg:EleLogicalNetInst.V_Elec_TagNumber"
+	},
+
+	"dsmvlognet:attribute.instance.reference": {
+		"property": "to.physicalid",
+		"key": "reference"
+	},
+	"dsmvlognet:attribute.pin.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the pin.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlognet:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlognet:attribute.groundpin.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the pin.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlognet:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	},
+	"dsmvlognet:attribute.connector.getowner": {
+		"property": "computed",
+	    "key" : "GetOwner",
+	    "description":"Get owner of the connector.",
+	    "fetchOnce":true,
+	    "mask":"dsmvlognet:ConnectorDetailedMask",
+	    "maskAppliesTo":"bus"
+	}
+
+}

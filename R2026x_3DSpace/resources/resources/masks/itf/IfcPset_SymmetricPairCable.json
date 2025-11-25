@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SymmetricPairCable_NumberOfTwistedPairs",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SymmetricPairCable_NumberOfUntwistedPairs",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

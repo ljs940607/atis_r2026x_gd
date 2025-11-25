@@ -1,0 +1,21 @@
+
+<Scripts>
+
+  <!-- provide implementation of common infrastructure Business Logic Openess for the modeler PRODUCT_QUALIFICATION_PROFILE -->
+  <!-- types provided with dedicated implementation: VPMQualificationProfile, VPMPrioritizedQualificationProfile, VPMEssentialQualificationProfile, VPMFakeQualification -->
+
+  <!--Attribute title initialization when Creating online data on modeler type VPMQualificationProfile ...-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="VPMQualificationProfile"             ScriptName="ENONT_VPMQualification_BLInitialization" >
+  </Script>
+
+  <!--Controls on role, project, .. when Aggregating online data on modeler type VPMQualificationProfile ...-->
+  <Script OpeningID="PLMInstanceAggregationCheck"     Type="VPMQualificationProfile"             ScriptName="ENONT_StandardAggregation" >
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck"     Type="VPMPrioritizedQualificationProfile"  ScriptName="ENONT_StandardAggregation" >
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck"     Type="VPMEssentialQualificationProfile"    ScriptName="ENONT_StandardAggregation" >
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck"     Type="VPMFakeQualification"                ScriptName="ENONT_StandardAggregation" >
+  </Script>
+
+</Scripts>

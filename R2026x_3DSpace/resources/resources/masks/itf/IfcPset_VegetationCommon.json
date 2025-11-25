@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_VegetationCommon_BotanicalName",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_VegetationCommon_LocalName",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

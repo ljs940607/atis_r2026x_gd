@@ -1,0 +1,46 @@
+/* ThisObject => parent reference = instance.to */
+/* Parameters->GetAttributeObject("ReferenceToInstantiate") => child reference = instance.from */
+let ListChildren(List)
+let nChildren(Integer)
+let ListAxisInstance(List)
+let nAxisInstance(Integer)
+let ReferenceToInstantiate(PLMEntity)
+set ReferenceToInstantiate = Parameters->GetAttributeObject("ReferenceToInstantiate")
+
+Validation = true
+
+if (ThisObject.IsSupporting("ShellAxisSystemReference") == true) {
+    Trace(1, "Try to instantiate under ShellAxisSystemReference")
+    if (ReferenceToInstantiate.IsSupporting("ShellAxisSystemReference") == true) {
+        /* ShellAxisSystemReference under ShellAxisSystemReference is not allowed */
+        Trace(1, "Try to instantiate ShellAxisSystemReference under ShellAxisSystemReference")
+        Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck2.Title")
+        Parameters.Message = BuildMessageNLS("VDRPCheckRules","ValidationCheck2.Title")
+        Validation = false
+    }
+    else if (ReferenceToInstantiate.IsSupporting("AxisSystemReference") == true) {
+        /* check that no instance of AxisSystemReference already exists */
+        Trace(1, "Try to instantiate AxisSystemReference under ShellAxisSystemReference")
+
+        ListChildren = ThisObject.Children
+        nChildren = ListChildren.Size()
+        Trace(1, "ThisObject nChildren=", nChildren)
+
+        ListAxisInstance = ListChildren.Filter("AxisSystemInstance", "")
+        nAxisInstance = ListAxisInstance.Size()
+        Trace(1, "nAxisInstance=", nAxisInstance)
+
+        /* only one AxisSystemReference under ShellAxisSystemReference is allowed */
+        if (nAxisInstance > 0) {
+            Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck3.Title")
+            Parameters.Message = BuildMessageNLS("VDRPCheckRules","ValidationCheck3.Title")
+            Validation = false
+        }
+    }
+    else if (ReferenceToInstantiate.IsSupporting("AxisSystemReference") == false) {
+        /* only AxisSystemReference type under ShellAxisSystemReference is allowed */
+        Parameters.NLSMessage = BuildDeferredMessageNLS("VDRPCheckRules", "ValidationCheck4.Title")
+        Parameters.Message = BuildMessageNLS("VDRPCheckRules","ValidationCheck4.Title")
+        Validation = false
+    }
+}

@@ -1,0 +1,73 @@
+{
+	"dsrsc:WarehouseMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:DefaultBusMask.utc"
+		}
+	],
+	"dsrsc:WarehouseMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:WarehouseMask.Default"
+		},
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:attribute.reference.createdFrom",
+		"dsmveno:attribute.reference.versionComment"
+	],
+	"dsrsc:WarehouseInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:DefaultRelMask.utc"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",		
+		"dsrsc:instance.reference"
+	],
+	"dsrsc:WarehouseInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:WarehouseInstanceMask.Default"
+		},
+		"dsmveno:basic.instance.reservedByUserId",
+		"dsrsc:instanceDetails.referencedObject"
+	],
+	"dsrsc:WarehouseLocationMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:DefaultBusMask.utc"
+		}
+	],
+	"dsrsc:WarehouseLocationMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:WarehouseLocationMask.Default"
+		},
+		"dsmveno:basic.reference.reservedByUserId",
+		"dsmveno:attribute.reference.createdFrom",
+		"dsmveno:attribute.reference.versionComment",
+		"dsrsc:WarehouseLocationReference.estimatedVolume",
+		"dsrsc:WarehouseLocationReference.aisle",
+		"dsrsc:WarehouseLocationReference.row",
+		"dsrsc:WarehouseLocationReference.tier",
+		"dsrsc:WarehouseLocationReference.volume"
+	],
+	"dsrsc:WarehouseLocationInstanceMask.Default": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:DefaultRelMask.utc"
+		},
+		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsrsc:instance.reference"
+	],
+	"dsrsc:WarehouseLocationInstanceMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dsrsc:WarehouseLocationInstanceMask.Default"
+		},
+		"dsmveno:basic.instance.reservedByUserId",
+		"dsrsc:instanceDetails.referencedObject"
+	]
+}

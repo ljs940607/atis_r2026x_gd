@@ -1,0 +1,21 @@
+{
+  "enoBoookmarkNotif.sharing": "自分と共有されているブックマーク フォルダ",
+  "enoBoookmarkNotif.subscriptions": "ブックマーク フォルダ通知依頼設定済みイベント",
+  "enoBoookmarkNotif.ContentAdded.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###OBJECT_DISPLAY_NAME###</strong> をブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加しました。",
+  "enoBoookmarkNotif.ContentAdded.mail.subject": "###FROM_USER_NAME### はコンテンツを追加しました",
+  "Merge.enoBoookmarkNotif.ContentAdded.message": "<strong>###MERGE_COUNT###</strong> コンテンツがブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加されました。",
+  "enoBoookmarkNotif.ContentRemoved.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###OBJECT_DISPLAY_NAME###</strong> をブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> から除去しました。",
+  "enoBoookmarkNotif.ContentRemoved.mail.subject": "###FROM_USER_NAME### はコンテンツを除去しました",
+  "Merge.enoBoookmarkNotif.ContentRemoved.message": "<strong>###MERGE_COUNT###</strong> コンテンツがブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> から除去されました。",
+  "enoBoookmarkNotif.FolderCreated.message": "<strong>###FROM_USER_NAME###</strong> さんがブックマーク フォルダ <strong>###OBJECT_DISPLAY_NAME###</strong> をブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加しました。",
+  "enoBoookmarkNotif.FolderCreated.mail.subject": "###FROM_USER_NAME### はブックマークを作成しました",
+  "Merge.enoBoookmarkNotif.FolderCreated.message": "<strong>###MERGE_COUNT###</strong> ブックマーク フォルダがブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加されました。",
+  "enoBoookmarkNotif.FolderDeleted.message": "<strong>###FROM_USER_NAME###</strong> さんがブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> を <strong>###OBJECT_DISPLAY_NAME###</strong> から除去しました。",
+  "enoBoookmarkNotif.FolderDeleted.mail.subject": "###FROM_USER_NAME### はブックマークを除去しました",
+  "Merge.enoBoookmarkNotif.FolderDeleted.message": "<strong>###MERGE_COUNT###</strong> ブックマーク フォルダがブックマーク フォルダ <strong>###BOOKMARK_DISPLAY_NAME###</strong> から除去されました。",
+  "enoBoookmarkNotif.ContentAddedCount.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###NUMBER_OBJECT###</strong> 個のオブジェクトを <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加しました。",
+  "enoBoookmarkNotif.ContentRemovedCount.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###NUMBER_OBJECT###</strong> 個のオブジェクトを <strong>###BOOKMARK_DISPLAY_NAME###</strong> から除去しました。",
+  "enoBoookmarkNotif.FolderCreatedCount.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###NUMBER_OBJECT###</strong> ブックマーク フォルダを <strong>###BOOKMARK_DISPLAY_NAME###</strong> に追加しました。",
+  "enoBoookmarkNotif.FolderDeletedCount.message": "<strong>###FROM_USER_NAME###</strong> さんが <strong>###NUMBER_OBJECT###</strong> ブックマーク フォルダを <strong>###BOOKMARK_DISPLAY_NAME###</strong> から除去しました。",
+  "enoBoookmarkNotif.GrantAccess.message": "<strong>###FROM_USER_NAME###</strong> さんが、あなたと <strong>###OBJECT_DISPLAY_NAME###</strong> を共有しました。"
+}

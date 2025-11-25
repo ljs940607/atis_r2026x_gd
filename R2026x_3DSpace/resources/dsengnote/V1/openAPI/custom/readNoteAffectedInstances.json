@@ -1,0 +1,14 @@
+{
+  "description": "Affected Instances for this Engineering Note",
+  "type": "object",
+  "properties": {
+    "totalItems": {
+      "description": "Number of affected instances",
+      "type": "integer",
+      "example": 1
+    },
+    "referencedObjects": {
+      "$ref": "#/components/schemas/noteAffectedInstances"
+    }
+  }
+}

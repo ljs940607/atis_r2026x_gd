@@ -1,0 +1,55 @@
+{
+    "dsfct:FctItem": {
+        "summary": "Functional Item",
+        "description": "Functional Item",
+        "PUBLICMasks": ["dsmvfct:FctItem.Mask.Reference.Details"],
+        "PUBLICFields": ["dsmveno:SupportedTypes", "dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dsfct:FctItemEnterpriseAttributes", "dscfg:Configured", "dslc:changeControl"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETAll", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dsfct:FctInstance": {
+        "summary": "Functional Item Instance",
+        "description": "Functional Item Instance",
+        "PUBLICMasks": ["dsmvfct:FctInstance.Mask.Instance.Details"],        
+        "PUBLICFields": ["dsmveno:SupportedTypes", "dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dsfct:FlowItem": {
+        "summary": "Functional Flow Item",
+        "description": "Functional Flow Item",
+        "PUBLICMasks": ["dsmvfct:FlowItem.Mask.Reference.Details"],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dsfct:FlowItemEnterpriseAttributes", "dslc:changeControl"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETAll", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dsfct:FlowInstance": {
+        "summary": "Functional Flow Instance",
+        "description": "Functional Flow Instance",
+        "PUBLICMasks": ["dsmvfct:FlowInstance.Mask.Instance.Details"],        
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dsfct:Interface": {
+        "summary": "Functional Interface",
+        "description": "Functional Interface",
+        "PUBLICMasks": ["dsmvfct:Interface.Mask.Interface.Details"],        
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dsfct:FctItemEnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dsfct:FctItemEnterpriseAttributes",
+        "PUBLICFields": ["dsmvfct:FctItemEnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    },
+    "dsfct:FlowItemEnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dsfct:FlowItemEnterpriseAttributes",
+        "PUBLICFields": ["dsmvfct:FlowItemEnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    }
+}
+

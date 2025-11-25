@@ -1,0 +1,16 @@
+<Scripts>
+<!--Providing default policy and usable policy setup for the consistent set of types of modeler package WSSSpatialStructureElement-->
+<!--File Content is property of Dassault Systemes, Generated for OOTB offical deployment and may change at any time without notice -->
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterSupplySystem" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterTreatmentPlant" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterStorage" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSTransmissionLine" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSDistributionLine" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSOtherSpatialStructureElement" ScriptName="ENOAP_PolicyChooser_Definition" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterSupplySystemType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterTreatmentPlantType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSWaterStorageType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSTransmissionLineType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSDistributionLineType" ScriptName="ENOAP_PolicyChooser_Resource" />
+<Script OpeningID="INFRAAuthorizedPolicies" Type="WSSOtherSpatialStructureElementType" ScriptName="ENOAP_PolicyChooser_Resource" />
+</Scripts>

@@ -1,0 +1,148 @@
+{
+	"Write": {
+		"attributes": [
+			{ "name": "type" },
+			{
+				"name": "Title",
+				"status": "RO"
+			},
+			{ "name": "name" },
+			{ "name": "revision" },
+			{
+				"name": "Priority",
+				"status": "RO"
+			},
+			{
+				"name": "Difficulty",
+				"status": "RO"
+			},
+			{
+				"name": "Requirement Classification",
+				"status": "RO"
+			},
+			{
+				"name": "Requirement Category",
+				"status": "RO"
+			},
+			{ "name": "owner" },
+			{ "name": "current" },
+			{ "name": "originated" },
+			{ "name": "modified" },
+			{ "name": "organization" },
+			{ "name": "project" },
+			{
+				"name": "DS_REQ_FTA_Discipline",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_IsActive",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_LocalArea",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Function",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_GeomtricalRequirementType",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_GPSStandardType",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Interchangeabilityconstraint",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvaluespecification",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2specification",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Unit2",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Nominalvalue2",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminspecification",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Toleranceminvalue",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxspecification",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Tolerancemaxvalue",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticaltolerancespecification",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalpopulation",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_WorstCasecalculation",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmin",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_ComputedWCvariationmax",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticaldistribution",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalminvariation",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Computedstatisticalmaxvariation",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalrejectionrate",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Statisticalcalculationmethod",
+				"status": "RO"
+			},
+			{
+				"name": "DS_REQ_FTA_Retainedcalculationresult",
+				"status": "RO"
+			}
+		]
+			},
+	"revision":"1"
+}

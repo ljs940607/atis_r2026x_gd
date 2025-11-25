@@ -1,0 +1,50 @@
+{
+  "dsengisl:PipingInsulation": {
+    "kindOf": "root",
+    "beType": "type_Piping_Insulation",
+    "indexClassesWhere":"flattenedtaxonomies:types/Insulation",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": [ ],
+    "defaultMask": "dsmvengisl:InsulationMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": [ "dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric" ],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengisl.V1.dictionaries.ENOXdsengpipislDictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  },
+ 
+  "dsengisl:HvacInsulation": {
+    "kindOf": "root",
+    "beType": "type_HVAC_Insulation",
+    "indexClassesWhere":"flattenedtaxonomies:types/Insulation",
+    "parentType": "dseng:EngItem",
+    "inheritanceType": "explicit",
+    "contentLinks": [ ],
+    "defaultMask": "dsmvengisl:InsulationMask",
+    "patchCSRF": true,
+    "search": true,
+    "extensionLinks": [ "dslc:changeControl", "dscfg:Configured", "dseno:EnterpriseAttributes", "dseng:EnterpriseReference", "dskpi:metric" ],
+    "customerAttribute": true,
+    "customizationSupport": false,
+    "changeSupport": false,
+    "cestamp": true,
+    "attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengisl.V1.dictionaries.ENOXdsenghvacislDictionary",
+    "isPublic": false,
+    "optionCheck": {
+      "modify": true,
+      "navigate": false,
+      "produce": true
+    }
+  }
+
+}

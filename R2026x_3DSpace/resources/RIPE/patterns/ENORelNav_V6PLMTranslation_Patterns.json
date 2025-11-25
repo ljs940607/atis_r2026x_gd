@@ -1,0 +1,12 @@
+{
+	"relations": [
+	{
+		"name": "LinkOnTranslation_to",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "LinkOnTranslation"}, "direction" : "to"}]}]
+	},
+	{
+		"name": "LinkOnTranslation_from",
+		"queries" :  [{ "definition":[{"navigationType" : "relation","qualityFilter" : {"rel_type" : "LinkOnTranslation"}, "direction" : "from"}]}]
+	}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"dsehm:ErgoHuman": {
+		"summary": "Ergo Human",
+		"description": "ErgoHuman type",
+		"PUBLICMasks": [
+			"dsehm:ErgoHumanMask.Default"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [],
+		"PROTECTEDExtensions": [
+		],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [
+			"dsmveno:basic.id",
+        	"dsmveno:basic.type.public",
+        	"dsmveno:basic.modified.public",
+        	"dsmveno:basic.created.public",
+        	"dsmveno:basic.revision",
+	        "dsmveno:basic.state.public",
+	        "dsmveno:basic.owner.public",
+	        "dsmveno:basic.organization",
+	        "dsmveno:basic.collabspace"
+		],
+		"PUBLICExcludedURIs": ["getItems", "PATCH", "GETAll"]
+	}
+}

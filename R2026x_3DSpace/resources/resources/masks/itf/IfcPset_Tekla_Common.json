@@ -1,0 +1,45 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_Tekla_Common_CLASS_ATTR",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_PHASE",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_PRELIM_MARK",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_initial_GUID",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_TOP_LEVEL",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_BOTTOM_LEVEL",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_PART_MARK",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_ASSEMBLY_MARK",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_FINISH",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_Tekla_Common_GRADE",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

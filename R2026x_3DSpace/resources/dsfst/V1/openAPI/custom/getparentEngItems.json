@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "totalItems": {
+            "type": "integer",
+            "example": 1
+        },
+        "referencedObjects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "source": {
+                        "description": "source",
+                        "type": "string",
+                        "example": "$3DSpace"
+                    },
+                    "type": {
+                        "description": "type",
+                        "type": "string",
+                        "example": "VPMReference"
+                    },
+                    "id": {
+                        "description": "identifier",
+                        "type": "string",
+                        "example": "EE562168015FFCF14F940A513C63AA77"
+                    },
+                    "relativePath": {
+                        "description": "relativePath",
+                        "type": "string",
+                        "example": "resource/v1/ds3sh/ds3sh:3DShape/EE562168015FFCF14F940A513C63AA77"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="AECIfc" />
+    <m1.package name="AECIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcAlignment" />
+      <m1.interface name="IfcAlignment" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcAlignment_LinearRefMethod" />
+        <m1.attribute name="IfcAlignment.IfcAlignment_LinearRefMethod" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcAlignment_ObjectType" />
+        <m1.attribute name="IfcAlignment.IfcAlignment_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcAlignment_PredefinedType" />
+        <m1.attribute name="IfcAlignment.IfcAlignment_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcBuiltElement" />
+      <m1.interface name="IfcBuiltElement" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcBuiltElement_ObjectType" />
+        <m1.attribute name="IfcBuiltElement.IfcBuiltElement_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcBuiltElement_Tag" />
+        <m1.attribute name="IfcBuiltElement.IfcBuiltElement_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcBuiltElementType" />
+      <m1.interface name="IfcBuiltElementType" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcBuiltElementType_ElementType" />
+        <m1.attribute name="IfcBuiltElementType.IfcBuiltElementType_ElementType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcBuiltElementType_Tag" />
+        <m1.attribute name="IfcBuiltElementType.IfcBuiltElementType_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcElementAssembly" />
+      <m1.interface name="IfcElementAssembly" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssembly_AssemblyPlace" />
+        <m1.attribute name="IfcElementAssembly.IfcElementAssembly_AssemblyPlace" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssembly_ObjectType" />
+        <m1.attribute name="IfcElementAssembly.IfcElementAssembly_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssembly_PredefinedType" />
+        <m1.attribute name="IfcElementAssembly.IfcElementAssembly_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssembly_Tag" />
+        <m1.attribute name="IfcElementAssembly.IfcElementAssembly_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcElementAssemblyType" />
+      <m1.interface name="IfcElementAssemblyType" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssemblyType_ElementType" />
+        <m1.attribute name="IfcElementAssemblyType.IfcElementAssemblyType_ElementType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssemblyType_PredefinedType" />
+        <m1.attribute name="IfcElementAssemblyType.IfcElementAssemblyType_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcElementAssemblyType_Tag" />
+        <m1.attribute name="IfcElementAssemblyType.IfcElementAssemblyType_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcProject" />
+      <m1.interface name="IfcProject" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcProject_LongName" />
+        <m1.attribute name="IfcProject.IfcProject_LongName" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcProject_ObjectType" />
+        <m1.attribute name="IfcProject.IfcProject_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcProject_Phase" />
+        <m1.attribute name="IfcProject.IfcProject_Phase" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_LinearPlacementInformation" />
+      <m1.interface name="IfcPset_DS_LinearPlacementInformation" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LinearPlacementInformation_DistanceAlong" />
+        <m1.attribute name="IfcPset_DS_LinearPlacementInformation.IfcPset_DS_LinearPlacementInformation_DistanceAlong" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LinearPlacementInformation_OffsetLateral" />
+        <m1.attribute name="IfcPset_DS_LinearPlacementInformation.IfcPset_DS_LinearPlacementInformation_OffsetLateral" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LinearPlacementInformation_OffsetLongitudinal" />
+        <m1.attribute name="IfcPset_DS_LinearPlacementInformation.IfcPset_DS_LinearPlacementInformation_OffsetLongitudinal" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LinearPlacementInformation_OffsetVertical" />
+        <m1.attribute name="IfcPset_DS_LinearPlacementInformation.IfcPset_DS_LinearPlacementInformation_OffsetVertical" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_DS_LocationInBuilding" />
+      <m1.interface name="IfcPset_DS_LocationInBuilding" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LocationInBuilding_Building" />
+        <m1.attribute name="IfcPset_DS_LocationInBuilding.IfcPset_DS_LocationInBuilding_Building" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LocationInBuilding_Facade" />
+        <m1.attribute name="IfcPset_DS_LocationInBuilding.IfcPset_DS_LocationInBuilding_Facade" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LocationInBuilding_Space" />
+        <m1.attribute name="IfcPset_DS_LocationInBuilding.IfcPset_DS_LocationInBuilding_Space" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_DS_LocationInBuilding_Storey" />
+        <m1.attribute name="IfcPset_DS_LocationInBuilding.IfcPset_DS_LocationInBuilding_Storey" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_ElementAssemblyCommon" />
+      <m1.interface name="IfcPset_ElementAssemblyCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ElementAssemblyCommon_Reference" />
+        <m1.attribute name="IfcPset_ElementAssemblyCommon.IfcPset_ElementAssemblyCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_ElementAssemblyCommon_Status" />
+        <m1.attribute name="IfcPset_ElementAssemblyCommon.IfcPset_ElementAssemblyCommon_Status" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcPset_SpatialZoneCommon" />
+      <m1.interface name="IfcPset_SpatialZoneCommon" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_SpatialZoneCommon_IsExternal" />
+        <m1.attribute name="IfcPset_SpatialZoneCommon.IfcPset_SpatialZoneCommon_IsExternal" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcPset_SpatialZoneCommon_Reference" />
+        <m1.attribute name="IfcPset_SpatialZoneCommon.IfcPset_SpatialZoneCommon_Reference" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_DS_Quantity" />
+      <m1.interface name="IfcQto_DS_Quantity" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_Quantity_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_DS_Quantity.IfcQto_DS_Quantity_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_Quantity_Quantity" />
+        <m1.attribute name="IfcQto_DS_Quantity.IfcQto_DS_Quantity_Quantity" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_DS_SpatialZoneBaseQuantities" />
+      <m1.interface name="IfcQto_DS_SpatialZoneBaseQuantities" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_SpatialZoneBaseQuantities_FootPrintArea" />
+        <m1.attribute name="IfcQto_DS_SpatialZoneBaseQuantities.IfcQto_DS_SpatialZoneBaseQuantities_FootPrintArea" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_DS_SpatialZoneBaseQuantities_MethodOfMeasurement" />
+        <m1.attribute name="IfcQto_DS_SpatialZoneBaseQuantities.IfcQto_DS_SpatialZoneBaseQuantities_MethodOfMeasurement" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcQto_SpatialZoneBaseQuantities" />
+      <m1.interface name="IfcQto_SpatialZoneBaseQuantities" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_SpatialZoneBaseQuantities_Height" />
+        <m1.attribute name="IfcQto_SpatialZoneBaseQuantities.IfcQto_SpatialZoneBaseQuantities_Height" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_SpatialZoneBaseQuantities_Length" />
+        <m1.attribute name="IfcQto_SpatialZoneBaseQuantities.IfcQto_SpatialZoneBaseQuantities_Length" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcQto_SpatialZoneBaseQuantities_Width" />
+        <m1.attribute name="IfcQto_SpatialZoneBaseQuantities.IfcQto_SpatialZoneBaseQuantities_Width" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcSpatialZone" />
+      <m1.interface name="IfcSpatialZone" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZone_LongName" />
+        <m1.attribute name="IfcSpatialZone.IfcSpatialZone_LongName" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZone_ObjectType" />
+        <m1.attribute name="IfcSpatialZone.IfcSpatialZone_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZone_PredefinedType" />
+        <m1.attribute name="IfcSpatialZone.IfcSpatialZone_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcSpatialZoneType" />
+      <m1.interface name="IfcSpatialZoneType" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZoneType_ElementType" />
+        <m1.attribute name="IfcSpatialZoneType.IfcSpatialZoneType_ElementType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZoneType_LongName" />
+        <m1.attribute name="IfcSpatialZoneType.IfcSpatialZoneType_LongName" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZoneType_PredefinedType" />
+        <m1.attribute name="IfcSpatialZoneType.IfcSpatialZoneType_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcSpatialZoneType_Tag" />
+        <m1.attribute name="IfcSpatialZoneType.IfcSpatialZoneType_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

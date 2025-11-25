@@ -1,0 +1,5 @@
+#Prog Config_GetxRevisionContext( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+/* from "effectivity based" data (BO) retrieve relationships: xRevisionContext, xRevisionPrimaryContext and business object GenericPLMItem */
+oPLMIDSet = ExecuteJavaProcedure("com.dassault_systemes.plm.xrevisiongraph.completion.xRevisionContextCompletion", iPLMIDSet)
+}

@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_TelecomCableGeneral_Attenuation",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_FireRating",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_IsFireResistant",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_NominalDiameter",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_JacketColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_CableFunctionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TelecomCableGeneral_CableArmourType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

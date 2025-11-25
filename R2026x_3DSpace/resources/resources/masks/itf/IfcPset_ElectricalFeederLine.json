@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ElectricalFeederLine_CurrentCarryingCapacity",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricalFeederLine_DesignAmbientTemperature",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricalFeederLine_ElectricalClearanceDistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ElectricalFeederLine_ElectricalFeederType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

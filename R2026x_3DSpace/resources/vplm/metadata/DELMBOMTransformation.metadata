@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2006, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+    	 Name="DELMBOMTransformation"
+         BelongsToModeler="DELFmiFunctionalModel"
+    	 Uuid="CFD3AA17-F626-4112-877D-95102213961D"
+    	 UseNames="PLMCORE"
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>DELMBOMTransformation Package</ShortRole>
+    <Role>This package describes MBOM Transformation Packaging Connection</Role>
+  </CAAComment>
+
+  <Class Name="DELMBOMTransformingCnx"
+         Uuid="6CDE9E80-8F2D-40b7-AD1A-1D7215254C5E"
+         SuperName="PLMConnection"
+         Abstract="No"
+      	 Specializable="No"
+		 CustomerExtensible="Yes"
+		 OwnerTypes="DELFmiFunctionReference"
+         CustomerExposition="Programmer">
+
+     <Path Name="DELMBOMTransforming_Current3DState_SR"
+        Uuid="D208E0D0-8F26-462a-A95D-640506D39E50"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELMBOMTransforming_Current3DState"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+        Semantics="Reference"/>
+
+     <Path Name="DELMBOMTransforming_PositionedOriginMBOM_SR"
+        Uuid="8F7C7BF4-8E8A-40a3-B6CA-B518121A2273"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELMBOMTransforming_PositionedOriginMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="Yes"
+		SynchroSensitivity="PathAndLast"
+		RerouteOnEffectivityChange="No"
+		Orientation="In"
+        Semantics="Reference4"/>
+
+     <Path Name="DELMBOMTransforming_OriginMBOM_SR"
+        Uuid="E38AB9F0-5B36-4e94-982B-D5426DCCDFB5"
+		TargetName="V_SRs"
+        MultiValuated="No"
+        RoleName="DELMBOMTransforming_OriginMBOM"
+        Type="SemanticRelation" 
+		AdaptativeToMinor="No"
+		SynchroSensitivity="None"
+		RerouteOnEffectivityChange="No"
+        Semantics="Reference"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+
+</Package>

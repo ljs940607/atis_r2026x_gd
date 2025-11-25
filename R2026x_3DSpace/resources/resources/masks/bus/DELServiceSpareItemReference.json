@@ -1,0 +1,103 @@
+{
+    "Write" : {
+        "attributes" : [
+            {
+                "name": "type",
+                "status": "RO"
+            },
+            {
+                "name": "V_Name",
+                "status": "RW"
+            },
+            {
+                "name": "PLM_ExternalID",
+                "status": "RO"
+            },
+            {
+                "name": "revision",
+                "status": "RO"
+            },
+            {
+                "name": "V_description",
+                "status": "RW"
+            },
+            {
+                "name": "V_versionComment",
+                "status": "RW"
+            },
+            {
+                "name": "V_ConsumptionRate",
+                "status": "RW"
+            },
+            {
+                "name": "V_ScrapRate",
+                "status": "RW"
+            },
+            {
+                "name": "V_MaintenanceCandidate",
+                "status": "RO"
+            },
+            {
+                "name": "V_SpareCandidate",
+                "status": "RO"
+            },
+            {
+                "name": "originated",
+                "status": "RO"
+            },
+            {
+                "name": "V_fromExternalID",
+                "status": "RO"
+            },
+            {
+                "name": "modified",
+                "status": "RO"
+            },
+            {
+                "name": "current",
+                "status": "RO"
+            },
+            {
+                "name": "policy",
+                "status": "RO"
+            },
+            {
+                "name": "owner",
+                "status": "RO"
+            },
+            {
+                "name": "organization",
+                "status": "RO"
+            },
+            {
+                "name": "project",
+                "status": "RO"
+            }
+        ]
+    },
+    "Create": {
+        "attributes": [
+            {
+                "name": "V_Name",
+                "status": "RW"
+            },
+            {
+                "name": "V_description",
+                "status": "RW"
+            }
+        ]
+    },
+    "details" : {
+        "attributes" : {
+            "PLM_ExternalID": {
+                "mandatory": true
+            },
+            "V_Name": {
+                "mandatory": true
+            },
+            "owner": {
+                "mandatory": true
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "dsmveehw:basic.typeDB": {
+    "property": "type",
+    "key": "typeDB",
+    "label": "CRS.common.Label.Attribute.Type",
+    "example": "My Type",
+    "description": "Basic type value"
+  },
+  "dsmveehw:basic.typeNLS": {
+    "property": "type",
+    "key": "typeNLS",
+    "label": "CRS.common.Label.Attribute.Type",
+    "format": "nls_type",
+    "example": "My Type",
+    "description": "Basic type NLS value"
+  },
+  "dsmveehw:attribute.itf.linkTechnology":{
+    "property":"attribute[EEConnectorType.linkTechnology]",
+    "key":"linkTechnology",
+    "label":"dseehw.Label.Attribute.Interface.linkTechnology",
+    "example":"6",
+    "format":"Integer",
+    "description":"the type of link technology"
+  },
+  "dsmveehw:attribute.itf.extLinkTechnology":{
+    "property":"attribute[EEConnectorType.V_EE_ExtLinkTechnology]",
+    "key":"extLinkTechnology",
+    "label":"dseehw.Label.Attribute.Interface.extLinkTechnology",
+    "example":"CANJ1939",
+    "format":"string",
+    "description":"A variation of link Technology.Example: CAN Extend,CAN J1939, CAN TP for CAN link Technology (use-able with ADMIN role only)"
+  },
+  "dsmveehw:attribute.itf.multiplexed":{
+    "property":"attribute[EEConnectorType.V_EE_Multiplexed]",
+    "key":"isMultiplexed",
+    "label":"dseehw.Label.Attribute.Interface.multiplexed",
+    "example":true,
+    "format":"boolean",
+    "description":"true if the technology is multiplexed (use-able with ADMIN role only)"
+  }
+}

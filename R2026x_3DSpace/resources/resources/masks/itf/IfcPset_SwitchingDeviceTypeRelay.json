@@ -1,0 +1,41 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_NominalHeight",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_Current",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_NominalLength",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_InsulationResistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_NominalWidth",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_ContactResistance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_PullInVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_ReleaseVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SwitchingDeviceTypeRelay_Voltage",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

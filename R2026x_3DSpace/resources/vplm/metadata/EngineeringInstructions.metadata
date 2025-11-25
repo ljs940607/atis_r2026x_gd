@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+<Package Name = "EngineeringInstructions" CustomerExposition = "Programmer" ModelerType = "Top"  
+  UseNames = "PLMCORE" Uuid = "36d56937-28ea-4e00-bb3b-26ed81fc584a" 
+  Architecture = "All" xmlns="PLMDictionaryUnified"
+  UseProcedures = "EngInstructions_Procedures">
+  <!--
+  Modifications history:
+  2025/03/11
+  - add PublicResourceURI for CATInstruction, CATInstructionTemplate and CATCustomInstructionTemplate
+  2024/10/17
+  - add Discipline="Yes" attribute for CATCustomInstructionTemplate, to inherit CATInstructionTemplate behavior (e.g. PC2 implementations)
+  2024/10/10
+  - change abbreviations for all types to reflect engineering note naming (boeing request)
+  2024/07/24 + 2024/09/04
+  - add SR for Manufacturing usage (source of the instruction) + modif target types (PLMCORE instead of Product) for this link 
+  2024/07/17
+  - add type for custome Template (to redefine category as "Definition" for this type)
+  2024/06/25
+  - add IconName properties
+  2024/05/06
+  - add DeleteAvailability = "Yes" for CATInstructionTemplate
+  2024/04/26
+  - add Abbreviation "instr" for CATInstruction
+  - add PLMImpacting="Yes" for attributes on CATInstructionTemplate to impact CATInstructions
+  - add PLMImpacting="Yes" on simples from CATInstruction for Delmia downstream usage (request from Michael Aleonard)
+  2024/01/31
+  - add PLMQL functions declaration: InstructionTemplateExport_AddStandardResources, Instruction_RetrieveInstCnxUnderProduct
+  2023/08/11
+  - add Abbreviation for CATInstructionTemplate
+  2023/07/03
+  - creation
+  -->
+  <!--
+  Class definition for Instruction Templates
+  This object is independant.
+  It specifies the definition of a text note through multiple Instruction Template entries, and
+  links standard resource items of different types.
+  -->
+  <Class Name = "CATInstructionTemplate" Abbreviation = "entpl"  SuperName = "PLMCoreReference" PublicResourceURI = "/resources/v1/modeler/dsengnote/dsengnote:EngNoteTemplate/{pid}" CustomerExposition = "Programmer" Discipline = "No"  Uuid = "299ea552-cf5c-440f-a5d1-78428264b56c" Specializable = "Yes" DeleteAvailability = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATIstInstructionsDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "IconName" Value = "I_CATInstructionTemplate"/>
+    <!--Define attributes for Instruction Templates -->
+    <Simple Name="V_Entries"         Uuid="1ba3a0b9-ccc9-4ae7-ac8e-1532f67f9f57"  Type="Clob"    Protection="Internal"  PLMImpacting="Yes" />
+    <Simple Name="V_ForceUpperCase"  Uuid="6c42de1b-dfb8-47f6-b84f-b395eb09376e"  Type="Boolean" Protection="External"  PLMImpacting="Yes" />
+    <Simple Name="V_Text"            Uuid="317616e5-cb47-4fd6-be93-23f624e800e8"  Type="String"  Protection="External"  PLMImpacting="Yes" />
+    
+    <!--Define links to standard resources  -->
+    <Path Name="InstructionStandardResources" Uuid="228ff84a-7679-42d7-947b-b1b6f0268b78" Type="SemanticRelation" MultiValuated="Yes" RoleName="InstructionTemplate_Ref_Resource" SynchroSensitivity="None" Orientation="Neutral" Semantics="Reference" TargetNames="PLMCoreReference" Protection="External"/>   
+    
+    <!--Define completion capabilities for Instruction Templates - export with all linked items-->
+    <Method ImplementationType="Self">
+        <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+        <ProcedureForUsage>
+          <Usage href="ExportScope.meth#Design"/>
+          <UsedProcedure href="EngInstructions_Procedures.proc#InstructionTemplateExport"/>
+        </ProcedureForUsage>
+      </Method>
+
+  </Class>
+  <UniqueKey  Name="CATInstructionTemplate_UK" Uuid="d19137ab-6eff-4548-88a0-27205b4a5949" ClassName="CATInstructionTemplate" AttributeNames="PLM_ExternalID majorrevision minorrevision"/>
+  <!--
+  Class definition for Instructions
+  This object will be instantiated under Products (VPMReference), and Define "Notes" applied on this product.
+  The scope of the Note is defined through paths to instances under the father Product.
+  -->
+  <Class Name = "CATInstruction" SuperName = "PLMConnection" OwnerTypes="VPMReference;DELFmiFunctionReference" Abbreviation = "engnote" PublicResourceURI = "/resources/v1/modeler/dsengnote/dsengnote:EngNote/{pid}" CustomerExposition = "Programmer" Discipline = "No" Uuid = "6c632860-9351-4f1a-8348-1a577c058ed5">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATIstInstructionsDelegateInstanciation"/>
+    <Property Name = "IconName" Value = "I_CATInstruction"/>
+    <!-- Define attributes for Instructions 
+      Instruction number will use V_Name on PLMConnection base -->
+    <!-- Structure list of variable names with associated value (see Instruction Template definition) -->
+    <Simple Name="V_Entries"         Uuid="07efba70-d674-4ef0-9475-47cf33a510a6"  Type="Clob"    Protection="Internal"  PLMImpacting="Yes" />
+    <!-- Full text content of the Instruction (no html) -->
+    <Simple Name="V_Text"            Uuid="2869c377-8ece-4954-aa69-e966ff7c3493"  Type="String"  Protection="External"  PLMImpacting="Yes" />
+    <!-- Mode for Instruction target scope:
+      GENERAL_NOTE => note applies to reference and all instances below
+      COMPONENTS_NOTE => note applies to some instances (see InstructionTargetScope path attribute
+      3D_NOTE => note applies to 3D Definition -->
+    <Simple Name="V_TargetScopeMode"            Uuid="97b678fb-abad-46fc-b253-45aa58510e4f"  Type="String"  Protection="External" DefaultValue="GENERAL_NOTE" >
+      <Range>
+        <Equal>GENERAL_NOTE</Equal>
+        <Equal>COMPONENTS_NOTE</Equal>
+        <Equal>3D_NOTE</Equal>
+      </Range>
+    </Simple>
+    <!-- Define link to Instruction Template Definition  -->
+    <Path Name="V_SourceTemplate"            Uuid="0648d94d-4ed6-49da-aab5-af5559faa397" Type="SemanticRelation" MultiValuated="No" RoleName="Instruction_Source_Template" SynchroSensitivity="Last" Orientation="In" Semantics="Reference4" TargetNames="CATInstructionTemplate" Protection="External" />   
+    <!-- Define links to target items (scope of Instruction)  -->
+    <Path Name="V_TargetScope"       Uuid="755597eb-e61b-4c1a-b459-e4cfa285dc67" Type="SemanticRelation" MultiValuated="Yes" RoleName="Instruction_Impacted_Components" SynchroSensitivity="None" Orientation="Neutral" Semantics="Reference" TargetNames= "PLMCoreInstance" Protection="External" />   
+    <!-- [only used for Instructions on Manufacturing side] Define link to source object targeted by Design Instruction (allows to sync eng/mfg) -->
+    <Path Name="V_DesignOrigin"       Uuid="57f75d41-005f-4457-8838-8c57a1853f02" Type="SemanticRelation" MultiValuated="No" RoleName="Instruction_Origin_Component" SynchroSensitivity="None" Orientation="Neutral" Semantics="Reference" TargetNames= "PLMCoreInstance;PLMCoreReference" Protection="External" />   
+    
+    <Simple Name="V_UUID"                Uuid="04b2fe37-baaa-45b3-8ad8-1d3dc337a787"   Type="String"  Protection="Internal" />
+    <!-- Define position of Instruction 
+    This will be a complex stream definition, with the need to define:
+    - 3D positions (should we extract that as specific attribute ?)
+      - x, y, z position
+      - uuid of this position
+    - labels pointing to one or multiple 3D positions
+      - light labels: position of label (or offset), corresponding 3D positions id
+      - FTA Note
+        - visu stream of FTA Note (for Delmia)
+        - visu stream of geometrical face
+    -->
+    <Simple Name="V_3DInstructionLabels"             Uuid="16643e4a-0fd3-4c2f-8a62-226cd03abb98"   Type="Clob"  Protection="Internal"  PLMImpacting="Yes" />
+    <Simple Name="V_IgnoreForDownstreamUsage"            Uuid="cd04efb4-4124-4239-ace6-76258a5572c0"  Type="String"  Protection="External" DefaultValue="NO" >
+      <Range>
+        <Equal>YES</Equal>
+        <Equal>NO</Equal>
+      </Range>
+    </Simple>
+    <!--No completion capabilities for Instructions -->
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+
+  </Class>
+  <UniqueKey  Name="Instruction_UK" Uuid="9a16b033-d503-49f2-972f-520b746d2a40" ClassName="CATInstruction" AttributeNames="V_Name" IncludesComposer="Yes"/>
+  
+  <Class Name = "CATCustomInstructionTemplate" Abbreviation = "custent"  SuperName = "CATInstructionTemplate" PublicResourceURI = "/resources/v1/modeler/dsengnote/dsengnote:EngNoteTemplate/{pid}" CustomerExposition = "Programmer" Discipline = "Yes" Uuid = "60b0b36f-020f-422e-b708-548ce0a18b69" Specializable = "Yes" DeleteAvailability = "Yes">
+    <Property Name = "KweNew_InstanciationMethod" Value = "CATIstInstructionsDelegateInstanciation"/>
+    <Property Name = "Newable" Value = "New_Offline_CAA"/>
+    <Property Name = "IconName" Value = "I_CATCustomInstTemplate"/>
+    <!--Define completion capabilities for Instruction Templates - export with all linked items-->
+    <Method ImplementationType="Self">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+      <ProcedureForUsage>
+        <Usage href="ExportScope.meth#Design"/>
+        <UsedProcedure href="EngInstructions_Procedures.proc#InstructionTemplateExport"/>
+      </ProcedureForUsage>
+    </Method>
+  </Class>
+  
+  <!-- PLMQL Functions: use for 3dxml export -->
+  <Function Name="InstructionTemplateExport_AddStandardResources">
+    <Implementation Name="InstructionTemplateExport_AddStandardResources" FileLocation="InstructionTemplateExport_AddStandardResources.plmql" Language="PLMQL"/>
+    <Signature href="ENO_EngineeringInstructionsExport"/>
+  </Function>
+  <Function Name="Instruction_RetrieveInstCnxUnderProduct">
+    <Implementation Name="Instruction_RetrieveInstCnxUnderProduct" FileLocation="Instruction_RetrieveInstCnxUnderProduct.plmql" Language="PLMQL"/>
+    <Signature href="ENO_EngineeringInstructionsExport"/>
+  </Function>
+  
+  <Signature id="ENO_EngineeringInstructionsExport">
+    <Parameter Name="InputIds" Direction="in" MultiValuated="Yes" DataType="PLMId"/>
+    <Parameter Name="OutputIds" Direction="out" MultiValuated="No" DataType="PLMRouteSet"/>
+  </Signature>
+  
+</Package>

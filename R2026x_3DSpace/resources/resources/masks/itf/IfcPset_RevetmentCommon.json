@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RevetmentCommon_StructuralType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RevetmentCommon_Elevation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

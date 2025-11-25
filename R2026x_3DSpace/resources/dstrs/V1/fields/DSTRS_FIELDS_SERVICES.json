@@ -1,0 +1,28 @@
+{
+	"dstrs:translationDetails": {
+		"property": "computed",
+        "key": "translationDetails",
+        "fetchOnce": true,
+		"example": "com.dassault_systemes.enovia.xapps.dstrs.implementations.dstrsOpenAPIImpl.translationDetailsResponse"
+	},
+	"dstrs:languageId": {
+		"property": "computed",
+        "key": "languageId",
+        "fetchOnce": true,
+		"example": "ar-sa"
+	},
+    "dstrs:basic.name": {
+        "property": "name",
+        "key": "name",
+        "example": "tra-ar-sa-000000000021",
+        "description": "Object name value",
+        "index": "name"
+    },	
+    "dstrs:basic.description": {
+        "property": "description",
+        "key": "description",
+        "example": "some description text",
+        "description": "Object description state value",
+        "index": "description"
+    }    
+}

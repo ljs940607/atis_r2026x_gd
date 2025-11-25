@@ -1,0 +1,33 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_TransportEquipmentOTN_SingleChannelAveragePower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_ChromaticDispersionTolerance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_SingleChannelPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_MinimumOpticalSignalToNoiseRatio",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_PolarizationModeDispersionTolerance",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_SingleWaveTransmissionRate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_TransportEquipmentOTN_EquipmentCapacity",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

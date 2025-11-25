@@ -1,0 +1,59 @@
+{
+    "version": "1.0",
+    "UIModel": [
+        {
+            "type": "PreferenceSection",
+            "name": "DisplaySection",
+            "children": [
+                {
+                    "type": "PreferenceItem",
+                    "repository": "VisualizationRepository",
+                    "name": "Background",
+                    "tweakertype": "color"
+                },
+                {
+                    "type": "PreferenceGroup",
+                    "name": "NavigationGroup",
+                    "tweakertype": "header",
+                    "children": [
+                        {
+                            "type": "PreferenceItem",
+                            "repository": "VisualizationRepository",
+                            "name": "Gravity",
+                            "tweakertype": "boolean"
+                        },
+                        {
+                            "type": "PreferenceItem",
+                            "repository": "VisualizationRepository",
+                            "name": "Invert360LookAroundNavigation",
+                            "tweakertype": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "type": "PreferenceGroup",
+                    "name": "ProjectionTypeGroup",
+                    "tweakertype": "header",
+                    "children": [
+                        {
+                            "type": "PreferenceItem",
+                            "repository": "FrameGeneral",
+                            "name": "ProjectionType",
+                            "tweakertype": "radio"
+                        }
+                    ]
+                },
+				{
+				  "type": "PreferenceItem",
+				  "repository": "VisualizationRepository",
+				  "name": "DefaultViews",
+				  "tweakertype": "json",
+				  "hostservice": "3DDashboard",
+				  "endpoint": "/resources/static/en/webapps/MePreferencesWebVisualizationUI/DefaultViewsCustomView.html",
+				  "frameheight": "390",
+				  "framewidth": "550"
+				}
+            ]
+        }
+    ]
+}

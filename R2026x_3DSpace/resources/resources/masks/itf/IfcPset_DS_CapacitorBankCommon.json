@@ -1,0 +1,37 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_CommissioningCertificateDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_InstallationDate",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_RegistrationNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_SerialNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_TotalLosses",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_NominalPower",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_RatedVoltage",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_DS_CapacitorBankCommon_ConnectionType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,1024 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2007, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="DELSBOMModel"
+         Uuid="C4556F0D-1208-4bf6-A032-C4E2C3942A54"
+         BelongsToModeler="DELSBOMModel"
+         UseNames="DELAsmAssemblyModelDisciplines;DELFmiFunctionalModel"
+         UseProcedures=""
+         CustomerExposition="Programmer">
+
+  <CAAComment>
+    <ShortRole>Service MBOM Model Package</ShortRole>
+    <Role>This package describes the Service MBOM Model</Role>
+  </CAAComment>
+
+
+  <!-- Abstract Service MBOM Discrete Ref -->
+  <Class Name="DELSBOMDiscreteReferenceAbst"
+		     Uuid="505959F1-BA89-4d11-9A65-F8727A351A71"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELFmiFunctionPPRDiscreteReference"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+ 
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+	
+<!-- Abstract Service MBOM Hardware Ref -->
+  <Class Name="DELSBOMHardwareReferenceAbst"
+		     Uuid="30E44581-8701-4529-8E46-FFCB5FEAC699"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMDiscreteReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+	
+<!-- Abstract Service MBOM Aggregated Ref -->
+  <Class Name="DELSBOMAggregatedReferenceAbst"
+		     Uuid="9BACF0A0-ED79-4b06-8F57-8CDD0BAA8FF6"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMDiscreteReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+	
+<!-- Abstract Service MBOM Zone Ref -->
+  <Class Name="DELSBOMZonalReferenceAbst"
+		     Uuid="80B7200A-3F63-43c4-AB95-60F8AC6DA7E5"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMDiscreteReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+	
+<!-- Abstract Service MBOM Softaware Ref -->
+  <Class Name="DELSBOMSoftwareReferenceAbst"
+		     Uuid="8A30D122-E2CE-4901-B78A-6388E069759E"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMDiscreteReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+  <!-- Abstract Service MBOM Hardware U and C Ref -->
+  <Class Name="DELSBOMHardwareUAndCAbst"
+		     Uuid="BF9D3F81-E434-4815-A291-1430A602244B"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMHardwareReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+
+    <Simple Name="V_Essentiality"
+         Uuid="4F34BB09-42A3-45da-A888-08DDD3E69246"
+         Type="String"
+         MaxLength="264"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No">
+     </Simple>
+	  
+    <Simple Name="V_LifeLimit"
+       Uuid="A18ABE1C-4445-49e3-8880-E7F5469F33DD"
+       Type="Double"
+       Magnitude="TIME"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+	  
+    <Simple Name="V_EstimatedMTBF"
+       Uuid="2BF167D2-ADEB-4e56-9D7B-D053198D4E18"
+       Type="Double"
+       Magnitude="TIME"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+	  
+    <Simple Name="V_EstimatedMTBUR"
+       Uuid="67250F39-61EC-4635-97F6-10E34721AE51"
+       Type="Double"
+       Magnitude="TIME"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+	  
+    <Simple Name="V_EstimatedMTTR"
+       Uuid="0A9AAEDA-E21A-474f-8A04-69F8709B48A6"
+       Type="Double"
+       Magnitude="TIME"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+
+	<Simple Name="V_Repairable"
+         Uuid="D2E1EACE-93ED-464d-9478-69A97D0C5818"
+         Type="String"
+		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>Yes</Equal>
+        <Equal>No</Equal>
+        <Equal>Partial</Equal>
+        <Equal>NotDefined</Equal>
+      </Range>
+    </Simple>
+
+	<Simple Name="V_RepairType"
+         Uuid="EA044E41-E158-48c7-B24B-6C715CE37AAA"
+         Type="String"
+         MaxLength="264"
+		 MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No">
+     </Simple>
+
+	<Simple Name="V_Replaceable"
+         Uuid="D168E1D6-50EB-4be8-A51C-1D27B2A88A7C"
+         Type="String"
+ 		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>Yes</Equal>
+        <Equal>No</Equal>
+        <Equal>NotDefined</Equal>
+      </Range>
+    </Simple>
+
+	<Simple Name="V_ReplacementType"
+         Uuid="D3264F0D-EA0C-488a-A3C3-AB9A23887ACC"
+         Type="String"
+		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>LineAndShop</Equal>
+        <Equal>ShopOnly</Equal>
+        <Equal>NotDefined</Equal>
+      </Range>
+    </Simple>
+	  
+    <Simple Name="V_Access"
+            Uuid="29DB80BB-182C-49f6-B10E-B1F4FCF390B5"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Free">
+    </Simple>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+	
+<!-- Abstract Service MBOM Softaware U and C Ref -->
+  <Class Name="DELSBOMSofttwareUAndCAbst"
+		     Uuid="44EA016E-BF84-4e9f-A14E-D845619C453A"
+		     Abstract="Yes"
+		     Discipline="Yes"
+		     SuperName="DELSBOMSoftwareReferenceAbst"
+		     Specializable="No"
+		     CustomerExtensible="No"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes">
+	  
+    <Simple Name="V_Essentiality"
+         Uuid="ECC1551D-FECF-438b-BD67-F9A31DA13701"
+         Type="String"
+         MaxLength="264"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No">
+     </Simple>
+
+	<Simple Name="V_ReplacementType"
+         Uuid="B51671F1-2334-425b-85C1-8F8B9DEF6EDA"
+         Type="String"
+		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>LineAndShop</Equal>
+        <Equal>ShopOnly</Equal>
+        <Equal>NotDefined</Equal>
+      </Range>
+    </Simple>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+ 	
+<!-- Service MBOM Hardware Component Ref -->
+  <Class Name="DELSBOMHardwareComponentReference"
+		     Uuid="2193B2D6-FC9D-4484-A4A2-40110EB9A39B"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMHardwareUAndCAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         Abbreviation="srhwc">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMHardwareComponent"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMHardwareComponent.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+	  
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="6148851B-DC8C-4e93-8F6B-45382C4B31D9"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+		
+<!-- Service MBOM Hardware Usage Ref -->
+  <Class Name="DELSBOMHardwareUsageReference"
+		     Uuid="3DBF23E2-F4CC-4e34-B0BF-5ACEE5AF2D5C"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMHardwareUAndCAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         CreateInstName="DELSBOMHardwareUsageInstance"
+	         Abbreviation="srhwu"
+	         InstantiationOwnerTypes="DELSBOMAggregatedUsageReference;DELSBOMHardwareUsageReference">
+     
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMHardwareUsage"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMHardwareUsage.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+   
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="D6B682B5-CBC4-418b-9EC7-ED5A7D5D87F3"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Path Name="DELAccessPoint"
+          Uuid="58F4E1C9-FE05-4bb2-938E-3F555F66733C"
+          MultiValuated="Yes"
+          RoleName="DEL_AccessPoint"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      TargetNames="DELSBOMZoneUsageReference"
+	      Protection="External"/>
+
+    <Path Name="DELInZone"
+          Uuid="C160CEDD-8E80-4b49-BD33-92041FDF5E86"
+          MultiValuated="No"
+          RoleName="DEL_InZone"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      Protection="External"/>
+
+    <Path Name="DELCorrespondingComponent"
+          Uuid="6469958C-10F7-46ca-96D6-3CFA48E0BAA5"
+          MultiValuated="No"
+          RoleName="DEL_CorrespondingComponent"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      TargetNames="DELSBOMHardwareComponentReference"
+	      Protection="External"/>
+	  
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+		
+<!-- Service MBOM Hardware Item Ref -->
+  <Class Name="DELSBOMHardwareItemReference"
+		     Uuid="CB738951-11EE-4b06-A6DE-9F7D491D5010"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMHardwareReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"	         
+		     CreateInstName="DELSBOMHardwareItemInstance"
+	         Abbreviation="srhwi"
+	         InstantiationOwnerTypes="DELSBOMHardwareUsageReference;DELSBOMHardwareComponentReference">
+     
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>	 
+    <Property Name="IconName" Value="I_InsertSBOMHardwareItem"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMHardwareItem.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="No"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+	  
+    <Simple Name="V_ConsumptionRate"
+       Uuid="E8A34AAC-C219-4e76-98BB-2B7C10A4E06A"
+       Type="Double"
+       Magnitude="Ratio"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+	  
+    <Simple Name="V_ScrapRate"
+       Uuid="1B785B33-7B68-4651-B34F-33837F785B1A"
+       Type="Double"
+       Magnitude="Ratio"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+
+	<Simple Name="V_Spare"
+         Uuid="639D4363-5CD5-4a0b-8158-3DE3459EBD62"
+         Type="String"
+		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>Yes</Equal>
+        <Equal>No</Equal>
+        <Equal>NotDefined</Equal>
+      </Range>
+    </Simple>
+	  
+	  <Simple Name="V_ContextualImplementLink"
+		  Uuid="44C2655B-FC86-4061-868B-110A5A7F96FC"
+		  Type="Boolean"
+		  DefaultValue="false"
+		  MultiValuated="No"
+		  ResetOnCloning="No"
+		  ResetOnNewVersion="No"
+		  Protection="Internal">
+		  <CAAComment>
+			  <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+		  </CAAComment>
+	  </Simple>
+
+	  <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Aggregated Component Ref -->
+  <Class Name="DELSBOMAggregatedComponentReference"
+		     Uuid="4757DBE9-6834-4550-908A-7CA14B91B811"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMAggregatedReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         Abbreviation="srac">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertAggregatedComponen"/>
+    <Property Name="3DIconName" Value="I_InsertAggregatedComponen.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="No"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Aggregated Usage Ref -->
+  <Class Name="DELSBOMAggregatedUsageReference"
+		     Uuid="8757895D-E430-4443-AA8D-6A3579DFA245"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMAggregatedReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         CreateInstName="DELSBOMAggregatedUsageInstance"
+	         Abbreviation="srau"
+	         InstantiationOwnerTypes="DELSBOMAggregatedUsageReference;DELSBOMHardwareUsageReference">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMAggregatedUsage"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMAggregatedUsage.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="5814C2E3-93FC-41d8-99E2-09BDF31ECB0C"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Path Name="DELCorrespondingComponent"
+          Uuid="5EE38838-6E7B-4483-9CD3-CEDCA626A7CF"
+          MultiValuated="No"
+          RoleName="DEL_CorrespondingComponent"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      TargetNames="DELSBOMAggregatedComponentReference"
+	      Protection="External"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>		
+
+<!-- Service MBOM Zone Ref -->
+  <Class Name="DELSBOMZoneReference"
+		     Uuid="D2259436-36B2-4d0d-964F-292CEC3532B1"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMZonalReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         Abbreviation="srz">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMZone"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMZone.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="No"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Zone Usage Ref -->
+  <Class Name="DELSBOMZoneUsageReference"
+		     Uuid="E731D0FB-6F1B-4d30-A3ED-FFC745DD5817"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMZonalReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"	         
+		     CreateInstName="DELSBOMZoneUsageInstance"
+	         Abbreviation="srzu"
+	         InstantiationOwnerTypes="DELSBOMAggregatedUsageReference;DELSBOMZoneUsageReference">
+     
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMZoneUsage"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMZoneUsage.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="D20BD11A-FAC2-4078-88FF-717C90B87A62"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Path Name="DELCorrespondingComponent"
+          Uuid="B411F7BB-250B-43c3-9810-E23B8182549B"
+          MultiValuated="No"
+          RoleName="DEL_CorrespondingComponent"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      TargetNames="DELSBOMZoneReference"
+	      Protection="External"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Software Item Ref -->
+  <Class Name="DELSBOMSoftwareItemReference"
+		     Uuid="260AD5B0-0BAF-412d-9DDD-7C797A258D23"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMSoftwareReferenceAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         CreateInstName="DELSBOMSoftwareItemInstance"
+	         Abbreviation="srswi"
+	         InstantiationOwnerTypes="DELSBOMSoftwareUsageReference;DELSBOMSoftwareComponentReference">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMSoftwareItem"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMSoftwareItem.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="No"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+	  
+    <Simple Name="V_SoftwareSize"
+       Uuid="E8F5773F-E2A0-44d7-A20C-2DEDFD68D60E"
+       Type="Double"
+       Magnitude="BINARY_STORAGE_CAPACITY"
+       MultiValuated="No"
+       ResetOnCloning="No"
+       ResetOnNewVersion="No"
+       Protection="Free"
+       DefaultValue="0.0">
+    </Simple>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Software Usage Ref -->
+  <Class Name="DELSBOMSoftwareUsageReference"
+		     Uuid="1F07B96D-3007-487a-B8C3-DA5EE3DDF733"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMSofttwareUAndCAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"	         
+		     CreateInstName="DELSBOMSoftwareUsageInstance"
+	         Abbreviation="srswu"
+	         InstantiationOwnerTypes="DELSBOMAggregatedUsageReference;DELSBOMHardwareUsageReference;DELSBOMSoftwareUsageReference">
+     
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMSoftwareUsage"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMSoftwareUsage.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="22B66E0B-B162-4dda-9665-C1BB7FA714FD"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Path Name="DELCorrespondingComponent"
+          Uuid="CBF33B4D-37F6-44e0-A053-A17BE7262CE3"
+          MultiValuated="No"
+          RoleName="DEL_CorrespondingComponent"
+          SynchroSensitivity="None"
+          Type="SemanticRelation"
+          AdaptativeToMinor="No"
+          RerouteOnEffectivityChange="No"
+          Orientation="Neutral"
+          Semantics="Reference"
+	      TargetNames="DELSBOMSoftwareComponentReference"
+	      Protection="External"/>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+<!-- Service MBOM Software Component Ref -->
+  <Class Name="DELSBOMSoftwareComponentReference"
+		     Uuid="1ED97E0C-7C02-4bff-B9F6-AD9DF5CB4D2D"
+		     Abstract="No"
+		     Discipline="Yes"
+		     SuperName="DELSBOMSofttwareUAndCAbst"
+		     Specializable="Yes"
+		     CustomerExtensible="Yes"
+		     CustomerExposition="Programmer"
+             DeleteAvailability ="Yes"
+	         Abbreviation="srswc">
+    
+    <Property Name="KweNew_InstanciationMethod" Value="DELServiceBOMDelegateInstanciation"/>
+    <Property Name="IconName" Value="I_InsertSBOMSoftwareComponent"/>
+    <Property Name="3DIconName" Value="I_InsertSBOMSoftwareComponent.cgr"/>
+    <Property Name="Searchable" Value="Yes"/>
+    <Property Name="Newable" Value="All_CAA"/>
+    <Property Name="OccurrenceType" Value="MfgProcessOccurrence"/>
+    
+    <Property Name="ChangeMaturityAvailability" Value="Yes"/>
+    <Property Name="LockUnlockAvailability" Value="Yes"/>
+    <Property Name="TransferOwnerShipAvailability" Value="Yes"/>
+    <Property Name="EditPropertiesAvailability" Value="Yes"/>
+    <Property Name="ChangeManagementSupport" Value="Yes"/>
+    <Property Name="ChangeManagementReferential"    Value="Yes"/>
+    <Property Name="ChangeManagementContext"    Value="Yes"/>
+    <Property Name="DuplicateAvailability"    Value="Yes"/>
+    <Property Name="SaveAsNewAvailability"    Value="Yes"/>
+    <Property Name="NewMajorRevisionAvailability"    Value="Yes"/>
+    <Property Name="EvolutionAvailability"    Value="Yes"/>
+    <Property Name="Configurable" Value="Yes"/>
+
+    <Property Name="IterationAvailability"    Value="No"/>
+    <Property Name="NewMinorRevisionAvailability"    Value="No"/>
+	  
+    <Simple Name="V_ContextualImplementLink"
+            Uuid="97631015-38D5-44ba-BE1F-4CC58FCBAEBC"
+            Type="Boolean"
+            DefaultValue="false"
+            MultiValuated="No"
+            ResetOnCloning="No"
+            ResetOnNewVersion="No"
+            Protection="Internal">
+      <CAAComment>
+        <ShortRole>If true the Implement link under will be created in context of upper scope.</ShortRole>
+      </CAAComment>
+    </Simple>
+
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+	<RelationClass Name="DELSBOMDiscreteInstanceAbst"
+				 Abstract="Yes"
+				 CustomerExposition="Programmer"
+				 CustomerExtensible="Yes"
+				 Uuid="A5A278F3-9A2F-40c3-965E-8757EC4FDD9F"
+				 Discipline="Yes"
+				 SuperName="DELFmiFunctionInstance"
+				 Specializable="No">
+
+	</RelationClass>
+
+	<RelationClass Name="DELSBOMHardwareInstanceAbst"
+				 Abstract="Yes"
+				 CustomerExposition="Programmer"
+				 CustomerExtensible="Yes"
+				 Uuid="E8CD8748-71F2-4aa2-8CD0-B15198EC944B"
+				 Discipline="Yes"
+				 SuperName="DELSBOMDiscreteInstanceAbst"
+				 Specializable="No">
+
+	</RelationClass>
+
+	<RelationClass Name="DELSBOMSoftwareInstanceAbst"
+				 Abstract="Yes"
+				 CustomerExposition="Programmer"
+				 CustomerExtensible="Yes"
+				 Uuid="0785F535-8490-42a6-88B1-A7F7A4F95F23"
+				 Discipline="Yes"
+				 SuperName="DELSBOMDiscreteInstanceAbst"
+				 Specializable="No">
+
+	</RelationClass>
+
+	<RelationClass Name="DELSBOMAggregatedUsageInstance"
+				 Abstract="No"
+				 CustomerExposition="Programmer"
+				 CustomerExtensible="Yes"
+				 Uuid="52C74AEA-86F7-49e0-9459-358A73E229FF"
+				 Discipline="Yes"
+				 SuperName="DELFmiFunctionInstance"
+				 Specializable="No">
+
+	</RelationClass>
+
+	<RelationClass Name="DELSBOMSoftwareUsageInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="0A87E847-48B7-464e-A5C7-E5F702C4C8D6"
+              Discipline="Yes"
+              SuperName="DELSBOMSoftwareInstanceAbst"
+              Specializable="No">
+
+  </RelationClass>
+
+ <RelationClass Name="DELSBOMHardwareUsageInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="414E6E7B-E739-4e51-8E30-569826046583"
+              Discipline="Yes"
+              SuperName="DELSBOMHardwareInstanceAbst"
+              Specializable="No">
+
+  </RelationClass>
+
+ <RelationClass Name="DELSBOMHardwareItemInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="B8534CA3-EE97-43f7-AAF9-A0BC14D17DEC"
+              Discipline="Yes"
+              SuperName="DELSBOMHardwareInstanceAbst"
+              Specializable="No">
+ 
+	<Simple Name="V_SpareValidation"
+         Uuid="05B07350-45BF-455e-8738-082D5B92F3EC"
+         Type="String"
+		 MaxLength="50"
+         MultiValuated="No"
+         Protection="Free"
+         ResetOnCloning="No"
+         ResetOnNewVersion="No"
+         DefaultValue="NotDefined">
+      <Range>
+        <Equal>NotDefined</Equal>
+        <Equal>Yes</Equal>
+        <Equal>No</Equal>
+      </Range>
+    </Simple>
+
+  </RelationClass>
+
+ <RelationClass Name="DELSBOMZoneUsageInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="6D1CA316-02DC-4ea5-9C42-13AD6B0FC669"
+              Discipline="Yes"
+              SuperName="DELFmiFunctionInstance"
+              Specializable="No">
+
+  </RelationClass>
+
+ <RelationClass Name="DELSBOMSoftwareItemInstance"
+              Abstract="No"
+              CustomerExposition="Programmer"
+              CustomerExtensible="Yes"
+              Uuid="97BB237C-F0E9-4466-9B8B-AB745992D63B"
+              Discipline="Yes"
+              SuperName="DELSBOMSoftwareInstanceAbst"
+              Specializable="No">
+
+  </RelationClass>
+
+</Package>

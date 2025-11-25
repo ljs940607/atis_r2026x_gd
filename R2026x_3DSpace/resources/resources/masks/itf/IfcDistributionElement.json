@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcDistributionElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcDistributionElement_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="AECVirtualElementIfc" />
+    <m1.package name="AECVirtualElementIfc" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="IfcVirtualElement" />
+      <m1.interface name="IfcVirtualElement" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcVirtualElement_ObjectType" />
+        <m1.attribute name="IfcVirtualElement.IfcVirtualElement_ObjectType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcVirtualElement_PredefinedType" />
+        <m1.attribute name="IfcVirtualElement.IfcVirtualElement_PredefinedType" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="IfcVirtualElement_Tag" />
+        <m1.attribute name="IfcVirtualElement.IfcVirtualElement_Tag" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

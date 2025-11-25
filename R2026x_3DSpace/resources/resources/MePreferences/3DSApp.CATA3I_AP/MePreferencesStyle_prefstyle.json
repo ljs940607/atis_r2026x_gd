@@ -1,0 +1,359 @@
+{
+  "version": "1.0",
+  "UIModel": [
+    {
+      "type": "PreferenceSection",
+      "name": "3DAnnotationSection",
+      "repository": "3DAnnotRepository",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "WhiteVectorAsBlack",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "DisplayOnlyCaptures",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "UpdateThumbnails",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "KeepSelectedFeatures",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "AssemblyRootAnnotationSetGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "LoadLevelAssemblyAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "LoadARMAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "LoadFirstAssemblyLevelAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "FirstAssemblyLevelAnnotationsPrefix",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "FirstAssemblyLevelAnnotationsSuffix",
+              "tweakertype": "string"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "FavoriteContextGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "FavoriteContextLoadMode",
+              "tweakertype": "radio"
+            }
+          ]
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "AttributesGroup",
+          "tweakertype": "expander",
+          "expanded": "false",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_2",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_3DAnnotations",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_0",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_1",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_7",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_3",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_4",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_6",
+              "tweakertype": "boolean"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "SemanticAttribute_5",
+              "tweakertype": "boolean"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "GridSection",
+      "repository": "GridRepository",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "name": "GridPitchValue",
+          "tweakertype": "magnitude",
+          "repository": "GridRepository",
+          "paramType": "length"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "DirectionLabel",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "name": "Direction1",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "Direction2",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "Direction3",
+              "tweakertype": "string"
+            },
+            {
+              "type": "PreferenceItem",
+              "name": "UnitScale",
+              "tweakertype": "float",
+              "paramType": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "UnitsSection",
+      "repository": "cke",
+      "children": [
+        {
+          "type": "PreferenceGroup",
+          "name": "UnitsGroup",
+          "repository": "cke",
+          "tweakertype": "table",
+          "children": [
+            {
+              "type": "TableHeader",
+              "name": [
+                "Magnitude",
+                "Unit",
+                "",
+                ""
+              ],
+              "icons": [
+                "",
+                "",
+                "lock-open wux-ui-3ds",
+                "lock wux-ui-3ds"
+              ],
+              "repository": "",
+              "tweakertype": "header"
+            },
+            {
+              "type": "TableData",
+              "name": "Length",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Length",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "LengthDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "LengthCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Angle",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Angle",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AngleDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AngleCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Volume",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Volume",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "VolumeDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "VolumeCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Area",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Area",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AreaDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "AreaCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            },
+            {
+              "type": "TableData",
+              "name": "Mass",
+              "tweakertype": "TableData",
+              "CellData": [
+                {
+                  "type": "PreferenceItem",
+                  "name": "Mass",
+                  "repository": "cke",
+                  "tweakertype": "enum"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "MassDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                },
+                {
+                  "type": "PreferenceItem",
+                  "name": "MassCalcDisplay",
+                  "repository": "cke",
+                  "tweakertype": "integer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PreferenceItem",
+          "name": "TrailingZeros",
+          "repository": "cke",
+          "tweakertype": "boolean"
+        }
+      ]
+    },
+    {
+      "type": "PreferenceSection",
+      "name": "SelectionSection",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "repository": "SelectionRepository",
+          "name": "Select3DGeometry",
+          "tweakertype": "boolean"
+        },
+        {
+          "type": "PreferenceGroup",
+          "name": "SelectParentReferenceGroup",
+          "tweakertype": "header",
+          "children": [
+            {
+              "type": "PreferenceItem",
+              "repository": "SelectionRepository",
+              "name": "SelectParentReferenceOr3DShape",
+              "tweakertype": "radio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_JettyCommon_StructuralType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyCommon_BentSpacing",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyCommon_PierSectionType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_JettyCommon_Elevation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

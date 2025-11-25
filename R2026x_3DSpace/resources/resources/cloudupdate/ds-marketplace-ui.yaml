@@ -1,0 +1,15 @@
+author:   Florian Bellot <ft9@3ds.com>
+date:     2021-12-01
+version:  1.0
+
+services:
+  - name: MPPresentation
+    vms:
+      - name: FRONT
+        files:
+          - file: /home/poduser/3dmppresentation/linux_a64/webapps
+            source: linux_a64/webapps/*
+            exec:
+              - cmd: sh /home/poduser/3dmppresentation/linux_a64/code/media_bin/uwp_action_increment_cache_id.sh
+              - cmd: sh /home/poduser/3dmppresentation/linux_a64/code/media_bin/uwp_action_build.sh
+              - cmd: service tomcat restart

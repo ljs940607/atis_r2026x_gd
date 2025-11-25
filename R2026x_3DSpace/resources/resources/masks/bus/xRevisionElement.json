@@ -1,0 +1,20 @@
+{
+    "Write": {"attributes": [
+        {"name": "type"},
+        {"name": "Title","status":"RW"},
+        {"name": "name"},
+        {"name": "revision"},
+        {"name": "description","status":"RW"},
+        {"name": "originated"},
+        {"name": "modified"},
+        {"name": "owner"},
+        {"name": "organization"},
+        {"name": "project"},
+        {"name": "current"}
+    ]},
+    "details": {"attributes": {
+        "owner": {"mandatory": true},
+        "name": {"forbiddenChar": "\\/:*?\"<>|#$@%,[]"}
+    }},
+    "revision": "1"
+}

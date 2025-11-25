@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBasebandUnit_NumberOfCarriers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBasebandUnit_NumberOfEmergencyTransceivers",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MobileTelecommunicationsApplianceTypeBasebandUnit_MaximumNumberOfRRUs",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

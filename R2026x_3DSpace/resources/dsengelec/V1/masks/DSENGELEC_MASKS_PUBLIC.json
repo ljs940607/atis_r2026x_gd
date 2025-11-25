@@ -1,0 +1,194 @@
+{
+  "dsmvengelec:BranchGeomMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultBusMask.utc"
+    },
+    "dsmvengelec:attribute.subtype",
+    "dsmvengelec:attribute.branchgeom.suggestedsegregation"
+  ],
+  "dsmvengelec:HarnessGeomMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultBusMask.utc"
+    }
+  ],
+  "dsmvengelec:SystemMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultBusMask.utc"
+    },
+    "dsmvengelec:attribute.subtype"
+  ],
+  "dsmvengelec:AllDevicesMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DeviceMask"
+    },
+    "dsmvengelec:attribute.backshell.extralength",
+    "dsmvengelec:attribute.contact.authorizedwiregauge",
+    "dsmvengelec:attribute.contact.contactsize",
+    "dsmvengelec:attribute.contact.endfitting",
+    "dsmvengelec:attribute.contact.outsidediameter",
+    "dsmvengelec:attribute.sectionarea",
+    "dsmvengelec:attribute.multiinsertconnector.insertlayout",
+    "dsmvengelec:attribute.singleinsertconnector.contactlayout",
+    "dsmvengelec:attribute.splice.equivalentthicknes",
+    "dsmvengelec:attribute.length",
+    "dsmvengelec:attribute.subdevice.contacttype",
+    "dsmvengelec:attribute.subdevice.numberofpins",
+    "dsmvengelec:attribute.subdevice.polarizedkey",
+    "dsmvengelec:attribute.subdevice.shellsize",
+    "dsmvengelec:attribute.subdevice.shelltype",
+    "dsmvengelec:attribute.terminalblock.shuntcavitylayout",
+    "dsmvengelec:attribute.subdevice.matingwith"
+  ],
+  "dsmvengelec:DeviceMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultBusMask.utc"
+    },
+    "dsmvengelec:attribute.device.externalreference",
+    "dsmvengelec:attribute.series",
+    "dsmvengelec:attribute.subtype"
+  ],
+  "dsmvengelec:DetailedCableMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:CableMask"
+    },
+    "dsmvengelec:attribute.cable.bendradius",
+    "dsmvengelec:attribute.cable.color",
+    "dsmvengelec:attribute.cable.diameter",
+    "dsmvengelec:attribute.cable.linemass",
+    "dsmvengelec:attribute.sectionarea"
+  ],
+  
+  "dsmvengelec:ConductorMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengelec:DefaultBusMask.utc"
+  },
+  "dsmvengelec:attribute.sectionarea",
+  "dsmvengelec:attribute.subtype",
+  "dsmvengelec:attribute.conductor.bendradius",
+  "dsmvengelec:attribute.conductor.diameter",
+  "dsmvengelec:attribute.conductor.color",
+  "dsmvengelec:attribute.conductor.lineweight"
+  ],
+
+"dsmvengelec:ConductorGroupMask": [{
+    "property": "reuseMask",
+    "mask": "dsmvengelec:DefaultBusMask.utc"
+  },
+  "dsmvengelec:attribute.subtype",
+  "dsmvengelec:attribute.conductor.bendradius",
+  "dsmvengelec:attribute.conductor.diameter", 
+  "dsmvengelec:attribute.conductor.color",
+  "dsmvengelec:attribute.conductor.lineweight",
+  "dsmvengelec:attribute.conductorgroup.lengthcoefficient",
+  "dsmvengelec:attribute.conductorgroup.wiregrouptype"
+  ],
+
+  "dsmvengelec:DeviceInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:DeviceInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DeviceInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengelec:HarnessGeomInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:HarnessGeomInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:HarnessGeomInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengelec:BranchGeomInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:BranchGeomInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:BranchGeomInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengelec:SystemInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:SystemInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:SystemInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengelec:CableInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:CableInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:CableInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+  
+  "dsmvengelec:ConductorInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+
+  ],
+  "dsmvengelec:ConductorInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:ConductorInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+
+  "dsmvengelec:ConductorGroupInstMask": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:DefaultRelMask.utc"
+    }
+  ],
+  "dsmvengelec:ConductorGroupInstMask.Details": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmvengelec:ConductorGroupInstMask"
+    },
+    "dsmvengelec:attribute.instanceDetails.referencedObject"
+  ],
+
+  "dsmvengelec:PropertiesMask": [
+    "dsmvengelec:attribute.properties.nominalpower"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "repositories": [
+    {
+      "name": "Languages",
+      "preferences": [
+        {
+          "name": "RegionalFormatLanguage",
+          "datatype": "enum",
+          "values": [
+            "auto",
+            "en", "en-AU", "en-CA", "en-IN", "en-IE","en-NZ","en-ZA","en-GB","en-US",
+            "fr", "fr-CA", "fr-FR", "fr-CH",
+            "de", "de-AT", "de-DE", "de-LI", "de-CH",
+            "es", "es-AR", "es-CL", "es-CO", "es-CR", "es-HN", "es-419", "es-MX", "es-PE", "es-ES", "es-US", "es-UY", "es-VE",
+            "cs",
+            "it", "it-IT", "it-CH",
+            "ja",
+            "ko",
+            "pl",
+            "pt", "pt-BR", "pt-PT", 
+            "ru",
+            "zh", "zh-HK", "zh-CN", "zh-TW",
+            "tr"
+          ],
+          "default": 1,
+          "deprecated": false
+        },
+        {
+          "name": "UseISO8601ForDateAndTime",
+          "datatype": "boolean",
+          "default": false,
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}

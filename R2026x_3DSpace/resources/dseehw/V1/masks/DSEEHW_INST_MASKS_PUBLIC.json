@@ -1,0 +1,42 @@
+{
+  "dsmveehw:EEHWInstanceMask.Instance.Basic": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveno:DefaultRelMask"
+    },
+    {
+      "property": "to.physicalid",
+      "key": "reference"
+    }
+  ],
+  "dsmveehw:EEHWInstanceMask.Instance.EEInstanceCommon": [
+    {
+      "property": "reuseMask",
+      "mask": "dsmveehw:EEHWInstanceMask.Instance.Basic"
+    },
+    "dsmveehw:attribute.instance.eeecus.comConfigurationGwTimeBase",
+    "dsmveehw:attribute.instance.eeecus.comConfigurationRxTimeBase",
+    "dsmveehw:attribute.instance.eeecus.comConfigurationTxTimeBase"
+  ],
+  "dsmveehw:EEHwItemExtension": [
+    "dsmveehw:attribute.properties.row",
+    "dsmveehw:attribute.properties.column",
+    "dsmveehw:attribute.properties.slot"
+  ],
+  "dsmveehw:EEHwCommunicationConnector.LINMask":[
+    {
+      "property": "reuseMask",
+      "mask":"dsmvlog:Interface.Mask.Interface.Details"
+    },
+    "dsmveehw:attribute.port.isLinMasterController",
+    "dsmveehw:attribute.port.linProtocolVersion",
+    "dsmveehw:attribute.port.timeBase"
+  ],
+  "dsmveehw:EEHwCommunicationConnector.FlexRayMask":[
+    {
+      "property": "reuseMask",
+      "mask":"dsmvlog:Interface.Mask.Interface.Details"
+    },
+    "dsmveehw:attribute.port.flexRayLatestTx"
+  ]
+}

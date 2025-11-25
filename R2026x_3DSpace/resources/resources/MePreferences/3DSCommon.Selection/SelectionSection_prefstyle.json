@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "UIModel": [
+    {
+      "type": "PreferenceSection",
+      "name": "SelectionSection",
+      "repository": "VisualizationRepository",
+      "children": [
+        {
+          "type": "PreferenceItem",
+          "repository": "VisualizationRepository",
+          "name": "PreSelection",
+          "tweakertype": "boolean"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+    "dslog:LogItem": {
+        "summary": "Logical Item",
+        "description": "Logical Item",
+        "PUBLICMasks": ["dsmvlog:LogItem.Mask.Reference.Details"],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dslog:LogItemEnterpriseAttributes", "dscfg:Configured", "dslc:changeControl", "dslog:ArchitectureReference"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETAll", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:LogInstance": {
+        "summary": "Logical Item Instance",
+        "description": "Logical Item Instance",
+        "PUBLICMasks": ["dsmvlog:LogInstance.Mask.Instance.Details"],        
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:TypeItem": {
+        "summary": "Logical SystemType Item",
+        "description": "Logical SystemType Item",
+        "PUBLICMasks": ["dsmvlog:TypeItem.Mask.Reference.Details"],
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dslog:TypeItemEnterpriseAttributes", "dslc:changeControl"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETAll", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:TypeInstance": {
+        "summary": "Logical SystemType Instance",
+        "description": "Logical SystemType Instance",
+        "PUBLICMasks": ["dsmvlog:TypeInstance.Mask.Instance.Details"],        
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:Interface": {
+        "summary": "Logical Interface",
+        "description": "Logical Interface",
+        "PUBLICMasks": ["dsmvlog:Interface.Mask.Interface.Details"],        
+        "PUBLICFields": ["dsmveno:CustomerAttributes"],
+        "PUBLICExtensions": ["dscfg:Filterable"],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:Connection": {
+        "summary": "Logical Connection",
+        "description": "Logical Connection",
+        "PUBLICMasks": ["dsmvlog:Connection.Mask.Default", "dsmvlog:Connection.Mask.Details"],        
+        "PUBLICFields": [],
+        "PUBLICExtensions": [],
+        "PUBLICExcludedURIs" : ["POSTSearch", "PATCHBulk", "getItems" , "GETSearch", "DELETEBulk", "bulkfetch", "BULKUPDATE"]
+    },
+    "dslog:LogItemEnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dslog:LogItemEnterpriseAttributes",
+        "PUBLICFields": ["dsmvlog:LogItemEnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    },
+    "dslog:TypeItemEnterpriseAttributes": {
+        "summary": "Parametric attributes",
+        "description": "dslog:TypeItemEnterpriseAttributes",
+        "PUBLICFields": ["dsmvlog:TypeItemEnterpriseAttributes"],
+        "PUBLICExcludedURIs": ["GET", "PATCH"]
+    },
+    "dslog:ArchitectureReference": {
+        "summary": "Architecture Reference",
+        "description": "dslog:ArchitectureReference",
+        "PUBLICMasks": ["dsmvlog:ArchitectureReference.Details"],
+        "PUBLICFields": [],
+        "PUBLICExcludedURIs": ["PATCH"]
+    }
+}
+

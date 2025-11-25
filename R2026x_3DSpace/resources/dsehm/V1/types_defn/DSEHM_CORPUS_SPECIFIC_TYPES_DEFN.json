@@ -1,0 +1,8 @@
+{
+	"dsehm:ErgoHuman":{
+		"create":{
+			"onPremiseLimit": 10,
+			"onCloudLimit": 1		
+		}
+	}
+}

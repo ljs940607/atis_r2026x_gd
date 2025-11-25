@@ -1,0 +1,22 @@
+{
+  "templates": [
+    {
+      "Name": "EngineeringItemProfile",
+      "NLSPath": "i18n!DS/CompareCommon/assets/nls/CompareCustomization",
+      "Facets": [
+        {
+          "Name": "AdditionalStatuses_Properties",
+          "ObjectTypes": [ "VPMReference", "VPMRepReference" ],
+          "Interfaces":  [ "EnterpriseExtension" ],
+          "Icon": "product"
+        },
+        {
+          "Name": "AdditionalStatuses_Instance",
+          "ObjectTypes": [ "VPMInstance", "VPMRepInstance" ],
+          "Icon": "flow-cascade"
+        }
+      ],
+      "AllowCustomMatchingRules": true
+    }
+  ]
+}

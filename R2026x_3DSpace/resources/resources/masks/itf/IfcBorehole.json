@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcBorehole_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBorehole_Tag",
+            "status": "RW"
+        },
+        {
+            "name": "IfcBorehole_PredefinedType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

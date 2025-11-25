@@ -1,0 +1,170 @@
+{
+
+  "dsmvengpip:attribute.part.losscoefficientk": {
+    "property": "attribute[Piping_Part.V_LossCoefficientK]",
+    "key": "losscoefficientk",
+    "label": "dsengpip.Label.Attribute.LossCoefficientK",
+    "example": "",
+    "description": "Loss CoefficientK",
+    "index": "ds6wg:Piping_Part.V_LossCoefficientK"
+  },
+
+  "dsmvengpip:attribute.entity.endstyle": {
+    "property": "attribute[Piping_Entity.V_EndStyle]",
+    "key": "endstyle",
+    "label": "dsengpip.Label.Attribute.EndStyle",
+    "example": "",
+    "description": "End Style",
+    "index": "ds6wg:Piping_Entity.V_EndStyle"
+  },
+
+  "dsmvengpip:attribute.entity.instanciationrule": {
+    "property": "attribute[Piping_Entity.V_InstanciationRule]",
+    "key": "instanciationrule",
+    "label": "dsengpip.Label.Attribute.InstanciationRule",
+    "example": "",
+    "description": "Instanciation Rule",
+    "index": "ds6wg:Piping_Entity.V_InstanciationRule"
+  },
+
+  "dsmvengpip:attribute.entity.materialname": {
+    "property": "attribute[Piping_Entity.V_MaterialName]",
+    "key": "materialname",
+    "label": "dsengpip.Label.Attribute.MaterialName",
+    "example": "",
+    "description": "Material Name",
+    "index": "ds6wg:Piping_Entity.V_MaterialName"
+  },
+
+  "dsmvengpip:attribute.entity.nominalsize": {
+    "property": "attribute[Piping_Entity.V_NominalSize]",
+    "key": "nominalsize",
+    "label": "dsengpip.Label.Attribute.NominalSize",
+    "example": "",
+    "description": "Nominal Size",
+    "index": "ds6wg:Piping_Entity.V_NominalSize"
+  },
+  "dsmvengpip:attribute.entity.rating": {
+    "property": "attribute[Piping_Entity.V_Rating]",
+    "key": "rating",
+    "label": "dsengpip.Label.Attribute.Rating",
+    "example": "",
+    "description": "Rating",
+    "index": "ds6wg:Piping_Entity.V_Rating"
+  },
+  "dsmvengpip:attribute.entity.standard": {
+    "property": "attribute[Piping_Entity.V_Standard]",
+    "key": "standard",
+    "label": "dsengpip.Label.Attribute.Standard",
+    "example": "",
+    "description": "Standard",
+    "index": "ds6wg:Piping_Entity.V_Standard"
+  },
+  "dsmvengpip:attribute.part.subparttype": {
+    "property": "attribute[Piping_PartV1.V_SubPartType,Piping_PartV2.V_SubPartType]",
+    "key": "subparttype",
+    "example": "",
+    "description": "Part Sub Type",
+    "label": "dsengpip.Label.Attribute.SubPartType",
+    "index": "ds6wg:Piping_PartV1.V_SubPartType,ds6wg:Piping_PartV2.V_SubPartType"
+  },
+  "dsmvengpip:attribute.elbow.bendangle": {
+    "property": "attribute[Piping_Elbow.V_BendAngle]",
+    "key": "bendangle",
+    "label": "dsengpip.Label.Attribute.BendAngle",
+    "example": "",
+    "description": "Bend Angle",
+    "index": "ds6wg:Piping_Elbow.V_BendAngle"
+  },
+  
+  "dsmvengpip:attribute.part.referencebendangle": {
+    "property": "attribute[Piping_Elbow.V_ReferenceBendAngle,Piping_Olet.V_ReferenceBendAngle,Piping_Tee.V_ReferenceBendAngle]",
+    "key": "referencebendangle",
+    "label": "dsengpip.Label.Attribute.ReferenceBendAngle",
+    "example": "",
+    "description": "Reference Bend Angle",
+    "index": "ds6wg:Piping_Elbow.V_ReferenceBendAngle,ds6wg:Piping_Olet.V_ReferenceBendAngle,ds6wg:Piping_Tee.V_ReferenceBendAngle"
+  },
+  
+  "dsmvengpip:attribute.elbow.bendradius": {
+    "property": "attribute[Piping_Elbow.V_BendRadius]",
+    "key": "bendradius",
+    "label": "dsengpip.Label.Attribute.BendRadius",
+    "example": "",
+    "description": "Bend Radius",
+    "index": "ds6wg:Piping_Elbow.V_BendRadius"
+  },
+  "dsmvengpip:attribute.pipe.outsidediameter": {
+    "property": "attribute[Piping_Pipe.V_OutsideDiameter]",
+    "key": "outsidediameter",
+    "label": "dsengpip.Label.Attribute.OutsideDiameter",
+    "example": "",
+    "description": "Outside Diameter",
+    "index": "ds6wg:Piping_Pipe.V_OutsideDiameter"
+  },
+  "dsmvengpip:attribute.pipe.wallthickness": {
+    "property": "attribute[Piping_Pipe.V_WallThickness]",
+    "key": "wallthickness",
+    "label": "dsengpip.Label.Attribute.WallThickness",
+    "example": "",
+    "description": "Wall Thickness",
+    "index": "ds6wg:Piping_Pipe.V_WallThickness"
+  },
+  "dsmvengpip:attribute.pipe.length": {
+    "property": "attribute[Piping_Pipe.V_Length]",
+    "key": "length",
+    "label": "dsengpip.Label.Attribute.Length",
+    "example": "",
+    "description": "Length",
+    "index": "ds6wg:Piping_Pipe.V_Length"
+  },
+  "dsmvengpip:attribute.pipe.linearweight": {
+    "property": "attribute[Piping_Pipe.V_Linearweight]",
+    "key": "linearweight",
+    "label": "dsengpip.Label.Attribute.LinearWeight",
+    "example": "",
+    "description": "Linear Weight",
+    "index": "ds6wg:Piping_Pipe.V_Linearweight"
+  },
+  "dsmvengpip:attribute.rigidpipe.nominalbendradius": {
+    "property": "attribute[Piping_Rigid_Pipe.V_NominalBendRadius]",
+    "key": "nominalbendradius",
+    "label": "dsengpip.Label.Attribute.NominalBendRadius",
+    "example": "",
+    "description": "Nominal Bend Radius",
+    "index": "ds6wg:Piping_Rigid_Pipe.V_NominalBendRadius"
+  },
+  "dsmvengpip:attribute.flexiblepipe.operatingtemperature": {
+    "property": "attribute[Piping_Flexible_Pipe.V_OperatingTemperature]",
+    "key": "operatingtemperature",
+    "label": "dsengpip.Label.Attribute.OperatingTemperature",
+    "example": "",
+    "description": "Operating Temperature",
+    "index": "ds6wg:Piping_Flexible_Pipe.V_OperatingTemperature"
+  },
+  "dsmvengpip:attribute.flexiblepipe.operatingpressure": {
+    "property": "attribute[Piping_Flexible_Pipe.V_OperatingPressure]",
+    "key": "operatingpressure",
+    "label": "dsengpip.Label.Attribute.OperatingPressure",
+    "example": "",
+    "description": "Operating Pressure",
+    "index": "ds6wg:Piping_Flexible_Pipe.V_OperatingPressure"
+  },
+  "dsmvengpip:attribute.flexiblepipe.referencebendradius": {
+    "property": "attribute[Piping_Flexible_Pipe.V_ReferenceBendRadius]",
+    "key": "referencebendradius",
+    "label": "dsengpip.Label.Attribute.ReferenceBendRadius",
+    "example": "",
+    "description": "Reference Bend Radius",
+    "index": "ds6wg:Piping_Flexible_Pipe.V_ReferenceBendRadius"
+  },
+
+  "dsmvengpip:attribute.instanceDetails.referencedObject":{
+    "property": "computed",
+    "key": "referencedObject",
+    "fetchOnce":true,
+    "example": "",
+    "description": "Referenced object informations"
+  }
+
+}

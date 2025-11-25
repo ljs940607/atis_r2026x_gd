@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+<Package xmlns="PLMDictionaryUnified"             ModelerType="Top" CustomerExposition="Programmer"
+         Name="PLMSurpacPowerBy"    Uuid="F2E1AE98-720B-43F3-B6BD-F10EF0ED05DA"
+         UseNames="PRODUCTCFG;XCADModeler;PRODUCTDiscipline">
+  <Property Name="IconName" Value="I_3DPart"/>
+  <CAAComment>
+    <ShortRole>Surpac PowerBy Modeler Package</ShortRole>
+    <Role>This package includes all the Surpac POWERBY entities on top of Unified Product Structure</Role>
+  </CAAComment>
+  
+  <Class Name="GEOSurpac3DPart"
+       Uuid="9F83045F-B3AF-4EC8-8C97-DD0D1518DACA"
+       Abbreviation="sdm3D"
+       CustomerExposition="Programmer"
+       SuperName="VPMReference"
+       Discipline="Yes"
+	   PublicResourceURI="/resources/v1/modeler/dscstr/dscstr:CstrItem/{pid}"
+       Specializable="No">
+	   <Property Name="IconName"                   Value="I_3DPart"/>
+	   <Property Name="3DIconName"                 Value="I_3DPart.cgr"/>
+	   <Property Name="Newable"                    Value="No"/>
+	   <Property Name="KweNew_InstanciationMethod" Value = ""/>
+	   <Property Name="Searchable" Value = "Yes"/>
+	   <Property Name="3DPartAvailability" Value = "3DPartOnly"/>
+	   <Simple Name="V_SDM_MD5HashOpt" Uuid="198FBCE1-ADF4-47E2-8F6D-E2274A7CFBF7" Type="String" MaxLength="100" MultiValuated="No" Protection="Internal"/>
+  </Class>
+  
+  <Class Name="GEOSurpacNonPSBaseRepReference"
+       Uuid="E7D64E70-D50B-4237-9F2F-510FEB2E5951"
+       Abbreviation="sdmRep"
+       CustomerExposition="ProgrammerOnly" 
+       SuperName="XCADNonPSBaseRepReference"
+       Discipline="Yes"
+       Specializable="No">
+	   <Property Name="IconName"                   Value="I_3DPart"/>
+	   <Property Name="3DIconName"                 Value="I_3DPart.cgr"/>
+	   <Property Name="Newable"                    Value="No"/>
+	   <Property Name = "KweNew_InstanciationMethod" Value = ""/>
+	   <Property Name = "Searchable" Value = "No"/>
+  </Class>
+  
+  <Extension Name="GEOSurpacEditabilityExtension" 
+	  Uuid="935C718E-ED14-49D1-B42C-73304D7A8642"
+      CustomerExposition="ProgrammerOnly"
+      ScopeNames="3DShape"
+      Searchable="No" >
+  </Extension>
+    
+</Package>
+

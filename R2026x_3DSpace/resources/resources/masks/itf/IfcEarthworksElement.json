@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcEarthworksElement_ObjectType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcEarthworksElement_Tag",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

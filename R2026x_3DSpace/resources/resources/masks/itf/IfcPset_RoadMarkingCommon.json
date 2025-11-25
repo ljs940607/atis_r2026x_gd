@@ -1,0 +1,29 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RoadMarkingCommon_ApplicationMethod",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadMarkingCommon_DiagramNumber",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadMarkingCommon_MaterialColour",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadMarkingCommon_MaterialThickness",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadMarkingCommon_MaterialType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadMarkingCommon_Structure",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

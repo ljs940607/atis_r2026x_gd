@@ -1,0 +1,21 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_ShipLockCommon_CillLevelUpperHead",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShipLockCommon_CillLevelLowerHead",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShipLockCommon_WaterDeliveryValveType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_ShipLockCommon_WaterDeliverySystemType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

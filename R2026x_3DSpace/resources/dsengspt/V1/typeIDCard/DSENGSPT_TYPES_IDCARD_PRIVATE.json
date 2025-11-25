@@ -1,0 +1,7 @@
+{
+	"dsengspt:SharedSupportPart": {
+		"kindOf": "extension",
+		"attributeMappingClass": "com.dassault_systemes.catia.xapps.dsengspt.V1.dictionaries.ENOXdsengsptDictionary",
+		"beType": "interface_SharedSupportPart"
+	}
+}

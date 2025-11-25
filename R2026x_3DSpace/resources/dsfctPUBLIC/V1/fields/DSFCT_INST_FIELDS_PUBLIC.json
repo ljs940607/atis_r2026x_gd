@@ -1,0 +1,15 @@
+{
+	"dsmvfct:attribute.instance.identifier": {
+		"property": "attribute[FunctionalAbstractFlowInstance.V_Identifier]",
+		"key": "identifier",
+		"example": "My identifier",
+		"description": "Instance Identifier (set only once, at creation)"
+	},
+	"dsmvfct:attribute.interface.direction": {
+		"property": "attribute[RFLPLMFlowExpositionInstance.V_Direction]",
+		"key": "direction",
+		"format":"integer",
+		"description": "1 for Consumption or 2 for Emission (set only once, at creation)",
+		"example": "1"
+	}
+}

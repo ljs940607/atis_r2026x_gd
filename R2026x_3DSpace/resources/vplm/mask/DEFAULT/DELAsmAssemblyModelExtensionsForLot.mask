@@ -1,0 +1,218 @@
+// ===========================================================
+// PACKAGE   : DELAsmAssemblyModelExtensionsForLot
+// ===========================================================
+// Generated : Friday, March 3, 2023 3:50:40 PM
+// -----------------------------------------------------------
+// Syntax: 
+//   MASK DEFAULT
+//   ENTITY <entity>
+//   ATTR   <attr>;<required>;<are_values_authorized_values>;<def_val>
+//   VALUE  <value>
+//   FUNC   <method>
+//   FATTR  <attr>;<modif>
+// with: <entity>   = entity name
+//       <attr>     = atribute name
+//       <required> = required attr logical flag (Y or N)
+//       <are_values_authorized_values>
+//                  = authorized values logical flag (Y or N):
+//                    N -> help values / Y -> authorized values
+//       <def_val>  = default value
+//       <value>    = a string value (can have blanks)
+//                    When <are_values_authorized_values> equals:
+//                    N -> an help value / Y -> an authorized value
+//       <method>   = one of the following operations:
+//                    Create         : attr appears in creation panels
+//                    Read/List/Tree : attr appears in browse/query result panels
+//                    Write          : attr appears in properties panels
+//                    Query/EZQuery  : attr appears in query condition panels
+//       <modif>    = writable field logical flag (Y or N):
+//                    N -> NOT modifiable / Y -> modifiable
+// ===========================================================
+MASK DEFAULT
+// --- entities: 5
+// ===========================================================
+// ===========================================================
+ENTITY DELMBOMLotQuantityMgtVolume
+// ===========================================================
+// --- attributes: 2
+ATTR V_MinLotQuantity;N;N;$
+ATTR V_MaxLotQuantity;N;N;$
+ATTR V_IncrementQuantity;N;N;$
+// -----------------------------------------------------------
+FUNC Create
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;N
+FATTR V_MaxLotQuantity;N
+FATTR V_IncrementQuantity;N
+// ===========================================================
+ENTITY DELMBOMLotQuantityMgtMass
+// ===========================================================
+// --- attributes: 2
+ATTR V_MinLotQuantity;N;N;$
+ATTR V_MaxLotQuantity;N;N;$
+ATTR V_IncrementQuantity;N;N;$
+// -----------------------------------------------------------
+FUNC Create
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;N
+FATTR V_MaxLotQuantity;N
+FATTR V_IncrementQuantity;N
+// ===========================================================
+ENTITY DELMBOMLotQuantityMgtArea
+// ===========================================================
+// --- attributes: 2
+ATTR V_MinLotQuantity;N;N;$
+ATTR V_MaxLotQuantity;N;N;$
+ATTR V_IncrementQuantity;N;N;$
+// -----------------------------------------------------------
+FUNC Create
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;N
+FATTR V_MaxLotQuantity;N
+FATTR V_IncrementQuantity;N
+// ===========================================================
+ENTITY DELMBOMLotQuantityMgtLength
+// ===========================================================
+// --- attributes: 2
+ATTR V_MinLotQuantity;N;N;$
+ATTR V_MaxLotQuantity;N;N;$
+ATTR V_IncrementQuantity;N;N;$
+// -----------------------------------------------------------
+FUNC Create
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;N
+FATTR V_MaxLotQuantity;N
+FATTR V_IncrementQuantity;N
+// ===========================================================
+ENTITY DELMBOMLotQuantityMgtEach
+// ===========================================================
+// --- attributes: 2
+ATTR V_MinLotQuantity;N;N;$
+ATTR V_MaxLotQuantity;N;N;$
+ATTR V_IncrementQuantity;N;N;$
+// -----------------------------------------------------------
+FUNC Create
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Query
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Write
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC EZQuery
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;Y
+FATTR V_MaxLotQuantity;Y
+FATTR V_IncrementQuantity;Y
+// -----------------------------------------------------------
+FUNC Read
+// -----------------------------------------------------------
+FATTR V_MinLotQuantity;N
+FATTR V_MaxLotQuantity;N
+FATTR V_IncrementQuantity;N

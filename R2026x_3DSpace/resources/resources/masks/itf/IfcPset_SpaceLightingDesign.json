@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_SpaceLightingDesign_ArtificialLighting",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_SpaceLightingDesign_Illuminance",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

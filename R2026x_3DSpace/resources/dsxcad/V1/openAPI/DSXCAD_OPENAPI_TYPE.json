@@ -1,0 +1,234 @@
+{
+	"dsxcad:Representation": {
+		"summary": "CAD Specific Data",
+		"description": "CAD Specific Data",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADRepMask.Basic",
+			"dsmvxcad:xCADRepMask.Default",
+			"dsmvxcad:xCADRepMask.Details"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dslc:changeControl",
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:Part": {
+		"summary": "CAD 3D Part",
+		"description": "CAD 3D Part",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADPartMask.Basic",
+			"dsmvxcad:xCADPartMask.Default",
+			"dsmvxcad:xCADPartMask.Details",
+			"dsmvxcad:xCADPartMask.EnterpriseDetails"
+		],
+		"PROTECTEDMasks": [
+			"dsmvxcad:xCADPartMask.ECAD",
+			"dsmvxcad:xCADPartMask.EnterpriseDetails"
+		],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dslc:changeControl",
+			"dseng:EnterpriseReference",
+			"dseno:EnterpriseAttributes",
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile",
+			"dsxcad:VisualizationFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [
+			"dsxcad:PCBPhysicalComponent",
+			"dsxcad:PCB3DPackage",
+			"dsxcad:PCBPackageWrap",
+			"dsxcad:CBDBoard",
+			"dsxcad:CBDPanel",
+			"dsxcad:CBDAssembly",
+			"dsxcad:PCBPackageFootprint"
+		],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:Drawing": {
+		"summary": "CAD Drawing",
+		"description": "CAD Drawing",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADDrawingMask.Basic",
+			"dsmvxcad:xCADDrawingMask.Default",
+			"dsmvxcad:xCADDrawingMask.Details",
+			"dsmvxcad:xCADDrawingMask.EnterpriseDetails"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dslc:changeControl",
+			"dseno:EnterpriseAttributes",
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile",
+			"dsxcad:VisualizationFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:FamilyRepresentation": {
+		"summary": "CAD Family",
+		"description": "CAD Family",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADFamilyRepMask.Basic",
+			"dsmvxcad:xCADFamilyRepMask.Default",
+			"dsmvxcad:xCADFamilyRepMask.Details"
+			"dsmvxcad:xCADFamilyRepMask.LinksDetails"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [
+			"dsmvxcad:FamilyEnterpriseAttributes",
+			"dsmvxcad:attribute.CADLink"
+		],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCH",
+			"DELETE",
+			"BULKUPDATE",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:xCADAttributes": {
+		"summary": "CAD Extension",
+		"description": "CAD Extension",
+		"PUBLICMasks": [
+			"dsmvxcad:attribute.xCADAttributes"
+		],
+		"PROTECTEDMasks": [],
+		"PUBLICFields": []
+	},
+	"dsxcad:AuthoringFile": {
+		"summary": "CAD Authoring File",
+		"description": "CAD Authoring File",
+		"PUBLICMasks": [
+			"dsmvxcad:AuthoringFile.Details"
+		],
+		"PROTECTEDMasks": []
+	},
+	"dsxcad:VisualizationFile": {
+		"summary": "CAD Visualization File",
+		"description": "CAD Visualization File",
+		"PUBLICMasks": [
+			"dsmvxcad:VisualizationFile.Details"
+		],
+		"PROTECTEDMasks": []
+	},
+	"dsxcad:Product": {
+		"summary": "CAD Product",
+		"description": "CAD Product",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADProductMask.Default",
+			"dsmvxcad:xCADProductMask.Details",
+			"dsmvxcad:xCADProductMask.EnterpriseDetails"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dseng:EnterpriseReference",
+			"dseno:EnterpriseAttributes",
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCH",
+			"DELETE",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:Template": {
+		"summary": "CAD Template",
+		"description": "CAD Template",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADTemplateMask.Default"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCH",
+			"DELETE",
+			"BULKUPDATE",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	},
+	"dsxcad:3DShape": {
+		"summary": "CAD Shape",
+		"description": "CAD Shape",
+		"PUBLICMasks": [
+			"dsmvxcad:xCADShapeMask.Basic",
+			"dsmvxcad:xCADShapeMask.Default",
+			"dsmvxcad:xCADShapeMask.Details",
+			"dsmvxcad:xCADShapeMask.EnterpriseDetails"
+		],
+		"PROTECTEDMasks": [],
+		"PRIVATEMasks": [],
+		"PUBLICExtensions": [
+			"dsxcad:RepReferenceEnterpriseAttributes",
+			"dsxcad:xCADAttributes",
+			"dsxcad:AuthoringFile",
+			"dsxcad:VisualizationFile"
+		],
+		"PROTECTEDExtensions": [],
+		"PRIVATEExtensions": [],
+		"PUBLICFields": [],
+		"PUBLICExcludedURIs": [
+			"GETAll",
+			"getItems",
+			"PATCH",
+			"DELETE",
+			"PATCHBulk",
+			"DELETEBulk"
+		]
+	}
+	
+}

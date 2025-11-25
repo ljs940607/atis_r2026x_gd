@@ -1,0 +1,325 @@
+<?xml version="1.0" ?>
+
+<!-- ENOVIA DICTIONARY  -->
+<!-- COPYRIGHT DASSAULT SYSTEMES 2023, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified" 
+    ModelerType="Top" 
+    BelongsToModeler="PRODUCT_QUALIFICATION_PROFILE" 
+    Name="PRODUCT_QUALIFICATION_PROFILE"
+    Uuid="D55B5F0C-B535-44BF-8C27-560CB3B0588E"
+    UseNames="ERCoreModeler"
+    Architecture="All"
+    CustomerExposition="Programmer">
+
+  <!-- ABSTRACT QUALIFICATION RELATION -->
+  <!-- CustomerExposition="ProgrammerOnly" RelationClass visible only in the programming language -->
+  <!-- Discipline="No" RelationClass as pure abstract -->
+  <!-- RelationNature="Pointer" RelationClass as a pointer not a composition -->
+  <!-- Specializable="Yes" RelationClass could be specialized by customer -->
+  <!-- CustomerExtensible="No" no extension on RelationClass -->
+  <!-- CustomerExtensible="No" no extension on RelationClass -->
+  <!-- CarryStreams="No" no stream on RelationClass -->
+  <!-- AggregatesComponents="No" no aggregation on RelationClass -->
+  <!-- Filtrable="No" no effectivity on RelationClass -->
+  <!-- SortingChildrenInTree for RelationClass order on profile, single order value -->
+  <!-- from and to on VPMRepReference for RelationClass as loop relation -->
+  <!-- from and to as Many for qualification profile -->
+  <!-- from and to no propagation on VPMRepReference modification for RelationClass as loop relation -->
+  <!-- from and to as float for minor or clone operation for RelationClass as loop relation -->
+  <RelationClass Name="VPMQualificationAbstractRelation"
+    Uuid="EDF44D64-D3B7-403D-9594-CA68E64C969D"
+    Abstract="Yes"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="RelationType"
+    Discipline="No"
+    RelationNature="Pointer"
+    Specializable="Yes"
+    CustomerExtensible="No"
+    CarryStreams="No"
+    AggregatesComponents="No"
+    Filtrable="No">
+    <SubClause Name="from" TargetName="VPMRepReference"
+      cardinality="One"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <SubClause Name="to" TargetName="VPMRepReference"
+      cardinality="One"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <SubClause Name="from" TargetName="VPMFakeQualification"
+      cardinality="One"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <SubClause Name="to" TargetName="VPMFakeQualification"
+      cardinality="One"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <!-- CONCRETE QUALIFICATION RELATIONS -->
+  <RelationClass Name="VPMQualificationRelation_ALL_REP"
+    Uuid="9D1B130D-268F-42B1-B617-5DF2053088D0"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="VPMQualificationAbstractRelation"
+    Discipline="Yes"
+    Specializable="Yes">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <RelationClass Name="VPMQualificationRelation_NONE"
+    Uuid="EBF9BAB1-3B29-4328-B851-5E0A9C707729"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="VPMQualificationRelation_ALL_REP"
+    Discipline="Yes"
+    Specializable="No">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <RelationClass Name="VPMQualificationRelation_BOUNDING_BOX"
+    Uuid="9920458A-EBC2-4D4E-9D65-C8AE65EBF887"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="VPMQualificationRelation_ALL_REP"
+    Discipline="Yes"
+    Specializable="Yes">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <RelationClass Name="VPMQualificationRelation_ALWAYS_LOADED"
+    Uuid="4C9D5E16-451F-4DE7-9F7B-48233531A8B1"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="VPMQualificationRelation_ALL_REP"
+    Discipline="Yes"
+    Specializable="Yes">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <RelationClass Name="VPMQualificationRelation_3DREP"
+    Uuid="EE1985B1-57A0-4710-9096-F24ACFC9FEA1"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="VPMQualificationRelation_ALL_REP"
+    Discipline="Yes"
+    Specializable="Yes">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <!-- QUALIFICATION PROFILE -->
+  <Class Name="VPMQualificationProfile"
+    Uuid="FABBDA49-75C7-4A78-AE19-B1FB8C6570F5"
+    Abstract="No"
+    CustomerExposition="Programmer"
+    SuperName="BusinessType"
+    Discipline="No"
+    ObjectNature="Independent"
+    Specializable="No"
+    CustomerExtensible="No"
+    Searchable="Yes"
+    CreateInstName=""
+    CarryStreams="No"
+    NewMinorRevisionAvailability="No"
+    AggregatesComponents="Yes"
+    UniqueNamingRule="Yes"
+    Configurable="No"
+    OwnerTypes="None"
+    Abbreviation="qual_pro"     
+    AggregatableTypes="VPMPrioritizedQualificationProfile;VPMEssentialQualificationProfile"
+    KweNew_InstanciationMethod="CATEPrdMRepQualificationProfileForDelegateInstanciation">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+    <Simple Name="Title"
+      Uuid="8B9B4CC8-CB05-433C-B161-D51B795F84F8"
+      Type="String"
+      Protection="Free"
+      PLMImpacting="No"
+      ResetOnCloning="No"
+      ResetOnNewVersion="No"
+      UIAccess="ReadWrite"
+      Faceted="Yes">
+    </Simple>
+  </Class>
+
+  <Class Name="VPMPrioritizedQualificationProfile"
+    Uuid="65CF9ACF-FF1D-4A42-89B2-6565F687536D"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="BusinessType"
+    Discipline="No"
+    ObjectNature="Aggregated"
+    Specializable="No"
+    CustomerExtensible="No"
+    Searchable="No"
+    CreateInstName=""
+    CarryStreams="No"
+    NewMinorRevisionAvailability="No"
+    AggregatesComponents="Yes"
+    UniqueNamingRule="No"
+    Configurable="No"
+    OwnerTypes="VPMQualificationProfile"
+    AggregatableTypes="VPMFakeQualification">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+  <Class Name="VPMEssentialQualificationProfile"
+    Uuid="90945666-A15C-4550-8FD9-26F2C3FC07F7"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="BusinessType"
+    Discipline="No"
+    ObjectNature="Aggregated"
+    Specializable="No"
+    CustomerExtensible="No"
+    Searchable="No"
+    CreateInstName=""
+    CarryStreams="No"
+    NewMinorRevisionAvailability="No"
+    AggregatesComponents="Yes"
+    UniqueNamingRule="No"
+    Configurable="No"
+    OwnerTypes="VPMQualificationProfile"
+    AggregatableTypes="VPMFakeQualification">
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+  
+  <!-- QUALIFICATION PROFILE TO QUALIFICATION SPECIALIZED PROFILE RELATION -->
+  <RelationClass Name="VPMQualificationProfileToSpecializedProfileRelation"
+    Uuid="99BF014E-3070-400B-BF65-7308CE3D7D17"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="RelationType"
+    Discipline="No"
+    RelationNature="Aggregation"
+    Specializable="No"
+    CustomerExtensible="No"
+    CarryStreams="No">
+    <SubClause Name="from" TargetName="VPMQualificationProfile"
+      cardinality="One"
+      clone="none"
+      minorrevision="none"
+      propagatemodify="Yes"
+      propagateconnection="Yes"/>
+    <SubClause Name="to" TargetName="VPMEssentialQualificationProfile"
+      cardinality="Many"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <SubClause Name="to" TargetName="VPMPrioritizedQualificationProfile"
+      cardinality="Many"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <Property Name="Filtrable" Value="No"/>
+    <Property Name="Searchable" Value="No"/>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <!-- QUALIFICATION SPECIALIZED PROFILE TO FAKE QUALIFICATION LIST RELATION -->
+  <RelationClass Name="VPMSpecializedProfileToFakeQualificationRelation"
+    Uuid="9CC0B44C-ADA7-47B8-BFCF-1B470660A78F"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="RelationType"
+    Discipline="No"
+    RelationNature="Aggregation"
+    Specializable="No"
+    CustomerExtensible="No"
+    CarryStreams="No">
+    <SubClause Name="from" TargetName="VPMPrioritizedQualificationProfile"
+      cardinality="One"
+      clone="none"
+      minorrevision="none"
+      propagatemodify="Yes"
+      propagateconnection="Yes"/>
+    <SubClause Name="from" TargetName="VPMEssentialQualificationProfile"
+      cardinality="One"
+      clone="none"
+      minorrevision="none"
+      propagatemodify="Yes"
+      propagateconnection="Yes"/>
+    <SubClause Name="to" TargetName="VPMFakeQualification"
+      cardinality="Many"
+      clone="replicate"
+      minorrevision="replicate"
+      propagatemodify="No"
+      propagateconnection="No"/>
+    <Property Name="Filtrable" Value="No"/>
+    <Property Name="Searchable" Value="No"/>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </RelationClass>
+
+  <!-- FAKE QUALIFICATION ENTITY -->
+  <Class Name="VPMFakeQualification"
+    Uuid="5B01DFC3-1653-46F5-B64B-04BFB88773B2"
+    Abstract="No"
+    CustomerExposition="ProgrammerOnly"
+    SuperName="BusinessType"
+    Discipline="No"
+    ObjectNature="Aggregated"
+    Specializable="No"
+    CustomerExtensible="No"
+    Searchable="No"
+    CreateInstName=""
+    CarryStreams="No"
+    NewMajorRevisionAvailability="No"
+    NewMinorRevisionAvailability="No"
+    AggregatesComponents="No"
+    UniqueNamingRule="No"
+    Configurable="No"
+    OwnerTypes="VPMPrioritizedQualificationProfile;VPMEssentialQualificationProfile"
+    AggregatableTypes="">
+    <Property Name="SortingChildrenInTree" Value="V_ProfileOrder"/>
+    <Simple Name="V_ProfileOrder"
+      Uuid="EDA89412-F335-4800-A266-6EEB191154A6"
+      Type="Double"
+      Protection="Free"
+      MultiValuated="No"
+      PLMImpacting="No"
+      ResetOnCloning="No"
+      ResetOnNewVersion="No"
+      UIAccess="ReadWrite"
+      Faceted="Yes">
+    </Simple>
+    <Method ImplementationType="None">
+      <RealizeMethodType href="ExportScope.meth#ExportScope"/>
+    </Method>
+  </Class>
+
+</Package>
+
+

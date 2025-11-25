@@ -1,0 +1,10 @@
+{
+  "service": "3DSpace",
+  "domainInstance": "Report",
+  "description": "The domain instance for Report in 3DSpace",
+  "packages": [
+    "CatiaSystemsReportGeneration",
+    "CATReport",
+    "CATReportCnx"
+  ]
+}

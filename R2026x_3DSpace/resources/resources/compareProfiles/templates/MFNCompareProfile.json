@@ -1,0 +1,40 @@
+{
+  "templates": [
+    {
+      "Name": "Mfg Items Compare Profile",
+      "NLSPath": "i18n!DS/CompareCommon/assets/nls/CompareCustomization",
+      "Facets": [
+        {
+          "Name": "Items_Types",
+          "ObjectTypes": [
+            "CreateAssembly",
+            "CreateKit",
+            "CreateMaterial",
+            "Provide",
+            "Fasten",
+            "DELFmiFunctionPPRContinuousReference",
+            "ProcessContinuousCreateMaterial",
+            "ProcessContinuousProvide",
+            "DELFmiFunctionServiceContinuousReference",
+            "DELContinuousServicePartReference",
+            "ContinuousByProduct",
+            "MBOMContinuousInProcessItem",
+            "MBOMContinuousPhaseReference",
+            "Installation"
+          ],
+          "Interfaces":  [],
+          "Icon": "Mfgitems"
+        },
+        {       
+          "Name": "Items_Instances",
+          "ObjectTypes": [
+            "DELFmiFunctionIdentifiedInstance"
+          ],
+          "Interfaces":  [],
+          "Icon": "flow-cascade"
+        }
+      ],
+      "AllowCustomMatchingRules": true
+    }
+  ]
+}

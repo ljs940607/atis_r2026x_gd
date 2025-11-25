@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns="http://www.3ds.com/enovia-matrixone/vplm-m1/mapping" version="10">
+
+  <!-- Package -->
+  <pattern.VPLM_PACKAGE>
+    <vplm.Package name="DELTimeLimit" />
+    <m1.package name="DELTimeLimit" />
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitAbstract" />
+      <m1.interface name="DELTimeLimitAbstract" />
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitMarginAbstract" />
+      <m1.interface name="DELTimeLimitMarginAbstract" />
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitStageExt" />
+      <m1.interface name="DELTimeLimitStageExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLStage" />
+        <m1.attribute name="DELTimeLimitStageExt.V_TLStage" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitArbitraryUnitExt" />
+      <m1.interface name="DELTimeLimitArbitraryUnitExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLMArbitraryUnit" />
+        <m1.attribute name="DELTimeLimitArbitraryUnitExt.V_TLMArbitraryUnit" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLValue" />
+        <m1.attribute name="DELTimeLimitArbitraryUnitExt.V_TLValue" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitArbitraryUnitMarginExt" />
+      <m1.interface name="DELTimeLimitArbitraryUnitMarginExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLMArbitraryUnit" />
+        <m1.attribute name="DELTimeLimitArbitraryUnitMarginExt.V_TLMArbitraryUnit" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLMargin" />
+        <m1.attribute name="DELTimeLimitArbitraryUnitMarginExt.V_TLMargin" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitDistanceExt" />
+      <m1.interface name="DELTimeLimitDistanceExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLValue" />
+        <m1.attribute name="DELTimeLimitDistanceExt.V_TLValue" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitDistanceMarginExt" />
+      <m1.interface name="DELTimeLimitDistanceMarginExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLMargin" />
+        <m1.attribute name="DELTimeLimitDistanceMarginExt.V_TLMargin" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitDurationExt" />
+      <m1.interface name="DELTimeLimitDurationExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLValue" />
+        <m1.attribute name="DELTimeLimitDurationExt.V_TLValue" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitDurationMarginExt" />
+      <m1.interface name="DELTimeLimitDurationMarginExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLMargin" />
+        <m1.attribute name="DELTimeLimitDurationMarginExt.V_TLMargin" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Extension -->
+    <pattern.VPLM_EXTENSION>
+      <vplm.Extension name="DELTimeLimitEventExt" />
+      <m1.interface name="DELTimeLimitEventExt" />
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLEventCode" />
+        <m1.attribute name="DELTimeLimitEventExt.V_TLEventCode" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+      <!-- Simple -->
+      <pattern.VPLM_SIMPLE>
+        <vplm.Simple name="V_TLNbOccurrence" />
+        <m1.attribute name="DELTimeLimitEventExt.V_TLNbOccurrence" local="yes" />
+      </pattern.VPLM_SIMPLE>
+
+    </pattern.VPLM_EXTENSION>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMConnection name="DELTimeLimitParameterAbstract" />
+      <m1.type name="DELTimeLimitParameterAbstract" mxtnr_submitted="no" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELTimeLimitReferenceAbstract" />
+      <m1.type name="DELTimeLimitReferenceAbstract" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMConnection name="DELTimeLimitThresholdParameter" />
+      <m1.type name="DELTimeLimitThresholdParameter" mxtnr_submitted="no" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMConnection name="DELTimeLimitTriggerParameter" />
+      <m1.type name="DELTimeLimitTriggerParameter" mxtnr_submitted="no" />
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELDiscreteTimeLimitReference" />
+      <m1.type name="DELDiscreteTimeLimitReference" />
+
+      <!-- Basic Concat -->
+      <pattern.VPLM_BASIC_CONCAT>
+        <vplm.Simple name="PLM_ExternalID" />
+        <m1.basic name="name" />
+      </pattern.VPLM_BASIC_CONCAT>
+
+    </pattern.VPLM_CLASS>
+
+    <!-- Class -->
+    <pattern.VPLM_CLASS>
+      <vplm.PLMCoreReference name="DELPeriodicTimeLimitReference" />
+      <m1.type name="DELPeriodicTimeLimitReference" />
+
+      <!-- Basic Concat -->
+      <pattern.VPLM_BASIC_CONCAT>
+        <vplm.Simple name="PLM_ExternalID" />
+        <m1.basic name="name" />
+      </pattern.VPLM_BASIC_CONCAT>
+
+    </pattern.VPLM_CLASS>
+
+  </pattern.VPLM_PACKAGE>
+
+</mapping>

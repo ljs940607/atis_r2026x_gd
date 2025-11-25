@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_RoadSymbolsCommon_Text",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_RoadSymbolsCommon_TypeDesignation",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

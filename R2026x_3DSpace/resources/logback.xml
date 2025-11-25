@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="30 seconds">
+  <property file="E:/DassaultSystemes/R2026x/3DSpace/win_b64/code/bin/enovia.ini"/>
+<!-- Stop output INFO at start -->
+  <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+
+
+  <define name="kernelName" class="com.matrixone.util.KernelPropertyDefiner"/>
+
+  <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+      <!-- rollover daily -->
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-3DXServer}_${kernelName}_%d{yyyy-MM-dd, UTC}_%i.log.zip</fileNamePattern>
+
+      <!-- or whenever the file size reaches 64MB -->
+      <maxFileSize>64MB</maxFileSize>
+
+    </rollingPolicy>
+
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,GMT} | %-24([%thread]) | %-5level | %-36logger{36} | %marker | %X{sessionId} | %X{requestId} | %msg%n%ex</pattern>
+    </encoder>
+
+  </appender>
+
+
+  <root level="info">
+
+    <appender-ref ref="ROLLING" />
+
+  </root>
+
+  <appender name="RollingIndexCrawlerFull" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-Netvibes_${kernelName}}_IndexCrawlerFull_%d{yyyy-MM-dd, UTC}_%i.log.zip</fileNamePattern>
+      <maxFileSize>64MB</maxFileSize>
+      <maxHistory>40</maxHistory>
+    </rollingPolicy>
+    <append>true</append>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,UTC} | %-45([%thread]) | %-5level | %-12logger{36} | %marker | %class{} | %msg%n%ex</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="BaseDetailedLog" level="INFO" additivity="FALSE" >
+    <appender-ref ref="RollingIndexCrawlerFull" />
+  </logger>
+
+  <appender name="RollingIndexCrawlerMinimal" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-Netvibes_${kernelName}}_IndexCrawlerMinimal_%d{yyyy-MM-dd, UTC}_%i.log.zip</fileNamePattern>
+      <maxFileSize>64MB</maxFileSize>
+      <maxHistory>40</maxHistory>
+    </rollingPolicy>
+    <append>true</append>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,UTC} | %-45([%thread]) | %-5level | %-12logger{36} | %marker | %class{} | %msg%n%ex</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="OverviewLog" level="INFO" additivity="FALSE" >
+    <appender-ref ref="RollingIndexCrawlerMinimal" />
+    <appender-ref ref="RollingIndexCrawlerFull" />
+  </logger>
+
+  <appender name="HttpMonitoring" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-3DXServer}_HttpMonitoring_%d{yyyy-MM-dd_HH, UTC}_%i.log.zip</fileNamePattern>
+      <maxFileSize>64MB</maxFileSize>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="com.dassault_systemes.i3dx.monitoring.logger.JsonLayout" >
+        <MDCKeys>requestId,serviceName,startTime,frameContextId,sessionId,endTime,userName,role,serverProcess,url,httpMethod,requestSize,tenant,statusCode,clientStepName,odtName,clientStack,authentication</MDCKeys>
+      </layout>
+    </encoder>
+  </appender>
+
+  <appender name="DelayHttpMonitoring" class="com.dassault_systemes.i3dx.monitoring.logger.MonitoringAppender">
+    <appender-ref ref="HttpMonitoring" />
+  </appender>
+
+
+  <logger name="i3DXMonitoringServer" level="DEBUG" additivity="FALSE" >
+    <appender-ref ref="DelayHttpMonitoring" />
+  </logger>
+
+  <appender name="KernelMonitoring" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-3DXServer}_KernelMonitoring_%d{yyyy-MM-dd_HH, UTC}_%i.log.zip</fileNamePattern>
+      <maxFileSize>64MB</maxFileSize>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%msg%n</pattern>
+    </encoder>
+  </appender>
+
+
+  <logger name="i3DXMonitoringKernel" level="DEBUG" additivity="FALSE" >
+    <appender-ref ref="KernelMonitoring" />
+  </logger>
+
+  <appender name="i3DXAuditLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>E:/DassaultSystemes/R2026x/3DSpace/logsCAS/${MX_TRACE_FILE_NAME:-3DXServer}_i3DXAuditLog_%d{yyyy-MM-dd_HH, UTC}_%i.log.zip</fileNamePattern>
+      <maxFileSize>64MB</maxFileSize>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%msg%n</pattern>
+    </encoder>
+  </appender>
+
+
+  <logger name="i3DXAuditLog" level="INFO" additivity="FALSE" >
+    <appender-ref ref="i3DXAuditLogAppender" />
+  </logger>
+  <include optional="true" resource="../classes/SMASLMLoggingConfig.xml" />
+  <include optional="true" resource="../classes/ENOIEFLoggingConfig.xml" />
+  <include optional="true" resource="../classes/logback.cv.xml" />
+  <include optional="true" resource="../classes/RIPE/resources/ENORelNavLoggingConfig.xml" />
+<logger name="fakeLogger" level="INFO" additivity="FALSE" ><appender-ref ref="STDOUT" /></logger></configuration>

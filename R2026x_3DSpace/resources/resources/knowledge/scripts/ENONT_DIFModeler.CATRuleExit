@@ -1,0 +1,75 @@
+<Scripts>
+  <!--DIFLayout-->
+
+  <!--Attribute initialization when Creating online data-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFLayout" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" /> 
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFLayout" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" /> 
+  </Script>
+  <!--Adding Instance / Representation Instance inside the structure-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFLayout" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFLayout" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+  <!--Adding Instance / Representation Instance inside the structure: control that a data is made of Applicable Data-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFLayout" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFLayout" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+
+    <!--DIFSheet-->
+
+    <!--Attribute initialization when Creating online data-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFSheet" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" /> 
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFSheet" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" /> 
+  </Script>
+  <!--Adding Instance / Representation Instance inside the structure-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFSheet" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFSheet" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+   <!--Adding Instance / Representation Instance inside the structure: control that a data is made of Applicable Data-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFSheet" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFSheet" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+
+
+  <!--DIFView-->
+
+  <!--Attribute initialization when Creating online data-->
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFView" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" /> 
+  </Script>
+  <Script OpeningID="PLMIdentificationInitialization" Type="DIFView" ScriptName="ENONT_PLMReference_BLInitialization">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" /> 
+  </Script>
+  <!--Adding Instance / Representation Instance inside the structure-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFView" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFView" ScriptName="ENONT_StandardAggregation">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+  <!--Adding Instance / Representation Instance inside the structure: control that a data is made of Applicable Data-->
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFView" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition" />
+  </Script>
+  <Script OpeningID="PLMInstanceAggregationCheck" Type="DIFView" ScriptName="ENONT_CrossProjectApplicability">
+    <Condition Attribute="Policy" Value="VPLM_SMB_Definition_MajorRev" />
+  </Script>
+ 
+</Scripts>

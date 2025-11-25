@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!-- COPYRIGHT DASSAULT SYSTEMES 2024, All rights reserved -->
+
+<Package xmlns="PLMDictionaryUnified"
+         ModelerType="Top"
+         Name="ManufacturingInstructions"
+         Uuid="8F63443F-C8F7-4D77-BCFC-A525B8D5BE84"
+         BelongsToModeler="DELLmiProductionSystem"
+         UseNames="DELFmiFunctionalModel PLMDELMIASystemDisciplines EngineeringInstructions"
+         CustomerExposition="Programmer">
+
+	<CAAComment>
+		<ShortRole>ManufacturingInstructions Package</ShortRole>
+		<Role>This package describes Manufacturing Instructions</Role>
+	</CAAComment>
+
+	<Extension Name="DELILLinkOnAppliedNote"
+			   Uuid="44481864-6982-4077-B8A1-10E9BA9DA059"
+			   ScopeNames="MfgProductionPlanning"
+			   CAAExposition="L1"
+			   Specializable="No"
+			   CustomerExposition="None"
+             >
+
+		<Simple Name="V_LinkOnAppliedNote"
+				Uuid="EB028303-3E1D-4A2F-BE76-B3A752A82751"
+				Type="String"
+				MultiValuated="No"
+				Protection="Internal"
+            >
+			<CAAComment>
+				<ShortRole>Defines LinkOnAppliedNote</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Link On AppliedNote Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+
+	<Extension Name="DELILLinkOnAppliedNoteList"
+             Uuid="DC9EB96E-389B-4558-8080-13E75FA14D9F"
+             ScopeNames="MfgProductionPlanning"
+             CAAExposition="L1"
+             Specializable="No"
+             CustomerExposition="None"
+             >
+
+		<Simple Name="V_LinkOnAppliedNoteList"
+				Uuid="1362B1FA-3BB9-4174-B7FD-7CDCFBC4EF61"
+				Type="String"
+				MultiValuated="Yes"
+				Protection="Internal"
+				MaxLength="300"
+            >
+			<CAAComment>
+				<ShortRole>Defines LinkOnAppliedNote</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Link On AppliedNote Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+
+
+	<Extension Name="DELInfoForInstructionSynchroExt"
+			   Uuid="B1B90B02-9DF6-46E7-8EED-176172E8FD57"
+			   ScopeNames="CATInstruction"
+			   CAAExposition="L1"
+			   Specializable="No"
+			   CustomerExposition="None"
+             >
+
+		<Simple Name="V_InfoForInstructionSynchro"
+				Uuid="C26B8907-9331-4BDB-B30F-DC4103D54C49"
+				Type="Clob"
+				MultiValuated="No"
+				Protection="Internal"
+            >
+			<CAAComment>
+				<ShortRole>Defines Information For Instruction Synchronization</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Information For Instruction Synchronization Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+
+	<Extension Name="DELInfoForInstructionSynchroMBOMInstExt"
+			   Uuid="0B8E22CD-C154-4F53-A238-C635C5EE963C"
+			   ScopeNames="DELFmiFunctionInstance"
+			   CAAExposition="L1"
+			   Specializable="No"
+			   CustomerExposition="None"
+             >
+
+		<Simple Name="V_InfoForInstructionSynchro"
+				Uuid="E5CC6143-4337-4867-AEDC-FC0B51131091"
+				Type="Clob"
+				MultiValuated="No"
+				Protection="Internal"
+            >
+			<CAAComment>
+				<ShortRole>Defines Information For Instruction Synchronization on MBOM Instance</ShortRole>
+			</CAAComment>
+		</Simple>
+		<CAAComment>
+			<ShortRole>Information For Instruction Synchronization MBOM Instance Extension</ShortRole>
+		</CAAComment>
+	</Extension>
+
+</Package>
+
+
+
+
+

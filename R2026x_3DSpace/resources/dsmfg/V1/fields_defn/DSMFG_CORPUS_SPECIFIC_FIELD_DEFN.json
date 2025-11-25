@@ -1,0 +1,253 @@
+{
+	"dsmfg:ScopeEngItem.referencedObject.v1": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:PartialScopeEngItem.referencedObject.v1": {
+		"isReferencedObject": true,		
+		"isSingleValued": true
+	},
+	"dsmfg:instanceDetails.referencedObject": {
+		"isReferencedObject": true
+	},
+	"dsmfg:planningRequired": {
+		"conceptualName": "CreateAssembly.planningRequired, CreateKit.planningRequired, CreateMaterial.planningRequired, Provide.planningRequired, ElementaryEndItem.planningRequired, Installation.planningRequired, ProcessContinuousCreateMaterial.planningRequired, ProcessContinuousProvide.planningRequired, DetailedFasten.planningRequired, DELServiceAssemblyReference.planningRequired, DELServiceKitReference.planningRequired"
+	},
+	"dsmfg:outsourced": {
+		"conceptualName": "CreateAssembly.outsourced, CreateKit.outsourced, CreateMaterial.outsourced, Provide.outsourced, ElementaryEndItem.outsourced, Installation.outsourced, ProcessContinuousCreateMaterial.outsourced, ProcessContinuousProvide.outsourced"
+	},
+	"dsmfg:depthOfFeature": {
+		"conceptualName": "Drill.depthOfFeature, PreDrill.depthOfFeature",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:diameterOfFeature": {
+		"conceptualName": "Drill.diameterOfFeature, PreDrill.diameterOfFeature",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:estimatedCost": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.estimatedCost, DELFmiFunctionPPRContinuousReference.estimatedCost, DELFmiFunctionPPRAddReference.estimatedCost"
+	},
+	"dsmfg:estimatedCostCurrency": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.estimatedCostCurrency, DELFmiFunctionPPRContinuousReference.estimatedCostCurrency, DELFmiFunctionPPRAddReference.estimatedCostCurrency"
+	},
+	"dsmfg:estimatedLeadTimeDescription": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.estimatedLeadTimeDescription, DELFmiFunctionPPRContinuousReference.estimatedLeadTimeDescription, DELFmiFunctionPPRAddReference.estimatedLeadTimeDescription"
+	},
+	"dsmfg:estimatedWeight": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.estimatedWeight, DELFmiFunctionPPRContinuousReference.estimatedWeight, DELFmiFunctionPPRAddReference.estimatedWeight",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:manufacturedItemClassification": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.manufacturedItemClassification, DELFmiFunctionPPRContinuousReference.manufacturedItemClassification, DELFmiFunctionPPRAddReference.manufacturedItemClassification"
+	},
+	"dsmfg:materialCategory": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.materialCategory, DELFmiFunctionPPRContinuousReference.materialCategory, DELFmiFunctionPPRAddReference.materialCategory"
+	},
+	"dsmfg:spareManufacturedItem": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.spareManufacturedItem, DELFmiFunctionPPRContinuousReference.spareManufacturedItem, DELFmiFunctionPPRAddReference.spareManufacturedItem"
+	},
+	"dsmfg:targetReleaseDate": {
+		"conceptualName": "DELFmiFunctionPPRCreateReference.targetReleaseDate, DELFmiFunctionPPRContinuousReference.targetReleaseDate, DELFmiFunctionPPRAddReference.targetReleaseDate"
+	},
+	"dsmfg:estimatedTime": {
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:ServiceItem.estimatedMTTR": {
+		"conceptualName": "DELServiceAssemblyReference.estimatedMTTR, DELServicePartReference.estimatedMTTR, DELServiceAttachingItemReference.estimatedMTTR",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:ServiceItem.lifeLimit": {
+		"conceptualName": "DELServiceAssemblyReference.lifeLimit, DELServicePartReference.lifeLimit, DELContinuousServicePartReference.lifeLimit, DELServiceAttachingItemReference.lifeLimit",
+		"restrictQuantityFormat": true
+	},	
+	"dsmfg:ServiceItem.estimatedMTBUR": {
+		"conceptualName": "DELServiceAssemblyReference.estimatedMTBUR, DELServicePartReference.estimatedMTBUR, DELServiceAttachingItemReference.estimatedMTBUR",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:ServiceItem.estimatedMTBF": {
+		"conceptualName": "DELServiceAssemblyReference.estimatedMTBF, DELServicePartReference.estimatedMTBF, DELServiceAttachingItemReference.estimatedMTBF",
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:ResultingEngItem.referencedObject.v1": {
+		"isReferencedObject": true
+	},
+	"dsmfg:ResultingEngItems": {
+		"isReferencedObject": true
+	},
+	"dsmfg:MfgResponsibility.organizationRef": {
+		"transformationMethod": "com.dassault_systemes.enovia.xapps.dsmfg.V1.computed_properties.dsmfgComputedProperties.buildOrganizationRefObject"
+	},
+	"dsmfg:CreateAssemblyEnterpriseAttributes": {
+		"conceptualName": "CreateAssembly.dsmfg:CreateAssemblyEnterpriseAttributes"
+	},
+	"dsmfg:CreateKitEnterpriseAttributes": {
+		"conceptualName": "CreateKit.dsmfg:CreateKitEnterpriseAttributes"
+	},
+	"dsmfg:CreateMaterialEnterpriseAttributes": {
+		"conceptualName": "CreateMaterial.dsmfg:CreateMaterialEnterpriseAttributes"
+	},
+	"dsmfg:ProvideEnterpriseAttributes": {
+		"conceptualName": "Provide.dsmfg:ProvideEnterpriseAttributes"
+	},
+	"dsmfg:ElementaryEndItemEnterpriseAttributes": {
+		"conceptualName": "ElementaryEndItem.dsmfg:ElementaryEndItemEnterpriseAttributes"
+	},
+	"dsmfg:InstallationEnterpriseAttributes": {
+		"conceptualName": "Installation.dsmfg:InstallationEnterpriseAttributes"
+	},
+	"dsmfg:MarkingEnterpriseAttributes": {
+		"conceptualName": "Marking.dsmfg:MarkingEnterpriseAttributes"
+	},
+	"dsmfg:AnnotationEnterpriseAttributes": {
+		"conceptualName": "Annotation.dsmfg:AnnotationEnterpriseAttributes"
+	},
+	"dsmfg:TransformEnterpriseAttributes": {
+		"conceptualName": "Transform.dsmfg:TransformEnterpriseAttributes"
+	},
+	"dsmfg:MachineEnterpriseAttributes": {
+		"conceptualName": "Machine.dsmfg:MachineEnterpriseAttributes"
+	},
+	"dsmfg:BevelingEnterpriseAttributes": {
+		"conceptualName": "Beveling.dsmfg:BevelingEnterpriseAttributes"
+	},
+	"dsmfg:CuttingEnterpriseAttributes": {
+		"conceptualName": "Cutting.dsmfg:CuttingEnterpriseAttributes"
+	},
+	"dsmfg:GrindingEnterpriseAttributes": {
+		"conceptualName": "Grinding.dsmfg:GrindingEnterpriseAttributes"
+	},
+	"dsmfg:NoDrillEnterpriseAttributes": {
+		"conceptualName": "NoDrill.dsmfg:NoDrillEnterpriseAttributes"
+	},
+	"dsmfg:DrillEnterpriseAttributes": {
+		"conceptualName": "Drill.dsmfg:DrillEnterpriseAttributes"
+	},
+	"dsmfg:PreDrillEnterpriseAttributes": {
+		"conceptualName": "PreDrill.dsmfg:PreDrillEnterpriseAttributes"
+	},
+	"dsmfg:UnfastenEnterpriseAttributes": {
+		"conceptualName": "Unfasten.dsmfg:UnfastenEnterpriseAttributes"
+	},
+	"dsmfg:FastenEnterpriseAttributes": {
+		"conceptualName": "Fasten.dsmfg:FastenEnterpriseAttributes"
+	},
+	"dsmfg:DetailedFastenEnterpriseAttributes": {
+		"conceptualName": "DetailedFasten.dsmfg:DetailedFastenEnterpriseAttributes"
+	},
+	"dsmfg:SplitProcessEnterpriseAttributes": {
+		"conceptualName": "SplitProcess.dsmfg:SplitProcessEnterpriseAttributes"
+	},
+	"dsmfg:ProcessContinuousCreateMaterialEnterpriseAttributes": {
+		"conceptualName": "ProcessContinuousCreateMaterial.dsmfg:ProcessContinuousCreateMaterialEnterpriseAttributes"
+	},
+	"dsmfg:ProcessContinuousProvideEnterpriseAttributes": {
+		"conceptualName": "ProcessContinuousProvide.dsmfg:ProcessContinuousProvideEnterpriseAttributes"
+	},
+	"dsmfg:ServiceItemEnterpriseAttributes": {
+		"conceptualName": "DELFmiFunctionPPRServiceCreateReference.dsmfg:ServiceItemEnterpriseAttributes"
+	},
+	"dsmfg:ServiceAssemblyEnterpriseAttributes": {
+		"conceptualName": "DELServiceAssemblyReference.dsmfg:ServiceAssemblyEnterpriseAttributes"
+	},
+	"dsmfg:ServicePartEnterpriseAttributes": {
+		"conceptualName": "DELServicePartReference.dsmfg:ServicePartEnterpriseAttributes"
+	},
+	"dsmfg:ServiceKitEnterpriseAttributes": {
+		"conceptualName": "DELServiceKitReference.dsmfg:ServiceKitEnterpriseAttributes"
+	},
+	"dsmfg:ContinuousServiceItemEnterpriseAttributes": {
+		"conceptualName": "DELFmiFunctionServiceContinuousReference.dsmfg:ContinuousServiceItemEnterpriseAttributes"
+	},
+	"dsmfg:ContinuousServicePartEnterpriseAttributes": {
+		"conceptualName": "DELContinuousServicePartReference.dsmfg:ContinuousServicePartEnterpriseAttributes"
+	},
+	"dsmfg:Origin.originItem": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:parentObject": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:itemRef": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:engRef": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:specifiedOccurrence": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsmfg:instanceObject": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid",
+		"isSingleValued": true
+	},
+	"dsmfg:Substitute.instanceObject": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid",
+		"isSingleValued": true
+	},
+	"dsmfg:Substitute.referencedObject": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:Alternate.alternateItem": {
+		"isReferencedObject": true
+	},
+	"dsmfg:Alternate.sourceItem": {
+		"isReferencedObject": true
+	},
+	"dsmfg:AssignmentFilter.referencedObjects": {
+		"isReferencedObject": true,
+		"3dspaceParentPaths": "from.physicalid",
+		"indexParentPaths": "from.physicalid"
+	},
+	"dsmfg:sharedDatesInformation": {
+		"groupedAttributes": [{"key":"actualEndDate"}, {"key":"actualStartDate"}, {"key":"maturityState"}, {"key":"plannedEndDate"}, {"key":"plannedStartDate"}]
+	},
+	"dsmfg:drillFitTolerenceInfo": {
+		"groupedAttributes": [{"key":"diameterDeltaMax"},{"key":"diameterDeltaMin"}]
+	},
+	"dsmfg:drillThreadInfo": {
+		"groupedAttributes": [{"key":"depth"},{"key":"diameter"},{"key":"pitch"},{"key":"side"}]
+	},
+	"dsmfg:drillVBottomInfo": {
+		"groupedAttributes": [{"key":"angle"}]
+	},
+	"dsmfg:drillHoleExtraFeatureInfo": {
+		"groupedAttributes": [{"key":"entryHoleExtraFeatureDimension"},{"key":"entryHoleExtraFeatureType"}]
+	},
+	"dsmfg:drillCategoryInfo": {
+		"groupedAttributes": [{"key":"drillCategory"},{"key":"depth"},{"key":"diameter"},{"key":"angle"},{"key":"anchorPoint"},
+		{"key":"mode"},{"key":"sunkDiameter"}]
+	},
+	"dsmfg:DTPFExt": {
+		"groupedAttributes": [{"key":"boringCode"},{"key":"drillDiametersDeltaMax"},{"key":"drillDiametersDeltaMin"},{"key":"drillDiametersNominal"},{"key":"filletRadius"},{"key":"drillingStandard"},{"key":"chamferAngle"},{"key":"chamferLength"},{"key":"tightness"}]
+	},
+	"dsmfg:TorqueExt": {
+		"groupedAttributes": [{"key":"torqueApplicationSide"},{"key":"torqueCode"},{"key":"torqueDeltaMax"},{"key":"torqueDeltaMaxTail"},{"key":"torqueDeltaMin"},{"key":"torqueDeltaMinTail"},{"key":"torqueNominal"},{"key":"torqueNominalTail"},{"key":"torqueStandard"}]
+	},
+	"dsmfg:EntryHoleExt": {
+		"groupedAttributes": [{"key":"counterDrillDepth"},{"key":"counterDrillDiameter"},{"key":"entryHoleType"},{"key":"entryHoleDepth"},{"key":"subFlush"},{"key":"entryHoleCounterboreDiameter"},{"key":"entryHoleCountersunkAngle"}]
+	},
+	"dsmfg:InstallationOrientationConstraintExt": {
+		"groupedAttributes": [{"key":"headOrientation"}]
+	},
+	"dsmfg:program.getPrimaryCapableResource": {
+		"isReferencedObject": true,
+		"isSingleValued": true
+	},
+	"dsmfg:MfgItemInstance.lossQuantity": {
+		"restrictQuantityFormat": true
+	},
+	"dsmfg:MfgItemInstance.contQuantity": {
+		"restrictQuantityFormat": true
+	}
+}

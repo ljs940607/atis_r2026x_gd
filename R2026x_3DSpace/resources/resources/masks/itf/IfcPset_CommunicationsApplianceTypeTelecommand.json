@@ -1,0 +1,9 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeTelecommand_NumberOfCPUs",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

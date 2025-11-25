@@ -1,0 +1,11 @@
+ {
+  "description": "Payload for Engineering Note Template modification",
+  "type": "object",
+  "properties": {
+    "title": { "$ref": "#/components/schemas/title" },
+    "description": {"$ref": "#/components/schemas/description"},
+    "entries":{"$ref": "#/components/schemas/noteTemplateEntries"},
+    "cestamp": { "$ref": "#/components/schemas/cestamp" }
+  }
+}
+

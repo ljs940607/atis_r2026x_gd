@@ -1,0 +1,12 @@
+{
+	"service"        : "3DSpace",
+	"domainInstance" : "Document",
+	"description"    : "The domain instance document is set to be available in 3DSpace",
+	"packages"       : [
+		"Document",
+		"OfficeDocPackage",
+		"PLMDmtDocument",
+		"TechnicalSpecification",
+		"Specification Report"
+	]
+}

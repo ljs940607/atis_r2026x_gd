@@ -1,0 +1,113 @@
+{
+    "fetch": {
+        "max": 1000,
+        "indexdbkindtag"       : "mxobjecttype",
+        "indextaxonomytag"     : "taxonomies",
+        "indexphysicalidtag"   : "resourceid",
+        "indexphysicaltypetag" : "type",
+        "physicalidexpression" : "(b|r):([A-Za-z0-9-]{32})$",
+        "selectables": [
+            {
+            	"key": "ds6w:label",
+                "index": "ds6w:label",
+                "db": [
+                    "title",
+                    "PLMEntity.V_Name",
+                    "name",
+                    "attribute[Title]",
+                    "attribute[PLMEntity.V_Name]"
+                ],
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:identifier",
+                "index": "physicalid",
+                "db": [
+                    "physicalid",
+                    "PLMEntity.PLM_ExternalID"
+                ],
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:type",
+                "index": "type",
+                "db": [
+                    "type"
+                ],
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:description",
+                "index": "ds6w:description",
+                "db": [
+                    "PLMEntity.V_description",
+                    "description",
+                    "attribute[PLMEntity.V_description]"
+                ],
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:responsible",
+                "index": "ds6w:responsible",
+                "db": [
+                    "owner"
+                ],
+                "dbconvert": "fullname",
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:created",
+                "index": "ds6w:created",
+                "db": [
+                    "originated.generic"
+                ],
+                "dbconvert": "dateutc",
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:modified",
+                "index": "ds6w:modified",
+                "db": [
+                    "modified.generic"
+                ],
+                "dbconvert": "dateutc",
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:dataSource",
+                "index": "ds6w:dataSource",
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:icon",
+                "index": "type_icon_url",
+                "optional":true,
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:previewURL",
+                "index": "preview_url",
+                "optional":true,
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:revision",
+                "index": "revision",
+                "db": [
+                    "revision"
+                ],
+                "optional":true,
+                "ispublic":true
+            },
+            {
+            	"key": "ds6w:maturity",
+                "index": "current",
+                "db": [
+                    "current"
+                ],
+                "optional":true,
+                "ispublic":true
+            }
+        ]
+    }
+}

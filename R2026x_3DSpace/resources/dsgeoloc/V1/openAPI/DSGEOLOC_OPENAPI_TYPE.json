@@ -1,0 +1,10 @@
+{
+    "dsgeoloc:Geolocation": {
+        "summary": "Geolocation",
+        "description": "Geolocation",
+        "PUBLICMasks": ["dsmvgeoloc:GeolocMask.Default"],
+        "PROTECTEDMasks": [],
+        "PRIVATEMasks": [],
+        "PUBLICFields": []
+    }
+}

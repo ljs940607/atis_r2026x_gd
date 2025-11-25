@@ -1,0 +1,16 @@
+#Prog AnalyticsCaseExport( iPLMIDSet : #In PLMIDSet, oPLMIDSet : #Out PLMIDSet ) : VoidType
+{
+  let AnalyticsRelationContentRoute(PLMRouteSet)
+  let AnalyticsRelationContentSet(PLMIDSet)
+  
+  let SimulationTemplateContentSet(PLMIDSet)
+  
+ /* get Approximation and Simulation Templates from Analytics Case */
+ AnalyticsRelationContentRoute = ExecutePLMFunction("AnalyticsCaseExpand", iPLMIDSet) 
+ AnalyticsRelationContentSet = Ids(AnalyticsRelationContentRoute)
+ 
+ /* calling Simulation template Procedure*/
+ SimulationTemplateContentSet = ExecutePLMProcedure("SimulationTemplateExport", Restrict(AnalyticsRelationContentSet,"Class/Simulation Template"))
+
+ oPLMIDSet = AnalyticsRelationContentSet + SimulationTemplateContentSet
+}

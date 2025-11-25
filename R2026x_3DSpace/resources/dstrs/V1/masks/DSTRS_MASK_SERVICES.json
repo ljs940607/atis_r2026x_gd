@@ -1,0 +1,34 @@
+{
+	"dstrs:TranslationMask.Default": [
+ 		"dsmveno:basic.id",
+ 		"dstrs:basic.name",
+ 		"dstrs:basic.description",
+ 		"dsmveno:basic.owner.public",
+		"dsmveno:basic.organization",
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.type.public",		
+		"dsmveno:basic.collabspace",
+		"dsmveno:basic.organization",
+        "dsmveno:basic.revision",
+        "dsmveno:basic.state.public",
+		"dsmveno:basic.created.utc",
+		"dsmveno:basic.modified.utc",
+		"dstrs:languageId"   
+	],
+	"dstrs:TranslationMask.Details": [
+		{
+			"property": "reuseMask",
+			"mask": "dstrs:TranslationMask.Default"
+		},
+		"dstrs:translationDetails"
+	],
+	"dstrs:Translation.LocateMask": [
+		{
+			"property": "reuseMask",
+			"mask": "dstrs:TranslationMask.Default"
+		}     		
+	],
+	"dstrs:LanguageMask.Default": [
+    		
+	]			
+}

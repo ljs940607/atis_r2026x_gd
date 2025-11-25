@@ -1,0 +1,49 @@
+{
+  "templates": [
+    {
+      "Name": "Service Process Compare Profile",
+      "NLSPath": "i18n!DS/CompareCommon/assets/nls/CompareCustomization",
+      "Facets": [
+        {
+          "Name": "Service_Process_Types",
+          "ObjectTypes": [
+            "DELLmiServiceWorkPlanSystemReference",
+            "DELLmiServiceWorkPlanOperationalReference",
+            "DELLmiServiceHeaderWorkPlanReference",
+            "DELLmiHeaderOperationReference",
+            "DELLmiGeneralOperationReference",
+            "DELLmiLoadingOperationReference", 
+            "DELLmiUnloadingOperationReference", 
+            "DELWkiDataCollectPlanReference",
+            "DELResourceParameterPlanReference",
+            "DELWkiDataCollectChecklistReference",
+            "DELWkiSignOffReference",
+            "DELWkiAlertReference",
+            "DELWkiAlertWarningReference",
+            "DELWkiAlertCautionReference",
+            "DELWkiAlertNoteReference",
+            "DELWkiInstructionReference"
+          ],
+          "Interfaces":  [],
+          "Icon": "service"
+        },
+        {
+          "Name": "Service_Process_Instances",
+          "ObjectTypes": [
+              "DELLmiWorkPlanSystemInstance",
+              "DELLmiHeaderOperationInstance",
+              "DELLmiGeneralOperationInstance",
+              "DELWkiDataCollectPlanInstance",
+              "DELResourceParameterPlanInstance",
+              "DELWkiSignOffInstance",
+              "DELWkiAlertInstance",
+              "DELWkiInstructionInstance"
+            ],
+          "Interfaces":  [],
+          "Icon": "flow-cascade"
+        }
+      ],
+      "AllowCustomMatchingRules": true
+    }
+  ]
+}

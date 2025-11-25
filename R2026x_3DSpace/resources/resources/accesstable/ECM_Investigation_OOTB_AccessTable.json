@@ -1,0 +1,580 @@
+[
+	{
+		"experience": "ECM_Investigation_OOTB_AccessTable",
+		"accessTree": {
+			"nodes": [
+				{
+					"id": 1,
+					"name": "CREATE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "DELETE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "EDIT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "CANCEL",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "COORDINATOR_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "ASSIGNEE_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "FOLLOWER_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "REPORTED_AGAINST_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "FIXED_IN_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "INTRODUCED_IN_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "SCOPE_ANALYSIS_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "PROMOTE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "DEMOTE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_CLOSE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "MOVE",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_CLOSE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "MANAGE_ISSUES",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "REQUEST_CLARIFICATION",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "PROVIDE_CLARIFICATION",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "MANAGE_ATTACHMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "DISPOSITION_MANAGEMENT",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "COORDINATOR"
+								},
+								{
+									"id": 3,
+									"name": "ASSIGNEE"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "COMMENT"
+				},
+				{
+					"id": 1,
+					"name": "CONTRIBUTOR_MANAGEMENT"
+				},
+				{
+					"id": 1,
+					"name": "TRANSFER_OWNERSHIP",
+					"nodes": [
+						{
+							"id": 2,
+							"name": "STATE_OPEN",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_IN_WORK",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "STATE_CLOSE",
+							"nodes": [
+								{
+									"id": 3,
+									"name": "OWNER"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"columns": [
+			{
+				"id": 1,
+				"values": [
+					"CREATE",
+					"DELETE",
+					"EDIT",
+					"COORDINATOR_MANAGEMENT",
+					"CONTRIBUTOR_MANAGEMENT",
+					"ASSIGNEE_MANAGEMENT",
+					"FOLLOWER_MANAGEMENT",
+					"REPORTED_AGAINST_MANAGEMENT",
+					"INTRODUCED_IN_MANAGEMENT",
+					"FIXED_IN_MANAGEMENT",
+					"SCOPE_ANALYSIS_MANAGEMENT",
+					"DISPOSITION_MANAGEMENT",
+					"PROMOTE",
+					"DEMOTE",
+					"MOVE",
+					"MANAGE_ATTACHMENT",
+					"COMMENT",
+					"MANAGE_ISSUES",
+					"CANCEL",
+					"TRANSFER_OWNERSHIP",
+					"REQUEST_CLARIFICATION",
+					"PROVIDE_CLARIFICATION"
+				]
+			},
+			{
+				"id": 2,
+				"values": [
+					"STATE_OPEN",
+					"STATE_IN_WORK",
+					"STATE_CLOSE"
+				]
+			},
+			{
+				"id": 3,
+				"values": [
+					"ADMIN",
+					"OWNER",
+					"COORDINATOR",
+					"ASSIGNEE",
+					"CONTRIBUTOR",
+					"FOLLOWER",
+					"NA"
+				]
+			}
+		]
+	}
+]

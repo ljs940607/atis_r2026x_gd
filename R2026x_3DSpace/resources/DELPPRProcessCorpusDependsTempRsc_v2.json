@@ -1,0 +1,43 @@
+[
+	{
+		"ParsingVersion": "2.0",
+		"DeclarativeTypes": [
+			{
+				"ConceptualName": "dsreq:Requirement",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "Requirement",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+			{
+				"ConceptualName": "dsreq:RequirementSpecification",
+				"ModelerMapping": [
+					{
+						"Modeler": "_3DSpaceDB",
+						"Mapping": "Requirement Specification",
+						"Behavior": "REFERENCE"
+					}
+				]
+			},
+            {
+                "ConceptualName": "dsprcs:DocRepReference",
+                "ParentType": "PLMCoreRepReference",
+                "ModelerMapping": [
+                    {
+                        "Modeler": "_3DSpaceDB",
+                        "Mapping": "DELLmiDocRepReference",
+                        "Behavior": "REFERENCE"
+                    },
+                    {
+                        "Modeler": "_Index",
+                        "Mapping": "DELLmiDocRepReference",
+                        "Behavior": "REFERENCE"
+                    }
+                ]
+            }
+		]
+	}
+]

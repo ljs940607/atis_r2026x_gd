@@ -1,0 +1,17 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_MarineFacilityTransportation_Berths",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarineFacilityTransportation_BerthGrade",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_MarineFacilityTransportation_BerthCargoWeight",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}

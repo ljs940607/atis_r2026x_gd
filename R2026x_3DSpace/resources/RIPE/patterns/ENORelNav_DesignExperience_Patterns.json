@@ -1,0 +1,32 @@
+{
+	"relations": [
+		{
+      "name": "dsexp_ContextAsset_from",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "574", "semantics": "1"}, "direction": "from"}]}
+			]
+		},
+				{
+      "name": "dsexp_ContextAsset_to",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "574", "semantics": "1"}, "direction": "to"}]}
+			]
+		},
+    {
+      "name": "dsexp_WIPAsset_from",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "575", "semantics": "1"}, "direction": "from"}]}
+			]
+        },
+	    {
+      "name": "dsexp_WIPAsset_to",
+			"queries": [
+				{ "definition": [
+					{"navigationType": "SR", "qualityFilter": {"role": "575", "semantics": "1"}, "direction": "to"}]}
+			]
+        }
+  ]
+}

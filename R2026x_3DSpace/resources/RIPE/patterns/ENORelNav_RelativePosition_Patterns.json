@@ -1,0 +1,70 @@
+{
+    "relations": [
+        {
+            "name": "positioningArch_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PositioningArch"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "positioningArch_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "relation",
+                            "qualityFilter": {
+                                "rel_type": "PositioningArch"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "positioningSpec_to",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "569",
+                                "semantics": "4"
+                            },
+                            "direction": "to"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "positioningSpec_from",
+            "queries": [
+                {
+                    "definition": [
+                        {
+                            "navigationType": "SR",
+                            "qualityFilter": {
+                                "role": "569",
+                                "semantics": "4"
+                            },
+                            "direction": "from"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

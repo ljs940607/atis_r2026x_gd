@@ -1,0 +1,13 @@
+{
+    "Write": {"attributes": [
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeModem_CommonInterfaceType",
+            "status": "RW"
+        },
+        {
+            "name": "IfcPset_CommunicationsApplianceTypeModem_TrafficInterfaceType",
+            "status": "RW"
+        }
+    ]},
+    "revision": "0"
+}
